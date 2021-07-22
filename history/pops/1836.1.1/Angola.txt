@@ -1,0 +1,757 @@
+#Angola : Angola (464000)
+#Ruled by Portugal in 1836
+#Luanda (164000/41000 POPS)
+1999 = {
+    aristocrats = {
+        culture = portuguese
+        religion = catholic
+        size = 150
+    }
+
+    clergymen = {
+        culture = portuguese
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = portuguese
+        religion = catholic
+        size = 500
+    }
+
+    soldiers = {
+        culture = portuguese
+        religion = catholic
+        size = 100
+    }
+
+    aristocrats = {
+      		culture = c_african
+        religion = catholic
+        size = 50
+    }
+
+    clergymen = {
+      		culture = c_african
+        religion = catholic
+        size = 150
+    }
+
+    artisans = {
+      		culture = c_african
+        religion = catholic
+        size = 3000
+    }
+
+    soldiers = {
+      		culture = c_african
+        religion = catholic
+        size = 1100
+    }
+
+    farmers = {
+      		culture = c_african
+        religion = catholic
+        size = 10800
+    }
+
+    aristocrats = {
+      		culture = c_african
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+      		culture = c_african
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+      		culture = c_african
+        religion = animist
+        size = 500
+    }
+
+    farmers = {
+      		culture = c_african
+        religion = animist
+        size = 40200
+    }
+
+    slaves = {
+      		culture = c_african
+        religion = animist
+        size = 2000
+    }
+
+    aristocrats = {
+       		culture = s_african
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+       		culture = s_african
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+       		culture = s_african
+        religion = animist
+        size = 100
+    }
+
+    soldiers = {
+       		culture = s_african
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+       		culture = s_african
+        religion = animist
+        size = 8600
+    }
+
+    slaves = {
+       		culture = s_african
+        religion = animist
+        size = 2000
+    }
+}
+#uncolonized in 1836
+#2001 - Mbanza (180000/45000 POPS)
+2001 = {
+    aristocrats = {
+      		culture = c_african
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+      		culture = c_african
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+      		culture = c_african
+        religion = catholic
+        size = 400
+    }
+
+    soldiers = {
+      		culture = c_african
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+      		culture = c_african
+        religion = catholic
+        size = 7350
+    }
+
+    aristocrats = {
+      		culture = c_african
+        religion = animist
+        size = 200
+    }
+
+    clergymen = {
+      		culture = c_african
+        religion = animist
+        size = 150
+    }
+
+    artisans = {
+      		culture = c_african
+        religion = animist
+        size = 1100
+    }
+
+    soldiers = {
+      		culture = c_african
+        religion = animist
+        size = 1200
+    }
+
+    farmers = {
+      		culture = c_african
+        religion = animist
+        size = 12450
+    }
+
+    slaves = {
+      		culture = c_african
+        religion = animist
+        size = 4000
+    }
+
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 200
+    }
+
+    clergymen = {
+        culture = c_african
+        religion = animist
+        size = 150
+    }
+
+    artisans = {
+        culture = c_african
+        religion = animist
+        size = 700
+    }
+
+    soldiers = {
+        culture = c_african
+        religion = animist
+        size = 200
+    }
+
+    farmers = {
+        culture = c_african
+        religion = animist
+        size = 13250
+    }
+
+    slaves = {
+        culture = c_african
+        religion = animist
+        size = 3500
+    }
+}
+#Quibala (120000/30000 POPS)
+2002 = {
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 300
+    }
+
+    clergymen = {
+        culture = c_african
+        religion = animist
+        size = 250
+    }
+
+    artisans = {
+        culture = c_african
+        religion = animist
+        size = 1200
+    }
+
+    soldiers = {
+        culture = c_african
+        religion = animist
+        size = 300
+    }
+
+    farmers = {
+        culture = c_african
+        religion = animist
+        size = 21950
+    }
+
+    slaves = {
+    culture = c_african
+        religion = animist
+        size = 6000
+    }
+}
+#Congo Region (116000) #see Congo-Zaire.txt for balance of region
+#uncolonized in 1836/tradepost for Portugal
+#Cabinda (116000/29000 POPS)
+2000 = {
+    aristocrats = {
+      		culture = c_african
+        religion = animist
+        size = 123
+    }
+
+    clergymen = {
+      		culture = c_african
+        religion = animist
+        size = 73
+    }
+
+    artisans = {
+      		culture = c_african
+        religion = animist
+        size = 348
+    }
+
+    soldiers = {
+      		culture = c_african
+        religion = animist
+        size = 73
+    }
+
+    farmers = {
+      		culture = c_african
+        religion = animist
+        size = 6357
+    }
+
+    slaves = {
+      		culture = c_african
+        religion = animist
+        size = 4987
+    }
+
+    aristocrats = {
+      		culture = c_african
+        religion = catholic
+        size = 422
+    }
+
+    clergymen = {
+      		culture = c_african
+        religion = catholic
+        size = 223
+    }
+
+    artisans = {
+      		culture = c_african
+        religion = catholic
+        size = 897
+    }
+
+    soldiers = {
+      		culture = c_african
+        religion = catholic
+        size = 223
+    }
+
+    farmers = {
+      		culture = c_african
+        religion = catholic
+        size = 15185
+    }
+}
+#Angola - Mbundu (440000)
+#Uncolonized in 1836
+#Benguela (116000/29000 POPS)
+2003 = {
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 300
+    }
+
+    clergymen = {
+        culture = c_african
+        religion = animist
+        size = 300
+    }
+
+    artisans = {
+        culture = c_african
+        religion = animist
+        size = 1500
+    }
+
+    soldiers = {
+        culture = c_african
+        religion = animist
+        size = 1100
+    }
+
+    farmers = {
+        culture = c_african
+        religion = animist
+        size = 20000
+    }
+
+    slaves = {
+        culture = c_african
+        religion = animist
+        size = 5800
+    }
+}
+#Mocamedes (116000/29000 POPS)
+2004 = {
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 300
+    }
+
+    clergymen = {
+        culture = c_african
+        religion = animist
+        size = 600
+    }
+
+    artisans = {
+        culture = c_african
+        religion = animist
+        size = 750
+    }
+
+    soldiers = {
+        culture = c_african
+        religion = animist
+        size = 300
+    }
+
+    farmers = {
+        culture = c_african
+        religion = animist
+        size = 21250
+    }
+
+    slaves = {
+        culture = c_african
+        religion = animist
+        size = 5800
+    }
+}
+#Huambo (208000/52000 POPS)
+2005 = {
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 600
+    }
+
+    clergymen = {
+        culture = c_african
+        religion = animist
+        size = 550
+    }
+
+    artisans = {
+        culture = c_african
+        religion = animist
+        size = 2600
+    }
+
+    soldiers = {
+        culture = c_african
+        religion = animist
+        size = 600
+    }
+
+    farmers = {
+        culture = c_african
+        religion = animist
+        size = 36650
+    }
+
+    slaves = {
+        culture = c_african
+        religion = animist
+        size = 10000
+    }
+}
+#Angola - Bihe (264000)
+#Uncolonized in 1836
+#Kuito (148000/37000 POPS)
+2006 = {
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 350
+    }
+
+    clergymen = {
+        culture = c_african
+        religion = animist
+        size = 350
+    }
+
+    artisans = {
+        culture = c_african
+        religion = animist
+        size = 1800
+    }
+
+    soldiers = {
+        culture = c_african
+        religion = animist
+        size = 400
+    }
+
+    farmers = {
+        culture = c_african
+        religion = animist
+        size = 26700
+    }
+
+    slaves = {
+        culture = c_african
+        religion = animist
+        size = 7500
+    }
+}
+#Mavinga (80000/20000 POPS)
+2007 = {
+    aristocrats = {
+      		culture = c_african
+        religion = animist
+        size = 50
+    }
+
+    clergymen = {
+      		culture = c_african
+        religion = animist
+        size = 75
+    }
+
+    artisans = {
+      		culture = c_african
+        religion = animist
+        size = 75
+    }
+
+    soldiers = {
+      		culture = c_african
+        religion = animist
+        size = 50
+    }
+
+    farmers = {
+      		culture = c_african
+        religion = animist
+        size = 2400
+    }
+
+    slaves = {
+      		culture = c_african
+        religion = animist
+        size = 4550
+    }
+
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 175
+    }
+
+    clergymen = {
+        culture = c_african
+        religion = animist
+        size = 175
+    }
+
+    artisans = {
+        culture = c_african
+        religion = animist
+        size = 800
+    }
+
+    soldiers = {
+        culture = c_african
+        religion = animist
+        size = 200
+    }
+
+    farmers = {
+        culture = c_african
+        religion = animist
+        size = 11450
+    }
+}
+#Ondjiva (36000/9000 POPS)
+2008 = {
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 80
+    }
+
+    clergymen = {
+        culture = c_african
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = c_african
+        religion = animist
+        size = 3705
+    }
+
+    soldiers = {
+        culture = c_african
+        religion = animist
+        size = 105
+    }
+
+    farmers = {
+        culture = c_african
+        religion = animist
+        size = 3150
+    }
+
+    slaves = {
+        culture = c_african
+        religion = animist
+        size = 600
+    }
+
+    slaves = {
+        culture = c_african
+        religion = animist
+        size = 1250
+    }
+}
+#Angola - Kwango (232000)
+#Uncolonized in 1836
+#Malanje (44000/11000 POPS)
+2009 = {
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 105
+    }
+
+    clergymen = {
+        culture = c_african
+        religion = animist
+        size = 110
+    }
+
+    artisans = {
+        culture = c_african
+        religion = animist
+        size = 325
+    }
+
+    soldiers = {
+        culture = c_african
+        religion = animist
+        size = 135
+    }
+
+    farmers = {
+        culture = c_african
+        religion = animist
+        size = 6525
+    }
+
+    slaves = {
+        culture = c_african
+        religion = animist
+        size = 1800
+    }
+
+    aristocrats = {
+        culture = c_african
+        religion = animist
+        size = 25
+    }
+
+    clergymen = {
+      	culture = c_african
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+      	culture = c_african
+        religion = animist
+        size = 100
+    }
+
+    soldiers = {
+      	culture = c_african
+        religion = animist
+        size = 25
+    }
+
+    farmers = {
+      	culture = c_african
+        religion = animist
+        size = 1400
+    }
+
+    slaves = {
+      	culture = c_african
+        religion = animist
+        size = 400
+    }
+}
+#Saurimo (112000/28000 POPS)
+2010 = {
+    aristocrats = {
+      	culture = c_african
+        religion = animist
+        size = 300
+    }
+
+    clergymen = {
+      	culture = c_african
+        religion = animist
+        size = 300
+    }
+
+    artisans = {
+      	culture = c_african
+        religion = animist
+        size = 1450
+    }
+
+    soldiers = {
+      		culture = c_african
+        religion = animist
+        size = 300
+    }
+
+    farmers = {
+      		culture = c_african
+        religion = animist
+        size = 22850
+    }
+
+    slaves = {
+       		culture = s_african
+        religion = animist
+        size = 4800
+    }
+}
+#Kubanda (76000/19000 POPS)
+2011 = {
+    aristocrats = {
+      		culture = c_african
+        religion = animist
+        size = 200
+    }
+
+    clergymen = {
+      		culture = c_african
+        religion = animist
+        size = 175
+    }
+
+    artisans = {
+      		culture = c_african
+        religion = animist
+        size = 1000
+    }
+
+    soldiers = {
+      		culture = c_african
+        religion = animist
+        size = 200
+    }
+
+    farmers = {
+      		culture = c_african
+        religion = animist
+        size = 16425
+    }
+
+    slaves = {
+       		culture = s_african
+        religion = animist
+        size = 1100
+    }
+}

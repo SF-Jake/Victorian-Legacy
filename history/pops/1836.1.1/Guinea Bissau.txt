@@ -1,0 +1,187 @@
+#Casamance Region (108000) #see Senegal.txt and Guinea.txt for balance of region
+#Uncolonized in 1836/Portuguese trade post
+#Bissau (32000/8000 POPS)
+1877 = {
+    clergymen = {
+        culture = portuguese
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = portuguese
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = portuguese
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = portuguese
+        religion = catholic
+        size = 100
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = catholic
+        size = 100
+    }
+
+    officers = {
+        culture = w_african
+        religion = catholic
+        size = 100
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = w_african
+        religion = catholic
+        size = 375
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = w_african
+        religion = catholic
+        size = 5300
+    }
+
+    slaves = {
+        culture = w_african
+        religion = animist
+        size = 2000
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = animist
+        size = 300
+    }
+
+    officers = {
+        culture = w_african
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = w_african
+        religion = animist
+        size = 1000
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = animist
+        size = 3000
+    }
+
+    farmers = {
+        culture = w_african
+        religion = animist
+        size = 12048
+    }
+}
+#under the rule of Gabu in 1836
+#Gabu (152000/38000 POPS)
+1878 = {
+    aristocrats = {
+        culture = w_african
+        religion = sunni
+        size = 498
+    }
+
+    bureaucrats = {
+        culture = w_african
+        religion = sunni
+        size = 99
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = sunni
+        size = 99
+    }
+
+    artisans = {
+        culture = w_african
+        religion = sunni
+        size = 997
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = sunni
+        size = 2194
+    }
+
+    farmers = {
+        culture = w_african
+        religion = sunni
+        size = 3758
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = sunni
+        size = 399
+    }
+
+    bureaucrats = {
+        culture = w_african
+        religion = sunni
+        size = 99
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = sunni
+        size = 99
+    }
+
+    artisans = {
+        culture = w_african
+        religion = sunni
+        size = 997
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = sunni
+        size = 1197
+    }
+
+    farmers = {
+        culture = w_african
+        religion = sunni
+        size = 11100
+    }
+
+    slaves = {
+        culture = w_african
+        religion = animist
+        size = 1995
+    }
+}
