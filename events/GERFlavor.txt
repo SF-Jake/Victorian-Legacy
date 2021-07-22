@@ -658,3 +658,35 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = 33010
+	title = "German Population buff"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAN
+		exists = NGF
+		NGF = { NOT = { has_country_modifier = german_population_buff } }
+	}
+
+	option = {
+		NGF = { add_country_modifier = { name = german_population_buff duration = -1 } }
+	}
+}
+country_event = {
+	id = 33011
+	title = "German Population buff"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAN
+		exists = GER
+		GER = { NOT = { has_country_modifier = german_population_buff } }
+	}
+
+	option = {
+		GER = { add_country_modifier = { name = german_population_buff duration = -1 } }
+	}
+}
