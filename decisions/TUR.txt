@@ -286,7 +286,8 @@ political_decisions = {
 			}
 		}
 	}
-	accept_the_egyptians = {
+	accept_the_mashriqi = {
+		picture = turkestan
 		potential = {
 			tag = TUR
 			NOT = { exists = EGY }
