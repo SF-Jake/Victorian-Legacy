@@ -795,7 +795,7 @@ political_decisions = {
 
 	}
 	
-			japanese_high_command = {
+		japanese_high_command = {
 		picture = japanese_general_staff
 		potential = {
 			NOT = { has_country_modifier = japanese_high_command }
@@ -825,5 +825,28 @@ political_decisions = {
 		}
 
 
+	}
+	#########################################################################
+	# 						5 year Migration Attraction						#
+	#########################################################################
+	5_year_migration_attraction = {
+		picture = attract_immigrants
+		potential = {
+			ai = no
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+			NOT = { has_country_modifier = 5_year_migration_cooldown }
+		}
+
+		allow = {
+			money = 500000
+		}
+		effect = {
+			money = -500000
+			add_country_modifier = { name = 5_year_migration_cooldown duration = 2920 }
+			add_country_modifier = { name = 5_year_migration duration = 1825 }
+		}
 	}
 }

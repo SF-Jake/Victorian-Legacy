@@ -646,6 +646,14 @@ recently_purchased_warship = {
 	icon = 16
 }
 
+5_year_migration_cooldown = {
+	icon = 18
+}
+
+5_year_migration = {
+	global_immigrant_attract = 10
+	icon = 17
+}
 ########## PROVINCE SELECTOR DECISIONS ##########
 
 supply_depot = {
