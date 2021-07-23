@@ -482,4 +482,38 @@ political_decisions = {
 			}
 		}
 	}
+	become_a_republic = {
+		potential = {
+			NOT = { has_country_flag = become_a_republic }
+			OR = {
+				AND = {
+					tag = JAP
+					TKG = { exists = no }
+				}
+				AND = {
+					tag = TKG
+					JAP = { exists = no }
+				}
+			}
+			KOR = {exists = no }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			KOR_1635 = { owned_by = THIS }
+			KOR_1624 = { owned_by = THIS }
+			KOR_1627 = { owned_by = THIS }
+			KOR_1619 = { owned_by = THIS }
+		}
+		effect = {
+			set_country_flag = become_a_republic
+			government = democracy
+			political_reform = wealth_voting
+			political_reform = two_per_state
+			political_reform = free_press
+			political_reform = gerrymandering
+			political_reform = all_trade_unions
+			add_accepted_culture = korean
+			prestige = 25
+		}
+	}
 }
