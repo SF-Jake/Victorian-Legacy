@@ -286,4 +286,23 @@ political_decisions = {
 			}
 		}
 	}
+	accept_the_egyptians = {
+		potential = {
+			tag = TUR
+			NOT = { exists = EGY }
+		}
+		allow = {
+			impressionism = 1
+			market_regulations = 1
+		}
+		effect = {
+			add_accepted_culture = misri
+			any_owned = {
+				limit = {
+					culture = turkish
+				}
+				militancy = 4
+			}
+		}
+	}
 }
