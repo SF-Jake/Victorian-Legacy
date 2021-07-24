@@ -3917,3 +3917,34 @@ country_event = {
 		}
 	}
 }
+#########################################################################
+# 							Remove POP Buff								#
+#########################################################################
+country_event = {
+	id = 91331
+	title = "Remove POP Buff"
+
+	trigger = {
+		year = 1900
+		OR = {
+			OR = {
+				GER = { has_country_modifier = german_population_buff }
+				NGF = { has_country_modifier = german_population_buff }
+				PRU = { has_country_modifier = german_population_buff }
+			}
+			RUS = { has_country_modifier = russian_population_buff }
+		}
+		tag = JAN
+	}
+
+	option = {
+		GER = { remove_country_modifier = german_population_buff }
+		NGF = { remove_country_modifier = german_population_buff }
+		PRU = { remove_country_modifier = german_population_buff }
+		RUS = { remove_country_modifier = russian_population_buff }
+		GER = { set_country_flag = pop_buff_gone }
+		NGF = { set_country_flag = pop_buff_gone }
+		PRU = { set_country_flag = pop_buff_gone }
+		RUS = { set_country_flag = pop_buff_gone }
+	}
+}
