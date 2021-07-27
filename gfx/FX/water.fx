@@ -497,10 +497,10 @@ float4 PixelShader_Far( VS_OUTPUT_WATER_FAR IN ) : COLOR
 	float contour_darken = smoothstep(0.0, 0.08, abs(0.2 - alpha)) * smoothstep(0.0, 0.11, abs(0.525 - alpha)) * smoothstep(0.0, 0.06, abs(0.85 - alpha)) + step(0.6851, IN.vUV.x) + step(IN.vUV.x, 0.0001);
 	float4 overlay = tex2D( Overlay, IN.vWorldPos );
 	
-	float4 OutColor = lerp( color, overlay, 0.6);
-	OutColor.r += 0.17;
-	OutColor.g += 0.15;
-	OutColor.b += 0.12;
+	float4 OutColor = lerp( color, overlay, 0.00001);
+	OutColor.r += 0.04;
+	OutColor.g += 0.07;
+	OutColor.b += 0.13;
 
 	return OutColor * saturate(contour_darken * 0.6 + 0.4);
 }

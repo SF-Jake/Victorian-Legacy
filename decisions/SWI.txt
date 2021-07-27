@@ -127,9 +127,12 @@ political_decisions = {
 	violate_neutrality = {
 		picture = declare_neutrality
 		potential = {
-			#exists = GER
-			#exists = ITA
-			#exists = FRA
+			exists = GER
+			exists = ITA
+			exists = FRA
+			tag = GER
+			tag = ITA
+			tag = FRA
 			NOT = {
 				tag = AUS
 				tag = KUK
@@ -147,7 +150,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			#war_policy = jingoism
+			war_policy = jingoism
 			NOT = {
 				is_sphere_leader_of = SWI
 				truce_with = SWI
