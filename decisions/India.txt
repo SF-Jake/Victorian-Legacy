@@ -80,13 +80,7 @@ political_decisions = {
 			war = no
 			year = 1842
 			NOT = { badboy = 0.6 }
-			OR = {
-				neighbour = SIN
-				JAS = {
-					overlord = { tag = THIS }
-					neighbour = SIN
-				}
-			}
+			neighbour = SIN
 		}
 
 		effect = {
@@ -311,6 +305,7 @@ political_decisions = {
 		potential = {
 			tag = EIC
 			NOT = { has_country_flag = embrace_brtishism }
+			ai = no
 		}
 
 		allow = {
@@ -320,7 +315,7 @@ political_decisions = {
 		}
 
 		effect = {
-			set_country_flag = embrace_brtishism
+			set_country_flag = embraced_britishism
 		}
 		
 		ai_will_do = {
