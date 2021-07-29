@@ -359,4 +359,47 @@ political_decisions = {
 		}
 
 	}
+
+	walloon_autonomy_NET = {
+		picture = become_wallonia
+		potential = {
+			BEL_394 = { all_core = { owned_by = THIS } }
+			NOT = { has_country_flag = walloon_autonomy_NET }
+			tag = NET
+		}
+		
+		allow = {
+			FRA = { NOT = { has_country_flag = walloon_autonomy } }
+			war = no
+			ruling_party_ideology = liberal
+		}
+		
+		effect = {
+			set_country_flag = walloon_autonomy_NET
+			prestige = -25
+			add_accepted_culture = wallonian
+			random_country = {
+				limit = { tag = BEL exists = no }
+				BEL = { all_core = { remove_core = BEL } }
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = wallonian
+				}
+				consciousness = -5
+				militancy = -5
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				consciousness = 3
+				militancy = 3
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
 }
