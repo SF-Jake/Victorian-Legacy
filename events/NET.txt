@@ -1,0 +1,119 @@
+country_event = {
+
+	id = 11112
+
+	trigger = {
+		NOT = {
+			OR = {
+				tag = NET
+				tag = BEL
+				tag = LUX
+			}
+		}
+		any_owned_province = {
+			NOT = {
+				province_id = 375
+				province_id = 387
+			}
+			life_rating = 40
+			OR = {
+				is_core = NET
+				is_core = BEL
+			}
+		}
+	}
+
+	title = "Goodbye Liferating"
+	desc = "Why you bully the small netherland player"
+	picture = "Nobel_Physics"
+
+	option = {
+		name = "You Bitch"
+		any_owned = {
+			limit = {
+				NOT = {
+					province_id = 375
+					province_id = 387
+				}
+				life_rating = 40
+				OR = {
+					is_core = NET
+					is_core = BEL
+				}
+			}
+			life_rating = -5
+		}
+	}
+}
+
+country_event = {
+
+	id = 11113
+
+	trigger = {
+			OR = {
+				tag = NET
+				tag = BEL
+			}
+		any_owned_province = {
+			OR = {
+				province_id = 390
+				province_id = 391
+				province_id = 388
+				province_id = 393
+				province_id = 394
+				province_id = 392
+				province_id = 395
+				province_id = 398
+				province_id = 381
+				province_id = 378
+				province_id = 379
+				province_id = 380
+				province_id = 385
+				province_id = 382
+				province_id = 383
+				province_id = 384
+				province_id = 386
+				province_id = 376
+				province_id = 377
+				}
+				NOT = { life_rating = 40 }
+			}
+		}
+
+	title = "Hello Liferating"
+	desc = "I seemed to have misplaced my liferating here it is."
+	picture = "Nobel_Physics"
+
+	option = {
+		name = "Fuck yeah"
+		any_owned = {
+			limit = {
+				OR = ]{
+					province_id = 390
+					province_id = 391
+					province_id = 388
+					province_id = 389
+					province_id = 393
+					province_id = 394
+					province_id = 392
+					province_id = 395
+					province_id = 398
+					province_id = 381
+					province_id = 378
+					province_id = 379
+					province_id = 380
+					province_id = 385
+					province_id = 382
+					province_id = 383
+					province_id = 384
+					province_id = 386
+					province_id = 376
+					province_id = 377
+				}
+				NOT = { life_rating = 40 }
+			}
+			life_rating = 5
+		}
+	}
+}
