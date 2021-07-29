@@ -229,9 +229,12 @@ political_decisions = {
 				change_tag = SAU
 				government = hms_government
 				add_country_modifier = { name = south_africa_immigrant_attract duration = -1 }
+				set_country_flag = embraced_boarismv
 				ENG_2083 = { add_core = THIS }
 				ENG_2083 = { add_core = THIS }
 				POR_2049 = { add_core = THIS }
+				ENG_2078 = { secede_province = THIS add_core = THIS }
+				ENG_2068 = { secede_province = THIS add_core = THIS }
 				set_country_flag = african_union_formation
 			}
 		}

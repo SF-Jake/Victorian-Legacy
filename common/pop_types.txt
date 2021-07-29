@@ -688,6 +688,11 @@ migration_chance =
 		tag = EIC
 		country = { has_country_flag = embraced_britishism }
 	}
+	modifier = {
+		factor = 0.05
+		tag = EIC
+		country = { has_country_flag = embraced_boarism }
+	}
 }
 
 #general colonial migration mtth, same for all pops
@@ -1205,6 +1210,11 @@ assimilation_chance =
 		factor = 12
 		NOT = { has_culture_core = yes }
 		country = { has_country_flag = embraced_britishism }
+	}
+	modifier = {
+		factor = 12
+		NOT = { has_culture_core = yes }
+		country = { has_country_flag = embraced_boarism }
 	}
 	modifier = {
 		factor = 0.04

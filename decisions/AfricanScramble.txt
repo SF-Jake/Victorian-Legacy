@@ -115,6 +115,8 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			NOT = { owns = 3246 }
+			NOT = { tag = SAF }
+			NOT = { tag = SAU }
 			neighbour = GAZ
 			OR = {
 				2057 = { owned_by = GAZ }
