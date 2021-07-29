@@ -3948,3 +3948,27 @@ country_event = {
 		RUS = { set_country_flag = pop_buff_gone }
 	}
 }
+
+
+#########################################################################
+# 							John Cena Genral							#
+#########################################################################
+country_event = {
+	id = 91332
+	title = "John Cena General"
+	desc = "You can't see me."
+
+	trigger = {
+		ai = no		
+		NOT = { has_leader = "§RJohn Cena" }
+	}
+
+	option = {
+		name = "Gaming Time"
+		define_general = {
+			name = "§RJohn Cena"
+			personality = defence_4.2
+			background = attack_4.2
+		}
+	}
+}
