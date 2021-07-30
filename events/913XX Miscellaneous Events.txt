@@ -3960,13 +3960,13 @@ country_event = {
 
 	trigger = {
 		ai = no		
-		NOT = { has_leader = "§RJohn Cena" }
+		NOT = { has_leader = "§RJohn Cena§W" }
 	}
 
 	option = {
 		name = "Gaming Time"
 		define_general = {
-			name = "§RJohn Cena"
+			name = "§RJohn Cena§W"
 			personality = defence_4.2
 			background = attack_4.2
 		}
