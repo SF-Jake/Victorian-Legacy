@@ -1,4 +1,161 @@
 political_decisions = {
+	central_american_acceptance = {
+		potential = {
+			OR = {
+				tag = CLM
+				tag = GCO
+			}
+			NOT = { has_country_flag = central_american_acceptance }
+			NOT = { has_country_flag = south_andean_acceptance_CLM }
+		}
+
+		allow = {
+			NOT = { exists = UCA }
+			UCA = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			set_country_flag = central_american_acceptance
+			UCA_2201 = { add_core = THIS }
+			UCA_2197 = { add_core = THIS }
+			UCA_2191 = { add_core = THIS }
+			UCA_2186 = { add_core = THIS }
+		}
+	}
+	central_american_acceptance_MEX = {
+		potential = {
+			tag = MEX
+			NOT = { has_country_flag = central_american_acceptance }
+		}
+
+		allow = {
+			NOT = { exists = UCA }
+			UCA = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			set_country_flag = central_american_acceptance
+			UCA_2201 = { add_core = THIS }
+			UCA_2197 = { add_core = THIS }
+			UCA_2191 = { add_core = THIS }
+			UCA_2186 = { add_core = THIS }
+		}
+	}
+	south_andean_acceptance = {
+		potential = {
+			NOT = { has_country_flag = central_american_acceptance }
+			NOT = { has_country_flag = south_andean_acceptance_CLM }
+			OR = {
+				tag = CLM
+				tag = GCO
+			}
+		}
+
+		allow = {
+			PEU= {
+				all_core = {
+					OR ={
+						owned_by = THIS
+						owner = { vassal_of = THIS }
+					}
+					
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = south_andean_acceptance_CLM
+		}
+	}
+
+	conquest_of_chile = {
+		potential = {
+			NOT = { has_country_flag = conquest_of_chile }
+			tag = LPL
+			exist = CHL
+		}
+
+		allow = {
+			state_n_government = 1
+		}
+
+		effect = {
+			set_country_flag = conquest_of_chile
+			war = {
+				target = CHL
+				attacker_goal = { casus_belli = conquest }
+			}
+		}
+	}
+	occupation_of_araucania = {
+		picture = conquest_of_the_desert
+		potential = {
+			tag = LPL
+			OR = {
+				2333 = { empty = yes }
+				2334 = { empty = yes }
+				2335 = { empty = yes }
+			}
+			owns = 2332
+			NOT = { has_country_flag = occupation_of_araucania }
+		}
+		allow = {
+
+		}
+		effect = {
+			set_country_flag = occupation_of_araucania
+			prestige = 5
+			random_owned = {
+				limit = {
+					2333 = { empty = yes }
+				}
+				2333 = {
+					secede_province = THIS
+					add_core = THIS
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			random_owned = {
+				limit = {
+					2334 = { empty = yes }
+					2333 = { empty = no }
+				}
+				2334 = {
+					secede_province = THIS
+					add_core = THIS
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			random_owned = {
+				limit = {
+					2335 = { empty = yes }
+					2333 = { empty = no }
+					2334 = { empty = no }
+					2332 = { empty = no }
+				}
+				2335 = {
+					secede_province = THIS
+					add_core = THIS
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+		}
+	}
+		}
+	}
+
+	####################################################################
+	##						Other Latin Flavor						  ##
+	####################################################################
+
 	unite_la_plata = {
 		picture = unite_la_plata
 		potential = {
@@ -9,8 +166,6 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 50
-			nationalism_n_imperialism = 1
-			romanticism = 1
 			2356 = {
 				OR = {
 					owned_by = THIS
@@ -391,13 +546,13 @@ political_decisions = {
 			war = no
 			OR = {
 				is_greater_power = yes
-				nationalism_n_imperialism = 1
-				year = 1861
+				iron_muzzle_loaded_artillery = 1
+				year = 1855
 			}
 		}
 		effect = {
 			set_country_flag = conquest_of_the_chaco
-			prestige = 5
+			prestige = 10
 			random_owned = {
 				limit = {
 					2362 = { empty = yes }
@@ -516,13 +671,13 @@ political_decisions = {
 			war = no
 			OR = {
 				is_greater_power = yes
-				breech_loaded_rifles = 1
-				year = 1871
+				muzzle_loaded_rifles = 1
+				year = 1850				
 			}
 		}
 		effect = {
 			set_country_flag = conquest_of_the_desert
-			prestige = 5
+			prestige = 10
 			random_owned = {
 				limit = {
 					2390 = { empty = yes }
@@ -611,6 +766,7 @@ political_decisions = {
 				2391 = {
 					secede_province = THIS
 					add_core = THIS
+					life_rating = 25
 					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
 				}
 			}
@@ -622,6 +778,7 @@ political_decisions = {
 				2392 = {
 					secede_province = THIS
 					add_core = THIS
+					life_rating = 25
 					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
 				}
 			}
@@ -634,6 +791,7 @@ political_decisions = {
 				2394 = {
 					secede_province = THIS
 					add_core = THIS
+					life_rating = 25
 					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
 				}
 			}
@@ -645,6 +803,7 @@ political_decisions = {
 				2397 = {
 					secede_province = THIS
 					add_core = THIS
+					life_rating = 25
 					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
 				}
 			}
@@ -657,6 +816,7 @@ political_decisions = {
 				2396 = {
 					secede_province = THIS
 					add_core = THIS
+					life_rating = 25
 					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
 				}
 			}
@@ -668,6 +828,7 @@ political_decisions = {
 				2398 = {
 					secede_province = THIS
 					add_core = THIS
+					life_rating = 25
 					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
 				}
 			}
@@ -679,6 +840,7 @@ political_decisions = {
 				2399 = {
 					secede_province = THIS
 					add_core = THIS
+					life_rating = 25
 					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
 				}
 			}
@@ -690,64 +852,7 @@ political_decisions = {
 				2400 = {
 					secede_province = THIS
 					add_core = THIS
-					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
-				}
-			}
-		}
-	}
-
-	occupation_of_araucania = {
-		picture = conquest_of_the_desert
-		potential = {
-			OR = {
-				2333 = { empty = yes }
-				2334 = { empty = yes }
-				2335 = { empty = yes }
-			}
-			owns = 2332
-			NOT = { has_country_flag = occupation_of_araucania }
-		}
-		allow = {
-			OR = {
-				is_greater_power = yes
-				nationalism_n_imperialism = 1
-				year = 1861
-			}
-		}
-		effect = {
-			set_country_flag = occupation_of_araucania
-			prestige = 5
-			random_owned = {
-				limit = {
-					2333 = { empty = yes }
-				}
-				2333 = {
-					secede_province = THIS
-					add_core = THIS
-					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
-				}
-			}
-			random_owned = {
-				limit = {
-					2334 = { empty = yes }
-					2333 = { empty = no }
-				}
-				2334 = {
-					secede_province = THIS
-					add_core = THIS
-					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
-				}
-			}
-			random_owned = {
-				limit = {
-					2335 = { empty = yes }
-					2333 = { empty = no }
-					2334 = { empty = no }
-					2332 = { empty = no }
-				}
-				2335 = {
-					secede_province = THIS
-					add_core = THIS
+					life_rating = 25
 					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
 				}
 			}
@@ -987,5 +1092,4 @@ political_decisions = {
 			}
 		}
 	}
-
 }

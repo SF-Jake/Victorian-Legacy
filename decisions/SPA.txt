@@ -92,6 +92,7 @@ political_decisions = {
 	reconquista_mex = {
 		picture = reconquista_mex
 		potential = {
+			MEX = { ai = yes }
 			tag = SPC
 			government = absolute_monarchy
 			NOT = { has_country_flag = mex_reconquista'd }
@@ -190,6 +191,11 @@ political_decisions = {
 	reconquista_gco = {
 		picture = reconquista_gco
 		potential = {
+			OR = {
+				CLM = { ai = yes }
+				GCO = { ai = yes }
+			}
+			
 			tag = SPC
 			government = absolute_monarchy
 			NOT = { has_country_flag = gco_reconquista'd }
@@ -371,6 +377,10 @@ political_decisions = {
 	reconquista_lpl = {
 		picture = reconquista_lpl
 		potential = {
+			OR = {
+				LPL = { ai = yes }
+				ARC = { ai = yes }
+			}
 			tag = SPC
 			government = absolute_monarchy
 			NOT = { has_country_flag = lpl_reconquista'd }

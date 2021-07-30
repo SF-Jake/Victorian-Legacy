@@ -1,0 +1,95 @@
+country_event = {
+
+	id = 11114
+
+	trigger = {
+		year = 1865
+		tag = LPL
+		has_country_flag = conquest_of_chile
+		has_country_flag = occupation_of_araucania
+	}
+	
+	fire_only_once = yes
+
+	title = "South Andean Accepted"
+	desc = ""
+	picture = "theatre"
+
+	option = {
+		name = "Yes"
+		prestige = 20
+		add_accepted_culture = south_andean
+	}
+}
+country_event = {
+
+	id = 11115
+
+	trigger = {
+		year = 1865
+		tag = GCO
+		has_country_flag = south_andean_acceptance_CLM
+		NOT = { exists = CLM }
+	}
+	
+	fire_only_once = yes
+
+	title = "South Andean Accepted"
+	desc = ""
+	picture = "theatre"
+
+	option = {
+		name = "Yes"
+		prestige = 20
+		add_accepted_culture = south_andean
+	}
+}
+
+country_event = {
+
+	id = 11116
+
+	trigger = {
+		year = 1865
+		tag = MEX
+		has_country_flag = central_american_acceptance
+		NOT = { exists = UCA }
+	}
+	
+	fire_only_once = yes
+
+	title = "Central American Accepted"
+	desc = ""
+	picture = "theatre"
+
+	option = {
+		name = "Yes"
+		prestige = 20
+		add_accepted_culture = central_american
+	}
+}
+
+country_event = {
+
+	id = 11116
+
+	trigger = {
+		year = 1865
+		tag = GCO
+		has_country_flag = central_american_acceptance
+		NOT = { exists = UCA }
+	}
+	
+	fire_only_once = yes
+
+	title = "Central American Accepted"
+	desc = ""
+	picture = "theatre"
+
+	option = {
+		name = "Yes"
+		prestige = 20
+		add_accepted_culture = central_american
+		add_accepted_culture = mayan
+	}
+}
