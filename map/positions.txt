@@ -118852,4 +118852,55 @@
     }
 
     text_scale = 5.299997
+} # Tsushima
+
+3249 = {
+    text_position = {
+        x = 4830.600000
+        y = 1323.150000
+    }
+
+    text_scale = 2.199998
+    unit = {
+        x = 4825.400000
+        y = 1333.400000
+    }
+
+    city = {
+        x = 4824.950000
+        y = 1333.700000
+    }
+
+    factory = {
+        x = 4824.750000
+        y = 1334.900000
+    }
+
+    building_construction = {
+        x = 4826.150000
+        y = 1336.300000
+    }
+
+    military_construction = {
+        x = 4826.050000
+        y = 1334.700000
+    }
+
+    building_position = {
+        fort = {
+            x = 4822.450000
+            y = 1328.000000
+        }
+
+        naval_base = {
+            x = 4826.200000
+            y = 1328.200000
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 3.121595
+    }
+
 }

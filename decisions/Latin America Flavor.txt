@@ -91,7 +91,7 @@ political_decisions = {
 			set_country_flag = conquest_of_chile
 			war = {
 				target = CHL
-				attacker_goal = { casus_belli = conquest }
+				attacker_goal = { casus_belli = conquest_small }
 			}
 		}
 	}
