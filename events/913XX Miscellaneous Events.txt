@@ -3951,7 +3951,7 @@ country_event = {
 
 
 #########################################################################
-# 							John Cena Genral							#
+# 							John Cena General							#
 #########################################################################
 country_event = {
 	id = 91332
@@ -3959,7 +3959,7 @@ country_event = {
 	desc = "You can't see me."
 
 	trigger = {
-		ai = no		
+		ai = no
 		NOT = { has_leader = "§RJohn Cena§W" }
 	}
 
