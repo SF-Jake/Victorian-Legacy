@@ -1289,6 +1289,11 @@ taiping_mobilization = {
 	icon = 15
 }
 
+chinese_military_score_nerf = {
+	supply_consumption = -0.5
+	icon = 15
+}
+
 #### EIC - INDIA ####
 direct_rule = {
 	prestige = -1
