@@ -389,8 +389,7 @@ political_decisions = {
 				has_country_flag = peking_convention
 			}		
 			tag = RUS
-			MCK = {
-					owns = 1082 }
+			CHI = { owns = 1082 }
 		}
 		
 		allow = {
@@ -400,7 +399,7 @@ political_decisions = {
 				war_with = MCK
 			}
 			OR = {
-				is_sphere_leader_of = MCK
+				year = 1838
 				has_global_flag = summer_palace_torched
 			}			
 		}
@@ -413,7 +412,7 @@ political_decisions = {
 				add_core = RUS
 			}
 			set_country_flag = peking_convention
-			MCK = {
+			CHI = {
 				country_event = { id=80000 days=0 }
 			}
 			prestige = 2

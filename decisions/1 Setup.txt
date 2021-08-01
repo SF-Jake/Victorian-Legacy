@@ -1306,7 +1306,7 @@ political_decisions = {
 				}
 			}
 			TEX = { add_country_modifier = { name = the_alamo duration = 30 } }
-			CHI = { add_country_modifier = { name = chinese_military_score_nerf duration = 30 } }
+			CHI = { add_country_modifier = { name = chinese_military_score_nerf duration = -1 } }
 			any_country = {
 				limit = {
 					literacy = 0.1

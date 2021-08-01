@@ -440,21 +440,9 @@ country_event = {
 			factor = 99
 		}
 	}
-	
-	option = {
-		name = "EVTOPTB80000"
-		RUS = {
-			country_event = { id=80001 days=0 }
-		}
-		add_casus_belli = {
-				target = RUS
-				type = acquire_core_state
-				months = 60
-		}		
 		ai_chance = {
 			factor = 1
 		}
-	}
 }
 
 # China refuses

@@ -510,7 +510,6 @@ acquire_all_cores = {
 			OR = {
 				tag = JAN
 				tag = GHO
-				tag = SWI
 			}
 		}
 		NOT = {
@@ -3683,7 +3682,12 @@ demand_chinese_concession_casus_belli = {
 		}
 		has_country_flag = chinese
 		THIS = {
-			civilized = yes
+			OR = {
+				civilized = yes
+				tag = TKG
+			tag = JAP
+			}
+			
 		}
 		civilized = no
 		number_of_states = 2
@@ -3700,17 +3704,20 @@ demand_chinese_concession_casus_belli = {
 		any_owned_province = {
 			is_colonial = no
 			OR = {
-				is_core = MCK
-				is_core = XIN
-				is_core = MON
-				is_core = TIB
+				region = CHI_1082
 				region = CHI_1481
 				region = CHI_1496
+				region = CHI_1532
 				region = CHI_1538
+				region = CHI_1542				
 				region = CHI_1553
+				region = CHI_1555
+				region = CHI_1565
 				region = CHI_1566
 				region = CHI_1569
+				region = CHI_1613
 				region = CHI_2562
+				region = CHI_2608
 				region = CHI_2615
 				region = CHI_2659
 			}
