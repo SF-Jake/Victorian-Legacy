@@ -124,15 +124,15 @@ political_decisions = {
 			}
 		}
 	}
+
 	violate_neutrality = {
 		picture = declare_neutrality
 		potential = {
-			exists = GER
-			exists = ITA
-			exists = FRA
-			tag = GER
-			tag = ITA
-			tag = FRA
+			OR = {
+				tag = GER
+				tag = ITA
+				tag = FRA
+			}
 			NOT = {
 				tag = AUS
 				tag = KUK
@@ -140,16 +140,16 @@ political_decisions = {
 			ai = no
 			SWI = {
 				neighbour = THIS
-
+				war = no
 			}
-			AND = {
-				GER = { NOT = { has_country_flag = swiss_neutrality_violator } }
-				FRA = { NOT = { has_country_flag = swiss_neutrality_violator } }
-				ITA = { NOT = { has_country_flag = swiss_neutrality_violator } }
-			}
+			exists = SWI
+			NOT = { has_country_flag = swiss_neutrality_violator }
 		}
 		
 		allow = {
+			exists = GER
+			exists = ITA
+			exists = FRA
 			war_policy = jingoism
 			NOT = {
 				is_sphere_leader_of = SWI
@@ -176,6 +176,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	partition_switzerland = {
 		potential = {
 			has_country_flag = swiss_neutrality_violator
@@ -188,7 +189,7 @@ political_decisions = {
 		}
 
 		effect = {
-			badboy = 15
+			badboy = -15
 			GER = { country_event = { id=41005 days=1 } }
 			FRA = { country_event = { id=41004 days=1 } }
 			ITA = { country_event = { id=41006 days=1 } }
