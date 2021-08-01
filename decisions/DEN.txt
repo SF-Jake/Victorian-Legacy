@@ -41,6 +41,10 @@ political_decisions = {
 			OR = {
 				is_our_vassal = HOL
 				is_sphere_leader_of = HOL
+				AND = {
+					DEN = { owns = 369 }
+					DEN = { owns = 529 }
+				}
 			}
 		}
 
