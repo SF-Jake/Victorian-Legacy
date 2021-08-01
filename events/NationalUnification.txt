@@ -80,6 +80,111 @@ country_event = {
 	}
 }
 
+#German Revolution event
+country_event = {
+	title = "Crown from the Gutter"
+	desc = "But at what cost"
+	picture = "Celebration"
+
+	id = 194555
+
+	trigger = {
+		GER = { exists = no }
+		OR ={
+			has_country_flag = Just_Form_Me_Please
+			AND = {
+				tag = PRU
+				PRU = { exists = yes }
+				year = 1848
+			}
+			AND = {
+				tag = NGF
+				NGF = { exists = yes }
+				year = 1848
+			}
+		}
+
+	}
+
+	option = {				# Accept inheritance
+		name = "Crown From the Gutter Indeed"
+		change_tag = GER
+		add_accepted_culture = north_german
+		add_accepted_culture = south_german
+		political_reform = universal_voting
+		political_reform = proportional_representation
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = state_controlled
+		political_reform = secret_ballots
+		government = hms_government
+		set_country_flag = GER_gutter_event
+		CTR = {
+			all_core = { remove_core = CTR }
+		}
+		PRU = {
+			all_core = { remove_core = PRU }
+		}
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+				num_of_cities = 1
+			}
+			country_event = { id=11101 days=0 }
+		}
+
+	
+		prestige = 10
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				exists = no
+			}
+		}
+	}
+	option = {
+		name = "Kill whoever sent this to me"
+		prestige = 5
+		set_country_flag = does_not_want_to_be_unified
+		any_pop = {
+			militancy = 2
+		}
+	}
+
+
+}
+
+
+
+#German Revolution send event
+country_event = {
+	title = "Send the King the Message"
+	desc = "EVTOPTB194555"
+	picture = "Celebration"
+
+	id = 194556
+
+	is_triggered_only = yes
+
+	option = {				# Accept inheritance
+		name = "Send them the message"
+		country_event = { id=194555 days=0 }
+		prestige = 10
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				exists = no
+			}
+		}
+	}
+}
+
 # Event to Inherit
 country_event = {
 	id = 11101

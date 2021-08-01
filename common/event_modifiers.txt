@@ -3,6 +3,17 @@
 ##################################################################################################
 
 ##### POLITICAL EVENTS ######
+
+war_torn = {
+	pop_militancy_modifier = 0.1
+	local_factory_output = -0.25
+	local_rgo_output = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 0.5
+	population_growth = -0.001
+	icon = 4
+}
+
 government_sanitarium = {
 	population_growth = 0.005
 	icon = 19
