@@ -136,12 +136,7 @@ country_event = {
 			}
 			country_event = { id=11101 days=0 }
 		}
-		change_tag = GER
-		GER = {
-			inherit = PRU
-		}
-
-	
+		change_tag = GER	
 		prestige = 10
 		ai_chance = {
 			factor = 100
