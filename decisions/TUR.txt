@@ -167,6 +167,7 @@ political_decisions = {
 			NOT = { has_global_flag = 1913_bookmark }
 		}
 		allow = {
+			has_country_flag = accept_the_misri
 			NOT = { average_militancy = 2 }
 			NOT = { has_country_modifier = christian_subjugation }
 			revolution_n_counterrevolution = 1
@@ -291,12 +292,13 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			NOT = { exists = EGY }
+			NOT = { has_country_flag = accept_the_misri }
 		}
 		allow = {
-			impressionism = 1
 			market_regulations = 1
 		}
 		effect = {
+			set_country_flag = accept_the_misri
 			add_accepted_culture = misri
 			any_owned = {
 				limit = {
