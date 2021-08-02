@@ -89,6 +89,7 @@ country_event = {
 	id = 194555
 
 	trigger = {
+		ai = no
 		GER = { exists = no }
 		OR = {
 			tag = PRU
@@ -97,18 +98,20 @@ country_event = {
 		OR ={
 			AND = {
 				PRU = { exists = yes }
-				year = 1840
+				year = 1848
 			}
 			AND = {
 				NGF = { exists = yes }
-				year = 1840
+				year = 1848
 			}
+			has_country_flag = Just_Form_Me_Please
 		}
 
 	}
 
 	option = {				# Accept inheritance
 		name = "Crown From the Gutter Indeed"
+		change_tag = GER
 		add_accepted_culture = north_german
 		add_accepted_culture = south_german
 		political_reform = universal_voting
@@ -136,7 +139,7 @@ country_event = {
 			}
 			country_event = { id=11101 days=0 }
 		}
-		change_tag = GER	
+			
 		prestige = 10
 		ai_chance = {
 			factor = 100
