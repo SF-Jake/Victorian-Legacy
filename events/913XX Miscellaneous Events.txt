@@ -3959,16 +3959,24 @@ country_event = {
 	desc = "You can't see me."
 
 	trigger = {
-		ai = no
-		NOT = { has_leader = "§RJohn Cena§W" }
+		tag = JAN
+	}
+
+	mean_time_to_happen = {
+		days = 7
 	}
 
 	option = {
-		name = "Gaming Time"
-		define_general = {
-			name = "§RJohn Cena§W"
-			personality = defence_4.2
-			background = attack_4.2
+		any_country = {
+			limit = {
+				ai = no
+				NOT = { has_leader = "§RJohn Cena§W" }
+			}
+			define_general = {
+				name = "§RJohn Cena§W"
+				personality = defence_4.2
+				background = attack_4.2
+			}
 		}
 	}
 }
