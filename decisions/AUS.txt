@@ -292,5 +292,24 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	bosnia_core = {
+		potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+				tag = DNV
+			}
+			year = 1870
+			NOT = { has_country_flag = bosnia_core }
+		}
 
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+
+		effect = {
+			set_country_flag = bosnia_core
+			TUR_788 = { add_core = THIS }
+		}
+	}
 }

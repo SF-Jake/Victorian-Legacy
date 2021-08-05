@@ -308,4 +308,21 @@ political_decisions = {
 			}
 		}
 	}
+	dalmatia_core = {
+		potential = {
+			tag = TUR
+			year = 1870
+			NOT = { has_country_flag = dalmatia_core }
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+
+		effect = {
+			set_country_flag = dalmatia_core
+			AUS_780 = { add_core = THIS }
+			MON_2582 = { add_core = THIS }
+		}
+	}
 }
