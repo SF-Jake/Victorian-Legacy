@@ -969,6 +969,18 @@ unequal_china_treaty = {
 	icon = 9
 }
 
+economic_sanctions = {
+	loan_interest = 3
+	diplomatic_points_modifier = -0.3
+	factory_owner_cost = 0.3
+	global_immigrant_attract = -0.5
+	non_accepted_pop_consciousness_modifier = 0.4
+	non_accepted_pop_militancy_modifier = 0.2
+	political_reform_desire = 0.5
+	cb_generation_speed_modifier = -0.1
+	icon = 8
+}
+
 ##### SECONDARY POWERS #####
 
 force_publique = {
@@ -1161,15 +1173,15 @@ haussmanns_renovations = {
 
 napoleon_iii = {
 	land_organisation = 0.1
-	mobilisation_size = 0.05
+	mobilisation_size = 0.04
 	prestige = 0.1
-	icon = 21
+	icon = 15
 }
 
 napoleon_iii_legacy = {
 	mobilisation_size = 0.02
 	prestige = 0.5
-	icon = 22
+	icon = 15
 }
 
 

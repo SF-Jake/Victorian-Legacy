@@ -156,8 +156,10 @@ political_decisions = {
 
 	annex_krakow = {
 		potential = {
-			ai = yes
-			tag = AUS
+			OR = {
+				tag = AUS
+				tag = KUK
+			}			
 			year = 1840
 			NOT = { has_country_flag = krakow_annexed }
 			owns = 714
@@ -168,9 +170,11 @@ political_decisions = {
 		}
 		
 		allow = {
+			is_sphere_leader_of = KRA
 		}
 		
 		effect = {
+			badboy = 6.5
 			inherit = KRA
 			set_country_flag = krakow_annexed
 		}

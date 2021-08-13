@@ -3980,3 +3980,66 @@ country_event = {
 		}
 	}
 }
+
+#########################################################################
+# 							Containment Event							#
+#########################################################################
+country_event = {
+	id = 14672
+	title = "Economic Sanctions"
+	desc = "Oh Dear a war is coming"
+
+	trigger = {
+		NOT = { has_country_modifier = economic_sanctions }
+		badboy = 1.6
+	}
+
+	option = {
+		name = "Is this the part where I say no"
+		add_country_modifier = {
+			name = economic_sanctions
+			duration = 180
+		}
+		any_greater_power = {
+			casus_belli = {
+				target = THIS
+				type = dismantle_cb
+				months = 6
+			}
+		}
+	}
+}
+
+
+#########################################################################
+# 							Infamy Gain Event							#
+#########################################################################
+
+country_event = {
+	id = 14670
+	title = "Infamy Gain"
+	desc = ""
+
+	is_triggered_only = yes
+
+	option = {
+		badboy = 25
+	}
+}
+
+
+#########################################################################
+# 							Infamy Loss Event							#
+#########################################################################
+
+country_event = {
+	id = 14671
+	title = "Infamy Loss"
+	desc = ""
+
+	is_triggered_only = yes
+
+	option = {
+		badboy = -25
+	}
+}
