@@ -109,6 +109,10 @@ gunboat = {
 	crisis = no
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -164,6 +168,10 @@ status_quo = {
 	constructing_cb = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		always = no
 	}
 
@@ -198,6 +206,10 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -310,6 +322,10 @@ civil_war = {
 	
 	can_use = {
 		always = no
+		OR = {
+			ai = yes
+			year = 1838
+		}
 	}
 
 	badboy_factor = 0
@@ -362,6 +378,10 @@ add_to_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -423,6 +443,10 @@ take_from_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -492,6 +516,10 @@ acquire_all_cores = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		OR = {
 			NOT = { has_country_flag = chinese }
 			has_global_flag = taiping_civil_war
@@ -574,6 +602,10 @@ acquire_core_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		OR = {
 			THIS = { ai = no }
 			NOT = { brigades_compare = 1 }
@@ -678,6 +710,10 @@ mexican_american_war = {
 	always = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		any_owned_province = { is_core = THIS }
 	}
 	
@@ -726,6 +762,10 @@ annex_core_country = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		OR = {
 			NOT = { has_country_flag = chinese }
 			has_global_flag = taiping_civil_war
@@ -815,6 +855,10 @@ acquire_substate_region = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		num_of_substates = 1 # if has any substate
 		any_substate = {
 			number_of_states = 1
@@ -878,6 +922,10 @@ acquire_state = {
 	NOT = { tag = SWI }
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1066,6 +1114,10 @@ place_in_the_sun = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1229,6 +1281,10 @@ cut_down_to_size = {
 	war_name = WAR_NAME
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1267,6 +1323,10 @@ cut_down_to_size_boxer = {
 	crisis = no
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1340,6 +1400,10 @@ demand_reparations = {
 	war_name = WAR_NAME
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			ai = no
 			OR = {
@@ -1389,6 +1453,10 @@ free_peoples = {
 	
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1487,6 +1555,10 @@ liberate_country = {
 	
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1585,6 +1657,10 @@ dismantle_forts = {
 	
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1651,6 +1727,10 @@ release_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1714,6 +1794,10 @@ make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1796,6 +1880,10 @@ become_independent = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1871,6 +1959,10 @@ humiliate = {
 	war_name = WAR_HUMILIATE_NAME
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -1923,6 +2015,10 @@ demand_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2033,6 +2129,10 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2129,6 +2229,10 @@ establish_small_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		NOT = { total_pops = 150000 }
 		THIS = {
 			OR = {
@@ -2226,6 +2330,10 @@ unification_humiliate_cb = {
 	always = yes
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2294,6 +2402,10 @@ unification_release_puppet_cb = {
 	always = yes
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2368,6 +2480,10 @@ unification_casus_belli = {
 	always = yes
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2461,6 +2577,10 @@ unification_annex_casus_belli = {
 	always = yes
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2538,6 +2658,10 @@ rude_boy = {
 	always = yes
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2594,6 +2718,10 @@ install_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2687,6 +2815,10 @@ uninstall_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2736,6 +2868,10 @@ great_war_penalty_cb = {
     constructing_cb = yes
 
     can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2807,6 +2943,10 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2952,6 +3092,10 @@ acquire_small_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -3099,6 +3243,10 @@ acquire_tiny_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -3236,6 +3384,10 @@ conquest_small = {
 	construction_speed = 0.5
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -3355,6 +3507,10 @@ conquest_tiny = {
 	construction_speed = 0.5
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -3481,6 +3637,10 @@ demand_for_ally = {
 	# war target country of goal is scope
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -3587,6 +3747,10 @@ opium_war = {
 	always = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -3671,6 +3835,10 @@ demand_chinese_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -3794,6 +3962,10 @@ demand_chinese_state = {
 	always = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -3918,6 +4090,10 @@ chinese_civil_war = {
 	
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
 		}
@@ -3974,6 +4150,10 @@ chinese_civil_war_acquire_state = {
 	
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
 		}
@@ -4087,6 +4267,10 @@ european_acquire_african_state = {
 	always = yes
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
 		}
@@ -4152,6 +4336,10 @@ european_african_conquest = {
 	always = yes
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
 		}
@@ -4237,6 +4425,10 @@ free_balkans = {
 	always = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		tag = TUR
 		THIS = {
 			civilized = yes
@@ -4449,6 +4641,10 @@ platine_war = {
 
 	can_use = {
 		OR = {
+			ai = yes
+			year = 1838
+		}
+		OR = {
 			tag = ARC
 			tag = BRZ
 		}
@@ -4501,6 +4697,10 @@ paraguayan_war = {
 
 	can_use = {
 		OR = {
+			ai = yes
+			year = 1838
+		}
+		OR = {
 			tag = ARG
 			tag = BRZ
 		}
@@ -4549,6 +4749,10 @@ negotiated_transfer = {
 	construction_speed = 2.0
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		number_of_states = 2 # annex if you want their last state
 		OR = {
 			ai = no
@@ -4610,6 +4814,10 @@ blockade = {
 	always = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		capital_scope = {
 			OR = {
 				continent = north_america
@@ -4674,6 +4882,10 @@ allied_great_war_demands = {
 	always = no
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 	}
 	
 	po_remove_prestige = yes
@@ -4738,6 +4950,10 @@ central_great_war_demands = {
 	always = no
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 	}
 	
 	po_remove_prestige = yes
@@ -4812,6 +5028,10 @@ acquire_siberian_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -4969,6 +5189,10 @@ puppet_acquire_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		always = no
 	}
 	
@@ -5010,6 +5234,10 @@ restore_puppet_province = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		NOT = {
 			OR = {
 				tag = GHO
@@ -5066,6 +5294,10 @@ chincha_war = {
 	always = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		tag = SPA
 		THIS = { civilized = yes }
 		2619 = { owned_by = PEU }
@@ -5115,6 +5347,10 @@ remove_cores = {
 	always = no
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -5183,6 +5419,10 @@ dismantle_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
 		badboy = 1.6
 		is_great_power = yes
 		NOT = { war = yes }

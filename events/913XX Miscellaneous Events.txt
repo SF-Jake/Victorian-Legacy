@@ -3991,7 +3991,7 @@ country_event = {
 
 	trigger = {
 		NOT = { has_country_modifier = economic_sanctions }
-		badboy = 1.6
+		badboy = 1.92
 	}
 
 	option = {
@@ -4041,5 +4041,27 @@ country_event = {
 
 	option = {
 		badboy = -25
+	}
+}
+
+#########################################################################
+# 							War Notification							#
+#########################################################################
+
+country_event = {
+	id = 14672
+	title = "WAR!"
+	desc = "The 2 year grace period is over"
+	picture = war_1838
+
+	trigger = {
+		NOT = { has_country_flag = war_1836 }
+		ai = no
+		year = 1838
+	}
+
+	option = {
+		name = "Prepare the Troops"
+		set_country_flag = war_1836
 	}
 }

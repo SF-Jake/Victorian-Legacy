@@ -970,6 +970,7 @@ unequal_china_treaty = {
 }
 
 economic_sanctions = {
+	import_cost = 2
 	loan_interest = 3
 	diplomatic_points_modifier = -0.3
 	factory_owner_cost = 0.3
@@ -1173,13 +1174,13 @@ haussmanns_renovations = {
 
 napoleon_iii = {
 	land_organisation = 0.1
-	mobilisation_size = 0.04
+	mobilisation_size = 0.03
 	prestige = 0.1
 	icon = 15
 }
 
 napoleon_iii_legacy = {
-	mobilisation_size = 0.02
+	mobilisation_size = 0.01
 	prestige = 0.5
 	icon = 15
 }

@@ -47,7 +47,7 @@ political_decisions = {
 			inherit = EIC
 			remove_country_modifier = crown_rule
 			set_country_flag = india_annexed
-			badboy = 40
+			badboy = 30
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -82,7 +82,7 @@ political_decisions = {
 			inherit = CAN
 			inherit = RPL
 			set_country_flag = canada_annexed
-			badboy = 15
+			badboy = 12
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -109,7 +109,7 @@ political_decisions = {
 		effect = {
 			inherit = SAF
 			set_country_flag = south_africa_annexed
-			badboy = 10
+			badboy = 8
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -136,7 +136,7 @@ political_decisions = {
 		effect = {
 			inherit = AST
 			set_country_flag = australia_annexed
-			badboy = 10
+			badboy = 8
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -163,7 +163,7 @@ political_decisions = {
 		effect = {
 			inherit = NZL
 			set_country_flag = new_zealand_annexed
-			badboy = 5
+			badboy = 4
 		}
 		ai_will_do = { factor = 0 }
 	}

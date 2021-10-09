@@ -98,11 +98,11 @@ country_event = {
 		OR ={
 			AND = {
 				PRU = { exists = yes }
-				year = 1848
+				year = 1860
 			}
 			AND = {
 				NGF = { exists = yes }
-				year = 1848
+				year = 1860
 			}
 			has_country_flag = Just_Form_Me_Please
 		}
