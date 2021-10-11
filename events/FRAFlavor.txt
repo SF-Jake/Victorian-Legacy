@@ -1197,7 +1197,7 @@ country_event = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
 		}
-		revanchism = 0.01
+		revanchism = 0.04
 	}
 	
 	fire_only_once = yes
@@ -1210,5 +1210,7 @@ country_event = {
 		political_reform = yes_meeting
 		political_reform = free_press
 		political_reform = non_secret_ballots
+		remove_country_modifier = napoleon_iii
+		add_country_modifier = { name = napoleon_iii_legacy duration = -1 }
 	}
 }
