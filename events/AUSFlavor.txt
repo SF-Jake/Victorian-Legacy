@@ -626,9 +626,10 @@ country_event = {
 	option = {
 		name = "EVTOPTA31523"
 		set_global_flag = hungarian_victory
-		HUN = {
-			all_core = { remove_core = AUS }
+		AUS = {
+			prestige = -30
 		}
+		prestige = 30
 	}
 }
 
