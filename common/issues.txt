@@ -804,7 +804,7 @@ social_reforms = {
 			pension_level	= 2
 			global_immigrant_attract = 0.01
 			allow = { 
-				year = 1855
+				year = 1840
 				has_country_flag = medicine_invented 
 			}
 		}
@@ -812,7 +812,7 @@ social_reforms = {
 			pension_level	= 2
 			global_immigrant_attract = 0.02
 			allow = { 
-				year = 1870
+				year = 1855
 				has_country_flag = inorganic_chemistry_invented
 			}
 		}
@@ -820,23 +820,25 @@ social_reforms = {
 			pension_level	= 2.666
 			global_immigrant_attract = 0.03
 			allow = {
-				year = 1885
+				year = 1870
 				has_country_flag = organic_chemistry_invented
 			}
 		}
 		good_health_care = {
 			pension_level	= 4
 			global_immigrant_attract = 0.04
+			global_pop_militancy_modifier = -0.01
 			allow = { 
-				year = 1900
+				year = 1885
 				has_country_flag = electricity_invented
 			}
 		}
 		universal_health_care = {
 			pension_level	= 6.5
 			global_immigrant_attract = 0.05
+			global_pop_militancy_modifier = -0.02
 			allow = { 
-				year = 1915
+				year = 1900
 				has_country_flag = synthetic_polymers_invented
 			}
 		}
