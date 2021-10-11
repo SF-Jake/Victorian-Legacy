@@ -3819,11 +3819,13 @@ country_event = {
 	option = {
 		name = "EVTOPTA91327"
 		set_global_flag = enable_crisis
+		country_event = { id = 91332 days = 0 }
 	}
 
 	option = {
 		name = "EVTOPTB91327"
 		set_global_flag = disable_crisis
+		country_event = { id = 91332 days = 0 }
 	}
 }
 
@@ -3959,24 +3961,24 @@ country_event = {
 	desc = "You can't see me."
 
 	trigger = {
-		tag = JAN
-	}
-
-	mean_time_to_happen = {
-		days = 7
+		NOT = { has_leader = "§RJohn Cena§W" }
+		NOT = { has_leader = "§RJohn Xina§W" }
 	}
 
 	option = {
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_leader = "§RJohn Cena§W" }
-			}
-			define_general = {
-				name = "§RJohn Cena§W"
-				personality = defence_4.2
-				background = attack_4.2
-			}
+		name = "§RJohn Cena§W"
+		define_general = {
+			name = "§RJohn Cena§W"
+			personality = defence_4.2
+			background = attack_4.2
+		}
+	}
+	option = {
+		name = "§RJohn Xina§W"
+		define_general = {
+			name = "§RJohn Xina§W"
+			personality = defence_4.2
+			background = attack_4.2
 		}
 	}
 }
