@@ -180,6 +180,7 @@ political_decisions = {
 	partition_switzerland = {
 		potential = {
 			has_country_flag = swiss_neutrality_violator
+			NOT = { has_country_flag = partition_switzerland }
 		}
 
 		allow = {
@@ -190,6 +191,7 @@ political_decisions = {
 
 		effect = {
 			badboy = -15
+			set_country_flag = partition_switzerland
 			GER = { country_event = { id=41005 days=1 } }
 			FRA = { country_event = { id=41004 days=1 } }
 			ITA = { country_event = { id=41006 days=1 } }
