@@ -93,11 +93,12 @@ land_province = {
 
 
 
-blockaded = 
-{
+blockaded = {
+	war_exhaustion = 0.1
 }
 
 no_adjacent_controlled = {
+	supply_limit = -3
 }
 
 
@@ -110,8 +111,12 @@ has_siege = {
 }
 
 occupied = {
-	population_growth = -0.05
-	immigrant_attract = -1
+	pop_militancy_modifier = 0.1
+	local_factory_output = -0.25
+	local_rgo_output = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 0.5
+	population_growth = -0.001
 }
 
 
@@ -152,9 +157,12 @@ disarming = {
 }
 
 war_exhaustion = {
-	factory_throughput = -0.008
-	RGO_throughput = -0.008
-	cb_generation_speed_modifier = -0.02
+	org_regain = -0.01
+	factory_throughput = -0.01
+	tax_efficiency = -0.002
+	administrative_efficiency_modifier = -0.002
+	cb_generation_speed_modifier = -0.01
+	RGO_throughput = -0.01
 }
 
 
@@ -205,16 +213,29 @@ plurality = {
 }
 
 generalised_debt_default = {
+	max_loan_modifier = -1.0 
 	
 }
 
 total_occupation = {
-	war_exhaustion = 0.05				#increased by war exhaustion.
+	war_exhaustion = 0.4			#increased by war exhaustion.
+	global_population_growth = -0.0001
+	import_cost = 0.5
+	prestige = -0.1				#increased by war exhaustion.
 }
 
 total_blockaded = {
-	war_exhaustion = 0.1				#increased by war exhaustion.  
+	war_exhaustion = 0.5	#increased by war exhaustion.  
+	global_population_growth = -0.0001
+	import_cost = 1
+	prestige = -0.1				#increased by war exhaustion.  
 }
 
 in_bankrupcy = {
+	max_loan_modifier = -1.0
+	min_tariff = 0.75
+	min_tax = 0.45
+	max_military_spending = -0.2
+	#max_social_spending = 0.5
+	ruling_party_support = -0.75
 }
