@@ -655,47 +655,52 @@ political_decisions = {
 			}
 		}
 		allow = {
+			nationalism_n_imperialism = 1
 			war = no
-			revolution_n_counterrevolution = 1
+			OR = {
 			SPA = {
-				OR = {
-					exists = no
-					all_core = {
-						OR = {
-							owned_by = THIS
-							owner = {
-								ai = yes
-								in_sphere = THIS
-								war = no
-							}
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							war = no
+							ai = yes
 						}
+						owner = {
+							vassal_of = THIS
+							war = no
+						}
+							SPA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+							war = no
+							ai = yes
+						}
+						owner = {
+							vassal_of = THIS
+							war = no
+						}
+					}
 					}
 				}
 			}
+		}
+	}
 			SPC = {
-				OR = {
-					exists = no
 					all_core = {
 						OR = {
 							owned_by = THIS
 							owner = {
-								ai = yes
 								in_sphere = THIS
 								war = no
-							}
-						}
-					}
-				}
-			}
-			CAT = {
-				OR = {
-					exists = no
-					all_core = {
-						OR = {
-							owned_by = THIS
-							owner = {
 								ai = yes
-								in_sphere = THIS
+							}
+							owner = {
+								vassal_of = THIS
 								war = no
 							}
 						}
@@ -707,12 +712,18 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = {
-							ai = yes
 							in_sphere = THIS
 							war = no
+							ai = yes
+							
 						}
-						province_id = 1498
+						owner = {
+							vassal_of = THIS
+							war = no
+						
+						}
 					}
+						
 				}
 			}
 		}
@@ -720,6 +731,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = created_iberia
 			prestige = 10
+			change_tag = IBR
 			SPA = {
 				all_core = { add_core = THIS }
 			}
