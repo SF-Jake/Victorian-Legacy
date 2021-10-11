@@ -3820,7 +3820,7 @@ demand_chinese_concession_casus_belli = {
 	
 	badboy_factor = 1
 	prestige_factor = 0.5
-	peace_cost_factor = 16
+	peace_cost_factor = 0.5
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3835,6 +3835,7 @@ demand_chinese_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		war = no
 		OR = {
 			ai = yes
 			year = 1838
