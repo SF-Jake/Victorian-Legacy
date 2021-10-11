@@ -32,13 +32,11 @@ political_decisions = {
 			EIC = {
 				exists = yes
 				vassal_of = THIS
-				civilized = no
 			}
 			NOT = { has_country_flag = india_annexed }
 		}
 
 		allow = {
-			EIC = { civilized = no }
 			NOT = { badboy = 1 }
 			has_global_flag = sepoy_rebellion_ended
 		}
