@@ -9,6 +9,10 @@ building_station_shipyards = {
 	chance = {
 		base = 2
 		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			clipper_design = 1
 		}
@@ -29,6 +33,10 @@ mechanized_fishing_vessels = {
 	chance = {
 		base = 2
 		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			steamers = 1
 		}
@@ -47,6 +55,10 @@ steamer_automatic_construction_plants = {
 	limit = { steamers = 1 }
 	chance = {
 		base = 2
+		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
 		modifier = {
 			factor = 2
 			steamers = 1
@@ -67,6 +79,10 @@ steamer_transports = {
 	chance = {
 		base = 5
 		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			mechanical_production = 1
 		}
@@ -83,6 +99,10 @@ torpedo_boats = {
 	limit = { steamers = 1 }
 	chance = {
 		base = 10
+		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
 	}
 	effect = {
 		activate_unit = commerce_raider
@@ -1008,6 +1028,10 @@ societal_status = {
 	limit = { the_command_principle = 1 }
 	chance = {
 		base = 3
+		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
 		modifier = {
 			factor = 3
 			functionalism = 1

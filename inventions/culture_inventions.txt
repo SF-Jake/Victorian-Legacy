@@ -781,6 +781,10 @@ paternalism = {
 	chance = {
 		base = 1
 		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			NOT = { average_consciousness = 3.0 }
 		}
@@ -796,6 +800,10 @@ rationalism = {
 	news = no
 	chance = {
 		base = 3
+		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
 		modifier = {
 			factor = 2
 			literacy = 0.5

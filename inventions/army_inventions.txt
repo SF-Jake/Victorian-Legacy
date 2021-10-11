@@ -3,6 +3,10 @@ post_napoleonic_army_doctrine = {
 	limit = { post_napoleonic_thought = 1 }
 	chance = {
 		base = 2
+		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
 	}
 	effect = {
 		infantry = {
@@ -39,6 +43,10 @@ cuirassier_activation = {
 	chance = {
 		base = 5
 		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
+		modifier = {
 			factor = -2
 			not = { civilized = yes }
 		}
@@ -52,8 +60,8 @@ dragoon_activation = {
 	chance = {
 		base = 5
 		modifier = {
-			factor = -2
-			not = { civilized = yes }
+			factor = -1000
+			NOT = { civilized = yes }
 		}
 	}
 	effect = {
@@ -64,6 +72,10 @@ hussar_activation = {
 	limit = { post_napoleonic_thought = 1 }
 	chance = {
 		base = 5
+		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
 		modifier = {
 			factor = -2
 			not = { civilized = yes }
@@ -460,6 +472,10 @@ flintlock_rifle_armament = {
 	chance = {
 		base = 5
 		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			invention = small_arms_production
 		}
@@ -497,6 +513,7 @@ flintlock_rifle_armament = {
 muzzle_loaded_rifle_armament = {
 	limit = { muzzle_loaded_rifles = 1 }
 	chance = {
+		
 		base = 10
 		modifier = {
 			factor = 10
@@ -876,6 +893,10 @@ synchronized_heavy_support = {
 	chance = {
 		base = 4
 		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			iron_breech_loaded_artillery = 1
 		}
@@ -1009,7 +1030,11 @@ grand_battle_plan_vs_superior_firepower = {
 mob1 = {
 	limit = { military_staff_system = 1 }
 	chance = {
-		base = 5	
+		base = 5
+		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}	
 	}
 	effect = {
 		mobilisation_economy_impact = 0.2
@@ -1412,6 +1437,10 @@ army_societal_status = {
 	chance = {
 		base = 2
 		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			romanticism = 1
 		}
@@ -1429,6 +1458,10 @@ field_training = {
 	limit = { army_command_principle = 1 }
 	chance = {
 		base = 2
+		modifier = {
+			factor = -1000
+			NOT = { civilized = yes }
+		}
 		modifier = {
 			factor = 1
 			muzzle_loaded_rifles = 1
