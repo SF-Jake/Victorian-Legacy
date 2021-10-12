@@ -731,7 +731,6 @@ political_decisions = {
 		effect = {
 			set_global_flag = created_iberia
 			prestige = 10
-			change_tag = IBR
 			SPA = {
 				all_core = { add_core = THIS }
 			}
