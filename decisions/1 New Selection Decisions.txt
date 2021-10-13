@@ -5506,12 +5506,23 @@ zscorch_earth = {
 		potential = {
 		}	
 		allow = {
+			OR = {
+				ruling_party_ideology = communist
+				ruling_party_ideology = reactionary
+				ruling_party_ideology = fascist
+			}
+			OR = {
+				government = fascist_dictatorship
+				government = absolute_monarchy
+				government = proletarian_dictatorship
+			}
 			NOT = { has_country_modifier = genocide_cooldown }
 			any_owned_province = { 
 				has_building = province_selector
 			}
 		}
 		effect = {
+			money = -100000
 			clr_country_flag = genocide_cooldown_finished
 			add_country_modifier = {
 				name = genocide_cooldown
