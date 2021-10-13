@@ -3961,6 +3961,7 @@ country_event = {
 	desc = "You can't see me."
 
 	trigger = {
+		ai = no
 		NOT = { has_leader = "§RJohn Cena§W" }
 		NOT = { has_leader = "§RJohn Xina§W" }
 	}
