@@ -86,21 +86,4 @@ political_decisions = {
 			set_country_flag = pedro_said_it_best
 		}
 	}
-	your_going_to_brazil = {
-		picture = your_going_to_brazil
-		potential = {
-			tag = BRZ
-			NOT = { has_country_flag = your_going_to_brazil }
-		}
-
-		allow = {
-			state_n_government = 1
-			war = no
-		}
-
-		effect = {
-			set_country_flag = your_going_to_brazil
-			add_country_modifier = { name = your_going_to_brazil duration = -1 }
-		}
-	}
 }

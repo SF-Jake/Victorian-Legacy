@@ -693,11 +693,6 @@ migration_chance =
 		tag = SAU
 		country = { has_country_flag = embraced_boarism }
 	}
-	modifier = {
-		factor = 0.05
-		tag = BRZ
-		country = { has_country_flag = your_going_to_brazil }
-	}
 }
 
 #general colonial migration mtth, same for all pops
@@ -1220,11 +1215,6 @@ assimilation_chance =
 		factor = 10
 		NOT = { has_culture_core = yes }
 		country = { has_country_flag = embraced_boarism }
-	}
-	modifier = {
-		factor = 4
-		NOT = { has_culture_core = yes }
-		country = { has_country_flag = your_going_to_brazil }
 	}
 	modifier = {
 		factor = 0.04
