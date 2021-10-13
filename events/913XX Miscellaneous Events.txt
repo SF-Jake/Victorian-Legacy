@@ -4067,3 +4067,27 @@ country_event = {
 		set_country_flag = war_1836
 	}
 }
+
+#########################################################################
+# 							Genocide Reminder							#
+#########################################################################
+
+country_event = {
+	id = 14673
+	title = "Genocide Reminder"
+	desc = "Your Genocide cooldown timer has expired. You can now use another Genocide decision."
+	picture = famine
+
+
+	trigger = {
+		ai = no
+		year = 1837
+		NOT = { has_country_modifier = genocide_cooldown }
+		NOT = { has_country_flag = genocide_cooldown_finished }
+	}
+
+	option = {
+		name = "OK."
+		set_country_flag = genocide_cooldown_finished
+	}
+}

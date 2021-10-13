@@ -814,10 +814,25 @@ small_baby_boom = {
 	icon = 19
 }
 
+genocide = {
+	local_factory_output = -0.25
+	local_rgo_output = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 5
+	badboy = 0.01
+	pop_militancy_modifier = 0.20
+	icon = 20
+}
+
+genocide_cooldown = {
+	icon = 20
+}
+
+
 suppression = {
 	pop_militancy_modifier = -0.15
 	pop_consciousness_modifier = -0.15
-	icon = 20
+	icon = 18
 }
 
 country_suppression = {

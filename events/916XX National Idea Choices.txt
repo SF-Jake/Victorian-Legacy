@@ -128,6 +128,25 @@ country_event = {
 				}
 			}
 		}
+		any_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = genocide
+				}
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = genocide
+				}
+				any_pop = {
+					limit = {
+						is_accepted_culture = no
+						is_primary_culture = no
+					}
+					reduce_pop = 0.95
+				}
+			}
+		}
 	}
 }
 

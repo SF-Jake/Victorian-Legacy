@@ -5501,4 +5501,36 @@ zscorch_earth = {
 		}
 	}
 
+	genocide = {
+		picture = colonial_policy
+		potential = {
+		}	
+		allow = {
+			NOT = { has_country_modifier = genocide_cooldown }
+			any_owned_province = { 
+				has_building = province_selector
+			}
+		}
+		effect = {
+			clr_country_flag = genocide_cooldown_finished
+			add_country_modifier = {
+				name = genocide_cooldown
+				duration = 1820
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = genocide
+							duration = 1820
+						}
+					}
+				}
+			}
+		}
+	}
 }
