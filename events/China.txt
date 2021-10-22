@@ -22,11 +22,12 @@ country_event = {
 		NOT = { has_global_flag = the_dragon_wakes }
 		}
 
-	option = {				
+	option = {
 		name = "EVTOPTA90900"
 		set_global_flag = the_dragon_wakes
 		remove_country_modifier = early_qing_reforms 
 		remove_country_modifier = late_qing_reforms 
+		any_pop = { reduce_pop = 0.30 }
 		any_country = {
 			limit = {
 				NOT = {
@@ -3398,6 +3399,10 @@ country_event = {
 			}
 			country_event = 90815
 		}
+		add_accepted_culture = min
+		add_accepted_culture = yue
+		add_accepted_culture = zhuang
+		add_accepted_culture = manchu
 	}
 }
 
@@ -3416,6 +3421,10 @@ country_event = {
 			}
 			annex_to = FROM
 		}
+		add_accepted_culture = min
+		add_accepted_culture = yue
+		add_accepted_culture = zhuang
+		add_accepted_culture = manchu
 	}
 
 	option = {
