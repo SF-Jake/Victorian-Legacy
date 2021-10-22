@@ -1337,12 +1337,7 @@ light_tank = {
 		}
 	}
 	effect = {
-		tank = {
-			attack = 6
-			defence = 3
-			supply_consumption = 1
-			maximum_speed = 2
-		}
+		activate_unit = light_tank
 	}
 }
 medium_tank = {
@@ -1359,11 +1354,11 @@ medium_tank = {
 		}
 	}
 	effect = {
-		tank = {
-			attack = 10
-			defence = 9
-			siege = 1	
-			supply_consumption = 2
+		light_tank = {
+			attack = 6
+			defence = 3
+			supply_consumption = 1
+			maximum_speed = 2
 		}
 	}
 }
@@ -1381,12 +1376,15 @@ armoured_cars = {
 		}
 	}
 	effect = {
-		tank = {
-			maximum_speed = 2
-			supply_consumption = 0.5
+		light_tank = {
+			attack = 10
+			defence = 9
+			siege = 1	
+			supply_consumption = 2
 		}
 	}
 }
+
 late_interwar_bombers = {
 	limit = { combined_arms_experiments = 1 }
 	chance = {

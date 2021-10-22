@@ -1201,7 +1201,7 @@ aeronautics = {
 }
 barrel_experiments = {
 	area = military_science
-	year = 1914
+	year = 1910
 	cost = 21600
 	unciv_military = yes
 	
@@ -1248,9 +1248,9 @@ combined_arms_experiments = {
 	cost = 28800
 	
 	unciv_military = yes
-	tank = {
+	light_tank = {
 		support = 0.25
-	} 	
+	}	
 	
 	ai_chance = {
 		factor = 1.1
