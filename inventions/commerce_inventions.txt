@@ -557,6 +557,73 @@ national_idea1 = {
 		base = 100
 	}
 }
+#Row completion tech
+
+commerce_row_completion1 = {
+	limit = {
+		late_classical_theory = 1
+		stock_exchange = 1
+		ad_hoc_money_bill_printing = 1
+		market_structure = 1
+		organized_factories = 1
+	}
+	news = no
+	farm_rgo_size = 0.25
+	mine_rgo_size = 0.25
+}
+culture_row_completion1 = {
+	limit = { 
+		late_classical_theory = 1 
+		romanticism = 1
+		idealism = 1
+		positivism = 1
+		ideological_thought = 1
+		associationism = 1
+	}
+	news = no
+	reinforce_rate = 0.05
+}
+industry_row_completion1 = {
+	limit = { 
+		late_classical_theory = 1 
+		practical_steam_engine = 1
+		mechanical_production = 1
+		clean_coal = 1
+		early_railroad= 1
+		medicine = 1
+	}
+	news = no
+	supply_limit = 0.25
+}
+navy_row_completion1 = {
+	limit = { 
+		late_classical_theory = 1 
+		battleship_column_doctrine = 1
+		steamers = 1
+		fire_control_systems = 1
+		naval_plans = 1
+		naval_professionalism = 1
+	}
+	news = no
+	effect = {
+		navy_base = {
+			default_organisation = 5
+		}
+	}
+	
+}
+army_row_completion1 = {
+	limit = { 
+		late_classical_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	morale = 0.25
+}
 #collectivist_theory
 #AP3 = {
 #	limit = { collectivist_theory = 1 }
@@ -573,6 +640,74 @@ national_idea2 = {
 	chance = {
 		base = 100
 	}
+}
+#Row completion tech
+
+commerce_row_completion2 = {
+	limit = { 
+		collectivist_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	farm_rgo_size = 0.25
+	mine_rgo_size = 0.25
+}
+culture_row_completion2 = {
+	limit = { 
+		collectivist_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	reinforce_rate = 0.05
+}
+industry_row_completion2 = {
+	limit = { 
+		collectivist_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	supply_limit = 0.25
+}
+navy_row_completion2 = {
+	limit = { 
+		collectivist_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	effect = {
+		navy_base = {
+			default_organisation = 5
+		}
+	}
+	
+}
+army_row_completion2 = {
+	limit = { 
+		collectivist_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	morale = 0.25
 }
 #the_historical_theory
 #AP4 = {
@@ -591,6 +726,75 @@ national_idea3 = {
 		base = 100
 	}
 }
+#Row completion tech
+
+commerce_row_completion3 = {
+	limit = { 
+		the_historical_theory = 1
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	farm_rgo_size = 0.25
+	mine_rgo_size = 0.25
+	
+}
+culture_row_completion3 = {
+	limit = { 
+		the_historical_theory = 1
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	reinforce_rate = 0.05
+}
+industry_row_completion3 = {
+	limit = { 
+		the_historical_theory = 1
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	supply_limit = 0.25
+}
+navy_row_completion3 = {
+	limit = { 
+		the_historical_theory = 1
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	effect = {
+		navy_base = {
+			default_organisation = 5
+		}
+	}
+	
+}
+army_row_completion3 = {
+	limit = { 
+		the_historical_theory = 1
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	morale = 0.25
+}
 #neoclassical_theory
 #AP5 = {
 #	limit = { neoclassical_theory = 1 }
@@ -608,6 +812,75 @@ national_idea4 = {
 		base = 100
 	}
 }
+#Row completion tech
+
+commerce_row_completion4 = {
+	limit = { 
+		neoclassical_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	farm_rgo_size = 0.25
+	mine_rgo_size = 0.25
+}
+culture_row_completion4 = {
+	limit = { 
+		neoclassical_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	reinforce_rate = 0.05
+}
+industry_row_completion4 = {
+	limit = { 
+		neoclassical_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	supply_limit = 0.25
+}
+navy_row_completion4 = {
+	limit = { 
+		neoclassical_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	effect = {
+		navy_base = {
+			default_organisation = 5
+		}
+	}
+	
+}
+army_row_completion4 = {
+	limit = { 
+		neoclassical_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	morale = 0.25
+}
+
 #keynesian_economics
 #AP6 = {
 #	limit = { keynesian_economics = 1 }
@@ -625,6 +898,74 @@ national_idea5 = {
 		base = 100
 	}
 }
+#Row completion tech
+
+commerce_row_completion5 = {
+	limit = { 
+		keynesian_economics = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	farm_rgo_size = 0.25
+	mine_rgo_size = 0.25
+}
+culture_row_completion5 = {
+	limit = { 
+		keynesian_economics = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	reinforce_rate = 0.05
+}
+industry_row_completion5 = {
+	limit = { 
+		keynesian_economics = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	supply_limit = 0.25
+}
+navy_row_completion5 = {
+	limit = { 
+		keynesian_economics = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	effect = {
+		navy_base = {
+			default_organisation = 5
+		}
+	}
+	
+}
+army_row_completion5 = {
+	limit = { 
+		keynesian_economics = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	morale = 0.25
+}
 #neoliberal_theory
 #AP7 = {
 #	limit = { neoliberal_theory = 1 }
@@ -641,6 +982,73 @@ national_idea6 = {
 	chance = {
 		base = 100
 	}
+}
+#Row completion tech
+commerce_row_completion6 = {
+	limit = { 
+		neoliberal_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	farm_rgo_size = 0.25
+	mine_rgo_size = 0.25
+}
+culture_row_completion6 = {
+	limit = { 
+		neoliberal_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	reinforce_rate = 0.05
+}
+industry_row_completion6 = {
+	limit = { 
+		neoliberal_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	supply_limit = 0.25
+}
+navy_row_completion6 = {
+	limit = { 
+		neoliberal_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	effect = {
+		navy_base = {
+			default_organisation = 5
+		}
+	}
+	
+}
+army_row_completion6 = {
+	limit = {
+		neoliberal_theory = 1 
+		= 1
+		= 1
+		= 1
+		= 1
+		= 1
+	}
+	news = no
+	morale = 0.25
 }
 #market_structure
 polypoly_structure = {
