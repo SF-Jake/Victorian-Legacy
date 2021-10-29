@@ -557,16 +557,6 @@ national_idea1 = {
 		base = 100
 	}
 }
-#collectivist_theory
-#AP3 = {
-#	limit = { collectivist_theory = 1 }
-#	news = no
-#	chance = {
-#		base = 100
-#	}
-#	effect = {
-#	}
-#}
 national_idea2 = {
 	limit = { collectivist_theory = 1 }
 	news = no
@@ -574,16 +564,6 @@ national_idea2 = {
 		base = 100
 	}
 }
-#the_historical_theory
-#AP4 = {
-#	limit = { the_historical_theory = 1 }
-#	news = no
-#	chance = {
-#		base = 100
-#	}
-#	effect = {
-#	}
-#}
 national_idea3 = {
 	limit = { the_historical_theory = 1 }
 	news = no
@@ -591,16 +571,6 @@ national_idea3 = {
 		base = 100
 	}
 }
-#neoclassical_theory
-#AP5 = {
-#	limit = { neoclassical_theory = 1 }
-#	news = no
-#	chance = {
-#		base = 100
-#	}
-#	effect = {
-#	}
-#}
 national_idea4 = {
 	limit = { neoclassical_theory = 1 }
 	news = no
@@ -608,16 +578,6 @@ national_idea4 = {
 		base = 100
 	}
 }
-#keynesian_economics
-#AP6 = {
-#	limit = { keynesian_economics = 1 }
-#	news = no
-#	chance = {
-#		base = 100
-#	}
-#	effect = {
-#	}
-#}
 national_idea5 = {
 	limit = { keynesian_economics = 1 }
 	news = no
@@ -625,16 +585,6 @@ national_idea5 = {
 		base = 100
 	}
 }
-#neoliberal_theory
-#AP7 = {
-#	limit = { neoliberal_theory = 1 }
-#	news = no
-#	chance = {
-#		base = 100
-#	}
-#	effect = {
-#	}
-#}
 national_idea6 = {
 	limit = { neoliberal_theory = 1 }
 	news = no
