@@ -3964,6 +3964,13 @@ country_event = {
 		ai = no
 		NOT = { has_leader = "§RJohn Cena§W" }
 		NOT = { has_leader = "§RJohn Xina§W" }
+		NOT = { has_country_modifier = john_cena_cooldown }
+	}
+	immediate = {
+		add_country_modifier = {
+			name = john_cena_cooldown
+			duration = 120
+		}
 	}
 
 	option = {
