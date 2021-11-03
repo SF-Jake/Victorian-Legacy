@@ -545,8 +545,6 @@ ENG_294 = { 294 301 302 303 } #South East England
 
 ENG_300 = { 300 } #London
 
-ENG_2666 = { 2666 }#English Channel Strait
-
 ENG_254 = { 254 255 256 257 } #Ulster
 
 ENG_271 = { 271 269 270 272 } #Lowlands
@@ -1009,6 +1007,10 @@ CHI_1566 = { 1566 } #Qingdao
 
 CHI_1569 = { 1569 } #Weihaiwei
 
+CHI_1564 = { 1499 } #Hainan
+
+CHI_1563 = { 1608 } #Ningbo
+
 CHI_1565 = { 1565 1567 1570 } #Shangdong
 
 CHI_1618 = { 1618 1612 1615 } #Beijing
@@ -1157,7 +1159,7 @@ SIC_754 = { 754 2567 } #Campania
 
 SIC_753 = { 753 757 2596 } #Molise
 
-SIC_756 = { 756 758 761 } #Apulia
+SIC_756 = { 756 758 761 2666 } #Apulia
 
 SIC_755 = { 755 759 760 } #Brasilicata
 

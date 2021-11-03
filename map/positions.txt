@@ -110816,27 +110816,35 @@
 
 2666 = {
     text_position = {
-        x = 5429.000000
-        y = 2094.000000
+        x = 3095.944444
+        y = 1439.222222
     }
 
-    text_scale = 5.899997
-    building_construction = {
-        x = 5410.000000
-        y = 2076.000000
+    text_rotation = 5.579456
+    text_scale = .75
+    unit = {
+        x = 3094.468750
+        y = 1439.687500
+    }
+
+    city = {
+        x = 3094.343750
+        y = 1437.765625
     }
 
     factory = {
-        x = 5411.000000
-        y = 2124.000000
+        x = 3094.421875
+        y = 1437.187500
     }
 
-    building_position = {
-        fort = {
-            x = 5458.000000
-            y = 2131.000000
-        }
+    building_construction = {
+        x = 3094.765625
+        y = 1437.218750
+    }
 
+    military_construction = {
+        x = 3094.500000
+        y = 1439.625000
     }
 
 } # Bulun

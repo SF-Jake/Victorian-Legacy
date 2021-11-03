@@ -405,4 +405,31 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
+	albanian_bridge = {
+		picture = albanian_bridge
+		potential = {
+			OR = {
+				SIC_756 = { owned_by = THIS }
+				TUR_853 = { owned_by = THIS }
+			}
+			year = 1880
+			NOT = { has_country_flag = albanian_bridge }
+		}
+		
+		allow = {
+			SIC_756 = { owned_by = THIS }
+			TUR_853 = { owned_by = THIS }
+			steel_steamers = 1
+			steel_railroad = 1
+			electricity = 1
+		}
+		
+		effect = {
+			money = -250000
+			prestige = 25
+			2666 = { secede_province = THIS }
+			add_core = 2666
+			set_country_flag = albanian_bridge
+		}
+	}
 }
