@@ -3881,6 +3881,8 @@ demand_chinese_concession_casus_belli = {
 				region = CHI_1538
 				region = CHI_1496
 				region = CHI_2615
+				region = CHI_1564
+				region = CHI_1563
 			}
 		}
 		not = { any_owned_province = { is_capital = yes } }
