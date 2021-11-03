@@ -2,6 +2,24 @@
 
 
 fascist_group = {
+	zombie_horde = {
+		color = { 0 0 0 }
+		add_political_reform = {
+			base = -1
+		}
+
+		remove_political_reform = {
+			base = -1
+		}
+
+		add_social_reform = {
+			base = -1
+		}
+
+		remove_social_reform = {
+			base = -1
+		}
+	}
 	fascist = {
 		uncivilized = no
 		color = { 60 60 60 }
