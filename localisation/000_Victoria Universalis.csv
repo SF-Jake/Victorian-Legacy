@@ -933,7 +933,7 @@ PROV313;Oslo;;;;;;;;;;;;;x
 PROV396;Eupen-Malmedy;;;;;;;;;;;;;x
 PROV410;Mulhouse;;;;;;;;;;;;;x
 PROV1839;Fulah;;;;;;;;;;;;;x
-PROV2666;AI English Channel Bridge;;;;;;;;;;;;;x
+PROV2666;Otranto;;;;;;;;;;;;;x
 PROV2596;Pescara;;;;;;;;;;;;;x
 PROV2589;Gizab;;;;;;;;;;;;;x
 PROV2598;Belluno;;;;;;;;;;;;;x
@@ -1041,6 +1041,8 @@ CHI_2221;South Jiangsu;;;;;;;;;;;;;x
 CHI_1481;Port Arthur;;;;;;;;;;;;;x
 CHI_1566;Qingdao;;;;;;;;;;;;;x
 CHI_1569;Weihaiwei;;;;;;;;;;;;;x
+CHI_1564;Hainan;;;;;;;;;;;;;x
+CHI_1563;Ningbo;;;;;;;;;;;;;x
 CHI_2615;Guangzhouwan;;;;;;;;;;;;;x
 CHI_2659;Tientsin;;;;;;;;;;;;;x
 CHI_3259;Guangzhouwan;;;;;;;;;;;;;x
@@ -1115,7 +1117,6 @@ ENG_1254;Bangladesh;;;;;;;;;;;;;x
 ENG_1257;East Bengal;;;;;;;;;;;;;x
 ENG_1275;Madhya Pradesh;;;;;;;;;;;;;x
 ENG_2088;Northern Cape;;;;;;;;;;;;;x
-ENG_2666;English Channel Crossing;;;;;;;;;;;;;x
 SIA_1346;Bangkok;;;;;;;;;;;;;x
 MOL_662;Bukovina;;;;;;;;;;;;;x
 EGY_1745;Cairo;;;;;;;;;;;;;x
@@ -1676,10 +1677,6 @@ colonial_migration;Colonial Migration;;;;;;;;;x;;;;
 zstate_colonial_policy_desc;Triggers a province event that allows you to choose a colonial policy for the selected state.;;;;;;;;;x;;;;
 indirect_rule;Indirect Rule;;;;;;;;;x;;;;
 settlement;Settlement\n§WAnnual Non-Accepted Population Growth: §R-1%.;;;;;;;;;x;;;;
-genocide;Genocide\n§WAnnual Non-Accepted Population Growth: §R-5%.;;;;;;;;;x;;;;
-genocide_cooldown;Genocide Cooldown;;;;;;;;;x;;;;
-genocide_title;§GGenocide State;;;;;;;;;x;;;;
-genocide_desc;Our aggressive policies against minorities are promoting a shift in our country. \n§RGenocides the state with Annual Non-Accepted Population Growth: §R-5%;;;;;;;;;x;;;;
 EVTNAME91520;Colonial Policy in $PROVINCENAME$;;;;;;;;;x;;;;
 EVTDESC91520;We must decide how to govern this colony. Indirect rule prevents colonial migration to the state. Settlement allows colonial migration to the selected state but gives a +0.05 militancy modifier, reduces the non-accepted POPs in the state by 1% annually.;;;;;;;;;x;;;;
 EVTOPTA91520;Indirect Rule;;;;;;;;;x;;;;
@@ -2246,7 +2243,6 @@ embrace_nepali_desc;Ruling over such a huge population with a minority governmen
 embrace_brtishism_title;Embrace Britishism;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 embrace_brtishism_desc;It is time for the Population of India to become part of the British Government;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 embraced_britishism;Embraced Britishism;;;;;;;;;;;;x
-embraced_boarism;Embraced Boarism;;;;;;;;;;;;x
 EVTNAME36942;Sepoy Rebellion;;;;;;;;;;;;x
 EVTDESC36942;We must break British tyranny in India!;;;;;;;;;;;;x
 EVTOPTA36942;Onwards!;;;;;;;;;;;;x
@@ -3294,5 +3290,5 @@ dalmatia_core_desc;We must claim the coast of Dalmatia;;;;;;;;;;;;x
 annex_krakow_title;Annex Krakow;;;;;;;;;;;;x
 annex_krakow_desc;Lets Annex Krakow to fnish our Austrian Borders;;;;;;;;;;;;x
 gp_infamy_reduction;Great Power;;;;;;;;;;;;x
-john_cena_cooldown;John Cena Cooldown;;;;;;;;;;;;x
-john_cena_cooldown_desc;;;;;;;;;;;;;x
+albanian_bridge_title;Build the albanian bridge;;;;;;;;;;;;x
+albanian_bridge_desc;This will allow you to cross into Albania from Italy and back;;;;;;;;;;;;x

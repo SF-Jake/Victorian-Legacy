@@ -22,7 +22,7 @@ country_event = {
 		NOT = { has_global_flag = the_dragon_wakes }
 		}
 
-	option = {
+	option = {				
 		name = "EVTOPTA90900"
 		set_global_flag = the_dragon_wakes
 		remove_country_modifier = early_qing_reforms 

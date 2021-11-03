@@ -1,38 +1,6 @@
 # Audax Validator "!" Ignore_1004
 # Audax Validator "!" Ignore_1009
 political_decisions = {
-	english_channel_crossing_off = {
-		potential = {
-			tag = JAN
-			NOT = { owns = 2666 }
-		}
-		allow = {
-			OR = {
-				301 = { owner = { ai = no } }
-				2666 = { owner = { ai = no } }
-				400 = { owner = { ai = no } }
-			}
-		}
-		effect = {
-			2666 = {
-				secede_province = THIS
-			}
-		}
-	}
-	english_channel_crossing_on = {
-		potential = {
-			NOT = { tag = JAN }
-			ai = yes
-			owns = 301
-			NOT = { owns = 2666 }
-			400 = { owner = { ai = yes } }
-		}
-		allow = {
-		}
-		effect = {
-			2666 = { secede_province = THIS }
-		}
-	}
 	rgo_expansions = {
 		potential = {
 			tag = JAN

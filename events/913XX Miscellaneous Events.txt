@@ -3972,7 +3972,6 @@ country_event = {
 			duration = 120
 		}
 	}
-
 	option = {
 		name = "§RJohn Cena§W"
 		define_general = {
@@ -4081,7 +4080,7 @@ country_event = {
 #########################################################################
 
 country_event = {
-	id = 14673
+	id = 14674
 	title = "Genocide Reminder"
 	desc = "Your Genocide cooldown timer has expired. You can now use another Genocide decision."
 	picture = famine

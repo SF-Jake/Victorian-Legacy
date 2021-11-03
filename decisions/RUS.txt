@@ -396,7 +396,7 @@ political_decisions = {
 			is_greater_power = yes
 			NOT = {
 				has_country_flag = peking_convention
-				war_with = CHI
+				war_with = MCK
 			}
 			OR = {
 				year = 1838
