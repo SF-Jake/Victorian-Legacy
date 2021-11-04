@@ -5500,12 +5500,26 @@ zscorch_earth = {
 			}
 		}
 	}
-
 	genocide = {
 		picture = colonial_policy
 		potential = {
+			NOT = {
+				OR = {
+					government = fascist_dictatorship
+					government = absolute_monarchy
+					government = proletarian_dictatorship
+				}
+			}
+			NOT = {
+				OR = {
+					ruling_party_ideology = communist
+					ruling_party_ideology = reactionary
+					ruling_party_ideology = fascist
+				}
+			}
 		}	
 		allow = {
+			has_country_flag = dont_use_this
 			OR = {
 				ruling_party_ideology = communist
 				ruling_party_ideology = reactionary
@@ -5537,6 +5551,117 @@ zscorch_earth = {
 						province_selector = -1
 						add_province_modifier = {
 							name = genocide
+							duration = 1820
+						}
+					}
+				}
+			}
+		}
+	}
+	monarchy_genocide = {
+		picture = colonial_policy
+		potential = {
+			ruling_party_ideology = reactionary
+			government = absolute_monarchy
+		}	
+		allow = {
+			ruling_party_ideology = reactionary
+			government = absolute_monarchy
+			NOT = { has_country_modifier = genocide_cooldown }
+			any_owned_province = { 
+				has_building = province_selector
+			}
+		}
+		effect = {
+			money = -100000
+			clr_country_flag = genocide_cooldown_finished
+			add_country_modifier = {
+				name = genocide_cooldown
+				duration = 1820
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = monarchy_genocide
+							duration = 1820
+						}
+					}
+				}
+			}
+		}
+	}
+	facist_genocide = {
+		picture = colonial_policy
+		potential = {
+			ruling_party_ideology = fascist
+			government = fascist_dictatorship
+		}	
+		allow = {
+			ruling_party_ideology = fascist
+			government = fascist_dictatorship
+			NOT = { has_country_modifier = genocide_cooldown }
+			any_owned_province = { 
+				has_building = province_selector
+			}
+		}
+		effect = {
+			money = -100000
+			clr_country_flag = genocide_cooldown_finished
+			add_country_modifier = {
+				name = genocide_cooldown
+				duration = 1820
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = facist_genocide
+							duration = 1820
+						}
+					}
+				}
+			}
+		}
+	}
+	communist_genocide = {
+		picture = colonial_policy
+		potential = {
+			ruling_party_ideology = communist
+			government = proletarian_dictatorship
+		}	
+		allow = {
+			ruling_party_ideology = communist
+			government = proletarian_dictatorship
+			NOT = { has_country_modifier = genocide_cooldown }
+			any_owned_province = { 
+				has_building = province_selector
+			}
+		}
+		effect = {
+			money = -100000
+			clr_country_flag = genocide_cooldown_finished
+			add_country_modifier = {
+				name = genocide_cooldown
+				duration = 1820
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = communist_genocide
 							duration = 1820
 						}
 					}

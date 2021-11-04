@@ -131,12 +131,31 @@ country_event = {
 		any_country = {
 			limit = {
 				any_owned_province = {
-					has_province_modifier = genocide
+					has_province_modifier = communist_genocide
 				}
 			}
 			any_owned = {
 				limit = {
-					has_province_modifier = genocide
+					has_province_modifier = communist_genocide
+				}
+				any_pop = {
+					limit = {
+						is_accepted_culture = no
+						is_primary_culture = no
+					}
+					reduce_pop = 0.94
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = monarchy_genocide 
+				}
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = monarchy_genocide 
 				}
 				any_pop = {
 					limit = {
@@ -144,6 +163,25 @@ country_event = {
 						is_primary_culture = no
 					}
 					reduce_pop = 0.95
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = facist_genocide
+				}
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = facist_genocide
+				}
+				any_pop = {
+					limit = {
+						is_accepted_culture = no
+						is_primary_culture = no
+					}
+					reduce_pop = 0.92
 				}
 			}
 		}

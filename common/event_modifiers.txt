@@ -813,7 +813,25 @@ small_baby_boom = {
 	population_growth = 0.001
 	icon = 19
 }
-genocide = {
+monarchy_genocide = {
+	local_factory_output = -0.25
+	local_rgo_output = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 5
+	badboy = 0.01
+	pop_militancy_modifier = 0.20
+	icon = 20
+}
+facist_genocide = {
+	local_factory_output = -0.25
+	local_rgo_output = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 5
+	badboy = 0.01
+	pop_militancy_modifier = 0.20
+	icon = 20
+}
+communist_genocide = {
 	local_factory_output = -0.25
 	local_rgo_output = -0.25
 	immigrant_attract = -0.25
