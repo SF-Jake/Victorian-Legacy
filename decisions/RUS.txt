@@ -389,7 +389,7 @@ political_decisions = {
 				has_country_flag = peking_convention
 			}		
 			tag = RUS
-			CHI = { owns = 1082 }
+			MCK = { owns = 1082 }
 		}
 		
 		allow = {
@@ -414,7 +414,7 @@ political_decisions = {
 				add_core = RUS
 			}
 			set_country_flag = peking_convention
-			CHI = {
+			MCK = {
 				country_event = { id=80000 days=0 }
 			}
 			prestige = 2
