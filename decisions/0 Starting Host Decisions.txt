@@ -1,0 +1,206 @@
+political_decisions = {
+	give_host_powers = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = host_powers }
+			NOT = { has_global_flag = host_powers_taken }
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = host_powers
+			set_global_flag = host_powers_taken
+		}
+	}
+	remove_host_powers = {
+		potential = {
+			ai = no
+			has_country_flag = host_powers
+			has_global_flag = host_powers_taken
+		}
+		allow = {
+		}
+		effect = {
+			clr_country_flag = host_powers
+			clr_global_flag = host_powers_taken
+		}
+	}
+	start_zombies = {
+		potential = {
+			ai = no
+			has_country_flag = host_powers
+			NOT = { has_global_flag = start_zombies }
+			has_global_flag = enable_zombies
+		}
+		allow = {
+		}
+		effect = {
+			set_global_flag = start_zombies
+		}
+	}
+	show_options = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = show_options_on }
+			NOT = { 
+				month = 1
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_country_flag = host_powers
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = show_options_on
+		}
+	}
+	hide_options = {
+		potential = {
+			ai = no
+			has_country_flag = show_options_on
+			NOT = { 
+				month = 1
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_country_flag = host_powers
+		}
+		allow = {
+		}
+		effect = {
+			clr_country_flag = show_options_on
+		}
+	}
+	option_1_disable_albania_crossing = {
+		potential = {
+			ai = no
+			NOT = {
+				month = 1 
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_country_flag = show_options_on
+			NOT = { has_global_flag = disable_ablania_crossing }
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_global_flag = disable_ablania_crossing
+		}
+	}
+	option_1_enable_albania_crossing = {
+		potential = {
+			ai = no
+			NOT = { 
+				month = 1
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_country_flag = show_options_on
+			has_global_flag = disable_ablania_crossing
+		}
+		allow = {
+			
+		}
+		effect = {
+			clr_global_flag = disable_ablania_crossing
+		}
+	}
+	option_2_enable_zombies = {
+		potential = {
+			ai = no
+			NOT = {
+				month = 1
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_country_flag = show_options_on
+			NOT = { has_global_flag = enable_zombies }
+		}
+		allow = {
+		}
+		effect = {
+			set_global_flag = enable_zombies
+		}
+	}
+	option_2_disable_zombies = {
+		potential = {
+			ai = no
+			NOT = { 
+				month = 1
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_country_flag = show_options_on
+			has_global_flag = enable_zombies
+		}
+		allow = {
+			
+		}
+		effect = {
+			clr_global_flag = enable_zombies
+		}
+	}
+}

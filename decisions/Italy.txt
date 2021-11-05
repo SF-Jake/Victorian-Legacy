@@ -405,6 +405,7 @@ political_decisions = {
 	albanian_bridge = {
 		picture = albanian_bridge
 		potential = {
+			NOT = { has_global_flag = disable_ablania_crossing }
 			OR = {
 				SIC_756 = { owned_by = THIS }
 				TUR_853 = { owned_by = THIS }
