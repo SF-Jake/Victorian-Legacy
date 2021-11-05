@@ -1,0 +1,372 @@
+# keep as reference - correct syntax but not used
+song = {
+	name = "main-adayatthecourt.mp3" # the_time_to_run_finale.mp3
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-buckinghampalace.mp3"
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-countryside.mp3"
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-deathofprincealbert.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-europeanno1850.mp3"
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-forgodandqueen.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-handelthis.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-inventions.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-johanswaltz.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-newworldanthem.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-poverty.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-queensscherzo.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-russia1917.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "thecoronation_titletheme.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-theroyalmarch.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-wehaveindependence.mp3" 
+	chance = { factor = 0.5 }
+}
+
+song = {
+	name = "main-winter.mp3" 
+	chance = { factor = 0.5 }
+}
+
+# Germany Soundtrack
+song = {
+	name = "GER-german_soldiers_song.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				tag = GER
+				tag = PRU
+				tag = NGF
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = GER
+					tag = PRU
+					tag = NGF
+				}
+			}
+		}
+	}
+}
+song = {
+	name = "GER-Matrosenlied.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				tag = GER
+				tag = PRU
+				tag = NGF
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = GER
+					tag = PRU
+					tag = NGF
+				}
+			}
+		}
+	}
+}
+song = {
+	name = "GER-IneinemPolenstadtchen.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				tag = GER
+				tag = PRU
+				tag = NGF
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = GER
+					tag = PRU
+					tag = NGF
+				}
+			}
+		}
+	}
+}
+
+#Russia Soundtrack
+song = {
+	name = "RUS-March_of_The_Siberian_Riflemen.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = RUS
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = RUS
+			}
+		}
+	}
+}
+song = {
+	name = "RUS-Farewell_of_Slavianka.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = RUS
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = RUS
+			}
+		}
+	}
+}
+song = {
+	name = "RUS-1812_Overture.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = RUS
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = RUS
+			}
+		}
+	}
+}
+
+#UK Soundtrack
+song = {
+	name = "ENG-The_British_Grenadiers.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = ENG
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = ENG
+			}
+		}
+	}
+}
+song = {
+	name = "ENG-Colonel_Bogey.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = ENG
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = ENG
+			}
+		}
+	}
+}
+#Italy Soundtrack
+song = {
+	name = "ITA-National_Anthem __Marcia_Reale_d_'Ordinanza.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				tag = ITA
+				tag = SAR
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = ITA
+					tag = SAR
+				}
+			}
+		}
+	}
+}
+song = {
+	name = "ITA-anthem_of_the_Kingdom_of_Sardinia.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				tag = ITA
+				tag = SAR
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = ITA
+					tag = SAR
+				}
+			}
+		}
+	}
+}
+#USA Soundtrack
+song = {
+	name = "USA-Civil_War_Song_Battle_Cry_of_Freedom.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = USA
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = USA
+			}
+		}
+	}
+}
+#Japan Soundtrack
+song = {
+	name = "JAP-Battotai_Imperial_Japanese_March.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				tag = TKG
+				tag = JAP
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = TKG
+					tag = JAP
+				}
+			}
+		}
+	}
+}
+song = {
+	name = "JAP-Battotai_Imperial_Japanese_March.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				tag = TKG
+				tag = JAP
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = TKG
+					tag = JAP
+				}
+			}
+		}
+	}
+}
+song = {
+	name = "JAP-Yuki_no_Shingun-The_Snowy_March.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			OR = {
+				tag = TKG
+				tag = JAP
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = TKG
+					tag = JAP
+				}
+			}
+		}
+	}
+}
