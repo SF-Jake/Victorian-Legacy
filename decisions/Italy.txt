@@ -432,9 +432,10 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_accepted_culture = albanian
-			add_accepted_culture = greek
+			prestige = 50
 			change_tag = RME
+			add_accepted_culture = albanian
+			add_accepted_culture = greek			
 			AUS_736 = { add_core = RME }
 			AUS_770 = { add_core = RME }
 			AUS_780 = { add_core = RME }
