@@ -1810,3 +1810,18 @@ accepts_new_provinces = {
 	immigrant_attract = -.001
 	icon = 20
 }
+
+#Row Completion
+
+army_row_completion2 = {
+	leadership = 0.05
+}
+culture_row_completion3 = {
+	land_unit_start_experience = 5
+}
+commerce_row_completion4 = {
+	supply_consumption = -0.1
+}
+commerce_row_completion5 = {
+	pension_level = -0.5
+}

@@ -1,0 +1,56 @@
+country_event = {
+	id = 19000
+	title = "Army Row Completion 2"
+	
+	trigger = {
+		invention = army_row_completion2
+		NOT = { has_country_flag = army_row_completion2 }
+	}
+	
+	option = {
+		add_country_modifier = { name = army_row_completion2 duration = -1 }
+		set_country_flag = army_row_completion2
+	}
+}
+country_event = {
+	id = 19001
+	title = "Culture Row Completion 3"
+	
+	trigger = {
+		invention = culture_row_completion3
+		NOT = { has_country_flag = culture_row_completion3 }
+	}
+	
+	option = {
+		add_country_modifier = { name = culture_row_completion3 duration = -1 }
+		set_country_flag = culture_row_completion3
+	}
+}
+country_event = {
+	id = 19002
+	title = "Commerce Row Completion 4"
+	
+	trigger = {
+		invention = commerce_row_completion4
+		NOT = { has_country_flag = commerce_row_completion4 }
+	}
+	
+	option = {
+		add_country_modifier = { name = commerce_row_completion4 duration = -1 }
+		set_country_flag = commerce_row_completion4
+	}
+}
+country_event = {
+	id = 19003
+	title = "Commerce Row Completion 5"
+	
+	trigger = {
+		invention = commerce_row_completion5
+		NOT = { has_country_flag = commerce_row_completion5 }
+	}
+	
+	option = {
+		add_country_modifier = { name = commerce_row_completion5 duration = -1 }
+		set_country_flag = commerce_row_completion5
+	}
+}
