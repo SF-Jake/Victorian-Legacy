@@ -345,36 +345,17 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = italia_ulterior
-			729 = {
-				add_core = ITA
-			}
-			730 = {
-				add_core = ITA
-			}
-			731 = {
-				add_core = ITA
-			}
-			732 = {
-				add_core = ITA
-			}
-			733 = {
-				add_core = ITA
-			}
-			734 = {
-				add_core = ITA
-			}
-			735 = {
-				add_core = ITA
-			}			
-			736 = {
-				add_core = ITA
-			}
-			737 = {
-				add_core = ITA
-			}
-			2598 = {
-				add_core = ITA
-			}
+			729 = { add_core = ITA }
+			730 = { add_core = ITA }
+			731 = { add_core = ITA }
+			732 = { add_core = ITA }
+			733 = { add_core = ITA }
+			734 = { add_core = ITA }
+			735 = { add_core = ITA }			
+			736 = { add_core = ITA }
+			737 = { add_core = ITA }
+			2598 = { add_core = ITA }
+			769 = { add_core = ITA }
 		}
 	}
 
@@ -428,6 +409,42 @@ political_decisions = {
 			2666 = { secede_province = THIS }
 			add_core = 2666
 			set_country_flag = albanian_bridge
+		}
+	}
+	form_roman_empire = {
+		picture = form_roman_empire
+		potential = {
+			tag = ITA
+		}
+		
+		allow = {
+			revolution_n_counterrevolution = 1
+			AUS_736 = { owned_by = THIS }
+			AUS_770 = { owned_by = THIS }
+			AUS_780 = { owned_by = THIS }
+			TUR_853 = { owned_by = THIS }
+			TUR_805 = { owned_by = THIS }
+			TUR_832 = { owned_by = THIS }
+			GRE_837 = { owned_by = THIS }
+			GRE_826 = { owned_by = THIS }
+			TUR_823 = { owned_by = THIS }
+			EGY_843 = { owned_by = THIS }
+		}
+		
+		effect = {
+			add_accepted_culture = albanian
+			add_accepted_culture = greek
+			change_tag = RME
+			AUS_736 = { add_core = RME }
+			AUS_770 = { add_core = RME }
+			AUS_780 = { add_core = RME }
+			TUR_853 = { add_core = RME }
+			TUR_805 = { add_core = RME }
+			TUR_832 = { add_core = RME }
+			GRE_837 = { add_core = RME }
+			GRE_826 = { add_core = RME }
+			TUR_823 = { add_core = RME }
+			EGY_843 = { add_core = RME }
 		}
 	}
 }
