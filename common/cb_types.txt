@@ -3415,7 +3415,7 @@ conquest_small = {
 				THIS = { has_country_modifier = oriental_truce }
 			}
 		}
-		NOT = {	total_pops = 400000 }
+		NOT = {	total_pops = 500000 }
 
 
 		# only one state or unciv
@@ -3835,7 +3835,7 @@ demand_chinese_concession_casus_belli = {
 	always = no
 
 	can_use = {
-		war = no
+		war_with = THIS
 		OR = {
 			ai = yes
 			year = 1838
@@ -3856,7 +3856,7 @@ demand_chinese_concession_casus_belli = {
 			OR = {
 				civilized = yes
 				tag = TKG
-			tag = JAP
+				tag = JAP
 			}
 			
 		}
