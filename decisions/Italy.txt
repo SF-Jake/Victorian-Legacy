@@ -388,7 +388,9 @@ political_decisions = {
 		potential = {
 			NOT = { has_global_flag = disable_ablania_crossing }
 			OR = {
-				SIC_756 = { owned_by = THIS }
+				761 = { owned_by = THIS }
+				756 = { owned_by = THIS }
+				758 = { owned_by = THIS }
 				TUR_853 = { owned_by = THIS }
 			}
 			year = 1880
