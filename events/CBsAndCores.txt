@@ -7,6 +7,7 @@ province_event = {
 	trigger = {
 		NOT = { is_core = THIS }
 		controlled_by = THIS
+		owned_by = THIS
 		is_colonial = no
 		OR = {
 			AND = {
@@ -16,8 +17,8 @@ province_event = {
 					is_accepted_culture = yes
 				}
 			}
-			any_neighbor_province = {
-				is_core = THIS
+			AND = {
+				any_neighbor_province = { is_core = THIS }
 				controlled_by = THIS
 				OR = {
 					is_primary_culture = yes
@@ -29,7 +30,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 60
+		months = 1
 	}
 	
 	option = {
@@ -47,7 +48,7 @@ province_event = {
 					owner = { tag = THIS }
 				}
 			add_core = THIS
-			}	
+			}
 		}		
 	}
 }
