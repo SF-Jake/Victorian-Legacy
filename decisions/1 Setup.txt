@@ -2943,4 +2943,56 @@ political_decisions = {
 			2566 = { farmers = { reduce_pop = 2.5 } }
 		}
 	}
+
+	life_rating_buff = {
+		potential = {
+			tag = JAN
+		}
+		
+		allow = {
+			OR = {
+				#46-50 Life Rating
+				84 = { NOT = { has_province_modifier = 46_50_life_rating_buff }}
+				163 = { NOT = { has_province_modifier = 46_50_life_rating_buff }}
+				232 = { NOT = { has_province_modifier = 46_50_life_rating_buff }}
+				425 = { NOT = { has_province_modifier = 46_50_life_rating_buff }}
+				300 = { NOT = { has_province_modifier = 46_50_life_rating_buff }}
+				1008 = { NOT = { has_province_modifier = 46_50_life_rating_buff }}
+			}	
+		}
+		
+		effect = {
+			#46-50 Life Rating
+			84 = {
+				limit = { NOT = { has_province_modifier = 46_50_life_rating_buff } }
+				add_province_modifier = { name = 46_50_life_rating_buff duration = -1
+				}
+			}
+			163 = {
+				limit = { NOT = { has_province_modifier = 46_50_life_rating_buff } }
+				add_province_modifier = { name = 46_50_life_rating_buff duration = -1
+				}
+			}
+			232 = {
+				limit = { NOT = { has_province_modifier = 46_50_life_rating_buff } }
+				add_province_modifier = { name = 46_50_life_rating_buff duration = -1
+				}
+			}
+			425 = {
+				limit = { NOT = { has_province_modifier = 46_50_life_rating_buff } }
+				add_province_modifier = { name = 46_50_life_rating_buff duration = -1
+				}
+			}
+			300 = {
+				limit = { NOT = { has_province_modifier = 46_50_life_rating_buff } }
+				add_province_modifier = { name = 46_50_life_rating_buff duration = -1
+				}
+			}
+			1008 = {
+				limit = { NOT = { has_province_modifier = 46_50_life_rating_buff } }
+				add_province_modifier = { name = 46_50_life_rating_buff duration = -1
+				}
+			}
+		}
+	}
 }
