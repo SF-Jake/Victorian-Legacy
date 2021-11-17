@@ -232,7 +232,7 @@ industry_row_completion3 = {
 		}
 	}
 	effect = {
-		max_attrition = -1
+		reinforce_rate = 0.05
 	}
 	news = no
 }
