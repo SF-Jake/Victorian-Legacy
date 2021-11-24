@@ -3835,7 +3835,7 @@ demand_chinese_concession_casus_belli = {
 	always = no
 
 	can_use = {
-		war_with = THIS
+		NOT = { war_with = THIS }
 		OR = {
 			ai = yes
 			year = 1838
