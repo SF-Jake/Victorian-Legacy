@@ -42,12 +42,32 @@ political_decisions = {
 		}
 
 		effect = {
-			inherit = EIC
+			JAN = {
+				inherit = EIC
+			}
 			remove_country_modifier = crown_rule
 			set_country_flag = india_annexed
 			badboy = 30
 		}
 		ai_will_do = { factor = 0 }
+	}
+	annex_india2 = {
+		picture = east_india_company
+		potential = {
+			tag = JAN
+		}
+
+		allow = {
+		}
+
+		effect = {
+			any_owned = {
+				limit = {
+					NOT = { is_core = THIS }
+				}
+				secede_province = ENG
+			}
+		}
 	}
 
 	annex_canada = {

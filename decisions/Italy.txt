@@ -409,6 +409,7 @@ political_decisions = {
 			money = -250000
 			prestige = 25
 			2666 = { secede_province = THIS }
+			2666 = { remove_core = JAN }
 			add_core = 2666
 			set_country_flag = albanian_bridge
 		}
