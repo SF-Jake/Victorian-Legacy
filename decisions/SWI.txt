@@ -148,6 +148,7 @@ political_decisions = {
 		effect = {
 			badboy = 5
 			set_country_flag = swiss_neutrality_violator
+			set_global_flag = swiss_neutrality_violated
 			SWI = {
 				set_country_flag = neutrality_violated
 				relation = { who = THIS value = -200 }
@@ -166,11 +167,13 @@ political_decisions = {
 
 	partition_switzerland = {
 		potential = {
-			has_country_flag = swiss_neutrality_violator
 			NOT = { has_country_flag = partition_switzerland }
+			NOT = { tag = SWI }
+			has_global_flag = swiss_neutrality_violated
 		}
 
 		allow = {
+			ITA = { exists = yes }
 			SWI_604 = { owned_by = THIS }
 			SWI_603 = { owned_by = THIS }
 			SWI_605 = { owned_by = THIS }
@@ -186,14 +189,34 @@ political_decisions = {
 						tag = KUK
 						tag = DNB
 					}
-					NOT = { BAD_586 = { owned_by = GER } }					
+					NOT = { 
+						BAD_586 = { owned_by = GER }
+						BAD_586 = { owned_by = SGF } 
+					}		
 				}
 				country_event = { id=41005 days=1 }
 			}
 			any_country = {
 				limit = {
 					tag = GER
-					BAD_586 = { owned_by = GER }				
+					NOT = {
+						BAD_586 = { owned_by = AUS } 
+						BAD_586 = { owned_by = KUK } 
+						BAD_586 = { owned_by = DNB } 
+						BAD_586 = { owned_by = SGF }
+					}
+				}
+				country_event = { id=41005 days=1 }
+			}
+			any_country = {
+				limit = {
+					tag = SGF
+					NOT = {
+						BAD_586 = { owned_by = AUS }
+						BAD_586 = { owned_by = KUK }
+						BAD_586 = { owned_by = DNB }
+						BAD_586 = { owned_by = GER }
+					}
 				}
 				country_event = { id=41005 days=1 }
 			}
