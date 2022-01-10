@@ -381,6 +381,41 @@ elastic_defense_system = {
 	}
 }
 #trench_systems
+trench_systemsI = {
+	limit = { trench_systems = 1 }
+	chance = {
+		base = 3
+	}
+	effect = {
+		dig_in_cap = 1
+	}
+}
+trench_systemsII = {
+	limit = { trench_systems = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 3
+			invention = trench_systemsI
+		}
+	}
+	effect = {
+		dig_in_cap = 1
+	}
+}
+trench_systemsIII = {
+	limit = { trench_systems = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 3
+			invention = trench_systemsII
+		}
+	}
+	effect = {
+		dig_in_cap = 1
+	}
+}
 flexible_counterattacks = {
 	limit = { trench_systems = 1 }
 	chance = {
