@@ -4,22 +4,21 @@ tank = {
 	type = land
 	sprite = Tank
 	active = no
-	unit_type = infantry
-	primary_culture = yes
+	unit_type = cavalry
 	floating_flag = yes
 	
 	#Core Abilities
 	priority = 50
 	max_strength = 3
-	default_organisation = 30
-	maximum_speed = 4.00
+	default_organisation = 40
+	maximum_speed = 5.00 #was 4.00
 	weighted_value = 10.0
 
 
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		barrels = 20
+		barrels = 10
 		artillery = 10
 		canned_food = 10
 		fuel = 5
@@ -27,20 +26,20 @@ tank = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		barrels = 0.25
-		artillery = 0.15
-		canned_food = 0.15
-		fuel = 0.8
+		barrels = 0.08
+		artillery = 0.09
+		canned_food = 0.07
+		fuel = 0.055
 	}
 	
 
 	#Land Abilties
-	reconnaissance = 0
+	reconnaissance = 3
 	attack = 20
-	defence = 14
-	discipline = 1
-	support = 0.25
-	maneuver = 1
+	defence = 20
+	discipline = 1.3
+	support = 1.0
+	maneuver = 4
 	siege = 2
 	
 }
