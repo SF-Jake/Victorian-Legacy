@@ -359,6 +359,7 @@ political_decisions = {
 			change_tag = GER
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
+			add_accepted_culture = swiss_german
 			any_country = {
 				limit = {
 					is_culture_group = germanic

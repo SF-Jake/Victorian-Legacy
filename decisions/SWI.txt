@@ -170,6 +170,7 @@ political_decisions = {
 			NOT = { has_country_flag = partition_switzerland }
 			NOT = { tag = SWI }
 			has_global_flag = swiss_neutrality_violated
+			SWI = { exists = yes }
 		}
 
 		allow = {

@@ -583,6 +583,7 @@ country_event = {
 		set_country_flag = confederalism
 		government = hms_government
 		add_accepted_culture = union
+		add_accepted_culture = swiss_german
 		any_country = {
 			limit = {
 				is_culture_group = germanic

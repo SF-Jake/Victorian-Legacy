@@ -44,30 +44,6 @@ country_event = {
 		prestige = -5
 		SWI_603 = { secede_province = THIS add_core = THIS }
 	}
-
-}
-country_event = {
-
-	id = 41007
-	trigger = {
-		NOT = { has_country_flag = swiss_german_accepted }
-		has_country_flag = swiss_neutrality_violator
-		OR = {
-			tag = AUS
-			tag = KUK
-			tag = DNB
-		}
-	}
-
-	title = "Swiss German Accepted"
-	desc = ""
-	picture = "generic_congress"
-
-	option = {
-		name = "Agreed" 
-		add_accepted_culture = swiss_german
-		set_country_flag = swiss_german_accepted
-	}
 }
 
 
