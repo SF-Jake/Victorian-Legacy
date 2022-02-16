@@ -266,6 +266,8 @@ infiltration = {
 	year = 1910
 	cost = 21600
 	unciv_military = yes
+	activate_unit = tank
+	activate_building = barrel_factory 
 	
 	army_base = {
 		supply_consumption = 0.15
@@ -449,6 +451,7 @@ breech_loaded_rifles = {
 	area = light_armament
 	year = 1850
 	cost = 10800
+	activate_unit = guard
 
 	unciv_military = yes
 
@@ -1154,6 +1157,8 @@ aeronautics = {
 	area = military_science
 	year = 1903
 	cost = 21600
+	activate_unit = plane
+	activate_building = aeroplane_factory
 	
 	unciv_military = yes
 	

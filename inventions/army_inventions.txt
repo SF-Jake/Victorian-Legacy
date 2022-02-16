@@ -1348,6 +1348,45 @@ mob1 = {
 		mobilisation_economy_impact = 0.2
 	}
 }
+cuirassier_activation = {
+	limit = { military_staff_system = 1 }
+	chance = {
+		base = 100
+		modifier = {
+			factor = -100
+			not = { civilized = yes }
+		}
+	}
+	effect = {
+		activate_unit = cuirassier
+	}
+}
+dragoon_activation = {
+	limit = { military_staff_system = 1 }
+	chance = {
+		base = 100
+		modifier = {
+			factor = -100
+			not = { civilized = yes }
+		}
+	}
+	effect = {
+		activate_unit = dragoon
+	}
+}
+hussar_activation = {
+	limit = { military_staff_system = 1 }
+	chance = {
+		base = 100
+		modifier = {
+			factor = -100
+			not = { civilized = yes }
+		}
+	}
+	effect = {
+		activate_unit = hussar 
+	}
+}	
 
 #military_plans
 telegraph_coordination = {
@@ -1527,25 +1566,6 @@ logistical_calculations = {
 
 
 #barrel_experiments
-tank_experiments = {
-	limit = { barrel_experiments = 1 }
-	chance = {
-		base = 10
-		modifier = {
-			factor = 90
-			war = yes
-			war_countries = { invention = tank_experiments }
-		}
-		modifier = {
-			factor = -60
-			not = { combustion_engine = 1 }
-		}
-	}
-	effect = {
-		activate_unit = tank
-		activate_building = barrel_factory 
-	}
-}
 tank_exploits = {
 	limit = { barrel_experiments = 1 }
 	chance = {
@@ -1575,24 +1595,6 @@ tank_exploits = {
 }
 
 #aeronautics
-military_aviation = {
-	limit = { aeronautics = 1 }
-	chance = {
-		base = 10
-		modifier = {
-			factor = 20
-			war = yes
-			war_countries = { invention = military_aviation }
-		}
-		modifier = {
-			factor = -30
-			not = { invention = wright_n_langleys_aeroplanes }
-		}
-	}
-	effect = {
-		activate_unit = plane
-	}
-}
 early_interwar_bombers = {
 	limit = { aeronautics = 1 }
 	chance = {
