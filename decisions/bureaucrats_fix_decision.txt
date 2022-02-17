@@ -1,0 +1,17 @@
+political_decisions = {
+    bureaucrats_fix = {
+        potential = {
+            ai = no
+            NOT = { has_country_modifier = bureaucrats_fix_cooldown }
+        }
+        allow = { 
+        }
+        effect = {
+            country_event = 40404040
+            add_country_modifier = {
+                name = bureaucrats_fix_cooldown
+                duration = 3650
+            }
+        }
+    }
+}
