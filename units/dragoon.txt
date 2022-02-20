@@ -23,7 +23,7 @@ dragoon = {
 	#Building Costs
 	build_time = 120
 	build_cost = {
-		small_arms = 75 #10
+		small_arms = 10 #10
 		canned_food = 10
 		luxury_clothes = 5
 	}
@@ -38,11 +38,11 @@ dragoon = {
 	
 
 	#Land Abilties
-	reconnaissance = 2
+	reconnaissance = 1
 	attack = 1.75
 	defence = 4.75
 	discipline = 1.0
 	support = 0.0
-	maneuver = 4
+	maneuver = 5
 	
 }
