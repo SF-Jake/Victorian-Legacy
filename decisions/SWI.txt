@@ -167,10 +167,9 @@ political_decisions = {
 
 	partition_switzerland = {
 		potential = {
-			NOT = { has_country_flag = partition_switzerland }
+			NOT = { has_global_flag = partition_switzerland }
 			NOT = { tag = SWI }
 			has_global_flag = swiss_neutrality_violated
-			SWI = { exists = yes }
 		}
 
 		allow = {
@@ -182,7 +181,7 @@ political_decisions = {
 
 		effect = {
 			badboy = -15
-			set_country_flag = partition_switzerland
+			set_global_flag = partition_switzerland
 			any_country = {
 				limit = {
 					OR = {
