@@ -115,7 +115,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 	
 	option = {
@@ -141,7 +141,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 	
 	option = {
@@ -167,7 +167,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 	
 	option = {
@@ -193,7 +193,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 	
 	option = {
@@ -255,7 +255,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 
 	option = {
@@ -281,7 +281,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 
 	option = {
@@ -343,7 +343,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 
 	option = {
@@ -369,7 +369,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 
 	option = {
@@ -431,7 +431,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 
 	option = {
@@ -457,7 +457,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 
 	option = {
@@ -519,7 +519,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 
 	option = {
@@ -545,7 +545,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = deciding_grant
+		add_country_modifier = { name = grant_fix_cooldown duration = 7 }
 	}
 
 	option = {
