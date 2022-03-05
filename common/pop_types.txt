@@ -1218,10 +1218,8 @@ assimilation_chance =
 	}
 	modifier = {
 		factor = 0.04
-		NOT = { has_culture_core = yes }
 		country = { has_country_flag = assimilation_idea }
 	}
-
 }
 
 #general conversion mtth, same for all pops
