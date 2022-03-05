@@ -4752,10 +4752,6 @@ negotiated_transfer = {
 	construction_speed = 2.0
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1838
-		}
 		number_of_states = 2 # annex if you want their last state
 		OR = {
 			ai = no
