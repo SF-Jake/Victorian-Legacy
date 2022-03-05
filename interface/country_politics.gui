@@ -1168,7 +1168,7 @@ guiTypes = {
 				
 				iconType = {
 				 name = "politics_pensions"
-				 spriteType = "GFX_politics_pensions"
+				 spriteType = "GFX_budget_tariff_icon"
 				 position = { x = 6 y = 13 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -1536,7 +1536,6 @@ guiTypes = {
 					maxHeight = 29	
 				}
 			}
-			
 			windowType = {
 				name = "research_reform"
 				backGround =""
@@ -2156,7 +2155,7 @@ guiTypes = {
 	windowType = {
 		name = "decision_entry"
 		position = { x = 382 y = 20 }
-		size = { x=175 y=126 }
+		size = { x=175 y=100 }
 		moveable = 0
 		
 		iconType = {
@@ -2167,7 +2166,7 @@ guiTypes = {
 		}
 		instantTextBoxType = { 
 			name = "decision_name"
-			position = { x = 13 y = 5 }
+			position = { x = 10 y = 4 }
 			font = "vic_18"
 			text = "GOVERNMENT_NAME"	
 			maxWidth = 540
@@ -2179,37 +2178,40 @@ guiTypes = {
 			name ="decision_image"
 			spriteType = "GFX_no_decision_image"
 			position = { x= 12 y = 27 }
+			maxWidth = 465
+			maxHeight = 109
+			fixedsize = yes
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = { 
 			name = "decision_desc"
-			position = { x = 114 y = 27 }
+			position = { x = 84 y = 24 }#114, 27
 			font = "Arial12_black"
 			text = "lorem ipsum"	
-			maxWidth = 435
-			maxHeight = 130
+			maxWidth = 465
+			maxHeight = 109
 			fixedsize = yes
 		}
 		
 		iconType = {
 			name ="requirements"
 			spriteType = "GFX_decision_info"
-			position = { x= 462 y = 102 }
+			position = { x= 470 y = 81 }
 			Orientation = "UPPER_LEFT"
 		}
 	
 		guiButtonType = {
 			name = "ignore_checkbox"
 			quadTextureSprite ="GFX_checkbox_square"
-			position = { x = 480 y = 95 }
+			position = { x = 488 y = 74 }
 			Orientation = "UPPER_LEFT"
 		}
 	
 		guiButtonType = {
 			name = "make_decision"
 			quadTextureSprite ="GFX_decision_confirm"
-			position = { x = 509 y = 103 }
+			position = { x = 517 y = 82 } #x509 + 8 y77 + 5
 			Orientation = "UPPER_LEFT"
 		}
 	}

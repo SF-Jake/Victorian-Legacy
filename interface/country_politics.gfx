@@ -441,7 +441,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_no_decision_image"
-		texturefile = "gfx\\pictures\decisions\\noimage.tga"
+		texturefile = "gfx\\pictures\\decisions\\noimage.dds"
 		loadType = "INGAME"
 		norefcount = yes
 	}
