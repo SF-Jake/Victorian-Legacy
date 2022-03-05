@@ -1807,3 +1807,14 @@ bureaucrats_fix_cooldown = {
 grant_fix_cooldown = {
 	icon = 12
 }
+
+#South America Modifiers
+south_accepted = {
+	tax_efficiency = -0.02
+	icon = 18
+}
+
+north_accepted = {
+	tax_efficiency = -0.02
+	icon = 18
+}

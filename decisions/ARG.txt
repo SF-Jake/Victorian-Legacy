@@ -137,6 +137,7 @@ political_decisions = {
 
 		allow = {
 			state_n_government = 1
+			NOT = { vassal_of = SAS }
 		}
 
 		effect = {

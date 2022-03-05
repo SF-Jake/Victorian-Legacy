@@ -1,98 +1,39 @@
 political_decisions = {
-	central_american_acceptance = {
+	south_american_formation = {
+		picture = create_SAS
 		potential = {
-			OR = {
-				tag = CLM
-				tag = GCO
-			}
-			NOT = { has_country_flag = central_american_acceptance }
-			NOT = { has_country_flag = south_andean_acceptance_CLM }
+			NOT = { has_country_flag = SAS_formed }
+			tag = BRZ
 		}
-
 		allow = {
-			NOT = { exists = UCA }
-			UCA = {
+			nationalism_n_imperialism = 1
+			SAS = {
 				all_core = {
-					owned_by = THIS
-				}
-			}
-		}
-		effect = {
-			prestige = 20
-			set_country_flag = central_american_acceptance
-			UCA_2201 = { add_core = THIS }
-			UCA_2197 = { add_core = THIS }
-			UCA_2191 = { add_core = THIS }
-			UCA_2186 = { add_core = THIS }
-		}
-	}
-	central_american_acceptance_MEX = {
-		potential = {
-			tag = MEX
-			NOT = { has_country_flag = central_american_acceptance }
-		}
-
-		allow = {
-			NOT = { exists = UCA }
-			UCA = {
-				all_core = {
-					owned_by = THIS
-				}
-			}
-		}
-		effect = {
-			prestige = 20
-			set_country_flag = central_american_acceptance
-			UCA_2201 = { add_core = THIS }
-			UCA_2197 = { add_core = THIS }
-			UCA_2191 = { add_core = THIS }
-			UCA_2186 = { add_core = THIS }
-		}
-	}
-	south_andean_acceptance = {
-		potential = {
-			NOT = { has_country_flag = central_american_acceptance }
-			NOT = { has_country_flag = south_andean_acceptance_CLM }
-			OR = {
-				tag = CLM
-				tag = GCO
-			}
-		}
-
-		allow = {
-			PEU= {
-				all_core = {
-					OR ={
+					OR = {
 						owned_by = THIS
-						owner = { vassal_of = THIS }
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+						NOT = { CHL_2332 = { owned_by = THIS } }
 					}
 					
 				}
 			}
 		}
-
 		effect = {
-			set_country_flag = south_andean_acceptance_CLM
-		}
-	}
-
-	conquest_of_chile = {
-		potential = {
-			NOT = { has_country_flag = conquest_of_chile }
-			tag = LPL
-			exist = CHL
-		}
-
-		allow = {
-			state_n_government = 1
-		}
-
-		effect = {
-			set_country_flag = conquest_of_chile
-			war = {
-				target = CHL
-				attacker_goal = { casus_belli = conquest_small }
+			change_tag = SAS
+			set_country_flag = SAS_formed
+			any_country = {
+				limit = {
+					is_culture_group = south_american_cultures
+				}
+				country_event = { id=11101 days=0 }
 			}
+			prestige = 100
+			country_event = { id=19004 days=0 }
 		}
 	}
 	occupation_of_araucania = {

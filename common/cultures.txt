@@ -1752,6 +1752,10 @@ latin_american_cultures = {
 		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vásquez Vázquez Zayas
 		}
 	}
+}
+
+south_american_cultures = {
+	leader = southamerican
 	north_andean = {
 		color = {146 156 116}
 		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
@@ -1816,8 +1820,8 @@ latin_american_cultures = {
 		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk
 		}
 	}
+union = SAS
 }
-
 african_diaspora_cultures = {
 	leader = african
 	unit = AfricanGC
