@@ -1,0 +1,506 @@
+country_event = {
+	id = 69420
+	title = "Reannex Island"
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { secede_province = GHO }
+		3250 = { remove_core = THIS }
+	}
+}
+
+country_event = {
+	id = 69421
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = BAV }
+		release = BAV
+		BAV = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69422 days = 8 }
+	}
+}
+country_event = {
+	id = 69422
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = SIC }
+		release = SIC
+		SIC = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69423 days = 8 }
+	}
+}
+country_event = {
+	id = 69423
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = BEL }
+		release = BEL
+		BEL = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69424 days = 8 }
+	}
+}
+country_event = {
+	id = 69424
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = PAR }
+		release = PAR
+		PAR = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69425 days = 8 }
+	}
+}
+country_event = {
+	id = 69425
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = ANH }
+		release = ANH
+		ANH = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69426 days = 8 }
+	}
+}
+country_event = {
+	id = 69426
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = BAD }
+		release = BAD
+		BAD = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69427 days = 8 }
+	}
+}
+country_event = {
+	id = 69427
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = BRA }
+		release = BRA
+		BRA = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69428 days = 8 }
+	}
+}
+country_event = {
+	id = 69428
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = BRE }
+		release = BRE
+		BRE = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69429 days = 8 }
+	}
+}
+country_event = {
+	id = 69429
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = COB }
+		release = COB
+		COB = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69430 days = 8 }
+	}
+}
+country_event = {
+	id = 69430
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = DZG }
+		release = DZG
+		DZG = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69431 days = 8 }
+	}
+}
+country_event = {
+	id = 69431
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = FRM }
+		release = FRM
+		FRM = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69432 days = 8 }
+	}
+}
+country_event = {
+	id = 69432
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = HAM }
+		release = HAM
+		HAM = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69433 days = 8 }
+	}
+}
+country_event = {
+	id = 69433
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = HAN }
+		release = HAN
+		HAN = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69434 days = 8 }
+	}
+}
+country_event = {
+	id = 69434
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = HES }
+		release = HES
+		HES = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69435 days = 8 }
+	}
+}
+country_event = {
+	id = 69435
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = HEK }
+		release = HEK
+		HEK = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69436 days = 8 }
+	}
+}
+country_event = {
+	id = 69436
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = HOL }
+		release = HOL
+		HOL = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69437 days = 8 }
+	}
+}
+country_event = {
+	id = 69437
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = LIP }
+		release = LIP
+		LIP = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69438 days = 8 }
+	}
+}
+country_event = {
+	id = 69438
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = LUB }
+		release = LUB
+		LUB = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69439 days = 8 }
+	}
+}
+country_event = {
+	id = 69439
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = LUX }
+		release = LUX
+		LUX = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69440 days = 8 }
+	}
+}
+country_event = {
+	id = 69440
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = MEC }
+		release = MEC
+		MEC = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69441 days = 8 }
+	}
+}
+country_event = {
+	id = 69441
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = MEI }
+		release = MEI
+		MEI = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69442 days = 8 }
+	}
+}
+country_event = {
+	id = 69442
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = NAS }
+		release = NAS
+		NAS = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69443 days = 8 }
+	}
+}
+country_event = {
+	id = 69443
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = OLD }
+		release = OLD
+		OLD = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69444 days = 8 }
+	}
+}
+country_event = {
+	id = 69444
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = SAX }
+		release = SAX
+		SAX = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69445 days = 8 }
+	}
+}
+country_event = {
+	id = 69445
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = SCH }
+		release = SCH
+		SCH = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69446 days = 8 }
+	}
+}
+country_event = {
+	id = 69446
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = WEI }
+		release = WEI
+		WEI = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69447 days = 8 }
+	}
+}
+country_event = {
+	id = 69447
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = WUR }
+		release = WUR
+		WUR = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69448 days = 8 }
+	}
+}
+country_event = {
+	id = 69448
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = LOM }
+		release = LOM
+		LOM = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69449 days = 8 }
+	}
+}
+country_event = {
+	id = 69449
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = LUC }
+		release = LUC
+		LUC = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69450 days = 8 }
+	}
+}
+country_event = {
+	id = 69450
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = MOD }
+		release = MOD
+		MOD = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69451 days = 8 }
+	}
+}
+country_event = {
+	id = 69451
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = PAP }
+		release = PAP
+		PAP = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69452 days = 8 }
+	}
+}
+country_event = {
+	id = 69452
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = TRE }
+		release = TRE
+		TRE = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69453 days = 8 }
+	}
+}
+country_event = {
+	id = 69453
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = SAR }
+		release = SAR
+		SAR = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69454 days = 8 }
+	}
+}
+country_event = {
+	id = 69454
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = TUS }
+		release = TUS
+		TUS = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69455 days = 8 }
+	}
+}
+country_event = {
+	id = 69455
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = VEN }
+		release = VEN
+		VEN = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69456 days = 8 }
+	}
+}
+country_event = {
+	id = 69456
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = DEN }
+		release = DEN
+		DEN = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69457 days = 8 }
+	}
+}
+country_event = {
+	id = 69457
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = FIN }
+		release = FIN
+		FIN = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69458 days = 8 }
+	}
+}
+country_event = {
+	id = 69458
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = NOR }
+		release = NOR
+		NOR = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69459 days = 8 }
+	}
+}
+country_event = {
+	id = 69459
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = SWE }
+		release = SWE
+		SWE = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69460 days = 8 }
+	}
+}
+country_event = {
+	id = 69460
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = TUN }
+		release = TUN
+		TUN = { country_event = { id = 69420 days = 5 } }
+		country_event = { id = 69461 days = 8 }
+	}
+}
+country_event = {
+	id = 69461
+	title = ""
+	is_triggered_only = yes
+	
+	option = {
+		3250 = { add_core = EGY }
+		release = EGY
+		EGY = { country_event = { id = 69420 days = 5 } }
+		any_country = {
+			limit = { has_country_flag = host_powers }
+			clr_country_flag = Exiled_Troops_running
+		}
+	}
+}

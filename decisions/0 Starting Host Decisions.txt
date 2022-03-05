@@ -1,5 +1,6 @@
 political_decisions = {
 	give_host_powers = {
+		alert = no
 		potential = {
 			ai = no
 			NOT = { has_country_flag = host_powers }
@@ -13,6 +14,7 @@ political_decisions = {
 		}
 	}
 	remove_host_powers = {
+		alert = no
 		potential = {
 			ai = no
 			has_country_flag = host_powers
@@ -26,24 +28,10 @@ political_decisions = {
 		}
 	}
 	show_options = {
+		alert = no
 		potential = {
 			ai = no
 			NOT = { has_country_flag = show_options_on }
-			NOT = { 
-				month = 1
-				month = 2
-				month = 3
-				month = 4
-				month = 5
-				month = 6
-				month = 7
-				month = 8
-				month = 9
-				month = 10
-				month = 11
-				month = 12
-				year = 1837
-			}
 			has_country_flag = host_powers
 		}
 		allow = {
@@ -53,24 +41,10 @@ political_decisions = {
 		}
 	}
 	hide_options = {
+		alert = no
 		potential = {
 			ai = no
 			has_country_flag = show_options_on
-			NOT = { 
-				month = 1
-				month = 2
-				month = 3
-				month = 4
-				month = 5
-				month = 6
-				month = 7
-				month = 8
-				month = 9
-				month = 10
-				month = 11
-				month = 12
-				year = 1837
-			}
 			has_country_flag = host_powers
 		}
 		allow = {
@@ -80,6 +54,7 @@ political_decisions = {
 		}
 	}
 	option_1_disable_albania_crossing = {
+		alert = no
 		potential = {
 			ai = no
 			NOT = {
@@ -108,6 +83,7 @@ political_decisions = {
 		}
 	}
 	option_1_enable_albania_crossing = {
+		alert = no
 		potential = {
 			ai = no
 			NOT = { 
@@ -133,6 +109,99 @@ political_decisions = {
 		}
 		effect = {
 			clr_global_flag = disable_ablania_crossing
+		}
+	}
+	option_2_disable_crisis = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { 
+				month = 1
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_country_flag = show_options_on
+			has_country_flag = host_powers
+			NOT = { has_global_flag =  disable_crisis }
+		}
+		allow = {
+		}
+		effect = {
+			set_global_flag = disable_crisis
+			clr_global_flag = enable_crisis
+		}
+	}
+	option_2_enable_crisis = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { 
+				month = 1
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_global_flag = disable_crisis
+			has_country_flag = show_options_on
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_global_flag = enable_crisis
+			clr_global_flag = disable_crisis
+		}
+	}
+	option_3_fix_crisis = {
+		alert = no
+		potential = {
+			crisis_exists = yes
+			ai = no
+			has_country_flag = show_options_on
+			has_country_flag = host_powers
+		}
+		allow = {}
+		effect = {
+			any_country = {
+				limit = {
+					is_greater_power = yes
+					ai = yes
+				}
+				add_crisis_interest = yes
+			}
+		}
+	}
+	option_4_fix_exile_troops = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = show_options_on
+			has_country_flag = host_powers
+			NOT = { has_country_flag = Exiled_Troops_running }
+		}
+		allow = {}
+		effect = {
+			GHO = { country_event = 69421 }
+			set_country_flag = Exiled_Troops_running
 		}
 	}
 }
