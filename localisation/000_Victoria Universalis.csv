@@ -6,7 +6,7 @@ EVNTOPTB1;Placeholder;;;;;;;;;;;;x
 UNIT_BUILD_TIME_IW;$VAL$ days.;$VAL$ jours.;$VAL$ Tage.;;$VAL$ días.;;;;;;;;;x;
 TRIGMOD_HEADER;Our government reports that we have gained;;;;;;;;;;;;;;
 TRIGMODLOST_HEADER;Our government reports that we have lost;;;;;;;;;;;;;;
-POLITICS_DECISIONS2;§YYellow§g decisions are generic, §Ggreen§g decisions require a province selector, and §Wwhite§g decisions are historical.;;;;;;;;;;;;;;
+POLITICS_DECISIONS2;§YYellow§g = generic, §GGreen§g = province selector, §BBlue§g = National Value, and §WWhite§g = Historical;;;;;;;;;;;;;;
 revanchism;§WRevanchism;Revanchisme;Revanchismus;;Revanchismo;;;;;;;;;x;
 REVANCHISM_EXPLANATION;§gRevanchism, from the French word for 'revenge', is the yearning for the return of land lost to the nation. In love, war, and peace alike, our people will be willing to make greater sacrifices for the return of our sacred soil.\n§YEvery 5 points of revanchism raises maximum soldier % in a core province by 0.5% and mobilization pool by 0.5%.;;;;;;;;;;;;;;
 TECH_DAILY_RESEARCHPOINTS_TOOLTIP;$POPTYPE$ provide §G$VALUE$§W research points.\n (§Y$FRACTION$%§W of the population, $OPTIMAL$% is the minimum for full research points and 4% is optimal for literacy gain.);$POPTYPE$ donnent §G$VALUE$§W points de recherche.\n (§Y$FRACTION$%§W de la population, $OPTIMAL$% de manière optimale);$POPTYPE$ erbringen §G$VALUE$§W Forschungspunkte.\n (§Y$FRACTION$%§W von der Bevölkerung - $OPTIMAL$% ist optimal);;Los $POPTYPE$ proporcionan §G$VALUE$§W puntos de investigación.\n (§Y$FRACTION$%§W de la población, el valor óptimo es $OPTIMAL$%.);;;;;;;;x;;;
@@ -3385,5 +3385,68 @@ option_1_disable_albania_crossing_desc; ;;;;;;;;;x;;;;
 46_50_life_rating_buff;46-50 Life Rating;;;;;;;;;x;;;;
 bureaucrats_fix_cooldown;Non-Accepted Bureaucrats Fix Cooldown;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
 bureaucrats_fix_cooldown_desc;Non-Accepted Bureaucrats Fix Cooldown is 10 years.;;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;
-bureaucrats_fix_title;Non-Accepted Bureacrats 10 year cooldown;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+bureaucrats_fix_title;§YNon-Accepted Bureacrats (10 year cooldown);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 bureaucrats_fix_desc;Turns unaccepted bureacrats into artisans;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+pensions;Tariffs;;;;;;;;;;;;;;
+no_pensions;No Tariffs;;;;;;;;;;;;;;
+no_pensions_desc; ;;;;;;;;;;;;;;
+trinket_pensions;Trinket Tariffs ;;;;;;;;;;;;;;
+trinket_pensions_desc; ;;;;;;;;;;;;;;
+low_pensions;Low Tariffs;;;;;;;;;;;;;;
+low_pensions_desc; ;;;;;;;;;;;;;;
+acceptable_pensions;Medium Tariffs;;;;;;;;;;;;;;
+acceptable_pensions_desc; ;;;;;;;;;;;;;;
+good_pensions;Max Tariffs;;;;;;;;;;;;;;
+good_pensions_desc; ;;;;;;;;;;;;;;
+no_pensions_l;No Tariffs;;;;;;;;;;;;;;
+trinket_pensions_l;Trinket Tariffs ;;;;;;;;;;;;;;
+low_pensions_l;Low Tariffs;;;;;;;;;;;;;;
+acceptable_pensions_l;Medium Tariffs;;;;;;;;;;;;;;
+good_pensions_l;Max Tariffs;;;;;;;;;;;;;;
+EVTNAMEno_standard;Official Currencies Tech Flag;;;;;;;;;;;;x
+EVTDESCno_standard;This tech allows you to enact trinket tariffs.;;;;;;;;;;;;x
+no_standard_invented;Official Currencies Invented.;;;;;;;;;;;;
+EVTNAMEad_hoc;Ad-Hoc Money Tech Flag;;;;;;;;;;;;x
+EVTDESCad_hoc;This tech allows you to enact low tariffs.;;;;;;;;;;;;x
+ad_hoc_invented;Ad-Hoc Money Invented;;;;;;;;;;;;x
+EVTNAMEprivate_bank;Private Bank Tech Flag;;;;;;;;;;;;x
+EVTDESCprivate_bank;This tech allows you to enact medium tariffs.;;;;;;;;;;;;x
+private_bank_invented;Private Bank Invented;;;;;;;;;;;;x
+EVTNAMEcentral_bank;Central Bank Tech Flag;;;;;;;;;;;;x
+EVTDESCcentral_bank;This tech allows you to enact max tariffs.;;;;;;;;;;;;x
+central_bank_invented;Central Bank Invented;;;;;;;;;;;;x
+option_2_disable_crisis_title;Disable Crisis;;;;;;;;;;;;x
+option_2_disable_crisis_desc; ;;;;;;;;;;;;x
+option_2_enable_crisis_title;Enable Crisis;;;;;;;;;;;;x
+option_2_enable_crisis_desc; ;;;;;;;;;;;;x
+option_3_fix_crisis_title;Crisis Fix;;;;;;;;;;;;x
+option_3_fix_crisis_desc;To Fix a Crisis that may be stuck in the save (No idea if this works);;;;;;;;;;;;x
+SAS;Federation of South American States;;;;;;;;;;;;x
+SAS_ADJ;South American;;;;;;;;;;;;x
+SAS_anarcho_liberal_1;Bartholoméens;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_communist_1;Parti des Travailleurs;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_conservative_1;Parti des Planteurs;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_conservative_2;Centralisateurs;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_conservative_3;Conservateurs;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_fascist_1;La Croix du Sud;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_liberal_1;Equinoxéens;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_liberal_2;Parti fédéraliste;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_reactionary_1;Monarchistes;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_social_liberal;Parti Démocrate;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_socialist_1;Socialistes;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SAS_socialist_2;Cosmopolitains;Mauritanie;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+south_american_cultures;South American Cultures;;;;;;;;;;;;x
+south_accepted;South Accepted;;;;;;;;;;;;x
+north_accepted;North Accepted;;;;;;;;;;;;x
+south_american_formation_title;Form the South American Federation;;;;;;;;;;;;x
+south_american_formation_desc;It is time to unite the nation under one government as the South American Federation.;;;;;;;;;;;;x
+zuser_show_options_Y_title;[=]§YShow Yellow Option;;;;;;;;;;;;x
+zuser_show_options_Y_desc; ;;;;;;;;;;;;x
+zuser_hide_options_Y_title;[=]§YHide Yellow Option ;;;;;;;;;;;;x
+zuser_hide_options_Y_desc; ;;;;;;;;;;;;x
+zuser_show_options_G_title;[=]§GShow Green Option;;;;;;;;;;;;x
+zuser_show_options_G_desc; ;;;;;;;;;;;;x
+zuser_hide_options_G_title;[=]§GHide Green Option;;;;;;;;;;;;x
+zuser_hide_options_G_desc; ;;;;;;;;;;;;x
+option_4_fix_exile_troops_title;Fix Exiled Troops;;;;;;;;;;;;x
+option_4_fix_exile_troops_desc; ;;;;;;;;;;;;x

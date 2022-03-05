@@ -658,6 +658,7 @@ country_event = {
 		has_country_flag = lost_platine_war
 		NOT = { has_country_flag = buenos_aires_independence }
 		owns = 2348
+		NOT = { vassal_of = SAS }
 	}
 
 	option = {
