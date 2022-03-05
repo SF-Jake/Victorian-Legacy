@@ -1,6 +1,7 @@
 political_decisions = {
     bureaucrats_fix = {
         potential = {
+            has_country_flag = show_options_Y
             ai = no
             NOT = { has_country_modifier = bureaucrats_fix_cooldown }
         }

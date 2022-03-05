@@ -3,6 +3,7 @@ political_decisions = {
 		picture = grant
 		alert = no
 		potential = {
+			has_country_flag = show_options_Y
 			ai = no
 		}
 		allow = {
@@ -17,6 +18,7 @@ political_decisions = {
 		picture = craftsmen
 		alert = no
 		potential = {
+			has_country_flag = show_options_Y
 			ai = no
 			has_country_flag = disable_non_accepted_craftsmen
 		}
@@ -32,6 +34,7 @@ political_decisions = {
 		picture = craftsmen
 		alert = no
 		potential = {
+			has_country_flag = show_options_Y
 			ai = no
 			NOT = { has_country_flag = disable_non_accepted_craftsmen }
 		}

@@ -235,6 +235,7 @@ political_decisions = {
 		alert = no
 		picture = accept_trade
 		potential = {
+			has_country_flag = show_options_Y
 			ai = no
 			JAN = {
 				NOT = {
