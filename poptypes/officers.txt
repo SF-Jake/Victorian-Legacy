@@ -4543,98 +4543,25 @@ issues =
 			consciousness = 9
 		}
 	}
-	trinket_pensions = { 
-		factor = 1
-		modifier = {
-			factor = 0 
-			OR = {
-				NOT = { consciousness = 6 }
-				NOT = {
-					is_next_reform = trinket_pensions
-				}
-				NOT = { is_ideology_enabled = socialist }
-			}	
-		}
-		modifier = {
-			factor = 0.25
-			country = {
-				civilized = no
-			}
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 7
-		}	
-		modifier = {
-			factor = 1.25
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.25
-			consciousness = 9
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.50 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
-		}
-	}
 	low_pensions = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = low_pensions
+					has_country_flag = ad_hoc_invented
+					year = 1845
 				}
-				NOT = { is_ideology_enabled = socialist }
 			}	
 		}
 		modifier = {
+			factor = 3
+			is_next_reform = low_pensions
+			has_country_flag = ad_hoc_invented
+			year = 1845
+		}		
+			modifier = {
 			factor = 0.25
 			country = {
 				civilized = no
@@ -4643,7 +4570,7 @@ issues =
 		modifier = {
 			factor = 1.25
 			consciousness = 7
-		}	
+		}
 		modifier = {
 			factor = 1.25
 			consciousness = 8
@@ -4651,69 +4578,27 @@ issues =
 		modifier = {
 			factor = 1.25
 			consciousness = 9
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.50 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
 		}
 	}
 	acceptable_pensions = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = acceptable_pensions
+					has_country_flag = private_bank_invented 
+					year = 1850
 				}
-				NOT = { is_ideology_enabled = socialist }
 			}	
 		}
 		modifier = {
+			factor = 3
+			is_next_reform = acceptable_pensions
+			has_country_flag = private_bank_invented 
+			year = 1850
+		}	
+	modifier = {
 			factor = 0.25
 			country = {
 				civilized = no
@@ -4722,7 +4607,7 @@ issues =
 		modifier = {
 			factor = 1.25
 			consciousness = 7
-		}	
+		}
 		modifier = {
 			factor = 1.25
 			consciousness = 8
@@ -4730,69 +4615,27 @@ issues =
 		modifier = {
 			factor = 1.25
 			consciousness = 9
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.50 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
 		}
 	}
 	good_pensions = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = good_pensions
+					has_country_flag = central_bank_invented
+					year = 1860
 				}
-				NOT = { is_ideology_enabled = socialist }
 			}	
 		}
 		modifier = {
+			factor = 3
+			is_next_reform = good_pensions
+			has_country_flag = central_bank_invented
+			year = 1860
+		}		
+	modifier = {
 			factor = 0.25
 			country = {
 				civilized = no
@@ -4801,7 +4644,7 @@ issues =
 		modifier = {
 			factor = 1.25
 			consciousness = 7
-		}	
+		}
 		modifier = {
 			factor = 1.25
 			consciousness = 8
@@ -4810,54 +4653,7 @@ issues =
 			factor = 1.25
 			consciousness = 9
 		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.25 }
-		}	
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.50 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 0.75 }
-		}
-		modifier = {
-			factor = 0.25
-			not = { life_needs = 1 }
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			everyday_needs = 1
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.25
-		}	
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.50
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 0.75
-		}
-		modifier = {
-			factor = 1.25
-			luxury_needs = 1
-		}
+
 	}
 	trinket_health_care = { 
 		factor = 1.1

@@ -113,6 +113,77 @@ country_event = {
 		set_country_flag = electricity_invented
 	}
 }
+#Tariffs Events
+
+country_event = {
+	title = EVTNAMEno_standard
+	desc = EVTDESCno_standard
+	id = 91120
+	picture = technology_flag
+
+
+	trigger = {
+		no_standard = 1
+		NOT = { has_country_flag = no_standard_invented }
+	}
+	
+	option = {
+		name = "EVTOPTAtechnologyflag"
+		set_country_flag = no_standard_invented
+	}
+}
+country_event = {
+	title = EVTNAMEad_hoc
+	desc = EVTDESCad_hoc
+	id = 91121
+	picture = technology_flag
+
+
+	trigger = {
+		ad_hoc_money_bill_printing = 1
+		NOT = { has_country_flag = ad_hoc_invented }
+	}
+	
+	option = {
+		name = "EVTOPTAtechnologyflag"	
+		set_country_flag = ad_hoc_invented
+	}
+}
+country_event = {
+	title = EVTNAMEprivate_bank
+	desc = EVTDESCprivate_bank
+	id = 91122
+	picture = technology_flag
+
+
+	trigger = {
+		private_bank_money_bill_printing = 1
+		NOT = { has_country_flag = private_bank_invented }
+	}
+	
+	option = {
+		name = "EVTOPTAtechnologyflag"	
+		set_country_flag = private_bank_invented
+	}
+}
+country_event = {
+	title = EVTNAMEcentral_bank
+	desc = EVTDESCcentral_bank
+	id = 91123
+	picture = technology_flag
+
+
+	trigger = {
+		central_bank_money_bill_printing = 1
+		NOT = { has_country_flag = central_bank_invented }
+	}
+	
+	option = {
+		name = "EVTOPTAtechnologyflag"	
+		set_country_flag = central_bank_invented
+	}
+}
+
 
 #country_event = {
 #	id = 91106
