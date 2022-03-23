@@ -76,62 +76,78 @@ army = {
 	location = 322
 	regiment = {
 		name= "Svea Livgarde"
-		type = guard
+		type = hussar
 		home = 322
 	}
 
 	regiment = {
 		name= "Södermanlands Regemente"
-		type = infantry
+		type = artillery
 		home = 326
 	}
 
 	regiment = {
 		name= "Första Livgrenadjärregementet"
-		type = infantry
+		type = artillery
 		home = 325
 	}
 
 	regiment = {
 		name= "Upplands Regemente"
-		type = infantry
+		type = artillery
 		home = 324
 	}
 
 	regiment = {
 		name= "Västgöta Regemente"
-		type = infantry
+		type = artillery
 		home = 330
 	}
 
 	regiment = {
 		name= "Kalmar Regemente"
-		type = infantry
+		type = artillery
 		home = 332
 	}
+}
 
+army = {
+	name = "Svenska Armén"
+	location = 324
 	regiment = {
 		name= "Jönköpings Regemente"
-		type = infantry
+		type = hussar
 		home = 333
 	}
 
 	regiment = {
 		name= "Södra Skånska Infanteriregementet"
-		type = infantry
+		type = artillery
 		home = 334
 	}
 
 	regiment = {
 		name= "Kronprinsens Husarregemente"
-		type = hussar
+		type = artillery
 		home = 335
 	}
 
 	regiment = {
 		name= "Norrlands Dragonregemente"
-		type = dragoon
+		type = artillery
 		home = 321
+	}
+
+	regiment = {
+		name= "Norrlands Dragonregemente"
+		type = artillery
+		home = 322
+	}
+
+	regiment = {
+		name= "Norrlands Dragonregemente"
+		type = artillery
+		home = 323
 	}
 
 }

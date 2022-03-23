@@ -45,81 +45,105 @@ leader = {
 }
 
 army = {
-	name = "I Corpo do exército"
-	location = 2447
+	name = "Mob Stack"
+	location = 2429
 	regiment = {
 		name= "1. Brigada de Infantaria"
-		type = infantry
+		type = hussar
 		home = 2447
 	}
 
 	regiment = {
 		name= "2. Brigada de Infantaria"
-		type = infantry
+		type = artillery
 		home = 2447
 	}
 
 	regiment = {
 		name= "3. Brigada de Infantaria"
-		type = infantry
+		type = artillery
 		home = 2447
 	}
 
 	regiment = {
 		name= "4. Brigada de Infantaria"
-		type = infantry
+		type = artillery
 		home = 2447
 	}
 
 	regiment = {
 		name= "1. Brigada de Cavalaria"
-		type = cavalry
+		type = artillery
+		home = 2450
+	}
+
+	regiment = {
+		name= "5. Brigada de Infantaria"
+		type = artillery
 		home = 2450
 	}
 }
-
 army = {
-	name = "II Corpo do exército"
-	location = 2457
-	regiment = {
-		name= "5. Brigada de Infantaria"
-		type = irregular
-		home = 2450
-	}
-
+	name = "30 Stack"
+	location = 2461
 	regiment = {
 		name= "6. Brigada de Infantaria"
-		type = irregular
+		type = hussar
 		home = 2457
 	}
 	
 	regiment = {
 		name= "2. Brigada de Cavalaria"
-		type = cavalry
+		type = artillery
 		home = 2441
 	}
 
-}
-
-army = {
-	name = "III Corpo do exército"
-	location = 2424
 	regiment = {
 		name= "7. Brigada de Infantaria"
-		type = irregular
+		type = artillery
 		home = 2434
 	}
 
 	regiment = {
 		name= "8. Brigada de Infantaria"
-		type = irregular
+		type = artillery
 		home = 2429
 	}
 
 	regiment = {
 		name= "3. Brigada de Cavalaria"
-		type = cavalry
+		type = artillery
 		home = 2432
+	}
+
+	regiment = {
+		name= "3. Brigada de Cavalaria"
+		type = artillery
+		home = 2436
+	}
+
+	regiment = {
+		name= "3. Brigada de Cavalaria"
+		type = infantry
+		home = 2402
+	}
+
+	regiment = {
+		name= "3. Brigada de Cavalaria"
+		type = infantry
+		home = 2426
+	}
+
+	regiment = {
+		name= "3. Brigada de Cavalaria"
+		type = infantry
+		home = 2437
+	}
+
+	regiment = {
+		name= "3. Brigada de Cavalaria"
+		type = infantry
+		home = 2442
 	}
 }
 

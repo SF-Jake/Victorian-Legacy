@@ -311,308 +311,284 @@ leader = {
 }
 
 army = {
-	name = "1st Corps"
-	location = 300
+	name = "Mob Stack"
+	location = 291
 	regiment = {
-		name= "4th (The Queen's Own) Light Dragoons"
+		name= "Hussar"
 		type = hussar
 		home = 300
 	}
 
 	regiment = {
-		name= "The Royal Dragoons (1st Dragoons)"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 294
 	}
 
 	regiment = {
-		name= "11th (Prince Albert's Own) Hussars"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 291
 	}
 
 	regiment = {
-		name= "The Grenadier Guards"
-		type = guard
+		name= "Artillery"
+		type = artillery
 		home = 300
 	}
 
 	regiment = {
-		name= "The Coldstream Guards "
-		type = guard
+		name= "Artillery"
+		type = artillery
 		home = 300
 	}
 	
 	regiment = {
-		name= "The Scots Fusiliers Guards"
-		type = guard
+		name= "Artillery"
+		type = artillery
 		home = 271
 	}
-	
+}
+army = {
+	name = "Mob Stack"
+	location = 293
 	regiment = {
-		name= "The Black Watch Regiment"
-		type = guard
+		name= "Hussar"
+		type = hussar
 		home = 268
 	}
 
 	regiment = {
-		name= "2nd Regiment Royal Artillery"
+		name= "Artillery"
 		type = artillery
 		home = 295
 	}
 	
 	regiment = {
-		name= "8th Regiment Royal Artillery"
+		name= "Artillery"
 		type = artillery
 		home = 298
 	}
 	
 	regiment = {
-		name= "9th Regiment Royal Artillery"
+		name= "Artillery"
 		type = artillery
 		home = 284
 	}
-	
-}
 
-army = {
-	name = "2nd Division"
-	location = 288
 	regiment = {
-		name= "1.2nd Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 288
 	}
 
 	regiment = {
-		name= "2.2nd Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 287
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 295
 	regiment = {
-		name= "3.2nd Division"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 256
 	}
 
-}
-
-army = {
-	name = "3rd Division"
-	location = 273
 	regiment = {
-		name= "1.3rd Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 273
 	}
 
 	regiment = {
-		name= "2.3rd Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 266
 	}
 
 	regiment = {
-		name= "3.3rd Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 270
 	}
 
-}
-
-army = {
-	name = "4th Division"
-	location = 263
 	regiment = {
-		name= "1.4th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 263
 	}
 
 	regiment = {
-		name= "2.4th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 255
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 294
 	regiment = {
-		name= "3.4th Division"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 281
 	}
 
-}
-
-army = {
-	name = "5th Division"
-	location = 269
 	regiment = {
-		name= "1.5th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 269
 	}
 
 	regiment = {
-		name= "2.5th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 271
 	}
 
 	regiment = {
-		name= "3.5th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 267
 	}
 
-}
-
-army = {
-	name = "The Canada Garrison"
-	location = 46
-	
 	regiment = {
-		name= "Prince of Wales's Lancers"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 276
 	}
 	
 	regiment = {
-		name= "12th (The East Suffolk) Regiment"
-		type = infantry
+		name= "Artillery"
+		type = artillery
+		home = 277
+	}
+}
+army = {
+	name = "Mob Stack"
+	location = 303
+	regiment = {
+		name= "Hussar"
+		type = hussar
 		home = 277
 	}
 
 	regiment = {
-		name= "9th (The East Norfolk) Regiment"
-		type = infantry
-		home = 277
-	}
-
-	regiment = {
-		name= "The Welsh Regiment"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 274
 	}
 	
 	regiment = {
-		name= "Prince of Wales's Own Regiment"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 286
 	}
 	
 	regiment = {
-		name= "1st Regiment Royal Artillery"
+		name= "Artillery"
 		type = artillery
 		home = 262
 	}
 	
 	regiment = {
-		name= "3rd Regiment Royal Artillery"
+		name= "Artillery"
 		type = artillery
 		home = 292
 	}
 	
 	regiment = {
-		name= "6th Regiment Royal Artillery"
+		name= "Artillery"
 		type = artillery
 		home = 302
 	}
-	
+}
+army = {
+	name = "Mob Stack"
+	location = 302
 	regiment = {
-		name= "7th Regiment Royal Artillery"
-		type = artillery
+		name= "Hussar"
+		type = hussar
 		home = 303
 	}
 
-}
-
-army = {
-	name = "The South Africa Garrison"
-	location = 2096
-	
 	regiment = {
-		name= "The East Yorkshire Regiment"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 290
 	}
 
 	regiment = {
-		name= "52nd (Oxfordshire) Regiment"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 301
 	}
 
 	regiment = {
-		name= "10th Regiment Royal Artillery"
+		name= "Artillery"
 		type = artillery
 		home = 285
 	}
-		
-}
 
-army = {
-	name = "The Australia Garrison"
-	location = 2476
 	regiment = {
-		name= "1.8th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 299
 	}
 
 	regiment = {
-		name= "2.8th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 283
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 301
 	regiment = {
-		name= "3.8th Division"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 2217
 	}
-}
 
-army = {
-	name = "The Bombay Garrison"
-	location = 1297
 	regiment = {
-		name= "1.9th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 259
 	}
 
 	regiment = {
-		name= "2.9th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 280
 	}
 
 	regiment = {
-		name= "3.9th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 289
 	}
-}
 
-army = {
-	name = "The Calcutta Garrison"
-	location = 1256
 	regiment = {
-		name= "1.10th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 300
 	}
 
 	regiment = {
-		name= "2.10th Division"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 282
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 300
 	regiment = {
-		name= "3.10th Division"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 265
 	}
 }

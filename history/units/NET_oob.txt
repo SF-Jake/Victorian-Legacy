@@ -112,120 +112,112 @@ leader = {
 }
 
 army = {
-	name = "1e Divisie"
-	location = 375 
+	name = "Mob Stack"
+	location = 722
 	regiment = {
-		name= "1e Cavalerie Brigade"
-		type = cuirassier
+		name= "Hussar"
+		type = hussar
 		home = 375
 	}
 
 	regiment = {
-		name= "2e Cavalerie Brigade"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 383
 	}
 
 	regiment = {
-		name= "3e Cavalerie Brigade"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 380
 	}
 	
 	regiment = {
-		name= "4e Cavalerie Brigade"
-		type = hussar
+		name= "Artillery"
+		type = artillery
 		home = 382
 	}
 
 	regiment = {
-		name = "1e Infanterie Brigade"
-		type = infantry
+		name = "Artillery"
+		type = artillery
 		home = 376
 	}
 
 	regiment = {
-		name = "2e Infanterie Brigade"
-		type = infantry
+		name = "Artillery"
+		type = artillery
 		home = 376
 	}
-
+}
+army = {
+	name = "30 Stack"
+	location = 720
 	regiment = {
-		name = "3e Infanterie Brigade"
-		type = infantry
+		name = "Hussar"
+		type = hussar
 		home = 377
 	}
 
-}
-
-army = {
-	name = "2e Divisie"
-	location = 381
 	regiment = {
-		name = "4e Infanterie Brigade"
-		type = infantry
+		name = "Artillery"
+		type = artillery
 		home = 378
 	}
 
 	regiment = {
-		name = "5e Infanterie Brigade"
-		type = infantry
+		name = "Artillery"
+		type = artillery
 		home = 379
 	}
 
 	regiment = {
-		name = "6e Infanterie Brigade"
-		type = infantry
+		name = "Artillery"
+		type = artillery
 		home = 382
 	}
 
-}
-
-army = {
-	name = "3e Divisie"
-	location = 375
 	regiment = {
-		name = "7e Infanterie Brigade"
-		type = infantry
+		name = "Artillery"
+		type = artillery
 		home = 383
 	}
 
 	regiment = {
-		name = "8e Infanterie Brigade"
-		type = infantry
+		name = "Artillery"
+		type = artillery
 		home = 384
 	}
 
 	regiment = {
-		name = "9e Infanterie Brigade"
+		name = "Infantry"
 		type = infantry
 		home = 375
 	}
 	regiment = {
-		name = "1e Artillerie Brigade"
-		type = artillery
+		name = "Infantry"
+		type = infantry
 		home = 386
 	}
 	regiment = {
-		name = "2e Artillerie Brigade"
-		type = artillery
+		name = "Infantry"
+		type = infantry
 		home = 385
 	}	
 
-}
-
-army = {
-	name = "K.N.I.L."
-	location = 1413
 	regiment = {
-		name = "1e Indische Brigade"
+		name = "Infantry"
 		type = infantry
 		home = 1413
 	}
+}
 
+army = {
+	name = "Mob Stack"
+	location = 375 
 	regiment = {
 		name = "Banisaren Korps"
-		type = irregular
+		type = hussar
 		home = 1421
 	}
 }
