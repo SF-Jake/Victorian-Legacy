@@ -428,7 +428,7 @@ steel_factory = {
 	}
 
 	output_goods = steel
-	value = 17			#79.9
+	value = 18			#79.9
 	bonus = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.15
