@@ -38,7 +38,6 @@ political_decisions = {
 					OR = {
 						primary_culture = byelorussian
 						primary_culture = ukrainian
-						primary_culture = ugrian
 					}
 				}
 				primary_culture = estonian
@@ -143,26 +142,11 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
-						primary_culture = uzbek
-						primary_culture = tajik
 						primary_culture = kazak
-						primary_culture = kirgiz
 						primary_culture = tatar
 					}
 				}
 				primary_culture = turkmen
-			}
-			any_country = {
-				limit = {
-					primary_culture = lao
-				}
-				primary_culture = thai
-			}
-			any_country = {
-				limit = {
-					primary_culture = nanfaren
-				}
-				primary_culture = beifaren
 			}
 			TMR = { primary_culture = polynesian }
 			any_country = {
@@ -449,12 +433,6 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
-						has_pop_culture = khmer
-					}
-					literacy = 0.01
-				}
-				any_pop = {
-					limit = {
 						has_pop_culture = malay
 					}
 					literacy = 0.01
@@ -476,12 +454,6 @@ political_decisions = {
 						has_pop_culture = thai
 					}
 					literacy = 0.02
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = lao
-					}
-					literacy = 0.01
 				}
 				any_pop = {
 					limit = {

@@ -208,21 +208,4 @@ political_decisions = {
 			}
 		}
 	}
-
-	embrace_the_lao = {
-		picture = embrace_lao
-		potential = {
-			tag = SIA
-			NOT = { accepted_culture = lao }
-			LUA = { all_core = { owned_by = THIS } }
-		}
-
-		allow = {
-			nationalism_n_imperialism = 1
-		}
-
-		effect = {
-			add_accepted_culture = lao
-		}
-	}
 }

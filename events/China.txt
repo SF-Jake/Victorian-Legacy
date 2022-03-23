@@ -21,13 +21,7 @@ country_event = {
 		}
 		NOT = { has_global_flag = the_dragon_wakes }
 		}
-
-	option = {				
-		name = "EVTOPTA90900"
-		set_global_flag = the_dragon_wakes
-		remove_country_modifier = early_qing_reforms 
-		remove_country_modifier = late_qing_reforms 
-		any_pop = { reduce_pop = 0.30 }
+	immediate = {
 		any_country = {
 			limit = {
 				NOT = {
@@ -38,6 +32,13 @@ country_event = {
 			}
 			country_event = { id=90901 days=0 }
 		}
+	}	
+	option = {				
+		name = "EVTOPTA90900"
+		set_global_flag = the_dragon_wakes
+		remove_country_modifier = early_qing_reforms 
+		remove_country_modifier = late_qing_reforms 
+		any_pop = { reduce_pop = 0.40 }
 		prestige = 10
 		any_country = {
 			limit = {
@@ -652,7 +653,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
 			limit = {
@@ -797,7 +797,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
 			limit = {
@@ -943,7 +942,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
 			limit = {
@@ -1089,7 +1087,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
 			limit = {
@@ -1234,7 +1231,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
 			limit = {
@@ -1378,7 +1374,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
 			limit = {
@@ -1500,7 +1495,6 @@ country_event = {
 				tag = KMT
 			}
 			primary_culture = beifaren
-			add_accepted_culture = nanfaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -1523,7 +1517,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
 			limit = {
@@ -1667,7 +1660,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
 			limit = {
@@ -1789,7 +1781,6 @@ country_event = {
 				tag = KMT
 			}
 			primary_culture = beifaren
-			add_accepted_culture = nanfaren
 			add_accepted_culture = mongol
 			define_general = {
 				name = "§RChiang Kai-shek§W"
@@ -1813,7 +1804,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
 			limit = {
@@ -1935,7 +1925,6 @@ country_event = {
 				tag = KMT
 			}
 			primary_culture = beifaren
-			add_accepted_culture = nanfaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -1992,7 +1981,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		add_accepted_culture = manchu
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
@@ -2138,7 +2126,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		add_accepted_culture = manchu
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
@@ -2285,7 +2272,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		add_accepted_culture = manchu
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
@@ -2432,7 +2418,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		add_accepted_culture = manchu
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
@@ -2578,7 +2563,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		add_accepted_culture = manchu
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
@@ -2723,7 +2707,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		add_accepted_culture = manchu
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
@@ -2846,7 +2829,6 @@ country_event = {
 				tag = KMT
 			}
 			primary_culture = beifaren
-			add_accepted_culture = nanfaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -2869,7 +2851,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		add_accepted_culture = manchu
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
@@ -3014,7 +2995,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		add_accepted_culture = manchu
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
@@ -3137,7 +3117,6 @@ country_event = {
 				tag = KMT
 			}
 			primary_culture = beifaren
-			add_accepted_culture = nanfaren
 			add_accepted_culture = mongol
 			define_general = {
 				name = "§RChiang Kai-shek§W"
@@ -3161,7 +3140,6 @@ country_event = {
 		political_reform = first_past_the_post
 		political_reform = underground_parties
 		primary_culture = beifaren
-		add_accepted_culture = nanfaren
 		add_accepted_culture = manchu
 		MCK = { add_accepted_culture = beifaren }
 		any_owned = {
@@ -3284,7 +3262,6 @@ country_event = {
 				tag = KMT
 			}
 			primary_culture = beifaren
-			add_accepted_culture = nanfaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -3316,7 +3293,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA90811"
 		change_tag = KMT
-		add_accepted_culture = nanfaren
 		add_accepted_culture = beifaren
 		capital = 2221
 	}
@@ -3345,7 +3321,6 @@ country_event = {
 		change_tag = CHI
 		primary_culture = beifaren
 		remove_accepted_culture = beifaren
-		add_accepted_culture = nanfaren
 		capital = 1612
 	}
 }

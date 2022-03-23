@@ -683,12 +683,6 @@ east_slavic = {
                                     Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
 									radicalism = 10
         }
-	ugrian = {  
-		color = {60 160 160}
-                  first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
-
-                  last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	}
 }
 
 baltic = {
@@ -951,17 +945,6 @@ iranian_turanian = {
 			Shirazi Tabrizi Tahmasebi Zahedi
 			}
 	}
-	uzbek = {
-		color = {152 67 56}
-		first_names = {
-			"Abd al-Ahad" "Abd al-Karim" "Abu al-Ghazi" Abulfayz Alimqul Aqim "Allah Quli" Haydar Husayn 
-			Iltazar Isfandiyar Jahangir Khudayar Madali Mahmud Muhammad Murad 
-			Nasrallah "Nasir al-Din" Nurali Pulad Qilich Qutlugh Rahim Shir Umar Yadigar Yaqub 
-			}
-		last_names = {
-			Bahadur Bukhari Khan
-			}
-	}
 	kazak = {
 		color = {83 102 46}
 		first_names = {
@@ -973,27 +956,6 @@ iranian_turanian = {
 			}
 		last_names = {
 			Beg  Khan "Konanbai uli" "Kutebar uli" "Muhammad uli" "Qasim uli" 
-			}
-	}
-	kirgiz = {
-		color = {62 73 41}
-		first_names = {
-			Askar Chingiz Ishim Kasim Kurman Jangir Murat Nasiridin Sadyk Vali
-			}
-		last_names = {
-			Beg 
-			}
-	}
-	tajik = {
-		color = {122 127 111}
-			first_names = {
-			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
-			Mahmoud Mahsud Mirza Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
-			Nadir "Naser ed-Din" Nosret Reza
-			}
-		last_names = {
-			Khan
 			}
 	}
 	uighur = {
@@ -1166,16 +1128,6 @@ southeast_asian = {
 		}
 		radicalism = 5
 	}
-	khmer = {
-		color = {220 86 34}
-		first_names = { Ang Sisowath Norodom Pok Satha Thommo 
-			
-		}
-		
-		last_names = { Eng Chan Em Snguon Mey Reachea Tong Non
-               
-		}
-	}
 	malay = {
 		color = {85 78 89}
 		first_names = { Shahabuddin Riayat Abdullah Jaafar Safiuddin Muhammad Ali Al-Mukammal Ismail Muabidin Tuanku Yusuf Idris Jalil Isandar Aziz
@@ -1223,16 +1175,6 @@ southeast_asian = {
 		}
 		
 		last_names = { Suriyawongse Saovabha Chichalerm "Praya Siri" Nitithada Phonphayuhasena
-               
-		}
-	}
-	lao = {
-		color = {90 45 154}
-		first_names = { Manthaturath Anurutha Unkeo Sukha Chantha Unkham Sakkarin Sisavang Setthathirath Nanthasen Ong Phraya
-			
-		}
-		
-		last_names = { Vong Kuman Söm Bun Supho Long Intharavong Anuvong
                
 		}
 	}
@@ -1352,13 +1294,6 @@ east_asian = {
 	}
 	beifaren = {#North Han
 		color = {145 30 30}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
-		}
-		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
-		}
-	}
-	nanfaren = {#South Han
-		color = {181 106 106}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
