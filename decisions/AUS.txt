@@ -6,7 +6,11 @@ political_decisions = {
 			NOT = { has_country_flag = danubian_federation_formed }
 		}
 		allow = {
-			has_unclaimed_cores = no
+			663 = { owned_by = THIS }
+			625 = { owned_by = THIS }
+			619 = { owned_by = THIS }
+			771 = { owned_by = THIS }
+			641 = { owned_by = THIS }
 			vote_franschise = universal_voting
 			upper_house_composition = population_equal_weight
 			public_meetings = yes_meeting
