@@ -2,7 +2,10 @@ political_decisions = {
 	the_golden_law = {
 		picture = golden_law
 		potential = {
-			tag = BRZ
+			OR = {
+				tag = BRZ
+				tag = SAS
+			}
 			OR = {
 				government = hms_government
 				government = democracy

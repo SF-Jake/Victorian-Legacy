@@ -17,7 +17,16 @@ political_decisions = {
 								vassal_of = THIS
 							}
 						}
-						NOT = { CHL_2332 = { owned_by = THIS } }
+						NOT = { 
+							CHL_2332 = { owned_by = THIS } 
+							PRG_2343 = { owned_by = THIS } 
+							ARG_2362 = { owned_by = THIS } 
+							ARG_2384 = { owned_by = THIS } 
+							ARG_2391 = { owned_by = THIS } 
+							ARG_2398 = { owned_by = THIS }
+							2353 = { owned_by = THIS }
+							2382 = { owned_by = THIS }
+						}
 					}
 					
 				}
@@ -32,7 +41,7 @@ political_decisions = {
 				}
 				country_event = { id=11101 days=0 }
 			}
-			prestige = 100
+			prestige = 25
 			country_event = { id=19004 days=0 }
 		}
 	}
