@@ -1,6 +1,6 @@
 owner = HND
 controller = HND
-
+add_core = NAG
 add_core = HND
 trade_goods = dye
 life_rating = 32
@@ -8,7 +8,4 @@ life_rating = 32
 	owner = EIC
 	controller = EIC
 	colonial = 0
-}
-1913.1.1 = {
-	trade_goods = cotton
 }

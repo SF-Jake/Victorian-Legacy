@@ -276,7 +276,11 @@ political_decisions = {
 	embrace_nepali = {
 		picture = gurkha
 		potential = {
-			tag = EIC
+			OR = {
+				tag = EIC
+				tag = HND
+				tag = MUG
+			}
 			is_vassal = no
 			NOT = { has_country_flag = embrace_nepali }
 		}
@@ -320,6 +324,65 @@ political_decisions = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	accept_dravidian = {
+		picture = "bolan_pass"
+		potential = {
+			OR = {
+				tag = MUG
+				tag = HND
+			}
+			NOT = { has_country_flag = accept_dravidian }
+			ai = no
+		}
+
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+		}
+
+		effect = {
+			set_country_flag = accept_dravidian
+			add_accepted_culture = dravidian
+		}
+	}
+	accept_burmese = {
+		picture = "indochina"
+		potential = {
+			tag = HND
+			NOT = { has_country_flag = accept_burmese }
+			ai = no
+		}
+
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			analytic_philosophy = 1
+		}
+
+		effect = {
+			set_country_flag = accept_burmese
+			add_accepted_culture = burmese
+		}
+	}
+	accept_pashtun = {
+		picture = "afghan_jezail"
+		potential = {
+			tag = MUG
+			NOT = { has_country_flag = accept_pashtun }
+			ai = no
+		}
+
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			analytic_philosophy = 1
+		}
+
+		effect = {
+			set_country_flag = accept_pashtun
+			add_accepted_culture = pashtun
 		}
 	}
 }

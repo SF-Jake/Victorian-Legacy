@@ -86,6 +86,8 @@ chinese_civil_war
 chinese_civil_war_acquire_state
 european_acquire_african_state
 european_african_conquest
+european_acquire_indian_state
+european_indian_conquest
 free_balkans
 platine_war
 paraguayan_war
@@ -4376,6 +4378,79 @@ european_african_conquest = {
 	}
 
 	badboy_factor = 0.5
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
+#Indian CBs
+european_indian_conquest = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		OR = {
+			ai = yes
+			year = 1838
+		}
+		has_global_flag = india_collapse
+		THIS = {
+			NOT = { has_country_flag = jan_mayen }
+		}
+		THIS = {
+			civilized = yes
+		}
+		OR = {
+			AND = {
+				has_country_flag = indian
+				civilized = no
+			}
+			AND = {
+				has_country_flag = indian
+				civilized = yes
+				THIS = { ai = yes }
+			}
+		}
+		NOT = { number_of_states = 5 }
+		NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+				tag = SWI
+			}
+		}
+		OR = {
+			num_of_ports = 1
+			neighbour = THIS
+		}
+	}
+
+	badboy_factor = 0.4
 	prestige_factor = 5
 	peace_cost_factor = 1
 	penalty_factor = 1

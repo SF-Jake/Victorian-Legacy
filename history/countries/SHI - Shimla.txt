@@ -1,8 +1,7 @@
 1836.1.2 = {
 	capital = 1235
 	primary_culture = nepali
-	culture = panjabi
-	culture = marathi
+	culture = indo-aryan
 	religion = hindu
 	government = absolute_monarchy
 	plurality = 0.0
@@ -53,13 +52,13 @@
 1836.1.1 = {
 	capital = 1235
 	primary_culture = nepali
-	culture = panjabi
-	culture = marathi
+	culture = indo-aryan
 	religion = hindu
 	government = absolute_monarchy
 	plurality = 0.0
 	nationalvalue = nv_order
 	literacy = 0.02
+	set_country_flag = indian
 
 	# Political Reforms
 	slavery = no_slavery
