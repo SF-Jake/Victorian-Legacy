@@ -63,8 +63,9 @@ country_event = {
 	major = yes
 
 	trigger = {
-		exists = yes
 		tag = EIC
+		ai = no
+		exists = yes
 		NOT = { has_country_flag = became_gp }
 		NOT = { vassal_of = ENG }
 		NOT = { owns = 2133 }
@@ -73,7 +74,10 @@ country_event = {
 	}
 
 	immediate = {
+		set_global_flag = india_collapse
 		set_country_flag = dismantling_eic
+		inherit = HND
+		any_pop = { reduce_pop = 0.95 }
 	}
 
 	option = {
@@ -92,13 +96,138 @@ country_event = {
 			limit = {
 				NOT = { tag = HND }
 				NOT = { tag = PRO }
+				NOT = { tag = MUG }
 				any_core = {
 					owned_by = THIS
 				}
 			}
 			country_event = { id = 90036 days = 0 }
 		}
-		ENG = {	country_event = { id = 36961 days = 0 }	}
+		country_event = { id = 90051 days = 1 }
+	}
+}
+
+#After India Breakup Player Event
+country_event = {
+	id = 90051
+	title = "What next for India?"
+	desc = ""
+	picture = "british_india"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Become the Mughal Empire"
+		capital = 1236
+		set_country_flag = india_free
+		clr_country_flag = embraced_britishism
+		change_tag = MUG
+		primary_culture = indo-aryan
+		#add_accepted_culture = dravidian
+		#add_accepted_culture = pashtun
+		HND = {
+			all_core = {
+				add_core = MUG
+				remove_core = HND
+			}	
+		}
+		PNJ = {
+			all_core = {
+				add_core = MUG
+			}	
+		}
+		NEP_1327 = { add_core = MUG	}
+		KAL_1221 = { add_core = MUG }
+		AFG_1214 = { add_core = MUG }
+		AFG_1217 = { add_core = MUG }
+	}
+	option = {
+		name = "Become India"
+		capital = 1236
+		set_country_flag = india_free
+		clr_country_flag = embraced_britishism
+		change_tag = HND
+		primary_culture = indo-aryan
+		#add_accepted_culture = dravidian
+		#add_accepted_culture = burmese
+		MUG = {
+			all_core = {
+				remove_core = MUG
+			}
+		}
+		PNJ = {
+			all_core = {
+				add_core = HND
+			}	
+		}
+		BUR = {
+			all_core = {
+				add_core = HND
+			}	
+		}
+		NEP_1327 = { add_core = HND	}
+	}
+}
+
+#After India Breakup Ai Event
+country_event = {
+	id = 90052
+	title = "What next for India?"
+	desc = ""
+
+	trigger = {
+		tag = EIC
+		ai = yes
+		exists = yes
+		NOT = { has_country_flag = became_gp }
+		NOT = { vassal_of = ENG }
+		NOT = { owns = 2133 }
+		NOT = { is_greater_power = yes }
+		NOT = { has_country_flag = dismantling_eic }
+	}
+
+	immediate = {
+		set_global_flag = india_collapse
+		set_country_flag = dismantling_eic
+		inherit = HND
+	}
+
+	option = {
+		name = "Welp Im dead"
+		any_owned = {
+			limit = { is_core = KRN }
+			secede_province = KRN
+		}
+		any_country = {
+			limit = {
+				vassal_of = THIS
+			}
+			country_event = { id = 90035 days = 0 }
+		}
+		any_country = {
+			limit = {
+				NOT = { tag = HND }
+				NOT = { tag = PRO }
+				NOT = { tag = MUG }
+				any_core = {
+					owned_by = THIS
+				}
+			}
+			country_event = { id = 90036 days = 0 }
+		}
+		1269 = { add_core = IND secede_province = IND }
+		1270 = { add_core = IND secede_province = IND }
+		1266 = { add_core = JAS secede_province = JAS }
+		1267 = { add_core = JAS secede_province = JAS }
+		1264 = { add_core = JAS secede_province = JAS }
+		1238 = { add_core = SHI secede_province = SHI }
+		1237 = { add_core = PNJ secede_province = PNJ }
+		1239 = { add_core = AWA secede_province = AWA }
+		1236 = { add_core = AWA secede_province = AWA }
+		1240 = { add_core = AWA secede_province = AWA }
+		1268 = { add_core = AWA secede_province = AWA }
+		1241 = { add_core = BUN secede_province = BUN }
+		1320 = { add_core = BUR secede_province = BUR }
 	}
 }
 
@@ -226,6 +355,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+		NOT = { has_country_flag = india_free }
 		NOT = { has_country_flag = sepoy_rebellion }
 		tag = EIC
 		year = 1857
@@ -251,6 +381,7 @@ country_event = {
 			}
 		}
 		HND = {
+			government = democracy
 			leadership = 400
 			country_event = { id = 90041 days = 1 }
 			add_country_modifier = { name = indian_isolationism duration = -1 }

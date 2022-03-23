@@ -478,6 +478,7 @@ release_vassals = {
 		picture = fake_war
 		alert = no
 		potential = {
+			has_country_flag = show_options_Y
 			ai = no
 			num_of_vassals = 1
 			is_vassal = no
@@ -5519,7 +5520,6 @@ zscorch_earth = {
 		picture = attract_immigrants
 		alert = no
 		potential = {
-			has_country_flag = show_options_G
 			ai = no
 			has_country_flag = domestic_idea
 			OR = {
@@ -5587,35 +5587,43 @@ zscorch_earth = {
 			has_country_flag = show_options_G
 			NOT = {
 				OR = {
-					government = fascist_dictatorship
-					government = absolute_monarchy
-					government = proletarian_dictatorship
+					AND = {
+						government = fascist_dictatorship
+						ruling_party_ideology = fascist
+					}
+					AND = {
+						government = absolute_monarchy
+						ruling_party_ideology = reactionary
+					}
+					
+					AND = {
+						government = proletarian_dictatorship
+						ruling_party_ideology = communist
+					}
+					
 				}
 			}
-			NOT = {
-				OR = {
-					ruling_party_ideology = communist
-					ruling_party_ideology = reactionary
-					ruling_party_ideology = fascist
-				}
-			}
-		}	
+		}
 		allow = {
 			has_country_flag = dont_use_this
 			OR = {
-				ruling_party_ideology = communist
-				ruling_party_ideology = reactionary
-				ruling_party_ideology = fascist
-			}
-			OR = {
-				government = fascist_dictatorship
-				government = absolute_monarchy
-				government = proletarian_dictatorship
+				AND = {
+					government = fascist_dictatorship
+					ruling_party_ideology = fascist
+				}
+				AND = {
+					government = absolute_monarchy
+					ruling_party_ideology = reactionary
+				}
+				
+				AND = {
+					government = proletarian_dictatorship
+					ruling_party_ideology = communist
+				}
+				
 			}
 			NOT = { has_country_modifier = genocide_cooldown }
-			any_owned_province = { 
-				has_building = province_selector
-			}
+			NOT = { any_owned_province = { has_building = province_selector }}
 		}
 		effect = {
 		}

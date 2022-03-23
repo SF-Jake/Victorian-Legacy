@@ -184,24 +184,9 @@ political_decisions = {
 			any_country = {
 				limit = {
 					is_greater_power = yes
-					ai = yes
 				}
 				add_crisis_interest = yes
 			}
-		}
-	}
-	option_4_fix_exile_troops = {
-		alert = no
-		potential = {
-			ai = no
-			has_country_flag = show_options_on
-			has_country_flag = host_powers
-			NOT = { has_country_flag = Exiled_Troops_running }
-		}
-		allow = {}
-		effect = {
-			GHO = { country_event = 69421 }
-			set_country_flag = Exiled_Troops_running
 		}
 	}
 }
