@@ -7,6 +7,7 @@ political_decisions = {
 		}
 		
 		allow = {
+			ai = yes
 			war = no
 			NOT = { has_country_modifier = national_confusion }
 		}
@@ -47,6 +48,7 @@ political_decisions = {
 		}
 		
 		allow = {
+			ai = yes
 			war = no
 			NOT = { has_country_modifier = national_confusion }
 		}

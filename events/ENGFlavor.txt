@@ -2117,3 +2117,20 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 40002
+	title = "return india"
+	desc = ""
+
+	is_triggered_only = yes
+
+	effect = {
+		any_owned = {
+			limit = {
+				NOT = { is_core = THIS }
+			}
+			secede_province = ENG
+		}
+	}
+}

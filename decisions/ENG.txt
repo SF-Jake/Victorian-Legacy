@@ -44,30 +44,13 @@ political_decisions = {
 		effect = {
 			JAN = {
 				inherit = EIC
+				country_event = { id = 40002 days = 0 }
 			}
 			remove_country_modifier = crown_rule
 			set_country_flag = india_annexed
 			badboy = 30
 		}
 		ai_will_do = { factor = 0 }
-	}
-	annex_india2 = {
-		picture = east_india_company
-		potential = {
-			tag = JAN
-		}
-
-		allow = {
-		}
-
-		effect = {
-			any_owned = {
-				limit = {
-					NOT = { is_core = THIS }
-				}
-				secede_province = ENG
-			}
-		}
 	}
 
 	annex_canada = {
@@ -114,7 +97,11 @@ political_decisions = {
 			SAF = {
 				exists = yes
 				vassal_of = THIS
-				government = colonial_company
+				OR = {
+					government = colonial_company
+					ai = no
+				}
+				
 			}
 			NOT = { has_country_flag = south_africa_annexed }
 		}
