@@ -104,7 +104,6 @@ country_event = {
 				NGF = { exists = yes }
 				year = 1860
 			}
-			has_country_flag = Just_Form_Me_Please
 		}
 
 	}
@@ -133,6 +132,11 @@ country_event = {
 			limit = {
 				NOT = {
 					tag = THIS
+					OR = {
+						tag = AUS
+						tag = KUK
+						tag = DNB
+					}
 				}
 				is_culture_group = THIS
 				is_greater_power = no
