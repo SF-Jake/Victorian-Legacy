@@ -389,9 +389,6 @@ political_reforms = {
 			rgo_throughput = -0.06
 			factory_throughput = -0.06
 			global_immigrant_attract = -0.03
-			allow = {
-				has_country_flag = force_reform
-			}
 		}
 		four_year_draft = {
 			mobilisation_economy_impact = 0.4
@@ -400,9 +397,6 @@ political_reforms = {
 			land_unit_start_experience = -5
 			education_efficiency_modifier = -0.10
 			global_immigrant_attract = -0.02
-			allow = {
-				has_country_flag = force_reform
-			}
 		}
 		two_year_draft = {
 			mobilisation_economy_impact = 0.2
@@ -410,25 +404,16 @@ political_reforms = {
 			factory_throughput = -0.02
 			global_immigrant_attract = -0.01
 			education_efficiency_modifier = -0.05
-			allow = {
-				has_country_flag = force_reform
-			}
 		}
 		one_year_draft = {
 			mobilisation_economy_impact = 0.1
 			rgo_throughput = -0.01
 			factory_throughput = -0.01
-			allow = {
-				has_country_flag = force_reform
-			}
 		}
 		no_draft = {
 			land_unit_start_experience = 5
 			education_efficiency_modifier = 0.05
 			global_immigrant_attract = 0.02
-			allow = {
-				has_country_flag = force_reform
-			}
 		}
 	}
 	
