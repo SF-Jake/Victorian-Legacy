@@ -1,3 +1,68 @@
+Victorian Legacy v2.0.1 (MRVZ)
+**Changes**
+- Removed Forced Reform flag on Mob reform
+- Slaves POPs now produce more RGO output
+- German Revolutionaries should not spawn in SGF now or any Austrian nation
+- World Bank might have been spamming decisions which could have been causing issues with the OOS this has been fixed
+- Austria no longer needs SGF to form any formable
+- Australia can get 5 year migration now
+- Hungarian Revolution now fires when Austria is SGF
+
+Victorian Legacy v2.0.0 (IYAS)
+**Additions**
+- Decisions are now smaller.
+  - Shrunk decisions to show 5 total decisions in the menu rather than 4.
+  - all decision images are smaller now.
+  - Buttons and icons for decisions have been shifted to the far-right.
+- Added Formable South American Federation.
+   - A union tag was added so you can see what land is needed to form the nation.
+   - Once the nation is formed you can pick to focus the north pops or south either one you don't pick gets released.
+   - After 5 years you will get the pop you didn't pick accepted.
+   - But if you release puppets create you will lose all cores in its territory.
+- Added Tariffs Reform.
+   - This will replace the pension reforms.
+   - It will provide at max reform +15% max tariffs.
+- Added Host Option to remove Exiled Troops.
+- Added Scramble for India war goal for when the collapse of India occurs.
+- Added back minor Indian nations. They only appear if collapse happens.
+- Mex will be able to form Grand Columbia and gain North Andean acceptance.
+   - They can also gain cores and acceptance on the Central American POPs.
+- Japan can now send troops over Islands leading to Taiwan
+
+**Changes**
+- Transfer CBs should work before the grace period now.
+- Updated New Roman Empire Flag.
+   - New Roman Empire has better-updated flags.
+   - Its name was updated to "New Roman Empire" rather than "Roman Empire".
+- National Values Overhauled.
+   - Added more text to show what National Value unlocks as you go through them rather than guessing which is which.
+   - NV decisions also have blue text to make them more noticeable.
+   - NV decisions no longer start as alert decisions.
+- Assimilation Idea Change.
+   - POPs will now assimilate even if it's their cultural core.
+- Change Start Game Event.
+   - The Starting event will now give the John Cena General rather than ask if Crisis should be enabled.
+- Changed Starting Music.
+- Changed Danubian Federation Color to a pink color from HFM.
+- Instead of Austria requiring all cores to form Danubian Federation they will now require provinces that are from each culture they gain from forming the nation.
+- India will now collapse properly and not break if released before becoming a GP.
+- India when the sepoy rebellion will now change to the normal orange-brown color when the war starts.
+- When the collapse of India happens the player can choose Mughals or India and each has there own cores and different expansion paths.
+- Japan after clicking the Become a Republic decision will now gain cores on all of Manchuria and Korea.
+- Exiled Troops should now disappear rather than exist the whole game.
+- Made it so all Majors and some minors start with proper mob stacks and 1 30 Stack.
+- Increased Steel Production by a small amount to help with the shortage that happens in every host.
+
+**Removed**
+- Remove a select few cultures to help reduce the chances of an OOS. Removed the following Cultures:
+   - Tajik
+   - Khmer
+   - Uzbek
+   - Shan
+   - South Han
+   - Kirgiz
+   - Ugrian
+
 Victoria Universalis Modified  v1.8.0-Beta (GWDW)
 **Additions**
 - Decisions are now smaller
