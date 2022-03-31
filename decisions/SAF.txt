@@ -245,6 +245,7 @@ political_decisions = {
 				tag = SAF
 				NOT = { has_country_flag = south_africa_union }
 				government = colonial_company
+				NOT = { vassal_of = ENG }		
 			}
 	
 			allow = {
