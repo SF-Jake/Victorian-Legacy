@@ -256,11 +256,17 @@ political_decisions = {
 			OR = {
 				continent = north_america
 				continent = south_america
+				tag = AST
 			}
 			NOT = { has_country_modifier = 5_year_migration_cooldown }
 		}
 
 		allow = {
+			OR = {
+				continent = north_america
+				continent = south_america
+				tag = AST
+			}
 			money = 1500000
 		}
 		effect = {
