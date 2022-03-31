@@ -818,6 +818,7 @@ RGO_template_farmers = {
 			poptype = slaves 
 			effect = throughput
 			amount = 1
+			effect_multiplier = 2.5
 		}
 	}
 
@@ -862,6 +863,12 @@ RGO_template_large_labourers = {
 			effect = throughput
 			amount = 1
 		}
+		{
+			poptype = slaves 
+			effect = throughput
+			amount = 1
+			effect_multiplier = 2.5
+		}
 	}
 
 	type = rgo
@@ -881,6 +888,13 @@ RGO_template_small_labourers = {
 			effect = throughput
 			amount = 1
 		}
+		{
+			poptype = slaves 
+			effect = throughput
+			amount = 1
+			effect_multiplier = 2.5
+		}
+		
 	}
 
 	type = rgo
