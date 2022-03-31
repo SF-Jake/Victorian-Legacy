@@ -489,7 +489,10 @@ country_event = {
 
 	trigger = {
 		tag = HUN
-		vassal_of = AUS
+		OR = {
+			vassal_of = AUS
+			vassal_of = SGF
+		}
 		owns = 641
 		year = 1848
 		NOT = { year = 1850 }
@@ -516,12 +519,26 @@ country_event = {
 			personality = defence_3.1
 			background = attack_3.1
 		}
-		AUS = {
-			release_vassal = HUN
-			country_event = { id = 31521 days = 1 }
-			diplomatic_influence = {
-				who = HUN
-				value = -400
+		random_country = {
+			limit = { tag = AUS exists = yes }
+			AUS = {
+				release_vassal = HUN
+				country_event = { id = 31521 days = 1 }
+				diplomatic_influence = {
+					who = HUN
+					value = -400
+				}
+			}
+		}
+		random_country = {
+			limit = { tag = SGF exists = yes NOT = { AUS = { exists = no } } }
+			SGF = {
+				release_vassal = HUN
+				country_event = { id = 31521 days = 1 }
+				diplomatic_influence = {
+					who = HUN
+					value = -400
+				}
 			}
 		}
 	}
