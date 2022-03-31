@@ -1201,7 +1201,7 @@ pan_nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			OR = { 
+			OR = {
 				culture_has_union_tag = no
 				is_cultural_union = THIS
 				NOT = { is_culture_group = THIS }
@@ -1227,6 +1227,9 @@ pan_nationalist_rebels = {
 					tag = AUS
 					tag = KUK
 					tag = DNB
+					tag = PRU
+					tag = NGF
+					tag = SGF
 				}
 			}
 		}
@@ -2065,6 +2068,18 @@ german_revolutionaries = {
 				has_country_modifier = springtime_of_nations
 			}
 		}
+
+		modifier = {
+			factor = 0
+			country = {
+				NOT = {
+					OR = {
+						tag = PRU
+						tag = NGF
+					}
+				}
+			}		
+		}
 		
 		modifier = {
 			factor = 1.1
@@ -2130,7 +2145,7 @@ german_revolutionaries = {
 	}
 	
  	# Province Scope
-	 siege_won_trigger = {
+	siege_won_trigger = {
 		NOT = { has_province_modifier = war_torn }
  	}
 	
@@ -2171,20 +2186,20 @@ german_revolutionaries = {
 			political_reform = state_controlled
 			political_reform = secret_ballots
 			government = hms_government
-			country_event = { id=194556 days=0 }
 			random_country = {
-			limit = {
-				is_culture_group = germanic
-				OR = {
-					is_greater_power = yes
-					tag = PRU
+				limit = {
+					is_culture_group = germanic
+					OR = {
+						is_greater_power = yes
+						tag = PRU
+					}
+					NOT = {
+						tag = AUS
+						tag = KUK
+						tag = DNB
+						tag = SGF
+					}
 				}
-			NOT = {
-				tag = AUS
-				tag = KUK
-				tag = DNB
-				}
-			}
 			country_event = { id=194555 days=0 }
 			}
 		}
