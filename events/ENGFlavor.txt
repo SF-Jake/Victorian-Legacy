@@ -2125,7 +2125,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	effect = {
+	option = {
 		any_owned = {
 			limit = {
 				NOT = { is_core = THIS }

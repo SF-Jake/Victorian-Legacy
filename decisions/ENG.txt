@@ -99,7 +99,7 @@ political_decisions = {
 				vassal_of = THIS
 				OR = {
 					government = colonial_company
-					ai = no
+					ai = yes
 				}
 				
 			}
@@ -107,7 +107,12 @@ political_decisions = {
 		}
 
 		allow = {
-			SAF = { government = colonial_company }
+			SAF = { 
+				OR = {
+					government = colonial_company
+					ai = yes
+				} 
+			}
 			NOT = { badboy = 1 }
 		}
 
