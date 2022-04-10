@@ -147,12 +147,16 @@ political_decisions = {
 				}
 				civilized = yes
 			}
-			
 		}
 
 		effect = {
 			change_tag = ETE
 			set_country_flag = ethiopian_empire_formed
+			ETE = {
+				all_core = {
+					remove_core = ECU
+				}
+			}
 			prestige = 50
 			2025 = { secede_province = THIS add_core = THIS }
 			2031 = { secede_province = THIS add_core = THIS }
