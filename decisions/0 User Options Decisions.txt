@@ -1,5 +1,6 @@
 political_decisions = {
 	zuser_show_options_Y = {
+		alert = no
 		potential = {
 			NOT = { has_country_flag = show_options_Y }
 			ai = no
@@ -24,6 +25,7 @@ political_decisions = {
 		}
 	}
 	zuser_show_options_G = {
+		alert = no
 		potential = {
 			NOT = { has_country_flag = show_options_G }
 			ai = no

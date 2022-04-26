@@ -299,6 +299,19 @@ country_event = {
 					activate_technology = bronze_muzzle_loaded_artillery
 				}
 			}
+			random_owned = {
+				limit = {
+					owner = { has_country_modifier = jap_westernization_focus }
+				}	
+				owner = {
+					remove_country_modifier = jap_westernization_focus
+					add_country_modifier = {
+						name = jap_westernization_focus_lowered
+						duration = 1095
+					}
+				}
+			}
+
 			remove_country_modifier = educational_reform
 			remove_country_modifier = military_reform
 			remove_country_modifier = western_influences

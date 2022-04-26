@@ -1943,7 +1943,7 @@ EVTNAME37228;The Third Republic;;;;;;;;;;;;x
 EVTDESC37228;Greivances against Napoleon III over his mishandling of the recent war and suppression of his political opponents has reached a boiling point. The National Assembly has voted to overthrow Napoleon and establish a constitutional republic to govern France.;;;;;;;;;;;;x
 EVTOPTA37228;Vive la France!;;;;;;;;;;;;x
 proclaim_second_empire_title;Proclaim Second French Empire;;;;;;;;;;;;x
-proclaim_second_empire_desc;As Louis Napoleon grasped dictatorial power and introduced a harsh constitution he took the next step and held a referendum for the reintroduction of the Empire. Nearly 8 million Frenchmen voted yes and he became French Emperor under the name Napoleon III. §RBonapartiste is the required Party;;;;;;;;;;;;x
+proclaim_second_empire_desc;As Louis Napoleon grasped dictatorial power and introduced a harsh constitution he took the next step and held a referendum for the reintroduction of the Empire. Nearly 8 million Frenchmen voted yes and he became French Emperor under the name Napoleon III. \n§RBonapartiste is the required Party;;;;;;;;;;;;x
 EVTNAME90810;The Warlord Era;;;;;;;;;;;;x
 EVTDESC90810;Resistance against the $CAPITAL$ government has culminated in a breakdown in authority. What began with several of the outlying warlords declaring their independence has ended with the most powerful generals in the Beiyang Army struggling for control. A contest has begun regarding who will control the future of China's destiny, and most are certain it will not be long before the entire nation is engulfed in war.;;;;;;;;;;;;x
 EVTOPTA90810;Play as Beiyang China;;;;;;;;;;;;x
@@ -2506,7 +2506,7 @@ EVTDESC35603;Commodore Perry has returned from his mission to Japan with unfortu
 EVTOPTA35603;War it is!;;;;;;;;;;;;;x
 EVTOPTB35603;We cannot afford a war on the other side of the Pacific.;;;;;;;;;;;;;x
 the_boshin_war_title;Begin The Boshin War;;;;;;;;;;;;;x
-the_boshin_war_desc;The Boshin War was a civil war in Japan, fought between forces of the Tokugawa shogunate and those seeking to return political power to the Imperial Court. §RCivilization Progress must be 50% in order to enact this decision.;;;;;;;;;;;;;x
+the_boshin_war_desc;The Boshin War was a civil war in Japan, fought between forces of the Tokugawa shogunate and those seeking to return political power to the Imperial Court.;;;;;;;;;;;;;x
 TRIGGER_CIV_PROGRESS_LESS;Civilization Progress;;;;;;;;;;;;;x
 sakoku;Sakoku;;;;;;;;;;;;;x
 sakoku_desc;Sakoku was the isolationist foreign policy of the Japanese Tokugawa shogunate (aka Bakufu) under which, for a period of 214 years, relations and trade between Japan and other countries were severely limited, nearly all foreign nationals were barred from entering Japan and common Japanese people were kept from leaving the country.;;;;;;;;;;;;;x
@@ -3452,8 +3452,6 @@ zuser_show_options_G_title;[=]§GShow Green Option;;;;;;;;;;;;x
 zuser_show_options_G_desc;Create Supply Depot, Baby Boom, Literacy Campaign, Mine RGO Expansion, Agriculture RGO Expansion, and Change Agriculture RGO, Genocide Province;;;;;;;;;;;;x
 zuser_hide_options_G_title;[=]§GHide Green Option;;;;;;;;;;;;x
 zuser_hide_options_G_desc;Create Supply Depot, Baby Boom, Literacy Campaign, Mine RGO Expansion, Agriculture RGO Expansion, and Change Agriculture RGO, Genocide Province;;;;;;;;;;;;x
-option_4_fix_exile_troops_title;Fix Exiled Troops;;;;;;;;;;;;x
-option_4_fix_exile_troops_desc; ;;;;;;;;;;;;x
 accept_dravidian_title;Accept Dravidian;;;;;;;;;;;;x
 accept_dravidian_desc; ;;;;;;;;;;;;x
 accept_burmese_title;Accept Burmese;;;;;;;;;;;;x
@@ -3477,17 +3475,19 @@ GCL_presidential_dictatorship;Grand Columbia;;;;;;;;;x;;;;
 GCL_fascist_dictatorship;Grand Columbia;;;;;;;;;x;;;;
 GCL_democracy;Grand Columbia;;;;;;;;;x;;;;
 form_grand_columbia_title;Form Grand Columbia;;;;;;;;;x;;;;
-form_grand_columbia_desc; ;;;;;;;;;x;;;;jap_westernization_focus_lowered_desc; ;;;;;;;;;x;;;;
+form_grand_columbia_desc;;;;;;;;;;x;;;;
 begin_reconquista_title;Begin Reconquista;;;;;;;;;x;;;;
-begin_reconquista_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ï¿½Reconquistaï¿½ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+begin_reconquista_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ‘Reconquista’ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
 continue_reconquista_1_title;Continue Reconquista;;;;;;;;;x;;;;
-continue_reconquista_1_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ï¿½Reconquistaï¿½ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+continue_reconquista_1_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ‘Reconquista’ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
 continue_reconquista_2_title;Continue Reconquista 2;;;;;;;;;x;;;;
-continue_reconquista_2_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ï¿½Reconquistaï¿½ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+continue_reconquista_2_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ‘Reconquista’ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
 continue_reconquista_final_title;Continue Reconquista Final;;;;;;;;;x;;;;
-continue_reconquista_final_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ï¿½Reconquistaï¿½ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+continue_reconquista_final_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ‘Reconquista’ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
 reconquista_acceptance_title;Integrate the Grand Colombian States;;;;;;;;;x;;;;
 reconquista_acceptance_desc;After our long time journey of reconquering all of Grand Colombia now is the time to integrate the population into our $COUNTRY_ADJ$ nation.;;;;;;;;;x;;;;
+jap_westernization_focus_lowered;Japanese Westernization Lowered Focus;;;;;;;;;x;;;;
+jap_westernization_focus_lowered_desc; ;;;;;;;;;x;;;;
 jap_westernization_focus;Japanese Westernization Focus;;;;;;;;;x;;;;
 jap_westernization_focus_desc; ;;;;;;;;;x;;;;
 jap_expansion_focus;Japanese Expansion Focus;;;;;;;;;x;;;;
