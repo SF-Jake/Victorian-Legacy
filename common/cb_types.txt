@@ -356,6 +356,13 @@ civil_war = {
 			value = 0.25
 		}
 	}
+
+	on_po_accepted = {
+		any_country = {
+			limit = { has_country_flag = remove_research }
+			clr_country_flag = remove_research
+		}
+	}
 }
 
 # Sphere of Influence Gain

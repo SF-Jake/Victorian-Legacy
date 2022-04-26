@@ -1232,6 +1232,21 @@ rangaku = {
 	icon = 3
 }
 
+jap_westernization_focus = {
+	research_points = 3
+	icon = 5
+}
+
+jap_westernization_focus_lowered = {
+	research_points = 1.5
+	icon = 5
+}
+
+jap_expansion_focus = {
+	badboy = -0.01
+	icon = 15
+}
+
 #### SWI - Switzerland ####
 signed_the_geneva_convention = {
 	war_exhaustion = -0.02

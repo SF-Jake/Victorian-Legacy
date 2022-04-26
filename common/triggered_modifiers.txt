@@ -1009,6 +1009,7 @@ jan_mayen_world_bank10 = {
 unciv_research_points_on_conquer = {
 	trigger = {
 		civilized = no
+		NOT = { has_country_flag = remove_research }
 	}
 	research_points_on_conquer = 250
 }

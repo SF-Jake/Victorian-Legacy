@@ -143,13 +143,20 @@ political_decisions = {
 				tag = TKG
 			}
 			NOT = { has_global_flag = boshin_war }
+			NOT = { has_country_flag = agressive_JAP_route }
+			has_country_flag = passive_JAP_route
 		}
 		allow = {
 			OR = {
-				NOT = { ai = yes }
-				war = no
+				AND = {
+					ai = no
+					civilized = yes
+				}
+				AND = {
+					ai = yes
+					civilization_progress = 0.5
+				}
 			}
-			civilization_progress = 0.4
 		}
 		effect = {
 			set_global_flag = boshin_war
@@ -471,7 +478,6 @@ political_decisions = {
 		allow = {
 			KOR = {
 				vassal_of = THIS
-				civilized = yes
 			}
 		}
 
@@ -482,6 +488,7 @@ political_decisions = {
 			}
 		}
 	}
+
 	become_a_republic = {
 		picture = japanese_republic
 		potential = {
@@ -507,8 +514,6 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = become_a_republic
-			CHI_1553 = { add_core = THIS }
-			CHI_1555 = { add_core = THIS }
 			KOR_1635 = { add_core = THIS }
 			KOR_1624 = { add_core = THIS }
 			KOR_1627 = { add_core = THIS }
@@ -521,6 +526,67 @@ political_decisions = {
 			political_reform = all_trade_unions
 			add_accepted_culture = korean
 			prestige = 25
+		}
+	}
+
+	agressive_JAP_route = {
+		picture = boshin_war
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			ai = no
+			NOT = { has_country_flag = agressive_JAP_route }
+			NOT = { has_country_flag = passive_JAP_route }
+		}
+		allow = {
+		}
+		effect = {
+			add_country_modifier = {
+				name = jap_expansion_focus
+				duration = 7280
+			}
+			TKG = { release_vassal = JAP }
+			TKG = { all_core = { add_core = JAP } }
+			JAP = { all_core = { add_core = TKG } }
+			TKG = {
+				war = {
+					target = JAP
+					attacker_goal = {
+						casus_belli = civil_war
+					}
+					
+					defender_goal = {
+						casus_belli = civil_war
+					}
+				}
+			}
+			set_country_flag = agressive_JAP_route
+			set_country_flag = remove_research
+		}
+	}
+
+	passive_JAP_route = {
+		picture = westernize_nation
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			ai = no
+			NOT = { has_country_flag = passive_JAP_route }
+			NOT = { has_country_flag = agressive_JAP_route }
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = passive_JAP_route
+			research_points = 15000
+			add_country_modifier = {
+				name = jap_westernization_focus
+				duration = 7280
+			}
 		}
 	}
 }

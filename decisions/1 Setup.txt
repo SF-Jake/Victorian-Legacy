@@ -463,12 +463,6 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
-						has_pop_culture = japanese
-					}
-					literacy = 0.39
-				}
-				any_pop = {
-					limit = {
 						has_pop_culture = ainu
 					}
 					literacy = 0.03
@@ -592,6 +586,18 @@ political_decisions = {
 						has_pop_culture = afro_antillean
 					}
 					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = japanese
+					}
+					literacy = 0.34
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = korean
+					}
+					literacy = 0.20
 				}
 			}
 			AUS = {
@@ -906,18 +912,6 @@ political_decisions = {
 						has_pop_culture = burmese
 					}
 					literacy = 0.03
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = japanese
-					}
-					literacy = 0.39
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = korean
-					}
-					literacy = 0.04
 				}
 				any_pop = {
 					limit = {
