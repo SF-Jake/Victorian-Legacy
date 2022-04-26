@@ -115,21 +115,6 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			NOT = { 
-				month = 1
-				month = 2
-				month = 3
-				month = 4
-				month = 5
-				month = 6
-				month = 7
-				month = 8
-				month = 9
-				month = 10
-				month = 11
-				month = 12
-				year = 1837
-			}
 			has_country_flag = show_options_on
 			has_country_flag = host_powers
 			NOT = { has_global_flag =  disable_crisis }
@@ -145,21 +130,6 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			NOT = { 
-				month = 1
-				month = 2
-				month = 3
-				month = 4
-				month = 5
-				month = 6
-				month = 7
-				month = 8
-				month = 9
-				month = 10
-				month = 11
-				month = 12
-				year = 1837
-			}
 			has_global_flag = disable_crisis
 			has_country_flag = show_options_on
 		}

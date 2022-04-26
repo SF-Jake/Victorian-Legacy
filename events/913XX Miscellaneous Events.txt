@@ -3851,24 +3851,6 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 91329
-	title = "Crises Enabled"
-	desc = "Crises have been enabled"
-	major = yes
-
-	trigger = {
-		tag = JAN
-		has_global_flag = enable_crisis
-		NOT = { has_global_flag = disable_crisis }
-		NOT = { has_country_flag = crises_enabled }
-	}
-
-	option = {
-		set_country_flag = crises_enabled
-	}
-}
-
 
 #########################################################################
 # 							AI MIL ACCESS								#
