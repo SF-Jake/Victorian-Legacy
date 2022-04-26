@@ -610,4 +610,26 @@ political_decisions = {
 		}
 	}
 
+	accept_polish = {
+		picture = greater_poland
+		potential = {
+			tag = RUS
+			NOT = {	has_country_flag = accept_polish }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			POL = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			add_accepted_culture = polish
+			prestige = 5
+			set_country_flag = accept_polish
+		}
+	}
+
 }
