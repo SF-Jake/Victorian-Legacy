@@ -42,6 +42,7 @@ categories =  {
 		min_build_railroad = 1
 		combat_width = -0.20
 	}
+
 	hills = {
 		movement_cost = 1.3
 		defence = 1
@@ -94,6 +95,7 @@ categories =  {
 		supply_limit = 8
 
 	}
+	
 	plains = {
 		movement_cost = 1.0
 		color = { 241 221 184 }
@@ -152,7 +154,191 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 2
 		min_build_railroad = 1
-	}	
+	}
+
+	#Custom city locations
+	paris = {
+		movement_cost = 1.1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+	}
+	berlin = {
+		movement_cost = 1.1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+	}
+	london = {
+		movement_cost = 1.1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+	}
+	rome = {
+		movement_cost = 1.1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+	}
+	vienna = {
+		movement_cost = 1.3
+		defence = 1
+		color = { 135 70 0 }
+
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 6
+		min_build_railroad = 1
+		combat_width = -0.33
+	}
+	budapest = {
+		movement_cost = 1.1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+	}
+	moscow = {
+		movement_cost = 1.2
+		defence = 1
+		color = { 91 123 45 }
+
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 6
+		min_build_railroad = 1
+		combat_width = -0.20
+	}
+	stpetersburg = {
+		movement_cost = 1.0
+		color = { 241 221 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+
+	}
+	stockholm = {
+		movement_cost = 1.1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+	}
+	amsterdam = {
+		movement_cost = 1.1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+	}
+	brussels = {
+		movement_cost = 1.0
+		color = { 241 221 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+
+	}
+	istanbul = {
+		movement_cost = 1.0
+		color = { 241 221 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+
+	}
+	madrid = {
+		movement_cost = 1.0
+		color = { 241 221 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+
+	}
+	beijing = {
+		movement_cost = 1.0
+		color = { 241 221 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+
+	}
+	tokyo = {
+		movement_cost = 1.0
+		color = { 241 221 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+
+	}
+	washington = {
+		movement_cost = 1.1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+	}
+	mexicocity = {
+		movement_cost = 2
+		defence = 3
+		color = { 117 108 119 }
+		farm_rgo_size = 0
+		farm_rgo_eff = -0.25
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 2
+		
+		combat_width = -0.66
+		
+		min_build_railroad = 3
+	}
+	riodejaneiro = {
+		movement_cost = 1.0
+		color = { 241 221 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+
+	}
 }
 
 
