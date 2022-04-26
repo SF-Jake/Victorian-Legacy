@@ -17,15 +17,21 @@ political_decisions = {
 								vassal_of = THIS
 							}
 						}
-						NOT = { 
-							CHL_2332 = { owned_by = THIS } 
-							PRG_2343 = { owned_by = THIS } 
-							ARG_2362 = { owned_by = THIS } 
-							ARG_2384 = { owned_by = THIS } 
-							ARG_2391 = { owned_by = THIS } 
-							ARG_2398 = { owned_by = THIS }
-							2353 = { owned_by = THIS }
-							2382 = { owned_by = THIS }
+					}
+					NOT = {
+						OR = {
+							province_id = 2338
+							province_id = 2337
+							province_id = 2335
+							province_id = 2334
+							province_id = 2333
+							province_id = 2372
+							province_id = 2367
+							province_id = 2366
+							province_id = 2364
+							province_id = 2365
+							province_id = 2377
+							province_id = 2362
 						}
 					}
 					
@@ -41,6 +47,9 @@ political_decisions = {
 				}
 				country_event = { id=11101 days=0 }
 			}
+			PRG_2343 = { add_core = SAS }
+			ARG_2362 = { add_core = SAS }
+			CHL_2332 = { add_core = SAS }
 			prestige = 25
 			country_event = { id=19004 days=0 }
 		}
