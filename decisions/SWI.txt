@@ -146,7 +146,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			badboy = 5
+			badboy = 25
 			set_country_flag = swiss_neutrality_violator
 			set_global_flag = swiss_neutrality_violated
 			SWI = {
@@ -154,9 +154,16 @@ political_decisions = {
 				relation = { who = THIS value = -200 }
 			}
 			diplomatic_influence = { who = SWI value = -200 }
+			casus_belli = {
+				target = SWI
+				type = conquest
+				months = 12
+			}
 			war = {
 				target = SWI
 				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
 			}
 		}
 		
