@@ -1,4 +1,4 @@
-# Victoria-Universalis-Modified
+# Victorian-Legacy
 
 **Modified Version of the Official Victoria Universalis Mod**
 
