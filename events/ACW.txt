@@ -946,3 +946,32 @@ country_event = {
 		clr_country_flag = mex_usa_war
 	}
 }
+
+country_event = {
+	id = 19009
+	title = "Manifest Destiny"
+	desc = "EVTDESC19009"
+	
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We Claimed enough"
+		prestige = 25
+		any_pop = {
+			militancy = -3
+			consciousness = -3
+		}
+	}
+
+	option = {
+		name = "We need more Destiny"
+		any_pop = {
+			militancy = 3
+			consciousness = 3
+		}
+		badboy = 20
+		MEX_2138 = { add_core = USA }
+		MEX_2142 = { add_core = USA }
+	}
+}
