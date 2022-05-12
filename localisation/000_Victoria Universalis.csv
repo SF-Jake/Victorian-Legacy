@@ -2381,8 +2381,13 @@ concede_italy_desc;Perhaps it is in our best interest to seek reconciliation wit
 EVTNAME36950;The Great Irish Famine;;;;;;;;;;;;x
 EVTDESC36950;The dreaded potato blight has arrived on the shores of Ireland. With crops failing and starvation spreading across the countryside, many are turning to the New World to escape their misfortunes. Worst yet, some are clamoring for landlord-tenant reforms and there is even talk of a growing Irish nationalist movement that seeks independence from Westminster.;;;;;;;;;;;;x
 EVTOPTA36950;We will deal with it as best we can.;;;;;;;;;;;;x
+EVTOPTA36950_1;Divert everything we have to help;;;;;;;;;;;;x
 irish_potato_blight;Irish Potato Blight;;;;;;;;;;;;;x
 irish_potato_blight_desc;Famine spreads as crops lie, dead and rotting, in our fields;;;;;;;;;;;;;x
+lowered_irish_potato_blight;Irish Potato Blight;;;;;;;;;;;;;x
+lowered_irish_potato_blight_desc;Famine spreads as crops lie, dead and rotting, in our fields;;;;;;;;;;;;;x
+assisting_the_irish;Assisting the Irish;;;;;;;;;;;;;x
+assisting_the_irish_desc;We are diverting everything we can to help the Irish Population;;;;;;;;;;;;;x
 EVTNAME19360;Hegemony Threatened;;;;;;;;;;;;;x
 EVTDESC19360;Our place as the #1 ranked Great Power has been usurped. The Hegemon country modifier will be removed if we do not reclaim rank #1 in 2 years.;;;;;;;;;;;;;x
 EVTOPTA19360;We will regain our hegemony.;;;;;;;;;;;;;x
@@ -3498,3 +3503,4 @@ passive_JAP_route_title;Focus on Westernization;;;;;;;;;x;;;;
 passive_JAP_route_desc; ;;;;;;;;;x;;;;
 accept_polish_title;Integrate the Polish States;;;;;;;;;x;;;;
 accept_polish_desc;We must allow the Polish people to be part of the $COUNTRY$ in hopes of uniting our nation to be a more powerful and united nation and to defend against our Western neighbors.;;;;;;;;;x;;;;
+EVTDESC19009;The doctrine of 'Manifest Destiny' appeared first in the United States in the 1840s to justify the its' need to expand westward. Already in 1823, the Monroe Doctrine had forbidden America to European colonization. The United States had new a duty to reach its continental boundaries and expand its civilization all over the continent. The basic idea was that the nation was destined to greatness and expansion.;;;;;;;;;x;;;;
