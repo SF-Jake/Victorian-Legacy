@@ -1155,6 +1155,21 @@ irish_potato_blight = {
 	icon = 20
 }
 
+lowered_irish_potato_blight = {
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.05
+	local_rgo_throughput = -0.5
+	immigrant_push = 1
+	icon = 20
+}
+
+assisting_the_irish = {
+	tax_efficiency = -0.20
+	max_tariff = -0.05
+	pop_militancy_modifier = 0.05
+	icon = 20
+}
+
 crown_rule = {
 	tax_efficiency = 0.03
 	max_tariff = 0.05
