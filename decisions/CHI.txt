@@ -261,13 +261,12 @@ political_decisions = {
 					}
 					is_colonial = yes
 				}
-				secede_province = CIV
+				secede_province = JAN
 				trade_goods = market_goods
 			}
-			CIV = {
+			JAN = {
 				country_event = { id = 91510 days = 0 }
 			}
 		}
 	}
-
 }
