@@ -261,10 +261,10 @@ political_decisions = {
 					}
 					is_colonial = yes
 				}
-				secede_province = JAN
+				secede_province = CIV
 				trade_goods = market_goods
 			}
-			JAN = {
+			CIV = {
 				country_event = { id = 91510 days = 0 }
 			}
 		}
