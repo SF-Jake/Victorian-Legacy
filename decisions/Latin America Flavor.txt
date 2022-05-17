@@ -41,6 +41,14 @@ political_decisions = {
 		effect = {
 			change_tag = SAS
 			set_country_flag = SAS_formed
+			BRZ = { all_core = { remove_core = BRZ }}
+			GRP = {	all_core = { remove_core = GRP }}
+			PNB = {	all_core = { remove_core = PNB }}
+			RGS = {	all_core = { remove_core = RGS }}
+			ENT = {	all_core = { remove_core = ENT }}
+			CRT = {	all_core = { remove_core = CRT }}
+			BAH = {	all_core = { remove_core = BAH }}
+			MRN = {	all_core = { remove_core = MRN }}
 			any_country = {
 				limit = {
 					is_culture_group = south_american_cultures

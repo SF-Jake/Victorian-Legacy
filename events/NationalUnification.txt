@@ -190,6 +190,50 @@ country_event = {
 	}
 }
 
+#South American Federation Revolution
+country_event = {
+	title = "Crown from the Gutter"
+	desc = "But at what cost"
+	picture = "Celebration"
+
+	id = 194557
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Crown From the Gutter Indeed"
+		change_tag = SAS
+		set_country_flag = SAS_formed
+		BRZ = { all_core = { remove_core = BRZ }}
+		GRP = {	all_core = { remove_core = GRP }}
+		PNB = {	all_core = { remove_core = PNB }}
+		RGS = {	all_core = { remove_core = RGS }}
+		ENT = {	all_core = { remove_core = ENT }}
+		CRT = {	all_core = { remove_core = CRT }}
+		BAH = {	all_core = { remove_core = BAH }}
+		MRN = {	all_core = { remove_core = MRN }}
+		any_country = {
+			limit = {
+				is_culture_group = south_american_cultures
+			}
+			country_event = { id=11101 days=0 }
+		}
+		PRG_2343 = { add_core = SAS }
+		ARG_2362 = { add_core = SAS }
+		CHL_2332 = { add_core = SAS }
+		prestige = 25
+		country_event = { id=19004 days=0 }
+	}
+	option = {
+		name = "Kill whoever sent this to me"
+		prestige = 5
+		set_country_flag = does_not_want_to_be_unified
+		any_pop = {
+			militancy = 2
+		}
+	}
+}
+
 # Event to Inherit
 country_event = {
 	id = 11101

@@ -156,6 +156,11 @@ country_event = {
 		name = "EVTOPTA44610"
 		set_country_flag = end_of_cabanagem
 		annex_to = BRZ
+		GRP = {
+			all_core = {
+				remove_core = GRP
+			}
+		}
 		ai_chance = {
 			factor = 100
 		}
@@ -190,6 +195,11 @@ country_event = {
 		name = "EVTOPTA44611"
 		set_country_flag = end_of_piratini
 		annex_to = BRZ
+		RGS = {
+			all_core = {
+				remove_core = RGS
+			}
+		}
 		ai_chance = {
 			factor = 100
 		}
@@ -358,6 +368,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA44614"
 		set_country_flag = end_of_bahia
+		BAH = {
+			all_core = {
+				remove_core = BAH
+			}
+		}
 		annex_to = BRZ
 		ai_chance = {
 			factor = 100
@@ -398,6 +413,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA44615"
 		set_country_flag = end_of_maranhao
+		MRN = {
+			all_core = {
+				remove_core = MRN
+			}
+		}
 		annex_to = BRZ
 		ai_chance = {
 			factor = 100
@@ -1937,3 +1957,4 @@ country_event = {
 		name = "EVTOPTA44674"
 	}
 }
+####South American Federation Remove all Cores
