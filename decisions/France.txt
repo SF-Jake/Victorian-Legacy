@@ -151,24 +151,26 @@ political_decisions = {
 	end_the_merina_monarchy = {
 		potential = {
 			OR = {
-				has_country_flag = lambert_has_been_chartered
 				MAD = {
-					in_sphere = FRA
-					civilized = no
-			}
+					in_sphere = THIS
 				}
+				is_our_vassal = MAD
+			}
 			NOT = {
 				has_country_flag = merina_monarchy_is_over
 			}
 			exists = MAD
 			MAD = { ai = yes }
-			tag = FRA
 		}
 		
 		allow = {
 			MAD = {
-				in_sphere = FRA
-				civilized = no
+				OR = {
+					MAD = {
+						in_sphere = THIS
+					}
+					is_our_vassal = MAD
+				}
 				war = no
 			}
 			invention = mission_to_civilize

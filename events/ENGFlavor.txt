@@ -2187,3 +2187,47 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 40003
+	title = "Annex Egypt"
+	desc = ""
+	picture = "scramble_for_africa"
+
+	trigger = {
+		year = 1882
+		OR = {
+			EGY = {
+				in_sphere = THIS
+			}
+			is_our_vassal = EGY
+		}
+		exists = EGY
+		EGY = { ai = yes }
+	}
+
+	option = {
+		name = "Ah yes more sand for my collection"
+		badboy = 10
+		EGY = {
+			all_core = {
+				add_core = TUR
+			}
+		}
+		CIV = {
+			inherit = EGY
+			country_event = { id = 40004 days = 0 }
+		}
+		
+	}
+}
+country_event = {
+	id = 40004
+	title = "Return Egypt"
+
+	is_triggered_only = yes
+	
+	option = {
+		annex_to = FROM
+	}
+}
