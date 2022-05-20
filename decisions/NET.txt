@@ -249,6 +249,35 @@ political_decisions = {
 		}
 	}
 
+	end_the_jambi_sultanates = {
+		picture = map_java
+		potential = {
+			tag = NET
+			DJA = {
+				vassal_of = THIS 
+				exists = yes
+				civilized = no
+				ai = yes
+			}
+			NOT = { has_country_flag = jambi_annexed }
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+		}
+
+		effect = {
+			set_country_flag = jambi_annexed
+			inherit = DJA
+		}
+
+		ai_will_do = { 
+			factor = 1 
+			modifier = { factor = 0 badboy = 0.95 }
+		}
+	}
+
 	the_short_declaration = {
 		picture = moluccan_map
 		potential = {
