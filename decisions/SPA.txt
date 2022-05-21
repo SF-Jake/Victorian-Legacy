@@ -44,13 +44,15 @@ political_decisions = {
 			NOT = { SPA = { brigades_compare = 1 } }
 		}
 		effect = {
+			
 			prestige = 30
 			SPA = {
+				change_tag_no_core_switch = SPC
 				all_core = {
 					add_core = THIS
 					remove_core = SPA
 				}
-				annex_to = THIS
+				country_event = { id=37721 days=0 }
 			}
 			set_global_flag = carlist_victory
 			capital = 487
@@ -79,11 +81,12 @@ political_decisions = {
 		effect = {
 			prestige = 15
 			SPC = {
+				change_tag_no_core_switch = SPA
 				all_core = {
 					add_core = THIS
 					remove_core = SPC
 				}
-				annex_to = THIS
+				country_event = { id=37722 days=0 }
 			}
 			set_global_flag = cristino_victory
 		}

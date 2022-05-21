@@ -723,3 +723,34 @@ country_event = {
 		}
 	}
 }
+
+
+#End of Civil war Carlist
+country_event = {
+	id = 37721
+	title = "Carlist Victory"
+	desc = ""
+	picture = sultan_of_sulu
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Surrender"
+		inherit = SPA
+	}
+}
+
+#End of Civil war Cristino
+country_event = {
+	id = 37722
+	title = "Cristino Victory"
+	desc = ""
+	picture = sultan_of_sulu
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Surrender"
+		inherit = SPC
+	}
+}
