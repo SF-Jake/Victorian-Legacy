@@ -96,8 +96,14 @@ political_decisions = {
 		picture = spain_reconquest
 		potential = {
 			OR = {
-				tag = SPC
-				has_global_flag = carlist_victory
+				AND = {
+					tag = IBR
+					has_global_flag = carlist_victory
+				}
+				AND = {
+					tag = SPC
+					has_global_flag = carlist_victory
+				}
 			}
 			NOT = { has_country_flag = begin_reconquista }
 		}
@@ -129,8 +135,14 @@ political_decisions = {
 		picture = spain_reconquest
 		potential = {
 			OR = {
-				tag = SPC
-				has_global_flag = carlist_victory
+				AND = {
+					tag = IBR
+					has_global_flag = carlist_victory
+				}
+				AND = {
+					tag = SPC
+					has_global_flag = carlist_victory
+				}
 			}
 			has_country_flag = begin_reconquista
 			NOT = { has_country_flag = continue_reconquista_1 }
@@ -163,8 +175,14 @@ political_decisions = {
 		picture = spain_reconquest
 		potential = {
 			OR = {
-				tag = SPC
-				has_global_flag = carlist_victory
+				AND = {
+					tag = IBR
+					has_global_flag = carlist_victory
+				}
+				AND = {
+					tag = SPC
+					has_global_flag = carlist_victory
+				}
 			}
 			has_country_flag = continue_reconquista_1
 			NOT = { has_country_flag = continue_reconquista_2 }
@@ -208,8 +226,14 @@ political_decisions = {
 		picture = spain_reconquest
 		potential = {
 			OR = {
-				tag = SPC
-				has_global_flag = carlist_victory
+				AND = {
+					tag = IBR
+					has_global_flag = carlist_victory
+				}
+				AND = {
+					tag = SPC
+					has_global_flag = carlist_victory
+				}
 			}
 			has_country_flag = continue_reconquista_2
 			NOT = { has_country_flag = continue_reconquista_final }
@@ -244,8 +268,14 @@ political_decisions = {
 		picture = spain_reconquest
 		potential = {
 			OR = {
-				tag = SPC
-				has_global_flag = carlist_victory
+				AND = {
+					tag = IBR
+					has_global_flag = carlist_victory
+				}
+				AND = {
+					tag = SPC
+					has_global_flag = carlist_victory
+				}
 			}
 			has_country_flag =  continue_reconquista_final
 			NOT = { has_country_flag = reconquista_acceptance }
