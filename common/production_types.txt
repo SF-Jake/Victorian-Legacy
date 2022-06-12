@@ -424,7 +424,7 @@ steel_factory = {
 	template = factory_template		#8.825
 	input_goods = { 
 		iron = 18		#50.4
-		coal = 3		#13.8 total input+maint = 73.025
+		coal = 2.5		#13.8 total input+maint = 73.025
 	}
 
 	output_goods = steel
@@ -592,7 +592,7 @@ fabric_factory = {
 	value = 38			#68.4
 	bonus = {
 		trigger = { trade_goods_in_state = cotton }
-		value = 0.1
+		value = 0.15
 	}
 	bonus = {
 		trigger = { trade_goods_in_state = wool }
@@ -643,10 +643,10 @@ canned_food_factory = {
 dye_factory = {       
 	template = cheap_factory_template	#4.5
 	input_goods = {     
-		coal = 5   		#23	total input+maint = 27.5
+		coal = 4   		#23	total input+maint = 27.5
 	}
 	output_goods = dye 
-	value = 3			#36
+	value = 2.6			#36
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
@@ -763,7 +763,7 @@ lumber_mill = {
 cement_factory = {       
 	template = cement_template		#7.3
 	input_goods = {           
-		coal = 7.5		#34.5		total input+maint = 41.8
+		coal = 6		#34.5		total input+maint = 41.8
 	} 
 	output_goods = cement 
 	value = 3			#48
@@ -776,10 +776,10 @@ cement_factory = {
 glass_factory = {       
 	template = factory_template		#8.825
 	input_goods = {            
-		coal = 5		#23		total input+maint = 33.325
+		coal = 4.5		#23		total input+maint = 33.325
 	}
 	output_goods = glass 
-	value = 14			#40.6
+	value = 13			#40.6
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
@@ -953,7 +953,7 @@ grain_farm = {
 iron_mine = {
 	template = RGO_template_small_labourers
 	output_goods = iron
-	value = 2.2
+	value = 2.5
 	mine = yes
 }
 
