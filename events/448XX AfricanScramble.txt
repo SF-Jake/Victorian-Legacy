@@ -151,9 +151,6 @@ country_event = {
 		is_our_vassal = CNG
 		NOT = { has_country_flag = heart_of_darkness }
 		year = 1894
-		CNG = {
-			any_owned_province = { has_province_modifier = force_publique }
-		}
 	}
 
 	mean_time_to_happen = {
