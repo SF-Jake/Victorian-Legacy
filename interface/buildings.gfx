@@ -285,13 +285,57 @@ objectTypes = {
 			
 	}
 	
-		EMFXActorType = {
+	EMFXActorType = {
 		name = "Suez_Canal"
 		actorfile = "gfx\anims\Suez_Canal.xac"
 		
 		idle   = "gfx\anims\static.xsm"
 		scale = 1.0
 			
+	}
+
+	EMFXActorType = {
+		name = "big_ben"
+		actorfile = "gfx\anims\capital_bigben.xac"
+		idle   = "gfx\anims\static.xsm"
+		scale = 0.7
+			
+	}
+
+	EMFXActorType = {
+		name = "eiffel_tower"
+		actorfile = "gfx\anims\capital_eiffeltower.xac"
+		idle   = "gfx\anims\static.xsm"
+		scale = 1.25
+			
+	}
+
+	EMFXActorType = {
+		name = "manufactory_fine_arts_academy"
+		actorfile = "gfx\anims\Manu_FineartsAcadamy.xac"
+		idle   = "gfx\anims\Static.xsm"
+		scale = 0.8
+	}
+
+	EMFXActorType = {
+		name = "City_southamericagfx_0"
+		actorfile = "gfx\anims\City_SA_00.xac"
+		idle   = "gfx\anims\Static.xsm"
+		scale = 1.8
+	}
+
+	EMFXActorType = {
+		name = "City_easterngfx_3"
+		actorfile = "gfx\anims\City_Eastern_03.xac"
+		idle   = "gfx\anims\Static.xsm"
+		scale = 1.4
+	}
+
+	EMFXActorType = {
+		name = "City_chinesegfx_3"
+		actorfile = "gfx\anims\City_Asian_03.xac"
+		idle   = "gfx\anims\Static.xsm"
+		scale = 1.5
 	}
 	
 	

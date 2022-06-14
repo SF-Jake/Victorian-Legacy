@@ -228,3 +228,28 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+
+	id = 96172
+	title = "EVTNAME96172" #Altare della patria construction
+	desc = "EVTDESC96172"
+	picture = "vittoriano"
+
+	trigger = {
+		tag = ITA
+		owns = 749
+		has_country_flag = vittoriano_built
+		NOT = { has_country_modifier = monument_under_construction }
+	}
+		
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+
+	option = {				
+		name = "EVTOPTA96172"
+		prestige = 15
+		war_exhaustion = -20
+		749 = { set_province_flag = fine_arts }
+	}
+}

@@ -1410,6 +1410,9 @@ political_decisions = {
 			2264 = {
 				trade_goods = fish
 			}
+			2172 = { set_province_flag = mexico_city }
+			1616 = { set_province_flag = summer_palace }
+			1008 = { set_province_flag = moscow_city }
 			country_event = { id = 90031 days = 1}
 		}
 		ai_will_do = { factor = 1 }

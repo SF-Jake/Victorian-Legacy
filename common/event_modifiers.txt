@@ -1848,3 +1848,18 @@ north_accepted = {
 	tax_efficiency = -0.02
 	icon = 18
 }
+
+#Building Modifiers
+big_ben_construction = {
+	icon = 13
+}
+
+the_big_ben = {
+	local_factory_output = 0.01
+	immigrant_attract = 0.25
+	icon = 5
+}
+
+monument_under_construction = {
+	icon = 13
+}

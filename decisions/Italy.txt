@@ -451,4 +451,47 @@ political_decisions = {
 			EGY_843 = { add_core = RME }
 		}
 	}
+
+	fatherland_altar = {
+		picture = build_vittoriano
+		potential = {
+			owns = 749
+			NOT = { has_country_flag = vittoriano_built }
+			tag = ITA
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+				government = fascist_dictatorship
+			}
+			NOT = { has_country_flag = vittoriano_built }
+		}
+		
+		allow = {
+			money = 750000
+			realism = 1
+		}
+		
+		effect = {
+			money = -750000
+			prestige = 20
+			any_pop = { militancy = -1 }
+			set_country_flag = vittoriano_built
+			random_list = {
+				25 = {
+				add_country_modifier = { name = monument_under_construction duration = 3285 }
+				}
+				25 = {
+				add_country_modifier = { name = monument_under_construction duration = 3650	}
+				}
+				25 = {
+				add_country_modifier = { name = monument_under_construction duration = 4380 }
+				}
+				25 = {
+				add_country_modifier = { name = monument_under_construction duration = 5110	}
+				}
+			}
+	}
+		ai_will_do = { factor = 1 }
+	}
 }
