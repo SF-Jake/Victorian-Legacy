@@ -1676,7 +1676,7 @@ nv_freedom_modifier = {
 
 nv_fraternity_modifier = {
 	core_pop_militancy_modifier = -0.1
-    global_population_growth = 0.001
+    global_population_growth = 0.003
     social_reform_desire = 1
     assimilation_rate = 20
     culture_tech_research_bonus = 0.2
@@ -1716,6 +1716,7 @@ nv_prosperity_modifier = {
 	social_reform_desire = -0.2
     commerce_tech_research_bonus = 0.1
     tariff_efficiency_modifier = 0.05
+	tax_efficiency = 0.05
     factory_owner_cost = -0.1
     poor_everyday_needs = 0.3
     middle_everyday_needs = 0.3
