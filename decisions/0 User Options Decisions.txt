@@ -48,4 +48,25 @@ political_decisions = {
 			clr_country_flag = show_options_G
 		}
 	}
+	disable_all_music = {
+		potential = {
+			has_country_flag = all_music
+		}
+		allow = {
+		}
+		effect = {
+			clr_country_flag = all_music
+		}
+	}
+	enable_all_music = {
+		potential = {
+			NOT = { has_country_flag = all_music }
+			ai = no
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = all_music
+		}
+	}
 }
