@@ -697,60 +697,90 @@ country_event = {
 }
 
 
-#Madrid Protocol
+#End of Civil if player and Carlist
 country_event = {
 	id = 37720
-	title = "EVTNAME37720"
-	desc = "EVTDESC37720"
-	picture = sultan_of_sulu
+	title = "The Spanish Civil War"
+	desc = "What is your choice?"
+	picture = celebration
 
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA37720"
-		1396 = {
-			secede_province = THIS
-		}
-		1397 = {
-			secede_province = THIS
-		}
+	trigger = {
+		ai = no
+		SPC = { exists = yes }
+		SPA = { exists = yes }
+		tag = SPC
 	}
 
 	option = {
-		name = "EVTOPTB37720"
-		ai_chance = {
-			factor = 0
+		name = "Carlist Victory"
+		prestige = 30
+		all_core = {
+			add_core = THIS
+			remove_core = SPA
+		}
+		inherit = SPA
+		set_global_flag = carlist_victory
+		capital = 487
+	}
+
+	option = {
+		name = "Cristino Victory"
+		prestige = 30
+		all_core = {
+			add_core = SPA
+			remove_core = SPC
+		}
+		inherit = SPA
+		change_tag = SPA
+		capital = 487
+		set_global_flag = cristino_victory
+		add_country_modifier = {
+			name = cristino_victory
+			duration = -1
 		}
 	}
 }
 
-
-#End of Civil war Carlist
+#End of Civil if player and Cristino
 country_event = {
 	id = 37721
-	title = "Carlist Victory"
-	desc = ""
-	picture = sultan_of_sulu
+	title = "The Spanish Civil War"
+	desc = "What is your choice?"
+	picture = celebration
 
-	is_triggered_only = yes
-
-	option = {
-		name = "We Surrender"
-		inherit = SPA
+	trigger = {
+		ai = no
+		SPC = { exists = yes }
+		SPA = { exists = yes }
+		tag = SPA
 	}
-}
-
-#End of Civil war Cristino
-country_event = {
-	id = 37722
-	title = "Cristino Victory"
-	desc = ""
-	picture = sultan_of_sulu
-
-	is_triggered_only = yes
 
 	option = {
-		name = "We Surrender"
+		name = "Carlist Victory"
+		prestige = 30
+		all_core = {
+			add_core = THIS
+			remove_core = SPA
+		}
 		inherit = SPC
+		change_tag = SPC
+		set_global_flag = carlist_victory
+		capital = 487
+	}
+
+	option = {
+		name = "Cristino Victory"
+		prestige = 30
+		all_core = {
+			add_core = SPA
+			remove_core = SPC
+		}
+		inherit = SPC
+		capital = 487
+		set_global_flag = cristino_victory
+		add_country_modifier = {
+			name = cristino_victory
+			duration = -1
+		}
 	}
 }

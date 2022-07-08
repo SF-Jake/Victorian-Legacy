@@ -161,8 +161,10 @@ political_decisions = {
 		effect = {
 			set_global_flag = boshin_war
 			TKG = { release_vassal = JAP }
+			TKG = { civilized = yes }
 			TKG = { all_core = { add_core = JAP } }
 			JAP = { all_core = { add_core = TKG } }
+			JAP = { civilized = yes }
 			TKG = {
 				war = {
 					target = JAP

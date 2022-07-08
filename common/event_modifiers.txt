@@ -1198,6 +1198,14 @@ hegemony_countdown = {
 
 #### SPA - Spain ####
 
+cristino_victory = {
+	tax_efficiency = 0.10
+	global_population_growth = 0.002
+	education_efficiency_modifier = 0.2
+	factory_output = 0.15
+	mine_rgo_eff = 0.15
+	icon = 7
+}
 
 #### FRA - France ####
 the_french_foreign_legion = {
