@@ -236,7 +236,7 @@ four_year_draft = {
 		NOT = { has_country_flag = chinese }
 		conscription = four_year_draft
 	}
-	mobilisation_size = 0.04		
+	mobilisation_size = 0.03		
 	icon = 15		
 }
 mandatory_service = {
@@ -244,7 +244,7 @@ mandatory_service = {
 		NOT = { has_country_flag = chinese }
 		conscription = mandatory_service
 	}
-	mobilisation_size = 0.06		
+	mobilisation_size = 0.05		
 	icon = 15		
 }
 regionalism = {

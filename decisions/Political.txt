@@ -231,8 +231,9 @@ political_decisions = {
 	general_staff = {
 		picture = von_moltkes_staff_reforms
 		potential = {
-		NOT = { has_country_modifier = prussian1_general_staff }
-		civilized = yes
+			NOT = { has_country_modifier = prussian1_general_staff }
+			civilized = yes
+			ai = no
 		}
 		allow = {
 			OR = {

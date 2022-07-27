@@ -4,9 +4,9 @@ water_wheel_power = {
 	year = 1836
 	cost = 3600
 
-	mine_rgo_eff = 0.15
+	mine_rgo_eff = 0.14
 	mine_rgo_size = -0.05
-	farm_rgo_eff = 0.15
+	farm_rgo_eff = 0.14
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -49,9 +49,9 @@ practical_steam_engine = {
 	year = 1836
 	cost = 7200
 
-	mine_rgo_eff = 0.15
+	mine_rgo_eff = 0.14
 	mine_rgo_size = -0.05
-	farm_rgo_eff = 0.15
+	farm_rgo_eff = 0.14
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -94,9 +94,9 @@ high_n_low_pressure_steam_engines = {
 	year = 1836
 	cost = 10800
 
-	mine_rgo_eff = 0.15
+	mine_rgo_eff = 0.14
 	mine_rgo_size = -0.05
-	farm_rgo_eff = 0.15
+	farm_rgo_eff = 0.14
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -139,9 +139,9 @@ steam_turbine = {
 	year = 1850
 	cost = 14400
 
-	mine_rgo_eff = 0.15
+	mine_rgo_eff = 0.14
 	mine_rgo_size = -0.05
-	farm_rgo_eff = 0.15
+	farm_rgo_eff = 0.14
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -184,9 +184,9 @@ combustion_engine = {
 	year = 1880
 	cost = 18000
 
-	mine_rgo_eff = 0.15
+	mine_rgo_eff = 0.14
 	mine_rgo_size = -0.05
-	farm_rgo_eff = 0.15
+	farm_rgo_eff = 0.14
 	ai_chance = {
 		factor = 1.25
 		modifier = {
@@ -229,9 +229,9 @@ electrical_power_generation = {
 	year = 1900
 	cost = 21600
 
-	mine_rgo_eff = 0.15
+	mine_rgo_eff = 0.14
 	mine_rgo_size = -0.05
-	farm_rgo_eff = 0.15
+	farm_rgo_eff = 0.14
 	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.1
@@ -271,9 +271,9 @@ modern_power_generation = {
 	year = 1920
 	cost = 21600
 
-	mine_rgo_eff = 0.15
+	mine_rgo_eff = 0.14
 	mine_rgo_size = -0.05
-	farm_rgo_eff = 0.15
+	farm_rgo_eff = 0.14
 	factory_throughput = 0.05
 	factory_goods_output = { electric_gear = 0.05 } 
 	ai_chance = {
@@ -317,9 +317,9 @@ industrial_revolution = {
 	year = 1836
 	cost = 3600
 
-	mine_rgo_eff = 0.15
+	mine_rgo_eff = 0.14
 	mine_rgo_size = -0.05
-	farm_rgo_eff = 0.15
+	farm_rgo_eff = 0.14
 	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.5

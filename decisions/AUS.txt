@@ -406,4 +406,33 @@ political_decisions = {
 			TUR_788 = { add_core = THIS }
 		}
 	}
+
+	hungarian_revolution = {
+		potential = {
+			NOT = { has_country_flag = start_hungarian_revolution }
+			OR = {
+				tag = AUS
+				tag = SGF
+			}
+		}
+
+		allow = {
+			OR = {
+				HUN = {
+					vassal_of = AUS
+					exists = yes
+				}
+				HUN = {
+					vassal_of = SGF
+					exists = yes
+				}
+			}
+			year = 1848
+			NOT = { year = 1850 }
+		}
+		
+		effect = {
+			set_country_flag = start_hungarian_revolution
+		}
+	}
 }

@@ -80,7 +80,7 @@ promotion_chance =
 		country = { has_country_flag = martial_law }
 	}
 	modifier = {
-		factor = -0.1
+		factor = -0.09
 		NOT = { total_pops = 2000000 }
 		country = { has_country_flag = martial_law }
 	}

@@ -490,8 +490,18 @@ country_event = {
 	trigger = {
 		tag = HUN
 		OR = {
-			vassal_of = AUS
-			vassal_of = SGF
+			AND = {
+				vassal_of = AUS
+				AUS = {
+					has_country_flag = start_hungarian_revolution
+				}
+			}
+			AND = {
+				vassal_of = SGF
+				SGF = {
+					has_country_flag = start_hungarian_revolution
+				}
+			}
 		}
 		owns = 641
 		year = 1848

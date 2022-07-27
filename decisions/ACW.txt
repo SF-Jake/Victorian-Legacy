@@ -1219,4 +1219,48 @@ political_decisions = {
 		}
 	
 	}
+
+	undermine_the_branches = {
+		potential = {
+			tag = USA
+			NOT = { has_global_flag = form_monarchy_usa }
+		}
+
+		allow = {
+			reactionary = 15
+			OR = {
+				government = presidential_dictatorship
+				AND = {
+					ruling_party = reactionary
+					vote_franschise = none_voting
+					political_parties = underground_parties
+					upper_house_composition = party_appointed
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = form_monarchy_usa
+			prestige = -25
+			random_owned = {
+				limit = {
+					NOT = { government = presidential_dictatorship }
+				}	
+				owner = { government = presidential_dictatorship }
+			}
+			USA_247 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_243 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_232 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_223 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_231 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_219 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_220 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_218 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_178 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_170 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_176 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_162 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+			USA_168 = { add_province_modifier = { name = monarchy_usa duration = -1 } }
+		}
+	}
 }

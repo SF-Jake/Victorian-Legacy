@@ -492,7 +492,7 @@ small_arms_factory = {
 		steel = 2			#9.4		total input+maint = 28.225
 	}
 	output_goods = small_arms 
-	value = 1			#37
+	value = 1.2			#37
 
 	bonus = {
 		trigger = { has_building = steel_factory }
@@ -511,7 +511,7 @@ ammunition_factory = {
 		steel = 3		#14.1	total input+maint = 34.425
 	}
 	output_goods = ammunition 
-	value = 2.3			#40.25
+	value = 2.5
 	bonus = {
 		trigger = { trade_goods_in_state = sulphur }
 		value = 0.15

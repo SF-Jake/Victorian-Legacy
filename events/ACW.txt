@@ -15,6 +15,8 @@ country_event = {
 		slavery = yes_slavery
 		NOT = {
 			has_global_flag = american_civil_war_has_happened
+			government = presidential_dictatorship
+			has_global_flag = form_monarchy_usa
 		}	
 	}
 	
@@ -60,12 +62,12 @@ country_event = {
 		}
 		CSA = {
 			capital = 211
-			leadership = 400
-			money = 500000
+			leadership = 500
+			money = 650000
 			artillery = 2000
-			canned_food = 2000
-			small_arms = 2000
-			ammunition = 2000
+			canned_food = 3000
+			small_arms = 2500
+			ammunition = 2500
 			set_country_flag = the_slavery_debate
 			set_country_flag = confederalism
 		}
@@ -142,6 +144,445 @@ country_event = {
 				casus_belli = status_quo
 			}
 		}
+	}
+}
+
+country_event = {
+	id = 16002
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	major = yes
+	
+	
+	trigger = {
+		tag = USA
+		government = presidential_dictatorship
+		has_global_flag = form_monarchy_usa
+		year = 1865
+		slavery = yes_slavery
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			year = 1866
+		}
+		modifier = {
+			factor = 0.1
+			year = 1867
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16000"
+		political_reform = federalism
+		government = absolute_monarchy
+		capital = 220
+		country_event = { id = 16003 days = 180 }	
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		any_owned = {
+			limit = {
+				is_core = CSA
+				NOT = {
+					province_id = 146
+					province_id = 147
+					province_id = 148
+					province_id = 149
+					province_id = 150
+					province_id = 217
+					province_id = 218
+					province_id = 219
+					province_id = 220
+					province_id = 221
+					province_id = 222
+				}
+			}
+			remove_core = USA
+			secede_province = CSA
+		}
+		any_owned = {
+			limit = {
+				NOT = { has_province_modifier = monarchy_usa }
+			}
+			add_core = USM
+			secede_province = USM
+			remove_core = USA
+		}
+		any_owned = {
+			limit = {
+				has_province_modifier = monarchy_usa
+			}
+			remove_province_modifier = monarchy_usa
+		}
+		USM = {
+			add_country_modifier = { name = american_civil_war duration = 1825 }
+			capital = 89
+			leadership = 400
+			money = 500000
+			artillery = 2000
+			canned_food = 2000
+			small_arms = 2000
+			ammunition = 2000
+			set_country_flag = the_slavery_debate
+			set_country_flag = confederalism
+		}
+		CSA = {
+			capital = 211
+			leadership = 400
+			money = 500000
+			artillery = 2000
+			canned_food = 2000
+			small_arms = 2000
+			ammunition = 2000
+			set_country_flag = the_slavery_debate
+			set_country_flag = confederalism
+		}
+		change_tag_no_core_switch = USM
+		set_global_flag = american_civil_war_has_happened
+		clr_country_flag = the_slavery_debate
+	}
+	
+	option = {
+		name = "EVTOPTB16000"
+		political_reform = federalism
+		capital = 220
+		government = absolute_monarchy
+		country_event = { id = 16003 days = 180 }	
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		any_owned = {
+			limit = {
+				is_core = CSA
+				NOT = {
+					province_id = 146
+					province_id = 147
+					province_id = 148
+					province_id = 149
+					province_id = 150
+					province_id = 217
+					province_id = 218
+					province_id = 219
+					province_id = 220
+					province_id = 221
+					province_id = 222
+				}
+			}
+			remove_core = USA
+			secede_province = CSA
+		}
+		any_owned = {
+			limit = {
+				NOT = { has_province_modifier = monarchy_usa }
+			}
+			add_core = USM
+			secede_province = USM
+			remove_core = USA
+		}
+		any_owned = {
+			limit = {
+				has_province_modifier = monarchy_usa
+			}
+			remove_province_modifier = monarchy_usa
+		}
+		CSA = {
+			add_country_modifier = { name = american_civil_war duration = 1825 }
+			capital = 211
+			leadership = 400
+			money = 500000
+			artillery = 2000
+			canned_food = 2000
+			small_arms = 2000
+			ammunition = 2000
+			set_country_flag = the_slavery_debate
+			set_country_flag = confederalism
+		}
+		USM = {
+			capital = 89
+			leadership = 400
+			money = 500000
+			artillery = 2000
+			canned_food = 2000
+			small_arms = 2000
+			ammunition = 2000
+			set_country_flag = the_slavery_debate
+			set_country_flag = confederalism
+		}	
+		change_tag_no_core_switch = CSA
+		set_global_flag = american_civil_war_has_happened
+		clr_country_flag = the_slavery_debate
+	}
+
+	option = {
+		name = "For the King and Queen!"
+		political_reform = federalism
+		add_country_modifier = { name = american_civil_war duration = 1825 }
+		country_event = { id = 16003 days = 180 }	
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		any_owned = {
+			limit = {
+				is_core = CSA
+				NOT = {
+					province_id = 146
+					province_id = 147
+					province_id = 148
+					province_id = 149
+					province_id = 150
+					province_id = 217
+					province_id = 218
+					province_id = 219
+					province_id = 220
+					province_id = 221
+					province_id = 222
+				}
+			}
+			remove_core = USA
+			secede_province = CSA
+		}
+		CSA = {
+			capital = 211
+			leadership = 400
+			money = 500000
+			artillery = 2000
+			canned_food = 2000
+			small_arms = 2000
+			ammunition = 2000
+			set_country_flag = the_slavery_debate
+			set_country_flag = confederalism
+		}
+		any_owned = {
+			limit = {
+				NOT = { has_province_modifier = monarchy_usa }
+			}
+			add_core = USM
+			secede_province = USM
+			remove_core = USA
+		}
+		any_owned = {
+			limit = {
+				has_province_modifier = monarchy_usa
+			}
+			remove_province_modifier = monarchy_usa
+		}
+		USM = {
+			capital = 89
+			leadership = 400
+			money = 500000
+			artillery = 2000
+			canned_food = 2000
+			small_arms = 2000
+			ammunition = 2000
+			set_country_flag = the_slavery_debate
+			set_country_flag = confederalism
+		}
+		capital = 220
+		government = absolute_monarchy
+		set_global_flag = american_civil_war_has_happened
+		clr_country_flag = the_slavery_debate
+	}
+}
+
+country_event = {
+	id = 16003
+	title = "Three way American Civil War"
+	desc = "EVTDESC16003"
+	major = yes
+	
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA16001"
+		CSA = { set_country_flag = acw_happened }
+		war = {
+			target = CSA
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		war = {
+			target = USM
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = civil_war
+			}
+		}
+		USM = {
+			war = {
+				target = CSA
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				
+				defender_goal = {
+					casus_belli = status_quo
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16004
+	title = "CSA Cleanup"
+
+ 	trigger = {
+		tag = JAN
+		CSA = { exists = no }
+		USA = { exists = no }
+		USM = { exists = yes }
+		has_global_flag = american_civil_war_has_happened
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		CSA = {
+			all_core = {
+				add_core = USM
+				remove_core = CSA
+			}
+		}
+		USA = {
+			all_core = {
+				add_core = USM
+				remove_core = USA
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16005
+	title = "CSA Cleanup"
+
+ 	trigger = {
+		tag = JAN
+		CSA = { exists = no }
+		USM = { exists = no }
+		USA = { exists = yes }
+		has_global_flag = american_civil_war_has_happened
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		CSA = {
+			all_core = {
+				add_core = USA
+				remove_core = CSA
+			}
+		}
+		USM = {
+			all_core = {
+				add_core = USA
+				remove_core = USM
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16006
+	title = "CSA Cleanup"
+
+ 	trigger = {
+		tag = JAN
+		USM = { exists = no }
+		USA = { exists = yes }
+		has_global_flag = american_civil_war_has_happened
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		USM = {
+			all_core = {
+				add_core = USA
+				remove_core = USM
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16007
+	title = "CSA Cleanup"
+
+ 	trigger = {
+		tag = JAN
+		USA = { exists = no }
+		USM = { exists = yes }
+		has_global_flag = american_civil_war_has_happened
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		USA = {
+			all_core = {
+				add_core = USM
+				remove_core = USA
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16008
+	title = "CSA Cleanup"
+
+ 	trigger = {
+		tag = JAN
+		USA = { exists = no }
+		has_global_flag = american_civil_war_has_happened
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		USA = {
+			all_core = {
+				add_core = USM
+				remove_core = USA
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16009
+	title = "American Civil War Over"
+
+ 	trigger = {
+		tag = USM
+		USA = { exists = no }
+		has_global_flag = american_civil_war_has_happened
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Victory!"
+		change_tag = USA
 	}
 }
 

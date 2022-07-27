@@ -388,7 +388,8 @@ political_reforms = {
 			education_efficiency_modifier = -0.15
 			rgo_throughput = -0.06
 			factory_throughput = -0.06
-			global_immigrant_attract = -0.03
+			tax_efficiency = -0.04
+			global_immigrant_attract = -0.04
 		}
 		four_year_draft = {
 			mobilisation_economy_impact = 0.4
@@ -396,6 +397,7 @@ political_reforms = {
 			factory_throughput = -0.04
 			land_unit_start_experience = -5
 			education_efficiency_modifier = -0.10
+			tax_efficiency = -0.03
 			global_immigrant_attract = -0.02
 		}
 		two_year_draft = {
@@ -403,6 +405,7 @@ political_reforms = {
 			rgo_throughput = -0.02
 			factory_throughput = -0.02
 			global_immigrant_attract = -0.01
+			tax_efficiency = -0.01
 			education_efficiency_modifier = -0.05
 		}
 		one_year_draft = {

@@ -2146,23 +2146,11 @@ german_revolutionaries = {
 	}
 	
  	# Province Scope
-	siege_won_trigger = {
-		NOT = { has_province_modifier = war_torn }
- 	}
+	#siege_won_trigger = {
+ 	#}
 	
-	siege_won_effect = {
-		add_province_modifier = {
-			name = war_torn
-			duration = 365
-		}
-		any_pop = {
-			ideology = {
-				value = reactionary
-				factor = 0.05
-			}
-		}
-		owner = { war_exhaustion = 2.5 }
-	}
+	#siege_won_effect = {
+	#}
 	
 
 	# Country scope
@@ -2180,30 +2168,8 @@ german_revolutionaries = {
 	}
 	
 	demands_enforced_effect = {
-			political_reform = universal_voting
-			political_reform = proportional_representation
-			political_reform = yes_meeting
-			political_reform = free_press
-			political_reform = state_controlled
-			political_reform = secret_ballots
-			government = hms_government
-			random_country = {
-				limit = {
-					is_culture_group = germanic
-					OR = {
-						is_greater_power = yes
-						tag = PRU
-					}
-					NOT = {
-						tag = AUS
-						tag = KUK
-						tag = DNB
-						tag = SGF
-					}
-				}
-			country_event = { id=194555 days=0 }
-			}
-		}
+		country_event = { id=11102 days=0 }
+	}
 	}
 
 ###################################

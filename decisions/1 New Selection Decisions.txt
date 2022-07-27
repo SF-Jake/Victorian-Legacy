@@ -249,6 +249,7 @@ release_vassals = {
 		alert = yes
 		potential = {
 			has_country_flag = show_options_Y
+			ai = no
 			NOT = { research_and_development = futuristic_rnd }
 		}
 
@@ -686,6 +687,7 @@ zscorch_earth = {
 		picture = family
 		potential = {
 			has_country_flag = show_options_G
+			ai = no
 			NOT = {
 				OR = {
 					any_owned_province = { 
@@ -722,6 +724,7 @@ zscorch_earth = {
 	zstate_baby_boom_100k = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -759,6 +762,7 @@ zscorch_earth = {
 	zstate_baby_boom_200k = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -799,6 +803,7 @@ zscorch_earth = {
 	zstate_baby_boom_300k = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -839,6 +844,7 @@ zscorch_earth = {
 	zstate_baby_boom_400k = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -879,6 +885,7 @@ zscorch_earth = {
 	zstate_baby_boom_500k = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -919,6 +926,7 @@ zscorch_earth = {
 	zstate_baby_boom_600k = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -959,6 +967,7 @@ zscorch_earth = {
 	zstate_baby_boom_700k = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -999,6 +1008,7 @@ zscorch_earth = {
 	zstate_baby_boom_800k = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -1039,6 +1049,7 @@ zscorch_earth = {
 	zstate_baby_boom_900k = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -1079,6 +1090,7 @@ zscorch_earth = {
 	zstate_baby_boom_1M = {
 		picture = family
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			NOT = { has_country_modifier = baby_booming }
 			any_owned_province = { 
@@ -1124,6 +1136,7 @@ zscorch_earth = {
 	zstate_literacy_campaign = {
 		picture = literacy
 		potential = {
+			ai = no
 			has_country_flag = show_options_G
 			ai = no
 			NOT = {
@@ -5585,6 +5598,7 @@ zscorch_earth = {
 		picture = colonial_policy
 		potential = {
 			has_country_flag = show_options_G
+			ai = no
 			NOT = {
 				OR = {
 					AND = {
@@ -5632,6 +5646,7 @@ zscorch_earth = {
 		picture = colonial_policy
 		potential = {
 			has_country_flag = show_options_G
+			ai = no
 			ruling_party_ideology = reactionary
 			government = absolute_monarchy
 		}	
@@ -5670,6 +5685,7 @@ zscorch_earth = {
 		picture = colonial_policy
 		potential = {
 			has_country_flag = show_options_G
+			ai = no
 			ruling_party_ideology = fascist
 			government = fascist_dictatorship
 		}	
@@ -5708,6 +5724,7 @@ zscorch_earth = {
 		picture = colonial_policy
 		potential = {
 			has_country_flag = show_options_G
+			ai = no
 			ruling_party_ideology = communist
 			government = proletarian_dictatorship
 		}	
