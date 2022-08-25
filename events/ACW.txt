@@ -181,6 +181,12 @@ country_event = {
 		name = "EVTOPTA16000"
 		political_reform = federalism
 		government = absolute_monarchy
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
 		capital = 220
 		country_event = { id = 16003 days = 180 }	
 		any_pop = {
@@ -254,6 +260,12 @@ country_event = {
 		political_reform = federalism
 		capital = 220
 		government = absolute_monarchy
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
 		country_event = { id = 16003 days = 180 }	
 		any_pop = {
 			consciousness = -7
@@ -315,7 +327,7 @@ country_event = {
 			ammunition = 2000
 			set_country_flag = the_slavery_debate
 			set_country_flag = confederalism
-		}	
+		}
 		change_tag_no_core_switch = CSA
 		set_global_flag = american_civil_war_has_happened
 		clr_country_flag = the_slavery_debate
@@ -325,7 +337,13 @@ country_event = {
 		name = "For the King and Queen!"
 		political_reform = federalism
 		add_country_modifier = { name = american_civil_war duration = 1825 }
-		country_event = { id = 16003 days = 180 }	
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		country_event = { id = 16003 days = 180 }
 		any_pop = {
 			consciousness = -7
 			militancy = -3

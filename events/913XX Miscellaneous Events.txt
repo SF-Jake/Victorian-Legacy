@@ -4042,13 +4042,14 @@ country_event = {
 country_event = {
 	id = 14672
 	title = "WAR!"
-	desc = "The 2 year grace period is over"
+	desc = "The 1 year grace period is over"
 	picture = war_1838
 
 	trigger = {
 		NOT = { has_country_flag = war_1836 }
 		ai = no
-		year = 1838
+		NOT = { year = 1838 }
+		year = 1837
 	}
 
 	option = {
@@ -4071,6 +4072,21 @@ country_event = {
 	trigger = {
 		ai = no
 		year = 1837
+		OR = {
+			AND = {
+				government = fascist_dictatorship
+				ruling_party_ideology = fascist
+			}
+			AND = {
+				government = absolute_monarchy
+				ruling_party_ideology = reactionary
+			}
+			
+			AND = {
+				government = proletarian_dictatorship
+				ruling_party_ideology = communist
+			}
+		}
 		NOT = { has_country_modifier = genocide_cooldown }
 		NOT = { has_country_flag = genocide_cooldown_finished }
 	}

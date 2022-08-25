@@ -113,7 +113,7 @@ gunboat = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -172,7 +172,7 @@ status_quo = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		always = no
 	}
@@ -210,7 +210,7 @@ conquest = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -326,7 +326,7 @@ civil_war = {
 		always = no
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 	}
 
@@ -389,7 +389,7 @@ add_to_sphere = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -454,7 +454,7 @@ take_from_sphere = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -527,7 +527,7 @@ acquire_all_cores = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		OR = {
 			NOT = { has_country_flag = chinese }
@@ -613,7 +613,7 @@ acquire_core_state = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		OR = {
 			THIS = { ai = no }
@@ -721,7 +721,7 @@ mexican_american_war = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		any_owned_province = { is_core = THIS }
 	}
@@ -773,7 +773,7 @@ annex_core_country = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		OR = {
 			NOT = { has_country_flag = chinese }
@@ -866,7 +866,7 @@ acquire_substate_region = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		num_of_substates = 1 # if has any substate
 		any_substate = {
@@ -933,7 +933,7 @@ acquire_state = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1125,7 +1125,7 @@ place_in_the_sun = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1292,7 +1292,7 @@ cut_down_to_size = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1334,7 +1334,7 @@ cut_down_to_size_boxer = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1411,7 +1411,7 @@ demand_reparations = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			ai = no
@@ -1464,7 +1464,7 @@ free_peoples = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1566,7 +1566,7 @@ liberate_country = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1668,7 +1668,7 @@ dismantle_forts = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1738,7 +1738,7 @@ release_puppet = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1805,7 +1805,7 @@ make_puppet = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1891,7 +1891,7 @@ become_independent = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -1970,7 +1970,7 @@ humiliate = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2026,7 +2026,7 @@ demand_concession_casus_belli = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2140,7 +2140,7 @@ establish_protectorate_casus_belli = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2240,7 +2240,7 @@ establish_small_protectorate_casus_belli = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		NOT = { total_pops = 150000 }
 		THIS = {
@@ -2341,7 +2341,7 @@ unification_humiliate_cb = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2413,7 +2413,7 @@ unification_release_puppet_cb = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2491,7 +2491,7 @@ unification_casus_belli = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2588,7 +2588,7 @@ unification_annex_casus_belli = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2669,7 +2669,7 @@ rude_boy = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2729,7 +2729,7 @@ install_communist_gov_cb = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2826,7 +2826,7 @@ uninstall_communist_gov_cb = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2879,7 +2879,7 @@ great_war_penalty_cb = {
     can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -2954,7 +2954,7 @@ take_capital = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -3103,7 +3103,7 @@ acquire_small_state = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -3254,7 +3254,7 @@ acquire_tiny_state = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -3395,7 +3395,7 @@ conquest_small = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -3518,7 +3518,7 @@ conquest_tiny = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -3648,7 +3648,7 @@ demand_for_ally = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -3758,7 +3758,7 @@ opium_war = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -3847,7 +3847,7 @@ demand_chinese_concession_casus_belli = {
 		NOT = { war_with = THIS }
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -3976,7 +3976,7 @@ demand_chinese_state = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -4104,7 +4104,7 @@ chinese_civil_war = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
@@ -4164,7 +4164,7 @@ chinese_civil_war_acquire_state = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
@@ -4281,7 +4281,7 @@ european_acquire_african_state = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
@@ -4350,7 +4350,7 @@ european_african_conquest = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
@@ -4423,7 +4423,7 @@ european_indian_conquest = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		has_global_flag = india_collapse
 		THIS = {
@@ -4512,7 +4512,7 @@ free_balkans = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		tag = TUR
 		THIS = {
@@ -4727,7 +4727,7 @@ platine_war = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		OR = {
 			tag = ARC
@@ -4783,7 +4783,7 @@ paraguayan_war = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		OR = {
 			tag = ARG
@@ -4897,7 +4897,7 @@ blockade = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		capital_scope = {
 			OR = {
@@ -4965,7 +4965,7 @@ allied_great_war_demands = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 	}
 	
@@ -5033,7 +5033,7 @@ central_great_war_demands = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 	}
 	
@@ -5111,7 +5111,7 @@ acquire_siberian_state = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -5272,7 +5272,7 @@ puppet_acquire_state = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		always = no
 	}
@@ -5317,7 +5317,7 @@ restore_puppet_province = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		NOT = {
 			OR = {
@@ -5377,7 +5377,7 @@ chincha_war = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		tag = SPA
 		THIS = { civilized = yes }
@@ -5430,7 +5430,7 @@ remove_cores = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -5502,7 +5502,7 @@ dismantle_cb = {
 	can_use = {
 		OR = {
 			ai = yes
-			year = 1838
+			year = 1837
 		}
 		badboy = 1.6
 		is_great_power = yes
