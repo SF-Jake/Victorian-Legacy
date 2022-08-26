@@ -1031,11 +1031,14 @@ emigration_chance =
 	modifier = {
 		factor = 0.08
 		NOT = {
-			OR = { 
+			OR = {
 				continent = north_america
 				continent = south_america
 				continent = oceania
-				has_pop_culture = boer
+				AND = {
+					primary_culture = british
+					has_country_flag = african_union_formation
+				}
 			}
 		}
 	}
@@ -1196,6 +1199,10 @@ assimilation_chance =
 					continent = north_america
 					continent = south_america
 					continent = oceania
+					AND = {
+						primary_culture = british
+						has_country_flag = african_union_formation
+					}
 				}
 			}		
 	}

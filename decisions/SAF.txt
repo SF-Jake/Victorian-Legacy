@@ -257,6 +257,7 @@ political_decisions = {
 			effect = {
 				government = hms_government
 				centralization = federalism
+				add_accepted_culture = s_african
 				set_country_flag = south_africa_union
 				set_country_flag = boer_republic
 				any_pop = {

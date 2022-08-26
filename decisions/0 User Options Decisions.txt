@@ -48,4 +48,46 @@ political_decisions = {
 			clr_country_flag = show_options_G
 		}
 	}
+	remove_genocide_modifier = {
+		alert = no
+		potential = {
+			any_owned_province = { has_province_modifier = monarchy_genocide }
+		}
+		allow = {
+		}
+		effect = {
+			any_owned = {
+				limit = { has_province_modifier = monarchy_genocide }
+				remove_province_modifier = monarchy_genocide
+			}
+		}
+	}
+	remove_genocide_modifier2 = {
+		alert = no
+		potential = {
+			any_owned_province = { has_province_modifier = facist_genocide }
+		}
+		allow = {
+		}
+		effect = {
+			any_owned = {
+				limit = { has_province_modifier = facist_genocide }
+				remove_province_modifier = facist_genocide
+			}
+		}
+	}
+	remove_genocide_modifier3 = {
+		alert = no
+		potential = {
+			any_owned_province = { has_province_modifier = communist_genocide }
+		}
+		allow = {
+		}
+		effect = {
+			any_owned = {
+				limit = { has_province_modifier = communist_genocide }
+				remove_province_modifier = communist_genocide
+			}
+		}
+	}
 }

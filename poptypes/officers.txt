@@ -325,8 +325,7 @@ country_migration_target =
 		factor = 0.01
 		OR = {
 			continent = north_america
-			continent = oceania
-			tag = SAF
+			continent = oceania		
 		}
 		NOT = { month = 6 }
 		THIS = {
@@ -419,15 +418,7 @@ country_migration_target =
 			}
 		}
 	}
-	modifier = {
-		factor = 750
-		AND = {
-			primary_culture = british
-			has_country_flag = african_union_formation
-		}
-		has_country_flag = african_union_formation
-		THIS = { has_pop_culture = british }
-	}
+	 
 	modifier = {
 		factor = 0.01
 		OR = {

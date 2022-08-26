@@ -886,25 +886,9 @@ political_decisions = {
 							vassal_of = THIS
 							war = no
 						}
-							SPA = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-							war = no
-							ai = yes
-						}
-						owner = {
-							vassal_of = THIS
-							war = no
-						}
-					}
 					}
 				}
 			}
-		}
-	}
 			SPC = {
 					all_core = {
 						OR = {
