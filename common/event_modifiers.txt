@@ -1827,8 +1827,8 @@ just_civilized = {
 }
 #### SAU - SOUTH AFRICAN UNION ####
 south_africa_immigrant_attract = {
-	global_immigrant_attract = 10
-	immigrant_push = -1000
+	global_population_growth = 0.005
+	immigrant_push = -10
 	icon = 17
 }
 

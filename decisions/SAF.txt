@@ -229,7 +229,8 @@ political_decisions = {
 				change_tag = SAU
 				government = hms_government
 				add_country_modifier = { name = south_africa_immigrant_attract duration = -1 }
-				set_country_flag = embraced_boarismv
+				add_accepted_culture = s_african
+				set_country_flag = embraced_boarism
 				ENG_2083 = { add_core = THIS }
 				ENG_2083 = { add_core = THIS }
 				POR_2049 = { add_core = THIS }
@@ -257,7 +258,6 @@ political_decisions = {
 			effect = {
 				government = hms_government
 				centralization = federalism
-				add_accepted_culture = s_african
 				set_country_flag = south_africa_union
 				set_country_flag = boer_republic
 				any_pop = {

@@ -180,9 +180,10 @@ country_migration_target =
 			primary_culture = anglo_canadian
 			primary_culture = british
 		}
+		NOT = { has_country_flag = african_union_formation }
 		NOT = { continent = europe }
 		THIS = { has_pop_culture = british }
-	}
+	}	
 	modifier = {
 		factor = 10
 		primary_culture = british
@@ -230,6 +231,7 @@ country_migration_target =
 			AND = {
 				NOT = { primary_culture = ashkenazi }
 				NOT = { primary_culture = sephardic }
+				NOT = { has_country_flag = african_union_formation }
 			}
 			AND = {
 				THIS = { NOT = { has_pop_culture = ashkenazi } }
@@ -301,6 +303,10 @@ country_migration_target =
 		factor = 0.95
 		war_exhaustion = 25
 	}			
+	modifier = {
+		factor = 95
+		has_country_flag = african_union_formation
+	} 
 	modifier = {
 		factor = 0.01
 		OR = {
@@ -398,7 +404,6 @@ country_migration_target =
 			}
 		}
 	}
-	 
 	modifier = {
 		factor = 0.01
 		OR = {

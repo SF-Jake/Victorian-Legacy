@@ -1035,8 +1035,7 @@ emigration_chance =
 				continent = north_america
 				continent = south_america
 				continent = oceania
-				AND = {
-					primary_culture = british
+				country = {
 					has_country_flag = african_union_formation
 				}
 			}
@@ -1133,6 +1132,7 @@ assimilation_chance =
 			literacy = 0.2
 			NOT = { has_culture_core = yes }
 			location = {
+				
 				OR = {
 					continent = europe
 					continent = asia
@@ -1199,8 +1199,7 @@ assimilation_chance =
 					continent = north_america
 					continent = south_america
 					continent = oceania
-					AND = {
-						primary_culture = british
+					country = {
 						has_country_flag = african_union_formation
 					}
 				}

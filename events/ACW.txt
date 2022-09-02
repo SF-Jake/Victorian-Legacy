@@ -158,7 +158,7 @@ country_event = {
 		tag = USA
 		government = presidential_dictatorship
 		has_global_flag = form_monarchy_usa
-		year = 1865
+		year = 1863
 		slavery = yes_slavery
 		NOT = {
 			has_global_flag = american_civil_war_has_happened
@@ -169,11 +169,11 @@ country_event = {
 		months = 12
 		modifier = {
 			factor = 0.5
-			year = 1866
+			year = 1864
 		}
 		modifier = {
 			factor = 0.1
-			year = 1867
+			year = 1865
 		}
 	}
 	
