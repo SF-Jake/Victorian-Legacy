@@ -3,7 +3,12 @@
 **Modified Version of the Official Victoria Universalis Mod**
 
 Want to try out the mod click the link below for the latest release
-* [Download](https://github.com/SF-Jake/Victoria-Universalis-Modified/releases)
+* [**Download**](https://github.com/SF-Jake/Victoria-Universalis-Modified/releases)
+
+**Discord**
+This was a mod that I put together with a small discord community and we also play victoria 2 hosts improving the overall balance of the mod. If you want to join games I host with this mod or provide ideas and feedback join my discord.
+
+* [**Discord Link**](https://discord.gg/38DP7vuqtA)
 
 This is to modify Victoria Universalis to Include more flavor and features from other mods like HFM to make it into a Multiplayer Mod. 
 This mod was Inspired by:
@@ -43,8 +48,3 @@ This mod was Inspired by:
 
 **HFM Additions and many other mod Additions**
 - I do like working and adding my very own work to this mod but whenever ideas for this become very hard to come up with I tend to go and look and see what additions I could pull from other mods and obviously credit them to the creator of that addition.
-
-**Discord**
-- This was a mod that I put together with a small discord community and we also play victoria 2 hosts improving the overall balance of the mod. If you want to join games I host with this mod or provide ideas and feedback join my discord.
-
-* [**Discord Link**](https://discord.gg/38DP7vuqtA)
