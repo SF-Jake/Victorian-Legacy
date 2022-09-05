@@ -6,6 +6,7 @@ Want to try out the mod click the link below for the latest release
 * [**Download**](https://github.com/SF-Jake/Victoria-Universalis-Modified/releases)
 
 **Discord**
+
 This was a mod that I put together with a small discord community and we also play victoria 2 hosts improving the overall balance of the mod. If you want to join games I host with this mod or provide ideas and feedback join my discord.
 
 * [**Discord Link**](https://discord.gg/38DP7vuqtA)
