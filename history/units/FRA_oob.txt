@@ -1,3 +1,13 @@
+JAN = {
+	value = -200
+	truce_until="1937.1.1"
+}
+
+GHO = {
+	value = -200
+	truce_until="1937.1.1"
+}
+
 #Sphere of Influence
 BEL = {
 	value = 125		#relation
@@ -186,8 +196,8 @@ leader = {
 }
 
 army = {
-	name = "Mob Stack"
-	location = 426
+	name = "30 Stack"
+	location = 1700
 	regiment = {
 		name= "Hussar"
 		type = hussar
@@ -222,6 +232,30 @@ army = {
 		name= "Artillery"
 		type = artillery
 		home = 408
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 414
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 430
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 446
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 424
 	}
 }
 army = {

@@ -520,6 +520,35 @@ release_vassals = {
 	}
 
 #########################################################################
+# 							UNOCCUPY PROVINCES							#
+#########################################################################
+
+unoccupy_provinces = {
+	picture = cease_fire
+	potential = {
+		has_country_flag = show_options_Y
+		ai = no
+	}
+	allow = {
+		war = yes
+		NOT = { has_country_modifier = requesting_cease_fire }
+		war_countries = { ai = no }
+	}
+	effect = {
+		add_country_modifier = { name = requesting_cease_fire duration = 20 }
+		any_owned = {
+			limit = {
+				NOT = { controlled_by = THIS }
+				controller = { ai = no }
+			}
+			controller = {
+				country_event = { id = 91711 days = 0 }
+			}
+		}
+	}
+}
+
+#########################################################################
 # 							PROVINCE SUPPLY								#
 #########################################################################
 zcreate_supply_depot = {
@@ -2871,7 +2900,7 @@ zscorch_earth = {
 			}
 		}
 		allow = {
-			money = 500000
+			money = 250000
 			any_owned_province = { 
 				has_building = province_selector
 				OR = {
@@ -2958,7 +2987,7 @@ zscorch_earth = {
 			}
 		}
 		effect = {
-			money = -500000
+			money = -250000
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -3140,7 +3169,7 @@ zscorch_earth = {
 			}
 		}
 		allow = {
-			money = 1500000
+			money = 750000
 			any_owned_province = {
 				has_building = province_selector
 				OR = {
@@ -3225,7 +3254,7 @@ zscorch_earth = {
 			}
 		}
 		effect = {
-			money = -1500000
+			money = -750000
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -4150,6 +4179,7 @@ zscorch_earth = {
 	zprovince_agriculture_expansion_1M+ = {
 		picture = rgo_expansion
 		potential = {
+			has_country_flag = show_options_G
 			ai = no
 			any_owned_province = { 
 				has_building = province_selector
@@ -4202,7 +4232,6 @@ zscorch_earth = {
 #########################################################################
 # 						CHANGE AGRICULTURE RGO							#
 #########################################################################
-	
 	zprovince_rgo_change_agriculture = {
 		picture = agriculture
 		potential = {
@@ -4214,20 +4243,16 @@ zscorch_earth = {
 		allow = {
 			any_owned_province = {
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4243,6 +4268,7 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
@@ -4260,20 +4286,16 @@ zscorch_earth = {
 			any_owned_province = {
 				NOT = { total_pops = 100000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4282,20 +4304,16 @@ zscorch_earth = {
 			any_owned_province = {
 				NOT = { total_pops = 100000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4314,9 +4332,82 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					NOT = { total_pops = 100000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					NOT = { total_pops = 100000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					NOT = { total_pops = 100000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4332,20 +4423,16 @@ zscorch_earth = {
 				total_pops = 100000
 				NOT = { total_pops = 200000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4355,20 +4442,16 @@ zscorch_earth = {
 				total_pops = 100000
 				NOT = { total_pops = 200000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4388,9 +4471,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 100000
+					NOT = { total_pops = 200000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 100000
+					NOT = { total_pops = 200000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 100000
+					NOT = { total_pops = 200000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4406,20 +4565,16 @@ zscorch_earth = {
 				total_pops = 200000
 				NOT = { total_pops = 300000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4429,20 +4584,16 @@ zscorch_earth = {
 				total_pops = 200000
 				NOT = { total_pops = 300000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4462,9 +4613,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 200000
+					NOT = { total_pops = 300000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 200000
+					NOT = { total_pops = 300000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 200000
+					NOT = { total_pops = 300000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4480,20 +4707,16 @@ zscorch_earth = {
 				total_pops = 300000
 				NOT = { total_pops = 400000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4503,20 +4726,16 @@ zscorch_earth = {
 				total_pops = 300000
 				NOT = { total_pops = 400000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4536,9 +4755,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 300000
+					NOT = { total_pops = 400000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 300000
+					NOT = { total_pops = 400000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 300000
+					NOT = { total_pops = 400000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4554,20 +4849,16 @@ zscorch_earth = {
 				total_pops = 400000
 				NOT = { total_pops = 500000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4577,20 +4868,16 @@ zscorch_earth = {
 				total_pops = 400000
 				NOT = { total_pops = 500000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4610,9 +4897,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 400000
+					NOT = { total_pops = 500000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 400000
+					NOT = { total_pops = 500000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 400000
+					NOT = { total_pops = 500000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4628,20 +4991,16 @@ zscorch_earth = {
 				total_pops = 500000
 				NOT = { total_pops = 600000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4651,20 +5010,16 @@ zscorch_earth = {
 				total_pops = 500000
 				NOT = { total_pops = 600000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4684,9 +5039,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 500000
+					NOT = { total_pops = 600000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 500000
+					NOT = { total_pops = 600000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 500000
+					NOT = { total_pops = 600000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4702,20 +5133,16 @@ zscorch_earth = {
 				total_pops = 600000
 				NOT = { total_pops = 700000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4725,20 +5152,16 @@ zscorch_earth = {
 				total_pops = 600000
 				NOT = { total_pops = 700000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4758,9 +5181,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 600000
+					NOT = { total_pops = 700000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 600000
+					NOT = { total_pops = 700000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 600000
+					NOT = { total_pops = 700000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4776,20 +5275,16 @@ zscorch_earth = {
 				total_pops = 700000
 				NOT = { total_pops = 800000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4799,20 +5294,16 @@ zscorch_earth = {
 				total_pops = 700000
 				NOT = { total_pops = 800000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4832,9 +5323,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 700000
+					NOT = { total_pops = 800000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 700000
+					NOT = { total_pops = 800000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 700000
+					NOT = { total_pops = 800000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4850,20 +5417,16 @@ zscorch_earth = {
 				total_pops = 800000
 				NOT = { total_pops = 900000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4873,20 +5436,16 @@ zscorch_earth = {
 				total_pops = 800000
 				NOT = { total_pops = 900000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4906,9 +5465,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 800000
+					NOT = { total_pops = 900000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 800000
+					NOT = { total_pops = 900000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 800000
+					NOT = { total_pops = 900000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4924,20 +5559,16 @@ zscorch_earth = {
 				total_pops = 900000
 				NOT = { total_pops = 1000000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -4947,20 +5578,16 @@ zscorch_earth = {
 				total_pops = 900000
 				NOT = { total_pops = 1000000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -4980,9 +5607,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 900000
+					NOT = { total_pops = 1000000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 900000
+					NOT = { total_pops = 1000000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 900000
+					NOT = { total_pops = 1000000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -4998,20 +5701,16 @@ zscorch_earth = {
 				total_pops = 1000000
 				NOT = { total_pops = 1200000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -5021,20 +5720,16 @@ zscorch_earth = {
 				total_pops = 1000000
 				NOT = { total_pops = 1200000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -5055,9 +5750,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1000000
+					NOT = { total_pops = 1200000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1000000
+					NOT = { total_pops = 1200000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1000000
+					NOT = { total_pops = 1200000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -5073,20 +5844,16 @@ zscorch_earth = {
 				total_pops = 1200000
 				NOT = { total_pops = 1400000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -5096,20 +5863,16 @@ zscorch_earth = {
 				total_pops = 1200000
 				NOT = { total_pops = 1400000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -5130,9 +5893,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1200000
+					NOT = { total_pops = 1400000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1200000
+					NOT = { total_pops = 1400000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1200000
+					NOT = { total_pops = 1400000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -5148,20 +5987,16 @@ zscorch_earth = {
 				total_pops = 1400000
 				NOT = { total_pops = 1600000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -5171,20 +6006,16 @@ zscorch_earth = {
 				total_pops = 1400000
 				NOT = { total_pops = 1600000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -5205,9 +6036,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1400000
+					NOT = { total_pops = 1600000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1400000
+					NOT = { total_pops = 1600000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1400000
+					NOT = { total_pops = 1600000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -5223,20 +6130,16 @@ zscorch_earth = {
 				total_pops = 1600000
 				NOT = { total_pops = 1800000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -5246,20 +6149,16 @@ zscorch_earth = {
 				total_pops = 1600000
 				NOT = { total_pops = 1800000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -5280,9 +6179,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1600000
+					NOT = { total_pops = 1800000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1600000
+					NOT = { total_pops = 1800000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1600000
+					NOT = { total_pops = 1800000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -5298,20 +6273,16 @@ zscorch_earth = {
 				total_pops = 1800000
 				NOT = { total_pops = 2000000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -5321,20 +6292,16 @@ zscorch_earth = {
 				total_pops = 1800000
 				NOT = { total_pops = 2000000 }
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -5355,9 +6322,85 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1800000
+					NOT = { total_pops = 2000000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1800000
+					NOT = { total_pops = 2000000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 1800000
+					NOT = { total_pops = 2000000 }
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}
@@ -5366,25 +6409,22 @@ zscorch_earth = {
 	zprovince_rgo_change_agriculture_2M+ = {
 		picture = agriculture
 		potential = {
+			has_country_flag = show_options_G
 			ai = no
 			NOT = { has_country_flag = deciding }
 			any_owned_province = {
 				total_pops = 2000000
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}	
@@ -5393,20 +6433,16 @@ zscorch_earth = {
 			any_owned_province = {
 				total_pops = 2000000
 				has_building = province_selector
-				OR = {
-				    trade_goods = dye
-					trade_goods = timber
-					trade_goods = cotton
-					trade_goods = cattle
-					trade_goods = fish
-					trade_goods = fruit
-					trade_goods = opium
-					trade_goods = grain
-					trade_goods = silk
-					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
-					trade_goods = wool
+				NOT = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = tropical_wood
+					}
 				}
 			}
 		}
@@ -5427,9 +6463,82 @@ zscorch_earth = {
 							trade_goods = oil
 							trade_goods = market_goods
 							trade_goods = precious_metal
+							trade_goods = tropical_wood
 						}
 					}
 				}
+				add_province_modifier = { name = changing_agriculture duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 2000000
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91739  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 2000000
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
+				province_event = { id = 91738  days = 0 }
+			}
+			random_owned = {
+				limit = {
+					total_pops = 2000000
+					has_building = province_selector
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = market_goods
+							trade_goods = precious_metal
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+					has_province_modifier = changing_agriculture
+				}
+				remove_province_modifier = changing_agriculture
 				province_event = { id = 91737  days = 0 }
 			}
 		}

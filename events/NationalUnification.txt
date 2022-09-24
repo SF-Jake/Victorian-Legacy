@@ -284,7 +284,6 @@ country_event = {
 		name = "EVTOPTA11103"
 		change_tag = culture
 		add_accepted_culture = north_italian
-		add_accepted_culture = south_italian
 		any_country = {
 			limit = {
 				NOT = {

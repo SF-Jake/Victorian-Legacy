@@ -53,6 +53,15 @@
 	border_policy = open_borders
 	centralization = regionalism
 	colonial_migration = no_colonial_migration
+
+	foreign_weapons = yes_foreign_weapons
+	foreign_artillery = yes_foreign_artillery
+	land_reform = yes_land_reform
+
+	# Technology
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	freedom_of_trade = 1
 }
 
 1836.1.1 = {
@@ -110,6 +119,15 @@
 	border_policy = open_borders
 	centralization = regionalism
 	colonial_migration = no_colonial_migration
+
+	foreign_weapons = yes_foreign_weapons
+	foreign_artillery = yes_foreign_artillery
+	land_reform = yes_land_reform
+
+	# Technology
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	freedom_of_trade = 1
 }
 
 1913.1.1 = {

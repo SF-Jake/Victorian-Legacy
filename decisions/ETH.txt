@@ -105,28 +105,7 @@ political_decisions = {
 			capital = 1859
 		}
 	}
-	colonize_djibuti = {
-		potential = {
-			ai = no
-			OR = {
-				tag = ETH
-				tag = ETE
-			}
-			NOT = { has_country_flag = colonize_djibuti }
-			has_country_flag = is_negusa_nagast
-			has_country_flag = addis_ababa_built
-		}
-
-		allow = {
-			war = no
-			foreign_weapons = yes_foreign_weapons
-		}
-
-		effect = {
-			1875 = { secede_province = THIS add_core = THIS }
-			set_country_flag = colonize_djibuti
-		}
-	}
+	
 	ethiopian_empire = {
 		picture = become_negusa_nagast
 		potential = {

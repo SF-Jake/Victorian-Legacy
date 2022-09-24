@@ -49,13 +49,6 @@ substate = {
 #	end_date = 1895.5.17 #Treaty of Shimonoseki
 #}
 
-substate = {
-	first = TKG
-	second = JAP
-	start_date = 1836.1.1
-	end_date = 1868.1.1
-}
-
 # Denmark-Holstein
 vassal = {
 	first = DEN
@@ -142,14 +135,6 @@ vassal = {
 	end_date = 1837.1.1
 }
 
-# United Kingdom-Ionian Islands
-vassal = {
-	first = ENG
-	second = ION
-	start_date = 1815.11.9
-	end_date = 1864.1.1
-}
-
 # Bolivia-Peru
 vassal = {
 	first = BOL
@@ -172,14 +157,6 @@ vassal = {
 	second = CRT
 	start_date = 1836.1.1
 	end_date = 1851.8.18
-}
-
-# Austria-Hungary
-vassal = {
-	first = AUS
-	second = HUN
-	start_date = 1836.1.1
-	end_date = 1848.1.1
 }
 
 # Vietnam-Cambodia

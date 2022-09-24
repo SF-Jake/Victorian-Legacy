@@ -852,12 +852,6 @@ country_event = {
 			state_scope = {
 				any_pop = {
 					limit = {
-						culture = native_american_minor
-					}
-					militancy = 8
-				}
-				any_pop = {
-					limit = {
 						not = {
 							is_culture_group = native_american
 						}
@@ -867,40 +861,6 @@ country_event = {
 			}
 		}
 		set_country_flag = apache_wars
-	}
-}
-
-province_event = {
-	id = 16445
-	title = "Apache Raiders"
-	desc = "Local native groups are raiding our settlements in $PROVINCENAME$"
-	picture = "Sioux"
-	
-	trigger = {
-		is_colonial = yes
-		has_country_flag = apache_wars
-		has_pop_culture = native_american_minor
-		not = { has_country_flag = apache_wars_over }
-	}
-	
-	mean_time_to_happen = {
-		months = 200
-	}
-	
-	option = {
-		name = "Blast them!"
-		state_scope = {
-			any_pop = {
-				limit = {
-					culture = native_american_minor
-				}
-				militancy = 10
-			}
-		}
-		add_province_modifier = {
-			name = "apache_raiders"
-			duration = 730
-		}
 	}
 }
 
@@ -926,15 +886,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA16450"
-		any_pop = {
-			limit = {
-				culture = native_american_minor
-			}
-			militancy = -10
-			consciousness = -10
-			reduce_pop = 0.8
-		}
-		add_accepted_culture = native_american_minor
+		prestige = 15
 		set_country_flag = apache_wars_over
 	}
 }

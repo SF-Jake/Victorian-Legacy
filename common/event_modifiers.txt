@@ -611,6 +611,10 @@ admin_counter = {
 	icon = 8
 }
 
+banker_income_timer = {
+	icon = 10
+}
+
 monthly_timer = {
 	icon = 8
 }
@@ -858,19 +862,27 @@ country_suppression = {
 }
 
 province_attract_immigrants = {
-	immigrant_attract = 100
+	immigrant_attract = 200
 	immigrant_push = -1000
 	icon = 9
 }
 
 new_world_province_attract_immigrants = {
-	immigrant_attract = 50
+	immigrant_attract = 100
 	immigrant_push = -1000
 	icon = 9
 }
 
 force_reform  = {
 	icon = 5
+}
+
+requesting_cease_fire = {
+	icon = 8
+}
+
+changing_agriculture = {
+	icon = 14
 }
 
 ########## BACKGROUND STUFF ##########
@@ -1097,6 +1109,7 @@ the_bonnie_blue_flag = {
 the_statue_of_liberty = {
 	prestige = 0.2
 	global_assimilation_rate = 0.5
+	global_immigrant_attract = 0.5
 	icon = 15
 }
 
@@ -1264,7 +1277,6 @@ sakoku = {
 	research_points_modifier = -0.3
 	global_pop_militancy_modifier = -0.03
 	global_pop_consciousness_modifier = -0.03
-	research_points_on_conquer = -1
 	icon = 4
 }
 
@@ -1476,6 +1488,12 @@ redshirts = {
 pompeji_excavations = {
     prestige = 0.02
     icon = 3
+}
+
+italico_valore = {
+	war_exhaustion = -0.03
+	supply_consumption = -0.3
+	icon = 15
 }
 
 #### South America ####

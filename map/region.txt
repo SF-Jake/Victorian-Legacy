@@ -569,6 +569,8 @@ FRA_413 = { 472 } #Nice
 
 FRA_412 = { 412 409 410 8 43 } #Alsace Lorraine
 
+FRA_414 = { 414 411 413 }
+
 FRA_418 = { 418 416 417 } #Normandie
 
 FRA_415 = { 415 402 2570 } #Amiens
@@ -583,9 +585,9 @@ FRA_420 = { 420 421 422 424 423 }
 
 FRA_428 = { 428 429 431 430 433 } #Bourgogne
 
-FRA_404 = { 404 403 405 406 408 } #Champagne
+FRA_404 = { 404 403 406 408 405 } #Champagne
 
-FRA_411 = { 411 413 407 414 432 45 }
+FRA_411 = { 407 432 45 }
 
 FRA_448 = { 448 449 461 462 } #Auvergne
 
@@ -617,11 +619,11 @@ SPA_512 = { 512 509 510 511 } #Andalucia
 
 SPA_487 = { 487 488 489 490 491 508 } #Castilla la Nueva
 
-BEL_394 = { 393 394 392 395 398 } #Wallonie
+BEL_394 = { 394 392 395 398 } #Wallonie
 
 BEL_387 = { 387 390 391 } #Brabant
 
-BEL_388 = { 388 389 } #Vlaanderen
+BEL_388 = { 388 389 393 } #Vlaanderen
 
 NET_375 = { 375 376 377 } #Holland
 
@@ -1173,19 +1175,17 @@ AUS_633 = { 633 634 635 636 638 } #Slovakia
 
 AUS_637 = { 637 950 } #Transcarpathia
 
-AUS_780 = { 780 781 782 } #Dalmatia
+AUS_780 = { 780 781 782 774 } #Dalmatia
 
 AUS_771 = { 771 772 773 775 776 777 779 793 } #Croatia
 
-AUS_770 = { 770 778 774 } #Istria
+AUS_770 = { 770 778 736 737 769 } #Istria
 
 AUS_647 = { 647 651 } #Alfold
 
 AUS_652 = { 652 653 } #Banat
 
 AUS_623 = { 623 639 640 642 643 644 } #Transdunabia
-
-AUS_736 = { 736 737 769 } #Fruii
 
 AUS_729 = { 729 730 731 732 733 2598 } #Veneto
 

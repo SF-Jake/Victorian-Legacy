@@ -297,7 +297,7 @@ country_migration_target =
 		war_exhaustion = 25
 	}
 	modifier = {
-		factor = 95
+		factor = 50
 		has_country_flag = african_union_formation
 	}		
 	modifier = {
@@ -529,6 +529,12 @@ migration_target =
 	modifier = {
 		factor = 2
 		life_rating = 50
+	}
+	modifier = {
+		factor = 10
+		work_available = {
+			worker = labourers
+		}
 	}
 }
 

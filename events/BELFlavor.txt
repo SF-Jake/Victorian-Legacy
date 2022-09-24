@@ -39,12 +39,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA36700" 
 		prestige = 5
-		any_pop = {
-			limit = {
-				has_pop_culture = flemish
-			}
-			consciousness = 2
-		}
 	}
 }
 
@@ -87,13 +81,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA36701" 
-		any_pop = {
-			limit = {
-				has_pop_culture = flemish
-			}
-			consciousness = 3
-			militancy = 1
-		}
+		prestige = 5
 	}
 }
 

@@ -221,10 +221,6 @@ country_event = {
 		any_owned = {
 			limit = { is_core = SIC }
 			add_province_modifier = { name = redshirts duration = 730 }
-			any_pop = {
-				limit = { culture = south_italian }
-				militancy = 7
-			}
 		}
 	}
 }
@@ -253,3 +249,4 @@ country_event = {
 		749 = { set_province_flag = fine_arts }
 	}
 }
+

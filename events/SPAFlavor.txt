@@ -204,21 +204,9 @@ country_event = {
 		SPA_2209 = {
 			any_pop = {
 				limit = {
-					has_pop_culture = caribeno
-					}
-				militancy = 3
-				}
-			any_pop = {
-				limit = {
 					has_pop_culture = afro_caribeno
 					}
 				militancy = 3
-			}
-			any_pop = {
-				limit = {
-					has_pop_culture = caribeno
-					}
-				consciousness = 3
 			}
 			any_pop = {
 				limit = {
@@ -719,7 +707,7 @@ country_event = {
 			remove_core = SPA
 		}
 		inherit = SPA
-		remove_accepted_culture = afro_caribeno
+		remove_accepted_culture = afro_caribbean
 		set_global_flag = carlist_victory
 		capital = 487
 	}
@@ -734,7 +722,7 @@ country_event = {
 		inherit = SPA
 		change_tag = SPA
 		capital = 487
-		add_accepted_culture = afro_caribeno
+		add_accepted_culture = afro_caribbean
 		set_global_flag = cristino_victory
 		add_country_modifier = {
 			name = cristino_victory
@@ -766,7 +754,7 @@ country_event = {
 		}
 		inherit = SPC
 		change_tag = SPC
-		remove_accepted_culture = afro_caribeno
+		remove_accepted_culture = afro_caribbean
 		set_global_flag = carlist_victory
 		capital = 487
 	}
@@ -781,7 +769,7 @@ country_event = {
 		inherit = SPC
 		capital = 487
 		set_global_flag = cristino_victory
-		add_accepted_culture = afro_caribeno
+		add_accepted_culture = afro_caribbean
 		add_country_modifier = {
 			name = cristino_victory
 			duration = -1

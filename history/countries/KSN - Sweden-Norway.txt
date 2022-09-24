@@ -1,8 +1,6 @@
 1836.1.2 = {
 	capital = 322
 	primary_culture = swedish
-	culture = finnish
-	culture = norwegian
 	religion = protestant
 	government = hms_government
 	plurality = 25.0
@@ -89,16 +87,13 @@
 1836.1.1 = {
 	capital = 322
 	primary_culture = swedish
-	culture = finnish
-	culture = norwegian
-	culture = sami
 	religion = protestant
 	government = hms_government
 	plurality = 25.0
 	nationalvalue = nv_order
 	literacy = 0.8
 	civilized = yes
-	prestige = 15
+	prestige = 45
 	schools = industrial_tech_school
 
 	# Political reforms
@@ -173,6 +168,8 @@
 	# Starting Consciousness
 	consciousness = 2
 	nonstate_consciousness = 0
+
+	oob = "SWE_oob.txt"
 }
 
 

@@ -3223,9 +3223,183 @@ country_event = {
 
 	option = {
 		any_country = {
+			any_owned = {
+				limit = {
+					state_scope = {
+						NOT = { total_pops = 150000 }
+					}
+				}
+				add_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1860
+					state_scope = {
+						NOT = { total_pops = 200000 }
+					}
+				}
+				add_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1885
+					state_scope = {
+						NOT = { total_pops = 300000 }
+					}
+				}
+				add_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1910
+					state_scope = {
+						NOT = { total_pops = 450000 }
+					}
+				}
+				add_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1860 }
+					state_scope = { total_pops = 150000 }
+					is_core = SMA
+				}
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1885 }
+					state_scope = { total_pops = 200000 }
+					is_core = SMA
+				}
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1910 }
+					state_scope = { total_pops = 300000 }
+					is_core = SMA
+				}
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1910
+					state_scope = { total_pops = 450000 }
+					is_core = SMA
+				}
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					state_scope = {
+						total_pops = 150000
+						NOT = { total_pops = 300000 }
+					}
+				}
+				add_core = MST
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1860
+					state_scope = {
+						total_pops = 200000
+						NOT = { total_pops = 400000 }
+					}
+				}
+				add_core = MST
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1885
+					state_scope = {
+						total_pops = 300000
+						NOT = { total_pops = 600000 }
+					}
+				}
+				add_core = MST
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1910
+					state_scope = {
+						total_pops = 450000
+						NOT = { total_pops = 900000 }
+					}
+				}
+				add_core = MST
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1860 }
+					state_scope = { total_pops = 300000 }
+					is_core = MST
+				}
+				remove_core = MST
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1885 }
+					state_scope = { total_pops = 400000 }
+					is_core = MST
+				}
+				remove_core = MST
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1910 }
+					state_scope = { total_pops = 600000 }
+					is_core = MST
+				}
+				remove_core = MST
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1910
+					state_scope = { total_pops = 900000 }
+					is_core = MST
+				}
+				remove_core = MST
+			}
+		}
+		any_country = {
 			limit = {
 				ai = yes
-				money = 500000
+				money = 1000000
 				any_owned_province = {
 					OR = {
 						trade_goods= coal
@@ -3311,7 +3485,7 @@ country_event = {
 		any_country = {
 			limit = {
 				ai = yes
-				money = 1500000
+				money = 2500000
 				any_owned_province = {
 					OR = {
 						trade_goods= coal
@@ -3403,7 +3577,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		treasury = -500000
+		treasury = -250000
 		random_owned = {
 			limit = {
 				OR = {
@@ -3497,7 +3671,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		treasury = -1500000
+		treasury = -750000
 		random_owned = {
 			limit = {
 				OR = {

@@ -157,4 +157,32 @@ political_decisions = {
 			set_global_flag = motala_verkstad_expanded
 		}
 	}
+	embrace_estonians = {
+		picture = nordic_estonia
+		potential = {
+			OR = {
+				tag = SWE
+				tag = KSN
+				tag = SCA
+				tag = FIN
+			}
+			NOT = {
+				has_global_flag = estonians_embraced
+			}
+		}
+		
+		allow = {
+			EST = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			citizens_rights = all_voting_pops
+		}
+		
+		effect = {
+			add_accepted_culture = estonian
+			set_global_flag = estonians_embraced
+		}
+	}
 }

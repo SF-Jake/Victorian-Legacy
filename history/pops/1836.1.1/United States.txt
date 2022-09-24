@@ -123,31 +123,31 @@
 #Dutch Harbor (2000/500 POPS)
 4 = {
 	aristocrats = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 5
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 25
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 450
 	}
@@ -155,31 +155,31 @@
 #Bethel (2000/500 POPS)
 5 = {
 	aristocrats = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 2
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 3
 	}
 
 	artisans = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 15
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 225
 	}
@@ -281,31 +281,31 @@
 #Unalakeet (3000/750 POPS)
 2631 = {
 	aristocrats = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 5
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 25
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = yankee
 		religion = protestant
 		size = 450
 	}
@@ -537,7 +537,7 @@
 	}
 }
 #California Region (64000)
-#ruled by Mexico 1836
+#ruled by Mexican 1836
 #San Francisco (9600/2400 POPS)
 84 = {
     aristocrats = {
@@ -1031,7 +1031,7 @@
 	}
 }
 #Nevada Region (12000)
-#"ruled" by Mexico 1836/de facto under Native Control
+#"ruled" by Mexican 1836/de facto under Native Control
 #Carson City (4000/1000 POPS)
 94 = {
 	aristocrats = {
@@ -1129,7 +1129,7 @@
 	}
 }
 #Utah Region (16000)
-#"ruled" by Mexico 1836/de facto under Native Control
+#"ruled" by Mexican 1836/de facto under Native Control
 #Salt Lake City (8000/2000 POPS)
 97 = {
 	aristocrats = {
@@ -1227,7 +1227,7 @@
 	}
 }
 #Arizona Region (37000)
-#"ruled" by Mexico 1836/de facto under Native Control
+#"ruled" by Mexican 1836/de facto under Native Control
 #Phoenix (12000/3000 POPS)
 100 = {
 	aristocrats = {
@@ -1293,36 +1293,36 @@
 	}
 
 	aristocrats = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 15
 	}
 
 	farmers = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 900
 	}
 }
-#ruled by Mexico 1836
+#ruled by Mexican 1836
 #Tucson (13000/3250 POPS)
 102 = {
 	aristocrats = {
@@ -1391,8 +1391,8 @@
 		size = 225
 	}
 }
-#New Mexico Region (56000)
-#ruled by Mexico 1836
+#New Mexican Region (56000)
+#ruled by Mexican 1836
 #Santa Fe (32000/8000 POPS)
 103 = {
 	aristocrats = {
@@ -1432,61 +1432,61 @@
 	}
 
 	aristocrats = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = pueblo
+		culture = dixie
 		religion = protestant
-		size = 1800
+		size = 2000
 	}
 
 	aristocrats = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 15
 	}
 
 	farmers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 900
 	}
@@ -1494,31 +1494,31 @@
 #Albuquerque (20000/5000 POPS)
 104 = {
 	aristocrats = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = pueblo
+		culture = mexican
 		religion = protestant
 		size = 2700
 	}
@@ -1556,37 +1556,37 @@
 #Las Cruces (4000/1000 POPS)
 105 = {
 	aristocrats = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 15
 	}
 
 	farmers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 900
 	}
 }
 #Colorado Region (20000)
-#claimed by both Mexico and the USA/de facto under Native Control
+#claimed by both Mexican and the USA/de facto under Native Control
 #Denver (8000/2000 POPS)
 106 = {
 	aristocrats = {
@@ -2586,31 +2586,31 @@
 	}
 
 	aristocrats = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	labourers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 1800
 	}
@@ -2686,31 +2686,31 @@
 #Okmulgee (8000/2000 POPS)
 131 = {
 	aristocrats = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 1800
 	}
@@ -2720,31 +2720,31 @@
 #Houston (16000/4000 POPS)
 132 = {
 	aristocrats = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 105
 	}
 
 	artisans = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 120
 	}
 
 	soldiers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 1100
 	}
 
 	labourers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 11600
 	}
@@ -2759,43 +2759,43 @@
 133 = {
 #Austin (14000/3500 POPS)
 	aristocrats = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	bureaucrats = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 75
 	}
 
 	officers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 20
 	}
 
 	clergymen = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 125
 	}
 
 	soldiers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 2220
 	}
@@ -2870,31 +2870,31 @@
 #San Antonio (10000/2500 POPS)
 137 = {
 	aristocrats = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 1575
 	}
@@ -2968,31 +2968,31 @@
 #Laredo (6000/1500 POPS)
 138 = {
 	aristocrats = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 15
 	}
 
 	farmers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 900
 	}
@@ -3031,25 +3031,25 @@
 #Dallas (4400/1100 POPS)
 134 = {
 	clergymen = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 40
 	}
 
 	artisans = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 5
 	}
 
 	soldiers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 20
 	}
 
 	labourers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 10250
 	}
@@ -3064,31 +3064,31 @@
 #Lubbock (8000/2000 POPS)
 135 = {
 	aristocrats = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	labourers = {
-		culture = texan
+		culture = dixie
 		religion = protestant
 		size = 7200
 	}
@@ -3096,31 +3096,31 @@
 #El Paso (9000/2250 POPS)
 136 = {
 	aristocrats = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = yankee
+		culture = dixie
 		religion = protestant
 		size = 1800
 	}

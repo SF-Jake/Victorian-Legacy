@@ -470,7 +470,6 @@ political_decisions = {
 				limit = {
 					OR = {
 						has_pop_culture = estonian
-						has_pop_culture = latvian
 						has_pop_culture = north_german
 						has_pop_culture = ashkenazi
 					}
@@ -506,18 +505,14 @@ political_decisions = {
 			inherit = FIN
 			any_pop = {
 				limit = {
-					OR = {
-						has_pop_culture = finnish
-						has_pop_culture = sami
-						has_pop_culture = swedish
-					}
+					has_pop_culture = swedish
 				}
 				consciousness = 5
 				militancy = 3
 			}
 			any_owned = {
 				limit = {
-					pop_majority_culture = finnish
+					is_core = FIN
 				}
 				add_province_modifier = { name = nationalist_agitation duration = 365 }
 			}

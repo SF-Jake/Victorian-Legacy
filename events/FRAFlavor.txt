@@ -1214,3 +1214,41 @@ country_event = {
 		add_country_modifier = { name = napoleon_iii_legacy duration = -1 }
 	}
 }
+
+#The Treaty of Tafna
+country_event = {
+    id = 37230
+    title = "EVTNAME37230"
+    desc = "EVTDESC37230"
+    picture = "abd_al_qadir"
+
+    trigger = {
+		NOT = { has_country_flag = treaty_of_tafna }
+        is_greater_power = yes
+        capital = 425
+        owns = 1700
+        NOT = { year = 1870 }
+        ALD = {
+            exists = yes
+            war_with = THIS
+        }
+    }
+
+    mean_time_to_happen = { days = 15 }
+
+    option = {
+        name = "EVTOPTA37230"
+        prestige = -5
+        end_war = ALD
+        set_country_flag = treaty_of_tafna
+        ai_chance = { factor = 0.9 }
+    }
+
+    option = {
+        name = "EVTOPTB37230"
+        badboy = 8
+        war_exhaustion = 10
+        set_country_flag = treaty_of_tafna
+        ai_chance = { factor = 0.1 }
+    }
+}

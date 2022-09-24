@@ -972,13 +972,6 @@ nationalist_rebels = {
 			factor = 0
 				OR = {
 					has_pop_culture = beifaren
-					has_pop_culture = nanfaren
-					has_pop_culture = hakka
-					has_pop_culture = miao
-					has_pop_culture = min
-					has_pop_culture = zhuang
-					has_pop_culture = yi
-					has_pop_culture = yue
 				}
 				country = { civilized = no }
 		}
@@ -1237,10 +1230,7 @@ pan_nationalist_rebels = {
 
 		modifier = {
 			factor = 0
-			OR = {
-				culture = north_italian
-				culture = south_italian
-			}
+			culture = north_italian
 		}
 
 		modifier = {
@@ -1826,10 +1816,7 @@ red_shirts = {
 		modifier = {
 			factor = 0
 			NOT = {
-				OR = {
-					culture = south_italian
-					culture = north_italian
-				}
+				culture = north_italian
 			}
 		}
 		
@@ -2766,12 +2753,6 @@ apache = {
 		modifier = {
 			factor = 0
 			NOT = {
-				culture = native_american_minor
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = {
 				has_country_flag = apache_wars
 			}
 		}	
@@ -2824,12 +2805,6 @@ apache = {
 				}
 			}
 			reduce_pop = 0.50
-		}
-		any_pop = {
-			limit = {
-				culture = native_american_minor
-			}
-			militancy = 10
 		}
 		
 	}

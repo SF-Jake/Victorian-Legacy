@@ -773,9 +773,7 @@ country_event = {
 			limit = {
 				tag = KMT
 			}
-			add_accepted_culture = yue
-			add_accepted_culture = hakka
-			add_accepted_culture = min
+			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -917,9 +915,7 @@ country_event = {
 			limit = {
 				tag = KMT
 			}
-			add_accepted_culture = yue
-			add_accepted_culture = hakka
-			add_accepted_culture = min
+			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -1062,9 +1058,7 @@ country_event = {
 			limit = {
 				tag = KMT
 			}
-			add_accepted_culture = yue
-			add_accepted_culture = zhuang
-			add_accepted_culture = miao
+			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -1207,7 +1201,6 @@ country_event = {
 			limit = {
 				tag = KMT
 			}
-			add_accepted_culture = yue
 			add_accepted_culture = yi
 			define_general = {
 				name = "§RChiang Kai-shek§W"
@@ -2102,9 +2095,7 @@ country_event = {
 			limit = {
 				tag = KMT
 			}
-			add_accepted_culture = yue
-			add_accepted_culture = hakka
-			add_accepted_culture = min
+			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -2247,9 +2238,7 @@ country_event = {
 			limit = {
 				tag = KMT
 			}
-			add_accepted_culture = yue
-			add_accepted_culture = hakka
-			add_accepted_culture = min
+			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -2393,9 +2382,7 @@ country_event = {
 			limit = {
 				tag = KMT
 			}
-			add_accepted_culture = yue
-			add_accepted_culture = zhuang
-			add_accepted_culture = miao
+			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				personality = defence_2.1
@@ -2539,7 +2526,6 @@ country_event = {
 			limit = {
 				tag = KMT
 			}
-			add_accepted_culture = yue
 			add_accepted_culture = yi
 			define_general = {
 				name = "§RChiang Kai-shek§W"
@@ -3374,9 +3360,7 @@ country_event = {
 			}
 			country_event = 90815
 		}
-		add_accepted_culture = min
-		add_accepted_culture = yue
-		add_accepted_culture = zhuang
+		add_accepted_culture = beifaren
 		add_accepted_culture = manchu
 	}
 }
@@ -3396,9 +3380,7 @@ country_event = {
 			}
 			annex_to = FROM
 		}
-		add_accepted_culture = min
-		add_accepted_culture = yue
-		add_accepted_culture = zhuang
+		add_accepted_culture = beifaren
 		add_accepted_culture = manchu
 	}
 

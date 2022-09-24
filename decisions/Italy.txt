@@ -106,7 +106,6 @@ political_decisions = {
 		effect = {
 			prestige = 20
 			change_tag = ITA
-			add_accepted_culture = south_italian
 			any_country = {
 				limit = {
 					is_culture_group = italian
@@ -183,7 +182,6 @@ political_decisions = {
 			OR = {
 				tag = SAR
 				tag = LOM
-				tag = VEN
 				tag = PAR
 				tag = MOD
 				tag = LUC
@@ -207,7 +205,6 @@ political_decisions = {
 					OR = {
 						tag = SAR
 						tag = LOM
-						tag = VEN
 						tag = PAR
 						tag = MOD
 						tag = LUC
@@ -358,31 +355,7 @@ political_decisions = {
 			769 = { add_core = ITA }
 		}
 	}
-
-	embrace_south_italians = {
-		picture = embrace_south_italians
-		potential = {
-			tag = SAR
-			NOT = { has_country_flag = embraced_south_italians }
-		}
-		
-		allow = {
-			state_n_government = 1
-			OR = {
-				government = hms_government
-				government = prussian_constitutionalism
-			}
-			765 = { owned_by = THIS }
-			766 = { owned_by = THIS }
-		}
-		
-		effect = {
-			add_accepted_culture = south_italian
-			set_country_flag = embraced_south_italians
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
+	
 	albanian_bridge = {
 		picture = albanian_bridge
 		potential = {
@@ -422,16 +395,13 @@ political_decisions = {
 		
 		allow = {
 			revolution_n_counterrevolution = 1
+			AUS_729 = { owned_by = THIS }
 			AUS_736 = { owned_by = THIS }
 			AUS_770 = { owned_by = THIS }
-			AUS_780 = { owned_by = THIS }
-			TUR_853 = { owned_by = THIS }
 			TUR_805 = { owned_by = THIS }
 			TUR_832 = { owned_by = THIS }
 			GRE_837 = { owned_by = THIS }
 			GRE_826 = { owned_by = THIS }
-			TUR_823 = { owned_by = THIS }
-			EGY_843 = { owned_by = THIS }
 		}
 		
 		effect = {
@@ -504,7 +474,7 @@ political_decisions = {
 
         allow = {
             empiricism = 1
-            invention = early_archaeology
+            invention = thomas_steel
             money = 25000
         }
 

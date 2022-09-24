@@ -1,8 +1,11 @@
 sprite = 14
 color = { 18 129 10 }
 strata = rich
-unemployment = yes
 
+life_needs_income = {
+	type = administration
+	weight = 1
+}
 
 rebel =
 {
@@ -17,6 +20,34 @@ rebel =
 }
 
 everyday_needs = {
+	rubber = 3000
+	tropical_wood = 2000
+	silk = 2000
+	dye = 2000
+	artillery = 3000
+	barrels = 500
+	aeroplanes = 500
+	fuel = 1000
+	small_arms = 6000
+	ammunition = 6000
+	canned_food = 12000
+	cotton = 5000
+	tea_leaves = 4000
+	coffee_beans = 4000
+	tobacco = 3000
+	wool = 10000
+	sulphur = 2500
+	timber = 5000
+	coal = 5000
+	iron = 5000
+	oil = 2000
+	clipper_convoy = 1500
+	steamer_convoy = 1000
+	grain = 45000
+	fruit = 15000
+	fish = 15000
+	cattle = 15000
+	opium = 4000
 }
 
 life_needs = {
@@ -24,40 +55,6 @@ life_needs = {
 
 
 luxury_needs = {
-	rubber = 2500
-	tropical_wood = 1250
-	silk = 1250
-	dye = 1250
-	explosives = 2000
-	artillery = 1500
-	barrels = 500
-	aeroplanes = 500
-	small_arms = 2500
-	ammunition = 5000
-	canned_food = 5000
-	cotton = 1250
-	fabric = 10000
-	tea_leaves = 2500
-	coffee_beans = 1250
-	tobacco = 1250
-	wool = 5000
-	sulphur = 2500
-	timber = 5000
-	lumber = 10000
-	coal = 5000
-	iron = 2000
-	oil = 2000
-	clipper_convoy = 2500
-	steamer_convoy = 1500
-	fuel = 1000
-	cement = 5000
-	steel = 5000
-	machine_parts = 2500
-	grain = 15000
-	fruit = 10000
-	fish = 7500
-	cattle = 7500
-	opium = 1250
 }
 
 

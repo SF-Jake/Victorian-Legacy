@@ -8,7 +8,6 @@ political_decisions = {
 		potential = {
 			NOT = { is_canal_enabled = 1 }
 			owns = 369
-			is_greater_power = yes
 			mechanical_production = 1
 		}
 		allow = {
@@ -42,7 +41,6 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 2 }
-			is_greater_power = yes
 			mechanical_production = 1
 		}
 		allow = {
@@ -81,7 +79,6 @@ political_decisions = {
 		news_desc_short = "panama_canal_NEWS_SHORT"
 		potential = {
 			NOT = { is_canal_enabled = 3 }
-			is_greater_power = yes
 			mechanical_production = 1
 			NOT = { owns = 1723 }
 			NOT = { has_global_flag = panama_revolt }
@@ -115,7 +112,6 @@ political_decisions = {
 		news_desc_short = "panama_canal_NEWS_SHORT"
 		potential = {
 			NOT = { is_canal_enabled = 3 }
-			is_greater_power = yes
 			mechanical_production = 1
 			OR = {
 				1723 = { owner = { vassal_of = THIS in_sphere = THIS } }

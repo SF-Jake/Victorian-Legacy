@@ -16,12 +16,6 @@ political_decisions = {
 				primary_culture = north_german
 			}
 			SGF = { primary_culture = south_german }
-			any_country = {
-				limit = {
-					primary_culture = south_italian
-				}
-				primary_culture = north_italian
-			}
 			BOS = { primary_culture = serb }
 			SLO = { primary_culture = croat }
 			LIT = { primary_culture = polish }
@@ -29,16 +23,7 @@ political_decisions = {
 			SLV = { primary_culture = czech }
 			any_country = {
 				limit = {
-					primary_culture = latvian
-				}
-				primary_culture = estonian
-			}
-			any_country = {
-				limit = {
-					OR = {
-						primary_culture = byelorussian
-						primary_culture = ukrainian
-					}
+					primary_culture = ukrainian
 				}
 				primary_culture = estonian
 			}
@@ -143,7 +128,6 @@ political_decisions = {
 				limit = {
 					OR = {
 						primary_culture = kazak
-						primary_culture = tatar
 					}
 				}
 				primary_culture = turkmen
@@ -151,21 +135,9 @@ political_decisions = {
 			TMR = { primary_culture = polynesian }
 			any_country = {
 				limit = {
-					OR = {
-						primary_culture = texan
-						primary_culture = cherokee
-					}
+					primary_culture = cherokee
 				}
 				primary_culture = dixie
-			}
-			any_country = {
-				limit = {
-					OR = {
-						primary_culture = afro_antillean
-						primary_culture = caribeno
-					}
-				}
-				primary_culture = afro_caribbean
 			}
 			YUC = { primary_culture = central_american }
 		}
@@ -211,7 +183,6 @@ political_decisions = {
 					limit = {
 						OR = {
 							has_pop_culture = wallonian
-							has_pop_culture = flemish
 						}
 					}
 					literacy = 0.49
@@ -230,12 +201,6 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
-						has_pop_culture = finnish
-					}
-					literacy = -0.2
-				}
-				any_pop = {
-					limit = {
 						has_pop_culture = british
 					}
 					literacy = 0.59
@@ -251,12 +216,6 @@ political_decisions = {
 						has_pop_culture = north_italian
 					}
 					literacy = 0.44
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = south_italian
-					}
-					literacy = 0.17
 				}
 				any_pop = {
 					limit = {
@@ -293,7 +252,6 @@ political_decisions = {
 					limit = {
 						OR = {
 							has_pop_culture = croat
-							has_pop_culture = slovene
 						}
 					}
 					literacy = 0.05
@@ -463,12 +421,6 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
-						has_pop_culture = ainu
-					}
-					literacy = 0.03
-				}
-				any_pop = {
-					limit = {
 						NOT = { type = slaves }
 						has_pop_culture = korean
 					}
@@ -490,12 +442,6 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						has_pop_culture = yi
-					}
-					literacy = -0.03
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = zhuang
 					}
 					literacy = -0.03
 				}
@@ -528,12 +474,6 @@ political_decisions = {
 						has_pop_culture = central_american
 					}
 					literacy = 0.06
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = caribeno
-					}
-					literacy = 0.03
 				}
 				any_pop = {
 					limit = {
@@ -582,13 +522,6 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
-						NOT = { type = slaves }
-						has_pop_culture = afro_antillean
-					}
-					literacy = 0.01
-				}
-				any_pop = {
-					limit = {
 						has_pop_culture = japanese
 					}
 					literacy = 0.34
@@ -612,6 +545,38 @@ political_decisions = {
 						has_pop_culture = north_italian
 					}
 					literacy = -0.15
+				}
+			}
+			BEL = {
+				any_pop = {
+					limit = {
+						has_pop_culture = dutch
+					}
+					literacy = -0.1
+				}
+			}
+			PAP = {
+				any_pop = {
+					limit = {
+						has_pop_culture = north_italian
+					}
+					literacy = -0.2
+				}
+			}
+			SIC = {
+				any_pop = {
+					limit = {
+						has_pop_culture = north_italian
+					}
+					literacy = -0.27
+				}
+			}
+			FIN = {
+				any_pop = {
+					limit = {
+						has_pop_culture = swedish
+					}
+					literacy = -0.2
 				}
 			}
 			HUN = {
@@ -719,12 +684,6 @@ political_decisions = {
 						is_culture_group = scandinavian
 					}
 					literacy = 0.79
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = finnish
-					}
-					literacy = -0.2
 				}
 				any_pop = {
 					limit = {
@@ -927,12 +886,6 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
-						has_pop_culture = zhuang
-					}
-					literacy = -0.03
-				}
-				any_pop = {
-					limit = {
 						has_pop_culture = yankee
 					}
 					literacy = 0.64
@@ -1117,6 +1070,11 @@ political_decisions = {
 		}
 		effect = {
 			set_global_flag = global_1836_setup
+			set_country_flag = banker_income_timer
+			add_country_modifier = { name = banker_income_timer duration = 5 }
+			any_pop = {
+				money = 2000000
+			}
 			any_country = {
 				limit = { is_greater_power = yes }
 				treasury = 150000
@@ -1143,10 +1101,6 @@ political_decisions = {
 					NOT = { tag = AUS }
 				}
 				set_country_flag = south_german
-			}
-			any_country = {
-				limit = { primary_culture = south_italian }
-				set_country_flag = south_italian
 			}
 			EIC = {
 				add_country_modifier = { name = direct_rule duration = -1 }
@@ -1414,6 +1368,25 @@ political_decisions = {
 			1616 = { set_province_flag = summer_palace }
 			1008 = { set_province_flag = moscow_city }
 			country_event = { id = 90031 days = 1}
+			any_country = {
+				any_owned = {
+					limit = {
+						state_scope = {
+							NOT = { total_pops = 150000 }
+						}
+					}
+					add_core = SMA
+				}
+				any_owned = {
+					limit = {
+						state_scope = {
+							total_pops = 150000
+							NOT = { total_pops = 300000 }
+						}
+					}
+					add_core = MST
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -2673,18 +2646,6 @@ political_decisions = {
 			FRA = {
 				any_pop = {
 					limit = {
-						has_pop_culture = basque
-					}
-					literacy = 0.37
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = flemish
-					}
-					literacy = 0.4
-				}
-				any_pop = {
-					limit = {
 						has_pop_culture = north_italian
 					}
 					literacy = 0.35
@@ -2709,12 +2670,6 @@ political_decisions = {
 		}
 		effect = {
 			ITA = {
-				any_pop = {
-					limit = {
-						has_pop_culture = south_italian
-					}
-					literacy = -0.2
-				}
 				any_pop = {
 					limit = {
 						has_pop_culture = french
@@ -2772,12 +2727,6 @@ political_decisions = {
 						has_pop_culture = ashkenazi
 					}
 					literacy = 0.8
-				}
-				any_pop = {
-					limit = {
-						has_pop_culture = slovene
-					}
-					literacy = 0.2
 				}
 				any_pop = {
 					limit = {

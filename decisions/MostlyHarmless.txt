@@ -56,4 +56,43 @@ political_decisions = {
 			}
 		}
 	}
+	banker_income = {
+		potential = {
+			tag = JAN
+		}
+		
+		allow = {
+			NOT = {
+				any_owned_province = {
+					any_pop = {
+						cash_reserves = 0.1
+					}
+				}
+			}
+			NOT = { has_country_flag = banker_income_timer }
+		}
+		
+		effect = {
+			set_country_flag = banker_income_timer
+			add_country_modifier = { name = banker_income_timer duration = 5 }
+			any_pop = {
+				money = 2000000
+			}
+		}
+	}
+
+	banker_income_timer = {
+		potential = {
+			tag = JAN
+		}
+		
+		allow = {
+			has_country_flag = banker_income_timer
+			NOT = { has_country_modifier = banker_income_timer }
+		}
+		
+		effect = {
+			clr_country_flag = banker_income_timer
+		}
+	}
 }

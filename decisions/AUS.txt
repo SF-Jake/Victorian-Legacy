@@ -21,14 +21,15 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 25
+			all_core = {
+				remove_core = KUK
+			}
 			government = democracy
 			political_reform = federalism
 			clr_country_flag = confederalism
 			add_accepted_culture = slovak
-			add_accepted_culture = slovene
 			add_accepted_culture = croat
 			add_accepted_culture = hungarian
-			add_accepted_culture = romanian
 			change_tag = DNB
 		}
 	}
@@ -417,16 +418,6 @@ political_decisions = {
 		}
 
 		allow = {
-			OR = {
-				HUN = {
-					vassal_of = AUS
-					exists = yes
-				}
-				HUN = {
-					vassal_of = SGF
-					exists = yes
-				}
-			}
 			year = 1848
 			NOT = { year = 1850 }
 		}

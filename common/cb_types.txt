@@ -76,7 +76,7 @@ uninstall_communist_gov_cb
 great_war_penalty_cb
 take_capital
 acquire_small_state
-acquire_tiny_state
+acquire_mid_state
 conquest_small
 conquest_tiny
 demand_for_ally
@@ -354,13 +354,6 @@ civil_war = {
 			from = jingoism 
 			to = pro_military
 			value = 0.25
-		}
-	}
-
-	on_po_accepted = {
-		any_country = {
-			limit = { has_country_flag = remove_research }
-			clr_country_flag = remove_research
 		}
 	}
 }
@@ -915,7 +908,7 @@ acquire_state = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2
+	badboy_factor = 1.6
 	prestige_factor = 2
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -928,7 +921,6 @@ acquire_state = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-	NOT = { tag = SWI }
 
 	can_use = {
 		OR = {
@@ -972,6 +964,12 @@ acquire_state = {
 				civilized = yes
 				THIS = {
 					civilized = yes
+				}
+			}
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
 				}
 			}
 			AND = {
@@ -1039,7 +1037,6 @@ acquire_state = {
 			}
 		}
 		is_colonial = no
-		total_pops = 150000
 		any_owned_province = {
 			not = {	is_core = THIS }
 			is_colonial = no
@@ -1405,6 +1402,8 @@ demand_reparations = {
 	good_relation_militancy_factor = 1
 
 	po_reparations = yes
+
+	tws_battle_factor = 2.0
 
 	war_name = WAR_NAME
 
@@ -2546,7 +2545,7 @@ unification_casus_belli = {
 				is_cultural_union = yes
 			}
 		}
-		not = { any_owned_province = { is_capital = yes } }
+#		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -2757,7 +2756,7 @@ install_communist_gov_cb = {
 			#}
 			
 			# There are some amount of communist already in the country
-			communist = 0.1
+			communist = 0.05
 				
 			# If reciever current gov is not proletarian_dictatorship
 			NOT = {
@@ -2765,7 +2764,7 @@ install_communist_gov_cb = {
 			}
 			
 			# If reciever is not a great power
-			is_greater_power = no
+			#is_greater_power = no
 		}
 		NOT = {
 			OR = {
@@ -2937,7 +2936,7 @@ take_capital = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 2.5
+	badboy_factor = 2
 	prestige_factor = 10
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -2993,6 +2992,12 @@ take_capital = {
 				civilized = yes
 				THIS = {
 					civilized = yes
+				}
+			}
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
 				}
 			}
 			AND = {
@@ -3086,7 +3091,7 @@ acquire_small_state = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1
+	badboy_factor = 0.8
 	prestige_factor = 2
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -3145,6 +3150,12 @@ acquire_small_state = {
 				}
 			}
 			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
+				}
+			}
+			AND = {
 				has_country_flag = sub_saharan_africa
 				THIS = {
 					civilized = yes
@@ -3161,14 +3172,29 @@ acquire_small_state = {
 			OR = {
 				tag = JAN
 				tag = GHO
-				tag = SWI
 			}
+		}
+		THIS = {
+			NOT = {
+				OR = {
+					tag = JAN
+					tag = GHO
+				}
+			}
+		}
+		OR = {
+			THIS = { ai = no }
+			THIS = { has_country_flag = sub_saharan_africa }
+			civilized = yes
+			NOT = { has_country_flag = sub_saharan_africa }
 		}
 	}
 	
 	allowed_states = {
 		is_colonial = no
-		NOT = { total_pops = 150000 }
+		any_owned_province = {
+			is_core = SMA
+		}
 		any_owned_province = {
 			not = {	is_core = THIS }
 			is_colonial = no
@@ -3231,15 +3257,16 @@ acquire_small_state = {
 	}
 }
 
-acquire_tiny_state = {
+#Acquire Medium State
+acquire_mid_state = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.5
+	badboy_factor = 1.2
 	prestige_factor = 2
-	peace_cost_factor = 1
+	peace_cost_factor = 0.8
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3255,6 +3282,12 @@ acquire_tiny_state = {
 		OR = {
 			ai = yes
 			year = 1837
+		}
+		NOT = {
+			OR = {
+				has_country_flag = neutral
+				THIS = { has_country_flag = neutral }
+			}
 		}
 		THIS = {
 			OR = {
@@ -3296,6 +3329,12 @@ acquire_tiny_state = {
 				}
 			}
 			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
+				}
+			}
+			AND = {
 				has_country_flag = sub_saharan_africa
 				THIS = {
 					civilized = yes
@@ -3315,11 +3354,28 @@ acquire_tiny_state = {
 				tag = SWI
 			}
 		}
+		THIS = {
+			NOT = {
+				OR = {
+					tag = JAN
+					tag = GHO
+					tag = SWI
+				}
+			}
+		}
+		OR = {
+			THIS = { ai = no }
+			THIS = { has_country_flag = sub_saharan_africa }
+			civilized = yes
+			NOT = { has_country_flag = sub_saharan_africa }
+		}
 	}
 	
 	allowed_states = {
 		is_colonial = no
-		NOT = { total_pops = 50000 }
+		any_owned_province = {
+			is_core = MST
+		}
 		any_owned_province = {
 			not = {	is_core = THIS }
 			is_colonial = no
@@ -3360,27 +3416,6 @@ acquire_tiny_state = {
 			}
 		}
 	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
 
 
 #Minor Conquest
@@ -4831,7 +4866,7 @@ negotiated_transfer = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	construction_speed = 2.0
+	construction_speed = 50.0
 
 	can_use = {
 		number_of_states = 2 # annex if you want their last state
@@ -4921,7 +4956,9 @@ blockade = {
 			}
 		}
 	}
-	
+
+	tws_battle_factor = 2.0
+
 	po_remove_prestige = yes
 
 	war_name = WAR_BLOCKADE_NAME
@@ -5255,7 +5292,7 @@ puppet_acquire_state = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1
+	badboy_factor = 0
 	prestige_factor = 0
 	peace_cost_factor = 0.5
 	penalty_factor = 1
@@ -5485,7 +5522,7 @@ dismantle_cb = {
 	months = 12
 	construction_speed = 1
 	
-	badboy_factor = 1
+	badboy_factor = 2
 	prestige_factor = 4
 	peace_cost_factor = 50
 	penalty_factor = 1

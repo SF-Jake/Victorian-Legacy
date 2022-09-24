@@ -220,7 +220,6 @@ country_event = {
 				OR = {
 					has_pop_culture = croat
 					has_pop_culture = serb
-					has_pop_culture = slovene
 				}
 			}
 			consciousness  =1
@@ -448,7 +447,6 @@ country_event = {
 		remove_accepted_culture = hungarian
 		remove_accepted_culture = polish
 		remove_accepted_culture = croat
-		remove_accepted_culture = slovene
 	}
 }
  
@@ -488,76 +486,111 @@ country_event = {
 	id = 31520
 
 	trigger = {
-		tag = HUN
+		tag = JAN
 		OR = {
-			AND = {
-				vassal_of = AUS
-				AUS = {
-					has_country_flag = start_hungarian_revolution
-				}
+			AUS = {
+				has_country_flag = start_hungarian_revolution
 			}
-			AND = {
-				vassal_of = SGF
-				SGF = {
-					has_country_flag = start_hungarian_revolution
-				}
+			SGF = {
+				has_country_flag = start_hungarian_revolution
 			}
 		}
-		owns = 641
 		year = 1848
 		NOT = { year = 1850 }
-		NOT = { has_country_flag = hungarian_revolution_1848 }
-		NOT = { has_global_flag = 1913_bookmark }
+		NOT = { has_global_flag = hungarian_revolution_1848 }
 	}
 
 	option = {
 		name = "EVTOPTA31520"
-		set_country_flag = hungarian_revolution_1848
-		government = democracy
-		political_reform = no_slavery
-		political_reform = universal_weighted_voting
-		political_reform = yes_meeting
-		political_reform = free_press
-		political_reform = non_secret_ballots
-		define_general = {
-			name = "§RArtúr Görgei§W"
-			personality = defence_4.1
-			background = attack_4.1
-		}
-		define_general = {
-			name = "§RGyörgy Klapka§W"
-			personality = defence_3.1
-			background = attack_3.1
-		}
+		set_global_flag = hungarian_revolution_1848
 		random_country = {
-			limit = { tag = AUS exists = yes }
+			limit = { tag = AUS has_country_flag = start_hungarian_revolution }
 			AUS = {
-				release_vassal = HUN
+				release = HUN
 				country_event = { id = 31521 days = 1 }
 				diplomatic_influence = {
 					who = HUN
+					value = -400
+				}
+				diplomatic_influence = {
+					who = PAR
+					value = -400
+				}
+				diplomatic_influence = {
+					who = MOD
+					value = -400
+				}
+				diplomatic_influence = {
+					who = LUC
+					value = -400
+				}
+				diplomatic_influence = {
+					who = TUS
+					value = -400
+				}
+				diplomatic_influence = {
+					who = SIC
+					value = -400
+				}
+				diplomatic_influence = {
+					who = PAP
 					value = -400
 				}
 			}
 		}
 		random_country = {
-			limit = { tag = SGF exists = yes NOT = { AUS = { exists = no } } }
+			limit = { tag = SGF has_country_flag = start_hungarian_revolution }
 			SGF = {
-				release_vassal = HUN
+				release = HUN
 				country_event = { id = 31521 days = 1 }
 				diplomatic_influence = {
 					who = HUN
 					value = -400
 				}
+				diplomatic_influence = {
+					who = PAR
+					value = -400
+				}
+				diplomatic_influence = {
+					who = MOD
+					value = -400
+				}
+				diplomatic_influence = {
+					who = LUC
+					value = -400
+				}
+				diplomatic_influence = {
+					who = TUS
+					value = -400
+				}
+				diplomatic_influence = {
+					who = SIC
+					value = -400
+				}
+				diplomatic_influence = {
+					who = PAP
+					value = -400
+				}
 			}
 		}
-	}
-
-	option = {
-		name = "EVTOPTB31520"
-		set_country_flag = hungarian_revolution_1848
-		ai_chance = {
-			factor = 0
+		HUN = {
+			set_country_flag = hungarian_revolution_1848
+			government = democracy
+			political_reform = no_slavery
+			political_reform = universal_weighted_voting
+			political_reform = yes_meeting
+			political_reform = free_press
+			political_reform = non_secret_ballots
+			define_general = {
+				name = "§RArtúr Görgei§W"
+				personality = defence_4.1
+				background = attack_4.1
+			}
+			define_general = {
+				name = "§RGyörgy Klapka§W"
+				personality = defence_3.1
+				background = attack_3.1
+			}
 		}
 	}
 }

@@ -905,7 +905,7 @@ rotary_kiln_desc;A rotary kiln is a pyroprocessing device used to raise material
 starting_healthcare;;;;;;;;;;x;;;;
 beifaren;Han;;;;;;;;;;x;;;;
 north_german;North German;;;;;;;;;;x;;;;
-north_italian;North Italian;;;;;;;;;;x;;;;
+north_italian;Italian;;;;;;;;;;x;;;;
 PNJ;Sikh Empire;Pendjab;Pundschab;;Punjab;;;;;;;;;x;;;;
 PNJ_ADJ;Sikh Empire;Penjabi;Pundschabisch;;Panjab?;;;;;;;;x;;;;
 PNJ_conservative;Royal Faction;Faction royale;K?igsfraktion;;Facci? Real;;;;;;;;;x;;;;
@@ -1188,7 +1188,11 @@ acquire_tiny_state_desc;Take a state with less than 50K population;;;;;;;;;;;;;x
 acquire_small_state;Acquire small state;;;;;;;;;;;;;x
 acquire_small_state_setup;Acquire $STATE$;;;;;;;;;;;;;x
 acquire_small_state_short;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
-acquire_small_state_desc;Take a state with less than 150K population;;;;;;;;;;;;;x
+acquire_small_state_desc;Can use on states <150K population before 1860, <200k between 1860-1885, <300k between 1885-1910, <450k after 1910.;;;;;;;;;;;;;x
+acquire_mid_state;Acquire medium state;;;;;;;;;;;;;x
+acquire_mid_state_setup;Acquire $STATE$;;;;;;;;;;;;;x
+acquire_mid_state_short;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+acquire_mid_state_desc;Can use on states <300K population before 1860, <400k between 1860-1885, <600k between 1885-1910, <900k after 1910.;;;;;;;;;;;;;x
 acquire_massive_state;Acquire massive state;;;;;;;;;;;;;x
 acquire_massive_state_setup;Acquire $STATE$;;;;;;;;;;;;;x
 acquire_massive_state_short;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
@@ -1799,6 +1803,20 @@ zprovince_establish_financial_center_title;Establish Financial Center;;;;;;;;;x;
 zprovince_establish_financial_center_desc;Changes the selected province's trade good to precious metal to represent the new financial hub of your country. Can only use this decision once and it must be on core territory.;;;;;;;;;x;;;;
 zzreset_province_selector_title;§RReset Province Selector;;;;;;;;;x;;;;
 zzreset_province_selector_desc;Destroys all currently built province selectors.;;;;;;;;;x;;;;
+EVTNAME91711;§R$FROMCOUNTRY$§b Requests Cease Fire;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91711;If you say yes to this event, all of §R$FROMCOUNTRY$'s§b provinces under our control (not ownership) will revert back to their control. The purpose of this event is to speed up the addition of wargoals in case the side that occupies more territory surrenders during a multiplayer war.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91711;Return their occupied provinces.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTB91711;Do not return their occupied provinces.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91712;§R$FROMCOUNTRY$§b Accepts Cease Fire;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91712;§R$FROMCOUNTRY$§b has agreed to unoccupy our territory in order to help speed up negotiations.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91712;Good.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91713;§R$FROMCOUNTRY$§b Rejects Cease Fire;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91713;§R$FROMCOUNTRY$§b has not agreed to unoccupy our territory.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91713;Understandable.;;;;;;;;;;;;;;;;;;;;;;;x
+requesting_cease_fire;Requesting Cease Fire;;;;;;;;;;;;;;;;;;;;;;;x
+requesting_cease_fire_desc;In order to prevent spamming, we cannot ask for another cease fire until this timer runs out.;;;;;;;;;;;;;;;;;;;;;;;x
+unoccupy_provinces_title;§YRequest Cease Fire;;;;;;;;;;;;;x
+unoccupy_provinces_desc;This will trigger an event to all player controlled nations that occupy your provinces. If they accept, all your provinces that are controlled (not owned) by that country will revert to your control. This is to help speed up the adding of wargoals during peace talks in multiplayer games. §WDon't use this decision unless one side has surrendered.;;;;;;;;;;;;;x
 EVTNAME91737;Agriculture RGO Change;;;;;;;;;;;;;;;;;;;;;;;x
 EVTDESC91737;Choose to change a province to the following RGO types.;;;;;;;;;;;;;;;;;;;;;;;x
 EVT91737OPTA;Change province to produce Wool.;;;;;;;;;;;;;;;;;;;;;;;x
@@ -1812,7 +1830,10 @@ EVT91737OPTH;Change province to produce Opium.;;;;;;;;;;;;;;;;;;;;;;;x
 EVT91737OPTI;Change province to produce Dye.;;;;;;;;;;;;;;;;;;;;;;;x
 EVT91737OPTJ;Change province to produce Silk.;;;;;;;;;;;;;;;;;;;;;;;x
 EVT91737OPTK;Change province to produce Tobacco.;;;;;;;;;;;;;;;;;;;;;;;x
-EVT91737OPTL;I'd rather not change anything.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTL;Change province to produce Fish.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTM;Change province to produce Timber.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTZ;I'd rather not change anything.;;;;;;;;;;;;;;;;;;;;;;;x
+changing_agriculture;Changing Agriculture;;;;;;;;;;;;;x
 EVTNAME1142;Coffee cultivation in $PROVINCENAME$;;;;;;;;;;;;;;;;;;;;;;;x
 EVTDESC1142;The fields in $PROVINCENAME$ have been found favourable to the cultivation of coffee beans. With the rising world demand for coffee, local farmers have found it prudent to switch production over to the new cash crop.;;;;;;;;;;;;;;;;;;;;;;;x
 EVTOPTA1142;That could come in handy;;;;;;;;;;;;;;;;;;;;;;;x
@@ -2049,6 +2070,8 @@ small_baby_boom;Small Baby Boom;;;;;;;;;;;;;x
 agriculture_expansion;Agriculture Expansion;;;;;;;;;;;;;x
 mine_expansion;Mine Expansion;;;;;;;;;;;;;x
 PRO;§WProvince RGO Expansion Flag\n§YIn Victoria 2, when a province changes owners, all old province modifiers are automatically removed. This flag allows RGO expansions to be remembered and transferred if a province changes ownership.;;;;;;;;;;;;;x
+SMA;§YSmall State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 150K population before 1860, less than 200k between 1860-1885, less than 300k between 1885-1910, and less than 450k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RSmall State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.;;;;;;;;;;;;;x
+MST;§YMedium State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 300K population before 1860, less than 400k between 1860-1885, less than 600k between 1885-1910, and less than 900k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RMedium State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.;;;;;;;;;;;;;x
 FWR;Fake War Target;;;;;;;;;;;;;x
 FWR_ADJ;§;;;;;;;;;;;;;x
 fake_war_title;§YDeclare Fake War;;;;;;;;;;;;;x
@@ -2717,6 +2740,8 @@ end_gaza_kingdom_title;End the Gaza Kingdom;;;;;;;;;;;;;x
 end_gaza_kingdom_desc;It is time to end the Gaza Kingdom and expand our colonial holdings in Mozambique.;;;;;;;;;;;;;x
 form_sweden_norway_title;Form the Union of Sweden-Norway;;;;;;;;;;;;;x
 form_sweden_norway_desc;While technically in a personal union with the crown of Sweden since 1814, the Kingdom of Norway was allowed to draft its own constitution and handle its own domestic affairs. The Pan-Scandinavian movement is at an all time high and now would be a good time to solidify our union with Norway by granting them more representation and creating a new join Swedish-Norwegian government.;;;;;;;;;;;;;x
+embrace_estonians_title;Embrace Estonians;;;;;;;;;;;;;x
+embrace_estonians_desc;Estonians have always had close cultural and historical ties with us, and now that they are once again part of our nation it is time we embraced them as our Nordic bretheren.;;;;;;;;;;;;;x
 EVTNAME36623;Dissolution of the Union;;;;;;;;;;;;;x
 EVTDESC36623;The dissolution of the union between the kingdoms of Norway and Sweden under the House of Bernadotte, was set in motion by a resolution of the Norwegian Parliament (the Storting) on 7 June 1905. Following some months of tension and fear of war between the neighboring kingdoms - and a Norwegian plebiscite held on 13 August which overwhelmingly backed dissolution – negotiations between the two governments led to Sweden's recognition of Norway as an independent constitutional monarchy on 26 October 1905.;;;;;;;;;;;;;x
 EVTOPTA36623;Regrettable;;;;;;;;;;;;;x
@@ -3563,3 +3588,7 @@ remove_genocide_modifier_title2;Stop Genocide;;;;;;;;;;;;;
 remove_genocide_modifier_desc2; ;;;;;;;;;;;;;
 remove_genocide_modifier_title3;Stop Genocide;;;;;;;;;;;;;
 remove_genocide_modifier_desc3; ;;;;;;;;;;;;;
+EVTNAME37230;The Treaty of Tafna;;;;;;;;;;;;;
+EVTDESC37230;After a series of heavy losses and military reversals in Algeria, public opinion on the war has soured, and there have been talks of a negotiated peace with Emir Abdelkader of Mascara in which Abdelkader would officially recognize French imperial sovereignty in Africa. However, the price for such recognition would be the secession of approximately two thirds of Algeria to Abdelkader, leaving us with a few coastal ports.;;;;;;;;;;;;;
+EVTOPTA37230;Sign the treay.;;;;;;;;;;;;;
+EVTOPTB37230;Finish the conquest of Algeria.;;;;;;;;;;;;;

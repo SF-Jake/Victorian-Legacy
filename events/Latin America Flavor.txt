@@ -35,8 +35,6 @@ country_event = {
 			owner = { release_vassal = PRG }
 		}
 		add_accepted_culture = north_andean
-		add_accepted_culture = amazonian
-		add_accepted_culture = quechua
 		BRZ = { all_core = { remove_core = BRZ }}
 		GCO = { all_core = { remove_core = GCO }}
 		CLM = { all_core = { remove_core = CLM }}
@@ -67,7 +65,6 @@ country_event = {
 		}
 		add_accepted_culture = platinean
 		add_accepted_culture = south_andean
-		add_accepted_culture = guarani
 		BRZ = { all_core = { remove_core = BRZ }}
 		ARG = { all_core = { remove_core = ARG }}
 		ARC = { all_core = { remove_core = ARC }}
@@ -98,8 +95,6 @@ country_event = {
 			duration = 1825
 		}
 		add_accepted_culture = north_andean
-		add_accepted_culture = amazonian
-		add_accepted_culture = quechua
 		random_owned = {
 			limit = { owner = { GCO = { vassal_of = THIS } } }	
 			owner = { 
@@ -147,7 +142,6 @@ country_event = {
 		}
 		add_accepted_culture = platinean
 		add_accepted_culture = south_andean
-		add_accepted_culture = guarani
 		random_owned = {
 			limit = { owner = { ARG = { vassal_of = THIS } } }	
 			owner = { 
