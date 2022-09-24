@@ -1075,6 +1075,20 @@ political_decisions = {
 			any_pop = {
 				money = 2000000
 			}
+			CHI = {
+				any_pop = { reduce_pop = 0.40 }
+				any_country = {
+					limit = {
+						NOT = {
+							tag = THIS
+						}
+						substate_of = CHI
+						num_of_cities = 1
+					}
+					any_pop = { reduce_pop = 0.80 }
+				}
+			}
+
 			any_country = {
 				limit = { is_greater_power = yes }
 				treasury = 150000

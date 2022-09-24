@@ -1051,36 +1051,27 @@ political_decisions = {
 	the_golden_circle = {
 		picture = golden_circle
 		potential = {
-			tag = CSA
+			tag = USA
 			war = no
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
 			NOT = { has_country_flag = the_golden_circle }
-			has_country_flag = csa_destiny_manifested
 		}
 
 		allow = {
-			MEX_2138 = { owned_by = THIS }
-			MEX_2142 = { owned_by = THIS }
-			MEX_2146 = { owned_by = THIS }
-			MEX_2151 = { owned_by = THIS }
-			MEX_2161 = { owned_by = THIS }
-			MEX_2162 = { owned_by = THIS }
-			MEX_2170 = { owned_by = THIS }
-			MEX_2173 = { owned_by = THIS }
-			MEX_2183 = { owned_by = THIS }
 		}
 
 		effect = {
-			any_owned = {
-				limit = { is_core = MEX }
-				add_core = THIS
+			add_accepted_culture = Mexican
+			MEX = {
+				any_core = {
+					add_core = THIS
+				}
 			}
 			UCA_2186 = { add_core = THIS }
-			UCA_2191 = { add_core = THIS }
-			UCA_2197 = { add_core = THIS }
-			UCA_2201 = { add_core = THIS }
-			CLM_1723 = { add_core = THIS }
-			CLM_2251 = { add_core = THIS }
-			VNZ_2234 = { add_core = THIS }
 			ENG_203 = { add_core = THIS }
 			SPA_2209 = { add_core = THIS }
 			HAI_2213 = { add_core = THIS }

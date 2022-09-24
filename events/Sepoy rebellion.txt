@@ -97,6 +97,8 @@ country_event = {
 				NOT = { tag = HND }
 				NOT = { tag = PRO }
 				NOT = { tag = MUG }
+				NOT = { tag = SMA }
+				NOT = { tag = MST }
 				any_core = {
 					owned_by = THIS
 				}
