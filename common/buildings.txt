@@ -776,7 +776,6 @@ province_selector = {
 	max_level = 2
 	province = yes
 	one_per_state = yes
-	
 }
 
 fort = {      
@@ -840,6 +839,6 @@ naval_base = {
 	colonial_points = { 30 50 70 90 110 130 150 } #points at levels 1-7
 	province = yes
 	one_per_state = yes
-	colonial_range = 50
+	colonial_range = 40
 	local_ship_build = -0.05
 }

@@ -4118,6 +4118,10 @@ country_event = {
 
 	trigger = {
 		ai = no
+		OR = {
+			civilized = yes
+			tag = JAP
+		}
 		NOT = { has_leader = "§RJohn Cena§W" }
 		NOT = { has_leader = "§RJohn Xina§W" }
 		NOT = { has_country_modifier = john_cena_cooldown }
@@ -4132,16 +4136,16 @@ country_event = {
 		name = "§RJohn Cena§W"
 		define_general = {
 			name = "§RJohn Cena§W"
-			personality = defence_4.2
-			background = attack_4.2
+			personality = defence_3.1
+			background = attack_3.1
 		}
 	}
 	option = {
 		name = "§RJohn Xina§W"
 		define_general = {
 			name = "§RJohn Xina§W"
-			personality = defence_4.2
-			background = attack_4.2
+			personality = defence_3.1
+			background = attack_3.1
 		}
 	}
 }

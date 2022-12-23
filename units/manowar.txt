@@ -13,7 +13,7 @@ manowar = {
 	#Core Abilities
 	priority = 25
 	max_strength = 100
-	default_organisation = 30
+	default_organisation = 40
 	maximum_speed = 5
 	weighted_value = 3.0
 	can_build_overseas = yes
@@ -23,21 +23,21 @@ manowar = {
 	build_time = 240
 	build_cost = {
 		clipper_convoy = 15
-		artillery = 10
+		artillery = 20
 	}
 	min_port_level = 1
 	limit_per_port = -1
-	supply_consumption_score = 4
+	supply_consumption_score = 1
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.24
-		artillery = 0.08 #0.16
+		clipper_convoy = 0.2
+		artillery = 0.12 #0.16
 	}
 	
 	#Naval Abilties
-	hull = 7
-	gun_power = 7
+	hull = 1
+	gun_power = 1
 	fire_range = 0.3
 	evasion = 0
 }

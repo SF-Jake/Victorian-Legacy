@@ -12,6 +12,9 @@ political_decisions = {
 			}
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = russia_tech_school_tier1
+				tech_school = russia_tech_school_tier2
+				tech_school = russia_tech_school_tier3
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -41,6 +44,9 @@ political_decisions = {
 			}
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = russia_tech_school_tier1
+				tech_school = russia_tech_school_tier2
+				tech_school = russia_tech_school_tier3
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -70,6 +76,9 @@ political_decisions = {
 			}
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = russia_tech_school_tier1
+				tech_school = russia_tech_school_tier2
+				tech_school = russia_tech_school_tier3
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -97,6 +106,9 @@ political_decisions = {
 			}
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = russia_tech_school_tier1
+				tech_school = russia_tech_school_tier2
+				tech_school = russia_tech_school_tier3
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -125,6 +137,9 @@ political_decisions = {
 			}
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = russia_tech_school_tier1
+				tech_school = russia_tech_school_tier2
+				tech_school = russia_tech_school_tier3
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -146,6 +161,9 @@ political_decisions = {
 			has_country_flag = show_options_Y
 			NOT = {
 				tech_school = traditional_academic
+				tech_school = russia_tech_school_tier1
+				tech_school = russia_tech_school_tier2
+				tech_school = russia_tech_school_tier3
 				has_country_modifier = academic_confusion
 			}
 			civilized = yes

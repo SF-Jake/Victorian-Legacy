@@ -487,14 +487,6 @@ country_event = {
 
 	trigger = {
 		tag = JAN
-		OR = {
-			AUS = {
-				has_country_flag = start_hungarian_revolution
-			}
-			SGF = {
-				has_country_flag = start_hungarian_revolution
-			}
-		}
 		year = 1848
 		NOT = { year = 1850 }
 		NOT = { has_global_flag = hungarian_revolution_1848 }
@@ -504,7 +496,7 @@ country_event = {
 		name = "EVTOPTA31520"
 		set_global_flag = hungarian_revolution_1848
 		random_country = {
-			limit = { tag = AUS has_country_flag = start_hungarian_revolution }
+			limit = { tag = AUS exists = AUS }
 			AUS = {
 				release = HUN
 				country_event = { id = 31521 days = 1 }
@@ -539,7 +531,7 @@ country_event = {
 			}
 		}
 		random_country = {
-			limit = { tag = SGF has_country_flag = start_hungarian_revolution }
+			limit = { tag = SGF exists = SGF }
 			SGF = {
 				release = HUN
 				country_event = { id = 31521 days = 1 }

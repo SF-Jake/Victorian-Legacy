@@ -752,7 +752,7 @@ agriculture_expansion = {
 }
 
 mine_expansion = {
-	mine_rgo_size = 1.1
+	mine_rgo_size = 1
 	icon = 13
 }
 
@@ -817,6 +817,7 @@ small_baby_boom = {
 	population_growth = 0.001
 	icon = 19
 }
+
 monarchy_genocide = {
 	local_factory_output = -0.25
 	local_rgo_output = -0.25
@@ -848,6 +849,7 @@ communist_genocide = {
 genocide_cooldown = {
 	icon = 20
 }
+
 suppression = {
 	pop_militancy_modifier = -0.15
 	pop_consciousness_modifier = -0.15

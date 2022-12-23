@@ -245,7 +245,12 @@ electric_gear_factory = {
 	output_goods = electric_gear 
 	value = 4.5			#72
 	bonus = {
-		trigger = { trade_goods_in_state = rubber }
+		trigger = {
+			OR = {
+				has_building = synthetic_rubber_factory
+				trade_goods_in_state = rubber
+			}
+		}
 		value = 0.15
 	}
 	bonus = {
@@ -257,18 +262,18 @@ electric_gear_factory = {
 machine_parts_factory = {       
 	template = machine_part_user_template	#10.65
 	input_goods = {    
-		steel = 9		#42.3
-		coal = 2.5		#11.5  total input+maint = 65.95
+		steel = 4.2		#42.3
+		coal = 2		#11.5  total input+maint = 65.95
 	}
 	output_goods = machine_parts 
-	value = 2			#73
+	value = 6.85			#73
 	bonus = {
 		trigger = { has_building = steel_factory }
-		value = 0.125
+		value = 0.15
 	}
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
-		value = 0.125
+		value = 0.1
 	}
 }
 
@@ -294,7 +299,12 @@ synthetic_rubber_factory = {
 	output_goods = rubber 
 	value = 3.9			#27.3
 	bonus = {
-		trigger = { trade_goods_in_state = oil }
+		trigger = { 
+			OR = {
+				trade_goods_in_state = oil 
+				has_building = synthetic_oil_factory
+			}
+		}
 		value = 0.25
 	}
 }
@@ -488,19 +498,19 @@ clipper_shipyard = {
 small_arms_factory = {       
 	template = factory_template		#8.825
 	input_goods = {        
-		lumber = 5			#10
-		steel = 2			#9.4		total input+maint = 28.225
+		lumber = 7.5		#15
+		steel = 2			#9.4	total input+maint = 33.225
 	}
 	output_goods = small_arms 
-	value = 1.2			#37
+	value = 2.2				#39.6
 
 	bonus = {
 		trigger = { has_building = steel_factory }
-		value = 0.15
+		value = 0.1
 	}
 	bonus = {
 		trigger = { has_building = lumber_mill }
-		value = 0.1
+		value = 0.15
 	}
 }
 
@@ -614,16 +624,16 @@ fabric_factory = {
 canned_food_factory = {       
 	template = cheap_factory_template	#4.5
 	input_goods = { 
-		steel = 0.5 	#2.35
-		cattle = 5 		#12
-		grain = 5 		#11.5
-		fish = 5		#10		total input+maint = 40.35
+		steel = 0.5 		#2.35
+		cattle = 4 			#9.6
+		grain = 4 			#9.2
+		fish = 4			#8		total input+maint = 33.65
 	}
 	output_goods = canned_food 
-	value = 3.1			#49.6
+	value = 5				#40
 	bonus = {
 		trigger = { trade_goods_in_state = grain }
-		value = 0.1
+		value = 0.2
 	}
 	bonus = {
 		trigger = {
@@ -1306,60 +1316,462 @@ artisan_steel = {
 	workforce = 10000
 }
 
-artisan_artillery = {       
-	input_goods = { 
-		explosives = 0.5	#10
-		steel = 1			#4.7  total input+maint = 14.7
-	}
-	output_goods = artillery 
-	value = 0.5				#30
+############# MILITARY FACTORIES
 
+artisan_artillery = {
+	input_goods = {
+		coal = 1.087			#5.0002 total input+maint = 5.0002
+	}
+	output_goods = artillery
+	value = 0.333				#9.99
 	owner = {
-		poptype = artisan 
+		poptype = artisan
 		effect = output
 	}
-	
 	type = artisan
-	
 	workforce = 10000
 }
 
-artisan_clipper = {       
-	input_goods = {         
-		fabric = 10			#18
-		lumber = 4.5		#9
-		steel = 2.5			#11.75		total input+maint = 38.75
+artisan_artillery1 = {
+	input_goods = {
+		coal = 1.087			#5.0002 total input+maint = 5.0002
 	}
-	output_goods = clipper_convoy 
+	output_goods = artillery
+	value = 0.333				#9.99
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_artillery2 = {
+	input_goods = {
+		coal = 1.087			#5.0002 total input+maint = 5.0002
+	}
+	output_goods = artillery
+	value = 0.333				#9.99
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_artillery3 = {
+	input_goods = {
+		coal = 1.087			#5.0002 total input+maint = 5.0002
+	}
+	output_goods = artillery
+	value = 0.333				#9.99
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_artillery4 = {
+	input_goods = {
+		coal = 1.087			#5.0002 total input+maint = 5.0002
+	}
+	output_goods = artillery
+	value = 0.333				#9.99
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_artillery5 = {
+	input_goods = {
+		coal = 1.087			#5.0002 total input+maint = 5.0002
+	}
+	output_goods = artillery
+	value = 0.333				#9.99
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_ammunition = {
+	input_goods = {
+		sulphur = 0.4			#2
+		iron = 1.071		#2.9988 total input+maint = 4.9988
+	}
+	output_goods = ammunition
+	value = 0.714				#9.996
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_ammunition1 = {
+	input_goods = {
+		sulphur = 0.4			#2
+		iron = 1.071		#2.9988 total input+maint = 4.9988
+	}
+	output_goods = ammunition
+	value = 0.714				#9.996
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_ammunition2 = {
+	input_goods = {
+		sulphur = 0.4			#2
+		iron = 1.071		#2.9988 total input+maint = 4.9988
+	}
+	output_goods = ammunition
+	value = 0.714				#9.996
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_ammunition3 = {
+	input_goods = {
+		sulphur = 0.4			#2
+		iron = 1.071		#2.9988 total input+maint = 4.9988
+	}
+	output_goods = ammunition
+	value = 0.714				#9.996
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_canned_food = {
+	input_goods = {
+		grain = 0.543			#1.2489
+		fruit = 0.694			#1.2492
+		cattle = 0.521			#1.2504
+		fish = 0.625			#1.25 total input+maint = 4.9985
+	}
+	output_goods = canned_food
+	value = 1.25				#10
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_canned_food1 = {
+	input_goods = {
+		grain = 0.543			#1.2489
+		fruit = 0.694			#1.2492
+		cattle = 0.521			#1.2504
+		fish = 0.625			#1.25 total input+maint = 4.9985
+	}
+	output_goods = canned_food
+	value = 1.25				#10
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_canned_food2 = {
+	input_goods = {
+		grain = 0.543			#1.2489
+		fruit = 0.694			#1.2492
+		cattle = 0.521			#1.2504
+		fish = 0.625			#1.25 total input+maint = 4.9985
+	}
+	output_goods = canned_food
+	value = 1.25				#10
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_canned_food3 = {
+	input_goods = {
+		grain = 0.543			#1.2489
+		fruit = 0.694			#1.2492
+		cattle = 0.521			#1.2504
+		fish = 0.625			#1.25 total input+maint = 4.9985
+	}
+	output_goods = canned_food
+	value = 1.25				#10
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_canned_food4 = {
+	input_goods = {
+		grain = 0.543			#1.2489
+		fruit = 0.694			#1.2492
+		cattle = 0.521			#1.2504
+		fish = 0.625			#1.25 total input+maint = 4.9985
+	}
+	output_goods = canned_food
+	value = 1.25				#10
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_canned_food5 = {
+	input_goods = {
+		grain = 0.543			#1.2489
+		fruit = 0.694			#1.2492
+		cattle = 0.521			#1.2504
+		fish = 0.625			#1.25 total input+maint = 4.9985
+	}
+	output_goods = canned_food
+	value = 1.25				#10
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_canned_food6 = {
+	input_goods = {
+		grain = 0.543			#1.2489
+		fruit = 0.694			#1.2492
+		cattle = 0.521			#1.2504
+		fish = 0.625			#1.25 total input+maint = 4.9985
+	}
+	output_goods = canned_food
+	value = 1.25				#10
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_canned_food7 = {
+	input_goods = {
+		grain = 0.543			#1.2489
+		fruit = 0.694			#1.2492
+		cattle = 0.521			#1.2504
+		fish = 0.625			#1.25 total input+maint = 4.9985
+	}
+	output_goods = canned_food
+	value = 1.25				#10
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_clipper = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		fabric = 0.556			#1.0008
+		iron = 0.357			#0.9996 total input+maint = 5.002
+	}
+	output_goods = clipper_convoy
 	is_coastal = yes
-	value = 1.9				#79.8
-	
+	value = 0.238				#9.996
 	owner = {
-		poptype = artisan 
+		poptype = artisan
 		effect = output
 	}
-	
 	type = artisan
-	
-
 	workforce = 10000
 }
 
-artisan_small_arms = {       
-	input_goods = {        
-		lumber = 2.5		#5
-		steel = 1			#4.7		total input+maint = 9.7
+artisan_clipper1 = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		fabric = 0.556			#1.0008
+		iron = 0.357			#0.9996 total input+maint = 5.002
 	}
-	output_goods = small_arms 
-	value = 0.55			#20.35
-
+	output_goods = clipper_convoy
+	is_coastal = yes
+	value = 0.238				#9.996
 	owner = {
-		poptype = artisan 
+		poptype = artisan
 		effect = output
 	}
-	
 	type = artisan
-	
+	workforce = 10000
+}
+
+artisan_clipper2 = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		fabric = 0.556			#1.0008
+		iron = 0.357			#0.9996 total input+maint = 5.002
+	}
+	output_goods = clipper_convoy
+	is_coastal = yes
+	value = 0.238				#9.996
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_clipper3 = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		fabric = 0.556			#1.0008
+		iron = 0.357			#0.9996 total input+maint = 5.002
+	}
+	output_goods = clipper_convoy
+	is_coastal = yes
+	value = 0.238				#9.996
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_clipper4 = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		fabric = 0.556			#1.0008
+		iron = 0.357			#0.9996 total input+maint = 5.002
+	}
+	output_goods = clipper_convoy
+	is_coastal = yes
+	value = 0.238				#9.996
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_clipper5 = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		fabric = 0.556			#1.0008
+		iron = 0.357			#0.9996 total input+maint = 5.002
+	}
+	output_goods = clipper_convoy
+	is_coastal = yes
+	value = 0.238				#9.996
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_small_arms = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		iron = 0.714			#1.9992 total input+maint = 5.0008
+	}
+	output_goods = small_arms
+	value = 0.56				#10.08
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_small_arms1 = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		iron = 0.714			#1.9992 total input+maint = 5.0008
+	}
+	output_goods = small_arms
+	value = 0.56				#10.08
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_small_arms2 = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		iron = 0.714			#1.9992 total input+maint = 5.0008
+	}
+	output_goods = small_arms
+	value = 0.56				#10.08
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_small_arms3 = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		iron = 0.714			#1.9992 total input+maint = 5.0008
+	}
+	output_goods = small_arms
+	value = 0.56				#10.08
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
+	workforce = 10000
+}
+
+artisan_small_arms4 = {
+	input_goods = {
+		timber = 0.938			#3.0016
+		iron = 0.714			#1.9992 total input+maint = 5.0008
+	}
+	output_goods = small_arms
+	value = 0.56				#10.08
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	type = artisan
 	workforce = 10000
 }
 
@@ -1443,26 +1855,6 @@ artisan_ammunition = {
 	}
 	output_goods = ammunition 
 	value = 1.1				#19.25
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 10000
-}
-
-artisan_canned_food = {       
-	input_goods = { 
-		steel = 1 			#4.7
-		cattle = 5 			#12
-		grain = 5 			#11.5
-		fish = 5			#10		total input+maint = 38.2
-	}
-	output_goods = canned_food 
-	value = 4.8				#76.8
 	
 	owner = {
 		poptype = artisan 

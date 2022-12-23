@@ -865,14 +865,26 @@ social_reforms = {
 		acceptable_schools = {
 			global_assimilation_rate = 0.1
 			global_immigrant_attract = 0.03
+			allow = {
+				NOT = { tech_school = russia_tech_school_tier1 }
+			}
 		}
 		good_schools = {
 			global_assimilation_rate = 0.15
 			global_immigrant_attract = 0.04
+			allow = {
+				NOT = { tech_school = russia_tech_school_tier1 }
+				NOT = { tech_school = russia_tech_school_tier2 }
+			}
 		}
 		compulsory_schools = {
 			global_assimilation_rate = 0.2
 			global_immigrant_attract = 0.05
+			allow = {
+				NOT = { tech_school = russia_tech_school_tier1 }
+				NOT = { tech_school = russia_tech_school_tier2 }
+				NOT = { tech_school = russia_tech_school_tier3 }
+			}
 		}
 	}
 	penal_system = {

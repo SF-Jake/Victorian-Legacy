@@ -76,7 +76,6 @@ uninstall_communist_gov_cb
 great_war_penalty_cb
 take_capital
 acquire_small_state
-acquire_mid_state
 conquest_small
 conquest_tiny
 demand_for_ally
@@ -3416,7 +3415,27 @@ acquire_mid_state = {
 			}
 		}
 	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}		
 
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
 
 #Minor Conquest
 conquest_small = {

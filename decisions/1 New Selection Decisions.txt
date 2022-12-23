@@ -3603,6 +3603,7 @@ zscorch_earth = {
 	zprovince_agriculture_expansion_100k = {
 		picture = rgo_expansion
 		potential = {
+			has_country_flag = show_options_G
 			ai = no
 			any_owned_province = { 
 				has_building = province_selector
@@ -6865,6 +6866,33 @@ zscorch_earth = {
 						}
 					}
 				}
+			}
+		}
+	}
+	remove_genocide_modifier = {
+		alert = no
+		potential = {
+			ai = no
+			OR = {
+				any_owned_province = { has_province_modifier = communist_genocide }
+				any_owned_province = { has_province_modifier = facist_genocide }
+				any_owned_province = { has_province_modifier = monarchy_genocide }
+			}
+		}
+		allow = {
+		}
+		effect = {
+			any_owned = {
+				limit = { has_province_modifier = monarchy_genocide }
+				remove_province_modifier = monarchy_genocide
+			}
+			any_owned = {
+				limit = { has_province_modifier = facist_genocide }
+				remove_province_modifier = facist_genocide
+			}
+			any_owned = {
+				limit = { has_province_modifier = communist_genocide }
+				remove_province_modifier = communist_genocide
 			}
 		}
 	}

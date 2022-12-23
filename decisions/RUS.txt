@@ -591,4 +591,51 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
+
+	#Russian Tech School
+	russia_tech_school_tier2 = {
+		alert = no
+		potential = {
+			tag = RUS
+			tech_school = russia_tech_school_tier1
+		}
+		
+		allow = {
+			year = 1842
+		}
+		effect = {
+			tech_school = russia_tech_school_tier2
+		}
+	}
+	russia_tech_school_tier3 = {
+		alert = no
+		potential = {
+			tag = RUS
+			tech_school = russia_tech_school_tier2
+		}
+		
+		allow = {
+			year = 1852
+			school_reforms = acceptable_schools
+		}
+		effect = {
+			tech_school = russia_tech_school_tier3
+		}
+	}
+	russia_tech_school_tier4 = {
+		alert = no
+		potential = {
+			tag = RUS
+			tech_school = russia_tech_school_tier3
+		}
+		
+		allow = {
+			year = 1862
+			school_reforms = good_schools
+			
+		}
+		effect = {
+			tech_school = russia_tech_school_tier4
+		}
+	}
 }
