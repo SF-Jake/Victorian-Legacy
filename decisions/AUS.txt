@@ -47,6 +47,7 @@ political_decisions = {
 		}
 
 		allow = {
+			has_global_flag = hungarian_revolution_1848
 			OR = {
 				ITA = { exists = yes }
 				NGF = { exists = yes }
@@ -405,25 +406,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = bosnia_core
 			TUR_788 = { add_core = THIS }
-		}
-	}
-
-	hungarian_revolution = {
-		potential = {
-			NOT = { has_country_flag = start_hungarian_revolution }
-			OR = {
-				tag = AUS
-				tag = SGF
-			}
-		}
-
-		allow = {
-			year = 1848
-			NOT = { year = 1850 }
-		}
-		
-		effect = {
-			set_country_flag = start_hungarian_revolution
 		}
 	}
 }

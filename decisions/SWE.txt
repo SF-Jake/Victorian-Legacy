@@ -185,4 +185,36 @@ political_decisions = {
 			set_global_flag = estonians_embraced
 		}
 	}
+	embrace_scottish = {
+		picture = the_scotland_yard
+		potential = {
+			OR = {
+				tag = SWE
+				tag = KSN
+				tag = SCA
+				tag = FIN
+			}
+			NOT = {
+				has_global_flag = scottish_embraced
+			}
+		}
+		
+		allow = {
+			SCO = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			citizens_rights = all_voting_pops
+		}
+		
+		effect = {
+			SCO = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_global_flag = scottish_embraced
+		}
+	}
 }

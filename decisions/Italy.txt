@@ -366,16 +366,16 @@ political_decisions = {
 				758 = { owned_by = THIS }
 				TUR_853 = { owned_by = THIS }
 			}
-			year = 1880
 			NOT = { has_country_flag = albanian_bridge }
 		}
 		
 		allow = {
+			year = 1870
 			SIC_756 = { owned_by = THIS }
 			TUR_853 = { owned_by = THIS }
-			steel_steamers = 1
+			iron_steamers = 1
 			steel_railroad = 1
-			electricity = 1
+			organic_chemistry = 1
 		}
 		
 		effect = {
@@ -396,7 +396,6 @@ political_decisions = {
 		allow = {
 			revolution_n_counterrevolution = 1
 			AUS_729 = { owned_by = THIS }
-			AUS_736 = { owned_by = THIS }
 			AUS_770 = { owned_by = THIS }
 			TUR_805 = { owned_by = THIS }
 			TUR_832 = { owned_by = THIS }
@@ -408,8 +407,7 @@ political_decisions = {
 			prestige = 50
 			change_tag = RME
 			add_accepted_culture = albanian
-			add_accepted_culture = greek			
-			AUS_736 = { add_core = RME }
+			add_accepted_culture = greek
 			AUS_770 = { add_core = RME }
 			AUS_780 = { add_core = RME }
 			TUR_853 = { add_core = RME }
