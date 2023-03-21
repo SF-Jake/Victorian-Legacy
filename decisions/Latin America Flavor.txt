@@ -1,67 +1,67 @@
 political_decisions = {
-	south_american_formation = {
-		picture = create_SAS
-		potential = {
-			NOT = { has_country_flag = SAS_formed }
-			tag = BRZ
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-			SAS = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							OR = {
-								in_sphere = THIS
-								vassal_of = THIS
-							}
-						}
-					}
-					NOT = {
-						OR = {
-							province_id = 2338
-							province_id = 2337
-							province_id = 2335
-							province_id = 2334
-							province_id = 2333
-							province_id = 2372
-							province_id = 2367
-							province_id = 2366
-							province_id = 2364
-							province_id = 2365
-							province_id = 2377
-							province_id = 2362
-						}
-					}
+	# south_american_formation = {
+	# 	picture = create_SAS
+	# 	potential = {
+	# 		NOT = { has_country_flag = SAS_formed }
+	# 		tag = BRZ
+	# 	}
+	# 	allow = {
+	# 		nationalism_n_imperialism = 1
+	# 		SAS = {
+	# 			all_core = {
+	# 				OR = {
+	# 					owned_by = THIS
+	# 					owner = {
+	# 						OR = {
+	# 							in_sphere = THIS
+	# 							vassal_of = THIS
+	# 						}
+	# 					}
+	# 				}
+	# 				NOT = {
+	# 					OR = {
+	# 						province_id = 2338
+	# 						province_id = 2337
+	# 						province_id = 2335
+	# 						province_id = 2334
+	# 						province_id = 2333
+	# 						province_id = 2372
+	# 						province_id = 2367
+	# 						province_id = 2366
+	# 						province_id = 2364
+	# 						province_id = 2365
+	# 						province_id = 2377
+	# 						province_id = 2362
+	# 					}
+	# 				}
 					
-				}
-			}
-		}
-		effect = {
-			change_tag = SAS
-			set_country_flag = SAS_formed
-			BRZ = { all_core = { remove_core = BRZ }}
-			GRP = {	all_core = { remove_core = GRP }}
-			PNB = {	all_core = { remove_core = PNB }}
-			RGS = {	all_core = { remove_core = RGS }}
-			ENT = {	all_core = { remove_core = ENT }}
-			CRT = {	all_core = { remove_core = CRT }}
-			BAH = {	all_core = { remove_core = BAH }}
-			MRN = {	all_core = { remove_core = MRN }}
-			any_country = {
-				limit = {
-					is_culture_group = south_american_cultures
-				}
-				country_event = { id=11101 days=0 }
-			}
-			PRG_2343 = { add_core = SAS }
-			ARG_2362 = { add_core = SAS }
-			CHL_2332 = { add_core = SAS }
-			prestige = 25
-			country_event = { id=19004 days=0 }
-		}
-	}
+	# 			}
+	# 		}
+	# 	}
+	# 	effect = {
+	# 		change_tag = SAS
+	# 		set_country_flag = SAS_formed
+	# 		BRZ = { all_core = { remove_core = BRZ }}
+	# 		GRP = {	all_core = { remove_core = GRP }}
+	# 		PNB = {	all_core = { remove_core = PNB }}
+	# 		RGS = {	all_core = { remove_core = RGS }}
+	# 		ENT = {	all_core = { remove_core = ENT }}
+	# 		CRT = {	all_core = { remove_core = CRT }}
+	# 		BAH = {	all_core = { remove_core = BAH }}
+	# 		MRN = {	all_core = { remove_core = MRN }}
+	# 		any_country = {
+	# 			limit = {
+	# 				is_culture_group = south_american_cultures
+	# 			}
+	# 			country_event = { id=11101 days=0 }
+	# 		}
+	# 		PRG_2343 = { add_core = SAS }
+	# 		ARG_2362 = { add_core = SAS }
+	# 		CHL_2332 = { add_core = SAS }
+	# 		prestige = 25
+	# 		country_event = { id=19004 days=0 }
+	# 	}
+	# }
 	occupation_of_araucania = {
 		picture = conquest_of_the_desert
 		potential = {
@@ -120,172 +120,6 @@ political_decisions = {
 	####################################################################
 	##						Other Latin Flavor						  ##
 	####################################################################
-
-	unite_la_plata = {
-		picture = unite_la_plata
-		potential = {
-			primary_culture = platinean
-			NOT = { exists = LPL }
-		}
-
-		allow = {
-			war = no
-			prestige = 50
-			2356 = {
-				OR = {
-					owned_by = THIS
-					owner = { vassal_of = THIS }
-				}
-			}
-			2359 = {
-				OR = {
-					owned_by = THIS
-					owner = { vassal_of = THIS }
-				}
-			}
-			OR = {
-				ARG = {
-					OR = {
-						in_sphere = THIS
-						vassal_of = THIS
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-									in_sphere = THIS
-									vassal_of = THIS
-								}
-								province_id = 2131
-							}
-						}
-					}
-				}
-				ARC = {
-					OR = {
-						in_sphere = THIS
-						vassal_of = THIS
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-									in_sphere = THIS
-									vassal_of = THIS
-								}
-								province_id = 2131
-							}
-						}
-					}
-				}
-			}
-			PRG = {
-				OR = {
-					in_sphere = THIS
-					vassal_of = THIS
-					all_core = {
-						OR = {
-							owned_by = THIS
-							owner = {
-								in_sphere = THIS
-								vassal_of = THIS
-							}
-							province_id = 2420
-						}
-					}
-				}
-			}
-			URU = {
-				OR = {
-					in_sphere = THIS
-					vassal_of = THIS
-					all_core = {
-						OR = {
-							owned_by = THIS
-							owner = {
-								in_sphere = THIS
-								vassal_of = THIS
-							}
-						}
-					}
-				}
-			}
-		}
-
-		effect = {
-			prestige = 30
-			badboy = 10
-			random_country = {
-				limit = {
-					exists = yes
-					OR = {
-						tag = ARG
-						tag = ARC
-						}
-					}
-					all_core = { add_core = LPL }
-			}
-			PRG = { all_core = { add_core = LPL } }
-			URU = { all_core = { add_core = LPL } }
-			BOL = { all_core = { add_core = LPL } }
-			BRZ_2467 = { add_core = THIS }
-			change_tag = LPL
-			random_country = {
-				limit = {
-					tag = ARG
-					exists = yes
-					ai = yes
-				}
-				THIS = { inherit = ARG }
-			}
-			random_country = {
-				limit = {
-					tag = ARC
-					exists = yes
-					ai = yes
-				}
-				THIS = { inherit = ARC }
-			}
-			random_country = {
-				limit = {
-					tag = ENT
-					exists = yes
-					ai = yes
-				}
-				THIS = { inherit = ENT }
-			}
-			random_country = {
-				limit = {
-					tag = CRT
-					exists = yes
-					ai = yes
-				}
-				THIS = { inherit = CRT }
-			}
-			random_country = {
-				limit = {
-					tag = SBA
-					exists = yes
-					ai = yes
-				}
-				THIS = { inherit = SBA }
-			}
-			random_country = {
-				limit = {
-					tag = PRG
-					exists = yes
-					ai = yes
-				}
-				THIS = { inherit = PRG }
-			}
-			random_country = {
-				limit = {
-					tag = URU
-					exists = yes
-					ai = yes
-				}
-				THIS = { inherit = URU }
-			}
-		}
-	}
 
 	triple_alliance_war = {
 		picture = francisco_solano_lopez
@@ -512,7 +346,7 @@ political_decisions = {
 			OR = {
 				is_greater_power = yes
 				iron_muzzle_loaded_artillery = 1
-				year = 1855
+				year = 1850
 			}
 		}
 		effect = {
@@ -637,7 +471,7 @@ political_decisions = {
 			OR = {
 				is_greater_power = yes
 				muzzle_loaded_rifles = 1
-				year = 1850				
+				year = 1845				
 			}
 		}
 		effect = {

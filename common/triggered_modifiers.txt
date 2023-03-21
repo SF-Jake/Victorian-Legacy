@@ -277,7 +277,7 @@ one_year_draft_china = {
 		has_country_flag = chinese
 		conscription = one_year_draft
 	}
-	mobilisation_size = 0.002
+	mobilisation_size = 0.015
 	icon = 15		
 }
 two_year_draft_china = {
@@ -285,15 +285,15 @@ two_year_draft_china = {
 		has_country_flag = chinese
 		conscription = two_year_draft
 	}
-	mobilisation_size = 0.004		
+	mobilisation_size = 0.02		
 	icon = 15		
-}	
+}
 four_year_draft_china = {
 	trigger = {
 		has_country_flag = chinese
 		conscription = four_year_draft
 	}
-	mobilisation_size = 0.008		
+	mobilisation_size = 0.022		
 	icon = 15		
 }
 mandatory_service_china = {
@@ -301,7 +301,7 @@ mandatory_service_china = {
 		has_country_flag = chinese
 		conscription = mandatory_service
 	}
-	mobilisation_size = 0.012		
+	mobilisation_size = 0.025		
 	icon = 15		
 }
 regionalism_china = {
@@ -482,7 +482,7 @@ save_the_nation1_china  = {
 	
 	suppression_points_modifier = 0.10
 	
-	mobilisation_size = 0.002
+	mobilisation_size = 0.005
 	icon = 15
 }
 
@@ -495,7 +495,7 @@ save_the_nation1.5_china  = {
 	
 	suppression_points_modifier = 0.10
 	
-	mobilisation_size = 0.003
+	mobilisation_size = 0.0075
 	icon = 15
 }
 
@@ -508,7 +508,7 @@ save_the_nation2_china  = {
 	
 	suppression_points_modifier = 0.10
 	
-	mobilisation_size = 0.004
+	mobilisation_size = 0.01
 	icon = 15
 }
 
@@ -521,7 +521,7 @@ save_the_nation2.5_china  = {
 	
 	suppression_points_modifier = 0.10
 	
-	mobilisation_size = 0.005
+	mobilisation_size = 0.012
 	icon = 15
 }
 
@@ -534,7 +534,7 @@ save_the_nation3_china  = {
 	
 	suppression_points_modifier = 0.10
 	
-	mobilisation_size = 0.006
+	mobilisation_size = 0.015
 	icon = 15
 }
 
@@ -547,7 +547,7 @@ save_the_nation3.5_china  = {
 	
 	suppression_points_modifier = 0.10
 	
-	mobilisation_size = 0.007
+	mobilisation_size = 0.0017
 	icon = 15
 }
 
@@ -560,7 +560,7 @@ save_the_nation4_china  = {
 	
 	suppression_points_modifier = 0.10
 	
-	mobilisation_size = 0.008
+	mobilisation_size = 0.020
 	icon = 15
 }
 
@@ -573,7 +573,7 @@ save_the_nation4.5_china  = {
 	
 	suppression_points_modifier = 0.10
 	
-	mobilisation_size = 0.009
+	mobilisation_size = 0.0225
 	icon = 15
 }
 
@@ -585,7 +585,7 @@ save_the_nation5_china  = {
 	
 	suppression_points_modifier = 0.10
 	
-	mobilisation_size = 0.010
+	mobilisation_size = 0.025
 	icon = 15
 }
 
@@ -746,15 +746,6 @@ yong_ying = {
 }
 
 chinese_pop_nerf1 = {
-	trigger = {
-		has_country_flag = chinese
-		has_country_flag = medicine_invented
-	}
-	global_population_growth = -0.001
-	icon = 16
-}
-
-chinese_pop_nerf2 = {
 	trigger = {
 		has_country_flag = chinese
 		has_country_flag = organic_chemistry_invented
@@ -967,10 +958,23 @@ badboy5 = {
 badboy6 = {
 	trigger = {
 		badboy = 2.6
+		NOT = { badboy = 3.2 }
 	}
 	non_accepted_pop_militancy_modifier = 0.48
-	administrative_efficiency_modifier = -1.2
+	administrative_efficiency_modifier = -70
 	tariff_efficiency_modifier = -0.6
+}
+
+badboy7 = {
+	trigger = {
+		badboy = 3.2
+	}
+	non_accepted_pop_militancy_modifier = 1
+	administrative_efficiency_modifier = -70
+	tariff_efficiency_modifier = -1
+	tax_efficiency = -1
+	war_exhaustion = 11
+	max_war_exhaustion = 100
 }
 
 ########## Great Power Infamy Reduction ##########

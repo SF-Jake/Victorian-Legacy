@@ -136,6 +136,90 @@ country_event = {
 	}
 }
 
+#$STATE$ Joins $COUNTRY$!
+country_event = {
+    id = 70004
+    title = "EVTNAME70004"
+    desc = "EVTDESC70004"
+    #picture = "Western"
+    trigger = {
+		OR = {
+			any_owned_province = {
+				has_pop_type = labourers
+				is_core = PRO
+				NOT = { has_province_modifier = mine_expansion }
+			}
+			any_owned_province = {
+				has_pop_type = farmers
+				is_core = PRO
+				NOT = { has_province_modifier = agriculture_expansion }
+			}
+			any_owned_province = {
+				OR = {
+					province_id = 1481
+					province_id = 1496
+					province_id = 1498
+					province_id = 1538
+					province_id = 1566
+					province_id = 1569
+					province_id = 2615
+					province_id = 2659
+					province_id = 1499
+					province_id = 1496
+					province_id = 1608
+				}
+				is_core = PRO
+				has_province_flag = treaty_port
+				NOT = { has_province_modifier = treaty_port }
+			}
+		}
+    }
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "EVTOPTA70004"
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 1481
+					province_id = 1496
+					province_id = 1498
+					province_id = 1538
+					province_id = 1566
+					province_id = 1569
+					province_id = 2615
+					province_id = 2659
+					province_id = 1499
+					province_id = 1496
+					province_id = 1608
+				}
+				is_core = PRO
+				has_province_flag = treaty_port
+				NOT = { has_province_modifier = treaty_port }
+			}
+			add_province_modifier = { name = treaty_port duration = -1 }
+		}
+		any_owned = {
+			limit = {
+				has_pop_type = labourers
+				is_core = PRO
+				NOT = { has_province_modifier = mine_expansion }
+				NOT = { has_province_modifier = treaty_port }
+			}
+			add_province_modifier = { name = mine_expansion duration = -1 }
+		}
+		any_owned = {
+			limit = {
+				has_pop_type = farmers
+				is_core = PRO
+				NOT = { has_province_modifier = agriculture_expansion }
+			}
+			add_province_modifier = { name = agriculture_expansion duration = -1 }
+		}
+    }
+}
+
 # Nation that owns your debt goes bankrupt
 country_event = {
 	id = 70002

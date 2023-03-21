@@ -1072,6 +1072,10 @@ political_decisions = {
 			set_global_flag = global_1836_setup
 			set_country_flag = banker_income_timer
 			add_country_modifier = { name = banker_income_timer duration = 5 }
+			any_country = {
+				limit = { tag = SIA ai = no }
+				add_country_modifier = { name = education_siam_reforms duration = -1 }
+			}
 			any_pop = {
 				money = 2000000
 			}

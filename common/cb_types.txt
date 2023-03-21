@@ -3923,7 +3923,13 @@ demand_chinese_concession_casus_belli = {
 			}
 			
 		}
-		civilized = no
+		OR = {
+			civilized = no
+			AND = {
+				civilized = yes
+				NOT = { year = 1900 }
+			}
+		}
 		number_of_states = 2
 		NOT = {
 			OR = {

@@ -22,11 +22,13 @@ country_event = {
 			}
 		}
 	}
-	
+
+	immediate = {
+		release = TPG
+	}
 	
 	option = {
 		name = "EVTOPTA160001"
-		release = TPG
 		all_core = { add_core = TPG }
 		TPG = {
 			money = 200000
@@ -60,7 +62,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB160001"
-		release = TPG
 		all_core = { add_core = TPG }
 		TPG = {
 			money = 200000
@@ -143,5 +144,33 @@ country_event = {
 				casus_belli = civil_war
 			}
 		}
+	}
+}
+
+country_event = {
+	id = 160004
+	title = "China Civil War Error Fix"
+	desc = "This is in case china for some reason still bugs during the civil war."
+	picture = rebellion
+
+	trigger = {
+		OR = {
+			AND = {
+				tag = CHI
+				exists = CHI
+			}
+			AND = {
+				tag = TPG
+				exists = TPG
+			}
+		}
+		has_global_flag = taiping_has_happened
+		NOT = { has_global_flag = taiping_civil_war }
+	}
+	
+	
+	option = {
+		name = "YAY WARGOALS"
+		set_global_flag = taiping_civil_war
 	}
 }

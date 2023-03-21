@@ -639,6 +639,7 @@ province_event = {
 			any_owned = {
 				limit = {
 					state_scope = { is_slave = yes }
+					continent = north_america
 					NOT = { state_id = 220 }
 					NOT = { state_id = 219 }
 					NOT = { state_id = 217 }

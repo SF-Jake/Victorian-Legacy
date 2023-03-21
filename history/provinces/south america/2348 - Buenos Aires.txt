@@ -1,7 +1,6 @@
 owner = ARC
 controller = ARC
-add_core = ARC
-add_core = SAS
+add_core = ARC
 trade_goods = cattle
 life_rating = 35
 naval_base = 1
@@ -10,7 +9,8 @@ naval_base = 1
 	controller = ARG
 	add_core = ARG
 	remove_core = ARC
-}1913.1.1 = {
+}
+1913.1.1 = {
 	state_building = {
 		level = 6
 		building = liquor_distillery

@@ -15,8 +15,8 @@ carrier = {
 	#Core Abilities
 	priority = 60
 	max_strength = 150
-	default_organisation = 200
-	maximum_speed = 9
+	default_organisation = 85
+	maximum_speed = 12
 	weighted_value = 100.0
 
 
@@ -24,26 +24,26 @@ carrier = {
 	build_time = 1080
 	build_cost = {
 		steamer_convoy = 1000
-		canned_food = 200
+		canned_food = 100
 		radio = 100
 		aeroplanes = 360
 		steel = 1000
 	}
 	min_port_level = 6
 	limit_per_port = -1
-	supply_consumption_score = 1
+	supply_consumption_score = 80
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 1.5
+		steamer_convoy = 1.75
 		radio = 0.1
-		fuel = 2
-		aeroplanes = 1
+		fuel = 2.4
+		aeroplanes = 2
 	}
 	
 	#Naval Abilties
-	hull = 35
-	gun_power = 35
-	fire_range = 1
+	hull = 65
+	gun_power = 70
+	fire_range = 0.9
 	evasion = 0
 }

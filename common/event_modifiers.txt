@@ -1423,6 +1423,10 @@ taiping_mobilization = {
 	icon = 15
 }
 
+treaty_port = {
+	rgo_output = 0.2
+}
+
 #### EIC - INDIA ####
 direct_rule = {
 	prestige = -1
@@ -1932,4 +1936,16 @@ monument_under_construction = {
 latin_monetary_union = {
     tax_efficiency = 0.05
     icon = 9
+}
+
+#### INC - INDOCHINA ####
+education_siam_reforms = {
+	education_efficiency_modifier = 1.5
+	research_points = 2
+	global_pop_militancy_modifier = 0.05
+	icon = 3
+}
+indochina = {
+	assimilation_rate = 0.25
+	icon = 17
 }

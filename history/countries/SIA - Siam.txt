@@ -60,7 +60,6 @@
 1836.1.1 = {
 	capital = 1346
 	primary_culture = thai
-	culture = burmese
 	religion = theravada
 	government = absolute_monarchy
 	plurality = 0.0
@@ -113,6 +112,17 @@
 	nonstate_consciousness = 0
 
 	foreign_training = yes_foreign_training
+	foreign_weapons = yes_foreign_weapons
+	foreign_artillery = yes_foreign_artillery
+	admin_reform = yes_admin_reform
+	finance_reform = yes_finance_reform
+	research_reform = yes_research_reform
+	education_reform = yes_education_reform
+
+
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	private_banks = 1
 
 	oob = "SIA_oob.txt"
 }

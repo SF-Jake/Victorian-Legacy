@@ -1,211 +1,211 @@
-country_event = {
+#country_event = {
+#
+#	id = 19004
+#	is_triggered_only = yes
+#
+#	title = "Long live the Federation"
+#	desc = "The government is asking what side we should focus on first to integrate into the Federation. §RWarning if you release any of your vassals you will instantly lose cores"
+#	picture = "theatre"
+#
+#	option = {
+#		name = "Focus on the North" 
+#		set_country_flag = brz_north_accepted
+#		add_country_modifier = {
+#			name = north_accepted
+#			duration = 1825
+#		}
+#		random_owned = {
+#			limit = { ARG = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } NOT = { 2131 = { owned_by = THIS } } } } } }
+#			owner = { release_vassal = ARG }
+#		}
+#		random_owned = {
+#			limit = { ARC = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } NOT = { 2131 = { owned_by = THIS } } } } } }
+#			owner = { release_vassal = ARC }
+#		}
+#		random_owned = {
+#			limit = { CHL = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }
+#			owner = { release_vassal = CHL }
+#		}
+#		random_owned = {
+#			limit = { URU = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }
+#			owner = { release_vassal = URU }
+#		}
+#		random_owned = {
+#			limit = { PRG = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }
+#			owner = { release_vassal = PRG }
+#		}
+#		add_accepted_culture = north_andean
+#		BRZ = { all_core = { remove_core = BRZ }}
+#		GCO = { all_core = { remove_core = GCO }}
+#		CLM = { all_core = { remove_core = CLM }}
+#		ECU = { all_core = { remove_core = ECU }}
+#		VNZ = { all_core = { remove_core = VNZ }}
+#		PEU = { all_core = { remove_core = PEU }}
+#		BOL = { all_core = { remove_core = BOL }}
+#	}
+#
+#	option = {
+#		name = "Focus on the South"
+#		set_country_flag = brz_south_accepted
+#		add_country_modifier = {
+#			name = south_accepted
+#			duration = 1825
+#		}
+#		random_owned = {
+#			limit = { GCO = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }	
+#			owner = { release_vassal = GCO }
+#		}
+#		random_owned = {
+#			limit = { PEU = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }	
+#			owner = { release_vassal = PEU }
+#		}
+#		random_owned = {
+#			limit = { BOL = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }	
+#			owner = { release_vassal = BOL }
+#		}
+#		add_accepted_culture = platinean
+#		add_accepted_culture = south_andean
+#		BRZ = { all_core = { remove_core = BRZ }}
+#		ARG = { all_core = { remove_core = ARG }}
+#		ARC = { all_core = { remove_core = ARC }}
+#		CHL = { all_core = { remove_core = CHL }}
+#		URU = { all_core = { remove_core = URU }}
+#		PRG = { all_core = { remove_core = PRG }}
+#	}
+#}
+#country_event = {
+#
+#	id = 19005
+#	fire_only_once = yes
+#
+#	title = "South Integrated"
+#	desc = "The Government has fully integrated the South"
+#	picture = "theatre"
+#	trigger = {
+#		has_country_flag = brz_south_accepted
+#		NOT = { has_country_flag = brz_north_accepted }
+#		NOT = { has_country_modifier = south_accepted }
+#	}
+#
+#	option = {
+#		name = "Complete the Northern Integration"
+#		set_country_flag = brz_north_accepted
+#		add_country_modifier = {
+#			name = north_accepted
+#			duration = 1825
+#		}
+#		add_accepted_culture = north_andean
+#		random_owned = {
+#			limit = { owner = { GCO = { vassal_of = THIS } } }	
+#			owner = { 
+#				inherit = GCO	
+#				GCO = { all_core = { remove_core = GCO }}
+#			}
+#		}
+#		random_owned = {
+#			limit = { owner = { PEU = { vassal_of = THIS } } }	
+#			owner = { 
+#				inherit = PEU	
+#				PEU = { all_core = { remove_core = PEU }}
+#			}
+#		}
+#		random_owned = {
+#			limit = { owner = { BOL = { vassal_of = THIS } } }	
+#			owner = { 
+#				inherit = BOL	
+#				BOL = { all_core = { remove_core = BOL }}
+#			}
+#		}
+#	}
+#}
+#country_event = {
+#
+#	id = 19006
+#	fire_only_once = yes
+#
+#	title = "North Integrated"
+#	desc = "The Government has fully integrated the North"
+#	picture = "theatre"
+#	trigger = {
+#		has_country_flag = brz_north_accepted
+#		NOT = { has_country_flag = brz_south_accepted }
+#		NOT = { has_country_modifier = north_accepted }
+#	}
 
-	id = 19004
-	is_triggered_only = yes
 
-	title = "Long live the Federation"
-	desc = "The government is asking what side we should focus on first to integrate into the Federation. §RWarning if you release any of your vassals you will instantly lose cores"
-	picture = "theatre"
+# 	option = {
+# 		name = "Complete the Southern Integration"
+# 		set_country_flag = brz_south_accepted
+# 		add_country_modifier = {
+# 			name = south_accepted
+# 			duration = 1825
+# 		}
+# 		add_accepted_culture = platinean
+# 		add_accepted_culture = south_andean
+# 		random_owned = {
+# 			limit = { owner = { ARG = { vassal_of = THIS } } }	
+# 			owner = { 
+# 				inherit = ARG	
+# 				ARG = { all_core = { remove_core = ARG }}
+# 			}
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { ARC = { vassal_of = THIS } } }	
+# 			owner = { 
+# 				inherit = ARC	
+# 				ARC = { all_core = { remove_core = ARC }}
+# 			}
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { CHL = { vassal_of = THIS } } }	
+# 			owner = { 
+# 				inherit = CHL	
+# 				CHL = { all_core = { remove_core = CHL }}
+# 			}
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { URU = { vassal_of = THIS } } }	
+# 			owner = { 
+# 				inherit = URU	
+# 				URU = { all_core = { remove_core = URU }}
+# 			}
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { PRG = { vassal_of = THIS } } }	
+# 			owner = { 
+# 				inherit = PRG
+# 				PRG = { all_core = { remove_core = PRG }}
+# 			}
+# 		}
+# 	}
+# }
+# country_event = {
 
-	option = {
-		name = "Focus on the North" 
-		set_country_flag = brz_north_accepted
-		add_country_modifier = {
-			name = north_accepted
-			duration = 1825
-		}
-		random_owned = {
-			limit = { ARG = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } NOT = { 2131 = { owned_by = THIS } } } } } }
-			owner = { release_vassal = ARG }
-		}
-		random_owned = {
-			limit = { ARC = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } NOT = { 2131 = { owned_by = THIS } } } } } }
-			owner = { release_vassal = ARC }
-		}
-		random_owned = {
-			limit = { CHL = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }
-			owner = { release_vassal = CHL }
-		}
-		random_owned = {
-			limit = { URU = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }
-			owner = { release_vassal = URU }
-		}
-		random_owned = {
-			limit = { PRG = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }
-			owner = { release_vassal = PRG }
-		}
-		add_accepted_culture = north_andean
-		BRZ = { all_core = { remove_core = BRZ }}
-		GCO = { all_core = { remove_core = GCO }}
-		CLM = { all_core = { remove_core = CLM }}
-		ECU = { all_core = { remove_core = ECU }}
-		VNZ = { all_core = { remove_core = VNZ }}
-		PEU = { all_core = { remove_core = PEU }}
-		BOL = { all_core = { remove_core = BOL }}
-	}
+# 	id = 19007
 
-	option = {
-		name = "Focus on the South"
-		set_country_flag = brz_south_accepted
-		add_country_modifier = {
-			name = south_accepted
-			duration = 1825
-		}
-		random_owned = {
-			limit = { GCO = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }	
-			owner = { release_vassal = GCO }
-		}
-		random_owned = {
-			limit = { PEU = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }	
-			owner = { release_vassal = PEU }
-		}
-		random_owned = {
-			limit = { BOL = { all_core = {OR = { owned_by = THIS owner = { vassal_of = THIS } } } } }	
-			owner = { release_vassal = BOL }
-		}
-		add_accepted_culture = platinean
-		add_accepted_culture = south_andean
-		BRZ = { all_core = { remove_core = BRZ }}
-		ARG = { all_core = { remove_core = ARG }}
-		ARC = { all_core = { remove_core = ARC }}
-		CHL = { all_core = { remove_core = CHL }}
-		URU = { all_core = { remove_core = URU }}
-		PRG = { all_core = { remove_core = PRG }}
-	}
-}
-country_event = {
+# 	title = "Cores Removed"
+# 	desc = ""
+# 	picture = "theatre"
 
-	id = 19005
-	fire_only_once = yes
+# 	trigger = {
+# 		SAS = { 
+# 			OR = {
+# 				has_country_flag = brz_north_accepted
+# 				has_country_flag = brz_south_accepted
+# 			}
+# 		}
+# 		any_owned_province = { is_core = SAS }
+# 		NOT = { vassal_of = SAS }
+# 		NOT = { has_country_flag = cores_removed_SAS }
+# 		NOT = { tag = SAS }
+# 	}
 
-	title = "South Integrated"
-	desc = "The Government has fully integrated the South"
-	picture = "theatre"
-	trigger = {
-		has_country_flag = brz_south_accepted
-		NOT = { has_country_flag = brz_north_accepted }
-		NOT = { has_country_modifier = south_accepted }
-	}
-
-	option = {
-		name = "Complete the Northern Integration"
-		set_country_flag = brz_north_accepted
-		add_country_modifier = {
-			name = north_accepted
-			duration = 1825
-		}
-		add_accepted_culture = north_andean
-		random_owned = {
-			limit = { owner = { GCO = { vassal_of = THIS } } }	
-			owner = { 
-				inherit = GCO	
-				GCO = { all_core = { remove_core = GCO }}
-			}
-		}
-		random_owned = {
-			limit = { owner = { PEU = { vassal_of = THIS } } }	
-			owner = { 
-				inherit = PEU	
-				PEU = { all_core = { remove_core = PEU }}
-			}
-		}
-		random_owned = {
-			limit = { owner = { BOL = { vassal_of = THIS } } }	
-			owner = { 
-				inherit = BOL	
-				BOL = { all_core = { remove_core = BOL }}
-			}
-		}
-	}
-}
-country_event = {
-
-	id = 19006
-	fire_only_once = yes
-
-	title = "North Integrated"
-	desc = "The Government has fully integrated the North"
-	picture = "theatre"
-	trigger = {
-		has_country_flag = brz_north_accepted
-		NOT = { has_country_flag = brz_south_accepted }
-		NOT = { has_country_modifier = north_accepted }
-	}
-
-
-	option = {
-		name = "Complete the Southern Integration"
-		set_country_flag = brz_south_accepted
-		add_country_modifier = {
-			name = south_accepted
-			duration = 1825
-		}
-		add_accepted_culture = platinean
-		add_accepted_culture = south_andean
-		random_owned = {
-			limit = { owner = { ARG = { vassal_of = THIS } } }	
-			owner = { 
-				inherit = ARG	
-				ARG = { all_core = { remove_core = ARG }}
-			}
-		}
-		random_owned = {
-			limit = { owner = { ARC = { vassal_of = THIS } } }	
-			owner = { 
-				inherit = ARC	
-				ARC = { all_core = { remove_core = ARC }}
-			}
-		}
-		random_owned = {
-			limit = { owner = { CHL = { vassal_of = THIS } } }	
-			owner = { 
-				inherit = CHL	
-				CHL = { all_core = { remove_core = CHL }}
-			}
-		}
-		random_owned = {
-			limit = { owner = { URU = { vassal_of = THIS } } }	
-			owner = { 
-				inherit = URU	
-				URU = { all_core = { remove_core = URU }}
-			}
-		}
-		random_owned = {
-			limit = { owner = { PRG = { vassal_of = THIS } } }	
-			owner = { 
-				inherit = PRG
-				PRG = { all_core = { remove_core = PRG }}
-			}
-		}
-	}
-}
-country_event = {
-
-	id = 19007
-
-	title = "Cores Removed"
-	desc = ""
-	picture = "theatre"
-
-	trigger = {
-		SAS = { 
-			OR = {
-				has_country_flag = brz_north_accepted
-				has_country_flag = brz_south_accepted
-			}
-		}
-		any_owned_province = { is_core = SAS }
-		NOT = { vassal_of = SAS }
-		NOT = { has_country_flag = cores_removed_SAS }
-		NOT = { tag = SAS }
-	}
-
-	option = {
-		name = "WE ARE FREE"
-		set_country_flag = cores_removed_SAS
-		any_owned = {
-				limit = { is_core = SAS }
-				remove_core = SAS
-		}
-	}
-}
+# 	option = {
+# 		name = "WE ARE FREE"
+# 		set_country_flag = cores_removed_SAS
+# 		any_owned = {
+# 				limit = { is_core = SAS }
+# 				remove_core = SAS
+# 		}
+# 	}
+# }

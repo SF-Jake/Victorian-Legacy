@@ -322,6 +322,7 @@ iberian = {
 		Nunes Ortigão Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
 		Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira }
 	}
+	union = IBR
 }
 
 french = {
@@ -1353,11 +1354,6 @@ latin_american_cultures = {
 		}
 		radicalism = 15
 	}
-	union = GCL
-}
-
-south_american_cultures = {
-	leader = southamerican
 	north_andean = {
 		color = {146 156 116}
 		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
@@ -1374,6 +1370,11 @@ south_american_cultures = {
 		Reyes Robles Rocafuerte Rojas Salgar Santander Soublette Urbina Villegas Zaldúa
 		}
 	}
+	union = GCL
+}
+
+south_american_cultures = {
+	leader = southamerican
 	south_andean = {
 		color = {116 156 146}
 		first_names = { Adolfo Agustín Alejandro Andrés Aníbal Antonio Bartolomé Bernardo David Diego
@@ -1422,7 +1423,6 @@ south_american_cultures = {
 		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk
 		}
 	}
-union = SAS
 }
 african_diaspora_cultures = {
 	leader = african

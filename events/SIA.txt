@@ -1,0 +1,282 @@
+country_event = {
+	id = 90850
+	title = "The Chinese Accepted our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "Success"
+        CHI = {
+            1601 = { secede_province = THIS }
+            1602 = { secede_province = THIS }
+            1603 = { secede_province = THIS }
+        }
+    }
+}
+country_event = {
+	id = 90849
+	title = "The Chinese Denied our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "We will be there downfall"
+        badboy = 5
+        prestige = -20
+        }
+	}
+country_event = {
+	id = 90848
+	title = "Indochina Demands Land"
+	desc = "Indochinese demands ownership of Yunnan. In return they will give 1 million"
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+        money = 1000000
+        INC = {
+            country_event = { id = 90850 days = 0 }
+			}
+        ai_will_do = {
+        factor = 10
+        }
+    option = {
+        name = "No"
+        INC = {
+            country_event = { id = 90849 days = 0 }
+			}
+        }
+    }
+}
+country_event = {
+	id = 90847
+	title = "The British Accepted our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "Success"
+        ENG = {
+            1343 = { secede_province = THIS }
+            1344 = { secede_province = THIS }
+            1388 = { secede_province = THIS }
+            1386 = { secede_province = THIS }
+            1384 = { secede_province = THIS }
+        }
+    }
+}
+country_event = {
+	id = 90846
+	title = "The British Denied our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+	option = {
+		name = "We will be there downfall"
+        badboy = 5
+        prestige = -20
+        }
+	}
+country_event = {
+	id = 90845
+	title = "Indochina Demands Land"
+	desc = "The Indochinese request ownership of 2 colonial states: Tenasserim and Malaya. In return they will give 1 million"
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+	option = {
+		name = "Yes"
+        money = 1000000
+        FROM = {
+            country_event = { id = 90847 days = 0 }
+	    }
+        ai_will_do = {
+        factor = 10
+        }
+
+
+    option = {
+        name = "No"
+        INC = {
+            country_event = { id = 90846 days = 0 }
+			}
+        }
+    }
+    
+}
+
+country_event = {
+	id = 99995
+	title = "The Chinese Accepted our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "Success"
+        CHI = {
+            1601 = { secede_province = THIS }
+            1602 = { secede_province = THIS }
+            1603 = { secede_province = THIS }
+        }
+    }
+}
+country_event = {
+	id = 99996
+	title = "The Chinese Denied our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "We will be there downfall"
+        badboy = 5
+        prestige = -20
+        }
+	}
+country_event = {
+	id = 99997
+	title = "Indochina Demands Land"
+	desc = "Indochinese demands ownership of Yunnan. In return they will give 1 million"
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+        money = 1000000
+        INC = {
+            country_event = { id = 99995 days = 0 }
+			}
+        ai_will_do = {
+        factor = 10
+        }
+    option = {
+        name = "No"
+        INC = {
+            country_event = { id = 99996 days = 0 }
+			}
+        }
+    }
+}
+
+#######################################################
+
+
+country_event = {
+	id = 99998
+	title = "The British Accepted our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "Success"
+        ENG = {
+            1343 = { secede_province = THIS }
+            1344 = { secede_province = THIS }
+            1388 = { secede_province = THIS }
+            1386 = { secede_province = THIS }
+            1384 = { secede_province = THIS }
+        }
+    }
+}
+country_event = {
+	id = 99999
+	title = "The British Denied our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+	option = {
+		name = "We will be there downfall"
+        badboy = 5
+        prestige = -20
+        }
+	}
+country_event = {
+	id = 100000
+	title = "Indochina Demands Land"
+	desc = "The Indochinese request ownership of 2 colonial states: Tenasserim and Malaya. In return they will give 1 million"
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+	option = {
+		name = "Yes"
+        money = 1000000
+        INC = {
+            country_event = { id = 99998 days = 0 }
+			}
+        ai_will_do = {
+        factor = 10
+        }
+
+
+    option = {
+        name = "No"
+        INC = {
+            country_event = { id = 99999 days = 0 }
+			}
+        }
+    }
+    
+}
+
+country_event = {
+	id = 90844
+	title = "Cambodia under new influence"
+	desc = "With Vietnam Gone you become the new controller of Cambodia"
+	picture = "dungan_rebellion_qinghai"
+
+	trigger = {
+		NOT = {
+            has_country_flag = cambodian_vassal
+        }
+        has_country_flag = vietnam_annexed
+        tag = SIA
+        owns = 1369
+        owns = 1370
+        owns = 1371
+        owns = 1372
+        owns = 1373
+        owns = 1374
+        owns = 1375
+        owns = 1376
+        owns = 1377
+        owns = 1378
+        owns = 1379
+        owns = 1380
+        owns = 1381
+        owns = 1382
+	}
+
+	option = {
+        set_country_flag = cambodian_vassal
+		name = "Another Puppet added to our glorious Empire"
+		create_vassal = CAM
+	}
+}
+
+country_event = {
+	id = 90843
+	title = "Education Reform Lost"
+	desc = "Education Buff was removed cause you have met the following requirements on 50% Literacy Siam/Indochina or on Civilizing"
+	picture = "dungan_rebellion_qinghai"
+
+	trigger = {
+		has_country_modifier = education_siam_reforms
+        OR = {
+            literacy = 0.5
+            civilized = yes
+        }
+		OR = {
+            tag = SIA
+            tag = INC
+        }
+	}
+
+	option = {
+		name = "Goodbye Enducation Reform"
+		remove_country_modifier = education_siam_reforms
+	}
+}

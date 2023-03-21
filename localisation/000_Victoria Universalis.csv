@@ -1253,9 +1253,9 @@ european_african_conquest;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_setup;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_short;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_desc;Annex an uncivilized Sub-Saharan African country with greatly reduced infamy costs.;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli;Demand Chinese Treaty Port;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli_setup;Demand Chinese Treaty Port;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli_short;Demand Chinese Treaty Port;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli;Chinese Treaty Port;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_setup;Chinese Treaty Port;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_short;Chinese Treaty Port;;;;;;;;;;;;;x
 demand_chinese_concession_casus_belli_desc;Take a treaty port from China.;;;;;;;;;;;;;x
 demand_chinese_state;Demand Chinese State;;;;;;;;;;;;;x
 demand_chinese_state_setup;Demand Chinese State;;;;;;;;;;;;;x
@@ -1405,7 +1405,8 @@ badboy2;30 Infamy Penalty;;;;;;;;;;;;;x
 badboy3;35 Infamy Penalty;;;;;;;;;;;;;x
 badboy4;40 Infamy Penalty;;;;;;;;;;;;;x
 badboy5;48 Infamy Penalty;;;;;;;;;;;;;x
-badboy6;65+ Infamy Penalty;;;;;;;;;;;;;x
+badboy6;65 Infamy Penalty;;;;;;;;;;;;;x
+badboy7;80+ Infamy Penalty;;;;;;;;;;;;;x
 administrative_points;Administrative Points;;;;;;;;;x;;;;
 province_selector;Province Selector;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 PS_unlocked;PS Building Unlocked;;;;;;;;;;;;;x
@@ -2168,6 +2169,8 @@ embrace_south_italians_title;Embrace south Italians;;;;;;;;;;;;;x
 embrace_south_italians_desc;It is time to grant equal rights to the southern Italians.;;;;;;;;;;;;;x
 unite_iberia_title;Unite Iberia;;;;;;;;;;;;;x
 unite_iberia_desc;The Iberian kingdoms have agreed to unite under our rule.;;;;;;;;;;;;;x
+unite_iberia_2_title;Integrate the Portuguese;;;;;;;;;;;;;x
+unite_iberia_2_desc;The Iberian kingdoms have agreed to unite under our rule.;;;;;;;;;;;;;x
 abandon_iberian_union_title;Abandon Iberian Union;;;;;;;;;;;;;x
 abandon_iberian_union_desc;Enacting this decision will turn off the Unite Iberia decisions for all countries.;;;;;;;;;;;;;x
 EVTNAMEcommonarmy;Common Army Divided;;;;;;;;;;;;x
@@ -3478,8 +3481,8 @@ option_2_enable_crisis_title;Enable Crisis;;;;;;;;;;;;x
 option_2_enable_crisis_desc; ;;;;;;;;;;;;x
 option_3_fix_crisis_title;Crisis Fix;;;;;;;;;;;;x
 option_3_fix_crisis_desc;To Fix a Crisis that may be stuck in the save (No idea if this works);;;;;;;;;;;;x
-SAS;Federation of South American States;;;;;;;;;;;;x
-SAS_ADJ;South American;;;;;;;;;;;;x
+SAS;Patria Grande;;;;;;;;;;;;x
+SAS_ADJ;Grande;;;;;;;;;;;;x
 SAS_anarcho_liberal_1;Bartholoméens;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 SAS_communist_1;Parti des Travailleurs;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 SAS_conservative_1;Parti des Planteurs;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3596,14 +3599,80 @@ EVTNAME37230;The Treaty of Tafna;;;;;;;;;;;;;
 EVTDESC37230;After a series of heavy losses and military reversals in Algeria, public opinion on the war has soured, and there have been talks of a negotiated peace with Emir Abdelkader of Mascara in which Abdelkader would officially recognize French imperial sovereignty in Africa. However, the price for such recognition would be the secession of approximately two thirds of Algeria to Abdelkader, leaving us with a few coastal ports.;;;;;;;;;;;;;
 EVTOPTA37230;Sign the treay.;;;;;;;;;;;;;
 EVTOPTB37230;Finish the conquest of Algeria.;;;;;;;;;;;;;
-russia_tech_school_tier1;Russian No School Reform;;;;;;;;;;;;;
-russia_tech_school_tier2;Russian Basic School Reform;;;;;;;;;;;;;
-russia_tech_school_tier2_title;Russian Basic School Reform;;;;;;;;;;;;;
+russia_tech_school_tier1;Russian No School Reform 1/4;;;;;;;;;;;;;
+russia_tech_school_tier2;Russian Basic School Reform 2/4;;;;;;;;;;;;;
+russia_tech_school_tier2_title;Russian Basic School Reform 2/4;;;;;;;;;;;;;
 russia_tech_school_tier2_desc;Perform mass reform to the schools in Russia;;;;;;;;;;;;;
-russia_tech_school_tier3;Russian Acceptable School Reform;;;;;;;;;;;;;
-russia_tech_school_tier3_title;Russian Acceptable School Reform;;;;;;;;;;;;;
+russia_tech_school_tier3;Russian Acceptable School Reform 3/4;;;;;;;;;;;;;
+russia_tech_school_tier3_title;Russian Acceptable School Reform 3/4;;;;;;;;;;;;;
 russia_tech_school_tier3_desc; ;;;;;;;;;;;;;
-russia_tech_school_tier4;Russian Good School Reform;;;;;;;;;;;;;
-russia_tech_school_tier4_title;Russian Good School Reform;;;;;;;;;;;;;
+russia_tech_school_tier4;Russian Good School Reform 4/4;;;;;;;;;;;;;
+russia_tech_school_tier4_title;Russian Good School Reform 4/4;;;;;;;;;;;;;
 russia_tech_school_tier4_desc; ;;;;;;;;;;;;;
 hungarian_revolution_1848;Hungarian Revolution of 1848;;;;;;;;;;;;;
+integrate_turkmen_title;Naser al-Din Shah Qajar Reforms;;;;;;;;;;;;;
+integrate_turkmen_desc; ;;;;;;;;;;;;;
+integrate_pashtun_title;The Qajar Reforms;;;;;;;;;;;;;
+integrate_pashtun_desc; ;;;;;;;;;;;;;
+5_year_migration;5 year Migration;;;;;;;;;;;;;
+5_year_migration_desc; ;;;;;;;;;;;;;
+EVTNAME70004;RGO Expansion in $STATE$;;;;;;;;;;;;;x
+EVTDESC70004;In Victoria 2, when a province changes owners or is turned from a colony to a state, all old province modifiers are automatically removed. This province event adds an RGO expansion modifier to any recently acquired provinces and former colonies that previously had them.;;;;;;;;;;;;;x
+EVTOPTA70004;Excellent.;;;;;;;;;;;;;x
+VNS;Viceroyalty of new Spain;;;;;;;;;x;;;;
+VNS_ADJ;Viceroyalty;;;;;;;;;x;;;;
+VNS_bourgeois_dictatorship;Viceroyalty of new Spain;;;;;;;;;x;;;;
+VNS_absolute_monarchy;Viceroyalty of Spanish Empire;;;;;;;;;x;;;;
+VNS_prussian_constitutionalism;Viceroyalty of the Spanish Empire;;;;;;;;;x;;;;
+VNS_hms_government;Viceroyalty of the Spanish Empire;;;;;;;;;x;;;;
+VNS_presidential_dictatorship;Viceroyalty of new Spain;;;;;;;;;x;;;;
+VNS_fascist_dictatorship;Viceroyalty of new Spain;;;;;;;;;x;;;;
+VNS_democracy;New Spain;;;;;;;;;x;;;;
+integrate_the_andeas_title;Integrate the Andeas;;;;;;;;;;;;;
+integrate_the_andeas_desc; ;;;;;;;;;;;;;
+conquer_the_central_title;A Push North;;;;;;;;;;;;;
+conquer_the_central_desc; ;;;;;;;;;;;;;
+form_Viceroyalty_title;The formation of the Viceroyalty of New Spain;;;;;;;;;;;;;
+form_Viceroyalty_desc; ;;;;;;;;;;;;;
+sea_to_shivering_sea_title;From Sea to Shivering Sea;;;;;;;;;;;;;
+sea_to_shivering_sea_desc; ;;;;;;;;;;;;;
+TIM_absolute_monarchy;The Timurid Empire;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_hms_government;The Timurid Empire;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+TIM_prussian_monarchy;The Timurid Empire;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM;Timurids;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_ADJ;Timurid;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_conservative;Hezb-e homayuni-ye Gurkaniyan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_liberal;Etehad-e Daneshju va Ostad;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_reactionary;Hezb-e Molla;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_anarcho_liberal;Bazari;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_religious_communist;Mujaheddin-e Mardom-e Iran o Turan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_socialist;Hezb-e 'Adl-e Mardom;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_communist;Hezb-e Tudeh-ye Iran o Turan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+TIM_fascist;Hezb-e Turki-ye Bozorg;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,
+form_timurids_title;Form Timurids;;;;;;;;;;;;;
+form_timurids_desc; ;;;;;;;;;;;;;
+INC;Indochine Française;x
+INC_conservative;Royal Faction;Faction royale;Konigsfraktion;;Faccien Real;;;;;;;;;x;;;;
+INC_liberal;The Liberal Faction;Faction liberale;Die liberale Fraktion;;La Faccien Liberal;;;;;;;;;x;;;;
+INC_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Faccien Nacionalista;;;;;;;;;x;;;;
+INC_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Faccien Radical;;;;;;;;;x;;;;
+INC_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facci?n Socialista;;;;;;;;;x;;;;
+INC_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facci?n Comunista;;;;;;;;;x;;;;
+INC_fascist;Thailand;Thailande;Thailand;;Tailandia;;;;;;;;;x;;;;
+INC_ADJ;Indochinese;x
+education_reform_siam_title;Education Buff;;;;;;;;;;;;x
+education_reform_siam_desc;This will help you get the edge against the Great Powers of the world;;;;;;;;;;;;x
+annex_vietnam_siam_title;Declare on Vietnam;;;;;;;;;;;;x
+annex_vietnam_siam_desc;It is time we expand our empire;;;;;;;;;;;;x
+form_indochina_siam_title;Form Indochina;;;;;;;;;;;;x
+form_indochina_siam_desc;It is time to unite all of Indochina under one nation;;;;;;;;;;;;x
+indochina_expansion_inc_title;Indochinese Expansion;;;;;;;;;;;;x
+indochina_expansion_inc_desc;We must keep expanding our Empire for the sake of our people;;;;;;;;;;;;x
+yunnan_expansion_inc_title;Claim Yunnan;;;;;;;;;;;;x
+yunnan_expansion_inc_desc;We must keep expanding even if it means war with the Chinese;;;;;;;;;;;;x
+request_uk_land_inc_title;Demand rightful cores from the United Kingdom;;;;;;;;;;;;x
+request_uk_land_inc_desc;We must take back our cores in order to continue our expansion of Indochina;;;;;;;;;;;;x
+education_siam_reforms;Education Buff;;;;;;;;;;;;;x,,,,,
+education_siam_reforms_desc;It is time that we helped are people learn the new ways of the west;;;;;;;;;;;;;x,,,,,
+education_china_reforms;Education Buff;;;;;;;;;;;;;x,,,,,
+education_china_reforms_desc;It is time that we helped are people learn the new ways of the west;;;;;;;;;;;;;x,,,,,

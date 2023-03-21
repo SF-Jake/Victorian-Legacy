@@ -194,47 +194,47 @@ political_decisions = {
 			OR = {
 				AND = {
 					owns = 1481
-					1481 = { is_colonial = yes }
+					1481 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 1496
-					1496 = { is_colonial = yes }
+					1496 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 1498
-					1498 = { is_colonial = yes }
+					1498 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 1538
-					1538 = { is_colonial = yes }
+					1538 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 1566
-					1566 = { is_colonial = yes }
+					1566 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 1569
-					1569 = { is_colonial = yes }
+					1569 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 2615
-					2615 = { is_colonial = yes }
+					2615 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 2659
-					2659 = { is_colonial = yes }
+					2659 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 1499
-					1499 = { is_colonial = yes }
+					1499 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 1496
-					1496 = { is_colonial = yes }
+					1496 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 				AND = {
 					owns = 1608
-					1608 = { is_colonial = yes }
+					1608 = { NOT = { is_core = PRO } owned_by = THIS }
 				}
 			}
 		}
@@ -256,8 +256,9 @@ political_decisions = {
 						province_id = 1496
 						province_id = 1608
 					}
-					is_colonial = yes
+					NOT = { is_core = PRO }
 				}
+				add_core = PRO
 				secede_province = CIV
 				trade_goods = market_goods
 			}
