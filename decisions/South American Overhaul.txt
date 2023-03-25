@@ -723,6 +723,7 @@ south_patre_grande_formation = {
 		ENT = { all_core = { add_core = THIS }}
 		CRT = { all_core = { add_core = THIS }}
 		PRG = { all_core = { add_core = THIS }}
+		SBA = { all_core = { add_core = THIS }}
 		random_country = {
 			limit = {
 				tag = ARG
@@ -763,22 +764,6 @@ south_patre_grande_formation = {
 				ai = yes
 			}
 			THIS = { inherit = PRG }
-		}
-		random_country = {
-			limit = {
-				tag = ENT
-				exists = yes
-				ai = yes
-			}
-			THIS = { inherit = ENT }
-		}
-		random_country = {
-			limit = {
-				tag = CRT
-				exists = yes
-				ai = yes
-			}
-			THIS = { inherit = CRT }
 		}
 		add_accepted_culture = platinean
 		change_tag = SAS

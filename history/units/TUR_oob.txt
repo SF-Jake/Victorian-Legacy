@@ -131,45 +131,6 @@ leader = {
 
 army = {
 	name = "Mob Stack"
-	location = 863
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 860
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 828
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 859
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 861
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 798
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 799
-	}
-}
-army = {
-	name = "Mob Stack"
 	location = 862
 	regiment = {
 		name= "Hussar"
