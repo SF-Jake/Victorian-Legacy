@@ -4015,6 +4015,29 @@ country_event = {
 
 	option = {
 		add_country_modifier = { name = monthly_timer duration = 30 }
+		
+		any_country = {
+			any_owned = {
+				state_scope = {
+					flashpoint_tension = -100
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 91329
+	title = "Crisis Cooldown 2"
+
+	trigger = {
+		tag = JAN
+		has_global_flag = disable_crisis
+		NOT = { has_country_modifier = monthly_timer }
+	}
+
+	option = {
+		country_event = { id = 91329 days = 14 }
 		any_country = {
 			any_owned = {
 				state_scope = {

@@ -994,7 +994,7 @@ political_decisions = {
 		picture = create_iberia
 		potential = {
 			tag = IBR
-			set_country_flag = portuguese_accepted
+			NOT = { has_country_flag = portuguese_accepted }
 		}
 		allow = {
 			nationalism_n_imperialism = 1

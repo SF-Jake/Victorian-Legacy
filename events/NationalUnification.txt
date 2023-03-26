@@ -98,14 +98,14 @@ country_event = {
 		OR ={
 			AND = {
 				PRU = { exists = yes }
-				year = 1860
+				year = 1865
 			}
 			AND = {
 				NGF = { exists = yes }
-				year = 1860
+				year = 1865
 			}
+			has_country_flag = just_form_me_please
 		}
-
 	}
 
 	option = {				# Accept inheritance

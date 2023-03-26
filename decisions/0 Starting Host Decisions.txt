@@ -141,22 +141,4 @@ political_decisions = {
 			clr_global_flag = disable_crisis
 		}
 	}
-	option_3_fix_crisis = {
-		alert = no
-		potential = {
-			crisis_exists = yes
-			ai = no
-			has_country_flag = show_options_on
-			has_country_flag = host_powers
-		}
-		allow = {}
-		effect = {
-			any_country = {
-				limit = {
-					is_greater_power = yes
-				}
-				add_crisis_interest = yes
-			}
-		}
-	}
 }
