@@ -4009,7 +4009,7 @@ country_event = {
 
 	trigger = {
 		tag = JAN
-		has_global_flag = disable_crisis
+		NOT = { has_global_flag = disable_crisis }
 		NOT = { has_country_modifier = monthly_timer }
 	}
 
@@ -4030,11 +4030,7 @@ country_event = {
 	id = 91329
 	title = "Crisis Cooldown 2"
 
-	trigger = {
-		tag = JAN
-		has_global_flag = disable_crisis
-		NOT = { has_country_modifier = monthly_timer }
-	}
+	is_triggered_only = yes
 
 	option = {
 		country_event = { id = 91329 days = 14 }
