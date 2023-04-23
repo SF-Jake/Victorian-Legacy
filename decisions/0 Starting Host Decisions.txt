@@ -126,11 +126,12 @@ political_decisions = {
 			clr_global_flag = enable_crisis
 		}
 	}
-	option_2_disable_crisis= {
+	option_2_disable_crisis = {
 		alert = no
 		potential = {
 			ai = no
 			has_global_flag = disable_crisis
+			has_country_flag = host_powers
 			has_country_flag = show_options_on
 		}
 		allow = {
@@ -139,6 +140,21 @@ political_decisions = {
 		effect = {
 			set_global_flag = enable_crisis
 			clr_global_flag = disable_crisis
+		}
+	}
+	option_3_start_zombs = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_global_flag = start_zombs }
+			has_country_flag = host_powers
+			has_country_flag = show_options_on
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_global_flag = start_zombs
 		}
 	}
 }

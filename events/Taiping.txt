@@ -146,31 +146,3 @@ country_event = {
 		}
 	}
 }
-
-country_event = {
-	id = 160004
-	title = "China Civil War Error Fix"
-	desc = "This is in case china for some reason still bugs during the civil war."
-	picture = rebellion
-
-	trigger = {
-		OR = {
-			AND = {
-				tag = CHI
-				exists = CHI
-			}
-			AND = {
-				tag = TPG
-				exists = TPG
-			}
-		}
-		has_global_flag = taiping_has_happened
-		NOT = { has_global_flag = taiping_civil_war }
-	}
-	
-	
-	option = {
-		name = "YAY WARGOALS"
-		set_global_flag = taiping_civil_war
-	}
-}

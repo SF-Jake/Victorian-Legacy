@@ -268,6 +268,46 @@ army = {
 	}
 }
 
+army = {
+	name = "Mob Stack"
+	location = 193
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 232
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 180
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 181
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 182
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 183
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 178
+	}
+}
+
 navy = {
 	name = "1st Squadron"
 	location = 222

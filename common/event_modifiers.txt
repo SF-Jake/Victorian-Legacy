@@ -815,6 +815,7 @@ literacy_campaign = {
 
 small_baby_boom = {
 	population_growth = 0.001
+	immigrant_push = -0.5
 	icon = 19
 }
 
@@ -1262,13 +1263,13 @@ haussmanns_renovations = {
 
 napoleon_iii = {
 	land_organisation = 0.1
-	mobilisation_size = 0.03
+	mobilisation_size = 0.01
 	prestige = 0.1
 	icon = 15
 }
 
 napoleon_iii_legacy = {
-	mobilisation_size = 0.01
+	mobilisation_size = 0.005
 	prestige = 0.5
 	icon = 15
 }
@@ -1957,6 +1958,7 @@ state_of_emergency = {
 	land_organisation = 0.05
 	naval_organisation = 0.05
 	org_regain = 0.1
+	max_tariff = 1
 	icon = 15
 }
 

@@ -782,19 +782,19 @@ social_reforms = {
 			}
 		}
 		trinket_pensions = {
-			max_tariff = 0.05
+			max_tariff = 0.075
 			allow = {
 				has_country_flag = no_standard_invented
 			}
 		}
 		low_pensions = {
-			max_tariff = 0.10
+			max_tariff = 0.15
 			allow = {
 				has_country_flag = ad_hoc_invented
 			}
 		}
 		acceptable_pensions = {
-			max_tariff = 0.20
+			max_tariff = 0.22
 			allow = {
 				has_country_flag = private_bank_invented 
 			}

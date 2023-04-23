@@ -6,6 +6,7 @@ political_decisions = {
 			NOT = { has_country_flag = danubian_federation_formed }
 		}
 		allow = {
+			year = 1862
 			663 = { owned_by = THIS }
 			625 = { owned_by = THIS }
 			619 = { owned_by = THIS }
@@ -17,9 +18,9 @@ political_decisions = {
 			press_rights = free_press
 			political_parties = secret_ballots
 			citizens_rights = all_voting_pops
-			revolution_n_counterrevolution = 1
 		}
 		effect = {
+			set_country_flag = danubian_federation_formed
 			prestige = 25
 			all_core = {
 				remove_core = KUK
@@ -28,9 +29,24 @@ political_decisions = {
 			political_reform = federalism
 			clr_country_flag = confederalism
 			add_accepted_culture = slovak
-			add_accepted_culture = croat
 			add_accepted_culture = hungarian
 			change_tag = DNB
+		}
+	}
+
+	form_danubian_federation_2 = {
+		picture = danubian_federation
+		potential = {
+			tag = DNB
+			NOT = { has_country_flag = danubian_federation_formed_2 }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			prestige = 25
+			add_accepted_culture = croat
+			set_country_flag = danubian_federation_formed_2
 		}
 	}
 

@@ -14,6 +14,7 @@ country_event = {
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
 		}
+		has_global_flag = start_zombs
 	}
 
 	mean_time_to_happen = {
@@ -80,6 +81,38 @@ country_event = {
 				duration = -1
 			}
 		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
 	}
 }
 
@@ -110,6 +143,38 @@ country_event = {
 		any_pop = {
 			consciousness = 1
 			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
 		}
 		random_province = {
 			limit = {
