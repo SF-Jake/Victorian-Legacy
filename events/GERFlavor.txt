@@ -692,3 +692,124 @@ country_event = {
 		GER = { add_country_modifier = { name = german_population_buff duration = -1 } }
 	}
 }
+country_event = {
+	id = 33012
+	title = "North German Confederation"
+
+	allow_multiple_instances = no
+
+	immediate = {
+		PRU = {
+			add_country_modifier = {
+				name = german_annexation_cooldown
+				duration = 14
+			}
+			inherit = THIS
+		}
+	}
+
+	trigger = {
+		PRU = {
+			state_n_government = 1
+			NOT = { has_country_modifier = german_annexation_cooldown }
+		}
+		OR = {
+			tag = ANH
+			tag = BRA
+			tag = BRA
+			tag = BRE
+			tag = COB
+			tag = DZG
+			tag = FRM
+			tag = HAM
+			tag = HAN
+			tag = HES
+			tag = HEK 
+			tag = HOL
+			tag = LIP 
+			tag = LUB
+			tag = LUX
+			tag = MEC
+			tag = MEI 
+			tag = NAS 
+			tag = OLD 
+			tag = SAX 
+			tag = SCH
+			tag = WEI
+		}
+		OR = {
+			in_sphere = PRU
+			is_vassal = PRU
+		}
+		ai = yes
+	}
+
+	mean_time_to_happen = { month = 1 }
+
+	option = {
+		
+	}
+}
+
+country_event = {
+	id = 33013
+	title = "German Confederation"
+
+	allow_multiple_instances = no
+
+	immediate = {
+		any_country = {
+			limit ={
+				OR = {
+					tag = PRU
+					tag = NGF
+				}
+				exists = yes
+			}
+			add_country_modifier = {
+				name = german_annexation_cooldown
+				duration = 14
+			}
+			inherit = THIS
+		}
+	}
+
+	trigger = {
+		OR = {
+			AND = {
+				PRU = {
+					nationalism_n_imperialism = 1
+					NOT = { has_country_modifier = german_annexation_cooldown }
+				}
+				exists = PRU
+				OR = {
+					in_sphere = PRU
+					is_vassal = PRU
+				}
+			}
+			AND = {
+				NGF = {
+					nationalism_n_imperialism = 1
+					NOT = { has_country_modifier = german_annexation_cooldown }
+				}
+				exists = NGF
+				OR = {
+					in_sphere = NGF
+					is_vassal = NGF
+				}
+			}
+		}
+		OR = {
+			tag = BAD
+			tag = BAV
+			tag = WUR
+		}
+		ai = yes
+	}
+
+	mean_time_to_happen = { month = 1 }
+
+	option = {
+
+	}
+}
