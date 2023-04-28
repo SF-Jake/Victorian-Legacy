@@ -93,7 +93,7 @@ land_province = {
 
 
 blockaded = {
-	war_exhaustion = 0.1
+	war_exhaustion = 0.08
 }
 
 no_adjacent_controlled = {
@@ -142,7 +142,7 @@ base_values = {
 
 war = {
 	max_war_exhaustion = 100			#base max at war.
-	badboy = -0.05
+	badboy = -0.09
 }
 
 peace = {
@@ -217,14 +217,14 @@ generalised_debt_default = {
 }
 
 total_occupation = {
-	war_exhaustion = 0.4			#increased by war exhaustion.
+	war_exhaustion = 0.35			#increased by war exhaustion.
 	global_population_growth = -0.0001
 	import_cost = 0.5
 	prestige = -0.1				#increased by war exhaustion.
 }
 
 total_blockaded = {
-	war_exhaustion = 0.5	#increased by war exhaustion.  
+	war_exhaustion = 0.45	#increased by war exhaustion.  
 	global_population_growth = -0.0001
 	import_cost = 1
 	prestige = -0.1				#increased by war exhaustion.  
