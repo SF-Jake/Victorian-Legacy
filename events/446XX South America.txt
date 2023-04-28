@@ -1702,7 +1702,7 @@ country_event = {
 		name = "EVTOPTB44660"
 		POR = { country_event = { id = 44662 days = 0 } }
 		ai_chance = {
-			factor = 0
+			factor = 1
 		}
 	}
 }
@@ -1732,6 +1732,18 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA44662"
+	}
+
+	option = {
+		name = "Force them into submission under our rule"
+		prestige = -5
+		FROM = {
+			government = colonial_company
+			set_country_flag = portuguese_vassal
+		}
+		create_vassal = FROM
+		create_alliance = FROM
+		set_country_flag = portuguese_reconquista
 	}
 }
 
