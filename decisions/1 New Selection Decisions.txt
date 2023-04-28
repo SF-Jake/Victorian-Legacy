@@ -175,7 +175,7 @@ release_vassals = {
 
 	zcountry_pass_reform = {
 		picture = pass_reform
-		alert = no
+		alert = yes
 		potential = {
 			has_country_flag = show_options_Y
 			ai = no
@@ -560,11 +560,9 @@ zcreate_supply_depot = {
 		ai = no
 	}
 	allow = {
-		money = 500000
 		any_owned_province = { has_building = province_selector }
 	}
 	effect = {
-		treasury = -500000
 		random_owned = {
 			limit = { has_building = province_selector }
 			add_province_modifier = { name = supply_depot duration = -1 }
