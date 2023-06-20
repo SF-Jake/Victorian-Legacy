@@ -212,79 +212,151 @@ political_decisions = {
 	
 	form_north_german_confederation = {
 		potential = {
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				tag = PRU
+			}
 			primary_culture = north_german
 			NOT = {
 				exists = GER
 				exists = NGF
 			}
 			NOT = {
-				OR = {
-					tag = AUS
-					tag = KUK
-					tag = DNB
-					tag = BAD
-					tag = BAV
-					tag = WUR
-				}
+				tag = AUS
+				tag = KUK
+				tag = DNB
+				tag = BAD
+				tag = BAV
+				tag = WUR
 			}
 		}	
 		allow = {
 			state_n_government = 1
 			war = no
-			GER = {
-				all_core = {
+			OR = {
+				#revanchism = 0.01
+				year = 1863
+				AND = {
 					OR = {
-						OR = {
-							owned_by = THIS
-							owner = {
-								in_sphere = THIS
-							}
-						}
-						is_core = BAD
-						is_core = BAV
-						is_core = WUR
-						is_core = SGF
+						NOT = {	exists = LIP }
+						LIP = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = ANH }
+						ANH = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = HES }
+						HES = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = MEC }
+						MEC = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = LUB }
+						LUB = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = HOL }
+						HOL = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = HAM }
+						HAM = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = HAN }
+						HAN = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = BRA }
+						BRA = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = BRE }
+						BRE = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = OLD }
+						OLD = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = NAS }
+						NAS = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = FRM }
+						FRM = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = HEK }
+						HEK = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = COB }
+						COB = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = MEI }
+						MEI = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = WEI }
+						WEI = { in_sphere = THIS }
+					}
+					OR = {
+						NOT = {	exists = SAX }
+						SAX = { in_sphere = THIS }
 					}
 				}
 			}
 		}
 		
 		effect = {
+			change_tag = NGF
 			set_country_flag = confederalism
 			centralization = federalism
 			prestige = 15
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
-			any_country = {
-				limit = {
-					OR = {
-						primary_culture = north_german
-						tag = SCH 
-					}
-					in_sphere = THIS
-					NOT = {
-						OR = {
-							tag = THIS
-							tag = AUS
-							tag = KUK
-							tag = DNB
-							tag = BAD
-							tag = BAV
-							tag = WUR
-						}
-					}
-				}
-				annex_to = THIS
-			}
-			any_owned = {
-				limit = {
-					is_core = GER
-				}
-				add_core = NGF
-			}
-			change_tag = NGF
-			GER = { all_core = { remove_core = PRU } }
+			PRU = { all_core = { remove_core = PRU add_core = NGF } }
+			LIP = { all_core = { remove_core = LIP add_core = NGF } }
+			ANH = { all_core = { remove_core = ANH add_core = NGF } }
+			HES = { all_core = { remove_core = HES add_core = NGF } }
+			MEC = { all_core = { remove_core = MEC add_core = NGF } }
+			LUB = { all_core = { remove_core = LUB add_core = NGF } }
+			HOL = { all_core = { remove_core = HOL add_core = NGF } }
+			HAM = { all_core = { remove_core = HAM add_core = NGF } }
+			HAN = { all_core = { remove_core = HAN add_core = NGF } }
+			BRA = { all_core = { remove_core = BRA add_core = NGF } }
+			BRE = { all_core = { remove_core = BRE add_core = NGF } }
+			OLD = { all_core = { remove_core = OLD add_core = NGF } }
+			NAS = { all_core = { remove_core = NAS add_core = NGF } }
+			FRM = { all_core = { remove_core = FRM add_core = NGF } }
+			HEK = { all_core = { remove_core = HEK add_core = NGF } }
+			COB = { all_core = { remove_core = COB add_core = NGF } }
+			MEI = { all_core = { remove_core = MEI add_core = NGF } }
+			WEI = { all_core = { remove_core = WEI add_core = NGF } }
+			SAX = { all_core = { remove_core = SAX add_core = NGF } }
+			inherit = LIP
+			inherit = ANH
+			inherit = HES
+			inherit = MEC
+			inherit = LUB
+			inherit = HOL
+			inherit = HAM
+			inherit = HAN
+			inherit = BRA
+			inherit = BRE
+			inherit = OLD
+			inherit = NAS
+			inherit = FRM
+			inherit = HEK
+			inherit = COB
+			inherit = MEI
+			inherit = WEI
+			inherit = SAX
 		}
 	}
 	

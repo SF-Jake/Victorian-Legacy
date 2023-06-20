@@ -12,6 +12,7 @@ political_decisions = {
 		}
 		effect = {
 			country_event = { id = 91400 days = 0 }
+			add_country_modifier = { name = requested_grant duration = 7 }
 		}
 	}
 	zcraftsmen_on = {

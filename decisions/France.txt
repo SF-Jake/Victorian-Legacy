@@ -328,11 +328,11 @@ political_decisions = {
 			NOT = {
 				government = absolute_monarchy
 			}
-			year = 1848
 		}
 	
 		allow = {
 			ruling_party = FRA_conservative_3
+			year = 1845
 			state_n_government = 1
 			owns = 412 #Metz
 			owns = 409 #Strasbourg
@@ -547,5 +547,45 @@ political_decisions = {
 			WLL = { all_core = { add_core = THIS } }
 		}
 		ai_will_do = { factor = 1 }
+	}
+	claim_savoy = {
+		picture = form_italy
+		potential = {
+			tag = FRA
+			is_greater_power = yes
+			NOT = {
+				465 = { is_core = FRA }
+			}
+		}
+		
+		allow = {
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+			NOT = { alliance_with = ITA }
+			NOT = { 
+				relation = {
+					who = ITA
+					value = 50
+				}
+			}
+			ITA = {
+				exists = yes
+				NOT = { in_sphere = FRA } 
+			}
+		}
+		
+		effect = {
+			set_country_flag = claimed_savoy
+			badboy = 3
+			465 = { add_core = FRA }
+			466 = { add_core = FRA }
+			472 = { add_core = FRA }
+			random_country = {
+				limit = { owns = 465 }
+				relation = { who = THIS value = -100 }
+			}
+		}
 	}
 }

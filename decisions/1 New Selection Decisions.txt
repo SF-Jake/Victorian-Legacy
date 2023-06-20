@@ -195,7 +195,7 @@ release_vassals = {
 			set_country_flag = force_reform
 			add_country_modifier = {
 				name = force_reform
-				duration = 175
+				duration = 185
 			}
 			add_country_modifier = {
 				name = reform_passed

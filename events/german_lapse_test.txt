@@ -1,0 +1,81 @@
+#German Lapse 1/2
+country_event = {
+	id = 954954
+	title = "German Lapse PROC"
+	desc = "You're getting annexed."
+
+	picture = "Rebellion"
+
+	trigger = {
+		in_sphere = PRU
+		primary_culture = north_german
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 0.05
+			PRU = { ideological_thought = 1 }
+			PRU = { NOT = { state_n_government = 1 } }
+		}
+		modifier = {
+			factor = 0.001
+			PRU = { state_n_government = 1 }
+			PRU = { NOT = { nationalism_n_imperialism = 1 } }
+		}
+	}
+
+	option = {
+		name = "EVTOPTA13357"
+		all_core = {
+			add_core = PRU
+			remove_core = THIS
+		}
+		any_country = {
+			limit = {
+				tag = PRU
+				PRU = { war = yes }
+			}
+			inherit = THIS
+		}
+		any_country = {
+			limit = {
+				tag = PRU
+				PRU = { war = no }
+			}
+			country_event = { id=954955 days=0 }
+		}
+	}
+}
+
+#German Lapse 2/2
+country_event = {
+	id = 954955
+	title = "German Sphereling Annexation"
+	desc = "Another component of the wider German Nation has chosen to align themselves with our cause!"
+
+	picture = "Rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Very Good!"
+		inherit = FROM
+	}
+}
+
+# Doctrine of Lapse 3/2 Reference in on_actions file for yearly pulse
+#country_event = {
+#	id = 954956
+#	title = "German Lapse Flag Clear"
+#	desc = "Yearly Clear of Flag for timer balance."
+#
+#	picture = "Rebellion"
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "W.e dude"
+#		clr_global_flag = german_lapse
+#	}
+#}
