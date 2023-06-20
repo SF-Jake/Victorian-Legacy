@@ -1226,6 +1226,22 @@ assimilation_chance =
 		factor = 0.07
 		country = { has_country_flag = assimilation_idea }
 	}
+
+	group = {
+		modifier = {
+			factor = 5
+			country = {
+				nationalvalue = nv_equality
+			}
+		}
+		modifier = {
+			factor = -4.95
+			has_culture_core = no
+			country = {
+				nationalvalue = nv_equality
+			}
+		}	
+	}
 }
 
 #general conversion mtth, same for all pops

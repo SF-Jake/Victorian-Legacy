@@ -5,6 +5,10 @@ political_decisions = {
 			OR = {
 				tag = BRZ
 				tag = SAS
+				AND = {
+					tag = POR
+					has_country_flag = portugal_brazil_restored
+				}
 			}
 			OR = {
 				government = hms_government

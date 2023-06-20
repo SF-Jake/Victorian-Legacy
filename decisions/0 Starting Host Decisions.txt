@@ -111,7 +111,7 @@ political_decisions = {
 			clr_global_flag = disable_ablania_crossing
 		}
 	}
-	option_2_disable_crisis = {
+	option_2_enable_crisis = {
 		alert = no
 		potential = {
 			ai = no
@@ -126,11 +126,12 @@ political_decisions = {
 			clr_global_flag = enable_crisis
 		}
 	}
-	option_2_enable_crisis = {
+	option_2_disable_crisis = {
 		alert = no
 		potential = {
 			ai = no
 			has_global_flag = disable_crisis
+			has_country_flag = host_powers
 			has_country_flag = show_options_on
 		}
 		allow = {

@@ -69,15 +69,7 @@ steamer_automatic_construction_plants = {
 steamer_transports = {
 	limit = { steamers = 1 }
 	chance = {
-		base = 5
-		modifier = {
-			factor = 2
-			mechanical_production = 1
-		}
-		modifier = {
-			factor = 1
-			clean_coal = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = steam_transport
@@ -87,7 +79,7 @@ steamer_transports = {
 ironclads = {
 	limit = { iron_steamers = 1 }
 	chance = {
-		base = 10
+		base = 100
 	}
 	effect = {
 		activate_unit = ironclad  
@@ -96,7 +88,7 @@ ironclads = {
 torpedo_boats = {
 	limit = { iron_steamers = 1 }
 	chance = {
-		base = 10
+		base = 100
 	}
 	effect = {
 		activate_unit = commerce_raider
@@ -105,19 +97,7 @@ torpedo_boats = {
 submarines = {
 	limit = { iron_steamers = 1 }
 	chance = {
-		base = 1
-		modifier = {
-			factor = -10
-			NOT = { year = 1885 }
-		}
-		modifier = {
-			factor = 2
-			cheap_iron = 1
-		}
-		modifier = {
-			factor = 3
-			steel_steamers = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = monitor 
@@ -127,15 +107,7 @@ submarines = {
 pre_dreadnought = {
 	limit = { steel_steamers = 1 }
 	chance = {
-		base = 1
-		modifier = {
-			factor = 3
-			invention = ironclads
-		}
-		modifier = {
-			factor = 2
-			cheap_steel = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = battleship
@@ -144,15 +116,7 @@ pre_dreadnought = {
 protected_cruisers = {
 	limit = { steel_steamers = 1 }
 	chance = {
-		base = 3
-		modifier = {
-			factor = 2
-			invention = ironclads
-		}
-		modifier = {
-			factor = 2
-			cheap_steel = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = cruiser 
@@ -162,11 +126,7 @@ protected_cruisers = {
 dreadnoughts = {
 	limit = { steam_turbine_ships = 1 }
 	chance = {
-		base = 1
-		modifier = {
-			factor = 10
-			invention = pre_dreadnought
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = dreadnought 

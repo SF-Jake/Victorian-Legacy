@@ -493,105 +493,18 @@ take_from_sphere = {
 	}
 }
 
-# Acquire All Core States
-acquire_all_cores = {
-	sprite_index = 5
-	is_triggered_only = yes
-	months = 12
-	constructing_cb = no
-	crisis = no
-
-	badboy_factor = 0
-	prestige_factor = 5
-	peace_cost_factor = 1
-	penalty_factor = 1
-	always = yes
-
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
-		OR = {
-			NOT = { has_country_flag = chinese }
-			has_global_flag = taiping_civil_war
-		}
-		NOT = { relation = { who = THIS value = 100 } }
-		THIS = {
-			OR = {
-				NOT = { has_global_flag = ww1_bookmark }
-				has_global_flag = central_victory
-				has_global_flag = allied_victory
-				ai = no
-			}
-		}	
-		any_owned_province = { is_core = THIS }
-		any_owned_province = { NOT = { is_core = THIS } }
-		NOT = {
-			OR = {
-				tag = JAN
-				tag = GHO
-			}
-		}
-		NOT = {
-			AND = { 
-				OR = {
-					tag = EGY
-					tag = TUR
-					tag = RUS
-				}
-				THIS = { has_country_modifier = oriental_truce }
-			}
-		}
-		NOT = { is_our_vassal = THIS }
-		NOT = { vassal_of = THIS }
-	}
-	
-	allowed_countries = {
-		FROM = { tag = THIS }
-	}
-
-	allowed_states = {
-		any_owned_province = { is_core = THIS }
-	}
-
-	all_allowed_states = yes
-	po_transfer_provinces = yes
-	
-	war_name = WAR_LIBERATE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-
-}
-
 # Acquire Core State
 acquire_core_state = {
 	sprite_index = 5
 	is_triggered_only = yes
 	months = 12
 	
-	construction_speed = 0.8
+	construction_speed = 2
 	
 	badboy_factor = 0
 	prestige_factor = 5
-	peace_cost_factor = 1
+	peace_cost_factor = 0.7
 	penalty_factor = 1
-	always = yes
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
@@ -607,64 +520,9 @@ acquire_core_state = {
 			ai = yes
 			year = 1837
 		}
-		OR = {
-			THIS = { ai = no }
-			NOT = { brigades_compare = 1 }
-			war_with = THIS
-		}
-		OR = {
-			NOT = { has_country_flag = chinese }
-			has_global_flag = taiping_civil_war
-		}
-		NOT = { relation = { who = THIS value = 100 } }
-		THIS = {
-			OR = {
-				NOT = { has_global_flag = ww1_bookmark }
-				has_global_flag = central_victory
-				has_global_flag = allied_victory
-				ai = no
-			}
-		}
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
-		}
-		NOT = {
-			OR = {
-				tag = JAN
-				tag = GHO
-				tag = SWI
-			}
-		}
-		NOT = {
-			AND = {
-				OR = {
-					tag = EGY
-					tag = TUR
-					tag = RUS
-				}
-				THIS = { has_country_modifier = oriental_truce }
-			}
-		}
-		NOT = {
-			AND = {
-				OR = {
-					tag = RUS
-					tag = WRS
-				}
-				THIS = { has_country_modifier = russian_civil_war_countdown }
-			}
-		}
-		NOT = { is_our_vassal = THIS }
-		NOT = { vassal_of = THIS }
-		OR = {
-			ai = no
-			THIS = { NOT = { tag = USA } }
-			AND = {
-				has_country_flag = hasmanifestdestiny
-				NOT = { has_country_flag = mex_usa_war }
-			}
-			has_global_flag = 1913_bookmark
 		}
 	}
 	
@@ -677,6 +535,59 @@ acquire_core_state = {
 	po_demand_state = yes
 	
 	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+# Annex Core Country
+annex_core_country = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	construction_speed = 2
+
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 0.75
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		OR = {
+			ai = yes
+			year = 1837
+		}
+		any_owned_province = {
+			is_core = THIS
+		}
+		NOT = {
+			any_owned_province = {
+				NOT = {
+					is_core = THIS
+				}
+			}
+		}
+	}
+
+	po_annex = yes
+	
+	war_name = WAR_RESTORE_ORDER_NAME
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -2668,14 +2579,6 @@ rude_boy = {
 		OR = {
 			ai = yes
 			year = 1837
-		}
-		THIS = {
-			OR = {
-				NOT = { has_global_flag = ww1_bookmark }
-				has_global_flag = central_victory
-				has_global_flag = allied_victory
-				ai = no
-			}
 		}
 		NOT = { is_our_vassal = THIS }
 		badboy = 1
@@ -4875,8 +4778,10 @@ paraguayan_war = {
 negotiated_transfer = {
 	sprite_index = 5
 	is_triggered_only = yes
+	months = 0
 	crisis = no
-
+	constructing_cb = no
+	always = yes
 	badboy_factor = 0
 	prestige_factor = 0
 	peace_cost_factor = 0
@@ -4891,33 +4796,44 @@ negotiated_transfer = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	construction_speed = 50.0
-
 	can_use = {
-		number_of_states = 2 # annex if you want their last state
-		OR = {
-			ai = no
-			AND = {
-				ai = yes
-				is_independant = no
-				overlord = { ai = no }
-			}
-		}
 		THIS = { ai = no }
-		NOT = {
-			OR = {
-				tag = JAN
-				tag = GHO
-				tag = SWI
-			}
-		}
+		ai = no
+		number_of_states = 2 # annex if you want their last state
+		NOT = { truce_with = THIS }
+		THIS = { civilized = yes }
 	}
 	
+	allowed_countries = {
+		OR = {
+			FROM = { vassal_of = THIS }
+			FROM = { substate_of = THIS }
+			FROM = { tag = THIS } 
+			AND = { 
+				FROM = { ai = no } 
+				THIS = { alliance_with = FROM }
+			} 
+		}
+		FROM = {
+			exists = yes
+		}
+	}
+
 	allowed_states = {
+		OR = {
+			is_colonial = yes
+			is_colonial = no
+		}
+		any_owned_province = {
+                     		OR = {
+				is_colonial = yes
+				is_colonial = no
+                     		}
+		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
 
-	po_demand_state = yes
+	po_transfer_provinces = yes
 	
 	war_name = WAR_NEGOTIATE_NAME
 	

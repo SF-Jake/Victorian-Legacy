@@ -967,6 +967,53 @@ promote_to =
 
 	craftsmen = {
 		factor = 0.01
+		group = {
+			modifier = {
+				factor = 1
+					nationalvalue = nv_productivity
+					administration_spending = 0.10
+			}
+			modifier = {
+				factor = 1
+					nationalvalue = nv_productivity
+					administration_spending = 0.20
+			}
+			modifier = {
+				factor = 1
+					nationalvalue = nv_productivity
+					administration_spending = 0.30
+			}
+			modifier = {
+				factor = 1
+					nationalvalue = nv_productivity
+					administration_spending = 0.40
+			}
+			modifier = {
+				factor = 1
+					nationalvalue = nv_productivity
+					administration_spending = 0.50
+			}
+			modifier = {
+				factor = 1
+					nationalvalue = nv_productivity
+					administration_spending = 0.60
+			}
+			modifier = {
+				factor = 1
+					nationalvalue = nv_productivity
+					administration_spending = 0.70
+			}
+			modifier = {
+				factor = 1
+					nationalvalue = nv_productivity
+					administration_spending = 0.80
+			}
+			modifier = {
+				factor = 1
+					nationalvalue = nv_productivity
+					administration_spending = 0.90
+			}
+		}
 		modifier = {
 				factor = -100
 				is_primary_culture = no

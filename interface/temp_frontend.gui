@@ -309,7 +309,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "single_player_button"
-				position = { x = -84 y = 557 }
+				position = { x = 37 y = 557 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -320,7 +320,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "multi_player_button"
-				position = { x = 158 y = 557 }
+				position = { x = 279 y = 557 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -331,7 +331,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "tutorial_button"
-				position = { x = 400 y = 557 }
+				position = { x = 400000 y = 429000 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -353,7 +353,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "credits_button"
-				position = { x = 158 y = 600	 }
+				position = { x = 158 y = 600 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""

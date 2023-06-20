@@ -175,7 +175,7 @@ release_vassals = {
 
 	zcountry_pass_reform = {
 		picture = pass_reform
-		alert = no
+		alert = yes
 		potential = {
 			has_country_flag = show_options_Y
 			ai = no
@@ -195,7 +195,7 @@ release_vassals = {
 			set_country_flag = force_reform
 			add_country_modifier = {
 				name = force_reform
-				duration = 175
+				duration = 185
 			}
 			add_country_modifier = {
 				name = reform_passed
@@ -560,11 +560,9 @@ zcreate_supply_depot = {
 		ai = no
 	}
 	allow = {
-		money = 500000
 		any_owned_province = { has_building = province_selector }
 	}
 	effect = {
-		treasury = -500000
 		random_owned = {
 			limit = { has_building = province_selector }
 			add_province_modifier = { name = supply_depot duration = -1 }
@@ -769,7 +767,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -809,7 +807,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -850,7 +848,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -891,7 +889,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -932,7 +930,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -973,7 +971,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -1014,7 +1012,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -1055,7 +1053,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -1096,7 +1094,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -1137,7 +1135,7 @@ zscorch_earth = {
 		}
 		effect = {
 			clr_country_flag = baby_boom_reminder
-			add_country_modifier = { name = baby_booming duration = 7300 }
+			add_country_modifier = { name = baby_booming duration = 5110 }
 			random_owned = {
 				limit = {
 					has_building = province_selector

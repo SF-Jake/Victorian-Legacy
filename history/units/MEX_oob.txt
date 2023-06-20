@@ -58,72 +58,131 @@ leader = {
 }
 
 army = {
-	name = "Ejército del Norte"
-	location = 2146
+	name = "30 Stack"
+	location = 138
 	regiment = {
-		name= "1.Division Cos"
-		type = irregular
+		name= "Hussar"
+		type = hussar
 		home = 2174
 	}
 
 	regiment = {
-		name= "2.Division Cos"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 2167
 	}
 
 	regiment = {
-		name= "3.Division Cos"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 2167
 	}
 
-}
-
-army = {
-	name = "Activo Oajaca"
-	location = 2177
 	regiment = {
-		name= "1.Oajaca y Tlaxcala"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 2177
 	}
 
 	regiment = {
-		name= "2.Oajaca y Tlaxcala"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 2177
 	}
 
 	regiment = {
-		name= "3.Oajaca y Tlaxcala"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 2177
 	}
 
-}
-
-army = {
-	name = "Ejército del Ciudad Mejico"
-	location = 2172
 	regiment = {
-		name= "1.Division Comonfort"
+		name= "Infantry"
 		type = infantry
 		home = 2176
 	}
 
 	regiment = {
-		name= "2.Division Comonfort"
-		type = irregular
+		name= "Infantry"
+		type = infantry
 		home = 2176
 	}
 
 	regiment = {
-		name= "3.Division Comonfort"
-		type = irregular
+		name= "Infantry"
+		type = infantry
 		home = 2176
 	}
 
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 2183
+	}
+}
+
+army = {
+	name = "30 Stack"
+	location = 2152
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 2162
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 2175
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 2172
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 2173
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 2158
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 2159
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 2158
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 2172
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 2173
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 2159
+	}
 }
 
 navy = {

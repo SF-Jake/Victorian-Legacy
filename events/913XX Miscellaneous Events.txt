@@ -4009,7 +4009,7 @@ country_event = {
 
 	trigger = {
 		tag = JAN
-		has_global_flag = disable_crisis
+		NOT = { has_global_flag = disable_crisis }
 		NOT = { has_country_modifier = monthly_timer }
 	}
 
@@ -4030,11 +4030,7 @@ country_event = {
 	id = 91329
 	title = "Crisis Cooldown 2"
 
-	trigger = {
-		tag = JAN
-		has_global_flag = disable_crisis
-		NOT = { has_country_modifier = monthly_timer }
-	}
+	is_triggered_only = yes
 
 	option = {
 		country_event = { id = 91329 days = 14 }
@@ -4246,8 +4242,9 @@ country_event = {
 	desc = "The 1 year grace period is over"
 	picture = war_1838
 
+	fire_only_once = yes
+
 	trigger = {
-		NOT = { has_country_flag = war_1836 }
 		ai = no
 		NOT = { year = 1838 }
 		year = 1837
@@ -4255,45 +4252,5 @@ country_event = {
 
 	option = {
 		name = "Prepare the Troops"
-		set_country_flag = war_1836
-	}
-}
-
-#########################################################################
-# 							Genocide Reminder							#
-#########################################################################
-
-country_event = {
-	id = 14674
-	title = "Genocide Reminder"
-	desc = "Your Genocide cooldown timer has expired. You can now use another Genocide decision."
-	picture = famine
-
-
-	trigger = {
-		ai = no
-		year = 1837
-		OR = {
-			AND = {
-				government = fascist_dictatorship
-				ruling_party_ideology = fascist
-			}
-			AND = {
-				government = absolute_monarchy
-				ruling_party_ideology = reactionary
-			}
-			
-			AND = {
-				government = proletarian_dictatorship
-				ruling_party_ideology = communist
-			}
-		}
-		NOT = { has_country_modifier = genocide_cooldown }
-		NOT = { has_country_flag = genocide_cooldown_finished }
-	}
-
-	option = {
-		name = "OK."
-		set_country_flag = genocide_cooldown_finished
 	}
 }

@@ -983,10 +983,12 @@ military_staff_system = {
 	cost = 3600
 	unciv_military = yes
 	
+	activate_unit = hussar 
 	army_base = {
 		default_organisation = 2.5
 		supply_consumption = 0.10
 	}
+		
 	
 	ai_chance = {
 		factor = 1.1

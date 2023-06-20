@@ -3427,7 +3427,7 @@ USM_presidential_dictatorship;The United States of America;;;;;;;;;x;;;;
 USM_bourgeois_dictatorship;The United States of America;;;;;;;;;x;;;;
 USM_fascist_dictatorship;The United States of America;;;;;;;;;x;;;;
 USM_democracy;The United States of America;;;;;;;;;x;;;;
-form_roman_empire_title;Form Roman Empire;;;;;;;;;x;;;;
+form_roman_empire_title;Form Roman Empire (Path 1);;;;;;;;;x;;;;
 form_roman_empire_desc;It is time to reform the New Roman Empire and take back what was stolen from us.;;;;;;;;;x;;;;
 give_host_powers_title;Host Powers;;;;;;;;;x;;;;
 give_host_powers_desc; ;;;;;;;;;x;;;;
@@ -3676,3 +3676,40 @@ education_siam_reforms;Education Buff;;;;;;;;;;;;;x,,,,,
 education_siam_reforms_desc;It is time that we helped are people learn the new ways of the west;;;;;;;;;;;;;x,,,,,
 education_china_reforms;Education Buff;;;;;;;;;;;;;x,,,,,
 education_china_reforms_desc;It is time that we helped are people learn the new ways of the west;;;;;;;;;;;;;x,,,,,
+aragon_italy_part1_title;Integrate the Catalonians (Path 2);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+aragon_italy_part1;Integrate the Catalonians;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+aragon_italy_part1_desc; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+merge_the_crowns_ari_title;Proclaim the kingdom of Aragon-Italy (Path 2);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+merge_the_crowns_ari_desc;For centuries now, the crown of Aragon has been a dominant power on the Italian peninsula. We are now strong enough to strengthen our rule over Italy and proclaim the Dual Kingdom of Aragon and Italy! But let us beware, the other European Great Powers might not take the news kindly...;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ARI;Aragon-Italy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ARI_ADJ;Aragonese-Italian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ARI_proletarian_dictatorship;The Mediterranean People's Union;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ARI_proletarian_dictatorship_ADJ;Mediterranean;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ARI_fascist_dictatorship;The Latin Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ARI_fascist_dictatorship_ADJ;Latin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+desperate_nation;Desperate Nation;Nation microscopique;Mikroskopische Nation;;Nación microscópica;;;;;;;;;x;;;;
+microscopic_nation;Microscopic Nation;Nation microscopique;Mikroskopische Nation;;Nación microscópica;;;;;;;;;x;;;;
+tiny_nation;Tiny Nation;Très petite Nation;Sehr kleine Nation;;Muy pequeña nación;;;;;;;;;x;;;;
+small_nation;Small Nation;Petite Nation;Kleine Nation;;Pequeña nación;;;;;;;;;x;;;;
+medium_nation;Medium Nation;Nation moyenne;Mittlere Nation;;Medio país;;;;;;;;;x;;;;
+average_nation;Average Nation;Nation régulière;Durchschnittsgröße Nation;;País promedio;;;;;;;;;x;;;;
+large_nation;Large Nation;Grande Nation;Großes Nation;;Nación grande;;;;;;;;;x;;;;
+empire;Empire;Empire;Reich;;Imperio;;;;;;;;;x;;;;
+medium_empire;Medium Empire;Moyen Empire;Mittleres Reich;;Imperio medio;;;;;;;;;x;;;;
+large_empire; Large Empire;Grand Empire;Große Reich;;Gran imperio;;;;;;;;;x;;;;
+insane_empire; Insane Empire;L'Empire de fou;Das wahnsinnig Reich;;El Imperio loco;;;;;;;;;x;;;;
+insane_empire2; Large Insane Empire;L'Empire de fou;Das wahnsinnig Reich;;El Imperio loco;;;;;;;;;x;;;;
+switch_to_diplomacy_title;Embrace the Ideal of Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +100%\nBase Influence Points Generation: +20%\nCB Generation Speed: +15%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +40%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GSoldier Promotion Bonus: +10% (Scales with Military Spending)\nOrganization Regain Rate: +5%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +5%\nCraftsmen Promotion Bonus: +10% (Scales with Administration Spending)§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+switch_to_liberty_title;Embrace the Ideal of Exploitation;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+switch_to_liberty_desc;It is time for our nation to change the character of our people, to encourage them to consume and exploit the resources of the world to our benefit!\n\n§YThe modifiers for this NV are:§W\n§GRGO Throughput: +10%\nFactory Input: -5%\nFactory Output: +5%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
