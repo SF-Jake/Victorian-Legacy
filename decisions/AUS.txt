@@ -23,6 +23,7 @@ political_decisions = {
 			set_country_flag = danubian_federation_formed
 			prestige = 25
 			all_core = {
+				add_core = DNB
 				remove_core = KUK
 			}
 			government = democracy
@@ -41,11 +42,15 @@ political_decisions = {
 			NOT = { has_country_flag = danubian_federation_formed_2 }
 		}
 		allow = {
+			WAL_665 = { owned_by = THIS }
+			MOL_673 = { owned_by = THIS }
 			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			prestige = 25
 			add_accepted_culture = croat
+			WAL_665 = { add_core = THIS }
+			MOL_673 = { add_core = THIS }
 			set_country_flag = danubian_federation_formed_2
 		}
 	}
@@ -80,18 +85,13 @@ political_decisions = {
 			political_reform = confederalism
 			set_country_flag = confederalism
 			all_core = {
+				remove_core = AUS
 				add_core = KUK
 			}
 			HUN = {
-				all_core = { add_core = KUK }
+				all_core = { add_core = KUK remove_core = HUN }
 				annex_to = THIS
 			}
-			all_core = {
-				remove_core = AUS
-			}
-			AUS_619 = { add_core = AUS }
-			AUS_613 = { add_core = AUS }
-			AUS_612 = { add_core = AUS }
 			any_pop = {
 				limit = {
 					culture = hungarian
