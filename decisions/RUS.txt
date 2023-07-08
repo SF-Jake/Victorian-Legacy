@@ -601,9 +601,11 @@ political_decisions = {
 		}
 		
 		allow = {
-			year = 1842
+			money = 500000
 		}
+
 		effect = {
+			money = -500000
 			tech_school = russia_tech_school_tier2
 		}
 	}
@@ -615,10 +617,12 @@ political_decisions = {
 		}
 		
 		allow = {
-			year = 1852
+			money = 500000
 			school_reforms = acceptable_schools
 		}
+
 		effect = {
+			money = -500000
 			tech_school = russia_tech_school_tier3
 		}
 	}
@@ -630,11 +634,12 @@ political_decisions = {
 		}
 		
 		allow = {
-			year = 1862
+			money = 500000
 			school_reforms = good_schools
-			
 		}
+		
 		effect = {
+			money = -500000
 			tech_school = russia_tech_school_tier4
 		}
 	}
