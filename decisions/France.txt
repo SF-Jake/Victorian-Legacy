@@ -469,9 +469,37 @@ political_decisions = {
 			}
 			define_general = {
 				name = "§WNapoléon III"
-				personality = defence_2.1
-				background = attack_2.1
+				personality = defence_3.1
+				background = attack_3.1
 			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reproclaim_second_empire = {
+		picture = napoleon_iii
+		potential = {
+			tag = FRA
+			has_country_flag = napoleon_iii
+			government = democracy
+			NOT = {
+				has_country_flag = reproclaim_second_empire
+			}
+			NOT = {
+				government = absolute_monarchy
+			}
+		}
+	
+		allow = {
+			year = 1850
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = reproclaim_second_empire
+			government = hms_government
 		}
 		ai_will_do = {
 			factor = 1

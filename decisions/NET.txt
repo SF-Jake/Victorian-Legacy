@@ -8,6 +8,7 @@ political_decisions = {
 			}
 		}
 		allow = {
+			ai = no
 			OR = {
 				relation = {
 					who = ENG

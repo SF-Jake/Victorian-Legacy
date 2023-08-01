@@ -685,21 +685,21 @@ country_event = {
 }
 
 
-country_event = {
-	title = "EVTNAME31524"
-	desc = "EVTDESC31524"
-	picture = "hungarian_revolution_1848"
-	id = 31524
+# country_event = {
+# 	title = "EVTNAME31524"
+# 	desc = "EVTDESC31524"
+# 	picture = "hungarian_revolution_1848"
+# 	id = 31524
 
-	trigger = {
-		tag = KUK
-		NOT = { any_owned_province = { is_core = HUN } }
-	}
+# 	trigger = {
+# 		tag = KUK
+# 		NOT = { any_owned_province = { is_core = HUN } }
+# 	}
 
-	option = {
-		name = "EVTOPTA31524"
-		change_tag = AUS
-		KUK = { all_core = { remove_core = KUK } }
-		remove_accepted_culture = hungarian
-	}
-}
+# 	option = {
+# 		name = "EVTOPTA31524"
+# 		change_tag = AUS
+# 		KUK = { all_core = { remove_core = KUK } }
+# 		remove_accepted_culture = hungarian
+# 	}
+# }

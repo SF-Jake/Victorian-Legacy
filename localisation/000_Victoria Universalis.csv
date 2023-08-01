@@ -1972,6 +1972,8 @@ EVTDESC37228;Greivances against Napoleon III over his mishandling of the recent 
 EVTOPTA37228;Vive la France!;;;;;;;;;;;;x
 proclaim_second_empire_title;Proclaim Second French Empire;;;;;;;;;;;;x
 proclaim_second_empire_desc;As Louis Napoleon grasped dictatorial power and introduced a harsh constitution he took the next step and held a referendum for the reintroduction of the Empire. Nearly 8 million Frenchmen voted yes and he became French Emperor under the name Napoleon III. \n§RBonapartiste is the required Party;;;;;;;;;;;;x
+reproclaim_second_empire_title;ReProclaim Second French Empire;;;;;;;;;;;;x
+reproclaim_second_empire_desc;As Louis Napoleon grasped dictatorial power and introduced a harsh constitution he took the next step and held a referendum for the reintroduction of the Empire. Nearly 8 million Frenchmen voted yes and he became French Emperor under the name Napoleon III. \n§RBonapartiste is the required Party;;;;;;;;;;;;x
 EVTNAME90810;The Warlord Era;;;;;;;;;;;;x
 EVTDESC90810;Resistance against the $CAPITAL$ government has culminated in a breakdown in authority. What began with several of the outlying warlords declaring their independence has ended with the most powerful generals in the Beiyang Army struggling for control. A contest has begun regarding who will control the future of China's destiny, and most are certain it will not be long before the entire nation is engulfed in war.;;;;;;;;;;;;x
 EVTOPTA90810;Play as Beiyang China;;;;;;;;;;;;x
@@ -2975,6 +2977,8 @@ embrace_slovak_minority_title;Embrace the Slovakian minority;;;;;;;;;;;x
 embrace_slovak_minority_desc;It is time to grant equal rights to Slovaks.;;;;;;;;;;;x
 form_danubian_federation_title;Form the Danubian Federation;;;;;;;;;;;x
 form_danubian_federation_desc;A new notion has arisen in our country -- one of extending the rights currently enjoyed by the Hungarians to the other Danubian cultures. We cannot, after all, expect that our nation will be able to peacefully continue on with two cultures dominating so many others. We could unite our cultures into a larger and more peaceful federation of the Danube.;;;;;;;;;;;x
+form_danubian_federation_2_title;Expand the Federation;;;;;;;;;;;x
+form_danubian_federation_2_desc;A new notion has arisen in our country -- one of extending the rights currently enjoyed by the Hungarians to the other Danubian cultures. We cannot, after all, expect that our nation will be able to peacefully continue on with two cultures dominating so many others. We could unite our cultures into a larger and more peaceful federation of the Danube.;;;;;;;;;;;x
 form_somalia_title;Form Somalia;;;;;;;;;;;x
 form_somalia_desc;We have united the Somali tribes along the coast of the Horn of Africa and can now claim the rightful throne of Somalia.;;;;;;;;;;;x
 EVTNAME44701;The Siamese-Vietnamese War;;;;;;;;;;;x
@@ -3713,3 +3717,63 @@ switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x,,,,,,,,,,,,,
 switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
 switch_to_liberty_title;Embrace the Ideal of Exploitation;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 switch_to_liberty_desc;It is time for our nation to change the character of our people, to encourage them to consume and exploit the resources of the world to our benefit!\n\n§YThe modifiers for this NV are:§W\n§GRGO Throughput: +10%\nFactory Input: -5%\nFactory Output: +5%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+z1manage_grants_title;§YManage Money Grants and Military Supplies Aid;;;;;;;;;;;;;x
+z1manage_grants_desc;Triggers an event that lets you enable giving grants, deny giving grants, or request money and military goods from other human players.;;;;;;;;;;;;;x
+requested_grant;Requested Grant;;;;;;;;;;;;;x
+requested_grant_desc;We have recently requested a grant and must wait awhile before asking for another one.;;;;;;;;;;;;;x
+EVTNAMEgrantoptions;Grant Options;;;;;;;;;;;;;x
+EVTDESCgrantoptions;In order to give player grants or military supplies, select the enable giving aid option. If you wish to automatically deny grants and military supplies, select the deny giving aid option. If you are asking for a money grant or military supplies, select the type of aid you wish to receive. Note that if you wish to give military supplies to another player, you must manually set your stockpile.;;;;;;;;;;;;;x
+EVTNAMEinsufficientmoney;Insufficient Stockpile;;;;;;;;;;;;;x
+EVTDESCinsufficientmoney;We do not have the required stockpile of supplies that we wish to send.;;;;;;;;;;;;;x
+EVTOPTAinsufficientmoney;Ok.;;;;;;;;;;;;;x
+EVTNAMEgivemoney;$FROMCOUNTRY$ Requests a Grant;;;;;;;;;;;;;x
+EVTDESCgivemoney;$FROMCOUNTRY$ has asked us for a grant. Shall we give it to them?;;;;;;;;;;;;;x
+Give_Nothing;Don't give anything.;;;;;;;;;;;;;x
+Give_0.05M_Grant;Give them 50,000.;;;;;;;;;;;;;x
+Give_0.1M_Grant;Give them 100,000.;;;;;;;;;;;;;x
+Give_0.25M_Grant;Give them 250,000.;;;;;;;;;;;;;x
+Give_0.5M_Grant;Give them 500,000.;;;;;;;;;;;;;x
+Give_1M_Grant;Give them 1,000,000.;;;;;;;;;;;;;x
+Give_2M_Grant;Give them 2,000,000.;;;;;;;;;;;;;x
+EVTNAMEgiveartillery;$FROMCOUNTRY$ Requests Artillery;;;;;;;;;;;;;x
+EVTDESCgiveartillery;$FROMCOUNTRY$ has asked us for a shipment of artillery. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Artillery;Give them 200.;;;;;;;;;;;;;x
+Give_500_Artillery;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Artillery;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Artillery;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Artillery;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgiveammunition;$FROMCOUNTRY$ Requests Ammunition;;;;;;;;;;;;;x
+EVTDESCgiveammunition;$FROMCOUNTRY$ has asked us for a shipment of ammunition. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Ammunition;Give them 200.;;;;;;;;;;;;;x
+Give_500_Ammunition;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Ammunition;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Ammunition;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Ammunition;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgivesmallarms;$FROMCOUNTRY$ Requests Small Arms;;;;;;;;;;;;;x
+EVTDESCgivesmallarms;$FROMCOUNTRY$ has asked us for a shipment of small arms. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Small_Arms;Give them 200.;;;;;;;;;;;;;x
+Give_500_Small_Arms;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Small_Arms;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Small_Arms;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Small_Arms;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgivesteamerconvoys;$FROMCOUNTRY$ Requests Steamer Convoys;;;;;;;;;;;;;x
+EVTDESCgivesteamerconvoys;$FROMCOUNTRY$ has asked us for a shipment of steamer convoys. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Steamer_Convoys;Give them 200.;;;;;;;;;;;;;x
+Give_500_Steamer_Convoys;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Steamer_Convoys;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Steamer_Convoys;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Steamer_Convoys;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgiveclipperconvoys;$FROMCOUNTRY$ Requests Clipper Convoys;;;;;;;;;;;;;x
+EVTDESCgiveclipperconvoys;$FROMCOUNTRY$ has asked us for a shipment of clipper convoys. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Clipper_Convoys;Give them 200.;;;;;;;;;;;;;x
+Give_500_Clipper_Convoys;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Clipper_Convoys;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Clipper_Convoys;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Clipper_Convoys;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgivecannedfood;$FROMCOUNTRY$ Requests Canned Food;;;;;;;;;;;;;x
+EVTDESCgivecannedfood;$FROMCOUNTRY$ has asked us for a shipment of canned food. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Canned_Food;Give them 200.;;;;;;;;;;;;;x
+Give_500_Canned_Food;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Canned_Food;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Canned_Food;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Canned_Food;Give them 2000.;;;;;;;;;;;;;x
