@@ -10,7 +10,7 @@ irregular = {
 	#Core Abilities
 	priority = 5
 	max_strength = 3
-	default_organisation = 25
+	default_organisation = 20
 	maximum_speed = 4.00
 	weighted_value = 1.0
 
@@ -23,7 +23,6 @@ irregular = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		grain = 0.2
 		wool = 0.1
 	}
 	

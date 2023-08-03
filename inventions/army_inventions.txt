@@ -6,40 +6,40 @@ post_napoleonic_army_doctrine = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			#attack = 0.75
+			defence = 1.5
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			#attack = 0.65
+			defence = 1.3
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			#attack = 0.5
+			defence = 1.5
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			#attack = 0.75
+			defence = 1
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			#attack = 0.20
+			defence = 0.40
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 1.2
 		}
 	}
 }
@@ -59,40 +59,40 @@ field_fortifications = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			#attack = 0.75
+			defence = 1.5
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			#attack = 0.65
+			defence = 1.3
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			#attack = 0.5
+			defence = 1.5
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			#attack = 0.75
+			defence = 1
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			#attack = 0.20
+			defence = 0.40
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 1.2
 		}
 	}
 }
@@ -143,7 +143,7 @@ signal_detachments = {
 	}
 }
 flexible_firepower = {
-	limit = { point_defense_system = 1 }
+	limit = { trench_systems = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -157,40 +157,40 @@ flexible_firepower = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			#attack = 0.75
+			defence = 1.5
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			#attack = 0.65
+			defence = 1.3
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			#attack = 0.5
+			defence = 1.5
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			#attack = 0.75
+			defence = 1
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			#attack = 0.20
+			defence = 0.40
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 1.2
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -212,40 +212,40 @@ synchronized_heavy_support = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			#attack = 0.75
+			defence = 1.5
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			#attack = 0.65
+			defence = 1.3
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			#attack = 0.5
+			defence = 1.5
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			#attack = 0.75
+			defence = 1
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			#attack = 0.20
+			defence = 0.40
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 1.2
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -285,40 +285,40 @@ trench_systems = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			#attack = 0.75
+			defence = 4
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			#attack = 0.65
+			defence = 4
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			#attack = 0.5
+			defence = 4
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			#attack = 0.75
+			defence = 4
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			#attack = 0.20
+			defence = 0.40
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 4
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -340,40 +340,40 @@ elastic_defense_system = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			#attack = 0.75
+			defence = 1.5
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			#attack = 0.65
+			defence = 1.3
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			#attack = 0.5
+			defence = 1.5
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			#attack = 0.75
+			defence = 1
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			#attack = 0.20
+			defence = 0.40
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 1.2
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -381,43 +381,8 @@ elastic_defense_system = {
 	}
 }
 #trench_systems
-trench_systemsI = {
-	limit = { trench_systems = 1 }
-	chance = {
-		base = 3
-	}
-	effect = {
-		dig_in_cap = 1
-	}
-}
-trench_systemsII = {
-	limit = { trench_systems = 1 }
-	chance = {
-		base = 0
-		modifier = {
-			factor = 3
-			invention = trench_systemsI
-		}
-	}
-	effect = {
-		dig_in_cap = 1
-	}
-}
-trench_systemsIII = {
-	limit = { trench_systems = 1 }
-	chance = {
-		base = 0
-		modifier = {
-			factor = 3
-			invention = trench_systemsII
-		}
-	}
-	effect = {
-		dig_in_cap = 1
-	}
-}
 flexible_counterattacks = {
-	limit = { trench_systems = 1 }
+	limit = { machine_guns = 1 }
 	chance = {
 		base = 3
 		modifier = {
@@ -432,43 +397,43 @@ flexible_counterattacks = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			attack = 1.5
+			#defence = 0.75
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			attack = 1.3
+			#defence = 0.65
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			attack = 1
+			#defence = 0.75
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			attack = 1.5
+			#defence = 0.5
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			attack = 0.40
+			#defence = 0.20
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			attack = 0.7
+			#defence = 0.35
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			attack = 0.7
+			#defence = 0.35
 		}
 		guard = {
 			attack = 0.85
-			defence = 0.85
+			#defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			attack = 1.2
+			#defence = 0.6
 		}
 		army_base = {
-			supply_consumption = 0.05
+			supply_consumption = 0.15
 		} 
 	}
 }
@@ -495,40 +460,40 @@ low_echelon_fire_support = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			#attack = 0.75
+			defence = 1.5
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			#attack = 0.65
+			defence = 1.3
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			#attack = 0.5
+			defence = 1.5
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			#attack = 0.75
+			defence = 1
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			#attack = 0.20
+			defence = 0.40
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 1.2
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -537,50 +502,131 @@ low_echelon_fire_support = {
 }
 #infiltration
 stormtrooper_training = {
-	limit = { infiltration = 1 }
+	limit = { bolt_action_rifles = 1 }
 	chance = {
 		base = 5
 		modifier = {
 			factor = 2
-			bolt_action_rifles = 1
+			trench_systems = 1
 		}
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			attack = 1.5
+			#defence = 0.75
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			attack = 1.3
+			#defence = 0.65
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			attack = 1
+			#defence = 0.75
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			attack = 1.5
+			#defence = 0.5
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			attack = 0.40
+			#defence = 0.20
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			attack = 0.7
+			#defence = 0.35
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			attack = 0.7
+			#defence = 0.35
 		}
 		guard = {
 			attack = 0.85
+			#defence = 0.85
+		}
+		engineer = {
+			attack = 1.2
+			#defence = 0.6
+		}
+		army_base = {
+			supply_consumption = 0.15
+		}
+	}
+}
+tank_exploits = {
+	limit = { infiltration = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			invention = synchronized_heavy_support
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { barrel_experiments = 1 }
+		}
+		modifier = {
+			factor = -5
+			not = { barrel_experiments = 1 }
+		}
+	}
+	effect = {
+		tank = {
+			attack = 2
+			defence = 2
+			supply_consumption = 0.05				
+		}	
+	}
+}
+flexible_firepowerII = {
+	limit = { infiltration = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = field_fortifications
+		}
+		modifier = {
+			factor = 2
+			army_professionalism = 1
+		}
+	}
+	effect = {
+		infantry = {
+			#attack = 0.75
+			defence = 1.5
+		}
+		hussar = {
+			#attack = 0.65
+			defence = 1.3
+		}
+		dragoon = {
+			#attack = 0.5
+			defence = 1.5
+		}
+		cuirassier = {
+			#attack = 0.75
+			defence = 1
+		}
+		artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
+		cavalry = {
+			#attack = 0.35
+			defence = 0.7
+		}
+		irregular = {
+			#attack = 0.35
+			defence = 0.7
+		}
+		guard = {
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 1.2
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -603,40 +649,40 @@ firepower_vs_mobility = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			#attack = 0.75
+			defence = 1.5
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			#attack = 0.65
+			defence = 1.3
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			#attack = 0.5
+			defence = 1.5
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			#attack = 0.75
+			defence = 1
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			#attack = 0.20
+			defence = 0.40
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 1.2
 		}
 		army_base = {
 			maximum_speed = 1
@@ -680,40 +726,40 @@ human_wave_vs_spearhead = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
+			#attack = 0.75
+			defence = 1.5
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
+			#attack = 0.65
+			defence = 1.3
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
+			#attack = 0.5
+			defence = 1.5
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
+			#attack = 0.75
+			defence = 1
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
+			#attack = 0.20
+			defence = 0.40
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
+			#attack = 0.35
+			defence = 0.7
 		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			#attack = 0.6
+			defence = 1.2
 		}
 		army_base = {
 			supply_consumption = -0.05
@@ -737,48 +783,42 @@ flintlock_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
-			supply_consumption = 0.1
+			attack = 1.5
+			#defence = 0.75
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
-			supply_consumption = 0.1
+			attack = 1.3
+			#defence = 0.65
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
-			supply_consumption = 0.1
+			attack = 1
+			#defence = 0.75
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
-			supply_consumption = 0.1
+			attack = 1.5
+			#defence = 0.5
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
-			supply_consumption = 0.1
+			attack = 0.40
+			#defence = 0.20
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.1
+			attack = 0.7
+			#defence = 0.35
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.1
+			attack = 0.7
+			#defence = 0.35
 		}
 		guard = {
 			attack = 0.85
-			defence = 0.85
-			supply_consumption = 0.1
+			#defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			attack = 1.2
+			#defence = 0.6
+		}
+		army_base = {
 			supply_consumption = 0.1
 		}
 	}
@@ -797,48 +837,42 @@ muzzle_loaded_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
-			supply_consumption = 0.1
+			attack = 1.5
+			#defence = 0.75
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
-			supply_consumption = 0.1
+			attack = 1.3
+			#defence = 0.65
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
-			supply_consumption = 0.1
+			attack = 1
+			#defence = 0.75
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
-			supply_consumption = 0.1
+			attack = 1.5
+			#defence = 0.5
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
-			supply_consumption = 0.1
+			attack = 0.40
+			#defence = 0.20
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.1
+			attack = 0.7
+			#defence = 0.35
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.1
+			attack = 0.7
+			#defence = 0.35
 		}
 		guard = {
 			attack = 0.85
-			defence = 0.85
-			supply_consumption = 0.1
+			#defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			attack = 1.2
+			#defence = 0.6
+		}
+		army_base = {
 			supply_consumption = 0.1
 		}
 	}
@@ -857,48 +891,96 @@ breech_loaded_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
-			supply_consumption = 0.1
+			attack = 1.5
+			#defence = 0.75
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
-			supply_consumption = 0.1
+			attack = 1.3
+			#defence = 0.65
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
-			supply_consumption = 0.1
+			attack = 1
+			#defence = 0.75
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
-			supply_consumption = 0.1
+			attack = 1.5
+			#defence = 0.5
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
-			supply_consumption = 0.1
+			attack = 0.40
+			#defence = 0.20
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.1
+			attack = 0.7
+			#defence = 0.35
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.1
+			attack = 0.7
+			#defence = 0.35
 		}
 		guard = {
 			attack = 0.85
-			defence = 0.85
-			supply_consumption = 0.1
+			#defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
+			attack = 1.2
+			#defence = 0.6
+		}
+		army_base = {
+			supply_consumption = 0.1
+		}
+	}
+}
+
+#machine_guns
+machine_gun_armament = {
+	limit = { machine_guns = 1 }
+	chance = {
+		base = 100
+		modifier = {
+			factor = 9
+			war = yes
+			war_countries = { invention = machine_gun_armament }
+		}
+	}
+	effect = {
+		infantry = {
+			attack = 1.5
+			#defence = 0.75
+		}
+		hussar = {
+			attack = 1.3
+			#defence = 0.65
+		}
+		dragoon = {
+			attack = 1
+			#defence = 0.75
+		}
+		cuirassier = {
+			attack = 1.5
+			#defence = 0.5
+		}
+		artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
+		cavalry = {
+			attack = 0.7
+			#defence = 0.35
+		}
+		irregular = {
+			attack = 0.7
+			#defence = 0.35
+		}
+		guard = {
+			attack = 0.85
+			#defence = 0.85
+		}
+		engineer = {
+			attack = 1.2
+			#defence = 0.6
+		}
+		army_base = {
 			supply_consumption = 0.1
 		}
 	}
@@ -944,65 +1026,6 @@ colonial_negotiations = {
 		colonial_life_rating = -5 
 	}
 }
-#machine_guns
-machine_gun_armament = {
-	limit = { machine_guns = 1 }
-	chance = {
-		base = 100
-		modifier = {
-			factor = 9
-			war = yes
-			war_countries = { invention = machine_gun_armament }
-		}
-	}
-	effect = {
-		infantry = {
-			attack = 0.75
-			defence = 4
-			supply_consumption = 0.2
-		}
-		hussar = {
-			attack = 0.65
-			defence = 4
-			supply_consumption = 0.2
-		}
-		dragoon = {
-			attack = 0.5
-			defence = 4
-			supply_consumption = 0.2
-		}
-		cuirassier = {
-			attack = 0.75
-			defence = 4
-			supply_consumption = 0.2
-		}
-		artillery = {
-			attack = 0.20
-			defence = 0.20
-			supply_consumption = 0.2
-		}
-		cavalry = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.2
-		}
-		irregular = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.2
-		}
-		guard = {
-			attack = 0.85
-			defence = 4
-			supply_consumption = 0.2
-		}
-		engineer = {
-			attack = 0.6
-			defence = 4
-			supply_consumption = 0.2
-		}
-	}
-}
 #bolt_action_rifles
 bolt_action_rifle_armament = {
 	limit = { bolt_action_rifles = 1 }
@@ -1017,48 +1040,43 @@ bolt_action_rifle_armament = {
 	effect = {
 		infantry = {
 			attack = 4
-			defence = 0.75
-			supply_consumption = 0.2
+			#defence = 0.75
 		}
 		hussar = {
 			attack = 4
-			defence = 0.65
-			supply_consumption = 0.2
+			#defence = 0.65
 		}
 		dragoon = {
 			attack = 4
-			defence = 0.75
-			supply_consumption = 0.2
+			#defence = 0.75
 		}
 		cuirassier = {
 			attack = 4
-			defence = 0.5
-			supply_consumption = 0.2
+			#defence = 0.5
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
-			supply_consumption = 0.2
+			attack = 0.40
+			#defence = 0.20
 		}
+
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.2
+			attack = 0.7
+			#defence = 0.35
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.2
+			attack = 0.7
+			#defence = 0.35
 		}
 		guard = {
-			attack = 4
-			defence = 0.85
-			supply_consumption = 0.2
+			attack = 0.85
+			#defence = 0.85
 		}
 		engineer = {
 			attack = 4
-			defence = 0.6
-			supply_consumption = 0.2
+			#defence = 0.6
+		}
+		army_base = {
+			supply_consumption = 0.1
 		}
 	}
 }
@@ -1066,35 +1084,92 @@ bolt_action_rifle_armament = {
 gas_attack_capability = {
 	limit = { chemical_weapons = 1 }
 	chance = {
-		base = 0
+		base = 100
 		modifier = {
-			factor = 25
+			factor = 2
 			invention = cracking
 		}
 		modifier = {
-			factor = 25
+			factor = 2
 			invention = carbon_soil_enrichment
-		}		
+		}
+		modifier = {
+			factor = 6
+			any_neighbor_country = {
+				invention = gas_attack_capability
+			}
+		}			
 	}
 	effect = {
 		gas_attack = yes
-		army_base = {
-			supply_consumption = 0.15
-		}
 	}
 }
 gas_defense_capability = {
 	limit = { chemical_weapons = 1 }
 	chance = {
-		base = 5
+		base = 100
 		modifier = {
-			factor = 50
+			factor = 5
 			war = yes
 			war_countries = { invention = gas_attack_capability }
+		}
+		modifier = {
+			factor = 6
+			any_neighbor_country = {
+				invention = gas_defense_capability
+			}
 		}		
 	}
 	effect = {
 		gas_defence = yes
+	}
+}
+stormtrooper_trainingII = {
+	limit = { chemical_weapons = 1 }
+	chance = {
+		base = 5
+		modifier = {
+			factor = 2
+			infiltration = 1
+		}
+	}
+	effect = {
+		infantry = {
+			attack = 1.5
+			#defence = 0.75
+		}
+		hussar = {
+			attack = 1.3
+			#defence = 0.65
+		}
+		dragoon = {
+			attack = 1
+			#defence = 0.75
+		}
+		cuirassier = {
+			attack = 1.5
+			#defence = 0.5
+		}
+		artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
+		cavalry = {
+			attack = 0.7
+			#defence = 0.35
+		}
+		irregular = {
+			attack = 0.7
+			#defence = 0.35
+		}
+		guard = {
+			attack = 0.85
+			#defence = 0.85
+		}
+		engineer = {
+			attack = 1.2
+			#defence = 0.6
+		}
 		army_base = {
 			supply_consumption = 0.15
 		}
@@ -1116,49 +1191,43 @@ interwar_infantry = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.75
-			defence = 0.75
-			supply_consumption = 0.2
+			attack = 1.5
+			#defence = 0.75
 		}
 		hussar = {
-			attack = 0.65
-			defence = 0.65
-			supply_consumption = 0.2
+			attack = 1.3
+			#defence = 0.65
 		}
 		dragoon = {
-			attack = 0.5
-			defence = 0.75
-			supply_consumption = 0.2
+			attack = 1
+			#defence = 0.75
 		}
 		cuirassier = {
-			attack = 0.75
-			defence = 0.5
-			supply_consumption = 0.2
+			attack = 1.5
+			#defence = 0.5
 		}
 		artillery = {
-			attack = 0.20
-			defence = 0.20
-			supply_consumption = 0.2
+			attack = 0.40
+			#defence = 0.20
 		}
 		cavalry = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.2
+			attack = 0.7
+			#defence = 0.35
 		}
 		irregular = {
-			attack = 0.35
-			defence = 0.35
-			supply_consumption = 0.2
+			attack = 0.7
+			#defence = 0.35
 		}
 		guard = {
 			attack = 0.85
-			defence = 0.85
-			supply_consumption = 0.2
+			#defence = 0.85
 		}
 		engineer = {
-			attack = 0.6
-			defence = 0.6
-			supply_consumption = 0.2
+			attack = 1.2
+			#defence = 0.6
+		}
+		army_base = {
+			supply_consumption = 0.1
 		}
 	}
 }
@@ -1217,8 +1286,44 @@ rear_area_dumps = {
 		}
 	}
 	effect = {
+		infantry = {
+			attack = 1.5
+			#defence = 0.75
+		}
+		hussar = {
+			attack = 1.3
+			#defence = 0.65
+		}
+		dragoon = {
+			attack = 1
+			#defence = 0.75
+		}
+		cuirassier = {
+			attack = 1.5
+			#defence = 0.5
+		}
+		artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
+		cavalry = {
+			attack = 0.7
+			#defence = 0.35
+		}
+		irregular = {
+			attack = 0.7
+			#defence = 0.35
+		}
+		guard = {
+			attack = 0.85
+			#defence = 0.85
+		}
+		engineer = {
+			attack = 1.2
+			#defence = 0.6
+		}
 		army_base = {
-			supply_consumption = -0.05
+			supply_consumption = 0.1
 		}
 	}
 }
@@ -1228,6 +1333,74 @@ rear_area_dumps = {
 #steel_breech_loaded_artillery
 #indirect_artillery_fire
 #creeping_barrage
+tankette = {
+	limit = { creeping_barrage = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			modern_army_doctrine = 1
+		}
+		modifier = {
+			factor = -3
+			not = { invention = tank_exploits }
+		}
+	}
+	effect = {
+		tank = {
+			attack = 2
+			defence = 2
+			supply_consumption = 0.05
+		}
+	}
+}
+light_tank = {
+	limit = { railway_gun = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			modern_army_doctrine = 1
+		}
+		modifier = {
+			factor = -4
+			not = { invention = tankette }
+		}
+	}
+	effect = {
+		tank = {
+			attack = 2
+			defence = 2
+			maximum_speed = 1
+			supply_consumption = 0.1
+		}
+	}
+}
+armoured_cars = {
+	limit = { creeping_barrage = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = tractors
+		}
+		modifier = {
+			factor = 2
+			invention = tankette
+		}
+		modifier = {
+			factor = -6
+			not = { invention = tank_exploits }
+		}
+	}
+	effect = {
+		tank = {
+			attack = 2
+			defence = 4
+			supply_consumption = 0.05
+		}
+	}
+}
 anti_aircraft_artillery = {
 	limit = { creeping_barrage = 1 }
 	chance = {
@@ -1250,7 +1423,7 @@ anti_aircraft_artillery = {
 	}
 }
 improved_anti_aircraft_artillery = {
-	limit = { creeping_barrage = 1 }
+	limit = { railway_gun = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1292,7 +1465,7 @@ light_artillery = {
 	}
 }
 medium_artillery = {
-	limit = { creeping_barrage = 1 }
+	limit = { railway_gun = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1348,6 +1521,7 @@ mob1 = {
 		mobilisation_economy_impact = 0.2
 	}
 }
+#military_staff_system
 cuirassier_activation = {
 	limit = { military_staff_system = 1 }
 	chance = {
@@ -1374,7 +1548,61 @@ dragoon_activation = {
 		activate_unit = dragoon
 	}
 }
+hussar_activation = {
+	limit = { military_staff_system = 1 }
+	chance = {
+		base = 100
+		modifier = {
+			factor = -100
+			not = { civilized = yes }
+		}
+	}
+	effect = {
+		activate_unit = hussar 
+	}
+}	
 
+#Unciv Debugging
+
+cuirassier_activation_unciv = {
+	limit = { military_staff_system = 1 }
+	chance = {
+		base = 100
+		modifier = {
+			factor = -100
+			civilized = yes
+		}
+	}
+	effect = {
+		activate_unit = cuirassier
+	}
+}
+dragoon_activation_unciv = {
+	limit = { military_staff_system = 1 }
+	chance = {
+		base = 100
+		modifier = {
+			factor = -100
+			civilized = yes
+		}
+	}
+	effect = {
+		activate_unit = dragoon
+	}
+}
+hussar_activation_unciv = {
+	limit = { military_staff_system = 1 }
+	chance = {
+		base = 100
+		modifier = {
+			factor = -100
+			civilized = yes
+		}
+	}
+	effect = {
+		activate_unit = hussar 
+	}
+}
 #military_plans
 telegraph_coordination = {
 	limit = { military_plans = 1 }
@@ -1391,8 +1619,8 @@ telegraph_coordination = {
 	}
 	effect = {
 		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.05
+			default_organisation = 5
+			supply_consumption = 0.10
 		} 
 	}
 }
@@ -1423,6 +1651,10 @@ mob3 = {
 			factor = 2
 			invention = mob2
 		}	
+		modifier = {
+			factor = 2
+			scientific_management = 1
+		}
 	}
 	effect = {
 		mobilisation_economy_impact = 0.1
@@ -1448,6 +1680,27 @@ mob4 = {
 	}	
 }
 
+ammunition_area_effect_calculations = {
+	limit = { military_statistics = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			empiricism = 1
+		}
+		modifier = {
+			factor = 2
+			scientific_management = 1
+		}
+	}
+	effect = {
+		army_base = {
+			default_organisation = 2.5
+			supply_consumption = -0.05
+		} 
+	}
+}
+
 empirical_combat_efficiency_matrix = {
 	limit = { military_statistics = 1 }
 	chance = {
@@ -1464,7 +1717,7 @@ empirical_combat_efficiency_matrix = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		} 
 	}
 }
@@ -1485,7 +1738,7 @@ combat_loss_evaluation_schemata = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.05
 		} 
 	}
 }
@@ -1525,7 +1778,7 @@ pre_planned_depot_systems = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
+			supply_consumption = -0.15
 		} 
 	}
 }
@@ -1546,99 +1799,157 @@ logistical_calculations = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
+			supply_consumption = -0.15
+		} 
+	}
+}
+
+replenishment_transport_organisation = {
+	limit = { military_logistics = 1 }
+	chance = {
+		base = 3
+		modifier = {
+			factor = 2
+			invention = logistical_calculations
+		}
+		modifier = {
+			factor = 2
+			iron_railroad = 1
+		}
+	}
+	effect = {
+		army_base = {
+			default_organisation = 2.5
+			supply_consumption = -0.15
+		} 
+	}
+}
+
+#military_directionism
+army_political_lobbying = {
+	limit = { aeronautics = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			state_n_government = 1
+		}
+		modifier = {
+			factor = 2
+			analytic_philosophy = 1
+		}
+	}
+	effect = {
+		mobilisation_economy_impact = -0.05
+	}
+}
+
+army_military_political_decision_making = {
+	limit = { aeronautics = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			army_nco_training = 1
+		}
+		modifier = {
+			factor = 2
+			invention = political_science
+		}
+	}
+	effect = {
+		army_base = {
+			default_organisation = 2.5
 			supply_consumption = 0.05
 		} 
 	}
 }
 
-
-#barrel_experiments
-tank_exploits = {
-	limit = { barrel_experiments = 1 }
+army_local_military_government = {
+	limit = { aeronautics = 1 }
 	chance = {
 		base = 2
 		modifier = {
+			factor = 1
+			nationalism_n_imperialism = 1
+		}
+		modifier = {
 			factor = 2
-			invention = synchronized_heavy_support
-		}
-		modifier = {
-			factor = 50
-			war = yes
-			war_countries = { invention = tank_exploits }
-		}
-		modifier = {
-			factor = -100
-			not = { invention = tank_experiments }
+			invention = dogma_of_violence
 		}
 	}
 	effect = {
-		tank = {
-			attack = 4
-			defence = 4
-			supply_consumption = 1
-			siege = 1				
-		}	
+		army_base = {
+			default_organisation = 2.5
+			supply_consumption = 0.05
+		} 
 	}
 }
 
 #aeronautics
-early_interwar_bombers = {
+military_aviation = {
 	limit = { aeronautics = 1 }
 	chance = {
-		base = 5
+		base = 10
 		modifier = {
-			factor = -5
-			not = { invention = military_aviation }
+			factor = 25
+			war = yes
+			war_countries = { invention = military_aviation }
 		}
 		modifier = {
-			factor = 10
-			war = yes
+			factor = 25
+			any_neighbor_country = {
+				invention = military_aviation
+			}
+		}
+		modifier = {
+			factor = -60
+			not = { invention = wright_n_langleys_aeroplanes }
 		}
 	}
 	effect = {
 		plane = {
-			attack = 0.5
-			support = 1
+			supply_consumption = 2.15
+		}
+	}
+}
+early_interwar_bombers = {
+	limit = { aeronautics = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = -2
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.025
 		}
 	}
 }
 early_interwar_fighters = {
 	limit = { aeronautics = 1 }
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
-			factor = -5
-			not = { invention = military_aviation }
-		}
-		modifier = {
-			factor = 10
-			war = yes
+			factor = -2
+			not = { invention = interruptor_gears }
 		}
 	}
 	effect = {
 		plane = {
-			attack = 0.5
+			attack = 1
 			defence = 1
+			supply_consumption = 0.025
 		}
 	}
 }
-
-#combined_arms_experimentss
-light_tank = {
-	limit = { combined_arms_experiments = 1 }
-	chance = {
-		base = 10
-		modifier = {
-			factor = 10
-			modern_army_doctrine = 1
-		}
-	}
-	effect = {
-		activate_unit = light_tank
-	}
-}
-medium_tank = {
-	limit = { combined_arms_experiments = 1 }
+#barrel_experiments
+late_interwar_fighters = {
+	limit = { barrel_experiments = 1 }
 	chance = {
 		base = 10
 		modifier = {
@@ -1647,43 +1958,19 @@ medium_tank = {
 		}
 		modifier = {
 			factor = -20
-			not = { invention = light_tank }
+			not = { invention = early_interwar_fighters }
 		}
 	}
 	effect = {
-		light_tank = {
-			attack = 6
-			defence = 3
-			supply_consumption = 1
-			maximum_speed = 2
+		plane = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.025
 		}
 	}
 }
-armoured_cars = {
-	limit = { combined_arms_experiments = 1 }
-	chance = {
-		base = 10
-		modifier = {
-			factor = 10
-			invention = tractors
-		}
-		modifier = {
-			factor = -30
-			not = { invention = tank_exploits }
-		}
-	}
-	effect = {
-		light_tank = {
-			attack = 10
-			defence = 9
-			siege = 1	
-			supply_consumption = 2
-		}
-	}
-}
-
 late_interwar_bombers = {
-	limit = { combined_arms_experiments = 1 }
+	limit = { barrel_experiments = 1 }
 	chance = {
 		base = 10
 		modifier = {
@@ -1703,7 +1990,83 @@ late_interwar_bombers = {
 		}
 	}
 }
-late_interwar_fighters = {
+t_air_superiority = {
+	limit = { barrel_experiments = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			shift_work = 1
+		}
+		modifier = {
+			factor = 2
+			modern_divisional_structure = 1
+		}
+		modifier = {
+			factor = -4
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+			attack = 1
+			defence = 1
+			default_organisation = 5
+		}
+	}
+}
+flying_circus_doctrine = {
+	limit = { barrel_experiments = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = t_air_superiority
+		}
+		modifier = {
+			factor = 1
+			invention = logistical_calculations
+		}
+		modifier = {
+			factor = -5
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+			attack = 1
+			defence = 1
+			default_organisation = 5
+		}
+	}
+}
+force_substitution_doctrine = {
+	limit = { barrel_experiments = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = t_air_superiority
+		}
+		modifier = {
+			factor = 2
+			analytic_philosophy = 1
+		}
+		modifier = {
+			factor = -5
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+		#	attack = 1
+		#	defence = 1
+			default_organisation = 5
+		}
+	}
+}
+#combined_arms_experiments
+medium_tank = {
 	limit = { combined_arms_experiments = 1 }
 	chance = {
 		base = 10
@@ -1713,67 +2076,98 @@ late_interwar_fighters = {
 		}
 		modifier = {
 			factor = -20
-			not = { invention = early_interwar_fighters }
+			not = { invention = light_tank }
 		}
 	}
 	effect = {
-		plane = {
-			defence = 2
-			reconnaissance = 2
-			supply_consumption = 1.5
+		tank = {
+			attack = 6
+			defence = 3
+			supply_consumption = 1
 			maximum_speed = 2
 		}
 	}
 }
 
+battlefield_destruction_doctrine = {
+	limit = { 
+		aeronautics = 1
+		great_war_experience = 1 
+	}
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = flying_circus_doctrine
+		}
+		modifier = {
+			factor = 2
+			invention = force_substitution_doctrine
+		}
+		modifier = {
+			factor = -6
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+		#	attack = 1
+		#	defence = 1
+			default_organisation = 5
+		}
+	}
+}
+operational_destruction_doctrine = {
+	limit = { combined_arms_experiments = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = flying_circus_doctrine
+		}
+		modifier = {
+			factor = 2
+			invention = force_substitution_doctrine
+		}
+		modifier = {
+			factor = -6
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+		#	attack = 1
+		#	defence = 1
+			default_organisation = 5
+		}
+	}
+}
+strategic_destruction_doctrine = {
+	limit = { combined_arms_experiments = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = flying_circus_doctrine
+		}
+		modifier = {
+			factor = 2
+			invention = force_substitution_doctrine
+		}
+		modifier = {
+			factor = -6
+			not = { invention = military_aviation }
+		}
+	}
+	effect = {
+		plane = {
+		#	attack = 1
+		#	defence = 1
+			default_organisation = 5
+		}
+	}
+}
 #army_command_principle
-army_societal_status = {
-	limit = { army_command_principle = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = -1000
-			NOT = { civilized = yes }
-		}
-		modifier = {
-			factor = 2
-			romanticism = 1
-		}
-		modifier = {
-			factor = 2
-			realism = 1
-		}
-	}
-	effect = {
-		mobilisation_economy_impact = -0.05
-	}
-}
-
-field_training = {
-	limit = { army_command_principle = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = -1000
-			NOT = { civilized = yes }
-		}
-		modifier = {
-			factor = 1
-			muzzle_loaded_rifles = 1
-		}
-		modifier = {
-			factor = 1
-			strategic_mobility = 1
-		}
-	}
-	effect = {
-		morale = 0.15
-		army_base = {
-			supply_consumption = 0.05
-		}
-	}
-}
-
 #army_professionalism
 army_academic_training = {
 	limit = { army_professionalism = 1 }
@@ -1790,14 +2184,65 @@ army_academic_training = {
 	}
 	effect = {
 		morale = 0.15
-		army_base = {
-			supply_consumption = 0.05
-		}
 	}
 }
 
+field_training = {
+	limit = { army_professionalism = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			muzzle_loaded_rifles = 1
+		}
+		modifier = {
+			factor = 1
+			strategic_mobility = 1
+		}
+	}
+	effect = {
+		mobilisation_economy_impact = -0.05
+	}
+}
+
+army_societal_status = {
+	limit = { army_professionalism = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			romanticism = 1
+		}
+		modifier = {
+			factor = 2
+			realism = 1
+		}
+	}
+	effect = {
+		mobilisation_economy_impact = -0.05
+	}
+}
 
 #army_decision_making
+army_independent_command = {
+	limit = { army_decision_making = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			ideological_thought = 1
+		}
+		modifier = {
+			factor = 2
+			positivism = 1
+		}
+	}
+	effect = {
+		army_base = {
+			default_organisation = 2.5
+		}
+	}
+}
 
 army_continuous_issuing_of_orders = {
 	limit = { army_decision_making = 1 }
@@ -1815,7 +2260,6 @@ army_continuous_issuing_of_orders = {
 	effect = {
 		army_base = {
 			maximum_speed = 1
-			supply_consumption = 0.05
 		}
 	}
 }
@@ -1835,14 +2279,30 @@ army_delegated_power = {
 
 	}
 	effect = {
-		morale = 0.1
-		army_base = {
-			supply_consumption = 0.05
-		}
+		morale = 0.3
 	}
 }
 
 #army_risk_management
+army_wargames = {
+	limit = { army_risk_management = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 1
+			state_n_government = 1
+		}
+		modifier = {
+			factor = 1
+			invention = staff_command_support 
+		}
+	}
+	effect = {
+		army_base = {
+			default_organisation = 2.5
+		}
+	}
+}
 army_alternative_plans = {
 	limit = { army_risk_management = 1 }
 	chance = {
@@ -1857,9 +2317,29 @@ army_alternative_plans = {
 		}
 	}
 	effect = {
-		morale = 0.05
-		army_base = {
-			supply_consumption = 0.05
+		infantry = {
+			maximum_speed = 1
+		}
+		hussar = {
+			maximum_speed = 1
+		}
+		dragoon = {
+			maximum_speed = 1
+		}
+		cuirassier = {
+			maximum_speed = 1
+		}
+		artillery = {
+			maximum_speed = 1
+		}
+		cavalry = {
+			maximum_speed = 1
+		}
+		irregular = {
+			maximum_speed = 1
+		}
+		guard = {
+			maximum_speed = 1
 		}
 	}
 }
@@ -1874,14 +2354,11 @@ saddle_orders = {
 		}
 		modifier = {
 			factor = 2
-			invention = trench_systemsI
+			invention = trench_systems
 		}
 	}
 	effect = {
-		morale = 0.15
-		army_base = {
-			supply_consumption = 0.05
-		}
+		morale = 0.3
 	}
 }
 
@@ -1901,7 +2378,7 @@ army_literate_ncos = {
 	}
 	effect = {
 		army_base = {
-			default_organisation = 2.5
+			default_organisation = 5
 		}
 	}
 }
@@ -1920,7 +2397,9 @@ nco_field_training = {
 		}
 	}
 	effect = {
-		morale = 0.05
+		army_base = {
+			maximum_speed = 1
+		}
 	}
 }
 
@@ -1938,46 +2417,8 @@ army_nco_tactical_training = {
 		}
 	}
 	effect = {
-		morale = 0.1
+		morale = 0.5
 	}
 }
 
 #great_war_experience
-army_independent_command = {
-	limit = { great_war_experience = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			ideological_thought = 1
-		}
-		modifier = {
-			factor = 2
-			positivism = 1
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.15
-		}
-	}
-}
-
-#total_war_philosophy
-army_wargames = {
-	limit = { total_war_philosophy = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			state_n_government = 1
-		}
-	}
-	effect = {
-		army_base = {
-			default_organisation = 2.5
-			supply_consumption = 0.2
-		}
-	}
-}

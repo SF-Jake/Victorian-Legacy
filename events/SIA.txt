@@ -265,10 +265,7 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = education_siam_reforms
-        OR = {
-            literacy = 0.5
-            civilized = yes
-        }
+        literacy = 0.5
 		OR = {
             tag = SIA
             tag = INC

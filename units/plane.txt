@@ -5,12 +5,11 @@ plane = {
 	sprite = Plane
 	active = no
 	unit_type = support
-	primary_culture = yes
 	floating_flag = no
 	
 	#Core Abilities
 	priority = 45
-	max_strength = 3
+	max_strength = 2
 	default_organisation = 30
 	maximum_speed = 5.00
 	weighted_value = 10.0
@@ -37,9 +36,9 @@ plane = {
 
 	#Land Abilties
 	reconnaissance = 4
-	attack = 4
-	defence = 6
-	discipline = 1
-	support = 3.5
-	maneuver = 5
+	attack = 8.012
+	defence = 8.012
+	discipline = 0.5
+	support = 5
+	maneuver = 1
 }

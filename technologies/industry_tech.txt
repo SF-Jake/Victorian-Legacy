@@ -156,7 +156,7 @@ steam_turbine = {
 				big_producer = fruit
 			}
 		}
-				modifier = {
+		modifier = {
 			factor = 1.02
 			tech_school = industrial_tech_school
 		}
@@ -950,7 +950,7 @@ modern_metallurgy = {
 }
 
 
-#tech_infrastructure
+#tech_infrastructure 
 experimental_railroad = {
 	area = tech_infrastructure
 	year = 1836

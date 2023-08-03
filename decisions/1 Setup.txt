@@ -1079,6 +1079,18 @@ political_decisions = {
 			any_pop = {
 				money = 2000000
 			}
+			SIA = {
+				relation = {
+					who = BUR
+					value = 600
+				}
+			}
+			DAI = {
+				relation = {
+					who = BUR
+					value = -200
+				}
+			}
 			CHI = {
 				any_pop = { reduce_pop = 0.40 }
 				any_country = {

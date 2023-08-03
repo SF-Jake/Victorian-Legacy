@@ -891,8 +891,15 @@ mob5_china_trigger = {
 unciv_research_points_on_conquer = {
 	trigger = {
 		civilized = no
+		OR = {
+			ai = no
+			tag = JAP
+			tag = EIC
+			tag = SIA
+			tag = PER
+		}
 	}
-	research_points_on_conquer = 250
+	research_points_on_conquer = 200
 }
 
 ########## Autonomous Dependencies ##########

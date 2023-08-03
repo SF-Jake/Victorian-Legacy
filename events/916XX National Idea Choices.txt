@@ -329,7 +329,7 @@ province_event = {
 	}
 
 	option = {
-		name = "-0.03 Infamy Decay"
+		name = "-0.05 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -425,7 +425,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+25% Education Efficiency"
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -586,7 +586,7 @@ province_event = {
 	}
 
 	option = {
-		name = "-0.03 Infamy Decay"
+		name = "-0.05 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -674,7 +674,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+25% Education Efficiency"
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -923,7 +923,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+25% Education Efficiency"
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -1084,7 +1084,7 @@ province_event = {
 	}
 
 	option = {
-		name = "-0.03 Infamy Decay"
+		name = "-0.05 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -1172,7 +1172,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+25% Education Efficiency"
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -1333,7 +1333,7 @@ province_event = {
 	}
 
 	option = {
-		name = "-0.03 Infamy Decay"
+		name = "-0.05 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -1421,7 +1421,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+25% Education Efficiency"
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -1582,7 +1582,7 @@ province_event = {
 	}
 
 	option = {
-		name = "-0.03 Infamy Decay"
+		name = "-0.05 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -1670,7 +1670,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+25% Education Efficiency"
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -1894,7 +1894,7 @@ country_event = {
 
 country_event = {
 	id = 91661
-	title = "-0.03 Infamy Decay"
+	title = "-0.05 Infamy Decay"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -2041,7 +2041,7 @@ country_event = {
 
 country_event = {
 	id = 91668
-	title = "+25% Education Efficiency"
+	title = "+15% Education Efficiency"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 

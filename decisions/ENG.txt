@@ -63,19 +63,16 @@ political_decisions = {
 				CAN = {
 					exists = yes
 					vassal_of = THIS
-					government = colonial_company
 				}
 				RPL = {
 					exists = yes
 					vassal_of = THIS
-					government = colonial_company
 				}
 			}
 			NOT = { has_country_flag = canada_annexed }
 		}
 
 		allow = {
-			CAN = { government = colonial_company }
 			NOT = { badboy = 1 }
 		}
 
@@ -133,13 +130,11 @@ political_decisions = {
 			AST = {
 				exists = yes
 				vassal_of = THIS
-				government = colonial_company
 			}
 			NOT = { has_country_flag = australia_annexed }
 		}
 
 		allow = {
-			AST = { government = colonial_company }
 			NOT = { badboy = 1 }
 		}
 
@@ -160,13 +155,11 @@ political_decisions = {
 			NZL = {
 				exists = yes
 				vassal_of = THIS
-				government = colonial_company
 			}
 			NOT = { has_country_flag = new_zealand_annexed }
 		}
 
 		allow = {
-			NZL = { government = colonial_company }
 			NOT = { badboy = 1 }
 		}
 

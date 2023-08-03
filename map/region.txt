@@ -1213,17 +1213,17 @@ AUS_768 = { 767 768 } #Slovenia
 
 AUS_777 = { 791 792 2538 } #Vojvodina
 
-PRU_544 = { 544 545 } #Mecklenburg
+PRU_544 = { 544 545 530 } #Mecklenburg
 
-PRU_547 = { 547 548 } #Pommern
+PRU_547 = { 547 548 546 } #Pommern
 
-PRU_546 = { 546 679 680 681 692 } #Stettin
+PRU_546 = { 679 680 692 } #Stettin
 
 PRU_581 = { 581 580 582 584 585 } #Westfalen
 
 PRU_553 = { 553 555 556 557 } #Magdeburg
 
-PRU_549 = { 549 550 551 552 } #Brandenburg
+PRU_549 = { 549 550 551 552 681 } #Brandenburg
 
 PRU_693 = { 693 694 696 } #WestpreuBen
 
@@ -1243,7 +1243,7 @@ PRU_701 = { 691 699 700 701 } #Posen
 
 PRU_370 = { 370 371 } #Schleswig
 
-MEC_544 = { 369 529 530 } #Holstein
+MEC_544 = { 369 529 } #Holstein
 
 WUR_589 = { 589 591 593 594 } #Wurttemberg
 
@@ -1269,7 +1269,7 @@ SAX_561 = { 561 563 562 } #Thuringia
 
 HEK_566 = { 566 537 536 554 } #Hessen
 
-RUS_706 = { 706 707 708 709 710 717} #Mazowieckie
+RUS_706 = { 706 707 708 709 710 717 712} #Mazowieckie
 
 SAR_720 = { 720 721 722 723 724 725 } #Piemonte
 
@@ -1281,7 +1281,7 @@ BOL_2305 = { 2305 2307 2308 2309 2578 } #Atacama
 
 RUS_718 = { 718 941 942 } #Minsk
 
-RUS_710 = { 711 712 713 715 716 } #Wielkopolskie
+RUS_710 = { 711 713 715 716 } #Wielkopolskie
 
 RUS_965 = { 965 968 969 970 971 } #Cherson
 
