@@ -35,7 +35,7 @@ post_napoleonic_army_doctrine = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 1.55
 		}
 		engineer = {
 			#attack = 0.6
@@ -88,7 +88,7 @@ field_fortifications = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 1.55
 		}
 		engineer = {
 			#attack = 0.6
@@ -186,7 +186,7 @@ flexible_firepower = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 1.55
 		}
 		engineer = {
 			#attack = 0.6
@@ -241,7 +241,7 @@ synchronized_heavy_support = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 1.55
 		}
 		engineer = {
 			#attack = 0.6
@@ -314,7 +314,7 @@ trench_systems = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 4.05
 		}
 		engineer = {
 			#attack = 0.6
@@ -369,7 +369,7 @@ elastic_defense_system = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 1.55
 		}
 		engineer = {
 			#attack = 0.6
@@ -425,7 +425,7 @@ flexible_counterattacks = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 1.55
 			#defence = 0.85
 		}
 		engineer = {
@@ -489,7 +489,7 @@ low_echelon_fire_support = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 1.55
 		}
 		engineer = {
 			#attack = 0.6
@@ -540,7 +540,7 @@ stormtrooper_training = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 1.55
 			#defence = 0.85
 		}
 		engineer = {
@@ -622,7 +622,7 @@ flexible_firepowerII = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 1.55
 		}
 		engineer = {
 			#attack = 0.6
@@ -678,7 +678,7 @@ firepower_vs_mobility = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 1.55
 		}
 		engineer = {
 			#attack = 0.6
@@ -755,7 +755,7 @@ human_wave_vs_spearhead = {
 		}
 		guard = {
 			#attack = 0.85
-			defence = 0.85
+			defence = 1.55
 		}
 		engineer = {
 			#attack = 0.6
@@ -811,7 +811,7 @@ flintlock_rifle_armament = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 1.55
 			#defence = 0.85
 		}
 		engineer = {
@@ -865,7 +865,7 @@ muzzle_loaded_rifle_armament = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 1.55
 			#defence = 0.85
 		}
 		engineer = {
@@ -919,7 +919,7 @@ breech_loaded_rifle_armament = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 1.55
 			#defence = 0.85
 		}
 		engineer = {
@@ -973,7 +973,7 @@ machine_gun_armament = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 1.55
 			#defence = 0.85
 		}
 		engineer = {
@@ -1068,7 +1068,7 @@ bolt_action_rifle_armament = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 4.55
 			#defence = 0.85
 		}
 		engineer = {
@@ -1163,7 +1163,7 @@ stormtrooper_trainingII = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 1.55
 			#defence = 0.85
 		}
 		engineer = {
@@ -1219,7 +1219,7 @@ interwar_infantry = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 1.55
 			#defence = 0.85
 		}
 		engineer = {
@@ -1315,7 +1315,7 @@ rear_area_dumps = {
 			#defence = 0.35
 		}
 		guard = {
-			attack = 0.85
+			attack = 1.55
 			#defence = 0.85
 		}
 		engineer = {
