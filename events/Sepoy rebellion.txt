@@ -63,7 +63,15 @@ country_event = {
 	major = yes
 
 	trigger = {
-		tag = EIC
+		OR = {
+			tag = EIC
+			AND = {
+				tag = HND
+				is_vassal = no
+				EIC = { has_country_flag = sepoy_rebellion }
+				has_global_flag = sepoy_rebellion_ended
+			}
+		}
 		ai = no
 		exists = yes
 		NOT = { has_country_flag = became_gp }
@@ -76,7 +84,20 @@ country_event = {
 	immediate = {
 		set_global_flag = india_collapse
 		set_country_flag = dismantling_eic
-		inherit = HND
+		any_country = {
+			limit = {
+				HND = { ai = no }
+				exists = HND
+			}
+			inherit = EIC
+		}
+		any_country = {
+			limit = {
+				EIC = { ai = no }
+				tag = EIC
+			}
+			inherit = HND
+		}
 		any_pop = { reduce_pop = 0.95 }
 	}
 
@@ -178,7 +199,14 @@ country_event = {
 	desc = ""
 
 	trigger = {
-		tag = EIC
+		OR = {
+			tag = EIC
+			AND = {
+				tag = HND
+				is_vassal = no
+				has_global_flag = sepoy_rebellion_ended
+			}
+		}
 		ai = yes
 		exists = yes
 		NOT = { has_country_flag = became_gp }
@@ -191,7 +219,6 @@ country_event = {
 	immediate = {
 		set_global_flag = india_collapse
 		set_country_flag = dismantling_eic
-		inherit = HND
 	}
 
 	option = {

@@ -1240,19 +1240,39 @@ political_decisions = {
 				}	
 				owner = { government = presidential_dictatorship }
 			}
-			USA_247 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_243 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_232 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_223 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_231 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_219 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_220 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_218 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_178 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_170 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_176 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_162 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
-			USA_168 = { add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_247 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_243 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_232 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_223 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_231 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_219 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_220 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_218 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_178 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_170 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_176 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_162 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+			USA_168 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
+		}
+	}
+
+	mexican_american_war = {
+		potential = {
+			tag = USA
+			has_country_flag = mex_usa_war
+			NOT = { has_country_flag = mex_usa_war2 }
+		}
+
+		allow = {
+			
+		}
+
+		effect = {
+			war = {
+				target = MEX
+				attacker_goal = { casus_belli = mexican_american_war country = USA }
+			}
+			set_country_flag = mex_usa_war2
 		}
 	}
 }

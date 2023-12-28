@@ -1049,6 +1049,8 @@ CHI_1566;Qingdao;;;;;;;;;;;;;x
 CHI_1569;Weihaiwei;;;;;;;;;;;;;x
 CHI_1564;Hainan;;;;;;;;;;;;;x
 CHI_1563;Ningbo;;;;;;;;;;;;;x
+CHI_1567;Hong Kong;;;;;;;;;;;;;x
+CHI_1496;Macao;;;;;;;;;;;;;x
 CHI_2615;Guangzhouwan;;;;;;;;;;;;;x
 CHI_2659;Tientsin;;;;;;;;;;;;;x
 CHI_3259;Guangzhouwan;;;;;;;;;;;;;x
@@ -3777,3 +3779,103 @@ Give_500_Canned_Food;Give them 500.;;;;;;;;;;;;;x
 Give_1000_Canned_Food;Give them 1000.;;;;;;;;;;;;;x
 Give_1500_Canned_Food;Give them 1500.;;;;;;;;;;;;;x
 Give_2000_Canned_Food;Give them 2000.;;;;;;;;;;;;;x
+centralize_hre_title;The Thousand Years' Reich;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+centralize_hre_desc;The Holy Roman Empire could have been the greatest power of the continent if it had been united. The previous emperor tried to centralize the various principalities during the Revolution but the Great German War forced him to withdraw its claims. But now we are strong enough to try the adventure once more and this time, maybe establish a Reich that will last a Thousand Years!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+move_to_frankfurt_title;Move the capital to Frankfurt;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+move_to_frankfurt_desc;Despite our efforts, the princes of the Empire did not accept our claim. We defeated them and we can rightfully be recognized Kaiser by the Germans ! Ein Reich, Ein Deustchland !;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+HLR;The Holy Roman Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+HLR_ADJ;Imperial;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+HLR_proletarian_dictatorship;The URRM;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+HLR_proletarian_dictatorship_ADJ;Mitteleuropan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+HLR_bourgeois_dictatorship;Freistaat Mitteleuropa;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+HLR_bourgeois_dictatorship_ADJ;Mitteleuropan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+HLR_democracy;Freistaat Mitteleuropa;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+HLR_democracy_ADJ;Mitteleuropan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_conservative_1;Loyalists;Faction radicale;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_conservative_2;Centrists;Faction socialiste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_conservative_3;Monarchists;Faction communiste;Xhosa;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_conservative_4;Moderates;Faction fasciste;Xhosa;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_conservative_5;National Democrats;;Konservative Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_liberal_1;Republican Party;;Liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_liberal_2;Parliamentarists;;Traditionelle Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_liberal_3;Reformists;;Die radikale Fraktion;;w鏊of;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_liberal_4;Liberal Democrats;;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_liberal_5;National Liberals;;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_socialist_1;Labour Party;;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_socialist_2;Leftists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_socialist_3;People's Party;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_socialist_4;Social Democrats;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_socialist_5;Progressivists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_reactionary_1;Traditionalists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_reactionary_2;Restorationists;;;;Kosoj;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_anarcho_liberal_1;Free Trade Party;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_anarcho_liberal_2;Radicals;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_communist_1;Worker's Party;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_communist_2;Internationalists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_fascist_1;National Socialists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_fascist_2;Falangists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AAA_social_liberal_1;Social-Liberals;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ita_formation_buff;Italy Formation Buff;;;;;;;;;;;;;x
+ita_formation_buff_desc; ;;;;;;;;;;;;;x
+place_in_the_sun_small;Small Place in the Sun;;;;;;;;;;;
+place_in_the_sun_small_short;Acquire Small State $STATE$.;;;;;;;;;;;
+place_in_the_sun_small_desc;Demand a 即small state劬 colony.;;;;;;;;;;;
+place_in_the_sun_small_setup;Acquire Small State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun_medium;Medium Place in the Sun;;;;;;;;;;;
+place_in_the_sun_medium_short;Acquire Medium State $STATE$.;;;;;;;;;;;
+place_in_the_sun_medium_desc;Demand a 即medium state劬 colony.;;;;;;;;;;;
+place_in_the_sun_medium_setup;Acquire Medium State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+place_in_the_sun;Place in the Sun;;;;;;;;;;;
+place_in_the_sun_short;Acquire State $STATE$.;;;;;;;;;;;
+place_in_the_sun_desc;Demand a 即state劬 colony.;;;;;;;;;;;
+place_in_the_sun_setup;Acquire State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_state_small;Acquire Small State;;;;;;;;;;;
+acquire_state_small_short;Acquire Small State $STATE$.;;;;;;;;;;;
+acquire_state_small_desc;Aquire an enemy 即small state劬.;;;;;;;;;;;
+acquire_state_small_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+acquire_state_medium;Acquire Medium State;;;;;;;;;;;
+acquire_state_medium_short;Acquire Medium State $STATE$.;;;;;;;;;;;
+acquire_state_medium_desc;Aquire an enemy 即medium state劬.;;;;;;;;;;;
+acquire_state_medium_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+acquire_state;Acquire State;;;;;;;;;;;
+acquire_state_short;Acquire State $STATE$.;;;;;;;;;;;
+acquire_state_desc;Aquire an enemy 即state劬.;;;;;;;;;;;
+acquire_state_setup;Demand that $RECIPIENT$ cede its state.;;;;;;;;;;;
+acquire_core_state_small;Acquire Small Core;;;;;;;;;;;
+acquire_core_state_small_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_small_desc;Aquire an enemy 即small state劬 where we have 即core provinces.劬;;;;;;;;;;;
+acquire_core_state_small_setup;Acquire small core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state_medium;Acquire Medium Core;;;;;;;;;;;
+acquire_core_state_medium_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_medium_desc;Aquire an enemy 即medium state劬 where we have 即core provinces.劬;;;;;;;;;;;
+acquire_core_state_medium_setup;Acquire medium core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+acquire_core_state;Acquire Core;;;;;;;;;;;
+acquire_core_state_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_desc;Aquire an enemy 即 state劬 where we have 即core provinces.劬;;;;;;;;;;;
+acquire_core_state_setup;Acquire core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+demand_concession_casus_belli_small;Small State Concession;;;;;;;;;;;
+demand_concession_casus_belli_small_short;Demand Small State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_small_desc;Demand a 即small state劬 concession.;;;;;;;;;;;
+demand_concession_casus_belli_small_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+demand_concession_casus_belli_small_exception;Small State Concession;;;;;;;;;;;
+demand_concession_casus_belli_small_exception_short;Demand Small State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_small_exception_desc;Demand a 即small state劬 concession.;;;;;;;;;;;
+demand_concession_casus_belli_small_exception_setup;Demand that $RECIPIENT$ cede its small state.;;;;;;;;;;;
+demand_concession_casus_belli_medium;Medium State Concession;;;;;;;;;;;
+demand_concession_casus_belli_medium_short;Demand Medium State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_medium_desc;Demand a 即medium state劬 concession.;;;;;;;;;;;
+demand_concession_casus_belli_medium_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception;Medium State Concession;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception_short;Demand Medium State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception_desc;Demand a 即medium state劬 concession.;;;;;;;;;;;
+demand_concession_casus_belli_medium_exception_setup;Demand that $RECIPIENT$ cede its medium state.;;;;;;;;;;;
+demand_concession_casus_belli;State Concession;;;;;;;;;;;
+demand_concession_casus_belli_short;Demand State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_desc;Demand a 即state劬 concession.;;;;;;;;;;;
+demand_concession_casus_belli_setup;Demand that $RECIPIENT$ cede its state.;;;;;;;;;;;
+demand_concession_casus_belli_exception;State Concession;;;;;;;;;;;
+demand_concession_casus_belli_exception_short;Demand State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_exception_desc;Demand a 即state劬 concession.;;;;;;;;;;;
+demand_concession_casus_belli_exception_setup;Demand that $RECIPIENT$ cede its state.;;;;;;;;;;;
+mexican_american_war_title;Mexican American War;;;;;;;;;;;
+mexican_american_war_desc;To bring civilization from coast to shining coast has always been the grand mission of our great republic. Let the Eagle spread its wings.;;;;;;;;;;;

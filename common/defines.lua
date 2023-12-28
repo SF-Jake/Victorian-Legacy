@@ -104,11 +104,11 @@ economy = {
 	GUNBOAT_HIGH_TAX_CAP = 1.0,
 	GUNBOAT_FLEET_SIZE_FACTOR = 100,
 	PROVINCE_SIZE_DIVIDER = 50,
-	CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT = 0.7, -- Capis don't build factories if less than this percent is employed in existing factories
+	CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT = 0.1, -- Capis don't build factories if less than this percent is employed in existing factories
 	GOODS_FOCUS_SWAP_CHANCE = 0, -- Percent increased chance that artisan wants to change goods independantly of how well he is doing presently
 	NUM_CLOSED_FACTORIES_PER_STATE_LASSIEZ_FAIRE = 1, -- Number of closed factories allowed per state under Lassiez Faire
 	MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE = 2, -- Min number of factories per state before starting to delete under Lassiez Faire
-	BANKRUPCY_DURATION = 3, -- Years til a bancrupcy clears all loans
+	BANKRUPCY_DURATION = 2, -- Years til a bancrupcy clears all loans
 	SECOND_RANK_BASE_SHARE_FACTOR = 1,
 	CIV_BASE_SHARE_FACTOR = 1,
 	UNCIV_BASE_SHARE_FACTOR = 1,
@@ -618,16 +618,16 @@ diplomacy = {
 
 
 pops = {
-	BASE_CLERGY_FOR_LITERACY = 0, 
+	BASE_CLERGY_FOR_LITERACY = 0.005, 
 	MAX_CLERGY_FOR_LITERACY = 0.04, 
-	LITERACY_CHANGE_SPEED = 0.1,
+	LITERACY_CHANGE_SPEED = 0.08,
 
 
 	ASSIMILATION_SCALE = 0.004,
 	CONVERSION_SCALE = 0.01,
 	IMMIGRATION_SCALE = 0.004,
 
-	PROMOTION_SCALE = 0.0012,
+	PROMOTION_SCALE = 0.002,
 	PROMOTION_ASSIMILATION_CHANCE = 1.0,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 0.8,

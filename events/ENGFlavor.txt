@@ -1999,59 +1999,59 @@ country_event = {
 		}
 	}
 
-	option = {
-		name = "EVTOPTA36950_1"
-		set_country_flag = great_irish_famine
-		set_country_flag = help_for_the_irish
-		money = -1500000
-		add_country_modifier = {
-			name = assisting_the_irish
-			duration = 1825
-		}
-		ENG_254 = {
-			add_province_modifier = {
-				name = lowered_irish_potato_blight
-				duration = 1825
-			}
-			remove_province_modifier = province_attract_immigrants
-		}
-		ENG_258 = {
-			add_province_modifier = {
-				name = lowered_irish_potato_blight
-				duration = 1825
-			}
-			remove_province_modifier = province_attract_immigrants
-		}
-		ENG_260 = {
-			add_province_modifier = {
-				name = lowered_irish_potato_blight
-				duration = 1825
-			}
-			remove_province_modifier = province_attract_immigrants
-		}
-		ENG_263 = {
-			add_province_modifier = {
-				name = lowered_irish_potato_blight
-				duration = 1825
-			}
-			remove_province_modifier = province_attract_immigrants
-		}
-		any_pop = {
-			limit = {
-				has_pop_culture = irish
-				location = { is_core = IRE }
-			}
-			consciousness = 3
-			militancy = 3
-		}
-		any_pop = {
-			limit = {
-				has_pop_culture = english
-			}
-			consciousness = 2
-			militancy = 2
-		}
-	}
+	# option = {
+	# 	name = "EVTOPTA36950_1"
+	# 	set_country_flag = great_irish_famine
+	# 	set_country_flag = help_for_the_irish
+	# 	money = -1500000
+	# 	add_country_modifier = {
+	# 		name = assisting_the_irish
+	# 		duration = 1825
+	# 	}
+	# 	ENG_254 = {
+	# 		add_province_modifier = {
+	# 			name = lowered_irish_potato_blight
+	# 			duration = 1825
+	# 		}
+	# 		remove_province_modifier = province_attract_immigrants
+	# 	}
+	# 	ENG_258 = {
+	# 		add_province_modifier = {
+	# 			name = lowered_irish_potato_blight
+	# 			duration = 1825
+	# 		}
+	# 		remove_province_modifier = province_attract_immigrants
+	# 	}
+	# 	ENG_260 = {
+	# 		add_province_modifier = {
+	# 			name = lowered_irish_potato_blight
+	# 			duration = 1825
+	# 		}
+	# 		remove_province_modifier = province_attract_immigrants
+	# 	}
+	# 	ENG_263 = {
+	# 		add_province_modifier = {
+	# 			name = lowered_irish_potato_blight
+	# 			duration = 1825
+	# 		}
+	# 		remove_province_modifier = province_attract_immigrants
+	# 	}
+	# 	any_pop = {
+	# 		limit = {
+	# 			has_pop_culture = irish
+	# 			location = { is_core = IRE }
+	# 		}
+	# 		consciousness = 3
+	# 		militancy = 3
+	# 	}
+	# 	any_pop = {
+	# 		limit = {
+	# 			has_pop_culture = english
+	# 		}
+	# 		consciousness = 2
+	# 		militancy = 2
+	# 	}
+	# }
 }
 
 #Indian Events
