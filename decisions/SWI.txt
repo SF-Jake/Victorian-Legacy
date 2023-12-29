@@ -205,7 +205,10 @@ political_decisions = {
 			}
 			any_country = {
 				limit = {
-					tag = GER
+					OR = {
+						tag = GER
+						tag = HRE
+					}
 					NOT = {
 						BAD_586 = { owned_by = AUS } 
 						BAD_586 = { owned_by = KUK } 
