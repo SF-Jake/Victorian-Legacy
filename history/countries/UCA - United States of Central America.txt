@@ -93,6 +93,9 @@ govt_flag =
 	civilized = yes
 	prestige = 1
 
+	set_country_flag = new_world_nation
+	set_country_flag = north_american_immigrant_nation
+
 	# Political reforms
 	slavery = no_slavery
 	upper_house_composition = appointed

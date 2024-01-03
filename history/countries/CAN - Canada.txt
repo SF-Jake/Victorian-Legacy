@@ -95,6 +95,9 @@ govt_flag =
 	literacy = 0.5
 	civilized = yes
 
+	set_country_flag = new_world_nation
+	set_country_flag = north_american_immigrant_nation
+
 	oob = "CAN_oob.txt"
 
 	# Political reforms

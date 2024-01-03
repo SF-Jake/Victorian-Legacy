@@ -112,17 +112,12 @@ gunboat = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = JAN }
+		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		OR = {
 			ai = yes
 			year = 1837
-		}
-		THIS = {
-			OR = {
-				NOT = { has_global_flag = ww1_bookmark }
-				has_global_flag = central_victory
-				has_global_flag = allied_victory
-				ai = no
-			}
 		}
 		NOT = { is_our_vassal = THIS }
 		OR =
@@ -130,15 +125,13 @@ gunboat = {
 			has_country_modifier = in_bankrupcy
 			has_country_modifier = generalised_debt_default
 		}
-		
-		in_default = THIS
-		NOT = {
+		THIS = {
 			OR = {
-				tag = JAN
-				tag = GHO
-				tag = SWI
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
 			}
 		}
+		in_default = THIS
 	}
 
 	break_truce_prestige_factor = 0
@@ -169,25 +162,29 @@ status_quo = {
 	is_triggered_only = yes
 	months = 12
 	constructing_cb = no
-
+	
 	can_use = {
+		NOT = { is_our_vassal = THIS }
+		always = no
+		NOT = { tag = JAN }
+		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		OR = {
 			ai = yes
 			year = 1837
 		}
-		always = no
 	}
 
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
 	truce_months = 60
-
+	
 	badboy_factor = 1
 	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
-
+	
 	on_add = {
 		move_issue_percentage = { 
 			from = jingoism 
@@ -195,12 +192,11 @@ status_quo = {
 			value = 0.25
 		}
 	}
-
+	
 	po_status_quo = yes
-
+	
 	war_name = WAR_NAME
 }
-
 # Conquest
 conquest = {
 	sprite_index = 2
@@ -209,17 +205,12 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = JAN }
+		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		OR = {
 			ai = yes
 			year = 1837
-		}
-		THIS = {
-			OR = {
-				NOT = { has_global_flag = ww1_bookmark }
-				has_global_flag = central_victory
-				has_global_flag = allied_victory
-				ai = no
-			}
 		}
 		THIS = {
 			OR = {
@@ -227,37 +218,15 @@ conquest = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		THIS = {
-			NOT = { has_country_flag = jan_mayen }
-		}
-		NOT = {
-			AND = {
-				OR = {
-					tag = EGY
-					tag = TUR
-					tag = RUS
-				}
-				THIS = { has_country_modifier = oriental_truce }
-			}
-		}	
-		NOT = {
-			OR = {
-				tag = JAN
-				tag = GHO
-			}
-		}
+		total_pops = 400000
+		this = { NOT = { badboy = 1 } }
+		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
 		OR = {
 			AND = {
 				civilized = yes
 				NOT = { number_of_states = 2 }
-			}
-			AND = {
-				has_country_flag = sub_saharan_africa
-				THIS = {
-					civilized = yes
-				}
 			}
 			AND = {
 				civilized = no
@@ -275,18 +244,9 @@ conquest = {
 				}
 			}
 		}
-		OR = {
-			neighbour = THIS
-			AND = {
-				num_of_ports = 1
-				THIS = {
-					num_of_ports = 1
-				}
-			}
-		}
 	}
 
-	badboy_factor = 2
+	badboy_factor = 1.1
 	prestige_factor = 5
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -325,6 +285,9 @@ civil_war = {
 	
 	can_use = {
 		always = no
+		NOT = { tag = JAN }
+		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		OR = {
 			ai = yes
 			year = 1837
@@ -366,9 +329,9 @@ add_to_sphere = {
 	months = 12
 	crisis = no
 
-	badboy_factor = 1
+	badboy_factor = 0.5
 	prestige_factor = 2
-	peace_cost_factor = 50
+	peace_cost_factor = 10
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 5
@@ -379,31 +342,26 @@ add_to_sphere = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
 
 	can_use = {
 		OR = {
 			ai = yes
 			year = 1837
 		}
-		THIS = {
-			OR = {
-				NOT = { has_global_flag = ww1_bookmark }
-				has_global_flag = central_victory
-				has_global_flag = allied_victory
-				ai = no
-			}
-		}
 		NOT = { is_our_vassal = THIS }
+		NOT = { tag = JAN }
+		NOT = { tag = GHO }
+		NOT = { tag = SWI }
+		this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = no
-		is_independant = yes
 		part_of_sphere = no
-		NOT = { total_pops = 7000000 }
-		NOT = {
+		THIS = {
 			OR = {
-				tag = JAN
-				tag = GHO
-				tag = SWI
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
 			}
 		}
 	}
@@ -431,9 +389,9 @@ take_from_sphere = {
 	is_triggered_only = yes
 	months = 12
 	
-	badboy_factor = 2
+	badboy_factor = 0.5
 	prestige_factor = 3
-	peace_cost_factor = 20
+	peace_cost_factor = 10
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 5
@@ -444,30 +402,20 @@ take_from_sphere = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
 
 	can_use = {
 		OR = {
 			ai = yes
 			year = 1837
 		}
-		THIS = {
-			OR = {
-				NOT = { has_global_flag = ww1_bookmark }
-				has_global_flag = central_victory
-				has_global_flag = allied_victory
-				ai = no
-			}
-		}
-		NOT = { is_our_vassal = THIS }
+		NOT = { tag = JAN }
+		NOT = { tag = GHO }
+		NOT = { tag = SWI }
+		this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = yes
-		NOT = {
-			OR = {
-				tag = JAN
-				tag = GHO
-				tag = SWI
-			}
-		}
 	}
 
 	
@@ -476,10 +424,7 @@ take_from_sphere = {
 	# war target country of goal is scope
 	allowed_countries = {
 		is_sphere_leader_of = FROM
-		OR = {
-			FROM = { is_vassal = no }
-			THIS = { is_our_vassal = FROM }
-		}
+		FROM = { is_vassal = no }
 	}
 	
 	po_add_to_sphere = yes
@@ -524,6 +469,7 @@ acquire_core_state_small = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
@@ -581,6 +527,7 @@ acquire_core_state_medium = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
@@ -638,6 +585,7 @@ acquire_core_state_large = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
@@ -695,6 +643,7 @@ acquire_core_state_huge = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
@@ -754,6 +703,7 @@ annex_core_country = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		any_owned_province = {
 			is_core = THIS
 		}
@@ -810,6 +760,7 @@ acquire_substate_region = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
+		NOT = { tag = SWI }
 		this = { NOT = { badboy = 1 } }
 		num_of_substates = 1 # if has any substate
 		THIS = {
