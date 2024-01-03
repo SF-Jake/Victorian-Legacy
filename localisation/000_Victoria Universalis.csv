@@ -1255,10 +1255,10 @@ european_african_conquest;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_setup;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_short;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_desc;Annex an uncivilized Sub-Saharan African country with greatly reduced infamy costs.;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli;Chinese Treaty Port;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli_setup;Chinese Treaty Port;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli_short;Chinese Treaty Port;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli_desc;Take a treaty port from China.;;;;;;;;;;;;;x
+acquire_treaty_port;Chinese Treaty Port;;;;;;;;;;;;;x
+acquire_treaty_port_setup;Chinese Treaty Port;;;;;;;;;;;;;x
+acquire_treaty_port_short;Chinese Treaty Port;;;;;;;;;;;;;x
+acquire_treaty_port_desc;Take a treaty port from China.;;;;;;;;;;;;;x
 demand_chinese_state;Demand Chinese State;;;;;;;;;;;;;x
 demand_chinese_state_setup;Demand Chinese State;;;;;;;;;;;;;x
 demand_chinese_state_short;Demand Chinese State;;;;;;;;;;;;;x
@@ -2080,9 +2080,6 @@ literacy_campaign;Literacy Campaign;;;;;;;;;;;;;x
 small_baby_boom;Small Baby Boom;;;;;;;;;;;;;x
 agriculture_expansion;Agriculture Expansion;;;;;;;;;;;;;x
 mine_expansion;Mine Expansion;;;;;;;;;;;;;x
-PRO;§WProvince RGO Expansion Flag\n§YIn Victoria 2, when a province changes owners, all old province modifiers are automatically removed. This flag allows RGO expansions to be remembered and transferred if a province changes ownership.;;;;;;;;;;;;;x
-SMA;§YSmall State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 150K population before 1860, less than 200k between 1860-1885, less than 300k between 1885-1910, and less than 450k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RSmall State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.§!;;;;;;;;;;;;;x
-MST;§YMedium State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 300K population before 1860, less than 400k between 1860-1885, less than 600k between 1885-1910, and less than 900k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RMedium State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.§!;;;;;;;;;;;;;x
 FWR;Fake War Target;;;;;;;;;;;;;x
 FWR_ADJ;§;;;;;;;;;;;;;x
 fake_war_title;§YDeclare Fake War;;;;;;;;;;;;;x
@@ -3939,3 +3936,11 @@ demand_concession_casus_belli_exception_desc;Demand a §Ystate§W concession.;;;;;
 demand_concession_casus_belli_exception_setup;Demand that $RECIPIENT$ cede its state.;;;;;;;;;;;
 mexican_american_war_title;Mexican American War;;;;;;;;;;;
 mexican_american_war_desc;To bring civilization from coast to shining coast has always been the grand mission of our great republic. Let the Eagle spread its wings.;;;;;;;;;;;
+PRO;§WProvince RGO Expansion Flag\n§YIn Victoria 2, when a province changes owners, all old province modifiers are automatically removed. This flag allows RGO expansions to be remembered and transferred if a province changes ownership.;;;;;;;;;;;;;x
+#############State Nations (Pero Credit)##############;;;;;;;;;;;;;;x
+SMA;§YSmall State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 400k pops.;;;;;;;;;;;;;x
+MED;§YMedium State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 700k pops.;;;;;;;;;;;;;x
+LRG;§YLarge State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 1m pops.;;;;;;;;;;;;;x
+HUG;§YHuge State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has above 1m pops.;;;;;;;;;;;;;x
+STR;§YStrategic State Flag\n§WThis flag dynamically assigns importance to this state. This province is in a state that has strategic value.;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x

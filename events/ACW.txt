@@ -1353,7 +1353,7 @@ country_event = {
 	option = {
 		war = {
 			target = MEX
-			attacker_goal = { casus_belli = mexican_american_war country = USA }
+			attacker_goal = { casus_belli = acquire_all_cores country = USA }
 		}
 		clr_country_flag = mex_usa_war
 	}

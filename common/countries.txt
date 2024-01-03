@@ -411,8 +411,10 @@ CIV		= "countries/Civilizing.txt"
 FWR		= "countries/Fake War.txt"
 GHO		= "countries/Ghost Country.txt"
 PRO		= "countries/Province Flag.txt"
-SMA		= "countries/Small State CB.txt"
-MST		= "countries/Medium State CB.txt"
+SMA		= "countries/Small State.txt"
+MED		="countries/Medium State.txt"
+LRG		="countries/Large State.txt"
+HUG		="countries/Huge State.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

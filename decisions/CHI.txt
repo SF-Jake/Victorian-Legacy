@@ -146,43 +146,77 @@ political_decisions = {
 		}
 	}
 
-	outlaw_opium = {
-		picture = outlaw_opium
+	appoint_lin_zexu = {
 		potential = {
-			OR = {
-				tag = CHI
-				tag = TPG
-			}
-			has_country_modifier = opium_addiction
-			NOT = { has_global_flag = opium_outlawed }
-			NOT = { has_global_flag = opium_war_happened }
+			tag = CHI
+			owns = 1493
+			owns = 1496
+			NOT = { has_country_flag = lin_is_commissioner }
 		}
 		allow = {
-			year = 1840
-			NOT = { year = 1900 }
+			year = 1839
 			war = no
-			num_of_cities = 50
+			NOT = {
+				has_truce = ENG
+			} 
+			#OR = { 
+			#	1493 = { 
+			#		has_province_modifier = local_opium_habit
+			#	}
+			#	1496 = { 
+			#		has_province_modifier = local_opium_habit
+			#	}
+			#}
+				
 		}
+
 		effect = {
-			remove_country_modifier = opium_addiction
-			set_global_flag = opium_outlawed
-			any_country = {
-				limit = {
-					has_country_modifier = unequal_china_treaty
+			set_country_flag = lin_is_commissioner
+			treasury = 5000
+			prestige = 25
+			relation = { 
+				with = ENG
+				value = -200
+			}
+			ENG = {
+				prestige = -10
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	begin_opium_war = {
+		potential = {
+			tag = ENG
+			CHI = { owns = 1496 }
+			NOT = { owns = 1496 }
+			CHI = { has_country_flag = lin_is_commissioner }
+			NOT = { has_country_flag = first_opium_war }
+		}
+		allow = {
+			total_amount_of_ships = 50
+			war = no	
+		}
+
+		effect = {
+			set_country_flag = first_opium_war
+			war = {
+				target = CHI
+				attacker_goal = {
+					casus_belli = acquire_treaty_port
+			                state_province_id = 1496
 				}
-				remove_country_modifier = unequal_china_treaty
-				country_event = {
-					id = 90824
-					days = 0
+			}
+			CHI = {
+				1496 = { 
+					remove_core = CHI 
 				}
 			}
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				year = 1850
-			}
 		}
 	}
 

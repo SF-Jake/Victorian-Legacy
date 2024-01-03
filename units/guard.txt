@@ -19,7 +19,7 @@ guard = {
 	build_cost = {
 		small_arms = 20 #10
 		canned_food = 20
-		luxury_clothes = 15
+		luxury_clothes = 30
 	}
 	
 	supply_consumption = 1.0
@@ -27,12 +27,12 @@ guard = {
 		small_arms = 0.018 #0.35
 		ammunition = 0.24 #1.13
 		canned_food = 0.075 #0.7
-		luxury_clothes = 0.001
+		luxury_clothes = 0.005
 	}
 	
 
 	#Land Abilties
-	reconnaissance = 3
+	reconnaissance = 0
 	attack = 6
 	defence = 6
 	discipline = 1.5

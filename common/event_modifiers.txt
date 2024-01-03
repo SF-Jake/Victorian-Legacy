@@ -904,6 +904,14 @@ recently_requested_trade = {
 	icon = 9
 }
 
+sizing_cooldown = {
+	icon = 10
+}
+
+no_more_war_reperations = {
+    icon = 2
+}
+
 ########## COLONY MODIFIERS ##########
 
 indirect_rule = {
@@ -1114,11 +1122,6 @@ the_statue_of_liberty = {
 	global_assimilation_rate = 0.5
 	global_immigrant_attract = 0.5
 	icon = 15
-}
-
-blockaded = {
-	global_immigrant_attract = -2
-	icon = 8
 }
 
 america_first = {

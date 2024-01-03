@@ -87,7 +87,7 @@ political_decisions = {
 			set_country_flag = conquest_of_sindh
 			war = {
 				target = SIN
-				attacker_goal = { casus_belli = puppet_acquire_state state_province_id = 1288 }
+				attacker_goal = { casus_belli = acquire_state state_province_id = 1288 }
 				call_ally = yes
 			}
 			ENG = { country_event = { id = 36960 days = 0 } }

@@ -3350,7 +3350,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA90814"
 		set_global_flag = warlord_era_ended
-		set_global_flag = opium_outlawed
 		any_country = {
 			limit = {
 				NOT = { tag = THIS }
@@ -3392,81 +3391,6 @@ country_event = {
 }
 
 ###### OPIUM WARS ######
-country_event = {	#Opium Addiction
-	id = 90820
-	title = "EVTNAME90820"
-	desc = "EVTDESC90820"
-	picture = opium_addiction
-
-	trigger = {
-		has_country_flag = chinese
-		NOT = { has_country_modifier = opium_addiction }
-		NOT = { has_global_flag = opium_outlawed }
-	}
-
-	option = {
-		name = "EVTOPTA90820"
-		add_country_modifier = { name = opium_addiction duration = -1 }
-	}
-}
-
-country_event = {	#Opium Outlawed
-	id = 90821
-	title = "EVTNAME90821"
-	desc = "EVTDESC90821"
-	picture = opium_addiction
-
-	trigger = {
-		has_country_modifier = opium_addiction
-		OR = {
-			has_global_flag = opium_outlawed
-			year = 1900
-		}
-	}
-
-	option = {
-		name = "EVTOPTA90821"
-		remove_country_modifier = opium_addiction
-		set_global_flag = opium_outlawed
-	}
-}
-
-country_event = {	#Gain Unequal China Treaty
-	id = 90822
-	title = "EVTNAME90822"
-	desc = "EVTDESC90822"
-	picture = opium_monopoly
-
-	trigger = {
-		OR = {
-			AND = {
-				ENG_1247 = {
-					owned_by = THIS
-				}
-				civilized = yes
-				part_of_sphere = no
-			}
-			AND = {
-				ENG_1247 = {
-					owner = {
-						in_sphere = THIS
-					}
-				}
-				civilized = yes
-			}
-		}
-		NOT = {
-			has_country_modifier = unequal_china_treaty
-			has_global_flag = opium_outlawed
-			year = 1900
-		}
-	}
-
-	option = {
-		name = "EVTOPTA90822"
-		add_country_modifier = { name = unequal_china_treaty duration = -1 }
-	}
-}
 
 country_event = {	#Lose Unequal China Treaty
 	id = 90823
@@ -3504,34 +3428,6 @@ country_event = {	#Lose Unequal China Treaty
 	option = {
 		name = "EVTOPTA90823"
 		remove_country_modifier = unequal_china_treaty
-	}
-}
-
-country_event = {	#European Response to Opium Outlawed
-	id = 90824
-	title = "EVTNAME90824"
-	desc = "EVTDESC90824"
-	picture = opium_war
-
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA90824"
-		war = {
-			target = FROM
-			attacker_goal = { casus_belli = opium_war }
-		}
-		ai_chance = {
-			factor = 1
-		}
-	}
-	
-	option = {
-		name = "EVTOPTB90824"
-		prestige = -25
-		ai_chance = {
-			factor = 0
-		}
 	}
 }
 
