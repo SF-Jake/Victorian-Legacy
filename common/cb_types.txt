@@ -4768,6 +4768,8 @@ puppet_acquire_state = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
+	constructing_cb = no
+	crisis = no
 	construction_speed = 0.5
 	
 	badboy_factor = 0
@@ -4789,7 +4791,6 @@ puppet_acquire_state = {
 			ai = yes
 			year = 1837
 		}
-		always = no
 	}
 	
 	allowed_states = {

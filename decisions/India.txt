@@ -85,11 +85,17 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = conquest_of_sindh
+			casus_belli = {
+				target = SIN
+				type = conquest
+				months = 12
+			}
 			war = {
 				target = SIN
-				attacker_goal = { casus_belli = acquire_state state_province_id = 1288 }
+				attacker_goal = { casus_belli = conquest }
 				call_ally = yes
 			}
+			badboy = -20
 			ENG = { country_event = { id = 36960 days = 0 } }
 		}
 		ai_will_do = { factor = 1 }

@@ -142,4 +142,23 @@ political_decisions = {
 			clr_global_flag = disable_crisis
 		}
 	}
+	option_3_enable_total_war = {
+		picture = "development_bio_weapons"
+		alert = yes
+		potential = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_nation
+			tag = LCT
+			ai = no
+			NOT = { has_global_flag = total_war_cbs_enabled }
+			has_global_flag = total_war_cb_safety_off
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			set_global_flag = total_war_cbs_enabled
+		}
+	}
 }
