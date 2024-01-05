@@ -1223,19 +1223,19 @@ assimilation_chance =
 		country = { has_country_flag = embraced_boarism }
 	}
 	modifier = {
-		factor = 0.07
+		factor = 0.25
 		country = { has_country_flag = assimilation_idea }
 	}
 
 	group = {
 		modifier = {
-			factor = 5
+			factor = 10
 			country = {
 				nationalvalue = nv_equality
 			}
 		}
 		modifier = {
-			factor = -4.95
+			factor = -7
 			has_culture_core = no
 			country = {
 				nationalvalue = nv_equality

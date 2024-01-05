@@ -486,7 +486,7 @@ country_event = {
 
 	trigger = {
 		tag = JAN
-		year = 1848
+		year = 1847
 		NOT = { year = 1850 }
 		NOT = { has_global_flag = hungarian_revolution_1848 }
 	}
@@ -498,7 +498,8 @@ country_event = {
 			limit = { tag = AUS exists = AUS }
 			AUS = {
 				release = HUN
-				country_event = { id = 31521 days = 1 }
+				country_event = { id = 31521 days = 365 }
+				country_event = { id = 31524 days = 1 }
 				diplomatic_influence = {
 					who = HUN
 					value = -400
@@ -533,7 +534,8 @@ country_event = {
 			limit = { tag = SGF exists = SGF }
 			SGF = {
 				release = HUN
-				country_event = { id = 31521 days = 1 }
+				country_event = { id = 31521 days = 365 }
+				country_event = { id = 31524 days = 1 }
 				diplomatic_influence = {
 					who = HUN
 					value = -400
@@ -582,6 +584,12 @@ country_event = {
 				personality = defence_3.1
 				background = attack_3.1
 			}
+			leadership = 500
+			money = 650000
+			artillery = 3000
+			canned_food = 3000
+			small_arms = 2500
+			ammunition = 2500
 		}
 	}
 }
@@ -679,6 +687,20 @@ country_event = {
 			prestige = -30
 		}
 		prestige = 30
+	}
+}
+
+country_event = {
+	title = "EVTNAME31521"
+	desc = "EVTDESC31521"
+	picture = "hungarian_revolution_1848"
+	id = 31524
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA31523"
+		
 	}
 }
 

@@ -206,7 +206,6 @@ country_event = {
 			AND = {
 				tag = HND
 				is_vassal = no
-				has_global_flag = sepoy_rebellion_ended
 			}
 		}
 		ai = yes
@@ -240,6 +239,10 @@ country_event = {
 				NOT = { tag = HND }
 				NOT = { tag = PRO }
 				NOT = { tag = MUG }
+				NOT = { tag = SMA }
+				NOT = { tag = MED }
+				NOT = { tag = LRG }
+				NOT = { tag = HUG }
 				any_core = {
 					owned_by = THIS
 				}

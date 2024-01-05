@@ -241,6 +241,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = java_annexed
 			inherit = JAV
+			add_accepted_culture = javan
 			badboy = 1
 		}
 
