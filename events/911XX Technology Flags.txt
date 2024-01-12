@@ -42,149 +42,7 @@ country_event = {
 	}
 }
 
-country_event = {
-	title = EVTNAMEmedicine
-	desc = EVTDESCmedicine
-	id = 91102
-	picture = technology_flag
-
-
-	trigger = {
-		medicine = 1
-		NOT = { has_country_flag = medicine_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"
-		set_country_flag = medicine_invented
-	}
-}
-
-country_event = {
-	title = EVTNAMEinorganicchemistry
-	desc = EVTDESCinorganicchemistry
-	id = 91103
-	picture = technology_flag
-
-
-	trigger = {
-		inorganic_chemistry = 1
-		NOT = { has_country_flag = inorganic_chemistry_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = inorganic_chemistry_invented
-	}
-}
-
-country_event = {
-	title = EVTNAMEorganicchemistry
-	desc = EVTDESCorganicchemistry
-	id = 91104
-	picture = technology_flag
-
-
-	trigger = {
-		organic_chemistry = 1
-		NOT = { has_country_flag = organic_chemistry_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = organic_chemistry_invented
-	}
-}
-
-country_event = {
-	title = EVTNAMEelectricity
-	desc = EVTDESCelectricity
-	id = 91105
-	picture = technology_flag
-
-
-	trigger = {
-		electricity = 1
-		NOT = { has_country_flag = electricity_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = electricity_invented
-	}
-}
 #Tariffs Events
-
-country_event = {
-	title = EVTNAMEno_standard
-	desc = EVTDESCno_standard
-	id = 91120
-	picture = technology_flag
-
-
-	trigger = {
-		no_standard = 1
-		NOT = { has_country_flag = no_standard_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"
-		set_country_flag = no_standard_invented
-	}
-}
-country_event = {
-	title = EVTNAMEad_hoc
-	desc = EVTDESCad_hoc
-	id = 91121
-	picture = technology_flag
-
-
-	trigger = {
-		ad_hoc_money_bill_printing = 1
-		NOT = { has_country_flag = ad_hoc_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = ad_hoc_invented
-	}
-}
-country_event = {
-	title = EVTNAMEprivate_bank
-	desc = EVTDESCprivate_bank
-	id = 91122
-	picture = technology_flag
-
-
-	trigger = {
-		private_bank_money_bill_printing = 1
-		NOT = { has_country_flag = private_bank_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = private_bank_invented
-	}
-}
-country_event = {
-	title = EVTNAMEcentral_bank
-	desc = EVTDESCcentral_bank
-	id = 91123
-	picture = technology_flag
-
-
-	trigger = {
-		central_bank_money_bill_printing = 1
-		NOT = { has_country_flag = central_bank_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = central_bank_invented
-	}
-}
-
-
 #country_event = {
 #	id = 91106
 #	title = EVTNAMEnavallogistics
@@ -201,150 +59,339 @@ country_event = {
 #	}
 #}
 
-country_event = {
-	title = EVTNAMErevolutionncounterrevolution
-	desc = EVTDESCrevolutionncounterrevolution
-	id = 91107
-	picture = technology_flag
+# country_event = {
+# 	title = "Conscription Nerf"
+# 	desc = "Four year and Mandatory Service is tech locked now"
+# 	id = 91103
+# 	picture = technology_flag
 
+# 	trigger = {
+# 		OR = {
+# 			AND = {
+# 				conscription = four_year_draft
+# 				NOT = { has_country_flag = military_logistics_invented }
+# 			}
+# 			AND = {
+# 				conscription = mandatory_service
+# 				NOT = { has_country_flag = army_nco_training_invented }
+# 			}
+# 		}
+# 	}
 
-	trigger = {
-		revolution_n_counterrevolution = 1
-		NOT = { has_country_flag = revolution_n_counterrevolution_invented }
-		centralization = regionalism
-		NOT = { has_country_flag = confederalism }
-		
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = revolution_n_counterrevolution_invented
-		political_reform = unitary
-	}
-}
-
-country_event = {
-	title = EVTNAMEcolonialnegotiations
-	desc = EVTDESCcolonialnegotiations
-	id = 91108
-	picture = technology_flag
-
-
-	trigger = {
-		invention = colonial_negotiations
-		NOT = { has_country_flag = colonial_negotiations_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = colonial_negotiations_invented
-	}
-}
+# 	option = {
+# 		random_owned = {
+# 			limit = {
+# 				owner = { conscription = mandatory_service }
+# 			}	
+# 			owner = { political_reform = two_year_draft }
+# 		}
+# 		random_owned = {
+# 			limit = {
+# 				owner = { conscription = four_year_draft }
+# 			}	
+# 			owner = { political_reform = two_year_draft }
+# 		}	
+# 	}
+# }
 
 country_event = {
-	title = EVTNAMEmob1
-	desc = EVTDESCmob1
-	id = 91109
+	title = EVTNAME91102
+	desc = EVTDESC91102
+	id = 91102
 	picture = technology_flag
 
-
 	trigger = {
-		invention = mob1
-		NOT = { has_country_flag = mob1_invented }
+		OR = {
+			AND = {
+				no_standard = 1
+				NOT = { has_country_flag = no_standard_invented }
+			}
+			AND = {
+				ad_hoc_money_bill_printing = 1
+				NOT = { has_country_flag = ad_hoc_invented }
+			}
+			AND = {
+				private_bank_money_bill_printing = 1
+				NOT = { has_country_flag = private_bank_invented }
+			}
+			AND = {
+				central_bank_money_bill_printing = 1
+				NOT = { has_country_flag = central_bank_invented }
+			}
+			AND = {
+				invention = mob1
+				NOT = { has_country_flag = mob1_invented }
+			}
+			AND = {
+				invention = mob2
+				NOT = { has_country_flag = mob2_invented }
+			}
+			AND = {
+				invention = mob3
+				NOT = { has_country_flag = mob3_invented }
+			}
+			AND = {
+				invention = mob4
+				NOT = { has_country_flag = mob4_invented }
+			}
+			AND = {
+				invention = mob5
+				NOT = { has_country_flag = mob5_invented }
+			}
+			AND = {
+				medicine = 1
+				NOT = { has_country_flag = medicine_invented }
+			}
+			AND = {
+				inorganic_chemistry = 1
+				NOT = { has_country_flag = inorganic_chemistry_invented }
+			}
+			AND = {
+				organic_chemistry = 1
+				NOT = { has_country_flag = organic_chemistry_invented }
+			}
+			AND = {
+				electricity = 1
+				NOT = { has_country_flag = electricity_invented }
+			}
+			AND = {
+				revolution_n_counterrevolution = 1
+				NOT = { has_country_flag = revolution_n_counterrevolution_invented }
+			}
+			AND = {
+				invention = colonial_negotiations
+				NOT = { has_country_flag = colonial_negotiations_invented }
+			}
+			AND = {
+				synthetic_polymers = 1
+				NOT = { has_country_flag = synthetic_polymers_invented }
+			}
+			# AND = {
+			# 	military_logistics = 1
+			# 	NOT = { has_country_flag = military_logistics_invented }
+			# }
+			# AND = {
+			# 	army_nco_training = 1
+			# 	NOT = { has_country_flag = army_nco_training_invented }
+			# }
+			AND = {
+				social_science = 1
+				NOT = { has_country_flag = social_science_invented }
+			}
+			AND = {
+				invention = working_board_of_directors
+				NOT = { has_country_flag = working_board_of_directors_invented }
+			}
+			AND = {
+				invention = centralized_economic_planning
+				NOT = { has_country_flag = centralized_economic_planning_invented }
+			}
+			AND = {
+				invention = mixed_economy
+				NOT = { has_country_flag = mixed_economy_invented }
+			}
+		}
 	}
-	
+
 	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = mob1_invented
-	}
-}
-
-country_event = {
-	title = EVTNAMEmob2
-	desc = EVTDESCmob2
-	id = 91110
-	picture = technology_flag
-
-
-	trigger = {
-		invention = mob2
-		NOT = { has_country_flag = mob2_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = mob2_invented
-	}
-}
-
-country_event = {
-	title = EVTNAMEmob3
-	desc = EVTDESCmob3
-	id = 91111
-	picture = technology_flag
-
-
-	trigger = {
-		invention = mob3
-		NOT = { has_country_flag = mob3_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = mob3_invented
-	}
-}
-
-country_event = {
-	title = EVTNAMEmob4
-	desc = EVTDESCmob4
-	id = 91112
-	picture = technology_flag
-
-
-	trigger = {
-		invention = mob4
-		NOT = { has_country_flag = mob4_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = mob4_invented
-	}
-}
-
-country_event = {
-	title = EVTNAMEmob5
-	desc = EVTDESCmob5
-	id = 91113
-	picture = technology_flag
-
-
-	trigger = {
-		invention = mob5
-		NOT = { has_country_flag = mob5_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = mob5_invented
-	}
-}
-
-country_event = {
-	title = EVTNAMEsyntheticpolymers
-	desc = EVTDESCsyntheticpolymers
-	id = 91114
-	picture = technology_flag
-
-
-	trigger = {
-		synthetic_polymers = 1
-		NOT = { has_country_flag = synthetic_polymers_invented }
-	}
-	
-	option = {
-		name = "EVTOPTAtechnologyflag"	
-		set_country_flag = synthetic_polymers_invented
+		name = "EVTOPTA91102"
+		random_owned = {
+			limit = {
+				owner = {
+					invention = mob1
+					NOT = { has_country_flag = mob1_invented }
+				}
+			}
+			owner = { set_country_flag = mob1_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					invention = mob2
+					NOT = { has_country_flag = mob2_invented }
+				}
+			}
+			owner = { set_country_flag = mob2_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					invention = mob3
+					NOT = { has_country_flag = mob3_invented }
+				}
+			}
+			owner = { set_country_flag = mob3_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					invention = mob4
+					NOT = { has_country_flag = mob4_invented }
+				}
+			}
+			owner = { set_country_flag = mob4_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					invention = mob5
+					NOT = { has_country_flag = mob5_invented }
+				}
+			}
+			owner = { set_country_flag = mob5_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					medicine = 1
+					NOT = { has_country_flag = medicine_invented }
+				}
+			}
+			owner = { set_country_flag = medicine_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					inorganic_chemistry = 1
+					NOT = { has_country_flag = inorganic_chemistry_invented }
+				}
+			}
+			owner = { set_country_flag = inorganic_chemistry_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					organic_chemistry = 1
+					NOT = { has_country_flag = organic_chemistry_invented }
+				}
+			}
+			owner = { set_country_flag = organic_chemistry_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					electricity = 1
+					NOT = { has_country_flag = electricity_invented }
+				}
+			}
+			owner = { set_country_flag = electricity_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					revolution_n_counterrevolution = 1
+					NOT = { has_country_flag = revolution_n_counterrevolution_invented }
+				}
+			}
+			owner = { set_country_flag = revolution_n_counterrevolution_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					has_country_flag = revolution_n_counterrevolution_invented
+					centralization = regionalism
+				}
+			}
+			owner = { political_reform = unitary }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					invention = colonial_negotiations
+					NOT = { has_country_flag = colonial_negotiations_invented }
+				}
+			}
+			owner = { set_country_flag = colonial_negotiations_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					synthetic_polymers = 1
+					NOT = { has_country_flag = synthetic_polymers_invented }
+				}
+			}
+			owner = { set_country_flag = synthetic_polymers_invented }
+		}
+		# random_owned = {
+		# 	limit = {
+		# 		owner = {
+		# 			military_logistics = 1
+		# 			NOT = { has_country_flag = military_logistics_invented }
+		# 		}
+		# 	}
+		# 	owner = { set_country_flag = military_logistics_invented }
+		# }
+		# random_owned = {
+		# 	limit = {
+		# 		owner = {
+		# 			army_nco_training = 1
+		# 			NOT = { has_country_flag = army_nco_training_invented }
+		# 		}
+		# 	}
+		# 	owner = { set_country_flag = army_nco_training_invented }
+		# }
+		random_owned = {
+			limit = {
+				owner = {
+					invention = working_board_of_directors
+					NOT = { has_country_flag = working_board_of_directors_invented }
+				}
+			}
+			owner = { set_country_flag = working_board_of_directors_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					invention = centralized_economic_planning
+					NOT = { has_country_flag = centralized_economic_planning_invented }
+				}
+			}
+			owner = { set_country_flag = centralized_economic_planning_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					invention = mixed_economy
+					NOT = { has_country_flag = mixed_economy_invented }
+				}
+			}
+			owner = { set_country_flag = mixed_economy_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					no_standard = 1
+					NOT = { has_country_flag = no_standard_invented }
+				}
+			}
+			owner = { set_country_flag = no_standard_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					ad_hoc_money_bill_printing = 1
+					NOT = { has_country_flag = ad_hoc_invented }
+				}
+			}
+			owner = { set_country_flag = ad_hoc_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					private_bank_money_bill_printing = 1
+					NOT = { has_country_flag = private_bank_invented }
+				}
+			}
+			owner = { set_country_flag = private_bank_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					central_bank_money_bill_printing = 1
+					NOT = { has_country_flag = central_bank_invented }
+				}
+			}
+			owner = { set_country_flag = central_bank_invented }
+		}
 	}
 }

@@ -91,127 +91,36 @@ superpower = {
 	icon = 9
 }
 
-########### HEALTHCARE ###########
-
-trinket_health_care_fully_funded = {
+early_rgo_boost = {
 	trigger = {
-		exists = yes
-		OR = {
-			health_care = trinket_health_care
-			health_care = low_health_care
-			health_care = acceptable_health_care
-			health_care = good_health_care
-			health_care = universal_health_care
-		}
-		OR = {
-			AND = {
-				ai = yes
-				social_spending = 0.09
-			}
-			AND = {
-				ai = no
-				social_spending = 0.19
-			}
-			has_country_flag = jan_mayen
-		}
+		exists = yes	
+		NOT = { year = 1880 }
 	}
-	global_population_growth = 0.001
-	icon = 19
+	rgo_output = 0.3
+	icon = 9
 }
 
-low_health_care_fully_funded = {
+########## TARIFF EFFICIENCY ##########
+centralized_economic_planning_modifier = {
 	trigger = {
-		exists = yes
-		OR = {
-			health_care = low_health_care
-			health_care = acceptable_health_care
-			health_care = good_health_care
-			health_care = universal_health_care
-		}
-		OR = {
-			AND = {
-				ai = yes
-				social_spending = 0.14
-			}
-			AND = {
-				ai = no
-				social_spending = 0.39
-			}
-			has_country_flag = jan_mayen
-		}
+		has_country_flag = centralized_economic_planning_invented
 	}
-	global_population_growth = 0.001
-	icon = 19
+	tariff_efficiency_modifier = 0.05
 }
 
-acceptable_health_care_fully_funded = {
+mixed_economy_modifier = {
 	trigger = {
-		exists = yes
-		OR = {
-			health_care = acceptable_health_care
-			health_care = good_health_care
-			health_care = universal_health_care
-		}
-		OR = {
-			AND = {
-				ai = yes
-				social_spending = 0.19
-			}
-			AND = {
-				ai = no
-				social_spending = 0.59
-			}
-			has_country_flag = jan_mayen
-		}
+		has_country_flag = mixed_economy_invented
 	}
-	global_population_growth = 0.001
-	icon = 19
+	tariff_efficiency_modifier = 0.05
 }
 
-good_health_care_fully_funded = {
+working_board_of_directors_modifier = {
 	trigger = {
-		exists = yes
-		OR = {
-			health_care = good_health_care
-			health_care = universal_health_care
-		}
-		OR = {
-			AND = {
-				ai = yes
-				social_spending = 0.24
-			}
-			AND = {
-				ai = no
-				social_spending = 0.79
-			}
-			has_country_flag = jan_mayen
-		}
+		has_country_flag = working_board_of_directors_invented
 	}
-	global_population_growth = 0.001
-	icon = 19
+	factory_maintenance = -0.1
 }
-
-universal_health_care_fully_funded = {
-	trigger = {
-		exists = yes
-		health_care = universal_health_care
-		OR = {
-			AND = {
-				ai = yes
-				social_spending = 0.29
-			}
-			AND = {
-				ai = no
-				social_spending = 0.99
-			}
-			has_country_flag = jan_mayen
-		}
-	}
-	global_population_growth = 0.001
-	icon = 19
-}
-
-########### EDUCATION ##########
 
 ########## DRAFT LAWS ##########
 
@@ -230,7 +139,7 @@ two_year_draft = {
 	}
 	mobilisation_size = 0.02		
 	icon = 15		
-}	
+}
 four_year_draft = {
 	trigger = {
 		NOT = { has_country_flag = chinese }
@@ -641,46 +550,6 @@ help_ai_tariffs = {
 	}
 	icon = 9
 	min_tariff = 0.5
-}
-
-help_ai_social1 = {
-	trigger = {
-		ai = yes
-		money = 1000000
-		year = 1850
-	}
-	icon = 9
-	min_social_spending = 0.25
-}
-
-help_ai_social2 = {
-	trigger = {
-		ai = yes
-		money = 2000000
-		year = 1865
-	}
-	icon = 9
-	min_social_spending = 0.25
-}
-
-help_ai_social3 = {
-	trigger = {
-		ai = yes
-		money = 4000000
-		year = 1880
-	}
-	icon = 9
-	min_social_spending = 0.25
-}
-
-help_ai_social4 = {
-	trigger = {
-		ai = yes
-		money = 8000000
-		year = 1895
-	}
-	icon = 9
-	min_social_spending = 0.25
 }
 
 help_ai_military1 = {
