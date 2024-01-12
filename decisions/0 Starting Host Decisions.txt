@@ -148,17 +148,28 @@ political_decisions = {
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_nation
-			tag = LCT
-			ai = no
 			NOT = { has_global_flag = total_war_cbs_enabled }
 			has_global_flag = total_war_cb_safety_off
 		}
 		allow = { 
-			tag = LCT
-			ai = no
 		}
 		effect = {
 			set_global_flag = total_war_cbs_enabled
+		}
+	}
+	option_3_disable_total_war = {
+		picture = "development_bio_weapons"
+		alert = yes
+		potential = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_nation
+			NOT = { has_global_flag = total_war_cbs_enabled }
+			has_global_flag = total_war_cb_safety_off
+		}
+		allow = { 
+		}
+		effect = {
+			clr_global_flag = total_war_cbs_enabled
 		}
 	}
 }

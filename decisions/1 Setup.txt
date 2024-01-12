@@ -425,7 +425,7 @@ political_decisions = {
 						NOT = { type = slaves }
 						is_culture_group = east_asian
 					}
-					literacy = 0.03
+					literacy = 0.02
 				}
 				any_pop = {
 					limit = {
@@ -870,7 +870,7 @@ political_decisions = {
 					limit = {
 						is_culture_group = east_asian
 					}
-					literacy = 0.03
+					literacy = 0.02
 				}
 				any_pop = {
 					limit = {
@@ -1086,7 +1086,7 @@ political_decisions = {
 				}
 			}
 			CHI = {
-				any_pop = { reduce_pop = 0.40 }
+				any_pop = { reduce_pop = 0.55 }
 				any_country = {
 					limit = {
 						NOT = {
@@ -1095,7 +1095,7 @@ political_decisions = {
 						substate_of = CHI
 						num_of_cities = 1
 					}
-					any_pop = { reduce_pop = 0.80 }
+					any_pop = { reduce_pop = 0.75 }
 				}
 			}
 
@@ -2496,6 +2496,8 @@ political_decisions = {
 		
 		effect = {
 			CHI = {
+				add_country_modifier = { name = imperial_examinations duration = -1 }
+				add_country_modifier = { name = middle_kingdom duration = -1 }
 				set_country_flag = chinese
 			}
 			TPG = {

@@ -219,7 +219,6 @@ conquest = {
 			}
 		}
 		total_pops = 400000
-		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
@@ -354,7 +353,6 @@ add_to_sphere = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = no
 		part_of_sphere = no
@@ -413,7 +411,6 @@ take_from_sphere = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = yes
 	}
@@ -761,7 +758,6 @@ acquire_substate_region = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		this = { NOT = { badboy = 1 } }
 		num_of_substates = 1 # if has any substate
 		THIS = {
 			OR = {
@@ -836,7 +832,6 @@ acquire_state_small = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		this = { NOT = { badboy = 1 } }
 		NOT = {
 			OR = {
 				has_country_flag = north_american_immigrant_nation
@@ -931,7 +926,6 @@ acquire_state_small_americas = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		this = { NOT = { badboy = 1 } }
 		OR = {
 			has_country_flag = north_american_immigrant_nation
 			has_country_flag = south_american_immigrant_nation
@@ -1025,7 +1019,6 @@ acquire_state_medium = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		this = { NOT = { badboy = 1 } }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -1115,7 +1108,6 @@ acquire_state_large = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		this = { NOT = { badboy = 1 } }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -1205,7 +1197,6 @@ acquire_state_huge = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		this = { NOT = { badboy = 1 } }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -1290,7 +1281,6 @@ place_in_the_sun_small = {
 			year = 1837
 		}
 		civilized = yes
-		this = { NOT = { badboy = 1 } }
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -1364,7 +1354,6 @@ place_in_the_sun_medium = {
 			year = 1837
 		}
 		civilized = yes
-		this = { NOT = { badboy = 1 } }
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -1438,7 +1427,6 @@ place_in_the_sun_large = {
 			year = 1837
 		}
 		civilized = yes
-		this = { NOT = { badboy = 1 } }
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -1512,7 +1500,6 @@ place_in_the_sun_huge = {
 			year = 1837
 		}
 		civilized = yes
-		this = { NOT = { badboy = 1 } }
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -2156,7 +2143,6 @@ liberate_country = {
 			}
 		}
 		year = 1914
-		this = { NOT = { badboy = 1 } }
 		THIS = {
 			civilized = yes
 		}
@@ -2244,6 +2230,10 @@ dismantle_forts = {
 	
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1837
+		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
@@ -2253,7 +2243,6 @@ dismantle_forts = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		this = { NOT = { badboy = 1 } }
 	}
 
 	# THIS - us
@@ -2311,7 +2300,6 @@ release_puppet = {
 			ai = yes
 			year = 1837
 		}
-		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 	}
@@ -2506,7 +2494,6 @@ humiliate = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		this = { NOT = { badboy = 1 } }
 		has_recently_lost_war = no
 	}	
 	on_add = {
@@ -3469,6 +3456,10 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1837
+		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
@@ -3636,6 +3627,10 @@ negotiated_transfer = {
 	good_relation_militancy_factor = 0
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1837
+		}
 		THIS = { ai = no }
 		ai = no
 		number_of_states = 2 # annex if you want their last state
@@ -3936,6 +3931,10 @@ demand_colony_for_allies = {
 	# war target country of goal is scope
 
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1837
+		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		OR = {
@@ -4005,6 +4004,10 @@ make_puppet_small = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1837
+		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 1 } }
@@ -4066,6 +4069,10 @@ make_puppet_large = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		OR = {
+			ai = yes
+			year = 1837
+		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		OR = {
@@ -4579,14 +4586,6 @@ acquire_siberian_state = {
 		OR = {
 			ai = yes
 			year = 1837
-		}
-		THIS = {
-			OR = {
-				NOT = { has_global_flag = ww1_bookmark }
-				has_global_flag = central_victory
-				has_global_flag = allied_victory
-				ai = no
-			}
 		}
 		THIS = {
 			OR = {

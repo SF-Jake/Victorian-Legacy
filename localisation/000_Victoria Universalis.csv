@@ -1622,7 +1622,7 @@ earth_scorched;Earth Scorched;;;;;;;;;;;;;x
 earth_scorched_desc;We have recently scorched our own land and must wait awhile before doing it again.;;;;;;;;;;;;;x
 zcountry_pass_reform_title;§YPass Reform;;;;;;;;;x;;;;
 zcountry_pass_reform_desc;Lets you pass any reform without the support of the upper house and gives the reform passed modifier for several years. You must still meet other requirements listed in the reform, e.g. you must have medicine in order to enact trinket healthcare and it cannot be less than 6 months since you passed another reform. The passed modifier gives negative tax efficiency and increased militancy.;;;;;;;;;x;;;;
-zcountry_increase_healthcare_title;Enact Healthcare Reform;;;;;;;;;x;;;;
+zcountry_increase_healthcare_title;§YEnact Healthcare Reform;;;;;;;;;x;;;;
 zcountry_increase_healthcare_desc;Raises your healthcare reform by one level and gives the reform passed modifier for several years. This modifier gives negative tax efficiency and increased militancy.;;;;;;;;;x;;;;
 zcountry_increase_conscription_title;Increase Draft Laws;;;;;;;;;x;;;;
 zcountry_increase_conscription_desc;Raises your draft law by one level and gives the reactionary surge modifier for several years. This modifier gives negative tax efficiency, increased militancy, and pushes your POPs to become more reactionary. If your government type is a fascist or communist dictatorship, or you are currently involved in a great war, the draft law will skip to service by requirement.;;;;;;;;;x;;;;
@@ -3705,7 +3705,7 @@ insane_empire2; Large Insane Empire;L'Empire de fou;Das wahnsinnig Reich;;El Imp
 switch_to_diplomacy_title;Embrace the Ideal of Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +100%\nBase Influence Points Generation: +20%\nCB Generation Speed: +15%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +40%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +25%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GSoldier Promotion Bonus: +10% (Scales with Military Spending)\nOrganization Regain Rate: +5%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -3944,3 +3944,23 @@ LRG;§YLarge State Flag\n§WThis flag dynamically assigns a size to this state. Th
 HUG;§YHuge State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has above 1m pops.;;;;;;;;;;;;;x
 STR;§YStrategic State Flag\n§WThis flag dynamically assigns importance to this state. This province is in a state that has strategic value.;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
+nv_autocracy;Autocracy;;;;;;;;;;;;;x
+nv_tradition;Tradition;;;;;;;;;;;;;x
+nv_productivity;Productivity;;;;;;;;;;;;;x
+nv_diplomacy;Diplomacy;;;;;;;;;;;;;x
+nv_education;Education;;;;;;;;;;;;;x
+zcountry_increase_healthcare_title;§YIncrease Healthcare Reform;;;;;;;;;x;;;;
+zcountry_increase_healthcare_desc;Raises your healthcare reform by one level.;;;;;;;;;x;;;;
+zcountry_decrease_healthcare_title;§YDecrease Healthcare Reform;;;;;;;;;x;;;;
+zcountry_decrease_healthcare_desc;Lowers your healthcare reform by one level.;;;;;;;;;x;;;;
+EVTNAME91102;Technology Flag Unlocked;;;;;;;;;;;;x
+EVTDESC91102;You have researched a new technology that gives a bonus or allows you to enact certain reforms and decisions.;;;;;;;;;;;;x
+EVTOPTA91102;Eureka!;;;;;;;;;;;;x
+working_board_of_directors;Working Board of Directors\n§WFactory Maintenance:§G -10.00%;;;;;;;;;;;;;;
+working_board_of_directors_modifier;Working Board of Directors;;;;;;;;;;;;;;
+centralized_economic_planning;Centralized Economic Planning\n§WTariff efficiency:§G +5.00%;;;;;;;;;;;;;;
+centralized_economic_planning_modifier;Centralized Economic Planning;;;;;;;;;;;;;;
+mixed_economy;Mixed Economy\n§WTariff efficiency:§G +5.00%;;;;;;;;;;;;;;
+mixed_economy_modifier;Mixed Economy;;;;;;;;;;;;;;
+military_logistics_invented;Military Logistics Invented.;;;;;;;;;;;;
+army_nco_training_invented;Army NCO Training Invented.;;;;;;;;;;;;

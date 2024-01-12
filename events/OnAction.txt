@@ -214,6 +214,7 @@ country_event = {
 				has_pop_type = farmers
 				is_core = PRO
 				NOT = { has_province_modifier = agriculture_expansion }
+				NOT = { has_province_modifier = treaty_port }
 			}
 			add_province_modifier = { name = agriculture_expansion duration = -1 }
 		}

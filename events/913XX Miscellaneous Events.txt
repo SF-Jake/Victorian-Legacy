@@ -4117,18 +4117,22 @@ country_event = {
 							tag = ALD
 							tag = FRA
 							tag = RUS
+							tag = CHL
+							tag = ARC
+							tag = BOL
+							tag = PEU
 						}
 						NOT = { 
 							year = 1837 
 						}
 					}
 				}
-				
+
 			}
 			any_owned = { 
 				limit = {
 					state_scope = { 
-						NOT = { total_pops = 400000 }
+						NOT = { total_pops = 350000 }
 					}
 				}
 				add_core = SMA 
@@ -4151,21 +4155,25 @@ country_event = {
 							tag = ALD
 							tag = FRA
 							tag = RUS
+							tag = CHL
+							tag = ARC
+							tag = BOL
+							tag = PEU
 						}
 						NOT = { 
 							year = 1837 
 						}
 					}
 				}
-				
+
 			}
 			any_owned = { 
 				limit = {
 					state_scope = { 
-						total_pops = 400000 
-						NOT = { total_pops = 700000 }
+						total_pops = 350000 
+						NOT = { total_pops = 650000 }
 					} 
-				} 
+				}
 				add_core = MED 
 				remove_core = SMA 
 				remove_core = LRG 
@@ -4186,19 +4194,23 @@ country_event = {
 							tag = ALD
 							tag = FRA
 							tag = RUS
+							tag = CHL
+							tag = ARC
+							tag = BOL
+							tag = PEU
 						}
 						NOT = { 
 							year = 1837 
 						}
 					}
 				}
-				
+
 			}
 			any_owned = {
 				limit = {
 					state_scope = { 
-						total_pops = 700000 
-						NOT = { total_pops = 1000000 }
+						total_pops = 650000 
+						NOT = { total_pops = 900000 }
 					} 
 				} 
 			add_core = LRG 
@@ -4221,18 +4233,22 @@ country_event = {
 							tag = ALD
 							tag = FRA
 							tag = RUS
+							tag = CHL
+							tag = ARC
+							tag = BOL
+							tag = PEU
 						}
 						NOT = { 
 							year = 1837 
 						}
 					}
 				}
-				
+
 			}
 			any_owned = { 
 				limit = {
 					state_scope = { 
-						total_pops = 1000000
+						total_pops = 900000
 					}
 				}
 				add_core = HUG 

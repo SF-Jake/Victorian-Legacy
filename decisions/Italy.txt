@@ -245,7 +245,6 @@ political_decisions = {
 			}
 			owns = 465
 			owns = 466
-			owns = 472
 			FRA = {
 				exists = yes
 				is_greater_power = yes
@@ -276,12 +275,6 @@ political_decisions = {
 				secede_province = FRA
 			}
 			466 = {
-				remove_core = ITA
-				remove_core = SAR
-				add_core = FRA
-				secede_province = FRA
-			}
-			472 = {
 				remove_core = ITA
 				remove_core = SAR
 				add_core = FRA
