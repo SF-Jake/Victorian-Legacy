@@ -17,6 +17,11 @@ name = "War of the Confederation"
 		receiver = BOL
 	}
 	war_goal = {
+		casus_belli = acquire_core_state state_province_id = 2370
+		actor = ARC
+		receiver = BOL
+	}
+	war_goal = {
 		casus_belli = status_quo
 		actor = CHL
 		receiver = BOL

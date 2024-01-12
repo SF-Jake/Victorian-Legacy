@@ -859,6 +859,7 @@ working_board_of_directors = {
 		}
 	}
 	effect = {
+		factory_cost = -0.01
 	}
 }
 bankruptcy_proceedings = {
@@ -876,7 +877,7 @@ bankruptcy_proceedings = {
 		}
 	}
 	effect = {
-		factory_cost = -0.02
+		factory_cost = -0.01 
 	}
 }
 annual_report_proceedings = {
@@ -894,7 +895,7 @@ annual_report_proceedings = {
 		}
 	}
 	effect = {
-		factory_cost = -0.02
+		factory_cost = -0.01
 	}
 }
 #government_interventionism
@@ -913,6 +914,7 @@ centralized_economic_planning = {
 		}
 	}
 	effect = {
+		factory_cost = -0.01
 	}
 }
 autarky = {
@@ -953,7 +955,7 @@ priming_the_pump_ = {
 		}
 	}
 	effect = {
-		loan_interest = -0.01
+		loan_interest = -0.005
 	}
 }
 mixed_economy = {
@@ -971,6 +973,7 @@ mixed_economy = {
 		}
 	}
 	effect = {
+		loan_interest = -0.005
 	}
 }
 #organized_factories

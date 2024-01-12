@@ -4885,6 +4885,488 @@ issues =
 			consciousness = 9
 		}
 	}
+	low_pensions = { 
+		factor = 1.1
+		modifier = {
+			factor = 0 
+			OR = {
+				NOT = {
+					is_next_reform = low_pensions
+					has_country_flag = ad_hoc_invented
+					year = 1845
+				}
+			}	
+		}
+		modifier = {
+			factor = 3
+			is_next_reform = low_pensions
+			has_country_flag = ad_hoc_invented
+			year = 1845
+		}		
+			modifier = {
+			factor = 0.25
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 9
+		}
+	}
+	acceptable_pensions = { 
+		factor = 1.1
+		modifier = {
+			factor = 0 
+			OR = {
+				NOT = {
+					is_next_reform = acceptable_pensions
+					has_country_flag = private_bank_invented 
+					year = 1850
+				}
+			}	
+		}
+		modifier = {
+			factor = 3
+			is_next_reform = acceptable_pensions
+			has_country_flag = private_bank_invented 
+			year = 1850
+		}	
+	modifier = {
+			factor = 0.25
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 9
+		}
+	}
+	good_pensions = { 
+		factor = 1.1
+		modifier = {
+			factor = 0 
+			OR = {
+				NOT = {
+					is_next_reform = good_pensions
+					has_country_flag = central_bank_invented
+					year = 1860
+				}
+			}	
+		}
+		modifier = {
+			factor = 3
+			is_next_reform = good_pensions
+			has_country_flag = central_bank_invented
+			year = 1860
+		}		
+	modifier = {
+			factor = 0.25
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 9
+		}
+
+	}
+	trinket_health_care = { 
+		factor = 1.1
+		modifier = {
+			factor = 0 
+			OR = {
+				NOT = {
+					is_next_reform = trinket_health_care
+				}
+				NOT = { year = 1855 }
+			}	
+		}
+		modifier = {
+			factor = 3
+			is_next_reform = trinket_health_care
+		}		
+		modifier = {
+			factor = 0.25
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 9
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.25 }
+		}	
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.5 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.75 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 1 }
+		}
+		modifier = {	
+			factor = 1.25		
+			state_scope = {
+				not = { poor_strata_life_needs = 1 }
+			}
+		}		
+		modifier = {	
+			factor = 1.25	
+			state_scope = {
+				not = { poor_strata_life_needs = 0.75 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = {
+				not = { poor_strata_life_needs = 0.5 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = { 
+				not = { poor_strata_life_needs = 0.25 }
+			}
+		}
+	}
+	low_health_care = { 
+		factor = 1.1
+		modifier = {
+			factor = 0 
+			OR = {
+				NOT = {
+					is_next_reform = low_health_care
+				}
+				NOT = { year = 1870 }
+			}	
+		}
+		modifier = {
+			factor = 3
+			is_next_reform = low_health_care
+		}		
+			modifier = {
+			factor = 0.25
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 9
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.25 }
+		}	
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.5 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.75 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 1 }
+		}
+		modifier = {	
+			factor = 1.25	
+			state_scope = {
+				not = { poor_strata_life_needs = 1 }
+			}
+		}		
+		modifier = {	
+			factor = 1.25	
+			state_scope = {
+				not = { poor_strata_life_needs = 0.75 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = {
+				not = { poor_strata_life_needs = 0.5 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = { 
+				not = { poor_strata_life_needs = 0.25 }
+			}
+		}
+	}
+	acceptable_health_care = { 
+		factor = 1.1
+		modifier = {
+			factor = 0 
+			OR = {
+				NOT = {
+					is_next_reform = acceptable_health_care
+				}
+				NOT = { year = 1885 }
+			}	
+		}
+		modifier = {
+			factor = 3
+			is_next_reform = acceptable_health_care
+		}		
+	modifier = {
+			factor = 0.25
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 9
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.25 }
+		}	
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.5 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.75 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 1 }
+		}
+		modifier = {	
+			factor = 1.25	
+			state_scope = {
+				not = { poor_strata_life_needs = 1 }
+			}
+		}		
+		modifier = {	
+			factor = 1.25
+			state_scope = {
+				not = { poor_strata_life_needs = 0.75 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = {
+				not = { poor_strata_life_needs = 0.5 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = { 
+				not = { poor_strata_life_needs = 0.25 }
+			}
+		}
+	}
+	good_health_care = { 
+		factor = 1.1
+		modifier = {
+			factor = 0 
+			OR = {
+				NOT = {
+					is_next_reform = good_health_care
+				}
+				NOT = { year = 1900 }
+			}	
+		}
+		modifier = {
+			factor = 3
+			is_next_reform = good_health_care
+		}		
+	modifier = {
+			factor = 0.25
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 9
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.25 }
+		}	
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.5 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.75 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 1 }
+		}
+		modifier = {	
+			factor = 1.25	
+			state_scope = {
+				not = { poor_strata_life_needs = 1 }
+			}
+		}		
+		modifier = {	
+			factor = 1.25	
+			state_scope = {
+				not = { poor_strata_life_needs = 0.75 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = {
+				not = { poor_strata_life_needs = 0.5 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = { 
+				not = { poor_strata_life_needs = 0.25 }
+			}
+		}
+	}
+	universal_health_care = { 
+		factor = 1.1
+		modifier = {
+			factor = 0 
+			OR = {
+				NOT = {
+					is_next_reform = universal_health_care
+				}
+				NOT = { year = 1915 }
+			}	
+		}
+		modifier = {
+			factor = 3
+			is_next_reform = universal_health_care
+		}		
+	modifier = {
+			factor = 0.25
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.25
+			consciousness = 9
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.25 }
+		}	
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.5 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 0.75 }
+		}
+		modifier = {
+			factor = 1.255
+			not = { life_needs = 1 }
+		}
+		modifier = {	
+			factor = 1.25	
+			state_scope = {
+				not = { poor_strata_life_needs = 1 }
+			}
+		}		
+		modifier = {	
+			factor = 1.25	
+			state_scope = {
+				not = { poor_strata_life_needs = 0.75 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = {
+				not = { poor_strata_life_needs = 0.5 }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			state_scope = { 
+				not = { poor_strata_life_needs = 0.25 }
+			}
+		}
+	}
 	fourteen_hours = { 
 		factor = 1
 		modifier = {

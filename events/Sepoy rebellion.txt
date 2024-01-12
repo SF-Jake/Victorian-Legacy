@@ -68,7 +68,8 @@ country_event = {
 			AND = {
 				tag = HND
 				is_vassal = no
-				war = no
+				EIC = { has_country_flag = sepoy_rebellion }
+				has_global_flag = sepoy_rebellion_ended
 			}
 		}
 		ai = no
@@ -203,11 +204,7 @@ country_event = {
 			AND = {
 				tag = HND
 				is_vassal = no
-<<<<<<< Updated upstream
 				has_global_flag = sepoy_rebellion_ended
-=======
-				war = no
->>>>>>> Stashed changes
 			}
 		}
 		ai = yes
