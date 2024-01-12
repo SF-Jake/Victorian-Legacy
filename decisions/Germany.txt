@@ -332,4 +332,89 @@ political_decisions = {
 			set_global_flag = ruhr_boom_has_happened
 		}
 	}
+
+	centralize_hre = { 
+		picture = Reich_kaiser
+		potential = { 
+			OR = {
+				tag = PRU 
+				tag = NGF
+				tag = GER
+			}
+			is_greater_power = yes
+			HLR = { exists = no }
+		}
+		
+		allow = { 
+			GER = { 
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+			AUS_627 = { owned_by = THIS }
+			AUS_625 = { owned_by = THIS }
+			AUS_631 = { owned_by = THIS }
+			AUS_612 = { owned_by = THIS }
+			SWI_605 = { owned_by = THIS }
+		}
+		effect = {
+			change_tag = HLR 	
+			any_country = {
+				limit = {
+					is_culture_group = germanic
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+			set_global_flag = hre_formed
+			remove_accepted_culture = south_german
+			remove_accepted_culture = czech
+			prestige = 50 
+		}
+	}
+	   
+		
+	move_to_frankfurt = { 
+		potential = { 
+			tag = HLR 
+			NOT = { has_country_flag = frankfurt_unify }
+		}
+		
+		allow = { 
+			is_greater_power = yes 
+			nationalism_n_imperialism = 1 
+			year = 1855
+			owns = 564
+		}
+		
+		effect = { 
+			GER = {
+				all_core = {
+					add_core = HLR
+				}
+			}
+			AUS_627 = { add_core = HLR }
+			AUS_625 = { add_core = HLR }
+			AUS_631 = { add_core = HLR }
+			AUS_612 = { add_core = HLR }
+			SWI_605 = { add_core = HLR }
+			set_country_flag = frankfurt_unify 
+			add_accepted_culture = czech
+			add_accepted_culture = south_german
+			capital = 564
+			prestige = 50 
+			564 = {
+				life_rating = 5
+			}
+		}
+		
+	}
 }

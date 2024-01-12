@@ -68,7 +68,7 @@ country_event = {
 			AND = {
 				tag = HND
 				is_vassal = no
-				war = no
+				war = no				
 			}
 		}
 		ai = no
@@ -118,7 +118,9 @@ country_event = {
 				NOT = { tag = PRO }
 				NOT = { tag = MUG }
 				NOT = { tag = SMA }
-				NOT = { tag = MST }
+				NOT = { tag = MED }
+				NOT = { tag = LRG }
+				NOT = { tag = HUG }
 				any_core = {
 					owned_by = THIS
 				}
@@ -203,11 +205,8 @@ country_event = {
 			AND = {
 				tag = HND
 				is_vassal = no
-<<<<<<< Updated upstream
 				has_global_flag = sepoy_rebellion_ended
-=======
 				war = no
->>>>>>> Stashed changes
 			}
 		}
 		ai = yes
@@ -241,6 +240,10 @@ country_event = {
 				NOT = { tag = HND }
 				NOT = { tag = PRO }
 				NOT = { tag = MUG }
+				NOT = { tag = SMA }
+				NOT = { tag = MED }
+				NOT = { tag = LRG }
+				NOT = { tag = HUG }
 				any_core = {
 					owned_by = THIS
 				}

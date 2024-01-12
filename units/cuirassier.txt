@@ -16,8 +16,8 @@ cuirassier = {
 	priority = 40
 	max_strength = 3
 	default_organisation = 30
-	maximum_speed = 5.00
-	weighted_value = 8.0
+	maximum_speed = 6.00
+	weighted_value = 7.0
 
 
 	#Building Costs
@@ -25,13 +25,12 @@ cuirassier = {
 	build_cost = {
 		small_arms = 10 #10
 		canned_food = 10
-		steel = 5
 		luxury_clothes = 5
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {		   #total cost 2.18
-		small_arms = 0.05 #0.55
+		small_arms = 0.022 #0.55
 		ammunition = 0.1  #0.5
 		canned_food = 0.08 #0.8
 		grain = 0.15       #0.33
@@ -39,11 +38,11 @@ cuirassier = {
 	
 
 	#Land Abilties
-	reconnaissance = 0
+	reconnaissance = 2
 	attack = 4.75
 	defence = 1.75
 	discipline = 1.0
 	support = 0.0
-	maneuver = 5
+	maneuver = 4
 	
 }

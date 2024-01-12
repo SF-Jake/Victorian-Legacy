@@ -42,58 +42,6 @@ country_event = {
 	}
 }
 
-#Tariffs Events
-#country_event = {
-#	id = 91106
-#	title = EVTNAMEnavallogistics
-#	desc = EVTDESCnavallogistics
-#	
-#	trigger = {
-#		naval_logistics = 1
-#		NOT = { has_country_flag = naval_logistics_invented }
-#	}
-#	
-#	option = {
-#		name = "EVTOPTAtechnologyflag"	
-#		set_country_flag = naval_logistics_invented
-#	}
-#}
-
-# country_event = {
-# 	title = "Conscription Nerf"
-# 	desc = "Four year and Mandatory Service is tech locked now"
-# 	id = 91103
-# 	picture = technology_flag
-
-# 	trigger = {
-# 		OR = {
-# 			AND = {
-# 				conscription = four_year_draft
-# 				NOT = { has_country_flag = military_logistics_invented }
-# 			}
-# 			AND = {
-# 				conscription = mandatory_service
-# 				NOT = { has_country_flag = army_nco_training_invented }
-# 			}
-# 		}
-# 	}
-
-# 	option = {
-# 		random_owned = {
-# 			limit = {
-# 				owner = { conscription = mandatory_service }
-# 			}	
-# 			owner = { political_reform = two_year_draft }
-# 		}
-# 		random_owned = {
-# 			limit = {
-# 				owner = { conscription = four_year_draft }
-# 			}	
-# 			owner = { political_reform = two_year_draft }
-# 		}	
-# 	}
-# }
-
 country_event = {
 	title = EVTNAME91102
 	desc = EVTDESC91102

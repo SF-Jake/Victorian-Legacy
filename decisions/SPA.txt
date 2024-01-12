@@ -108,10 +108,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = begin_reconquista
 			badboy = 10
-			UCA_2186 = { add_core = THIS }
-			UCA_2191 = { add_core = THIS }
-			UCA_2197 = { add_core = THIS }
-			UCA_2201 = { add_core = THIS }
 			casus_belli = {
 				target = UCA
 				type = conquest
@@ -148,11 +144,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = continue_reconquista_1
 			badboy = 10
-			CLM_1723 = { add_core = THIS }
-			CLM_2251 = { add_core = THIS }
-			CLM_2247 = { add_core = THIS }
-			CLM_2262 = { add_core = THIS }
-			2401 = { add_core = THIS }
 			casus_belli = {
 				target = CLM
 				type = conquest
@@ -189,10 +180,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = continue_reconquista_2
 			badboy = 10
-			VNZ_2234 = { add_core = THIS }
-			VNZ_2265 = { add_core = THIS }
-			ECU_2279 = { add_core = THIS }
-			PEU_2289 = { add_core = THIS }
 			casus_belli = {
 				target = VNZ
 				type = conquest
@@ -241,11 +228,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = continue_reconquista_final
 			badboy = 15
-			GCL = {
-				all_core = {
-					add_core = THIS
-				}
-			}
 			casus_belli = {
 				target = MEX
 				type = conquest
@@ -284,6 +266,19 @@ political_decisions = {
 		effect = {
 			set_country_flag = reconquista_acceptance
 			prestige = 20
+			CLM_1723 = { add_core = THIS }
+			CLM_2251 = { add_core = THIS }
+			CLM_2247 = { add_core = THIS }
+			CLM_2262 = { add_core = THIS }
+			UCA_2186 = { add_core = THIS }
+			UCA_2191 = { add_core = THIS }
+			UCA_2197 = { add_core = THIS }
+			UCA_2201 = { add_core = THIS }
+			VNZ_2234 = { add_core = THIS }
+			VNZ_2265 = { add_core = THIS }
+			ECU_2279 = { add_core = THIS }
+			PEU_2289 = { add_core = THIS }
+			2401 = { add_core = THIS }
 			add_accepted_culture = central_american
 			add_accepted_culture = north_andean
 		}
@@ -311,6 +306,11 @@ political_decisions = {
 		effect = {
 			set_country_flag = reconquista_acceptance2
 			prestige = 10
+			GCL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 			add_accepted_culture = mexican
 		}
 	}

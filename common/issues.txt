@@ -352,6 +352,7 @@ political_reforms = {
 			global_immigrant_attract = 0.03
 		}
 	}
+
 	political_parties = {
 		next_step_only = yes
 		underground_parties = {
@@ -378,6 +379,7 @@ political_reforms = {
 			allow = { NOT = { vote_franschise = none_voting } }
 		}
 	}
+	
 	conscription = {
 		next_step_only = yes
 		mandatory_service = {

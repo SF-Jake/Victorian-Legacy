@@ -114,6 +114,9 @@
 	civilized = yes
 	is_releasable_vassal = no
 
+	set_country_flag = new_world_nation
+	set_country_flag = north_american_immigrant_nation
+
 	# Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1

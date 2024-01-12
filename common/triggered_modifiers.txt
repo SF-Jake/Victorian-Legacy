@@ -116,7 +116,7 @@ mixed_economy_modifier = {
 }
 
 working_board_of_directors_modifier = {
-	trigger = {
+	trigger = {	
 		has_country_flag = working_board_of_directors_invented
 	}
 	factory_maintenance = -0.1
@@ -130,7 +130,7 @@ one_year_draft = {
 		conscription = one_year_draft
 	}
 	mobilisation_size = 0.01
-	icon = 15		
+	icon = 15
 }
 two_year_draft = {
 	trigger = {
@@ -139,7 +139,7 @@ two_year_draft = {
 	}
 	mobilisation_size = 0.02		
 	icon = 15		
-}
+}	
 four_year_draft = {
 	trigger = {
 		NOT = { has_country_flag = chinese }
@@ -760,6 +760,13 @@ mob5_china_trigger = {
 unciv_research_points_on_conquer = {
 	trigger = {
 		civilized = no
+		OR = {
+			ai = no
+			tag = JAP
+			tag = EIC
+			tag = SIA
+			tag = PER
+		}
 	}
 	research_points_on_conquer = 250
 }

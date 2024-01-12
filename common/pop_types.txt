@@ -1223,31 +1223,19 @@ assimilation_chance =
 		country = { has_country_flag = embraced_boarism }
 	}
 	modifier = {
-<<<<<<< Updated upstream
-		factor = 0.07
-=======
 		factor = 0.14
->>>>>>> Stashed changes
 		country = { has_country_flag = assimilation_idea }
 	}
 
 	group = {
 		modifier = {
-<<<<<<< Updated upstream
-			factor = 5
-=======
 			factor = 8
->>>>>>> Stashed changes
 			country = {
 				nationalvalue = nv_equality
 			}
 		}
 		modifier = {
-<<<<<<< Updated upstream
-			factor = -4.95
-=======
 			factor = -7.99
->>>>>>> Stashed changes
 			has_culture_core = no
 			country = {
 				nationalvalue = nv_equality

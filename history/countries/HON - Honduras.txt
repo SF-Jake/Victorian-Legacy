@@ -81,6 +81,9 @@
 	literacy = 0.17
 	civilized = yes
 
+	set_country_flag = new_world_nation
+	set_country_flag = north_american_immigrant_nation
+
 	# Political reforms
 	slavery = no_slavery
 	upper_house_composition = appointed

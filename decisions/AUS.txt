@@ -89,7 +89,7 @@ political_decisions = {
 				add_core = KUK
 			}
 			HUN = {
-				all_core = { add_core = KUK remove_core = HUN }
+				all_core = { add_core = KUK }
 				annex_to = THIS
 			}
 			any_pop = {

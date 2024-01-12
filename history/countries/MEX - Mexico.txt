@@ -96,6 +96,9 @@ govt_flag =
 	prestige = 5
 	set_country_flag = mexican
 
+	set_country_flag = new_world_nation
+	set_country_flag = north_american_immigrant_nation
+
 	# Political reforms
 	slavery = no_slavery
 	upper_house_composition = state_equal_weight

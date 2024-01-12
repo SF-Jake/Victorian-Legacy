@@ -373,12 +373,6 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
-						is_culture_group = hazara
-					}
-					literacy = -0.01
-				}
-				any_pop = {
-					limit = {
 						is_culture_group = south_asian
 					}
 					literacy = 0.01
@@ -701,7 +695,7 @@ political_decisions = {
 					limit = {
 						has_pop_culture = north_italian
 					}
-					literacy = 0.44
+					literacy = 0.52
 				}
 				any_pop = {
 					limit = {
@@ -1079,6 +1073,18 @@ political_decisions = {
 			any_pop = {
 				money = 2000000
 			}
+			SIA = {
+				relation = {
+					who = BUR
+					value = 600
+				}
+			}
+			DAI = {
+				relation = {
+					who = BUR
+					value = -200
+				}
+			}
 			CHI = {
 				any_pop = { reduce_pop = 0.55 }
 				any_country = {
@@ -1132,7 +1138,6 @@ political_decisions = {
 			}
 			ENG = {
 				add_country_modifier = { name = corn_laws duration = -1 }
-				add_country_modifier = { name = unequal_china_treaty duration = -1 }
 				add_country_modifier = { name = hegemon duration = -1 }
 				add_country_modifier = { name = crown_rule duration = -1 }
 			}
@@ -1373,25 +1378,6 @@ political_decisions = {
 			1616 = { set_province_flag = summer_palace }
 			1008 = { set_province_flag = moscow_city }
 			country_event = { id = 90031 days = 1}
-			any_country = {
-				any_owned = {
-					limit = {
-						state_scope = {
-							NOT = { total_pops = 150000 }
-						}
-					}
-					add_core = SMA
-				}
-				any_owned = {
-					limit = {
-						state_scope = {
-							total_pops = 150000
-							NOT = { total_pops = 300000 }
-						}
-					}
-					add_core = MST
-				}
-			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -2500,8 +2486,10 @@ political_decisions = {
 	chinese_setup = {
 
 		potential = {
-			tag = CHI
-			always = no
+			tag = JAN
+			CHI = {
+				NOT = { has_country_flag = chinese }
+			}
 		}
 		
 		allow = { }
@@ -2511,34 +2499,6 @@ political_decisions = {
 				add_country_modifier = { name = imperial_examinations duration = -1 }
 				add_country_modifier = { name = middle_kingdom duration = -1 }
 				set_country_flag = chinese
-				add_country_modifier = { name = imperial_examinations duration = -1 }
-				add_country_modifier = { name = opium_addiction duration = -1 }
-				add_country_modifier = { name = middle_kingdom duration = -1 }
-				all_core = {
-					limit = {
-						NOT = {
-							OR = {
-								owned_by = MCK
-								owned_by = MGL
-								owned_by = TIB
-								owned_by = XIN
-							}
-						}
-						NOT = {
-							OR = {
-								province_id = 1481
-								province_id = 1569
-								province_id = 1566
-								province_id = 2659
-								province_id = 1538
-								province_id = 1496
-								province_id = 1498
-								province_id = 2615
-							}
-						}
-					}
-					farmers = { reduce_pop = 2.5 }
-				}
 			}
 			TPG = {
 				set_country_flag = chinese

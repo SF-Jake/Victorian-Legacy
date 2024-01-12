@@ -42,7 +42,7 @@ political_decisions = {
 		
 		effect = { clr_country_flag = nv_change }
 		
-		ai_will_do = { factor = 0 }
+		ai_will_do = { factor = 1 }
 	}
 	
 	switch_to_diplomacy = {

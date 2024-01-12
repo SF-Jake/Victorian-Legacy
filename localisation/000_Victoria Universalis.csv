@@ -1255,10 +1255,10 @@ european_african_conquest;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_setup;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_short;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_desc;Annex an uncivilized Sub-Saharan African country with greatly reduced infamy costs.;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli;Chinese Treaty Port;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli_setup;Chinese Treaty Port;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli_short;Chinese Treaty Port;;;;;;;;;;;;;x
-demand_chinese_concession_casus_belli_desc;Take a treaty port from China.;;;;;;;;;;;;;x
+acquire_treaty_port;Chinese Treaty Port;;;;;;;;;;;;;x
+acquire_treaty_port_setup;Chinese Treaty Port;;;;;;;;;;;;;x
+acquire_treaty_port_short;Chinese Treaty Port;;;;;;;;;;;;;x
+acquire_treaty_port_desc;Take a treaty port from China.;;;;;;;;;;;;;x
 demand_chinese_state;Demand Chinese State;;;;;;;;;;;;;x
 demand_chinese_state_setup;Demand Chinese State;;;;;;;;;;;;;x
 demand_chinese_state_short;Demand Chinese State;;;;;;;;;;;;;x
@@ -1622,6 +1622,8 @@ earth_scorched;Earth Scorched;;;;;;;;;;;;;x
 earth_scorched_desc;We have recently scorched our own land and must wait awhile before doing it again.;;;;;;;;;;;;;x
 zcountry_pass_reform_title;§YPass Reform;;;;;;;;;x;;;;
 zcountry_pass_reform_desc;Lets you pass any reform without the support of the upper house and gives the reform passed modifier for several years. You must still meet other requirements listed in the reform, e.g. you must have medicine in order to enact trinket healthcare and it cannot be less than 6 months since you passed another reform. The passed modifier gives negative tax efficiency and increased militancy.;;;;;;;;;x;;;;
+zcountry_increase_healthcare_title;§YEnact Healthcare Reform;;;;;;;;;x;;;;
+zcountry_increase_healthcare_desc;Raises your healthcare reform by one level and gives the reform passed modifier for several years. This modifier gives negative tax efficiency and increased militancy.;;;;;;;;;x;;;;
 zcountry_increase_conscription_title;Increase Draft Laws;;;;;;;;;x;;;;
 zcountry_increase_conscription_desc;Raises your draft law by one level and gives the reactionary surge modifier for several years. This modifier gives negative tax efficiency, increased militancy, and pushes your POPs to become more reactionary. If your government type is a fascist or communist dictatorship, or you are currently involved in a great war, the draft law will skip to service by requirement.;;;;;;;;;x;;;;
 zcountry_suppression_title;§YMartial Law;;;;;;;;;x;;;;
@@ -2078,9 +2080,6 @@ literacy_campaign;Literacy Campaign;;;;;;;;;;;;;x
 small_baby_boom;Small Baby Boom;;;;;;;;;;;;;x
 agriculture_expansion;Agriculture Expansion;;;;;;;;;;;;;x
 mine_expansion;Mine Expansion;;;;;;;;;;;;;x
-PRO;§WProvince RGO Expansion Flag\n§YIn Victoria 2, when a province changes owners, all old province modifiers are automatically removed. This flag allows RGO expansions to be remembered and transferred if a province changes ownership.;;;;;;;;;;;;;x
-SMA;§YSmall State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 150K population before 1860, less than 200k between 1860-1885, less than 300k between 1885-1910, and less than 450k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RSmall State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.§!;;;;;;;;;;;;;x
-MST;§YMedium State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 300K population before 1860, less than 400k between 1860-1885, less than 600k between 1885-1910, and less than 900k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RMedium State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.§!;;;;;;;;;;;;;x
 FWR;Fake War Target;;;;;;;;;;;;;x
 FWR_ADJ;§;;;;;;;;;;;;;x
 fake_war_title;§YDeclare Fake War;;;;;;;;;;;;;x
@@ -2961,7 +2960,7 @@ EVTDESC31520;The Habsburg Empire is currently racked with liberal rebellions at 
 EVTOPTA31520;Demand independence.;;;;;;;;;;;x
 EVTOPTB31520;Maintain the status quo.;;;;;;;;;;;x
 EVTNAME31521;Hungarian Revolution of 1848;;;;;;;;;;;x
-EVTDESC31521;The diet of Hungary has taken advantage of our recent troubles by declaring independence and establishing the Hungarian Republic. Our previous emperor, Ferdinand I, gave in to their demands of independence, but his successor Franz Joseph I wishes to revoke all concessions and restore order to Hungary.;;;;;;;;;;;x
+EVTDESC31521;The diet of Hungary has taken advantage of our recent troubles by declaring independence and establishing the Hungarian Republic. Our previous emperor, Ferdinand I, gave in to their demands of independence, but his successor Franz Joseph I wishes to revoke all concessions and restore order to Hungary.§RHungarian Revolution will start at 1848;;;;;;;;;;;x
 EVTOPTA31521;We will restore order in Hungary.;;;;;;;;;;;x
 EVTOPTB31521;Grant them independence.;;;;;;;;;;;x
 EVTNAME31522;Habsburg Victory!;;;;;;;;;;;x
@@ -3777,6 +3776,66 @@ Give_500_Canned_Food;Give them 500.;;;;;;;;;;;;;x
 Give_1000_Canned_Food;Give them 1000.;;;;;;;;;;;;;x
 Give_1500_Canned_Food;Give them 1500.;;;;;;;;;;;;;x
 Give_2000_Canned_Food;Give them 2000.;;;;;;;;;;;;;x
+z1manage_grants_title;ï¿½YManage Money Grants and Military Supplies Aid;;;;;;;;;;;;;x
+z1manage_grants_desc;Triggers an event that lets you enable giving grants, deny giving grants, or request money and military goods from other human players.;;;;;;;;;;;;;x
+requested_grant;Requested Grant;;;;;;;;;;;;;x
+requested_grant_desc;We have recently requested a grant and must wait awhile before asking for another one.;;;;;;;;;;;;;x
+EVTNAMEgrantoptions;Grant Options;;;;;;;;;;;;;x
+EVTDESCgrantoptions;In order to give player grants or military supplies, select the enable giving aid option. If you wish to automatically deny grants and military supplies, select the deny giving aid option. If you are asking for a money grant or military supplies, select the type of aid you wish to receive. Note that if you wish to give military supplies to another player, you must manually set your stockpile.;;;;;;;;;;;;;x
+EVTNAMEinsufficientmoney;Insufficient Stockpile;;;;;;;;;;;;;x
+EVTDESCinsufficientmoney;We do not have the required stockpile of supplies that we wish to send.;;;;;;;;;;;;;x
+EVTOPTAinsufficientmoney;Ok.;;;;;;;;;;;;;x
+EVTNAMEgivemoney;$FROMCOUNTRY$ Requests a Grant;;;;;;;;;;;;;x
+EVTDESCgivemoney;$FROMCOUNTRY$ has asked us for a grant. Shall we give it to them?;;;;;;;;;;;;;x
+Give_Nothing;Don't give anything.;;;;;;;;;;;;;x
+Give_0.05M_Grant;Give them 50,000.;;;;;;;;;;;;;x
+Give_0.1M_Grant;Give them 100,000.;;;;;;;;;;;;;x
+Give_0.25M_Grant;Give them 250,000.;;;;;;;;;;;;;x
+Give_0.5M_Grant;Give them 500,000.;;;;;;;;;;;;;x
+Give_1M_Grant;Give them 1,000,000.;;;;;;;;;;;;;x
+Give_2M_Grant;Give them 2,000,000.;;;;;;;;;;;;;x
+EVTNAMEgiveartillery;$FROMCOUNTRY$ Requests Artillery;;;;;;;;;;;;;x
+EVTDESCgiveartillery;$FROMCOUNTRY$ has asked us for a shipment of artillery. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Artillery;Give them 200.;;;;;;;;;;;;;x
+Give_500_Artillery;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Artillery;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Artillery;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Artillery;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgiveammunition;$FROMCOUNTRY$ Requests Ammunition;;;;;;;;;;;;;x
+EVTDESCgiveammunition;$FROMCOUNTRY$ has asked us for a shipment of ammunition. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Ammunition;Give them 200.;;;;;;;;;;;;;x
+Give_500_Ammunition;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Ammunition;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Ammunition;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Ammunition;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgivesmallarms;$FROMCOUNTRY$ Requests Small Arms;;;;;;;;;;;;;x
+EVTDESCgivesmallarms;$FROMCOUNTRY$ has asked us for a shipment of small arms. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Small_Arms;Give them 200.;;;;;;;;;;;;;x
+Give_500_Small_Arms;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Small_Arms;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Small_Arms;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Small_Arms;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgivesteamerconvoys;$FROMCOUNTRY$ Requests Steamer Convoys;;;;;;;;;;;;;x
+EVTDESCgivesteamerconvoys;$FROMCOUNTRY$ has asked us for a shipment of steamer convoys. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Steamer_Convoys;Give them 200.;;;;;;;;;;;;;x
+Give_500_Steamer_Convoys;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Steamer_Convoys;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Steamer_Convoys;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Steamer_Convoys;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgiveclipperconvoys;$FROMCOUNTRY$ Requests Clipper Convoys;;;;;;;;;;;;;x
+EVTDESCgiveclipperconvoys;$FROMCOUNTRY$ has asked us for a shipment of clipper convoys. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Clipper_Convoys;Give them 200.;;;;;;;;;;;;;x
+Give_500_Clipper_Convoys;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Clipper_Convoys;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Clipper_Convoys;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Clipper_Convoys;Give them 2000.;;;;;;;;;;;;;x
+EVTNAMEgivecannedfood;$FROMCOUNTRY$ Requests Canned Food;;;;;;;;;;;;;x
+EVTDESCgivecannedfood;$FROMCOUNTRY$ has asked us for a shipment of canned food. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Canned_Food;Give them 200.;;;;;;;;;;;;;x
+Give_500_Canned_Food;Give them 500.;;;;;;;;;;;;;x
+Give_1000_Canned_Food;Give them 1000.;;;;;;;;;;;;;x
+Give_1500_Canned_Food;Give them 1500.;;;;;;;;;;;;;x
+Give_2000_Canned_Food;Give them 2000.;;;;;;;;;;;;;x
 centralize_hre_title;The Thousand Years' Reich;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 centralize_hre_desc;The Holy Roman Empire could have been the greatest power of the continent if it had been united. The previous emperor tried to centralize the various principalities during the Revolution but the Great German War forced him to withdraw its claims. But now we are strong enough to try the adventure once more and this time, maybe establish a Reich that will last a Thousand Years!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 move_to_frankfurt_title;Move the capital to Frankfurt;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3877,8 +3936,6 @@ demand_concession_casus_belli_exception_desc;Demand a §Ystate§W concession.;;;;;
 demand_concession_casus_belli_exception_setup;Demand that $RECIPIENT$ cede its state.;;;;;;;;;;;
 mexican_american_war_title;Mexican American War;;;;;;;;;;;
 mexican_american_war_desc;To bring civilization from coast to shining coast has always been the grand mission of our great republic. Let the Eagle spread its wings.;;;;;;;;;;;
-<<<<<<< Updated upstream
-=======
 PRO;§WProvince RGO Expansion Flag\n§YIn Victoria 2, when a province changes owners, all old province modifiers are automatically removed. This flag allows RGO expansions to be remembered and transferred if a province changes ownership.;;;;;;;;;;;;;x
 #############State Nations (Pero Credit)##############;;;;;;;;;;;;;;x
 SMA;§YSmall State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 400k pops.;;;;;;;;;;;;;x
@@ -3886,7 +3943,7 @@ MED;§YMedium State Flag\n§WThis flag dynamically assigns a size to this state. T
 LRG;§YLarge State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 1m pops.;;;;;;;;;;;;;x
 HUG;§YHuge State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has above 1m pops.;;;;;;;;;;;;;x
 STR;§YStrategic State Flag\n§WThis flag dynamically assigns importance to this state. This province is in a state that has strategic value.;;;;;;;;;;;;;x
-#############################################;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
 nv_autocracy;Autocracy;;;;;;;;;;;;;x
 nv_tradition;Tradition;;;;;;;;;;;;;x
 nv_productivity;Productivity;;;;;;;;;;;;;x
@@ -3907,4 +3964,3 @@ mixed_economy;Mixed Economy\n§WTariff efficiency:§G +5.00%;;;;;;;;;;;;;;
 mixed_economy_modifier;Mixed Economy;;;;;;;;;;;;;;
 military_logistics_invented;Military Logistics Invented.;;;;;;;;;;;;
 army_nco_training_invented;Army NCO Training Invented.;;;;;;;;;;;;
->>>>>>> Stashed changes

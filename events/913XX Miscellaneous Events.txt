@@ -3223,180 +3223,6 @@ country_event = {
 
 	option = {
 		any_country = {
-			any_owned = {
-				limit = {
-					state_scope = {
-						NOT = { total_pops = 150000 }
-					}
-				}
-				add_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					year = 1860
-					state_scope = {
-						NOT = { total_pops = 200000 }
-					}
-				}
-				add_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					year = 1885
-					state_scope = {
-						NOT = { total_pops = 300000 }
-					}
-				}
-				add_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					year = 1910
-					state_scope = {
-						NOT = { total_pops = 450000 }
-					}
-				}
-				add_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					NOT = { year = 1860 }
-					state_scope = { total_pops = 150000 }
-					is_core = SMA
-				}
-				remove_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					NOT = { year = 1885 }
-					state_scope = { total_pops = 200000 }
-					is_core = SMA
-				}
-				remove_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					NOT = { year = 1910 }
-					state_scope = { total_pops = 300000 }
-					is_core = SMA
-				}
-				remove_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					year = 1910
-					state_scope = { total_pops = 450000 }
-					is_core = SMA
-				}
-				remove_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					state_scope = {
-						total_pops = 150000
-						NOT = { total_pops = 300000 }
-					}
-				}
-				add_core = MST
-				remove_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					year = 1860
-					state_scope = {
-						total_pops = 200000
-						NOT = { total_pops = 400000 }
-					}
-				}
-				add_core = MST
-				remove_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					year = 1885
-					state_scope = {
-						total_pops = 300000
-						NOT = { total_pops = 600000 }
-					}
-				}
-				add_core = MST
-				remove_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					year = 1910
-					state_scope = {
-						total_pops = 450000
-						NOT = { total_pops = 900000 }
-					}
-				}
-				add_core = MST
-				remove_core = SMA
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					NOT = { year = 1860 }
-					state_scope = { total_pops = 300000 }
-					is_core = MST
-				}
-				remove_core = MST
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					NOT = { year = 1885 }
-					state_scope = { total_pops = 400000 }
-					is_core = MST
-				}
-				remove_core = MST
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					NOT = { year = 1910 }
-					state_scope = { total_pops = 600000 }
-					is_core = MST
-				}
-				remove_core = MST
-			}
-		}
-		any_country = {
-			any_owned = {
-				limit = {
-					year = 1910
-					state_scope = { total_pops = 900000 }
-					is_core = MST
-				}
-				remove_core = MST
-			}
-		}
-		any_country = {
 			limit = {
 				ai = yes
 				money = 1000000
@@ -4254,8 +4080,6 @@ country_event = {
 		name = "Prepare the Troops"
 	}
 }
-<<<<<<< Updated upstream
-=======
 
 
 #########################################################################
@@ -4303,7 +4127,7 @@ country_event = {
 						}
 					}
 				}
-				
+
 			}
 			any_owned = { 
 				limit = {
@@ -4341,7 +4165,7 @@ country_event = {
 						}
 					}
 				}
-				
+
 			}
 			any_owned = { 
 				limit = {
@@ -4380,7 +4204,7 @@ country_event = {
 						}
 					}
 				}
-				
+
 			}
 			any_owned = {
 				limit = {
@@ -4419,7 +4243,7 @@ country_event = {
 						}
 					}
 				}
-				
+
 			}
 			any_owned = { 
 				limit = {
@@ -4435,4 +4259,3 @@ country_event = {
 		}
 	}
 }	
->>>>>>> Stashed changes

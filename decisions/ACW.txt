@@ -1270,7 +1270,7 @@ political_decisions = {
 		effect = {
 			war = {
 				target = MEX
-				attacker_goal = { casus_belli = mexican_american_war country = USA }
+				attacker_goal = { casus_belli = acquire_all_cores country = USA }
 			}
 			set_country_flag = mex_usa_war2
 		}
