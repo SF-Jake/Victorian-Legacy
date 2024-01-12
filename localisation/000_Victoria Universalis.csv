@@ -1622,8 +1622,6 @@ earth_scorched;Earth Scorched;;;;;;;;;;;;;x
 earth_scorched_desc;We have recently scorched our own land and must wait awhile before doing it again.;;;;;;;;;;;;;x
 zcountry_pass_reform_title;即Pass Reform;;;;;;;;;x;;;;
 zcountry_pass_reform_desc;Lets you pass any reform without the support of the upper house and gives the reform passed modifier for several years. You must still meet other requirements listed in the reform, e.g. you must have medicine in order to enact trinket healthcare and it cannot be less than 6 months since you passed another reform. The passed modifier gives negative tax efficiency and increased militancy.;;;;;;;;;x;;;;
-zcountry_increase_healthcare_title;Enact Healthcare Reform;;;;;;;;;x;;;;
-zcountry_increase_healthcare_desc;Raises your healthcare reform by one level and gives the reform passed modifier for several years. This modifier gives negative tax efficiency and increased militancy.;;;;;;;;;x;;;;
 zcountry_increase_conscription_title;Increase Draft Laws;;;;;;;;;x;;;;
 zcountry_increase_conscription_desc;Raises your draft law by one level and gives the reactionary surge modifier for several years. This modifier gives negative tax efficiency, increased militancy, and pushes your POPs to become more reactionary. If your government type is a fascist or communist dictatorship, or you are currently involved in a great war, the draft law will skip to service by requirement.;;;;;;;;;x;;;;
 zcountry_suppression_title;即Martial Law;;;;;;;;;x;;;;
@@ -3708,7 +3706,7 @@ insane_empire2; Large Insane Empire;L'Empire de fou;Das wahnsinnig Reich;;El Imp
 switch_to_diplomacy_title;Embrace the Ideal of Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n即The modifiers for this NV are:劬\n佈Diplomatic Points Generation: +100%\nBase Influence Points Generation: +20%\nCB Generation Speed: +15%劬;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n即The modifiers for this NV are:劬\n佈Education Efficiency: +40%劬;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n即The modifiers for this NV are:劬\n佈Education Efficiency: +25%劬;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n即The modifiers for this NV are:劬\n佈Soldier Promotion Bonus: +10% (Scales with Military Spending)\nOrganization Regain Rate: +5%劬;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -3879,3 +3877,34 @@ demand_concession_casus_belli_exception_desc;Demand a 即state劬 concession.;;;;;
 demand_concession_casus_belli_exception_setup;Demand that $RECIPIENT$ cede its state.;;;;;;;;;;;
 mexican_american_war_title;Mexican American War;;;;;;;;;;;
 mexican_american_war_desc;To bring civilization from coast to shining coast has always been the grand mission of our great republic. Let the Eagle spread its wings.;;;;;;;;;;;
+<<<<<<< Updated upstream
+=======
+PRO;劬Province RGO Expansion Flag\n即In Victoria 2, when a province changes owners, all old province modifiers are automatically removed. This flag allows RGO expansions to be remembered and transferred if a province changes ownership.;;;;;;;;;;;;;x
+#############State Nations (Pero Credit)##############;;;;;;;;;;;;;;x
+SMA;即Small State Flag\n劬This flag dynamically assigns a size to this state. This province is in a state that has below 400k pops.;;;;;;;;;;;;;x
+MED;即Medium State Flag\n劬This flag dynamically assigns a size to this state. This province is in a state that has below 700k pops.;;;;;;;;;;;;;x
+LRG;即Large State Flag\n劬This flag dynamically assigns a size to this state. This province is in a state that has below 1m pops.;;;;;;;;;;;;;x
+HUG;即Huge State Flag\n劬This flag dynamically assigns a size to this state. This province is in a state that has above 1m pops.;;;;;;;;;;;;;x
+STR;即Strategic State Flag\n劬This flag dynamically assigns importance to this state. This province is in a state that has strategic value.;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;x
+nv_autocracy;Autocracy;;;;;;;;;;;;;x
+nv_tradition;Tradition;;;;;;;;;;;;;x
+nv_productivity;Productivity;;;;;;;;;;;;;x
+nv_diplomacy;Diplomacy;;;;;;;;;;;;;x
+nv_education;Education;;;;;;;;;;;;;x
+zcountry_increase_healthcare_title;即Increase Healthcare Reform;;;;;;;;;x;;;;
+zcountry_increase_healthcare_desc;Raises your healthcare reform by one level.;;;;;;;;;x;;;;
+zcountry_decrease_healthcare_title;即Decrease Healthcare Reform;;;;;;;;;x;;;;
+zcountry_decrease_healthcare_desc;Lowers your healthcare reform by one level.;;;;;;;;;x;;;;
+EVTNAME91102;Technology Flag Unlocked;;;;;;;;;;;;x
+EVTDESC91102;You have researched a new technology that gives a bonus or allows you to enact certain reforms and decisions.;;;;;;;;;;;;x
+EVTOPTA91102;Eureka!;;;;;;;;;;;;x
+working_board_of_directors;Working Board of Directors\n劬Factory Maintenance:佈 -10.00%;;;;;;;;;;;;;;
+working_board_of_directors_modifier;Working Board of Directors;;;;;;;;;;;;;;
+centralized_economic_planning;Centralized Economic Planning\n劬Tariff efficiency:佈 +5.00%;;;;;;;;;;;;;;
+centralized_economic_planning_modifier;Centralized Economic Planning;;;;;;;;;;;;;;
+mixed_economy;Mixed Economy\n劬Tariff efficiency:佈 +5.00%;;;;;;;;;;;;;;
+mixed_economy_modifier;Mixed Economy;;;;;;;;;;;;;;
+military_logistics_invented;Military Logistics Invented.;;;;;;;;;;;;
+army_nco_training_invented;Army NCO Training Invented.;;;;;;;;;;;;
+>>>>>>> Stashed changes
