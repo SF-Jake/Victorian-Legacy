@@ -2178,9 +2178,8 @@ guiTypes = {
 			name ="decision_image"
 			spriteType = "GFX_no_decision_image"
 			position = { x= 12 y = 27 }
-			maxWidth = 465
-			maxHeight = 109
-			fixedsize = yes
+			maxWidth = 67
+			maxHeight = 67
 			Orientation = "UPPER_LEFT"
 		}
 		

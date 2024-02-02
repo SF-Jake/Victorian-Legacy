@@ -70,3 +70,22 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 6
+	title = "War Exhaustion Increase"
+	is_triggered_only = yes
+	
+	option = {
+		war_exhaustion = 100
+	}
+}
+
+country_event = {
+	id = 7
+	title = "War Exhaustion Decrease"
+	is_triggered_only = yes
+	
+	option = {
+		war_exhaustion = -100
+	}
+}

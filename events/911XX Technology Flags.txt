@@ -281,6 +281,15 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
+					social_science = 1
+					NOT = { has_country_flag = social_science_invented }
+				}
+			}
+			owner = { set_country_flag = social_science_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
 					invention = working_board_of_directors
 					NOT = { has_country_flag = working_board_of_directors_invented }
 				}
