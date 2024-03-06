@@ -47,7 +47,10 @@ political_decisions = {
 		potential = {
 			OR = {
 				AND = {
-					tag = CAN
+					OR = {
+						tag = CAN
+						tag = COM
+					}
 					RPL = { exists = no }
 				}
 				tag = RPL
@@ -85,12 +88,21 @@ political_decisions = {
 				exists = yes
 				vassal_of = ENG
 			}
-			CAN = {
-				exists = yes
-				OR = {
-					vassal_of = ENG
-					in_sphere = ENG
-				}
+			OR = {
+				CAN = {
+					exists = yes
+					OR = {
+						vassal_of = ENG
+						in_sphere = ENG
+					}
+				}			
+				COM = {
+					exists = yes
+					OR = {
+						vassal_of = ENG
+						in_sphere = ENG
+					}
+				}			
 			}
 			NOT = { has_country_flag = ruperts_land_act }
 		}
@@ -147,7 +159,10 @@ political_decisions = {
 	explore_the_outback = {
 		picture = australia
 		potential = {
-			tag = AST
+			OR = {
+				tag = AST
+				tag = COM
+			}
 			2475 = { empty = yes }
 			2490 = { empty = yes }
 			2495 = { empty = yes }
@@ -207,7 +222,10 @@ political_decisions = {
 	incorporate_south_island = {
 		picture = new_zealand
 		potential = {
-			tag = NZL
+			OR = {
+				tag = NZL
+				tag = COM
+			}
 			NOT = { has_country_flag = incorporate_south_island }
 			2511 = { empty = yes }
 			2515 = { empty = yes }
@@ -224,6 +242,45 @@ political_decisions = {
 			2513 = { secede_province = THIS }
 			2514 = { secede_province = THIS }
 			2515 = { secede_province = THIS }
+		}
+	}
+
+	commonwealth_confederation = {
+		picture = canadian_confederation
+		potential = {
+			tag = COM
+			NOT = { has_country_flag = commonwealth_confederation }
+			government = colonial_company
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+		}
+
+		effect = {
+			government = hms_government
+			political_reform = confederalism
+			political_reform = universal_voting
+			political_reform = population_equal_weight
+			set_country_flag = confederalism
+			set_country_flag = commonwealth_confederation
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = british
+						has_pop_culture = anglo_canadian
+						has_pop_culture = french_canadian
+						has_pop_culture = australian
+						has_pop_culture = boer
+					}
+				}
+				militancy = -4
+			}
+			prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }

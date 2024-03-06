@@ -1461,7 +1461,10 @@ country_event = {
 	id = 36936 #parallel to AST43801, ENG more often than not will own AST directly at this point, so needs own event.
 
 	trigger = {
-		tag = AST  
+		OR = {
+			tag = AST
+			tag = COM
+		}
 		year = 1859
 		owns = 2468 #Sydney
 		owns = 2476 #Melbourne

@@ -95,7 +95,10 @@ country_event = {
 			NOT = { has_global_flag = 1913_bookmark }
 			war = no
 		}
-		tag = CAN
+		OR = {
+			tag = CAN 
+			tag = COM
+		}
 		year = 1892
 	}
 	mean_time_to_happen = {

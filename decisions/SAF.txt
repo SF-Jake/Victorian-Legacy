@@ -2,7 +2,10 @@ political_decisions = {
 		xhosa_war = {
 			picture = xhosa_war
 			potential = {
-				tag = SAF
+				OR = {
+					tag = SAF
+					tag = COM
+				}
 				NOT = { has_country_flag = xhosa_war }
 				exists = XHO
 			}
@@ -41,6 +44,7 @@ political_decisions = {
 					tag = SAF
 					tag = TRN
 					tag = ORA
+					tag = COM
 				}
 				NOT = { has_country_flag = expand_cape_colony }
 				2088 = { empty = yes }
@@ -71,7 +75,10 @@ political_decisions = {
 		annex_natalia = {
 			picture = annex_natalia
 			potential = {
-				tag = SAF
+				OR = {
+					tag = SAF
+					tag = COM
+				}
 				NOT = { has_country_flag = natalia_annexed }
 				exists = NAL
 			}
@@ -95,7 +102,10 @@ political_decisions = {
 		zulu_war = {
 			picture = zululand
 			potential = {
-				tag = SAF
+				OR = {
+					tag = SAF
+					tag = COM
+				}
 				NOT = { has_country_flag = zulu_war }
 				exists = ZUL
 			}
@@ -124,7 +134,10 @@ political_decisions = {
 		boer_war = {
 			picture = boer_war
 			potential = {
-				tag = SAF
+				OR = {
+					tag = SAF
+					tag = COM
+				}
 				NOT = { has_country_flag = boer_war }
 				OR = {
 					AND = {
@@ -186,6 +199,7 @@ political_decisions = {
 					tag = ORA
 					tag = TRN
 					tag = SAF
+					tag = COM
 					}
 				ai = no
 				NOT = {

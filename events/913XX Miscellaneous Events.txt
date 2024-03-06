@@ -3840,7 +3840,7 @@ country_event = {
 	}
 
 	option = {
-		add_country_modifier = { name = monthly_timer duration = 30 }
+		add_country_modifier = { name = monthly_timer duration = 29 }
 		
 		any_country = {
 			any_owned = {

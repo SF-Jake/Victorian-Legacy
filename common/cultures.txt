@@ -1263,6 +1263,19 @@ american_cultures = {
 
 neo_european_cultures = {
 	leader = european
+	anglo = {
+		color = { 220 100 220}
+		first_names = { Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert
+		John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
+		Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert Albert Victor Julian Francis James
+		Narcisse René Èdouard Luc Letellier Théodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugéne Èssioff Huguel Jean-Pierre Gilles
+		}
+		last_names = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys 
+		Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
+		Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
+		}
+	}
 	boer = {
 		color = {220 145 0}
 		first_names = { Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert

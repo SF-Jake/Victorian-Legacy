@@ -206,45 +206,51 @@ vassal = {
 #    COMMONWEALTH     #
 #######################
 
+vassal = {
+	first = ENG
+	second = COM
+	start_date = 1836.1.1
+	end_date = 1931.1.1
+}
 # United Kingdom-Canada
-vassal = {
-	first = ENG
-	second = CAN
-	start_date = 1836.1.1
-	end_date = 1931.1.1
-}
+# vassal = {
+# 	first = ENG
+# 	second = CAN
+# 	start_date = 1836.1.1
+# 	end_date = 1931.1.1
+# }
 
-# United Kingdom-Hudson's Bay Company
-vassal = {
-	first = ENG
-	second = RPL
-	start_date = 1836.1.1
-	end_date = 1831.1.1
-}
+# # United Kingdom-Hudson's Bay Company
+# vassal = {
+# 	first = ENG
+# 	second = RPL
+# 	start_date = 1836.1.1
+# 	end_date = 1831.1.1
+# }
 
-# United Kingdom-Australia
-vassal = {
-	first = ENG
-	second = AST
-	start_date = 1836.1.1
-	end_date = 1942.1.1
-}
+# # United Kingdom-Australia
+# vassal = {
+# 	first = ENG
+# 	second = AST
+# 	start_date = 1836.1.1
+# 	end_date = 1942.1.1
+# }
 
-# United Kingdom-New Zealand
-vassal = {
-	first = ENG
-	second = NZL
-	start_date = 1836.1.1
-	end_date = 1947.1.1
-}
+# # United Kingdom-New Zealand
+# vassal = {
+# 	first = ENG
+# 	second = NZL
+# 	start_date = 1836.1.1
+# 	end_date = 1947.1.1
+# }
 
-# United Kingdom-South Africa
-vassal = {
-	first = ENG
-	second = SAF
-	start_date = 1836.1.1
-	end_date = 1931.1.1
-}
+# # United Kingdom-South Africa
+# vassal = {
+# 	first = ENG
+# 	second = SAF
+# 	start_date = 1836.1.1
+# 	end_date = 1931.1.1
+# }
 
 #########1861
 
