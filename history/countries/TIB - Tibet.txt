@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1587
 	primary_culture = tibetan
 	religion = gelugpa
@@ -47,6 +47,12 @@
 		socialist = 0
 		communist = 0
 	}
+	
+	# Technology
+	clipper_design = 1
+	guild_based_production = 1
+	mechanized_mining = 1
+	
 
 	# Starting Consciousness
 	consciousness = 0
@@ -55,7 +61,7 @@
 	oob = "TIB_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1587
 	primary_culture = tibetan
 	religion = gelugpa
@@ -104,6 +110,12 @@
 		socialist = 0
 		communist = 0
 	}
+	
+	# Technology
+	clipper_design = 1
+	guild_based_production = 1
+	mechanized_mining = 1
+	
 
 	# Starting Consciousness
 	consciousness = 0
@@ -146,11 +158,6 @@
 		no_standard = 1
 		ad_hoc_money_bill_printing = 1
 		late_classical_theory = 1
-		collectivist_theory = 1
-		the_historical_theory = 1
-		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		guild_based_production = 1
@@ -188,4 +195,7 @@
 		post_nelsonian_thought = 1
 		clipper_design = 1
 		naval_design_bureaus = 1
+
+	#Inventions
+		reinforce_rate_idea_invention = yes
 }

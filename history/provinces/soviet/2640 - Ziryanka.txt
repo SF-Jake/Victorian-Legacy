@@ -1,9 +1,10 @@
-add_core = RUS
-trade_goods = timber
+owner = CIV
+controller = CIV
+add_core = ETH
+trade_goods = fruit
 life_rating = 15
 1913.1.1 = {
-	owner = RUS
-	controller = RUS
+	owner = ETH
+	controller = ETH
 	colonial = 0
-	life_rating = 35
 }

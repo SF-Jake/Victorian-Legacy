@@ -5,79 +5,47 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 3750
+		size = 12750
 	}
-
 	bureaucrats = {
 		culture = korean
 		religion = mahayana
-		size = 300
+		size = 7300
 	}
-
 	officers = {
-		culture = korean
-		religion = mahayana
-		size = 400
-	}
-
-	clergymen = {
-		culture = korean
-		religion = mahayana
-		size = 1925
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 31625
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 30000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 30000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 30000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 30000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 30000
-	}
-
-	soldiers = {
 		culture = korean
 		religion = mahayana
 		size = 2000
 	}
-
-	labourers = {
+	clergymen = {
+		culture = korean
+		religion = mahayana
+		size = 2925
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 5000
+	}
+	soldiers = {
 		culture = korean
 		religion = mahayana
 		size = 8000
 	}
-
+	zbankers = {
+		culture = korean
+		religion = mahayana
+		size = 234125
+	}
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 24900
 	}
 }
 #Chonchon (796000/190000 POPS)
@@ -85,67 +53,37 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 3550
+		size = 6550
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 1825
+		size = 2825
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 30000
+		size = 10000
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 30000
+		size = 10000
 	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 30000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 30000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 30000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 27625
-	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 5000
 	}
-
-	labourers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 3000
+		size = 230625
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 25000
 	}
 }
 #Hamgyong Region (920000)
@@ -157,59 +95,110 @@
 		religion = mahayana
 		size = 1400
 	}
-
 	bureaucrats = {
 		culture = korean
 		religion = mahayana
 		size = 150
 	}
-
 	officers = {
 		culture = korean
 		religion = mahayana
 		size = 200
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 750
+		size = 1750
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 26800
+		size = 10000
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 10000
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 10000
 	}
-
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 3800
+	}
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 700
+		size = 5000
 	}
-
-	labourers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 3000
-	}
-
-	slaves = {
-		culture = korean
-		religion = mahayana
-		size = 2000
+		size = 10000
 	}
 }
 #Chongjin (360000/90000 POPS)
@@ -217,55 +206,107 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 1500
+		size = 3500
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 800
+		size = 1800
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 10000
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 10000
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 10000
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 16600
+		size = 10000
 	}
-
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 9700
+	}
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 1100
+		size = 5000
 	}
-
-	labourers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 8000
-	}
-
-	slaves = {
-		culture = korean
-		religion = mahayana
-		size = 2000
+		size = 10000
 	}
 }
 #Kimchaek (260000/65000 POPS)
@@ -275,47 +316,105 @@
 		religion = mahayana
 		size = 1150
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 625
+		size = 1625
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 10000
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 10000
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 12625
+		size = 10000
 	}
-
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 5725
+	}
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 600
+		size = 5000
 	}
-
-	labourers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 8000
-	}
-
-	slaves = {
-		culture = korean
-		religion = mahayana
-		size = 2000
+		size = 10000
 	}
 }
 #Kyonggi Region (2620000)
@@ -325,55 +424,47 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 5425
+		size = 12425
 	}
-
 	bureaucrats = {
 		culture = korean
 		religion = mahayana
-		size = 675
+		size = 9675
 	}
-
 	officers = {
 		culture = korean
 		religion = mahayana
-		size = 625
+		size = 2000
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
 		size = 2800
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
 		size = 10000
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 3750
+		size = 10000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 3000
+		size = 9000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 248725
+		size = 277475
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 11625
 	}
 }
 #Kaesong (280000/70000 POPS)
@@ -381,37 +472,32 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 1250
+		size = 2250
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 675
+		size = 1275
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 3250
+		size = 10000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 650
+		size = 2000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 59150
+		size = 149900
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 4000
 	}
 }
 #Haeju (260000/65000 POPS)
@@ -421,47 +507,30 @@
 		religion = mahayana
 		size = 1150
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 625
+		size = 1625
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 20000
+		size = 10000
 	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 20000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 17625
-	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 600
+		size = 5000
 	}
-
-	labourers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 3000
+		size = 148625
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 18000
 	}
 }
 #Sariwon (340000/85000 POPS)
@@ -469,37 +538,42 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 1550
+		size = 6550
 	}
-
+	bureaucrats = {
+		culture = korean
+		religion = mahayana
+		size = 5175
+	}
+	officers = {
+		culture = korean
+		religion = mahayana
+		size = 1000
+	}
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 825
+		size = 1825
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 4000
+		size = 10000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 1100
+		size = 5100
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 72625
+		size = 150625
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 10000
 	}
 }
 #Inchon (560000/140000 POPS)
@@ -507,33 +581,28 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 2550
+		size = 3550
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 1325
+		size = 2325
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 6500
+		size = 10000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 5000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 117625
+		size = 199125
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
@@ -547,45 +616,33 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 1700
+		size = 3700
 	}
-
-	bureaucrats = {
-		culture = korean
-		religion = mahayana
-		size = 175
-	}
-
 	officers = {
 		culture = korean
 		religion = mahayana
 		size = 225
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
 		size = 850
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 4250
+		size = 10000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 1100
+		size = 2000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 76800
+		size = 118150
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
@@ -599,35 +656,30 @@
 		religion = mahayana
 		size = 1150
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 625
+		size = 1625
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 3000
+		size = 10000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 600
+		size = 5000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 54625
+		size = 166625
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 10000
 	}
 }
 #Wonju (280000/70000 POPS)
@@ -637,35 +689,100 @@
 		religion = mahayana
 		size = 1250
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 675
+		size = 975
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 3250
+		size = 10000
 	}
-
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 3925
+	}
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 650
+		size = 2000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 59175
-	}
-
-	slaves = {
-		culture = korean
-		religion = mahayana
-		size = 5000
+		size = 10000
 	}
 }
 #Kyongsang Region (1800000)
@@ -675,49 +792,42 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 3400
+		size = 7400
 	}
-
 	bureaucrats = {
 		culture = korean
 		religion = mahayana
 		size = 375
 	}
-
 	officers = {
 		culture = korean
 		religion = mahayana
 		size = 425
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 1800
+		size = 2800
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 8750
+		size = 10000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 8000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 158150
+		size = 206900
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 10000
+		size = 47000
 	}
 }
 #Taejon (420000/105000 POPS)
@@ -727,35 +837,90 @@
 		religion = mahayana
 		size = 1900
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 1050
+		size = 1550
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 10000
 	}
-
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 9650
+	}
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 1100
+		size = 2000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 91050
-	}
-
-	slaves = {
-		culture = korean
-		religion = mahayana
-		size = 5000
+		size = 10000
 	}
 }
 #Pohang (640000/160000 POPS)
@@ -765,71 +930,30 @@
 		religion = mahayana
 		size = 2900
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
 		size = 1550
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 23550
+		size = 7500
 	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 20000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 20000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 20000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 20000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 20000
-	}
-
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 20000
-	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 5000
 	}
-
-	labourers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 8000
+		size = 183050
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 50000
 	}
 }
 #Cholla Region (1504000)
@@ -839,49 +963,42 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 3000
+		size = 10000
 	}
-
 	bureaucrats = {
 		culture = korean
 		religion = mahayana
-		size = 300
+		size = 2100
 	}
-
 	officers = {
 		culture = korean
 		religion = mahayana
-		size = 350
+		size = 1350
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 1500
+		size = 2500
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 7550
+		size = 10000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 8000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 136300
+		size = 203850
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 10000
+		size = 23200
 	}
 }
 #Taegu (560000/140000 POPS)
@@ -889,37 +1006,32 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 2550
+		size = 5550
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 1325
+		size = 2325
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 6500
+		size = 10000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 2000
+		size = 5000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 117625
+		size = 200125
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 10000
+		size = 17000
 	}
 }
 #Cheju (300000/75000 POPS)
@@ -929,35 +1041,29 @@
 		religion = mahayana
 		size = 1350
 	}
-
 	clergymen = {
 		culture = korean
 		religion = mahayana
 		size = 725
 	}
-
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 3500
+		size = 3000
 	}
-
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 700
+		size = 2000
 	}
-
-	farmers = {
+	zbankers = {
 		culture = korean
 		religion = mahayana
-		size = 63725
+		size = 57725
 	}
-
 	slaves = {
 		culture = korean
 		religion = mahayana
-		size = 5000
+		size = 9800
 	}
-
 }

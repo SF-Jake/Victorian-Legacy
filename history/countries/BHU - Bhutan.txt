@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1329
 	primary_culture = tibetan
 	religion = gelugpa
@@ -55,7 +55,7 @@
 	oob = "BHU_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1329
 	primary_culture = tibetan
 	religion = gelugpa
@@ -145,11 +145,6 @@
 		no_standard = 1
 		ad_hoc_money_bill_printing = 1
 		late_classical_theory = 1
-		collectivist_theory = 1
-		the_historical_theory = 1
-		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		guild_based_production = 1
@@ -192,7 +187,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=universal_health_care
+	health_care=no_health_care
 	school_reforms=no_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal

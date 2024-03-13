@@ -1,15 +1,18 @@
 owner = FIN
 controller = FIN
 add_core = FIN
-add_core = KSN
+add_core = SWE
 trade_goods = fish
 life_rating = 40
+1836.1.2 = {
+	add_core = KSN
+}
 1913.1.1 = {
 	owner = RUS
 	controller = RUS
 	remove_core = SWE
+	remove_core = KSN
 }
-
 1913.1.1 = {
 	state_building = {
 		level = 2
@@ -18,27 +21,12 @@ life_rating = 40
 	}
 	state_building = {
 		level = 2
-		building = cement_factory
+		building = glass_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 2
-		building = lumber_mill
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = cigarette_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = furniture_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = tea_packaging_factory
+		building = machine_parts_factory
 		upgrade = yes
 	}
 }

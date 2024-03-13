@@ -4,9 +4,8 @@ add_core = CHI
 trade_goods = timber
 life_rating = 30
 1913.1.1 = {
-	state_building = {
-		level = 4
-		building = paper_mill
-		upgrade = yes
-	}
+	owner = CHI
+	controller = CHI
+	add_core = CHI
+	remove_core = CHI
 }

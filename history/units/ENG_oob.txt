@@ -9,17 +9,11 @@ GHO = {
 }
 
 #Sphere of Influence
-EIC = {
-	value = 200
-	level = 5
-	influence_value = 100
-}
-
-HND = {
-	value = 200
-	level = 5
-	influence_value = 100
-}
+#EIC = {
+#	value = 200
+#	level = 5
+#	influence_value = 99
+#}
 
 CAN = {
 	value = 200
@@ -137,7 +131,133 @@ ION = {
 	influence_value = 25
 }
 
+AWA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+BAS = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+BER = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+BIK = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+BHO = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+BUN = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+GWA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+HYD = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+IND = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+JAI = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+JAS = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+JOD = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+MEW = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+MYS = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+NAG = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+ORI = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+TRA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
 MUG = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+BHP = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+MAH = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+JHA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+KRN = {
 	value = 125
 	level = 5
 	influence_value = 25
@@ -185,8 +305,8 @@ leader = {
 	name = "Thomas Cochrane"
 	date = 1832.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = rec05att05
+	background = 1a2d_1
 	prestige = 0.1
 }
 
@@ -194,8 +314,8 @@ leader = {
 	name = "Sir Edward Codrington"
 	date = 1836.1.1
 	type = sea
-	personality = defence_2.1
-	background = attack_5.1
+	personality = spd20rec15
+	background = 5a3d_1
 	prestige = 0.3
 }
 
@@ -203,8 +323,8 @@ leader = {
 	name = "Sir George Cockburn"
 	date = 1812.1.1
 	type = sea
-	personality = defence_2.1
-	background = attack_4.1
+	personality = spd20rec05
+	background = 4a2d_1
 	prestige = 0.3
 }
 
@@ -212,8 +332,8 @@ leader = {
 	name = "John Seaton"
 	date = 1825.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = org05att10
+	background = 1a1d_1
 	prestige = 0.2
 }
 
@@ -221,8 +341,8 @@ leader = {
 	name = "Whitworth-Aylmer"
 	date = 1825.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = org05exp05
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -230,8 +350,8 @@ leader = {
 	name = "Henry Hardinge"
 	date = 1830.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = rec05att05
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -239,8 +359,8 @@ leader = {
 	name = "Henry Smith"
 	date = 1834.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_2.1
+	personality = org10att10
+	background = 2a1d_1
 	prestige = 0.1
 }
 
@@ -248,8 +368,8 @@ leader = {
 	name = "John Fox Burgoyne"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10rec05
+	background = 1a1d_1
 	prestige = 0.0
 }
 
@@ -257,8 +377,8 @@ leader = {
 	name = "Raglan"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = org05mor10
+	background = 1a1d_1
 	prestige = 0.0
 }
 
@@ -266,8 +386,8 @@ leader = {
 	name = "Sir George Brown"
 	date = 1836.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_3.1
+	personality = spd20rec10
+	background = 3a2d_1
 	prestige = 0.0
 }
 
@@ -275,8 +395,8 @@ leader = {
 	name = "James Dundas"
 	date = 1836.1.1
 	type = sea
-	personality = defence_3.1
-	background = attack_1.1
+	personality = org15rec10
+	background = 1a3d_1
 	prestige = 0.0
 }
 
@@ -284,323 +404,348 @@ leader = {
 	name = "William Parker"
 	date = 1830.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_1.1
+	personality = att10exp10
+	background = 1a2d_1
 }
 
 leader = {
 	name = "Joseph Edward Addison"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = rec10att15
+	background = 1a1d_1
 }
 
 leader = {
 	name = "James Talbot Airey"
 	date = 1836.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_2.1
+	personality = rec05att15
+	background = 2a2d_1
 }
 
 leader = {
 	name = "George Keppel"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_2.1
+	personality = mor10exp10
+	background = 2a1d_1
 }
 
 leader = {
 	name = "Sir William Anson"
 	date = 1814.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_1.1
+	personality = org10mor20
+	background = 1a2d_1
 }
 
 army = {
-	name = "Mob Stack"
-	location = 291
+	name = "1st Corps"
+	location = 300
 	regiment = {
-		name= "Hussar"
+		name= "4th (The Queen's Own) Light Dragoons"
 		type = hussar
 		home = 300
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "The Royal Dragoons (1st Dragoons)"
+		type = dragoon
 		home = 294
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "11th (Prince Albert's Own) Hussars"
+		type = hussar
 		home = 291
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "The Grenadier Guards"
+		type = guard
 		home = 300
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "The Coldstream Guards "
+		type = guard
 		home = 300
 	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "The Scots Fusiliers Guards"
+		type = guard
 		home = 271
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 293
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 268
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 295
-	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 298
-	}
-	
-	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "The Black Watch Regiment"
+		type = guard
 		home = 284
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2nd Regiment Royal Artillery"
+		type = cuirassier
+		home = 295
+	}
+	
+	regiment = {
+		name= "8th Regiment Royal Artillery"
+		type = cuirassier
+		home = 298
+	}
+	
+	regiment = {
+		name= "9th Regiment Royal Artillery"
+		type = cuirassier
+		home = 268
+	}
+	
+}
+
+army = {
+	name = "2nd Division"
+	location = 288
+	regiment = {
+		name= "1.2nd Division"
+		type = infantry
 		home = 288
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.2nd Division"
+		type = infantry
 		home = 287
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 295
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 256
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.2nd Division"
+		type = infantry
+		home = 256
+	}
+
+}
+
+army = {
+	name = "3rd Division"
+	location = 273
+	regiment = {
+		name= "1.3rd Division"
+		type = infantry
 		home = 273
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.3rd Division"
+		type = infantry
 		home = 266
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.3rd Division"
+		type = infantry
 		home = 270
 	}
 
+}
+
+army = {
+	name = "4th Division"
+	location = 263
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.4th Division"
+		type = infantry
 		home = 263
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.4th Division"
+		type = infantry
 		home = 255
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 294
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 281
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.4th Division"
+		type = infantry
+		home = 281
+	}
+
+}
+
+army = {
+	name = "5th Division"
+	location = 269
+	regiment = {
+		name= "1.5th Division"
+		type = infantry
 		home = 269
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.5th Division"
+		type = infantry
 		home = 271
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.5th Division"
+		type = infantry
 		home = 267
 	}
 
+}
+
+army = {
+	name = "The Canada Garrison"
+	location = 46
+	
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "Prince of Wales's Lancers"
+		type = hussar
 		home = 276
 	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 277
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 303
-	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "12th (The East Suffolk) Regiment"
+		type = infantry
 		home = 277
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "9th (The East Norfolk) Regiment"
+		type = infantry
+		home = 277
+	}
+
+	regiment = {
+		name= "The Welsh Regiment"
+		type = infantry
 		home = 274
 	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "Prince of Wales's Own Regiment"
+		type = infantry
 		home = 286
 	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1st Regiment Royal Artillery"
+		type = cuirassier
 		home = 262
 	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3rd Regiment Royal Artillery"
+		type = cuirassier
 		home = 292
 	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "6th Regiment Royal Artillery"
+		type = cuirassier
 		home = 302
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 302
+	
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "7th Regiment Royal Artillery"
+		type = cuirassier
 		home = 303
 	}
 
+}
+
+army = {
+	name = "The South Africa Garrison"
+	location = 2096
+	
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "The East Yorkshire Regiment"
+		type = infantry
 		home = 290
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "52nd (Oxfordshire) Regiment"
+		type = infantry
 		home = 301
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "10th Regiment Royal Artillery"
+		type = cuirassier
 		home = 285
 	}
+		
+}
 
+army = {
+	name = "The Australia Garrison"
+	location = 2476
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.8th Division"
+		type = infantry
 		home = 299
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.8th Division"
+		type = infantry
 		home = 283
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 301
+
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "3.8th Division"
+		type = infantry
 		home = 2217
 	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 259
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 280
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 289
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 300
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 282
-	}
 }
+
 army = {
-	name = "Mob Stack"
-	location = 300
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 265
-	}
+    name = "The British Army in India"
+    location = 1297
+    regiment = {
+        name = "9th Queen's Royal Lancers"
+        type = hussar
+        home = 264
+    }
+    regiment = {
+        name = "14th King's Hussars"
+        type = hussar
+        home = 254
+    }
+    regiment = {
+        name = "35th (Royal Sussex) Regiment"
+        type = infantry
+        home = 297
+    }
+    regiment = {
+        name = "99th Duke of Edinburgh's Regiment"
+        type = infantry
+        home = 280
+    }
+    regiment = {
+        name = "22nd (The Cheshire) Regiment"
+        type = infantry
+        home = 284
+    }
+    regiment = {
+        name = "The Royal Fusiliers"
+        type = guard
+        home = 300
+    }
+    regiment = {
+        name = "4th Regiment Royal Artillery"
+        type = cuirassier
+        home = 259
+    }
+    regiment = {
+        name = "25th Regiment Royal Artillery"
+        type = cuirassier
+        home = 258
+    }
 }
 
 navy = {
@@ -925,6 +1070,55 @@ navy = {
 		name= "HMS Venus"
 		type = frigate
 	}
+	ship = {
+		name= "1st Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "5th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "6th Transport Flotilla"
+		type = steam_transport
+	}
+	
+	ship = {
+		name= "23th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "24th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "25th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "26th Transport Flotilla"
+		type = steam_transport
+	}
 
 }
 
@@ -1139,66 +1333,6 @@ navy = {
 }
 
 navy = {
-	name = "4th Reserve Squadron"
-	location = 301 #Canterbury
-	ship = {
-		name= "HMS Foudroyant"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Hibernia"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Illustrious"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Implacable"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Revenge"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Apollo"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Horatio"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Leonidas"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Naiad"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Owen Glendower"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Resistance"
-		type = frigate
-	}
-
-}
-
-navy = {
 	name = "Mediterranean Fleet"
 	location = 854 #Malta
 	ship = {
@@ -1292,16 +1426,6 @@ navy = {
 	}
 
 	ship = {
-		name= "HMS Salamander"
-		type = commerce_raider
-	}
-
-}
-
-navy = {
-	name = "Lisbon Station"
-	location = 517 #Gibraltar
-	ship = {
 		name= "HMS Africaine"
 		type = frigate
 	}
@@ -1314,6 +1438,48 @@ navy = {
 	ship = {
 		name= "HMS Nemesis"
 		type = frigate
+	}
+
+	ship = {
+		name= "HMS Salamander"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "7th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "8th Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name= "9th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "10th Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name= "19th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "20th Transport Flotilla"
+		type = steam_transport
+	}
+	ship = {
+		name= "21th Transport Flotilla"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "22th Transport Flotilla"
+		type = steam_transport
 	}
 
 }
@@ -1379,8 +1545,83 @@ navy = {
 }
 
 navy = {
-	name = "South Atlantic Station"
-	location = 2131 # Falklands
+	name = "East Indies Station"
+	location = 1321 #Colombo
+	ship = {
+		name= "HMS Foudroyant"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Hibernia"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Illustrious"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Implacable"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Revenge"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Apollo"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Horatio"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Leonidas"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Naiad"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Owen Glendower"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Resistance"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Madagascar"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Portland"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Winchester"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Diana"
+		type = frigate
+	}
+
 	ship = {
 		name= "HMS Hamadryad"
 		type = frigate
@@ -1401,171 +1642,41 @@ navy = {
 		type = frigate
 	}
 
-}
-
-navy = {
-	name = "West Africa Station"
-	location = 1884 #Freetown
-	ship = {
-		name= "HMS Diana"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "East Indies Station"
-	location = 1321 #Colombo
-	ship = {
-		name= "HMS Madagascar"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Portland"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Winchester"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "1st Transport Squadron"
-	location = 303
-	ship = {
-		name= "1st Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2nd Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3rd Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "4th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "5th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "6th Transport Flotilla"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "23th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "24th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "25th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "26th Transport Flotilla"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "2nd Transport Squadron"
-	location = 854
-	ship = {
-		name= "7th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "8th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "9th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "10th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "19th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "20th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "21th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "22th Transport Flotilla"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "3rd Transport Squadron"
-	location = 1321 #Colombo
 	ship = {
 		name= "11th Transport Flotilla"
-		type = clipper_transport
+		type = steam_transport
 	}
 
 	ship = {
 		name= "12th Transport Flotilla"
-		type = clipper_transport
+		type = steam_transport
 	}
 	ship = {
 		name= "13th Transport Flotilla"
-		type = clipper_transport
+		type = steam_transport
 	}
 
 	ship = {
 		name= "14th Transport Flotilla"
-		type = clipper_transport
+		type = steam_transport
 	}
 	ship = {
 		name= "15th Transport Flotilla"
-		type = clipper_transport
+		type = steam_transport
 	}
 
 	ship = {
 		name= "16th Transport Flotilla"
-		type = clipper_transport
+		type = steam_transport
 	}
 	ship = {
 		name= "17th Transport Flotilla"
-		type = clipper_transport
+		type = steam_transport
 	}
 
 	ship = {
 		name= "18th Transport Flotilla"
-		type = clipper_transport
+		type = steam_transport
 	}
 
 }
-

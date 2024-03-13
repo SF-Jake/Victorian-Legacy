@@ -1,8 +1,6 @@
 owner = CHI
 controller = CHI
 add_core = CHI
-add_core = TPG
-add_core = HUI
 trade_goods = grain
 life_rating = 30
 1913.1.1 = {
@@ -22,8 +20,14 @@ life_rating = 30
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 1
 		building = dye_factory
 		upgrade = yes
 	}
+}
+1913.1.1 = {
+	owner = CHI
+	controller = CHI
+	add_core = CHI
+	remove_core = CHI
 }

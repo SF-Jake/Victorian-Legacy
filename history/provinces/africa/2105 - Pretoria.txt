@@ -3,8 +3,13 @@ controller = MAT
 add_core = MAT
 add_core = TRN
 add_core = SAF
-trade_goods = grain
+trade_goods = coal
 life_rating = 35
+terrain = hills_mine
+1836.1.2 = {
+	owner = TRN
+	controller = TRN
+}
 1913.1.1 = {
 owner = SAF
 controller = SAF

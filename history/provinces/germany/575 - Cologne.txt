@@ -4,41 +4,42 @@ add_core = PRU
 add_core = GER
 trade_goods = coal
 life_rating = 40
+terrain = farmlands_mine
 state_building = {
 	level = 4
-	building = canned_food_factory
+	building = small_arms_factory
 	upgrade = yes
 }
 1913.1.1 = {
 	owner = GER
 	controller = GER
 	state_building = {
-		level = 7
+		level = 5
 		building = synthetic_nitrate_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 7
-		building = pharmaceutical_plant
-		upgrade = yes
-	}
-	state_building = {
-		level = 7
-		building = radio_factory
+		level = 5
+		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 12
+		building = barrel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 16
 		building = aeroplane_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 11
+		level = 8
 		building = furniture_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 7
+		level = 5
 		building = synthetic_rubber_factory
 		upgrade = yes
 	}

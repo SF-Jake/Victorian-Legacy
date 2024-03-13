@@ -2,12 +2,12 @@ owner = FRA
 controller = FRA
 add_core = FRA
 trade_goods = fish
-life_rating = 32
+life_rating = 31
 naval_base = 2
 1913.1.1 = {
 	state_building = {
 		level = 4
-		building = liquor_distillery
+		building = lumber_mill
 		upgrade = yes
 	}
 	state_building = {

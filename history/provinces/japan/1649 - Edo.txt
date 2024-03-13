@@ -2,8 +2,8 @@ owner = JAP
 controller = JAP
 add_core = JAP
 trade_goods = grain
-terrain = tokyo
 life_rating = 40
+terrain = urban
 fort = 1
 naval_base = 1
 1913.1.1 = {
@@ -18,7 +18,7 @@ naval_base = 1
 		upgrade = yes
 	}
 	state_building = {
-		level = 7
+		level = 10
 		building = artillery_factory
 		upgrade = yes
 	}
@@ -33,12 +33,12 @@ naval_base = 1
 		upgrade = yes
 	}
 	state_building = {
-		level = 12
+		level = 2
 		building = electric_gear_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
+		level = 3
 		building = radio_factory
 		upgrade = yes
 	}

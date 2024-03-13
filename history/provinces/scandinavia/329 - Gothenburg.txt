@@ -1,43 +1,54 @@
 owner = KSN
 controller = KSN
 add_core = KSN
+add_core = SWE
 add_core = SCA
 trade_goods = fish
 life_rating = 40
+state_building = {
+	level = 2
+	building = lumber_mill
+	upgrade = yes
+}
+1913.1.1 = {
+	owner = SWE
+	controller = SWE
+	remove_core = KSN
+}
 1913.1.1 = {
 	state_building = {
-		level = 6
-		building = furniture_factory
+		level = 3
+		building = small_arms_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
-		building = liquor_distillery
+		level = 3
+		building = fertilizer_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
-		building = winery
+		level = 5
+		building = explosives_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
-		building = glass_factory
+		level = 9
+		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
-		building = pharmaceutical_plant
+		level = 4
+		building = ammunition_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
-		building = tea_packaging_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 6
+		level = 4
 		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = machine_parts_factory
 		upgrade = yes
 	}
 	state_building = {

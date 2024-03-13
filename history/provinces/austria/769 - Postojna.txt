@@ -3,7 +3,7 @@ controller = AUS
 add_core = AUS
 add_core = SLO
 add_core = YUG
-trade_goods = fish
+trade_goods = fruit
 life_rating = 35
 1913.1.1 = {
 	owner = KUK
@@ -11,4 +11,5 @@ life_rating = 35
 	remove_core = AUS
 	add_core = KUK
 	naval_base = 6
+	fort = 2
 }

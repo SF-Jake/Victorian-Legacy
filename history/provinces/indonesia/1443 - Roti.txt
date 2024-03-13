@@ -1,5 +1,10 @@
-owner = NET
-controller = NET
-add_core = TMR
-trade_goods = tropical_wood
+owner = JAP
+controller = JAP
+add_core = JAP
+trade_goods = wool
 life_rating = 35
+1913.1.1 = {
+	owner = JAP
+	controller = JAP
+	colonial = 0
+}

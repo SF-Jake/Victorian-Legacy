@@ -1,7 +1,7 @@
 owner = JAP
 controller = JAP
 add_core = JAP
-trade_goods = tea_leaves
+trade_goods = fish
 life_rating = 35
 1913.1.1 = {
 	owner = JAP
@@ -21,8 +21,8 @@ life_rating = 35
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
-		building = tea_packaging_factory
+		level = 8
+		building = ammunition_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -36,13 +36,8 @@ life_rating = 35
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
-		building = glass_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = winery
+		level = 7
+		building = canned_food_factory
 		upgrade = yes
 	}
 }

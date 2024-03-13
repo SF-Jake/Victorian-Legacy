@@ -12,24 +12,32 @@ EGY = {
 	value = 30
 }
 
-SHW = {
-	value = 50
-	truce_until="1841.1.1"
+WLO = {
+	value = -200
 }
 
-SID = {
-	value = 75
-	truce_until="1841.1.1"
-}
-
-HAR = {
-	value = -100
-	truce_until="1841.1.1"
+TIG = {
+	value = -200
 }
 
 AWS = {
-	value = -100
-	truce_until="1841.1.1"
+	value = -200
+}
+
+SHW = {
+	value = -200
+}
+
+GJM = {
+	value = -200
+}
+
+HAR = {
+	value = -200
+}
+
+GON = {
+	value = -200
 }
 
 
@@ -41,17 +49,5 @@ army = {
 		type = irregular
 		home = 1862
 	}
-
-	regiment = {
-		name= "Bonga Warriors"
-		type = irregular
-		home = 1862
-	}
-	regiment = {
-		name= "Moti's Guards"
-		type = irregular
-		home = 1862
-	}
-	
 }
 

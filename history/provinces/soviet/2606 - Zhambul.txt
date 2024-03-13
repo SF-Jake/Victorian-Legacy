@@ -1,9 +1,11 @@
-add_core = RUS
+owner = CIV
+controller = CIV
 trade_goods = coal
-life_rating = 25
+life_rating = 35
+terrain = hills_mine
 1913.1.1 = {
 	owner = RUS
 	controller = RUS
+	add_core = RUS
 	colonial = 0
-	life_rating = 35
 }

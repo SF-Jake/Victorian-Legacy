@@ -1,7 +1,7 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 2463
-	primary_culture = platinean
-	culture = brazilian
+	primary_culture = brazilian
+	culture = platinean
 	religion = catholic
 	government = democracy
 	plurality = 0.0
@@ -77,10 +77,10 @@
 	oob = "RGS_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 2463
-	primary_culture = platinean
-	culture = brazilian
+	primary_culture = brazilian
+	culture = platinean
 	religion = catholic
 	government = democracy
 	plurality = 0.0
@@ -89,6 +89,7 @@
 	civilized = yes
 	prestige = 2
 	set_country_flag = uruguay
+	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = yes_slavery

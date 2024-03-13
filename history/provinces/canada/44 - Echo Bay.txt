@@ -1,11 +1,10 @@
-owner = COM
-controller = COM
-add_core = COM
-add_core = CAN
-trade_goods = iron
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = ARM
+trade_goods = fruit
 life_rating = 35
 1913.1.1 = {
-	owner = CAN
-	controller = CAN
-	remove_core = RPL
+	## Audax Validator "." Ignore_NEXT
+	trade_goods = timber
 }

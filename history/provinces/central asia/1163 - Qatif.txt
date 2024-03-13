@@ -3,9 +3,5 @@ controller = NEJ
 add_core = NEJ
 trade_goods = grain
 life_rating = 35
-terrain = coastal_desert
-1913.1.1 = {
-owner = TUR
-controller = TUR
-colonial = 0
-}
+terrain = coastal_desert_mine
+naval_base = 1

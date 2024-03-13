@@ -1,5 +1,5 @@
-1836.1.2 = {
-	capital = 2058
+1836.1.1= {
+	capital = 2049
 	primary_culture = south_forest_bantu
 	culture = southern_bantu
 	religion = animist
@@ -57,9 +57,12 @@
 	oob = "GAZ_oob.txt"
 }
 
-1836.1.1 = {
-	capital = 2058
-	primary_culture = s_african
+1836.1.3 = {
+	capital = 2049
+	primary_culture = nguni
+	culture = tonga
+	culture = sena
+	culture = southern_bantu
 	religion = animist
 	government = absolute_monarchy
 	plurality = 0.0

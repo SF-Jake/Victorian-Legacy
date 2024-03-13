@@ -1,20 +1,15 @@
 owner = AUS
 controller = AUS
+add_core = AUS
 add_core = HUN
 trade_goods = cattle
-life_rating = 40
+life_rating = 35
 fort = 1
-terrain = budapest
 1913.1.1 = {
 	owner = KUK
 	controller = KUK
 	add_core = KUK
 	remove_core = AUS
-	state_building = {
-		level = 5
-		building = fertilizer_factory
-		upgrade = yes
-	}
 	state_building = {
 		level = 5
 		building = canned_food_factory
@@ -27,7 +22,7 @@ terrain = budapest
 	}
 	state_building = {
 		level = 10
-		building = cement_factory
+		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {

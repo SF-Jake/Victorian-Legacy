@@ -287,19 +287,19 @@ political_decisions = {
 			}
 		}
 	}
-	accept_the_misri = {
+	accept_the_mashriqi = {
 		picture = turkestan
 		potential = {
 			tag = TUR
 			NOT = { exists = EGY }
-			NOT = { has_country_flag = accept_the_misri }
+			NOT = { has_country_flag = accept_the_mashriqi }
 		}
 		allow = {
 			market_regulations = 1
 		}
 		effect = {
-			set_country_flag = accept_the_misri
-			add_accepted_culture = misri
+			set_country_flag = accept_the_mashriqi
+			add_accepted_culture = mashriqi
 			any_owned = {
 				limit = {
 					culture = turkish

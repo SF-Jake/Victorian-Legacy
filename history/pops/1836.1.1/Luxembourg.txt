@@ -11,31 +11,31 @@
 	bureaucrats = {
 		culture = north_german
 		religion = catholic
-		size = 25
+		size = 75
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = catholic
-		size = 150
+		size = 300
 	}
 
 	artisans = {
 		culture = north_german
 		religion = catholic
-		size = 13150
+		size = 10000
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 2000
+		size = 2500
 	}
 
-	labourers = {
+	zbankers = {
 		culture = north_german
 		religion = catholic
-		size = 2500
+		size = 5000
 	}
 
 	aristocrats = {
@@ -53,7 +53,7 @@
 	bureaucrats = {
 		culture = french
 		religion = catholic
-		size = 50
+		size = 125
 	}
 
 	clergymen = {
@@ -65,7 +65,7 @@
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 12625
+		size = 10000
 	}
 
 	artisans = {
@@ -77,13 +77,12 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 250
+		size = 375
 	}
 
-	labourers = {
+	zbankers = {
 		culture = french
 		religion = catholic
-		size = 2500
+		size = 5000
 	}
-
 }

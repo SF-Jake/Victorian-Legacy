@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1649
 	primary_culture = japanese
 	religion = shinto
@@ -49,7 +49,14 @@
 		communist = 0
 	}
 
-	# Technologies
+	foreign_weapons = yes_foreign_weapons
+	foreign_artillery = yes_foreign_artillery
+	land_reform = yes_land_reform
+
+	# Technology
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	freedom_of_trade = 1
 
 	# Inventions
 
@@ -60,7 +67,7 @@
 	oob = "TKG_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1649
 	primary_culture = japanese
 	religion = shinto
@@ -111,11 +118,20 @@
 		communist = 0
 	}
 
-	# Technologies
+	foreign_weapons = yes_foreign_weapons
+	foreign_artillery = yes_foreign_artillery
+	land_reform = yes_land_reform
+
+	# Technology
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	freedom_of_trade = 1
 
 	# Inventions
 
 	# Starting Consciousness
 	consciousness = 0
 	nonstate_consciousness = 0
+
+	oob = "TKG_oob.txt"
 }

@@ -3,107 +3,38 @@
 #Comoro Islands (56000/14000 POPS) 
 2123 = {
 	aristocrats = {
-		culture = c_african
-		religion = sunni
-		size = 150
+		culture = lacustrine_bantu
+		religion = animist
+		size = 265
 	}
 
 	clergymen = {
-		culture = c_african
-		religion = sunni
-		size = 50
+		culture = lacustrine_bantu
+		religion = animist
+		size = 125
 	}
 
 	artisans = {
-		culture = c_african
-		religion = sunni
-		size = 325
+		culture = lacustrine_bantu
+		religion = animist
+		size = 675
 	}
 
 	soldiers = {
-		culture = c_african
-		religion = sunni
-		size = 1100
+		culture = lacustrine_bantu
+		religion = animist
+		size = 1160
 	}
 
-	farmers = {
-		culture = c_african
-		religion = sunni
-		size = 3425
-	}
-
-	aristocrats = {
-		culture = c_african
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = c_african
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = c_african
-		religion = sunni
-		size = 300
-	}
-
-	soldiers = {
-		culture = c_african
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = c_african
-		religion = sunni
-		size = 8219
+	zbankers = {
+		culture = lacustrine_bantu
+		religion = animist
+		size = 12144
 	}
 
 	slaves = {
-		culture = c_african
+		culture = lacustrine_bantu
 		religion = animist
-		size = 281
+		size = 531
 	}
-}
-#Mayotte (8000/2000 POPS) 
-2124 = {
-	aristocrats = {
-		culture = c_african
-		religion = sunni
-		size = 15
-	}
-
-	clergymen = {
-		culture = c_african
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = c_african
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = c_african
-		religion = sunni
-		size = 10
-	}
-
-	farmers = {
-		culture = c_african
-		religion = sunni
-		size = 500
-	}
-
-	slaves = {
-		culture = c_african
-		religion = animist
-		size = 250
-	}
-
 }

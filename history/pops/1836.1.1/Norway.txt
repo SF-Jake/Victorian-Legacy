@@ -37,10 +37,10 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 30150
+		size = 32450
 	}
 }
 #Bodo (56000/14000 POPS)
@@ -54,7 +54,7 @@
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 3950
+		size = 9790
 	}
 
 	soldiers = {
@@ -63,14 +63,14 @@
 		size = 100
 	}
 
-	labourers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 8900
+		size = 10000
 	}
 
-	labourers = {
-		culture = swedish
+	zbankers = {
+		culture = finnish
 		religion = protestant
 		size = 1100
 	}
@@ -92,25 +92,19 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 50
+		size = 150
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 4400
+		size = 6300
 	}
 
-	farmers = {
+	zbankers = {
 		culture = swedish
 		religion = protestant
-		size = 2000
-	}
-
-	farmers = {
-		culture = swedish
-		religion = protestant
-		size = 2000
+		size = 3630
 	}
 }
 #Alesund (72000/18000 POPS)
@@ -133,84 +127,84 @@
 		size = 100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 16825
+		size = 18175
 	}
 
 }
 #Jan Mayen (60/15 POPS)
 3246 = {
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = animist
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = catholic
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = protestant
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = coptic
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = orthodox
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = sunni
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = shiite
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = jewish
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = mahayana
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = gelugpa
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = theravada
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = shinto
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = hindu
-		size = 4000
+		size = 10000
 	}
-	bankers = {
+	zbankers = {
 		culture = illuminati
 		religion = sikh
-		size = 4000
+		size = 10000
 	}
 }
 
@@ -232,13 +226,13 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 1100
+		size = 2100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 40200
+		size = 42520
 	}
 }
 #Christiansand (164000/41000 POPS)
@@ -261,10 +255,10 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 37825
+		size = 41895
 	}
 }
 #Skien (68000/17000 POPS)
@@ -287,10 +281,10 @@
 		size = 100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 16075
+		size = 17075
 	}
 }
 #Drammen (132000/33000 POPS)
@@ -304,7 +298,19 @@
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 27275
+		size = 10000
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 10000
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 3275
 	}
 
 	soldiers = {
@@ -313,10 +319,10 @@
 		size = 1100
 	}
 
-	labourers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 5000
+		size = 10000
 	}
 
 }
@@ -350,7 +356,13 @@
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 13525
+		size = 10000
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 6365
 	}
 
 	soldiers = {
@@ -359,7 +371,7 @@
 		size = 1100
 	}
 
-	labourers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
 		size = 10000
@@ -385,7 +397,7 @@
 		size = 150
 	}
 
-	labourers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
 		size = 10000
@@ -411,10 +423,10 @@
 		size = 200
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 22425
+		size = 23275
 	}
 }
 #Frederiksstad (68000/17000 POPS)
@@ -437,10 +449,10 @@
 		size = 150
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 16025
+		size = 17025
 	}
 
 }

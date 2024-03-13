@@ -11,4 +11,9 @@ life_rating = 35
 	controller = KUK
 	remove_core = AUS
 	add_core = KUK
+	state_building = {
+		level = 3
+		building = coffee_packaging_factory
+		upgrade = yes
+	}
 }

@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 585
 	primary_culture = north_german
 	religion = protestant
@@ -84,7 +84,7 @@
 	oob = "LIP_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 585
 	primary_culture = north_german
 	religion = protestant
@@ -94,6 +94,7 @@
 	literacy = 0.7
 	civilized = yes
 	prestige = 1
+	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery

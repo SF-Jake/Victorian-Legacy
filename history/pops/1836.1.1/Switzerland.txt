@@ -3,252 +3,180 @@
 603 = {
 	aristocrats = {
 		culture = south_german
-		religion = protestant
-		size = 450
+		religion = catholic
+		size = 700
 	}
 
 	clergymen = {
 		culture = south_german
-		religion = protestant
-		size = 1300
+		religion = catholic
+		size = 1800
 	}
 
 	capitalists = {
 		culture = south_german
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	clerks = {
 		culture = south_german
-		religion = protestant
-		size = 60
-	}
-
-	craftsmen = {
-		culture = south_german
-		religion = protestant
-		size = 1200
-	}
-
-	artisans = {
-		culture = south_german
-		religion = protestant
-		size = 3300
-	}
-
-	soldiers = {
-		culture = south_german
-		religion = protestant
-		size = 1100
-	}
-
-	farmers = {
-		culture = south_german
-		religion = protestant
-		size = 82590
-	}
-
-	aristocrats = {
-		culture = south_german
 		religion = catholic
-		size = 250
-	}
-
-	clergymen = {
-		culture = south_german
-		religion = catholic
-		size = 500
-	}
-
-	clerks = {
-		culture = south_german
-		religion = catholic
-		size = 30
+		size = 90
 	}
 
 	craftsmen = {
 		culture = south_german
 		religion = catholic
-		size = 600
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 1900
+		size = 7000
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 2200
 	}
 
-	farmers = {
+	zbankers = {
 		culture = south_german
 		religion = catholic
-		size = 45720
+		size = 128310
 	}
 }
 #Basel (272000/68000 POPS)
 604 = {
 	aristocrats = {
 		culture = south_german
-		religion = protestant
-		size = 150
-	}
-
-	clergymen = {
-		culture = south_german
-		religion = protestant
-		size = 275
-	}
-
-	clerks = {
-		culture = south_german
-		religion = protestant
-		size = 35
-	}
-
-	craftsmen = {
-		culture = south_german
-		religion = protestant
-		size = 750
-	}
-
-	artisans = {
-		culture = south_german
-		religion = protestant
-		size = 2250
-	}
-
-	soldiers = {
-		culture = south_german
-		religion = protestant
-		size = 1100
-	}
-
-	farmers = {
-		culture = south_german
-		religion = protestant
-		size = 33540
-	}
-
-	aristocrats = {
-		culture = south_german
 		religion = catholic
-		size = 150
+		size = 300
 	}
 
 	clergymen = {
 		culture = south_german
 		religion = catholic
-		size = 250
+		size = 525
 	}
 
 	clerks = {
 		culture = south_german
 		religion = catholic
-		size = 30
+		size = 65
 	}
 
 	craftsmen = {
 		culture = south_german
 		religion = catholic
-		size = 600
+		size = 1350
 	}
 
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 1900
+		size = 4150
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 1100
+		size = 2200
 	}
 
-	farmers = {
+	zbankers = {
 		culture = south_german
 		religion = catholic
-		size = 25800
+		size = 59340
 	}
 }
 #Bern (352000/88000 POPS)
 605 = {
 	aristocrats = {
 		culture = south_german
-		religion = protestant
+		religion = catholic
 		size = 1800
 	}
 
 	officers = {
 		culture = south_german
-		religion = protestant
+		religion = catholic
 		size = 350
 	}
 
 	bureaucrats = {
 		culture = south_german
-		religion = protestant
+		religion = catholic
 		size = 2400
 	}
 
 	clergymen = {
 		culture = south_german
-		religion = protestant
+		religion = catholic
 		size = 625
 	}
 
 	clerks = {
 		culture = south_german
-		religion = protestant
+		religion = catholic
 		size = 75
 	}
 
 	craftsmen = {
 		culture = south_german
-		religion = protestant
-		size = 1500
+		religion = catholic
+		size = 6500
 	}
 
 	artisans = {
 		culture = south_german
-		religion = protestant
-		size = 20000
+		religion = catholic
+		size = 10000
 	}
 
 	artisans = {
 		culture = south_german
-		religion = protestant
-		size = 20000
+		religion = catholic
+		size = 10000
 	}
 
 	artisans = {
 		culture = south_german
-		religion = protestant
-		size = 20000
+		religion = catholic
+		size = 10000
 	}
 
 	artisans = {
 		culture = south_german
-		religion = protestant
-		size = 15550
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 5000
 	}
 
 	soldiers = {
 		culture = south_german
-		religion = protestant
-		size = 1100
+		religion = catholic
+		size = 1650
 	}
 
-	labourers = {
+	zbankers = {
 		culture = south_german
-		religion = protestant
-		size = 5000
+		religion = catholic
+		size = 10000
 	}
 }
 #Lucerne (204000/51000 POPS)
@@ -265,22 +193,16 @@
 		size = 350
 	}
 
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 3500
-	}
-
 	soldiers = {
 		culture = south_german
 		religion = catholic
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = south_german
 		religion = catholic
-		size = 30975
+		size = 34475
 	}
 
 }
@@ -289,148 +211,106 @@
 607 = {
 	aristocrats = {
 		culture = french
-		religion = protestant
-		size = 200
-	}
-
-	bureaucrats = {
-		culture = french
-		religion = protestant
-		size = 1200
-	}
-
-	officers = {
-		culture = french
-		religion = protestant
-		size = 60
-	}
-
-	clergymen = {
-		culture = french
-		religion = protestant
-		size = 300
-	}
-
-	artisans = {
-		culture = french
-		religion = protestant
-		size = 2920
-	}
-
-	soldiers = {
-		culture = french
-		religion = protestant
-		size = 1100
-	}
-
-	farmers = {
-		culture = french
-		religion = protestant
-		size = 37320
-	}
-
-	aristocrats = {
-		culture = french
 		religion = catholic
-		size = 300
+		size = 500
 	}
 
 	bureaucrats = {
 		culture = french
 		religion = catholic
-		size = 800
+		size = 2000
 	}
 
 	officers = {
 		culture = french
 		religion = catholic
-		size = 50
+		size = 110
 	}
 
 	clergymen = {
 		culture = french
 		religion = catholic
-		size = 350
+		size = 650
 	}
 
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 2280
+		size = 5200
 	}
 
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1100
+		size = 2200
 	}
 
-	farmers = {
+	zbankers = {
 		culture = french
 		religion = catholic
-		size = 31230
+		size = 68550
 	}
 }
 #Neuchatel (56000/14000 POPS)
 608 = {
 	aristocrats = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 125
 	}
 
 	artisans = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 3625
 	}
 
 	soldiers = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 150
 	}
 
-	labourers = {
+	zbankers = {
 		culture = french
-		religion = protestant
+		religion = catholic
 		size = 10000
 	}
 }
 #Sitten (72000/18000) POPS
 609 = {
 	aristocrats = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 150
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 6775
 	}
 
 	soldiers = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 1100
 	}
 
-	labourers = {
-		culture = south_german
+	zbankers = {
+		culture = french
 		religion = catholic
 		size = 10000
 	}
@@ -475,7 +355,7 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = north_italian
 		religion = catholic
 		size = 24075
@@ -486,61 +366,30 @@
 	aristocrats = {
 		culture = north_italian
 		religion = catholic
-		size = 100
-	}
-
-	clergymen = {
-		culture = north_italian
-		religion = catholic
-		size = 275
-	}
-
-	artisans = {
-		culture = north_italian
-		religion = catholic
-		size = 650
-	}
-
-	soldiers = {
-		culture = north_italian
-		religion = catholic
-		size = 1100
-	}
-
-	farmers = {
-		culture = north_italian
-		religion = catholic
-		size = 11275
-	}
-
-	aristocrats = {
-		culture = north_italian
-		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = north_italian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = north_italian
-		religion = protestant
-		size = 350
+		religion = catholic
+		size = 8750
 	}
 
 	soldiers = {
 		culture = north_italian
-		religion = protestant
-		size = 75
+		religion = catholic
+		size = 1175
 	}
 
-	farmers = {
+	zbankers = {
 		culture = north_italian
-		religion = protestant
-		size = 6475
+		religion = catholic
+		size = 10000
 	}
-
 }

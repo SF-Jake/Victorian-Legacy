@@ -1,10 +1,11 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 313
-	primary_culture = danish
+	primary_culture = norwegian
+	culture = danish
 	religion = protestant
 	government = hms_government
 	plurality = 0.5
-	nationalvalue = nv_liberty
+	nationalvalue = nv_equality
 	literacy = 0.8
 	non_state_culture_literacy = 0.8
 	civilized = yes
@@ -25,8 +26,8 @@
 	safety_regulations = no_safety
 	health_care = no_health_care
 	unemployment_subsidies = trinket_subsidies
-	pensions = no_pensions 
-	school_reforms = compulsory_schools
+	pensions = low_pensions 
+	school_reforms = good_schools
 
 	#New Reforms
 	conscription = one_year_draft
@@ -79,16 +80,19 @@
 	oob = "NOR_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 313
-	primary_culture = danish
+	primary_culture = norwegian
+	culture = danish
+	culture = sami
 	religion = protestant
 	government = hms_government
 	plurality = 0.5
-	nationalvalue = nv_liberty
+	nationalvalue = nv_equality
 	literacy = 0.8
 	non_state_culture_literacy = 0.8
 	civilized = yes
+	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery
@@ -106,8 +110,8 @@
 	safety_regulations = no_safety
 	health_care = no_health_care
 	unemployment_subsidies = trinket_subsidies
-	pensions = no_pensions 
-	school_reforms = compulsory_schools
+	pensions = low_pensions 
+	school_reforms = good_schools
 
 	#New Reforms
 	conscription = one_year_draft
@@ -171,7 +175,7 @@
 	set_country_flag = army_organisation_idea
 	set_country_flag = military_hospitals_idea
 	set_country_flag = education_idea
-	set_country_flag = navy_build_speed_idea
+	set_country_flag = navy_experience_idea
 	set_country_flag = mining_idea
 
 # Technologies
@@ -214,8 +218,6 @@
 		collectivist_theory = 1
 		the_historical_theory = 1
 		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -323,8 +325,8 @@
 	safety_regulations=acceptable_safety
 	unemployment_subsidies=acceptable_subsidies
 	pensions=good_pensions
-	health_care=universal_health_care
-	school_reforms=good_schools
+	health_care=no_health_care
+	school_reforms=compulsory_schools
 	penal_system=incarceration
 	child_labor=child_labor_illegal
 	slavery=no_slavery

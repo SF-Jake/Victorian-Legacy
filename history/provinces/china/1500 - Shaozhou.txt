@@ -1,7 +1,6 @@
 owner = CHI
 controller = CHI
 add_core = CHI
-add_core = GNG
 trade_goods = tropical_wood
 life_rating = 30
 1913.1.1 = {
@@ -10,4 +9,10 @@ life_rating = 30
 		building = tea_packaging_factory
 		upgrade = yes
 	}
+}
+1913.1.1 = {
+	owner = CHI
+	controller = CHI
+	add_core = CHI
+	remove_core = CHI
 }

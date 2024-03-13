@@ -8,46 +8,45 @@ GHO = {
 	truce_until="1937.1.1"
 }
 
+
 EGY = {
 	value = 30
 }
 
 GON = {
-	value = 40
-	truce_until="1841.1.1"
+	value = -200
 }
 
 TIG = {
-	value = 60
-	truce_until="1841.1.1"
+	value = -200
 }
 
 KAF = {
-	value = 50
-	truce_until="1841.1.1"
+	value = -200
 }
 
-SID = {
-	value = 40
-	truce_until="1841.1.1"
+GJM = {
+	value = -200
 }
 
 HAR = {
-	value = -100
-	truce_until="1841.1.1"
+	value = -200
 }
 
 AWS = {
-	value = -100
-	truce_until="1841.1.1"
+	value = -200
+}
+
+WLO = {
+	value = -200
 }
 
 leader = {
 	name = "Ras Sahle Selassie"
 	type = land
 	date = 1836.1.1
-	personality = defence_2.1
-	background = attack_3.1
+	personality = spd20rec10
+	background = 3a2d_1
 	prestige = 0.5
 }
 

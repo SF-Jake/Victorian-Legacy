@@ -9,7 +9,7 @@ GHO = {
 }
 
 ORA = { value = 200 }
-
+GAZ = { value = 125 }
 army = {
 	name = "Army of Transvaal"
 	location = 2106
@@ -34,7 +34,7 @@ leader = {
 	name = "Andries Pretorius"
 	type = land
 	date = 1836.1.1
-	personality = defence_5.1
-	background = attack_5.1
+	personality = org15mor40
+	background = 4a5d_1
 	prestige = 0.9
 }

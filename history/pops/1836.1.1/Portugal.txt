@@ -28,19 +28,19 @@
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 10000
+		size = 8000
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 5000
+		size = 7000
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
-		size = 172000
+		size = 150800
 	}
 }
 #Vila Real (324000/81000) POPS
@@ -54,7 +54,7 @@
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 625
+		size = 1625
 	}
 
 	artisans = {
@@ -66,13 +66,13 @@
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 2000
+		size = 7000
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
-		size = 72275
+		size = 156675
 	}
 }
 #Covilha (568000/142000 POPS)
@@ -86,7 +86,7 @@
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 1500
+		size = 1000
 	}
 
 	artisans = {
@@ -101,10 +101,10 @@
 		size = 4000
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
-		size = 128000
+		size = 84600
 	}
 
 }
@@ -147,10 +147,10 @@
 		size = 3000
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
-		size = 80050
+		size = 75050
 	}
 }
 #Coimbra (460000/115000 POPS)
@@ -179,7 +179,7 @@
 		size = 2000
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
 		size = 104800
@@ -196,7 +196,7 @@
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 350
+		size = 450
 	}
 
 	artisans = {
@@ -211,10 +211,10 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
-		size = 30850
+		size = 40750
 	}
 }
 #Setubal (112000/28000 POPS)
@@ -228,13 +228,31 @@
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 300
+		size = 400
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 16100
+		size = 10000
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 6000
 	}
 
 	soldiers = {
@@ -243,7 +261,7 @@
 		size = 1200
 	}
 
-	labourers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
 		size = 10000
@@ -268,19 +286,37 @@
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 600
+		size = 1200
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 425
+		size = 475
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 1800
+		size = 10000
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 5000
 	}
 
 	soldiers = {
@@ -289,10 +325,10 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
-		size = 34250
+		size = 10000
 	}
 }
 #Beja (96000/24000 POPS)
@@ -300,19 +336,19 @@
 	aristocrats = {
 		culture = portuguese
 		religion = catholic
-		size = 500
+		size = 750
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 250
+		size = 500
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 17150
+		size = 2150
 	}
 
 	soldiers = {
@@ -321,10 +357,10 @@
 		size = 1100
 	}
 
-	labourers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
-		size = 5000
+		size = 40000
 	}
 }
 #Faro (120000/30000 POPS)
@@ -353,10 +389,10 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
-		size = 27025
+		size = 41025
 	}
 
 }
@@ -399,10 +435,10 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
-		size = 45875
+		size = 46625
 	}
 }
 #Madeira (104000/26000 POPS)
@@ -431,7 +467,7 @@
 		size = 250
 	}
 
-	farmers = {
+	zbankers = {
 		culture = portuguese
 		religion = catholic
 		size = 23825

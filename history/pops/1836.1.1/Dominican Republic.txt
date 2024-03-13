@@ -11,43 +11,25 @@
 	bureaucrats = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 25
+		size = 340
 	}
 	
 	clergymen = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 125
+		size = 250
 	}
 
 	soldiers = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 1175
+		size = 1325
 	}
 
-	farmers = {
+	zbankers = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 27525
-	}
-
-	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 125
-	}
-
-	soldiers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 150
-	}
-
-	farmers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 20600
+		size = 48125
 	}
 }
 #La Vega (56000/15000 POPS) #now part of Dominican Republic
@@ -61,37 +43,18 @@
 	clergymen = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 125
+		size = 275
 	}
 
 	soldiers = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 350
+		size = 650
 	}
 
-	farmers = {
+	zbankers = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 15175
+		size = 24875
 	}
-
-	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 150
-	}
-
-	soldiers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 300
-	}
-
-	farmers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 9700
-	}
-
 }

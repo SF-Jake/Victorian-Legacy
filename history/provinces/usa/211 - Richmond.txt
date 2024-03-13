@@ -5,17 +5,17 @@ trade_goods = tobacco
 life_rating = 35railroad = 1
 1913.1.1 = {
 	state_building = {
-		level = 8
+		level = 6
 		building = cigarette_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
+		level = 2
 		building = ammunition_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
+		level = 4
 		building = canned_food_factory
 		upgrade = yes
 	}
@@ -25,8 +25,13 @@ life_rating = 35railroad = 1
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
-		building = small_arms_factory
+		level = 2
+		building = steamer_shipyard
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = automobile_factory
 		upgrade = yes
 	}
 }

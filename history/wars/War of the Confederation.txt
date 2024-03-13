@@ -1,6 +1,6 @@
 name = "War of the Confederation"
 
-1836.1.1 = {
+1836.1.3 = {
 	add_attacker = CHL
 	add_attacker = ARC
 	add_defender = BOL
@@ -17,6 +17,11 @@ name = "War of the Confederation"
 		receiver = BOL
 	}
 	war_goal = {
+		casus_belli = acquire_core_state state_province_id = 2370
+		actor = ARC
+		receiver = BOL
+	}
+	war_goal = {
 		casus_belli = status_quo
 		actor = CHL
 		receiver = BOL
@@ -28,7 +33,7 @@ name = "War of the Confederation"
 	}
 }
 
-1839.1.1 = {
+1835.1.1 = {
 	rem_attacker = CHL
 	rem_attacker = ARG
 	rem_defender = BOL

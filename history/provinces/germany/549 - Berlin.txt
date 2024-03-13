@@ -3,13 +3,13 @@ controller = PRU
 add_core = PRU
 add_core = GER
 trade_goods = grain
-terrain = berlin
 life_rating = 45
+terrain = urban
 railroad = 1
 fort = 1
 state_building = {
 	level = 2
-	building = steel_factory
+	building = cement_factory
 	upgrade = yes
 }
 state_building = {
@@ -22,17 +22,12 @@ state_building = {
 	owner = GER
 	controller = GER
 	state_building = {
-		level = 10
-		building = pharmaceutical_plant
+		level = 13
+		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 5
-		building = synthetic_nitrate_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 10
 		building = small_arms_factory
 		upgrade = yes
 	}
@@ -42,12 +37,7 @@ state_building = {
 		upgrade = yes
 	}
 	state_building = {
-		level = 10
-		building = liquor_distillery
-		upgrade = yes
-	}
-	state_building = {
-		level = 10
+		level = 20
 		building = artillery_factory
 		upgrade = yes
 	}

@@ -3,75 +3,33 @@
 #Bishkek (236000/59000 POPS) #now part of Kirghizstan   
 1189 = {
     aristocrats = {
-        culture = kazak
+        culture = turkmen
         religion = sunni
-        size = 800
+        size = 900
     }
 
     clergymen = {
-        culture = kazak
+        culture = turkmen
         religion = sunni
-        size = 425
+        size = 500
     }
 
     artisans = {
-        culture = kazak
+        culture = turkmen
         religion = sunni
-        size = 2000
+        size = 2300
     }
 
     soldiers = {
-        culture = kazak
+        culture = turkmen
         religion = sunni
-        size = 3000
+        size = 7075
     }
 
-    soldiers = {
-        culture = kazak
+    zbankers = {
+        culture = turkmen
         religion = sunni
-        size = 3000
-    }
-
-    soldiers = {
-        culture = kazak
-        religion = sunni
-        size = 1000
-    }
-
-    farmers = {
-        culture = kazak
-        religion = sunni
-        size = 33775
-    }
-
-    aristocrats = {
-        culture = kazak
-        religion = sunni
-        size = 100
-    }
-
-    clergymen = {
-        culture = kazak
-        religion = sunni
-        size = 75
-    }
-
-    artisans = {
-        culture = kazak
-        religion = sunni
-        size = 300
-    }
-
-    soldiers = {
-        culture = kazak
-        religion = sunni
-        size = 75
-    }
-
-    farmers = {
-        culture = kazak
-        religion = sunni
-        size = 6450
+        size = 40225
     }
 
     aristocrats = {
@@ -98,7 +56,7 @@
         size = 75
     }
 
-    farmers = {
+    zbankers = {
         culture = uighur
         religion = sunni
         size = 7375
@@ -107,93 +65,33 @@
 #Naryn (56000/14000 POPS) #now part of Kirghizstan    
 1190 = {
     aristocrats = {
-        culture = kazak
+        culture = turkmen
         religion = sunni
-        size = 50
-    }
-
-    clergymen = {
-        culture = kazak
-        religion = sunni
-        size = 50
-    }
-
-    artisans = {
-        culture = kazak
-        religion = sunni
-        size = 100
-    }
-
-    soldiers = {
-        culture = kazak
-        religion = sunni
-        size = 1100
-    }
-
-    farmers = {
-        culture = kazak
-        religion = sunni
-        size = 2775
-    }
-
-    aristocrats = {
-        culture = kazak
-        religion = animist
-        size = 100
-    }
-
-    clergymen = {
-        culture = kazak
-        religion = animist
-        size = 50
-    }
-
-    artisans = {
-        culture = kazak
-        religion = animist
         size = 250
     }
 
-    soldiers = {
-        culture = kazak
-        religion = animist
-        size = 50
-    }
-
-    farmers = {
-        culture = kazak
-        religion = animist
-        size = 4575
-    }
-
-    aristocrats = {
-        culture = kazak
-        religion = sunni
-        size = 100
-    }
-
     clergymen = {
-        culture = kazak
+        culture = turkmen
         religion = sunni
-        size = 50
+        size = 150
     }
 
     artisans = {
-        culture = kazak
+        culture = turkmen
         religion = sunni
-        size = 200
+        size = 550
     }
 
     soldiers = {
-        culture = kazak
+        culture = turkmen
         religion = sunni
-        size = 50
+        size = 1200
     }
 
-    farmers = {
-        culture = kazak
+    zbankers = {
+        culture = turkmen
         religion = sunni
-        size = 4600
+        size = 11950
     }
 }
 #Mawarannahr Region (112000) #see Kazakhstan.txt, Tajikistan.txt, Uzbekistan.txt for balance of region 
@@ -203,61 +101,30 @@
 	aristocrats = {
 		culture = turkmen
 		religion = sunni
-		size = 175
+		size = 550
 	}
 
 	clergymen = {
 		culture = turkmen
 		religion = sunni
-		size = 75
+		size = 250
 	}
 
 	artisans = {
 		culture = turkmen
 		religion = sunni
-		size = 450
+		size = 1350
 	}
 
 	soldiers = {
 		culture = turkmen
 		religion = sunni
-		size = 100
+		size = 4100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = turkmen
 		religion = sunni
-		size = 8200
+		size = 21750
 	}
-
-	aristocrats = {
-		culture = kazak
-		religion = sunni
-		size = 375
-	}
-
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 175
-	}
-
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 900
-	}
-
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 4000
-	}
-
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 13550
-	}
-
 }

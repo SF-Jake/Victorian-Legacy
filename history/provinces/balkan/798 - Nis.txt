@@ -25,13 +25,8 @@ life_rating = 40
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 3
 		building = artillery_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = glass_factory
 		upgrade = yes
 	}
 	state_building = {

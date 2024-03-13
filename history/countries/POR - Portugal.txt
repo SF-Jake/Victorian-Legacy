@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 521
 	primary_culture = portuguese
 	religion = catholic
@@ -53,6 +53,7 @@
 
 	# Technologies
 	post_napoleonic_thought = 1
+	battleship_column_doctrine = 1
 	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
 	military_staff_system = 1
@@ -87,7 +88,7 @@
 	oob = "POR_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 521
 	primary_culture = portuguese
 	religion = catholic
@@ -98,6 +99,7 @@
 	civilized = yes
 	prestige = 10
 	schools = culture_tech_school
+	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = yes_slavery
@@ -142,6 +144,7 @@
 
 	# Technologies
 	post_napoleonic_thought = 1
+	battleship_column_doctrine = 1
 	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
 	military_staff_system = 1
@@ -184,7 +187,7 @@
 	ruling_party = POR_liberal_6
 	literacy = 0.5
 	set_country_flag = military_supplies_idea
-	set_country_flag = navy_build_speed_idea
+	set_country_flag = navy_experience_idea
 	set_country_flag = farming_idea
 	set_country_flag = mining_idea
 	set_country_flag = domestic_idea
@@ -222,9 +225,6 @@
 		late_classical_theory = 1
 		collectivist_theory = 1
 		the_historical_theory = 1
-		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -306,7 +306,7 @@
 	safety_regulations=trinket_safety
 	unemployment_subsidies=no_subsidies
 	pensions=trinket_pensions
-	health_care=universal_health_care
+	health_care=no_health_care
 	school_reforms=low_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_restricted

@@ -1,9 +1,11 @@
-owner = EIC
-controller = EIC
+owner = HND
+controller = HND
+add_core = BUN
 add_core = NAG
 add_core = HND
-trade_goods = grain
+trade_goods = sulphur
 life_rating = 32
+terrain = steppe_mine
 1913.1.1 = {
 	owner = EIC
 	controller = EIC

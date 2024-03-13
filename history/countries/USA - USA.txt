@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 220
 	primary_culture = yankee
 	culture = dixie
@@ -39,7 +39,7 @@
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
 	centralization = federalism
-	colonial_migration = medium_colonial_migration
+	colonial_migration = low_colonial_migration
 
 	ruling_party = USA_conservative
 	last_election = 1828.12.3
@@ -87,8 +87,6 @@
 	experimental_railroad = 1
 
 	#Inventions
-	#corvettes = yes
-	pharmaceuticals = yes
 
 
 	# Starting Consciousness
@@ -100,19 +98,18 @@
 	oob = "USA_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 220
 	primary_culture = yankee
 	culture = dixie
+	culture = texan
 	religion = protestant
 	government = democracy
 	plurality = 25.0
 	nationalvalue = nv_liberty
 	literacy = 0.60
 	civilized = yes
-
-	set_country_flag = new_world_nation
-	set_country_flag = north_american_immigrant_nation
+	set_country_flag = mob1_invented
 
 	#GreaterPowers = prestige
 	prestige = 30
@@ -144,7 +141,7 @@
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
 	centralization = federalism
-	colonial_migration = medium_colonial_migration
+	colonial_migration = low_colonial_migration
 
 	ruling_party = USA_conservative
 	last_election = 1828.12.3
@@ -190,8 +187,6 @@
 	experimental_railroad = 1
 
 	#Inventions
-	#corvettes = yes
-	pharmaceuticals = yes
 
 
 	# Starting Consciousness
@@ -209,6 +204,10 @@ decision = trail_of_tears
 
 1845.1.1 = {
 decision = manifest_destiny
+}
+
+1848.2.2 = {
+	set_country_flag = usa_destiny_manifested
 }
 
 1850.6.3 = {
@@ -242,7 +241,6 @@ decision = corwin_amendment
 	literacy = 0.95
 	non_state_culture_literacy = 0.2
 	culture = afro_american
-	decision = usa_1913_setup
 	decision = enact_the_homestead_act
 	decision = build_panama_canal_2
 	set_global_flag = marching_on_the_trail_of_tears
@@ -257,7 +255,7 @@ decision = corwin_amendment
 	set_country_flag = webster_ashburton_signed
 	set_country_flag = navy_organisation_idea
 	set_country_flag = mining_idea
-	set_country_flag = consumer_goods_idea
+	set_country_flag = industrial_goods_idea
 	set_country_flag = military_hospitals_idea
 	set_country_flag = expansion_idea
 	set_country_flag = army_organisation_idea
@@ -306,8 +304,6 @@ decision = corwin_amendment
 		collectivist_theory = 1
 		the_historical_theory = 1
 		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -415,7 +411,7 @@ decision = corwin_amendment
 	safety_regulations=good_safety
 	unemployment_subsidies=trinket_subsidies
 	pensions=good_pensions
-	health_care=universal_health_care
+	health_care=good_health_care
 	school_reforms=good_schools
 	penal_system=rehabilitation
 	child_labor=child_labor_illegal

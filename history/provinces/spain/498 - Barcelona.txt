@@ -1,44 +1,33 @@
-owner = SPC
-controller = SPC
-add_core = SPA
-add_core = SPC
+owner = SPA
+controller = SPA
+remove_core = SPC
 add_core = CAT
-trade_goods = grain
+trade_goods = fruit
 life_rating = 40
 1913.1.1 = {
-	owner = SPA
-	controller = SPA
-	remove_core = SPC
-}
-1913.1.1 = {
 	state_building = {
-		level = 5
+		level = 3
 		building = liquor_distillery
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
+		level = 3
 		building = winery
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
+		level = 7
 		building = small_arms_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
+		level = 6
 		building = ammunition_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 5
 		building = fertilizer_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = pharmaceutical_plant
 		upgrade = yes
 	}
 	state_building = {

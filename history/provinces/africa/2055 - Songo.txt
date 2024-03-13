@@ -1,11 +1,12 @@
-owner = POR
-controller = POR
+owner = CIV
+controller = CIV
 add_core = GAZ
 colonial = 2
 trade_goods = grain
-life_rating = 35
+life_rating = 15
 1913.1.1 = {
-owner = POR
-controller = POR
-colonial = 2
+	owner = POR
+	controller = POR
+	colonial = 2
+	life_rating = 35
 }

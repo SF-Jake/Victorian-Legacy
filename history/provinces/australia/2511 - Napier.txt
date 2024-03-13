@@ -1,9 +1,11 @@
-add_core = NZL
+owner = CIV
+controller = CIV
 trade_goods = grain
 life_rating = 15
 1913.1.1 = {
-owner = NZL
-controller = NZL
+owner = COM
+controller = COM
+add_core = COM
 life_rating = 35
 colonial = 0
 }

@@ -2,8 +2,6 @@
 #
 # American Straits
 #
-13;14;sea;3011;0;Vancouver Crossing
-14;78;sea;3011;0;Vancouver Crossing
 62;75;sea;2946;0;Straits of Belle Isle
 68;70;sea;2944;0;Cabot Strait
 2237;2269;sea;2975;0;Strait of Trinidad
@@ -11,17 +9,11 @@
 2204;2206;sea;3001;0;Panama strait
 2212;2215;sea;2969;0;#Santiago de Cuba to Cap Haitien
 2214;2222;sea;2974;0;#Santo Domingo to Puerto Rico
-2233;2409;sea;2975;0;#Grenada to Saint Vincent
-2233;2231;sea;2975;0;#Saint Vincent to Saint Lucia
 2229;2231;sea;2975;0;#Barbados to Saint Lucia
 2231;2228;sea;2976;0;#Saint Lucia to Martinique
 2228;2232;sea;2976;0;#Martinique to Dominica
 2232;2230;sea;2976;0;#Dominica to Guadeloupe
-2230;2225;sea;2976;0;#Guadeloupe To Monsterrat
 2230;2228;sea;2976;0;#Guadeloupe To Martinique
-2225;2224;sea;2976;0;#Monsterrat to Antigua
-2225;2227;sea;2976;0;#Monsterrat to Saint Kitts
-2225;2232;sea;2976;0;#Monsterrat to Dominica
 2226;2227;sea;2976;0;#Tortola to Saint Kitts
 2227;2236;sea;2976;0;#Saint Kitts to Saint Martin
 2226;2236;sea;2976;0;#Tortola to Saint Martin
@@ -29,25 +21,21 @@
 2223;2236;sea;2976;0;#Saint Thomas to Saint Martin
 2222;2226;sea;2976;0;#Puerto Rico to Tortola
 2222;2223;sea;2976;0;#Puerto Rico to Saint Thomas
-2237;2238;sea;2975;0;#Trinidad to Tobago
-2238;2233;sea;2975;0;#Tobago to Grenada
 2237;2276;sea;2975;0;#Trinidad to Curiapo
 2619;2297;sea;2998;0;#Chincha Islands to Ica
 
 #
 # African Straits
 #
-2036;2048;sea;2901;0;Zanzibar Strait
-2123;2124;sea;2902;0;Comoros-Mayotte
-1772;1756;sea;2781;0;Suez strait
-2136;1696;sea;2924;0;Canary Islands to Tarfaya
+2036;2048;sea;2901;0;#Zanzibar Strait
+2136;1696;sea;2924;0;#Canary Islands to Tarfaya
 2063;2123;sea;2902;0;#Ibo to Comoros
-2124;2121;sea;2902;0;#Mayotte to Mahajanga
 2126;2119;sea;2907;0;#Bourbon to Toamasina
 2125;2126;sea;2908;0;#Toamasina to Mauritus
 1177;1175;sea;2784;0;#Socotra to Ghayda
 1954;1955;sea;2918;0;#Sao Tome to Fernando Po
 1955;1957;sea;2918;0;#Fernando Po to Buea
+24;1875;sea;2782;0;#Lahej to Djibuti
 
 #
 # European Straits  
@@ -64,28 +52,28 @@
 2557;373;sea;2711;0;#Esbjerg to Odense
 375;385;sea;2722;0;Bay of Holland
 418;419;sea;2725;0;Channel Islands Strait
-473;766;sea;2751;0;Sassari Strait
+267;368;sea;2735;0;#Inverness to Orkey Islands
+473;766;sea;2758;0;Sassari Strait
 826;824;sea;2764;0;Corfu Strait
 838;845;sea;2772;0;Cyclades Strait
 843;869;sea;2772;0;Izmir Strait
 859;865;sea;2773;0;Dardanelles Strait
-860;861;land;2773;0;Golden Horn
-759;763;land;2760;0;Strait of Messina
-759;763;land;2757;0;Strait of Messina
+860;861;sea;2773;0;Golden Horn
+759;763;sea;2760;0;Strait of Messina
 837;827;sea;2765;0;Ionian Islands Strait
 966;1049;sea;2776;0;Strait of Azov
-1687;517;sea;2746;0;Strait of Gibraltar
-400;301;sea;2724;0;Dogger Strait
-2666;852;sea;2763;0;Italian Strait
-498;502;sea;2749;0;Balearic Islands
-498;502;sea;2752;0;Balearic Islands
+1687;512;sea;2746;0;Strait of Gibraltar
 #502;498;sea;2752;0;Balearic Islands to Barcelona
-#1686;512;sea;2746;0;Strait of Gibraltar
+
+###AI English Channel Crossing###
+2666;400;sea;2724;0;Canterbury to Dunkirk
+2666;2701;sea;2724;0;Canterbury to Hong Kong Island
+2666;1297;sea;2724;0;Canterbury to Bombay
+
+
 #
 # Asian Straits
 #
-1632;3249;sea;2829;0;Pusan - Tshushima Strait
-1661;3249;sea;2829;0;Nagasaki - Tshushima Strait
 1083;1086;sea;2832;0;Tatar Straits
 1084;1086;sea;2832;0;Tatar Straits
 #1087;1643;sea;2831;0;La Perouse Strait#removed
@@ -93,29 +81,28 @@
 1089;1088;sea;2839;0;Soya Straits
 1089;1064;sea;2839;0;Soya Straits
 1162;1165;sea;2788;0;Bahrain Strait
-1168;1145;sea;2787;0;Straits of Hormuz
-1309;1322;sea;2794;0;Palk Strait #Ceylon-S India
 1310;1322;sea;2794;0;Palk Strait #Ceylon-S India
-1384;1402;sea;2814;0;Straits of Johore
-1385;1402;sea;2814;0;Straits of Johore
 1403;1413;sea;2805;0;Sunda Strait
 #1412;1851;sea;2782;0;Aden Strait
-#1412;1875;sea;2782;0;Aden Strait
+1412;1875;sea;2782;0;Aden Strait
 1418;1421;sea;2811;0;Strait of Madura
 1420;1438;sea;2811;0;Bali Strait
 1438;1442;sea;2811;0;Lombok Strait
 1442;1440;sea;2811;0;Sumbawa Strait
 1495;1499;sea;2823;0;Hainan Strait
 1457;1461;sea;2849;0;Tacloban Strait
-1640;1660;sea;2843;0;Fukuoka Strait
-1642;1672;sea;2841;0;Hakodate Strait
-1664;1666;sea;2843;0;Matsuyama Strait
-1667;1659;sea;2843;0;Setto Strait
+#Japan
+2218;1660;sea;2829;0;#Tsushima to Fukuoka
+1640;1660;sea;2965;0;#Yamaguchi to Fukuoka
+1638;1666;sea;2965;0;#Hiroshima to Matsuyama
+2224;1666;sea;2965;0;#Oita to Matsuyama
+1667;1659;sea;2965;0;#Tokushima to Kobe
+1642;1672;sea;2841;0;#Hakodate to Aomori
+#Korea
+2218;1632;sea;2829;0;#Tsushima to Fukuoka
 1635;1637;sea;2829;0;Korean Sea Strait #Kwangju to Cheju
-1662;1679;sea;2829;0;Strait to Amari
-1662;1679;sea;2845;0;Strait to Amari
-1679;1678;sea;2845;0;Strait to Okinawa
-1678;1485;sea;2845;0;Strait to Taiwan
+#China
+1496;2701;sea;2824;0;Guangzhou Bay #Hong Kong to Hong Kong Island
 #Philippines
 1455;1458;sea;2848;0;Isla Verde passages #Manila to Mindoro
 1458;1459;sea;2848;0;Mindoro Bay #Mindoro to Palawan
@@ -132,11 +119,8 @@
 1449;1450;sea;2853;0;#Ambon to Ceram
 1450;1453;sea;2853;0;#Ceram to Sorong
 1453;1451;sea;2862;0;#Sorong to Aru
-1454;1452;sea;2856;0;#Merah to Biak
-1430;1439;sea;2810;0;#Makassar to Flores
-1445;1443;sea;2809;0;#Kaupeng to Roti
-1443;1441;sea;2809;0;#Roti to Sumba
-1444;1439;sea;2809;0;#Alor to Flores
+1451;1446;sea;2854;0;#Aru to Dili
+1444;1446;sea;2809;0;#Alor to Dili
 1441;1439;sea;2809;0;#Sumba to Flores
 1439;1440;sea;2811;0;#Flores to Sumbawa
 1399;1404;sea;2813;0;#Palembang to Palak Pinang
@@ -145,7 +129,7 @@
 1402;1385;sea;2814;0;#Tanjungpinang to Johore Bahru
 1404;1427;sea;2813;0;#Palak Pinang to Kota Waringin
 2576;1385;sea;2814;0;#Natuna to Johor Bahru
-2576;1394;sea;2816;0;#Natuna to Kuching
+2576;2629;sea;2816;0;#Natuna to Sambas
 1424;1432;sea;2812;0;#Pasir to Mamuju
 
 #
@@ -182,11 +166,21 @@
 1328;1592;impassable;0;0;scary mountain
 1225;1594;impassable;0;0;scary mountain
 1226;1594;impassable;0;0;scary mountain
-2927;3246;impassable;0;0;world bank
-###South African Adjacencies required for Great Trek Migration###
-2087;2111;impassable;0;0;Cape Town to Durban
+1123;2779;impassable;0;0;scary mountain
+1072;2779;impassable;0;0;scary mountain
+1122;2779;impassable;0;0;scary mountain
+1128;2779;impassable;0;0;scary mountain
+1120;2779;impassable;0;0;scary mountain
+1118;2779;impassable;0;0;scary mountain
+1117;2779;impassable;0;0;scary mountain
+1119;2779;impassable;0;0;scary mountain
+1140;2779;impassable;0;0;scary mountain
+1150;2779;impassable;0;0;scary mountain
+###South African Adjacencies required for Great Trek Migration###	
 2087;2106;impassable;0;0;Cape Town to Witwatersand
 2087;2102;impassable;0;0;Cape Town to Vrystaat
+###Ottoman Name Placement###
+862;860;impassable;0;0;Izmit to Istanbul
 
 #
 # The canals  
@@ -197,7 +191,16 @@
 2772;2773;canal;859;4;Bosphorus Canal
 2773;2774;canal;860;4;Bosphorus Canal
 2711;2710;canal;372;5;Copenhagen Canal
-2746;2747;canal;517;6;Copenhagen Canal
+2746;2747;canal;517;6;Gibraltar Canal
+2746;2925;canal;517;6;Gibraltar Canal
+2760;2757;canal;763;7;Sicily Canal
+2760;2765;canal;763;7;Sicily Canal
+2777;2776;canal;966;8;Azov Canal
+2758;2753;canal;766;9;Strait of Bonifacio
+2758;2756;canal;766;9;Strait of Bonifacio
+2965;2829;canal;1640;10;Seto Inland Sea
+2965;2843;canal;1666;10;Seto Inland Sea
+2965;2843;canal;1667;10;Seto Inland Sea
 
 #
 # Sea to Land
@@ -299,9 +302,7 @@
 2719;310;sea;0;0;#Southern Norwegian Sea
 2720;310;sea;0;0;#Skagerrack
 2720;367;sea;0;0;#Skagerrack
-2720;368;sea;0;0;#Skagerrack
 2720;2557;sea;0;0;#Skagerrack
-2721;368;sea;0;0;#Helgoland Blight
 2721;369;sea;0;0;#Helgoland Blight
 2721;370;sea;0;0;#Helgoland Blight
 2721;371;sea;0;0;#Helgoland Blight
@@ -323,6 +324,7 @@
 2722;385;sea;0;0;#Coast of Holland
 2723;292;sea;0;0;#Dogger Bank
 2723;293;sea;0;0;#Dogger Bank
+2723;300;sea;0;0;#Dogger Bank
 2723;301;sea;0;0;#Dogger Bank
 2723;376;sea;0;0;#Dogger Bank
 2723;378;sea;0;0;#Dogger Bank
@@ -373,6 +375,7 @@
 2733;270;sea;0;0;#Firth of Forth
 2735;266;sea;0;0;#Moray Firth
 2735;267;sea;0;0;#Moray Firth
+2735;368;sea;0;0;#Moray Firth
 2736;257;sea;0;0;#North Channel
 2736;267;sea;0;0;#North Channel
 2736;270;sea;0;0;#North Channel
@@ -414,12 +417,10 @@
 2745;524;sea;0;0;#Gulf of Cadiz
 2745;526;sea;0;0;#Gulf of Cadiz
 2745;527;sea;0;0;#Gulf of Cadiz
-2746;512;sea;0;0;#Straits of Gibraltar
 2746;517;sea;0;0;#Straits of Gibraltar
-2746;1685;sea;0;0;#Straits of Gibraltar
-2746;1686;sea;0;0;#Straits of Gibraltar
 2746;1687;sea;0;0;#Straits of Gibraltar
 2747;506;sea;0;0;#Gulf of Almeria
+2747;512;sea;0;0;#Gulf of Almeria
 2747;513;sea;0;0;#Gulf of Almeria
 2747;514;sea;0;0;#Gulf of Almeria
 2747;515;sea;0;0;#Gulf of Almeria
@@ -464,7 +465,11 @@
 2753;766;sea;0;0;#Western Mediterranean
 2754;1700;sea;0;0;#Barbary Coast
 2754;1701;sea;0;0;#Barbary Coast
+2754;1702;sea;0;0;#Barbary Coast
 2754;1706;sea;0;0;#Barbary Coast
+2754;1717;sea;0;0;#Barbary Coast
+2754;1721;sea;0;0;#Barbary Coast
+2755;765;sea;0;0;#Cape Bon
 2755;1701;sea;0;0;#Cape Bon
 2755;1709;sea;0;0;#Cape Bon
 2755;1726;sea;0;0;#Cape Bon
@@ -477,34 +482,32 @@
 2756;766;sea;0;0;#Tyrrenian Sea
 2756;2567;sea;0;0;#Tyrrenian Sea
 2757;755;sea;0;0;#Bay of Naples
-2757;759;sea;0;0;#Bay of Naples
 2757;760;sea;0;0;#Bay of Naples
+2757;761;sea;0;0;#Bay of Naples
 2757;762;sea;0;0;#Bay of Naples
 2757;763;sea;0;0;#Bay of Naples
-2758;762;sea;0;0;#Gulf of Gabes
-2758;1725;sea;0;0;#Gulf of Gabes
-2758;1726;sea;0;0;#Gulf of Gabes
-2758;1728;sea;0;0;#Gulf of Gabes
-2758;1730;sea;0;0;#Gulf of Gabes
-2759;762;sea;0;0;#Malta Channel
-2759;764;sea;0;0;#Malta Channel
-2759;854;sea;0;0;#Malta Channel
-2759;1731;sea;0;0;#Malta Channel
-2759;1733;sea;0;0;#Malta Channel
-2759;1734;sea;0;0;#Malta Channel
+2758;473;sea;0;0;#Strait of Bonifacio
+2758;766;sea;0;0;#Strait of Bonifacio
+2759;762;sea;0;0;#Gulf of Gabes
+2759;764;sea;0;0;#Gulf of Gabes
+2759;854;sea;0;0;#Gulf of Gabes
+2759;1728;sea;0;0;#Gulf of Gabes
+2759;1730;sea;0;0;#Gulf of Gabes
+2759;1731;sea;0;0;#Gulf of Gabes
 2760;759;sea;0;0;#Straits of Messina
 2760;760;sea;0;0;#Straits of Messina
 2760;763;sea;0;0;#Straits of Messina
-2760;764;sea;0;0;#Straits of Messina
 2761;729;sea;0;0;#Gulf of Venice
 2761;731;sea;0;0;#Gulf of Venice
 2761;733;sea;0;0;#Gulf of Venice
 2761;736;sea;0;0;#Gulf of Venice
+2761;737;sea;0;0;#Gulf of Venice
 2761;742;sea;0;0;#Gulf of Venice
 2761;743;sea;0;0;#Gulf of Venice
 2761;752;sea;0;0;#Gulf of Venice
 2761;769;sea;0;0;#Gulf of Venice
 2761;770;sea;0;0;#Gulf of Venice
+2761;773;sea;0;0;#Gulf of Venice
 2761;774;sea;0;0;#Gulf of Venice
 2761;778;sea;0;0;#Gulf of Venice
 2761;781;sea;0;0;#Gulf of Venice
@@ -513,6 +516,7 @@
 2762;757;sea;0;0;#Adriatic Sea
 2762;780;sea;0;0;#Adriatic Sea
 2762;781;sea;0;0;#Adriatic Sea
+2762;782;sea;0;0;#Adriatic Sea
 2762;2596;sea;0;0;#Adriatic Sea
 2763;756;sea;0;0;#Straits of Otranto
 2763;758;sea;0;0;#Straits of Otranto
@@ -524,22 +528,30 @@
 2763;852;sea;0;0;#Straits of Otranto
 2763;853;sea;0;0;#Straits of Otranto
 2763;2582;sea;0;0;#Straits of Otranto
-2764;758;sea;0;0;#Gulf of Taranto
-2764;760;sea;0;0;#Gulf of Taranto
-2764;761;sea;0;0;#Gulf of Taranto
-2764;824;sea;0;0;#Gulf of Taranto
-2764;826;sea;0;0;#Gulf of Taranto
-2764;853;sea;0;0;#Gulf of Taranto
+2764;1733;sea;0;0;#Gulf of Sirte
+2764;1734;sea;0;0;#Gulf of Sirte
+2764;1735;sea;0;0;#Gulf of Sirte
+2764;1736;sea;0;0;#Gulf of Sirte
+2765;758;sea;0;0;#Ionian Sea
+2765;759;sea;0;0;#Ionian Sea
+2765;760;sea;0;0;#Ionian Sea
+2765;761;sea;0;0;#Ionian Sea
+2765;763;sea;0;0;#Ionian Sea
+2765;764;sea;0;0;#Ionian Sea
 2765;824;sea;0;0;#Ionian Sea
-2765;825;sea;0;0;#Ionian Sea
+2765;826;sea;0;0;#Ionian Sea
 2765;827;sea;0;0;#Ionian Sea
+2765;834;sea;0;0;#Ionian Sea
+2765;835;sea;0;0;#Ionian Sea
 2765;837;sea;0;0;#Ionian Sea
 2765;839;sea;0;0;#Ionian Sea
+2765;840;sea;0;0;#Ionian Sea
 2765;841;sea;0;0;#Ionian Sea
 2765;842;sea;0;0;#Ionian Sea
-2766;1734;sea;0;0;#Gulf of Sirte
-2766;1735;sea;0;0;#Gulf of Sirte
-2766;1736;sea;0;0;#Gulf of Sirte
+2766;764;sea;0;0;#Libyan Sea
+2766;1731;sea;0;0;#Libyan Sea
+2766;1733;sea;0;0;#Libyan Sea
+2766;1736;sea;0;0;#Libyan Sea
 2767;839;sea;0;0;#Gulf of Tobruk
 2767;847;sea;0;0;#Gulf of Tobruk
 2767;848;sea;0;0;#Gulf of Tobruk
@@ -550,7 +562,7 @@
 2768;1751;sea;0;0;#Bay of Alexandria
 2768;1752;sea;0;0;#Bay of Alexandria
 2768;1753;sea;0;0;#Bay of Alexandria
-2769;856;sea;0;0;#Palestinian Coast
+2769;855;sea;0;0;#Palestinian Coast
 2769;915;sea;0;0;#Palestinian Coast
 2769;916;sea;0;0;#Palestinian Coast
 2769;919;sea;0;0;#Palestinian Coast
@@ -559,15 +571,17 @@
 2769;1755;sea;0;0;#Palestinian Coast
 2769;1756;sea;0;0;#Palestinian Coast
 2770;855;sea;0;0;#Gulf of Cyprus
-2770;856;sea;0;0;#Gulf of Cyprus
 2770;857;sea;0;0;#Gulf of Cyprus
 2770;875;sea;0;0;#Gulf of Cyprus
-2770;895;sea;0;0;#Gulf of Cyprus
 2770;894;sea;0;0;#Gulf of Cyprus
+2770;895;sea;0;0;#Gulf of Cyprus
 2770;900;sea;0;0;#Gulf of Cyprus
 2770;905;sea;0;0;#Gulf of Cyprus
+2770;909;sea;0;0;#Gulf of Cyprus
 2770;913;sea;0;0;#Gulf of Cyprus
 2770;914;sea;0;0;#Gulf of Cyprus
+2771;843;sea;0;0;#Sea of Crete
+2771;845;sea;0;0;#Sea of Crete
 2771;846;sea;0;0;#Sea of Crete
 2771;847;sea;0;0;#Sea of Crete
 2771;848;sea;0;0;#Sea of Crete
@@ -584,44 +598,42 @@
 2772;834;sea;0;0;#Aegean Sea
 2772;835;sea;0;0;#Aegean Sea
 2772;836;sea;0;0;#Aegean Sea
-2772;836;sea;0;0;#Aegean Sea
 2772;838;sea;0;0;#Aegean Sea
 2772;839;sea;0;0;#Aegean Sea
 2772;840;sea;0;0;#Aegean Sea
 2772;843;sea;0;0;#Aegean Sea
-2772;844;sea;0;0;#Aegean Sea
 2772;845;sea;0;0;#Aegean Sea
 2772;859;sea;0;0;#Aegean Sea
-2772;864;sea;0;0;#Aegean Sea
 2772;865;sea;0;0;#Aegean Sea
 2772;869;sea;0;0;#Aegean Sea
 2772;872;sea;0;0;#Aegean Sea
-2773;858;sea;0;0;#Sea of Marmara
 2773;859;sea;0;0;#Sea of Marmara
 2773;860;sea;0;0;#Sea of Marmara
 2773;861;sea;0;0;#Sea of Marmara
+2773;862;sea;0;0;#Sea of Marmara
 2773;863;sea;0;0;#Sea of Marmara
-2773;864;sea;0;0;#Sea of Marmara
 2773;865;sea;0;0;#Sea of Marmara
-2774;674;sea;0;0;#Gulf of Varna
-2774;675;sea;0;0;#Gulf of Varna
-2774;814;sea;0;0;#Gulf of Varna
-2774;817;sea;0;0;#Gulf of Varna
-2774;818;sea;0;0;#Gulf of Varna
-2774;858;sea;0;0;#Gulf of Varna
-2774;861;sea;0;0;#Gulf of Varna
-2774;862;sea;0;0;#Gulf of Varna
-2774;880;sea;0;0;#Gulf of Varna
-2774;881;sea;0;0;#Gulf of Varna
-2775;675;sea;0;0;#Gulf of Odessa
-2775;678;sea;0;0;#Gulf of Odessa
-2775;964;sea;0;0;#Gulf of Odessa
-2775;965;sea;0;0;#Gulf of Odessa
-2775;967;sea;0;0;#Gulf of Odessa
-2775;968;sea;0;0;#Gulf of Odessa
-2775;970;sea;0;0;#Gulf of Odessa
+2774;674;sea;0;0;#Western Black Sea
+2774;675;sea;0;0;#Western Black Sea
+2774;814;sea;0;0;#Western Black Sea
+2774;817;sea;0;0;#Western Black Sea
+2774;818;sea;0;0;#Western Black Sea
+2774;858;sea;0;0;#Western Black Sea
+2774;860;sea;0;0;#Western Black Sea
+2774;861;sea;0;0;#Western Black Sea
+2774;862;sea;0;0;#Western Black Sea
+2774;881;sea;0;0;#Western Black Sea
+2774;968;sea;0;0;#Western Black Sea
+2775;880;sea;0;0;#Central Black Sea
+2775;881;sea;0;0;#Central Black Sea
+2775;883;sea;0;0;#Central Black Sea
+2775;964;sea;0;0;#Central Black Sea
+2775;965;sea;0;0;#Central Black Sea
+2775;966;sea;0;0;#Central Black Sea
+2775;967;sea;0;0;#Central Black Sea
+2775;968;sea;0;0;#Central Black Sea
+2775;970;sea;0;0;#Central Black Sea
 2776;964;sea;0;0;#Sea of Azov
-2776;965;sea;0;0;#Sea of Azov
 2776;966;sea;0;0;#Sea of Azov
 2776;967;sea;0;0;#Sea of Azov
 2776;973;sea;0;0;#Sea of Azov
@@ -629,22 +641,21 @@
 2776;979;sea;0;0;#Sea of Azov
 2776;1047;sea;0;0;#Sea of Azov
 2776;1048;sea;0;0;#Sea of Azov
-2776;1049;sea;0;0;#Sea of Azov
-2777;880;sea;0;0;#Eastern Black Sea
 2777;882;sea;0;0;#Eastern Black Sea
 2777;883;sea;0;0;#Eastern Black Sea
 2777;884;sea;0;0;#Eastern Black Sea
 2777;886;sea;0;0;#Eastern Black Sea
+2777;966;sea;0;0;#Eastern Black Sea
+2777;1048;sea;0;0;#Eastern Black Sea
 2777;1049;sea;0;0;#Eastern Black Sea
 2777;1094;sea;0;0;#Eastern Black Sea
 2777;1095;sea;0;0;#Eastern Black Sea
 2777;1096;sea;0;0;#Eastern Black Sea
-2781;921;sea;0;0;#Gulf of Suez
 2781;922;sea;0;0;#Gulf of Suez
 2781;1152;sea;0;0;#Gulf of Suez
+2781;1153;sea;0;0;#Gulf of Suez
 2781;1154;sea;0;0;#Gulf of Suez
 2781;1755;sea;0;0;#Gulf of Suez
-2781;1756;sea;0;0;#Gulf of Suez
 2781;1757;sea;0;0;#Gulf of Suez
 2781;1770;sea;0;0;#Gulf of Suez
 2781;1771;sea;0;0;#Gulf of Suez
@@ -653,9 +664,8 @@
 2781;1834;sea;0;0;#Gulf of Suez
 2782;1152;sea;0;0;#Red Sea
 2782;1155;sea;0;0;#Red Sea
+2782;1178;sea;0;0;#Red Sea
 2782;1179;sea;0;0;#Red Sea
-2782;1180;sea;0;0;#Red Sea
-2782;1412;sea;0;0;#Red Sea
 2782;1833;sea;0;0;#Red Sea
 2782;1849;sea;0;0;#Red Sea
 2782;1851;sea;0;0;#Red Sea
@@ -668,22 +678,26 @@
 2783;1875;sea;0;0;#Straits of Obokk
 2784;1173;sea;0;0;#Bal el Mandeb
 2784;1175;sea;0;0;#Bal el Mandeb
+2784;1177;sea;0;0;#Bal el Mandeb
+2784;1872;sea;0;0;#Bal el Mandeb
+2785;1171;sea;0;0;#Coast of Mascate
 2785;1172;sea;0;0;#Coast of Mascate
-2785;1174;sea;0;0;#Coast of Mascate
-2786;1171;sea;0;0;#Mascate Coast
+2786;1145;sea;0;0;#Mascate Coast
+2786;1146;sea;0;0;#Mascate Coast
+2786;1166;sea;0;0;#Mascate Coast
+2786;1168;sea;0;0;#Mascate Coast
 2786;1172;sea;0;0;#Mascate Coast
 2787;1141;sea;0;0;#Straits of Hormuz
 2787;1142;sea;0;0;#Straits of Hormuz
 2787;1145;sea;0;0;#Straits of Hormuz
-2787;1146;sea;0;0;#Straits of Hormuz
-2787;1166;sea;0;0;#Straits of Hormuz
-2787;1167;sea;0;0;#Straits of Hormuz
 2787;1168;sea;0;0;#Straits of Hormuz
-2787;1169;sea;0;0;#Straits of Hormuz
 2787;1171;sea;0;0;#Straits of Hormuz
+2787;2640;sea;0;0;#Straits of Hormuz
+2787;2699;sea;0;0;#Straits of Hormuz
 2788;932;sea;0;0;#Persian Gulf
 2788;935;sea;0;0;#Persian Gulf
 2788;1132;sea;0;0;#Persian Gulf
+2788;1135;sea;0;0;#Persian Gulf
 2788;1136;sea;0;0;#Persian Gulf
 2788;1138;sea;0;0;#Persian Gulf
 2788;1141;sea;0;0;#Persian Gulf
@@ -692,10 +706,13 @@
 2788;1164;sea;0;0;#Persian Gulf
 2788;1165;sea;0;0;#Persian Gulf
 2788;1167;sea;0;0;#Persian Gulf
+2788;2690;sea;0;0;#Persian Gulf
 2789;1146;sea;0;0;#Gulf of Indus
 2789;1222;sea;0;0;#Gulf of Indus
 2789;1288;sea;0;0;#Gulf of Indus
 2789;1293;sea;0;0;#Gulf of Indus
+2789;2238;sea;0;0;#Gulf of Indus
+2789;2633;sea;0;0;#Gulf of Indus
 2790;1291;sea;0;0;#Gulf of Gujarat
 2790;1292;sea;0;0;#Gulf of Gujarat
 2790;1293;sea;0;0;#Gulf of Gujarat
@@ -774,7 +791,6 @@
 2808;1442;sea;0;0;#Coast of Lombok
 2809;1439;sea;0;0;#Timor Sea
 2809;1441;sea;0;0;#Timor Sea
-2809;1443;sea;0;0;#Timor Sea
 2809;1444;sea;0;0;#Timor Sea
 2809;1445;sea;0;0;#Timor Sea
 2809;2501;sea;0;0;#Timor Sea
@@ -796,12 +812,15 @@
 2811;1438;sea;0;0;#Java Sea
 2811;1440;sea;0;0;#Java Sea
 2811;1442;sea;0;0;#Java Sea
+2812;14;sea;0;0;#Straits of Makassar
 2812;1397;sea;0;0;#Straits of Makassar
+2812;1423;sea;0;0;#Straits of Makassar
 2812;1424;sea;0;0;#Straits of Makassar
 2812;1425;sea;0;0;#Straits of Makassar
 2812;1429;sea;0;0;#Straits of Makassar
 2812;1432;sea;0;0;#Straits of Makassar
 2812;1435;sea;0;0;#Straits of Makassar
+2812;1464;sea;0;0;#Straits of Makassar
 2813;1398;sea;0;0;#Karimata Strait
 2813;1399;sea;0;0;#Karimata Strait
 2813;1403;sea;0;0;#Karimata Strait
@@ -812,6 +831,7 @@
 2813;1418;sea;0;0;#Karimata Strait
 2813;1426;sea;0;0;#Karimata Strait
 2813;1427;sea;0;0;#Karimata Strait
+2813;2626;sea;0;0;#Karimata Strait
 2814;1384;sea;0;0;#Straits of Johore
 2814;1385;sea;0;0;#Straits of Johore
 2814;1386;sea;0;0;#Straits of Johore
@@ -821,15 +841,17 @@
 2814;1400;sea;0;0;#Straits of Johore
 2814;1401;sea;0;0;#Straits of Johore
 2814;1402;sea;0;0;#Straits of Johore
-2814;1426;sea;0;0;#Straits of Johore
 2814;2576;sea;0;0;#Straits of Johore
+2814;2626;sea;0;0;#Straits of Johore
+2814;2629;sea;0;0;#Straits of Johore
 2815;1390;sea;0;0;#Malayan Sea
 2815;1391;sea;0;0;#Malayan Sea
 2815;1392;sea;0;0;#Malayan Sea
 2815;2576;sea;0;0;#Malayan Sea
+2816;18;sea;0;0;#Coast of Sarawak
+2816;1393;sea;0;0;#Coast of Sarawak
 2816;1394;sea;0;0;#Coast of Sarawak
 2816;1395;sea;0;0;#Coast of Sarawak
-2816;2576;sea;0;0;#Coast of Sarawak
 2817;1354;sea;0;0;#Mekong Delta
 2817;1367;sea;0;0;#Mekong Delta
 2817;1380;sea;0;0;#Mekong Delta
@@ -846,9 +868,8 @@
 2819;1380;sea;0;0;#Cam Ranh Bay
 2819;1381;sea;0;0;#Cam Ranh Bay
 2820;2576;sea;0;0;#South China Sea
+2821;18;sea;0;0;#Coast of Brunei
 2821;1393;sea;0;0;#Coast of Brunei
-2821;1395;sea;0;0;#Coast of Brunei
-2821;1396;sea;0;0;#Coast of Brunei
 2821;1397;sea;0;0;#Coast of Brunei
 2821;1459;sea;0;0;#Coast of Brunei
 2822;1375;sea;0;0;#Coast of Annam
@@ -923,6 +944,8 @@
 2829;1661;sea;0;0;#South Korean Sea
 2829;1662;sea;0;0;#South Korean Sea
 2829;1664;sea;0;0;#South Korean Sea
+2829;2218;sea;0;0;#South Korean Sea
+2829;2235;sea;0;0;#South Korean Sea
 2830;1082;sea;0;0;#North Korean Sea
 2830;1621;sea;0;0;#North Korean Sea
 2830;1622;sea;0;0;#North Korean Sea
@@ -939,21 +962,19 @@
 2832;1084;sea;0;0;#Tatar Straits
 2832;1086;sea;0;0;#Tatar Straits
 2832;1087;sea;0;0;#Tatar Straits
-2833;1072;sea;0;0;#Amur Delta
 2833;1084;sea;0;0;#Amur Delta
+2833;1086;sea;0;0;#Amur Delta
 2833;2641;sea;0;0;#Amur Delta
-2834;1072;sea;0;0;#Bay of Ayan
-2834;2618;sea;0;0;#Bay of Ayan
 2834;2639;sea;0;0;#Bay of Ayan
+2834;2641;sea;0;0;#Bay of Ayan
 2835;1073;sea;0;0;#Bay of Komenskoie
 2835;1074;sea;0;0;#Bay of Komenskoie
-2835;2616;sea;0;0;#Bay of Komenskoie
-2835;2618;sea;0;0;#Bay of Komenskoie
-2835;2633;sea;0;0;#Bay of Komenskoie
-2835;2638;sea;0;0;#Bay of Komenskoie
-2835;2663;sea;0;0;#Bay of Komenskoie
+2835;2634;sea;0;0;#Bay of Komenskoie
+2835;2639;sea;0;0;#Bay of Komenskoie
 2836;1074;sea;0;0;#Coast of Kamchatska
+2836;2639;sea;0;0;#Coast of Kamchatska
 2837;1086;sea;0;0;#Okhotsk Sea
+2838;1074;sea;0;0;#Coast of Sakhalin
 2838;1086;sea;0;0;#Coast of Sakhalin
 2838;1087;sea;0;0;#Coast of Sakhalin
 2838;1088;sea;0;0;#Coast of Sakhalin
@@ -979,22 +1000,21 @@
 2841;1671;sea;0;0;#Sea of Japan
 2841;1672;sea;0;0;#Sea of Japan
 2841;1673;sea;0;0;#Sea of Japan
+2841;2220;sea;0;0;#Sea of Japan
+2841;2503;sea;0;0;#Sea of Japan
 2842;1631;sea;0;0;#Amakusa Sea
 2842;1634;sea;0;0;#Amakusa Sea
 2842;1641;sea;0;0;#Amakusa Sea
-2843;1638;sea;0;0;#Setto Inland Sea
-2843;1639;sea;0;0;#Setto Inland Sea
-2843;1640;sea;0;0;#Setto Inland Sea
-2843;1655;sea;0;0;#Setto Inland Sea
+2842;2235;sea;0;0;#Amakusa Sea
+2842;2503;sea;0;0;#Amakusa Sea
 2843;1656;sea;0;0;#Setto Inland Sea
-2843;1659;sea;0;0;#Setto Inland Sea
-2843;1660;sea;0;0;#Setto Inland Sea
 2843;1662;sea;0;0;#Setto Inland Sea
 2843;1663;sea;0;0;#Setto Inland Sea
-2843;1664;sea;0;0;#Setto Inland Sea
 2843;1665;sea;0;0;#Setto Inland Sea
 2843;1666;sea;0;0;#Setto Inland Sea
 2843;1667;sea;0;0;#Setto Inland Sea
+2843;2224;sea;0;0;#Setto Inland Sea
+2844;1452;sea;0;0;#Tokai Sea
 2844;1649;sea;0;0;#Tokai Sea
 2844;1650;sea;0;0;#Tokai Sea
 2844;1651;sea;0;0;#Tokai Sea
@@ -1014,7 +1034,6 @@
 2847;1456;sea;0;0;#Paracel Islands
 2848;1455;sea;0;0;#Manila Bay
 2848;1458;sea;0;0;#Manila Bay
-2848;1459;sea;0;0;#Manila Bay
 2849;1455;sea;0;0;#Coast of Luzon
 2849;1456;sea;0;0;#Coast of Luzon
 2849;1457;sea;0;0;#Coast of Luzon
@@ -1022,16 +1041,15 @@
 2849;1460;sea;0;0;#Coast of Luzon
 2849;1461;sea;0;0;#Coast of Luzon
 2850;1458;sea;0;0;#Gulf of Leyte
-2850;1459;sea;0;0;#Gulf of Leyte
 2850;1460;sea;0;0;#Gulf of Leyte
 2850;1461;sea;0;0;#Gulf of Leyte
 2850;1462;sea;0;0;#Gulf of Leyte
 2850;1463;sea;0;0;#Gulf of Leyte
-2850;1465;sea;0;0;#Gulf of Leyte
-2851;1397;sea;0;0;#Sulu Sea
-2851;1451;sea;0;0;#Sulu Sea
+2850;2565;sea;0;0;#Gulf of Leyte
+2851;1459;sea;0;0;#Sulu Sea
 2851;1462;sea;0;0;#Sulu Sea
 2851;1463;sea;0;0;#Sulu Sea
+2851;1464;sea;0;0;#Sulu Sea
 2852;1433;sea;0;0;#Sea of Celebes
 2852;1434;sea;0;0;#Sea of Celebes
 2852;1435;sea;0;0;#Sea of Celebes
@@ -1052,11 +1070,10 @@
 2854;1451;sea;0;0;#Sea of Banda
 2855;1461;sea;0;0;#Philippine Sea
 2855;1463;sea;0;0;#Philippine Sea
-2856;1452;sea;0;0;#Palau Islands
 2856;1453;sea;0;0;#Palau Islands
-2856;1454;sea;0;0;#Palau Islands
 2856;2518;sea;0;0;#Palau Islands
 2856;2519;sea;0;0;#Palau Islands
+2857;1453;sea;0;0;#Biak Bay
 2857;1454;sea;0;0;#Biak Bay
 2857;2531;sea;0;0;#Biak Bay
 2858;1531;sea;0;0;#Vilian Strait
@@ -1073,9 +1090,9 @@
 2861;2501;sea;0;0;#Arafuam Sea
 2861;2505;sea;0;0;#Arafuam Sea
 2861;2506;sea;0;0;#Arafuam Sea
+2862;1450;sea;0;0;#Kolepom Bay
 2862;1451;sea;0;0;#Kolepom Bay
 2862;1453;sea;0;0;#Kolepom Bay
-2862;1454;sea;0;0;#Kolepom Bay
 2862;1560;sea;0;0;#Kolepom Bay
 2863;1560;sea;0;0;#Gulf of Carpentaria
 2863;2488;sea;0;0;#Gulf of Carpentaria
@@ -1152,13 +1169,11 @@
 2892;1654;sea;0;0;#Iwo Jima Sea
 2894;1074;sea;0;0;#The Kuriles
 2895;1074;sea;0;0;#Bay of Uka
-2895;2633;sea;0;0;#Bay of Uka
-2896;2616;sea;0;0;#Bay of Oljut
-2896;2633;sea;0;0;#Bay of Oljut
-2897;2590;sea;0;0;#Bay of Anadyr
-2897;2616;sea;0;0;#Bay of Anadyr
+2896;1074;sea;0;0;#Bay of Oljut
+2896;2634;sea;0;0;#Bay of Oljut
 2897;2634;sea;0;0;#Bay of Anadyr
 2897;2637;sea;0;0;#Bay of Anadyr
+2898;1074;sea;0;0;#Yekaterina Plains
 2899;1177;sea;0;0;#Horn of Africa
 2899;1871;sea;0;0;#Horn of Africa
 2899;1872;sea;0;0;#Horn of Africa
@@ -1173,6 +1188,7 @@
 2901;2038;sea;0;0;#Zanzibar Strait
 2901;2039;sea;0;0;#Zanzibar Strait
 2901;2048;sea;0;0;#Zanzibar Strait
+2901;2127;sea;0;0;#Zanzibar Strait
 2902;2039;sea;0;0;#Mozambique Channel
 2902;2060;sea;0;0;#Mozambique Channel
 2902;2061;sea;0;0;#Mozambique Channel
@@ -1181,8 +1197,8 @@
 2902;2121;sea;0;0;#Mozambique Channel
 2902;2122;sea;0;0;#Mozambique Channel
 2902;2123;sea;0;0;#Mozambique Channel
-2902;2124;sea;0;0;#Mozambique Channel
 2903;2120;sea;0;0;#Diego Suarez Bay
+2903;2125;sea;0;0;#Diego Suarez Bay
 2903;2127;sea;0;0;#Diego Suarez Bay
 2904;1177;sea;0;0;#Western Arabian Sea
 2907;2118;sea;0;0;#Coast of Tamatave
@@ -1275,34 +1291,35 @@
 2924;1774;sea;0;0;#Canarian Sea
 2924;2135;sea;0;0;#Canarian Sea
 2924;2136;sea;0;0;#Canarian Sea
+2925;512;sea;0;0;#Coast of Morocco
+2925;517;sea;0;0;#Coast of Morocco
 2925;1685;sea;0;0;#Coast of Morocco
+2925;1686;sea;0;0;#Coast of Morocco
+2925;1687;sea;0;0;#Coast of Morocco
 2925;1691;sea;0;0;#Coast of Morocco
 2925;1693;sea;0;0;#Coast of Morocco
 2925;2563;sea;0;0;#Coast of Morocco
-2927;2563;sea;0;0;#Spitzberg Sea
+#2927;2563;sea;0;0;#Spitzberg Sea
 2928;252;sea;0;0;#Icelandic Sea
 2929;252;sea;0;0;#Shetland Straits
 2929;253;sea;0;0;#Shetland Straits
 2930;252;sea;0;0;#Coast of Iceland
-2633;251;sea;0;0;#Denmark Strait
+2933;251;sea;0;0;#Denmark Strait
 2933;252;sea;0;0;#Denmark Strait
 2933;2632;sea;0;0;#Denmark Strait
 2934;251;sea;0;0;#Eastern Coast of Greenland
 2935;251;sea;0;0;#Western Coast of Greenland
 2936;76;sea;0;0;#Labrador Strait
 2936;2562;sea;0;0;#Labrador Strait
-2937;45;sea;0;0;#Baffin Bay
 2937;251;sea;0;0;#Baffin Bay
 2937;2591;sea;0;0;#Baffin Bay
 2937;2636;sea;0;0;#Baffin Bay
-2938;45;sea;0;0;#Hudson Straits
 2938;2592;sea;0;0;#Hudson Straits
 2938;2627;sea;0;0;#Hudson Straits
 2939;47;sea;0;0;#James Bay
 2939;48;sea;0;0;#James Bay
 2939;60;sea;0;0;#James Bay
 2939;2593;sea;0;0;#James Bay
-2939;2626;sea;0;0;#James Bay
 2939;2628;sea;0;0;#James Bay
 2940;37;sea;0;0;#Western Hudson Bay
 2940;44;sea;0;0;#Western Hudson Bay
@@ -1310,7 +1327,6 @@
 2940;2595;sea;0;0;#Western Hudson Bay
 2941;44;sea;0;0;#Eastern Hudson Bay
 2941;2592;sea;0;0;#Eastern Hudson Bay
-2941;2626;sea;0;0;#Eastern Hudson Bay
 2942;44;sea;0;0;#Foxe Basin
 2942;2592;sea;0;0;#Foxe Basin
 2943;61;sea;0;0;#Gulf of St. Lawrence
@@ -1394,9 +1410,17 @@
 2963;2183;sea;0;0;#Yucatan Sea
 2963;2184;sea;0;0;#Yucatan Sea
 2964;2183;sea;0;0;#Gulf of Mexico
-2965;2183;sea;0;0;#Yucatan Channel
-2965;2185;sea;0;0;#Yucatan Channel
-2965;2209;sea;0;0;#Yucatan Channel
+2964;2185;sea;0;0;#Gulf of Mexico
+2964;2209;sea;0;0;#Gulf of Mexico
+2965;1638;sea;0;0;#Strait of Shikoku
+2965;1639;sea;0;0;#Strait of Shikoku
+2965;1640;sea;0;0;#Strait of Shikoku
+2965;1655;sea;0;0;#Strait of Shikoku
+2965;1659;sea;0;0;#Strait of Shikoku
+2965;1660;sea;0;0;#Strait of Shikoku
+2965;1666;sea;0;0;#Strait of Shikoku
+2965;1667;sea;0;0;#Strait of Shikoku
+2965;2224;sea;0;0;#Strait of Shikoku
 2966;2185;sea;0;0;#Belize Bay
 2966;2188;sea;0;0;#Belize Bay
 2966;2190;sea;0;0;#Belize Bay
@@ -1425,14 +1449,13 @@
 2971;2211;sea;0;0;#Northwestern Caribbean
 2971;2212;sea;0;0;#Northwestern Caribbean
 2971;2217;sea;0;0;#Northwestern Caribbean
-2971;2218;sea;0;0;#Northwestern Caribbean
 2972;2234;sea;0;0;#Venezuelan Gulf
-2972;2235;sea;0;0;#Venezuelan Gulf
 2972;2255;sea;0;0;#Venezuelan Gulf
 2972;2268;sea;0;0;#Venezuelan Gulf
 2972;2270;sea;0;0;#Venezuelan Gulf
 2972;2271;sea;0;0;#Venezuelan Gulf
 2972;2272;sea;0;0;#Venezuelan Gulf
+2973;2234;sea;0;0;#Venezuelan Sea
 2973;2264;sea;0;0;#Venezuelan Sea
 2973;2267;sea;0;0;#Venezuelan Sea
 2973;2269;sea;0;0;#Venezuelan Sea
@@ -1443,14 +1466,10 @@
 2975;2231;sea;0;0;#Windward Islands
 2975;2233;sea;0;0;#Windward Islands
 2975;2237;sea;0;0;#Windward Islands
-2975;2238;sea;0;0;#Windward Islands
 2975;2269;sea;0;0;#Windward Islands
 2975;2276;sea;0;0;#Windward Islands
-2975;2409;sea;0;0;#Windward Islands
 2976;2222;sea;0;0;#Lesser Antilles
 2976;2223;sea;0;0;#Lesser Antilles
-2976;2224;sea;0;0;#Lesser Antilles
-2976;2225;sea;0;0;#Lesser Antilles
 2976;2226;sea;0;0;#Lesser Antilles
 2976;2227;sea;0;0;#Lesser Antilles
 2976;2228;sea;0;0;#Lesser Antilles
@@ -1461,7 +1480,7 @@
 2977;2214;sea;0;0;#Turks & Caicos Sea
 2977;2215;sea;0;0;#Turks & Caicos Sea
 2977;2216;sea;0;0;#Turks & Caicos Sea
-2977;2220;sea;0;0;#Turks & Caicos Sea
+2977;2219;sea;0;0;#Turks & Caicos Sea
 2978;2210;sea;0;0;#Coast of Cuba
 2978;2211;sea;0;0;#Coast of Cuba
 2978;2212;sea;0;0;#Coast of Cuba
@@ -1475,7 +1494,7 @@
 2980;2243;sea;0;0;#Guyana Coast
 2980;2276;sea;0;0;#Guyana Coast
 2981;2241;sea;0;0;#Coast of Amapa
-2981;2414;sea;0;0;#Coast of Amapa
+2981;2415;sea;0;0;#Coast of Amapa
 2982;2214;sea;0;0;#Amazonas Gulf
 2982;2215;sea;0;0;#Amazonas Gulf
 2982;2410;sea;0;0;#Amazonas Gulf
@@ -1550,6 +1569,7 @@
 2998;2295;sea;0;0;#Coast of Peru
 2998;2297;sea;0;0;#Coast of Peru
 2998;2298;sea;0;0;#Coast of Peru
+2998;2619;sea;0;0;#Coast of Peru
 2999;2280;sea;0;0;#Guayaquil Bay
 2999;2291;sea;0;0;#Guayaquil Bay
 2999;2292;sea;0;0;#Guayaquil Bay
@@ -1603,23 +1623,19 @@
 3010;81;sea;0;0;#Coast of Oregon
 3010;85;sea;0;0;#Coast of Oregon
 3011;13;sea;0;0;#Coast of Columbia
-3011;14;sea;0;0;#Coast of Columbia
 3011;15;sea;0;0;#Coast of Columbia
 3011;78;sea;0;0;#Coast of Columbia
 3011;81;sea;0;0;#Coast of Columbia
 3012;1;sea;0;0;#Hecate Strait
-3012;2;sea;0;0;#Hecate Strait
+3012;4;sea;0;0;#Hecate Strait
 3012;15;sea;0;0;#Hecate Strait
-3012;2630;sea;0;0;#Hecate Strait
-3013;3;sea;0;0;#Gulf of Alaska
 3013;4;sea;0;0;#Gulf of Alaska
-3013;2630;sea;0;0;#Gulf of Alaska
-3014;4;sea;0;0;#Coast of Alaska
+3013;5;sea;0;0;#Gulf of Alaska
 3014;5;sea;0;0;#Coast of Alaska
 3014;2631;sea;0;0;#Coast of Alaska
-3015;5;sea;0;0;#Kuskowim Bay
 3015;2631;sea;0;0;#Kuskowim Bay
 3020;2134;sea;0;0;#Sea of Azores
+3021;2134;sea;0;0;#Corner Seamounts
 3022;71;sea;0;0;#New England Seamounts
 3022;72;sea;0;0;#New England Seamounts
 3025;203;sea;0;0;#West Bermuda Sea
@@ -1640,16 +1656,15 @@
 3077;2406;sea;0;0;#Java Trench
 3080;2117;sea;0;0;#Cape Sainte Marie
 3080;2118;sea;0;0;#Cape Sainte Marie
+3121;1074;sea;0;0;#Novarsk Plain
 3126;2525;sea;0;0;#Coast of Marcus Island
 3127;2517;sea;0;0;#Coast of the Mariana Islands
 3127;2521;sea;0;0;#Coast of the Mariana Islands
-3130;5;sea;0;0;#North Bering Sea
-3132;4;sea;0;0;#Western Aleutian Islands
-3133;5;sea;0;0;#Pribilof Islands
-3134;4;sea;0;0;#Eastern Aleutian Islands
-3134;4;sea;0;0;#Eastern Aleutian Islands
-3135;3;sea;0;0;#Uminak Pass
-3135;4;sea;0;0;#Uminak Pass
+3130;2631;sea;0;0;#North Bering Sea
+3132;5;sea;0;0;#Western Aleutian Islands
+3133;2631;sea;0;0;#Pribilof Islands
+3134;5;sea;0;0;#Eastern Aleutian Islands
+3135;5;sea;0;0;#Uminak Pass
 3150;658;sea;0;0;#Coast of Hawaii
 3153;2623;sea;0;0;#Coast of Midway Island
 3154;2168;sea;0;0;#Kepler Plain

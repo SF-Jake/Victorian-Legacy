@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1920
 	primary_culture = yoruba
 	culture = tiv
@@ -60,9 +60,12 @@
 	oob = "DAH_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1920
-	primary_culture = w_african
+	primary_culture = fon
+	culture = east_kwa
+	culture = yoruba
+	culture = gur
 	religion = animist
 	government = absolute_monarchy
 	plurality = 0.0

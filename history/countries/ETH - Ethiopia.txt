@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1859
 	primary_culture = amhara
 	culture = cushitic
@@ -54,9 +54,11 @@
 	# Starting Consciousness
 	consciousness = 0
 	nonstate_consciousness = 0
+	
+	oob = "ETH.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1859
 	primary_culture = amhara
 	culture = oromo
@@ -112,10 +114,16 @@
 	# Starting Consciousness
 	consciousness = 0
 	nonstate_consciousness = 0
+	
+	oob = "ETH.txt"
 }
 
 1880.1.1 = {
 	decision = build_addis_ababa
+}
+
+1878.1.1 = {
+	set_country_flag = agar_maqnat
 }
 
 1913.1.1 = {
@@ -144,6 +152,7 @@
 		iron_muzzle_loaded_artillery = 1
 		iron_breech_loaded_artillery = 1
 		military_staff_system = 1
+		military_plans = 1
 		army_command_principle = 1
 		army_professionalism = 1
 		army_decision_making = 1
@@ -152,11 +161,6 @@
 		no_standard = 1
 		ad_hoc_money_bill_printing = 1
 		late_classical_theory = 1
-		collectivist_theory = 1
-		the_historical_theory = 1
-		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		guild_based_production = 1
@@ -192,6 +196,7 @@
 		the_command_principle = 1
 
 #Inventions
+	reinforce_rate_idea_invention = yes
 
 #Reforms
 	wage_reform=no_minimum_wage
@@ -199,7 +204,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=universal_health_care
+	health_care=no_health_care
 	school_reforms=no_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal

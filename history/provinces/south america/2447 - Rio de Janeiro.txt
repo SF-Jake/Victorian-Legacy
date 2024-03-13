@@ -1,18 +1,17 @@
 owner = BRZ
 controller = BRZ
-add_core = BRZ 
+add_core = BRZ
 trade_goods = grain
-terrain = riodejaneiro
-life_rating = 45
+life_rating = 35
 naval_base = 1
 1913.1.1 = {
 	state_building = {
-		level = 12
+		level = 2
 		building = coffee_packaging_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 4
 		building = paper_mill
 		upgrade = yes
 	}
@@ -22,13 +21,23 @@ naval_base = 1
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 6
 		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 7
 		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = fertilizer_factory
 		upgrade = yes
 	}
 	state_building = {

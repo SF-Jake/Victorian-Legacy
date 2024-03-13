@@ -2,7 +2,7 @@ owner = USA
 controller = USA
 add_core = USA
 trade_goods = timber
-life_rating = 35
+life_rating = 40
 colony = 2
 1913.1.1 = {
 	colony = 0
@@ -12,8 +12,13 @@ colony = 2
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
-		building = glass_factory
+		level = 3
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = cement_factory
 		upgrade = yes
 	}
 	state_building = {

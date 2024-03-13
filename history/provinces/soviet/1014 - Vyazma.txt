@@ -6,12 +6,12 @@ life_rating = 35
 1913.1.1 = {
 	state_building = {
 		level = 4
-		building = tea_packaging_factory
+		building = paper_mill
 		upgrade = yes
 	}
 	state_building = {
 		level = 4
-		building = cement_factory
+		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -21,7 +21,7 @@ life_rating = 35
 	}
 	state_building = {
 		level = 4
-		building = furniture_factory
+		building = small_arms_factory
 		upgrade = yes
 	}
 	state_building = {

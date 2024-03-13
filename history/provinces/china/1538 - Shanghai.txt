@@ -1,9 +1,9 @@
 owner = CHI
 controller = CHI
 add_core = CHI
-add_core = HUI
-trade_goods = grain
+trade_goods = fish
 life_rating = 40
+terrain = urban_mine
 1913.1.1 = {
 	naval_base = 4
 	state_building = {
@@ -16,4 +16,10 @@ life_rating = 40
 		building = steel_factory
 		upgrade = yes
 	}
+}
+1913.1.1 = {
+	owner = CHI
+	controller = CHI
+	add_core = CHI
+	remove_core = CHI
 }

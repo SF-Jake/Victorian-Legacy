@@ -8,9 +8,23 @@ GHO = {
 	truce_until="1937.1.1"
 }
 
+FRA = {
+	value = 75	#relation
+}
+
 army = {
-	name = "Army of the Bey of Tunis"
+	name = "Army of of Tunis"
 	location = 1725
+
+	leader = {
+		name = "Mohammed Bey"
+		date = 1836.1.1
+		type = land
+		personality = org05mor10
+		background = 1a2d_1
+		prestige = 0.1
+	}
+
 	regiment = {
 		name= "1.Askäris"
 		type = infantry

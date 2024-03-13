@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 549
 	primary_culture = north_german
 	religion = protestant
@@ -42,7 +42,7 @@
 	centralization = unitary
 	colonial_migration = no_colonial_migration
 
-	ruling_party = PRU_conservative_2
+	ruling_party = PRU_conservative
 	upper_house = {
 		fascist = 0
 		liberal = 35
@@ -81,11 +81,13 @@
 	mechanical_production = 1
 	romanticism = 1
 	practical_steam_engine = 1
-	#clean_coal = 1
+	clean_coal = 1
 
 
 	#Inventions
-	pharmaceuticals = yes
+	multitude_of_financial_instruments = yes
+	insurance_companies = yes
+	regulated_buying_and_selling_of_stocks = yes
 
 	# Starting Consciousness
 	consciousness = 3
@@ -96,7 +98,7 @@
 	oob = "PRU_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 549
 	primary_culture = north_german
 	culture = south_german
@@ -108,6 +110,7 @@
 	non_state_culture_literacy = 0.2
 	civilized = yes
 	set_country_flag = prussia
+	set_country_flag = mob1_invented
 
 	#GreaterPowers = prestige
 	prestige = 50
@@ -141,7 +144,7 @@
 	centralization = unitary
 	colonial_migration = no_colonial_migration
 
-	ruling_party = PRU_conservative_2
+	ruling_party = PRU_conservative
 	upper_house = {
 		fascist = 0
 		liberal = 35
@@ -180,11 +183,13 @@
 	mechanical_production = 1
 	romanticism = 1
 	practical_steam_engine = 1
-	#clean_coal = 1
+	clean_coal = 1
 
 
 	#Inventions
-	pharmaceuticals = yes
+	multitude_of_financial_instruments = yes
+	insurance_companies = yes
+	regulated_buying_and_selling_of_stocks = yes
 
 	# Starting Consciousness
 	consciousness = 3
@@ -194,3 +199,4 @@
 
 	oob = "PRU_oob.txt"
 }
+1913.1.1 = { clr_country_flag = prussia }

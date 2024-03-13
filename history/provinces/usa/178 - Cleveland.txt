@@ -4,29 +4,30 @@ add_core = USA
 trade_goods = coal
 life_rating = 35
 railroad = 1
+terrain = woods_mine
 1913.1.1 = {
 	state_building = {
-		level = 10
+		level = 8
 		building = automobile_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 10
-		building = small_arms_factory
+		level = 8
+		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 10
+		level = 8
 		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 10
+		level = 8
 		building = electric_gear_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 10
+		level = 6
 		building = radio_factory
 		upgrade = yes
 	}
@@ -36,12 +37,7 @@ railroad = 1
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
-		building = automobile_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
+		level = 8
 		building = aeroplane_factory
 		upgrade = yes
 	}

@@ -2,31 +2,31 @@ owner = FRA
 controller = FRA
 add_core = FRA
 trade_goods = grain
-life_rating = 35
+life_rating = 31
 state_building = {
-	level = 2
+	level = 3
 	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 3
+	building = fertilizer_factory
 	upgrade = yes
 }
 1913.1.1 = {
 	state_building = {
-		level = 3
+		level = 5
 		building = automobile_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 10
 		building = aeroplane_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
+		level = 7
 		building = machine_parts_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 6
-		building = cement_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -35,7 +35,7 @@ state_building = {
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
+		level = 3
 		building = explosives_factory
 		upgrade = yes
 	}

@@ -4,6 +4,7 @@ add_core = TUR
 add_core = ARM
 trade_goods = iron
 life_rating = 35
+terrain = mountain_mine
 1913.1.1 = {
 	owner = RUS
 	controller = RUS
@@ -13,12 +14,12 @@ life_rating = 35
 		upgrade = yes
 	}
 	state_building = {
-		level = 1
+		level = 2
 		building = paper_mill
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 2
 		building = furniture_factory
 		upgrade = yes
 	}

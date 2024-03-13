@@ -1,10 +1,12 @@
-owner = TUS
-controller = TUS
-add_core = TUS
-add_core = ITA
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = iron
-life_rating = 35
+life_rating = 30
+terrain = hills_mine
 1913.1.1 = {
-	owner = ITA
-	controller = ITA
+	owner = CHI
+	controller = CHI
+	add_core = CHI
+	remove_core = CHI
 }

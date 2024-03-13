@@ -7,13 +7,13 @@ life_rating = 40
 naval_base = 2
 1913.1.1 = {
 	state_building = {
-		level = 1
+		level = 3
 		building = ammunition_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
-		building = liquor_distillery
+		level = 1
+		building = small_arms_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -22,13 +22,13 @@ naval_base = 2
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 1
 		building = glass_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = radio_factory
+		building = lumber_mill
 		upgrade = yes
 	}
 	state_building = {
@@ -37,13 +37,13 @@ naval_base = 2
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
-		building = electric_gear_factory
+		level = 3
+		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
-		building = telephone_factory
+		level = 3
+		building = steel_factory
 		upgrade = yes
 	}
 	naval_base = 6

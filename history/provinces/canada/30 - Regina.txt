@@ -3,12 +3,11 @@ controller = COM
 add_core = COM
 trade_goods = grain
 life_rating = 35
-1913.1.1 = {
+1836.1.2 = {
 	owner = CAN
 	controller = CAN
 	remove_core = RPL
-}
-1913.1.1 = {
+}1913.1.1 = {
 	state_building = {
 		level = 1
 		building = liquor_distillery

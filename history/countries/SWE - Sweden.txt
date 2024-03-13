@@ -1,6 +1,8 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 322
 	primary_culture = swedish
+	culture = finnish
+	culture = norwegian
 	religion = protestant
 	government = hms_government
 	plurality = 25.0
@@ -26,7 +28,7 @@
 	health_care = no_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions 
-	school_reforms = compulsory_schools
+	school_reforms = good_schools
 
 	# New Reforms
 	conscription = two_year_draft
@@ -76,8 +78,6 @@
 	basic_chemistry = 1
 
 	#Inventions
-	#corvettes = yes
-	pharmaceuticals = yes
 
 	# Starting Consciousness
 	consciousness = 2
@@ -88,9 +88,12 @@
 	oob = "SWE_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 322
 	primary_culture = swedish
+	culture = finnish
+	culture = norwegian
+	culture = sami
 	religion = protestant
 	government = hms_government
 	plurality = 25.0
@@ -98,6 +101,7 @@
 	literacy = 0.8
 	civilized = yes
 	prestige = 15
+	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery
@@ -116,7 +120,7 @@
 	health_care = no_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions 
-	school_reforms = compulsory_schools
+	school_reforms = good_schools
 
 	# New Reforms
 	conscription = two_year_draft
@@ -166,8 +170,6 @@
 	basic_chemistry = 1
 
 	#Inventions
-	#corvettes = yes
-	pharmaceuticals = yes
 
 	# Starting Consciousness
 	consciousness = 2
@@ -242,7 +244,6 @@ decision = pass_folkskolereformen
 		collectivist_theory = 1
 		the_historical_theory = 1
 		neoclassical_theory = 1
-		keynesian_economics = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -350,8 +351,8 @@ decision = pass_folkskolereformen
 	safety_regulations=acceptable_safety
 	unemployment_subsidies=acceptable_subsidies
 	pensions=good_pensions
-	health_care=universal_health_care
-	school_reforms=good_schools
+	health_care=no_health_care
+	school_reforms=compulsory_schools
 	penal_system=incarceration
 	child_labor=child_labor_illegal
 	slavery=no_slavery

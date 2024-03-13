@@ -13,7 +13,7 @@ controller = ROM
 remove_core = TUR
 	state_building = {
 		level = 1
-		building = regular_clothes_factory
+		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -22,13 +22,18 @@ remove_core = TUR
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
 		building = canned_food_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = small_arms_factory
+		building = ammunition_factory
 		upgrade = yes
 	}
 	naval_base = 4

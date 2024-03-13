@@ -6,37 +6,37 @@ life_rating = 35
 1913.1.1 = {
 	state_building = {
 		level = 2
-		building = liquor_distillery
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 2
-		building = coffee_packaging_factory
+		building = explosives_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
-		building = electric_gear_factory
+		level = 1
+		building = fertilizer_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 1
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
 		building = machine_parts_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
-		building = canned_food_factory
-		upgrade = yes
-	}
-	state_building = {
 		level = 1
-		building = telephone_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = radio_factory
+		building = cement_factory
 		upgrade = yes
 	}
 	naval_base = 5

@@ -2,6 +2,7 @@ owner = AUS
 controller = AUS
 add_core = AUS
 add_core = CRO
+add_core = VEN
 add_core = YUG
 trade_goods = fish
 life_rating = 35
@@ -11,14 +12,4 @@ life_rating = 35
 	remove_core = AUS
 	add_core = KUK
 	naval_base = 6
-	state_building = {
-		level = 2
-		building = winery
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = luxury_clothes_factory
-		upgrade = yes
-	}
 }

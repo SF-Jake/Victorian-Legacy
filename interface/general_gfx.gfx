@@ -71,6 +71,11 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 	textSpriteType = {
+		name = "GFX_button_standard_130x36"
+		texturefile = "gfx\\interface\\button_standard_130x36.tga"
+		noOfFrames = 1
+	}
+	textSpriteType = {
 		name = "GFX_button_standard_177"
 		texturefile = "gfx\\interface\\button_standard_177.tga"
 	}

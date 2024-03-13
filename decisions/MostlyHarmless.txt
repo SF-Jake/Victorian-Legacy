@@ -1,6 +1,37 @@
 # Audax Validator "!" Ignore_1004
 # Audax Validator "!" Ignore_1009
 political_decisions = {
+	province_selector_event = {
+		potential = {
+			tag = JAN
+			META_1 = {
+				owner = {
+					ai = no
+					any_owned_province = { has_building = province_selector }
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					any_owned_province = { has_building = province_selector }
+				}
+				random_owned = {
+					limit = {
+						has_building = province_selector
+					}
+					province_event = {
+						## Audax Validator "." Ignore_NEXT
+						id = 92101 days = 0
+					}
+				}
+			}
+		}
+	}
+	
 	banker_income = {
 		potential = {
 			tag = JAN

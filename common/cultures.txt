@@ -886,6 +886,66 @@ south_asian = {
 	leader = indian
 	is_overseas = no
 	unit = IndianGC
+	marathi = {
+		color = {190 220 10}
+		first_names = { Venkatji Shahuji Pratapsinha Rajaram Shivaji Shambhaji Balaji Bajirao Madhava Narayan Raghunath Sawai 
+			
+		}
+		
+		last_names = { "Appa Sahib" "Bowa Sahib" Phadnis Narayan Rao Ballal "Baji Rao" Bhat
+               
+		}
+	}
+	telegu = {
+		color = {22 89 152}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	avadhi = {
+		color = {90 64 23}
+		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+			
+		}
+		
+		last_names = { Singh
+               
+		}
+	}
+	bengali = {
+		color = {156 134 112}
+		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
+			
+		}
+		
+		last_names = { Jafar Muhammad Sarfaraz Ali "Qasim Ali" Najabut Bahadur Mirza
+               
+		}
+	}
+	sinhala = {
+		color = {74 39 40}
+		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
+			
+		}
+		
+		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
+               
+		}
+	}
+	panjabi = {
+		color = {190 180 170}
+		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
+			
+		}
+		
+		last_names = { Singh Kunwar Bahadur Dhillon Nalwa Ahluwalia Ramgarhia Mal Mulraj
+               
+		}
+	}
 	indo-aryan = {
 		color = {190 220 10}
 		first_names = { Venkatji Shahuji Pratapsinha Rajaram Shivaji Shambhaji Balaji Bajirao Madhava Narayan Raghunath Sawai 
@@ -1211,6 +1271,25 @@ native_american = {
 		}
 		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
 		}
+	}
+	amazonian = {
+		color = {4 255 84}
+		first_names = { An?bal Augusto Bento Bernardo C?sar Daniel David Donato Duarte Ernesto
+		Estev?o Fernando Francisco Gabriel Graciano Hugo Jo?o Julio Leopoldo Lucas
+		Miguel Nuno ?scar Rafael Roberto Sebasti?o Sergio Sim?o Vasco Zeferino }
+
+		last_names = { Araw? Arawak Bororo Garifuna G? Guayan? Jeik? Kaingang Kalinago Kamak?n
+		Karaj? Kayap? Mats?s Maxakal? Pur? Timbira Xavante Xerente Xokieng Yanomam? }
+	}
+	guarani = {
+		color = {89 80 175}
+		first_names = { Aniceto Antonio Bartolom? Camilo Carlos Claudio David Emiliano Eugenio Felipe
+		F?lix Fernando Gregorio Jacinto Jes?s Jos? Juan Julio Luis Manuel
+		Marcos M?ximo Narciso Pablo Pedro Rodrigo Roque Sim?n Teodoro V?ctor }
+
+		last_names = { Abjaisu ?lvarez Ayegua Camba Chuaie Correa Cunhagat? D?az Fern?ndez Galeano 
+		G?mez Gonz?lez Guaracay Guaran? Guerrero Jopara L?pez Mongel?s Morla Ort?z
+		Parav? Picagua Riquelme Rivarola "Santa Cruz" Taray? Torga Vel?zquez Yaguarete Yrahi }
 	}
 }
 

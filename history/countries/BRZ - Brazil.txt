@@ -4,7 +4,7 @@ govt_flag =
 	flag = presidential_dictatorship
 }
 
-1836.1.2 = {
+1836.1.1= {
 	capital = 2447
 	primary_culture = brazilian
 	religion = catholic
@@ -61,6 +61,7 @@ govt_flag =
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
+	military_staff_system = 1
 	army_command_principle = 1
 	post_nelsonian_thought = 1
 	clipper_design = 1
@@ -72,6 +73,8 @@ govt_flag =
 	enlightenment_thought = 1
 	water_wheel_power = 1
 	industrial_revolution = 1
+	mechanized_mining = 1
+	basic_chemistry = 1
 
 	# Inventions
 
@@ -82,7 +85,7 @@ govt_flag =
 	oob = "BRZ_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 2447
 	primary_culture = brazilian
 	religion = catholic
@@ -139,6 +142,7 @@ govt_flag =
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
+	military_staff_system = 1
 	army_command_principle = 1
 	post_nelsonian_thought = 1
 	clipper_design = 1
@@ -150,6 +154,8 @@ govt_flag =
 	enlightenment_thought = 1
 	water_wheel_power = 1
 	industrial_revolution = 1
+	mechanized_mining = 1
+	basic_chemistry = 1
 
 	# Inventions
 
@@ -158,6 +164,10 @@ govt_flag =
 	nonstate_consciousness = 1
 
 	oob = "BRZ_oob.txt"
+}
+
+1836.1.1= {
+	set_country_flag = end_of_piratini
 }
 
 1837.11.6 = {
@@ -238,10 +248,6 @@ govt_flag =
 		central_bank_money_bill_printing = 1
 		late_classical_theory = 1
 		collectivist_theory = 1
-		the_historical_theory = 1
-		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -323,7 +329,7 @@ govt_flag =
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=universal_health_care
+	health_care=no_health_care
 	school_reforms=low_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal

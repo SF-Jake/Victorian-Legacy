@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 619
 	primary_culture = north_german
 	culture = hungarian
@@ -55,11 +55,12 @@
 	}
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 619
 	primary_culture = south_german
 	culture = hungarian
 	culture = czech
+	culture = slovene
 	culture = croat
 	culture = slovak
 	religion = catholic
@@ -70,6 +71,7 @@
 	civilized = yes
 	is_releasable_vassal = no
 	set_country_flag = austria
+	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery
@@ -112,25 +114,36 @@
 	}
 }
 
+1848.1.1 = {
+	set_country_flag = hungarian_revolution_1848
+}
+
+1849.10.4 = {
+	set_global_flag = habsburg_victory
+}
+
+1908.10.5 = {
+	set_global_flag = annexed_bosnia
+}
+
 1913.1.1 = {
 	oob = "/1913/KUK_oob.txt"
-	prestige = 600
+	prestige = 650
 	plurality = 90
 	government = prussian_constitutionalism
 	ruling_party = AUS_conservative_5
 	literacy = 0.8
 	non_state_culture_literacy = 0.2
-	decision = austro_hungarian_1913_setup
 	decision = the_grunderzeit
 	decision = budapest_united
 	set_country_flag = dual_monarchy_done
 	set_country_flag = confederalism
 	set_country_flag = army_morale_idea
 	set_country_flag = military_supplies_idea
-	set_country_flag = prestige_idea
-	set_country_flag = assimilation_idea
+	set_country_flag = industrial_goods_idea
+	set_country_flag = farming_idea
 	set_country_flag = mining_idea
-	set_country_flag = domestic_idea
+	set_country_flag = army_organisation_idea
 	
 	schools = army_tech_school
 
@@ -173,8 +186,6 @@
 		collectivist_theory = 1
 		the_historical_theory = 1
 		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -260,12 +271,12 @@
 #Inventions
 
 #Reforms
-	wage_reform=trinket_wage
-	work_hours=fourteen_hours
-	safety_regulations=trinket_safety
-	unemployment_subsidies=trinket_subsidies
+	wage_reform=no_minimum_wage
+	work_hours=no_work_hour_limit
+	safety_regulations=no_safety
+	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=universal_health_care
+	health_care=no_health_care
 	school_reforms=acceptable_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_restricted

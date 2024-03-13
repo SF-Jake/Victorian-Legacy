@@ -4,91 +4,49 @@
 #Massenya (320000/80000 POPS)
 1818 = {
 	aristocrats = {
-		culture = e_african
-		religion = sunni
-		size = 400
+		culture = ubangian
+		religion = animist
+		size = 600
 	}
 
 	bureaucrats = {
-		culture = e_african
-		religion = sunni
-		size = 100
+		culture = ubangian
+		religion = animist
+		size = 700
 	}
 
 	officers = {
-		culture = e_african
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = e_african
-		religion = sunni
+		culture = ubangian
+		religion = animist
 		size = 200
 	}
 
-	artisans = {
-		culture = e_african
-		religion = sunni
-		size = 1000
-	}
-
-	soldiers = {
-		culture = e_african
-		religion = sunni
-		size = 1000
-	}
-
-	farmers = {
-		culture = e_african
-		religion = sunni
-		size = 19000
-	}
-	
-	aristocrats = {
-        culture = n_african
-		religion = sunni
-		size = 200
-	}
-
-	bureaucrats = {
-        culture = n_african
-		religion = sunni
-		size = 100
-	}
-
-	officers = {
-        culture = n_african
-		religion = sunni
-		size = 100
-	}
-
 	clergymen = {
-        culture = n_african
-		religion = sunni
-		size = 100
+		culture = ubangian
+		religion = animist
+		size = 300
 	}
 
 	artisans = {
-        culture = n_african
-		religion = sunni
-		size = 500
+		culture = ubangian
+		religion = animist
+		size = 1500
 	}
 
 	soldiers = {
-        culture = n_african
-		religion = sunni
-		size = 500
+		culture = ubangian
+		religion = animist
+		size = 1500
 	}
 
-	farmers = {
-        culture = n_african
-		religion = sunni
-		size = 13458
+	zbankers = {
+		culture = ubangian
+		religion = animist
+		size = 32460
 	}
 
 	slaves = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 700
 	}
@@ -96,73 +54,43 @@
 #Moundou (48000/12000 POPS)
 1819 = {
 	aristocrats = {
-		culture = e_african
-		religion = sunni
-		size = 700
+		culture = ubangian
+		religion = animist
+		size = 900
 	}
 
 	bureaucrats = {
-		culture = e_african
-		religion = sunni
+		culture = ubangian
+		religion = animist
 		size = 300
 	}
 
 	clergymen = {
-		culture = e_african
-		religion = sunni
-		size = 300
+		culture = ubangian
+		religion = animist
+		size = 400
 	}
 
 	artisans = {
-		culture = e_african
-		religion = sunni
-		size = 2400
+		culture = ubangian
+		religion = animist
+		size = 2900
 	}
 
 	soldiers = {
-		culture = e_african
-		religion = sunni
-		size = 3500
+		culture = ubangian
+		religion = animist
+		size = 2500
 	}
 
-	farmers = {
-		culture = e_african
-		religion = sunni
-		size = 28566
+	zbankers = {
+		culture = ubangian
+		religion = animist
+		size = 41565
 	}
 	
-	aristocrats = {
-		culture = w_african
-		religion = sunni
-		size = 200
-	}
-
-	clergymen = {
-		culture = w_african
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = w_african
-		religion = sunni
-		size = 500
-	}
-
-	soldiers = {
-		culture = w_african
-		religion = sunni
-		size = 1000
-	}
-
-	farmers = {
-		culture = w_african
-		religion = sunni
-		size = 11000
-	}
-
 	slaves = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 16000
 	}
@@ -170,75 +98,39 @@
 #Bongor (36000/9000 POPS)
 1820 = {
 	aristocrats = {
-		culture = e_african
-		religion = sunni
-		size = 425
+		culture = ubangian
+		religion = animist
+		size = 550
 	}
 	
 	bureaucrats = {
-		culture = e_african
-		religion = sunni
+		culture = ubangian
+		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = e_african
-		religion = sunni
-		size = 400
-	}
-
-	artisans = {
-		culture = e_african
-		religion = sunni
-		size = 1000
-	}
-
-	soldiers = {
-		culture = e_african
-		religion = sunni
-		size = 2500
-	}
-
-	farmers = {
-		culture = e_african
-		religion = sunni
-		size = 20000
-	}
-
-	farmers = {
-        culture = n_african
-		religion = sunni
-		size = 1000
-	}
-	
-	aristocrats = {
-        culture = n_african
-		religion = sunni
-		size = 125
-	}
-
-	clergymen = {
-        culture = n_african
-		religion = sunni
+		culture = ubangian
+		religion = animist
 		size = 200
 	}
 
-	soldiers = {
-        culture = n_african
-		religion = sunni
-		size = 500
-	}
-
-	farmers = {
-        culture = n_african
-		religion = sunni
-		size = 3000
-	}
-
-	farmers = {
-		culture = e_african
+	artisans = {
+		culture = ubangian
 		religion = animist
-		size = 12000
+		size = 1000
+	}
+
+	soldiers = {
+		culture = ubangian
+		religion = animist
+		size = 2000
+	}
+
+	zbankers = {
+		culture = ubangian
+		religion = animist
+		size = 37200
 	}
 }
 #Wadai Region (488000)
@@ -246,314 +138,138 @@
 #Abeche (136000/34000 POPS)
 1821 = {
 	aristocrats = {
-		culture = e_african
+		culture = bedouin
 		religion = sunni
-		size = 100
-	}
-
-	bureaucrats = {
-		culture = e_african
-		religion = sunni
-		size = 50
-	}
-
-	officers = {
-		culture = e_african
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = e_african
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = e_african
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = e_african
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = e_african
-		religion = sunni
-		size = 550
-	}
-
-	aristocrats = {
-			culture = n_african
-		religion = sunni
-		size = 400
-	}
-
-	officers = {
-			culture = n_african
-		religion = sunni
-		size = 50
-	}
-
-	bureaucrats = {
-			culture = n_african
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-			culture = n_african
-		religion = sunni
-		size = 200
-	}
-
-	artisans = {
-			culture = n_african
-		religion = sunni
-		size = 600
-	}
-
-	soldiers = {
-			culture = n_african
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-			culture = n_african
-		religion = sunni
-		size = 20733
-	}
-	
-	aristocrats = {
-        culture = n_african
-		religion = sunni
-		size = 300
+		size = 800
 	}
 	
 	bureaucrats = {
-        culture = n_african
+		culture = bedouin
 		religion = sunni
-		size = 100
+		size = 120
+	}
+
+	officers = {
+		culture = bedouin
+		religion = sunni
+		size = 150
 	}
 
 	clergymen = {
-        culture = n_african
+		culture = bedouin
 		religion = sunni
-		size = 100
+		size = 350
 	}
 
 	artisans = {
-        culture = n_african
+		culture = bedouin
 		religion = sunni
-		size = 500
+		size = 1200
 	}
 
 	soldiers = {
-        culture = n_african
+		culture = bedouin
 		religion = sunni
-		size = 1000
+		size = 2200
 	}
 
-	farmers = {
-        culture = n_african
+	zbankers = {
+		culture = bedouin
 		religion = sunni
-		size = 7000
+		size = 28283
 	}
 
 	slaves = {
-			culture = n_african
-		religion = animist
+		culture = bedouin
+		religion = sunni
 		size = 300
 	}
-
 }
 #Am Timan (168000/42000 POPS)
 1822 = {
+	aristocrats = {
+		culture = ubangian
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = ubangian
+		religion = sunni
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = ubangian
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = ubangian
+		religion = sunni
+		size = 350
+	}
+
+	soldiers = {
+		culture = ubangian
+		religion = sunni
+		size = 100
+	}
+
+	zbankers = {
+		culture = ubangian
+		religion = sunni
+		size = 5300
+	}
 
 	slaves = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
-		size = 1900
-	}
-
-	aristocrats = {
-        culture = n_african
-		religion = sunni
-		size = 75
-	}
-
-	clergymen = {
-        culture = n_african
-		religion = sunni
-		size = 50
-	}
-	
-	bureaucrats = {
-        culture = n_african
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-        culture = n_african
-		religion = sunni
-		size = 175
-	}
-
-	soldiers = {
-        culture = n_african
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-        culture = n_african
-		religion = sunni
-		size = 4300
-	}
-
-	aristocrats = {
-		culture = e_african
-		religion = sunni
-		size = 75
-	}
-
-	clergymen = {
-		culture = e_african
-		religion = sunni
-		size = 50
-	}
-	
-	bureaucrats = {
-		culture = e_african
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = e_african
-		religion = sunni
-		size = 175
-	}
-
-	soldiers = {
-		culture = e_african
-		religion = sunni
-		size = 50
-	}
-
-	farmers = {
-		culture = e_african
-		religion = sunni
-		size = 3000
+		size = 3900
 	}
 }
 #Mongo (184000/46000 POPS)
 1823 = {
+
 	aristocrats = {
-		culture = e_african
-		religion = sunni
-		size = 200
+		culture = ubangian
+		religion = animist
+		size = 600
 	}
 
 	clergymen = {
-		culture = e_african
-		religion = sunni
-		size = 125
-	}
-
-	artisans = {
-		culture = e_african
-		religion = sunni
-		size = 500
-	}
-
-	soldiers = {
-		culture = e_african
-		religion = sunni
-		size = 1225
-	}
-
-	farmers = {
-		culture = e_african
-		religion = sunni
-		size = 5000
-	}
-
-	aristocrats = {
-        culture = n_african
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-        culture = n_african
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-        culture = n_african
-		religion = sunni
-		size = 300
-	}
-
-	soldiers = {
-        culture = n_african
-		religion = sunni
-		size = 500
-	}
-
-	farmers = {
-        culture = n_african
-		religion = sunni
-		size = 7269
-	}
-	
-	
-	aristocrats = {
-		culture = e_african
-		religion = sunni
-		size = 300
-	}
-
-	clergymen = {
-		culture = e_african
-		religion = sunni
-		size = 100
+		culture = ubangian
+		religion = animist
+		size = 225
 	}
 
 	bureaucrats = {
-		culture = e_african
-		religion = sunni
+		culture = ubangian
+		religion = animist
 		size = 100
 	}
 	
 	artisans = {
-		culture = e_african
-		religion = sunni
-		size = 1500
+		culture = ubangian
+		religion = animist
+		size = 2300
 	}
 
 	soldiers = {
-		culture = e_african
-		religion = sunni
-		size = 1000
+		culture = ubangian
+		religion = animist
+		size = 1500
 	}
 
-	farmers = {
-		culture = e_african
-		religion = sunni
-		size = 7246
+	zbankers = {
+		culture = ubangian
+		religion = animist
+		size = 20740
 	}
 
 	slaves = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 2000
 	}
@@ -563,111 +279,81 @@
 #Mao (149453/37362 POPS)
 1824 = {
 	aristocrats = {
-			culture = n_african
+		culture = bedouin
 		religion = sunni
-		size = 300
-	}
-
-	clergymen = {
-			culture = n_african
-		religion = sunni
-		size = 200
-	}
-
-	artisans = {
-			culture = n_african
-		religion = sunni
-		size = 200
-	}
-
-	soldiers = {
-			culture = n_african
-		religion = sunni
-		size = 300
-	}
-
-	farmers = {
-			culture = n_african
-		religion = sunni
-		size = 11216
-	}
-
-	aristocrats = {
-		culture = w_african
-		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	bureaucrats = {
-		culture = w_african
+		culture = bedouin
 		religion = sunni
 		size = 100
 	}
 
 	officers = {
-		culture = w_african
+		culture = bedouin
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = w_african
+		culture = bedouin
 		religion = sunni
-		size = 100
+		size = 250
 	}
 
 	artisans = {
-		culture = w_african
+		culture = bedouin
 		religion = sunni
-		size = 200
+		size = 500
 	}
 
 	soldiers = {
-		culture = w_african
+		culture = bedouin
 		religion = sunni
-		size = 200
+		size = 500
 	}
 
-	farmers = {
-		culture = w_african
+	zbankers = {
+		culture = bedouin
 		religion = sunni
-		size = 13010
+		size = 24276
 	}
 
 	slaves = {
-		culture = w_african
-		religion = animist
+		culture = bedouin
+		religion = sunni
 		size = 1300
 	}
 }
 #Zouar (72000/18000 POPS)
 1825 = {
 	aristocrats = {
-			culture = n_african
+		culture = bedouin
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-			culture = n_african
+		culture = bedouin
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-			culture = n_african
+		culture = bedouin
 		religion = sunni
 		size = 50
 	}
 
 	soldiers = {
-			culture = n_african
+		culture = bedouin
 		religion = sunni
 		size = 100
 	}
 
-	farmers = {
-			culture = n_african
+	zbankers = {
+		culture = bedouin
 		religion = sunni
 		size = 1380
 	}
@@ -676,39 +362,32 @@
 #Faya (56000/14000 POPS)
 1826 = {
 	aristocrats = {
-			culture = n_african
+		culture = bedouin
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-			culture = n_african
+		culture = bedouin
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-			culture = n_african
+		culture = bedouin
 		religion = sunni
 		size = 50
 	}
 
 	soldiers = {
-			culture = n_african
+		culture = bedouin
 		religion = sunni
 		size = 100
 	}
 
-	farmers = {
-			culture = n_african
+	zbankers = {
+		culture = bedouin
 		religion = sunni
-		size = 1080
+		size = 1380
 	}
-	
-	farmers = {
-        culture = n_african
-		religion = sunni
-		size = 300
-	}
-
 }

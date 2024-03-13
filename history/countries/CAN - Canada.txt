@@ -4,7 +4,7 @@ govt_flag =
 	flag = hms_government
 }
 
-1836.1.2 = {
+1836.1.1= {
 	capital = 57
 	primary_culture = anglo_canadian
 	culture = french_canadian
@@ -14,27 +14,28 @@ govt_flag =
 	nationalvalue = nv_liberty
 	literacy = 0.5
 	civilized = yes
+	set_country_flag = ruperts_land_act
 
 	oob = "CAN_oob.txt"
 
 	# Political reforms
 	slavery = no_slavery
-	upper_house_composition = state_equal_weight
+	upper_house_composition = appointed
 	vote_franschise = wealth_voting
 	public_meetings = yes_meeting
-	press_rights = free_press
-	trade_unions = all_trade_unions
-	voting_system = jefferson_method
+	press_rights = censored_press
+	trade_unions = non_socialist
+	voting_system = first_past_the_post
 	political_parties = non_secret_ballots
 
 	# Social Reforms
-	wage_reform = low_minimum_wage
-	work_hours = ten_hours
+	wage_reform = no_minimum_wage
+	work_hours = twelve_hours
 	safety_regulations = trinket_safety
 	health_care = no_health_care
 	unemployment_subsidies = trinket_subsidies
 	pensions = no_pensions 
-	school_reforms = low_schools
+	school_reforms = good_schools
 
 	# New Reforms
 	conscription = one_year_draft
@@ -84,7 +85,7 @@ govt_flag =
 	basic_chemistry = 1
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 57
 	primary_culture = anglo_canadian
 	culture = french_canadian
@@ -94,30 +95,28 @@ govt_flag =
 	nationalvalue = nv_liberty
 	literacy = 0.5
 	civilized = yes
-
-	set_country_flag = new_world_nation
-	set_country_flag = north_american_immigrant_nation
+	set_country_flag = mob1_invented
 
 	oob = "CAN_oob.txt"
 
 	# Political reforms
 	slavery = no_slavery
-	upper_house_composition = state_equal_weight
+	upper_house_composition = appointed
 	vote_franschise = wealth_voting
 	public_meetings = yes_meeting
-	press_rights = free_press
-	trade_unions = all_trade_unions
-	voting_system = jefferson_method
+	press_rights = censored_press
+	trade_unions = non_socialist
+	voting_system = first_past_the_post
 	political_parties = non_secret_ballots
 
 	# Social Reforms
-	wage_reform = low_minimum_wage
-	work_hours = ten_hours
+	wage_reform = no_minimum_wage
+	work_hours = twelve_hours
 	safety_regulations = trinket_safety
 	health_care = no_health_care
 	unemployment_subsidies = trinket_subsidies
 	pensions = no_pensions 
-	school_reforms = low_schools
+	school_reforms = good_schools
 
 	# New Reforms
 	conscription = one_year_draft
@@ -125,7 +124,7 @@ govt_flag =
 	penal_system = capital_punishment
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
-	border_policy = open_borders
+	border_policy = quota_immigration
 	centralization = regionalism
 	colonial_migration = no_colonial_migration
 
@@ -175,7 +174,6 @@ govt_flag =
 	literacy = 0.90
 	non_state_culture_literacy = 0.7
 	set_country_flag = confederalism
-	set_country_flag = ruperts_land_act
 	set_country_flag = leadership_idea
 	set_country_flag = army_organisation_idea
 	set_country_flag = military_hospitals_idea
@@ -226,8 +224,6 @@ govt_flag =
 		collectivist_theory = 1
 		the_historical_theory = 1
 		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -321,6 +317,7 @@ govt_flag =
 		naval_nco_training = 1
 
 #Inventions
+	reinforce_rate_idea_invention = yes
 
 #Reforms
 	wage_reform=low_minimum_wage
@@ -328,7 +325,7 @@ govt_flag =
 	safety_regulations=low_safety
 	unemployment_subsidies=trinket_subsidies
 	pensions=acceptable_pensions
-	health_care=universal_health_care
+	health_care=no_health_care
 	school_reforms=good_schools
 	penal_system=punitive_labour
 	child_labor=child_labor_illegal

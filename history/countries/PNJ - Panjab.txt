@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1227
 	primary_culture = panjabi
 	religion = sunni
@@ -69,16 +69,17 @@
 	no_standard = 1
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1227
-	primary_culture = indo-aryan
+	primary_culture = panjabi
+	culture = kashmiri
 	religion = sikh
 	government = absolute_monarchy
 	plurality = 0.0
 	nationalvalue = nv_order
 	literacy = 0.02
 	non_state_culture_literacy = 0.02
-	set_country_flag = indian
+	set_country_flag = mob1_invented
 
 	# Political Reforms
 	slavery = no_slavery

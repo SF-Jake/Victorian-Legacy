@@ -3,8 +3,8 @@ controller = PAP
 add_core = PAP
 add_core = ITA
 trade_goods = grain
-terrain = rome
-life_rating = 45
+life_rating = 40
+terrain = urban
 1913.1.1 = {
 	fort = 4
 	owner = ITA
@@ -16,12 +16,12 @@ life_rating = 45
 	}
 	state_building = {
 		level = 6
-		building = tea_packaging_factory
+		building = luxury_furniture_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
-		building = coffee_packaging_factory
+		level = 7
+		building = luxury_clothes_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -37,11 +37,6 @@ life_rating = 45
 	state_building = {
 		level = 6
 		building = steel_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 6
-		building = fertilizer_factory
 		upgrade = yes
 	}
 	naval_base = 6

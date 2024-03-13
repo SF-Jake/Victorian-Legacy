@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 2001
 	primary_culture = south_forest_bantu
 	religion = animist
@@ -59,9 +59,10 @@
 	oob = "KON_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 2001
-	primary_culture = c_african
+	primary_culture = bakongo
+	culture = kavango
 	religion = catholic
 	government = absolute_monarchy
 	plurality = 0.0

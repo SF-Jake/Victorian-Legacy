@@ -1,10 +1,11 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 343
-	primary_culture = swedish
+	primary_culture = finnish
+	culture = swedish
 	religion = protestant
 	government = absolute_monarchy
 	plurality = 15
-	nationalvalue = nv_liberty
+	nationalvalue = nv_equality
 	literacy = 0.5
 	non_state_culture_literacy = 0.04
 	civilized = yes
@@ -79,16 +80,19 @@
 	oob = "FIN_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 343
-	primary_culture = swedish
+	primary_culture = finnish
+	culture = swedish
+	culture = sami
 	religion = protestant
 	government = absolute_monarchy
 	plurality = 15
-	nationalvalue = nv_liberty
+	nationalvalue = nv_equality
 	literacy = 0.5
 	non_state_culture_literacy = 0.04
 	civilized = yes
+	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery

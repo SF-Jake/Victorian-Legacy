@@ -18,26 +18,26 @@ leader = {
 	name = "Carlo Alberto"
 	date = 1831.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.5
+	personality = org10exp10
+	background = 1a1d_1
+	prestige = 0.1
 }
 
 leader = {
 	name = "Emanuele Pes"
 	date = 1820.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.2
+	personality = mor30rec10
+	background = 2a2d_1
+	prestige = 0.1
 }
 
 leader = {
 	name = "Eusebio Bava"
 	date = 1832.1.1
 	type = land
-	personality = defence_3.1
-	background = attack_2.1
+	personality = org15att10
+	background = 2a3d_1
 	prestige = 0.1
 }
 
@@ -45,8 +45,8 @@ leader = {
 	name = "Ettore Gerbaix"
 	date = 1834.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = org10mor10
+	background = 1a1d_1
 	prestige = 0.0
 }
 
@@ -54,8 +54,8 @@ leader = {
 	name = "Giuseppe Albini"
 	date = 1836.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_2.1
+	personality = org10mor20
+	background = 2a2d_1
 	prestige = 0.0
 }
 
@@ -63,8 +63,8 @@ leader = {
 	name = "La Marmora-Masserano"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_2.1
+	personality = org10att15
+	background = 1a2d_1
 	prestige = 0.0
 }
 
@@ -72,87 +72,91 @@ leader = {
 	name = "Agostino Chiodo"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = org05mor10
+	background = 1a1d_1
 	prestige = 0.0
 }
 
 army = {
-	name = "Mob Stack"
+	name = "Esercito di Sardegna"
 	location = 724
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "1.Fanteria di Linea"
+		type = infantry
 		home = 724
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.Fanteria di Linea"
+		type = infantry
 		home = 723
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.Fanteria di Linea"
+		type = infantry
 		home = 725
 	}
 
+}
+
+army = {
+	name = "Arma dei Carabinieri"
+	location = 720
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.Carabinieri"
+		type = infantry
 		home = 720
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.Carabinieri"
+		type = infantry
 		home = 722
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 720
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 724
-	regiment = {
-		name= "Hussar"
+		name= "1.Carabinieri Reali"
 		type = hussar
-		home = 472
+		home = 720
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.Carabinieri Reali"
+		type = dragoon
+		home = 472
+	}
+}
+
+army = {
+	name = "Arma dei Granatieri"
+	location = 765
+	regiment = {
+		name= "1.Granatieri di Sardegna"
+		type = infantry
 		home = 765
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.Granatieri di Sardegna"
+		type = infantry
 		home = 766
 	}
+}
 
+army = {
+	name = "Arma dei Bersaglieri"
+	location = 721
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.Bersaglieri"
+		type = guard
 		home = 466
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.Bersaglieri"
+		type = guard
 		home = 465
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 724
 	}
 }
 

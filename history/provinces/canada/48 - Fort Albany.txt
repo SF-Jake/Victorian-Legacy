@@ -1,14 +1,14 @@
 owner = COM
 controller = COM
 add_core = COM
-trade_goods = fish
+trade_goods = sulphur
 life_rating = 35
-1913.1.1 = {
+terrain = forest_mine
+1836.1.2 = {
 	owner = CAN
 	controller = CAN
 	remove_core = RPL
-}
-1913.1.1 = {
+}1913.1.1 = {
 	state_building = {
 		level = 2
 		building = furniture_factory

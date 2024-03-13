@@ -23,11 +23,6 @@ naval_base = 2 #Base in Cobh, important since pre-Napoleonic times
 	}
 	state_building = {
 		level = 2
-		building = tea_packaging_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
 		building = winery
 		upgrade = yes
 	}
@@ -37,12 +32,7 @@ naval_base = 2 #Base in Cobh, important since pre-Napoleonic times
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
-		building = small_arms_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
+		level = 4
 		building = fuel_refinery
 		upgrade = yes
 	}

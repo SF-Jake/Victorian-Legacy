@@ -1,9 +1,6 @@
 owner = ECU
 controller = ECU
 add_core = ECU
-add_core = GCO
-add_core = GCL
-
 trade_goods = fruit
 life_rating = 35
 1913.1.1 = {
@@ -13,18 +10,18 @@ life_rating = 35
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 1
 		building = winery
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
-		building = liquor_distillery
+		level = 1
+		building = cement_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 2
-		building = furniture_factory
+		building = paper_mill
 		upgrade = yes
 	}
 }

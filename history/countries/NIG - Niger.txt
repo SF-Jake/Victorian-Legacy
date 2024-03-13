@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1812
 	primary_culture = hausa
 	culture = fulbe
@@ -49,15 +49,14 @@
 		communist = 0
 	}
 }
-
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1812
 	primary_culture = hausa
 	culture = songhai
 	culture = fulbe
 	culture = tuareg
 	culture = kanuri
-		culture = n_africana
+	culture = dyula
 	culture = teda
 	culture = gur
 	culture = baguirmi
@@ -110,7 +109,7 @@
 
 1913.1.1 = {
 	oob = "/1913/NIG_oob.txt"
-	government = tribal_society
+	government = absolute_monarchy
 	prestige = 25
 	plurality = 80
 	literacy = 0.05
@@ -190,7 +189,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=universal_health_care
+	health_care=no_health_care
 	school_reforms=no_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal

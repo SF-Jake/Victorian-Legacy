@@ -5,21 +5,17 @@ add_core = ITA
 trade_goods = coal
 naval_base = 1
 life_rating = 35
+terrain = farmlands_mine
 1913.1.1 = {
 	owner = ITA
 	controller = ITA
 	state_building = {
-		level = 1
-		building = winery
-		upgrade = yes
-	}
-	state_building = {
 		level = 4
-		building = furniture_factory
+		building = luxury_clothes_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 6
 		building = luxury_furniture_factory
 		upgrade = yes
 	}

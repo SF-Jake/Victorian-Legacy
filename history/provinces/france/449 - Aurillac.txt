@@ -1,8 +1,9 @@
 owner = FRA
 controller = FRA
 add_core = FRA
-trade_goods = timber
-life_rating = 32
+trade_goods = coal
+life_rating = 31
+terrain = plains_mine
 1913.1.1 = {
 	state_building = {
 		level = 5
@@ -26,7 +27,7 @@ life_rating = 32
 	}
 	state_building = {
 		level = 6
-		building = coffee_packaging_factory
+		building = steamer_shipyard
 		upgrade = yes
 	}
 	state_building = {

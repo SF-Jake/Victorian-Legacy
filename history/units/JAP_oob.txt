@@ -9,13 +9,31 @@ GHO = {
 }
 
 leader = {
-	name = "Tokugawa Nariaki"
-	date = 1836.1.1
-	type = land
-		personality = defence_1.1
-		background = attack_2.1
-	prestige = 0.1
- }
+    name = "Takashima Shuhan"
+    date = 1836.1.1
+    type = land
+    personality = mor30rec10
+	background = 2a3d_1
+    prestige = 0.1
+}
+
+leader = {
+    name = "Omura Masujiro"
+    date = 1836.1.1
+    type = land
+    personality = spd20rec10
+	background = 3a2d_1
+    prestige = 0.1
+}
+
+leader = {
+    name = "Prince Fushimi Kuniie"
+    date = 1836.1.1
+    type = land
+    personality = org05mor10
+	background = 1a1d_1
+    prestige = 0.1
+}
 
 army = {
 	name = "Army of Daimyo Mori"
@@ -41,8 +59,8 @@ army = {
 		name = "Mori Takachika"
 		date = 1836.1.1
 		type = land
-		personality = defence_2.1
-		background = attack_2.1
+		personality = org10exp05
+		background = 2a2d_1
 	}
 }
 
@@ -88,72 +106,6 @@ army = {
 		name= "3.Tosa"
 		type = irregular
 		home = 1666
-	}
-
-}
-
-army = {
-	name = "Army of the Tokugawa"
-	location = 1649
-	regiment = {
-		name= "1.Samurai"
-		type = cavalry
-		home = 1649
-	}
-	regiment = {
-		name= "2.Samurai"
-		type = cavalry
-		home = 1649
-	}
-	regiment = {
-		name= "3.Samurai"
-		type = cavalry
-		home = 1650
-	}
-	regiment = {
-		name= "1.Edo"
-		type = irregular
-		home = 1651
-	}
-	regiment = {
-		name= "2.Edo"
-		type = irregular
-		home = 1652
-	}
-	regiment = {
-		name= "3.Edo"
-		type = irregular
-		home = 1675
-	}
-	regiment = {
-		name= "4.Edo"
-		type = irregular
-		home = 1653
-	}
-}
-
-navy = {
-	name = "Shogunate Fleet"
-	location = 1657
-	ship = {
-		name= "1 Yusosentai"
-		type = clipper_transport
-	}
-	ship = {
-		name= "2 Yusosentai"
-		type = clipper_transport
-	}
-	ship = {
-		name= "3 Yusosentai"
-		type = clipper_transport
-	}
-	ship = {
-		name= "4 Yusosentai"
-		type = clipper_transport
-	}
-	ship = {
-		name= "5 Yusosentai"
-		type = clipper_transport
 	}
 
 }

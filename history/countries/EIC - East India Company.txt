@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1251
 	primary_culture = british
 	religion = protestant
@@ -43,10 +43,10 @@
 	foreign_officers = yes_foreign_officers 
 	foreign_weapons = yes_foreign_weapons
 	military_constructions = yes_military_constructions
-	foreign_navies = yes_foreign_navies
 	western_shipyards = yes_western_shipyards
 	finance_reform = yes_finance_reform
 	pre_indust = yes_pre_indust
+	firearms_production = yes_firearms_production
 
 	ruling_party = EIC_conservative
 	upper_house = {
@@ -64,16 +64,15 @@
 	flintlock_rifles = 1
 	military_staff_system = 1
 	post_nelsonian_thought = 1
-	clipper_design = 1
-	steamers = 1
 	private_banks = 1
 	introspectionism = 1
 	water_wheel_power = 1
+	mechanized_mining = 1
 
 	oob = "EIC_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1251
 	primary_culture = british
 	religion = protestant
@@ -84,7 +83,7 @@
 	non_state_culture_literacy = 0.03
 	civilized = no
 	set_country_flag = indian
-	decision = indian_setup
+	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery
@@ -119,10 +118,10 @@
 	foreign_officers = yes_foreign_officers 
 	foreign_weapons = yes_foreign_weapons
 	military_constructions = yes_military_constructions
-	foreign_navies = yes_foreign_navies
 	western_shipyards = yes_western_shipyards
 	finance_reform = yes_finance_reform
 	pre_indust = yes_pre_indust
+	firearms_production = yes_firearms_production
 
 	ruling_party = EIC_conservative
 	upper_house = {
@@ -140,11 +139,10 @@
 	flintlock_rifles = 1
 	military_staff_system = 1
 	post_nelsonian_thought = 1
-	clipper_design = 1
-	steamers = 1
 	private_banks = 1
 	introspectionism = 1
 	water_wheel_power = 1
+	mechanized_mining = 1
 
 	oob = "EIC_oob.txt"
 }
@@ -164,6 +162,7 @@
 	set_country_flag = organize_baluchistan_agency
 	set_country_flag = conquest_of_burma
 	set_country_flag = sikkim_protectorate
+	set_country_flag = expand_indian_army
 	set_country_flag = sepoy_rebellion
 	set_global_flag = sepoy_rebellion_ended
 	set_country_flag = military_supplies_idea
@@ -179,10 +178,12 @@
 		strategic_mobility = 1
 		point_defense_system = 1
 		deep_defense_system = 1
+		trench_systems = 1
 		flintlock_rifles = 1
 		muzzle_loaded_rifles = 1
 		breech_loaded_rifles = 1
 		machine_guns = 1
+		bolt_action_rifles = 1
 		bronze_muzzle_loaded_artillery = 1
 		iron_muzzle_loaded_artillery = 1
 		iron_breech_loaded_artillery = 1
@@ -201,11 +202,6 @@
 		no_standard = 1
 		ad_hoc_money_bill_printing = 1
 		late_classical_theory = 1
-		collectivist_theory = 1
-		the_historical_theory = 1
-		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		guild_based_production = 1
@@ -267,7 +263,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=universal_health_care
+	health_care=no_health_care
 	school_reforms=low_schools
 	penal_system=punitive_labour
 	child_labor=child_labor_legal

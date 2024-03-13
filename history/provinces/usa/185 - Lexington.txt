@@ -1,7 +1,7 @@
 owner = USA
 controller = USA
 add_core = USA
-trade_goods = coal
+trade_goods = cattle
 life_rating = 35
 1913.1.1 = {
 	state_building = {
@@ -26,7 +26,7 @@ life_rating = 35
 	}
 	state_building = {
 		level = 5
-		building = radio_factory
+		building = aeroplane_factory
 		upgrade = yes
 	}
 }

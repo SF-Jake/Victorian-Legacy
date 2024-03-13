@@ -9,20 +9,20 @@
 	}
 
 	clergymen = {
-		culture = c_african
-		religion = catholic
+		culture = lacustrine_bantu
+		religion = animist
 		size = 30
 	}
 
 	artisans = {
-		culture = c_african
-		religion = catholic
+		culture = lacustrine_bantu
+		religion = animist
 		size = 75
 	}
 
-	farmers = {
-		culture = c_african
-		religion = catholic
+	zbankers = {
+		culture = lacustrine_bantu
+		religion = animist
 		size = 1175
 	}
 }

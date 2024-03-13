@@ -2,25 +2,19 @@ owner = BEL
 controller = BEL
 add_core = BEL
 add_core = NET
-add_core = PRO
 trade_goods = sulphur
-terrain = brussels
-life_rating = 45
+life_rating = 40
+terrain = urban_mine
 railroad = 1
 state_building = {
-	level = 2
-	building = ammunition_factory
-	upgrade = yes
-}
-state_building = {
 	level = 3
-	building = canned_food_factory
+	building = cement_factory
 	upgrade = yes
 }
 1913.1.1 = { 
 	state_building = {
 		level = 6
-		building = electric_gear_factory
+		building = automobile_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -30,22 +24,22 @@ state_building = {
 	}
 	state_building = {
 		level = 6
-		building = pharmaceutical_plant
+		building = steamer_shipyard
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
-		building = steel_factory
+		level = 7
+		building = furniture_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 6
-		building = machine_parts_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 6
+		level = 7
 		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 7
+		building = regular_clothes_factory
 		upgrade = yes
 	}
 }

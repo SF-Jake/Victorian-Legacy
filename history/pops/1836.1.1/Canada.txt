@@ -26,7 +26,7 @@
 		size = 15
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 900
@@ -60,7 +60,7 @@
 		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 900
@@ -92,7 +92,7 @@
 		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 900
@@ -124,39 +124,7 @@
 		size = 5
 	}
 
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 450
-	}
-}
-#Baker Lake (2000/500 POPS)
-44 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 5
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 5
-	}
-
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 450
@@ -167,33 +135,32 @@
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 15
 	}
 
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 20
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 35
+		size = 50
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 630
+		size = 855
 	}
-
 }
 #British Columbia Region : 64000
 #uncolonized in 1836
@@ -202,64 +169,31 @@
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
 		size = 75
 	}
 
-	artisans = {
+	bureaucrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 150
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	labourers	 = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 2700
-	}
-
-}
-#Vancouver Island (8000/2000 POPS)
-14 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
+		size = 200
 	}
 
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 100
+		size = 125
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 50
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1750
+		size = 6250
 	}
 }
 #Prince Rupert (8000/2000 POPS)
@@ -288,7 +222,7 @@
 		size = 25
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 1750
@@ -320,7 +254,7 @@
 		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 900
@@ -331,63 +265,31 @@
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 30
 	}
 
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 60
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
-	}
-}
-#Fort St John (2400/600 POPS)
-18 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 30
 	}
 
-	soldiers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 520
+		size = 1780
 	}
 }
 #Prince George (8000/2000 POPS)
@@ -404,22 +306,16 @@
 		size = 50
 	}
 
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 100
-	}
-
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 25
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1750
+		size = 1850
 	}
 }
 #Kelowna (8000/2000 POPS)
@@ -448,7 +344,7 @@
 		size = 25
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 1750
@@ -480,116 +376,24 @@
 		size = 25
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 1750
 	}
 
 }
-#Fort Nelson (1600/400 POPS)
-2629 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 5
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 20
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 5
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 360
-	}
-}
 #Alberta Region: 64000
 #uncolonized in 1836
 #Edmonton (16000/4000 POPS)
 22 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	labourers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
-	}
-
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 35
 	}
 
 	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	labourers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
-	}
-
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	artisans = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 100
@@ -598,13 +402,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 55
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1750
+		size = 3760
 	}
 }
 #Athabaska Landing (4800/1200 POPS)
@@ -633,250 +437,56 @@
 		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 1080
 	}
 }
-#Jasper (4000/1000 POPS)
-24 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
-	}
-}
-#Banff (4000/1000 POPS)
-25 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
-	}
-}
 #Calgary (8000/2000 POPS)
 26 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	labourers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
-	}
-
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 20
+	}
+
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 120
 	}
 
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 100
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 200
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 60
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 900
+		size = 3620
 	}
 }
 #Denwood (8000/2000 POPS)
 27 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
-	}
-
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 10
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
-	}
-}
-#Fort MacLeod (8000/2000 POPS)
-28 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	labourers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
-	}
-
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	labourers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
-	}
-}
-#Medicine Hat (8000/2000 POPS)
-29 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
 	}
 
 	clergymen = {
@@ -894,13 +504,39 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
+		size = 30
+	}
+
+	zbankers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1810
+	}
+}
+#Medicine Hat (8000/2000 POPS)
+29 = {
+	aristocrats = {
+		culture = anglo_canadian
+		religion = protestant
 		size = 25
 	}
 
-	farmers = {
+	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1750
+		size = 50
+	}
+
+	soldiers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 25
+	}
+
+	zbankers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1850
 	}
 
 }
@@ -930,7 +566,7 @@
 		size = 10
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 715
@@ -946,52 +582,34 @@
 		size = 25
 	}
 
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	artisans = {
+	bureaucrats = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 100
 	}
 
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 1750
-	}
-
 	clergymen = {
 		culture = anglo_canadian
-		religion = catholic
-		size = 25
+		religion = protestant
+		size = 75
 	}
 
 	artisans = {
 		culture = anglo_canadian
-		religion = catholic
-		size = 50
+		religion = protestant
+		size = 150
 	}
 
 	soldiers = {
 		culture = anglo_canadian
-		religion = catholic
-		size = 15
+		religion = protestant
+		size = 40
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
-		religion = catholic
-		size = 910
+		religion = protestant
+		size = 2660
 	}
 }
 #Stanley (4000/1000 POPS)
@@ -1020,7 +638,7 @@
 		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 900
@@ -1028,30 +646,6 @@
 }
 #Prince Albert (8000/2000 POPS)
 32 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
-	}
-
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
@@ -1061,53 +655,29 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 50
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 30
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 900
+		size = 1810
 	}
 }
 #Asquith (8000/2000 POPS)
 33 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
-	}
-
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
@@ -1117,53 +687,23 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 30
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 900
+		size = 1910
 	}
 }
 #Saskatoon (8000/2000 POPS)
 34 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
-	}
-
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
@@ -1173,25 +713,25 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 50
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 30
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 900
+		size = 1810
 	}
 }
 #Maple anglo_canadiank (4000/1000 POPS)
@@ -1220,7 +760,7 @@
 		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 900
@@ -1237,76 +777,34 @@
 		size = 10
 	}
 
-	clergymen = {
+	bureaucrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
+		size = 100
 	}
 
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 75
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 150
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 45
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 910
+		size = 2720
 	}
 }
 #Churchill (4000/1000 POPS)
@@ -1335,7 +833,7 @@
 		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 900
@@ -1367,7 +865,7 @@
 		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 900
@@ -1384,49 +882,25 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 50
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 30
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 900
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
+		size = 1810
 	}
 }
 #Dauphin (8000/2000 POPS)
@@ -1440,49 +914,25 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 50
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 30
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 900
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
+		size = 1810
 	}
 }
 #Brandon (8000/2000 POPS)
@@ -1496,107 +946,26 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 50
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 30
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 900
+		size = 1810
 	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
-	}
-}
-#Pembina (8000/2000 POPS)
-42 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
-	}
-
 }
 #Ontario Region : 448000
 #uncolonized in 1836
@@ -1626,7 +995,7 @@
 		size = 10
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 630
@@ -1646,22 +1015,16 @@
 		size = 35
 	}
 
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 80
-	}
-
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 20
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1440
+		size = 1520
 	}
 }
 #Dryden (12000/3000 POPS)
@@ -1675,49 +1038,25 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 75
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 100
+		size = 150
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 40
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1750
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 910
+		size = 2660
 	}
 }
 #Thunder Bay (8000/2000 POPS)
@@ -1746,7 +1085,7 @@
 		size = 25
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 1750
@@ -1757,61 +1096,31 @@
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 20
 	}
 
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 50
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 30
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 900
-	}
-
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 50
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
+		size = 1800
 	}
 }
 #Sudbury (8000/2000 POPS)
@@ -1840,7 +1149,7 @@
 		size = 25
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 1750
@@ -1872,7 +1181,7 @@
 		size = 15
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 900
@@ -1905,7 +1214,7 @@
 		size = 5
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 265
@@ -1938,7 +1247,7 @@
 		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 1445
@@ -1951,7 +1260,7 @@
 	bureaucrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 250
+		size = 1300
 	}
 
 	clergymen = {
@@ -1972,7 +1281,7 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 39000
@@ -1989,7 +1298,7 @@
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 5500
+		size = 50
 	}
 
 	soldiers = {
@@ -1998,10 +1307,10 @@
 		size = 100
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 3350
+		size = 8800
 	}
 }
 #Hamilton (68000/17000 POPS)
@@ -2021,13 +1330,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 200
+		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15700
+		size = 14800
 	}
 }
 #Kingston (72000/18000 POPS)
@@ -2035,49 +1344,25 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 150
+		size = 175
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1750
+		size = 2000
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1000
+		size = 1025
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 13100
-	}
-
-	clergymen = {
-		culture = french_canadian
-		religion = protestant
-		size = 25
-	}
-
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 250
-	}
-
-	soldiers = {
-		culture = french_canadian
-		religion = protestant
-		size = 25
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 1700
+		size = 14800
 	}
 }
 #Ottawa (44000/11000 POPS)
@@ -2085,51 +1370,26 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 300
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
 		size = 100
 	}
 
-	farmers = {
+	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 6550
-	}
-
-	clergymen = {
-		culture = french_canadian
-		religion = protestant
-		size = 50
-	}
-
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 200
+		size = 500
 	}
 
 	soldiers = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 1100
 	}
 
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 3700
+	zbankers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 12300
 	}
-
 }
 #Quebec Region : 676000
 #uncolonized in 1836
@@ -2159,7 +1419,7 @@
 		size = 10
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 630
@@ -2171,43 +1431,13 @@
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 5
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
 		size = 10
 	}
 
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 20
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 5
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 360
-	}
-
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 2
-	}
-
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 3
+		size = 15
 	}
 
 	artisans = {
@@ -2219,76 +1449,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 5
+		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 180
-	}
-
-}
-#Port Harrison (2400/600 POPS)
-2626 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 2
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 3
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 5
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 180
-	}
-
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 5
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 20
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 5
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 360
+		size = 765
 	}
 }
 #Fort Chimo (2400/600 POPS)
@@ -2296,61 +1463,31 @@
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 5
+		size = 10
 	}
 
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 15
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 20
+		size = 30
 	}
 
 	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 5
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 360
-	}
-
-	aristocrats = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 2
-	}
-
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 3
-	}
-
-	artisans = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 10
 	}
 
-	soldiers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 5
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 180
+		size = 540
 	}
 }
 #Fort Rupert (2400/600 POPS)
@@ -2359,6 +1496,12 @@
 		culture = anglo_canadian
 		religion = protestant
 		size = 15
+	}
+
+	bureaucrats = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 70
 	}
 
 	clergymen = {
@@ -2379,7 +1522,7 @@
 		size = 10
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 520
@@ -2390,31 +1533,31 @@
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 5
+		size = 15
 	}
 
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 25
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 20
+		size = 50
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 5
+		size = 15
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 360
+		size = 900
 	}
 }
 #ruled by Britain in 1836
@@ -2423,61 +1566,31 @@
 	bureaucrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 200
+		size = 900
 	}
 
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 125
+		size = 625
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 5000
+		size = 5500
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 250
+		size = 3100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 13425
-	}
-
-	bureaucrats = {
-		culture = french_canadian
-		religion = catholic
-		size = 100
-	}
-
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
-		size = 500
-	}
-
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 6000
-	}
-
-	soldiers = {
-		culture = french_canadian
-		religion = catholic
-		size = 400
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 36000
+		size = 22475
 	}
 }
 #Chicoutimi (11200/2800 POPS)
@@ -2491,49 +1604,25 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 20
+		size = 70
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 40
+		size = 140
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 35
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 715
-	}
-
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 100
-	}
-
-	soldiers = {
-		culture = french_canadian
-		religion = catholic
-		size = 25
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 1825
+		size = 2540
 	}
 }
 #Sept-Iles (8000/2000 POPS)
@@ -2541,7 +1630,7 @@
 	aristocrats = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 10
+		size = 35
 	}
 
 	clergymen = {
@@ -2553,43 +1642,19 @@
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 900
-	}
-
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
 		size = 25
 	}
 
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = french_canadian
-		religion = catholic
-		size = 10
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 915
+	zbankers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 1815
 	}
 }
 #Temiscaming (16000/4000 POPS)
@@ -2603,73 +1668,49 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 25
+		size = 100
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 200
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 15
+		size = 40
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 900
-	}
-
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
-		size = 75
-	}
-
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 150
-	}
-
-	soldiers = {
-		culture = french_canadian
-		religion = catholic
-		size = 25
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 2750
+		size = 3650
 	}
 }
 #Trois-Rivieres (68000/17000 POPS)
 64 = {
 	clergymen = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = catholic
 		size = 150
 	}
 
-	farmers = {
-		culture = french_canadian
+	zbankers = {
+		culture = anglo_canadian
 		religion = catholic
 		size = 15675
 	}
@@ -2677,25 +1718,43 @@
 #Quebec City (188000/47000 POPS)
 65 = {
 	clergymen = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = catholic
 		size = 500
 	}
 
 	artisans = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = catholic
-		size = 35500
+		size = 10000
+	}
+
+	artisans = {
+		culture = anglo_canadian
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = anglo_canadian
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = anglo_canadian
+		religion = catholic
+		size = 5500
 	}
 
 	soldiers = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = catholic
 		size = 1000
 	}
 
-	labourers = {
-		culture = french_canadian
+	zbankers = {
+		culture = anglo_canadian
 		religion = catholic
 		size = 10000
 	}
@@ -2705,73 +1764,50 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 50
+		size = 300
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 400
+		size = 1100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 100
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 4450
-	}
-
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
 		size = 250
 	}
 
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 700
+	zbankers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 15350
 	}
 
-	soldiers = {
-		culture = french_canadian
-		religion = catholic
-		size = 150
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 10900
-	}
 }
 #Riviere du Loup (56000/14000 POPS)
 67 = {
 	clergymen = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = catholic
 		size = 150
 	}
 
 	artisans = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
-		culture = french_canadian
+		culture = anglo_canadian
 		religion = catholic
 		size = 150
 	}
 
-	farmers = {
-		culture = french_canadian
+	zbankers = {
+		culture = anglo_canadian
 		religion = catholic
 		size = 12950
 	}
@@ -2790,49 +1826,25 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 275
+		size = 425
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 750
+		size = 1100
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 150
+		size = 250
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 12750
-	}
-
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
-		size = 150
-	}
-
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 350
-	}
-
-	soldiers = {
-		culture = french_canadian
-		religion = catholic
-		size = 100
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 6400
+		size = 19150
 	}
 }
 #Bathurst (64000/16000 POPS)
@@ -2840,49 +1852,25 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 75
+		size = 125
 	}
 
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 600
+		size = 800
 	}
 
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 150
+		size = 175
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 11175
-	}
-
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 200
-	}
-
-	soldiers = {
-		culture = french_canadian
-		religion = catholic
-		size = 25
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 3725
+		size = 14900
 	}
 
 }
@@ -2899,7 +1887,7 @@
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1500
+		size = 500
 	}
 
 	soldiers = {
@@ -2908,10 +1896,10 @@
 		size = 100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 6350
+		size = 7350
 	}
 }
 #Canada - Nova Scotia Region : 147000
@@ -2933,7 +1921,7 @@
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 4000
+		size = 9700
 	}
 
 	soldiers = {
@@ -2942,19 +1930,13 @@
 		size = 200
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 14600
+		size = 10000
 	}
 
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 1100
-	}
-
-	farmers = {
+	artisans = {
 		culture = afro_american
 		religion = protestant
 		size = 750
@@ -2971,7 +1953,7 @@
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 750
+		size = 400
 	}
 
 	soldiers = {
@@ -2980,16 +1962,10 @@
 		size = 125
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 9075
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 1100
+		size = 10525
 	}
 }
 #Cape Breton Island (20000/5000 POPS)
@@ -3012,7 +1988,7 @@
 		size = 50
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 4650
@@ -3038,7 +2014,7 @@
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 2000
+		size = 500
 	}
 
 	soldiers = {
@@ -3047,10 +2023,10 @@
 		size = 50
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 2825
+		size = 4325
 	}
 
 	clergymen = {
@@ -3062,13 +2038,13 @@
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 2000
+		size = 500
 	}
 
-	farmers = {
+	zbankers = {
 		culture = irish
 		religion = catholic
-		size = 6900
+		size = 8400
 	}
 }
 #Millertown (24000/6000 POPS)
@@ -3091,7 +2067,7 @@
 		size = 50
 	}
 
-	labourers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 4625
@@ -3109,7 +2085,7 @@
 		size = 100
 	}
 
-	labourers = {
+	zbankers = {
 		culture = irish
 		religion = catholic
 		size = 800
@@ -3141,7 +2117,7 @@
 		size = 5
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 450
@@ -3174,7 +2150,7 @@
 		size = 25
 	}
 
-	farmers = {
+	zbankers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 1350
@@ -3203,7 +2179,7 @@
 		size = 45
 	}
 
-	farmers = {
+	zbankers = {
 		culture = french
 		religion = catholic
 		size = 450

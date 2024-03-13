@@ -8,9 +8,24 @@ GHO = {
 	truce_until="1937.1.1"
 }
 
+#Relations
+MOR = {
+	value = 150		#relation
+}
+
 army = {
-	name = "Army of Abd el Kader"
+	name = "Army of Mascara"
 	location = 1707
+
+	leader = {
+		name = "Emir Abdelkader"
+		date = 1836.1.1
+		type = land
+		personality = org15mor40
+		background = 3a3d_1
+		prestige = 0.5
+	}
+
 	regiment = {
 		name= "1.Askäris"
 		type = irregular
@@ -20,7 +35,7 @@ army = {
 	regiment = {
 		name= "2.Askäris"
 		type = irregular
-		home = 1702
+		home = 1707
 	}
 
 	regiment = {
@@ -50,8 +65,18 @@ army = {
 }
 
 army = {
-	name = "Army of the Bey of Constantine"
-	location = 1713
+	name = "Army of Constantine"
+	location = 1703
+
+	leader = {
+		name = "Ahmed Bey"
+		date = 1836.1.1
+		type = land
+		personality = rec15att15
+		background = 2a2d_1
+		prestige = 0.1
+	}
+
 	regiment = {
 		name= "4.Askäris"
 		type = irregular
@@ -67,24 +92,24 @@ army = {
 	regiment = {
 		name= "6.Askäris"
 		type = irregular
-		home = 1702
+		home = 1717
 	}
 
 	regiment = {
 		name= "7.Askäris"
 		type = irregular
-		home = 1703
+		home = 1721
 	}
 
 	regiment = {
 		name= "3.Spahis"
-		type = irregular
+		type = cavalry
 		home = 1708
 	}
 
 	regiment = {
 		name= "4.Spahis"
-		type = irregular
+		type = cavalry
 		home = 1710
 	}
 

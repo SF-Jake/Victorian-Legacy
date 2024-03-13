@@ -12,16 +12,16 @@ leader = {
 	name = "Pedro Alcántara Herrán"
 	date = 1836.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_1.1
+	personality = org10mor10
+	background = 1a2d_1
 }
 
 leader = {
 	name = "Tomás Cipriano de Mosquera"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_2.1
+	personality = mor10rec10
+	background = 2a1d_1
 }
 
 army = {
@@ -36,19 +36,25 @@ army = {
 	regiment = {
 		name= "2. Brigada de Infantería"
 		type = infantry
-		home = 2252
+		home = 2247
 	}
 
 	regiment = {
 		name= "3. Brigada de Infantería"
 		type = infantry
-		home = 2254
+		home = 2250
+	}
+
+	regiment = {
+		name= "4. Brigada de Infantería"
+		type = infantry
+		home = 2252
 	}
 
 	regiment = {
 		name= "1. Brigada de Caballería"
-		type = cuirassier
-		home = 2250
+		type = hussar
+		home = 2255
 	}
 
 }

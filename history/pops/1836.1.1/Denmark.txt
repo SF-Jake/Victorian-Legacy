@@ -19,7 +19,7 @@
 		size = 90
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
 		size = 1575
@@ -65,7 +65,7 @@
 		size = 3500
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
 		size = 53825
@@ -97,76 +97,48 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 30000 #5k moved to 2557
+		size = 22020 #5k moved to 2557
 	}
-}
-#Ribe (148000/37000 POPS)
-368 = {
-	aristocrats = {
-		culture = danish
-		religion = protestant
-		size = 250
-	}
-
-	clergymen = {
-		culture = danish
-		religion = protestant
-		size = 250
-	}
-
-	artisans = {
-		culture = danish
-		religion = protestant
-		size = 15100
-	}
-
-	soldiers = {
-		culture = danish
-		religion = protestant
-		size = 500
-	}
-
-	labourers = {
-		culture = danish
-		religion = protestant
-		size = 10000
-	}
-
 }
 
 # Esbjerg (Pops moved from Aalborg)
 2557 = {
-	artisans = {
+	aristocrats = {
 		culture = danish
 		religion = protestant
-		size = 1100
+		size = 500
 	}
 	clergymen = {
 		culture = danish
 		religion = protestant
-		size = 125
+		size = 375
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 10000
+	}
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 10000
 	}
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 250
+		size = 1350
 	}
-	aristocrats = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 250
-	}
-	farmers = {
-		culture = danish
-		religion = protestant
-		size = 14400
+		size = 10000
 	}
 }
-	
-	
+
+
 #Schleswig Region : 336000
 #Flensburg (236000/59000 POPS)
 370 = {
@@ -194,7 +166,7 @@
 		size = 250
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
 		size = 14025
@@ -236,7 +208,7 @@
 		size = 1100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = north_german
 		religion = protestant
 		size = 38850
@@ -262,7 +234,7 @@
 		size = 250
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
 		size = 16625
@@ -292,7 +264,7 @@
 		size = 50
 	}
 
-	farmers = {
+	zbankers = {
 		culture = north_german
 		religion = protestant
 		size = 6550
@@ -338,10 +310,10 @@
 		size = 7000
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
-		size = 82100
+		size = 84150
 	}
 
 	artisans = {
@@ -376,7 +348,7 @@
 		size = 3000
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
 		size = 45000
@@ -402,7 +374,7 @@
 		size = 50
 	}
 
-	farmers = {
+	zbankers = {
 		culture = danish
 		religion = protestant
 		size = 3500

@@ -8,12 +8,13 @@ GHO = {
 	truce_until="1937.1.1"
 }
 
+
 leader = {
 	name = "Carl Nordenskjöld"
 	date = 1834.1.1
 	type = sea
-	personality = defence_3.1
-	background = attack_2.1
+	personality = org10mor20
+	background = 2a3d_1
 	prestige = 0.1
 }
 
@@ -21,8 +22,8 @@ leader = {
 	name = "Carl XIV Johan"
 	date = 1818.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_3.1
+	personality = att15exp15
+	background = 3a2d_1
 	prestige = 0.5
 }
 
@@ -30,8 +31,8 @@ leader = {
 	name = "Johan Tawast"
 	date = 1807.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_2.1
+	personality = org05mor10
+	background = 2a2d_1
 	prestige = 0.3
 }
 
@@ -39,8 +40,8 @@ leader = {
 	name = "Axel Mörner"
 	date = 1818.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_1.1
+	personality = rec05exp10
+	background = 1a1d_1
 	prestige = 0.2
 }
 
@@ -48,36 +49,27 @@ leader = {
 	name = "Baltzar von Platen"
 	date = 1834.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_2.1
+	personality = mor20rec10
+	background = 2a1d_1
 	prestige = 0.1
 }
 
 leader = {
-	name = "C. Cederström"
+	name = "Bror Cederström"
 	date = 1824.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_2.1
+	personality = org05mor10
+	background = 2a2d_1
 	prestige = 0.1
 }
 
 leader = {
-	name = "af Billbergh"
+	name = "Johan af Billbergh"
 	date = 1814.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_2.1
+	personality = org10att10
+	background = 2a1d_1
 	prestige = 0.2
-}
-
-leader = {
-	name = "Gustaf Peyron"
-	date = 1827.1.1
-	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.1
 }
 
 army = {
@@ -85,78 +77,62 @@ army = {
 	location = 322
 	regiment = {
 		name= "Svea Livgarde"
-		type = hussar
+		type = guard
 		home = 322
 	}
 
 	regiment = {
 		name= "Södermanlands Regemente"
-		type = artillery
+		type = infantry
 		home = 326
 	}
 
 	regiment = {
 		name= "Första Livgrenadjärregementet"
-		type = artillery
+		type = infantry
 		home = 325
 	}
 
 	regiment = {
 		name= "Upplands Regemente"
-		type = artillery
+		type = infantry
 		home = 324
 	}
 
 	regiment = {
 		name= "Västgöta Regemente"
-		type = artillery
+		type = infantry
 		home = 330
 	}
 
 	regiment = {
 		name= "Kalmar Regemente"
-		type = artillery
+		type = infantry
 		home = 332
 	}
-}
 
-army = {
-	name = "Svenska Armén"
-	location = 324
 	regiment = {
 		name= "Jönköpings Regemente"
-		type = hussar
+		type = infantry
 		home = 333
 	}
 
 	regiment = {
 		name= "Södra Skånska Infanteriregementet"
-		type = artillery
+		type = infantry
 		home = 334
 	}
 
 	regiment = {
 		name= "Kronprinsens Husarregemente"
-		type = artillery
+		type = hussar
 		home = 335
 	}
 
 	regiment = {
 		name= "Norrlands Dragonregemente"
-		type = artillery
-		home = 321
-	}
-
-	regiment = {
-		name= "Norrlands Dragonregemente"
-		type = artillery
-		home = 322
-	}
-
-	regiment = {
-		name= "Norrlands Dragonregemente"
-		type = artillery
-		home = 323
+		type = dragoon
+		home = 317
 	}
 
 }

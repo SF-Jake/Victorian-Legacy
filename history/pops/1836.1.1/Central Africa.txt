@@ -3,31 +3,31 @@
 #Bangui (104000/26000 POPS)
 1965 = {
 	aristocrats = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 500
 	}
 
 	clergymen = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 250
 	}
 
 	artisans = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 1300
 	}
 
 	soldiers = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 275
 	}
 
-	farmers = {
-		culture = e_african
+	zbankers = {
+		culture = ubangian
 		religion = animist
 		size = 23675
 	}
@@ -35,37 +35,37 @@
 #Nola (40000/10000 POPS)
 1966 = {
 	aristocrats = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 100
 	}
 
-	farmers = {
-		culture = e_african
+	zbankers = {
+		culture = ubangian
 		religion = animist
 		size = 9125
 	}
 	
 	slaves = {
-		culture = c_african
+		culture = forest_bantu
 		religion = animist
 		size = 500
 	}
@@ -75,31 +75,31 @@
 #Bouar (28000/7000 POPS)
 1967 = {
 	aristocrats = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 125
 	}
 
 	clergymen = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 350
 	}
 
 	soldiers = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
-		culture = e_african
+	zbankers = {
+		culture = ubangian
 		religion = animist
 		size = 6375
 	}
@@ -128,7 +128,7 @@
 		size = 100
 	}
 
-	farmers = {
+	zbankers = {
 		culture = fulbe
 		religion = sunni
 		size = 900
@@ -137,31 +137,31 @@
 #Bossangoa (56000/14000 POPS)
 1968 = {
 	aristocrats = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 275
 	}
 
 	clergymen = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 300
 	}
 
 	artisans = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 700
 	}
 
 	soldiers = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 300
 	}
 
-	farmers = {
-		culture = e_african
+	zbankers = {
+		culture = ubangian
 		religion = animist
 		size = 35825
 	}
@@ -172,186 +172,126 @@
 #Zemio (44000/11000 POPS)
 1969 = {
 	aristocrats = {
-		culture = e_african
+		culture = ubangian
+		religion = animist
+		size = 175
+	}
+
+	clergymen = {
+		culture = ubangian
 		religion = animist
 		size = 100
 	}
 
-	clergymen = {
-		culture = e_african
-		religion = animist
-		size = 50
-	}
-
 	artisans = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
-		size = 300
+		size = 550
 	}
 
 	soldiers = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
-		size = 75
+		size = 125
 	}
 
-	farmers = {
-		culture = e_african
+	zbankers = {
+		culture = ubangian
 		religion = animist
-		size = 5475
-	}
-
-	aristocrats = {
-		culture = e_african
-		religion = animist
-		size = 75
-	}
-
-	clergymen = {
-		culture = e_african
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = e_african
-		religion = animist
-		size = 250
-	}
-
-	soldiers = {
-		culture = e_african
-		religion = animist
-		size = 50
-	}
-
-	farmers = {
-		culture = e_african
-		religion = animist
-		size = 4575
+		size = 10050
 	}
 }
 #Bangassou (56000/14000 POPS)
 1970 = {
 	aristocrats = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
-		size = 100
+		size = 325
 	}
 
 	clergymen = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
-		size = 100
+		size = 250
 	}
 
 	artisans = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
-		size = 100
+		size = 750
 	}
 
 	soldiers = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
-		size = 100
+		size = 250
 	}
 
-	farmers = {
-		culture = e_african
+	zbankers = {
+		culture = ubangian
 		religion = animist
-		size = 900
-	}
-
-	aristocrats = {
-		culture = e_african
-		religion = animist
-		size = 225
-	}
-
-	clergymen = {
-		culture = e_african
-		religion = animist
-		size = 150
-	}
-
-	artisans = {
-		culture = e_african
-		religion = animist
-		size = 650
-	}
-
-	soldiers = {
-		culture = e_african
-		religion = animist
-		size = 150
-	}
-
-	farmers = {
-		culture = e_african
-		religion = animist
-		size = 11875
+		size = 12775
 	}
 }
 #uncolonized in 1836/under influence of Wadai
 #Ndele (28000/7000 POPS)
 1971 = {
 	aristocrats = {
-		culture = e_african
+		culture = sudanese
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = e_african
+		culture = sudanese
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = e_african
+		culture = sudanese
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = e_african
+		culture = sudanese
 		religion = sunni
 		size = 100
 	}
 
-	farmers = {
-		culture = e_african
+	zbankers = {
+		culture = sudanese
 		religion = sunni
 		size = 900
 	}
 
 	aristocrats = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = e_african
+		culture = ubangian
 		religion = animist
 		size = 75
 	}
 
-	farmers = {
-		culture = e_african
+	zbankers = {
+		culture = ubangian
 		religion = animist
 		size = 5475
 	}

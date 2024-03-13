@@ -11,13 +11,18 @@ controller = TUR
 remove_core = EGY
 colonial = 0
 	state_building = {
-		level = 2
-		building = glass_factory
+		level = 1
+		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = luxury_clothes_factory
+		building = small_arms_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steel_factory
 		upgrade = yes
 	}
 }

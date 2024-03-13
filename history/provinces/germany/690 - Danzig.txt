@@ -8,20 +8,8 @@ trade_goods = fish
 life_rating = 40
 naval_base = 1
 1913.1.1 = {
-	fort = 5
+	fort = 4
 	owner = GER
 	controller = GER
 	naval_base = 6
-}
-1913.1.1 = {
-	state_building = {
-		level = 2
-		building = pharmaceutical_plant
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = automobile_factory
-		upgrade = yes
-	}
 }

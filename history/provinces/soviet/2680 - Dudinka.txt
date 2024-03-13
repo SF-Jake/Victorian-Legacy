@@ -1,6 +1,11 @@
-owner = MCK
-controller = MCK
-add_core = MCK
-add_core = CHI
+owner = AFG
+controller = AFG
+add_core = AFG
 trade_goods = grain
-life_rating = 32
+life_rating = 35
+1913.1.1 = {
+	owner = AFG
+	controller = AFG
+	add_core = AFG
+	colonial = 0
+}

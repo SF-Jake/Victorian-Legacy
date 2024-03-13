@@ -12,52 +12,52 @@ leader = {
 	name = "Carlo Filangieri"
 	date = 1831.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_2.1
-	prestige = 0.2
+	personality = org05mor30
+	background = 2a2d_1
+	prestige = 0.1
 }
 
 leader = {
 	name = "Rafaella de Cosa"
 	date = 1836.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_2.1
+	personality = mor10att10
+	background = 2a1d_1
 }
 
 leader = {
 	name = "Francesco Mendoza"
 	date = 1830.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.2
+	personality = spd20rec10
+	background = 1a1d_1
+	prestige = 0.1
 }
 
 leader = {
 	name = "Leopoldo di Borbone"
 	date = 1809.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.3
+	personality = rec10att05
+	background = 1a1d_1
+	prestige = 0.1
 }
 
 leader = {
 	name = "Paolo Ruffo"
 	date = 1836.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_1.1
+	personality = att05exp05
+	background = 1a2d_1
 }
 
 leader = {
 	name = "Ferdinando II"
 	date = 1820.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
-	prestige = 0.5
+	personality = mor10exp05
+	background = 1a1d_1
+	prestige = 0.2
 }
 
 army = {
@@ -83,25 +83,25 @@ army = {
 
 	regiment = {
 		name= "4. Fanteria di Linea"
-		type = artillery
+		type = cuirassier
 		home = 2567
 	}
 
 	regiment = {
 		name= "1. Cavalleria di Linea"
-		type = cuirassier
+		type = dragoon
 		home = 754
 	}
 
 	regiment = {
 		name= "2. Cavalleria di Linea"
-		type = cuirassier
+		type = hussar
 		home = 753
 	}
 
 	regiment = {
 		name= "3. Cavalleria di Linea"
-		type = cuirassier
+		type = hussar
 		home = 756
 	}
 
@@ -148,7 +148,7 @@ army = {
 
 	regiment = {
 		name= "4. Truppe Svizzere"
-		type = artillery
+		type = cuirassier
 		home = 763
 	}
 

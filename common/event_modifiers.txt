@@ -865,14 +865,14 @@ country_suppression = {
 }
 
 province_attract_immigrants = {
-	immigrant_attract = 200
-	immigrant_push = -1000
+	immigrant_attract = 400
+	immigrant_push = -1
 	icon = 9
 }
 
 new_world_province_attract_immigrants = {
-	immigrant_attract = 100
-	immigrant_push = -1000
+	immigrant_attract = 50
+	immigrant_push = -1
 	icon = 9
 }
 
@@ -1785,33 +1785,4 @@ education_siam_reforms = {
 indochina = {
 	assimilation_rate = 0.25
 	icon = 17
-}
-
-##### Apocalypse 1836 #####
-
-state_of_emergency = {
-	mobilisation_size = 0.05
-	land_organisation = 0.05
-	naval_organisation = 0.05
-	org_regain = 0.1
-	max_tariff = 1
-	icon = 15
-}
-
-zombie_outbreak = {
-	immigrant_attract = -0.025
-	pop_consciousness_modifier = -0.3
-	pop_militancy_modifier = 5.0
-	population_growth = -0.015
-	icon = 20
-}
-
-do_not_annex = {
-	immigrant_attract = -.001
-	icon = 20
-}
-
-accepts_new_provinces = {
-	immigrant_attract = -.001
-	icon = 20
 }

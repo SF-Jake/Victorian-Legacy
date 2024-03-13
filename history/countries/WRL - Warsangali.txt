@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1873
 	primary_culture = somali
 	culture = cushitic
@@ -48,8 +48,11 @@
 		socialist = 0
 		communist = 0
 	}
-
+	
+	pre_indust = yes_pre_indust
+	
 	# Technologies
+	water_wheel_power = 1
 
 	# Inventions
 
@@ -60,9 +63,10 @@
 	oob = "WRL_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1873
-	primary_culture = e_african
+	primary_culture = somali
+	culture = cushitic
 	religion = sunni
 	government = absolute_monarchy
 	plurality = 0.0
@@ -109,8 +113,11 @@
 		socialist = 0
 		communist = 0
 	}
-
+	
+	pre_indust = yes_pre_indust
+	
 	# Technologies
+	water_wheel_power = 1
 
 	# Inventions
 

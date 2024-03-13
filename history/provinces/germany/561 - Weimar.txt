@@ -4,16 +4,12 @@ add_core = WEI
 add_core = GER
 trade_goods = sulphur
 life_rating = 40
+terrain = plains_mine
 1913.1.1 = {
 	owner = GER
 	controller = GER
 	state_building = {
-		level = 5
-		building = radio_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
+		level = 12
 		building = automobile_factory
 		upgrade = yes
 	}
@@ -23,13 +19,13 @@ life_rating = 40
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
-		building = fertilizer_factory
+		level = 12
+		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 5
-		building = artillery_factory
+		building = canned_food_factory
 		upgrade = yes
 	}
 }

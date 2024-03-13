@@ -12,9 +12,9 @@ leader = {
 	name = "George Napier"
 	date = 1836.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_2.1
-	prestige = 0.25
+	personality = org10exp10
+	background = 2a2d_1
+	prestige = 0.1
 }
 
 army = {
@@ -34,7 +34,7 @@ army = {
 
 	regiment = {
 		name= "Cape Town Artillery"
-		type = artillery
+		type = cuirassier
 		home = 2087
 	}
 

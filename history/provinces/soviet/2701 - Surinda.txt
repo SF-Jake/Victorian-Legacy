@@ -1,6 +1,12 @@
-owner = MCK
-controller = MCK
-add_core = MCK
+owner = CHI
+controller = CHI
 add_core = CHI
-trade_goods = sulphur
-life_rating = 32
+trade_goods = fish
+life_rating = 40
+terrain = urban_mine
+1913.1.1 = {
+	owner = ENG
+	controller = ENG
+	remove_core = CHI
+	colonial = 0
+}

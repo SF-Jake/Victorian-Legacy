@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 37
 	primary_culture = metis
 	religion = catholic
@@ -50,7 +50,7 @@
 	}
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 37
 	primary_culture = metis
 	religion = catholic
@@ -60,9 +60,6 @@
 	literacy = 0.17
 	civilized = yes
 	is_releasable_vassal = no
-
-	set_country_flag = new_world_nation
-	set_country_flag = north_american_immigrant_nation
 
 	# Political reforms
 	slavery = no_slavery

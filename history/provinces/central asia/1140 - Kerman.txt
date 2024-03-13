@@ -1,7 +1,7 @@
 owner = PER
 controller = PER
 add_core = PER
-trade_goods = cotton
+trade_goods = dye
 life_rating = 35
 1913.1.1 = {
 	state_building = {
@@ -22,6 +22,11 @@ life_rating = 35
 	state_building = {
 		level = 1
 		building = small_arms_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steel_factory
 		upgrade = yes
 	}
 }

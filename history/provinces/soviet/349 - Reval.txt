@@ -3,7 +3,7 @@ controller = RUS
 add_core = EST
 add_core = UBD
 trade_goods = fish
-life_rating = 35
+life_rating = 40
 fort = 1
 naval_base = 2
 1913.1.1 = {
@@ -12,33 +12,13 @@ naval_base = 2
 }
 1913.1.1 = {
 	state_building = {
-		level = 2
-		building = telephone_factory
+		level = 3
+		building = machine_parts_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
-		building = cement_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = canned_food_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
+		level = 1
 		building = steamer_shipyard
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = furniture_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = winery
 		upgrade = yes
 	}
 	naval_base = 5

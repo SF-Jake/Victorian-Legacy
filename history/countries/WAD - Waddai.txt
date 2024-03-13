@@ -1,7 +1,7 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 1821
 	primary_culture = fur
-		culture = n_african
+	culture = teda
 	religion = sunni
 	government = absolute_monarchy
 	plurality = 0.0
@@ -60,9 +60,10 @@
 	oob = "WAD_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 1821
-	primary_culture = n_african
+	primary_culture = fur
+	culture = teda
 	religion = sunni
 	government = absolute_monarchy
 	plurality = 0.0

@@ -1,4 +1,4 @@
-1836.1.2 = {
+1836.1.1= {
 	capital = 387
 	primary_culture = wallonian
 	culture = dutch
@@ -79,10 +79,10 @@
 	mechanized_mining = 1
 	basic_chemistry = 1
 	practical_steam_engine = 1
+	mechanical_production = 1
 	experimental_railroad = 1
 
 	#Inventions
-	pharmaceuticals = yes
 
 	# Starting Consciousness
 	consciousness = 4
@@ -91,10 +91,10 @@
 	oob = "BEL_oob.txt"
 }
 
-1836.1.1 = {
+1836.1.3 = {
 	capital = 387
 	primary_culture = wallonian
-	culture = dutch
+	culture = flemish
 	religion = catholic
 	government = hms_government
 	plurality = 25.0
@@ -104,6 +104,7 @@
 	civilized = yes
 	prestige = 10
 	schools = commerce_tech_school
+	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery
@@ -134,7 +135,7 @@
 	centralization = unitary
 	colonial_migration = no_colonial_migration
 
-	ruling_party = BEL_conservative
+	ruling_party = BEL_liberal
 	last_election = 1834.1.1
 	upper_house = {
 		fascist = 0
@@ -172,10 +173,10 @@
 	mechanized_mining = 1
 	basic_chemistry = 1
 	practical_steam_engine = 1
+	mechanical_production = 1
 	experimental_railroad = 1
 
 	#Inventions
-	pharmaceuticals = yes
 
 	# Starting Consciousness
 	consciousness = 4
@@ -241,8 +242,6 @@
 		collectivist_theory = 1
 		the_historical_theory = 1
 		neoclassical_theory = 1
-		keynesian_economics = 1
-		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -350,7 +349,7 @@
 	safety_regulations=acceptable_safety
 	unemployment_subsidies=acceptable_subsidies
 	pensions=good_pensions
-	health_care=universal_health_care
+	health_care=no_health_care
 	school_reforms=good_schools
 	penal_system=incarceration
 	child_labor=child_labor_illegal

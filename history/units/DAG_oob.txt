@@ -8,31 +8,38 @@ GHO = {
 	truce_until="1937.1.1"
 }
 
+
 army = {
 	name = "Imam's Army"
 	location = 1053
 	regiment = {
 		name= "1. Brigade"
-		type = infantry
-		home = 1053
+		type = irregular
+		home = 1055
 	}
 
 	regiment = {
 		name= "2. Brigade"
-		type = infantry
-		home = 1053
+		type = irregular
+		home = 1055
 	}
 
 	regiment = {
 		name= "3. Brigade"
-		type = infantry
-		home = 1052
+		type = irregular
+		home = 1055
 	}
 
 	regiment = {
 		name= "4. Brigade"
-		type = infantry
-		home = 1052
+		type = irregular
+		home = 1053
+	}
+	
+	regiment = {
+		name= "1. Cavalry"
+		type = cavalry
+		home = 1053
 	}
 	
 	leader = {
@@ -40,8 +47,8 @@ army = {
 		picture = arab_general_4
 		type = land
 		date = 1836.1.1
-		personality = defence_5.1
-		background = attack_3.1
+		personality = org15att15
+		background = 3a5d_1
 		prestige = 0.9
 	}
 }

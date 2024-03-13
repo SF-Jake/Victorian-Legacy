@@ -105,8 +105,8 @@ leader = {
 	name = "Prince Vasilchikov"
 	date = 1801.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10exp05
+	background = 1a1d_1
 	prestige = 0.4
 }
 
@@ -114,8 +114,8 @@ leader = {
 	name = "Prince Mikhail Vorontsov"
 	date = 1814.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_2.1
+	personality = org05exp10
+	background = 2a2d_1
 	prestige = 0.3
 }
 
@@ -123,17 +123,17 @@ leader = {
 	name = "Pyotr Chicherin"
 	date = 1835.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_2.1
+	personality = mor20rec05
+	background = 2a1d_1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Alexander Chernyshev"
-	date = 1836.1.1
+	date = 1821.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = rec10exp05
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -141,8 +141,8 @@ leader = {
 	name = "Prince Menshikov"
 	date = 1833.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = rec05att10
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -150,8 +150,8 @@ leader = {
 	name = " Ivan Paskevich"
 	date = 1812.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_3.1
+	personality = mor20exp10
+	background = 3a2d_1
 	prestige = 0.3
 }
 
@@ -159,8 +159,8 @@ leader = {
 	name = "Matvey Khrapovitsky"
 	date = 1835.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = org05mor10
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -168,8 +168,8 @@ leader = {
 	name = "Mikhail Lazarev"
 	date = 1827.1.1
 	type = sea
-	personality = defence_2.1
-	background = attack_3.1
+	personality = org10mor20
+	background = 3a2d_1
 	prestige = 0.2
 }
 
@@ -177,8 +177,8 @@ leader = {
 	name = "Muraviev-Karsky"
 	date = 1832.1.1
 	type = land
-	personality = defence_3.1
-	background = attack_2.1
+	personality = org10att10
+	background = 2a3d_1
 	prestige = 0.1
 }
 
@@ -186,8 +186,8 @@ leader = {
 	name = "Pyotr Volkonsky"
 	date = 1812.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = org05mor10
+	background = 1a1d_1
 	prestige = 0.3
 }
 
@@ -195,8 +195,8 @@ leader = {
 	name = "Pavel Grabbe"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_2.1
+	personality = att05exp10
+	background = 2a1d_1
 	prestige = 0.0
 }
 
@@ -204,8 +204,8 @@ leader = {
 	name = "Vasily Bebutov"
 	date = 1825.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_1.1
+	personality = rec10att10
+	background = 1a2d_1
 	prestige = 0.1
 }
 
@@ -213,8 +213,8 @@ leader = {
 	name = "Fedor von Berg"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10rec05
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -222,460 +222,481 @@ leader = {
 	name = "Ferdinand Wrangel"
 	date = 1836.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = org05mor10
+	background = 1a1d_1
 	prestige = 0.0
 }
 
 army = {
-	name = "Mob Stack"
-	location = 943
+	name = "Army Corps of the Guard"
+	location = 354
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "1.1-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
 		home = 994
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.1-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
 		home = 946
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.1-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1006
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.2-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1008
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.2-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
 		home = 998
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.2-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = cuirassier
 		home = 718
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 1014
+
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "1.3-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
 		home = 360
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.3-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
 		home = 994
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.3-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1012
 	}
 
+}
+
+army = {
+	name = "Guards Cavalry Corps"
+	location = 343
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = dragoon
 		home = 994
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = dragoon
 		home = 999
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = hussar
 		home = 1016
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 1015
+
 	regiment = {
-		name= "Hussar"
+		name= "4.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
 		type = hussar
 		home = 978
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = cuirassier
 		home = 1008
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = cuirassier
 		home = 968
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = cuirassier
 		home = 994
 	}
+}
 
+army = {
+	name = "Grenadier Corps"
+	location = 994
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.1-ya Grenaderskaya Diviziya"
+		type = infantry
 		home = 1058
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.1-ya Grenaderskaya Diviziya"
+		type = infantry
 		home = 979
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 1012
+
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "3.1-ya Grenaderskaya Diviziya"
+		type = cuirassier
 		home = 962
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.2-ya Grenaderskaya Diviziya"
+		type = infantry
 		home = 958
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.2-ya Grenaderskaya Diviziya"
+		type = infantry
 		home = 1008
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.2-ya Grenaderskaya Diviziya"
+		type = infantry
 		home = 989
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.3-ya Grenaderskaya Diviziya"
+		type = infantry
 		home = 1013
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.3-ya Grenaderskaya Diviziya"
+		type = infantry
 		home = 1044
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 1000
+
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "3.3-ya Grenaderskaya Diviziya"
+		type = cuirassier
 		home = 997
 	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.1-ya Kavalerijskaya Diviziya"
+		type = dragoon
 		home = 977
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.2-ya Kavalerijskaya Diviziya"
+		type = dragoon
 		home = 1001
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.1-ya Kavalerijskaya Diviziya"
+		type = dragoon
 		home = 1017
 	}
 
+
+}
+
+
+army = {
+	name = "1. Line Corps"
+	location = 713
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.1-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 943
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.1-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 960
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 999
+
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "3.1-ya Pekhotnaya Diviziya"
+		type = cuirassier
 		home = 1018
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.2-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1010
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.2-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 711
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.2-ya Pekhotnaya Diviziya"
+		type = cuirassier
 		home = 706
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.3-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 963
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.3-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 940
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 1010
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 712
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.3-ya Pekhotnaya Diviziya"
+		type = infantry
+		home = 712
+	}
+
+}
+
+army = {
+	name = "Reserve Cavalry Corps"
+	location = 706
+	regiment = {
+		name= "1.2-ya Kavalerijskaya Diviziya"
+		type = hussar
 		home = 1037
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.2-ya Kavalerijskaya Diviziya"
+		type = hussar
 		home = 1064
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.2-ya Kavalerijskaya Diviziya"
+		type = hussar
 		home = 1025
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.3-ya Kavalerijskaya Diviziya"
+		type = hussar
 		home = 1034
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.3-ya Kavalerijskaya Diviziya"
+		type = hussar
 		home = 361
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 1011
+
 	regiment = {
-		name= "Hussar"
+		name= "3.3-ya Kavalerijskaya Diviziya"
 		type = hussar
 		home = 964
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.4-ya Kavalerijskaya Diviziya"
+		type = hussar
 		home = 948
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.4-ya Kavalerijskaya Diviziya"
+		type = hussar
 		home = 956
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.4-ya Kavalerijskaya Diviziya"
+		type = hussar
 		home = 1031
 	}
 
+}
+
+army = {
+	name = "2. Line Corps"
+	location = 958
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.4-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 937
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.4-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 957
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 1013
+
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "3.4-ya Pekhotnaya Diviziya"
+		type = cuirassier
 		home = 949
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.5-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1003
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.5-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1060
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.5-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1042
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.6-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1020
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.6-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1026
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 1009
+
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "3.6-ya Pekhotnaya Diviziya"
+		type = infantry
 		home = 1063
 	}
+}
 
+army = {
+	name = "Azov Cossacks"
+	location = 1047
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.Azov Cossacks"
+		type = cavalry
 		home = 1047
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1047
+		name= "2.Azov Cossacks"
+		type = cavalry
+		home = 1054
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 979
+		name= "3.Azov Cossacks"
+		type = cavalry
+		home = 1054
 	}
 
+}
+
+army = {
+	name = "Chernomoriya"
+	location = 967
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.Chernomoriya"
+		type = cavalry
 		home = 980
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1050
-	}
-}
-army = {
-	name = "30 Stack"
-	location = 1050
-	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "2.Chernomoriya"
+		type = cavalry
 		home = 1050
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.Chernomoriya"
+		type = cavalry
+		home = 1050
+	}
+
+}
+
+army = {
+	name = "1. Don Cossacks"
+	location = 979
+	regiment = {
+		name= "1.1. Don Cossacks"
+		type = cavalry
 		home = 1039
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.1. Don Cossacks"
+		type = cavalry
 		home = 1019
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3.1. Don Cossacks"
+		type = cavalry
 		home = 1045
 	}
 
+}
+
+army = {
+	name = "2. Don Cossacks"
+	location = 959
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1.2. Don Cossacks"
+		type = cavalry
 		home = 1039
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2.2. Don Cossacks"
+		type = cavalry
 		home = 1019
 	}
 
 	regiment = {
-		name= "Infantry"
-		type = infantry
+		name= "3.2. Don Cossacks"
+		type = cavalry
 		home = 1040
 	}
 
+}
+
+army = {
+	name = "7-ya Pekhotnaya Diviziya"
+	location = 1075
+	
 	regiment = {
-		name = "Infantry"
+		name = "1.7-ya Pekhotnaya Diviziya"
 		home = 1075
 		type = infantry
 	}
 
 	regiment = {
-		name= "Infantry"
-		type = infantry
+		name= "2.7-ya Pekhotnaya Diviziya"
+		type = engineer
 		home = 1021
 	}
 	
 	regiment = {
-		name = "Infantry"
+		name = "3.7-ya Pekhotnaya Diviziya"
 		home = 1028
 		type = infantry
 	}
@@ -841,96 +862,6 @@ navy = {
 	}
 
 	ship = {
-		name= "Feodor Stralitat"
-		type = frigate
-	}
-
-	ship = {
-		name= "Ioann Bogoslav"
-		type = frigate
-	}
-
-	ship = {
-		name= "Kazanskaia Bogoroditsa"
-		type = frigate
-	}
-
-	ship = {
-		name= "Navarchia V Gospodne"
-		type = frigate
-	}
-
-	ship = {
-		name= "Soshestvie Ducha"
-		type = frigate
-	}
-
-	ship = {
-		name= "Sv Piotr Apostol"
-		type = frigate
-	}
-
-	ship = {
-		name= "Tsar Konstantin"
-		type = frigate
-	}
-
-	ship = {
-		name= "Archipelag"
-		type = frigate
-	}
-
-	ship = {
-		name= "Tickvinskaya Bogoroditsa"
-		type = frigate
-	}
-
-	ship = {
-		name= "Tosmanska"
-		type = frigate
-	}
-
-	ship = {
-		name= "Nazareth"
-		type = frigate
-	}
-
-	ship = {
-		name= "Kronstadt"
-		type = frigate
-	}
-
-	ship = {
-		name= "Getoi"
-		type = frigate
-	}
-
-	ship = {
-		name= "Venus"
-		type = frigate
-	}
-
-	ship = {
-		name= "Bystryï"
-		type = frigate
-	}
-
-	ship = {
-		name= "Argus"
-		type = frigate
-	}
-
-	ship = {
-		name= "Feodosii Totemskii"
-		type = frigate
-	}
-
-	ship = {
-		name= "Chtchastlivyï"
-		type = frigate
-	}
-
-	ship = {
 		name= "1. Transportnaya Flotiliya"
 		type = clipper_transport
 	}
@@ -1023,46 +954,6 @@ navy = {
 	ship = {
 		name= "Sv Ytoslav"
 		type = manowar
-	}
-
-	ship = {
-		name= "Spyesttunyi"
-		type = frigate
-	}
-
-	ship = {
-		name= "Narva"
-		type = frigate
-	}
-
-	ship = {
-		name= "Premyslav"
-		type = frigate
-	}
-
-	ship = {
-		name= "Riga"
-		type = frigate
-	}
-
-	ship = {
-		name= "Viatcheslav"
-		type = frigate
-	}
-
-	ship = {
-		name= "Emmanuel"
-		type = frigate
-	}
-
-	ship = {
-		name= "Borislav"
-		type = frigate
-	}
-
-	ship = {
-		name= "Legkii"
-		type = frigate
 	}
 
 	ship = {

@@ -1,11 +1,10 @@
-owner = OMA
-controller = OMA
-add_core = OMA
-trade_goods = grain
-life_rating = 35
-terrain = coastal_desert
+owner = CIV
+controller = CIV
+add_core = YEM
+trade_goods = wool
+life_rating = 5
 1913.1.1 = {
-owner = ENG
-controller = ENG
-colonial = 2
+	owner = ENG
+	controller = ENG
+	life_rating = 35
 }

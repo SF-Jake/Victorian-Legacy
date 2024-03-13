@@ -4,7 +4,7 @@ add_core = SPA
 add_core = SPC
 trade_goods = fruit
 life_rating = 35
-1913.1.1 = {
+1836.1.2 = {
 	owner = SPA
 	controller = SPA
 	remove_core = SPC
@@ -12,22 +12,22 @@ life_rating = 35
 1913.1.1 = {
 	state_building = {
 		level = 5
+		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
 		building = liquor_distillery
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
+		level = 2
 		building = winery
 		upgrade = yes
 	}
 	state_building = {
-		level = 8
-		building = tea_packaging_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 8
-		building = coffee_packaging_factory
+		level = 4
+		building = glass_factory
 		upgrade = yes
 	}
 	state_building = {
