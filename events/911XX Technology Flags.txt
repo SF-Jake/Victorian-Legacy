@@ -350,5 +350,107 @@ country_event = {
 			}
 			owner = { set_country_flag = central_bank_invented }
 		}
+		random_owned = {
+			limit = {
+				owner = {
+					battleship_column_doctrine = 1
+					NOT = { has_country_flag = battleship_column_doctrine_invented }
+				}
+			}
+			owner = {
+				set_country_flag = battleship_column_doctrine_invented
+				any_owned = {
+					remove_province_modifier = built_naval_base
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					raider_group_doctrine = 1
+					NOT = { has_country_flag = raider_group_doctrine_invented }
+				}
+			}
+			owner = {
+				set_country_flag = raider_group_doctrine_invented
+				any_owned = {
+					remove_province_modifier = built_naval_base
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					blue_and_brown_water_schools = 1
+					NOT = { has_country_flag = blue_and_brown_water_schools_invented }
+				}
+			}
+			owner = {
+				set_country_flag = blue_and_brown_water_schools_invented
+				any_owned = {
+					remove_province_modifier = built_naval_base
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					high_sea_battle_fleet = 1
+					NOT = { has_country_flag = high_sea_battle_fleet_invented }
+				}
+			}
+			owner = {
+				set_country_flag = high_sea_battle_fleet_invented
+				any_owned = {
+					remove_province_modifier = built_naval_base
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					early_modern_naval_doctrine = 1
+					NOT = { has_country_flag = early_modern_naval_doctrine_invented }
+				}
+			}
+			owner = {
+				set_country_flag = early_modern_naval_doctrine_invented
+				any_owned = {
+					remove_province_modifier = built_naval_base
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					modern_naval_doctrine = 1
+					NOT = { has_country_flag = modern_naval_doctrine_invented }
+				}
+			}
+			owner = {
+				set_country_flag = modern_naval_doctrine_invented
+				any_owned = {
+					remove_province_modifier = built_naval_base
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					biologism = 1
+					NOT = { has_country_flag = biologism_invented }
+				}
+			}
+			owner = { set_country_flag = biologism_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					social_science = 1
+					NOT = { has_country_flag = social_science_invented }
+				}
+			}
+			owner = { set_country_flag = social_science_invented }
+		}
 	}
 }

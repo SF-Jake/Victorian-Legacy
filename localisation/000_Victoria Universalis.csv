@@ -3887,3 +3887,15 @@ horse_artillery;Horse Artillery;;;;;;;;;;;;;;;;x;;;;
 capital_supply_depot;Capital Supply Depot\n劬Capital Supply Depots will not be destroyed unless the capital is moved somewhere else.;;;;;;;;;;;;;x
 SMA;即Small State CB Flag\n劬This flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 150K population before 1860, less than 200k between 1860-1885, less than 300k between 1885-1910, and less than 450k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. 刪Small State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.;;;;;;;;;;;;;x
 MST;即Medium State CB Flag\n劬This flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 300K population before 1860, less than 400k between 1860-1885, less than 600k between 1885-1910, and less than 900k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. 刪Medium State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.;;;;;;;;;;;;;x
+built_naval_base;Recently Built Naval Base;;;;;;;;;;;;;x
+built_mine;Recently Built Mine;;;;;;;;;;;;;x
+built_university;Recently Built University;;;;;;;;;;;;;x
+prov_core_check;Province Core Check;;;;;;;;;;;;;x
+switched_production;Switched Production;;;;;;;;;;;;;x
+province_attract_immigrants;Immigration Focus;;;;;;;;;;;;;x
+new_world_province_attract_immigrants;Immigration Focus;;;;;;;;;;;;;x
+overcrowded;Overcrowded;;;;;;;;;;;;;x
+expand_universities_title;即Expand Universities;;;;;;;;;;;;;;;;;;;;;;;x
+expand_universities_desc;Build up to 10 universities in random provinces that already have a university. If you don't have enough money to pay for all 10 then you'll only build up to the amount that you can afford. Despite what the tooltip may say, the effects will not target the same province twice. Provinces affected by this decision get a modifier called "Recently Built University" that tell the decision not to target it in the future. This modifier gets removed from all provinces when you research a new university tech.;;;;;;;;;;;;;;;;;;;;;;;x
+expand_naval_base_title;即Expand Naval Bases;;;;;;;;;;;;;;;;;;;;;;;x
+expand_naval_base_desc;Build up to 10 naval bases in random provinces that already have a naval base. If you don't have enough money to pay for all 10 then you'll only build up to the amount that you can afford. Despite what the tooltip may say, the effects will not target the same province twice. Provinces affected by this decision get a modifier called "Recently Built Naval Base" that tell the decision not to target it in the future. This modifier gets removed from all provinces when you research a new naval tech.;;;;;;;;;;;;;;;;;;;;;;;x
