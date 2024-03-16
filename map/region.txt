@@ -390,8 +390,6 @@ ENG_291 = { 291 292 293 295 } #Eastern Counties
 
 ENG_294 = { 294 300 301 302 303 } #South East England
 
-ENG_2666 = { 2666 }#English Channel Strait
-
 ENG_254 = { 254 255 256 } #Ulster
 
 ENG_271 = { 271 269 270 272 } #Lowlands
@@ -1008,7 +1006,7 @@ SIC_754 = { 754 755 2567 } #Campania
 
 SIC_753 = { 753 757 2596 2598 } #Molise
 
-SIC_755 = { 756 758 759 760 761 } #Brasilicata
+SIC_755 = { 756 758 759 760 761 2666 } #Brasilicata
 
 AUS_704 = { 704 714 703 2584 } #West Galacia
 

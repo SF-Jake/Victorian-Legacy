@@ -2,8 +2,650 @@
 # Audax Validator "!" Ignore_1009
 
 #########################################################################
+# 							ANNUAL MODIFIERS							#
+#########################################################################
+country_event = {
+	id = 91300
+	title = "ANNUAL MODIFIERS"
+
+
+	is_triggered_only = yes
+
+	option = {
+		country_event = { id = 91300 days = 365 }
+		any_country = {
+			limit = {
+				ai = no
+				biologism = 1
+				NOT = { social_alienation = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_university
+				}
+				## Audax Validator "." Ignore_NEXT
+				university = 2
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				social_alienation = 1
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_university
+				}
+				## Audax Validator "." Ignore_NEXT
+				university = 3
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				battleship_column_doctrine = 1
+				NOT = { raider_group_doctrine = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 3
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				raider_group_doctrine = 1
+				NOT = { blue_and_brown_water_schools = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 4
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				blue_and_brown_water_schools = 1
+				NOT = { high_sea_battle_fleet = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 5
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				high_sea_battle_fleet = 1
+				NOT = { early_modern_naval_doctrine = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 6
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				early_modern_naval_doctrine = 1
+				NOT = { modern_naval_doctrine = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 7
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				modern_naval_doctrine = 1
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 8
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						NOT = { total_pops = 150000 }
+					}
+				}
+				add_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1860
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						NOT = { total_pops = 200000 }
+					}
+				}
+				add_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1885
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						NOT = { total_pops = 300000 }
+					}
+				}
+				add_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1910
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						NOT = { total_pops = 450000 }
+					}
+				}
+				add_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1860 }
+					## Audax Validator "." Ignore_NEXT
+					state_scope = { total_pops = 150000 }
+					is_core = SMA
+				}
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1885 }
+					## Audax Validator "." Ignore_NEXT
+					state_scope = { total_pops = 200000 }
+					is_core = SMA
+				}
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1910 }
+					## Audax Validator "." Ignore_NEXT
+					state_scope = { total_pops = 300000 }
+					is_core = SMA
+				}
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1910
+					## Audax Validator "." Ignore_NEXT
+					state_scope = { total_pops = 450000 }
+					is_core = SMA
+				}
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 150000
+						## Audax Validator "." Ignore_NEXT
+						NOT = { total_pops = 300000 }
+					}
+				}
+				add_core = MST
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1860
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 200000
+						## Audax Validator "." Ignore_NEXT
+						NOT = { total_pops = 400000 }
+					}
+				}
+				add_core = MST
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1885
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 300000
+						## Audax Validator "." Ignore_NEXT
+						NOT = { total_pops = 600000 }
+					}
+				}
+				add_core = MST
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1910
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 450000
+						## Audax Validator "." Ignore_NEXT
+						NOT = { total_pops = 900000 }
+					}
+				}
+				add_core = MST
+				remove_core = SMA
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1860 }
+					## Audax Validator "." Ignore_NEXT
+					state_scope = { total_pops = 300000 }
+					is_core = MST
+				}
+				remove_core = MST
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1885 }
+					## Audax Validator "." Ignore_NEXT
+					state_scope = { total_pops = 400000 }
+					is_core = MST
+				}
+				remove_core = MST
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { year = 1910 }
+					## Audax Validator "." Ignore_NEXT
+					state_scope = { total_pops = 600000 }
+					is_core = MST
+				}
+				remove_core = MST
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					year = 1910
+					## Audax Validator "." Ignore_NEXT
+					state_scope = { total_pops = 900000 }
+					is_core = MST
+				}
+				remove_core = MST
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = market_goods
+						trade_goods = precious_metal
+						trade_goods = oil
+					}
+					NOT = {
+						unemployment_by_type = {
+							type = labourers
+							value = 0.001
+						}
+					}
+				}
+				random_pop = {
+					limit = {
+						type = artisans
+					}
+					pop_type = labourers
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.1
+					NOT = { literacy = 0.2 }
+				}
+				literacy = -0.001
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.2
+					NOT = { literacy = 0.3 }
+				}
+				literacy = -0.002
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.3
+					NOT = { literacy = 0.4 }
+				}
+				literacy = -0.003
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.4
+					NOT = { literacy = 0.5 }
+				}
+				literacy = -0.004
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.5
+					NOT = { literacy = 0.6 }
+				}
+				literacy = -0.005
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.6
+					NOT = { literacy = 0.7 }
+				}
+				literacy = -0.006
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.7
+					NOT = { literacy = 0.8 }
+				}
+				literacy = -0.007
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.8
+					NOT = { literacy = 0.9 }
+				}
+				literacy = -0.008
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.9
+					NOT = { literacy = 0.9 }
+				}
+				literacy = -0.009
+			}
+			any_pop = {
+				limit = {
+					literacy = 0.99
+				}
+				literacy = -0.01
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = literacy_campaign
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.9
+					}
+					literacy = 0.0055
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.8
+						NOT = { literacy = 0.9 }
+					}
+					literacy = 0.006
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.7
+						NOT = { literacy = 0.8 }
+					}
+					literacy = 0.0065
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.6
+						NOT = { literacy = 0.7 }
+					}
+					literacy = 0.007
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.5
+						NOT = { literacy = 0.6 }
+					}
+					literacy = 0.0075
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.4
+						NOT = { literacy = 0.5 }
+					}
+					literacy = 0.008
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.3
+						NOT = { literacy = 0.4 }
+					}
+					literacy = 0.0085
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.2
+						NOT = { literacy = 0.3 }
+					}
+					literacy = 0.009
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.1
+						NOT = { literacy = 0.2 }
+					}
+					literacy = 0.0095
+				}
+				any_pop = {
+					limit = {
+						NOT = { literacy = 0.1 }
+					}
+					literacy = 0.01
+				}
+			}
+		}
+		any_country = {
+			slaves = { reduce_pop = 1.01 }
+			any_owned = {
+				limit = {
+					NOT = { total_pops = 1500 }
+				}
+				any_pop = {
+					reduce_pop = 1.01
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = settlement
+				}
+			}
+			any_owned = {
+				limit = {
+					is_colonial = yes
+					has_province_modifier = settlement
+				}
+				any_pop = {
+					limit = {
+						is_accepted_culture = no
+						is_primary_culture = no
+					}
+					reduce_pop = 0.99
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					total_pops = 1000000
+					NOT = { has_province_modifier = overcrowded }
+				}
+				add_province_modifier = { name = overcrowded duration = -1 }
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					total_pops = 1000000
+					has_province_modifier = overcrowded
+					OR = {
+						has_province_modifier = province_attract_immigrants
+						has_province_modifier = new_world_province_attract_immigrants
+					}
+				}
+				remove_province_modifier = province_attract_immigrants
+				remove_province_modifier = new_world_province_attract_immigrants
+			}
+		}
+		any_country = {
+			limit = {
+				ai = yes
+				OR = {
+					civilized = yes
+					tag = EIC
+				}
+				OR = {
+					AND = {
+						year = 1870
+						NOT = { year = 1871 }
+					}
+					AND = {
+						year = 1890
+						NOT = { year = 1891 }
+					}
+					AND = {
+						year = 1890
+						NOT = { year = 1891 }
+					}
+					AND = {
+						year = 1910
+						NOT = { year = 1911 }
+					}
+					AND = {
+						year = 1930
+						NOT = { year = 1931 }
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = { conscription = four_year_draft }
+				}	
+				owner = { political_reform = mandatory_service }
+			}
+			random_owned = {
+				limit = {
+					owner = { conscription = two_year_draft }
+				}	
+				owner = { political_reform = four_year_draft }
+			}				
+			random_owned = {
+				limit = {
+					owner = { conscription = one_year_draft }
+				}	
+				owner = { political_reform = two_year_draft }
+			}
+			random_owned = {
+				limit = {
+					owner = { conscription = no_draft }
+				}	
+				owner = { political_reform = one_year_draft }
+			}
+		}
+	}
+}
+
+#########################################################################
 # 							LIFERATING									#
 #########################################################################
+country_event = {
+	id = 91301
+	title = "EVTNAME91301"
+	desc = "EVTDESC91301"
+	picture = generic_map
+
+	trigger = {
+		NOT = { has_global_flag = 1913_bookmark }
+		year = 1900
+		tag = JAN
+		NOT = { has_country_flag = 1900_pop_recession }
+	}
+
+	option = {
+		name = "EVTOPTA91301" 
+		set_country_flag = 1900_pop_recession
+		any_country = {
+			any_owned = {
+				limit = {
+					life_rating = 35
+				}
+				life_rating = -2
+			}
+			any_owned = {
+				limit = {
+					life_rating = 38
+				}
+				life_rating = -3
+			}
+			any_owned = {
+				limit = {
+					life_rating = 40
+				}
+				life_rating = -5
+			}
+			any_owned = {
+				limit = {
+					life_rating = 40
+				}
+				life_rating = -5
+			}
+		}
+	}
+}
+
 country_event = {
 	id = 91302
 	title = "EVTNAME91302"
@@ -14,9 +656,35 @@ country_event = {
 	trigger = {
 		any_owned_province = {
 			OR = {
-				continent = africa
 				continent = north_america
 				continent = oceania
+				continent = east_indies
+				continent = polynesia
+				region = MOR_1696
+				region = ALD_1714
+				region = TRI_1743
+				region = EGY_1737
+				region = EGY_1754
+				region = EGY_1842
+				region = ENG_2019
+				region = ENG_2083
+				region = ENG_2078
+				region = ENG_2088
+				region = ENG_2074
+				region = ENG_2068
+				region = ENG_2014
+				region = ENG_2016
+				region = ENG_2039
+				region = ENG_2029
+				region = ENG_2034
+				region = ENG_2024
+				region = ENG_1844
+				region = ETH_1862
+				region = ETH_1867
+				region = POR_1999
+				region = POR_2003
+				region = POR_2053
+				region = POR_2060
 			}
 			OR = {
 				NOT = { life_rating = 11 }
@@ -34,6 +702,33 @@ country_event = {
 				OR = {
 					continent = north_america
 					continent = oceania
+					continent = east_indies
+					continent = polynesia
+					region = MOR_1696
+					region = ALD_1714
+					region = TRI_1743
+					region = EGY_1737
+					region = EGY_1754
+					region = EGY_1842
+					region = ENG_2019
+					region = ENG_2083
+					region = ENG_2078
+					region = ENG_2088
+					region = ENG_2074
+					region = ENG_2068
+					region = ENG_2014
+					region = ENG_2016
+					region = ENG_2039
+					region = ENG_2029
+					region = ENG_2034
+					region = ENG_2024
+					region = ENG_1844
+					region = ETH_1862
+					region = ETH_1867
+					region = POR_1999
+					region = POR_2003
+					region = POR_2053
+					region = POR_2060
 				}
 				NOT = { life_rating = 11 }
 			}
@@ -41,16 +736,36 @@ country_event = {
 		}
 		any_owned = {
 			limit = {
-				continent = africa
-				NOT = { life_rating = 11 }
-			}
-			life_rating = 25
-		}
-		any_owned = {
-			limit = {
 				OR = {
 					continent = north_america
 					continent = oceania
+					continent = east_indies
+					continent = polynesia
+					region = MOR_1696
+					region = ALD_1714
+					region = TRI_1743
+					region = EGY_1737
+					region = EGY_1754
+					region = EGY_1842
+					region = ENG_2019
+					region = ENG_2083
+					region = ENG_2078
+					region = ENG_2088
+					region = ENG_2074
+					region = ENG_2068
+					region = ENG_2014
+					region = ENG_2016
+					region = ENG_2039
+					region = ENG_2029
+					region = ENG_2034
+					region = ENG_2024
+					region = ENG_1844
+					region = ETH_1862
+					region = ETH_1867
+					region = POR_1999
+					region = POR_2003
+					region = POR_2053
+					region = POR_2060
 				}
 				NOT = { life_rating = 16 }
 			}
@@ -58,16 +773,36 @@ country_event = {
 		}
 		any_owned = {
 			limit = {
-				continent = africa
-				NOT = { life_rating = 16 }
-			}
-			life_rating = 20
-		}
-		any_owned = {
-			limit = {
 				OR = {
 					continent = north_america
 					continent = oceania
+					continent = east_indies
+					continent = polynesia
+					region = MOR_1696
+					region = ALD_1714
+					region = TRI_1743
+					region = EGY_1737
+					region = EGY_1754
+					region = EGY_1842
+					region = ENG_2019
+					region = ENG_2083
+					region = ENG_2078
+					region = ENG_2088
+					region = ENG_2074
+					region = ENG_2068
+					region = ENG_2014
+					region = ENG_2016
+					region = ENG_2039
+					region = ENG_2029
+					region = ENG_2034
+					region = ENG_2024
+					region = ENG_1844
+					region = ETH_1862
+					region = ETH_1867
+					region = POR_1999
+					region = POR_2003
+					region = POR_2053
+					region = POR_2060
 				}
 				NOT = { life_rating = 21 }
 			}
@@ -75,24 +810,37 @@ country_event = {
 		}
 		any_owned = {
 			limit = {
-				continent = africa
-				NOT = { life_rating = 21 }
-			}
-			life_rating = 15
-		}
-		any_owned = {
-			limit = {
 				OR = {
 					continent = north_america
 					continent = oceania
+					continent = east_indies
+					continent = polynesia
+					region = MOR_1696
+					region = ALD_1714
+					region = TRI_1743
+					region = EGY_1737
+					region = EGY_1754
+					region = EGY_1842
+					region = ENG_2019
+					region = ENG_2083
+					region = ENG_2078
+					region = ENG_2088
+					region = ENG_2074
+					region = ENG_2068
+					region = ENG_2014
+					region = ENG_2016
+					region = ENG_2039
+					region = ENG_2029
+					region = ENG_2034
+					region = ENG_2024
+					region = ENG_1844
+					region = ETH_1862
+					region = ETH_1867
+					region = POR_1999
+					region = POR_2003
+					region = POR_2053
+					region = POR_2060
 				}
-				NOT = { life_rating = 26 }
-			}
-			life_rating = 10
-		}
-		any_owned = {
-			limit = {
-				continent = africa
 				NOT = { life_rating = 26 }
 			}
 			life_rating = 10
@@ -671,15 +1419,6 @@ country_event = {
 					war = yes
 				}
 			}
-			CIV = {
-				is_greater_power = no
-				exists = no
-				OR = {
-					total_amount_of_divisions = 1
-					is_mobilised = yes
-					war = yes
-				}
-			}
 			CLA = {
 				is_greater_power = no
 				exists = no
@@ -807,6 +1546,186 @@ country_event = {
 				}
 			}
 			CZH = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D01 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D02 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D03 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D04 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D05 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D06 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D07 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D08 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D09 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D10 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D11 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D12 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D13 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D14 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D15 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D16 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D17 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D18 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D19 = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			D20 = {
 				is_greater_power = no
 				exists = no
 				OR = {
@@ -3088,11 +4007,11 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+		release_vassal = THIS
 		any_country = {
 			limit = { war_with = THIS }
 			end_war = THIS
 		}
-		2133 = { secede_province = GHO }
 	}
 }
 
@@ -3134,7 +4053,14 @@ country_event = {
 	option = {
 		name = "EVTOPTA91306"
 		any_country = {
-			limit = { vassal_of = THIS }
+			limit = {
+				vassal_of = THIS
+				OR = {
+					tag = EIC
+					NOT = { is_culture_group = south_asian }
+					EIC = { NOT = { vassal_of = THIS } }
+				}
+			}
 			country_event = { id = 91307 days = 0 }
 		}
 	}
@@ -3168,10 +4094,51 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA91308"
+		FROM = {
+			limit = { tag = EIC }
+			set_country_flag = granted_independence
+		}
 		release_vassal = FROM
 	}
 	option = {
 		name = "EVTOPTB91308"
+	}
+}
+
+#########################################################################
+# 						CAPITAL SUPPLY DEPOT							#
+#########################################################################
+country_event = {
+	id = 91309
+	title = "New Capital Supply Depot"
+	desc = "A capital supply depot will be built in your new capital and the old one will be destroyed."
+	picture = armament_depot
+
+
+	trigger = {
+		OR = {
+			capital_scope = {
+				NOT = { has_province_modifier = capital_supply_depot }
+			}
+			any_owned_province = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot
+			}
+		}
+	}
+
+	option = {
+		name = "OK."
+		any_owned = {
+			limit = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot
+			}
+			remove_province_modifier = capital_supply_depot
+		}
+		capital_scope = {
+			add_province_modifier = { name = capital_supply_depot duration = -1 }
+		}
 	}
 }
 
@@ -3196,6 +4163,7 @@ country_event = {
 		NOT = { has_country_flag = baby_boom_reminder }
 		any_owned_province = {
 			state_scope = {
+				## Audax Validator "." Ignore_NEXT
 				NOT = { total_pops = 1000000 }
 			}
 		}
@@ -3208,10 +4176,36 @@ country_event = {
 }
 
 #########################################################################
+# 							NATIONAL VALUES								#
+#########################################################################
+country_event = {
+	id = 91311
+	title = "National Values"
+	desc = "Choose a new national value for your nation."
+	picture = Upperhouse
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Equality"
+		nationalvalue = nv_equality
+	}
+
+	option = {
+		name = "Liberty"
+		nationalvalue = nv_liberty
+	}
+
+	option = {
+		name = "Order"
+		nationalvalue = nv_order
+	}
+}
+
+
+#########################################################################
 # 						REFORMS AND DEMOCRACY							#
 #########################################################################
-
-
 country_event = {
 	id = 91314
 	title = "EVTNAME91314"
@@ -3307,6 +4301,7 @@ country_event = {
 		tag = JAN
 		year = 1846
 		NOT = { has_country_flag = reb_tech_1 }
+		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	option = {
@@ -3329,6 +4324,7 @@ country_event = {
 		tag = JAN
 		year = 1856
 		NOT = { has_country_flag = reb_tech_2 }
+		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	option = {
@@ -3351,6 +4347,7 @@ country_event = {
 		tag = JAN
 		year = 1870
 		NOT = { has_country_flag = reb_tech_3 }
+		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	option = {
@@ -3373,6 +4370,7 @@ country_event = {
 		tag = JAN
 		year = 1890
 		NOT = { has_country_flag = reb_tech_4 }
+		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	option = {
@@ -3395,6 +4393,7 @@ country_event = {
 		tag = JAN
 		year = 1910
 		NOT = { has_country_flag = reb_tech_5 }
+		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	option = {
@@ -3507,8 +4506,8 @@ country_event = {
 
 	trigger = {
 		ai = yes
-		any_neighbor_country = {
-			any_neighbor_country = {
+		META_1 = {
+			owner = {
 				exists = yes
 				ai = yes
 				military_access = THIS
@@ -3545,165 +4544,120 @@ country_event = {
 		}
 	}
 }
+
 #########################################################################
-# 							Remove POP Buff								#
+# 							END NEUTRAL WAR								#
 #########################################################################
+
 country_event = {
-	id = 91331
-	title = "Remove POP Buff"
+	id = 91338
+	title = "EVTNAME91338"
+	desc = "EVTDESC91338"
+	picture = upper_house
 
 	trigger = {
-		year = 1900
-		OR = {
-			OR = {
-				GER = { has_country_modifier = german_population_buff }
-				NGF = { has_country_modifier = german_population_buff }
-				PRU = { has_country_modifier = german_population_buff }
-			}
-			RUS = { has_country_modifier = russian_population_buff }
-		}
-		tag = JAN
+		has_country_flag = neutral
+		war = yes
 	}
 
-	option = {
-		GER = { remove_country_modifier = german_population_buff }
-		NGF = { remove_country_modifier = german_population_buff }
-		PRU = { remove_country_modifier = german_population_buff }
-		RUS = { remove_country_modifier = russian_population_buff }
-		GER = { set_country_flag = pop_buff_gone }
-		NGF = { set_country_flag = pop_buff_gone }
-		PRU = { set_country_flag = pop_buff_gone }
-		RUS = { set_country_flag = pop_buff_gone }
-	}
-}
-
-
-#########################################################################
-# 							John Cena General							#
-#########################################################################
-country_event = {
-	id = 91332
-	title = "John Cena General"
-	desc = "You can't see me."
-
-	trigger = {
-		ai = no
-		OR = {
-			civilized = yes
-			tag = JAP
-		}
-		NOT = { has_leader = "§RJohn Cena§W" }
-		NOT = { has_leader = "§RJohn Xina§W" }
-		NOT = { has_country_modifier = john_cena_cooldown }
-	}
 	immediate = {
-		add_country_modifier = {
-			name = john_cena_cooldown
-			duration = 120
-		}
+		any_country = { end_war = THIS }
 	}
+
 	option = {
-		name = "§RJohn Cena§W"
-		define_general = {
-			name = "§RJohn Cena§W"
-			personality = mor40att10
-			background = 3a3d_1
-		}
-	}
-	option = {
-		name = "§RJohn Xina§W"
-		define_general = {
-			name = "§RJohn Xina§W"
-			personality = defence_3.1
-			background = attack_3.1
-		}
+		name = "EVTOPTA91338"
 	}
 }
 
+
 #########################################################################
-# 							Containment Event							#
+# 						GREAT WAR PENALTY CB							#
 #########################################################################
+
+
 country_event = {
-	id = 14673
-	title = "Economic Sanctions"
-	desc = "Oh Dear a war is coming"
+	id = 91339
+	title = "EVTNAME91339"
+	desc = "EVTDESC91339"
+	picture = upper_house
 
 	trigger = {
-		NOT = { has_country_modifier = economic_sanctions }
-		badboy = 1.92
+		has_country_flag = gw_penalty_target
+		war = no
 	}
 
 	option = {
-		name = "Is this the part where I say no"
-		add_country_modifier = {
-			name = economic_sanctions
-			duration = 180
-		}
-		any_greater_power = {
-			casus_belli = {
-				target = THIS
-				type = dismantle_cb
-				months = 6
-			}
-		}
+		name = "EVTOPTA91339"
+		clr_country_flag = gw_penalty_target
 	}
 }
 
 
 #########################################################################
-# 							Infamy Gain Event							#
+# 						LIBERATE PUPPET CB								#
 #########################################################################
 
 country_event = {
-	id = 14670
-	title = "Infamy Gain"
-	desc = ""
+    id = 91340
+    title = "Our New Puppet"
+    desc = "Our previous war has given us a new satellite!"
+    picture = "Celebration"
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		badboy = 25
-	}
+    option = {
+        name = "Good"
+
+        any_country = {
+            limit = {
+                exists = yes
+                NOT = { has_country_flag = existing_country }
+                is_vassal = no
+                in_sphere = THIS
+            }
+            country_event = { id = 91341 days = 0 }
+        }
+    }
 }
 
-
-#########################################################################
-# 							Infamy Loss Event							#
-#########################################################################
-
+#Event for a country that has been puppeted by CB
 country_event = {
-	id = 14671
-	title = "Infamy Loss"
-	desc = ""
+    id = 91341
+    title = "EVTNAME91341" #The $FROMCOUNTRY$ Overlords
+    desc = "EVTDESC91341"
+    picture = "Celebration"
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		badboy = -25
-	}
+    option = {
+        name = "EVTOPTA91341"
+        FROM = { create_vassal = THIS }
+        random_owned = {
+            limit = {
+                FROM = { government = fascist_dictatorship }
+                owner = {
+                    civilized = yes
+                    NOT = { government = fascist_dictatorship }
+                }
+            }
+            owner = {
+                ruling_party_ideology = fascist
+                government = fascist_dictatorship
+                political_reform = none_voting
+                political_reform = party_appointed
+                political_reform = no_meeting
+                political_reform = state_press
+                political_reform = state_controlled
+                political_reform = underground_parties
+            }
+        }
+        random_owned = {
+            limit = {
+                FROM = { government = proletarian_dictatorship }
+                owner = {
+                    civilized = yes
+                    NOT = { government = proletarian_dictatorship }
 }
-
-#########################################################################
-# 							War Notification							#
-#########################################################################
-
-country_event = {
-	id = 14672
-	title = "WAR!"
-	desc = "The 1 year grace period is over"
-	picture = war_1838
-
-	fire_only_once = yes
-
-	trigger = {
-		ai = no
-		NOT = { year = 1838 }
-		year = 1837
-	}
-
-	option = {
-		name = "Prepare the Troops"
-	}
 }
 
 
@@ -3718,169 +4672,242 @@ country_event = {
 	trigger = {
 		tag = GHO
 		NOT = { has_country_modifier = sizing_cooldown }
+                }
+
+
+#########################################################################
+# 							  State Sizing  							#
+#########################################################################
+
+country_event = {
+	id = 700700
+	title = "State Sizing"
+
+	trigger = {
+		tag = GHO
+		NOT = { has_country_modifier = sizing_cooldown }
+            }
+            owner = {
+                ruling_party_ideology = communist
+                government = proletarian_dictatorship
+                political_reform = none_voting
+                political_reform = party_appointed
+                political_reform = no_meeting
+                political_reform = state_press
+                political_reform = state_controlled
+                political_reform = underground_parties
+                social_reform = good_minimum_wage
+                social_reform = eight_hours
+                social_reform = good_subsidies
+                social_reform = good_pensions
+                nationalize = yes
+            }
+        }
+
+        random_owned = {
+            limit = {
+                FROM = {
+                    OR = {
+                        government = democracy
+                        government = hms_government
+                    }
+                }
+                owner = {
+                    civilized = yes
+                    OR = {
+                        government = absolute_monarchy
+                        government = prussian_constitutionalism
+                    }
+                }
+            }
+            owner = {
+                random_owned = {
+                    limit = { owner = { OR = { government = prussian_constitutionalism government = absolute_monarchy } } }
+                    owner = { government = hms_government }
+                }
+                random_owned = {
+                    limit = { owner = { NOT = { vote_franschise = universal_voting } } }
+                    owner = { political_reform = universal_weighted_voting }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                political_parties = underground_parties
+                                political_parties = harassment
+                                political_parties = gerrymandering
+                            }
+                        }
+                    }
+                    owner = { political_reform = non_secret_ballots }
+                }
+                random_owned = {
+                    limit = {
+                        owner = { upper_house_composition = party_appointed }
+                    }
+                    owner = { political_reform = appointed }
+                }
+                election = yes
+            }
+        }
+        random_owned = {
+            limit = {
+                FROM = {
+                    OR = {
+                        government = democracy
+                        government = hms_government
+                    }
+                }
+                owner = {
+                    civilized = yes
+                    OR = {
+                        government = fascist_dictatorship
+                        government = proletarian_dictatorship
+                    }
+                }
+            }
+            owner = {
+                government = democracy
+                random_owned = {
+                    limit = {
+                        owner = { NOT = { vote_franschise = universal_voting } }
+                    }
+                    owner = { political_reform = universal_weighted_voting }
+                }
+                random_owned = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                political_parties = underground_parties
+                                political_parties = harassment
+                                political_parties = gerrymandering
+                            }
+                        }
+                    }
+                    owner = { political_reform = non_secret_ballots }
+                }
+                random_owned = {
+                    limit = {
+                        owner = { upper_house_composition = party_appointed }
+                    }
+                    owner = { political_reform = appointed }
+                }
+                election = yes
+            }
+        }
+        random_owned = {
+            limit = {
+                FROM = {
+                    OR = {
+                        government = absolute_monarchy
+                        government = prussian_constitutionalism
+                    }
+                }
+                owner = {
+                    civilized = yes
+                    NOT = { government = absolute_monarchy }
+                    NOT = { government = prussian_constitutionalism }
+                }
+            }
+            owner = {
+                government = absolute_monarchy
+                ruling_party_ideology = reactionary
+                political_reform = none_voting
+                political_reform = appointed
+                political_reform = underground_parties
+            }
+        }
+        random_owned = {
+            limit = {
+                FROM = { government = presidential_dictatorship }
+                owner = {
+                    civilized = yes
+                    NOT = { government = presidential_dictatorship }
+                }
+            }
+            owner = {
+                government = presidential_dictatorship
+                ruling_party_ideology = reactionary
+                political_reform = none_voting
+                political_reform = appointed
+                political_reform = no_meeting
+                political_reform = state_press
+                political_reform = underground_parties
+				}
+				}
+
+            }
+
+        }
+        random_country = {
+            limit = {
+                is_greater_power = yes
+                tag = FROM
+            }
+            diplomatic_influence = { who = THIS value = 400 }
+        }
+        any_country = {
+            limit = {
+                is_greater_power = yes
+                NOT = { tag = FROM }
+            }
+            diplomatic_influence = { who = THIS value = -100 }
+        }
+        any_country = {
+            limit = {
+                alliance_with = THIS
+                NOT = { tag = FROM }
+            }
+            leave_alliance = THIS
+        }
+        any_pop = {
+            limit = {
+                OR = {
+                    is_primary_culture = yes
+                    is_accepted_culture = yes
+                }
+                location = { is_core = THIS }
+            }
+            militancy = 4
+        }
+        any_owned = {
+            limit = { is_core = THIS }
+            add_province_modifier = {
+                name = nationalist_agitation
+                duration = 1825
+            }
+        }
+    }
+}
+
+#########################################################################
+# 							END OF SLAVERY								#
+#########################################################################
+
+country_event = {
+
+	id = 91337
+	title = "EVTNAME91337"
+
+	trigger = {
+		tag = JAN
+		year = 1890
+		NOT = { has_global_flag = slavery_ended }
 	}
+	
+	fire_only_once = yes
 
-	immediate = {
-		add_country_modifier = {
-			name = sizing_cooldown
-			duration = 365
-		}
-	}
-
-	option = { 
-		any_country = { 
-			limit = {
-				OR = {
-					war = no
-					AND = {
-						war = yes
-						OR = {
-							tag = TUR
-							tag = TRI
-							tag = TEX
-							tag = MEX
-							tag = ALD
-							tag = FRA
-							tag = RUS
-							tag = CHL
-							tag = ARC
-							tag = BOL
-							tag = PEU
-						}
-						NOT = { 
-							year = 1837 
-						}
-					}
-				}
-
-			}
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						NOT = { total_pops = 350000 }
-					}
-				}
-				add_core = SMA 
-				remove_core = MED 
-				remove_core = LRG 
-				remove_core = HUG 
-			}
-		}
-		any_country = { 
-			limit = {
-				OR = {
-					war = no
-					AND = {
-						war = yes
-						OR = {
-							tag = TUR
-							tag = TRI
-							tag = TEX
-							tag = MEX
-							tag = ALD
-							tag = FRA
-							tag = RUS
-							tag = CHL
-							tag = ARC
-							tag = BOL
-							tag = PEU
-						}
-						NOT = { 
-							year = 1837 
-						}
-					}
-				}
-
-			}
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						total_pops = 350000 
-						NOT = { total_pops = 650000 }
-					} 
-				}
-				add_core = MED 
-				remove_core = SMA 
-				remove_core = LRG 
-				remove_core = HUG 
-			} 
-		}		
-		any_country = { 
-			limit = {
-				OR = {
-					war = no
-					AND = {
-						war = yes
-						OR = {
-							tag = TUR
-							tag = TRI
-							tag = TEX
-							tag = MEX
-							tag = ALD
-							tag = FRA
-							tag = RUS
-							tag = CHL
-							tag = ARC
-							tag = BOL
-							tag = PEU
-						}
-						NOT = { 
-							year = 1837 
-						}
-					}
-				}
-
-			}
-			any_owned = {
-				limit = {
-					state_scope = { 
-						total_pops = 650000 
-						NOT = { total_pops = 900000 }
-					} 
-				} 
-			add_core = LRG 
-			remove_core = SMA 
-			remove_core = MED 
-			remove_core = HUG 
-			} 
-		}
+	option = {
+		set_global_flag = slavery_ended
 		any_country = {
 			limit = {
+				NOT = { tag = CSA }
 				OR = {
-					war = no
-					AND = {
-						war = yes
-						OR = {
-							tag = TUR
-							tag = TRI
-							tag = TEX
-							tag = MEX
-							tag = ALD
-							tag = FRA
-							tag = RUS
-							tag = CHL
-							tag = ARC
-							tag = BOL
-							tag = PEU
-						}
-						NOT = { 
-							year = 1837 
-						}
-					}
+					slavery = yes_slavery
+					slavery = freedom_of_womb
 				}
-
 			}
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						total_pops = 900000
-					}
-				}
-				add_core = HUG 
-				remove_core = SMA 
-				remove_core = MED 
-				remove_core = LRG 
-			} 
+			political_reform = no_slavery
 		}
 	}
-}	
+}

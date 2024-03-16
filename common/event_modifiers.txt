@@ -676,6 +676,11 @@ supply_depot = {
 	icon = 17
 }
 
+capital_supply_depot = {
+	max_attrition = -100
+	icon = 17
+}
+
 supply_depot_destroyed = {
 	icon = 16
 }

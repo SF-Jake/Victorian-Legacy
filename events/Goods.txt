@@ -13,10 +13,10 @@ province_event = {
 			province_id = 773			# Karlovac
 			province_id = 1387			# Kuala Lumpur
 			province_id = 1390			# Kuantan
-			province_id = 1422			# Muraleve
+			province_id = 14			# Berau
 			province_id = 1440			# Sumbawa
 			province_id = 1884			# Freetown
-			province_id = 2052			# Massekisse
+			province_id = 2050			# Mabote
 			province_id = 2501			# Kimberley
 			province_id = 2153			# Durango
 			province_id = 2157			# Culiacan
@@ -24,7 +24,6 @@ province_event = {
 			province_id = 2295			# Lima
 			province_id = 2323			# La Serena
 			province_id = 2500			# Kalgoorlie
-			province_id = 2503			# Wiluna
 			province_id = 2575			# Ipoh
 			province_id = 2601			# Sandy Desert
 			province_id = 2605			# Gibson's Desert
@@ -63,10 +62,10 @@ province_event = {
 			province_id = 773			# Karlovac
 			province_id = 1387			# Kuala Lumpur
 			province_id = 1390			# Kuantan
-			province_id = 1422			# Muraleve
+			province_id = 14			# Berau
 			province_id = 1440			# Sumbawa
 			province_id = 1884			# Freetown
-			province_id = 2052			# Massekisse
+			province_id = 2050			# Mabote
 			province_id = 2501			# Kimberley
 			province_id = 2153			# Durango
 			province_id = 2157			# Culiacan
@@ -74,7 +73,6 @@ province_event = {
 			province_id = 2295			# Lima
 			province_id = 2323			# La Serena
 			province_id = 2500			# Kalgoorlie
-			province_id = 2503			# Wiluna
 			province_id = 2575			# Ipoh
 			province_id = 2601			# Sandy Desert
 			province_id = 2605			# Gibson's Desert
@@ -116,11 +114,10 @@ province_event = {
 				limit = {
 					has_province_modifier = end_goldrush
 					OR = {
-						province_id = 2052
+						province_id = 2050
 						province_id = 2153
 						province_id = 2157
 						province_id = 2295
-						province_id = 2503
 					}
 					trade_goods = precious_metal
 				}
@@ -154,7 +151,7 @@ province_event = {
 					has_province_modifier = end_goldrush
 					OR = {
 						province_id = 1390
-						province_id = 1422
+						province_id = 14
 					}
 					trade_goods = precious_metal
 				}
@@ -189,10 +186,7 @@ province_event = {
 
 	trigger = {
 		year = 1848
-		or = {
-			province_id = 84			# San Francisco
-			province_id = 88			# Mariposa
-		}
+		province_id = 84			# San Francisco
 		not = { trade_goods = precious_metal }
 		not = { year = 1873 }
 	}
@@ -217,10 +211,7 @@ province_event = {
 
 	trigger = {
 		year = 1873
-		or = {
-			province_id = 84			# San Francisco
-			province_id = 88			# Mariposa
-		}
+		province_id = 84			# San Francisco
 		trade_goods = precious_metal
 	}
 
@@ -493,7 +484,6 @@ province_event = {
 	trigger = {
 		year = 1896
 		or = {
-			province_id = 6			# Whitehorse
 			province_id = 7			# Dawson
 			province_id = 2599		# Fairbanks
 			province_id = 2630		# Cordova
@@ -523,7 +513,6 @@ province_event = {
 	trigger = {
 		year = 1921
 		or = {
-			province_id = 6			# Whitehorse
 			province_id = 7			# Dawson
 			province_id = 2599		# Fairbanks
 			province_id = 2630		# Cordova
@@ -548,10 +537,7 @@ province_event = {
 			random_owned = {
 				limit = {
 					has_province_modifier = end_goldrush
-					OR = {
-						province_id = 6
-						province_id = 7
-					}
+					province_id = 7
 					trade_goods = precious_metal
 				}
 				trade_goods = timber
@@ -675,7 +661,7 @@ province_event = {
 					province_id = 2068
 					trade_goods = precious_metal
 				}
-				trade_goods = coffee
+				trade_goods = grain
 			}
 			random_owned = {
 				limit = {
@@ -771,7 +757,7 @@ province_event = {
 	id = 1107
 
 	trigger = {
-		year = 1880
+		year = 1775
 		or = {
 			province_id = 1354
 			province_id = 1364
@@ -849,7 +835,7 @@ province_event = {
 	id = 1108
 
 	trigger = {
-		year = 1890
+		year = 1885
 		or = {
 			province_id = 1926
 			province_id = 1929
@@ -1671,48 +1657,48 @@ province_event = {
 	}
 }
 
-province_event = {
-
-	id = 1126
-
-	trigger = {
-		year = 1894
-		province_id = 2173		# Queretaro
-		not = { trade_goods = oil }
-		OR = {
-			owner = {
-				part_of_sphere = yes
-				sphere_owner = {
-					or = {
-						invention = daimlers_automobile
-						invention = cracking
-						invention = protected_cruisers
-					}
-				}
-			}
-			owner = {
-				or = {
-					invention = daimlers_automobile
-					invention = cracking
-					invention = protected_cruisers
-				}
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 36
-	}
-
-	title = "EVTNAME1109"
-	desc = "EVTDESC1109"
-
-	option = {
-		name = "EVTOPTA1109"
-		trade_goods = oil
-		# life_rate = 5
-	}
-}
+#province_event = {
+#
+#	id = 1126
+#
+#	trigger = {
+#		year = 1894
+#		province_id = 2173		# Queretaro
+#		not = { trade_goods = oil }
+#		OR = {
+#			owner = {
+#				part_of_sphere = yes
+#				sphere_owner = {
+#					or = {
+#						invention = daimlers_automobile
+#						invention = cracking
+#						invention = protected_cruisers
+#					}
+#				}
+#			}
+#			owner = {
+#				or = {
+#					invention = daimlers_automobile
+#					invention = cracking
+#					invention = protected_cruisers
+#				}
+#			}
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 36
+#	}
+#
+#	title = "EVTNAME1109"
+#	desc = "EVTDESC1109"
+#
+#	option = {
+#		name = "EVTOPTA1109"
+#		trade_goods = oil
+#		# life_rate = 5
+#	}
+#}
 
 province_event = {
 
@@ -2328,6 +2314,7 @@ province_event = {
 			province_id = 1373		#Lang Son
 			province_id = 1374		#Thanh Hoa
 			province_id = 1375		#Hue
+			province_id = 1382		#Hatien
 			province_id = 1899		#Bondouku
 			province_id = 1910		#Kumasi
 		}

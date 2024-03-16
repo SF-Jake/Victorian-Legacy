@@ -25,6 +25,10 @@ post_napoleonic_army_doctrine = {
 			#attack = 0.20
 			defence = 0.40
 		}
+		horse_artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
 		cavalry = {
 			#attack = 0.35
 			defence = 0.7
@@ -75,6 +79,10 @@ field_fortifications = {
 			defence = 1
 		}
 		artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
+		horse_artillery = {
 			#attack = 0.20
 			defence = 0.40
 		}
@@ -176,6 +184,10 @@ flexible_firepower = {
 			#attack = 0.20
 			defence = 0.40
 		}
+		horse_artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
 		cavalry = {
 			#attack = 0.35
 			defence = 0.7
@@ -228,6 +240,10 @@ synchronized_heavy_support = {
 			defence = 1
 		}
 		artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
+		horse_artillery = {
 			#attack = 0.20
 			defence = 0.40
 		}
@@ -304,6 +320,10 @@ trench_systems = {
 			#attack = 0.20
 			defence = 0.40
 		}
+		horse_artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
 		cavalry = {
 			#attack = 0.35
 			defence = 0.7
@@ -356,6 +376,10 @@ elastic_defense_system = {
 			defence = 1
 		}
 		artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
+		horse_artillery = {
 			#attack = 0.20
 			defence = 0.40
 		}
@@ -413,6 +437,10 @@ flexible_counterattacks = {
 			#defence = 0.5
 		}
 		artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
+		horse_artillery = {
 			attack = 0.40
 			#defence = 0.20
 		}
@@ -479,6 +507,10 @@ low_echelon_fire_support = {
 			#attack = 0.20
 			defence = 0.40
 		}
+		horse_artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
 		cavalry = {
 			#attack = 0.35
 			defence = 0.7
@@ -528,6 +560,10 @@ stormtrooper_training = {
 			#defence = 0.5
 		}
 		artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
+		horse_artillery = {
 			attack = 0.40
 			#defence = 0.20
 		}
@@ -612,6 +648,10 @@ flexible_firepowerII = {
 			#attack = 0.20
 			defence = 0.40
 		}
+		horse_artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
 		cavalry = {
 			#attack = 0.35
 			defence = 0.7
@@ -665,6 +705,10 @@ firepower_vs_mobility = {
 			defence = 1
 		}
 		artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
+		horse_artillery = {
 			#attack = 0.20
 			defence = 0.40
 		}
@@ -745,6 +789,10 @@ human_wave_vs_spearhead = {
 			#attack = 0.20
 			defence = 0.40
 		}
+		horse_artillery = {
+			#attack = 0.20
+			defence = 0.40
+		}
 		cavalry = {
 			#attack = 0.35
 			defence = 0.7
@@ -802,6 +850,10 @@ flintlock_rifle_armament = {
 			attack = 0.40
 			#defence = 0.20
 		}
+		horse_artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
 		cavalry = {
 			attack = 0.7
 			#defence = 0.35
@@ -853,6 +905,10 @@ muzzle_loaded_rifle_armament = {
 			#defence = 0.5
 		}
 		artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
+		horse_artillery = {
 			attack = 0.40
 			#defence = 0.20
 		}
@@ -910,6 +966,10 @@ breech_loaded_rifle_armament = {
 			attack = 0.40
 			#defence = 0.20
 		}
+		horse_artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
 		cavalry = {
 			attack = 0.7
 			#defence = 0.35
@@ -961,6 +1021,10 @@ machine_gun_armament = {
 			#defence = 0.5
 		}
 		artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
+		horse_artillery = {
 			attack = 0.40
 			#defence = 0.20
 		}
@@ -1055,6 +1119,10 @@ bolt_action_rifle_armament = {
 			#defence = 0.5
 		}
 		artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
+		horse_artillery = {
 			attack = 0.40
 			#defence = 0.20
 		}
@@ -1154,6 +1222,10 @@ stormtrooper_trainingII = {
 			attack = 0.40
 			#defence = 0.20
 		}
+		horse_artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
 		cavalry = {
 			attack = 0.7
 			#defence = 0.35
@@ -1207,6 +1279,10 @@ interwar_infantry = {
 			#defence = 0.5
 		}
 		artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
+		horse_artillery = {
 			attack = 0.40
 			#defence = 0.20
 		}
@@ -1306,6 +1382,10 @@ rear_area_dumps = {
 			attack = 0.40
 			#defence = 0.20
 		}
+		horse_artillery = {
+			attack = 0.40
+			#defence = 0.20
+		}
 		cavalry = {
 			attack = 0.7
 			#defence = 0.35
@@ -1329,6 +1409,15 @@ rear_area_dumps = {
 }
 #bronze_muzzle_loaded_artillery
 #iron_muzzle_loaded_artillery
+mobile_artillery = {
+	limit = { iron_muzzle_loaded_artillery = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		activate_unit = artillery_factory 
+	}
+}
 #iron_breech_loaded_artillery
 #steel_breech_loaded_artillery
 #indirect_artillery_fire
@@ -1420,6 +1509,11 @@ anti_aircraft_artillery = {
 			defence = 0.20
 			supply_consumption = 0.1
 		}
+		horse_artillery = {
+			attack = 0.20
+			defence = 0.20
+			supply_consumption = 0.11
+		}
 	}
 }
 improved_anti_aircraft_artillery = {
@@ -1440,6 +1534,11 @@ improved_anti_aircraft_artillery = {
 			attack = 0.20
 			defence = 0.20
 			supply_consumption = 0.1
+		}
+		horse_artillery = {
+			attack = 0.20
+			defence = 0.20
+			supply_consumption = 0.11
 		}
 	}
 }
@@ -1462,6 +1561,11 @@ light_artillery = {
 			defence = 0.20
 			supply_consumption = 0.05
 		}
+		horse_artillery = {
+			attack = 0.20
+			defence = 0.20
+			supply_consumption = 0.06
+		}
 	}
 }
 medium_artillery = {
@@ -1482,6 +1586,11 @@ medium_artillery = {
 			attack = 0.20
 			defence = 0.20
 			supply_consumption = 0.05
+		}
+		horse_artillery = {
+			attack = 0.20
+			defence = 0.20
+			supply_consumption = 0.06
 		}
 	}
 }
@@ -1504,6 +1613,11 @@ heavy_artillery = {
 			attack = 0.20
 			defence = 0.20
 			supply_consumption = 0.05
+		}
+		horse_artillery = {
+			attack = 0.20
+			defence = 0.20
+			supply_consumption = 0.06
 		}
 	}
 }

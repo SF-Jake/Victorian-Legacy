@@ -99,36 +99,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B4.§b Colonial Statehood"
-		owner = {
-			any_owned = {
-				limit = {
-					has_building = province_selector
-				}
-				## Audax Validator "." Ignore_NEXT
-				province_selector = -1
-			}
-		}
-		add_core = JAN
-		owner = {
-			random_owned = {
-				limit = {
-					is_core = JAN
-					is_colonial = yes
-				}
-				owner = { country_event = { id = 92102 days = 0 } }
-				state_scope = {
-					any_owned = {
-						secede_province = CIV
-					}
-				}
-			}
-		}
-		remove_core = JAN
-	}
-
-	option = {
-		name = "§B5.§b Create Supply Depot"
+		name = "§B4.§b Create Supply Depot"
 		owner = {
 			any_owned = {
 				limit = {
@@ -159,7 +130,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B6.§b Literacy Campaign"
+		name = "§B5.§b Literacy Campaign"
 		owner = {
 			any_owned = {
 				limit = {
@@ -950,7 +921,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B7.§b Change Agricultural RGO"
+		name = "§B6.§b Change Agricultural RGO"
 		owner = {
 			any_owned = {
 				limit = {
@@ -2575,7 +2546,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B8.§b Baby Boom"
+		name = "§B7.§b Baby Boom"
 		owner = {
 			any_owned = {
 				limit = {
@@ -2888,41 +2859,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B9.§b Core Integration"
-		owner = {
-			any_owned = {
-				limit = {
-					has_building = province_selector
-				}
-				## Audax Validator "." Ignore_NEXT
-				province_selector = -1
-			}
-		}
-		add_core = JAN
-		owner = {
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = {
-						has_global_flag = coring_enabled
-						NOT = { has_country_modifier = diplomatic_cores }
-					}
-				}
-				state_scope = {
-					any_owned = {
-						add_province_modifier = { name = adding_cores duration = -1 }
-					}
-				}
-				owner = {
-					add_country_modifier = { name = diplomatic_cores duration = 5475 }
-				}
-			}
-		}
-		remove_core = JAN
-	}
-
-	option = {
-		name = "§B10.§b Choose Nothing"
+		name = "§B8.§b Choose Nothing"
 		owner = {
 			any_owned = {
 				limit = {

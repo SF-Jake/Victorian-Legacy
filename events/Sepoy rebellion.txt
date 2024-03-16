@@ -118,9 +118,7 @@ country_event = {
 				NOT = { tag = PRO }
 				NOT = { tag = MUG }
 				NOT = { tag = SMA }
-				NOT = { tag = MED }
-				NOT = { tag = LRG }
-				NOT = { tag = HUG }
+				NOT = { tag = MST }
 				any_core = {
 					owned_by = THIS
 				}
@@ -241,9 +239,7 @@ country_event = {
 				NOT = { tag = PRO }
 				NOT = { tag = MUG }
 				NOT = { tag = SMA }
-				NOT = { tag = MED }
-				NOT = { tag = LRG }
-				NOT = { tag = HUG }
+				NOT = { tag = MST }
 				any_core = {
 					owned_by = THIS
 				}

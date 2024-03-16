@@ -6,7 +6,7 @@ EVNTOPTB1;Placeholder;;;;;;;;;;;;x
 UNIT_BUILD_TIME_IW;$VAL$ days.;$VAL$ jours.;$VAL$ Tage.;;$VAL$ días.;;;;;;;;;x;
 TRIGMOD_HEADER;Our government reports that we have gained;;;;;;;;;;;;;;
 TRIGMODLOST_HEADER;Our government reports that we have lost;;;;;;;;;;;;;;
-POLITICS_DECISIONS2;§YYellow§g = Generic, §GGreen§g = Province selector, §BBlue§g = National Value, and §WWhite§g = Historical;;;;;;;;;;;;;;
+POLITICS_DECISIONS2;§YYellow§g = Generic, §BBlue§g = National Value, and §WWhite§g = Historical;;;;;;;;;;;;;;
 revanchism;§WRevanchism;Revanchisme;Revanchismus;;Revanchismo;;;;;;;;;x;
 REVANCHISM_EXPLANATION;§gRevanchism, from the French word for 'revenge', is the yearning for the return of land lost to the nation. In love, war, and peace alike, our people will be willing to make greater sacrifices for the return of our sacred soil.\n§YEvery 5 points of revanchism raises maximum soldier % in a core province by 0.5% and mobilization pool by 0.5%.;;;;;;;;;;;;;;
 TECH_DAILY_RESEARCHPOINTS_TOOLTIP;$POPTYPE$ provide §G$VALUE$§W research points.\n (§Y$FRACTION$%§W of the population, $OPTIMAL$% is the minimum for full research points and 4% is optimal for literacy gain.);$POPTYPE$ donnent §G$VALUE$§W points de recherche.\n (§Y$FRACTION$%§W de la population, $OPTIMAL$% de manière optimale);$POPTYPE$ erbringen §G$VALUE$§W Forschungspunkte.\n (§Y$FRACTION$%§W von der Bevölkerung - $OPTIMAL$% ist optimal);;Los $POPTYPE$ proporcionan §G$VALUE$§W puntos de investigación.\n (§Y$FRACTION$%§W de la población, el valor óptimo es $OPTIMAL$%.);;;;;;;;x;;;
@@ -677,20 +677,28 @@ modern_naval_exercises;Modern Naval Exercises;;;;;;;;;;;;;;
 modern_naval_exercises_desc;Modern naval exercises evolved into detailed wargame simulations encompassing command post exercises, field exercises, and joint exercises between two or more countries.;;;;;;;;;;;;;;
 modern_financial_institutions;Modern Financial Institutions;;;;;;;;;;;;;;
 fiat_based_monetary_system;Fiat Monetary System;;;;;;;;;;;;;;
-economic_thought_and_critique;National Ideas;;;;;;;;;;;;;
-early_classical_theory_and_critique;Unlock Province Selector;;;;;;;;;;;;;
-late_classical_theory;1st National Idea;;;;;;;;;;;;;
-collectivist_theory;2nd National Idea;;;;;;;;;;;;;
-the_historical_theory;3rd National Idea;;;;;;;;;;;;;
-neoclassical_theory;4th National Idea;;;;;;;;;;;;;
-keynesian_economics;5th National Idea;;;;;;;;;;;;;
-neoliberal_theory;6th National Idea;;;;;;;;;;;;;;
+economic_thought_and_critique;Economic Thought and Critique;Pensée et critique économique;Wirtschaftsgedanken und -kritik;;Pensamiento y crítica económicas;;;;;;;;;x;;;;
+economic_thought_and_critique_desc;The scientific development of Economics gave large repercussions into the functions of the world economy, both on a micro and macro level. New ideas and knowledge was swiftly applied by business and the state to increase the efficiency of their work.;Le développement scientifique de l'Economie a donné d'importantes répercussions sur les fonctions de l'économie mondiale, tant au niveau micro que macro. De nouvelles idées et de connaissances ont été rapidement appliquées par les entreprises et l'État pour accroître l'efficacité de leur travail. ;Die wissenschaftliche Entwicklung der Wirtschaft wirkte sich auf lokaler wie internationaler Ebene nachhaltig auf die Weltwirtschaft aus. Neue Ideen und Erkenntnisse wurden rasch auf die Geschäftswelt und den Staat angewandt, um deren Arbeit effizienter zu machen.;;El desarrollo científico de la Economía supuso grandes repercusiones en el funcionamiento de la Economía global en sus niveles micro y macroeconómicos. Las nuevas ideas y conocimientos se aplicaron rápidamente a los negocios y al estado para incrementar la eficacia de su trabajo.;;;;;;;;;x;;;;
+early_classical_theory_and_critique;Early Classical Theory and Critique;Théories et critiques classiques;Frühe klassische Theorie und Kritik;;Primeras teorías y críticas clásicas;;;;;;;;;x;;;;
+early_classical_theory_and_critique_desc;Early Classical Theory and Critique;Théories et critiques classiques;Frühe klassische Theorie und Kritik;;Primeras teorías y críticas clásicas;;;;;;;;;x;;;;
+late_classical_theory;Late Classical Theory;Théories classiques tardives;Späte klassische Theorie;;Teoría clásica tardía;;;;;;;;;x;;;;
+late_classical_theory_desc;Late Classical Theory;Théories classiques tardives;Späte klassische Theorie;;Teoría clásica tardía;;;;;;;;;x;;;;
+collectivist_theory;Collectivist Theory;Théorie collectiviste;Kollektivistische Theorie;;Teoría colectivista;;;;;;;;;x;;;;
+collectivist_theory_desc;Collectivist Theory;Théorie collectiviste;Kollektivistische Theorie;;Teoría colectivista;;;;;;;;;x;;;;
+the_historical_theory;The Historical Theory;Théorie historiciste;Die Geschichtstheorie;;La Teoría Histórica;;;;;;;;;x;;;;
+the_historical_theory_desc;The Historical Theory;Théorie historiciste;Die Geschichtstheorie;;La Teoría Histórica;;;;;;;;;x;;;;
+neoclassical_theory;Neoclassical Theory;Théorie néo-classique;Neoklassische Theorie;;Teoría neoclásica;;;;;;;;;x;;;;
+neoclassical_theory_desc;Neoclassical Theory;Théorie néo-classique;Neoklassische Theorie;;Teoría neoclásica;;;;;;;;;x;;;;
+keynesian_economics;Keynesian Economics;Économie keynésienne;Keynesianische Ökonomie;;Economía keynesiana;;;;;;;;;x;;;;
+keynesian_economics_desc;Keynesian Economics;Économie keynésienne;Keynesianische Ökonomie;;Economía keynesiana;;;;;;;;;x;;;;
+neoliberal_theory;Neoliberal Theory;;;;;;;;;;;;;;
 keynesianism;Keynesianism;;;;;;;;;;;;;;
 modern_business_management;Modern Business Management;;;;;;;;;;;;;;
 modernism;Modernism;;;;;;;;;;;;;;
 quantum_mechanics;Quantum Mechanics;;;;;;;;;;;;;;
 critical_theory;Critical Theory;;;;;;;;;;;;;;
 modern_sociology;Modern Sociology;;;;;;;;;;;;;;
+monetarism;Monetarism;;;;;;;;;;;;;;
 national_idea1;§GNational Idea;;;;;;;;;;;;;;
 national_idea1_desc;This invention unlocks another national idea.;;;;;;;;;;;;;;
 national_idea1_invented;1 National Idea;;;;;;;;;;;;;;
@@ -1573,13 +1581,28 @@ colonial_migration;Colonial Migration;;;;;;;;;x;;;;
 zstate_colonial_policy_desc;Triggers a province event that allows you to choose a colonial policy for the selected state.;;;;;;;;;x;;;;
 indirect_rule;Indirect Rule;;;;;;;;;x;;;;
 settlement;Settlement\n§WAnnual Non-Accepted Population Growth: §R-1%.;;;;;;;;;x;;;;
+EVTNAME91501;Deciding a Colonial Policy;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC91501;Now that $COUNTRY$ is a colonial power, it is time to decide a policy of how $COUNTRY_ADJ$ colonial lands will be administered. §RThe following options grant increased colonial migration at the cost of tax efficiency. §bThese policies can be changed at any time by enacting the §GIncrease Colonial Migration §b or §GDecrease Colonial Migration §bdecisions.;;;;;;;;;;;;x
+EVTOPTA91501;High Colonial Migration: §R-3% tax efficiency.;;;;;;;;;;;;x
+EVTOPTB91501;Medium Colonial Migration: §R-2% tax efficiency.;;;;;;;;;;;;x
+EVTOPTC91501;Low Colonial Migration: §R-1% tax efficiency.;;;;;;;;;;;;x
+EVTOPTD91501;No Colonial Migration.;;;;;;;;;;;;x
+EVTNAME91502;Non-Colonial Nation;;;;;;;;;;;;x
+EVTDESC91502;Now that $COUNTRY$ is no longer a colonial power, it is time to reform the bureaucracy centered on the $COUNTRY_ADJ$ homeland.;;;;;;;;;;;;x
+EVT91502OPTA;Who needs a place in the sun anyways?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME91503;No Settler Colonies;;;;;;;;;;;;x
+EVTDESC91503;Although you still have colonies, you are not actively settling any of them. There is no point in paying the upkeep of your current colonial migration reform level. If you wish to encourage migration to any of your colonies, build a province selector in a colony, enact the §GColonial Policy§b province selector decision and choose the §RSettlement§b option, then enact the §WIncrease Colonial Migration§b decision.;;;;;;;;;;;;x
+EVTOPTA91503;Understood.;;;;;;;;;;;;x
+EVTNAME91504;Austerity;;;;;;;;;;;;x
+EVTDESC91504;The current war is draining your treasury at an alarming rate. Your §RColonial Migration§b, §RHealthcare§b, and §RResearch & Development§b reform levels have been automatically set to none and you will not be able to raise them until either you are at peace or your treasury exceeds 50,000.;;;;;;;;;;;;x
+EVTOPTA91504;Understood.;;;;;;;;;;;;x
+EVTDESC91521;We must decide how to govern our newly acquired colonies. The colonial policy of a state may be changed at any time by building a province selector in the selected state and enacting the "Colonial Policy" decision.;;;;;;;;;x;;;;
 EVTNAME91520;Colonial Policy in $PROVINCENAME$;;;;;;;;;x;;;;
 EVTDESC91520;We must decide how to govern this colony. Indirect rule prevents colonial migration to the state. Settlement allows colonial migration to the selected state but gives a +0.05 militancy modifier, reduces the non-accepted POPs in the state by 1% annually.;;;;;;;;;x;;;;
 EVTOPTA91520;Indirect Rule;;;;;;;;;x;;;;
 EVTOPTB91520;Civilizing;;;;;;;;;x;;;;
 EVTOPTC91520;Settlement;;;;;;;;;x;;;;
 EVTNAME91521;Choosing a Colonial Policy;;;;;;;;;x;;;;
-EVTDESC91521;We must decide how to govern our newly acquired colonies. The colonial policy of a state may be changed at any time by building a province selector in the selected state and enacting the "Colonial Policy" decision.;;;;;;;;;x;;;;
 zcountry_decrease_colonial_migration_title;§YDecrease Colonial Migration;;;;;;;;;x;;;;
 zcountry_decrease_colonial_migration_desc;Decrease Colonial Migration reform level by one;;;;;;;;;x;;;;
 zcountry_increase_colonial_migration_title;§YIncrease Colonial Migration;;;;;;;;;x;;;;
@@ -3859,4 +3882,8 @@ bengali;Bengali;Bengali;Bengalisch;;Bengalí;;;;;;;;;x;;;;
 guarani;Guarani;Guarani;Guaranisch;;Guaraní;;;;;;;;;x;;;;
 panjabi;Panjabi;Penjabi;Pundschabisch;;Panjabí;;;;;;;;;x;;;;
 anglo;Anglo;;;;;;;;;;;;;x;;;;
-EVTDESC92101;§B1.§b Adds bonus interal migration attraction to state.\n§B2.§b Cancels bonus migration attraction to state.\n§B3.§b Choose colonial policy of colony.\n§B4.§b Grants statehood to colony if average literacy >50%.\n§B5.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n§B6.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 50k per 100k POPs rounded up.\n§B7.§b Changes farm RGO. Adds a debuff for 15 years, costs 200k per 100k POPs in province rounded up.\n§B8.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n§B9.§b Adds your cores, removes all foreign cores from state. 15 year cooldown, occupation cancels the progress.\n§B10.§b Resets province selector.;;;;;;;;;;;;;x
+EVTDESC92101;§B1.§b Adds bonus interal migration attraction to state.\n§B2.§b Cancels bonus migration attraction to state.\n§B3.§b Choose colonial policy of colony.\n§B4.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n§B5.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 50k per 100k POPs rounded up.\n§B6.§b Changes farm RGO. Adds a debuff for 15 years, costs 200k per 100k POPs in province rounded up.\n§B7.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n§B8.§b Resets province selector.;;;;;;;;;;;;;x
+horse_artillery;Horse Artillery;;;;;;;;;;;;;;;;x;;;;
+capital_supply_depot;Capital Supply Depot\n§WCapital Supply Depots will not be destroyed unless the capital is moved somewhere else.;;;;;;;;;;;;;x
+SMA;§YSmall State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 150K population before 1860, less than 200k between 1860-1885, less than 300k between 1885-1910, and less than 450k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RSmall State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.;;;;;;;;;;;;;x
+MST;§YMedium State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 300K population before 1860, less than 400k between 1860-1885, less than 600k between 1885-1910, and less than 900k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RMedium State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.;;;;;;;;;;;;;x

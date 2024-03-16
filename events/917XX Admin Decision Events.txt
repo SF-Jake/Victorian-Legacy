@@ -712,7 +712,6 @@ country_event = {
 
 ########## RGO CHANGE EVENTS ##########
 
-
 province_event = {
 	id = 91737 #Agriculture Decision Change
 	picture = farming
@@ -720,13 +719,10 @@ province_event = {
 	desc = "EVTDESC91737"
 
 	is_triggered_only = yes
-	
-	fire_only_once = yes
-	
 
 	option = {
 		name = "EVT91737OPTA" #WOOL
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = wool
 		add_province_modifier = {
@@ -736,7 +732,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTB" #FRUIT
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = fruit
 		add_province_modifier = {
@@ -745,8 +741,8 @@ province_event = {
 		}
 	}
 	option = {
-		name = "EVT91737OPTC" #COTTON
-		owner = { clr_country_flag = deciding }	
+		name = "EVT91737OPTC" #COTTON	
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = cotton
 		add_province_modifier = {
@@ -756,7 +752,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTD" #CATTLE
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = cattle
 		add_province_modifier = {
@@ -766,7 +762,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTE" #GRAIN
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = grain
 		add_province_modifier = {
@@ -776,7 +772,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTF" #TEA LEAVES
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = tea_leaves
 		add_province_modifier = {
@@ -786,7 +782,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTG" #COFFEE BEANS
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = coffee_beans
 		add_province_modifier = {
@@ -796,7 +792,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTH" #OPIUM
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = opium
 		add_province_modifier = {
@@ -806,7 +802,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTI" #DYE
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = dye
 		add_province_modifier = {
@@ -816,7 +812,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTJ" #SILK
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = silk
 		add_province_modifier = {
@@ -826,7 +822,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTK" #TOBACCO
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = tobacco
 		add_province_modifier = {
@@ -836,7 +832,6 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTZ"
-		owner = { clr_country_flag = deciding }
 	}
 }
 
@@ -847,13 +842,10 @@ province_event = {
 	desc = "EVTDESC91737"
 
 	is_triggered_only = yes
-	
-	fire_only_once = yes
-	
 
 	option = {
 		name = "EVT91737OPTA" #WOOL
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = wool
 		add_province_modifier = {
@@ -863,7 +855,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTB" #FRUIT
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = fruit
 		add_province_modifier = {
@@ -872,8 +864,8 @@ province_event = {
 		}
 	}
 	option = {
-		name = "EVT91737OPTC" #COTTON
-		owner = { clr_country_flag = deciding }	
+		name = "EVT91737OPTC" #COTTON	
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = cotton
 		add_province_modifier = {
@@ -883,7 +875,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTD" #CATTLE
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = cattle
 		add_province_modifier = {
@@ -893,7 +885,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTE" #GRAIN
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = grain
 		add_province_modifier = {
@@ -903,7 +895,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTF" #TEA LEAVES
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = tea_leaves
 		add_province_modifier = {
@@ -913,7 +905,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTG" #COFFEE BEANS
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = coffee_beans
 		add_province_modifier = {
@@ -923,7 +915,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTH" #OPIUM
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = opium
 		add_province_modifier = {
@@ -933,7 +925,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTI" #DYE
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = dye
 		add_province_modifier = {
@@ -943,7 +935,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTJ" #SILK
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = silk
 		add_province_modifier = {
@@ -953,7 +945,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTK" #TOBACCO
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = tobacco
 		add_province_modifier = {
@@ -963,7 +955,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTL" #FISH
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = fish
 		add_province_modifier = {
@@ -973,7 +965,6 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTZ"
-		owner = { clr_country_flag = deciding }
 	}
 }
 
@@ -984,13 +975,10 @@ province_event = {
 	desc = "EVTDESC91737"
 
 	is_triggered_only = yes
-	
-	fire_only_once = yes
-	
 
 	option = {
 		name = "EVT91737OPTA" #WOOL
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = wool
 		add_province_modifier = {
@@ -1000,7 +988,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTB" #FRUIT
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = fruit
 		add_province_modifier = {
@@ -1009,8 +997,8 @@ province_event = {
 		}
 	}
 	option = {
-		name = "EVT91737OPTC" #COTTON
-		owner = { clr_country_flag = deciding }	
+		name = "EVT91737OPTC" #COTTON	
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = cotton
 		add_province_modifier = {
@@ -1020,7 +1008,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTD" #CATTLE
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = cattle
 		add_province_modifier = {
@@ -1030,7 +1018,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTE" #GRAIN
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = grain
 		add_province_modifier = {
@@ -1040,7 +1028,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTF" #TEA LEAVES
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = tea_leaves
 		add_province_modifier = {
@@ -1050,7 +1038,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTG" #COFFEE BEANS
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = coffee_beans
 		add_province_modifier = {
@@ -1060,7 +1048,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTH" #OPIUM
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = opium
 		add_province_modifier = {
@@ -1070,7 +1058,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTI" #DYE
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = dye
 		add_province_modifier = {
@@ -1080,7 +1068,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTJ" #SILK
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = silk
 		add_province_modifier = {
@@ -1090,7 +1078,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTK" #TOBACCO
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = tobacco
 		add_province_modifier = {
@@ -1100,7 +1088,7 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTM" #TIMBER
-		owner = { clr_country_flag = deciding }
+		## Audax Validator "." Ignore_NEXT
 		province_selector = -1
 		trade_goods = timber
 		add_province_modifier = {
@@ -1110,6 +1098,5 @@ province_event = {
 	}
 	option = {
 		name = "EVT91737OPTZ"
-		owner = { clr_country_flag = deciding }
 	}
 }
