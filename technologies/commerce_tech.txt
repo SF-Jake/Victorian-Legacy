@@ -923,3 +923,81 @@ modern_business_management = {
 }
 
 
+#Commerce
+#
+#
+commerce_row_completion1 = {
+	area = row_completion_com
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+commerce_row_completion2 = {
+	area = row_completion_com
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	mine_RGO_eff = 0.05
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+commerce_row_completion3 = {
+	area = row_completion_com
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	increase_research = 0.15
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+commerce_row_completion4 = {
+	area = row_completion_com
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	factory_throughput = 0.03
+	
+	ai_chance = {
+		factor = 0
+	}	
+}
+commerce_row_completion5 = {
+	area = row_completion_com
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+commerce_row_completion6 = {
+	area = row_completion_com
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+commerce_row_completion7 = {
+	area = row_completion_com
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	farm_rgo_size = 0.15
+	mine_rgo_size = 0.15
+	
+	ai_chance = {
+		factor = 0
+	}
+}

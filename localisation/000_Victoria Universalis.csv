@@ -2876,10 +2876,6 @@ EVTDESC31524;With none of the Hungarian homeland under our control, we can no lo
 EVTOPTA31524;We didn't need them anyway.;;;;;;;;;;;x
 embrace_slovak_minority_title;Embrace the Slovakian minority;;;;;;;;;;;x
 embrace_slovak_minority_desc;It is time to grant equal rights to Slovaks.;;;;;;;;;;;x
-form_danubian_federation_title;Form the Danubian Federation;;;;;;;;;;;x
-form_danubian_federation_desc;A new notion has arisen in our country -- one of extending the rights currently enjoyed by the Hungarians to the other Danubian cultures. We cannot, after all, expect that our nation will be able to peacefully continue on with two cultures dominating so many others. We could unite our cultures into a larger and more peaceful federation of the Danube.;;;;;;;;;;;x
-form_danubian_federation_2_title;Expand the Federation;;;;;;;;;;;x
-form_danubian_federation_2_desc;A new notion has arisen in our country -- one of extending the rights currently enjoyed by the Hungarians to the other Danubian cultures. We cannot, after all, expect that our nation will be able to peacefully continue on with two cultures dominating so many others. We could unite our cultures into a larger and more peaceful federation of the Danube.;;;;;;;;;;;x
 form_somalia_title;Form Somalia;;;;;;;;;;;x
 form_somalia_desc;We have united the Somali tribes along the coast of the Horn of Africa and can now claim the rightful throne of Somalia.;;;;;;;;;;;x
 EVTNAME44701;The Siamese-Vietnamese War;;;;;;;;;;;x
@@ -3222,8 +3218,8 @@ partition_switzerland_desc;It is the right thing to share the land with are Neig
 5_year_migration_cooldown_desc;5 year migration attraction cooldown;;;;;;;;;;;;x
 5_year_migration_attraction_decision_title;5 year migration attraction;;;;;;;;;;;;x
 5_year_migration_attraction_decision_desc;5 year migration attraction to increase Population size;;;;;;;;;;;;x
-accept_the_misri_title;Accept the Misri;;;;;;;;;;;;x
-accept_the_misri_desc;Our recent annexation of Misri People has not gone as smoothly as planned. Small cultural differences are present, and the Misri-ran local government resists our attempts to centralize power. If we were to grant Misri a degree of autonomy (which may be revoked later), we will be able to quell any unrest and work towards fully adding Misri into the Ottoman Nation.;;;;;;;;;;;;x
+accept_the_mashriqi_title;Accept the Mashriqi;;;;;;;;;;;;x
+accept_the_mashriqi_desc;Our recent annexation of Mashriqi People has not gone as smoothly as planned. Small cultural differences are present, and the Mashriqi-ran local government resists our attempts to centralize power. If we were to grant Mashriqi a degree of autonomy, we will be able to quell any unrest and work towards fully adding Mashriqi into the Ottoman Nation.;;;;;;;;;;;;x
 german_population_buff;German Population Buff;;;;;;;;;;;;x
 german_population_buff_desc;This Buff will be removed in the 1900;;;;;;;;;;;;x
 indo-aryan;Indo-Aryan;Indo-Aryan;Indo-Aryan;;Indo-Aryan;;;;;;;;;x;;;;
@@ -3260,56 +3256,81 @@ communist_genocide_desc;Our aggressive policies against minorities are promoting
 genocide_cooldown;Genocide Cooldown;;;;;;;;;x;;;;
 genocide_title;ßGGenocide State;;;;;;;;;x;;;;
 genocide_desc;Our aggressive policies against minorities are promoting a shift in our country. \nßRGenocides the state with Annual Non-Accepted Population Growth: ßR-5%;;;;;;;;;x;;;;
-commerce_row_completion1;Commerce Row Completion 1;;;;;;;;;x;;;;
+row_completion_com;Row Completion;;;;;;;;;x;;;;
+commerce_row_completion1;None;;;;;;;;;x;;;;
 commerce_row_completion1_desc; ;;;;;;;;;x;;;;
-commerce_row_completion2;Commerce Row Completion 2;;;;;;;;;x;;;;
+commerce_row_completion2;Commerce Row Completion 1;;;;;;;;;x;;;;
 commerce_row_completion2_desc; ;;;;;;;;;x;;;;
-commerce_row_completion3;Commerce Row Completion 3;;;;;;;;;x;;;;
+commerce_row_completion3;Commerce Row Completion 2;;;;;;;;;x;;;;
 commerce_row_completion3_desc; ;;;;;;;;;x;;;;
-commerce_row_completion4;Commerce Row Completion 4\nßG-10% ßWSupply Consumption;;;;;;;;;x;;;;
+commerce_row_completion4;Commerce Row Completion 3;;;;;;;;;x;;;;
 commerce_row_completion4_desc; ;;;;;;;;;x;;;;
-commerce_row_completion5;Commerce Row Completion 5\nßG-50% ßWPension Level;;;;;;;;;x;;;;
+commerce_row_completion5;Commerce Row Completion 4\nßG-10% ßWSupply Consumption;;;;;;;;;x;;;;
 commerce_row_completion5_desc; ;;;;;;;;;x;;;;
-commerce_row_completion6;Commerce Row Completion 6;;;;;;;;;x;;;;
+commerce_row_completion6;Commerce Row Completion 5\nßG-50% ßWPension Level;;;;;;;;;x;;;;
 commerce_row_completion6_desc; ;;;;;;;;;x;;;;
-culture_row_completion1;Culture Row Completion 1;;;;;;;;;x;;;;
+commerce_row_completion7;Commerce Row Completion 6;;;;;;;;;x;;;;
+commerce_row_completion7_desc; ;;;;;;;;;x;;;;
+row_completion_cul;Row Completion;;;;;;;;;x;;;;
+culture_row_completion1;None;;;;;;;;;x;;;;
 culture_row_completion1_desc; ;;;;;;;;;x;;;;
-culture_row_completion2;Culture Row Completion 2;;;;;;;;;x;;;;
+culture_row_completion2;Culture Row Completion 1;;;;;;;;;x;;;;
 culture_row_completion2_desc; ;;;;;;;;;x;;;;
-culture_row_completion3;Culture Row Completion 3\nßG+5 ßWLand Unit Starting Experience;;;;;;;;;x;;;;
+culture_row_completion3;Culture Row Completion 2;;;;;;;;;x;;;;
 culture_row_completion3_desc; ;;;;;;;;;x;;;;
-culture_row_completion4;Culture Row Completion 4;;;;;;;;;x;;;;
+culture_row_completion4;Culture Row Completion 3\nßG+5 ßWLand Unit Starting Experience;;;;;;;;;x;;;;
 culture_row_completion4_desc; ;;;;;;;;;x;;;;
-culture_row_completion5;Culture Row Completion 5;;;;;;;;;x;;;;
+culture_row_completion5;Culture Row Completion 4;;;;;;;;;x;;;;
 culture_row_completion5_desc; ;;;;;;;;;x;;;;
-culture_row_completion6;Culture Row Completion 6;;;;;;;;;x;;;;
+culture_row_completion6;Culture Row Completion 5;;;;;;;;;x;;;;
 culture_row_completion6_desc; ;;;;;;;;;x;;;;
-industry_row_completion1;Industry Row Completion 1;;;;;;;;;x;;;;
+culture_row_completion7;Culture Row Completion 6;;;;;;;;;x;;;;
+culture_row_completion7_desc; ;;;;;;;;;x;;;;
+row_completion_ind;Row Completion;;;;;;;;;x;;;;
+industry_row_completion1;None;;;;;;;;;x;;;;
 industry_row_completion1_desc; ;;;;;;;;;x;;;;
-industry_row_completion2;Industry Row Completion 2;;;;;;;;;x;;;;
+industry_row_completion2;Industry Row Completion 1;;;;;;;;;x;;;;
 industry_row_completion2_desc; ;;;;;;;;;x;;;;
-industry_row_completion3;Industry Row Completion 3;;;;;;;;;x;;;;
+industry_row_completion3;Industry Row Completion 2;;;;;;;;;x;;;;
 industry_row_completion3_desc; ;;;;;;;;;x;;;;
-industry_row_completion4;Industry Row Completion 4;;;;;;;;;x;;;;
+industry_row_completion4;Industry Row Completion 3;;;;;;;;;x;;;;
 industry_row_completion4_desc; ;;;;;;;;;x;;;;
-industry_row_completion5;Industry Row Completion 5;;;;;;;;;x;;;;
+industry_row_completion5;Industry Row Completion 4;;;;;;;;;x;;;;
 industry_row_completion5_desc; ;;;;;;;;;x;;;;
-navy_row_completion1;Navy Row Completion 1;;;;;;;;;x;;;;
+industry_row_completion6;Industry Row Completion 5;;;;;;;;;x;;;;
+industry_row_completion6_desc; ;;;;;;;;;x;;;;
+industry_row_completion7;Industry Row Completion 6;;;;;;;;;x;;;;
+industry_row_completion7_desc; ;;;;;;;;;x;;;;
+row_completion_nav;Row Completion;;;;;;;;;x;;;;
+navy_row_completion1;None;;;;;;;;;x;;;;
 navy_row_completion1_desc; ;;;;;;;;;x;;;;
-navy_row_completion2;Navy Row Completion 2;;;;;;;;;x;;;;
+navy_row_completion2;Navy Row Completion 1;;;;;;;;;x;;;;
 navy_row_completion2_desc; ;;;;;;;;;x;;;;
-navy_row_completion3;Navy Row Completion 3;;;;;;;;;x;;;;
+navy_row_completion3;Navy Row Completion 2;;;;;;;;;x;;;;
 navy_row_completion3_desc; ;;;;;;;;;x;;;;
-navy_row_completion4;Navy Row Completion 4;;;;;;;;;x;;;;
+navy_row_completion4;Navy Row Completion 3;;;;;;;;;x;;;;
 navy_row_completion4_desc; ;;;;;;;;;x;;;;
-army_row_completion1;Army Row Completion 1;;;;;;;;;x;;;;
+navy_row_completion5;Navy Row Completion 4;;;;;;;;;x;;;;
+navy_row_completion5_desc; ;;;;;;;;;x;;;;
+navy_row_completion6;Navy Row Completion 5;;;;;;;;;x;;;;
+navy_row_completion6_desc; ;;;;;;;;;x;;;;
+navy_row_completion7;Navy Row Completion 6;;;;;;;;;x;;;;
+navy_row_completion7_desc; ;;;;;;;;;x;;;;
+row_completion_arm;Row Completion;;;;;;;;;x;;;;
+army_row_completion1;None;;;;;;;;;x;;;;
 army_row_completion1_desc; ;;;;;;;;;x;;;;
-army_row_completion2;Army Row Completion 2\nßG+0.05 ßWLeadership Points;;;;;;;;;x;;;;
+army_row_completion2;Army Row Completion 1;;;;;;;;;x;;;;
 army_row_completion2_desc; ;;;;;;;;;x;;;;
-army_row_completion3;Army Row Completion 3;;;;;;;;;x;;;;
+army_row_completion3;Army Row Completion 2\nßG+0.05 ßWLeadership Points;;;;;;;;;x;;;;
 army_row_completion3_desc; ;;;;;;;;;x;;;;
-army_row_completion4;Army Row Completion 4;;;;;;;;;x;;;;
+army_row_completion4;Army Row Completion 3;;;;;;;;;x;;;;
 army_row_completion4_desc; ;;;;;;;;;x;;;;
+army_row_completion5;Army Row Completion 4;;;;;;;;;x;;;;
+army_row_completion5_desc; ;;;;;;;;;x;;;;
+army_row_completion6;Army Row Completion 5;;;;;;;;;x;;;;
+army_row_completion6_desc; ;;;;;;;;;x;;;;
+army_row_completion7;Army Row Completion 6;;;;;;;;;x;;;;
+army_row_completion7_desc; ;;;;;;;;;x;;;;
 RME;New Roman Empire;;;;;;;;;x;;;;
 RME_ADJ;Roman;;;;;;;;;x;;;;
 USA;The United States of America;;;;;;;;;x;;;;
@@ -3899,3 +3920,137 @@ expand_universities_title;ßYExpand Universities;;;;;;;;;;;;;;;;;;;;;;;x
 expand_universities_desc;Build up to 10 universities in random provinces that already have a university. If you don't have enough money to pay for all 10 then you'll only build up to the amount that you can afford. Despite what the tooltip may say, the effects will not target the same province twice. Provinces affected by this decision get a modifier called "Recently Built University" that tell the decision not to target it in the future. This modifier gets removed from all provinces when you research a new university tech.;;;;;;;;;;;;;;;;;;;;;;;x
 expand_naval_base_title;ßYExpand Naval Bases;;;;;;;;;;;;;;;;;;;;;;;x
 expand_naval_base_desc;Build up to 10 naval bases in random provinces that already have a naval base. If you don't have enough money to pay for all 10 then you'll only build up to the amount that you can afford. Despite what the tooltip may say, the effects will not target the same province twice. Provinces affected by this decision get a modifier called "Recently Built Naval Base" that tell the decision not to target it in the future. This modifier gets removed from all provinces when you research a new naval tech.;;;;;;;;;;;;;;;;;;;;;;;x
+oriental_war;Restore Order to Egypt;;;;;;;;;;;;;x
+oriental_war_setup;Annex Egypt;;;;;;;;;;;;;x
+oriental_war_short;Restore Order to Egypt;;;;;;;;;;;;;x
+oriental_war_desc;This cb will annex Egypt and make Hedjaz a puppet of the Ottoman Empire.;;;;;;;;;;;;;x
+zbankers;Farmers;;;;;;;;;;;;;;
+META_1;Land;;;;;;;;;;;;x
+middle_east;Middle East;;;;;;;;;;;;x
+east_indies;East Indies;;;;;;;;;;;;x
+polynesia;Polynesia;;;;;;;;;;;;x
+tier_1_focus;Tier 1;;;;;;;;;x;;;;
+tier_2_focus;Tier 2;;;;;;;;;x;;;;
+tier_3_focus;Tier 3;;;;;;;;;x;;;;
+tier_4_focus;Tier 4;;;;;;;;;x;;;;
+tier_5_focus;Tier 5;;;;;;;;;x;;;;
+tier_6_focus;Tier 6;;;;;;;;;x;;;;
+input_clerks;Promote Clerks and Reduce Factory Inputs;;;;;;;;;x;;;;
+output_clerks;Promote Clerks and Increase Factory Outputs;;;;;;;;;x;;;;
+input_craftsmen;Promote Craftsmen and Reduce Factory Inputs;;;;;;;;;x;;;;
+output_craftsmen;Promote Craftsmen and Increase Factory Outputs;;;;;;;;;x;;;;
+factory_input_output_bonus;Reduce Factory Inputs and Increase Factory Outputs;;;;;;;;;x;;;;
+input_output_craftsmen;Promote Craftsmen and Reduce Factory Inputs as well as Increase Factory Outputs;;;;;;;;;x;;;;
+input_output_clerks;Promote Clerks and Reduce Factory Inputs as well as Increase Factory Outputs;;;;;;;;;x;;;;
+input_output_soldiers;Promote Soldiers and Reduce Factory Inputs as well as Increase Factory Outputs;;;;;;;;;x;;;;
+reduce_factory_input_output_bonus;Increase Factory Inputs and Decrease Factory Outputs of Rival;;;;;;;;;x;;;;
+input_output_rgos;Reduce Factory Inputs, Increase Factory Outputs, and Increase Mining/Farming Efficiency;;;;;;;;;x;;;;
+soldier_assimilation_bonus;Promote Soldiers and Boost Assimilation Rate;;;;;;;;;x;;;;
+craftsmen_assimilation_bonus;Promote Craftsmen and Boost Assimilation Rate;;;;;;;;;x;;;;
+factory_input_bonus;Reduce Factory Inputs;;;;;;;;;x;;;;
+factory_output_bonus;Increase Factory Outputs;;;;;;;;;x;;;;
+mining_bonus;Bonus Mining Efficiency;;;;;;;;;x;;;;
+farming_bonus;Bonus Farming Efficiency;;;;;;;;;x;;;;
+assimilation_bonus;Bonus Assimilation Rate;;;;;;;;;x;;;;
+internal_migration;Internal Migrant Priority;;;;;;;;;x;;;;
+bureaucrat_migration_bonus;Promote Bureaucrats and Increase Internal Migrant Priority;;;;;;;;;x;;;;
+internal_push;Increased Migration Push;;;;;;;;;x;;;;
+ship_focus;Ship Repair Speed;;;;;;;;;x;;;;
+militancy_and_reform_focus;Raise Reform Desire and Militancy;;;;;;;;;x;;;;
+mine_and_farm_bonus;Bonus Mining and Farming Efficiency;;;;;;;;;x;;;;
+promote_aristocrats;Encourage Aristocrats Tier 1;Encourager les aristocrates ;Aristokraten fˆrdern;;Potenciar aristÛcratas ;;;;;;;;;x;;;;
+promote_artisans;Encourage Artisans Tier 1;Encourager les artisans ;Handwerker fˆrdern;;Potenciar artesanos ;;;;;;;;;x;;;;
+promote_bureaucrats;Encourage Bureaucrats Tier 1;Encourager les bureaucrates ;BÅEokraten fˆrdern;;Potenciar burÛcratas ;;;;;;;;;x;;;;
+promote_capitalists;Encourage Capitalists Tier 1;Encourager les capitalistes ;Kapitalisten fˆrdern;;Potenciar capitalistas ;;;;;;;;;x;;;;
+promote_clergymen;Encourage Clergymen Tier 1;Encourager les membres du clergÅE;Geistliche fˆrdern;;Potenciar clÈrigos ;;;;;;;;;x;;;;
+promote_clerks;Encourage Clerks Tier 1;Encourager les employÈs ;Angestellte fˆrdern;;Potenciar oficinistas ;;;;;;;;;x;;;;
+promote_craftsmen;Encourage Craftsmen Tier 1;Encourager les ouvriers ;Facharbeiter fˆrdern;;Potenciar obreros ;;;;;;;;;x;;;;
+promote_farmers;Encourage Farmers Tier 1;Encourager les fermiers ;Bauern fˆrdern;;Potenciar campesinos ;;;;;;;;;x;;;;
+promote_labourers;Encourage Labourers Tier 1;Encourager les mineurs ;Arbeiter fˆrdern;;Potenciar peones ;;;;;;;;;x;;;;
+promote_officers;Encourage Officers Tier 1;Encourager les officiers ;Offiziere fˆrdern;;Potenciar oficiales ;;;;;;;;;x;;;;
+promote_soldiers;Encourage Soldiers Tier 1;Encourager les soldats ;Soldaten fˆrdern;;Potenciar soldados ;;;;;;;;;x;;;;
+promote_bureaucrats_2;Encourage Bureaucrats Tier 2;;;;;;;;;x;;;;
+promote_capitalists_2;Encourage Capitalists Tier 2;;;;;;;;;x;;;;
+promote_clergymen_2;Encourage Clergymen Tier 2;;;;;;;;;x;;;;
+promote_clerks_2;Encourage Clerks Tier 2;;;;;;;;;x;;;;
+promote_craftsmen_2;Encourage Craftsmen Tier 2;;;;;;;;;x;;;;
+promote_officers_2;Encourage Officers Tier 2;;;;;;;;;x;;;;
+promote_soldiers_2;Encourage Soldiers Tier 2;;;;;;;;;x;;;;
+promote_bureaucrats_3;Encourage Bureaucrats Tier 3;;;;;;;;;x;;;;
+promote_capitalists_3;Encourage Capitalists Tier 3;;;;;;;;;x;;;;
+promote_clergymen_3;Encourage Clergymen Tier 3;;;;;;;;;x;;;;
+promote_clerks_3;Encourage Clerks Tier 3;;;;;;;;;x;;;;
+promote_craftsmen_3;Encourage Craftsmen Tier 3;;;;;;;;;x;;;;
+promote_officers_3;Encourage Officers Tier 3;;;;;;;;;x;;;;
+promote_soldiers_3;Encourage Soldiers Tier 3;;;;;;;;;x;;;;
+promote_bureaucrats_4;Encourage Bureaucrats Tier 4;;;;;;;;;x;;;;
+promote_capitalists_4;Encourage Capitalists Tier 4;;;;;;;;;x;;;;
+promote_clergymen_4;Encourage Clergymen Tier 4;;;;;;;;;x;;;;
+promote_clerks_4;Encourage Clerks Tier 4;;;;;;;;;x;;;;
+promote_craftsmen_4;Encourage Craftsmen Tier 4;;;;;;;;;x;;;;
+promote_officers_4;Encourage Officers Tier 4;;;;;;;;;x;;;;
+promote_soldiers_4;Encourage Soldiers Tier 4;;;;;;;;;x;;;;
+promote_bureaucrats_5;Encourage Bureaucrats Tier 5;;;;;;;;;x;;;;
+promote_capitalists_5;Encourage Capitalists Tier 5;;;;;;;;;x;;;;
+promote_clergymen_5;Encourage Clergymen Tier 5;;;;;;;;;x;;;;
+promote_clerks_5;Encourage Clerks Tier 5;;;;;;;;;x;;;;
+promote_craftsmen_5;Encourage Craftsmen Tier 5;;;;;;;;;x;;;;
+promote_officers_5;Encourage Officers Tier 5;;;;;;;;;x;;;;
+promote_soldiers_5;Encourage Soldiers Tier 5;;;;;;;;;x;;;;
+promote_bureaucrats_6;Encourage Bureaucrats Tier 6;;;;;;;;;x;;;;
+promote_capitalists_6;Encourage Capitalists Tier 6;;;;;;;;;x;;;;
+promote_clergymen_6;Encourage Clergymen Tier 6;;;;;;;;;x;;;;
+promote_clerks_6;Encourage Clerks Tier 6;;;;;;;;;x;;;;
+promote_craftsmen_6;Encourage Craftsmen Tier 6;;;;;;;;;x;;;;
+promote_officers_6;Encourage Officers Tier 6;;;;;;;;;x;;;;
+promote_soldiers_6;Encourage Soldiers Tier 6;;;;;;;;;x;;;;
+tier_2_title;ßGTier 2 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_2_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_3_title;ßGTier 3 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_3_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_4_title;ßGTier 4 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_4_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_5_title;ßGTier 5 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_5_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_6_title;ßGTier 6 National Focuses Unlocked!;;;;;;;;;;;;;;x
+tier_6_desc;With the discovery of Associatinism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+pop_shift_invention_1;ßGPOP Bonus Promotion Event 1;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_1_desc;Your first promotion bonus invention has been completed! With this bonus, you may choose which POP type receives a bonus to passive promotion chance. You will only be able to see this bonus in the population menu under a specific pop group, then mouse over their promotion chance to whatever it is you gave a bonus to! ßGYou will be able to reset these bonuses at anytime using the Clear All National Promotion Bonuses decision.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_2;ßGTier 2 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_2_desc;Your Tier 2 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_3;ßGTier 3 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_3_desc;Your Tier 3 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_4;ßGTier 4 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_4_desc;Your Tier 4 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_5;ßGTier 5 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_5_desc;Your Tier 5 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_6;ßGTier 6 National Focus Unlock;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+pop_shift_invention_6_desc;Your Tier 6 National Focuses have unlocked!;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+EVTNAME90825;Opium Outlawed in China;;;;;;;;;;;;x
+EVTDESC90825;The chinese government has burned our recent shipments of opium and expelled our merchants from their shores. Our economy will suffer a serious blow if the ban stays in place. What shall we do?;;;;;;;;;;;;x
+EVTOPTA90825;Force them to lift the ban and make sign a new ßGUnequal Chinese Treatyßb.;;;;;;;;;;;;x
+EVTOPTB90825;Respect their sovereignty.;;;;;;;;;;;;x
+scripted_truce;Scripted Truce;;;;;;;;;;;;x
+scripted_truce_desc;Two nations with the scripted truce event modifier cannot declare war on each other until the timer runs out.;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_setup;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_short;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_desc;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_treat_port;Treaty Port;;;;;;;;;;;;;x
+demand_chinese_treat_port_setup;Treaty Port;;;;;;;;;;;;;x
+demand_chinese_treat_port_short;Treaty Port;;;;;;;;;;;;;x
+demand_chinese_treat_port_desc;Take a treaty port from China.;;;;;;;;;;;;;x
+demand_chinese_concession_japan;Demand Chinese Concession Japan;;;;;;;;;;;;;x
+demand_chinese_concession_japan_setup;Demand Chinese Concession Japan;;;;;;;;;;;;;x
+demand_chinese_concession_japan_short;Demand Chinese Concession Japan;;;;;;;;;;;;;x
+demand_chinese_concession_japan_desc;Take a treaty port from China.;;;;;;;;;;;;;x
+demand_chinese_capital_concession_japan;Demand Chinese Capital Concession Japan;;;;;;;;;;;;;x
+demand_chinese_capital_concession_japan_setup;Demand Chinese Capital Concession Japan;;;;;;;;;;;;;x
+demand_chinese_capital_concession_japan_short;Demand Chinese Capital Concession Japan;;;;;;;;;;;;;x
+demand_chinese_capital_concession_japan_desc;Take a Chinese Capital;;;;;;;;;;;;;x
+form_danubian_federation_path1_title;Danubian Romanian Acceptance (Path 1);;;;;;;;;;;;;x 
+form_danubian_federation_path1_desc;A new notion has arisen in our country -- one of extending the rights currently enjoyed by the Hungarians to the other Danubian cultures. We cannot, after all, expect that our nation will be able to peacefully continue on with two cultures dominating so many others. We could unite our cultures into a larger and more peaceful federation of the Danube. \nßRYou can only select one path out of the Danubian acceptance;;;;;;;;;;;;;x
+form_danubian_federation_path2_title;Danubian Croatian & Serbian Acceptance (Path 2);;;;;;;;;;;;;x
+form_danubian_federation_path2_desc;A new notion has arisen in our country -- one of extending the rights currently enjoyed by the Hungarians to the other Danubian cultures. We cannot, after all, expect that our nation will be able to peacefully continue on with two cultures dominating so many others. We could unite our cultures into a larger and more peaceful federation of the Danube. \nßRYou can only select one path out of the Danubian acceptance;;;;;;;;;;;;;x
+form_danubian_federation_title;Form the Danubian Federation;;;;;;;;;;;x
+form_danubian_federation_desc;A new notion has arisen in our country -- one of extending the rights currently enjoyed by the Hungarians to the other Danubian cultures. We cannot, after all, expect that our nation will be able to peacefully continue on with two cultures dominating so many others. We could unite our cultures into a larger and more peaceful federation of the Danube.;;;;;;;;;;;x

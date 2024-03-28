@@ -171,22 +171,22 @@ country_event = {
 
 country_event = {
 	id = 91959
-	title = "Navy Build Speed Idea"
-	desc = "We build and repair ships faster."
-	picture = Nobel_Literature
+	title = "Navy Experience Idea"
+	desc = "Our navies start with more experience."
+	picture = tearace
 
 
 	trigger = {
-		has_country_flag = choosing_navy_build_speed
-		NOT = { has_country_flag = navy_build_speed_idea }
-		NOT = { has_country_modifier = navy_build_speed_idea }
+		has_country_flag = choosing_navy_experience
+		NOT = { has_country_flag = navy_experience_idea }
+		NOT = { has_country_modifier = navy_experience_idea }
 	}
 
 	option = {
 		name = "Great!"
-		set_country_flag = navy_build_speed_idea
-		clr_country_flag = choosing_navy_build_speed
-		add_country_modifier = { name = navy_build_speed_idea duration = -1 }
+		set_country_flag = navy_experience_idea
+		clr_country_flag = choosing_navy_experience
+		add_country_modifier = { name = navy_experience_idea duration = -1 }
 	}
 }
 
@@ -235,7 +235,7 @@ country_event = {
 country_event = {
 	id = 91962
 	title = "Assimilation Idea"
-	desc = "We have increased assimilation rate."
+	desc = "We have increased assimilation chance and rate."
 	picture = assimilation
 
 
@@ -339,9 +339,9 @@ country_event = {
 
 country_event = {
 	id = 91967
-	title = "Migration Attraction Unlocked"
-	desc = "We have unlocked the Migration Attraction province selector decision, which redirects incoming immigrants and internal migrants to the targetted province. This decision DOES NOT increase outside immigration to your country."
-	picture = factory
+	title = "Militancy Reduction Idea"
+	desc = "We have a militancy reduction modifier."
+	picture = assimilation
 
 
 	trigger = {
@@ -362,7 +362,7 @@ country_event = {
 	id = 91968
 	title = "Education Idea"
 	desc = "We have increased education efficiency."
-	picture = factory
+	picture = school
 
 
 	trigger = {
@@ -376,32 +376,5 @@ country_event = {
 		set_country_flag = education_idea
 		clr_country_flag = choosing_education
 		add_country_modifier = { name = education_idea duration = -1 }
-	}
-}
-
-country_event = {
-	id = 91669
-	title = "Navy Build Speed National Idea"
-	desc = "This event gives +30% ship build speed and +50% repair to every province with a naval base."
-	picture = national_idea_choice
-
-
-	trigger = {
-		has_country_flag = navy_build_speed_idea
-		any_owned_province = {
-			has_building = naval_base
-			NOT = { has_province_modifier = navy_build_speed_idea_modifier }
-		}
-	}
-
-	option = {
-		name = "We rule the waves!"
-		any_owned = {
-			limit = {
-				has_building = naval_base
-				NOT = { has_province_modifier = navy_build_speed_idea }
-			}
-			add_province_modifier = { name = navy_build_speed_idea_modifier duration = -1 }
-		}
 	}
 }

@@ -9,6 +9,7 @@ country_event = {
 	trigger = {
 		in_sphere = PRU
 		primary_culture = north_german
+		NOT = { tag = HOL }
 	}
 
 	mean_time_to_happen = {

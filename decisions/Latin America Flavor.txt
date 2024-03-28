@@ -198,8 +198,8 @@ political_decisions = {
 			add_country_modifier = { name = fatherland_volunteers_prg duration = 365 }
 			define_general = {
 				name = "§RFrancisco Solano López§W"
-				personality = defence_2.1
-				background = attack_2.1
+				personality = mor20exp15
+				background = 2a2d_1
 			}
 			2344 = {
 				owner = {

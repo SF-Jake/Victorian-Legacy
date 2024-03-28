@@ -1046,6 +1046,10 @@ unequal_china_treaty = {
 	icon = 9
 }
 
+scripted_truce = {
+	icon = 5
+}
+
 economic_sanctions = {
 	import_cost = 2
 	loan_interest = 3
@@ -1268,7 +1272,7 @@ royal_irish_constabulary = {
 cristino_victory = {
 	tax_efficiency = 0.10
 	global_population_growth = 0.001
-	education_efficiency_modifier = 0.15
+	education_efficiency_modifier = 0.12
 	factory_output = 0.08
 	mine_rgo_eff = 0.08
 	icon = 7
@@ -1429,14 +1433,14 @@ middle_kingdom = {
 }
 
 imperial_examinations = {
-	administrative_efficiency_modifier = 0.5
+	administrative_efficiency_modifier = 0.25
 	research_points_modifier = -0.2
 	icon = 5
 }
 
 opium_addiction = {
 	education_efficiency_modifier = -0.4
-	research_points_modifier = -0.3
+	research_points_modifier = -0.2
 	icon = 18
 }
 
@@ -1454,6 +1458,53 @@ late_qing_reforms = {
 taiping_mobilization = {
 	mobilisation_size = 0.01
 	icon = 15
+}
+
+qing_mobilization = {
+	mobilisation_size = 0.01
+	icon = 15
+}
+
+treaty_port1 = {
+	max_tariff = -0.05
+	global_pop_militancy_modifier = 0.005
+	icon = 10
+}
+
+treaty_port2 = {
+	max_tariff = -0.1
+	global_pop_militancy_modifier = 0.01
+	icon = 10
+}
+
+treaty_port3 = {
+	max_tariff = -0.15
+	global_pop_militancy_modifier = 0.015
+	icon = 10
+}
+
+treaty_port4 = {
+	max_tariff = -0.2
+	global_pop_militancy_modifier = 0.02
+	icon = 10
+}
+
+treaty_port5 = {
+	max_tariff = -0.25
+	global_pop_militancy_modifier = 0.025
+	icon = 10
+}
+
+treaty_port6 = {
+	max_tariff = -0.3
+	global_pop_militancy_modifier = 0.03
+	icon = 10
+}
+
+treaty_port7 = {
+	max_tariff = -0.35
+	global_pop_militancy_modifier = 0.035
+	icon = 10
 }
 
 treaty_port = {
@@ -1520,7 +1571,7 @@ republican_rebels = {
 
 ### ITA - ITALY ###
 redshirts = {
-	pop_militancy_modifier = 0.1
+	pop_militancy_modifier = 0.12
 	icon = 20
 }
 
@@ -1538,7 +1589,7 @@ italico_valore = {
 ita_formation_buff = {
 	tax_efficiency = 0.10
 	global_population_growth = 0.001
-	education_efficiency_modifier = 0.15
+	education_efficiency_modifier = 0.20
 	icon = 17
 }
 
@@ -1603,18 +1654,20 @@ the_alamo = {
 
 ########## NATIONAL IDEAS ##########
 
+########## NATIONAL IDEAS ##########
+
 army_morale_idea = {
-	org_regain = 0.5
+	org_regain = 0.3
 	icon = 15
 }
 
 army_organisation_idea = {
-	land_organisation = 0.2
+	land_organisation = 0.15
 	icon = 15
 }
 
 military_supplies_idea = {
-	supply_consumption = -0.15
+	supply_consumption = -0.1
 	icon = 15
 }
 
@@ -1623,7 +1676,7 @@ military_hospitals_idea = {
 }
 
 army_experience_idea = {
-	land_unit_start_experience = 15
+	land_unit_start_experience = 10
 	icon = 15
 }
 
@@ -1632,7 +1685,7 @@ reinforce_rate_idea = {
 }
 
 leadership_idea = {
-	leadership = 2
+	leadership = 3
 	icon = 15
 }
 
@@ -1646,14 +1699,9 @@ navy_organisation_idea = {
 	icon = 15
 }
 
-navy_build_speed_idea = {
+navy_experience_idea = {
+	naval_unit_start_experience = 15
 	icon = 15
-}
-
-navy_build_speed_idea_modifier = {
-	local_ship_build = -0.30
-	local_repair = 0.5
-	icon = 17
 }
 
 expansion_idea = {
@@ -1675,12 +1723,12 @@ industrial_goods_idea = {
 }
 
 farming_idea = {
-	farm_RGO_eff = 0.2
+	farm_RGO_eff = 0.3
 	icon = 11
 }
 
 mining_idea = {
-	mine_RGO_eff = 0.2
+	mine_RGO_eff = 0.3
 	icon = 11
 }
 
@@ -1690,7 +1738,8 @@ education_idea = {
 }
 
 domestic_idea = {
-	icon = 7
+	global_pop_militancy_modifier = -0.05
+	icon = 15
 }
 ##############################################
 #National Values

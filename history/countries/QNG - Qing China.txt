@@ -4,7 +4,7 @@ govt_flag =
 	flag = presidential_dictatorship
 }
 
-1836.1.1= {
+1836.1.2 = {
 	capital = 1616
 	primary_culture = manchu
 	religion = mahayana
@@ -68,7 +68,7 @@ govt_flag =
 }
 
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 1616
 	primary_culture = manchu
 	religion = mahayana
@@ -141,7 +141,6 @@ govt_flag =
 	non_state_culture_literacy = 0.15
 	civilized = yes
 	culture = beifaren
-	culture = nanfaren
 	prestige = 25
 	decision = abolish_imperial_exams
 	set_global_flag = opium_outlawed

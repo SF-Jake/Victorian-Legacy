@@ -967,3 +967,83 @@ humanistic_psychology = {
 		}
 	}
 }
+
+#Culture
+#
+#
+culture_row_completion1 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion2 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	prestige = 0.01
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion3 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	education_efficiency = 0.08
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion4 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion5 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	prestige = 0.3
+	
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion6 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	increase_research = 0.2
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion7 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	education_efficiency = 0.5
+	
+	ai_chance = {
+		factor = 0
+	}
+}

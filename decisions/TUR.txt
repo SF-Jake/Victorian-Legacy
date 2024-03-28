@@ -6,24 +6,26 @@ political_decisions = {
 			NOT = { has_global_flag = oriental_crisis }
 			NOT = { has_global_flag = oriental_crisis_ended }
 		}
-		
+
 		allow = {
-			EGY = {
-				exists = yes
-				is_vassal = no
-			}
 			war = no
 		}
-		
+
 		effect = {
+			release_vassal = EGY
+			diplomatic_influence = {
+				who = EGY
+				value = -200
+			}
 			casus_belli = {
 				target = EGY
-				type = make_puppet
-				months = 36
+				type = oriental_war
+				months = 1
 			}
 			war = {
 				target = EGY
-				attacker_goal = { casus_belli = make_puppet }
+				attacker_goal = { casus_belli = oriental_war }
+				defender_goal = { casus_belli = status_quo }
 			}			
 			set_global_flag = oriental_crisis
 		}
@@ -295,7 +297,7 @@ political_decisions = {
 			NOT = { has_country_flag = accept_the_mashriqi }
 		}
 		allow = {
-			market_regulations = 1
+			nationalism_n_imperialism = 1
 		}
 		effect = {
 			set_country_flag = accept_the_mashriqi

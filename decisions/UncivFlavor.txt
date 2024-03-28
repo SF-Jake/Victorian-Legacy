@@ -60,6 +60,7 @@ political_decisions = {
 		allow = {
 			AFG_1217 = { owned_by = THIS }
 			AFG_1214 = { owned_by = THIS }
+			AFG_1071 = { owned_by = THIS }
 			ideological_thought =1
 		}
 		effect = {
@@ -99,24 +100,22 @@ political_decisions = {
 			has_country_flag = integrate_turkmen
 		}
 		allow = {
-			KHI_1191 = { owned_by = THIS }
+			NOT = { exists = KAL }
+			NOT = { exists = PNJ }
+			NOT = { exists = SIN }
+			PAN_1218 = { owned_by = THIS }
+			PAN_1227 = { owned_by = THIS }
+			KAL_1221 = { owned_by = THIS }
+			SIN_1288 = { owned_by = THIS }
 			nationalism_n_imperialism = 1
 		}
 		effect = {
 			change_tag = TIM
-			add_accepted_culture = baluchi
-			add_accepted_culture = kazak
+			add_accepted_culture = panjabi
+			RUS_1196 = { add_core = THIS }
+			KHI_1191 = { add_core = THIS }
+			BUK_1207 = { add_core = THIS }
 			AFG = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			KHI = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			BUK = {
 				all_core = {
 					add_core = THIS
 				}
@@ -126,17 +125,12 @@ political_decisions = {
 					add_core = THIS
 				}
 			}
-			MAK = {
+			PNJ = {
 				all_core = {
 					add_core = THIS
 				}
 			}
-			KOK = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			BDK = {
+			SIK = {
 				all_core = {
 					add_core = THIS
 				}

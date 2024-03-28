@@ -24,68 +24,6 @@ political_decisions = {
 	#		}
 	#	}
 	#}
-	carlist_victory = {
-		picture = carlist_victory
-		potential = {
-			tag = SPC
-			ai = yes
-			NOT = {
-				OR = {
-					has_global_flag = carlist_victory
-					has_global_flag = cristino_victory
-				}
-			}
-		}
-		allow = {
-			487 = { controlled_by = THIS }
-			492 = { controlled_by = THIS }
-			495 = { controlled_by = THIS }
-			498 = { controlled_by = THIS }
-			503 = { controlled_by = THIS }
-			NOT = { SPA = { brigades_compare = 1 } }
-		}
-		effect = {
-			prestige = 30
-			all_core = {
-				add_core = THIS
-				remove_core = SPA
-			}
-			inherit = SPA
-			set_global_flag = carlist_victory
-			capital = 487
-		}
-	}
-
-	cristino_victory = {
-		picture = cristino_victory
-		potential = {
-			tag = SPA
-			ai = yes
-			NOT = {
-				OR = {
-					has_global_flag = carlist_victory
-					has_global_flag = cristino_victory
-				}
-			}
-		}
-		allow = {
-			487 = { controlled_by = THIS }
-			492 = { controlled_by = THIS }
-			495 = { controlled_by = THIS }
-			498 = { controlled_by = THIS }
-			503 = { controlled_by = THIS }
-			NOT = { SPC = { brigades_compare = 1 } }
-		}
-		effect = {
-			prestige = 15
-			all_core = {
-				add_core = THIS
-				remove_core = SPC
-			}
-			inherit = SPC
-			set_global_flag = cristino_victory
-		}
-	}
 
 	begin_reconquista = {
 		picture = spain_reconquest

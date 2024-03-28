@@ -1757,7 +1757,7 @@ red_shirts = {
 		factor = 0.5
 		
 		modifier = {
-			NOT = { any_greater_power = { nationalism_n_imperialism = 1 } }
+			NOT = { any_greater_power = { state_n_government = 1 } }
 			factor = 0
 		}
 

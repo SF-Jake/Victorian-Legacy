@@ -4911,3 +4911,75 @@ country_event = {
 		}
 	}
 }
+
+#########################################################################
+# 							Containment Event							#
+#########################################################################
+country_event = {
+	id = 14673
+	title = "Economic Sanctions"
+	desc = "Oh Dear a war is coming"
+	picture = upper_house
+
+	trigger = {
+		NOT = { has_country_modifier = economic_sanctions }
+		badboy = 1.92
+	}
+
+	option = {
+		name = "Is this the part where I say no"
+		add_country_modifier = {
+			name = economic_sanctions
+			duration = 180
+		}
+		any_greater_power = {
+			casus_belli = {
+				target = THIS
+				type = dismantle_cb
+				months = 6
+			}
+		}
+	}
+}
+
+#########################################################################
+# 							John Cena General							#
+#########################################################################
+country_event = {
+	id = 91332
+	title = "John Cena General"
+	desc = "You can't see me."
+
+	trigger = {
+		ai = no
+		OR = {
+			civilized = yes
+			tag = JAP
+		}
+		NOT = { has_leader = "§RJohn Cena§W" }
+		NOT = { has_leader = "§RJohn Xina§W" }
+		NOT = { has_country_modifier = john_cena_cooldown }
+	}
+	immediate = {
+		add_country_modifier = {
+			name = john_cena_cooldown
+			duration = 120
+		}
+	}
+	option = {
+		name = "§RJohn Cena§W"
+		define_general = {
+			name = "§RJohn Cena§W"
+			personality = mor40att10
+			background = 3a3d_1
+		}
+	}
+	option = {
+		name = "§RJohn Xina§W"
+		define_general = {
+			name = "§RJohn Xina§W"
+			personality = mor40att10
+			background = 3a3d_1
+		}
+	}
+}

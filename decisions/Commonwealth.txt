@@ -28,10 +28,7 @@ political_decisions = {
 			set_country_flag = canadian_confederation
 			any_pop = {
 				limit = {
-					OR = {
-						has_pop_culture = anglo_canadian
-						has_pop_culture = french_canadian
-					}
+					has_pop_culture = anglo_canadian
 				}
 				militancy = -4
 			}
@@ -270,7 +267,6 @@ political_decisions = {
 					OR = {
 						has_pop_culture = british
 						has_pop_culture = anglo_canadian
-						has_pop_culture = french_canadian
 						has_pop_culture = australian
 						has_pop_culture = boer
 					}

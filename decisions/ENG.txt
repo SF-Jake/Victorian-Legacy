@@ -171,6 +171,31 @@ political_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 
+	annex_commonwealth = {
+		picture = canadian_confederation
+		alert = no
+		potential = {
+			ai = no
+			tag = ENG
+			COM = {
+				exists = yes
+				vassal_of = THIS
+			}
+			NOT = { has_country_flag = australia_annexed }
+		}
+
+		allow = {
+			NOT = { badboy = 1 }
+		}
+
+		effect = {
+			inherit = COM
+			set_country_flag = australia_annexed
+			badboy = 25
+		}
+		ai_will_do = { factor = 0 }
+	}
+
 	rhodesia_charter = {
 		potential = {
 			tag = ENG

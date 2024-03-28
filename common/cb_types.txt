@@ -84,6 +84,9 @@ conquest_small
 conquest_tiny
 demand_for_ally
 demand_chinese_concession_casus_belli
+demand_chinese_treat_port
+demand_chinese_concession_japan
+demand_chinese_capital_concession_japan
 chinese_civil_war
 chinese_civil_war_acquire_state
 european_acquire_african_state
@@ -666,8 +669,6 @@ acquire_all_cores = {
 	prestige_factor = 5
 	peace_cost_factor = 0.8
 	penalty_factor = 1
-	always = yes
-
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
@@ -1272,8 +1273,8 @@ acquire_state = {
 		not = { any_owned_province = { is_capital = yes } }
 		any_owned_province = {
 			OR = {
-				NOT = { is_core = QNG }
-				owner = { has_global_flag = xinhai_ended }
+				NOT = { is_core = CHI }
+				owner = { civilized = yes }
 			}
 		}
 		OR = {
@@ -2557,7 +2558,7 @@ demand_concession_casus_belli = {
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = no
-			NOT = { is_core = QNG }
+			NOT = { is_core = CHI }
 		}
 		OR = {
 			#AI and Player can take a neighboring state
@@ -2644,7 +2645,7 @@ demand_concession_casus_belli_free = {
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = no
-			NOT = { is_core = QNG }
+			NOT = { is_core = CHI }
 		}
 		OR = {
 			#AI and Player can take a neighboring state
@@ -3766,8 +3767,8 @@ take_capital = {
 		is_colonial = no
 		any_owned_province = {
 			OR = {
-				NOT = { is_core = QNG }
-				owner = { has_global_flag = xinhai_ended }
+				NOT = { is_core = CHI }
+				owner = { civilized = yes }
 			}
 		}
 		any_owned_province = {
@@ -3952,8 +3953,8 @@ acquire_small_state = {
 		not = { any_owned_province = { is_capital = yes } }
 		any_owned_province = {
 			OR = {
-				NOT = { is_core = QNG }
-				owner = { has_global_flag = xinhai_ended }
+				NOT = { is_core = CHI }
+				owner = { civilized = yes }
 			}
 		}
 		OR = {
@@ -4154,8 +4155,8 @@ acquire_mid_state = {
 		not = { any_owned_province = { is_capital = yes } }
 		any_owned_province = {
 			OR = {
-				NOT = { is_core = QNG }
-				owner = { has_global_flag = xinhai_ended }
+				NOT = { is_core = CHI }
+				owner = { civilized = yes }
 			}
 		}
 		OR = {
@@ -4615,8 +4616,8 @@ demand_for_ally = {
 	allowed_states = {
 		any_owned_province = {
 			OR = {
-				NOT = { is_core = QNG }
-				owner = { has_global_flag = xinhai_ended }
+				NOT = { is_core = CHI }
+				owner = { civilized = yes }
 			}
 			OR = {
 				NOT = { is_core = FROM }
@@ -4812,6 +4813,144 @@ demand_chinese_concession_casus_belli = {
 				is_core = XIN
 				is_core = MON
 				is_core = TIB
+			}
+		}
+		not = { any_owned_province = { is_capital = yes } }
+		OR = {
+			#AI and Player can take a neighboring state
+			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+			
+			#Player can take a neighboring state neighboring a neighboring state
+			AND = {
+				THIS = { ai = no }
+				any_owned_province = {
+					any_neighbor_province = {
+						state_scope = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
+					}
+				}
+			}
+			
+			#AI/Player can take a coastal state
+			AND = {
+				any_owned_province = { port = yes }
+				THIS = {
+					num_of_ports = 1
+					OR = {
+						is_greater_power = yes
+						is_secondary_power = yes
+						ai = no
+					}
+				}
+			}
+			
+			#Player can take any state neighboring a coastal state
+			AND = {
+				any_owned_province = {
+					any_neighbor_province = {
+						state_scope = { any_owned_province = { port = yes } }
+					}
+				}
+				THIS = {
+					ai = no
+					num_of_ports = 1
+				}
+			}
+		}
+	}
+	
+	po_demand_state = yes
+	po_gunboat = yes
+	
+	war_name = WAR_CONCESSION_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+	
+	on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					province_selector = 1
+				}
+				province_selector = -1
+			}
+		}
+	}
+}
+
+demand_chinese_treat_port = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 1.2
+	crisis = no
+	
+	badboy_factor = 1
+	prestige_factor = 0.5
+	peace_cost_factor = 0.003
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		NOT = { war_with = THIS }
+		NOT = {
+			OR = {
+				has_country_flag = neutral
+				THIS = { has_country_flag = neutral }
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			NOT = { has_country_flag = jan_mayen }
+		}
+		has_country_flag = chinese
+		THIS = {
+			civilized = yes
+		}
+		civilized = no
+		number_of_states = 2
+		NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+		THIS = {
+			NOT = {
+				OR = {
+					tag = JAN
+					tag = GHO
+				}
+			}
+		}
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			is_colonial = no
+			OR = {
 				region = CHI_1481
 				region = CHI_1496
 				region = CHI_1538
@@ -4876,6 +5015,345 @@ demand_chinese_concession_casus_belli = {
 			from = jingoism 
 			to = pro_military
 			value = 0.1
+		}
+	}
+	
+	on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					province_selector = 1
+				}
+				province_selector = -1
+			}
+		}
+	}
+}
+
+#Japan CBs
+demand_chinese_concession_japan = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 1.2
+	crisis = no
+	
+	badboy_factor = 1
+	prestige_factor = 0.5
+	peace_cost_factor = 0.003
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		THIS = { tag = JAP }
+		NOT = {
+			OR = {
+				has_country_flag = neutral
+				THIS = { has_country_flag = neutral }
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			NOT = { has_country_flag = jan_mayen }
+		}
+		has_country_flag = chinese
+		THIS = {
+			OR = {
+				civilized = yes
+				AND = {
+					tag = JAP
+					civilized = no
+				}
+			}
+		}
+		civilized = no
+		number_of_states = 2
+		NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+		THIS = {
+			NOT = {
+				OR = {
+					tag = JAN
+					tag = GHO
+				}
+			}
+		}
+	}
+	
+	allowed_states = {
+		NOT = {
+			any_owned_province = {
+				OR = {
+					region = CHI_1481
+					region = CHI_1496
+					region = CHI_1538
+					region = CHI_1553
+					region = CHI_1566
+					region = CHI_1569
+					region = CHI_2562
+					region = CHI_2615
+					region = CHI_2659
+				}
+			}
+		}
+		not = { any_owned_province = { is_capital = yes } }
+		OR = {
+			#AI and Player can take a neighboring state
+			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+			
+			#Player can take a neighboring state neighboring a neighboring state
+			AND = {
+				THIS = { ai = no }
+				any_owned_province = {
+					any_neighbor_province = {
+						state_scope = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
+					}
+				}
+			}
+			
+			#AI/Player can take a coastal state
+			AND = {
+				any_owned_province = { port = yes }
+				THIS = {
+					num_of_ports = 1
+					OR = {
+						is_greater_power = yes
+						is_secondary_power = yes
+						ai = no
+					}
+				}
+			}
+			
+			#Player can take any state neighboring a coastal state
+			AND = {
+				any_owned_province = {
+					any_neighbor_province = {
+						state_scope = { any_owned_province = { port = yes } }
+					}
+				}
+				THIS = {
+					ai = no
+					num_of_ports = 1
+				}
+			}
+		}
+	}
+	
+	po_demand_state = yes
+	po_gunboat = yes
+	
+	war_name = WAR_CONCESSION_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+	
+	on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					province_selector = 1
+				}
+				province_selector = -1
+			}
+		}
+	}
+}
+
+demand_chinese_capital_concession_japan = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.5
+	
+	badboy_factor = 2
+	prestige_factor = 10
+	peace_cost_factor = 0.006
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = { tag = JAP }
+		has_country_flag = chinese
+		NOT = {
+			OR = {
+				has_country_flag = neutral
+				THIS = { has_country_flag = neutral }
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			NOT = { has_country_flag = jan_mayen }
+		}
+		OR = {
+			NOT = { THIS = { has_country_modifier = scripted_truce } }
+			NOT = { has_country_modifier = scripted_truce }
+		}
+		number_of_states = 3 # annex if you want their last state
+		any_owned_province = {
+			not = { is_core = THIS }
+			is_colonial = no
+		}
+		OR = {
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = yes
+				}
+			}
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = no
+				}
+			}
+			AND = {
+				has_country_flag = sub_saharan_africa
+				THIS = {
+					civilized = yes
+				}
+			}
+			AND = {
+				tag = JAP
+				has_global_flag = mp_1836_literacy_setup
+				THIS = {
+					civilized = yes
+				}
+			}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = no
+				}
+			}
+		}
+		OR = {
+			NOT = { has_country_flag = conquerable_1865 }
+			year = 1865
+		}
+		NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+		THIS = {
+			NOT = {
+				OR = {
+					tag = JAN
+					tag = GHO
+				}
+			}
+		}
+		OR = {
+			THIS = { ai = no }
+			THIS = { has_country_flag = sub_saharan_africa }
+			civilized = yes
+			NOT = { has_country_flag = sub_saharan_africa }
+		}
+	}
+	
+	allowed_states = {
+		is_colonial = no
+		any_owned_province = {
+			not = {	is_core = THIS }
+			is_colonial = no
+		}
+		any_owned_province = { is_capital = yes }
+		OR = {
+			#AI and Player can take a neighboring state
+			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+			
+			#Player can take a neighboring state neighboring a neighboring state
+			AND = {
+				THIS = { ai = no }
+				any_owned_province = {
+					any_neighbor_province = {
+						NOT = { province_id = 3246 }
+						state_scope = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
+					}
+				}
+			}
+			
+			#AI/Player can take a coastal state
+			AND = {
+				any_owned_province = { port = yes }
+				THIS = {
+					num_of_ports = 1
+					OR = {
+						is_greater_power = yes
+						is_secondary_power = yes
+						ai = no
+					}
+				}
+			}
+		}
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}		
+
+	po_demand_state = yes
+	po_gunboat = yes
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
 		}
 	}
 	

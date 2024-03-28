@@ -8,6 +8,7 @@ folders = {
 		heavy_armament
 		military_science
 		army_leadership
+		row_completion_arm
 	}
 
 	navy_tech = {
@@ -16,6 +17,7 @@ folders = {
 		naval_engineering
 		naval_science
 		naval_leadership
+		row_completion_nav
 	}
 	
 	commerce_tech = {
@@ -24,6 +26,7 @@ folders = {
 		economic_thought_and_critique
 		market_functionality
 		tech_organization
+		row_completion_com
 	}
 	
 	culture_tech = {
@@ -32,6 +35,7 @@ folders = {
 		social_thought
 		political_thought
 		psychology
+		row_completion_cul
 	}
 	
 	industry_tech = {
@@ -40,8 +44,8 @@ folders = {
 		metallurgy
 		tech_infrastructure
 		chemistry_and_electricity
+		row_completion_ind
 	}
-	
 }
 
 

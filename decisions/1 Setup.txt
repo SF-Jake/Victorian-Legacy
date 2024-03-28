@@ -106,7 +106,7 @@ political_decisions = {
 						primary_culture = kazak
 					}
 				}
-				primary_culture = turkmen
+				primary_culture = turkmen\
 			}
 			TMR = { primary_culture = polynesian }
 			any_country = {
@@ -134,436 +134,409 @@ political_decisions = {
 				}
 			}
 			any_country = {
-				any_country = {
-					any_pop = {
-						limit = {
-							OR = {
-								has_pop_culture = north_german
-								has_pop_culture = south_german
-							}
-						}
-						literacy = 0.69
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = ashkenazi
-						}
-						literacy = 0.69
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = dutch
-						}
-						literacy = 0.59
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = wallonian
-						}
-						literacy = 0.49
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = swiss
-						}
-						literacy = 0.69
-					}
-					any_pop = {
-						limit = {
-							is_culture_group = scandinavian
-						}
-						literacy = 0.79
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = finnish
-						}
-						literacy = -0.2
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = british
-						}
-						literacy = 0.59
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = irish
-						}
-						literacy = 0.24
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = north_italian
-						}
-						literacy = 0.44
-					}
-					any_pop = {
-						limit = {
-							is_culture_group = iberian
-						}
-						literacy = 0.12
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = french
-						}
-						literacy = 0.49
-					}
-					any_pop = {
-						limit = {
-							is_culture_group = south_slavic
-							NOT = { has_pop_culture = albanian }
-						}
-						literacy = 0.09
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = albanian
-						}
-						literacy = 0.02
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = croat
-						}
-						literacy = 0.05
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = romanian
-						}
-						literacy = 0.09
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = hungarian
-						}
-						literacy = 0.14
-					}
-					any_pop = {
-						limit = {
-							is_culture_group = polish_culture_group
-						}
-						literacy = 0.14
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = czech
-						}
-						literacy = 0.39
-					}
-					any_pop = {
-						limit = {
-							is_culture_group = east_slavic
-						}
-						literacy = 0.04
-					}
-					any_pop = {
-						limit = {
-							is_culture_group = baltic
-						}
-						literacy = 0.39
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = greek
-						}
-						literacy = 0.18
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = armenian
-						}
-						literacy = 0.07
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = sephardic
-						}
-						literacy = 0.35
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = turkish
-						}
-						literacy = 0.02
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = north_caucasian
-						}
-						literacy = 0.01
-					}
-					any_pop = {
-						limit = {
-							is_culture_group = arab
-						}
-						literacy = 0.01
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = persian
-						}
-						literacy = 0.03
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = pashtun
-						}
-						literacy = 0.01
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = turkmen
-						}
-						literacy = 0.01
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = uighur
-						}
-						literacy = 0.01
-					}
-					any_pop = {
-						limit = {
-							is_culture_group = south_asian
-						}
-						literacy = 0.01
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = vietnamese
-						}
-						literacy = 0.02
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = malay
-						}
-						literacy = 0.01
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = filipino
-						}
-						literacy = 0.05
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = javan
-						}
-						literacy = 0.01
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = thai
-						}
-						literacy = 0.02
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = burmese
-						}
-						literacy = 0.03
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = japanese
-						}
-						literacy = 0.39
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = korean
-						}
-						literacy = 0.04
-					}
-					any_pop = {
-						limit = {
-							NOT = { type = slaves }
-							is_culture_group = east_asian
-						}
-						literacy = 0.11
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = yankee
-						}
-						literacy = 0.74
-					}
-					any_pop = {
-						limit = {
-							OR = {
-								has_pop_culture = dixie
-								has_pop_culture = texan
-							}
-						}
-						literacy = 0.54
-					}
-					any_pop = {
-						limit = {
-							is_culture_group = neo_european_cultures
-						}
-						literacy = 0.49
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = mexican
-						}
-						literacy = 0.04
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = central_american
-						}
-						literacy = 0.06
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = north_andean
-						}
-						literacy = 0.04
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = south_andean
-						}
-						literacy = 0.04
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = platinean
-						}
-						literacy = 0.14
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = brazilian
-						}
-						literacy = 0.07
-					}
-					any_pop = {
-						limit = {
-							NOT = { type = slaves }
-							has_pop_culture = afro_american
-						}
-						literacy = 0.05
-					}
-				}
-				AUS = {
-					any_pop = {
-						limit = {
-							OR = {
-								has_pop_culture = north_german
-								has_pop_culture = south_german
-							}
-						}
-						literacy = -0.30
-					}
-					any_pop = {
-						limit = {
-							has_pop_culture = north_italian
-						}
-						literacy = -0.15
-					}
-				}
-				BEL = {
-					any_pop = {
-						limit = {
-							has_pop_culture = dutch
-						}
-						literacy = -0.1
-					}
-				}
-				PAP = {
-					any_pop = {
-						limit = {
-							has_pop_culture = north_italian
-						}
-						literacy = -0.18
-					}
-				}
-				SIC = {
-					any_pop = {
-						limit = {
-							has_pop_culture = north_italian
-						}
-						literacy = -0.25
-					}
-				}
-				HUN = {
-					any_pop = {
-						limit = {
-							has_pop_culture = czech
-						}
-						literacy = -0.25
-					}
-					any_pop = {
-						limit = {
+				any_pop = {
+					limit = {
+						OR = {
 							has_pop_culture = north_german
+							has_pop_culture = south_german
 						}
-						literacy = -0.30
 					}
+					literacy = 0.69
 				}
-				EGY = {
-					any_pop = {
-						limit = {
-							has_pop_culture = mashriqi
-						}
-						literacy = 0.01
+				any_pop = {
+					limit = {
+						has_pop_culture = ashkenazi
 					}
+					literacy = 0.69
 				}
-				CHL = {
-					any_pop = {
-						limit = {
-							has_pop_culture = south_andean
-						}
-						literacy = 0.09
+				any_pop = {
+					limit = {
+						has_pop_culture = dutch
 					}
+					literacy = 0.59
 				}
-				PRG = {
-					any_pop = {
-						limit = {
-							has_pop_culture = platinean
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = wallonian
+							has_pop_culture = flemish
 						}
-						literacy = -0.04
 					}
+					literacy = 0.49
 				}
-				HAI = {
-					any_pop = {
-						limit = {
-							has_pop_culture = afro_caribbean
-						}
-						literacy = 0.02
+				any_pop = {
+					limit = {
+						has_pop_culture = swiss
 					}
+					literacy = 0.69
 				}
-				SPA = {
-					any_pop = {
-						limit = {
-							has_pop_culture = afro_caribbean
-						}
-						literacy = 0.04
+				any_pop = {
+					limit = {
+						is_culture_group = scandinavian
 					}
+					literacy = 0.79
 				}
-				URU = {
-					any_pop = {
-						limit = {
-							OR = {
-								has_pop_culture = brazilian
-								has_pop_culture = platinean
-							}
-						}
-						literacy = 0.04
+				any_pop = {
+					limit = {
+						has_pop_culture = finnish
 					}
+					literacy = -0.2
 				}
-				RGS = {
-					any_pop = {
-						limit = {
-							has_pop_culture = brazilian
-						}
-						literacy = 0.04
+				any_pop = {
+					limit = {
+						has_pop_culture = british
 					}
+					literacy = 0.59
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = irish
+					}
+					literacy = 0.24
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = north_italian
+					}
+					literacy = 0.44
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = south_italian
+					}
+					literacy = 0.19
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = maltese
+					}
+					literacy = 0.17
+				}
+				any_pop = {
+					limit = {
+						is_culture_group = iberian
+					}
+					literacy = 0.12
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = french
+					}
+					literacy = 0.49
+				}
+				any_pop = {
+					limit = {
+						is_culture_group = south_slavic
+						NOT = { has_pop_culture = albanian }
+					}
+					literacy = 0.09
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = albanian
+					}
+					literacy = 0.02
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = croat
+							has_pop_culture = slovene
+						}
+					}
+					literacy = 0.05
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = romanian
+					}
+					literacy = 0.09
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = hungarian
+					}
+					literacy = 0.14
+				}
+				any_pop = {
+					limit = {
+						is_culture_group = polish_culture_group
+					}
+					literacy = 0.14
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = czech
+					}
+					literacy = 0.39
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = slovak
+					}
+					literacy = 0.14
+				}
+				any_pop = {
+					limit = {
+						is_culture_group = east_slavic
+					}
+					literacy = 0.04
+				}
+				any_pop = {
+					limit = {
+						is_culture_group = baltic
+					}
+					literacy = 0.39
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = greek
+					}
+					literacy = 0.18
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = armenian
+					}
+					literacy = 0.07
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = georgian
+					}
+					literacy = 0.03
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = sephardic
+					}
+					literacy = 0.35
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						OR = {
+							has_pop_culture = turkish
+							has_pop_culture = azerbaijani
+						}
+					}
+					literacy = 0.02
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = north_caucasian
+					}
+					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						is_culture_group = arab
+					}
+					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = misri
+					}
+					literacy = 0.02
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						is_culture_group = iranian_turanian
+					}
+					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = persian
+					}
+					literacy = 0.03
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = hazara
+					}
+					literacy = -0.01
+				}
+				any_pop = {
+					limit = {
+						is_culture_group = south_asian
+					}
+					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = vietnamese
+					}
+					literacy = 0.02
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = khmer
+					}
+					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = malay
+					}
+					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = filipino
+					}
+					literacy = 0.05
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = javan
+					}
+					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = thai
+					}
+					literacy = 0.02
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = lao
+					}
+					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = burmese
+					}
+					literacy = 0.03
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = japanese
+					}
+					literacy = 0.39
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = ainu
+					}
+					literacy = 0.03
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = korean
+					}
+					literacy = 0.04
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						is_culture_group = east_asian
+					}
+					literacy = 0.11
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = yankee
+					}
+					literacy = 0.74
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = dixie
+							has_pop_culture = texan
+						}
+					}
+					literacy = 0.54
+				}
+				any_pop = {
+					limit = {
+						is_culture_group = neo_european_cultures
+					}
+					literacy = 0.49
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = mexican
+					}
+					literacy = 0.06
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = central_american
+					}
+					literacy = 0.06
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = caribeno
+					}
+					literacy = 0.03
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = north_andean
+					}
+					literacy = 0.05
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = south_andean
+					}
+					literacy = 0.05
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = platinean
+					}
+					literacy = 0.14
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = brazilian
+					}
+					literacy = 0.07
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						is_culture_group = native_american
+					}
+					literacy = 0.02
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = afro_american
+					}
+					literacy = 0.05
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = afro_caribbean
+					}
+					literacy = 0.01
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						has_pop_culture = afro_antillean
+					}
+					literacy = 0.01
 				}
 			}
 			AUS = {
@@ -578,38 +551,6 @@ political_decisions = {
 						has_pop_culture = north_italian
 					}
 					literacy = -0.15
-				}
-			}
-			BEL = {
-				any_pop = {
-					limit = {
-						has_pop_culture = dutch
-					}
-					literacy = -0.1
-				}
-			}
-			PAP = {
-				any_pop = {
-					limit = {
-						has_pop_culture = north_italian
-					}
-					literacy = -0.2
-				}
-			}
-			SIC = {
-				any_pop = {
-					limit = {
-						has_pop_culture = north_italian
-					}
-					literacy = -0.27
-				}
-			}
-			FIN = {
-				any_pop = {
-					limit = {
-						has_pop_culture = swedish
-					}
-					literacy = -0.2
 				}
 			}
 			HUN = {
@@ -677,14 +618,27 @@ political_decisions = {
 		effect = {
 			set_global_flag = mp_1836_literacy_setup
 			any_country = {
+				social_reform = compulsory_schools
 				any_pop = {
 					literacy = -1
+				}
+			}
+			TKG = {
+				all_core = { remove_core = TKG }
+			}
+			SPA = {
+				change_tag = SPC
+				all_core = {
+					remove_core = SPA
 				}
 			}
 			any_country = {
 				any_pop = {
 					limit = {
-						has_pop_culture = north_german
+						OR = {
+							has_pop_culture = north_german
+							has_pop_culture = south_german
+						}
 					}
 					literacy = 0.69
 				}
@@ -720,6 +674,12 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
+						has_pop_culture = finnish
+					}
+					literacy = -0.2
+				}
+				any_pop = {
+					limit = {
 						has_pop_culture = british
 					}
 					literacy = 0.59
@@ -734,7 +694,7 @@ political_decisions = {
 					limit = {
 						has_pop_culture = north_italian
 					}
-					literacy = 0.52
+					literacy = 0.44
 				}
 				any_pop = {
 					limit = {
@@ -907,27 +867,37 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
-						is_culture_group = east_asian
+						has_pop_culture = japanese
 					}
-					literacy = 0.02
+					literacy = 0.39
 				}
 				any_pop = {
 					limit = {
-						has_pop_culture = miao
+						has_pop_culture = korean
 					}
-					literacy = -0.03
+					literacy = 0.04
+				}
+				any_pop = {
+					limit = {
+						NOT = { type = slaves }
+						is_culture_group = east_asian
+					}
+					literacy = 0.11
 				}
 				any_pop = {
 					limit = {
 						has_pop_culture = yankee
 					}
-					literacy = 0.64
+					literacy = 0.74
 				}
 				any_pop = {
 					limit = {
-						has_pop_culture = dixie
+						OR = {
+							has_pop_culture = dixie
+							has_pop_culture = texan
+						}
 					}
-					literacy = 0.59
+					literacy = 0.54
 				}
 				any_pop = {
 					limit = {
@@ -982,7 +952,10 @@ political_decisions = {
 			AUS = {
 				any_pop = {
 					limit = {
-						has_pop_culture = north_german
+						OR = {
+							has_pop_culture = north_german
+							has_pop_culture = south_german
+						}
 					}
 					literacy = -0.30
 				}
@@ -1006,7 +979,7 @@ political_decisions = {
 					limit = {
 						has_pop_culture = north_italian
 					}
-					literacy = -0.2
+					literacy = -0.18
 				}
 			}
 			SIC = {
@@ -1014,7 +987,7 @@ political_decisions = {
 					limit = {
 						has_pop_culture = north_italian
 					}
-					literacy = -0.27
+					literacy = -0.25
 				}
 			}
 			HUN = {
@@ -1192,7 +1165,7 @@ political_decisions = {
 				}
 			}
 			CHI = {
-				any_pop = { reduce_pop = 0.55 }
+				any_pop = { reduce_pop = 0.25 }
 				any_country = {
 					limit = {
 						NOT = {
@@ -1201,10 +1174,9 @@ political_decisions = {
 						substate_of = CHI
 						num_of_cities = 1
 					}
-					any_pop = { reduce_pop = 0.75 }
+					any_pop = { reduce_pop = 0.65 }
 				}
 			}
-
 			any_country = {
 				limit = { is_greater_power = yes }
 				treasury = 150000
