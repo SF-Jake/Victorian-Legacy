@@ -786,31 +786,6 @@ province_selector = {
 }
 
 ## Military Buildings and Infrastructure ##
-naval_base = {    
-	type = naval_base
-	# Audax Validator "." Ignore_NEXT
-	cost = 15000
-	goods_cost =
-	{
-		lumber = 1000		#2000
-		cement = 400		#6400
-		steel = 500			#2350
-	}
-	time = 720
-	naval_capacity = 1
-	capital = yes
-	onmap = yes
-	port = yes
-	visibility = yes
-	max_level = 7
-	# Audax Validator "." Ignore_NEXT
-	colonial_points = { 30 50 70 90 110 130 150 } #points at levels 1-7
-	province = yes
-	one_per_state = yes
-	colonial_range = 40
-	local_ship_build = -0.05
-}
-
 railroad = {   
 	type = infrastructure
 	# Audax Validator "." Ignore_NEXT
@@ -854,6 +829,31 @@ fort = {
 	max_level = 7
 	province = yes
 	fort_level = 1
+}
+
+naval_base = {    
+	type = naval_base
+	# Audax Validator "." Ignore_NEXT
+	cost = 15000
+	goods_cost =
+	{
+		lumber = 1000		#2000
+		cement = 400		#6400
+		steel = 500			#2350
+	}
+	time = 720
+	naval_capacity = 1
+	capital = yes
+	onmap = yes
+	port = yes
+	visibility = yes
+	max_level = 7
+	# Audax Validator "." Ignore_NEXT
+	colonial_points = { 30 50 70 90 110 130 150 } #points at levels 1-7
+	province = yes
+	one_per_state = yes
+	colonial_range = 40
+	local_ship_build = -0.05
 }
 
 	## University

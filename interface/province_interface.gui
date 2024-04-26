@@ -1509,19 +1509,19 @@ guiTypes = {
 		}
 		iconType = {
 			name = "build_icon3"
-			spriteType = "GFX_province_fort_strip"
+			spriteType = "GFX_province_navalbase_strip"
 			position = { x= 23 y = -4 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name = "build_icon2"
-			spriteType = "GFX_province_infra_strip"
+			spriteType = "GFX_province_fort_strip"
 			position = { x= 23 y = -4 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name = "build_icon1"
-			spriteType = "GFX_province_navalbase_strip"
+			spriteType = "GFX_province_infra_strip"
 			position = { x= 23 y = -4 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -1552,6 +1552,7 @@ guiTypes = {
 			buttonFont = "vic_18_black"
 			Orientation = "UPPER_LEFT"
 			clicksound = click
+			shortcut = "e"
 		}
 
 		iconType = {

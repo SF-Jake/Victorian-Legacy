@@ -1080,6 +1080,10 @@ political_decisions = {
 			CIV = {
 				annex_to = FROM
 			}
+			any_country = {
+				limit = { ai = no }
+				country_event = { id = 19000 days = 0 }
+			}
 			META_1 = {
 				limit = {
 					OR = {

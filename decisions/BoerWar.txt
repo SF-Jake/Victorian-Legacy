@@ -24,7 +24,7 @@ political_decisions = {
 				set_country_flag = die_groot_trek
 				add_country_modifier = { name = trek_boers duration = 730 }
 			}
-			SAF = { country_event = { id = 44409 days = 1 } }
+			COM = { country_event = { id = 44409 days = 1 } }
 		}
 		ai_will_do = {
 			factor = 1
@@ -71,7 +71,7 @@ political_decisions = {
 				set_country_flag = die_groot_trek
 				add_country_modifier = { name = trek_boers duration = 730 }
 			}
-			SAF = { country_event = { id = 44409 days = 1 } }
+			COM = { country_event = { id = 44409 days = 1 } }
 		}
 		ai_will_do = {
 			factor = 1
