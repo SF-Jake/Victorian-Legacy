@@ -853,6 +853,7 @@ unoccupy_provinces = {
 					army_decision_making = 1
 					NOT = { army_row_completion3 = 1 }
 				}
+				add_country_modifier = { name = army_row_completion2 duration = -1 }
 				activate_technology = army_row_completion3
 			}
 			any_country = {
@@ -953,6 +954,7 @@ unoccupy_provinces = {
 					NOT = { commerce_row_completion5 = 1 }
 				}
 				activate_technology = commerce_row_completion5
+				add_country_modifier = { name = commerce_row_completion4 duration = -1 }
 			}
 			any_country = {
 				limit = {
@@ -963,6 +965,7 @@ unoccupy_provinces = {
 					organizational_development = 1
 					NOT = { commerce_row_completion6 = 1 }
 				}
+				add_country_modifier = { name = commerce_row_completion5 duration = -1 }
 				activate_technology = commerce_row_completion6
 			}
 			any_country = {
@@ -1018,6 +1021,7 @@ unoccupy_provinces = {
 					experimental_psychology = 1
 					NOT = { culture_row_completion4 = 1 }
 				}
+				add_country_modifier = { name = culture_row_completion3 duration = -1 }
 				activate_technology = culture_row_completion4
 			}
 			any_country = {

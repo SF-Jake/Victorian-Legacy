@@ -1415,7 +1415,7 @@ mobile_artillery = {
 		base = 10
 	}
 	effect = {
-		activate_unit = artillery_factory 
+		activate_unit = horse_artillery 
 	}
 }
 #iron_breech_loaded_artillery

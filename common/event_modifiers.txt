@@ -1152,6 +1152,11 @@ the_statue_of_liberty = {
 	icon = 15
 }
 
+blockaded_modifier = {
+	global_immigrant_attract = -2
+	icon = 8
+}
+
 america_first = {
 	mobilisation_size = -0.04
 	icon = 16

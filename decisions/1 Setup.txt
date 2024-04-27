@@ -1503,6 +1503,7 @@ political_decisions = {
 					army_decision_making = 1
 					NOT = { army_row_completion3 = 1 }
 				}
+				add_country_modifier = { name = army_row_completion2 duration = -1 }
 				activate_technology = army_row_completion3
 			}
 			any_country = {
@@ -1603,6 +1604,7 @@ political_decisions = {
 					NOT = { commerce_row_completion5 = 1 }
 				}
 				activate_technology = commerce_row_completion5
+				add_country_modifier = { name = commerce_row_completion4 duration = -1 }
 			}
 			any_country = {
 				limit = {
@@ -1613,6 +1615,7 @@ political_decisions = {
 					organizational_development = 1
 					NOT = { commerce_row_completion6 = 1 }
 				}
+				add_country_modifier = { name = commerce_row_completion5 duration = -1 }
 				activate_technology = commerce_row_completion6
 			}
 			any_country = {
@@ -1668,6 +1671,7 @@ political_decisions = {
 					experimental_psychology = 1
 					NOT = { culture_row_completion4 = 1 }
 				}
+				add_country_modifier = { name = culture_row_completion3 duration = -1 }
 				activate_technology = culture_row_completion4
 			}
 			any_country = {
@@ -1856,6 +1860,43 @@ political_decisions = {
 					NOT = { navy_row_completion7 = 1 }
 				}
 				activate_technology = navy_row_completion7
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = CLM
+						tag = VNZ
+						tag = ECU
+						tag = UCA
+						tag = MEX
+					}
+				}
+				all_core = {
+					limit = {
+						NOT = { province_id = 2401 }
+						NOT = { province_id = 2190 }
+						NOT = { state_id = 135 }
+						NOT = { state_id = 105 }
+						NOT = { state_id = 101 }
+						NOT = { state_id = 99 }
+						NOT = { state_id = 95 }
+						NOT = { state_id = 88 }
+						NOT = { is_core = TEX }
+					}
+					add_core = GCL
+				}
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = CLM
+						tag = VNZ
+						tag = ECU
+					}
+				}
+				all_core = {
+					add_core = GCO
+				}
 			}
 		}
 		ai_will_do = { factor = 1 }

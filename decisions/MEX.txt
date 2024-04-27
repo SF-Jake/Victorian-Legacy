@@ -136,6 +136,7 @@ political_decisions = {
 		picture = map_central_america
 		potential = {
 			tag = MEX
+			tag = GCL
 			NOT = { has_country_flag = mex_central_america }
 		}
 		allow = {
