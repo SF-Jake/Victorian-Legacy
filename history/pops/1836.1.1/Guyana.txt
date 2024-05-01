@@ -32,7 +32,7 @@
 		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = british
 		religion = protestant
 		size = 100
@@ -40,34 +40,58 @@
 
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 700
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 13075
 	}
 }
 #Mahdia (4000/1000 POPS)
 2242 = {
-	zbankers = {
-		culture = amazonian
+	aristocrats = {
+		culture = afro_caribbean
 		religion = animist
-		size = 1000
+		size = 10
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 900
 	}
 }
 #Essequibo (33000/8250 POPS)
@@ -96,7 +120,7 @@
 		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = british
 		religion = protestant
 		size = 50
@@ -104,33 +128,58 @@
 
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 8550
 	}
 }
 #Biloka (4000/1000 POPS)
 1979 = {
-	zbankers = {
-		culture = amazonian
+	aristocrats = {
+		culture = afro_caribbean
 		religion = animist
-		size = 1200
+		size = 10
 	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 900
+	}
+
 }

@@ -16,8 +16,8 @@ leader = {
 	name = "António José Severim"
 	date = 1836.1.1
 	type = land
-	personality = org10mor20
-	background = 2a2d_1
+	personality = defence_2.1
+	background = attack_2.1
 	prestige = 0.0
 }
 
@@ -25,8 +25,8 @@ leader = {
 	name = "Nunes Vidigal"
 	date = 1836.1.1
 	type = land
-	personality = org05rec10
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_2.1
 	prestige = 0.0
 }
 
@@ -34,8 +34,8 @@ leader = {
 	name = "Luís do Rego Barreto"
 	date = 1824.1.1
 	type = land
-	personality = mor10exp10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
@@ -43,8 +43,8 @@ leader = {
 	name = "Vicente de Mesquita"
 	date = 1836.1.1
 	type = land
-	personality = org10mor20
-	background = 2a2d_1
+	personality = defence_2.1
+	background = attack_2.1
 	prestige = 0.0
 }
 
@@ -52,8 +52,8 @@ leader = {
 	name = "João Carlos de Saldanha"
 	date = 1836.1.1
 	type = land
-	personality = att10exp10
-	background = 1a2d_1
+	personality = defence_2.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
@@ -61,8 +61,8 @@ leader = {
 	name = "António Benedito de Castro"
 	date = 1820.1.1
 	type = sea
-	personality = org10mor20
-	background = 2a2d_1
+	personality = defence_2.1
+	background = attack_2.1
 }
 
 army = {
@@ -71,37 +71,37 @@ army = {
 	regiment = {
 		name= "1. Brigada de Infantaria"
 		type = infantry
-		home = 518
+		home = 521
 	}
 
 	regiment = {
 		name= "2. Brigada de Infantaria"
 		type = infantry
-		home = 518
+		home = 524
 	}
 
 	regiment = {
 		name= "3. Brigada de Infantaria"
 		type = infantry
-		home = 519
+		home = 518
 	}
 
 	regiment = {
 		name= "4. Brigada de Infantaria"
 		type = infantry
-		home = 519
+		home = 520
 	}
 
 	regiment = {
 		name= "5. Brigada de Artilharia"
-		type = cuirassier
-		home = 521
+		type = artillery
+		home = 519
 	}
 
 	regiment = {
 		name= "1. Brigada de Caballaria"
-		type = hussar
-		home = 520
+		type = cuirassier
+		home = 522
 	}
 
 }
@@ -136,13 +136,13 @@ army = {
 	regiment = {
 		name = "4. Divisão Colonial"
 		type = infantry
-		home = 2051
+		home = 2055
 	}
 	
 	regiment = {
 		name = "5. Divisão Colonial"
 		type = cavalry
-		home = 520
+		home = 2056
 	}
 }
 

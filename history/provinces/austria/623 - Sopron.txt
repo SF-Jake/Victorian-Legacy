@@ -1,6 +1,5 @@
 owner = AUS
 controller = AUS
-add_core = AUS
 add_core = HUN
 trade_goods = fruit
 life_rating = 35
@@ -27,6 +26,11 @@ life_rating = 35
 	state_building = {
 		level = 5
 		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = liquor_distillery
 		upgrade = yes
 	}
 	state_building = {

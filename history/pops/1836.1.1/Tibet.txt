@@ -11,7 +11,7 @@
     bureaucrats = {
         culture = tibetan
         religion = gelugpa
-        size = 3700
+        size = 750
     }
 
     officers = {
@@ -23,25 +23,55 @@
     clergymen = {
         culture = tibetan
         religion = gelugpa
-        size = 700
+        size = 650
     }
 
     artisans = {
         culture = tibetan
         religion = gelugpa
-        size = 10750
+        size = 10000
+    }
+
+    artisans = {
+        culture = tibetan
+        religion = gelugpa
+        size = 400
     }
 
     soldiers = {
         culture = tibetan
         religion = gelugpa
-        size = 4150
+        size = 4000
     }
 
-    zbankers = {
+    farmers = {
         culture = tibetan
         religion = gelugpa
-        size = 33400
+        size = 20060
+    }
+
+    clergymen = {
+        culture = beifaren
+        religion = animist
+        size = 150
+    }
+
+    artisans = {
+        culture = beifaren
+        religion = animist
+        size = 750
+    }
+
+    soldiers = {
+        culture = beifaren
+        religion = animist
+        size = 150
+    }
+
+    farmers = {
+        culture = beifaren
+        religion = animist
+        size = 13950
     }
 }
 #Chamdo (624000/156000 POPS)
@@ -55,25 +85,49 @@
     clergymen = {
         culture = tibetan
         religion = gelugpa
-        size = 1200
+        size = 1450
     }
 
     artisans = {
         culture = tibetan
         religion = gelugpa
-        size = 7800
+        size = 7000
     }
 
     soldiers = {
         culture = tibetan
         religion = gelugpa
-        size = 1950
+        size = 1400
     }
 
-    zbankers = {
+    farmers = {
         culture = tibetan
         religion = gelugpa
-        size = 142300
+        size = 127400
+    }
+
+    clergymen = {
+        culture = beifaren
+        religion = animist
+        size = 150
+    }
+
+    artisans = {
+        culture = beifaren
+        religion = animist
+        size = 800
+    }
+
+    soldiers = {
+        culture = beifaren
+        religion = animist
+        size = 150
+    }
+
+    farmers = {
+        culture = beifaren
+        religion = animist
+        size = 14900
     }
 }
 #Shigatse (332000/83000 POPS)
@@ -87,25 +141,49 @@
     clergymen = {
         culture = tibetan
         religion = gelugpa
-        size = 925
+        size = 875
     }
 
     artisans = {
         culture = tibetan
         religion = gelugpa
-        size = 4050
+        size = 4000
     }
 
     soldiers = {
         culture = tibetan
         religion = gelugpa
-        size = 825
+        size = 800
     }
 
-    zbankers = {
+    farmers = {
         culture = tibetan
         religion = gelugpa
-        size = 74500
+        size = 72725
+    }
+
+    clergymen = {
+        culture = beifaren
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = beifaren
+        religion = animist
+        size = 150
+    }
+
+    soldiers = {
+        culture = beifaren
+        religion = animist
+        size = 25
+    }
+
+    farmers = {
+        culture = beifaren
+        religion = animist
+        size = 1775
     }
 }
 #Lhodrak (688000/172000 POPS)
@@ -119,7 +197,7 @@
     clergymen = {
         culture = tibetan
         religion = gelugpa
-        size = 1250
+        size = 1750
     }
 
     artisans = {
@@ -131,10 +209,10 @@
     soldiers = {
         culture = tibetan
         religion = gelugpa
-        size = 2225
+        size = 1725
     }
 
-    zbankers = {
+    farmers = {
         culture = tibetan
         religion = gelugpa
         size = 156550
@@ -166,7 +244,7 @@
         size = 175
     }
 
-    zbankers = {
+    farmers = {
         culture = tibetan
         religion = gelugpa
         size = 17300
@@ -198,7 +276,7 @@
         size = 750
     }
 
-    zbankers = {
+    farmers = {
         culture = tibetan
         religion = gelugpa
         size = 69175
@@ -209,31 +287,61 @@
     aristocrats = {
         culture = tibetan
         religion = gelugpa
-        size = 3375
+        size = 2625
     }
 
     clergymen = {
         culture = tibetan
         religion = gelugpa
-        size = 1250
+        size = 1350
     }
 
     artisans = {
         culture = tibetan
         religion = gelugpa
-        size = 8550
+        size = 6600
     }
 
     soldiers = {
         culture = tibetan
         religion = gelugpa
-        size = 1675
+        size = 1325
     }
 
-    zbankers = {
+    farmers = {
         culture = tibetan
         religion = gelugpa
-        size = 155650
+        size = 120100
+    }
+
+    aristocrats = {
+        culture = kachin
+        religion = animist
+        size = 750
+    }
+
+    clergymen = {
+        culture = kachin
+        religion = animist
+        size = 400
+    }
+
+    artisans = {
+        culture = kachin
+        religion = animist
+        size = 1950
+    }
+
+    soldiers = {
+        culture = kachin
+        religion = animist
+        size = 350
+    }
+
+    farmers = {
+        culture = kachin
+        religion = animist
+        size = 35550
     }
 
     aristocrats = {
@@ -257,10 +365,10 @@
     soldiers = {
         culture = asian_minor
         religion = animist
-        size = 875
+        size = 375
     }
 
-    zbankers = {
+    farmers = {
         culture = asian_minor
         religion = animist
         size = 34600

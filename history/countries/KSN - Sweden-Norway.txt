@@ -1,7 +1,6 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 322
 	primary_culture = swedish
-	culture = danish
 	religion = protestant
 	government = hms_government
 	plurality = 25.0
@@ -28,7 +27,7 @@
 	health_care = no_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions 
-	school_reforms = good_schools
+	school_reforms = compulsory_schools
 
 	# New Reforms
 	conscription = two_year_draft
@@ -78,28 +77,24 @@
 	basic_chemistry = 1
 
 	#Inventions
+	pharmaceuticals = yes
 
 	# Starting Consciousness
 	consciousness = 2
 	nonstate_consciousness = 0
-	
-	oob = "KSN_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 322
 	primary_culture = swedish
-	culture = norwegian
-	culture = sami
 	religion = protestant
 	government = hms_government
 	plurality = 25.0
 	nationalvalue = nv_order
 	literacy = 0.8
 	civilized = yes
-	prestige = 15
+	prestige = 45
 	schools = industrial_tech_school
-	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery
@@ -118,7 +113,7 @@
 	health_care = no_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions 
-	school_reforms = good_schools
+	school_reforms = compulsory_schools
 
 	# New Reforms
 	conscription = two_year_draft
@@ -168,12 +163,13 @@
 	basic_chemistry = 1
 
 	#Inventions
+	pharmaceuticals = yes
 
 	# Starting Consciousness
 	consciousness = 2
 	nonstate_consciousness = 0
-	
-	oob = "KSN_oob.txt"
+
+	oob = "SWE_oob.txt"
 }
 
 
@@ -182,7 +178,7 @@ decision = pass_folkskolereformen
 }
 
 1913.1.1 = {
-	oob = "/1913/KSN_oob.txt"
+	oob = "/1913/SWE_oob.txt"
 	prestige = 250
 	plurality = 100
 	government = hms_government
@@ -347,7 +343,7 @@ decision = pass_folkskolereformen
 	safety_regulations=acceptable_safety
 	unemployment_subsidies=acceptable_subsidies
 	pensions=good_pensions
-	health_care=no_health_care
+	health_care=universal_health_care
 	school_reforms=good_schools
 	penal_system=incarceration
 	child_labor=child_labor_illegal

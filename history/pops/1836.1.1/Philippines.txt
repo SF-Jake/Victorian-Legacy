@@ -62,34 +62,46 @@
 		size = 4000
 	}
 
-	zbankers = {
+	farmers = {
 		culture = filipino
 		religion = catholic
 		size = 145550
 	}
 
+	artisans = {
+		culture = beifaren
+		religion = catholic
+		size = 1200
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = catholic
+		size = 800
+	}
+
 	clergymen = {
 		culture = malay
-		religion = sunni
+		religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = malay
-		religion = sunni
-		size = 2300
+		religion = catholic
+		size = 1100
 	}
 
 	soldiers = {
 		culture = malay
-		religion = sunni
+		religion = catholic
 		size = 200
 	}
 
-	zbankers = {
+	farmers = {
 		culture = malay
-		religion = sunni
-		size = 18525
+		religion = catholic
+		size = 17725
 	}
 }
 #Vigan (608000/152000 POPS)
@@ -118,7 +130,7 @@
 		size = 1500
 	}
 
-	zbankers = {
+	farmers = {
 		culture = filipino
 		religion = catholic
 		size = 134525
@@ -126,25 +138,25 @@
 
 	clergymen = {
 		culture = asian_minor
-		religion = animist
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = animist
+		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = animist
+		religion = catholic
 		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = asian_minor
-		religion = animist
+		religion = catholic
 		size = 6650
 	}
 }
@@ -174,7 +186,7 @@
 		size = 1350
 	}
 
-	zbankers = {
+	farmers = {
 		culture = filipino
 		religion = catholic
 		size = 122525
@@ -182,25 +194,25 @@
 
 	clergymen = {
 		culture = malay
-		religion = sunni
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
 		culture = malay
-		religion = sunni
+		religion = catholic
 		size = 500
 	}
 
 	soldiers = {
 		culture = malay
-		religion = sunni
+		religion = catholic
 		size = 100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = malay
-		religion = sunni
+		religion = catholic
 		size = 8350
 	}
 }
@@ -215,7 +227,7 @@
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 300
+		size = 175
 	}
 
 	artisans = {
@@ -227,14 +239,39 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 550
+		size = 450
 	}
 
-	zbankers = {
+	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 49900
+		size = 38875
 	}
+
+	clergymen = {
+		culture = filipino
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = filipino
+		religion = sunni
+		size = 750
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = filipino
+		religion = sunni
+		size = 11025
+	}
+
 }
 #Visayas Region (1044000 POPS)
 #under rule of Spain 1836
@@ -243,31 +280,61 @@
 	aristocrats = {
 		culture = filipino
 		religion = catholic
-		size = 100
+		size = 25
 	}
 
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 75
+		size = 25
 	}
 
 	artisans = {
 		culture = filipino
 		religion = catholic
-		size = 500
+		size = 200
 	}
 
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 125
+		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 9200
+		size = 3700
+	}
+
+	aristocrats = {
+		culture = filipino
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = filipino
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = filipino
+		religion = sunni
+		size = 5500
 	}
 
 	clergymen = {
@@ -288,7 +355,7 @@
 		size = 100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = asian_minor
 		religion = animist
 		size = 9375
@@ -305,7 +372,7 @@
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 425
+		size = 350
 	}
 
 	artisans = {
@@ -317,13 +384,37 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 850
+		size = 750
 	}
 
-	zbankers = {
+	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 72075
+		size = 64750
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = filipino
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = filipino
+		religion = sunni
+		size = 7325
 	}
 }
 #Tacloban (348000/87000 POPS)
@@ -352,7 +443,7 @@
 		size = 850
 	}
 
-	zbankers = {
+	farmers = {
 		culture = filipino
 		religion = catholic
 		size = 80125
@@ -393,26 +484,51 @@
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 500
+		size = 450
 	}
 
 	artisans = {
 		culture = filipino
 		religion = catholic
-		size = 4000
+		size = 3500
 	}
 
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 825
+		size = 750
 	}
 
-	zbankers = {
+	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 69425
+		size = 64050
 	}
+
+	clergymen = {
+		culture = filipino
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = filipino
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = filipino
+		religion = sunni
+		size = 5375
+	}
+
 }
 #Mindanao Region (496000)
 #Under Spanish "Rule" 1836
@@ -439,31 +555,61 @@
 	aristocrats = {
 		culture = filipino
 		religion = catholic
-		size = 200
+		size = 100
 	}
 
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 200
+		size = 100
 	}
 
 	artisans = {
 		culture = filipino
 		religion = catholic
-		size = 3000
+		size = 1500
 	}
 
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 1200
+		size = 1100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 25450
+		size = 14150
+	}
+
+	aristocrats = {
+		culture = filipino
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = filipino
+		religion = sunni
+		size = 1500
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = filipino
+		religion = sunni
+		size = 11300
 	}
 
 	aristocrats = {
@@ -490,7 +636,7 @@
 		size = 100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = asian_minor
 		religion = animist
 		size = 7000
@@ -501,56 +647,56 @@
 1462 = {
 	aristocrats = {
 		culture = filipino
-		religion = catholic
+		religion = sunni
 		size = 600
 	}
 
 	clergymen = {
 		culture = filipino
-		religion = catholic
-		size = 550
+		religion = sunni
+		size = 500
 	}
 
 	artisans = {
 		culture = filipino
-		religion = catholic
-		size = 10000
+		religion = sunni
+		size = 26400
 	}
 
 	artisans = {
 		culture = filipino
+		religion = sunni
+		size = 20000
+	}
+
+	soldiers = {
+		culture = filipino
+		religion = sunni
+		size = 500
+	}
+
+	labourers = {
+		culture = filipino
+		religion = sunni
+		size = 1000
+	}
+
+	clergymen = {
+		culture = filipino
 		religion = catholic
-		size = 10000
+		size = 50
 	}
 
 	artisans = {
 		culture = filipino
-		religion = catholic
-		size = 10000
+		religion = sunni
+		size = 14950
 	}
 
-	artisans = {
+	labourers = {
 		culture = filipino
 		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = filipino
-		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = filipino
-		religion = catholic
-		size = 2850
-	}
-
-	zbankers = {
-		culture = filipino
-		religion = catholic
-		size = 10000
+		size = 500
 	}
 
 	slaves = {
@@ -586,51 +732,46 @@
 }
 #Jolo (44000/11000 POPS)
 1464 = {
-    aristocrats = {
-        culture = malay
-        religion = sunni
-        size = 100
-    }
+	aristocrats = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
 
-    bureaucrats = {
-        culture = malay
-        religion = sunni
-        size = 75
-    }
+	bureaucrats = {
+		culture = malay
+		religion = sunni
+		size = 75
+	}
 
-    officers = {
-        culture = malay
-        religion = sunni
-        size = 75
-    }
+	officers = {
+		culture = malay
+		religion = sunni
+		size = 75
+	}
 
-    clergymen = {
-        culture = malay
-        religion = sunni
-        size = 100
-    }
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
 
-    artisans = {
-        culture = malay
-        religion = sunni
-        size = 600
-    }
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 600
+	}
 
-    soldiers = {
-        culture = malay
-        religion = sunni
-        size = 1000
-    }
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 225
+	}
 
-    zbankers = {
-        culture = malay
-        religion = sunni
-        size = 12825
-    }
+	farmers = {
+		culture = malay
+		religion = sunni
+		size = 9825
+	}
 
-    slaves = {
-        culture = malay
-        religion = sunni
-        size = 2000
-    }
 }

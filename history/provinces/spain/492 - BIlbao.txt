@@ -1,10 +1,16 @@
 owner = SPA
 controller = SPA
 add_core = SPA
+add_core = SPC
 trade_goods = iron
 life_rating = 35
+terrain = hills_mine
 naval_base = 1
-terrain = woods_mine
+1913.1.1 = {
+	owner = SPA
+	controller = SPA
+	remove_core = SPC
+}
 1913.1.1 = {
 	state_building = {
 		level = 5
@@ -18,7 +24,7 @@ terrain = woods_mine
 	}
 	state_building = {
 		level = 5
-		building = lumber_mill
+		building = tea_packaging_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -27,12 +33,12 @@ terrain = woods_mine
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 5
 		building = fabric_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 5
 		building = regular_clothes_factory
 		upgrade = yes
 	}

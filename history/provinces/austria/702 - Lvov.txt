@@ -6,7 +6,7 @@ add_core = UKR
 add_core = GLM
 trade_goods = coal
 life_rating = 35
-terrain = hills_mine
+terrain = woods_mine
 1913.1.1 = {
 	fort = 4
 	owner = KUK
@@ -14,18 +14,28 @@ terrain = hills_mine
 	add_core = KUK
 	remove_core = AUS
 	state_building = {
-		level = 4
+		level = 5
 		building = lumber_mill
 		upgrade = yes
 	}
 	state_building = {
-		level = 1
+		level = 5
 		building = small_arms_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
-		building = furniture_factory
+		level = 5
+		building = liquor_distillery
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = winery
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = glass_factory
 		upgrade = yes
 	}
 }

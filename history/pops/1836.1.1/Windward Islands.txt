@@ -31,7 +31,7 @@
 		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = british
 		religion = protestant
 		size = 1100
@@ -39,25 +39,25 @@
 
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 75
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 2750
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 18925
 	}
 }
@@ -81,7 +81,7 @@
 		size = 130
 	}
 
-	zbankers = {
+	farmers = {
 		culture = british
 		religion = protestant
 		size = 100
@@ -89,25 +89,25 @@
 
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 4050
 	}
 }
@@ -131,7 +131,7 @@
 		size = 130
 	}
 
-	zbankers = {
+	farmers = {
 		culture = british
 		religion = protestant
 		size = 100
@@ -139,25 +139,25 @@
 
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 4250
 	}
 }
@@ -166,19 +166,19 @@
 	aristocrats = {
 		culture = british
 		religion = protestant
-		size = 35
+		size = 25
 	}
 
 	clergymen = {
 		culture = british
 		religion = protestant
-		size = 30
+		size = 20
 	}
 
 	artisans = {
 		culture = british
 		religion = protestant
-		size = 380
+		size = 250
 	}
 
 	soldiers = {
@@ -187,33 +187,84 @@
 		size = 5
 	}
 
-	zbankers = {
+	farmers = {
 		culture = british
 		religion = protestant
-		size = 300
+		size = 200
 	}
 
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 100
+		religion = protestant
+		size = 50
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 350
+		religion = protestant
+		size = 150
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 125
+		religion = protestant
+		size = 75
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 11425
+		religion = protestant
+		size = 6725
 	}
+}
+#Saint Vincent (21000/5250 POPS) #now independent
+2409 = {
+	aristocrats = {
+		culture = british
+		religion = protestant
+		size = 10
+	}
+
+	clergymen = {
+		culture = british
+		religion = protestant
+		size = 10
+	}
+
+	artisans = {
+		culture = british
+		religion = protestant
+		size = 130
+	}
+
+	farmers = {
+		culture = british
+		religion = protestant
+		size = 100
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 200
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 4700
+	}
+
 }

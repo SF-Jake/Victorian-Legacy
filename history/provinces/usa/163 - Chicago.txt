@@ -3,10 +3,9 @@ controller = USA
 add_core = USA
 trade_goods = coal
 life_rating = 50
-terrain = plains_mine
 1913.1.1 = {
 	state_building = {
-		level = 12
+		level = 10
 		building = paper_mill
 		upgrade = yes
 	}
@@ -27,11 +26,11 @@ terrain = plains_mine
 	}
 	state_building = {
 		level = 10
-		building = aeroplane_factory
+		building = cement_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 12
+		level = 10
 		building = regular_clothes_factory
 		upgrade = yes
 	}
@@ -41,7 +40,7 @@ terrain = plains_mine
 		upgrade = yes
 	}
 	state_building = {
-		level = 12
+		level = 10
 		building = machine_parts_factory
 		upgrade = yes
 	}

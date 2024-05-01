@@ -5,18 +5,18 @@ trade_goods = cotton
 life_rating = 40
 1913.1.1 = {
 	state_building = {
-		level = 1
+		level = 2
 		building = lumber_mill
 		upgrade = yes
 	}
 	state_building = {
 		level = 2
-		building = explosives_factory
+		building = furniture_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 2
-		building = artillery_factory
+		building = tea_packaging_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -26,7 +26,12 @@ life_rating = 40
 	}
 	state_building = {
 		level = 2
-		building = small_arms_factory
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = regular_clothes_factory
 		upgrade = yes
 	}
 }

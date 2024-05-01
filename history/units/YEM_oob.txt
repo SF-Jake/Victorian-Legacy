@@ -8,37 +8,51 @@ GHO = {
 	truce_until="1937.1.1"
 }
 
-#Relations
-NEJ = {
-	value = -150
-}
+army = {
+	name = "Army of the Zaidi Imams"
+	location = 1178
+	regiment = {
+		name= "1.Hashid"
+		type = irregular
+		home = 1178
+	}
 
-HAL = {
-	value = -50
-}
+	regiment = {
+		name= "2.Hashid"
+		type = irregular
+		home = 1179
+	}
 
-NYE = {
-	value = -50        #relation
-}
+	regiment = {
+		name= "1.Bakil"
+		type = irregular
+		home = 1178
+	}
 
-ENG = {
-	value = 125        #relation
-}
-
-leader = {
-	name = "Muhsin bin Abdali"
-	type = land
-	date = 1836.1.1
-	personality = org05mor10
-	background = 1a1d_1
+	regiment = {
+		name= "2.Bakil"
+		type = irregular
+		home = 1180
+	}
 }
 
 army = {
-	name = "Sultan's Army"
+	name = "Armies of the Sheikhs of Aden"
 	location = 1412
 	regiment = {
-		name= "1. Brigade"
+		name= "1.Abdali"
 		type = irregular
 		home = 1412
+	}
+}
+
+army = {
+	name = "Army of the Sheikhs of Mukalla"
+	location = 1173
+	
+	regiment = {
+		name= "2.Abdali"
+		type = irregular
+		home = 1173
 	}
 }

@@ -1,8 +1,8 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 1051
 	primary_culture = north_caucasian
 	religion = sunni
-	government = absolute_monarchy
+	government = theocracy
 	plurality = 0.0
 	nationalvalue = nv_order
 	literacy = 0.03
@@ -44,6 +44,7 @@
 
 	oob = "CIR_oob.txt"
 
+	foreign_weapons = yes_foreign_weapons
 	foreign_artillery = yes_foreign_artillery
 	army_schools = yes_army_schools
 	foreign_training = yes_foreign_training
@@ -53,6 +54,7 @@
 	pre_indust = yes_pre_indust
 
 	# Technologies
+	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
 	army_command_principle = 1
 	private_banks = 1
@@ -73,11 +75,11 @@
 	}
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 1051
 	primary_culture = north_caucasian
 	religion = sunni
-	government = absolute_monarchy
+	government = theocracy
 	plurality = 0.0
 	nationalvalue = nv_order
 	literacy = 0.03
@@ -119,6 +121,7 @@
 
 	oob = "CIR_oob.txt"
 
+	foreign_weapons = yes_foreign_weapons
 	foreign_artillery = yes_foreign_artillery
 	army_schools = yes_army_schools
 	foreign_training = yes_foreign_training
@@ -128,6 +131,7 @@
 	pre_indust = yes_pre_indust
 
 	# Technologies
+	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
 	army_command_principle = 1
 	private_banks = 1

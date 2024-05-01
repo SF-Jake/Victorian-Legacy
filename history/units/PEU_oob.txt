@@ -9,23 +9,23 @@ GHO = {
 }
 
 leader = {
-	name = "Domingo Nieto"
-	type = land
-	date = 1836.1.1
-	personality = mor10rec05
-	background = 2a1d_1
-}
-
-leader = {
 	name = "Luis José de Orbegoso"
 	type = land
 	date = 1836.1.1
-	personality = org05mor10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Domingo Nieto"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 navy = {
-	name = "Marina de Guerra del Perú"
+	name = "Marina de Guerra del Peru"
 	location = 2295
 	ship = {
 		name= "Monteagudo"
@@ -57,7 +57,7 @@ army = {
 	regiment = {
 		name= "3. Brigada de Infantería"
 		type = infantry
-		home = 2290
+		home = 2302
 	}
 
 }

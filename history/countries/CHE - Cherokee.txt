@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 143
 	primary_culture = cherokee
 	religion = animist
@@ -49,7 +49,7 @@
 	colonial_migration = no_colonial_migration
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 143
 	primary_culture = cherokee
 	religion = animist
@@ -58,6 +58,9 @@
 	nationalvalue = nv_liberty
 	literacy = 0.50
 	civilized = yes
+
+	set_country_flag = new_world_nation
+	set_country_flag = north_american_immigrant_nation
 
 	ruling_party = CHE_conservative
 	upper_house = {

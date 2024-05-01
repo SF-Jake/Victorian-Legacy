@@ -4,25 +4,25 @@
 203 = {
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 15
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 1110
 	}
 
@@ -56,7 +56,7 @@
 		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = british
 		religion = protestant
 		size = 780

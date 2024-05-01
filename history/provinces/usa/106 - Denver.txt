@@ -1,7 +1,5 @@
-owner = CIV
-controller = CIV
 trade_goods = cattle
-life_rating = 40
+life_rating = 35
 1913.1.1 = {
 	owner = USA
 	controller = USA
@@ -24,7 +22,7 @@ life_rating = 40
 	}
 	state_building = {
 		level = 3
-		building = luxury_furniture_factory
+		building = cigarette_factory
 		upgrade = yes
 	}
 }

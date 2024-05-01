@@ -5,11 +5,6 @@ trade_goods = grain
 life_rating = 35
 terrain = urban
 fort = 1
-state_building = {
-	level = 5
-	building = fertilizer_factory
-	upgrade = yes
-}
 1913.1.1 = {
 	owner = KUK
 	controller = KUK
@@ -21,11 +16,21 @@ state_building = {
 	}
 	state_building = {
 		level = 8
-		building = aeroplane_factory
+		building = glass_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 8
+		level = 5
+		building = furniture_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = fertilizer_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
 		building = automobile_factory
 		upgrade = yes
 	}
@@ -42,11 +47,6 @@ state_building = {
 	state_building = {
 		level = 10
 		building = ammunition_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = synthetic_rubber_factory
 		upgrade = yes
 	}
 }

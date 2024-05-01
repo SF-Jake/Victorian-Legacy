@@ -3,49 +3,49 @@
 #Nouakchott (92000/23000 POPS)
 1775 = {
     aristocrats = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 450
     }
 
     bureaucrats = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 20
     }
 
     officers = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 5
     }
 
     clergymen = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 225
     }
 
     artisans = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 925
     }
 
     soldiers = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 1100
     }
 
-    zbankers = {
-        culture = berber
+    farmers = {
+		culture = w_african
         religion = sunni
         size = 18125
     }
 
     slaves = {
-        culture = berber
+        culture = n_african
         religion = sunni
         size = 3000
     }
@@ -53,37 +53,37 @@
 #Rosso (72000/18000 POPS)
 1776 = {
     aristocrats = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 350
     }
 
     clergymen = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 175
     }
 
     artisans = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 900
     }
 
     soldiers = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 175
     }
 
-    zbankers = {
-        culture = berber
+    farmers = {
+		culture = w_african
         religion = sunni
         size = 11400
     }
 
     slaves = {
-        culture = berber
+        culture = w_african
         religion = sunni
         size = 5000
     }
@@ -92,49 +92,49 @@
 #Aleg (84000/21000 POPS)
 1777 = {
     aristocrats = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 390
     }
 
     bureaucrats = {
-        culture = berber
+		culture = w_african
         religion = sunni
-        size = 235
+        size = 10
     }
 
     officers = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 5
     }
 
     clergymen = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 200
     }
 
     artisans = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 850
     }
 
     soldiers = {
-        culture = berber
+		culture = w_african
         religion = sunni
-        size = 1220
+        size = 220
     }
 
-    zbankers = {
-        culture = berber
+    farmers = {
+		culture = w_african
         religion = sunni
         size = 13325
     }
 
     slaves = {
-        culture = berber
+        culture = w_african
         religion = sunni
         size = 6000
     }
@@ -142,37 +142,37 @@
 #Maghama (28000/7000 POPS)
 1778 = {
     aristocrats = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 75
     }
 
     artisans = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 275
     }
 
     soldiers = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 75
     }
 
-    zbankers = {
-        culture = berber
+    farmers = {
+		culture = w_african
         religion = sunni
         size = 3475
     }
 
     slaves = {
-        culture = berber
+        culture = w_african
         religion = sunni
         size = 3000
     }
@@ -182,43 +182,43 @@
 #Shingit (12000/3000 POPS)
 1779 = {
     aristocrats = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 40
     }
 
     bureaucrats = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 3
     }
 
     officers = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 7
     }
 
     clergymen = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 75
     }
 
     artisans = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 150
     }
 
     soldiers = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 25
     }
 
-    zbankers = {
-        culture = berber
+    farmers = {
+		culture = w_african
         religion = sunni
         size = 2700
     }
@@ -226,33 +226,65 @@
 #Tichit (12000/3000 POPS)
 1780 = {
     aristocrats = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 225
     }
 
     clergymen = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 450
     }
 
     soldiers = {
-        culture = berber
+		culture = w_african
         religion = sunni
         size = 1650
     }
 
-    zbankers = {
-        culture = berber
+    farmers = {
+		culture = w_african
         religion = sunni
         size = 13675
+    }
+}
+#Walata (28000/7000 POPS)
+1781 = {
+    aristocrats = {
+		culture = w_african
+        religion = sunni
+        size = 75
+    }
+
+    clergymen = {
+		culture = w_african
+        religion = sunni
+        size = 25
+    }
+
+    artisans = {
+		culture = w_african
+        religion = sunni
+        size = 225
+    }
+
+    soldiers = {
+		culture = w_african
+        religion = sunni
+        size = 125
+    }
+
+    farmers = {
+		culture = w_african
+        religion = sunni
+        size = 4050
     }
 }
 #Rio de Oro Region (16000) #see West Sahara.txt for balance of region
@@ -260,32 +292,62 @@
 #Bir Maghrein (16000/4000 POPS) #now part of Mauritania
 1782 = {
     aristocrats = {
-        culture = berber
+        culture = n_african
         religion = sunni
-        size = 90
+        size = 15
     }
 
     clergymen = {
-        culture = berber
+        culture = n_african
         religion = sunni
-        size = 35
+        size = 10
     }
 
     artisans = {
-        culture = berber
+        culture = n_african
         religion = sunni
-        size = 1600
+        size = 75
     }
 
     soldiers = {
-        culture = berber
+        culture = n_african
         religion = sunni
-        size = 275
+        size = 50
     }
 
-    zbankers = {
-        culture = berber
+    labourers = {
+        culture = n_african
         religion = sunni
-        size = 4000
+        size = 1350
+    }
+
+    aristocrats = {
+		culture = w_african
+        religion = sunni
+        size = 75
+    }
+
+    clergymen = {
+		culture = w_african
+        religion = sunni
+        size = 25
+    }
+
+    artisans = {
+		culture = w_african
+        religion = sunni
+        size = 225
+    }
+
+    soldiers = {
+		culture = w_african
+        religion = sunni
+        size = 125
+    }
+
+    labourers = {
+		culture = w_african
+        religion = sunni
+        size = 4050
     }
 }

@@ -1,12 +1,11 @@
-owner = NET
-controller = NET
-add_core = KTI
-add_core = SUL
-colonial = 2
-trade_goods = timber
+owner = COM
+controller = COM
+add_core = COM
+add_core = COL
+trade_goods = coal
 life_rating = 35
 1913.1.1 = {
-	owner = NET
-	controller = NET
-	colonial = 2
+	owner = CAN
+	controller = CAN
+	remove_core = RPL
 }

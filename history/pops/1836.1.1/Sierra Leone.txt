@@ -2,40 +2,131 @@
 #uncolonized in 1836/Britain has trade post in 1836
 #Freetown (400000/100000 POPS) 
 1884 = {
-	aristocrats = {
-		culture = western_nigritic
-		religion = animist
-		size = 2100
-	}
 
+	aristocrats = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 300
+	}
+	
 	officers = {
-		culture = western_nigritic
-		religion = animist
-		size = 1125
+		culture = afro_caribbean
+		religion = protestant
+		size = 100
 	}
 
 	clergymen = {
-		culture = western_nigritic
-		religion = animist
-		size = 400
+		culture = afro_caribbean
+		religion = protestant
+		size = 100
 	}
 
 	artisans = {
-		culture = western_nigritic
-		religion = animist
-		size = 62450
+		culture = afro_caribbean
+		religion = protestant
+		size = 4950
 	}
 
 	soldiers = {
-		culture = western_nigritic
-		religion = animist
-		size = 950
+		culture = afro_caribbean
+		religion = protestant
+		size = 100
 	}
 
-	zbankers = {
-		culture = western_nigritic
+	aristocrats = {
+        culture = w_african
+		religion = sunni
+		size = 675
+	}
+	
+	officers = {
+        culture = w_african
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+        culture = w_african
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+        culture = w_african
+		religion = sunni
+		size = 5000
+	}
+
+	soldiers = {
+        culture = w_african
+		religion = sunni
+		size = 350
+	}
+
+	farmers = {
+        culture = w_african
+		religion = sunni
+		size = 28775
+	}
+
+	aristocrats = {
+        culture = w_african
+		religion = sunni
+		size = 875
+	}
+	
+	officers = {
+        culture = w_african
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+        culture = w_african
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+        culture = w_african
+		religion = sunni
+		size = 5000
+	}
+
+	soldiers = {
+        culture = w_african
+		religion = sunni
+		size = 450
+	}
+
+	farmers = {
+        culture = w_african
+		religion = sunni
+		size = 45575
+	}
+
+	aristocrats = {
+        culture = w_african
 		religion = animist
-		size = 34350
+		size = 250
+	}
+
+	clergymen = {
+        culture = w_african
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+        culture = w_african
+		religion = animist
+		size = 7500
+	}
+
+	soldiers = {
+        culture = w_african
+		religion = animist
+		size = 150
 	}
 
 }
@@ -43,37 +134,67 @@
 #Bo (352000/88000 POPS) 
 1886 = {
 	aristocrats = {
-		culture = western_nigritic
-		religion = animist
-		size = 1700
-	}
-
-	clergymen = {
-		culture = western_nigritic
-		religion = animist
-		size = 200
-	}
-
-	artisans = {
-		culture = western_nigritic
-		religion = animist
-		size = 3875
-	}
-
-	soldiers = {
-		culture = western_nigritic
-		religion = animist
+        culture = w_african
+		religion = sunni
 		size = 900
 	}
 
-	zbankers = {
-		culture = western_nigritic
+	clergymen = {
+        culture = w_african
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+        culture = w_african
+		religion = sunni
+		size = 1875
+	}
+
+	soldiers = {
+        culture = w_african
+		religion = sunni
+		size = 475
+	}
+
+	farmers = {
+        culture = w_african
+		religion = sunni
+		size = 36650
+	}
+
+	aristocrats = {
+        culture = w_african
 		religion = animist
-		size = 74325
+		size = 800
+	}
+
+	clergymen = {
+        culture = w_african
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+        culture = w_african
+		religion = animist
+		size = 2000
+	}
+
+	soldiers = {
+        culture = w_african
+		religion = animist
+		size = 425
+	}
+
+	farmers = {
+        culture = w_african
+		religion = animist
+		size = 37675
 	}
 
 	slaves = {
-		culture = western_nigritic
+        culture = w_african
 		religion = animist
 		size = 7000
 	}
@@ -83,37 +204,97 @@
 #Falaba (384000/96000 POPS) #now part of Sierra Leone 
 1885 = {
 	aristocrats = {
-		culture = western_nigritic
-		religion = animist
-		size = 1850
+        culture = w_african
+		religion = sunni
+		size = 925
 	}
 
 	clergymen = {
-		culture = western_nigritic
-		religion = animist
-		size = 300
+        culture = w_african
+		religion = sunni
+		size = 100
 	}
 
 	artisans = {
-		culture = western_nigritic
-		religion = animist
-		size = 3950
+        culture = w_african
+		religion = sunni
+		size = 1900
 	}
 
 	soldiers = {
-		culture = western_nigritic
-		religion = animist
-		size = 1000
+        culture = w_african
+		religion = sunni
+		size = 475
 	}
 
-	zbankers = {
-		culture = western_nigritic
+	farmers = {
+        culture = w_african
+		religion = sunni
+		size = 36600
+	}
+
+	aristocrats = {
+        culture = w_african
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+        culture = w_african
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+        culture = w_african
+		religion = sunni
+		size = 1650
+	}
+
+	soldiers = {
+        culture = w_african
+		religion = sunni
+		size = 425
+	}
+
+	farmers = {
+        culture = w_african
+		religion = sunni
+		size = 37025
+	}
+
+	aristocrats = {
+        culture = w_african
 		religion = animist
-		size = 75925
+		size = 125
+	}
+
+	clergymen = {
+        culture = w_african
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+        culture = w_african
+		religion = animist
+		size = 400
+	}
+
+	soldiers = {
+        culture = w_african
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+        culture = w_african
+		religion = animist
+		size = 2300
 	}
 
 	slaves = {
-		culture = western_nigritic
+        culture = w_african
 		religion = animist
 		size = 13000
 	}

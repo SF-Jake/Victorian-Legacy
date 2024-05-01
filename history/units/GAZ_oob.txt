@@ -8,35 +8,33 @@ GHO = {
 	truce_until="1937.1.1"
 }
 
-TRN = { value = 125 }
-
 leader = {
 	name = "Soshangane"
 	type = land
 	date = 1836.1.1
-	personality = org05mor10
-	background = 2a2d_1
+	personality = defence_2.1
+	background = attack_1.1
 }
 
 army = {
 	name = "Army of the Gaza Empire"
-	location = 2049
+	location = 2050
 	regiment = {
 		name= "King's Guard"
 		type = irregular
-		home = 2049
+		home = 2050
 	}
 
 	regiment = {
 		name= "Gaza Warriors"
 		type = irregular
-		home = 2049
+		home = 2050
 	}
 
 	regiment = {
 		name= "Nguni Warriors"
 		type = irregular
-		home = 2049
+		home = 2051
 	}
 
 	regiment = {
@@ -48,7 +46,7 @@ army = {
 	regiment = {
 		name= "Massekisse Warriors"
 		type = irregular
-		home = 2050
+		home = 2052
 	}
 
 }

@@ -1,7 +1,6 @@
 owner = KSN
 controller = KSN
 add_core = KSN
-add_core = NOR
 add_core = SCA
 trade_goods = iron
 life_rating = 40
@@ -10,5 +9,4 @@ terrain = mountain_mine
 	owner = NOR
 	controller = NOR
 	remove_core = SWE
-	remove_core = KSN
 }

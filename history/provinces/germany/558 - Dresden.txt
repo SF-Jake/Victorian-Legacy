@@ -4,18 +4,12 @@ add_core = SAX
 add_core = GER
 trade_goods = coal
 life_rating = 40
-terrain = woods_mine
-state_building = {
-	level = 5
-	building = cement_factory
-	upgrade = yes
-}
 1913.1.1 = {
 	owner = GER
 	controller = GER
 	state_building = {
 		level = 5
-		building = steel_factory
+		building = liquor_distillery
 		upgrade = yes
 	}
 	state_building = {
@@ -25,17 +19,27 @@ state_building = {
 	}
 	state_building = {
 		level = 5
-		building = barrel_factory
+		building = winery
 		upgrade = yes
 	}
 	state_building = {
 		level = 5
-		building = artillery_factory
+		building = glass_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 5
-		building = liquor_distillery
+		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = synthetic_nitrate_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = pharmaceutical_plant
 		upgrade = yes
 	}
 	state_building = {

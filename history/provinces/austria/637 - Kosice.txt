@@ -1,12 +1,10 @@
 owner = AUS
 controller = AUS
-add_core = AUS
 add_core = SLV
 add_core = HUN
 add_core = CZH
 trade_goods = coal
 life_rating = 35
-terrain = mountain_mine
 1913.1.1 = {
 	owner = KUK
 	controller = KUK
@@ -14,7 +12,7 @@ terrain = mountain_mine
 	add_core = KUK
 	state_building = {
 		level = 5
-		building = artillery_factory
+		building = glass_factory
 		upgrade = yes
 	}
 	state_building = {

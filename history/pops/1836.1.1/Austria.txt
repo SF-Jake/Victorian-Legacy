@@ -38,7 +38,7 @@
 		size = 1100 
 	}
 
-	zbankers = {
+	farmers = {
 		culture = south_german
 		religion = catholic
 		size = 53325
@@ -61,19 +61,7 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 2225
+		size = 3250
 	}
 
 	soldiers = {
@@ -82,10 +70,10 @@
 		size = 1100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 10000
+		size = 28975
 	}
 }
 #Bregenz (132000/33000 POPS)
@@ -114,7 +102,7 @@
 		size = 1100 
 	}
 
-	zbankers = {
+	farmers = {
 		culture = south_german
 		religion = catholic
 		size = 29700
@@ -146,7 +134,7 @@
 		size = 125 
 	}
 
-	zbankers = {
+	farmers = {
 		culture = south_german
 		religion = catholic
 		size = 11975
@@ -183,7 +171,25 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 6000
+		size = 25675
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 20000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 20000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 20000
 	}
 
 	soldiers = {
@@ -192,10 +198,10 @@
 		size = 1050 
 	}
 
-	zbankers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
-		size = 84675 
+		size = 5000 
 	}
 }
 #Judenburg (168000/42000 POPS)
@@ -215,7 +221,13 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 3000
+		size = 20000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 14800
 	}
 
 	soldiers = {
@@ -224,10 +236,10 @@
 		size = 1050 
 	}
 
-	zbankers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
-		size = 36800
+		size = 5000
 	}
 }
 #Klagenfurt (188000/47000 POPS)
@@ -247,19 +259,7 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 1225
+		size = 21225
 	}
 
 	soldiers = {
@@ -268,7 +268,7 @@
 		size = 1100 
 	}
 
-	zbankers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
 		size = 6000
@@ -292,7 +292,7 @@
 		size = 200 
 	}
 
-	zbankers = {
+	labourers = {
 		culture = croat
 		religion = catholic
 		size = 4000 
@@ -326,12 +326,6 @@
 		size = 2750
 	}
 
-	craftsmen = {
-		culture = south_german
-		religion = catholic
-		size = 10000
-	}
-
 	artisans = {
 		culture = south_german
 		religion = catholic
@@ -341,7 +335,7 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 6050
+		size = 10000
 	}
 
 	soldiers = {
@@ -350,10 +344,10 @@
 		size = 4750 
 	}
 
-	zbankers = {
+	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 224000
+		size = 230050
 	}
 
 	clergymen = {
@@ -381,13 +375,13 @@
 	}
 
 	clergymen = {
-		culture = ashkenazi
+		culture = south_german
 		religion = jewish
 		size = 5 
 	}
 
 	artisans = {
-		culture = ashkenazi
+		culture = south_german
 		religion = jewish
 		size = 495
 	}
@@ -415,13 +409,7 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 1125
+		size = 11125
 	}
 
 	soldiers = {
@@ -430,7 +418,7 @@
 		size = 250 
 	}
 
-	zbankers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
 		size = 10000 
@@ -453,31 +441,7 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 7400
+		size = 3100
 	}
 
 	soldiers = {
@@ -486,10 +450,10 @@
 		size = 1050 
 	}
 
-	zbankers = {
+	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 10000
+		size = 54300
 	}
 }
 #Linz (588000/147000 POPS)
@@ -509,7 +473,37 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 10000
+		size = 26550
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 20000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 20000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 20000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 20000
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 20000
 	}
 
 	soldiers = {
@@ -518,10 +512,10 @@
 		size = 1550 
 	}
 
-	zbankers = {
+	labourers = {
 		culture = south_german
 		religion = catholic
-		size = 131550
+		size = 15000
 	}
 }
 #Odenburg Region (196000) #see Hungary.txt for balance of region
@@ -537,13 +531,13 @@
 	clergymen = {
 		culture = south_german
 		religion = catholic
-		size = 510
+		size = 475
 	}
 
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 2600
+		size = 2450
 	}
 
 	soldiers = {
@@ -552,7 +546,7 @@
 		size = 1100 
 	}
 
-	zbankers = {
+	farmers = {
 		culture = south_german
 		religion = catholic
 		size = 41375
@@ -573,12 +567,36 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size = 50 
+		size = 25 
 	}
 
-	zbankers = {
+	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 4555
+		size = 2765  
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = protestant
+		size = 35 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = protestant
+		size = 150
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = protestant
+		size = 25 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = protestant
+		size = 1790   
 	}
 }

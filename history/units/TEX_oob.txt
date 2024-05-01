@@ -12,8 +12,8 @@ leader = {
 	name = "Sam Houston"
 	type = land
 	date="1836.1.1"
-	personality = spd20rec15
-	background = 4a5d_1
+	personality = defence_5.1
+	background = attack_5.1
 }
 
 
@@ -34,7 +34,7 @@ army = {
 	
 	regiment = {
 		name = "Burleson's Command"
-		type = cuirassier
+		type = artillery
 		home = 137
 	}
 	

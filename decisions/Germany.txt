@@ -284,8 +284,8 @@ political_decisions = {
 		effect = {
 			define_general = {
 				name = "§WHelmuth von Moltke the Elder"
-				personality = mor20exp15
-				background = 4a4d_1
+				personality = defence_4.1
+				background = attack_4.1
 			}
 			add_country_modifier = {
 				name = prussian_general_staff
@@ -361,8 +361,9 @@ political_decisions = {
 			}
 			AUS_627 = { owned_by = THIS }
 			AUS_625 = { owned_by = THIS }
-			AUS_619 = { owned_by = THIS }
+			AUS_631 = { owned_by = THIS }
 			AUS_612 = { owned_by = THIS }
+			SWI_605 = { owned_by = THIS }
 		}
 		effect = {
 			change_tag = HLR 	

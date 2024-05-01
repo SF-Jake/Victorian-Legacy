@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 2348
 	primary_culture = platinean
 	religion = catholic
@@ -74,7 +74,7 @@
 	nonstate_consciousness = 0
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 2348
 	primary_culture = platinean
 	religion = catholic
@@ -205,6 +205,10 @@
 		central_bank_money_bill_printing = 1
 		late_classical_theory = 1
 		collectivist_theory = 1
+		the_historical_theory = 1
+		neoclassical_theory = 1
+		keynesian_economics = 1
+		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -286,7 +290,7 @@
 	safety_regulations=trinket_safety
 	unemployment_subsidies=no_subsidies
 	pensions=trinket_pensions
-	health_care=no_health_care
+	health_care=universal_health_care
 	school_reforms=acceptable_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_restricted

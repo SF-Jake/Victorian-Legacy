@@ -33,25 +33,25 @@
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = c_african
 		religion = catholic
 		size = 120
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = c_african
 		religion = catholic
 		size = 50
 	}
 
-	zbankers = {
-		culture = forest_bantu
+	farmers = {
+		culture = c_african
 		religion = catholic
 		size = 1530
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 1100
 	}
@@ -60,31 +60,31 @@
 #Bata (132000/33000 POPS) 
 1973 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 350
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 300
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 1500
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 350
 	}
 
-	zbankers = {
-		culture = forest_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
 		size = 31500
 	}

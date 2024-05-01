@@ -5,33 +5,28 @@ trade_goods = cattle
 life_rating = 35
 1913.1.1 = {
 	state_building = {
-		level = 2
-		building = telephone_factory
+		level = 4
+		building = cigarette_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 3
 		building = fabric_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 2
-		building = regular_clothes_factory
+		building = dye_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 3
 		building = paper_mill
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 7
 		building = canned_food_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = steamer_shipyard
 		upgrade = yes
 	}
 }

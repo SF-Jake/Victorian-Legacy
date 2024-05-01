@@ -3,63 +3,105 @@
 #Windhoek (72000/18000 POPS)
 2078 = {
 	aristocrats = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
-		size = 325
+		size = 100
 	}
 
 	clergymen = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
-		size = 175
+		size = 50
 	}
 
 	artisans = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
-		size = 900
+		size = 300
 	}
 
 	soldiers = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
-		size = 200
+		size = 75
 	}
 
-	zbankers = {
-		culture = south_forest_bantu
+	farmers = {
+		culture = s_african
 		religion = animist
-		size = 16400
+		size = 5175
+	}
+	
+	farmers = {
+		culture = s_african
+		religion = protestant
+		size = 300
+	}
+
+	aristocrats = {
+		culture = s_african
+		religion = animist
+		size = 225
+	}
+
+	clergymen = {
+		culture = s_african
+		religion = animist
+		size = 125
+	}
+
+	artisans = {
+		culture = s_african
+		religion = animist
+		size = 600
+	}
+
+	soldiers = {
+		culture = s_african
+		religion = animist
+		size = 125
+	}
+
+	farmers = {
+		culture = s_african
+		religion = animist
+		size = 10725
+	}
+	
+	farmers = {
+		culture = s_african
+		religion = protestant
+		size = 200
 	}
 }
 #Swakopmund (52000/13000 POPS)
 2079 = {
 	aristocrats = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 150
 	}
 
-	zbankers = {
-		culture = south_forest_bantu
+	farmers = {
+		culture = s_african
 		religion = animist
 		size = 11850
 	}
@@ -68,31 +110,31 @@
 #Tsumeb (24000/6000 POPS)
 2080 = {
 	aristocrats = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 75
 	}
 
-	zbankers = {
-		culture = south_forest_bantu
+	farmers = {
+		culture = s_african
 		religion = animist
 		size = 5475
 	}
@@ -100,31 +142,31 @@
 #Otjinene (44000/11000 POPS)
 2082 = {
 	aristocrats = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 175
 	}
 
 	clergymen = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 550
 	}
 
 	soldiers = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
 		size = 125
 	}
 
-	zbankers = {
-		culture = south_forest_bantu
+	farmers = {
+		culture = s_african
 		religion = animist
 		size = 10050
 	}
@@ -135,33 +177,63 @@
 #Linyati (16000/4000 POPS)
 2081 = {
 	aristocrats = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
-		size = 200
+		size = 100
 	}
 
 	clergymen = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
-		size = 200
+		size = 100
 	}
 
 	artisans = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
-		size = 250
+		size = 150
 	}
 
 	soldiers = {
-		culture = south_forest_bantu
+		culture = s_african
 		religion = animist
-		size = 200
+		size = 100
 	}
 
-	zbankers = {
-		culture = south_forest_bantu
+	farmers = {
+		culture = s_african
 		religion = animist
-		size = 3600
+		size = 2700
+	}
+
+	aristocrats = {
+		culture = c_african
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = c_african
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = c_african
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = c_african
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = c_african
+		religion = animist
+		size = 900
 	}
 }
 #Namaqualand Region (64000) #see South Africa.txt for balance of region
@@ -169,25 +241,25 @@
 #Walvis Bay (4000/1000 POPS)
 2083 = {
 	aristocrats = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
 		size = 10
 	}
 
-	zbankers = {
-		culture = southern_bantu
+	farmers = {
+		culture = s_african
 		religion = animist
 		size = 1925
 	}
@@ -195,31 +267,31 @@
 #Angra Pequena (28000/7000 POPS)
 2084 = {
 	aristocrats = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
 		size = 125
 	}
 
 	clergymen = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
 		size = 350
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
 		size = 75
 	}
 
-	zbankers = {
-		culture = southern_bantu
+	farmers = {
+		culture = s_african
 		religion = animist
 		size = 6375
 	}
@@ -227,64 +299,125 @@
 #Nugouses (12000/3000 POPS)
 2085 = {
 	aristocrats = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
-		size = 40
+		size = 25
 	}
 
 	clergymen = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
-		size = 75
+		size = 50
 	}
 
 	artisans = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
-		size = 150
+		size = 100
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
-		size = 35
+		size = 25
 	}
 
-	zbankers = {
-		culture = southern_bantu
+	farmers = {
+		culture = s_african
 		religion = animist
-		size = 2700
+		size = 1800
+	}
+
+	aristocrats = {
+		culture = s_african
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = s_african
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = s_african
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = s_african
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = s_african
+		religion = animist
+		size = 900
 	}
 }
 #Karasburg (20000/5000 POPS)
 2086 = {
 	aristocrats = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
-		size = 65
+		size = 50
 	}
 
 	clergymen = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
-		size = 60
+		size = 50
 	}
 
 	artisans = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
-		size = 250
+		size = 200
 	}
 
 	soldiers = {
-		culture = southern_bantu
+		culture = s_african
 		religion = animist
-		size = 60
+		size = 50
 	}
 
-	zbankers = {
-		culture = southern_bantu
+	farmers = {
+		culture = s_african
 		religion = animist
-		size = 4550
+		size = 3650
 	}
+
+	aristocrats = {
+		culture = s_african
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = s_african
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = s_african
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = s_african
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = s_african
+		religion = animist
+		size = 900
+	}
+
 }

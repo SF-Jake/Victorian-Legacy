@@ -53,19 +53,37 @@
 	artisans = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 4100
+		size = 3000
 	}
 
 	soldiers = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 850
+		size = 450
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 71450
+		size = 40850
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 1100
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 400
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 30600
 	}
 
 	slaves = {

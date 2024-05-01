@@ -1,6 +1,6 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 1293
-	primary_culture = marathi
+	primary_culture = indo-aryan
 	religion = hindu
 	government = absolute_monarchy
 	plurality = 0.0
@@ -55,15 +55,16 @@
 	oob = "KUT_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 1293
-	primary_culture = gujarati
+	primary_culture = indo-aryan
 	religion = sunni
 	government = absolute_monarchy
 	plurality = 0.0
 	nationalvalue = nv_order
 	literacy = 0.03
 	non_state_culture_literacy = 0.03
+	set_country_flag = indian
 
 	# Political Reforms
 	slavery = no_slavery

@@ -27,7 +27,7 @@
 		size = 100
 	}
 
-	zbankers = {
+	labourers = {
 		culture = australian
 		religion = protestant
 		size = 3825
@@ -60,7 +60,7 @@
 		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = australian
 		religion = protestant
 		size = 1775
@@ -92,7 +92,7 @@
 		size = 75
 	}
 
-	zbankers = {
+	farmers = {
 		culture = australian
 		religion = protestant
 		size = 2675
@@ -104,12 +104,6 @@
 		culture = australian
 		religion = protestant
 		size = 25
-	}
-
-	bureaucrats = {
-		culture = australian
-		religion = protestant
-		size = 100
 	}
 
 	clergymen = {
@@ -130,7 +124,7 @@
 		size = 1000
 	}
 
-	zbankers = {
+	farmers = {
 		culture = australian
 		religion = protestant
 		size = 2675
@@ -162,7 +156,7 @@
 		size = 75
 	}
 
-	zbankers = {
+	farmers = {
 		culture = australian
 		religion = protestant
 		size = 2675
@@ -196,7 +190,7 @@
 		size = 15
 	}
 
-	zbankers = {
+	farmers = {
 		culture = australian
 		religion = protestant
 		size = 900
@@ -228,7 +222,7 @@
 		size = 15
 	}
 
-	zbankers = {
+	farmers = {
 		culture = australian
 		religion = protestant
 		size = 900
@@ -260,7 +254,7 @@
 		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = australian
 		religion = protestant
 		size = 1775
@@ -269,12 +263,6 @@
 #Nelson (12000/3000 POPS)
 2516 = {
 	aristocrats = {
-		culture = australian
-		religion = protestant
-		size = 25
-	}
-
-	bureaucrats = {
 		culture = australian
 		religion = protestant
 		size = 25
@@ -298,7 +286,7 @@
 		size = 75
 	}
 
-	zbankers = {
+	farmers = {
 		culture = australian
 		religion = protestant
 		size = 2675

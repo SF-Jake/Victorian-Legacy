@@ -8,7 +8,6 @@ GHO = {
 	truce_until="1937.1.1"
 }
 
-
 SOK = {
 	value = 100
 }
@@ -42,8 +41,8 @@ leader = {
 	name = "Seku Amadu"
 	type = land
 	date="1836.1.1"
-	personality = org05mor10
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_2.1
 }
 army = {
 	name = "Army of the Massina Jihad"

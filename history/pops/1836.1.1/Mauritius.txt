@@ -2,71 +2,95 @@
 #ruled by Britain 1836
 #Mauritius (98000/24500 POPS)
 2125 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = british
 		religion = protestant
+		size = 20
+	}
+
+	clergymen = {
+		culture = british
+		religion = protestant
+		size = 25
+	}
+
+	artisans = {
+		culture = british
+		religion = protestant
+		size = 130
+	}
+
+	soldiers = {
+		culture = british
+		religion = protestant
+		size = 25
+	}
+
+	aristocrats = {
+		culture = french
+		religion = catholic
 		size = 50
 	}
 
 	bureaucrats = {
-		culture = british
-		religion = protestant
-		size = 50
-	}
-
-	clergymen = {
-		culture = british
-		religion = protestant
-		size = 45
+		culture = french
+		religion = catholic
+		size = 30
 	}
 
 	artisans = {
-		culture = british
-		religion = protestant
-		size = 310
+		culture = french
+		religion = catholic
+		size = 180
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 20
 	}
 
 	soldiers = {
-		culture = british
-		religion = protestant
-		size = 45
+		culture = french
+		religion = catholic
+		size = 20
 	}
 
-	zbankers = {
-		culture = british
-		religion = protestant
+	farmers = {
+		culture = french
+		religion = catholic
 		size = 200
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
-		religion = animist
+		culture = s_african
+		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
-		religion = animist
+		culture = s_african
+		religion = protestant
 		size = 1100
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
-		religion = animist
+		culture = s_african
+		religion = protestant
 		size = 250
 	}
 
-	zbankers = {
-		culture = lacustrine_bantu
-		religion = animist
+	farmers = {
+		culture = s_african
+		religion = catholic
 		size = 22375
 	}
 }
 #Diego Garcia (700/175 POPS) #remains under British Rule
 2128 = {
-	zbankers = {
-		culture = lacustrine_bantu
-		religion = animist
+	farmers = {
+		culture = c_african
+		religion = catholic
 		size = 175
 	}
 

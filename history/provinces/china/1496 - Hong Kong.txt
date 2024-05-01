@@ -1,13 +1,12 @@
 owner = CHI
 controller = CHI
 add_core = CHI
+add_core = GNG
 trade_goods = fish
 life_rating = 40
-terrain = urban_mine
 1913.1.1 = {
 	owner = ENG
 	controller = ENG
-	remove_core = CHI
 	colonial = 0
 	naval_base = 6
 	state_building = {

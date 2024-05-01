@@ -29,17 +29,17 @@ life_rating = 40
 	}
 	state_building = {
 		level = 8
+		building = synthetic_nitrate_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 8
 		building = cement_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 8
 		building = machine_parts_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 10
-		building = artillery_factory
 		upgrade = yes
 	}
 }

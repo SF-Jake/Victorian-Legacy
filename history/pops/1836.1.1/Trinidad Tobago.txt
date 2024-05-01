@@ -5,7 +5,7 @@
 	aristocrats = {
 		culture = british
 		religion = protestant
-		size = 35
+		size = 25
 	}
 
 	bureaucrats = {
@@ -17,19 +17,13 @@
 	clergymen = {
 		culture = british
 		religion = protestant
-		size = 30
+		size = 25
 	}
 
 	artisans = {
 		culture = british
 		religion = protestant
-		size = 435
-	}
-
-	zbankers = {
-		culture = british
-		religion = protestant
-		size = 60
+		size = 410
 	}
 
 	soldiers = {
@@ -40,25 +34,70 @@
 
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 125
+		religion = protestant
+		size = 75
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 100
+	}
+
+	labourers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 10235
+	}
+}
+#Tobago (15000/3750 POPS)
+2238 = {
+	aristocrats = {
+		culture = british
+		religion = protestant
+		size = 10
+	}
+
+	clergymen = {
+		culture = british
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = british
+		religion = protestant
+		size = 25
+	}
+
+	farmers = {
+		culture = british
+		religion = protestant
+		size = 60
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 50
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 150
+		religion = protestant
+		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 13635
+		religion = protestant
+		size = 3400
 	}
+
 }

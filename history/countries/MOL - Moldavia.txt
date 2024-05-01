@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 670
 	primary_culture = romanian
 	government = absolute_monarchy
@@ -85,7 +85,7 @@
 	oob = "MOL_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 670
 	primary_culture = romanian
 	government = absolute_monarchy
@@ -96,7 +96,6 @@
 	prestige = 5
 	religion = orthodox
 	set_country_flag = romanian
-	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery

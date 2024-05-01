@@ -20,86 +20,86 @@
         size = 100
     }
 
-    zbankers = {
+    farmers = {
         culture = portuguese
         religion = catholic
         size = 100
     }
 
     aristocrats = {
-        culture = western_nigritic
+        culture = w_african
         religion = catholic
         size = 100
     }
 
     officers = {
-        culture = western_nigritic
+        culture = w_african
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = western_nigritic
+        culture = w_african
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = western_nigritic
+        culture = w_african
         religion = catholic
         size = 375
     }
 
     soldiers = {
-        culture = western_nigritic
+        culture = w_african
         religion = catholic
         size = 100
     }
 
-    zbankers = {
-        culture = western_nigritic
+    farmers = {
+        culture = w_african
         religion = catholic
         size = 5300
     }
 
     slaves = {
-        culture = western_nigritic
+        culture = w_african
         religion = animist
         size = 2000
     }
 
     aristocrats = {
-        culture = western_nigritic
+        culture = w_african
         religion = animist
         size = 300
     }
 
     officers = {
-        culture = western_nigritic
+        culture = w_african
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = western_nigritic
+        culture = w_african
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = western_nigritic
+        culture = w_african
         religion = animist
         size = 1000
     }
 
     soldiers = {
-        culture = western_nigritic
+        culture = w_african
         religion = animist
         size = 3000
     }
 
-    zbankers = {
-        culture = western_nigritic
+    farmers = {
+        culture = w_african
         religion = animist
         size = 12048
     }
@@ -108,43 +108,79 @@
 #Gabu (152000/38000 POPS)
 1878 = {
     aristocrats = {
-        culture = western_nigritic
-        religion = animist
-        size = 897
+        culture = w_african
+        religion = sunni
+        size = 498
     }
 
     bureaucrats = {
-        culture = western_nigritic
-        religion = animist
-        size = 1000
+        culture = w_african
+        religion = sunni
+        size = 99
     }
 
     clergymen = {
-        culture = western_nigritic
-        religion = animist
-        size = 199
+        culture = w_african
+        religion = sunni
+        size = 99
     }
 
     artisans = {
-        culture = western_nigritic
-        religion = animist
-        size = 1995
+        culture = w_african
+        religion = sunni
+        size = 997
     }
 
     soldiers = {
-        culture = western_nigritic
-        religion = animist
-        size = 1396
+        culture = w_african
+        religion = sunni
+        size = 2194
     }
 
-    zbankers = {
-        culture = western_nigritic
-        religion = animist
-        size = 16853
+    farmers = {
+        culture = w_african
+        religion = sunni
+        size = 3758
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = sunni
+        size = 399
+    }
+
+    bureaucrats = {
+        culture = w_african
+        religion = sunni
+        size = 99
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = sunni
+        size = 99
+    }
+
+    artisans = {
+        culture = w_african
+        religion = sunni
+        size = 997
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = sunni
+        size = 1197
+    }
+
+    farmers = {
+        culture = w_african
+        religion = sunni
+        size = 11100
     }
 
     slaves = {
-        culture = western_nigritic
+        culture = w_african
         religion = animist
         size = 1995
     }

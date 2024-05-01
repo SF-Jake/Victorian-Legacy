@@ -922,68 +922,68 @@ political_decisions = {
 
 			define_general = {
 				name = "Robert E.Lee"
-				personality = mor20exp15
-				background = 3a4d_1
+				personality = defence_4.1
+				background = attack_3.1
 			}
 
 			define_general = {
 				name = "Stonewall Jackson"
-				personality = mor20exp15
-				background = 4a4d_1
+				personality = defence_4.1
+				background = attack_4.1
 			}
 			
 			define_general = {
 				name = "James Longstreet"
-				personality = mor20exp15
-				background = 3a3d_1
+				personality = defence_3.1
+				background = attack_3.1
 			}
 			
 			define_general = {
 				name = "P. G. T. Beauregard"
-				personality = mor20exp15
-				background = 2a2d_1
+				personality = defence_2.1
+				background = attack_2.1
 			}
 
 			define_general = {
 				name = "John Bell Hood"
-				personality = mor20exp15
-				background = 2a2d_1
+				personality = defence_2.1
+				background = attack_2.1
 			}
 
 			define_general = {
 				name = "Braxton Bragg"
-				personality = mor20exp15
-				background = 1a1d_1
+				personality = defence_1.1
+				background = attack_1.1
 			}
 
 			define_general = {
 				name = "Joseph E. Johnston"
-				personality = mor20exp15
-				background = 1a2d_1
+				personality = defence_2.1
+				background = attack_1.1
 			}
 
 			define_general = {
 				name = "Leonidas Polk"
-				personality = mor20exp15
-				background = 1a2d_1
+				personality = defence_2.1
+				background = attack_1.1
 			}
 
 			define_general = {
 				name = "D. H. Hill"
-				personality = mor20exp15
-				background = 3a2d_1
+				personality = defence_2.1
+				background = attack_3.1
 			}
 
 			define_general = {
 				name = "A. P. Hill"
-				personality = mor20exp15
-				background = 2a2d_1
+				personality = defence_2.1
+				background = attack_2.1
 			}
 
 			define_general = {
 				name = "Nathan Bedford Forrest"
-				personality = mor20exp15
-				background = 5a2d_1
+				personality = defence_2.1
+				background = attack_5.1
 			}
 
 			add_country_modifier = {

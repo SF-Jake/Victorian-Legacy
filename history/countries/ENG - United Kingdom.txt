@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 300
 	primary_culture = british
 	religion = protestant
@@ -10,7 +10,7 @@
 	civilized = yes
 
 	#GreaterPowers = prestige
-	prestige = 550
+	prestige = 150
 
 	# Political reforms
 	slavery = no_slavery
@@ -39,7 +39,7 @@
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
 	centralization = unitary
-	colonial_migration = medium_colonial_migration
+	colonial_migration = high_colonial_migration
 	research_and_development = basic_rnd
 
 	# Technologies
@@ -76,6 +76,8 @@
 	market_structure = 1
 
 	# Inventions
+	#corvettes = yes
+	precision_work = yes
 	pharmaceuticals = yes
 
 	# Starting Consciousness
@@ -104,7 +106,7 @@
 	oob = "ENG_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 300
 	primary_culture = british
 	religion = protestant
@@ -114,10 +116,9 @@
 	literacy = 0.55
 	non_state_culture_literacy = 0.05
 	civilized = yes
-	set_country_flag = mob1_invented
 
 	#GreaterPowers = prestige
-	prestige = 550
+	prestige = 150
 
 	# Political reforms
 	slavery = no_slavery
@@ -146,7 +147,7 @@
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
 	centralization = unitary
-	colonial_migration = medium_colonial_migration
+	colonial_migration = high_colonial_migration
 	research_and_development = basic_rnd
 
 	# Technologies
@@ -183,13 +184,15 @@
 	market_structure = 1
 
 	# Inventions
+	#corvettes = yes
+	precision_work = yes
 	pharmaceuticals = yes
 
 	# Starting Consciousness
 	consciousness = 3
 	nonstate_consciousness = 1
 
-	ruling_party = ENG_liberal
+	ruling_party = ENG_conservative
 	last_election = 1835.2.6
 	upper_house = {
 		fascist = 0
@@ -211,39 +214,29 @@
 	oob = "ENG_oob.txt"
 }
 
-1839.1.1 = { set_global_flag = aden_settled }
-
 1842.8.9 = {
-	decision = webster_ashburton_treaty
+decision = webster_ashburton_treaty
 }
 
 1846.6.25 = {
-	set_country_flag = corn_laws_repealed_flag
+decision = repeal_the_corn_laws
 }
 
 1860.10.18 = {
-	set_global_flag = summer_palace_torched
-}
-
-1856.11.1 = {
-	set_country_flag = anglo_persian_war
-}
-
-1861.8.6 = {
-	set_global_flag = lagos_cessation
+set_global_flag = summer_palace_torched
 }
 
 1913.1.1 = {
 	oob = "/1913/ENG_oob.txt"
-	prestige = 3500
+	prestige = 1350
 	plurality = 100
 	literacy = 0.95
 	non_state_culture_literacy = 0.15
+	decision = english_1913_setup
 	decision = the_scotland_yard
 	decision = ionian_islands_question
 	decision = rhodesia_charter
 	decision = build_suez_canal
-	set_global_flag = south_yemen_organized
 	set_country_flag = sepoy_rebellion
 	set_country_flag = great_irish_famine
 	set_global_flag = tutankhamun_found
@@ -309,6 +302,10 @@ ruling_party = ENG_liberal_2
 		market_determined_exchange_rates = 1
 		late_classical_theory = 1
 		collectivist_theory = 1
+		the_historical_theory = 1
+		neoclassical_theory = 1
+		keynesian_economics = 1
+		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -415,7 +412,7 @@ ruling_party = ENG_liberal_2
 	safety_regulations=good_safety
 	unemployment_subsidies=trinket_subsidies
 	pensions=good_pensions
-	health_care=good_health_care
+	health_care=universal_health_care
 	school_reforms=good_schools
 	penal_system=rehabilitation
 	child_labor=child_labor_illegal
@@ -431,11 +428,6 @@ ruling_party = ENG_liberal_2
 	citizens_rights=all_voting_pops
 	debt_law=bankruptcy
 	border_policy=open_borders
-	colonial_migration=medium_colonial_migration
+	colonial_migration=high_colonial_migration
 	centralization=unitary
-}
-
-
-1914.7.28 = {
-	oob = "/WW1/ENG_oob.txt"
 }

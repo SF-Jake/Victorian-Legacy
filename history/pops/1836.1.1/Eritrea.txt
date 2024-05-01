@@ -3,111 +3,135 @@
 #Massawa (28000/7000 POPS)
 1849 = {
     aristocrats = {
-        culture = amhara
-        religion = coptic
-        size = 245
-    }
-
-    clergymen = {
-        culture = amhara
-        religion = coptic
-        size = 294
-    }
-
-    artisans = {
-        culture = amhara
-        religion = coptic
-        size = 686
-    }
-
-    soldiers = {
-        culture = amhara
-        religion = coptic
+		culture = e_african
+        religion = sunni
         size = 98
     }
 
-    zbankers = {
-        culture = amhara
-        religion = coptic
-        size = 12348
+    clergymen = {
+		culture = e_african
+        religion = sunni
+        size = 147
+    }
+
+    artisans = {
+		culture = e_african
+        religion = sunni
+        size = 294
+    }
+
+    soldiers = {
+		culture = e_african
+        religion = sunni
+        size = 49
+    }
+
+    farmers = {
+		culture = e_african
+        religion = sunni
+        size = 5292
     }
 
     bureaucrats = {
-        culture = mashriqi
+        culture = e_african
         religion = sunni
         size = 9
     }
 
     soldiers = {
-        culture = mashriqi
+        culture = e_african
         religion = sunni
         size = 39
     }
-}
-#Assab (44000/11000 POPS)
-1851 = {
-    aristocrats = {
-        culture = amhara
-        religion = coptic
-        size = 245
-    }
-
-    bureaucrats = {
-        culture = tigray
-        religion = sunni
-        size = 140
-    }
-
-    clergymen = {
-        culture = amhara
-        religion = coptic
-        size = 147
-    }
-
-    artisans = {
-        culture = amhara
-        religion = coptic
-        size = 686
-    }
-
-    soldiers = {
-        culture = amhara
-        religion = coptic
-        size = 2107
-    }
-
-    zbankers = {
-        culture = amhara
-        religion = coptic
-        size = 12495
-    }
 
     aristocrats = {
-        culture = cushitic
+        culture = e_african
         religion = sunni
         size = 147
     }
 
     clergymen = {
-        culture = cushitic
+        culture = e_african
         religion = sunni
         size = 147
     }
 
     artisans = {
-        culture = cushitic
+        culture = e_african
         religion = sunni
         size = 392
     }
 
     soldiers = {
-        culture = cushitic
+        culture = e_african
+        religion = sunni
+        size = 49
+    }
+
+    farmers = {
+        culture = e_african
+        religion = sunni
+        size = 7056
+    }
+}
+#Assab (44000/11000 POPS)
+1851 = {
+    aristocrats = {
+		culture = e_african
+        religion = sunni
+        size = 245
+    }
+
+    clergymen = {
+		culture = e_african
+        religion = sunni
+        size = 147
+    }
+
+    artisans = {
+		culture = e_african
+        religion = sunni
+        size = 686
+    }
+
+    soldiers = {
+		culture = e_african
+        religion = sunni
+        size = 2107
+    }
+
+    farmers = {
+		culture = e_african
+        religion = sunni
+        size = 12495
+    }
+
+    aristocrats = {
+		culture = e_african
+        religion = sunni
+        size = 147
+    }
+
+    clergymen = {
+		culture = e_african
+        religion = sunni
+        size = 147
+    }
+
+    artisans = {
+		culture = e_african
+        religion = sunni
+        size = 392
+    }
+
+    soldiers = {
+		culture = e_african
         religion = sunni
         size = 98
     }
 
-    zbankers = {
-        culture = cushitic
+    farmers = {
+		culture = e_african
         religion = sunni
         size = 7056
     }
@@ -116,75 +140,105 @@
 #Asmara (80000/20000 POPS)
 1848 = {
     aristocrats = {
-        culture = amhara
+		culture = e_african
         religion = coptic
-        size = 735
+        size = 441
     }
 
     bureaucrats = {
-        culture = amhara
+		culture = e_african
         religion = coptic
         size = 29
     }
 
     officers = {
-        culture = amhara
+		culture = e_african
         religion = coptic
         size = 49
     }
 
     clergymen = {
-        culture = amhara
+		culture = e_african
         religion = coptic
-        size = 392
+        size = 245
     }
 
     artisans = {
-        culture = amhara
+		culture = e_african
         religion = coptic
-        size = 1960
+        size = 1176
     }
 
     soldiers = {
-        culture = amhara
+		culture = e_african
         religion = coptic
-        size = 397
+        size = 245
     }
 
-    zbankers = {
-        culture = amhara
+    farmers = {
+		culture = e_african
         religion = coptic
-        size = 35525
+        size = 21217
+    }
+
+    aristocrats = {
+		culture = e_african
+        religion = sunni
+        size = 294
+    }
+
+    clergymen = {
+		culture = e_african
+        religion = sunni
+        size = 147
+    }
+
+    artisans = {
+		culture = e_african
+        religion = sunni
+        size = 784
+    }
+
+    soldiers = {
+		culture = e_african
+        religion = sunni
+        size = 147
+    }
+
+    farmers = {
+		culture = e_african
+        religion = sunni
+        size = 14308
     }
 }
 #Akordat (28000/7000 POPS)
 1850 = {
     aristocrats = {
-        culture = amhara
+		culture = e_african
         religion = coptic
         size = 245
     }
 
     clergymen = {
-        culture = amhara
+		culture = e_african
         religion = coptic
         size = 147
     }
 
     artisans = {
-        culture = amhara
+		culture = e_african
         religion = coptic
         size = 686
     }
 
     soldiers = {
-        culture = amhara
+		culture = e_african
         religion = coptic
         size = 147
     }
 
-    zbankers = {
-        culture = amhara
+    farmers = {
+		culture = e_african
         religion = coptic
         size = 12495
     }

@@ -3,89 +3,233 @@
 #Cotonou (544000/136000 POPS)
 1919 = {
     aristocrats = {
-        culture = yoruba
+        culture = w_african
         religion = animist
-        size = 3379
+        size = 2585
     }
 
     clergymen = {
-        culture = yoruba
+        culture = w_african
+        religion = animist
+        size = 1459
+    }
+
+    artisans = {
+        culture = w_african
+        religion = animist
+        size = 2653
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = animist
+        size = 2918
+    }
+
+    farmers = {
+        culture = w_african
+        religion = animist
+        size = 80727
+    }
+
+    slaves = {
+        culture = w_african
+        religion = animist
+        size = 5306
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = animist
+        size = 727
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = animist
+        size = 397
+    }
+
+    artisans = {
+        culture = w_african
         religion = animist
         size = 1989
     }
 
-    artisans = {
-        culture = yoruba
-        religion = animist
-        size = 4907
-    }
-
     soldiers = {
-        culture = yoruba
+        culture = w_african
         religion = animist
-        size = 3380
+        size = 397
     }
 
-    zbankers = {
-        culture = yoruba
+    farmers = {
+        culture = w_african
         religion = animist
-        size = 130430
+        size = 36282
     }
 
     slaves = {
-        culture = yoruba
+        culture = w_african
         religion = animist
-        size = 40000
+        size = 34493
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = animist
+        size = 65
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = animist
+        size = 131
+    }
+
+    artisans = {
+        culture = w_african
+        religion = animist
+        size = 264
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = animist
+        size = 65
+    }
+
+    farmers = {
+        culture = w_african
+        religion = animist
+        size = 4776
+    }
+
+    slaves = {
+        culture = w_african
+        religion = animist
+        size = 5306
     }
 }
 #Abomey (480000/120000 POPS)
 1920 = {
     aristocrats = {
-        culture = yoruba
+        culture = w_african
         religion = animist
-        size = 3051
+        size = 2785
     }
 
     bureaucrats = {
-        culture = yoruba
+        culture = w_african
         religion = animist
-        size = 1700
+        size = 131
     }
 
     officers = {
-        culture = yoruba
+        culture = w_african
         religion = animist
         size = 264
     }
 
     clergymen = {
-        culture = yoruba
+        culture = w_african
         religion = animist
-        size = 1788
+        size = 1459
     }
 
     artisans = {
-        culture = yoruba
+        culture = w_african
         religion = animist
-        size = 6564
+        size = 5636
     }
 
     soldiers = {
-        culture = yoruba
+        culture = w_african
         religion = animist
-        size = 10810
+        size = 10613
     }
 
-    zbankers = {
-        culture = yoruba
+    farmers = {
+        culture = w_african
         religion = animist
-        size = 119191
+        size = 103943
     }
 
     slaves = {
-        culture = yoruba
+        culture = w_african
         religion = animist
-        size = 15920
+        size = 10613
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = animist
+        size = 131
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = animist
+        size = 131
+    }
+
+    artisans = {
+        culture = w_african
+        religion = animist
+        size = 530
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = animist
+        size = 131
+    }
+
+    farmers = {
+        culture = w_african
+        religion = animist
+        size = 9683
+    }
+
+    slaves = {
+        culture = w_african
+        religion = animist
+        size = 2653
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = animist
+        size = 131
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = animist
+        size = 196
+    }
+
+    artisans = {
+        culture = w_african
+        religion = animist
+        size = 397
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = animist
+        size = 65
+    }
+
+    farmers = {
+        culture = w_african
+        religion = animist
+        size = 7163
+    }
+
+    slaves = {
+        culture = w_african
+        religion = animist
+        size = 2653
     }
 }
 #Borgu Region (76000) #see Nigeria.txt for balance of region
@@ -93,76 +237,130 @@
 #Nikki (48000/12000 POPS)
 1921 = {
     aristocrats = {
-        culture = tiv
+        culture = w_african
         religion = animist
-        size = 295
-    }
-
-    bureaucrats = {
-        culture = tiv
-        religion = animist
-        size = 200
+        size = 65
     }
 
     clergymen = {
-        culture = tiv
+        culture = w_african
         religion = animist
-        size = 228
+        size = 97
     }
 
     artisans = {
-        culture = tiv
+        culture = w_african
         religion = animist
-        size = 692
+        size = 196
     }
 
     soldiers = {
-        culture = tiv
+        culture = w_african
         religion = animist
-        size = 264
+        size = 131
     }
 
-    zbankers = {
-        culture = tiv
+    farmers = {
+        culture = w_african
         religion = animist
-        size = 13198
+        size = 3581
     }
 
     slaves = {
-        culture = tiv
+        culture = w_african
         religion = animist
         size = 1459
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = sunni
+        size = 228
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = sunni
+        size = 131
+    }
+
+    artisans = {
+        culture = w_african
+        religion = sunni
+        size = 494
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = sunni
+        size = 131
+    }
+
+    farmers = {
+        culture = w_african
+        religion = sunni
+        size = 9617
     }
 }
 #Jugu (28000/7000 POPS)
 1922 = {
     aristocrats = {
-        culture = mossi
+        culture = w_african
         religion = animist
-        size = 264
+        size = 131
     }
 
     clergymen = {
-        culture = mossi
+        culture = w_african
         religion = animist
-        size = 264
+        size = 131
     }
 
     artisans = {
-        culture = mossi
+        culture = w_african
         religion = animist
-        size = 462
+        size = 329
     }
 
     soldiers = {
-        culture = mossi
+        culture = w_african
         religion = animist
-        size = 264
+        size = 131
     }
 
-    zbankers = {
-        culture = mossi
+    farmers = {
+        culture = w_african
         religion = animist
-        size = 8454
+        size = 6066
+    }
+
+    aristocrats = {
+        culture = w_african
+        religion = sunni
+        size = 131
+    }
+
+    clergymen = {
+        culture = w_african
+        religion = sunni
+        size = 131
+    }
+
+    artisans = {
+        culture = w_african
+        religion = sunni
+        size = 131
+    }
+
+    soldiers = {
+        culture = w_african
+        religion = sunni
+        size = 131
+    }
+
+    farmers = {
+        culture = w_african
+        religion = sunni
+        size = 2387
     }
 }

@@ -9,25 +9,17 @@ GHO = {
 }
 
 army = {
-	leader = {
-		name = "Nasrullah Khan"
-		type = land
-		date = 1836.1.1
-		personality = org05mor10
-		background = 2a2d_1
-		prestige = 0.1
-	}
 	name = "Army of Nasrullah Khan"
 	location = 1198
 	regiment = {
 		name= "1st Buchara"
-		type = irregular
+		type = cavalry
 		home = 1198
 	}
 
 	regiment = {
 		name= "2nd Buchara"
-		type = irregular
+		type = cavalry
 		home = 1198
 	}
 
@@ -39,13 +31,6 @@ army = {
 }
 
 army = {
-	leader = {
-		name = "Muzaffar bin Nasrullah"
-		type = land
-		date = 1836.1.1
-		personality = rec05att05
-		background = 1a1d_1
-	}
 	name = "Army of Bukkhara"
 	location = 1200
 	regiment = {
@@ -62,7 +47,7 @@ army = {
 
 	regiment = {
 		name= "6th Buchara"
-		type = cavalry
+		type = irregular
 		home = 1198
 	}
 }
@@ -85,7 +70,7 @@ army = {
 
 	regiment = {
 		name= "3.Samarkand"
-		type = cavalry
+		type = irregular
 		home = 1199
 	}
 }

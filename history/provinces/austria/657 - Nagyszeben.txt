@@ -1,6 +1,5 @@
 owner = AUS
 controller = AUS
-add_core = AUS
 add_core = HUN
 add_core = ROM
 add_core = SIE
@@ -13,7 +12,7 @@ life_rating = 35
 	add_core = KUK
 	state_building = {
 		level = 4
-		building = luxury_furniture_factory
+		building = tea_packaging_factory
 		upgrade = yes
 	}
 	state_building = {

@@ -2,15 +2,10 @@ owner = TUR
 controller = TUR
 add_core = TUR
 trade_goods = fruit
-life_rating = 40
 terrain = urban
+life_rating = 40
 naval_base = 1
 fort = 1
-state_building = {
-	level = 1
-	building = canned_food_factory
-	upgrade = yes
-}
 1913.1.1 = {
 	fort = 4
 	state_building = {
@@ -25,17 +20,22 @@ state_building = {
 	}
 	state_building = {
 		level = 3
-		building = small_arms_factory
+		building = winery
 		upgrade = yes
 	}
 	state_building = {
 		level = 3
-		building = lumber_mill
+		building = pharmaceutical_plant
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
+		level = 3
 		building = artillery_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = glass_factory
 		upgrade = yes
 	}
 	naval_base = 5

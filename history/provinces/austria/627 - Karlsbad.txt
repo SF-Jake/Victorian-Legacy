@@ -6,11 +6,6 @@ add_core = CZH
 trade_goods = iron
 life_rating = 35
 terrain = hills_mine
-state_building = {
-	level = 3
-	building = cement_factory
-	upgrade = yes
-}
 1913.1.1 = {
 	owner = KUK
 	controller = KUK
@@ -18,7 +13,7 @@ state_building = {
 	add_core = KUK
 	state_building = {
 		level = 4
-		building = lumber_mill
+		building = synthetic_nitrate_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -29,21 +24,6 @@ state_building = {
 	state_building = {
 		level = 2
 		building = cement_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 3
-		building = machine_parts_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 3
-		building = small_arms_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 4
-		building = artillery_factory
 		upgrade = yes
 	}
 }

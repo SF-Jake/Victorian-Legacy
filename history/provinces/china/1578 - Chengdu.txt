@@ -1,5 +1,6 @@
 owner = CHI
 controller = CHI
+add_core = SZC
 add_core = CHI
 trade_goods = tea_leaves
 life_rating = 30
@@ -9,10 +10,4 @@ life_rating = 30
 		building = tea_packaging_factory
 		upgrade = yes
 	}
-}
-1913.1.1 = {
-	owner = CHI
-	controller = CHI
-	add_core = CHI
-	remove_core = CHI
 }

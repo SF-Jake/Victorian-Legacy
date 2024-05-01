@@ -35,6 +35,11 @@ life_rating = 40
 	}
 	state_building = {
 		level = 3
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
 		building = artillery_factory
 		upgrade = yes
 	}

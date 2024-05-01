@@ -9,27 +9,12 @@ life_rating = 40
 	controller = GER
 	state_building = {
 		level = 3
-		building = aeroplane_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = synthetic_rubber_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = lumber_mill
+		building = liquor_distillery
 		upgrade = yes
 	}
 	state_building = {
 		level = 3
-		building = cement_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = synthetic_oil_factory
+		building = glass_factory
 		upgrade = yes
 	}
 	naval_base = 6

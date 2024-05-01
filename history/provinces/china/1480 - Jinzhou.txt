@@ -1,12 +1,9 @@
 owner = MCK
 controller = MCK
-add_core = CHI
 add_core = MCK
-trade_goods = fish
-life_rating = 35
+add_core = CHI
+trade_goods = timber
+life_rating = 32
 1913.1.1 = {
-	owner = CHI
-	controller = CHI
-	add_core = CHI
-	remove_core = CHI
+	naval_base = 4
 }

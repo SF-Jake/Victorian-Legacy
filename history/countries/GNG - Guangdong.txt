@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 1493
 	primary_culture = beifaren
 	religion = mahayana
@@ -59,7 +59,7 @@
 	nonstate_consciousness = 0
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 1493
 	primary_culture = beifaren
 	religion = mahayana
@@ -121,6 +121,7 @@
 }
 
 1913.1.1 = {
+	oob = "/1913/GNG_oob.txt"
 	government = presidential_dictatorship
 	literacy = 0.15
 	non_state_culture_literacy = 0.15

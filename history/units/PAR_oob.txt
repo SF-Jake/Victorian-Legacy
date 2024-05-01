@@ -31,8 +31,9 @@ army = {
 		name = "Wilhelm Albrecht"
 		date = 1836.1.1
 		type = land
-		personality = org05mor10
-		background = 1a2d_1
+	personality = defence_2.1
+	background = attack_2.1
+		prestige = 0.5
 	}
 	
 	location = 738

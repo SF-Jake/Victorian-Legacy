@@ -26,38 +26,38 @@
 		size = 15
 	}
 
-	zbankers = {
+	labourers = {
 		culture = russian
 		religion = orthodox
 		size = 665
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
-	zbankers = {
-		culture = turkmen
+	labourers = {
+		culture = kazak
 		religion = sunni
 		size = 3625
 	}
@@ -65,31 +65,31 @@
 #Aqtobe (20000/5000 POPS)
 1183 = {
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 250
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 50
 	}
 
-	zbankers = {
-		culture = turkmen
+	farmers = {
+		culture = kazak
 		religion = sunni
 		size = 4575
 	}
@@ -114,38 +114,38 @@
 		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = russian
 		religion = orthodox
 		size = 1150
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 25
 	}
 
-	zbankers = {
-		culture = turkmen
+	farmers = {
+		culture = kazak
 		religion = sunni
 		size = 1825
 	}
@@ -153,31 +153,31 @@
 #Turgay (20000/5000 POPS)
 2611 = {
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 250
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 50
 	}
 
-	zbankers = {
-		culture = turkmen
+	farmers = {
+		culture = kazak
 		religion = sunni
 		size = 4575
 	}
@@ -187,31 +187,31 @@
 #Qaraganda (56000/14000 POPS)
 1181 = {
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 225
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 3525
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 125
 	}
 
-	zbankers = {
-		culture = turkmen
+	labourers = {
+		culture = kazak
 		religion = sunni
 		size = 10000
 	}
@@ -243,31 +243,31 @@
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 425
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 10150
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 225
 	}
 
-	zbankers = {
-		culture = turkmen
+	labourers = {
+		culture = kazak
 		religion = sunni
 		size = 10000
 	}
@@ -275,75 +275,63 @@
 #Yasi (80000/20000 POPS)
 1185 = {
 	aristocrats = {
-		culture = turkmen
-		religion = sunni
-		size = 350
-	}
-
-	bureaucrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 350
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = turkmen
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 1100
 	}
 
-	zbankers = {
-		culture = turkmen
+	soldiers = {
+		culture = kazak
 		religion = sunni
-		size = 19250
+		size = 200
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 18250
 	}
 }
 #Zhambul (76000/19000 POPS)
 2606 = {
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 350
 	}
 
-	bureaucrats = {
-		culture = turkmen
-		religion = sunni
-		size = 100
-	}
-
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 175
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 8275
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
-		size = 1100
+		size = 200
 	}
 
-	zbankers = {
-		culture = turkmen
+	labourers = {
+		culture = kazak
 		religion = sunni
 		size = 10000
 	}
@@ -351,31 +339,31 @@
 #Aktash (68000/17000 POPS)
 2612 = {
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 325
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 175
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 6325
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 175
 	}
 
-	zbankers = {
-		culture = turkmen
+	labourers = {
+		culture = kazak
 		religion = sunni
 		size = 10000
 	}
@@ -385,63 +373,63 @@
 #Semipalatinsk (80000/20000 POPS)
 1187 = {
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 350
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = turkmen
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 1100
 	}
 
-	zbankers = {
-		culture = turkmen
+	soldiers = {
+		culture = kazak
 		religion = sunni
-		size = 19250
+		size = 200
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 18250
 	}
 }
 #Qaratal (108000/27000 POPS)
 1188 = {
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 300
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 800
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 175
 	}
 
-	zbankers = {
-		culture = turkmen
+	farmers = {
+		culture = kazak
 		religion = sunni
 		size = 14575
 	}
@@ -470,7 +458,7 @@
 		size = 125
 	}
 
-	zbankers = {
+	farmers = {
 		culture = uighur
 		religion = sunni
 		size = 10025
@@ -480,27 +468,63 @@
 #Alma-Ata (88000/22000 POPS)
 1186 = {
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
-		size = 400
+		size = 100
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
-		size = 200
+		size = 50
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 3275
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
-		size = 250
+		size = 75
 	}
 
-	zbankers = {
-		culture = turkmen
+	labourers = {
+		culture = kazak
 		religion = sunni
-		size = 18650
+		size = 2500
+	}
+
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 10375
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 175
+	}
+
+	labourers = {
+		culture = kazak
+		religion = sunni
+		size = 2500
 	}
 }
 #Khwarazm Region (168000) #see Uzbekistan.txt and Turkmenistan.txt for balance of region 
@@ -510,61 +534,91 @@
 	aristocrats = {
 		culture = turkmen
 		religion = sunni
-		size = 500
+		size = 250
 	}
 
 	clergymen = {
 		culture = turkmen
 		religion = sunni
-		size = 250
+		size = 125
 	}
 
 	artisans = {
 		culture = turkmen
 		religion = sunni
-		size = 575
+		size = 8475
 	}
 
 	soldiers = {
-		culture = turkmen
-		religion = sunni
-		size = 275
-	}
-
-	zbankers = {
-		culture = turkmen
-		religion = sunni
-		size = 11000
-	}
-}
-#Aqtau (32000/8000 POPS)
-1194 = {
-	aristocrats = {
 		culture = turkmen
 		religion = sunni
 		size = 150
 	}
 
-	clergymen = {
+	labourers = {
 		culture = turkmen
+		religion = sunni
+		size = 5000
+	}
+
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 7500
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 125
+	}
+
+	labourers = {
+		culture = kazak
+		religion = sunni
+		size = 5000
+	}
+}
+#Aqtau (32000/8000 POPS)
+1194 = {
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 350
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
-	zbankers = {
-		culture = turkmen
+	farmers = {
+		culture = kazak
 		religion = sunni
 		size = 7350
 	}
@@ -572,31 +626,31 @@
 #Aralsk (28000/7000 POPS)
 2702 = {
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 350
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
-	zbankers = {
-		culture = turkmen
+	farmers = {
+		culture = kazak
 		religion = sunni
 		size = 6425
 	}
@@ -608,31 +662,61 @@
     aristocrats = {
         culture = turkmen
         religion = sunni
-        size = 800
+        size = 250
     }
 
     clergymen = {
         culture = turkmen
         religion = sunni
-        size = 375
+        size = 125
     }
 
     artisans = {
         culture = turkmen
         religion = sunni
-        size = 2250
+        size = 750
     }
 
     soldiers = {
         culture = turkmen
         religion = sunni
-        size = 400
+        size = 150
     }
 
-    zbankers = {
+    farmers = {
         culture = turkmen
         religion = sunni
-        size = 41175
+        size = 13725
+    }
+
+    aristocrats = {
+        culture = kazak
+        religion = sunni
+        size = 550
+    }
+
+    clergymen = {
+        culture = kazak
+        religion = sunni
+        size = 250
+    }
+
+    artisans = {
+        culture = kazak
+        religion = sunni
+        size = 1500
+    }
+
+    soldiers = {
+        culture = kazak
+        religion = sunni
+        size = 250
+    }
+
+    farmers = {
+        culture = kazak
+        religion = sunni
+        size = 27450
     }
 
     slaves = {
@@ -641,59 +725,4 @@
         size = 6000
     }
 
-}
-
-#Kyzylorda (108000/27000 POPS)
-2677 = {
-    aristocrats = {
-        culture = turkmen
-        religion = sunni
-        size = 500
-    }
-
-    clergymen = {
-        culture = turkmen
-        religion = sunni
-        size = 250
-    }
-
-    artisans = {
-        culture = turkmen
-        religion = sunni
-        size = 10000
-    }
-
-    artisans = {
-        culture = turkmen
-        religion = sunni
-        size = 5975
-    }
-
-    soldiers = {
-        culture = turkmen
-        religion = sunni
-        size = 275
-    }
-
-    zbankers = {
-        culture = turkmen
-        religion = sunni
-        size = 10000
-    }
-
-}
-
-#Ayteke Bi
-1081 = {
-    clergymen = {
-        culture = turkmen
-        religion = sunni
-        size = 30
-    }
-
-    zbankers = {
-        culture = turkmen
-        religion = sunni
-        size = 1375
-    }
 }

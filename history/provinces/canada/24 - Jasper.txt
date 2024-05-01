@@ -1,12 +1,10 @@
-owner = YEM
-controller = YEM
-add_core = YEM
-trade_goods = opium
+owner = COM
+controller = COM
+add_core = COM
+trade_goods = timber
 life_rating = 35
-terrain = coastal_desert
 1913.1.1 = {
-	owner = ENG
-	controller = ENG
-	naval_base = 6
-	colonial = 2
+	owner = CAN
+	controller = CAN
+	remove_core = RPL
 }

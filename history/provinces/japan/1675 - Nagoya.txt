@@ -10,18 +10,23 @@ life_rating = 35
 }
 1913.1.1 = {
 	state_building = {
-		level = 8
-		building = luxury_furniture_factory
+		level = 5
+		building = winery
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
+		level = 5
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
 		building = fabric_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = dye_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -30,23 +35,8 @@ life_rating = 35
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
-		building = regular_clothes_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 9
-		building = luxury_clothes_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 10
-		building = small_arms_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = steel_factory
+		level = 15
+		building = tea_packaging_factory
 		upgrade = yes
 	}
 	naval_base = 6

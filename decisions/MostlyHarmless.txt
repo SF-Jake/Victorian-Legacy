@@ -1,6 +1,26 @@
 # Audax Validator "!" Ignore_1004
 # Audax Validator "!" Ignore_1009
 political_decisions = {
+	jan_mayen_money = {
+		potential = {
+			tag = JAN
+		}
+		allow = {
+			money = 10000000
+		}
+		effect = {
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+		}
+	}
 	province_selector_event = {
 		potential = {
 			tag = JAN

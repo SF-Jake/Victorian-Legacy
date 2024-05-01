@@ -63,12 +63,6 @@ country_event = {
 	option = {
 		name = "Very Good!"
 		inherit = FROM
-		any_owned = {
-			limit = {
-				province_selector = 1
-			}
-			province_selector = -1
-		}
 	}
 }
 

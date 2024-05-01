@@ -49,22 +49,10 @@
 		size = 4100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 94300
-	}
-
-	craftsmen = {
-		culture = dutch
-		religion = protestant
-		size = 2000
-	}
-
-	clerks = {
-		culture = dutch
-		religion = protestant
-		size = 1000
+		size = 97300
 	}
 }
 #Rotterdam (567000/141750 POPS)
@@ -99,16 +87,10 @@
 		size = 3350
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 115125
-	}
-
-	craftsmen = {
-		culture = dutch
-		religion = protestant
-		size = 3000
+		size = 118125
 	}
 
 	artisans = {
@@ -144,16 +126,10 @@
 		size = 3100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 23525
-	}
-
-	craftsmen = {
-		culture = dutch
-		religion = protestant
-		size = 1000
+		size = 24525
 	}
 }
 #Middelburg (170000/42500 POPS)
@@ -170,23 +146,30 @@
 		size = 200
 	}
 
-	artisans = {
-		culture = dutch
-		religion = protestant
-		size = 150
-	}
-
 	soldiers = {
 		culture = dutch
 		religion = protestant
 		size = 2800
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 38400
+		size = 37300
 	}
+
+	artisans = {
+		culture = dutch
+		religion = catholic
+		size = 150
+	}
+
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 1100
+	}
+
 }
 #Limburg-Gelderland Region - 979400
 #Eindhoven (230000/57500 POPS)
@@ -251,10 +234,16 @@
 		size = 3400
 	}
 
-	zbankers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
-		size = 10000
+		size = 6950
+	}
+
+	labourers = {
+		culture = dutch
+		religion = catholic
+		size = 3050
 	}
 }
 #Breda (173200/43300 POPS)
@@ -283,7 +272,7 @@
 		size = 1100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
 		size = 35050
@@ -291,71 +280,59 @@
 }
 #Maastricht (164200/41050 POPS)
 381 = {
-    aristocrats = {
-        culture = dutch
-        religion = protestant
-        size = 900
-    }
+	aristocrats = {
+		culture = dutch
+		religion = protestant
+		size = 300
+	}
 
-    clergymen = {
-        culture = dutch
-        religion = protestant
-        size = 800
-    }
+	bureaucrats = {
+		culture = dutch
+		religion = protestant
+		size = 3000
+	}
 
-    artisans = {
-        culture = dutch
-        religion = protestant
-        size = 10000
-    }
+	clergymen = {
+		culture = dutch
+		religion = protestant
+		size = 200
+	}
 
-    artisans = {
-        culture = dutch
-        religion = protestant
-        size = 10000
-    }
+	artisans = {
+		culture = dutch
+		religion = protestant
+		size = 10000
+	}
 
-    artisans = {
-        culture = dutch
-        religion = protestant
-        size = 10000
-    }
+	artisans = {
+		culture = dutch
+		religion = protestant
+		size = 10000
+	}
 
-    artisans = {
-        culture = dutch
-        religion = protestant
-        size = 10000
-    }
+	artisans = {
+		culture = dutch
+		religion = protestant
+		size = 6650
+	}
 
-    artisans = {
-        culture = dutch
-        religion = protestant
-        size = 10000
-    }
+	soldiers = {
+		culture = dutch
+		religion = protestant
+		size = 1100
+	}
 
-    artisans = {
-        culture = dutch
-        religion = protestant
-        size = 10000
-    }
+	labourers = {
+		culture = dutch
+		religion = protestant
+		size = 8900
+	}
 
-    artisans = {
-        culture = dutch
-        religion = protestant
-        size = 4600
-    }
-
-    soldiers = {
-        culture = dutch
-        religion = protestant
-        size = 3300
-    }
-
-    zbankers = {
-        culture = dutch
-        religion = protestant
-        size = 10000
-    }
+	labourers = {
+		culture = dutch
+		religion = catholic
+		size = 1100
+	}
 }
 #Arnhem (412000/103000 POPS)
 382 = {
@@ -389,7 +366,7 @@
 		size = 4750
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
 		size = 99350
@@ -441,13 +418,13 @@
 		size = 4000
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
 		size = 35450
 	}
 
-	zbankers = {
+	farmers = {
 		culture = north_german
 		religion = protestant
 		size = 1100
@@ -479,7 +456,7 @@
 		size = 1100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
 		size = 42800
@@ -491,7 +468,7 @@
 		size = 100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = north_german
 		religion = protestant
 		size = 900
@@ -523,7 +500,7 @@
 		size = 1100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
 		size = 44725
@@ -555,13 +532,13 @@
 		size = 1100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = dutch
 		religion = protestant
 		size = 16750
 	}
 
-	zbankers = {
+	farmers = {
 		culture = north_german
 		religion = protestant
 		size = 1100

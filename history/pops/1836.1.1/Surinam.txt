@@ -28,39 +28,64 @@
 
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 25
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 1750
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 1200
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = protestant
 		size = 25
 	}
 
 	slaves = {
 		culture = afro_caribbean
-		religion = catholic
+		religion = animist
 		size = 9000
 	}
 }
 #Aperina (8000/2000 POPS)
 2245 = {
-	zbankers = {
-		culture = amazonian
+	aristocrats = {
+		culture = afro_caribbean
 		religion = animist
-		size = 2000
+		size = 25
 	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 1750
+	}
+
 }

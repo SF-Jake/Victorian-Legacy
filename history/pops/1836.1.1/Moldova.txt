@@ -11,7 +11,7 @@
 	bureaucrats = {
 		culture = romanian
 		religion = orthodox
-		size = 1125 
+		size = 225 
 	}
 
 	officers = {
@@ -23,25 +23,25 @@
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 775 
+		size = 700 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 10250
+		size = 10000
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 800
+		size = 750 
 	}
 
-	zbankers = {
+	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 61375
+		size = 56750 
 	}
 
 	clergymen = {
@@ -62,10 +62,34 @@
 		size = 75  
 	}
 
-	zbankers = {
+	farmers = {
 		culture = ashkenazi
 		religion = jewish
 		size = 6250    
+	}
+
+	clergymen = {
+		culture = turkish #gagauz
+		religion = orthodox
+		size = 75  
+	}
+
+	artisans = {
+		culture = turkish
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = orthodox
+		size = 50  
+	}
+
+	farmers = {
+		culture = turkish
+		religion = orthodox
+		size = 4625  
 	}
 }
 #Balti (320000/80000 POPS)  
@@ -94,7 +118,7 @@
 		size = 725 
 	}
 
-	zbankers = {
+	farmers = {
 		culture = romanian
 		religion = orthodox
 		size = 65675
@@ -118,7 +142,7 @@
 		size = 75  
 	}
 
-	zbankers = {
+	farmers = {
 		culture = ashkenazi
 		religion = jewish
 		size = 7050   

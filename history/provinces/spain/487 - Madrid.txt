@@ -3,9 +3,9 @@ controller = SPA
 add_core = SPA
 add_core = SPC
 trade_goods = cattle
-life_rating = 40
 terrain = urban
-1836.1.2 = {
+life_rating = 40
+1913.1.1 = {
 	remove_core = SPC
 }
 1913.1.1 = {
@@ -20,13 +20,13 @@ terrain = urban
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
-		building = artillery_factory
+		level = 10
+		building = tea_packaging_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
-		building = small_arms_factory
+		level = 10
+		building = cigarette_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -36,7 +36,7 @@ terrain = urban
 	}
 	state_building = {
 		level = 5
-		building = ammunition_factory
+		building = furniture_factory
 		upgrade = yes
 	}
 	state_building = {

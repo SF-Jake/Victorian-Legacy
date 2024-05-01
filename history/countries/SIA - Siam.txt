@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 1346
 	primary_culture = thai
 	religion = theravada
@@ -57,10 +57,9 @@
 	oob = "SIA_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 1346
 	primary_culture = thai
-	culture = shan
 	religion = theravada
 	government = absolute_monarchy
 	plurality = 0.0
@@ -113,6 +112,17 @@
 	nonstate_consciousness = 0
 
 	foreign_training = yes_foreign_training
+	foreign_weapons = yes_foreign_weapons
+	foreign_artillery = yes_foreign_artillery
+	admin_reform = yes_admin_reform
+	finance_reform = yes_finance_reform
+	research_reform = yes_research_reform
+	education_reform = yes_education_reform
+
+
+	flintlock_rifles = 1
+	bronze_muzzle_loaded_artillery = 1
+	private_banks = 1
 
 	oob = "SIA_oob.txt"
 }
@@ -133,7 +143,7 @@
 	set_country_flag = farming_idea
 	set_country_flag = army_morale_idea
 	set_country_flag = army_organisation_idea
-	set_country_flag = navy_experience_idea
+	set_country_flag = navy_build_speed_idea
 
 # Technologies
 		post_napoleonic_thought = 1
@@ -157,11 +167,14 @@
 		army_decision_making = 1
 		army_risk_management = 1
 		private_banks = 1
-		stock_exchange = 1
-		business_banks = 1
 		no_standard = 1
 		ad_hoc_money_bill_printing = 1
 		late_classical_theory = 1
+		collectivist_theory = 1
+		the_historical_theory = 1
+		neoclassical_theory = 1
+		keynesian_economics = 1
+		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		guild_based_production = 1
@@ -182,7 +195,6 @@
 		high_n_low_pressure_steam_engines = 1
 		industrial_revolution = 1
 		mechanical_production = 1
-		interchangeable_parts = 1
 		mechanized_mining = 1
 		clean_coal = 1
 		cheap_iron = 1
@@ -202,7 +214,6 @@
 		the_command_principle = 1
 
 #Inventions
-	reinforce_rate_idea_invention = yes
 
 #Reforms
 	wage_reform=no_minimum_wage
@@ -210,7 +221,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=no_health_care
+	health_care=universal_health_care
 	school_reforms=no_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal

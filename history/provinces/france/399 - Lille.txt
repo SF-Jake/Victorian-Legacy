@@ -2,17 +2,17 @@ owner = FRA
 controller = FRA
 add_core = FRA
 trade_goods = iron
-life_rating = 31
+life_rating = 32
 terrain = farmlands_mine
-state_building = {
-	level = 4
-	building = steel_factory
-	upgrade = yes
-}
 1913.1.1 = {
 	state_building = {
-		level = 8
-		building = winery
+		level = 4
+		building = explosives_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -31,17 +31,17 @@ state_building = {
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 3
 		building = pharmaceutical_plant
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
+		level = 2
 		building = steamer_shipyard
 		upgrade = yes
 	}
 	state_building = {
-		level = 7
+		level = 6
 		building = liquor_distillery
 		upgrade = yes
 	}

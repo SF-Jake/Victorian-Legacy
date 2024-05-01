@@ -1,14 +1,10 @@
 owner = NET
 controller = NET
 add_core = NET
+add_core = PRO
 trade_goods = cattle
-life_rating = 40
 terrain = urban
-state_building = {
-	level = 1
-	building = clipper_shipyard
-	upgrade = yes
-}
+life_rating = 45
 1913.1.1 = {
 	state_building = {
 		level = 6
@@ -32,7 +28,12 @@ state_building = {
 	}
 	state_building = {
 		level = 6
-		building = automobile_factory
+		building = electric_gear_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 6
+		building = canned_food_factory
 		upgrade = yes
 	}
 	state_building = {

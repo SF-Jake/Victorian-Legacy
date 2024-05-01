@@ -3,69 +3,130 @@
 #Nairobi (260000/65000 POPS)
 2024 = {
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 1175
+		size = 975
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 625
+		size = 525
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 3150
+		size = 2600
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 675
+		size = 550
 	}
 
-	zbankers = {
-		culture = lacustrine_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
-		size = 57375
+		size = 47350
 	}
-}
-#Lodwar (36000/9000 POPS)
-2026 = {
+
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = e_african
 		religion = animist
-		size = 150
+		size = 200
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
-		religion = animist
-		size = 125
-	}
-
-	artisans = {
-		culture = lacustrine_bantu
-		religion = animist
-		size = 400
-	}
-
-	soldiers = {
-		culture = lacustrine_bantu
+		culture = e_african
 		religion = animist
 		size = 100
 	}
 
-	zbankers = {
-		culture = lacustrine_bantu
+	artisans = {
+		culture = e_african
 		religion = animist
-		size = 7325
+		size = 550
+	}
+
+	soldiers = {
+		culture = e_african
+		religion = animist
+		size = 125
+	}
+
+	farmers = {
+		culture = e_african
+		religion = animist
+		size = 10025
+	}
+
+}
+#Lodwar (36000/9000 POPS)
+2026 = {
+	aristocrats = {
+		culture = e_african
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = e_african
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = e_african
+		religion = animist
+		size = 250
+	}
+
+	soldiers = {
+		culture = e_african
+		religion = animist
+		size = 75
+	}
+
+	farmers = {
+		culture = e_african
+		religion = animist
+		size = 4625
+	}
+
+	aristocrats = {
+		culture = c_african
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = c_african
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = c_african
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = c_african
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = c_african
+		religion = animist
+		size = 2700
 	}
 
 	slaves = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
 		size = 1100
 	}
@@ -73,38 +134,68 @@
 #Nakuru (128000/32000 POPS)
 2027 = {
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 600
+		size = 450
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 200
+		size = 125
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 1450
+		size = 1050
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 475
+		size = 400
 	}
 
-	zbankers = {
-		culture = lacustrine_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
-		size = 26375
+		size = 19075
+	}
+
+	aristocrats = {
+		culture = e_african
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = e_african
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = e_african
+		religion = animist
+		size = 400
+	}
+
+	soldiers = {
+		culture = e_african
+		religion = animist
+		size = 75
+	}
+
+	farmers = {
+		culture = e_african
+		religion = animist
+		size = 7300
 	}
 
 	slaves = {
-		culture = lacustrine_bantu
-		religion = sunni
+		culture = e_african
+		religion = animist
 		size = 3000
 	}
 }
@@ -112,37 +203,67 @@
 #Kisumu (196000/49000POPS)
 2028 = {
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = e_african
 		religion = animist
-		size = 750
+		size = 375
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = e_african
 		religion = animist
-		size = 400
+		size = 200
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = e_african
 		religion = animist
-		size = 1875
+		size = 775
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = e_african
 		religion = animist
-		size = 500
+		size = 300
 	}
 
-	zbankers = {
-		culture = lacustrine_bantu
+	farmers = {
+		culture = e_african
 		religion = animist
-		size = 38575
+		size = 20350
+	}
+
+	aristocrats = {
+		culture = c_african
+		religion = animist
+		size = 375
+	}
+
+	clergymen = {
+		culture = c_african
+		religion = animist
+		size = 200
+	}
+
+	artisans = {
+		culture = c_african
+		religion = animist
+		size = 1100
+	}
+
+	soldiers = {
+		culture = c_african
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = c_african
+		religion = animist
+		size = 18225
 	}
 
 	slaves = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
 		size = 7000
 	}
@@ -152,161 +273,191 @@
 #Marsabit (52000/13000 POPS
 2025 = {
 	aristocrats = {
-		culture = lacustrine_bantu
-		religion = animist
-		size = 350
-	}
-
-	clergymen = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
 		size = 250
 	}
 
-	artisans = {
-		culture = lacustrine_bantu
+	clergymen = {
+		culture = c_african
 		religion = animist
-		size = 900
+		size = 150
+	}
+
+	artisans = {
+		culture = c_african
+		religion = animist
+		size = 650
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 225
+		size = 125
 	}
 
-	zbankers = {
-		culture = lacustrine_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
-		size = 16450
+		size = 11875
+	}
+	
+	aristocrats = {
+		culture = c_african
+		religion = coptic
+		size = 100
+	}
+
+	clergymen = {
+		culture = c_african
+		religion = coptic
+		size = 100
+	}
+
+	artisans = {
+		culture = c_african
+		religion = coptic
+		size = 250
+	}
+
+	soldiers = {
+		culture = c_african
+		religion = coptic
+		size = 100
+	}
+
+	farmers = {
+		culture = c_african
+		religion = coptic
+		size = 4575
 	}
 }
 #Wajir (100000/25000 POPS)
 2031 = {
 	aristocrats = {
-		culture = somali
+		culture = e_african
 		religion = sunni
 		size = 400
 	}
 
 	clergymen = {
-		culture = somali
+		culture = e_african
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = somali
+		culture = e_african
 		religion = sunni
 		size = 850
 	}
 
 	soldiers = {
-		culture = somali
+		culture = e_african
 		religion = sunni
 		size = 225
 	}
 
-	zbankers = {
-		culture = somali
+	farmers = {
+		culture = e_african
 		religion = sunni
 		size = 18225
 	}
 
 	aristocrats = {
-		culture = cushitic
-		religion = sunni
+		culture = e_african
+		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = cushitic
-		religion = sunni
+		culture = e_african
+		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = cushitic
-		religion = sunni
+		culture = e_african
+		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = cushitic
-		religion = sunni
+		culture = e_african
+		religion = animist
 		size = 50
 	}
 
-	zbankers = {
-		culture = cushitic
-		religion = sunni
+	farmers = {
+		culture = e_african
+		religion = animist
 		size = 3650
 	}
 
 	slaves = {
-		culture = cushitic
-		religion = sunni
+		culture = e_african
+		religion = animist
 		size = 1100
 	}
 }
 #Garissa (172000/43000 POPS)
 2032 = {
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
 		size = 650
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
 		size = 375
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
 		size = 1750
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
 		size = 350
 	}
 
-	zbankers = {
-		culture = lacustrine_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
 		size = 31875
 	}
 
 	aristocrats = {
-		culture = somali
+		culture = e_african
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = somali
+		culture = e_african
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = somali
+		culture = e_african
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = somali
+		culture = e_african
 		religion = sunni
 		size = 100
 	}
 
-	zbankers = {
-		culture = somali
+	farmers = {
+		culture = e_african
 		religion = sunni
 		size = 2700
 	}
@@ -316,73 +467,97 @@
 #Mombasa (100000/25000 POPS)
 2029 = {
 	aristocrats = {
-		culture = bedouin
+		culture = c_african
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = c_african
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = c_african
+		religion = sunni
+		size = 550
+	}
+
+	soldiers = {
+		culture = c_african
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = c_african
+		religion = sunni
+		size = 9150
+	}
+
+	aristocrats = {
+		culture = mashriqi
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = bedouin
+		culture = mashriqi
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = bedouin
+		culture = mashriqi
 		religion = sunni
 		size = 300
 	}
 
 	soldiers = {
-		culture = bedouin
+		culture = mashriqi
 		religion = sunni
 		size = 50
 	}
 
-	zbankers = {
-		culture = bedouin
+	farmers = {
+		culture = mashriqi
 		religion = sunni
 		size = 500
 	}
 
 	aristocrats = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 850
-	}
-
-	bureaucrats = {
-		culture = lacustrine_bantu
-		religion = animist
-		size = 300
+		size = 175
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 450
+		size = 100
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 2350
+		size = 500
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 1450
+		size = 100
 	}
 
-	zbankers = {
-		culture = lacustrine_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
-		size = 42000
+		size = 9125
 	}
 
 	slaves = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
 		size = 3000
 	}
@@ -390,38 +565,102 @@
 #Lamu (100000/25000 POPS)
 2030 = {
 	aristocrats = {
-		culture = lacustrine_bantu
-		religion = animist
-		size = 450
+		culture = c_african
+		religion = sunni
+		size = 225
 	}
 
 	clergymen = {
-		culture = lacustrine_bantu
+		culture = c_african
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = c_african
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = c_african
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = c_african
+		religion = sunni
+		size = 10025
+	}
+
+	aristocrats = {
+		culture = e_african
+		religion = animist
+		size = 225
+	}
+
+	clergymen = {
+		culture = e_african
+		religion = animist
+		size = 125
+	}
+
+	artisans = {
+		culture = e_african
+		religion = animist
+		size = 600
+	}
+
+	soldiers = {
+		culture = e_african
+		religion = animist
+		size = 125
+	}
+
+	farmers = {
+		culture = e_african
+		religion = animist
+		size = 10925
+	}
+
+	slaves = {
+		culture = e_african
+		religion = animist
+		size = 2000
+	}
+}
+#uncolonized in 1836
+#Voi (104000/26000 POPS)
+2033 = {
+	aristocrats = {
+		culture = c_african
+		religion = animist
+		size = 475
+	}
+
+	clergymen = {
+		culture = c_african
 		religion = animist
 		size = 250
 	}
 
 	artisans = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
-		size = 1100
+		size = 1300
 	}
 
 	soldiers = {
-		culture = lacustrine_bantu
+		culture = c_african
 		religion = animist
 		size = 250
 	}
 
-	zbankers = {
-		culture = lacustrine_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
-		size = 20950
+		size = 23725
 	}
 
-	slaves = {
-		culture = lacustrine_bantu
-		religion = animist
-		size = 2000
-	}
 }

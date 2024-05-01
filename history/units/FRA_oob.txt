@@ -29,6 +29,7 @@ NET = {
 
 	level = 3
 		#3=cordial, 4 = friendly, 5 sphere
+
 }
 PAP = {
 	value = 125		#relation
@@ -54,11 +55,6 @@ GRE = {
 	value = 75	#relation
 	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 10
-}
-TUN = {
-	value = 75	#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 40
 }
 ENG = {
 	value = 0
@@ -86,8 +82,8 @@ leader = {
 	name = "de la Piconnerie"
 	date = 1836.1.1
 	type = land
-	personality = mor10rec05
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -95,8 +91,8 @@ leader = {
 	name = "Jean-Isidore Harispe"
 	date = 1830.1.1
 	type = land
-	personality = org15mor20
-	background = 3a2d_1
+	personality = defence_2.1
+	background = attack_3.1
 	prestige = 0.3
 }
 
@@ -104,8 +100,8 @@ leader = {
 	name = "Guy-Victor Duperré"
 	date = 1811.1.1
 	type = sea
-	personality = org15mor30
-	background = 4a2d_1
+	personality = defence_2.1
+	background = attack_4.1
 	prestige = 0.3
 }
 
@@ -113,8 +109,8 @@ leader = {
 	name = "Comte de Castelanne"
 	date = 1823.1.1
 	type = land
-	personality = org05exp15
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -122,8 +118,8 @@ leader = {
 	name = "Jacques Achard"
 	date = 1823.1.1
 	type = land
-	personality = org10rec05
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_2.1
 	prestige = 0.2
 }
 
@@ -131,8 +127,8 @@ leader = {
 	name = "Jean-Baptiste Vaillant"
 	date = 1832.1.1
 	type = land
-	personality = rec10exp15
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -140,8 +136,8 @@ leader = {
 	name = "Bernand Pierre Magnan"
 	date = 1835.1.1
 	type = land
-	personality = mor30rec05
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -149,8 +145,8 @@ leader = {
 	name = "Baraguey d'Hilliers"
 	date = 1836.1.1
 	type = land
-	personality = org05mor10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -158,8 +154,8 @@ leader = {
 	name = "Comte de Randon"
 	date = 1835.1.1
 	type = land
-	personality = mor10rec10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -167,8 +163,8 @@ leader = {
 	name = "Charles Baudin"
 	date = 1836.1.1
 	type = sea
-	personality = org05mor10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -176,8 +172,8 @@ leader = {
 	name = "Reille"
 	date = 1836.1.1
 	type = land
-	personality = rec10att10
-	background = 1a2d_1
+	personality = defence_2.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
@@ -185,342 +181,355 @@ leader = {
 	name = "de la Brunerie"
 	date = 1836.1.1
 	type = land
-	personality = org05mor10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
+leader = {
+	name = "Bertrand Clauzel"
+	date = 1803.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+
 army = {
-	name = "Garde Royale"
-	location = 425
+	name = "30 Stack"
+	location = 1700
 	regiment = {
-		name= "1.Garde Royale"
-		type = guard
+		name= "Hussar"
+		type = hussar
 		home = 425
 	}
 
 	regiment = {
-		name= "2.Garde Royale"
-		type = guard
+		name= "Artillery"
+		type = artillery
 		home = 426
 	}
 
 	regiment = {
-		name= "3.Garde Royale"
-		type = guard
+		name= "Artillery"
+		type = artillery
 		home = 427
 	}
 
 	regiment = {
-		name= "4.Garde Royale"
-		type = guard
+		name= "Artillery"
+		type = artillery
 		home = 440
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 428
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 408
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 414
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 430
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 446
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 424
 	}
 }
 army = {
-	name = "1ère Armée"
-	location = 438
+	name = "Mob Stack"
+	location = 427
 	regiment = {
-		name= "1.1ère Division d'Infanterie"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 438
 	}
 
 	regiment = {
-		name= "2.1ère Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 400
 	}
 
 	regiment = {
-		name= "3.1ère Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 401
 	}
 
 	regiment = {
-		name= "1.2ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 441
 	}
 
 	regiment = {
-		name= "2.2ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 2570
 	}
 
 	regiment = {
-		name= "3.2ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 404
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 403
 	regiment = {
-		name= "1.3ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = hussar
 		home = 402
 	}
 
 	regiment = {
-		name= "2.3ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 403
 	}
 
 	regiment = {
-		name= "3.3ème Division d'Infanterie"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 399
 	}
-}
-	
-army = {
-	name = "Cavalerie de la Garde"
-	location = 468
-
 
 	regiment = {
-		name= "1.Cavalerie de la Garde"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 458
 	}
 
 	regiment = {
-		name= "2.Cavalerie de la Garde"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 420
 	}
 
 	regiment = {
-		name= "3.Cavalerie de la Garde"
-		type = hussar
+		name= "Artillery"
+		type = artillery
 		home = 418
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 2570
 	regiment = {
-		name= "4.Cavalerie de la Garde"
+		name= "Hussar"
 		type = hussar
 		home = 406
 	}
 
-}
-
-army = {
-	name = "Armée d'Algerie"
-	
-	leader = {
-		name = "Bertrand Clauzel"
-		date = 1803.1.1
-		type = land
-		personality = rec10exp10
-		background = 1a1d_1
-		prestige = 0.1
-	}
-
-	location = 1700
 	regiment = {
-		name= "1.4ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 425
 	}
 
 	regiment = {
-		name= "2.4ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 423
 	}
 
 	regiment = {
-		name= "3.4ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 432
 	}
 
 	regiment = {
-		name= "1.5ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 439
 	}
 
 	regiment = {
-		name= "2.5ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 433
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 416
 	regiment = {
-		name= "3.5ème Division d'Infanterie"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 431
 	}
 
 	regiment = {
-		name= "1.6ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 429
 	}
 
 	regiment = {
-		name= "2.6ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 442
 	}
 
 	regiment = {
-		name= "3.6ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 459
 	}
-}
-army = {
-	name = "7ème Division d'Infanterie"
-	location = 1701
+
 	regiment = {
-		name= "1.7ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 415
 	}
 
 	regiment = {
-		name= "2.7ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 416
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 438
 	regiment = {
-		name= "3.7ème Division d'Infanterie"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 417
 	}
-}
 
-army = {
-	name = "1ère Division de cavalerie"
-	location = 1704
 	regiment = {
-		name= "1.1ère Division de cavalerie"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 422
 	}
 
 	regiment = {
-		name= "2.1ère Division de cavalerie"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 436
 	}
 
 	regiment = {
-		name= "3.1ère Division de cavalerie"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 421
 	}
 
-}
-
-army = {
-	name = "Force d'intervention Espagnole"
-	location = 458
 	regiment = {
-		name= "1.8ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 455
 	}
 
 	regiment = {
-		name= "2.8ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 457
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 440
 	regiment = {
-		name= "3.8ème Division d'Infanterie"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 473
 	}
 
 	regiment = {
-		name= "1.9ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 456
 	}
 
 	regiment = {
-		name= "2.9ème Division d'Infanterie"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 470
 	}
 
 	regiment = {
-		name= "3.9ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 434
 	}
 
 	regiment = {
-		name= "1.2ème Division de cavalerie"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 462
 	}
 
 	regiment = {
-		name= "2.2ème Division de cavalerie"
-		type = hussar
+		name= "Artillery"
+		type = artillery
 		home = 463
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 436
 	regiment = {
-		name= "3.2ème Division de cavalerie"
+		name= "Hussar"
 		type = hussar
 		home = 460
 	}
 
-}
-
-army = {
-	name = "Garnison du Sénégal"
-	location = 1784
 	regiment = {
-		name= "1.10ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 1700
 	}
 
 	regiment = {
-		name= "2.10ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 407
 	}
 
 	regiment = {
-		name= "3.10ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 444
 	}
 
-}
-
-army = {
-	name = "Garnison de Côte d'Ivoire"
-	location = 1894
 	regiment = {
-		name= "1.11ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 467
 	}
 
 	regiment = {
-		name= "2.11ème Division d'Infanterie"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 454
 	}
-
-	regiment = {
-		name= "3.11ème Division d'Infanterie"
-		type = infantry
-		home = 428
-	}
-
 }
 
 navy = {
@@ -678,27 +687,17 @@ navy = {
 
 	ship = {
 		name= "1ère Flotille de Transport"
-		type = steam_transport
+		type = clipper_transport
 	}
 
 	ship = {
 		name= "2ème Flotille de Transport"
-		type = steam_transport
+		type = clipper_transport
 	}
 
 	ship = {
 		name= "3ème Flotille de Transport"
-		type = steam_transport
-	}
-
-	ship = {
-		name= "4ème Flotille de Transport"
-		type = steam_transport
-	}
-
-	ship = {
-		name= "5ème Flotille de Transport"
-		type = steam_transport
+		type = clipper_transport
 	}
 
 }
@@ -872,28 +871,18 @@ navy = {
 	}
 
 	ship = {
+		name= "4ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
 		name= "6ème Flotille de Transport"
-		type = steam_transport
-	}
-
-	ship = {
-		name= "7ème Flotille de Transport"
-		type = steam_transport
-	}
-
-	ship = {
-		name= "8ème Flotille de Transport"
-		type = steam_transport
-	}
-
-	ship = {
-		name= "9ème Flotille de Transport"
-		type = steam_transport
-	}
-
-	ship = {
-		name= "10ème Flotille de Transport"
-		type = steam_transport
+		type = clipper_transport
 	}
 
 }

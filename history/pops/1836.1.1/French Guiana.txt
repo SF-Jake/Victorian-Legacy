@@ -32,34 +32,34 @@
 		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = french
 		religion = catholic
 		size = 80
 	}
 
-	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 20
-	}
-
 	artisans = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 160
+		size = 150
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 25
 	}
 
 	soldiers = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 55
+		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
 		religion = catholic
-		size = 665
+		size = 425
 	}
 
 	slaves = {
@@ -67,12 +67,67 @@
 		religion = catholic
 		size = 2950
 	}
+
+	aristocrats = {
+		culture = afro_caribbean
+		religion = animist
+		size = 2
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = animist
+		size = 3
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 5
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 230
+	}
 }
 #Maripasoula (3000/750 POPS)
 2246 = {
-	zbankers = {
+	aristocrats = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 750
+		religion = animist
+		size = 10
 	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = animist
+		size = 35
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = animist
+		size = 680
+	}
+
 }

@@ -12,8 +12,8 @@ leader = {
 	name = "Ramon Cabrera y Griñó"
 	date = 1836.1.1
 	type = land
-	personality = org15mor30
-	background = 3a3d_1
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
@@ -21,32 +21,32 @@ leader = {
 	name = "Rafael Maroto Yserns"
 	date = 1836.1.1
 	type = land
-	personality = mor20att15
-	background = 2a2d_1
+	personality = defence_2.1
+	background = attack_2.1
 }
 
 leader = {
 	name = "Vicente González Moreno"
 	date = 1836.1.1
 	type = land
-	personality = rec10exp10
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_2.1
 }
 
 leader = {
 	name = "Miguel Gómez Damas"
 	date = 1836.1.1
 	type = land
-	personality = att10exp10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Sebastian Gabriel"
 	date = 1836.1.1
 	type = land
-	personality = att10exp05
-	background = 1a2d_1
+	personality = defence_2.1
+	background = attack_1.1
 }
 
 army = {
@@ -74,7 +74,7 @@ army = {
 	}
 	regiment = {
 		name = "2. Brigada de Artillería"
-		type = cuirassier
+		type = artillery
 		home = 493
 	}
 	regiment = {
@@ -85,7 +85,7 @@ army = {
 	regiment = {
 		name = "2. Granaderos del Rey"
 		type = hussar
-		home = 496
+		home = 494
 	}
 }
 
@@ -109,8 +109,8 @@ army = {
 	}
 	regiment = {
 		name = "2. Brigada de Artillería"
-		type = cuirassier
-		home = 498
+		type = artillery
+		home = 497
 	}
 }
 

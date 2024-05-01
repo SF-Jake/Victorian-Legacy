@@ -3,7 +3,7 @@ controller = AUS
 add_core = AUS
 add_core = POL
 add_core = GLM
-trade_goods = grain
+trade_goods = coal
 life_rating = 35
 1913.1.1 = {
 	fort = 3
@@ -17,8 +17,8 @@ life_rating = 35
 		upgrade = yes
 	}
 	state_building = {
-		level = 2
-		building = lumber_mill
+		level = 5
+		building = explosives_factory
 		upgrade = yes
 	}
 }

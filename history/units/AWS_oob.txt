@@ -13,35 +13,27 @@ EGY = {
 }
 
 SHW = {
-	value = -200
+	value = 40
+	truce_until="1841.1.1"
 }
 
 GON = {
-	value = -200
+	value = 50
+	truce_until="1841.1.1"
 }
 
 HAR = {
-	value = -200
+	value = 100
+	truce_until="1841.1.1"
 }
 
 MAJ = {
-	value = -200
+	value = 60
 }
 
 TIG = {
-	value = -200
-}
-
-GJM = {
-	value = -200
-}
-
-WLO = {
-	value = -200
-}
-
-KAF = {
-	value = -200
+	value = 40
+	truce_until="1841.1.1"
 }
 
 army = {

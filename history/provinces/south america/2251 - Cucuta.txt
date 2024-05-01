@@ -1,9 +1,11 @@
 owner = CLM
 controller = CLM
 add_core = CLM
+add_core = GCO
+add_core = GCL
+
 trade_goods = coal
 life_rating = 35
-terrain = mountain_mine
 1913.1.1 = {
 	state_building = {
 		level = 2
@@ -12,22 +14,17 @@ terrain = mountain_mine
 	}
 	state_building = {
 		level = 2
-		building = fertilizer_factory
+		building = coffee_packaging_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 2
-		building = explosives_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 3
 		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
-		building = artillery_factory
+		level = 5
+		building = winery
 		upgrade = yes
 	}
 }

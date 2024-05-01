@@ -1,12 +1,11 @@
-owner = EGY
-controller = EGY
-add_core = EGY
-add_core = TUR
+owner = COM
+controller = COM
+add_core = COM
+add_core = MTC
 trade_goods = grain
 life_rating = 35
 1913.1.1 = {
-owner = TUR
-controller = TUR
-remove_core = EGY
-colonial = 0
+	owner = CAN
+	controller = CAN
+	remove_core = RPL
 }

@@ -5,7 +5,7 @@
 	aristocrats = {
 		culture = central_american
 		religion = catholic
-		size = 70
+		size = 20
 	}
 
 	clergymen = {
@@ -17,23 +17,47 @@
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 150
+		size = 50
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 35
+		size = 10
 	}
 
-	zbankers = {
+	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 2220
+		size = 895
 	}
 
-	slaves = {
-		culture = afro_caribbean
+	clergymen = {
+		culture = central_american
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = central_american
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 1325
+	}
+
+	farmers = {
+		culture = central_american
 		religion = catholic
 		size = 500
 	}
@@ -50,7 +74,7 @@
 	bureaucrats = {
 		culture = central_american
 		religion = catholic
-		size = 125
+		size = 25
 	}
 
 	officers = {
@@ -62,29 +86,53 @@
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 175
+		size = 100
 	}
 
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 650
+		size = 450
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 150
+		size = 100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 10725
+		size = 8050
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = central_american
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 2675
 	}
 
 	slaves = {
-		culture = afro_caribbean
+		culture = central_american
 		religion = catholic
 		size = 1100
 	}
@@ -100,29 +148,53 @@
 	clergymen = {
 		culture = central_american
 		religion = catholic
-		size = 70
+		size = 50
 	}
 
 	artisans = {
 		culture = central_american
 		religion = catholic
-		size = 350
+		size = 300
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 85
+		size = 75
 	}
 
-	zbankers = {
+	farmers = {
 		culture = central_american
 		religion = catholic
-		size = 6045
+		size = 5375
+	}
+
+	clergymen = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 20
+	}
+
+	artisans = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 670
 	}
 
 	slaves = {
-		culture = afro_caribbean
+		culture = afro_caribeno
 		religion = catholic
 		size = 250
 	}
@@ -153,32 +225,44 @@
 		size = 50
 	}
 
-	clergymen = {
+	farmers = {
 		culture = central_american
+		religion = catholic
+		size = 4000
+	}
+	
+	farmers = {
+		culture = north_andean
+		religion = catholic
+		size = 500
+	}
+
+	clergymen = {
+		culture = afro_caribeno
 		religion = catholic
 		size = 20
 	}
 
 	artisans = {
-		culture = central_american
+		culture = afro_caribeno
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = central_american
+		culture = afro_caribeno
 		religion = catholic
 		size = 10
 	}
 
-	zbankers = {
-		culture = central_american
+	farmers = {
+		culture = afro_caribeno
 		religion = catholic
-		size = 5170
+		size = 670
 	}
 
 	slaves = {
-		culture = afro_caribbean
+		culture = afro_caribeno
 		religion = catholic
 		size = 250
 	}
@@ -209,7 +293,7 @@
 		size = 10
 	}
 
-	zbankers = {
+	farmers = {
 		culture = central_american
 		religion = catholic
 		size = 895
@@ -218,30 +302,61 @@
 	aristocrats = {
 		culture = north_andean
 		religion = catholic
-		size = 35
+		size = 20
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = catholic
-		size = 50
+		size = 25
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = catholic
-		size = 100
+		size = 50
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = catholic
-		size = 20
+		size = 10
 	}
 
-	zbankers = {
+	farmers = {
 		culture = north_andean
 		religion = catholic
-		size = 985
+		size = 895
 	}
+
+	aristocrats = {
+		culture = north_andean
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = animist
+		size = 900
+	}
+
 }

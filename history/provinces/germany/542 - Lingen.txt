@@ -2,11 +2,16 @@ owner = HAN
 controller = HAN
 add_core = HAN
 add_core = GER
-trade_goods = wool
+trade_goods = cattle
 life_rating = 40
 1913.1.1 = {
 	owner = GER
 	controller = GER
+	state_building = {
+		level = 5
+		building = liquor_distillery
+		upgrade = yes
+	}
 	state_building = {
 		level = 5
 		building = steel_factory
@@ -14,12 +19,17 @@ life_rating = 40
 	}
 	state_building = {
 		level = 5
-		building = artillery_factory
+		building = glass_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 5
 		building = winery
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = tea_packaging_factory
 		upgrade = yes
 	}
 	state_building = {

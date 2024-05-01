@@ -1,20 +1,8 @@
-owner = PBC
-controller = PBC
-add_core = PBC
+owner = BOL
+controller = BOL
 add_core = BOL
 trade_goods = coal
 life_rating = 35
-terrain = mountain_mine
-1836.1.2 = {
-	owner = PBC
-	controller = PBC
-	add_core = PBC
-}
-1913.1.1 = {
-	owner = BOL
-	controller = BOL
-	remove_core = PBC
-}
 1913.1.1 = {
 	state_building = {
 		level = 2
@@ -23,37 +11,17 @@ terrain = mountain_mine
 	}
 	state_building = {
 		level = 1
-		building = small_arms_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = lumber_mill
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = steel_factory
+		building = glass_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 3
-		building = artillery_factory
+		building = liquor_distillery
 		upgrade = yes
 	}
 	state_building = {
-		level = 1
-		building = explosives_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = fertilizer_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = ammunition_factory
+		level = 3
+		building = winery
 		upgrade = yes
 	}
 }

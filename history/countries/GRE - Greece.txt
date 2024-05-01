@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 834
 	primary_culture = greek
 	religion = orthodox
@@ -84,7 +84,7 @@
 	oob = "GRE_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 834
 	primary_culture = greek
 	religion = orthodox
@@ -94,8 +94,6 @@
 	literacy = 0.22
 	civilized = yes
 	prestige = 5
-	set_global_flag = greece_exists
-	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery
@@ -187,7 +185,7 @@
 	set_country_flag = farming_idea
 	set_country_flag = mining_idea
 	set_country_flag = navy_organisation_idea
-	set_country_flag = navy_experience_idea
+	set_country_flag = navy_build_speed_idea
 
 # Technologies
 		post_napoleonic_thought = 1
@@ -221,6 +219,9 @@
 		late_classical_theory = 1
 		collectivist_theory = 1
 		the_historical_theory = 1
+		neoclassical_theory = 1
+		keynesian_economics = 1
+		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -302,7 +303,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=no_health_care
+	health_care=universal_health_care
 	school_reforms=acceptable_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal

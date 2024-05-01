@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 2209
 	primary_culture = afro_caribbean
 	religion = catholic
@@ -49,15 +49,18 @@
 	}
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 2209
-	primary_culture = caribeno
+	primary_culture = afro_caribbean
 	religion = catholic
 	government = presidential_dictatorship
 	plurality = 0.5
 	nationalvalue = nv_order
 	literacy = 0.17
 	civilized = yes
+
+	set_country_flag = new_world_nation
+	set_country_flag = north_american_immigrant_nation
 
 	# Political reforms
 	slavery = no_slavery
@@ -145,6 +148,10 @@
 		central_bank_money_bill_printing = 1
 		late_classical_theory = 1
 		collectivist_theory = 1
+		the_historical_theory = 1
+		neoclassical_theory = 1
+		keynesian_economics = 1
+		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -222,7 +229,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=no_health_care
+	health_care=universal_health_care
 	school_reforms=low_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal

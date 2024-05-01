@@ -3,61 +3,61 @@
 #Al Aiyun (12000/3000 POPS)  
 1773 = {
 	aristocrats = {
-		culture = bedouin
+        culture = n_african
 		religion = sunni
 		size = 10
 	}
 
 	clergymen = {
-		culture = bedouin
+        culture = n_african
 		religion = sunni
 		size = 15
 	}
 
 	artisans = {
-		culture = bedouin
+        culture = n_african
 		religion = sunni
 		size = 50
 	}
 
 	soldiers = {
-		culture = bedouin
+        culture = n_african
 		religion = sunni
 		size = 25
 	}
 
-	zbankers = {
-		culture = bedouin
+	farmers = {
+        culture = n_african
 		religion = sunni
 		size = 900
 	}
 
 	aristocrats = {
-		culture = berber
+        culture = n_african
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = berber
+        culture = n_african
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = berber
+        culture = n_african
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = berber
+        culture = n_african
 		religion = sunni
 		size = 25
 	}
 
-	zbankers = {
-		culture = berber
+	farmers = {
+        culture = n_african
 		religion = sunni
 		size = 1800
 	}
@@ -65,33 +65,63 @@
 #Dahkla (8000/2000 POPS)  
 1774 = {
 	aristocrats = {
-		culture = berber
+        culture = n_african
 		religion = sunni
-		size = 20
+		size = 10
 	}
 
 	clergymen = {
-		culture = berber
+        culture = n_african
 		religion = sunni
-		size = 30
+		size = 15
 	}
 
 	artisans = {
-		culture = berber
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = berber
+        culture = n_african
 		religion = sunni
 		size = 50
 	}
 
-	zbankers = {
-		culture = berber
+	soldiers = {
+        culture = n_african
 		religion = sunni
-		size = 1800
+		size = 25
+	}
+
+	farmers = {
+        culture = n_african
+		religion = sunni
+		size = 900
+	}
+
+	aristocrats = {
+        culture = w_african
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+        culture = w_african
+		religion = sunni
+		size = 15
+	}
+
+	artisans = {
+        culture = w_african
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+        culture = w_african
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+        culture = w_african
+		religion = sunni
+		size = 900
 	}
 
 }

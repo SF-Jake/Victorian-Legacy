@@ -13,22 +13,9 @@ USA = {
 	value = 75		#relation
 }
 
-ALD = {
-	value = 150		#relation
-}
-
 army = {
-	name = "Army of Morocco"
+	name = "Army of the Sultan of Morocco"
 	location = 1681
-
-	leader = {
-		name = "Abd al-Rahman bin Hisham"
-		date = 1836.1.1
-		type = land
-		personality = mor20att10
-		background = 1a1d_1
-	}
-
 	regiment = {
 		name= "1. Infantry Brigade 'Askäria'"
 		type = irregular
@@ -52,16 +39,6 @@ army = {
 army = {
 	name = "Army of the Atlas"
 	location = 1684
-
-	leader = {
-		name = "Muhammad bin Abd al-Rahman"
-		date = 1836.1.1
-		type = land
-		personality = rec10att15
-		background = 2a2d_1
-		prestige = 0.1
-	}
-
 	regiment = {
 		name= "4. Infantry Brigade 'Ait 'Atta'"
 		type = irregular

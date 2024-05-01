@@ -12,8 +12,8 @@ leader = {
 	name = "Miloš Obrenovic I"
 	type = land
 	date="1836.1.1"
-	personality = org15exp10
-	background = 2a2d_1
+	personality = defence_2.1
+	background = attack_2.1
 }
 
 army = {
@@ -28,13 +28,13 @@ army = {
 	regiment = {
 		name= "2nd Serbian Infantry"
 		type = infantry
-		home = 794
+		home = 795
 	}
 
 	regiment = {
 		name= "3rd Serbian Infantry"
 		type = infantry
-		home = 795
+		home = 794
 	}
 
 	regiment = {
@@ -46,12 +46,12 @@ army = {
 	regiment = {
 		name= "1st Serbian Cavalry"
 		type = dragoon
-		home = 796
+		home = 794
 	}
 	
 	regiment = {
 		name= "1st Serbian Artillery"
-		type = cuirassier
+		type = artillery
 		home = 796
 	}		
 		

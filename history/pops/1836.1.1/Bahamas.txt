@@ -4,26 +4,26 @@
 2219 = {
 	clergymen = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 100
+		religion = protestant
+		size = 50
 	}
 
 	artisans = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 200
+		religion = protestant
+		size = 100
 	}
 
 	soldiers = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 100
+		religion = protestant
+		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = afro_caribbean
-		religion = catholic
-		size = 4600
+		religion = protestant
+		size = 4050
 	}
 
 	aristocrats = {
@@ -56,9 +56,36 @@
 		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = british
 		religion = protestant
 		size = 540
 	}
+}
+#Turks & Caicos Islands (3000/750 POPS) #still a British colony
+2220 = {
+	clergymen = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 100
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 550
+	}
+
 }

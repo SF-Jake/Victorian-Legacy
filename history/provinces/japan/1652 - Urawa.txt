@@ -1,7 +1,7 @@
 owner = JAP
 controller = JAP
 add_core = JAP
-trade_goods = dye
+trade_goods = silk
 life_rating = 35
 1913.1.1 = {
 	owner = JAP
@@ -12,7 +12,7 @@ life_rating = 35
 	naval_base = 6
 	state_building = {
 		level = 5
-		building = lumber_mill
+		building = synthetic_rubber_factory
 		upgrade = yes
 	}
 	state_building = {
@@ -21,28 +21,18 @@ life_rating = 35
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
+		level = 10
 		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 5
-		building = winery
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = paper_mill
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = steel_factory
+		building = automobile_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 10
-		building = machine_parts_factory
+		building = winery
 		upgrade = yes
 	}
 }

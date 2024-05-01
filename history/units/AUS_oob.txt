@@ -114,8 +114,8 @@ leader = {
 	name = "Josef Radetzky"
 	date = 1805.1.1
 	type = land
-	personality = org15mor40
-	background = 3a3d_1
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.3
 }
 
@@ -123,8 +123,8 @@ leader = {
 	name = "Julius von Haynau"
 	date = 1835.1.1
 	type = land
-	personality = org10rec10
-	background = 2a2d_1
+	personality = defence_2.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -132,8 +132,8 @@ leader = {
 	name = "von Mittrowitz-Nettolitzky"
 	date = 1835.1.1
 	type = land
-	personality = org10exp05
-	background = 1a2d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -141,8 +141,8 @@ leader = {
 	name = "Hermann von Hess"
 	date = 1834.1.1
 	type = land
-	personality = rec15att15
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -150,8 +150,8 @@ leader = {
 	name = "d’Aspre und Hoobreuck"
 	date = 1832.1.1
 	type = land
-	personality = mor30exp10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -159,8 +159,8 @@ leader = {
 	name = "Alfred von Windischgraetz"
 	date = 1826.1.1
 	type = land
-	personality = rec05exp10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.3
 }
 
@@ -168,250 +168,253 @@ leader = {
 	name = "Erzherzog Albrecht"
 	date = 1836.1.1
 	type = land
-	personality = org05mor10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "Paolucci delle Roncole"
 	date = 1824.1.1
 	type = sea
-	personality = org05exp15
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
 #Army
 
 army = {
-	name = "I. Armee"
-	location = 726
+	name = "Mob Stack"
+	location = 622
 	regiment = {
-		name= "1.1. Kavalleriedivision"
+		name= "Hussar"
 		type = hussar
 		home = 619
 	}
 
 	regiment = {
-		name= "2.1. Kavalleriedivision"
-		type = hussar
+		name= "Artillery"
+		type = artillery
 		home = 727
 	}
 
 	regiment = {
-		name= "3.1. Kavalleriedivision"
-		type = hussar
+		name= "Artillery"
+		type = artillery
 		home = 631
 	}
 
 	regiment = {
-		name= "2.2. Infanteriedivision"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 729
 	}
 
 	regiment = {
-		name= "3.2. Infanteriedivision"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 771
 	}
 
 	regiment = {
-		name= "1.3. Artilleriedivision"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 618
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 630
 	regiment = {
-		name= "2.3. Infanteriedivision"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 773
 	}
 
 	regiment = {
-		name= "3.3. Infanteriedivision"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 728
 	}
-}
 
-army = {
-	name = "II. Armee"
-	location = 702
 	regiment = {
-		name= "1.6. Infanteriedivision"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 627
 	}
 
 	regiment = {
-		name= "2.6. Infanteriedivision"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 952
 	}
 
 	regiment = {
-		name= "3.6. Infanteriedivision"
-		type = infantry
-		home = 702
+		name= "Artillery"
+		type = artillery
+		home = 705
 	}
 
 	regiment = {
-		name= "1.7. Infanteriedivision"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 630
 	}
-
-	regiment = {
-		name= "2.7. Infanteriedivision"
-		type = infantry
-		home = 643
-	}
-
-	regiment = {
-		name= "3.7. Infanteriedivision"
-		type = infantry
-		home = 702
-	}
-
 }
-
 army = {
-	name = "III. Armee"
-	location = 619
+	name = "Mob Stack"
+	location = 631
 	regiment = {
-		name= "1.8. Infanteriedivision"
-		type = infantry
-		home = 628
-	}
-
-	regiment = {
-		name= "2.8. Infanteriedivision"
-		type = infantry
-		home = 730
-	}
-
-	regiment = {
-		name= "3.8. Infanteriedivision"
-		type = infantry
-		home = 768
-	}
-
-	regiment = {
-		name= "1.9. Infanteriedivision"
-		type = infantry
-		home = 624
-	}
-
-	regiment = {
-		name= "2.9. Infanteriedivision"
-		type = infantry
-		home = 952
-	}
-
-	regiment = {
-		name= "3.9. Infanteriedivision"
-		type = infantry
-		home = 625
-	}
-
-	regiment = {
-		name= "1.1. Artilleriedivision"
-		type = cuirassier
-		home = 732
-	}
-
-	regiment = {
-		name= "1.2. Artilleriedivision"
-		type = cuirassier
-		home = 733
-	}
-
-}
-
-army = {
-	name = "IV. Armee"
-	location = 729
-	regiment = {
-		name= "1.4. Infanteriedivision"
-		type = infantry
-		home = 612
-	}
-
-	regiment = {
-		name= "2.4. Infanteriedivision"
-		type = infantry
-		home = 629
-	}
-
-	regiment = {
-		name= "3.4. Infanteriedivision"
-		type = infantry
-		home = 726
-	}
-
-	regiment = {
-		name= "1.5. Infanteriedivision"
-		type = infantry
-		home = 614
-	}
-
-	regiment = {
-		name= "2.5. Infanteriedivision"
-		type = infantry
-		home = 619
-	}
-
-	regiment = {
-		name= "3.5. Infanteriedivision"
-		type = infantry
-		home = 714
-	}
-}
-
-army = {
-	name = "V. Armee"
-	location = 625
-	regiment = {
-		name= "1.2. Kavalleriedivision"
-		type = hussar
-		home = 622
-	}
-
-	regiment = {
-		name= "2.2. Kavalleriedivision"
-		type = hussar
-		home = 952
-	}
-
-	regiment = {
-		name= "3.2. Kavalleriedivision"
+		name= "Hussar"
 		type = hussar
 		home = 626
 	}
 
 	regiment = {
-		name= "1.1. Infanteriedivision"
-		type = infantry
-		home = 613
+		name= "Artillery"
+		type = artillery
+		home = 702
 	}
 
 	regiment = {
-		name= "2.1. Infanteriedivision"
-		type = infantry
-		home = 731
+		name= "Artillery"
+		type = artillery
+		home = 628
 	}
 
 	regiment = {
-		name= "3.1. Infanteriedivision"
-		type = infantry
+		name= "Artillery"
+		type = artillery
+		home = 730
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 768
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 624
+	}
+}
+army = {
+	name = "Mob Stack"
+	location = 621
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 953
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
 		home = 625
 	}
 
 	regiment = {
-		name= "1.2. Infanteriedivision"
-		type = infantry
+		name= "Artillery"
+		type = artillery
+		home = 612
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 629
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 726
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 614
+	}
+}
+army = {
+	name = "Mob Stack"
+	location = 620
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 619
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 714
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 622
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 951
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 626
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 613
+	}
+}
+army = {
+	name = "Mob Stack"
+	location = 624
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 731
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 625
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
 		home = 616
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 617
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 621
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 625
 	}
 }
 

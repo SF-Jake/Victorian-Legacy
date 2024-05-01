@@ -3,7 +3,7 @@ controller = LUX
 add_core = NET
 add_core = LUX
 trade_goods = iron
-life_rating = 35
+life_rating = 40
 terrain = woods_mine
 1913.1.1 = {
 	owner = LUX
@@ -25,8 +25,4 @@ terrain = woods_mine
 		building = machine_parts_factory
 		upgrade = yes
 	}
-}
-1914.7.28 = {
-	owner = GER
-	controller = GER
 }

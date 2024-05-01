@@ -9,51 +9,44 @@ GHO = {
 }
 
 SHW = {
-	value = -200
+	value = 40
+	truce_until="1841.1.1"
 }
 
 GON = {
-	value = -200
+	truce_until="1841.1.1"
+	value = 40
 }
 
 TIG = {
-	value = -200
+	truce_until="1841.1.1"
+	value = 30
 }
 
 AWS = {
-	value = -200
+	truce_until="1841.1.1"
+	value = 100
 }
 
-GJM = {
-	value = -200
+SID = {
+	truce_until="1841.1.1"
+	value = 30
 }
 
 GEL = {
-	value = -200
+	value = 50
 }
 
 MAJ = {
-	value = -200
-}
-
-KAF = {
-	value = -200
-}
-
-GJM = {
-	value = -200
-}
-
-WLO = {
-	value = -200
+	value = 75
 }
 
 leader = {
-	name = "Emir Abu Bakr II"
-	type = land
-	date = 1836.1.1
-	personality = org05mor10
-	background = 2a1d_1
+   name = "Emir Abu Bakr II"
+   type = land
+   date = 1836.1.1
+	personality = defence_1.1
+	background = attack_2.1
 }
 
 army = {

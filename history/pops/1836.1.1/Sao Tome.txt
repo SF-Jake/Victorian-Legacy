@@ -33,31 +33,31 @@
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = c_african
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = forest_bantu
-		religion = animist
+		culture = c_african
+		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = forest_bantu
-		religion = animist
+		culture = c_african
+		religion = catholic
 		size = 100
 	}
 
-	zbankers = {
-		culture = forest_bantu
-		religion = animist
+	farmers = {
+		culture = c_african
+		religion = catholic
 		size = 550
 	}
 
 	slaves = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 3450
 	}

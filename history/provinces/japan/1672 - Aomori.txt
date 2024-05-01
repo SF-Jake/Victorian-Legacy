@@ -10,10 +10,8 @@ terrain = woods_mine
 	colonial = 0
 }
 1913.1.1 = {
-	## Audax Validator "." Ignore_NEXT
-	trade_goods = coal
 	state_building = {
-		level = 3
+		level = 5
 		building = fertilizer_factory
 		upgrade = yes
 	}
@@ -23,22 +21,22 @@ terrain = woods_mine
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
+		level = 5
 		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
+		level = 5
 		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
+		level = 5
 		building = ammunition_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 5
 		building = small_arms_factory
 		upgrade = yes
 	}

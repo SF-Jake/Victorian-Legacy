@@ -12,17 +12,17 @@ leader = {
 	name = "von Leysser"
 	date = 1829.1.1
 	type = land
-	personality = spd20rec05
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
 leader = {
-	name = "Johann von Zezschwitz"
+	name = "von Zezschwitz"
 	date = 1817.1.1
 	type = land
-	personality = org10att15
-	background = 2a3d_1
+	personality = defence_5.1
+	background = attack_1.1
 	prestige = 0.2
 }
 

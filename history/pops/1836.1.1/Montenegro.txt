@@ -2,84 +2,96 @@
 #under the rule of Ottoman Empire in 1836  
 #Ulcinj (36000/9000 POPS) 
 800 = {
-    clergymen = {
-        culture = serb
-        religion = orthodox
-        size = 500
-    }
-
-    artisans = {
-        culture = serb
-        religion = orthodox
-        size = 800
-    }
-
-    soldiers = {
-        culture = serb
-        religion = orthodox
-        size = 385
-    }
-
-    zbankers = {
-        culture = serb
-        religion = orthodox
-        size = 13700
-    }
-
-    clergymen = {
-        culture = turkish
-        religion = sunni
-        size = 200
-    }
-
-    artisans = {
-        culture = turkish
-        religion = sunni
-        size = 200
-    }
-
-    soldiers = {
-        culture = turkish
-        religion = sunni
-        size = 200
-    }
-
-    zbankers = {
-        culture = turkish
-        religion = sunni
-        size = 2450
-    }
-}
-#Niksic (52000/13000 POPS) 
-2569 = {
-	aristocrats = {
-		culture = serb
-		religion = orthodox
-		size = 250
-	}
-
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 125
+		size = 50
 	}
 
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 575
+		size = 400
+	}
+
+	farmers = {
+		culture = serb
+		religion = orthodox
+		size = 7550
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = albanian
+		religion = sunni
+		size = 50
 	}
 
 	soldiers = {
+		culture = albanian
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = sunni
+		size = 825
+	}
+}
+#Niksic (52000/13000 POPS) 
+2569 = {
+	clergymen = {
 		culture = serb
 		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = serb
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = serb
+		religion = orthodox
+		size = 11400
+	}
+
+	aristocrats = {
+		culture = bosniak
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = bosniak
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = bosniak
+		religion = sunni
+		size = 75
+	}
+
+	soldiers = {
+		culture = bosniak
+		religion = sunni
 		size = 125
 	}
 
-	zbankers = {
-		culture = serb
-		religion = orthodox
-		size = 17225
+	farmers = {
+		culture = bosniak
+		religion = sunni
+		size = 5825
 	}
 }
 #under the rule of Montenegro in 1836  
@@ -88,7 +100,7 @@
 	bureaucrats = {
 		culture = serb
 		religion = orthodox
-		size = 100
+		size = 25
 	}
 
 	officers = {
@@ -115,44 +127,62 @@
 		size = 1100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 24375
+		size = 23375
 	}
 }
 #Kosovo-Sanjak Region (52000)  #see Serbia.txt for balance of region 
 #under the rule of Ottoman Empire in 1836  
 #Pljevlja (52000/13000 POPS) #now part of Montenegro
 2577 = {
-	aristocrats = {
-		culture = serb
-		religion = orthodox
-		size = 250
-	}
-
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 125
+		size = 75
 	}
 
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 2475
+		size = 7075
+	}
+
+	labourers = {
+		culture = serb
+		religion = orthodox
+		size = 1350
+	}
+
+	aristocrats = {
+		culture = bosniak
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = bosniak
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = bosniak
+		religion = sunni
+		size = 400
 	}
 
 	soldiers = {
-		culture = serb
-		religion = orthodox
+		culture = bosniak
+		religion = sunni
 		size = 150
 	}
 
-	zbankers = {
-		culture = serb
-		religion = orthodox
-		size = 10000
+	labourers = {
+		culture = bosniak
+		religion = sunni
+		size = 3650
 	}
 }
 #Dalmatia Region (64000) #see Croatia.txt for balance of region 
@@ -177,7 +207,7 @@
 		size = 50
 	}
 
-	zbankers = {
+	farmers = {
 		culture = croat
 		religion = catholic
 		size = 4650
@@ -201,7 +231,7 @@
 		size = 125
 	}
 
-	zbankers = {
+	farmers = {
 		culture = serb
 		religion = orthodox
 		size = 10225

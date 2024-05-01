@@ -5,7 +5,7 @@
 	bureaucrats = {
 		culture = swedish
 		religion = protestant
-		size = 300
+		size = 150
 	}
 
 	officers = {
@@ -32,7 +32,7 @@
 		size = 150
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
 		size = 14725
@@ -58,7 +58,7 @@
 		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
 		size = 3725
@@ -72,62 +72,128 @@
 		size = 75
 	}
 
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 4800
+	}
+
 	soldiers = {
 		culture = swedish
 		religion = protestant
 		size = 100
 	}
 
-	zbankers = {
+	labourers = {
 		culture = swedish
 		religion = protestant
-		size = 9800
+		size = 4500
+	}
+
+	labourers = {
+		culture = swedish
+		religion = protestant
+		size = 500
 	}
 }
 #Karelia Region (524000)
 #under the rule of Russia in 1836
 #Viipuri (192000/48000 POPS) #now part of Russia
 339 = {
-	aristocrats = {
+	bureaucrats = {
 		culture = swedish
 		religion = protestant
 		size = 50
 	}
 
-	bureaucrats = {
-		culture = swedish
-		religion = protestant
-		size = 400
-	}
-
 	officers = {
 		culture = swedish
 		religion = protestant
-		size = 150
+		size = 100
 	}
 
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 475
+		size = 400
 	}
 
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 2450
+		size = 2150
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size = 550
+		size = 400
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 47350
+		size = 42700
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = swedish
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = swedish
+		religion = orthodox
+		size = 4650
+	}
+
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = russian
+		religion = orthodox
+		size = 150
+	}
+
+	officers = {
+		culture = russian
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 100
 	}
 }
 #Kotka (64000/16000 POPS)
@@ -135,25 +201,49 @@
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 140
+		size = 125
 	}
 
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 800
+		size = 750
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size = 160
+		size = 150
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 14900
+		size = 13975
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 15
+	}
+
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 50
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = protestant
+		size = 10
+	}
+
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 925
 	}
 }
 #Mikkeli (116000/29000 POPS)
@@ -176,7 +266,7 @@
 		size = 275
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
 		size = 27025
@@ -187,31 +277,91 @@
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 365
+		size = 350
 	}
 
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 1900
+		size = 1850
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size = 360
+		size = 350
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 35350
+		size = 34425
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = orthodox
+		size = 15
+	}
+
+	artisans = {
+		culture = swedish
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = orthodox
+		size = 10
+	}
+
+	farmers = {
+		culture = swedish
+		religion = orthodox
+		size = 925
 	}
 }
 #Finland Region (812000)
 #under the rule of Russia in 1836
 #Helsinki (132000/33000 POPS)
 343 = {
+	officers = {
+		culture = swedish
+		religion = protestant
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = swedish
+		religion = protestant
+		size = 150
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 150
+	}
+
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 2250
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = protestant
+		size = 1100
+	}
+
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 19400
+	}
+
 	aristocrats = {
 		culture = swedish
 		religion = protestant
@@ -221,41 +371,65 @@
 	bureaucrats = {
 		culture = swedish
 		religion = protestant
-		size = 750
+		size = 225
 	}
 
 	officers = {
 		culture = swedish
 		religion = protestant
-		size = 200
+		size = 150
 	}
 
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 250
+		size = 100
 	}
 
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 4000
+		size = 1750
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size = 1200
+		size = 100
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 26725
+		size = 7325
 	}
 }
 #Hameenlinna (44000/11000 POPS)
 344 = {
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 500
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = protestant
+		size = 100
+	}
+
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 9350
+	}
+
 	aristocrats = {
 		culture = swedish
 		religion = protestant
@@ -265,29 +439,53 @@
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 75
+		size = 25
 	}
 
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 575
+		size = 75
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size = 125
+		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 10150
+		size = 800
 	}
 }
 #Turku (280000/70000 POPS)
 345 = {
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 575
+	}
+
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 2950
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = protestant
+		size = 1100
+	}
+
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 54475
+	}
+
 	aristocrats = {
 		culture = swedish
 		religion = protestant
@@ -297,29 +495,53 @@
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 675
+		size = 100
 	}
 
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 3500
+		size = 550
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size = 1225
+		size = 125
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 64700
+		size = 10225
 	}
 }
 #Vaasa (272000/68000 POPS)
 346 = {
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 475
+	}
+
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 2600
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = protestant
+		size = 1100
+	}
+
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 47925
+	}
+
 	aristocrats = {
 		culture = swedish
 		religion = protestant
@@ -329,29 +551,53 @@
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 625
+		size = 150
 	}
 
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 3700
+		size = 1100
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size = 1275
+		size = 175
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 61600
+		size = 13675
 	}
 }
 #Tampere (84000/21000 POPS)
 347 = {
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 150
+	}
+
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 1100
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = protestant
+		size = 200
+	}
+
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 18650
+	}
+
 	aristocrats = {
 		culture = swedish
 		religion = protestant
@@ -361,25 +607,25 @@
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 1275
+		size = 25
 	}
 
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 1200
+		size = 100
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size = 225
+		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 19250
+		size = 600
 	}
 }
 #Svealand Region (11000)
@@ -389,24 +635,49 @@
 	clergymen = {
 		culture = swedish
 		religion = protestant
-		size = 40
+		size = 35
 	}
 
 	artisans = {
 		culture = swedish
 		religion = protestant
-		size = 160
+		size = 150
 	}
 
 	soldiers = {
 		culture = swedish
 		religion = protestant
-		size = 30
+		size = 25
 	}
 
-	zbankers = {
+	farmers = {
 		culture = swedish
 		religion = protestant
-		size = 2520
+		size = 2390
 	}
+
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 10
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = protestant
+		size = 5
+	}
+
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 130
+	}
+
 }

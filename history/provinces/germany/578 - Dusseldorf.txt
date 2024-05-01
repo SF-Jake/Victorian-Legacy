@@ -8,11 +8,30 @@ railroad = 1
 1913.1.1 = {
 	owner = GER
 	controller = GER
-	## Audax Validator "." Ignore_NEXT
 	trade_goods = opium
 	state_building = {
-		level = 7
+		level = 4
+		building = telephone_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
 		building = fuel_refinery
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = winery
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = tea_packaging_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = pharmaceutical_plant
 		upgrade = yes
 	}
 }

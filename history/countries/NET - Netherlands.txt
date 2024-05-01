@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 375
 	primary_culture = dutch
 	religion = protestant
@@ -30,7 +30,7 @@
 	school_reforms = good_schools
 
 	# New Reforms
-	conscription = one_year_draft
+	conscription = two_year_draft
 	debt_law = debtors_prisons
 	penal_system = capital_punishment
 	child_labor = child_labor_restricted
@@ -79,6 +79,7 @@
 	battleship_column_doctrine = 1
 
 	#Inventions
+	pharmaceuticals = yes
 
 	# Starting Consciousness
 	consciousness = 3
@@ -87,10 +88,9 @@
 	oob = "NET_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 375
 	primary_culture = dutch
-	culture = flemish
 	religion = protestant
 	government = absolute_monarchy
 	plurality = 30
@@ -99,7 +99,6 @@
 	civilized = yes
 	prestige = 10
 	schools = commerce_tech_school
-	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = yes_slavery
@@ -121,7 +120,7 @@
 	school_reforms = good_schools
 
 	# New Reforms
-	conscription = one_year_draft
+	conscription = two_year_draft
 	debt_law = debtors_prisons
 	penal_system = capital_punishment
 	child_labor = child_labor_restricted
@@ -170,6 +169,7 @@
 	battleship_column_doctrine = 1
 
 	#Inventions
+	pharmaceuticals = yes
 
 	# Starting Consciousness
 	consciousness = 3
@@ -178,19 +178,8 @@
 	oob = "NET_oob.txt"
 }
 
-1836.1.1= {
-	set_country_flag = java_annexed
-	set_country_flag = short_declaration
-	set_country_flag = conquest_of_banjar
-	set_country_flag = conquest_of_jambi
-}
-
 1839.1.1 = {
 	decision = sign_treaty_of_london
-}
-
-1851.1.1 = {
-	set_country_flag = flores_purchase
 }
 
 1913.1.1 = {
@@ -202,6 +191,8 @@
 	set_country_flag = cultuurstelsel_abolished
 	set_country_flag = batavia_reborn
 	set_country_flag = conquest_of_borneo
+	set_country_flag = java_annexed
+	set_country_flag = short_declaration
 	set_country_flag = bali_expedition
 	set_global_flag = subjugation_of_sulawesi
 	set_global_flag = end_lanfang
@@ -210,7 +201,7 @@
 	set_country_flag = military_supplies_idea
 	set_country_flag = military_hospitals_idea
 	set_country_flag = farming_idea
-	set_country_flag = navy_experience_idea
+	set_country_flag = navy_build_speed_idea
 	set_country_flag = domestic_idea
 
 # Technologies
@@ -253,6 +244,8 @@
 		collectivist_theory = 1
 		the_historical_theory = 1
 		neoclassical_theory = 1
+		keynesian_economics = 1
+		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		business_regulations = 1
@@ -360,7 +353,7 @@
 	safety_regulations=acceptable_safety
 	unemployment_subsidies=acceptable_subsidies
 	pensions=good_pensions
-	health_care=no_health_care
+	health_care=universal_health_care
 	school_reforms=good_schools
 	penal_system=incarceration
 	child_labor=child_labor_illegal

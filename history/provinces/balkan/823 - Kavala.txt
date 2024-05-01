@@ -6,20 +6,10 @@ add_core = BUL
 trade_goods = tobacco
 life_rating = 40
 1913.1.1 = {
-	owner = GRE
-	controller = GRE
-	remove_core = TUR
-	state_building = {
-		level = 1
-		building = cigarette_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = paper_mill
-		upgrade = yes
-	}
+owner = GRE
+controller = GRE
+remove_core = TUR
 }
 1914.7.28 = {
-	
+add_core = KGR
 }

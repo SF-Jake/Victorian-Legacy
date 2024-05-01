@@ -1,12 +1,11 @@
-owner = XIN
-add_core = XIN
+add_core = RUS
 trade_goods = grain
-life_rating = 32
-terrain = mountain_mine
+life_rating = 25
+terrain = woods_mine
 1913.1.1 = {
 	owner = RUS
 	controller = RUS
 	add_core = RUS
-	remove_core = XIN
+	remove_core = KOK
 	life_rating = 35
 }

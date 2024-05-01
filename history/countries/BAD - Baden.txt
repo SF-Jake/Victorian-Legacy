@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 586
 	primary_culture = north_german
 	religion = protestant
@@ -84,7 +84,7 @@
 	oob = "BAD_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 586
 	primary_culture = south_german
 	religion = catholic
@@ -95,7 +95,6 @@
 	civilized = yes
 	prestige = 5
 	south_country_flag = south_german
-	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery

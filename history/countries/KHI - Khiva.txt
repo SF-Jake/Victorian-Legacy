@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 1191
 	primary_culture = turkmen
 	religion = sunni
@@ -60,9 +60,9 @@
 	oob = "KHI_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 1191
-	primary_culture = uzbek
+	primary_culture = turkmen
 	culture = turkmen
 	religion = sunni
 	government = absolute_monarchy
@@ -193,7 +193,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=no_health_care
+	health_care=universal_health_care
 	school_reforms=no_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal

@@ -3,63 +3,93 @@
 #Libreville (48000/12000 POPS) 
 1972 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
-		size = 200
+		size = 50
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
-		size = 175
+		size = 75
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
-		size = 600
+		size = 150
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
-		size = 125
+		size = 25
 	}
 
-	zbankers = {
-		culture = forest_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
-		size = 10900
+		size = 2700
 	}
-}
-#Mayumbe (32000/8000 POPS) 
-1974 = {
+
 	aristocrats = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = c_african
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = c_african
+		religion = animist
+		size = 450
+	}
+
+	soldiers = {
+		culture = c_african
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = c_african
+		religion = animist
+		size = 8200
+	}
+}
+#Mayumbe (32000/8000 POPS) 
+1974 = {
+	aristocrats = {
+		culture = c_african
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = c_african
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 400
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 75
 	}
 
-	zbankers = {
-		culture = forest_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
 		size = 7300
 	}
@@ -67,31 +97,31 @@
 #Moanda (28000/7000 POPS) 
 1975 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 125
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 350
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
 		size = 75
 	}
 
-	zbankers = {
-		culture = forest_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
 		size = 6375
 	}
@@ -100,33 +130,63 @@
 #Makokou (72000/18000 POPS) 
 1976 = {
 	aristocrats = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
-		size = 325
+		size = 150
 	}
 
 	clergymen = {
-		culture = forest_bantu
+		culture = c_african
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = c_african
+		religion = animist
+		size = 5200
+	}
+
+	soldiers = {
+		culture = c_african
+		religion = animist
+		size = 75
+	}
+
+	farmers = {
+		culture = c_african
+		religion = animist
+		size = 2500
+	}
+
+	aristocrats = {
+		culture = c_african
 		religion = animist
 		size = 175
 	}
 
-	artisans = {
-		culture = forest_bantu
+	clergymen = {
+		culture = c_african
 		religion = animist
-		size = 12300
+		size = 100
+	}
+
+	artisans = {
+		culture = c_african
+		religion = animist
+		size = 7125
 	}
 
 	soldiers = {
-		culture = forest_bantu
+		culture = c_african
 		religion = animist
-		size = 200
+		size = 100
 	}
 
-	zbankers = {
-		culture = forest_bantu
+	farmers = {
+		culture = c_african
 		religion = animist
-		size = 5000
+		size = 2500
 	}
 
 }

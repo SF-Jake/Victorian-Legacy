@@ -292,4 +292,48 @@ political_decisions = {
 			}
 		}
 	}
+
+	end_lanfang = {
+		picture = lanfang_republic
+		potential = {
+			civilized = yes
+			1426 = {
+				owner = {
+					civilized = no
+					tag = LAN
+				}
+				any_neighbor_province = { owned_by = THIS }
+			}
+			NOT = { has_global_flag = lanfang_ended }
+		}
+
+		allow = {
+			OR = {
+				invention = colonial_negotiations
+				AND = {
+					tag = NET
+					year = 1870
+				}
+			}
+			war = no
+		}
+
+		effect = {
+			set_global_flag = lanfang_ended
+			LAN = {
+				any_greater_power = {
+					diplomatic_influence = {
+						who = LAN
+						value = -200
+					}
+					leave_alliance = LAN
+				}
+			}
+			war = {
+				target = LAN
+				attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1426 }
+			}
+			badboy = -2.5
+		}
+	}
 }

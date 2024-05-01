@@ -1,6 +1,8 @@
 owner = ECU
 controller = ECU
 add_core = ECU
-trade_goods = coal
+add_core = GCO
+add_core = GCL
+
+trade_goods = wool
 life_rating = 35
-terrain = jungle_mine

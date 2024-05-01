@@ -1,29 +1,32 @@
-owner = PBC
-controller = PBC
-add_core = PBC
+owner = BOL
+controller = BOL
 add_core = BOL
 add_core = CHL
 trade_goods = sulphur
 life_rating = 35
-terrain = desert_mine
-1836.1.2 = {
-	owner = PBC
-	controller = PBC
-	add_core = PBC
-}
+terrain = plains_mine
 1913.1.1 = {
 	owner = CHL
 	controller = CHL
 	remove_core = BOL
-	remove_core = PBC
 	state_building = {
 		level = 1
-		building = ammunition_factory
+		building = fertilizer_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = artillery_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 1
-		building = canned_food_factory
+		building = lumber_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = steel_factory
 		upgrade = yes
 	}
 	naval_base = 5

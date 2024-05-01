@@ -2,8 +2,8 @@ owner = FRA
 controller = FRA
 add_core = FRA
 trade_goods = grain
-life_rating = 35
 terrain = urban
+life_rating = 40
 state_building = {
 	level = 2
 	building = machine_parts_factory
@@ -17,7 +17,7 @@ state_building = {
 1913.1.1 = {
 	fort = 5
 	state_building = {
-		level = 10
+		level = 7
 		building = artillery_factory
 		upgrade = yes
 	}
@@ -42,7 +42,7 @@ state_building = {
 		upgrade = yes
 	}
 	state_building = {
-		level = 4
+		level = 7
 		building = pharmaceutical_plant
 		upgrade = yes
 	}

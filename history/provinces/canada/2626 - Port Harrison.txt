@@ -1,13 +1,11 @@
-owner = PNK
-controller = PNK
-add_core = PNK
-trade_goods = market_goods
+owner = COM
+controller = COM
+add_core = COM
+add_core = QUE
+trade_goods = grain
 life_rating = 35
-naval_base = 1
-terrain = jungle_mine
 1913.1.1 = {
-	owner = NET
-	controller = NET
-	colonial = 2
-	naval_base = 6
+	owner = CAN
+	controller = CAN
+	remove_core = RPL
 }

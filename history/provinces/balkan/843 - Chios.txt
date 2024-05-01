@@ -4,6 +4,7 @@ add_core = TUR
 add_core = GRE
 trade_goods = sulphur
 life_rating = 35
+terrain = plains_mine
 1913.1.1 = {
 	owner = GRE
 	controller = GRE
@@ -11,6 +12,16 @@ life_rating = 35
 	state_building = {
 		level = 1
 		building = fertilizer_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steamer_shipyard
 		upgrade = yes
 	}
 	state_building = {

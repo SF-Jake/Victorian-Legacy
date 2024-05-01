@@ -38,20 +38,20 @@
         size = 3300
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 117125
     }
 
     clergymen = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 25
     }
 
     artisans = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 975
     }
@@ -74,7 +74,7 @@
         size = 10
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 920
@@ -106,7 +106,7 @@
         size = 1300
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 34075
@@ -130,7 +130,7 @@
         size = 25
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 1825
@@ -147,25 +147,49 @@
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 350
+        size = 250
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 1900
+        size = 1350
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 1400
+        size = 1300
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
-        size = 34100
+        size = 23850
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 550
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 10250
     }
 
     clergymen = {
@@ -186,7 +210,7 @@
         size = 25
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 1825
@@ -220,14 +244,14 @@
         size = 2300
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 46125
     }
 
     artisans = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 200
     }
@@ -269,65 +293,95 @@
     clerks = {
         culture = north_german
         religion = protestant
-        size = 300
+        size = 125
     }
 
     craftsmen = {
         culture = north_german
         religion = protestant
-        size = 13500
+        size = 3500
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 7775
+        size = 10000
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 6875
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 4800
+        size = 3500
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
-        size = 162905
+        size = 147280
     }
 
     clergymen = {
-        culture = ashkenazi
+        culture = north_german
+        religion = catholic
+        size = 175
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 900
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 1300
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 15625
+    }
+
+    clergymen = {
+        culture = north_german
         religion = jewish
         size = 25
     }
 
     clerks = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 25
     }
 
     craftsmen = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 150
     }
 
     artisans = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 1325
     }
 
     soldiers = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 25
     }
 
-    zbankers = {
-        culture = ashkenazi
+    farmers = {
+        culture = north_german
         religion = jewish
         size = 450
     }
@@ -350,7 +404,7 @@
         size = 1300
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 31600
@@ -367,85 +421,73 @@
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 1000
-    }
-
-    craftsmen = {
-        culture = north_german
-        religion = protestant
-        size = 10000
+        size = 925
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 10000
+        size = 20450
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 10000
+        size = 20000
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 10000
+        size = 20000
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 10000
+        size = 20000
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = north_german
-        religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = north_german
-        religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = north_german
-        religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = north_german
-        religion = protestant
-        size = 3875
+        size = 20000
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 1275
+        size = 1225
     }
 
-    zbankers = {
+    labourers = {
         culture = north_german
         religion = protestant
-        size = 10000
+        size = 5000
     }
 
     craftsmen = {
         culture = north_german
         religion = protestant
-        size = 6850
+        size = 1400
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 75
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 3875
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 50
     }
 
     clergymen = {
@@ -492,34 +534,46 @@
         size = 2000
     }
 
-    bureaucrats = {
-        culture = north_german
-        religion = protestant
-        size = 1500
-    }
-
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 450
+        size = 325
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 18750
+        size = 5000
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 2525
+        size = 1400
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 29275
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 125
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 13750
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 1125
     }
 
     clergymen = {
@@ -549,7 +603,13 @@
     artisans = {
         culture = polish
         religion = catholic
-        size = 25000
+        size = 20000
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 5000
     }
 
     soldiers = {
@@ -558,7 +618,7 @@
         size = 2300
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 36275
@@ -587,55 +647,55 @@
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 2255
-    }
-
-    officers = {
-        culture = north_german
-        religion = protestant
-        size =  20
+        size = 1750
     }
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 325
+        size = 75
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = north_german
-        religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = north_german
-        religion = protestant
-        size = 10000
-    }
-
-    artisans = {
-        culture = north_german
-        religion = protestant
-        size = 6410
+        size = 7075
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 1400
+        size = 100
     }
 
-    zbankers = {
+    labourers = {
         culture = north_german
         religion = protestant
-        size = 3000
+        size = 1000
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 175
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 16625
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 1300
+    }
+
+    labourers = {
+        culture = north_german
+        religion = catholic
+        size = 2000
     }
 
     clergymen = {
@@ -647,43 +707,7 @@
     artisans = {
         culture = polish
         religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 5445
+        size = 65325
     }
 
     soldiers = {
@@ -692,7 +716,7 @@
         size = 2000
     }
 
-    zbankers = {
+    labourers = {
         culture = polish
         religion = catholic
         size = 6000
@@ -701,28 +725,22 @@
     clergymen = {
         culture = czech
         religion = catholic
-        size = 100
+        size = 50
     }
 
     artisans = {
         culture = czech
         religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = czech
-        religion = catholic
-        size = 3215
+        size = 8850
     }
 
     soldiers = {
         culture = czech
         religion = catholic
-        size = 150
+        size = 100
     }
 
-    zbankers = {
+    labourers = {
         culture = czech
         religion = catholic
         size = 1000
@@ -761,51 +779,27 @@
         size = 500
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
-        size = 10000
-    }
-
-    zbankers = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    zbankers = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    zbankers = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    zbankers = {
-        culture = polish
-        religion = catholic
-        size = 4215
+        size = 44215
     }
 
     clergymen = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 50
     }
 
     artisans = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 1925
     }
 
     soldiers = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 25
     }
 }
@@ -817,6 +811,12 @@
         culture = north_german
         religion = protestant
         size = 50
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = protestant
+        size = 375
     }
 
     officers = {
@@ -843,20 +843,20 @@
         size = 125
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
-        size = 1650
+        size = 1275
     }
 
     clergymen = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 5
     }
 
     artisans = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 395
     }
@@ -879,7 +879,7 @@
         size = 75
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 1875
@@ -896,25 +896,49 @@
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 365
+        size = 350
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 1900
+        size = 1850
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 1100
+        size = 375
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
-        size = 34135
+        size = 33925
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 15
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 50
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 10
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 925
     }
 
     clergymen = {
@@ -935,7 +959,7 @@
         size = 75
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 6525
@@ -967,7 +991,7 @@
         size = 1300
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 21650
@@ -991,7 +1015,7 @@
         size = 75
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 6625
@@ -1003,12 +1027,6 @@
         culture = north_german
         religion = protestant
         size = 700
-    }
-
-    bureaucrats = {
-        culture = north_german
-        religion = protestant
-        size = 1600
     }
 
     clergymen = {
@@ -1029,7 +1047,7 @@
         size = 1300
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 24125
@@ -1053,7 +1071,7 @@
         size = 1100
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 7475
@@ -1070,37 +1088,61 @@
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 150
+        size = 125
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 900
+        size = 800
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 200
+        size = 175
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
-        size = 15750
+        size = 13900
     }
 
     clergymen = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 5
     }
 
     artisans = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 145
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 25
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 25
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 1850
     }
 
     clergymen = {
@@ -1118,13 +1160,13 @@
     soldiers = {
         culture = polish
         religion = catholic
-        size = 1050
+        size = 250
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
-        size = 23425
+        size = 24225
     }
 }
 #East Prussia Region (396000) #see Russia.txt and Lithuania.txt for balance of region
@@ -1155,7 +1197,7 @@
         size = 2300
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 50250
@@ -1163,26 +1205,50 @@
 
     clergymen = {
         culture = polish
+        religion = protestant
+        size = 325
+    }
+
+    artisans = {
+        culture = polish
+        religion = protestant
+        size = 1800
+    }
+
+    soldiers = {
+        culture = polish
+        religion = protestant
+        size = 1300
+    }
+
+    farmers = {
+        culture = polish
+        religion = protestant
+        size = 32575
+    }
+
+    clergymen = {
+        culture = polish
         religion = catholic
-        size = 400
+        size = 75
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 2050
+        size = 250
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 1350
+        size = 50
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
-        size = 37200
+        size = 4625
     }
 }
 #Posen-Wielkopolska Region (1704000)
@@ -1198,7 +1264,7 @@
     bureaucrats = {
         culture = north_german
         religion = protestant
-        size = 1700
+        size = 700
     }
 
     officers = {
@@ -1216,7 +1282,7 @@
     artisans = {
         culture = north_german
         religion = protestant
-        size = 1650
+        size = 2650
     }
 
     soldiers = {
@@ -1225,44 +1291,44 @@
         size = 1300
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 26525
     }
 
     clergymen = {
-		culture = north_german
-        religion = protestant
+        culture = north_german
+        religion = catholic
         size = 175
     }
 
     artisans = {
-		culture = north_german
-        religion = protestant
+        culture = north_german
+        religion = catholic
         size = 1750
     }
 
     soldiers = {
-		culture = north_german
-        religion = protestant
+        culture = north_german
+        religion = catholic
         size = 175
     }
 
-    zbankers = {
-		culture = north_german
-        religion = protestant
+    farmers = {
+        culture = north_german
+        religion = catholic
         size = 15190
     }
 
     clergymen = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 25
     }
 
     artisans = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 1475
     }
@@ -1291,7 +1357,7 @@
         size = 2400
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 74400
@@ -1323,7 +1389,7 @@
         size = 1150
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 20000
@@ -1331,36 +1397,36 @@
 
     clergymen = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 50
     }
 
     artisans = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 350
     }
 
     soldiers = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 75
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 6525
     }
 
     clergymen = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 20
     }
 
     artisans = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 1230
     }
@@ -1389,7 +1455,7 @@
         size = 200
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 22375
@@ -1421,7 +1487,7 @@
         size = 1125
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 12000
@@ -1429,36 +1495,36 @@
 
     clergymen = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 100
     }
 
     artisans = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 500
     }
 
     soldiers = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 100
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
-        religion = protestant
+        religion = catholic
         size = 9300
     }
 
     clergymen = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 25
     }
 
     artisans = {
-        culture = ashkenazi
+        culture = north_german
         religion = jewish
         size = 1225
     }
@@ -1487,7 +1553,7 @@
         size = 2300
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 89325
@@ -1517,25 +1583,49 @@
     clergymen = {
         culture = polish
         religion = catholic
-        size = 500
+        size = 425
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 2500
+        size = 2000
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 1500
+        size = 1300
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
-        size = 45875
+        size = 36550
+    }
+
+    clergymen = {
+        culture = polish
+        religion = protestant
+        size = 75
+    }
+
+    artisans = {
+        culture = polish
+        religion = protestant
+        size = 500
+    }
+
+    soldiers = {
+        culture = polish
+        religion = protestant
+        size = 100
+    }
+
+    farmers = {
+        culture = polish
+        religion = protestant
+        size = 9325
     }
 
     clergymen = {
@@ -1556,7 +1646,7 @@
         size = 25
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 3700
@@ -1580,7 +1670,7 @@
         size = 50
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 3000
@@ -1597,25 +1687,49 @@
     clergymen = {
         culture = polish
         religion = catholic
-        size = 550
+        size = 500
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 2750
+        size = 2600
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 525
+        size = 500
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
-        size = 49275
+        size = 46500
+    }
+
+    clergymen = {
+        culture = polish
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = polish
+        religion = protestant
+        size = 150
+    }
+
+    soldiers = {
+        culture = polish
+        religion = protestant
+        size = 25
+    }
+
+    farmers = {
+        culture = polish
+        religion = protestant
+        size = 2775
     }
 
     clergymen = {
@@ -1636,7 +1750,7 @@
         size = 25
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 3725
@@ -1660,7 +1774,7 @@
         size = 25
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 2300
@@ -1679,7 +1793,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 175
+        size = 25
     }
 
     officers = {
@@ -1706,32 +1820,32 @@
         size = 1100
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 26375
     }
 
     clergymen = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 75
     }
 
     artisans = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 500
     }
 
     soldiers = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 25
     }
 
-    zbankers = {
-        culture = russian
+    farmers = {
+        culture = ukrainian
         religion = orthodox
         size = 3400
     }
@@ -1756,19 +1870,19 @@
 
     clergymen = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 20
     }
 
     artisans = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 470
     }
 
     soldiers = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 10
     }
 }
@@ -1811,32 +1925,32 @@
         size = 3100
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 100975
     }
 
     clergymen = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 175
     }
 
     artisans = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 450
     }
 
     soldiers = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 175
     }
 
-    zbankers = {
-        culture = russian
+    farmers = {
+        culture = ukrainian
         religion = orthodox
         size = 18200
     }
@@ -1859,7 +1973,7 @@
         size = 125
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 8200
@@ -1867,25 +1981,25 @@
 
     clergymen = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 50
     }
 
     artisans = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 100
     }
 
     soldiers = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 25
     }
 
-    zbankers = {
+    farmers = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 1825
     }
 }
@@ -1915,7 +2029,7 @@
         size = 3150
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 129675
@@ -1939,7 +2053,7 @@
         size = 75
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 4250
@@ -1947,25 +2061,25 @@
 
     clergymen = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 20
     }
 
     artisans = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 50
     }
 
     soldiers = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 10
     }
 
-    zbankers = {
+    farmers = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 920
     }
 }
@@ -1981,7 +2095,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 2625
+        size = 525
     }
 
     officers = {
@@ -1999,55 +2113,25 @@
     artisans = {
         culture = polish
         religion = catholic
-        size = 10000
+        size = 24550
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 10000
+        size = 20000
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 10000
+        size = 20000
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 10000
-    }
-
-    artisans = {
-        culture = polish
-        religion = catholic
-        size = 6550
+        size = 20000
     }
 
     soldiers = {
@@ -2056,10 +2140,10 @@
         size = 950
     }
 
-    zbankers = {
+    labourers = {
         culture = polish
         religion = catholic
-        size = 6000
+        size = 8000
     }
 
     clergymen = {
@@ -2071,7 +2155,7 @@
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 8750
+        size = 10750
     }
 
     soldiers = {
@@ -2080,10 +2164,10 @@
         size = 125
     }
 
-    zbankers = {
+    labourers = {
         culture = ashkenazi
         religion = jewish
-        size = 4000
+        size = 2000
     }
 }
 #Lublin (476000/119000 POPS)
@@ -2112,32 +2196,32 @@
         size = 800
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 75475
     }
 
     clergymen = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 200
     }
 
     artisans = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 1100
     }
 
     soldiers = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 225
     }
 
-    zbankers = {
-        culture = russian
+    farmers = {
+        culture = ukrainian
         religion = orthodox
         size = 20475
     }
@@ -2160,7 +2244,7 @@
         size = 125
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 8200
@@ -2177,27 +2261,50 @@
     clergymen = {
         culture = polish
         religion = catholic
-        size = 965
+        size = 950
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 5300
+        size = 4900
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 960
+        size = 950
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
-        size = 89225
+        size = 88650
     }
 
+    clergymen = {
+        culture = polish
+        religion = protestant
+        size = 15
+    }
+
+    artisans = {
+        culture = polish
+        religion = protestant
+        size = 400
+    }
+
+    soldiers = {
+        culture = polish
+        religion = protestant
+        size = 10
+    }
+
+    farmers = {
+        culture = polish
+        religion = protestant
+        size = 575
+    }
 
     clergymen = {
         culture = ashkenazi
@@ -2217,7 +2324,7 @@
         size = 125
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 8200
@@ -2228,129 +2335,135 @@
 #Przemysl (596000/149000 POPS)
 705 = {
     clergymen = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
-        size = 175
+        size = 105
     }
 
     artisans = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
-        size = 950
+        size = 9190
     }
 
     soldiers = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
-        size = 175
+        size = 105
     }
 
-    zbankers = {
-        culture = russian
+    labourers = {
+        culture = ukrainian
         religion = orthodox
-        size = 60700
+        size = 2000
     }
 
     aristocrats = {
         culture = polish
         religion = catholic
-        size = 3400
+        size = 2040
     }
 
     clergymen = {
         culture = polish
         religion = catholic
-        size = 1175
+        size = 705
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 5750
+        size = 24565
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 20000
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 20000
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 1150
+        size = 1690
     }
 
-    zbankers = {
+    labourers = {
         culture = polish
         religion = catholic
-        size = 37000
+        size = 6000
     }
 
     clergymen = {
         culture = ashkenazi
         religion = jewish
-        size = 125
+        size = 75
     }
 
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 4550
+        size = 5665
     }
 
     soldiers = {
         culture = ashkenazi
         religion = jewish
-        size = 100
+        size = 60
     }
 
-    zbankers = {
+    labourers = {
         culture = ashkenazi
         religion = jewish
-        size = 11750
+        size = 2000
     }
 
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 30
     }
 
     artisans = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 1145
     }
 
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 100
-    }
-
-    zbankers = {
-        culture = south_german
-        religion = catholic
-        size = 1325
+        size = 25
     }
 }
 #Rzeszow (596000/149000 POPS)
 2684 = {
     clergymen = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 70
     }
 
     artisans = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 400
     }
 
     soldiers = {
-        culture = russian
+        culture = ukrainian
         religion = orthodox
         size = 70
     }
 
-    zbankers = {
-        culture = russian
+    farmers = {
+        culture = ukrainian
         religion = orthodox
         size = 7060
     }
@@ -2379,7 +2492,7 @@
         size = 1460
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 44710
@@ -2403,7 +2516,7 @@
         size = 40
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 3510
@@ -2411,19 +2524,19 @@
 
     clergymen = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 20
     }
 
-    zbankers = {
+    farmers = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 755
     }
 
     soldiers = {
         culture = south_german
-		religion = catholic
+        religion = catholic
         size = 25
     }
 }
@@ -2440,7 +2553,7 @@
     bureaucrats = {
         culture = polish
         religion = catholic
-        size = 2500
+        size = 500
     }
 
     officers = {
@@ -2452,25 +2565,49 @@
     clergymen = {
         culture = polish
         religion = catholic
-        size = 1575
+        size = 1500
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 21500
+        size = 20000
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 1525
+        size = 1500
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
-        size = 153950
+        size = 151550
+    }
+
+    clergymen = {
+        culture = polish
+        religion = protestant
+        size = 75
+    }
+
+    artisans = {
+        culture = polish
+        religion = protestant
+        size = 1500
+    }
+
+    soldiers = {
+        culture = polish
+        religion = protestant
+        size = 25
+    }
+
+    farmers = {
+        culture = polish
+        religion = protestant
+        size = 2400
     }
 
     clergymen = {
@@ -2491,7 +2628,7 @@
         size = 200
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 10600
@@ -2515,7 +2652,7 @@
         size = 50
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 3400
@@ -2532,25 +2669,49 @@
     clergymen = {
         culture = polish
         religion = catholic
-        size = 450
+        size = 375
     }
 
     artisans = {
         culture = polish
         religion = catholic
-        size = 2150
+        size = 1900
     }
 
     soldiers = {
         culture = polish
         religion = catholic
-        size = 425
+        size = 375
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
-        size = 39875
+        size = 35250
+    }
+
+    clergymen = {
+        culture = polish
+        religion = catholic
+        size = 75
+    }
+
+    artisans = {
+        culture = polish
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = polish
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = polish
+        religion = catholic
+        size = 4625
     }
 
     clergymen = {
@@ -2571,7 +2732,7 @@
         size = 50
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 2900
@@ -2603,7 +2764,7 @@
         size = 900
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 79775
@@ -2627,7 +2788,7 @@
         size = 75
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 4350
@@ -2651,7 +2812,7 @@
         size = 25
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 2690
@@ -2683,7 +2844,7 @@
         size = 400
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 38875
@@ -2707,7 +2868,7 @@
         size = 75
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 5625
@@ -2739,7 +2900,7 @@
         size = 950
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 85875
@@ -2763,7 +2924,7 @@
         size = 100
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 6800
@@ -2787,7 +2948,7 @@
         size = 25
     }
 
-    zbankers = {
+    farmers = {
         culture = north_german
         religion = protestant
         size = 1700
@@ -2819,7 +2980,7 @@
         size = 1050
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 95000
@@ -2843,7 +3004,7 @@
         size = 125
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 8200
@@ -2856,25 +3017,25 @@
     clergymen = {
         culture = russian
         religion = orthodox
-        size = 550
+        size = 325
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 2350
+        size = 1100
     }
 
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 650
+        size = 350
     }
 
-    zbankers = {
+    farmers = {
         culture = russian
         religion = orthodox
-        size = 58450
+        size = 30225
     }
 
     aristocrats = {
@@ -2901,10 +3062,34 @@
         size = 75
     }
 
-    zbankers = {
+    farmers = {
         culture = polish
         religion = catholic
         size = 5575
+    }
+
+    clergymen = {
+        culture = russian
+        religion = catholic
+        size = 225
+    }
+
+    artisans = {
+        culture = russian
+        religion = catholic
+        size = 1250
+    }
+
+    soldiers = {
+        culture = russian
+        religion = catholic
+        size = 300
+    }
+
+    farmers = {
+        culture = russian
+        religion = catholic
+        size = 28225
     }
 
     clergymen = {
@@ -2925,7 +3110,7 @@
         size = 100
     }
 
-    zbankers = {
+    farmers = {
         culture = ashkenazi
         religion = jewish
         size = 8575

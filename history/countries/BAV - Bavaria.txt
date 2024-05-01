@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 599
 	primary_culture = north_german
 	religion = protestant
@@ -29,7 +29,7 @@
 	school_reforms = good_schools
 
 	# New Reforms
-	conscription = one_year_draft
+	conscription = two_year_draft
 	debt_law = debtors_prisons
 	penal_system = capital_punishment
 	child_labor = child_labor_restricted
@@ -76,6 +76,7 @@
 	basic_chemistry = 1
 
 	#Inventions
+	pharmaceuticals = yes
 
 	schools = industrial_tech_school
 
@@ -86,7 +87,7 @@
 	oob = "BAV_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 599
 	primary_culture = south_german
 	religion = catholic
@@ -97,7 +98,6 @@
 	civilized = yes
 	prestige = 5
 	set_country_flag = south_german
-	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery
@@ -119,7 +119,7 @@
 	school_reforms = good_schools
 
 	# New Reforms
-	conscription = one_year_draft
+	conscription = two_year_draft
 	debt_law = debtors_prisons
 	penal_system = capital_punishment
 	child_labor = child_labor_restricted
@@ -166,6 +166,7 @@
 	basic_chemistry = 1
 
 	#Inventions
+	pharmaceuticals = yes
 
 	schools = industrial_tech_school
 

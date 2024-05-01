@@ -5,7 +5,6 @@ add_core = SCO
 trade_goods = coal
 naval_base = 2 
 life_rating = 35
-terrain = hills_mine
 state_building = {
 	level = 2
 	building = small_arms_factory
@@ -28,13 +27,18 @@ state_building = {
 		upgrade = yes
 	}
 	state_building = {
-		level = 8
+		level = 5
 		building = steamer_shipyard
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
+		level = 4
 		building = aeroplane_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 5
+		building = electric_gear_factory
 		upgrade = yes
 	}
 	state_building = {

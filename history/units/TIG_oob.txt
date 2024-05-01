@@ -13,35 +13,31 @@ EGY = {
 }
 
 GON = {
-	value = -200
+	truce_until="1841.1.1"
+	value = 60
 }
 
 SHW = {
-	value = -200
+	truce_until="1841.1.1"
+	value = 60
 }
 
 HAR = {
-	value = -200
-}
-
-KAF = {
-	value = -200
-}
-
-GJM = {
-	value = -200
+	truce_until="1841.1.1"
+	value = -100
 }
 
 AWS = {
-	value = -200
+	truce_until="1841.1.1"
+	value = -100
 }
 
 leader = {
 	name = "Ras Wube Haile Mariam"
 	type = land
 	date = 1836.1.1
-	personality = org05mor10
-	background = 1a2d_1
+	personality = defence_1.1
+	background = attack_2.1
 }
 
 army = {

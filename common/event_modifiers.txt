@@ -632,7 +632,7 @@ immunity_from_influenza = {
 }
 
 strategic_rgo = {
-	local_rgo_throughput = 2
+	local_rgo_throughput = 5
 	icon = 13
 }
 
@@ -820,6 +820,7 @@ literacy_campaign = {
 
 small_baby_boom = {
 	population_growth = 0.001
+	immigrant_push = -0.5
 	icon = 19
 }
 
@@ -1512,6 +1513,12 @@ treaty_port7 = {
 	icon = 10
 }
 
+treaty_port8 = {
+	max_tariff = -0.40
+	global_pop_militancy_modifier = 0.040
+	icon = 10
+}
+
 treaty_port = {
 	rgo_output = 0.2
 }
@@ -1594,7 +1601,7 @@ italico_valore = {
 ita_formation_buff = {
 	tax_efficiency = 0.10
 	global_population_growth = 0.001
-	education_efficiency_modifier = 0.20
+	education_efficiency_modifier = 0.15
 	icon = 17
 }
 
@@ -1656,8 +1663,6 @@ the_alamo = {
 	mobilisation_size = 1
 	icon = 15
 }
-
-########## NATIONAL IDEAS ##########
 
 ########## NATIONAL IDEAS ##########
 
@@ -1866,4 +1871,16 @@ education_siam_reforms = {
 indochina = {
 	assimilation_rate = 0.25
 	icon = 17
+}
+
+row_completion_cooldown = {
+}
+
+host_nation = {
+	trigger = {
+		has_country_flag = host_powers
+		ai = no
+	}
+	diplomatic_points_modifier = 50
+	icon = 1
 }

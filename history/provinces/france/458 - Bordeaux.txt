@@ -2,7 +2,7 @@ owner = FRA
 controller = FRA
 add_core = FRA
 trade_goods = fruit
-life_rating = 31
+life_rating = 35
 1913.1.1 = {
 	state_building = {
 		level = 5
@@ -25,18 +25,23 @@ life_rating = 31
 		upgrade = yes
 	}
 	state_building = {
-		level = 8
+		level = 4
 		building = steamer_shipyard
 		upgrade = yes
 	}
 	state_building = {
 		level = 4
-		building = tea_packaging_factory
+		building = coffee_packaging_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 4
 		building = cement_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = fabric_factory
 		upgrade = yes
 	}
 }

@@ -1,7 +1,11 @@
 owner = PER
 controller = PER
 add_core = PER
-add_core = KAL
 trade_goods = sulphur
 life_rating = 35
-terrain = mountain_mine
+terrain = desert_mine
+1913.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 0
+}

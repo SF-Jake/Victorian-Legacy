@@ -73,17 +73,17 @@ leader = {
 	name = "Winfield Scott"
 	date = 1836.1.1
 	type = land
-	personality = spd20rec15
-	background = 3a3d_1
-	prestige = 0.2
+	personality = defence_2.1
+	background = attack_3.1
+	prestige = 0.3
 }
 
 leader = {
 	name = "Zachary Taylor"
 	date = 1836.1.1
 	type = land
-	personality = org15exp15
-	background = 2a3d_1
+	personality = defence_2.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -91,8 +91,8 @@ leader = {
 	name = "Thomas Jesup"
 	date = 1836.1.1
 	type = land
-	personality = org05mor10
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -100,8 +100,8 @@ leader = {
 	name = "Edmund P. Gaines"
 	date = 1828.1.1
 	type = land
-	personality = org10mor20
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -109,26 +109,26 @@ leader = {
 	name = "Alexander Macomb"
 	date = 1812.1.1
 	type = land
-	personality = mor10rec10
-	background = 1a2d_1
-	prestige = 0.2
+	personality = defence_2.1
+	background = attack_1.1
+	prestige = 0.3
 }
 
 leader = {
 	name = "Isaac Hull"
 	date = 1810.1.1
 	type = sea
-	personality = org10att10
-	background = 2a2d_1
-	prestige = 0.1
+	personality = defence_1.1
+	background = attack_2.1
+	prestige = 0.2
 }
 
 leader = {
 	name = "William B. Shubrick"
 	date = 1836.1.1
 	type = sea
-	personality = org10exp10
-	background = 3a2d_1
+	personality = defence_2.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
@@ -136,8 +136,8 @@ leader = {
 	name = "James Biddle"
 	date = 1830.1.1
 	type = sea
-	personality = att10exp10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -145,113 +145,167 @@ leader = {
 	name = "Matthew C. Perry"
 	date = 1836.1.1
 	type = sea
-	personality = org15att15
-	background = 3a2d_1
+	personality = defence_2.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
 army = {
-	name = "US Dragoons"
-	location = 199
+	name = "Mob Stack"
+	location = 142
 	regiment = {
-		name= "1st Cavalry Regiment"
-		type = dragoon
+		name= "Hussar"
+		type = hussar
 		home = 223
 	}
 
 	regiment = {
-		name= "2nd Cavalry Regiment"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 241
 	}
 
 	regiment = {
-		name= "3rd Cavalry Regiment"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 205
 	}
 
-}
-
-army = {
-	name = "Army of the South"
-	location = 200
 	regiment = {
-		name= "1st Regiment of Infantry"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 211
 	}
 
 	regiment = {
-		name= "2nd Regiment of Infantry"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 206
 	}
 
 	regiment = {
-		name= "3rd Regiment of Infantry"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 188
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 143
 	regiment = {
-		name= "1st Regiment of Artillery"
-		type = cuirassier
+		name= "Hussar"
+		type = hussar
 		home = 195
 	}
 
-}
-
-army = {
-	name = "US Army"
-	location = 220
 	regiment = {
-		name= "4th Regiment of Infantry"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 243
 	}
 
 	regiment = {
-		name= "5th Regiment of Infantry"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 232
 	}
 
 	regiment = {
-		name= "6th Regiment of Infantry"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 235
 	}
 
 	regiment = {
-		name= "2nd Regiment of Artillery"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 234
 	}
 
-}
-
-army = {
-	name = "Army of Observation"
-	location = 144
 	regiment = {
-		name= "7th Regiment of Infantry"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 238
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 144
 	regiment = {
-		name= "8th Regiment of Infantry"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 226
 	}
 
 	regiment = {
-		name= "9th Regiment of Infantry"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 247
 	}
 
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 178
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 178
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 179
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 179
+	}
+}
+
+army = {
+	name = "Mob Stack"
+	location = 193
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 232
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 180
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 181
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 182
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 183
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 178
+	}
 }
 
 navy = {

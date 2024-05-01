@@ -3,11 +3,10 @@ controller = BEL
 add_core = BEL
 add_core = NET
 trade_goods = coal
-life_rating = 35
-terrain = farmlands_mine
+life_rating = 40
 state_building = {
 	level = 2
-	building = machine_parts_factory
+	building = steel_factory
 	upgrade = yes
 }
 state_building = {
@@ -23,12 +22,12 @@ state_building = {
 	}
 	state_building = {
 		level = 6
-		building = dye_factory
+		building = regular_clothes_factory
 		upgrade = yes
 	}
 	state_building = {
 		level = 6
-		building = regular_clothes_factory
+		building = electric_gear_factory
 		upgrade = yes
 	}
 	state_building = {

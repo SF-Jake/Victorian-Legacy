@@ -6,26 +6,24 @@ political_decisions = {
 			NOT = { has_global_flag = oriental_crisis }
 			NOT = { has_global_flag = oriental_crisis_ended }
 		}
-
+		
 		allow = {
+			EGY = {
+				exists = yes
+				is_vassal = no
+			}
 			war = no
 		}
-
+		
 		effect = {
-			release_vassal = EGY
-			diplomatic_influence = {
-				who = EGY
-				value = -200
-			}
 			casus_belli = {
 				target = EGY
-				type = oriental_war
-				months = 1
+				type = make_puppet
+				months = 36
 			}
 			war = {
 				target = EGY
-				attacker_goal = { casus_belli = oriental_war }
-				defender_goal = { casus_belli = status_quo }
+				attacker_goal = { casus_belli = make_puppet }
 			}			
 			set_global_flag = oriental_crisis
 		}
@@ -289,19 +287,19 @@ political_decisions = {
 			}
 		}
 	}
-	accept_the_mashriqi = {
+	accept_the_misri = {
 		picture = turkestan
 		potential = {
 			tag = TUR
 			NOT = { exists = EGY }
-			NOT = { has_country_flag = accept_the_mashriqi }
+			NOT = { has_country_flag = accept_the_misri }
 		}
 		allow = {
-			nationalism_n_imperialism = 1
+			market_regulations = 1
 		}
 		effect = {
-			set_country_flag = accept_the_mashriqi
-			add_accepted_culture = mashriqi
+			set_country_flag = accept_the_misri
+			add_accepted_culture = misri
 			any_owned = {
 				limit = {
 					culture = turkish

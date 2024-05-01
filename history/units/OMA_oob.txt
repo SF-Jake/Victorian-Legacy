@@ -8,47 +8,29 @@ GHO = {
 	truce_until="1937.1.1"
 }
 
-GEL = {
-	value = -200
+leader = {
+	name = "Said bin Sultan Al-Said"
+	date = 1816.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
 }
 
 army = {
-	leader = {
-		name = "Said bin Sultan Al-Said"
-		date = 1816.1.1
-		type = land
-		personality = org10att15
-		background = 2a2d_1
-	}
-	name = "Army of Muscat"
+	name = "Army of the Sultan of Muscat"
 	location = 1166
 	regiment = {
 		name= "1. Brigade"
 		type = irregular
 		home = 1166
 	}
-	regiment = {
-		name= "2. Brigade"
-		type = irregular
-		home = 1145
-	}
-	regiment = {
-		name= "3. Brigade"
-		type = cavalry
-		home = 2647
-	}
 }
 
 army = {
-	leader = {
-		name = "Thuwaini bin Said"
-		date = 1836.1.1
-		type = land
-		personality = rec10att15
-		background = 2a1d_1
-	}
-	name = "Army of Zanzibar"
+	name = "Army of the Wali of Zanzibar"
 	location = 2048
+
 	regiment = {
 		name= "1. Askaris"
 		type = irregular
@@ -57,8 +39,9 @@ army = {
 }
 
 army = {
-	name = "Army of Mombasa"
+	name = "Army of the Wali of Mombasa"
 	location = 2029
+	
 	regiment = {
 		name= "2. Askaris"
 		type = irregular
@@ -66,29 +49,19 @@ army = {
 	}
 }
 
-leader = {
-	name = "Ahmad bin Na'aman Al Kaabi"
-	date = 1836.1.1
-	type = sea
-	personality = org05mor10
-	background = 2a2d_1
+navy = {
+	name = "Red Sea Fleet"
+	location = 1166
+	ship = {
+		name= "Transport Flotilla"
+		type = clipper_transport
+	}
+
 }
 
 navy = {
-	name = "Omani Fleet"
-	location = 1166
-	ship = {
-		name= "Frigate"
-		type = frigate
-	}
-	ship = {
-		name= "Frigate"
-		type = frigate
-	}
-	ship = {
-		name= "Sultanah"
-		type = clipper_transport
-	}
+	name = "Indian Fleet"
+	location = 2048
 	ship = {
 		name= "Transport Flotilla"
 		type = clipper_transport

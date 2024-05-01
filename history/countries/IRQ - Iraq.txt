@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 926
 	primary_culture = mashriqi
 	culture = bedouin
@@ -24,7 +24,7 @@
 	wage_reform = no_minimum_wage
 	work_hours = fourteen_hours
 	safety_regulations = trinket_safety
-	health_care = trinket_health_care
+	health_care = no_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions 
 	school_reforms = no_schools
@@ -68,7 +68,7 @@
 	nonstate_consciousness = 1
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 926
 	primary_culture = mashriqi
 	culture = bedouin
@@ -94,7 +94,7 @@
 	wage_reform = no_minimum_wage
 	work_hours = fourteen_hours
 	safety_regulations = trinket_safety
-	health_care = trinket_health_care
+	health_care = no_health_care
 	unemployment_subsidies = no_subsidies
 	pensions = no_pensions 
 	school_reforms = no_schools
@@ -145,7 +145,7 @@
 	literacy = 0.2
 	non_state_culture_literacy = 0.3
 	set_country_flag = military_supplies_idea
-	set_country_flag = navy_experience_idea
+	set_country_flag = navy_build_speed_idea
 	set_country_flag = farming_idea
 	civilized = yes
 
@@ -252,7 +252,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=no_health_care
+	health_care=universal_health_care
 	school_reforms=low_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal

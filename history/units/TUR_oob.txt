@@ -17,7 +17,7 @@ PER = {
 
 EGY = {
 	value = 0		#relation
-	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	level = 1		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 
@@ -61,8 +61,8 @@ leader = {
 	name = "Resid Mehmed Pasha"
 	date = 1809.1.1
 	type = land
-	personality = rec05att05
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -70,8 +70,8 @@ leader = {
 	name = "Wojciech Chrzanowski"
 	date = 1836.1.1
 	type = land
-	personality = org10mor20
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -79,8 +79,8 @@ leader = {
 	name = "Helmuth von Moltke"
 	date = 1833.1.1
 	type = land
-	personality = org10mor20
-	background = 2a2d_1
+	personality = defence_2.1
+	background = attack_2.1
 	prestige = 0.0
 }
 
@@ -88,8 +88,8 @@ leader = {
 	name = "Abdi Pasha"
 	date = 1836.1.1
 	type = land
-	personality = org05rec10
-	background = 2a1d_1
+	personality = defence_1.1
+	background = attack_3.1
 	prestige = 0.0
 }
 
@@ -97,8 +97,8 @@ leader = {
 	name = "Hafiz Osman Pasha"
 	date = 1836.1.1
 	type = land
-	personality = org10exp05
-	background = 1a2d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
@@ -106,8 +106,8 @@ leader = {
 	name = "Namik Pasha"
 	date = 1836.1.1
 	type = land
-	personality = mor10att05
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
@@ -115,8 +115,8 @@ leader = {
 	name = "Abdülkerim Pasha"
 	date = 1836.1.1
 	type = land
-	personality = org05att05
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
@@ -124,303 +124,268 @@ leader = {
 	name = "Yaver Pasha"
 	date = 1836.1.1
 	type = sea
-	personality = mor20exp10
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
 army = {
-	name = "Imperial Guards"
-	location = 860
+	name = "Mob Stack"
+	location = 862
 	regiment = {
-		name= "1. Bostancy-yy Hassa"
-		type = guard
-		home = 860
-	}
-
-	regiment = {
-		name= "2. Bostancy-yy Hassa"
-		type = guard
-		home = 828
-	}
-
-	regiment = {
-		name= "3. Bostancy-yy Hassa"
-		type = guard
-		home = 859
-	}
-
-	regiment = {
-		name= "4. Bostancy-yy Hassa"
-		type = cuirassier
-		home = 861
-	}
-
-}
-
-army = {
-	name = "Army of the Danube"
-	location = 810
-	regiment = {
-		name= "1. Sipahis"
-		type = hussar
-		home = 798
-	}
-
-	regiment = {
-		name= "2. Sipahis"
-		type = hussar
-		home = 799
-	}
-
-	regiment = {
-		name= "3. Sipahis"
+		name= "Hussar"
 		type = hussar
 		home = 802
 	}
 
 	regiment = {
-		name= "1. Piyade Tümeni"
-		type = infantry
-		home = 896
+		name= "Artillery"
+		type = artillery
+		home = 802
 	}
 
 	regiment = {
-		name= "2. Piyade Tümeni"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 803
 	}
 
 	regiment = {
-		name= "3. Piyade Tümeni"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 803
 	}
 
 	regiment = {
-		name= "4. Piyade Tümeni"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 804
 	}
 
 	regiment = {
-		name= "1. Redif Izmir"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 806
 	}
-
-	regiment = {
-		name= "2. Redif Izmir"
-		type = irregular
-		home = 807
-	}
-
-	regiment = {
-		name= "3. Redif Izmir"
-		type = irregular
-		home = 807
-	}
 }
-	
 army = {
-	name = "Redif Bursa"
-	location = 1731
-	
+	name = "Mob Stack"
+	location = 861
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 807
+	}
 
 	regiment = {
-		name= "1. Redif Bursa"
-		type = irregular
+		name= "Artillery"
+		type = artillery
+		home = 807
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
 		home = 805
 	}
 
 	regiment = {
-		name= "2. Redif Bursa"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 806
 	}
 
 	regiment = {
-		name= "3. Redif Bursa"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 863
 	}
 
 	regiment = {
-		name= "1. Askäris"
-		type = cavalry
-		home = 824
-	}
-
-	regiment = {
-		name= "2. Askäris"
-		type = cavalry
-		home = 873
-	}
-}
-
-army = {
-	name = "Army of Anatolia"
-	location = 909
-	regiment = {
-		name= "5. Piyade Tümeni"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 882
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 828
 	regiment = {
-		name= "6. Piyade Tümeni"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 884
 	}
 
 	regiment = {
-		name= "7. Piyade Tümeni"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 879
 	}
 
 	regiment = {
-		name= "8. Piyade Tümeni"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 888
 	}
 
 	regiment = {
-		name= "1. Redif Kars"
-		type = irregular
-		home = 893
+		name= "Artillery"
+		type = artillery
+		home = 888
 	}
 
 	regiment = {
-		name= "2. Redif Kars"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 887
 	}
 
 	regiment = {
-		name= "3. Redif Kars"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 887
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 858
 	regiment = {
-		name= "1. Redif Trabzon"
-		type = irregular
+		name= "Hussar"
+		type = hussar
 		home = 876
 	}
 
 	regiment = {
-		name= "2. Redif Trabzon"
-		type = irregular
-		home = 860
+		name= "Artillery"
+		type = artillery
+		home = 883
 	}
 
 	regiment = {
-		name= "3. Redif Trabzon"
-		type = irregular
-		home = 909
-	}
-
-}
-
-army = {
-	name = "Army of Silistria"
-	location = 818
-	regiment = {
-		name= "4. Sipahis"
-		type = hussar
-		home = 675
+		name= "Artillery"
+		type = artillery
+		home = 869
 	}
 
 	regiment = {
-		name= "5. Sipahis"
-		type = hussar
-		home = 674
+		name= "Artillery"
+		type = artillery
+		home = 806
 	}
 
 	regiment = {
-		name= "6. Sipahis"
-		type = hussar
+		name= "Artillery"
+		type = artillery
+		home = 811
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
 		home = 812
 	}
-
+}
+army = {
+	name = "Mob Stack"
+	location = 859
 	regiment = {
-		name= "9. Piyade Tümeni"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 813
 	}
 
 	regiment = {
-		name= "10. Piyade Tümeni"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 818
 	}
 
 	regiment = {
-		name= "11. Piyade Tümeni"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 824
 	}
 
 	regiment = {
-		name= "1. Redif Diyarbakir"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 805
 	}
 
 	regiment = {
-		name= "2. Redif Diyarbakir"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 809
 	}
 
 	regiment = {
-		name= "3. Redif Diyarbakir"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 814
 	}
-
 }
-
 army = {
-	name = "Army of Arabia"
-	location = 923
+	name = "Mob Stack"
+	location = 1734
 	regiment = {
-		name= "12. Piyade Tümeni"
-		type = infantry
-		home = 825
+		name= "Hussar"
+		type = hussar
+		home = 925
 	}
 
 	regiment = {
-		name= "13. Piyade Tümeni"
-		type = infantry
-		home = 825
+		name= "Artillery"
+		type = artillery
+		home = 925
 	}
 
 	regiment = {
-		name= "14. Piyade Tümeni"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 926
 	}
 
 	regiment = {
-		name= "1. Redif Halab"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 923
 	}
 
 	regiment = {
-		name= "2. Redif Halab"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 923
 	}
 
 	regiment = {
-		name= "3. Redif Halab"
-		type = irregular
-		home = 930
+		name= "Artillery"
+		type = artillery
+		home = 923
 	}
 
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1735
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 873
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 860
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 860
+	}
 }
 
 navy = {

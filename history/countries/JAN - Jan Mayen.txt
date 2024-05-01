@@ -5,9 +5,10 @@ government = democracy
 plurality = 0
 nationalvalue = nv_liberty
 literacy = 0
-decision = build_strait_canals
-decision = strait_crossings
-set_country_flag = jan_mayen
+decision = jan_mayen_1836_setup
+decision = build_bosphorus_canal
+decision = build_copenhagen_canal
+decision = build_gibraltar_canal
 
 # Political reforms
 slavery = no_slavery
@@ -49,7 +50,7 @@ upper_house = {
 	communist = 0
 }
 
-1836.1.1= {
+1836.1.2 = {
 	set_global_flag = 1836_literacy_setup
 	set_global_flag = 1836_literacy_check
 }
@@ -58,14 +59,21 @@ upper_house = {
 	set_global_flag = mp_1836_literacy_setup
 }
 
-1890.1.1 = {
-	set_global_flag = slavery_ended
-}
-
 1913.1.1 = {
-	set_global_flag = ai_yemen_annexation
+	set_global_flag = conquest_of_yoruba_states
+	set_global_flag = conquest_of_benin
+	set_global_flag = conquest_of_niger_delta
+	set_global_flag = conquest_of_ghana
+	set_global_flag = conquest_of_ivory_coast
+	set_global_flag = conquest_of_dahomey
+	set_global_flag = conquest_of_senegal
+	set_global_flag = conquest_of_gambia
+	set_global_flag = conquest_of_guinea
 	set_global_flag = 1913_bookmark
-	set_global_flag = dismantle_enabled
+	set_global_flag = 1850_ai_mobilization_boost
+	set_global_flag = 1870_ai_mobilization_boost
+	set_global_flag = 1890_ai_mobilization_boost
+	set_global_flag = 1910_ai_mobilization_boost
 	decision = jan_mayen_1913_setup
 }
 

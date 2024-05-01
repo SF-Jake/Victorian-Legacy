@@ -4,11 +4,11 @@ govt_flag =
 	flag = presidential_dictatorship
 }
 
-1836.1.1= {
+1836.1.2 = {
 	capital = 2310
 	primary_culture = south_andean
 	religion = catholic
-	government = democracy
+	government = presidential_dictatorship
 	plurality = 25.0
 	nationalvalue = nv_equality
 	literacy = 0.05
@@ -19,7 +19,7 @@ govt_flag =
 	# Political reforms
 	slavery = no_slavery
 	upper_house_composition = appointed
-	vote_franschise = wealth_weighted_voting
+	vote_franschise = none_voting
 	public_meetings = no_meeting
 	press_rights = state_press
 	trade_unions = no_trade_unions
@@ -60,10 +60,10 @@ govt_flag =
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
-	military_staff_system = 1
 	army_command_principle = 1
 	post_nelsonian_thought = 1
 	clipper_design = 1
+	the_command_principle = 1
 	private_banks = 1
 	no_standard = 1
 	guild_based_production = 1
@@ -72,8 +72,6 @@ govt_flag =
 	enlightenment_thought = 1
 	water_wheel_power = 1
 	industrial_revolution = 1
-	mechanized_mining = 1
-	basic_chemistry = 1
 
 	# Inventions
 
@@ -85,11 +83,11 @@ govt_flag =
 	oob = "PBC_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 2310
 	primary_culture = south_andean
 	religion = catholic
-	government = democracy
+	government = presidential_dictatorship
 	plurality = 25.0
 	nationalvalue = nv_equality
 	literacy = 0.05
@@ -100,7 +98,7 @@ govt_flag =
 	# Political reforms
 	slavery = no_slavery
 	upper_house_composition = appointed
-	vote_franschise = wealth_weighted_voting
+	vote_franschise = none_voting
 	public_meetings = no_meeting
 	press_rights = state_press
 	trade_unions = no_trade_unions
@@ -141,10 +139,10 @@ govt_flag =
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
-	military_staff_system = 1
 	army_command_principle = 1
 	post_nelsonian_thought = 1
 	clipper_design = 1
+	the_command_principle = 1
 	private_banks = 1
 	no_standard = 1
 	guild_based_production = 1
@@ -153,8 +151,6 @@ govt_flag =
 	enlightenment_thought = 1
 	water_wheel_power = 1
 	industrial_revolution = 1
-	mechanized_mining = 1
-	basic_chemistry = 1
 
 	# Inventions
 

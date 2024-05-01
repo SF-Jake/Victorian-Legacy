@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 738
 	primary_culture = north_italian
 	religion = catholic
@@ -84,7 +84,7 @@
 	oob = "PAR_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 738
 	primary_culture = north_italian
 	religion = catholic
@@ -94,7 +94,6 @@
 	literacy = 0.45
 	civilized = yes
 	prestige = 1
-	set_country_flag = mob1_invented
 
 	# Political reforms
 	slavery = no_slavery

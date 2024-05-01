@@ -6,7 +6,7 @@ add_core = POL
 trade_goods = cattle
 life_rating = 40
 1913.1.1 = {
-	fort = 4
+	fort = 5
 	owner = GER
 	controller = GER
 	state_building = {
@@ -32,6 +32,11 @@ life_rating = 40
 	state_building = {
 		level = 3
 		building = lumber_mill
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = synthetic_rubber_factory
 		upgrade = yes
 	}
 	state_building = {

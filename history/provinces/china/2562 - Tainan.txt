@@ -1,6 +1,7 @@
 owner = CHI
 controller = CHI
 add_core = CHI
+add_core = GNG
 trade_goods = tea_leaves
 life_rating = 32
 1913.1.1 = {
@@ -12,10 +13,4 @@ life_rating = 32
 		building = tea_packaging_factory
 		upgrade = yes
 	}
-	## Audax Validator "." Ignore_NEXT
-	trade_goods = tropical_wood
-}
-1913.1.1 = {
-	add_core = CHI
-	remove_core = CHI
 }

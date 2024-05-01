@@ -610,6 +610,7 @@ country_event = {
 	title = "The Spanish Civil War"
 	desc = "What is your choice?"
 	picture = celebration
+	fire_only_once = yes
 
 	trigger = {
 		ai = no

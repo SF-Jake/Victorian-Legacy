@@ -1,4 +1,4 @@
-1836.1.1= {
+1836.1.2 = {
 	capital = 1157
 	primary_culture = bedouin
 	religion = sunni
@@ -7,6 +7,8 @@
 	nationalvalue = nv_order
 	literacy = 0.01
 	non_state_culture_literacy = 0.01
+
+	foreign_training = yes_foreign_training
 
 	# Political Reforms
 	slavery = yes_slavery
@@ -47,12 +49,6 @@
 		socialist = 0
 		communist = 0
 	}
-
-	foreign_weapons = yes_foreign_weapons
-	foreign_training = yes_foreign_training
-
-	# Technologies
-	flintlock_rifles = 1
 
 	# Starting Consciousness
 	consciousness = 0
@@ -61,7 +57,7 @@
 	oob = "NEJ_oob.txt"
 }
 
-1836.1.3 = {
+1836.1.1 = {
 	capital = 1157
 	primary_culture = bedouin
 	religion = sunni
@@ -70,6 +66,8 @@
 	nationalvalue = nv_order
 	literacy = 0.01
 	non_state_culture_literacy = 0.01
+
+	foreign_training = yes_foreign_training
 
 	# Political Reforms
 	slavery = yes_slavery
@@ -110,12 +108,6 @@
 		socialist = 0
 		communist = 0
 	}
-
-	foreign_weapons = yes_foreign_weapons
-	foreign_training = yes_foreign_training
-
-	# Technologies
-	flintlock_rifles = 1
 
 	# Starting Consciousness
 	consciousness = 0
@@ -155,6 +147,11 @@
 		no_standard = 1
 		ad_hoc_money_bill_printing = 1
 		late_classical_theory = 1
+		collectivist_theory = 1
+		the_historical_theory = 1
+		neoclassical_theory = 1
+		keynesian_economics = 1
+		neoliberal_theory = 1
 		freedom_of_trade = 1
 		market_structure = 1
 		guild_based_production = 1
@@ -190,7 +187,6 @@
 		the_command_principle = 1
 
 #Inventions
-	reinforce_rate_idea_invention = yes
 
 #Reforms
 	wage_reform=no_minimum_wage
@@ -198,7 +194,7 @@
 	safety_regulations=no_safety
 	unemployment_subsidies=no_subsidies
 	pensions=no_pensions
-	health_care=no_health_care
+	health_care=universal_health_care
 	school_reforms=no_schools
 	penal_system=capital_punishment
 	child_labor=child_labor_legal
