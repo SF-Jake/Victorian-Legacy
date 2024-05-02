@@ -365,6 +365,18 @@ country_event = {
 					province_id = 1481
 					trade_goods = market_goods
 				}
+				AND = {
+					province_id = 1566
+					trade_goods = market_goods
+				}
+				AND = {
+					province_id = 1608
+					trade_goods = market_goods
+				}
+				AND = {
+					province_id = 1499
+					trade_goods = market_goods
+				}
 			}
 		}
 	}
@@ -374,15 +386,17 @@ country_event = {
 		any_owned = {
 			limit = {
 				OR = {
-					province_id = 2615
-					province_id = 1498
+					province_id = 1481
 					province_id = 1496
-					province_id = 2701
+					province_id = 1498
 					province_id = 1538
 					province_id = 1566
 					province_id = 1569
+					province_id = 2615
 					province_id = 2659
-					province_id = 1481
+					province_id = 1566
+					province_id = 1608
+					province_id = 1499
 				}
 			}
 			trade_goods = fish

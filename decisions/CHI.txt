@@ -172,6 +172,18 @@ political_decisions = {
 					owns = 2659
 					2659 = { NOT = { trade_goods = market_goods } }
 				}
+				AND = {
+					owns = 1566
+					1566 = { NOT = { trade_goods = market_goods } }
+				}
+				AND = {
+					owns = 1608
+					1608 = { NOT = { trade_goods = market_goods } }
+				}
+				AND = {
+					owns = 1499
+					1499 = { NOT = { trade_goods = market_goods } }
+				}
 			}
 		}
 		allow = {
@@ -188,6 +200,9 @@ political_decisions = {
 						province_id = 1569
 						province_id = 2615
 						province_id = 2659
+						province_id = 1566
+						province_id = 1608
+						province_id = 1499
 					}
 					NOT = { trade_goods = market_goods }
 				}
@@ -263,6 +278,24 @@ political_decisions = {
 					NOT = {
 						owns = 2659
 						has_country_flag = lost_tientsin
+					}
+				}
+				CHI = {
+					NOT = {
+						owns = 1566
+						has_country_flag = lost_qingdao
+					}
+				}
+				CHI = {
+					NOT = {
+						owns = 1608
+						has_country_flag = lost_ningbo
+					}
+				}
+				CHI = {
+					NOT = {
+						owns = 1499
+						has_country_flag = lost_hainan
 					}
 				}
 			}
@@ -382,6 +415,246 @@ political_decisions = {
 					value = 1
 				}
 			}
+			random_country = {
+				limit = {
+					tag = CHI
+					NOT = {
+						owns = 1566
+						has_country_flag = lost_qingdao
+					}
+				}
+				set_country_flag = lost_qingdao
+				change_variable = {
+					which = lost_treaty_ports
+					value = 1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					NOT = {
+						owns = 1608
+						has_country_flag = lost_ningbo
+					}
+				}
+				set_country_flag = lost_ningbo
+				change_variable = {
+					which = lost_treaty_ports
+					value = 1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					NOT = {
+						owns = 1499
+						has_country_flag = lost_hainan
+					}
+				}
+				set_country_flag = lost_hainan
+				change_variable = {
+					which = lost_treaty_ports
+					value = 1
+				}
+			}
+		}
+	}
+
+	gain_treaty_port = {
+		picture = treaty_port
+		potential = {
+			tag = JAN
+			CHI = { exists = yes }
+			OR = {
+				CHI = {
+					owns = 1481
+					has_country_flag = lost_port_arthur
+				}
+				CHI = {
+					owns = 1496
+					has_country_flag = lost_hong_kong
+				}
+				CHI = {
+					owns = 1498
+					has_country_flag = lost_macao
+				}
+				CHI = {
+					owns = 1538
+					has_country_flag = lost_shanghai
+				}
+				CHI = {
+					owns = 1566
+					has_country_flag = lost_qingdao
+				}
+				CHI = {
+					owns = 1569
+					has_country_flag = lost_weihaiwei
+				}
+				CHI = {
+					owns = 2615
+					has_country_flag = lost_guangzhouwan
+				}
+				CHI = {
+					owns = 2659
+					has_country_flag = lost_tientsin
+				}
+				CHI = {
+					owns = 1566
+					has_country_flag = lost_qingdao
+				}
+				CHI = {
+					owns = 1608
+					has_country_flag = lost_ningbo
+				}
+				CHI = {
+					owns = 1499
+					has_country_flag = lost_hainan
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 1481
+					has_country_flag = lost_port_arthur
+				}
+				clr_country_flag = lost_port_arthur
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 1496
+					has_country_flag = lost_hong_kong
+				}
+				clr_country_flag = lost_hong_kong
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 1498
+					has_country_flag = lost_macao
+				}
+				clr_country_flag = lost_macao
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 1538
+					has_country_flag = lost_shanghai
+				}
+				clr_country_flag = lost_shanghai
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 1566
+					has_country_flag = lost_qingdao
+				}
+				clr_country_flag = lost_qingdao
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 1569
+					has_country_flag = lost_weihaiwei
+				}
+				clr_country_flag = lost_weihaiwei
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 2615
+					has_country_flag = lost_guangzhouwan
+				}
+				clr_country_flag = lost_guangzhouwan
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 2659
+					has_country_flag = lost_tientsin
+				}
+				clr_country_flag = lost_tientsin
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 1566
+					has_country_flag = lost_qingdao
+				}
+				clr_country_flag = lost_qingdao
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 1608
+					has_country_flag = lost_ningbo
+				}
+				clr_country_flag = lost_ningbo
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			random_country = {
+				limit = {
+					tag = CHI
+					owns = 1499
+					has_country_flag = lost_hainan
+				}
+				clr_country_flag = lost_hainan
+				change_variable = {
+					which = lost_treaty_ports
+					value = -1
+				}
+			}
+			remove_country_modifier = treaty_port1
+			remove_country_modifier = treaty_port2
+			remove_country_modifier = treaty_port3
+			remove_country_modifier = treaty_port4
+			remove_country_modifier = treaty_port5
+			remove_country_modifier = treaty_port6
+			remove_country_modifier = treaty_port7
+			remove_country_modifier = treaty_port8
 		}
 	}
 
