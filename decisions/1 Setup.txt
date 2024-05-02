@@ -1071,6 +1071,9 @@ political_decisions = {
 				limit = { tag = SIA ai = no }
 				add_country_modifier = { name = education_siam_reforms duration = -1 }
 			}
+			any_country = {
+				social_reform = compulsory_schools
+			}
 			1498 = {
 				add_province_modifier = { name = treaty_port duration = -1 }
 			}

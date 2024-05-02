@@ -98,6 +98,81 @@ country_event = {
 			}
 		}
 		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = literacy_campaign
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.9
+					}
+					literacy = 0.0055
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.8
+						NOT = { literacy = 0.9 }
+					}
+					literacy = 0.006
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.7
+						NOT = { literacy = 0.8 }
+					}
+					literacy = 0.0065
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.6
+						NOT = { literacy = 0.7 }
+					}
+					literacy = 0.007
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.5
+						NOT = { literacy = 0.6 }
+					}
+					literacy = 0.0075
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.4
+						NOT = { literacy = 0.5 }
+					}
+					literacy = 0.008
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.3
+						NOT = { literacy = 0.4 }
+					}
+					literacy = 0.0085
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.2
+						NOT = { literacy = 0.3 }
+					}
+					literacy = 0.009
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.1
+						NOT = { literacy = 0.2 }
+					}
+					literacy = 0.0095
+				}
+				any_pop = {
+					limit = {
+						NOT = { literacy = 0.1 }
+					}
+					literacy = 0.01
+				}
+			}
+		}
+		any_country = {
 			slaves = { reduce_pop = 1.01 }
 			any_owned = {
 				limit = {

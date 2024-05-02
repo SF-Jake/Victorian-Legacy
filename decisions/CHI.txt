@@ -246,12 +246,6 @@ political_decisions = {
 				}
 				CHI = {
 					NOT = {
-						owns = 1498
-						has_country_flag = lost_macao
-					}
-				}
-				CHI = {
-					NOT = {
 						owns = 1538
 						has_country_flag = lost_shanghai
 					}
@@ -326,20 +320,6 @@ political_decisions = {
 					}
 				}
 				set_country_flag = lost_hong_kong
-				change_variable = {
-					which = lost_treaty_ports
-					value = 1
-				}
-			}
-			random_country = {
-				limit = {
-					tag = CHI
-					NOT = {
-						owns = 1498
-						has_country_flag = lost_macao
-					}
-				}
-				set_country_flag = lost_macao
 				change_variable = {
 					which = lost_treaty_ports
 					value = 1
@@ -475,10 +455,6 @@ political_decisions = {
 					has_country_flag = lost_hong_kong
 				}
 				CHI = {
-					owns = 1498
-					has_country_flag = lost_macao
-				}
-				CHI = {
 					owns = 1538
 					has_country_flag = lost_shanghai
 				}
@@ -534,18 +510,6 @@ political_decisions = {
 					has_country_flag = lost_hong_kong
 				}
 				clr_country_flag = lost_hong_kong
-				change_variable = {
-					which = lost_treaty_ports
-					value = -1
-				}
-			}
-			random_country = {
-				limit = {
-					tag = CHI
-					owns = 1498
-					has_country_flag = lost_macao
-				}
-				clr_country_flag = lost_macao
 				change_variable = {
 					which = lost_treaty_ports
 					value = -1
