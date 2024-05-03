@@ -823,4 +823,48 @@ release_vassals = {
 			end_war = FWR
 		}
 	}
+
+#########################################################################
+# 							Sphere Me Please  							#
+#########################################################################
+
+	real_sphere_hours = {
+		alert = no	
+		potential = {
+			has_country_flag = show_options_Y
+			NOT = {
+				is_greater_power = yes
+				tag = CHI
+				tag = TPG
+			}
+			ai = no
+			year = 1837
+		}
+		
+		allow = {
+			NOT = {
+				has_country_modifier = my_sphere_is_moving_on_its_own
+			}			
+		}
+		effect = {
+			prestige = -5
+			random_country = {
+				limit = {
+					is_greater_power = yes
+					relation = {
+						who = THIS
+						value = 200
+					}
+				}
+				country_event = 121290	
+			}
+			add_country_modifier = {
+				name = my_sphere_is_moving_on_its_own
+				duration = 1825
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

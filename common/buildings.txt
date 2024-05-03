@@ -877,7 +877,7 @@ naval_base = {
 		# Audax Validator "." Ignore_NEXT
 		goods_cost =
 		{
-			market_goods = 1000	#15000
+			test_goods = 60	#15000
 			fertilizer = 300	#3000
 			grain = 2000		#4600
 			fruit = 1000		#1800
@@ -894,7 +894,7 @@ naval_base = {
 		province = yes
 		# Audax Validator "." Ignore_NEXT
 
-		farm_rgo_size = 1
+		farm_rgo_size = 0.1
 	}
 
 	## Mine
@@ -905,7 +905,7 @@ naval_base = {
 		cost = 162500
 		goods_cost =
 		{
-			test_goods = 40
+			test_goods = 60
 			cement = 300		#3200
 			steel = 500			#1880
 			explosives = 200	#2000

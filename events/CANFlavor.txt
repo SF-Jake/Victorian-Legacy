@@ -113,14 +113,14 @@ country_event = {
 		set_country_flag = RielRebellionIgnored
 		any_pop = {
 			limit = {
-				has_pop_culture = french_canadian
+				has_pop_culture = anglo
 			}
 			militancy = 1
 			consciousness = 1
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = anglo_canadian
+				has_pop_culture = anglo
 			}
 			militancy = 1
 			consciousness = 2
@@ -132,7 +132,7 @@ country_event = {
 		set_country_flag = RielRebellion
 		any_pop = {
 			limit = {
-				has_pop_culture = french_canadian
+				has_pop_culture = anglo
 			}
 			militancy = 1
 			consciousness = 3
@@ -146,7 +146,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				has_pop_culture = anglo_canadian
+				has_pop_culture = anglo
 			}
 			militancy = -1
 			consciousness = 1

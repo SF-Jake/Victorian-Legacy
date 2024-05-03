@@ -4075,3 +4075,34 @@ country_event = {
 		}
 	}
 }	
+
+#########################################################################
+# 							Sphere Me Please  							#
+#########################################################################
+
+country_event = {
+	id = 121290
+	title = "Im pretty sure this spheres someone"
+	desc = "I stole this event lmao"
+	picture = "meeting3"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Get Sphered"
+		diplomatic_influence = {
+			who = FROM
+			value = 400
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "I dont remember what this is supposed to say."
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

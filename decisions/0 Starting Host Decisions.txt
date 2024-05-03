@@ -31,26 +31,26 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			NOT = { has_country_flag = show_options_on }
+			NOT = { has_country_flag = showing_host_decisions }
 			has_country_flag = host_powers
 		}
 		allow = {
 		}
 		effect = {
-			set_country_flag = show_options_on
+			set_country_flag = showing_host_decisions
 		}
 	}
 	hide_options = {
 		alert = no
 		potential = {
 			ai = no
-			has_country_flag = show_options_on
+			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
 		}
 		allow = {
 		}
 		effect = {
-			clr_country_flag = show_options_on
+			clr_country_flag = showing_host_decisions
 		}
 	}
 	option_1_disable_albania_crossing = {
@@ -72,7 +72,7 @@ political_decisions = {
 				month = 12
 				year = 1837
 			}
-			has_country_flag = show_options_on
+			has_country_flag = showing_host_decisions
 			NOT = { has_global_flag = disable_ablania_crossing }
 		}
 		allow = {
@@ -101,7 +101,7 @@ political_decisions = {
 				month = 12
 				year = 1837
 			}
-			has_country_flag = show_options_on
+			has_country_flag = showing_host_decisions
 			has_global_flag = disable_ablania_crossing
 		}
 		allow = {
@@ -115,7 +115,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			has_country_flag = show_options_on
+			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
 			NOT = { has_global_flag =  disable_crisis }
 		}
@@ -132,7 +132,7 @@ political_decisions = {
 			ai = no
 			has_global_flag = disable_crisis
 			has_country_flag = host_powers
-			has_country_flag = show_options_on
+			has_country_flag = showing_host_decisions
 		}
 		allow = {
 			

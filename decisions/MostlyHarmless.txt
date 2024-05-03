@@ -1,26 +1,48 @@
 # Audax Validator "!" Ignore_1004
 # Audax Validator "!" Ignore_1009
 political_decisions = {
-	jan_mayen_money = {
+	banker_income = {
 		potential = {
 			tag = JAN
 		}
+		
 		allow = {
-			money = 10000000
+			NOT = {
+				any_owned_province = {
+					any_pop = {
+						type = bankers
+						cash_reserves = 0.1
+					}
+				}
+			}
+			NOT = { has_country_flag = banker_income_timer }
 		}
+		
 		effect = {
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
+			set_country_flag = banker_income_timer
+			add_country_modifier = { name = banker_income_timer duration = 5 }
+			any_pop = {
+				limit = { type = bankers }
+				money = 2000000
+			}
 		}
 	}
+
+	banker_income_timer = {
+		potential = {
+			tag = JAN
+		}
+		
+		allow = {
+			has_country_flag = banker_income_timer
+			NOT = { has_country_modifier = banker_income_timer }
+		}
+		
+		effect = {
+			clr_country_flag = banker_income_timer
+		}
+	}
+
 	province_selector_event = {
 		potential = {
 			tag = JAN
@@ -51,44 +73,25 @@ political_decisions = {
 			}
 		}
 	}
-	
-	banker_income = {
-		potential = {
-			tag = JAN
-		}
-		
-		allow = {
-			NOT = {
-				any_owned_province = {
-					any_pop = {
-						cash_reserves = 0.1
-					}
-				}
-			}
-			NOT = { has_country_flag = banker_income_timer }
-		}
-		
-		effect = {
-			set_country_flag = banker_income_timer
-			add_country_modifier = { name = banker_income_timer duration = 5 }
-			any_pop = {
-				money = 2000000
-			}
-		}
-	}
 
-	banker_income_timer = {
+	jan_mayen_money = {
 		potential = {
 			tag = JAN
 		}
-		
 		allow = {
-			has_country_flag = banker_income_timer
-			NOT = { has_country_modifier = banker_income_timer }
+			money = 10000000
 		}
-		
 		effect = {
-			clr_country_flag = banker_income_timer
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
 		}
 	}
 }

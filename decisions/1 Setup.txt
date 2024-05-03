@@ -1083,6 +1083,7 @@ political_decisions = {
 				}
 			}
 			any_pop = {
+				limit = { type = bankers }
 				money = 2000000
 			}
 			SIA = {

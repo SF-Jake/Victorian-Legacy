@@ -28,7 +28,7 @@ political_decisions = {
 			set_country_flag = canadian_confederation
 			any_pop = {
 				limit = {
-					has_pop_culture = anglo_canadian
+					has_pop_culture = anglo
 				}
 				militancy = -4
 			}
@@ -145,7 +145,7 @@ political_decisions = {
 			set_country_flag = commonwealth_of_australia
 			any_pop = {
 				limit = {
-					has_pop_culture = australian
+					has_pop_culture = anglo
 				}
 				militancy = -4
 			}
@@ -185,6 +185,7 @@ political_decisions = {
 			2601 = { secede_province = THIS }
 			2603 = { secede_province = THIS }
 			2605 = { secede_province = THIS }
+			2503 = { secede_province = THIS }
 		}
 	}
 
@@ -207,7 +208,7 @@ political_decisions = {
 			set_country_flag = new_zealand
 			any_pop = {
 				limit = {
-					has_pop_culture = australian
+					has_pop_culture = anglo
 				}
 				militancy = -4
 			}
@@ -265,8 +266,7 @@ political_decisions = {
 				limit = {
 					OR = {
 						has_pop_culture = british
-						has_pop_culture = anglo_canadian
-						has_pop_culture = australian
+						has_pop_culture = anglo
 						has_pop_culture = boer
 					}
 				}
