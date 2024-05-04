@@ -741,6 +741,10 @@ iron_muzzle_loaded_artillery = {
 		support = 0.25
 		supply_consumption = 0.05
 	}
+	horse_artillery = {
+		support = 0.25
+		supply_consumption = 0.06
+	}
 	
 	ai_chance = {
 		factor = 1.05
@@ -783,6 +787,10 @@ iron_breech_loaded_artillery = {
 	artillery = {
 		support = 0.25
 		supply_consumption = 0.05
+	}
+	horse_artillery = {
+		support = 0.25
+		supply_consumption = 0.06
 	}
 
 	ai_chance = {
@@ -827,6 +835,10 @@ steel_breech_loaded_artillery = {
 		support = 0.5
 		supply_consumption = 0.05
 	}
+	horse_artillery = {
+		support = 0.25
+		supply_consumption = 0.06
+	}
 	
 	ai_chance = {
 		factor = 1.05
@@ -869,6 +881,10 @@ indirect_artillery_fire = {
 	artillery = {
 		support = 1
 		supply_consumption = 0.05
+	}
+	horse_artillery = {
+		support = 0.25
+		supply_consumption = 0.06
 	}
 	
 	ai_chance = {
@@ -913,6 +929,10 @@ creeping_barrage = {
 		support = 0.5
 		supply_consumption = 0.15
 	}
+	horse_artillery = {
+		support = 0.25
+		supply_consumption = 0.06
+	}
 	
 	ai_chance = {
 		factor = 1.05
@@ -955,6 +975,10 @@ railway_gun = {
 	artillery = {
 		support = 0.5
 		supply_consumption = 0.15
+	}
+	horse_artillery = {
+		support = 0.25
+		supply_consumption = 0.06
 	}
 	
 	ai_chance = {
@@ -1661,3 +1685,82 @@ total_war_philosophy = {
 	}
 }
 
+#Army
+#
+#
+army_row_completion1 = {
+	area = row_completion_arm
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion2 = {
+	area = row_completion_arm
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	morale = 0.1
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion3 = {
+	area = row_completion_arm
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion4 = {
+	area = row_completion_arm
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	military_tactics = 0.05
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion5 = {
+	area = row_completion_arm
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	military_tactics = 0.05
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion6 = {
+	area = row_completion_arm
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	morale = 0.25
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion7 = {
+	area = row_completion_arm
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	morale = 0.25
+	
+	ai_chance = {
+		factor = 0
+	}
+}

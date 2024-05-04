@@ -24,28 +24,4 @@ political_decisions = {
 			clr_country_flag = show_options_Y
 		}
 	}
-	zuser_show_options_G = {
-		alert = no
-		potential = {
-			NOT = { has_country_flag = show_options_G }
-			ai = no
-		}
-		allow = {
-		}
-		effect = {
-			set_country_flag = show_options_G
-		}
-	}
-	zuser_hide_options_G = {
-		alert = no
-		potential = {
-			has_country_flag = show_options_G
-			ai = no
-		}
-		allow = {
-		}
-		effect = {
-			clr_country_flag = show_options_G
-		}
-	}
 }

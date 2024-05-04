@@ -604,95 +604,45 @@ country_event = {
 	}
 }
 
-
-#End of Civil if player and Carlist
-country_event = {
-	id = 37720
-	title = "The Spanish Civil War"
-	desc = "What is your choice?"
-	picture = celebration
-
-	trigger = {
-		ai = no
-		SPC = { exists = yes }
-		SPA = { exists = yes }
-		tag = SPC
-	}
-
-	option = {
-		name = "Carlist Victory"
-		prestige = 30
-		all_core = {
-			add_core = THIS
-			remove_core = SPA
-		}
-		inherit = SPA
-		remove_accepted_culture = afro_caribbean
-		set_global_flag = carlist_victory
-		capital = 487
-	}
-
-	option = {
-		name = "Cristino Victory"
-		prestige = 30
-		all_core = {
-			add_core = SPA
-			remove_core = SPC
-		}
-		inherit = SPA
-		change_tag = SPA
-		capital = 487
-		add_accepted_culture = afro_caribbean
-		set_global_flag = cristino_victory
-		add_country_modifier = {
-			name = cristino_victory
-			duration = -1
-		}
-	}
-}
-
 #End of Civil if player and Cristino
 country_event = {
 	id = 37721
 	title = "The Spanish Civil War"
 	desc = "What is your choice?"
 	picture = celebration
+	fire_only_once = yes
 
 	trigger = {
 		ai = no
-		SPC = { exists = yes }
-		SPA = { exists = yes }
+		NOT = { has_global_flag = carlist_victory }
+		NOT = { has_global_flag = cristino_victory }
 		tag = SPA
 	}
 
 	option = {
 		name = "Carlist Victory"
 		prestige = 30
-		all_core = {
-			add_core = THIS
-			remove_core = SPA
-		}
-		inherit = SPC
 		change_tag = SPC
 		remove_accepted_culture = afro_caribbean
 		set_global_flag = carlist_victory
 		capital = 487
+		all_core = {
+			remove_core = SPA
+		}
 	}
 
 	option = {
 		name = "Cristino Victory"
 		prestige = 30
-		all_core = {
-			add_core = SPA
-			remove_core = SPC
-		}
-		inherit = SPC
 		capital = 487
 		set_global_flag = cristino_victory
 		add_accepted_culture = afro_caribbean
 		add_country_modifier = {
 			name = cristino_victory
 			duration = -1
+		}
+		all_core = {
+			remove_core = SPC
 		}
 	}
 }

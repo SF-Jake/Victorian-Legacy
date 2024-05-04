@@ -194,8 +194,7 @@ country_migration_target =
 	modifier = {
 		factor = 10
 		OR = {
-			primary_culture = australian
-			primary_culture = anglo_canadian
+			primary_culture = anglo
 			primary_culture = british
 		}
 		NOT = { has_country_flag = african_union_formation }
@@ -212,8 +211,7 @@ country_migration_target =
 		factor = 0
 		NOT = {
 			OR = {
-				primary_culture = australian
-				primary_culture = anglo_canadian
+				primary_culture = anglo
 				primary_culture = british
 			}
 		}

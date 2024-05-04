@@ -133,186 +133,173 @@ leader = {
 }
 
 #Army
+
 army = {
-	name = "Ejército Cristino del Centro"
-	location = 487
+	name = "Mob Stack"
+	location = 491
 	regiment = {
-		name= "1. Granaderos del Rey"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 487
 	}
 
 	regiment = {
-		name= "2. Granaderos del Rey"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 489
 	}
 
 	regiment = {
-		name= "3. Guardia Real"
-		type = guard
+		name= "Artillery"
+		type = artillery
 		home = 481
 	}
 
 	regiment = {
-		name= "1. Brigada de Infantería 'El Ramillete'"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 503
 	}
 
 	regiment = {
-		name= "2. Brigada de Infantería"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 509
 	}
-
+	
 	regiment = {
-		name= "3. Brigada de Infantería"
-		type = infantry
+		name= "Artillery"
+		type = artillery
+		home = 513
+	}
+}
+army = {
+	name = "Mob Stack"
+	location = 489
+	regiment = {
+		name= "Hussar"
+		type = hussar
 		home = 513
 	}
 
 	regiment = {
-		name= "1. Brigada de Ingenieros"
-		type = engineer
-		home = 513
-	}
-
-	regiment = {
-		name= "1. Granaderos del Rey"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 487
 	}
 
 	regiment = {
-		name= "2. Granaderos del Rey"
-		type = dragoon
+		name= "Artillery"
+		type = artillery
 		home = 489
 	}
 
 	regiment = {
-		name= "3. Granaderos del Rey"
-		type = hussar
+		name= "Artillery"
+		type = artillery
 		home = 488
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 474
+	}
+	
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 476
 	}
 }
 
 army = {
-	name = "Ejército del Norte"
-	location = 498
-	
+	name = "Mob Stack"
+	location = 483
 	regiment = {
-		name= "4. Brigada de Infantería 'San Jorge'"
-		type = infantry
-		home = 474
+		name= "Hussar"
+		type = hussar
+		home = 482
 	}
 
 	regiment = {
-		name= "1. Brigada de Artillería"
+		name= "Artillery"
 		type = artillery
-		home = 476
-	}
-	
-	regiment = {
-		name= "5. Brigada de Infantería"
-		type = infantry
-		home = 482
-	}
-	
-	regiment = {
-		name= "6. Brigada de Infantería 'La Granja'"
-		type = infantry
 		home = 483
 	}
 
 	regiment = {
-		name= "7. Brigada de Infantería"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 487
 	}
-}
-
-army = {
-	name = "Ejército del Sur"
-	location = 512
 
 	regiment = {
-		name= "8. Brigada de Infantería"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 512
 	}
 
 	regiment = {
-		name= "9. Brigada de Infantería"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 514
 	}
-
+	
 	regiment = {
-		name= "10. Brigada de Infantería"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 510
 	}
+}
 
+army = {
+	name = "Mob Stack"
+	location = 488
 	regiment = {
-		name= "11. Brigada de Infantería"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 516
 	}
-	
+
 	regiment = {
-		name= "12. Brigada de Infantería"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 515
 	}
-}
 
-army = {
-	name = "Ejército de Cuba"
-	location = 2209
-	
 	regiment = {
-		name = "1. Brigada Colonial"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 474
 	}
-	
+
 	regiment = {
-		name = "2. Brigada Colonial"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 2209
 	}
-}
 
-army = {
-	name = "Ejército de Puerto Rico"
-	location = 2222
-	
 	regiment = {
-		name = "3. Brigada Colonial"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 475
 	}
-}
-
-army = {
-	name = "Ejército de Filipinas"
-	location = 1455
 	
 	regiment = {
-		name = "4. Brigada Colonial"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 1455
 	}
 }
 
 army = {
-	name = "Ejército de Mindanao"
-	location = 1463
+	name = "Mob Stack"
+	location = 487
 	
 	regiment = {
-		name = "5. Brigada Colonial"
-		type = infantry
+		name = "Hussar"
+		type = hussar
 		home = 1463
 	}
 }

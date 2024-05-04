@@ -188,6 +188,10 @@ country_event = {
 						terrain = woods
 						terrain = steppe
 						terrain = plains
+						terrain = farmlands_mine
+						terrain = woods_mine
+						terrain = steppe_mine
+						terrain = plains_mine
 					}
 				}
 				add_province_modifier = { name = colonial_railroad_nerf1 duration = -1 }
@@ -206,6 +210,10 @@ country_event = {
 						terrain = woods
 						terrain = steppe
 						terrain = plains
+						terrain = farmlands_mine
+						terrain = woods_mine
+						terrain = steppe_mine
+						terrain = plains_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -218,6 +226,9 @@ country_event = {
 							terrain = forest
 							terrain = hills
 							terrain = coastal_desert
+							terrain = forest_mine
+							terrain = hills_mine
+							terrain = coastal_desert_mine
 					}
 				}
 				add_province_modifier = { name = colonial_railroad_nerf1 duration = -1 }
@@ -236,6 +247,10 @@ country_event = {
 						terrain = woods
 						terrain = steppe
 						terrain = plains
+						terrain = farmlands_mine
+						terrain = woods_mine
+						terrain = steppe_mine
+						terrain = plains_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -249,6 +264,9 @@ country_event = {
 							terrain = forest
 							terrain = hills
 							terrain = coastal_desert
+							terrain = forest_mine
+							terrain = hills_mine
+							terrain = coastal_desert_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -258,6 +276,7 @@ country_event = {
 				limit = {
 					is_colonial = yes
 					terrain = marsh
+					terrain = marsh_mine
 				}
 				add_province_modifier = { name = colonial_railroad_nerf1 duration = -1 }
 			}
@@ -275,6 +294,10 @@ country_event = {
 						terrain = woods
 						terrain = steppe
 						terrain = plains
+						terrain = farmlands_mine
+						terrain = woods_mine
+						terrain = steppe_mine
+						terrain = plains_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -289,6 +312,9 @@ country_event = {
 							terrain = forest
 							terrain = hills
 							terrain = coastal_desert
+							terrain = forest_mine
+							terrain = hills_mine
+							terrain = coastal_desert_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -299,6 +325,7 @@ country_event = {
 				limit = {
 					is_colonial = yes
 					terrain = marsh
+					terrain = marsh_mine
 				}
 				remove_province_modifier = colonial_railroad_nerf1
 				add_province_modifier = { name = colonial_railroad_nerf2 duration = -1 }
@@ -309,6 +336,8 @@ country_event = {
 					OR = {
 							terrain = jungle
 							terrain = mountain
+							terrain = jungle_mine
+							terrain = mountain_mine
 					}
 				}
 				add_province_modifier = { name = colonial_railroad_nerf1 duration = -1 }
@@ -327,6 +356,10 @@ country_event = {
 						terrain = woods
 						terrain = steppe
 						terrain = plains
+						terrain = farmlands_mine
+						terrain = woods_mine
+						terrain = steppe_mine
+						terrain = plains_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -342,6 +375,9 @@ country_event = {
 							terrain = forest
 							terrain = hills
 							terrain = coastal_desert
+							terrain = forest_mine
+							terrain = hills_mine
+							terrain = coastal_desert_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -353,6 +389,7 @@ country_event = {
 				limit = {
 					is_colonial = yes
 					terrain = marsh
+					terrain = marsh_mine
 				}
 				remove_province_modifier = colonial_railroad_nerf1
 				remove_province_modifier = colonial_railroad_nerf2
@@ -364,6 +401,8 @@ country_event = {
 					OR = {
 							terrain = jungle
 							terrain = mountain
+							terrain = jungle_mine
+							terrain = mountain_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -375,6 +414,8 @@ country_event = {
 					OR = {
 							terrain = desert
 							terrain = arctic
+							terrain = desert_mine
+							terrain = arctic_mine
 						}
 				}
 				add_province_modifier = { name = colonial_railroad_nerf1 duration = -1 }
@@ -393,6 +434,10 @@ country_event = {
 						terrain = woods
 						terrain = steppe
 						terrain = plains
+						terrain = farmlands_mine
+						terrain = woods_mine
+						terrain = steppe_mine
+						terrain = plains_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -409,6 +454,9 @@ country_event = {
 							terrain = forest
 							terrain = hills
 							terrain = coastal_desert
+							terrain = forest_mine
+							terrain = hills_mine
+							terrain = coastal_desert_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -421,6 +469,7 @@ country_event = {
 				limit = {
 					is_colonial = yes
 					terrain = marsh
+					terrain = marsh_mine
 				}
 				remove_province_modifier = colonial_railroad_nerf1
 				remove_province_modifier = colonial_railroad_nerf2
@@ -433,6 +482,8 @@ country_event = {
 					OR = {
 							terrain = jungle
 							terrain = mountain
+							terrain = jungle_mine
+							terrain = mountain_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -445,6 +496,8 @@ country_event = {
 					OR = {
 							terrain = desert
 							terrain = arctic
+							terrain = desert_mine
+							terrain = arctic_mine
 						}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -464,6 +517,10 @@ country_event = {
 						terrain = woods
 						terrain = steppe
 						terrain = plains
+						terrain = farmlands_mine
+						terrain = woods_mine
+						terrain = steppe_mine
+						terrain = plains_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -481,6 +538,9 @@ country_event = {
 							terrain = forest
 							terrain = hills
 							terrain = coastal_desert
+							terrain = forest_mine
+							terrain = hills_mine
+							terrain = coastal_desert_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -494,6 +554,7 @@ country_event = {
 				limit = {
 					is_colonial = yes
 					terrain = marsh
+					terrain = marsh_mine
 				}
 				remove_province_modifier = colonial_railroad_nerf1
 				remove_province_modifier = colonial_railroad_nerf2
@@ -507,6 +568,8 @@ country_event = {
 					OR = {
 							terrain = jungle
 							terrain = mountain
+							terrain = jungle_mine
+							terrain = mountain_mine
 					}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -520,6 +583,8 @@ country_event = {
 					OR = {
 							terrain = desert
 							terrain = arctic
+							terrain = desert_mine
+							terrain = arctic_mine
 						}
 				}
 				remove_province_modifier = colonial_railroad_nerf1
@@ -891,9 +956,9 @@ country_event = {
 					province_id = 1569
 					province_id = 2615
 					province_id = 2659
-					province_id = 1499
-					province_id = 1496
+					province_id = 1566
 					province_id = 1608
+					province_id = 1499
 				}
 				total_pops = 30000
 			}
@@ -909,9 +974,9 @@ country_event = {
 					province_id = 1569
 					province_id = 2615
 					province_id = 2659
-					province_id = 1499
-					province_id = 1496
+					province_id = 1566
 					province_id = 1608
+					province_id = 1499
 				}
 				total_pops = 20000
 				NOT = { total_pops = 30000 }
@@ -931,9 +996,9 @@ country_event = {
 					province_id = 1569
 					province_id = 2615
 					province_id = 2659
-					province_id = 1499
-					province_id = 1496
+					province_id = 1566
 					province_id = 1608
+					province_id = 1499
 				}
 				total_pops = 10000
 				NOT = { total_pops = 20000 }
@@ -953,9 +1018,9 @@ country_event = {
 					province_id = 1569
 					province_id = 2615
 					province_id = 2659
-					province_id = 1499
-					province_id = 1496
+					province_id = 1566
 					province_id = 1608
+					province_id = 1499
 				}
 				total_pops = 5000
 				NOT = { total_pops = 10000 }
@@ -975,9 +1040,9 @@ country_event = {
 					province_id = 1569
 					province_id = 2615
 					province_id = 2659
-					province_id = 1499
-					province_id = 1496
+					province_id = 1566
 					province_id = 1608
+					province_id = 1499
 				}
 				total_pops = 2500
 				NOT = { total_pops = 5000 }
@@ -997,9 +1062,9 @@ country_event = {
 					province_id = 1569
 					province_id = 2615
 					province_id = 2659
-					province_id = 1499
-					province_id = 1496
+					province_id = 1566
 					province_id = 1608
+					province_id = 1499
 				}
 				NOT = { total_pops = 2500 }
 			}

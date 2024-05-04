@@ -10,6 +10,7 @@ political_decisions = {
 			NOT = {
 				any_owned_province = {
 					any_pop = {
+						type = bankers
 						cash_reserves = 0.1
 					}
 				}
@@ -21,6 +22,7 @@ political_decisions = {
 			set_country_flag = banker_income_timer
 			add_country_modifier = { name = banker_income_timer duration = 5 }
 			any_pop = {
+				limit = { type = bankers }
 				money = 2000000
 			}
 		}
@@ -38,6 +40,58 @@ political_decisions = {
 		
 		effect = {
 			clr_country_flag = banker_income_timer
+		}
+	}
+
+	province_selector_event = {
+		potential = {
+			tag = JAN
+			META_1 = {
+				owner = {
+					ai = no
+					any_owned_province = { has_building = province_selector }
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					any_owned_province = { has_building = province_selector }
+				}
+				random_owned = {
+					limit = {
+						has_building = province_selector
+					}
+					province_event = {
+						## Audax Validator "." Ignore_NEXT
+						id = 92101 days = 0
+					}
+				}
+			}
+		}
+	}
+
+	jan_mayen_money = {
+		potential = {
+			tag = JAN
+		}
+		allow = {
+			money = 10000000
+		}
+		effect = {
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
+			money = -1000000
 		}
 	}
 }

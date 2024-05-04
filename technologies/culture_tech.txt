@@ -414,6 +414,8 @@ positivism = {
 	area = social_thought
 	year = 1836
 	cost = 7200
+
+	activate_building = university
 	colonial_migration = 0.05
 	increase_research = 0.1
 	#education_efficiency = 0.1
@@ -479,6 +481,7 @@ biologism = {
 	year = 1850
 	cost = 14400
 
+	max_university = 1
 	colonial_migration = 0.05
 	increase_research = 0.15
 	#education_efficiency = 0.1
@@ -533,6 +536,7 @@ social_alienation = {
 	year = 1900
 	cost = 21600
 	
+	max_university = 1
 	colonial_migration = 0.05
 	#education_efficiency = 0.1
 	ai_chance = {
@@ -961,5 +965,85 @@ humanistic_psychology = {
 			factor = 2
 			year = 1920
 		}
+	}
+}
+
+#Culture
+#
+#
+culture_row_completion1 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion2 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	prestige = 0.01
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion3 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	education_efficiency = 0.08
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion4 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion5 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	prestige = 0.3
+	
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion6 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	increase_research = 0.2
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion7 = {
+	area = row_completion_cul
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	education_efficiency = 0.5
+	
+	ai_chance = {
+		factor = 0
 	}
 }

@@ -15,7 +15,8 @@ party_issues = {
 		globalism = {
 			max_tariff = 0
 			min_tariff = 0
-			min_tax = 0.99
+			min_tax = 0.01
+			max_tax = 0.01
 		}
 	}
 	economic_policy = {
@@ -511,9 +512,7 @@ political_reforms = {
 					is_culture_group = american_cultures
 					is_culture_group = african_diaspora_cultures
 					is_culture_group = native_american
-					primary_culture = australian
-					primary_culture = anglo_canadian
-					primary_culture = french_canadian
+					primary_culture = anglo
 				}
 			}
 		}

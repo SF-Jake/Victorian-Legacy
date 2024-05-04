@@ -25,7 +25,7 @@ country_event = {
 		tag = ZUL
 		has_global_flag = piet_retief_massacre
 		NOT = { has_country_flag = battle_of_blood_river }
-		neighbour = SAF
+		neighbour = COM
 	}
 	
 	mean_time_to_happen = {
@@ -35,8 +35,8 @@ country_event = {
 	option = {
 		name = "EVTOPTA44402"
 		set_country_flag = battle_of_blood_river
-		2111 = { secede_province = SAF }
-		SAF = { country_event = { id = 44403 days = 0 } }
+		2111 = { secede_province = COM }
+		COM = { country_event = { id = 44403 days = 0 } }
 	}
 }
 
@@ -72,12 +72,12 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA44404"
-		SAF = { country_event = { id = 44405 days = 0} }
+		COM = { country_event = { id = 44405 days = 0} }
 	}
 
 	option = {
 		name = "EVTOPTB44404"
-		SAF = { country_event = { id = 44406 days = 0} }
+		COM = { country_event = { id = 44406 days = 0} }
 		ai_chance = {
 			factor = 0
 		}
@@ -132,7 +132,7 @@ country_event = {
 	trigger = {
 		tag = BSH
 		NOT = { num_of_cities = 2 }
-		neighbour = SAF
+		neighbour = COM
 	}
 	
 	mean_time_to_happen = {
@@ -141,7 +141,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA44407"
-		SAF = { country_event = { id = 44408 days = 0 } }
+		COM = { country_event = { id = 44408 days = 0 } }
 	}
 
 	option = {
@@ -225,7 +225,7 @@ country_event = {
 			tag = TRN
 			tag = ORA
 		}
-		war_with = SAF
+		war_with = COM
 		national_provinces_occupied = 0.65
 		NOT = { has_country_flag = defeated_by_saf }
 	}
@@ -257,11 +257,11 @@ country_event = {
 		any_owned = {
 			limit = {
 				OR = {
-					is_core = SAF
+					is_core = COM
 					province_id = 2111
 				}
 			}
-			secede_province = SAF
+			secede_province = COM
 		}
 	}
 }

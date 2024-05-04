@@ -3,7 +3,7 @@ country_event = {
 	id = 40000
 	trigger = {
 		OR = {
-			tag = SAF
+			tag = COM
 			tag = SAU
 		}
 		

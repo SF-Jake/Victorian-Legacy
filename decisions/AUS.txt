@@ -29,13 +29,13 @@ political_decisions = {
 			government = democracy
 			political_reform = federalism
 			clr_country_flag = confederalism
-			add_accepted_culture = slovak
 			add_accepted_culture = hungarian
+			add_accepted_culture = slovak
 			change_tag = DNB
 		}
 	}
 
-	form_danubian_federation_2 = {
+	form_danubian_federation_path1 = {
 		picture = danubian_federation
 		potential = {
 			tag = DNB
@@ -44,13 +44,42 @@ political_decisions = {
 		allow = {
 			WAL_665 = { owned_by = THIS }
 			MOL_673 = { owned_by = THIS }
+			RUS_676 = { owned_by = THIS }
+			TUR_674 = { owned_by = THIS }
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			prestige = 25
+			add_accepted_culture = romanian
+			WAL_665 = { add_core = THIS }
+			MOL_673 = { add_core = THIS }
+			RUS_676 = { add_core = THIS }
+			TUR_674 = { add_core = THIS }
+			set_country_flag = danubian_federation_formed_2
+		}
+	}
+
+	form_danubian_federation_path2 = {
+		picture = danubian_federation
+		potential = {
+			tag = DNB
+			NOT = { has_country_flag = danubian_federation_formed_2 }
+		}
+		allow = {
+			TUR_788 = { owned_by = THIS }
+			SER_794 = { owned_by = THIS }
+			MON_2582 = { owned_by = THIS }
+			TUR_803 = { owned_by = THIS }
 			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			prestige = 25
 			add_accepted_culture = croat
-			WAL_665 = { add_core = THIS }
-			MOL_673 = { add_core = THIS }
+			add_accepted_culture = serb
+			TUR_788 = { add_core = THIS }
+			SER_794 = { add_core = THIS }
+			MON_2582 = { add_core = THIS }
+			TUR_803 = { add_core = THIS }
 			set_country_flag = danubian_federation_formed_2
 		}
 	}

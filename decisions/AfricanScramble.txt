@@ -116,6 +116,7 @@ political_decisions = {
 		potential = {
 			NOT = { owns = 3246 }
 			NOT = { tag = SAF }
+			NOT = { tag = COM }
 			NOT = { tag = SAU }
 			neighbour = GAZ
 			OR = {
@@ -132,11 +133,11 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = gaza_kingdom_ended
-			GAZ = { neutrality = yes }
 			war = {
 				target = GAZ
 				attacker_goal = { casus_belli = establish_protectorate_casus_belli }
 				defender_goal = { casus_belli = status_quo }
+				call_ally = no
 			}
 			badboy = -5
 		}

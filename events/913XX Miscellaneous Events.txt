@@ -3225,358 +3225,176 @@ country_event = {
 		any_country = {
 			limit = {
 				ai = yes
-				money = 1000000
+				money = 250000
+				clean_coal = 1
 				any_owned_province = {
 					OR = {
 						trade_goods= coal
 						trade_goods= iron
 						trade_goods= oil
 						trade_goods= sulphur
-						trade_goods= precious_metal
-						trade_goods= market_goods
 					}
-					NOT = { has_province_modifier = mine_expansion }
-					NOT = {
-						OR = {
-							province_id = 6
-							province_id = 281
-							province_id = 280
-							province_id = 290
-							province_id = 435
-							province_id = 399
-							province_id = 404
-							province_id = 430
-							province_id = 387
-							province_id = 395
-							province_id = 572
-							province_id = 561
-							province_id = 575
-							province_id = 577
-							province_id = 627
-							province_id = 636
-							province_id = 628
-							province_id = 622
-							province_id = 738
-							province_id = 763
-							province_id = 764
-							province_id = 306
-							province_id = 320
-							province_id = 321
-							province_id = 1026
-							province_id = 2686
-							province_id = 1130
-							province_id = 1184
-							province_id = 1249
-							province_id = 1272
-							province_id = 1303
-							province_id = 1561
-							province_id = 1573
-							province_id = 1532
-							province_id = 1515
-							province_id = 1528
-							province_id = 1507
-							province_id = 1353
-							province_id = 2062
-							province_id = 2103
-							province_id = 2108
-							province_id = 1642
-							province_id = 1661
-							province_id = 1670
-							province_id = 1671
-							province_id = 1418
-							province_id = 1421
-							province_id = 1420
-							province_id = 2217
-							province_id = 2264
-							province_id = 158
-							province_id = 177
-							province_id = 2237
-							province_id = 2305
-							province_id = 2307
-							province_id = 2309
-							province_id = 2312
-							province_id = 2331
-							province_id = 2332
-							province_id = 2379
-							province_id = 89
-							province_id = 132
-							province_id = 134
-							province_id = 126
-						}
-					}
+					NOT = { mines = 1 }
 				}
 			}
-			country_event = { id = 91312 days = 0 }
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 1 }
+				}
+				mines = 1
+			}
 		}
 		any_country = {
 			limit = {
 				ai = yes
-				money = 2500000
+				money = 250000
+				cheap_iron = 1
 				any_owned_province = {
 					OR = {
 						trade_goods= coal
 						trade_goods= iron
 						trade_goods= oil
 						trade_goods= sulphur
-						trade_goods= precious_metal
-						trade_goods= market_goods
 					}
-					NOT = { has_province_modifier = mine_expansion }
+					NOT = { mines = 2 }
+				}
+			}
+			money = -100000
+			any_owned = {
+				limit = {
 					OR = {
-						province_id = 6
-						province_id = 281
-						province_id = 280
-						province_id = 290
-						province_id = 435
-						province_id = 399
-						province_id = 404
-						province_id = 430
-						province_id = 387
-						province_id = 395
-						province_id = 572
-						province_id = 561
-						province_id = 575
-						province_id = 577
-						province_id = 627
-						province_id = 636
-						province_id = 628
-						province_id = 622
-						province_id = 738
-						province_id = 763
-						province_id = 764
-						province_id = 306
-						province_id = 320
-						province_id = 321
-						province_id = 1026
-						province_id = 2686
-						province_id = 1130
-						province_id = 1184
-						province_id = 1249
-						province_id = 1272
-						province_id = 1303
-						province_id = 1561
-						province_id = 1573
-						province_id = 1532
-						province_id = 1515
-						province_id = 1528
-						province_id = 1507
-						province_id = 1353
-						province_id = 2062
-						province_id = 2103
-						province_id = 2108
-						province_id = 1642
-						province_id = 1661
-						province_id = 1670
-						province_id = 1671
-						province_id = 1418
-						province_id = 1421
-						province_id = 1420
-						province_id = 2217
-						province_id = 2264
-						province_id = 158
-						province_id = 177
-						province_id = 2237
-						province_id = 2305
-						province_id = 2307
-						province_id = 2309
-						province_id = 2312
-						province_id = 2331
-						province_id = 2332
-						province_id = 2379
-						province_id = 89
-						province_id = 132
-						province_id = 134
-						province_id = 126
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
 					}
+					NOT = { mines = 2 }
 				}
+				mines = 2
 			}
-			country_event = { id = 91313 days = 0 }
 		}
-	}
-}
-
-country_event = {
-	id = 91312
-	title = "AI Mine Expansion"
-
-
-	is_triggered_only = yes
-
-	option = {
-		treasury = -250000
-		random_owned = {
+		any_country = {
 			limit = {
-				OR = {
-					trade_goods= coal
-					trade_goods= iron
-					trade_goods= oil
-					trade_goods= sulphur
-					trade_goods= precious_metal
-					trade_goods= market_goods
-				}
-				NOT = { has_province_modifier = mine_expansion }
-				NOT = {
+				ai = yes
+				money = 250000
+				cheap_steel = 1
+				any_owned_province = {
 					OR = {
-						province_id = 6
-						province_id = 281
-						province_id = 280
-						province_id = 290
-						province_id = 435
-						province_id = 399
-						province_id = 404
-						province_id = 430
-						province_id = 387
-						province_id = 395
-						province_id = 572
-						province_id = 561
-						province_id = 575
-						province_id = 577
-						province_id = 627
-						province_id = 636
-						province_id = 628
-						province_id = 622
-						province_id = 738
-						province_id = 763
-						province_id = 764
-						province_id = 306
-						province_id = 320
-						province_id = 321
-						province_id = 1026
-						province_id = 2686
-						province_id = 1130
-						province_id = 1184
-						province_id = 1249
-						province_id = 1272
-						province_id = 1303
-						province_id = 1561
-						province_id = 1573
-						province_id = 1532
-						province_id = 1515
-						province_id = 1528
-						province_id = 1507
-						province_id = 1353
-						province_id = 2062
-						province_id = 2103
-						province_id = 2108
-						province_id = 1642
-						province_id = 1661
-						province_id = 1670
-						province_id = 1671
-						province_id = 1418
-						province_id = 1421
-						province_id = 1420
-						province_id = 2217
-						province_id = 2264
-						province_id = 158
-						province_id = 177
-						province_id = 2237
-						province_id = 2305
-						province_id = 2307
-						province_id = 2309
-						province_id = 2312
-						province_id = 2331
-						province_id = 2332
-						province_id = 2379
-						province_id = 89
-						province_id = 132
-						province_id = 134
-						province_id = 126
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
 					}
+					NOT = { mines = 3 }
 				}
 			}
-			add_province_modifier = { name = mine_expansion duration = -1 }
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 3 }
+				}
+				mines = 3
+			}
 		}
-	}
-}
-
-country_event = {
-	id = 91313
-	title = "AI Large Mine Expansion"
-
-
-	is_triggered_only = yes
-
-	option = {
-		treasury = -750000
-		random_owned = {
+		any_country = {
 			limit = {
-				OR = {
-					trade_goods= coal
-					trade_goods= iron
-					trade_goods= oil
-					trade_goods= sulphur
-					trade_goods= precious_metal
-					trade_goods= market_goods
-				}
-				NOT = { has_province_modifier = mine_expansion }
-				OR = {
-					province_id = 6
-					province_id = 281
-					province_id = 280
-					province_id = 290
-					province_id = 435
-					province_id = 399
-					province_id = 404
-					province_id = 430
-					province_id = 387
-					province_id = 395
-					province_id = 572
-					province_id = 561
-					province_id = 575
-					province_id = 577
-					province_id = 627
-					province_id = 636
-					province_id = 628
-					province_id = 622
-					province_id = 738
-					province_id = 763
-					province_id = 764
-					province_id = 306
-					province_id = 320
-					province_id = 321
-					province_id = 1026
-					province_id = 2686
-					province_id = 1130
-					province_id = 1184
-					province_id = 1249
-					province_id = 1272
-					province_id = 1303
-					province_id = 1561
-					province_id = 1573
-					province_id = 1532
-					province_id = 1515
-					province_id = 1528
-					province_id = 1507
-					province_id = 1353
-					province_id = 2062
-					province_id = 2103
-					province_id = 2108
-					province_id = 1642
-					province_id = 1661
-					province_id = 1670
-					province_id = 1671
-					province_id = 1418
-					province_id = 1421
-					province_id = 1420
-					province_id = 2217
-					province_id = 2264
-					province_id = 158
-					province_id = 177
-					province_id = 2237
-					province_id = 2305
-					province_id = 2307
-					province_id = 2309
-					province_id = 2312
-					province_id = 2331
-					province_id = 2332
-					province_id = 2379
-					province_id = 89
-					province_id = 132
-					province_id = 134
-					province_id = 126
+				ai = yes
+				money = 250000
+				advanced_metallurgy = 1
+				any_owned_province = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 4 }
 				}
 			}
-			add_province_modifier = { name = mine_expansion duration = -1 }
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 4 }
+				}
+				mines = 4
+			}
+		}
+		any_country = {
+			limit = {
+				ai = yes
+				money = 250000
+				electric_furnace = 1
+				any_owned_province = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 5 }
+				}
+			}
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 5 }
+				}
+				mines = 5
+			}
+		}
+		any_country = {
+			limit = {
+				ai = yes
+				money = 250000
+				modern_metallurgy = 1
+				any_owned_province = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 6 }
+				}
+			}
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 6 }
+				}
+				mines = 6
+			}
 		}
 	}
 }
@@ -3585,8 +3403,6 @@ country_event = {
 #########################################################################
 # 						REFORMS AND DEMOCRACY							#
 #########################################################################
-
-
 country_event = {
 	id = 91314
 	title = "EVTNAME91314"
@@ -4259,3 +4075,34 @@ country_event = {
 		}
 	}
 }	
+
+#########################################################################
+# 							Sphere Me Please  							#
+#########################################################################
+
+country_event = {
+	id = 121290
+	title = "Im pretty sure this spheres someone"
+	desc = "I stole this event lmao"
+	picture = "meeting3"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Get Sphered"
+		diplomatic_influence = {
+			who = FROM
+			value = 400
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "I dont remember what this is supposed to say."
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
