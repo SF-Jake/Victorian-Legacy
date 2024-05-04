@@ -1247,9 +1247,6 @@ political_decisions = {
 				set_country_flag = cannot_pass_reform
 				add_country_modifier = { name = cannot_pass_reform duration = 730 }
 				add_country_modifier = { name = reform_passed duration = 730 }
-				any_owned = {
-					add_province_modifier = { name = nationalist_agitation duration = 730 }
-				}
 			}
 			TEX = { add_country_modifier = { name = the_alamo duration = 30 } }
 			any_country = {

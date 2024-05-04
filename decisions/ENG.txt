@@ -181,7 +181,7 @@ political_decisions = {
 				exists = yes
 				vassal_of = THIS
 			}
-			NOT = { has_country_flag = australia_annexed }
+			NOT = { has_country_flag = annex_commonwealth }
 		}
 
 		allow = {
@@ -190,8 +190,7 @@ political_decisions = {
 
 		effect = {
 			inherit = COM
-			set_country_flag = australia_annexed
-			badboy = 25
+			set_country_flag = annex_commonwealth
 		}
 		ai_will_do = { factor = 0 }
 	}

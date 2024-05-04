@@ -33,14 +33,7 @@ province_event = {
 						remove_province_modifier = province_attract_immigrants
 					}
 				}
-				state_scope = {
-					any_owned = {
-						limit = {
-							NOT = { has_province_modifier = overcrowded }
-						}
-						add_province_modifier = { name = province_attract_immigrants duration = -1 }
-					}
-				}
+				add_province_modifier = { name = province_attract_immigrants duration = -1 }
 			}
 		}
 		remove_core = JAN

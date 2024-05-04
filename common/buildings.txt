@@ -877,7 +877,7 @@ naval_base = {
 		# Audax Validator "." Ignore_NEXT
 		goods_cost =
 		{
-			test_goods = 60	#15000
+			test_goods = 120	#15000
 			fertilizer = 300	#3000
 			grain = 2000		#4600
 			fruit = 1000		#1800
@@ -890,7 +890,7 @@ naval_base = {
 		time = 365
 		visibility = yes
 		onmap = no
-		max_level = 50
+		max_level = 6
 		province = yes
 		# Audax Validator "." Ignore_NEXT
 
@@ -916,7 +916,7 @@ naval_base = {
 		time = 182
 		visibility = yes
 		onmap = no
-		max_level = 4
+		max_level = 6
 		province = yes
 		pop_build_factory = yes
 		# Audax Validator "." Ignore_NEXT
