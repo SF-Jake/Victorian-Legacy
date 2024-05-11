@@ -192,9 +192,18 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-			has_country_flag = reconquista_col_2
-			has_country_flag = reconquista_cenamer_2
-			has_country_flag = reconquista_mex_2
+			OR = {
+				has_country_flag = reconquista_col_2
+				has_country_flag = reconquista_col_failed
+			}
+			OR = {
+				has_country_flag = reconquista_cenamer_2
+				has_country_flag = reconquista_cenamer_failed
+			}
+			OR = {
+				has_country_flag = reconquista_mex_2
+				has_country_flag = reconquista_mex_failed
+			}
 		}
 		effect = {
 			set_country_flag = reconquista_complete
