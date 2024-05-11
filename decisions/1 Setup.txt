@@ -1074,9 +1074,6 @@ political_decisions = {
 			any_country = {
 				social_reform = compulsory_schools
 			}
-			1498 = {
-				add_province_modifier = { name = treaty_port duration = -1 }
-			}
 			any_country = {
 				capital_scope = {
 					add_province_modifier = { name = capital_supply_depot duration = -1 }

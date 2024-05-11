@@ -325,12 +325,12 @@ political_decisions = {
 			NOT = {
 				has_country_flag = napoleon_iii
 			}
-			NOT = {
-				government = absolute_monarchy
-			}
 		}
 	
 		allow = {
+			NOT = {
+				government = absolute_monarchy
+			}
 			ruling_party = FRA_conservative_3
 			year = 1845
 			state_n_government = 1

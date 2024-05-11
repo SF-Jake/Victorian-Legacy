@@ -646,3 +646,165 @@ country_event = {
 		}
 	}
 }
+
+#Fail Condition for Carlist Decisions.
+country_event = {
+	id = 37722
+	title = "Reconquista Mexico Failure"
+	desc = "You have failed the Reconquista in time...."
+	picture = celebration
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = carlist_victory
+		OR = {
+			tag = SPA
+			tag = IBR
+		}
+		war = no
+		NOT = { has_country_modifier = contested_claim }
+		has_country_flag = reconquista_mex
+		NOT = { has_country_flag = reconquista_mex_2 }
+		MEX_2183 = { NOT = { owned_by = THIS } }
+	}
+
+	option = {
+		name = "Woops"
+		set_country_flag = reconquista_mex_failed
+		clr_country_flag = doing_reconquista
+	}
+}
+
+country_event = {
+	id = 37723
+	title = "Reconquista Central America Failure"
+	desc = "You have failed the Reconquista in time...."
+	picture = celebration
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = carlist_victory
+		OR = {
+			tag = SPA
+			tag = IBR
+		}
+		war = no
+		NOT = { has_country_modifier = contested_claim }
+		has_country_flag = reconquista_cenamer
+		NOT = { has_country_flag = reconquista_cenamer_2 }
+		UCA_2186 = { NOT = { owned_by = THIS } }
+		UCA_2191 = { NOT = { owned_by = THIS } }
+	}
+
+	option = {
+		name = "Woops"
+		set_country_flag = reconquista_cenamer_failed
+		clr_country_flag = doing_reconquista
+	}
+}
+
+country_event = {
+	id = 37724
+	title = "Reconquista Gran Colombia Failure"
+	desc = "You have failed the Reconquista in time...."
+	picture = celebration
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = carlist_victory
+		OR = {
+			tag = SPA
+			tag = IBR
+		}
+		war = no
+		NOT = { has_country_modifier = contested_claim }
+		has_country_flag = reconquista_col
+		NOT = { has_country_flag = reconquista_col_2 }
+		CLM_1723 = { NOT = { owned_by = THIS } }
+		CLM_2251 = { NOT = { owned_by = THIS } }
+	}
+
+	option = {
+		name = "Woops"
+		set_country_flag = reconquista_col_failed
+		clr_country_flag = doing_reconquista
+	}
+}
+
+country_event = {
+	id = 37725
+	title = "§RReconquista Mexico Failed§W"
+	desc = "You have failed the Reconquista in time...."
+	picture = celebration
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+	}
+}
+
+country_event = {
+	id = 37726
+	title = "§RReconquista Central America Failed§W"
+	desc = "You have failed the Reconquista in time...."
+	picture = celebration
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+	}
+}
+
+country_event = {
+	id = 37727
+	title = "§RReconquista Gran Colombia Failed§W"
+	desc = "You have failed the Reconquista in time...."
+	picture = celebration
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+	}
+}
+
+country_event = {
+	id = 37728
+	title = "§GReconquista Mexico Succeeded§W"
+	desc = "You have failed the Reconquista in time...."
+	picture = celebration
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+	}
+}
+
+country_event = {
+	id = 37729
+	title = "§GReconquista Central America Succeeded§W"
+	desc = "You have failed the Reconquista in time...."
+	picture = celebration
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+	}
+}
+
+country_event = {
+	id = 37730
+	title = "§GReconquista Gran Colombia Succeeded§W"
+	desc = "You have failed the Reconquista in time...."
+	picture = celebration
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+	}
+}

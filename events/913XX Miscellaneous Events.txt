@@ -4087,6 +4087,15 @@ country_event = {
 	picture = "meeting3"
 	
 	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			add_country_modifier = {
+				name = my_sphere_is_moving_on_its_own
+				duration = 1825
+			}
+		}
+	}
 	
 	option = {
 		name = "Get Sphered"

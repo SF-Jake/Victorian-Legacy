@@ -3171,14 +3171,6 @@ EVTOPTA11104;Come to the Promised Land!;;;;;;;;;;;;x
 EVTNAME11105;The End of Israel;;;;;;;;;;;;x
 EVTDESC11105;With the Jewish state gone, Jews have no reason to migrate to Israel anymore.;;;;;;;;;;;;x
 EVTOPTA11105;A shame.;;;;;;;;;;;;x
-reconquista_mex_title;The Viceroyalty of New Spain;;;;;;;;;;;;x
-reconquista_mex_desc;New Spain was the first of four viceroyalties Spain created in the Americas, it comprised Mexico, Central America, much of the Southwestern and Central United States, and Spanish Florida as well as the Philippines, Guam, Mariana and Caroline Islands. Now that Spanish hegemony has returned to New Spain, we should organize the territory similar to the old Viceroyalty, with the exception of the Caribbean Islands.;;;;;;;;;;;;x
-reconquista_gco_title;The Viceroyalty of New Granada;;;;;;;;;;;;x
-reconquista_gco_desc;The territories of the Viceroyalty of New Granada gained de facto independence from Spain between 1819 and 1822 after a series of military and political struggles, uniting in a shortlived republic now known as Gran Colombia. With the region now under our control, we should reunify the breakaway states into a stronger single colony.;;;;;;;;;;;;x
-reconquista_pbc_title;The Viceroyalty of Peru;;;;;;;;;;;;x
-reconquista_pbc_desc;Peru was the site of many futile attempts by Ferdinand VII to reconquer South America. However, this time the rebellious colonies have been soundly defeated. The territories of Peru, Bolivia, and Chile will be incorporated into the new Viceroyalty of Peru.;;;;;;;;;;;;x
-reconquista_lpl_title;The Viceroyalty of the Rio de la Plata;;;;;;;;;;;;x
-reconquista_lpl_desc;The Viceroyalty of the Rio de la Plata was the last to be organized and also the shortest-lived of the Viceroyalties of the Spanish Empire in the Americas, now that the three breakway countries of the region are under our control, we should re-establish the Viceroyalty to more effectvely rule the region.;;;;;;;;;;;;x
 EVTNAME37713;The Reconquista Begins;;;;;;;;;;;;x
 EVTDESC37713;The restoration of order to our old Viceroyalty marks the beginning of the return of the Spanish Empire in the Americas. §GFor as long as we are overlord of a Viceroyalty, their POPs will only immigrate to us and vice versa.;;;;;;;;;;;;x
 EVTOPTA37713;We will restore the Spain to its former glory!;;;;;;;;;;;;x
@@ -3325,8 +3317,8 @@ IBR_democracy;Iberian Union;x
 IBR_proletarian_dictatorship;The Workers Peninsula;x
 IBR_ADJ;Iberian;;;;;;;;;;;;;x
 FRA_absolute_monarchy;French Empire;x
-FRA_hms_government;French Empire;x
-FRA_prussian_constitutionalism;French Empire;x
+FRA_hms_government;France;x
+FRA_prussian_constitutionalism;France;x
 FRA_proletarian_dictatorship;Commune of France;x
 FRA_democracy;French Republic;x
 PBA;Portugal-Brazil;;;;;;;;;;;;x 
@@ -3604,16 +3596,23 @@ GCL_fascist_dictatorship;Latin America;;;;;;;;;x;;;;
 GCL_democracy;Latin America;;;;;;;;;x;;;;
 form_grand_columbia_title;Form Latin America;;;;;;;;;x;;;;
 form_grand_columbia_desc; ;;;;;;;;;x;;;;
-begin_reconquista_title;Begin Reconquista;;;;;;;;;x;;;;
-begin_reconquista_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ‘Reconquista’ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
-continue_reconquista_1_title;Continue Reconquista;;;;;;;;;x;;;;
-continue_reconquista_1_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ‘Reconquista’ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
-continue_reconquista_2_title;Continue Reconquista 2;;;;;;;;;x;;;;
-continue_reconquista_2_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ‘Reconquista’ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
-continue_reconquista_final_title;Continue Reconquista Final;;;;;;;;;x;;;;
-continue_reconquista_final_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a ‘Reconquista’ that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
-reconquista_acceptance_title;Integrate the Grand Colombian States;;;;;;;;;x;;;;
-reconquista_acceptance_desc;After our long time journey of reconquering all of Grand Colombia now is the time to integrate the population into our $COUNTRY_ADJ$ nation.;;;;;;;;;x;;;;
+reconquista_mex_title;Mexican Reconquista;;;;;;;;;x;;;;
+reconquista_mex_2;Mexican Reconquista;;;;;;;;;x;;;;
+reconquista_mex_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a Reconquista that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+reconquista_mex_2_title;Finish Mexican Reconquista;;;;;;;;;x;;;;
+reconquista_mex_2_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a Reconquista that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+reconquista_col_title;Gran Colombian Reconquista;;;;;;;;;x;;;;
+reconquista_col_2;Gran Colombian Reconquista;;;;;;;;;x;;;;
+reconquista_col_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a Reconquista that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+reconquista_col_2_title;Finish Gran Colombian Reconquista;;;;;;;;;x;;;;
+reconquista_col_2_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a Reconquista that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+reconquista_cenamer_title;Central American Reconquista;;;;;;;;;x;;;;
+reconquista_cenamer_2;Central American Reconquista;;;;;;;;;x;;;;
+reconquista_cenamer_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a Reconquista that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+reconquista_cenamer_2_title; Finish Central American Reconquista;;;;;;;;;x;;;;
+reconquista_cenamer_2_desc;After our Victory of the Carlist Uprising, it is time we take back was is rightfully ours. An Idea has been floating around in our country of a Reconquista that we must retake our colonies in America and regain our glory!;;;;;;;;;x;;;;
+reconquista_complete_title;Integrate the Latin American States;;;;;;;;;x;;;;
+reconquista_complete_desc;All Cores and Accepted is only possible if you complete the reconquista for the corresponding nation \nMexican Reconquista: Gives Cores on the rest of Mexico and Mexican accepted \nColombia Reconquista: Gives Cores on the rest of Gran Colombia and North Andean accepted \nCentral American Reconquista: Gives Central American accepted;;;;;;;;;x;;;;
 jap_westernization_focus_lowered;Japanese Westernization Lowered Focus;;;;;;;;;x;;;;
 jap_westernization_focus_lowered_desc; ;;;;;;;;;x;;;;
 jap_westernization_focus;Japanese Westernization Focus;;;;;;;;;x;;;;

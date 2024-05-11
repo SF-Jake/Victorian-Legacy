@@ -413,6 +413,12 @@ take_from_sphere = {
 		NOT = { tag = SWI }
 		this = { is_greater_power = yes }
 		is_greater_power = yes
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 
 	
@@ -470,6 +476,12 @@ acquire_core_state_small = {
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
 		}
 	}
 	
@@ -529,6 +541,12 @@ acquire_core_state_medium = {
 		any_owned_province = {
 			is_core = THIS
 		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 	
 	allowed_states = {
@@ -587,6 +605,12 @@ acquire_core_state_large = {
 		any_owned_province = {
 			is_core = THIS
 		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 	
 	allowed_states = {
@@ -644,6 +668,12 @@ acquire_core_state_huge = {
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
 		}
 	}
 	
@@ -709,6 +739,12 @@ annex_core_country = {
 				NOT = {
 					is_core = THIS
 				}
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
 			}
 		}
 	}
@@ -1725,6 +1761,12 @@ free_peoples = {
 			year = 1837
 		}
 		NOT = { is_our_vassal = THIS }
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 
 	# THIS - us
@@ -1819,6 +1861,12 @@ free_peoples_small = {
 		THIS = {
 			civilized = yes
 		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 
 	allowed_countries = {
@@ -1898,6 +1946,12 @@ free_peoples_medium = {
 		}
 		THIS = {
 			civilized = yes
+		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
 		}
 	}
 
@@ -1979,6 +2033,12 @@ free_peoples_large = {
 		THIS = {
 			civilized = yes
 		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 
 	allowed_countries = {
@@ -2058,6 +2118,12 @@ free_peoples_huge = {
 		}
 		THIS = {
 			civilized = yes
+		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
 		}
 	}
 
@@ -2302,6 +2368,12 @@ release_puppet = {
 		}
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 	
 	# THIS - us
@@ -2366,6 +2438,12 @@ make_puppet = {
 		NOT = { total_pops = 3000000 }
 		is_greater_power = no
 		is_vassal = no
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 	
 	# THIS - us
@@ -2421,6 +2499,12 @@ become_independent = {
 		NOT = { tag = GHO }
 		is_our_vassal = THIS
 		has_recently_lost_war = no
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 	
 	# THIS - us
@@ -2536,7 +2620,7 @@ demand_concession_casus_belli_small = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -2603,7 +2687,7 @@ demand_concession_casus_belli_medium = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -2670,7 +2754,7 @@ demand_concession_casus_belli_large = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -2737,7 +2821,7 @@ demand_concession_casus_belli_huge = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -2808,7 +2892,7 @@ establish_protectorate_casus_belli = {
 		NOT = { has_country_flag = sub_saharan_africa }
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		THIS = {
 			civilized = yes
 		}
@@ -2881,6 +2965,12 @@ unification_humiliate_cb = {
 	always = yes
 	
 	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 		OR = {
 			ai = yes
 			year = 1837
@@ -2953,6 +3043,12 @@ unification_release_puppet_cb = {
 	always = yes
 
 	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 		OR = {
 			ai = yes
 			year = 1837
@@ -3031,6 +3127,12 @@ unification_casus_belli = {
 	always = yes
 	
 	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 		OR = {
 			ai = yes
 			year = 1837
@@ -3104,13 +3206,19 @@ unification_annex_casus_belli = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 		OR = {
 			ai = yes
 			year = 1837
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		THIS = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
@@ -3230,6 +3338,12 @@ install_communist_gov_cb = {
 			}
 			is_greater_power = no
 		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 	
 	po_install_communist_gov_type = yes
@@ -3294,6 +3408,12 @@ uninstall_communist_gov_cb = {
 			}
 		}
 		government = proletarian_dictatorship
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 	
 	po_uninstall_communist_gov_type = yes
@@ -3371,7 +3491,7 @@ conquest_low = {
 			ai = yes
 			year = 1837
 		}
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		NOT = {	total_pops = 400000 }
 		THIS = {
 			OR = {
@@ -3463,7 +3583,7 @@ take_capital = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		number_of_states = 2
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -3548,7 +3668,7 @@ acquire_treaty_port = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		NOT = { war_with = THIS }
 		OR = {
 			ai = yes
@@ -3977,6 +4097,12 @@ european_african_conquest = {
 			num_of_ports = 1
 			neighbour = THIS
 		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
 	}
 
 	badboy_factor = 0.5
@@ -4112,7 +4238,7 @@ make_puppet_small = {
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
 		is_vassal = no
@@ -4185,7 +4311,7 @@ make_puppet_large = {
 			ai = yes
 			year = 1900
 		}
-		this = { NOT = { badboy = 1 } }
+		this = { NOT = { badboy = 2 } }
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = CHI }
 		is_greater_power = no
@@ -4521,6 +4647,12 @@ european_indian_conquest = {
 		OR = {
 			num_of_ports = 1
 			neighbour = THIS
+		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
 		}
 	}
 

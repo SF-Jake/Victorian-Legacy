@@ -345,6 +345,7 @@ release_vassals = {
 		num_of_vassals = 1
 	}
 	allow = {
+		civilized = yes
 	}
 	effect = {
 		country_event = { id = 91306 days = 0 }
@@ -844,7 +845,7 @@ release_vassals = {
 		allow = {
 			NOT = {
 				has_country_modifier = my_sphere_is_moving_on_its_own
-			}			
+			}
 		}
 		effect = {
 			prestige = -5
@@ -857,10 +858,6 @@ release_vassals = {
 					}
 				}
 				country_event = 121290	
-			}
-			add_country_modifier = {
-				name = my_sphere_is_moving_on_its_own
-				duration = 1825
 			}
 		}
 		ai_will_do = {

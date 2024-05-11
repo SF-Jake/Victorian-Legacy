@@ -6,7 +6,7 @@ political_decisions = {
 					tag = SAF
 					tag = COM
 				}
-				NOT = { has_country_flag = xhosa_war }
+				NOT = { has_country_flag = xhosa_war2 }
 				exists = XHO
 			}
 	
@@ -27,7 +27,7 @@ political_decisions = {
 			}
 	
 			effect = {
-				set_country_flag = xhosa_war
+				set_country_flag = xhosa_war2
 				war = {
 					target = XHO
 					attacker_goal = { casus_belli = establish_protectorate_casus_belli }
@@ -205,8 +205,6 @@ political_decisions = {
 				NOT = {
 					has_country_flag = northern_expansion
 				}
-				has_country_flag = zulu_war
-				has_country_flag = xhosa_war
 			}
 			allow = {
 				breech_loaded_rifles = 1

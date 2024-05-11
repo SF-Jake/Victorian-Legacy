@@ -666,7 +666,7 @@ recently_purchased_warship = {
 }
 
 5_year_migration = {
-	global_immigrant_attract = 10
+	global_immigrant_attract = 5
 	icon = 17
 }
 ########## PROVINCE SELECTOR DECISIONS ##########
@@ -1886,5 +1886,9 @@ host_nation = {
 }
 
 my_sphere_is_moving_on_its_own = {
+	icon = 8
+}
+
+contested_claims = {
 	icon = 8
 }

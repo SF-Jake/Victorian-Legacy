@@ -537,7 +537,11 @@ political_decisions = {
 		
 		allow = {
 			money = 1250000
-			school_reforms = acceptable_schools
+			OR = {
+				school_reforms = acceptable_schools
+				school_reforms = good_schools
+				school_reforms = compulsory_schools
+			}
 		}
 		effect = {
 			money = -1250000
@@ -553,7 +557,10 @@ political_decisions = {
 		
 		allow = {
 			money = 1500000
-			school_reforms = good_schools
+			OR = {
+				school_reforms = good_schools
+				school_reforms = compulsory_schools
+			}
 		}
 		effect = {
 			money = -1500000

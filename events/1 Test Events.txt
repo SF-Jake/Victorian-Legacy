@@ -89,3 +89,21 @@ country_event = {
 		war_exhaustion = -100
 	}
 }
+
+country_event = {
+	id = 8
+	title = "Test"
+	is_triggered_only = yes
+	option = {
+		any_owned = {
+			limit = {
+				trade_goods = market_goods
+			}
+			add_province_modifier = {
+				name = treaty_port
+				duration = -1
+			}
+			mines = -2
+		}
+	}
+}
