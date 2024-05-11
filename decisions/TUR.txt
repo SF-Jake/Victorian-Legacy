@@ -295,7 +295,7 @@ political_decisions = {
 			NOT = { has_country_flag = accept_the_misri }
 		}
 		allow = {
-			market_regulations = 1
+			nationalism_n_imperialism = 1
 		}
 		effect = {
 			set_country_flag = accept_the_misri
