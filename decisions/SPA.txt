@@ -30,6 +30,7 @@ political_decisions = {
 		potential = {
 			NOT = { has_country_flag = reconquista_mex }
 			NOT = { has_country_flag = reconquista_mex_failed }
+			NOT = { has_country_flag = doing_reconquista }
 			has_global_flag = carlist_victory
 			OR = {
 				tag = IBR
@@ -78,6 +79,7 @@ political_decisions = {
 		potential = {
 			NOT = { has_country_flag = reconquista_cenamer }
 			NOT = { has_country_flag = reconquista_cenamer_failed }
+			NOT = { has_country_flag = doing_reconquista }
 			has_global_flag = carlist_victory
 			OR = {
 				tag = IBR
@@ -127,6 +129,7 @@ political_decisions = {
 		potential = {
 			NOT = { has_country_flag = reconquista_col }
 			NOT = { has_country_flag = reconquista_col_failed }
+			NOT = { has_country_flag = doing_reconquista }
 			has_global_flag = carlist_victory
 			OR = {
 				tag = IBR
