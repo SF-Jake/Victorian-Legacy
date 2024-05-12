@@ -4115,3 +4115,40 @@ country_event = {
 		}
 	}
 }
+
+#########################################################################
+# 						CAPITAL SUPPLY DEPOT							#
+#########################################################################
+country_event = {
+	id = 91309
+	title = "New Capital Supply Depot"
+	desc = "A capital supply depot will be built in your new capital and the old one will be destroyed."
+	picture = armament_depot
+
+
+	trigger = {
+		OR = {
+			capital_scope = {
+				NOT = { has_province_modifier = capital_supply_depot }
+			}
+			any_owned_province = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot
+			}
+		}
+	}
+
+	option = {
+		name = "OK."
+		any_owned = {
+			limit = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot
+			}
+			remove_province_modifier = capital_supply_depot
+		}
+		capital_scope = {
+			add_province_modifier = { name = capital_supply_depot duration = -1 }
+		}
+	}
+}

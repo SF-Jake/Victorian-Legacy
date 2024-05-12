@@ -254,12 +254,12 @@ country_event = {
 country_event = {
 	id = 90843
 	title = "Education Reform Lost"
-	desc = "Education Buff was removed cause you have met the following requirements on 50% Literacy Siam/Indochina or on Civilizing"
+	desc = "Education Buff was removed cause you have met the following requirements on 40% Literacy Siam/Indochina "
 	picture = "dungan_rebellion_qinghai"
 
 	trigger = {
 		has_country_modifier = education_siam_reforms
-        literacy = 0.5
+        literacy = 0.4
 		OR = {
             tag = SIA
             tag = INC

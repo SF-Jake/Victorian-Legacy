@@ -178,8 +178,12 @@ political_decisions = {
 			ai = no
 			tag = ENG
 			COM = {
+				ai = no
 				exists = yes
-				vassal_of = THIS
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+				}
 			}
 			NOT = { has_country_flag = annex_commonwealth }
 		}

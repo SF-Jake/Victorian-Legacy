@@ -1800,22 +1800,6 @@ country_event = {
 		NOT = { government = democracy }
 		NOT = { has_global_flag = warlord_era_begun }
 		NOT = { has_global_flag = republic_of_china }
-		OR = {
-			average_militancy = 2
-			lost_national = 1
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 12
-		modifier = {
-			factor = 0.5
-			average_militancy = 3
-		}
-		modifier = {
-			factor = 0.1
-			average_militancy = 4
-		}
 	}
 
 	immediate = {
@@ -1884,6 +1868,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA90810"
+		money = 1000000
 		set_global_flag = warlord_era_begun
 		remove_country_modifier = imperial_examinations
 		government = presidential_dictatorship
@@ -2027,6 +2012,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB90810"	######Guangdong Clique######
+		money = 1000000
 		set_global_flag = warlord_era_begun
 		remove_country_modifier = imperial_examinations
 		government = presidential_dictatorship
@@ -2171,6 +2157,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTC90810"	######Guangxi Clique######
+		money = 1000000
 		set_global_flag = warlord_era_begun
 		remove_country_modifier = imperial_examinations
 		government = presidential_dictatorship
@@ -2315,6 +2302,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTD90810"	######Yunnan Clique######
+		money = 1000000
 		set_global_flag = warlord_era_begun
 		remove_country_modifier = imperial_examinations
 		government = presidential_dictatorship
@@ -2458,6 +2446,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTE90810"	######Hunan Clique######
+		money = 1000000
 		set_global_flag = warlord_era_begun
 		remove_country_modifier = imperial_examinations
 		government = presidential_dictatorship
@@ -2602,6 +2591,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTF90810"	######Anhui Clique######
+		money = 1000000
 		set_global_flag = warlord_era_begun
 		remove_country_modifier = imperial_examinations
 		government = presidential_dictatorship
@@ -2746,6 +2736,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTG90810"	######Sichuan Clique######
+		money = 1000000
 		set_global_flag = warlord_era_begun
 		remove_country_modifier = imperial_examinations
 		government = presidential_dictatorship
@@ -2889,6 +2880,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTH90810"	######Ma Clique######
+		money = 1000000
 		set_global_flag = warlord_era_begun
 		remove_country_modifier = imperial_examinations
 		government = presidential_dictatorship
@@ -3034,6 +3026,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTI90810"	######Shanxi Clique######
+		money = 1000000
 		set_global_flag = warlord_era_begun
 		remove_country_modifier = imperial_examinations
 		government = presidential_dictatorship
