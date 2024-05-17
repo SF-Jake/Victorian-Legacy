@@ -63,8 +63,36 @@ country_event = {
 				NOT = { has_country_flag = private_bank_invented }
 			}
 			AND = {
-				central_bank_money_bill_printing = 1
-				NOT = { has_country_flag = central_bank_invented }
+				battleship_column_doctrine = 1
+				NOT = { has_country_flag = battleship_column_doctrine_invented }
+			}
+			AND = {
+				raider_group_doctrine = 1
+				NOT = { has_country_flag = raider_group_doctrine_invented }
+			}
+			AND = {
+				blue_and_brown_water_schools = 1
+				NOT = { has_country_flag = blue_and_brown_water_schools_invented }
+			}
+			AND = {
+				high_sea_battle_fleet = 1
+				NOT = { has_country_flag = high_sea_battle_fleet_invented }
+			}
+			AND = {
+				early_modern_naval_doctrine = 1
+				NOT = { has_country_flag = early_modern_naval_doctrine_invented }
+			}
+			AND = {
+				modern_naval_doctrine = 1
+				NOT = { has_country_flag = modern_naval_doctrine_invented }
+			}
+			AND = {
+				biologism = 1
+				NOT = { has_country_flag = biologism_invented }
+			}
+			AND = {
+				social_alienation = 1
+				NOT = { has_country_flag = social_alienation_invented }
 			}
 			AND = {
 				invention = mob1
@@ -446,11 +474,11 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					social_science = 1
-					NOT = { has_country_flag = social_science_invented }
+					social_alienation = 1
+					NOT = { has_country_flag = social_alienation_invented }
 				}
 			}
-			owner = { set_country_flag = social_science_invented }
+			owner = { set_country_flag = social_alienation_invented }
 		}
 	}
 }

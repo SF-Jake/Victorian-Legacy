@@ -393,6 +393,7 @@ political_reforms = {
 			global_immigrant_attract = -0.04
 			allow = {
 				has_country_flag = force_reform
+				is_mobilised = yes
 				# has_country_flag = army_nco_training_invented
 			}
 		}
@@ -406,6 +407,7 @@ political_reforms = {
 			global_immigrant_attract = -0.02
 			allow = {
 				has_country_flag = force_reform
+				NOT = { is_mobilised = yes }
 				# has_country_flag = military_logistics_invented
 			}
 		}
@@ -416,19 +418,30 @@ political_reforms = {
 			global_immigrant_attract = -0.01
 			tax_efficiency = -0.01
 			education_efficiency_modifier = -0.05
-			allow = { has_country_flag = force_reform }
+			allow = { 
+				has_country_flag = force_reform 
+				NOT = { is_mobilised = yes }
+			}
 		}
 		one_year_draft = {
 			mobilisation_economy_impact = 0.1
 			rgo_throughput = -0.01
 			factory_throughput = -0.01
-			allow = { has_country_flag = force_reform }
+			tax_efficiency = -0.005
+			education_efficiency_modifier = -0.025
+			allow = { 
+				has_country_flag = force_reform 
+				NOT = { is_mobilised = yes }
+			}
 		}
 		no_draft = {
 			land_unit_start_experience = 5
 			education_efficiency_modifier = 0.05
 			global_immigrant_attract = 0.02
-			allow = { has_country_flag = force_reform }
+			allow = { 
+				has_country_flag = force_reform 
+				NOT = { is_mobilised = yes }
+			}
 		}
 	}
 	
@@ -819,6 +832,7 @@ social_reforms = {
 	health_care = {
 		next_step_only = yes	
 		no_health_care = {
+			max_social_spending = 0.01
 		}
 		trinket_health_care = {
 			global_population_growth = 0.001

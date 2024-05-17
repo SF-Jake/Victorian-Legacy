@@ -4152,3 +4152,35 @@ country_event = {
 		}
 	}
 }
+
+#########################################################################
+# 							END OF SLAVERY								#
+#########################################################################
+
+country_event = {
+
+	id = 91337
+	title = "EVTNAME91337"
+
+	trigger = {
+		tag = JAN
+		year = 1890
+		NOT = { has_global_flag = slavery_ended }
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		set_global_flag = slavery_ended
+		any_country = {
+			limit = {
+				NOT = { tag = CSA }
+				OR = {
+					slavery = yes_slavery
+					slavery = freedom_of_womb
+				}
+			}
+			political_reform = no_slavery
+		}
+	}
+}

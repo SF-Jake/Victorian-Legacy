@@ -877,7 +877,7 @@ naval_base = {
 		# Audax Validator "." Ignore_NEXT
 		goods_cost =
 		{
-			test_goods = 120	#15000
+			market_goods = 1000
 			fertilizer = 300	#3000
 			grain = 2000		#4600
 			fruit = 1000		#1800
@@ -905,12 +905,11 @@ naval_base = {
 		cost = 162500
 		goods_cost =
 		{
-			test_goods = 60
-			cement = 300		#3200
-			steel = 500			#1880
-			explosives = 200	#2000
-			lumber = 600		#1000
-			machine_parts = 150	#1460
+			cement = 600		#3200
+			steel = 1000			#1880
+			explosives = 400	#2000
+			lumber = 1200		#1000
+			machine_parts = 300	#1460
 		}
 
 		time = 182

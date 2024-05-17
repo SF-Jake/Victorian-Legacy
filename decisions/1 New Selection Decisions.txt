@@ -868,7 +868,7 @@ release_vassals = {
 #########################################################################
 # 							ROW COMPLETION								#
 #########################################################################
-row_completion_jan = {
+missalaneous_jan = {
 	picture = cease_fire
 	potential = {
 		tag = JAN
@@ -1268,6 +1268,118 @@ row_completion_jan = {
 				NOT = { navy_row_completion7 = 1 }
 			}
 			activate_technology = navy_row_completion7
+		}
+		any_country = {
+			limit = {
+				ai = no
+				biologism = 1
+				NOT = { social_alienation = 1 }
+				has_country_flag = biologism_invented
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_university
+				}
+				## Audax Validator "." Ignore_NEXT
+				university = 2
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				social_alienation = 1
+				has_country_flag = social_alienation_invented
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_university
+				}
+				## Audax Validator "." Ignore_NEXT
+				university = 3
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				battleship_column_doctrine = 1
+				has_country_flag = battleship_column_doctrine_invented
+				NOT = { raider_group_doctrine = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 3
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				raider_group_doctrine = 1
+				has_country_flag = raider_group_doctrine_invented
+				NOT = { blue_and_brown_water_schools = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 4
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				blue_and_brown_water_schools = 1
+				has_country_flag = blue_and_brown_water_schools_invented
+				NOT = { high_sea_battle_fleet = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 5
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				high_sea_battle_fleet = 1
+				has_country_flag = high_sea_battle_fleet_invented
+				NOT = { early_modern_naval_doctrine = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 6
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				early_modern_naval_doctrine = 1
+				has_country_flag = early_modern_naval_doctrine_invented
+				NOT = { modern_naval_doctrine = 1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 7
+			}
+		}
+		any_country = {
+			limit = {
+				ai = no
+				modern_naval_doctrine = 1
+				has_country_flag = modern_naval_doctrine_invented
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = built_naval_base
+				}
+				naval_base = 8
+			}
 		}
 	}
 }
