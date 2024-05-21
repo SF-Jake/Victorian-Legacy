@@ -89,3 +89,15 @@ country_event = {
 		war_exhaustion = -100
 	}
 }
+
+country_event = {
+	id = 8
+	title = "Panic of $YEAR$"
+	desc = "The Panic of $YEAR$ has created a credit shortage that led to a significant economic decline."
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+	}
+}

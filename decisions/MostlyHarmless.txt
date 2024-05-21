@@ -4,6 +4,7 @@ political_decisions = {
 	banker_income = {
 		potential = {
 			tag = JAN
+			NOT = { has_global_flag = turn_off_bank }
 		}
 		
 		allow = {
@@ -23,6 +24,29 @@ political_decisions = {
 			any_pop = {
 				money = 2000000
 			}
+		}
+	}
+
+	banker_income_crash = {
+		potential = {
+			tag = JAN
+			has_global_flag = turn_off_bank
+			NOT = { has_global_flag = the_panic_crash }
+		}
+		
+		allow = {
+			NOT = {
+				any_owned_province = {
+					any_pop = {
+						cash_reserves = 0.2
+					}
+				}
+			}
+			NOT = { has_country_flag = banker_income_timer }
+		}
+		effect = {
+			set_global_flag = the_panic_crash
+			country_event = { id=8 days=0 }
 		}
 	}
 

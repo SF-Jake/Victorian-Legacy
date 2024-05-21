@@ -258,6 +258,7 @@ political_decisions = {
 				continent = north_america
 				continent = south_america
 				tag = AST
+				tag = COM
 			}
 			NOT = { has_country_modifier = 5_year_migration_cooldown }
 		}
@@ -267,6 +268,7 @@ political_decisions = {
 				continent = north_america
 				continent = south_america
 				tag = AST
+				tag = COM
 			}
 			money = 1500000
 		}

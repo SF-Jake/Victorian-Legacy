@@ -139,59 +139,26 @@ political_decisions = {
 			NOT = { has_country_flag = mex_central_america }
 		}
 		allow = {
-			prestige = 75
-			state_n_government = 1
+			prestige = 25
+			ideological_thought = 1
 			war = no
+			UCA_2186 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+			UCA_2191 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+			UCA_2197 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+			UCA_2201 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
 		}
 		effect = {
 			UCA_2186 = { add_core = THIS }
 			UCA_2191 = { add_core = THIS }
-			UCA_2193 = { add_core = THIS }
 			UCA_2197 = { add_core = THIS }
 			UCA_2201 = { add_core = THIS }
 			add_accepted_culture = central_american
-			badboy = 15
 			random_country = {
 				limit = {
-					tag = UCA
-					exists = yes
+					primary_culture = central_american
+					vassal_of = THIS
 				}
-				relation = { who = THIS value = -100 }
-			}
-			random_country = {
-				limit = {
-					tag = NIC
-					exists = yes
-				}
-				relation = { who = THIS value = -100 }
-			}
-			random_country = {
-				limit = {
-					tag = GUA
-					exists = yes
-				}
-				relation = { who = THIS value = -100 }
-			}
-			random_country = {
-				limit = {
-					tag = ELS
-					exists = yes
-				}
-				relation = { who = THIS value = -100 }
-			}
-			random_country = {
-				limit = {
-					tag = COS
-					exists = yes
-				}
-				relation = { who = THIS value = -100 }
-			}
-			random_country = {
-				limit = {
-					tag = HON
-					exists = yes
-				}
-				relation = { who = THIS value = -100 }
+				country_event = { id=11101 days=0 }
 			}
 			set_country_flag = mex_central_america
 		}

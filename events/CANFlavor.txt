@@ -276,3 +276,23 @@ country_event = {
 		name = "EVTOPTA44313"
 	}
 }
+
+country_event = {
+	id = 44314
+	title = "Move Capital"
+	desc = "Canada is Lost"
+	picture = "ruperts_land"
+
+	trigger = {
+		tag = COM
+		capital_scope = {
+			NOT = { continent = north_america }
+		}
+		NOT = { capital = 2476 }
+	}
+
+	option = {
+		capital = 2476
+		name = "EVTOPTA44313"
+	}
+}

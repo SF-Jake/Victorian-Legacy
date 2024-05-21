@@ -180,6 +180,16 @@ political_decisions = {
 	
 			effect = {
 				set_country_flag = boer_war
+				TRN = {
+					all_core = {
+						add_core = THIS
+					}
+				}
+				ORA = {
+					all_core = {
+						add_core = THIS
+					}
+				}
 				war = {
 					target = TRN
 					attacker_goal = { casus_belli = annex_core_country }

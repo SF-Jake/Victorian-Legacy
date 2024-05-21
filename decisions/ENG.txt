@@ -175,10 +175,9 @@ political_decisions = {
 		picture = canadian_confederation
 		alert = no
 		potential = {
-			ai = no
 			tag = ENG
 			COM = {
-				ai = no
+				ai = yes
 				exists = yes
 				OR = {
 					vassal_of = THIS
@@ -190,6 +189,12 @@ political_decisions = {
 
 		allow = {
 			NOT = { badboy = 1 }
+			COM = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+				}
+			}
 		}
 
 		effect = {

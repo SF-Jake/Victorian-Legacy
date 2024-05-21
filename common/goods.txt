@@ -240,10 +240,4 @@ industrial_and_consumer_goods = {
 		cost = 4.5
 		color = { 27 19 7 }
 	}
-	test_goods = { 
-		cost = 1000
-		#tradeable = no
-		money = yes	
-		color = { 255 187 97 }
-	}
 }

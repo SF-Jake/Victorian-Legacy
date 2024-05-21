@@ -873,12 +873,6 @@ RGO_template_large_labourers = {
 			effect = throughput
 			amount = 1
 		}
-		{
-			poptype = slaves 
-			effect = throughput
-			amount = 1
-			effect_multiplier = 2.5
-		}
 	}
 
 	type = rgo
@@ -897,14 +891,7 @@ RGO_template_small_labourers = {
 			poptype = labourers
 			effect = throughput
 			amount = 1
-		}
-		{
-			poptype = slaves 
-			effect = throughput
-			amount = 1
-			effect_multiplier = 2.5
-		}
-		
+		}		
 	}
 
 	type = rgo
@@ -999,13 +986,6 @@ trading_port = {
 	template = RGO_template_money
 	output_goods = market_goods
 	value = 4
-	mine = yes
-}
-
-test_goods_items = {
-	template = RGO_template_money
-	output_goods = test_goods 
-	value = 10000
 	mine = yes
 }
 

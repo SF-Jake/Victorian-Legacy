@@ -97,6 +97,19 @@ guiTypes = {
 				maxWidth = 400
 				maxHeight = 50	
 			}
+		instantTextBoxType = {
+			name ="mod_version_label"
+			position = { x = 5 y = -40 }
+			textureFile = ""
+			font = "Arial12"
+			borderSize = {x = 0 y = 0}
+			text = "Mod Version: v0.5.3.0 (XKJY)"	
+			Orientation = "LOWER_LEFT"
+			format = left
+			maxWidth = 400
+			maxHeight = 50	
+		}
+		
 
 
 #### MULTIPLAYER MENU
@@ -309,7 +322,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "single_player_button"
-				position = { x = 37 y = 557 }
+				position = { x = -205 y = 557 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -320,7 +333,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "multi_player_button"
-				position = { x = 279 y = 557 }
+				position = { x = 37 y = 557 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -331,7 +344,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "tutorial_button"
-				position = { x = 400000 y = 429000 }
+				position = { x = 400 y = 5429 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -342,7 +355,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "settings_button"
-				position = { x = -84 y = 600 }
+				position = { x = 279 y = 557 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -353,7 +366,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "credits_button"
-				position = { x = 158 y = 600 }
+				position = { x = 158 y = 5472	 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -363,7 +376,7 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "exit_button"
-				position = { x = 400 y = 600 }
+				position = { x = 521 y = 557 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -375,35 +388,35 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "homepage_button"
-				position = { x = 172 y = 666 }
+				position = { x = 172 y = 612 }
 				quadTextureSprite ="homepage"	
 			}
 			guiButtonType = {
 				name = "forum_button"
-				position = { x = 224 y = 666 }
+				position = { x = 224 y = 612 }
 				quadTextureSprite ="forum"	
 			}
 			guiButtonType = {
 				name = "facebook_button"
-				position = { x = 276 y = 666 }
+				position = { x = 276 y = 612 }
 				quadTextureSprite ="facebook"	
 			}			
 			guiButtonType = {
 				name = "twitter_button"
-				position = { x = 328 y = 666 }
+				position = { x = 328 y = 612 }
 				quadTextureSprite ="twitter"	
 			}		
 
 			guiButtonType = {
 				name = "nudge_button"
-				position = { x = 388 y = 670 }
+				position = { x = 388 y = 542 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "Nudge"
 				buttonFont = "vic_22_black"
-			}	
+			}
 			
 		}
 

@@ -60,10 +60,10 @@ political_decisions = {
 			}
 		}
 		allow = {
-			MEX_2183 = { add_core = THIS }
-			MEX_2170 = { owned_by = THIS }
-			MEX_2162 = { owned_by = THIS }
-			MEX_2161 = { owned_by = THIS }
+			MEX_2183 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+			MEX_2170 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+			MEX_2162 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+			MEX_2161 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
 		}
 		effect = {
 			set_country_flag = reconquista_mex_2
@@ -72,6 +72,13 @@ political_decisions = {
 			MEX_2170 = { add_core = THIS }
 			MEX_2162 = { add_core = THIS }
 			MEX_2161 = { add_core = THIS }
+			random_country = {
+				limit = {
+					primary_culture = mexican
+					vassal_of = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
 		}
 	}
 	reconquista_cenamer = {
@@ -110,11 +117,11 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
-				UCA_2186 = { add_core = THIS }
-				UCA_2191 = { add_core = THIS }
+				UCA_2186 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+				UCA_2191 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
 			}
-			UCA_2197 = { owned_by = THIS }
-			UCA_2201 = { owned_by = THIS }
+			UCA_2197 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+			UCA_2201 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
 		}
 		effect = {
 			set_country_flag = reconquista_cenamer_2
@@ -122,6 +129,13 @@ political_decisions = {
 			remove_country_modifier = contested_claims
 			UCA_2197 = { add_core = THIS }
 			UCA_2201 = { add_core = THIS }
+			random_country = {
+				limit = {
+					primary_culture = central_american
+					vassal_of = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
 		}
 	}
 	reconquista_col = {
@@ -161,11 +175,11 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
-				CLM_1723 = { add_core = THIS }
-				CLM_2251 = { add_core = THIS }
+				CLM_1723 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+				CLM_2251 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
 			}
-			VNZ_2234 = { owned_by = THIS }
-			CLM_2247 = { owned_by = THIS }
+			VNZ_2234 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+			CLM_2247 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
 		}
 		effect = {
 			set_country_flag = reconquista_col_2
@@ -173,6 +187,13 @@ political_decisions = {
 			remove_country_modifier = contested_claims
 			VNZ_2234 = { add_core = THIS }
 			CLM_2247 = { add_core = THIS }
+			random_country = {
+				limit = {
+					primary_culture = north_andean
+					vassal_of = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
 		}
 	}
 	reconquista_complete = {
@@ -270,7 +291,7 @@ political_decisions = {
 				CLM_2262 = { add_core = THIS }
 				ECU_2279 = { add_core = THIS }
 				VNZ_2265 = { add_core = THIS }
-				add_accepted_culture = north_andean
+				owner = { add_accepted_culture = north_andean }
 			}
 			random_owned = {
 				limit = {
@@ -279,7 +300,7 @@ political_decisions = {
 						NOT = { has_country_flag = reconquista_cenamer_failed }
 					}
 				}
-				add_accepted_culture = central_american
+				owner = { add_accepted_culture = central_american }
 			}
 			random_owned = {
 				limit = {
@@ -293,7 +314,7 @@ political_decisions = {
 				MEX_2142 = { add_core = THIS }
 				MEX_2138 = { add_core = THIS }
 				MEX_2173 = { add_core = THIS }
-				add_accepted_culture = mexican
+				owner = { add_accepted_culture = mexican }
 			}
 		}
 	}
