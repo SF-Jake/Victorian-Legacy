@@ -8,7 +8,7 @@ auguste_comte = {
 	limit = { positivism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 4
 			enlightenment_thought = 1
@@ -24,7 +24,7 @@ jg_taylor = {
 	limit = { functionalism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 	}
 	effect = {
 		shared_prestige = 5
@@ -35,7 +35,7 @@ heinrich_schliemann = {
 	limit = { functionalism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = jg_taylor
@@ -91,7 +91,7 @@ flinders_petrie = {
 	limit = { social_science = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = jg_taylor
@@ -110,7 +110,7 @@ ferdinand_de_saussure = {
 	limit = { social_science = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = darwinism
@@ -126,7 +126,7 @@ emile_dirkheim = {
 	limit = { social_science = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = darwinism
@@ -146,7 +146,7 @@ max_weber = {
 	limit = { social_science = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = emile_dirkheim
@@ -167,7 +167,7 @@ arthur_evans = {
 	limit = { social_alienation = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = franz_boas
@@ -182,7 +182,7 @@ marcel_mauss = {
 	limit = { social_alienation = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = franz_boas
@@ -198,7 +198,7 @@ branislaw_malinowski = {
 	limit = { social_alienation = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = franz_boas

@@ -3,7 +3,7 @@ romanticist_literature = {
 	limit = { romanticism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			average_consciousness = 3
@@ -28,7 +28,7 @@ romanticist_art = {
 	limit = { romanticism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			average_consciousness = 3
@@ -53,7 +53,7 @@ romanticist_music = {
 	limit = { romanticism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			is_greater_power = no
@@ -79,7 +79,7 @@ realist_literature = {
 	limit = { realism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			is_greater_power = no
@@ -104,7 +104,7 @@ realist_art = {
 	limit = { realism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			average_consciousness = 3
@@ -129,7 +129,7 @@ realist_music = {
 	limit = { realism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -151,7 +151,7 @@ impressionist_literature = {
 	limit = { impressionism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -172,7 +172,7 @@ impressionist_art = {
 	limit = { impressionism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -193,7 +193,7 @@ impressionist_music = {
 	limit = { impressionism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -215,7 +215,7 @@ expressionist_literature = {
 	limit = { expressionism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -237,7 +237,7 @@ expressionist_art = {
 	limit = { expressionism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -258,7 +258,7 @@ expressionist_music = {
 	limit = { expressionism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -280,7 +280,7 @@ avantgarde_literature = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -301,7 +301,7 @@ avantgarde_art = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -322,7 +322,7 @@ avantgarde_music = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = -2
 			OR = {
@@ -343,7 +343,7 @@ jazz = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			great_war_experience = 1
@@ -361,7 +361,7 @@ socialist_realism = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			government = proletarian_dictatorship
@@ -383,7 +383,7 @@ modern_design = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			social_science = 1
@@ -401,7 +401,7 @@ surrealism = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			anti__rationalism = 1
@@ -420,7 +420,7 @@ neokantian_idealism = {
 	limit = { idealism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			ideological_thought = 1
@@ -438,7 +438,7 @@ hegelian_idealism = {
 	limit = { idealism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			romanticism = 1
@@ -456,7 +456,7 @@ proto_existentialism = {
 	limit = { idealism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = romanticist_literature
@@ -475,7 +475,7 @@ pragmatism = {
 	limit = { empiricism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			realism = 1
@@ -493,7 +493,7 @@ i_empiricism = {
 	limit = { empiricism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			experimental_psychology = 1
@@ -512,7 +512,7 @@ i_analytic_philosophy = {
 	limit = { analytic_philosophy = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			impressionism = 1
@@ -534,7 +534,7 @@ modern_logics = {
 	limit = { analytic_philosophy = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			functionalism = 1
@@ -552,7 +552,7 @@ logical_positivism = {
 	limit = { analytic_philosophy = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			impressionism = 1
@@ -570,7 +570,7 @@ philosophy_of_language = {
 	limit = { analytic_philosophy = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			colonial_nation = yes
@@ -589,7 +589,7 @@ phenomenology = {
 	limit = { phenomenology_n_hermeneutic = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = expressionist_literature
@@ -607,7 +607,7 @@ hermeneutics = {
 	limit = { phenomenology_n_hermeneutic = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			social_science = 1
@@ -626,7 +626,7 @@ existentialism = {
 	limit = { anti__rationalism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = expressionist_literature
@@ -644,7 +644,7 @@ nihilism_and_the_will = {
 	limit = { anti__rationalism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = national_fraternity
@@ -662,7 +662,7 @@ futurism = {
 	limit = { anti__rationalism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = stainless_steel
@@ -680,7 +680,7 @@ quantum_theory = {
 	limit = { anti__rationalism = 1 }
 	news = no
 	chance = {
-		base = 4
+		base = 5
 		modifier = {
 			factor = 2
 			average_consciousness = 5
@@ -721,7 +721,7 @@ social_darwinism = {
 	limit = { biologism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = darwinism
@@ -742,7 +742,7 @@ sociology = {
 	limit = { social_science = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			analytic_philosophy = 1
@@ -759,7 +759,7 @@ social_psychology = {
 	limit = { social_science = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			experimental_psychology = 1
@@ -776,7 +776,7 @@ political_science = {
 	limit = { social_science = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			revolution_n_counterrevolution = 1
@@ -797,7 +797,7 @@ social_anthropology = {
 	limit = { biologism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = darwinism
@@ -816,7 +816,7 @@ the_revolt_of_the_masses = {
 	limit = { social_alienation = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			revolution_n_counterrevolution = 1
@@ -835,7 +835,7 @@ the_decline_of_the_west_and_the_lost_generation = {
 	limit = { social_alienation = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			great_war_experience = 1
@@ -873,7 +873,7 @@ constitutionalism = {
 	limit = { enlightenment_thought = 1 }
 	news = no
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 2
 			government = hms_government
@@ -895,7 +895,7 @@ atheism = {
 	limit = { enlightenment_thought = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 1
 			tech_school = culture_tech_school
@@ -917,7 +917,7 @@ egalitarianism = {
 	limit = { enlightenment_thought = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			nationalvalue = nv_equality
@@ -943,7 +943,7 @@ rationalism = {
 	limit = { enlightenment_thought = 1 }
 	news = no
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 2
 			literacy = 0.5
@@ -1030,7 +1030,7 @@ political_religion = {
 	limit = { ideological_thought = 1 }
 	news = no
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 2
 			religious_policy = moralism
@@ -1050,7 +1050,7 @@ individualism = {
 	limit = { ideological_thought = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			nationalvalue = nv_liberty
@@ -1090,7 +1090,7 @@ social_conscience = {
 	limit = { ideological_thought = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			nationalvalue = nv_equality
@@ -1110,7 +1110,7 @@ collectivism = {
 	limit = { ideological_thought = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			nationalvalue = nv_equality
@@ -1129,7 +1129,7 @@ determinism = {
 	limit = { ideological_thought = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 1
 			ruling_party_ideology = socialist
@@ -1152,7 +1152,7 @@ social_justice = {
 	limit = { ideological_thought = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			nationalvalue = nv_equality
@@ -1176,7 +1176,7 @@ populism_vs._establishment = {
 	limit = { state_n_government = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			average_consciousness = 3
@@ -1193,7 +1193,7 @@ clericalism_vs._anticlericalism = {
 	limit = { state_n_government = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			NOT = {
@@ -1213,7 +1213,7 @@ bureaucracy_vs._nepotism = {
 	limit = { state_n_government = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			nationalvalue = nv_order
@@ -1230,7 +1230,7 @@ meritocracy_vs._aristocracy = {
 	limit = { state_n_government = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 1
 			literacy = 0.4
@@ -1249,7 +1249,7 @@ national_fraternity = {
 	limit = { nationalism_n_imperialism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			is_greater_power = yes
@@ -1276,7 +1276,7 @@ biased_multiculturalism = {
 	limit = { nationalism_n_imperialism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 1
 			ruling_party_ideology = reactionary
@@ -1300,7 +1300,7 @@ manifest_destiny = {
 	limit = { nationalism_n_imperialism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			nationalvalue = nv_liberty
@@ -1323,7 +1323,7 @@ expansionism = {
 	limit = { nationalism_n_imperialism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			is_greater_power = yes
@@ -1382,7 +1382,7 @@ separatism = {
 	limit = { nationalism_n_imperialism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			average_militancy = 3
@@ -1406,7 +1406,7 @@ dogma_of_violence = {
 	limit = { revolution_n_counterrevolution = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			average_consciousness = 3
@@ -1424,7 +1424,7 @@ dogma_of_mass_action = {
 	limit = { revolution_n_counterrevolution = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			nationalvalue = nv_equality
@@ -1445,7 +1445,7 @@ terrorism = {
 	limit = { revolution_n_counterrevolution = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			ruling_party_ideology = socialist
@@ -1488,7 +1488,7 @@ secret_police = {
 	news = no
 	limit = { revolution_n_counterrevolution = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 3
 			OR = {
@@ -1514,7 +1514,7 @@ womens_suffrage_movement = {
 	limit = { revolution_n_counterrevolution = 1 }
 	news = no
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 2
 			OR = {
@@ -1540,7 +1540,7 @@ rhetoric_of_hate = {
 	limit = { revolution_n_counterrevolution = 1 }
 	news = no
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 1
 			year = 1900
@@ -1566,7 +1566,7 @@ nostalgic_romanticism = {
 	limit = { revolution_n_counterrevolution = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			average_consciousness = 2
@@ -1589,7 +1589,7 @@ anti_egalitarianism = {
 	limit = { revolution_n_counterrevolution = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			nationalvalue = nv_order
@@ -1608,7 +1608,7 @@ vangaurd_party = {
 	limit = { revolution_n_counterrevolution = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 1
 			ruling_party_ideology = socialist
@@ -1630,7 +1630,7 @@ the_doctrine_of_fascism = {
 	limit = { mass_politics = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			ruling_party_ideology = fascist
@@ -1655,7 +1655,7 @@ paramilitary_groups = {
 	limit = { mass_politics = 1 }
 	news = no
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 2
 			war_exhaustion = 3
@@ -1703,7 +1703,7 @@ mass_advertising = {
 	limit = { behaviorism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 7
 			nationalvalue = nv_liberty
@@ -1731,7 +1731,7 @@ national_radio_networks = {
 	limit = { behaviorism = 1 }
 	news = no
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 5
 			year = 1920
@@ -1758,7 +1758,7 @@ the_talkies = {
 	limit = { behaviorism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			nationalvalue = nv_liberty

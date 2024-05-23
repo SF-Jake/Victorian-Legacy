@@ -99,7 +99,7 @@ gunnery_training_school = {
 	limit = { naval_risk_management = 1 }
 	
 	chance = {
-		base = 2
+		base = 5
 
 	}
 	
@@ -274,7 +274,7 @@ harvey_steel_armour = {
 	limit = { main_armament = 1}
 	
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			cheap_steel = 1
@@ -359,7 +359,7 @@ aero_ap_shell = {
 	limit = { modern_naval_design = 1 }
 	
 	chance = {
-		base = 3
+		base = 5
 	}
 	
 	effect = {

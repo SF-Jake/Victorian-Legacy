@@ -59,7 +59,7 @@ wright_n_langleys_aeroplanes = {
 tractors = {
 	limit = { combustion_engine = 1 }
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 2
 			average_consciousness = 2
@@ -77,7 +77,7 @@ tractors = {
 direct_current = {
 	limit = { electrical_power_generation = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = edison_light_bulb
@@ -95,7 +95,7 @@ direct_current = {
 alternating_current = {
 	limit = { electrical_power_generation = 1 }
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 2
 			invention = edison_light_bulb
@@ -142,7 +142,7 @@ national_radio_networks = {
 polyphase_system = {
 	limit = { modern_power_generation = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = edison_light_bulb
@@ -183,7 +183,7 @@ vacuum_tube = {
 sharp_n_roberts_power_loom = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = work_classification
@@ -211,7 +211,7 @@ sharp_n_roberts_power_loom = {
 mechanical_saw = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			clean_coal = 1
@@ -233,7 +233,7 @@ mechanical_saw = {
 hussey_n_mccormicks_reaping_machine = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			early_railroad = 1
@@ -256,7 +256,7 @@ hussey_n_mccormicks_reaping_machine = {
 precision_work = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 3
 			early_railroad = 1
@@ -275,7 +275,7 @@ precision_work = {
 machine_tools = {
 	limit = { interchangeable_parts = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = precision_work
@@ -296,7 +296,7 @@ machine_tools = {
 whitney_n_colts_standardized_small_arms = {
 	limit = { interchangeable_parts = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			breech_loaded_rifles = 1
@@ -315,7 +315,7 @@ whitney_n_colts_standardized_small_arms = {
 food_packing_system = {
 	limit = { interchangeable_parts = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = distribution_channels
@@ -334,7 +334,7 @@ food_packing_system = {
 integral_distillery_process = {
 	limit = { interchangeable_parts = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			scientific_management = 1
@@ -353,7 +353,7 @@ integral_distillery_process = {
 jiggs = {
 	limit = { interchangeable_parts = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 1
 			high_n_low_pressure_steam_engines = 1
@@ -376,7 +376,7 @@ jiggs = {
 electric_machinery = {
 	limit = { semi_automatization = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			electricity = 1
@@ -402,7 +402,7 @@ electric_machinery = {
 oil_pumping_machinery = {
 	limit = { semi_automatization = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			iron_railroad = 1
@@ -421,7 +421,7 @@ oil_pumping_machinery = {
 drying_techniques = {
 	limit = { semi_automatization = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = distribution_channels
@@ -450,7 +450,7 @@ drying_techniques = {
 fordism = {
 	limit = { assembly_line = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = daimlers_automobile
@@ -492,7 +492,7 @@ fordism = {
 industrialized_armament_industry = {
 	limit = { assembly_line = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = precision_work
@@ -520,7 +520,7 @@ industrialized_armament_industry = {
 refrigerator_technology = {
 	limit = { assembly_line = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = food_packing_system
@@ -637,7 +637,7 @@ artillery_production = {
 coke = {
 	limit = { clean_coal = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			practical_steam_engine = 1
@@ -656,7 +656,7 @@ coke = {
 bessemer_steel = {
 	limit = { clean_coal = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			high_n_low_pressure_steam_engines = 1
@@ -676,7 +676,7 @@ bessemer_steel = {
 advanced_ore_roasting_processes = {
 	limit = { cheap_iron = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {	
 			factor = 2
 			interchangeable_parts = 1
@@ -695,7 +695,7 @@ advanced_ore_roasting_processes = {
 martin_steel = {
 	limit = { cheap_iron = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = bessemer_steel
@@ -715,7 +715,7 @@ martin_steel = {
 thomas_steel = {
 	limit = { cheap_steel = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = martin_steel
@@ -734,7 +734,7 @@ thomas_steel = {
 portland_cement = {
 	limit = { cheap_steel = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			inorganic_chemistry = 1
@@ -754,7 +754,7 @@ portland_cement = {
 steel_alloys = {
 	limit = { advanced_metallurgy = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = thomas_steel
@@ -795,7 +795,7 @@ rotary_kiln = {
 electric_rolling_techniques = {
 	limit = { electric_furnace = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			electricity = 1
@@ -815,7 +815,7 @@ electric_rolling_techniques = {
 stainless_steel = {
 	limit = { modern_metallurgy = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			electrical_power_generation = 1
@@ -852,7 +852,7 @@ pharmaceuticals = {
 combat_medicine = {
 	limit = { medicine = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			army_professionalism = 1
@@ -870,7 +870,7 @@ combat_medicine = {
 aerial_bacteria_and_antiseptic_principle = {
 	limit = { medicine = 1 }
 	chance = {
-		base = 4
+		base = 5
 		modifier = {
 			factor = 2
 			colonial_nation = yes
@@ -889,7 +889,7 @@ aerial_bacteria_and_antiseptic_principle = {
 clinical_thermometers_and_binaural_stethoscopes = {
 	limit = { medicine = 1 }
 	chance = {
-		base = 4
+		base = 5
 		modifier = {
 			factor = 2
 			inorganic_chemistry = 1
@@ -907,7 +907,7 @@ clinical_thermometers_and_binaural_stethoscopes = {
 artificial_fertilizers = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			interchangeable_parts = 1
@@ -927,7 +927,7 @@ artificial_fertilizers = {
 nitroglycerin = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			military_statistics = 1
@@ -947,7 +947,7 @@ nitroglycerin = {
 chemical_wood_pulp_process = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			semi_automatization = 1
@@ -966,7 +966,7 @@ chemical_wood_pulp_process = {
 rubber_vulcanization = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			combustion_engine = 1
@@ -985,7 +985,7 @@ rubber_vulcanization = {
 catalytic_fermentative_process = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			business_banks = 1
@@ -1004,7 +1004,7 @@ catalytic_fermentative_process = {
 germ_theory = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 4
+		base = 5
 		modifier = {
 			factor = 6
 			literacy = 0.4
@@ -1017,7 +1017,7 @@ germ_theory = {
 vaccination = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			empiricism = 1
@@ -1074,7 +1074,7 @@ synthetic_dye = {
 gaslights = {
 	limit = { organic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = patent
@@ -1091,7 +1091,7 @@ gaslights = {
 carbon_soil_enrichment = {
 	limit = { organic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = artificial_fertilizers
@@ -1111,7 +1111,7 @@ carbon_soil_enrichment = {
 cracking = {
 	limit = { organic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = oil_pumping_machinery
@@ -1156,7 +1156,7 @@ prophylaxis_against_malaria = {
 x_rays = {
 	limit = { electricity = 1 }
 	chance = {
-		base = 4
+		base = 5
 		modifier = {
 			factor = 2
 			average_consciousness = 2
@@ -1191,7 +1191,7 @@ edison_light_bulb = {
 bell_n_greys_telephones = {
 	limit = { electricity = 1 }
 	chance = {
-		base = 4
+		base = 5
 		modifier = {
 			factor = 4
 			electrical_power_generation = 1
@@ -1214,7 +1214,7 @@ bell_n_greys_telephones = {
 electrical_lighting = {
 	limit = { electricity = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = edison_light_bulb
@@ -1248,7 +1248,7 @@ haber_bosch_process = {
 bakelite = {
 	limit = { synthetic_polymers = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = bell_n_greys_telephones
@@ -1268,7 +1268,7 @@ bergius_process = {
 	limit = { synthetic_polymers = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			electric_furnace = 1
@@ -1286,7 +1286,7 @@ bergius_process = {
 rayon = {
 	limit = { modern_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			organizational_development = 1
