@@ -188,8 +188,7 @@ tier_2_focus =
 	
 	internal_migration =
 	{
-		immigrant_attract = 10000
-		immigrant_push = -10000
+		pop_militancy_modifier = -0.3
 		icon = 20
 		limit = {
 			owner = { 

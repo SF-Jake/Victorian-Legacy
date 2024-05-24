@@ -941,8 +941,8 @@ badboy7 = {
 	}
 	non_accepted_pop_militancy_modifier = 1
 	administrative_efficiency_modifier = -70
-	tariff_efficiency_modifier = -1
-	tax_efficiency = -1
+	tariff_efficiency_modifier = -0.5
+	tax_efficiency = -0.5
 	war_exhaustion = 11
 	max_war_exhaustion = 100
 }
