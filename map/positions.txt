@@ -316,43 +316,6 @@
 
 } # Ross River
 
-8 = {
-    text_position = {
-        x = 2921.500000
-        y = 1592.250000
-    }
-
-    text_scale = 1.399998
-    unit = {
-        x = 2921.150000
-        y = 1594.950000
-    }
-
-    factory = {
-        x = 2922.600000
-        y = 1591.600000
-    }
-
-    building_construction = {
-        x = 2923.250000
-        y = 1591.150000
-    }
-
-    military_construction = {
-        x = 2922.100000
-        y = 1594.900000
-    }
-
-    building_position = {
-        fort = {
-            x = 2923.100000
-            y = 1592.450000
-        }
-
-    }
-
-} # Elba
-
 9 = {
     text_position = {
         x = 2966.900000
@@ -18476,12 +18439,17 @@
 
 410 = {
     text_position = {
-        x = 2921.800000
-        y = 1582.850000
+        x = 2921.900000
+        y = 1588.150000
     }
 
-    text_rotation = 1.396264
-    text_scale = 1.600000
+    text_rotation = 1.505888
+    text_scale = 2.5
+    unit = {
+        x = 2922.900000
+        y = 1590.000000
+    }
+
     factory = {
         x = 2920.850000
         y = 1587.400000
@@ -118860,7 +118828,7 @@
     text_scale = 5.299997
 } # Tsushima
 
-3249 = {
+8 = {
     text_position = {
         x = 4830.600000
         y = 1323.150000

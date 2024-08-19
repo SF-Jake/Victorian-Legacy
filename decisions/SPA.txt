@@ -969,38 +969,26 @@ political_decisions = {
 			CAT = {
 				all_core = { add_core = THIS }
 			}
-			POR = {
-				all_core = { add_core = THIS }
-			}
-			517 = { add_core = THIS }
-			add_accepted_culture = spanish
 			random_country = {
 				limit = {
 					tag = SPA
 					exists = yes
 				}
-				THIS = { inherit = SPA }
+				POR = {
+					all_core = { add_core = THIS }
+				}
 			}
-			random_country = {
+			517 = { add_core = THIS }
+			add_accepted_culture = spanish
+			any_country = {
 				limit = {
-					tag = POR
+					OR = {
+						tag = POR
+						tag = CAT
+					}
 					exists = yes
 				}
-				THIS = { inherit = POR }
-			}
-			random_country = {
-				limit = {
-					tag = CAT
-					exists = yes
-				}
-				THIS = { inherit = CAT }
-			}
-			random_country = {
-				limit = {
-					tag = SPC
-					exists = yes
-				}
-				THIS = { inherit = SPC }
+				country_event = { id=11101 days=0 }
 			}
 			any_country = {
 				limit = {
@@ -1023,6 +1011,7 @@ political_decisions = {
 		picture = create_iberia
 		potential = {
 			tag = IBR
+			NOT = { has_global_flag = carlist_victory }
 			NOT = { has_country_flag = portuguese_accepted }
 		}
 		allow = {

@@ -43,8 +43,7 @@ govt_flag =
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = medium_colonial_migration
+	centralization = unitary 
 
 	# Technologies
 	post_napoleonic_thought = 1
@@ -145,8 +144,7 @@ govt_flag =
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = medium_colonial_migration
+	centralization = unitary 
 
 	# Technologies
 	post_napoleonic_thought = 1
@@ -409,8 +407,7 @@ ruling_party = FRA_conservative_5
 	conscription=mandatory_service
 	citizens_rights=all_voting_pops
 	debt_law=bankruptcy
-	border_policy=open_borders
-	colonial_migration=medium_colonial_migration
+	border_policy=open_borders 
 	centralization=unitary
 }
 

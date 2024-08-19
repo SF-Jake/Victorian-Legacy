@@ -797,7 +797,7 @@ fascist_influence = {
 }
 
 reform_passed = {
-	core_pop_militancy_modifier = 0.03
+	core_pop_militancy_modifier = 0.01
 	icon = 6
 }
 
@@ -901,10 +901,6 @@ built_naval_base = {
 	icon = 24
 }
 
-built_university = {
-	icon = 25
-}
-
 built_mine = {
 	icon = 26
 }
@@ -933,26 +929,19 @@ sizing_cooldown = {
 	icon = 10
 }
 
+sizing_cooldown1 = {
+	icon = 10
+}
+
+sizing_cooldown2 = {
+	icon = 10
+}
+
 no_more_war_reperations = {
     icon = 2
 }
 
 ########## COLONY MODIFIERS ##########
-
-indirect_rule = {
-	immigrant_attract = -10
-	icon = 21
-}
-
-civilizing = {
-	local_RGO_throughput = -0.5
-	icon = 22
-}
-
-settlement = {
-	pop_militancy_modifier = 0.05
-	icon = 22
-}
 
 colonial_nerf_counter = {
 	icon = 14
@@ -1181,7 +1170,7 @@ ruhr_boom = {
 }
 german_population_buff = {
 	global_population_growth = 0.002
-	icon = 17
+	icon = 27
 }
 
 prussian_general_staff = {
@@ -1275,14 +1264,7 @@ royal_irish_constabulary = {
 
 #### SPA - Spain ####
 
-cristino_victory = {
-	tax_efficiency = 0.10
-	global_population_growth = 0.001
-	education_efficiency_modifier = 0.12
-	factory_output = 0.08
-	mine_rgo_eff = 0.08
-	icon = 7
-}
+
 
 #### FRA - France ####
 the_french_foreign_legion = {
@@ -1303,9 +1285,9 @@ haussmanns_renovations = {
 }
 
 napoleon_iii = {
-	land_organisation = 0.1
-	mobilisation_size = 0.02
-	prestige = 0.1
+	land_organisation = 0.15
+	mobilisation_size = 0.015
+	prestige = 0.12
 	icon = 15
 }
 
@@ -1420,7 +1402,7 @@ russian_civil_war_countdown = {
 
 russian_population_buff = {
 	global_population_growth = 0.002
-	icon = 17
+	icon = 31
 }
 
 drained_marsh = {
@@ -1858,17 +1840,7 @@ latin_monetary_union = {
     icon = 9
 }
 
-#### INC - INDOCHINA ####
-education_siam_reforms = {
-	education_efficiency_modifier = 1.5
-	research_points = 2
-	global_pop_militancy_modifier = 0.05
-	icon = 3
-}
-indochina = {
-	assimilation_rate = 0.25
-	icon = 17
-}
+#Other stuff
 
 row_completion_cooldown = {
 }
@@ -1889,3 +1861,244 @@ my_sphere_is_moving_on_its_own = {
 contested_claims = {
 	icon = 8
 }
+
+#### Mob Negative Modifiers ####
+
+is_mobbed1 = {
+	icon = 6
+}
+
+is_mobbed2 = {
+	ruling_party_support = -0.125
+	loan_interest = 1
+	cb_generation_speed_modifier = -0.125
+	war_exhaustion = 1.05
+	prestige = -0.01
+	icon = 6
+}
+
+is_mobbed3 = {
+	ruling_party_support = -0.25
+	loan_interest = 2
+	cb_generation_speed_modifier = -0.25
+	war_exhaustion = 1.1
+	prestige = -0.02
+	icon = 6
+}
+
+is_mobbed4 = {
+	ruling_party_support = -0.375
+	loan_interest = 3
+	cb_generation_speed_modifier = -0.375
+	war_exhaustion = 1.15
+	prestige = -0.03
+	icon = 6
+}
+
+is_mobbed5 = {
+	ruling_party_support = -0.50
+	loan_interest = 4
+	cb_generation_speed_modifier = -0.50
+	war_exhaustion = 1.5
+	prestige = -0.04
+	icon = 6
+}
+
+is_mobbed6 = {
+	ruling_party_support = -0.625
+	loan_interest = 5
+	cb_generation_speed_modifier = -0.625
+	war_exhaustion = 2
+	prestige = -0.05
+	icon = 6
+}
+
+is_mobbed7 = {
+	ruling_party_support = -0.75
+	loan_interest = 6
+	cb_generation_speed_modifier = -0.75
+	war_exhaustion = 2.5
+	prestige = -0.06
+	icon = 6
+}
+
+is_mobbed8 = {
+	ruling_party_support = -0.875
+	loan_interest = 7
+	cb_generation_speed_modifier = -0.875
+	war_exhaustion = 3
+	prestige = -0.07
+	icon = 6
+}
+
+#Nation Specific Modifiers
+
+uk_nation_modifier = {
+	naval_unit_start_experience = 2.5
+	land_unit_start_experience = 2.5
+	navy_tech_research_bonus = 0.075
+	badboy = -0.03
+	#set_country_flag = craftsmen_bonus
+	icon = 25
+}
+
+fra_nation_modifier = {
+	land_unit_start_experience = 2.5
+	research_points_modifier = 0.075
+	#set_country_flag = army_nation_modifier
+	factory_output = 0.1
+	#set_country_flag = soldiers_bonus
+	icon = 26
+}
+
+pru_nation_modifier = {
+	land_unit_start_experience = 2.5
+	#set_country_flag = army_nation_modifier
+	mine_rgo_eff = 0.1
+	leadership = 1
+	global_population_growth = 0.002
+	icon = 27
+}
+
+aus_nation_modifier = {
+	land_organisation = 0.05
+	prestige = 0.05
+	tax_efficiency = 0.05
+	research_points_modifier = 0.075
+	mobilisation_size = 0.02
+	icon = 28
+}
+
+sar_nation_modifier = {
+	naval_organisation = 0.05
+	tax_efficiency = 0.05
+	education_efficiency_modifier = 0.075
+	#set_country_flag = naval_nation_modifier
+	global_population_growth = 0.001
+	icon = 29
+}
+
+tur_nation_modifier = {
+	naval_unit_start_experience = 2.5
+	research_points_modifier = 0.075
+	factory_output = 0.1
+	#set_country_flag = soldiers_bonus
+	global_assimilation_rate = 1
+	icon = 30
+}
+
+rus_nation_modifier = {
+	land_unit_start_experience = 2.5
+	land_organisation = 0.05
+	industry_tech_research_bonus = 0.075
+	leadership = 1
+	global_population_growth = 0.002
+	icon = 31
+}
+
+usa_nation_modifier = {
+	naval_unit_start_experience = 2.5
+	global_immigrant_attract = 0.5
+	industry_tech_research_bonus = 0.075
+	farm_rgo_eff = 0.1
+	#set_country_flag = craftsmen_bonus
+	icon = 32
+}
+
+jap_nation_modifier = {
+	land_organisation = 0.05
+	naval_organisation = 0.05
+	#set_country_flag = naval_nation_modifier
+	#set_country_flag = army_nation_modifier
+	icon = 33
+}
+
+spa_nation_modifier = {
+	tax_efficiency = 0.05
+	education_efficiency_modifier = 0.12
+	mine_rgo_eff = 0.08
+	global_population_growth = 0.001
+	icon = 34
+}
+
+ksn_nation_modifier = {
+	prestige = 0.05
+	research_points_modifier = 0.075
+	#set_country_flag = naval_nation_modifier
+	factory_output = 0.1
+	icon = 35
+}
+
+net_nation_modifier = {
+	land_unit_start_experience = 2.5
+	naval_organisation = 0.05
+	mine_rgo_eff = 0.1
+	#set_country_flag = craftsmen_bonus
+	icon = 36
+}
+
+brz_nation_modifier = {
+	global_immigrant_attract =  0.2
+	land_organisation = 0.025
+	tax_efficiency = 0.025
+	education_efficiency_modifier = 0.05
+	icon = 37
+}
+
+com_nation_modifier = {
+	global_immigrant_attract = 0.2
+	#set_country_flag = naval_nation_modifier
+	leadership_modifier = 1
+	icon = 38
+}
+
+chi_nation_modifier = {
+	farm_rgo_eff = 0.1
+	factory_output = 0.1
+	#set_country_flag = craftsmen_bonus
+	icon = 39
+}
+
+mex_nation_modifier = {
+	land_unit_start_experience = 2.5
+	global_immigrant_attract = 0.15
+	education_efficiency_modifier = 0.075
+	icon = 40
+}
+
+arc_nation_modifier = {
+	global_immigrant_attract = 0.15
+	research_points_modifier = 0.075
+	#set_country_flag = army_nation_modifier
+	icon = 41
+}
+
+eth_nation_modifier = {
+	education_efficiency_modifier = 0.075
+	culture_tech_research_bonus = 0.075
+	badboy = -0.03
+	icon = 42
+}
+
+per_nation_modifier = {
+	#set_country_flag = army_nation_modifier
+	mine_rgo_eff = 0.1
+	#set_country_flag = soldiers_bonus
+	icon = 43
+}
+
+col_nation_modifier = {
+	global_immigrant_attract = 0.15
+	culture_tech_research_bonus = 0.075
+	#set_country_flag = soldiers_bonus
+	icon = 44
+}
+
+sia_nation_modifier = {
+	research_points_modifier = 1
+	education_efficiency_modifier = 0.75
+	global_assimilation_rate = 0.25
+	icon = 45
+}
+
+

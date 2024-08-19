@@ -845,29 +845,28 @@ naval_base = {
 	local_ship_build = -0.05
 }
 
-	## University
-	university = {
+	## Urban Center
+	urban_center = {
 		# Audax Validator "." Ignore_NEXT
-		type = university
+		type = urban_center
 		# Audax Validator "." Ignore_NEXT
-		cost = 30000
+		cost = 500
 		goods_cost =
 		{
-			paper = 1500		#5100
-			lumber = 1000		#2000
-			cement = 400		#6400
-			steel = 1000		#4700
+			lumber = 400
+			cement = 50
+			steel = 150
 		}
 
 		time = 365
 		visibility = yes
 		onmap = no
-		max_level = 6
+		max_level = 7
 		province = yes
-		one_per_state = yes
+		pop_build_factory = yes
 		# Audax Validator "." Ignore_NEXT
 
-		research_points_modifier = 0.005
+		local_factory_throughput = 0.08
 	}
 
 	## Farmland

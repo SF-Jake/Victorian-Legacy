@@ -1188,10 +1188,16 @@
 		size = 450
 	}
 
-	farmers = {
+	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 36575
+		size = 31575
+	}
+
+	labourers = {
+		culture = north_italian
+		religion = catholic
+		size = 5000
 	}
 }
 #Ravenna (248000/62000 POPS)
@@ -2218,7 +2224,7 @@
 	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 20000
+		size = 26000
 	}
 
 	artisans = {
@@ -2236,7 +2242,7 @@
 	labourers = {
 		culture = north_italian
 		religion = catholic
-		size = 15000
+		size = 9000
 	}
 }
 #Sardinia Region (524000)

@@ -9590,13 +9590,13 @@
     soldiers = {
         culture = beifaren
         religion = mahayana
-        size = 1600
+        size = 2600
     }
 
     labourers = {
         culture = beifaren
         religion = mahayana
-        size = 10000
+        size = 9000
     }
 
     aristocrats = {
@@ -9620,13 +9620,7 @@
     soldiers = {
         culture = beifaren
         religion = sunni
-        size = 100
-    }
-
-    labourers = {
-        culture = beifaren
-        religion = sunni
-        size = 1000
+        size = 1100
     }
 }
 #Shandong Region (28572000)
@@ -13129,10 +13123,16 @@
         size = 5907
     }
 
-    farmers = {
+    artisans = {
         culture = beifaren
         religion = mahayana
-        size = 430452
+        size = 430552
+    }
+
+    labourers = {
+        culture = beifaren
+        religion = sunni
+        size = 5000
     }
 
     aristocrats = {
@@ -13157,12 +13157,6 @@
         culture = beifaren
         religion = sunni
         size = 75
-    }
-
-    farmers = {
-        culture = beifaren
-        religion = sunni
-        size = 5100
     }
 }
 #Chaoyang (711000/177750 POPS)

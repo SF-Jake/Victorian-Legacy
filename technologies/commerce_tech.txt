@@ -319,8 +319,6 @@ early_classical_theory_and_critique = {
 	year = 1836
 	cost = 1
 	
-	activate_building = province_selector
-	
 	ai_chance = {
 		factor = 0.5
 	}
@@ -328,10 +326,8 @@ early_classical_theory_and_critique = {
 late_classical_theory = {
 	area = economic_thought_and_critique
 	year = 1836
-	cost = 7200
+	cost = 1
 
-	farm_RGO_eff = 0.1
-	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -359,10 +355,8 @@ late_classical_theory = {
 collectivist_theory = {
 	area = economic_thought_and_critique
 	year = 1850
-	cost = 10800
+	cost = 1
 
-	farm_RGO_eff = 0.1
-	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -390,10 +384,8 @@ collectivist_theory = {
 the_historical_theory = {
 	area = economic_thought_and_critique
 	year = 1865
-	cost = 14400
+	cost = 1
 
-	farm_RGO_eff = 0.1
-	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -421,10 +413,8 @@ the_historical_theory = {
 neoclassical_theory = {
 	area = economic_thought_and_critique
 	year = 1880
-	cost = 18000
+	cost = 1
 
-	farm_RGO_eff = 0.1
-	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1
 		modifier = {
@@ -452,10 +442,8 @@ neoclassical_theory = {
 keynesian_economics = {
 	area = economic_thought_and_critique
 	year = 1895
-	cost = 21600
+	cost = 1
 
-	farm_RGO_eff = 0.1
-	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -483,10 +471,8 @@ keynesian_economics = {
 neoliberal_theory = {
 	area = economic_thought_and_critique
 	year = 1910
-	cost = 21600
-
-	farm_RGO_eff = 0.1
-	mine_rgo_eff = 0.1
+	cost = 1
+	
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -926,78 +912,3 @@ modern_business_management = {
 #Commerce
 #
 #
-commerce_row_completion1 = {
-	area = row_completion_com
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-commerce_row_completion2 = {
-	area = row_completion_com
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	mine_RGO_eff = 0.05
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-commerce_row_completion3 = {
-	area = row_completion_com
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	increase_research = 0.15
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-commerce_row_completion4 = {
-	area = row_completion_com
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	factory_throughput = 0.03
-	
-	ai_chance = {
-		factor = 0
-	}	
-}
-commerce_row_completion5 = {
-	area = row_completion_com
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-commerce_row_completion6 = {
-	area = row_completion_com
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-commerce_row_completion7 = {
-	area = row_completion_com
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	farm_rgo_size = 0.15
-	mine_rgo_size = 0.15
-	
-	ai_chance = {
-		factor = 0
-	}
-}

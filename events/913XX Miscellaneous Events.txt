@@ -3736,37 +3736,6 @@ country_event = {
 		}
 	}
 }
-#########################################################################
-# 							Remove POP Buff								#
-#########################################################################
-country_event = {
-	id = 91331
-	title = "Remove POP Buff"
-
-	trigger = {
-		year = 1900
-		OR = {
-			OR = {
-				GER = { has_country_modifier = german_population_buff }
-				NGF = { has_country_modifier = german_population_buff }
-				PRU = { has_country_modifier = german_population_buff }
-			}
-			RUS = { has_country_modifier = russian_population_buff }
-		}
-		tag = JAN
-	}
-
-	option = {
-		GER = { remove_country_modifier = german_population_buff }
-		NGF = { remove_country_modifier = german_population_buff }
-		PRU = { remove_country_modifier = german_population_buff }
-		RUS = { remove_country_modifier = russian_population_buff }
-		GER = { set_country_flag = pop_buff_gone }
-		NGF = { set_country_flag = pop_buff_gone }
-		PRU = { set_country_flag = pop_buff_gone }
-		RUS = { set_country_flag = pop_buff_gone }
-	}
-}
 
 
 #########################################################################
@@ -3797,16 +3766,16 @@ country_event = {
 		name = "§RJohn Cena§W"
 		define_general = {
 			name = "§RJohn Cena§W"
-			personality = defence_3.1
-			background = attack_3.1
+			personality = mor10_1
+			background = 3a3d_1
 		}
 	}
 	option = {
 		name = "§RJohn Xina§W"
 		define_general = {
 			name = "§RJohn Xina§W"
-			personality = defence_3.1
-			background = attack_3.1
+			personality = mor10_1
+			background = 3a3d_1
 		}
 	}
 }
@@ -3909,14 +3878,10 @@ country_event = {
 	trigger = {
 		tag = GHO
 		NOT = { has_country_modifier = sizing_cooldown }
+		NOT = { year = 1870 }
 	}
 
-	immediate = {
-		add_country_modifier = {
-			name = sizing_cooldown
-			duration = 365
-		}
-	}
+	immediate = { add_country_modifier = { name = sizing_cooldown duration = 365 }}
 
 	option = { 
 		any_country = { 
@@ -3943,19 +3908,8 @@ country_event = {
 						}
 					}
 				}
-
 			}
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						NOT = { total_pops = 350000 }
-					}
-				}
-				add_core = SMA 
-				remove_core = MED 
-				remove_core = LRG 
-				remove_core = HUG 
-			}
+			any_owned = { limit = { state_scope = { NOT = { total_pops = 350000 }}}add_core = SMA remove_core = MED remove_core = LRG remove_core = HUG }
 		}
 		any_country = { 
 			limit = {
@@ -3983,18 +3937,7 @@ country_event = {
 				}
 
 			}
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						total_pops = 350000 
-						NOT = { total_pops = 650000 }
-					} 
-				}
-				add_core = MED 
-				remove_core = SMA 
-				remove_core = LRG 
-				remove_core = HUG 
-			} 
+			any_owned = { limit = { state_scope = { total_pops = 350000 NOT = { total_pops = 650000 }}}add_core = MED remove_core = SMA remove_core = LRG remove_core = HUG } 
 		}		
 		any_country = { 
 			limit = {
@@ -4022,18 +3965,7 @@ country_event = {
 				}
 
 			}
-			any_owned = {
-				limit = {
-					state_scope = { 
-						total_pops = 650000 
-						NOT = { total_pops = 900000 }
-					} 
-				} 
-			add_core = LRG 
-			remove_core = SMA 
-			remove_core = MED 
-			remove_core = HUG 
-			} 
+			any_owned = { limit = { state_scope = { total_pops = 650000 NOT = { total_pops = 900000 }}} add_core = LRG remove_core = SMA remove_core = MED remove_core = HUG } 
 		}
 		any_country = {
 			limit = {
@@ -4061,20 +3993,51 @@ country_event = {
 				}
 
 			}
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						total_pops = 900000
-					}
-				}
-				add_core = HUG 
-				remove_core = SMA 
-				remove_core = MED 
-				remove_core = LRG 
-			} 
+			any_owned = { limit = { state_scope = { total_pops = 900000 }} add_core = HUG remove_core = SMA remove_core = MED remove_core = LRG } 
 		}
 	}
-}	
+}
+
+country_event = {
+	id = 700701
+	title = "State Sizing 1870"
+
+	trigger = {
+		tag = GHO
+		NOT = { has_country_modifier = sizing_cooldown1 }
+		NOT = { year = 1900 }
+		year = 1870
+	}
+
+	immediate = { add_country_modifier = { name = sizing_cooldown1 duration = 350 } }
+
+	option = {
+		any_country = { limit = { war = no } any_owned = { limit = { state_scope = { NOT = { total_pops = 450000 }}}add_core = SMA remove_core = MED remove_core = LRG remove_core = HUG } }
+		any_country = { limit = { war = no } any_owned = { limit = { state_scope = { total_pops = 450000 NOT = { total_pops = 750000 }}}add_core = MED remove_core = SMA remove_core = LRG remove_core = HUG } }
+		any_country = { limit = { war = no } any_owned = { limit = { state_scope = { total_pops = 750000 NOT = { total_pops = 1000000 }}} add_core = LRG remove_core = SMA remove_core = MED remove_core = HUG } }
+		any_country = { limit = { war = no } any_owned = { limit = { state_scope = { total_pops = 1000000 }} add_core = HUG remove_core = SMA remove_core = MED remove_core = LRG } }
+	}
+}		
+
+country_event = {
+	id = 700702
+	title = "State Sizing 1900"
+
+	trigger = {
+		tag = GHO
+		NOT = { has_country_modifier = sizing_cooldown2 }
+		year = 1900
+	}
+
+	immediate = { add_country_modifier = { name = sizing_cooldown2 duration = 350 } }
+
+	option = {
+		any_country = { limit = { war = no } any_owned = { limit = { state_scope = { NOT = { total_pops = 550000 }}}add_core = SMA remove_core = MED remove_core = LRG remove_core = HUG } }
+		any_country = { limit = { war = no } any_owned = { limit = { state_scope = { total_pops = 550000 NOT = { total_pops = 850000 }}}add_core = MED remove_core = SMA remove_core = LRG remove_core = HUG } }
+		any_country = { limit = { war = no } any_owned = { limit = { state_scope = { total_pops = 850000 NOT = { total_pops = 1100000 }}} add_core = LRG remove_core = SMA remove_core = MED remove_core = HUG } }
+		any_country = { limit = { war = no } any_owned = { limit = { state_scope = { total_pops = 1100000 }} add_core = HUG remove_core = SMA remove_core = MED remove_core = LRG } }
+	}
+}
 
 #########################################################################
 # 							Sphere Me Please  							#
@@ -4182,5 +4145,110 @@ country_event = {
 			}
 			political_reform = no_slavery
 		}
+	}
+}
+
+#########################################################################
+# 							Peace time Mob								#
+#########################################################################
+
+country_event = {
+
+	id = 91338
+	title = "Peace Time Mobilization"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91339
+	title = "Peace Time Mobilization 2"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91340
+	title = "Peace Time Mobilization 3"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91341
+	title = "Peace Time Mobilization 4"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91342
+	title = "Peace Time Mobilization 5"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91343
+	title = "Peace Time Mobilization 6"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91344
+	title = "Peace Time Mobilization 7"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	immediate = {
+		any_greater_power = {
+			casus_belli = {
+				target = THIS
+				type = dismantle_cb
+				months = 6
+			}
+		}
+	}
+
+	option = {
+		name = "Hmm..."
 	}
 }

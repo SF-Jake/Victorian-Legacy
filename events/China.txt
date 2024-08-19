@@ -637,8 +637,8 @@ country_event = {
 			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 	}
@@ -779,11 +779,16 @@ country_event = {
 			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
+		
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTC90810"	######Guangxi Clique######
@@ -922,11 +927,15 @@ country_event = {
 			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTD90810"	######Yunnan Clique######
@@ -1064,11 +1073,15 @@ country_event = {
 			}
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTE90810"	######Hunan Clique######
@@ -1206,11 +1219,15 @@ country_event = {
 			}
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTF90810"	######Anhui Clique######
@@ -1349,11 +1366,15 @@ country_event = {
 			primary_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTG90810"	######Sichuan Clique######
@@ -1491,11 +1512,15 @@ country_event = {
 			}
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTH90810"	######Ma Clique######
@@ -1635,11 +1660,15 @@ country_event = {
 			add_accepted_culture = mongol
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTI90810"	######Shanxi Clique######
@@ -1778,11 +1807,15 @@ country_event = {
 			primary_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 }
 
@@ -2005,8 +2038,8 @@ country_event = {
 			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 	}
@@ -2149,11 +2182,15 @@ country_event = {
 			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTC90810"	######Guangxi Clique######
@@ -2294,11 +2331,15 @@ country_event = {
 			add_accepted_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTD90810"	######Yunnan Clique######
@@ -2438,11 +2479,15 @@ country_event = {
 			}
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTE90810"	######Hunan Clique######
@@ -2583,11 +2628,15 @@ country_event = {
 			add_accepted_culture = miao
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTF90810"	######Anhui Clique######
@@ -2728,11 +2777,15 @@ country_event = {
 			primary_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTG90810"	######Sichuan Clique######
@@ -2872,11 +2925,15 @@ country_event = {
 			}
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTH90810"	######Ma Clique######
@@ -3018,11 +3075,15 @@ country_event = {
 			add_accepted_culture = mongol
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 	option = {
 		name = "EVTOPTI90810"	######Shanxi Clique######
@@ -3163,11 +3224,15 @@ country_event = {
 			primary_culture = beifaren
 			define_general = {
 				name = "§RChiang Kai-shek§W"
-				personality = defence_2.1
-				background = attack_3.1
+				personality = mor10_1
+				background = 3a2d_1
 			}
 		}
 		change_tag_no_core_switch = KMT
+		KMT = {
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			set_country_flag = craftsmen_bonus
+		}
 	}
 }
 

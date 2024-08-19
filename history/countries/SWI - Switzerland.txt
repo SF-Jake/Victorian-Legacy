@@ -36,8 +36,7 @@
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
-	centralization = confederalism
-	colonial_migration = no_colonial_migration 
+	centralization = confederalism  
 
 	ruling_party = SWI_conservative
 	last_election = 1835.1.1
@@ -131,8 +130,7 @@
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
-	centralization = confederalism
-	colonial_migration = no_colonial_migration 
+	centralization = confederalism  
 
 	ruling_party = SWI_conservative
 	last_election = 1835.1.1
@@ -350,7 +348,6 @@
 	conscription=two_year_draft
 	citizens_rights=primary_culture_only
 	debt_law=bankruptcy
-	border_policy=open_borders
-	colonial_migration=no_colonial_migration
+	border_policy=open_borders 
 	centralization=confederalism
 }

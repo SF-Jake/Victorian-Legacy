@@ -35,8 +35,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = no_colonial_migration
+	centralization = unitary 
 
 	ruling_party = YNN_reactionary
 	upper_house = {
@@ -65,6 +64,7 @@
 	literacy = 0.04
 	non_state_culture_literacy = 0.02
 	is_releasable_vassal = no
+	schools = chinese_tech_school_tier1
 
 	# Political reforms
 	slavery = no_slavery
@@ -92,8 +92,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = no_colonial_migration
+	centralization = unitary 
 
 	ruling_party = YNN_reactionary
 	upper_house = {

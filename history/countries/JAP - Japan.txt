@@ -51,8 +51,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = regionalism
-	colonial_migration = no_colonial_migration
+	centralization = regionalism 
 
 	foreign_weapons = yes_foreign_weapons
 	foreign_artillery = yes_foreign_artillery
@@ -117,8 +116,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = regionalism
-	colonial_migration = no_colonial_migration
+	centralization = regionalism 
 
 	foreign_weapons = yes_foreign_weapons
 	foreign_artillery = yes_foreign_artillery
@@ -136,7 +134,6 @@
 	# Technologies
 	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
-	military_staff_system = 1
 	army_command_principle = 1
 	post_nelsonian_thought = 1
 	clipper_design = 1
@@ -323,7 +320,6 @@
 	conscription=one_year_draft
 	citizens_rights=primary_culture_only
 	debt_law=bankruptcy
-	border_policy=open_borders
-	colonial_migration=no_colonial_migration
+	border_policy=open_borders 
 	centralization=unitary
 }

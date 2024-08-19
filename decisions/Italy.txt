@@ -23,8 +23,8 @@ political_decisions = {
 			set_global_flag = expedition_to_sicily
 			define_general = {
 				name = "§RGiuseppe Garibaldi§W"
-				personality = defence_4.1
-				background = attack_4.1
+				personality = mor10_1
+				background = 4a4d_1
 				prestige = 1
 			}
 			any_country = {
@@ -107,7 +107,6 @@ political_decisions = {
 		effect = {
 			prestige = 20
 			change_tag = ITA
-			add_country_modifier = {name = ita_formation_buff duration = -1 }
 			any_country = {
 				limit = {
 					is_culture_group = italian

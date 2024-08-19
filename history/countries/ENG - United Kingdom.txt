@@ -38,8 +38,7 @@
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = high_colonial_migration
+	centralization = unitary 
 	research_and_development = basic_rnd
 
 	# Technologies
@@ -146,8 +145,7 @@
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = high_colonial_migration
+	centralization = unitary 
 	research_and_development = basic_rnd
 
 	# Technologies
@@ -427,7 +425,6 @@ ruling_party = ENG_liberal_2
 	conscription=no_draft
 	citizens_rights=all_voting_pops
 	debt_law=bankruptcy
-	border_policy=open_borders
-	colonial_migration=high_colonial_migration
+	border_policy=open_borders 
 	centralization=unitary
 }

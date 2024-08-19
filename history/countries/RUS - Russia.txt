@@ -52,8 +52,7 @@ govt_flag =
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = low_colonial_migration
+	centralization = unitary 
 
 	ruling_party = RUS_conservative
 	upper_house = {
@@ -146,8 +145,7 @@ govt_flag =
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = low_colonial_migration
+	centralization = unitary 
 
 	ruling_party = RUS_conservative
 	upper_house = {
@@ -354,8 +352,7 @@ decision = peking_convention
 	conscription=one_year_draft
 	citizens_rights=culture_voting_only
 	debt_law=peonage
-	border_policy=open_borders
-	colonial_migration=low_colonial_migration
+	border_policy=open_borders 
 	centralization=unitary
 }
 

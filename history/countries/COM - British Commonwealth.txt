@@ -43,8 +43,7 @@ govt_flag =
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = quota_immigration
-	centralization = regionalism
-	colonial_migration = no_colonial_migration
+	centralization = regionalism 
 
 
 	ruling_party = CAN_conservative
@@ -126,8 +125,7 @@ govt_flag =
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
-	centralization = regionalism
-	colonial_migration = no_colonial_migration
+	centralization = regionalism 
 
 
 	ruling_party = CAN_conservative
@@ -343,7 +341,6 @@ govt_flag =
 	conscription=one_year_draft
 	citizens_rights=all_voting_pops
 	debt_law=bankruptcy
-	border_policy=open_borders
-	colonial_migration=no_colonial_migration
+	border_policy=open_borders 
 	centralization=unitary
 }

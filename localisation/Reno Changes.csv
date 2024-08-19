@@ -55,12 +55,12 @@ clear_psychology_bonus_desc;This decision clears all of your current national pr
 france_flower_title;France, Flower of Europe!;;;;;;;;;;;;;;x
 france_flower_desc;As France's prestige reaches unprecedented heights, it serves as a catalyst for the remarkable growth of its population. The allure of France's cultural magnificence, its illustrious history, and its unparalleled contributions to the realms of art, literature, and philosophy have captivated the hearts and minds of people from far and wide. The reputation of France as a center of refinement and sophistication has drawn countless individuals seeking to be part of its vibrant tapestry. The population surges as ambitious dreamers, talented artisans, and aspiring intellectuals flock to the nation, driven by the promise of a brighter future and the opportunity to bask in the radiance of France's prestige. The cosmopolitan cities of Paris, Bordeaux, and Lyon become bustling hubs of activity, buzzing with the energy of a diverse populace united by their shared desire to be part of the grand French narrative. As the population expands, so too does the nation's potential, with each new inhabitant adding to the rich mosaic of ideas, creativity, and innovation that propels France forward. This virtuous cycle of prestige and population growth intertwines, solidifying France's position as a global powerhouse, where the allure of its prestige continues to shape the destiny of a nation destined for greatness.;;;;;;;;;;;;;;x
 #CREDIT to Keving for the Following;;;;;;;;;;;;;;x
-z1manage_grants_title;§YManage Money Grants and Military Supplies Aid;;;;;;;;;;;;;x
-z1manage_grants_desc;Triggers an event that lets you enable giving grants, deny giving grants, or request money and military goods from other human players.;;;;;;;;;;;;;x
+z1manage_grants_title;§YManage Money Grants;;;;;;;;;;;;;x
+z1manage_grants_desc;Triggers an event that lets you enable giving grants, deny giving grants, or request money from other human players.;;;;;;;;;;;;;x
 requested_grant;Requested Grant;;;;;;;;;;;;;x
 requested_grant_desc;We have recently requested a grant and must wait awhile before asking for another one.;;;;;;;;;;;;;x
 EVTNAMEgrantoptions;Grant Options;;;;;;;;;;;;;x
-EVTDESCgrantoptions;In order to give player grants or military supplies, select the enable giving aid option. If you wish to automatically deny grants and military supplies, select the deny giving aid option. If you are asking for a money grant or military supplies, select the type of aid you wish to receive. Note that if you wish to give military supplies to another player, you must manually set your stockpile.;;;;;;;;;;;;;x
+EVTDESCgrantoptions;In order to give player grants or military supplies, select the enable giving aid option. If you wish to automatically deny grants, select the deny giving aid option.;;;;;;;;;;;;;x
 EVTNAMEinsufficientmoney;Insufficient Stockpile;;;;;;;;;;;;;x
 EVTDESCinsufficientmoney;We do not have the required stockpile of supplies that we wish to send.;;;;;;;;;;;;;x
 EVTOPTAinsufficientmoney;Ok.;;;;;;;;;;;;;x
@@ -476,7 +476,7 @@ RUS_999;Poltava;;;;;;;;;;;;;x;;
 #############################################;;;;;;;;;;;;;;x
 #Additional Cultures;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
-bankers;Bankers;;;;;;;;;;;;;;
+zbankers;Bankers;;;;;;;;;;;;;;
 aryan;Aryan;;;;;;;;;x;;;;
 turkic;Turkic;;;;;;;;;x;;;;
 bantu;Bantu;;;;;;;;;x;;;;

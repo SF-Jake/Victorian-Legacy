@@ -51,18 +51,6 @@ country_event = {
 	trigger = {
 		OR = {
 			AND = {
-				no_standard = 1
-				NOT = { has_country_flag = no_standard_invented }
-			}
-			AND = {
-				ad_hoc_money_bill_printing = 1
-				NOT = { has_country_flag = ad_hoc_invented }
-			}
-			AND = {
-				private_bank_money_bill_printing = 1
-				NOT = { has_country_flag = private_bank_invented }
-			}
-			AND = {
 				battleship_column_doctrine = 1
 				NOT = { has_country_flag = battleship_column_doctrine_invented }
 			}
@@ -165,6 +153,22 @@ country_event = {
 			AND = {
 				invention = mixed_economy
 				NOT = { has_country_flag = mixed_economy_invented }
+			}
+			AND = {
+				ad_hoc_money_bill_printing = 1
+				NOT = { has_country_flag = ad_hoc_money_bill_printing_invented }
+			}
+			AND = { 
+				private_bank_money_bill_printing = 1
+				NOT = { has_country_flag = private_bank_money_bill_printing_invented }
+			}
+			AND = { 
+				central_bank_money_bill_printing = 1
+				NOT = { has_country_flag = central_bank_money_bill_printing_invented }
+			}
+			AND = { 
+				modern_central_bank_system = 1
+				NOT = { has_country_flag = modern_central_bank_system_invented }
 			}
 		}
 	}
@@ -345,38 +349,38 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					no_standard = 1
-					NOT = { has_country_flag = no_standard_invented }
-				}
-			}
-			owner = { set_country_flag = no_standard_invented }
-		}
-		random_owned = {
-			limit = {
-				owner = {
 					ad_hoc_money_bill_printing = 1
-					NOT = { has_country_flag = ad_hoc_invented }
+					NOT = { has_country_flag = ad_hoc_money_bill_printing_invented }
 				}
 			}
-			owner = { set_country_flag = ad_hoc_invented }
+			owner = { set_country_flag = ad_hoc_money_bill_printing_invented }
 		}
 		random_owned = {
 			limit = {
 				owner = {
 					private_bank_money_bill_printing = 1
-					NOT = { has_country_flag = private_bank_invented }
+					NOT = { has_country_flag = private_bank_money_bill_printing_invented }
 				}
 			}
-			owner = { set_country_flag = private_bank_invented }
+			owner = { set_country_flag = private_bank_money_bill_printing_invented }
 		}
 		random_owned = {
 			limit = {
 				owner = {
 					central_bank_money_bill_printing = 1
-					NOT = { has_country_flag = central_bank_invented }
+					NOT = { has_country_flag = central_bank_money_bill_printing_invented }
 				}
 			}
-			owner = { set_country_flag = central_bank_invented }
+			owner = { set_country_flag = central_bank_money_bill_printing_invented }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					modern_central_bank_system = 1
+					NOT = { has_country_flag = modern_central_bank_system_invented }
+				}
+			}
+			owner = { set_country_flag = modern_central_bank_system_invented }
 		}
 		random_owned = {
 			limit = {

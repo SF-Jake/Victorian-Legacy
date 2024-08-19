@@ -165,18 +165,6 @@ country_event = {
 		}
 	}
 	
-	mean_time_to_happen = {
-		months = 12
-		modifier = {
-			factor = 0.5
-			year = 1857
-		}
-		modifier = {
-			factor = 0.1
-			year = 1858
-		}
-	}
-	
 	option = {
 		name = "EVTOPTA16000"
 		political_reform = federalism
@@ -238,6 +226,7 @@ country_event = {
 			ammunition = 2000
 			set_country_flag = the_slavery_debate
 			set_country_flag = confederalism
+			add_country_modifier = { name = usa_nation_modifier duration = -1 }
 		}
 		CSA = {
 			capital = 211

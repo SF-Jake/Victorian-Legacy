@@ -62,6 +62,14 @@ country_event = {
 
 	option = {
 		name = "Very Good!"
+		FROM = {
+			any_owned = {
+				limit = {
+					province_selector = 1
+				}
+				province_selector = -1
+			}
+		}
 		inherit = FROM
 	}
 }

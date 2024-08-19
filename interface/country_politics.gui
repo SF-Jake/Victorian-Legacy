@@ -899,34 +899,6 @@ guiTypes = {
 			}
 			
 			windowType = {
-			name = "colonial_migration"
-			backGround =""
-			position = { x = 691 y = 517 }
-			size = { x=151 y=92 }
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = "0"
-			verticalBorder = ""
-			fullScreen = no
-			
-				iconType = {
-				name = "colonial_migration_reform"
-				spriteType = "GFX_politics_colonial_migration"
-				position = { x= 4 y = 8 }
-				Orientation = "UPPER_LEFT"
-					}
-				instantTextBoxType = { 
-				name = "reform_name"
-				position = { x = 40 y = 22 } #WAS { x = 40 y = 15 }
-				font = "Arial12"
-				text = "REFORM_NAME"	
-				maxWidth = 120
-				maxHeight = 20	
-					}
-
-			}
-			
-			windowType = {
 				name = "research_and_development"
 				backGround =""
 				position = { x = 843 y = 419 }
@@ -1141,7 +1113,7 @@ guiTypes = {
 				iconType = {
 				 name = "politics_school"
 				 spriteType = "GFX_politics_school"
-				 position = { x = 6 y = 16 }
+				 position = { x = 6 y = 13 }
 				 Orientation = "UPPER_LEFT"
 			 }
 		
@@ -1168,7 +1140,7 @@ guiTypes = {
 				
 				iconType = {
 				 name = "politics_pensions"
-				 spriteType = "GFX_budget_tariff_icon"
+				 spriteType = "GFX_politics_pensions"
 				 position = { x = 6 y = 13 }
 				 Orientation = "UPPER_LEFT"
 			 }

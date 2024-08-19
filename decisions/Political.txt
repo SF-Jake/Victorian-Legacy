@@ -228,25 +228,6 @@ political_decisions = {
 			factor = 0
 		}
 	}
-	general_staff = {
-		picture = von_moltkes_staff_reforms
-		potential = {
-			NOT = { has_country_modifier = prussian1_general_staff }
-			civilized = yes
-			ai = no
-		}
-		allow = {
-			OR = {
-				government = fascist_dictatorship
-				government = proletarian_dictatorship
-				government = absolute_monarchy
-			}
-		}
-		effect = {
-			add_country_modifier = { name = prussian1_general_staff	duration = 3650	}
-			badboy = 2.5
-		}
-	}
 	#########################################################################
 	# 						5 year Migration Attraction						#
 	#########################################################################

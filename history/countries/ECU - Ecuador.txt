@@ -36,8 +36,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = federalism
-	colonial_migration = no_colonial_migration
+	centralization = federalism 
 
 	ruling_party = ECU_liberal
 	last_election = 1834.8.8
@@ -115,8 +114,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = federalism
-	colonial_migration = no_colonial_migration
+	centralization = federalism 
 
 	ruling_party = ECU_liberal
 	last_election = 1834.8.8
@@ -301,7 +299,6 @@
 	conscription=one_year_draft
 	citizens_rights=culture_voting_only
 	debt_law=bankruptcy
-	border_policy=open_borders
-	colonial_migration=no_colonial_migration
+	border_policy=open_borders 
 	centralization=federalism
 }

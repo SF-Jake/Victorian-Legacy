@@ -36,8 +36,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = regionalism
-	colonial_migration = no_colonial_migration
+	centralization = regionalism 
 
 	foreign_training = yes_foreign_training 
 	foreign_officers = yes_foreign_officers 
@@ -112,8 +111,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = regionalism
-	colonial_migration = no_colonial_migration
+	centralization = regionalism 
 
 	foreign_training = yes_foreign_training 
 	foreign_officers = yes_foreign_officers 
@@ -282,7 +280,6 @@
 	conscription=one_year_draft
 	citizens_rights=primary_culture_only
 	debt_law=debtors_prisons
-	border_policy=open_borders
-	colonial_migration=no_colonial_migration
+	border_policy=open_borders 
 	centralization=unitary
 }

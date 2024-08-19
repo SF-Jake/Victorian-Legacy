@@ -124,38 +124,38 @@ working_board_of_directors_modifier = {
 
 ########## DRAFT LAWS ##########
 
-one_year_draft = {
-	trigger = {
-		NOT = { has_country_flag = chinese }
-		conscription = one_year_draft
-	}
-	mobilisation_size = 0.01
-	icon = 15
-}
-two_year_draft = {
-	trigger = {
-		NOT = { has_country_flag = chinese }
-		conscription = two_year_draft
-	}
-	mobilisation_size = 0.02		
-	icon = 15		
-}	
-four_year_draft = {
-	trigger = {
-		NOT = { has_country_flag = chinese }
-		conscription = four_year_draft
-	}
-	mobilisation_size = 0.03		
-	icon = 15		
-}
-mandatory_service = {
-	trigger = {
-		NOT = { has_country_flag = chinese }
-		conscription = mandatory_service
-	}
-	mobilisation_size = 0.04	
-	icon = 15		
-}
+# one_year_draft = {
+# 	trigger = {
+# 		NOT = { has_country_flag = chinese }
+# 		conscription = one_year_draft
+# 	}
+# 	mobilisation_size = 0.01
+# 	icon = 15
+# }
+# two_year_draft = {
+# 	trigger = {
+# 		NOT = { has_country_flag = chinese }
+# 		conscription = two_year_draft
+# 	}
+# 	mobilisation_size = 0.02		
+# 	icon = 15		
+# }	
+# four_year_draft = {
+# 	trigger = {
+# 		NOT = { has_country_flag = chinese }
+# 		conscription = four_year_draft
+# 	}
+# 	mobilisation_size = 0.03		
+# 	icon = 15		
+# }
+# mandatory_service = {
+# 	trigger = {
+# 		NOT = { has_country_flag = chinese }
+# 		conscription = mandatory_service
+# 	}
+# 	mobilisation_size = 0.04	
+# 	icon = 15		
+#}
 regionalism = {
 	trigger = {
 		NOT = { has_country_flag = chinese }
@@ -180,39 +180,38 @@ totalitarianism = {
 	mobilisation_size = 0.01		
 	icon = 15		
 }
-
-one_year_draft_china = {
-	trigger = {
-		has_country_flag = chinese
-		conscription = one_year_draft
-	}
-	mobilisation_size = 0.015
-	icon = 15		
-}
-two_year_draft_china = {
-	trigger = {
-		has_country_flag = chinese
-		conscription = two_year_draft
-	}
-	mobilisation_size = 0.02		
-	icon = 15		
-}
-four_year_draft_china = {
-	trigger = {
-		has_country_flag = chinese
-		conscription = four_year_draft
-	}
-	mobilisation_size = 0.022		
-	icon = 15		
-}
-mandatory_service_china = {
-	trigger = {
-		has_country_flag = chinese
-		conscription = mandatory_service
-	}
-	mobilisation_size = 0.025		
-	icon = 15		
-}
+# one_year_draft_china = {
+# 	trigger = {
+# 		has_country_flag = chinese
+# 		conscription = one_year_draft
+# 	}
+# 	mobilisation_size = 0.015
+# 	icon = 15		
+# }
+# two_year_draft_china = {
+# 	trigger = {
+# 		has_country_flag = chinese
+# 		conscription = two_year_draft
+# 	}
+# 	mobilisation_size = 0.02		
+# 	icon = 15		
+# }
+# four_year_draft_china = {
+# 	trigger = {
+# 		has_country_flag = chinese
+# 		conscription = four_year_draft
+# 	}
+# 	mobilisation_size = 0.022		
+# 	icon = 15		
+# }
+# mandatory_service_china = {
+# 	trigger = {
+# 		has_country_flag = chinese
+# 		conscription = mandatory_service
+# 	}
+# 	mobilisation_size = 0.025		
+# 	icon = 15		
+# }
 regionalism_china = {
 	trigger = {
 		has_country_flag = chinese
@@ -966,4 +965,33 @@ gp_infamy_reduction = {
 		is_greater_power = yes
 	}
 	badboy = -0.01
+}
+
+#### Tariff Increase Tech ####
+tariff_1 = {
+	trigger = {
+		has_country_flag = ad_hoc_money_bill_printing_invented
+	}
+	max_tariff = 0.05
+}
+
+tariff_2 = {
+	trigger = {
+		has_country_flag = private_bank_money_bill_printing_invented
+	}
+	max_tariff = 0.05
+}
+
+tariff_3 = {
+	trigger = {
+		has_country_flag = central_bank_money_bill_printing_invented
+	}
+	max_tariff = 0.1
+}
+
+tariff_4 = {
+	trigger = {
+		has_country_flag = modern_central_bank_system_invented
+	}
+	max_tariff = 0.1
 }

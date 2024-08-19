@@ -1466,11 +1466,11 @@ interesting=
 {
 	log=no
 	onmap=yes
-	popup=no
+	popup=yes
 	idle=no
 	option=yes
 	pausepopup=no
-	icon=yes
+	icon=no
 	categories="cat_combat"
 }
 }
@@ -1514,13 +1514,13 @@ default=
 }
 interesting=
 {
-	log=no
+	log=yes
 	onmap=yes
-	popup=no
+	popup=yes
 	idle=no
 	option=yes
 	pausepopup=no
-	icon=yes
+	icon=no
 	categories="cat_combat"
 }
 }
@@ -1766,11 +1766,11 @@ interesting=
 {
 	log=yes
 	onmap=yes
-	popup=no
+	popup=yes
 	idle=no
 	option=yes
 	pausepopup=no
-	icon=yes
+	icon=no
 	categories="cat_combat"
 }
 }
@@ -1791,11 +1791,11 @@ interesting=
 {
 	log=yes
 	onmap=yes
-	popup=no
+	popup=yes
 	idle=no
 	option=yes
 	pausepopup=no
-	icon=yes
+	icon=no
 	categories="cat_combat"
 }
 }

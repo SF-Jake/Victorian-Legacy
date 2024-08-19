@@ -96,6 +96,37 @@ political_decisions = {
 		}
 	}
 
+	national_idea = {
+		potential = {
+			tag = JAN
+			META_1 = {
+				owner = {
+					ai = no
+					any_owned_province = { has_building = province_selector }
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					any_owned_province = { has_building = province_selector }
+				}
+				random_owned = {
+					limit = {
+						has_building = province_selector
+					}
+					province_event = {
+						## Audax Validator "." Ignore_NEXT
+						id = 92101 days = 0
+					}
+				}
+			}
+		}
+	}
+
 	jan_mayen_money = {
 		potential = {
 			tag = JAN
@@ -114,6 +145,244 @@ political_decisions = {
 			money = -1000000
 			money = -1000000
 			money = -1000000
+		}
+	}
+
+	lose_mob_modifier = {
+		potential = {
+			tag = JAN
+		}
+		allow = {
+			META_1 = {
+				owner = {
+					ai = no
+					OR = {
+						is_mobilised = no
+						war = yes
+					}
+					OR = {
+						has_country_flag = mob1
+						has_country_flag = mob2
+						has_country_flag = mob3
+						has_country_flag = mob4
+						has_country_flag = mob5
+						has_country_flag = mob6
+						has_country_flag = mob7
+						has_country_flag = mob8
+						has_country_modifier = is_mobbed1
+						has_country_modifier = is_mobbed2
+						has_country_modifier = is_mobbed3
+						has_country_modifier = is_mobbed4
+						has_country_modifier = is_mobbed5
+						has_country_modifier = is_mobbed6
+						has_country_modifier = is_mobbed7
+						has_country_modifier = is_mobbed8
+					}
+				}
+			}
+		}
+		effect = {
+			random_country = {
+				limit = {
+					ai = no
+					OR = {
+						is_mobilised = no
+						war = yes
+					}
+					OR = {
+						has_country_flag = mob1
+						has_country_flag = mob2
+						has_country_flag = mob3
+						has_country_flag = mob4
+						has_country_flag = mob5
+						has_country_flag = mob6
+						has_country_flag = mob7
+						has_country_flag = mob8
+						has_country_modifier = is_mobbed1
+						has_country_modifier = is_mobbed2
+						has_country_modifier = is_mobbed3
+						has_country_modifier = is_mobbed4
+						has_country_modifier = is_mobbed5
+						has_country_modifier = is_mobbed6
+						has_country_modifier = is_mobbed7
+						has_country_modifier = is_mobbed8
+					}
+				}
+				clr_country_flag = mob1
+				clr_country_flag = mob2
+				clr_country_flag = mob3
+				clr_country_flag = mob4
+				clr_country_flag = mob5
+				clr_country_flag = mob6
+				clr_country_flag = mob7
+				clr_country_flag = mob8
+				remove_country_modifier = is_mobbed1
+				remove_country_modifier = is_mobbed2
+				remove_country_modifier = is_mobbed3
+				remove_country_modifier = is_mobbed4
+				remove_country_modifier = is_mobbed5
+				remove_country_modifier = is_mobbed6
+				remove_country_modifier = is_mobbed7
+				remove_country_modifier = is_mobbed8
+			}
+		}
+	}
+
+	gain_mob_modifier = {
+		picture = treaty_port
+		potential = {
+			tag = JAN
+			META_1 = {
+				owner = {
+					ai = no
+					is_mobilised = yes
+					war = no
+					OR = {
+						NOT = { has_country_flag = mob1 }
+						AND = {
+							has_country_flag = mob1
+							NOT = { has_country_modifier = is_mobbed1 }
+						}
+						AND = {
+							has_country_flag = mob2
+							NOT = { has_country_modifier = is_mobbed2 }
+						}
+						AND = {
+							has_country_flag = mob3
+							NOT = { has_country_modifier = is_mobbed3 }
+						}
+						AND = {
+							has_country_flag = mob4
+							NOT = { has_country_modifier = is_mobbed4 }
+						}
+						AND = {
+							has_country_flag = mob5
+							NOT = { has_country_modifier = is_mobbed5 }
+						}
+						AND = {
+							has_country_flag = mob6
+							NOT = { has_country_modifier = is_mobbed6 }
+						}
+						AND = {
+							has_country_flag = mob7
+							NOT = { has_country_modifier = is_mobbed7 }
+						}
+					}
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			random_country = {
+				limit = {
+					ai = no
+					is_mobilised = yes
+					war = no
+					NOT = { has_country_flag = mob1 }
+					NOT = { has_country_modifier = is_mobbed1 }
+				}
+				set_country_flag = mob1
+				add_country_modifier = { name = is_mobbed1 duration = 365 }
+			}
+			random_country = {
+				limit = {
+					ai = no
+					is_mobilised = yes
+					war = no
+					has_country_flag = mob1
+					NOT = { has_country_modifier = is_mobbed1 }
+					NOT = { has_country_flag = mob2 }
+					NOT = { has_country_modifier = is_mobbed2 }
+				}
+				set_country_flag = mob2
+				add_country_modifier = { name = is_mobbed2 duration = 182 }
+				country_event = { id=91338 days=0 }
+			}
+			random_country = {
+				limit = {
+					ai = no
+					is_mobilised = yes
+					war = no
+					has_country_flag = mob2
+					NOT = { has_country_modifier = is_mobbed2 }
+					NOT = { has_country_flag = mob3 }
+					NOT = { has_country_modifier = is_mobbed3 }
+				}
+				set_country_flag = mob3
+				add_country_modifier = { name = is_mobbed3 duration = 182 }
+				country_event = { id=91339 days=0 }
+			}
+			random_country = {
+				limit = {
+					ai = no
+					is_mobilised = yes
+					war = no
+					has_country_flag = mob3
+					NOT = { has_country_modifier = is_mobbed3 }
+					NOT = { has_country_flag = mob4 }
+					NOT = { has_country_modifier = is_mobbed4 }
+				}
+				set_country_flag = mob4
+				add_country_modifier = { name = is_mobbed4 duration = 182 }
+				country_event = { id=91340 days=0 }
+			}
+			random_country = {
+				limit = {
+					ai = no
+					is_mobilised = yes
+					war = no
+					has_country_flag = mob4
+					NOT = { has_country_modifier = is_mobbed4 }
+					NOT = { has_country_flag = mob5 }
+					NOT = { has_country_modifier = is_mobbed5 }
+				}
+				set_country_flag = mob5
+				add_country_modifier = { name = is_mobbed5 duration = 182 }
+				country_event = { id=91341 days=0 }
+			}
+			random_country = {
+				limit = {
+					ai = no
+					is_mobilised = yes
+					war = no
+					has_country_flag = mob5
+					NOT = { has_country_modifier = is_mobbed5 }
+					NOT = { has_country_flag = mob6 }
+					NOT = { has_country_modifier = is_mobbed6 }
+				}
+				set_country_flag = mob6
+				add_country_modifier = { name = is_mobbed6 duration = 182 }
+				country_event = { id=91342 days=0 }
+			}
+			random_country = {
+				limit = {
+					ai = no
+					is_mobilised = yes
+					war = no
+					has_country_flag = mob6
+					NOT = { has_country_modifier = is_mobbed6 }
+					NOT = { has_country_flag = mob7 }
+					NOT = { has_country_modifier = is_mobbed7 }
+				}
+				set_country_flag = mob7
+				add_country_modifier = { name = is_mobbed7 duration = 182 }
+				country_event = { id=91343 days=0 }
+			}
+			random_country = {
+				limit = {
+					ai = no
+					is_mobilised = yes
+					war = no
+					has_country_flag = mob7
+					NOT = { has_country_modifier = is_mobbed7 }
+					NOT = { has_country_flag = mob8 }
+					NOT = { has_country_modifier = is_mobbed8 }
+				}
+				set_country_flag = mob8
+				add_country_modifier = { name = is_mobbed8 duration = -1 }
+				country_event = { id=91344 days=0 }
+			}
 		}
 	}
 }

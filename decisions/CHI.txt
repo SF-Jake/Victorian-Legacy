@@ -906,4 +906,63 @@ political_decisions = {
 			}
 		}
 	}
+
+	#Chinese Tech School
+	china_tech_school_tier2 = {
+		alert = no
+		potential = {
+			tag = CHI
+			civilized = yes
+			tech_school = china_tech_school_tier1
+		}
+		
+		allow = {
+			money = 2000000
+		}
+		effect = {
+			money = -2000000
+			tech_school = china_tech_school_tier2
+		}
+	}
+	china_tech_school_tier3 = {
+		alert = no
+		potential = {
+			tag = CHI
+			civilized = yes
+			tech_school = china_tech_school_tier2
+		}
+		
+		allow = {
+			money = 2250000
+			OR = {
+				school_reforms = acceptable_schools
+				school_reforms = good_schools
+				school_reforms = compulsory_schools
+			}
+		}
+		effect = {
+			money = -2250000
+			tech_school = china_tech_school_tier3
+		}
+	}
+	china_tech_school_tier4 = {
+		alert = no
+		potential = {
+			tag = CHI
+			civilized = yes
+			tech_school = china_tech_school_tier3
+		}
+		
+		allow = {
+			money = 2500000
+			OR = {
+				school_reforms = good_schools
+				school_reforms = compulsory_schools
+			}
+		}
+		effect = {
+			money = -2500000
+			tech_school = china_tech_school_tier4
+		}
+	}
 }

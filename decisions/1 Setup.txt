@@ -1067,9 +1067,86 @@ political_decisions = {
 			set_global_flag = global_1836_setup
 			set_country_flag = banker_income_timer
 			add_country_modifier = { name = banker_income_timer duration = 5 }
-			any_country = {
-				limit = { tag = SIA ai = no }
-				add_country_modifier = { name = education_siam_reforms duration = -1 }
+			ENG = {
+				add_country_modifier = { name = uk_nation_modifier duration = -1 }
+				set_country_flag = craftsmen_bonus
+			}
+			FRA = {
+				add_country_modifier = { name = fra_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+				set_country_flag = soldiers_bonus
+			}
+			PRU = {
+				add_country_modifier = { name = pru_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			AUS = {
+				add_country_modifier = { name = aus_nation_modifier duration = -1 }
+			}
+			SAR = {
+				add_country_modifier = { name = sar_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			TUR = {
+				add_country_modifier = { name = tur_nation_modifier duration = -1 }
+				set_country_flag = soldiers_bonus
+			}
+			RUS = {
+				add_country_modifier = { name = rus_nation_modifier duration = -1 }
+			}
+			USA = {
+				add_country_modifier = { name = usa_nation_modifier duration = -1 }
+				set_country_flag = craftsmen_bonus
+			}
+			JAP = {
+				activate_technology = military_staff_system
+				add_country_modifier = { name = jap_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+				set_country_flag = army_nation_modifier
+			}
+			SPA = {
+				add_country_modifier = { name = spa_nation_modifier duration = -1 }
+			}
+			KSN = {
+				add_country_modifier = { name = ksn_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			NET = {
+				add_country_modifier = { name = net_nation_modifier duration = -1 }
+				set_country_flag = craftsmen_bonus
+			}
+			BRZ = {
+				add_country_modifier = { name = brz_nation_modifier duration = -1 }
+			}
+			COM = {
+				add_country_modifier = { name = com_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			CHI = {
+				add_country_modifier = { name = chi_nation_modifier duration = -1 }
+				set_country_flag = craftsmen_bonus
+			}
+			MEX = {
+				add_country_modifier = { name = mex_nation_modifier duration = -1 }
+			}
+			ARC = {
+				add_country_modifier = { name = arc_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			SHW = {
+				add_country_modifier = { name = eth_nation_modifier duration = -1 }
+			}
+			PER = {
+				add_country_modifier = { name = per_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+				set_country_flag = soldiers_bonus
+			}
+			CLM = {
+				add_country_modifier = { name = col_nation_modifier duration = -1 }
+				set_country_flag = soldiers_bonus
+			}
+			SIA = {
+				add_country_modifier = { name = sia_nation_modifier duration = -1 }
 			}
 			any_country = {
 				social_reform = compulsory_schools
@@ -1080,7 +1157,7 @@ political_decisions = {
 				}
 			}
 			any_pop = {
-				limit = { type = bankers }
+				limit = { type = zbankers }
 				money = 2000000
 			}
 			SIA = {
@@ -1157,12 +1234,6 @@ political_decisions = {
 				add_country_modifier = { name = hegemon duration = -1 }
 				add_country_modifier = { name = crown_rule duration = -1 }
 				add_country_modifier = { name = unequal_china_treaty duration = -1 }
-			}
-			RUS = {
-				add_country_modifier = { name = russian_population_buff duration = -1 }
-			}
-			PRU = {
-				add_country_modifier = { name = german_population_buff duration = -1 }
 			}
 			NET = {
 				any_owned = {

@@ -8,7 +8,6 @@ folders = {
 		heavy_armament
 		military_science
 		army_leadership
-		row_completion_arm
 	}
 
 	navy_tech = {
@@ -17,7 +16,6 @@ folders = {
 		naval_engineering
 		naval_science
 		naval_leadership
-		row_completion_nav
 	}
 	
 	commerce_tech = {
@@ -26,7 +24,6 @@ folders = {
 		economic_thought_and_critique
 		market_functionality
 		tech_organization
-		row_completion_com
 	}
 	
 	culture_tech = {
@@ -35,7 +32,6 @@ folders = {
 		social_thought
 		political_thought
 		psychology
-		row_completion_cul
 	}
 	
 	industry_tech = {
@@ -44,7 +40,14 @@ folders = {
 		metallurgy
 		tech_infrastructure
 		chemistry_and_electricity
-		row_completion_ind
+	}
+
+	row_completion = {
+		army_tech
+		navy_tech
+		commerce_tech
+		culture_tech
+		industry_tech
 	}
 }
 
@@ -120,15 +123,6 @@ schools ={
 		unciv_economic_modifier = -0.05
 		unciv_military_modifier = -0.05
 	}
-	chinese_tech_school = {
-		army_tech_research_bonus = -0.5
-		commerce_tech_research_bonus = 0.15
-		culture_tech_research_bonus = 0
-		industry_tech_research_bonus = 0.25
-		navy_tech_research_bonus = -0.1
-		unciv_economic_modifier = -0.05
-		unciv_military_modifier = -0.05
-	}
 	#Russia Tier Schools
 	russia_tech_school_tier1 = {
 		army_tech_research_bonus = -0.25
@@ -158,6 +152,43 @@ schools ={
 		unciv_military_modifier = -0.05
 	}
 	russia_tech_school_tier4 = {
+		army_tech_research_bonus = -0.05
+		commerce_tech_research_bonus = 0.0
+		culture_tech_research_bonus = 0.15
+		industry_tech_research_bonus = -0.05
+		navy_tech_research_bonus = -0.10
+		unciv_economic_modifier = -0.05
+		unciv_military_modifier = -0.05
+	}
+	#Chinese Tier Schools
+	chinese_tech_school_tier1 = {
+		army_tech_research_bonus = -0.50
+		commerce_tech_research_bonus = -0.25
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = -0.30
+		navy_tech_research_bonus = -0.55
+		unciv_economic_modifier = -0.05
+		unciv_military_modifier = -0.05
+	}
+	chinese_tech_school_tier2 = {
+		army_tech_research_bonus = -0.30
+		commerce_tech_research_bonus = -0.15
+		culture_tech_research_bonus = 0.01
+		industry_tech_research_bonus = -0.20
+		navy_tech_research_bonus = -0.45
+		unciv_economic_modifier = -0.05
+		unciv_military_modifier = -0.05
+	}
+	chinese_tech_school_tier3 = {
+		army_tech_research_bonus = -0.10
+		commerce_tech_research_bonus = -0.05
+		culture_tech_research_bonus = 0.05
+		industry_tech_research_bonus = -0.10
+		navy_tech_research_bonus = -0.25
+		unciv_economic_modifier = -0.05
+		unciv_military_modifier = -0.05
+	}
+	chinese_tech_school_tier4 = {
 		army_tech_research_bonus = -0.05
 		commerce_tech_research_bonus = 0.0
 		culture_tech_research_bonus = 0.15

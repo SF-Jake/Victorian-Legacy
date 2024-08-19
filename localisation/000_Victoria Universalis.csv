@@ -19,7 +19,7 @@ tribal_society;Tribal Society;;;;;;;;;;;;x
 tribal_society_ruler;Chieftain;;;;;;;;;;;;x
 theocracy;Theocracy;;;;;;;;;;;;x
 theocracy_ruler;Emir;;;;;;;;;;;;x
-bankers;Bankers;;;;;;;;;;;;;;
+zbankers;Bankers;;;;;;;;;;;;;;
 best_asian;Japanese;;;;;;;;;;;;;;
 democracy_modifier;Democracy;;;;;;;;;;;;;;
 democracy_modifier_desc;Being a democracy grants 25% conservative upper house support to pass political and social reforms, 25% liberal upper house support to pass social reforms, and 25% socialist upper house support to pass political reforms.;;;;;;;;;;;;;;
@@ -30,658 +30,6 @@ UV_PERSONALITY_LABEL;Combat Traits;Personnalit?Pers?lichkeit;;Personalidad;;;;;;
 UV_BACKGROUND_LABEL;Support Traits;Caract?istique;Hintergrund;;Marco hist?ico;;;;;;;;;x;;;;
 MILITARY_PERSONALITY;Support Traits: §Y$NAME$§W;Personnalité : §Y$NAME$§W;Persönlichkeit: §Y$NAME$§W;;Personalidad: §Y$NAME$§W;;;;;;;;;x
 MILITARY_BACKGROUND;Combat Traits: §Y$NAME$§W;Caractéristique : §Y$NAME$§W;Hintergrund: §Y$NAME$§W;;Trasfondo: §Y$NAME$§W;;;;;;;;;x
-no_personality;§W0 Defence§!;;;;;;;;;;;;;;
-no_background;§W0 Attack;;;;;;;;;;;;;;
-attack_1.1;+1 Attack;;;;;;;;;;;;;;
-attack_1.2;+1 Attack;;;;;;;;;;;;;;
-attack_1.3;+1 Attack;;;;;;;;;;;;;;
-attack_1.4;+1 Attack;;;;;;;;;;;;;;
-attack_1.5;+1 Attack;;;;;;;;;;;;;;
-attack_1.6;+1 Attack;;;;;;;;;;;;;;
-attack_1.7;+1 Attack;;;;;;;;;;;;;;
-attack_1.8;+1 Attack;;;;;;;;;;;;;;
-attack_1.9;+1 Attack;;;;;;;;;;;;;;
-attack_1.10;+1 Attack;;;;;;;;;;;;;;
-attack_1.11;+1 Attack;;;;;;;;;;;;;;
-attack_1.12;+1 Attack;;;;;;;;;;;;;;
-attack_1.13;+1 Attack;;;;;;;;;;;;;;
-attack_1.14;+1 Attack;;;;;;;;;;;;;;
-attack_1.15;+1 Attack;;;;;;;;;;;;;;
-attack_1.16;+1 Attack;;;;;;;;;;;;;;
-attack_1.17;+1 Attack;;;;;;;;;;;;;;
-attack_1.18;+1 Attack;;;;;;;;;;;;;;
-attack_1.19;+1 Attack;;;;;;;;;;;;;;
-attack_1.20;+1 Attack;;;;;;;;;;;;;;
-attack_1.21;+1 Attack;;;;;;;;;;;;;;
-attack_1.22;+1 Attack;;;;;;;;;;;;;;
-attack_1.23;+1 Attack;;;;;;;;;;;;;;
-attack_1.24;+1 Attack;;;;;;;;;;;;;;
-attack_1.25;+1 Attack;;;;;;;;;;;;;;
-attack_1.26;+1 Attack;;;;;;;;;;;;;;
-attack_1.27;+1 Attack;;;;;;;;;;;;;;
-attack_1.28;+1 Attack;;;;;;;;;;;;;;
-attack_1.29;+1 Attack;;;;;;;;;;;;;;
-attack_1.30;+1 Attack;;;;;;;;;;;;;;
-attack_1.31;+1 Attack;;;;;;;;;;;;;;
-attack_1.32;+1 Attack;;;;;;;;;;;;;;
-attack_1.33;+1 Attack;;;;;;;;;;;;;;
-attack_1.34;+1 Attack;;;;;;;;;;;;;;
-attack_1.35;+1 Attack;;;;;;;;;;;;;;
-attack_1.36;+1 Attack;;;;;;;;;;;;;;
-attack_1.37;+1 Attack;;;;;;;;;;;;;;
-attack_1.38;+1 Attack;;;;;;;;;;;;;;
-attack_1.39;+1 Attack;;;;;;;;;;;;;;
-attack_1.40;+1 Attack;;;;;;;;;;;;;;
-attack_1.41;+1 Attack;;;;;;;;;;;;;;
-attack_1.42;+1 Attack;;;;;;;;;;;;;;
-attack_1.43;+1 Attack;;;;;;;;;;;;;;
-attack_1.44;+1 Attack;;;;;;;;;;;;;;
-attack_1.45;+1 Attack;;;;;;;;;;;;;;
-attack_1.46;+1 Attack;;;;;;;;;;;;;;
-attack_1.47;+1 Attack;;;;;;;;;;;;;;
-attack_1.48;+1 Attack;;;;;;;;;;;;;;
-attack_1.49;+1 Attack;;;;;;;;;;;;;;
-attack_1.50;+1 Attack;;;;;;;;;;;;;;
-attack_1.51;+1 Attack;;;;;;;;;;;;;;
-attack_1.52;+1 Attack;;;;;;;;;;;;;;
-attack_1.53;+1 Attack;;;;;;;;;;;;;;
-attack_1.54;+1 Attack;;;;;;;;;;;;;;
-attack_1.55;+1 Attack;;;;;;;;;;;;;;
-attack_1.56;+1 Attack;;;;;;;;;;;;;;
-attack_1.57;+1 Attack;;;;;;;;;;;;;;
-attack_1.58;+1 Attack;;;;;;;;;;;;;;
-attack_1.59;+1 Attack;;;;;;;;;;;;;;
-attack_1.60;+1 Attack;;;;;;;;;;;;;;
-attack_1.61;+1 Attack;;;;;;;;;;;;;;
-attack_1.62;+1 Attack;;;;;;;;;;;;;;
-attack_1.63;+1 Attack;;;;;;;;;;;;;;
-attack_1.64;+1 Attack;;;;;;;;;;;;;;
-attack_1.65;+1 Attack;;;;;;;;;;;;;;
-attack_1.66;+1 Attack;;;;;;;;;;;;;;
-attack_1.67;+1 Attack;;;;;;;;;;;;;;
-attack_1.68;+1 Attack;;;;;;;;;;;;;;
-attack_1.69;+1 Attack;;;;;;;;;;;;;;
-attack_1.70;+1 Attack;;;;;;;;;;;;;;
-attack_1.71;+1 Attack;;;;;;;;;;;;;;
-attack_1.72;+1 Attack;;;;;;;;;;;;;;
-attack_1.73;+1 Attack;;;;;;;;;;;;;;
-attack_1.74;+1 Attack;;;;;;;;;;;;;;
-attack_1.75;+1 Attack;;;;;;;;;;;;;;
-attack_1.76;+1 Attack;;;;;;;;;;;;;;
-attack_1.77;+1 Attack;;;;;;;;;;;;;;
-attack_1.78;+1 Attack;;;;;;;;;;;;;;
-attack_1.79;+1 Attack;;;;;;;;;;;;;;
-attack_1.80;+1 Attack;;;;;;;;;;;;;;
-attack_1.81;+1 Attack;;;;;;;;;;;;;;
-attack_1.82;+1 Attack;;;;;;;;;;;;;;
-attack_1.83;+1 Attack;;;;;;;;;;;;;;
-attack_1.84;+1 Attack;;;;;;;;;;;;;;
-attack_1.85;+1 Attack;;;;;;;;;;;;;;
-attack_1.86;+1 Attack;;;;;;;;;;;;;;
-attack_1.87;+1 Attack;;;;;;;;;;;;;;
-attack_1.88;+1 Attack;;;;;;;;;;;;;;
-attack_1.89;+1 Attack;;;;;;;;;;;;;;
-attack_1.90;+1 Attack;;;;;;;;;;;;;;
-attack_1.91;+1 Attack;;;;;;;;;;;;;;
-attack_1.92;+1 Attack;;;;;;;;;;;;;;
-attack_1.93;+1 Attack;;;;;;;;;;;;;;
-attack_1.94;+1 Attack;;;;;;;;;;;;;;
-attack_1.95;+1 Attack;;;;;;;;;;;;;;
-attack_1.96;+1 Attack;;;;;;;;;;;;;;
-attack_1.97;+1 Attack;;;;;;;;;;;;;;
-attack_1.98;+1 Attack;;;;;;;;;;;;;;
-attack_1.99;+1 Attack;;;;;;;;;;;;;;
-attack_1.100;+1 Attack;;;;;;;;;;;;;;
-attack_1.101;+1 Attack;;;;;;;;;;;;;;
-attack_1.102;+1 Attack;;;;;;;;;;;;;;
-attack_1.103;+1 Attack;;;;;;;;;;;;;;
-attack_1.104;+1 Attack;;;;;;;;;;;;;;
-attack_1.105;+1 Attack;;;;;;;;;;;;;;
-attack_1.106;+1 Attack;;;;;;;;;;;;;;
-attack_1.107;+1 Attack;;;;;;;;;;;;;;
-attack_1.108;+1 Attack;;;;;;;;;;;;;;
-attack_1.109;+1 Attack;;;;;;;;;;;;;;
-attack_1.110;+1 Attack;;;;;;;;;;;;;;
-attack_1.111;+1 Attack;;;;;;;;;;;;;;
-attack_1.112;+1 Attack;;;;;;;;;;;;;;
-attack_1.113;+1 Attack;;;;;;;;;;;;;;
-attack_1.114;+1 Attack;;;;;;;;;;;;;;
-attack_1.115;+1 Attack;;;;;;;;;;;;;;
-attack_1.116;+1 Attack;;;;;;;;;;;;;;
-attack_1.117;+1 Attack;;;;;;;;;;;;;;
-attack_1.118;+1 Attack;;;;;;;;;;;;;;
-attack_1.119;+1 Attack;;;;;;;;;;;;;;
-attack_1.120;+1 Attack;;;;;;;;;;;;;;
-attack_1.121;+1 Attack;;;;;;;;;;;;;;
-attack_1.122;+1 Attack;;;;;;;;;;;;;;
-attack_1.123;+1 Attack;;;;;;;;;;;;;;
-attack_1.124;+1 Attack;;;;;;;;;;;;;;
-attack_1.125;+1 Attack;;;;;;;;;;;;;;
-attack_1.126;+1 Attack;;;;;;;;;;;;;;
-attack_1.127;+1 Attack;;;;;;;;;;;;;;
-attack_1.128;+1 Attack;;;;;;;;;;;;;;
-attack_1.129;+1 Attack;;;;;;;;;;;;;;
-attack_1.130;+1 Attack;;;;;;;;;;;;;;
-attack_1.131;+1 Attack;;;;;;;;;;;;;;
-attack_1.132;+1 Attack;;;;;;;;;;;;;;
-attack_1.133;+1 Attack;;;;;;;;;;;;;;
-attack_1.134;+1 Attack;;;;;;;;;;;;;;
-attack_1.135;+1 Attack;;;;;;;;;;;;;;
-attack_1.136;+1 Attack;;;;;;;;;;;;;;
-attack_1.137;+1 Attack;;;;;;;;;;;;;;
-attack_1.138;+1 Attack;;;;;;;;;;;;;;
-attack_1.139;+1 Attack;;;;;;;;;;;;;;
-attack_1.140;+1 Attack;;;;;;;;;;;;;;
-attack_1.141;+1 Attack;;;;;;;;;;;;;;
-attack_1.142;+1 Attack;;;;;;;;;;;;;;
-attack_1.143;+1 Attack;;;;;;;;;;;;;;
-attack_1.144;+1 Attack;;;;;;;;;;;;;;
-attack_1.145;+1 Attack;;;;;;;;;;;;;;
-attack_1.146;+1 Attack;;;;;;;;;;;;;;
-attack_1.147;+1 Attack;;;;;;;;;;;;;;
-attack_1.148;+1 Attack;;;;;;;;;;;;;;
-attack_1.149;+1 Attack;;;;;;;;;;;;;;
-attack_1.150;+1 Attack;;;;;;;;;;;;;;
-attack_1.151;+1 Attack;;;;;;;;;;;;;;
-attack_1.152;+1 Attack;;;;;;;;;;;;;;
-attack_1.153;+1 Attack;;;;;;;;;;;;;;
-attack_1.154;+1 Attack;;;;;;;;;;;;;;
-attack_1.155;+1 Attack;;;;;;;;;;;;;;
-attack_1.156;+1 Attack;;;;;;;;;;;;;;
-attack_1.157;+1 Attack;;;;;;;;;;;;;;
-attack_1.158;+1 Attack;;;;;;;;;;;;;;
-attack_1.159;+1 Attack;;;;;;;;;;;;;;
-attack_1.160;+1 Attack;;;;;;;;;;;;;;
-attack_1.161;+1 Attack;;;;;;;;;;;;;;
-attack_1.162;+1 Attack;;;;;;;;;;;;;;
-attack_1.163;+1 Attack;;;;;;;;;;;;;;
-attack_1.164;+1 Attack;;;;;;;;;;;;;;
-attack_1.165;+1 Attack;;;;;;;;;;;;;;
-attack_1.166;+1 Attack;;;;;;;;;;;;;;
-attack_1.167;+1 Attack;;;;;;;;;;;;;;
-attack_1.168;+1 Attack;;;;;;;;;;;;;;
-attack_1.169;+1 Attack;;;;;;;;;;;;;;
-attack_1.170;+1 Attack;;;;;;;;;;;;;;
-attack_1.171;+1 Attack;;;;;;;;;;;;;;
-attack_1.172;+1 Attack;;;;;;;;;;;;;;
-attack_1.173;+1 Attack;;;;;;;;;;;;;;
-attack_1.174;+1 Attack;;;;;;;;;;;;;;
-attack_1.175;+1 Attack;;;;;;;;;;;;;;
-attack_1.176;+1 Attack;;;;;;;;;;;;;;
-attack_1.177;+1 Attack;;;;;;;;;;;;;;
-attack_1.178;+1 Attack;;;;;;;;;;;;;;
-attack_1.179;+1 Attack;;;;;;;;;;;;;;
-attack_1.180;+1 Attack;;;;;;;;;;;;;;
-attack_1.181;+1 Attack;;;;;;;;;;;;;;
-attack_1.182;+1 Attack;;;;;;;;;;;;;;
-attack_1.183;+1 Attack;;;;;;;;;;;;;;
-attack_1.184;+1 Attack;;;;;;;;;;;;;;
-attack_1.185;+1 Attack;;;;;;;;;;;;;;
-attack_1.186;+1 Attack;;;;;;;;;;;;;;
-attack_1.187;+1 Attack;;;;;;;;;;;;;;
-attack_1.188;+1 Attack;;;;;;;;;;;;;;
-attack_1.189;+1 Attack;;;;;;;;;;;;;;
-attack_1.190;+1 Attack;;;;;;;;;;;;;;
-attack_1.191;+1 Attack;;;;;;;;;;;;;;
-attack_1.192;+1 Attack;;;;;;;;;;;;;;
-attack_1.193;+1 Attack;;;;;;;;;;;;;;
-attack_1.194;+1 Attack;;;;;;;;;;;;;;
-attack_1.195;+1 Attack;;;;;;;;;;;;;;
-attack_1.196;+1 Attack;;;;;;;;;;;;;;
-attack_1.197;+1 Attack;;;;;;;;;;;;;;
-attack_1.198;+1 Attack;;;;;;;;;;;;;;
-attack_1.199;+1 Attack;;;;;;;;;;;;;;
-attack_1.200;+1 Attack;;;;;;;;;;;;;;
-attack_2.1;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.2;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.3;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.4;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.5;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.6;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.7;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.8;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.9;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.10;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.11;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.12;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.13;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.14;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.15;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.16;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.17;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.18;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.19;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.20;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.21;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.22;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.23;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.24;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.25;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.26;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.27;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.28;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.29;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.30;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.31;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.32;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.33;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.34;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.35;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.36;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.37;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.38;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.39;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.40;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.41;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.42;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.43;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.44;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.45;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.46;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.47;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.48;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.49;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.50;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.51;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.52;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.53;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.54;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.55;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.56;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.57;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.58;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.59;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.60;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.61;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.62;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.63;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.64;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.65;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.66;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.67;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.68;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.69;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.70;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.71;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.72;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.73;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.74;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.75;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.76;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.77;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.78;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.79;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.80;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.81;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.82;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.83;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.84;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.85;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.86;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.87;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.88;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.89;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.90;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.91;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.92;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.93;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.94;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.95;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.96;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.97;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.98;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.99;§B+2 Attack;;;;;;;;;;;;;;
-attack_2.100;§B+2 Attack;;;;;;;;;;;;;;
-attack_3.1;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.2;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.3;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.4;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.5;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.6;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.7;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.8;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.9;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.10;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.11;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.12;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.13;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.14;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.15;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.16;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.17;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.18;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.19;§G+3 Attack;;;;;;;;;;;;;;
-attack_3.20;§G+3 Attack;;;;;;;;;;;;;;
-attack_4.1;§R+4 Attack;;;;;;;;;;;;;;
-attack_4.2;§R+4 Attack;;;;;;;;;;;;;;
-attack_4.3;§R+4 Attack;;;;;;;;;;;;;;
-attack_4.4;§R+4 Attack;;;;;;;;;;;;;;
-attack_5.1;§W+5 Attack;;;;;;;;;;;;;;
-defence_1.1;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.2;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.3;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.4;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.5;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.6;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.7;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.8;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.9;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.10;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.11;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.12;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.13;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.14;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.15;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.16;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.17;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.18;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.19;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.20;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.21;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.22;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.23;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.24;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.25;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.26;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.27;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.28;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.29;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.30;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.31;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.32;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.33;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.34;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.35;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.36;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.37;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.38;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.39;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.40;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.41;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.42;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.43;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.44;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.45;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.46;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.47;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.48;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.49;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.50;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.51;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.52;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.53;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.54;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.55;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.56;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.57;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.58;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.59;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.60;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.61;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.62;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.63;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.64;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.65;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.66;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.67;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.68;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.69;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.70;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.71;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.72;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.73;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.74;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.75;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.76;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.77;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.78;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.79;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.80;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.81;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.82;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.83;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.84;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.85;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.86;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.87;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.88;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.89;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.90;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.91;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.92;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.93;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.94;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.95;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.96;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.97;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.98;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.99;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.100;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.101;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.102;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.103;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.104;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.105;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.106;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.107;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.108;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.109;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.110;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.111;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.112;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.113;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.114;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.115;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.116;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.117;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.118;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.119;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.120;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.121;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.122;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.123;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.124;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.125;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.126;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.127;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.128;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.129;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.130;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.131;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.132;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.133;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.134;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.135;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.136;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.137;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.138;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.139;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.140;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.141;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.142;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.143;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.144;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.145;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.146;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.147;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.148;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.149;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.150;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.151;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.152;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.153;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.154;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.155;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.156;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.157;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.158;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.159;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.160;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.161;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.162;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.163;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.164;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.165;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.166;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.167;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.168;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.169;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.170;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.171;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.172;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.173;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.174;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.175;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.176;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.177;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.178;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.179;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.180;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.181;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.182;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.183;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.184;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.185;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.186;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.187;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.188;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.189;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.190;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.191;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.192;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.193;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.194;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.195;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.196;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.197;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.198;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.199;+1 Defence§!;;;;;;;;;;;;;;
-defence_1.200;+1 Defence§!;;;;;;;;;;;;;;
-defence_2.1;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.2;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.3;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.4;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.5;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.6;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.7;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.8;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.9;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.10;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.11;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.12;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.13;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.14;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.15;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.16;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.17;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.18;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.19;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.20;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.21;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.22;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.23;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.24;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.25;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.26;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.27;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.28;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.29;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.30;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.31;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.32;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.33;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.34;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.35;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.36;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.37;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.38;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.39;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.40;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.41;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.42;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.43;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.44;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.45;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.46;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.47;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.48;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.49;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.50;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.51;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.52;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.53;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.54;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.55;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.56;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.57;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.58;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.59;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.60;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.61;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.62;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.63;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.64;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.65;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.66;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.67;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.68;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.69;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.70;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.71;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.72;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.73;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.74;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.75;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.76;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.77;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.78;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.79;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.80;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.81;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.82;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.83;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.84;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.85;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.86;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.87;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.88;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.89;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.90;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.91;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.92;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.93;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.94;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.95;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.96;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.97;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.98;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.99;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_2.100;§B+2 Defence§!;;;;;;;;;;;;;;
-defence_3.1;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.2;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.3;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.4;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.5;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.6;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.7;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.8;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.9;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.10;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.11;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.12;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.13;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.14;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.15;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.16;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.17;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.18;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.19;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_3.20;§G+3 Defence§!;;;;;;;;;;;;;;
-defence_4.1;§R+4 Defence§!;;;;;;;;;;;;;;
-defence_4.2;§R+4 Defence§!;;;;;;;;;;;;;;
-defence_4.3;§R+4 Defence§!;;;;;;;;;;;;;;
-defence_4.4;§R+4 Defence§!;;;;;;;;;;;;;;
-defence_5.1;§W+5 Defence§!;;;;;;;;;;;;;;
 arctic_mine;Arctic;;;;;;;;;;;;;;
 farmlands_mine;Farmlands;;;;;;;;;;;;;;
 forest_mine;Forest;;;;;;;;;;;;;;
@@ -823,20 +171,14 @@ modern_naval_exercises;Modern Naval Exercises;;;;;;;;;;;;;;
 modern_naval_exercises_desc;Modern naval exercises evolved into detailed wargame simulations encompassing command post exercises, field exercises, and joint exercises between two or more countries.;;;;;;;;;;;;;;
 modern_financial_institutions;Modern Financial Institutions;;;;;;;;;;;;;;
 fiat_based_monetary_system;Fiat Monetary System;;;;;;;;;;;;;;
-economic_thought_and_critique;Economic Thought and Critique;Pensée et critique économique;Wirtschaftsgedanken und -kritik;;Pensamiento y crítica económicas;;;;;;;;;x;;;;
-economic_thought_and_critique_desc;The scientific development of Economics gave large repercussions into the functions of the world economy, both on a micro and macro level. New ideas and knowledge was swiftly applied by business and the state to increase the efficiency of their work.;Le développement scientifique de l'Economie a donné d'importantes répercussions sur les fonctions de l'économie mondiale, tant au niveau micro que macro. De nouvelles idées et de connaissances ont été rapidement appliquées par les entreprises et l'État pour accroître l'efficacité de leur travail. ;Die wissenschaftliche Entwicklung der Wirtschaft wirkte sich auf lokaler wie internationaler Ebene nachhaltig auf die Weltwirtschaft aus. Neue Ideen und Erkenntnisse wurden rasch auf die Geschäftswelt und den Staat angewandt, um deren Arbeit effizienter zu machen.;;El desarrollo científico de la Economía supuso grandes repercusiones en el funcionamiento de la Economía global en sus niveles micro y macroeconómicos. Las nuevas ideas y conocimientos se aplicaron rápidamente a los negocios y al estado para incrementar la eficacia de su trabajo.;;;;;;;;;x;;;;
-early_classical_theory_and_critique;Early Classical Theory and Critique;Théories et critiques classiques;Frühe klassische Theorie und Kritik;;Primeras teorías y críticas clásicas;;;;;;;;;x;;;;
-early_classical_theory_and_critique_desc;Early Classical Theory and Critique;Théories et critiques classiques;Frühe klassische Theorie und Kritik;;Primeras teorías y críticas clásicas;;;;;;;;;x;;;;
-late_classical_theory;Late Classical Theory;Théories classiques tardives;Späte klassische Theorie;;Teoría clásica tardía;;;;;;;;;x;;;;
-late_classical_theory_desc;Late Classical Theory;Théories classiques tardives;Späte klassische Theorie;;Teoría clásica tardía;;;;;;;;;x;;;;
-collectivist_theory;Collectivist Theory;Théorie collectiviste;Kollektivistische Theorie;;Teoría colectivista;;;;;;;;;x;;;;
-collectivist_theory_desc;Collectivist Theory;Théorie collectiviste;Kollektivistische Theorie;;Teoría colectivista;;;;;;;;;x;;;;
-the_historical_theory;The Historical Theory;Théorie historiciste;Die Geschichtstheorie;;La Teoría Histórica;;;;;;;;;x;;;;
-the_historical_theory_desc;The Historical Theory;Théorie historiciste;Die Geschichtstheorie;;La Teoría Histórica;;;;;;;;;x;;;;
-neoclassical_theory;Neoclassical Theory;Théorie néo-classique;Neoklassische Theorie;;Teoría neoclásica;;;;;;;;;x;;;;
-neoclassical_theory_desc;Neoclassical Theory;Théorie néo-classique;Neoklassische Theorie;;Teoría neoclásica;;;;;;;;;x;;;;
-keynesian_economics;Keynesian Economics;Économie keynésienne;Keynesianische Ökonomie;;Economía keynesiana;;;;;;;;;x;;;;
-keynesian_economics_desc;Keynesian Economics;Économie keynésienne;Keynesianische Ökonomie;;Economía keynesiana;;;;;;;;;x;;;;
+economic_thought_and_critique;National Ideas;;;;;;;;;;;;;
+early_classical_theory_and_critique;Unlock Province Selector;;;;;;;;;;;;;
+late_classical_theory;1st National Idea;;;;;;;;;;;;;
+collectivist_theory;2nd National Idea;;;;;;;;;;;;;
+the_historical_theory;3rd National Idea;;;;;;;;;;;;;
+neoclassical_theory;4th National Idea;;;;;;;;;;;;;
+keynesian_economics;5th National Idea;;;;;;;;;;;;;
+neoliberal_theory;6th National Idea;;;;;;;;;;;;;;
 neoliberal_theory;Neoliberal Theory;;;;;;;;;;;;;;
 keynesianism;Keynesianism;;;;;;;;;;;;;;
 modern_business_management;Modern Business Management;;;;;;;;;;;;;;
@@ -964,7 +306,6 @@ PHL_anarcho_liberal;Partido Libertad;Partido Libertad;Partido Libertad;;Partido 
 PHL_conservative;Partido Nacionalista;Partido Nacionalista;Partido Nacionalista;;Partido Nacionalista;;;;;;;;;x
 PHL_fascist;Partido Fascista;Partido Fascista;Partido Fascista;;Partido Fascista;;;;;;;;;x
 PROV6;Sondrio;;;;;;;;;;;;;x
-PROV8;Colmar;;;;;;;;;;;;;x
 PROV9;Elba;;;;;;;;;;;;;x
 PROV43;Sarrebourg;;;;;;;;;;;;;x
 PROV45;Lunéville;;;;;;;;;;;;;x
@@ -1452,7 +793,7 @@ switch_to_navy_tech_title;§YSea power & The Merchant Marine;Puissance maritime &
 switch_to_culture_tech_title;§YAvantgarde Intelligentsia;Intelligentsia d'avant-garde;Avantgardistische Intelligentsia;;Intelectualidad de vanguardia;;;;;;;;;x
 switch_to_trade_tech_title;§YTycoon Capitalism & Business Schools;Capitalisme poussé et écoles commerciales;Magnats-Kapitalismus & Kaufmannsschulen;;Escuelas de negocios y magnates del Capitalismo;;;;;;;;;x
 switch_to_industry_tech_title;§YCorporative Industrialism;Industrialisme corporatif;Kooperativer Industrialismus;;Industrialismo corporativo;;;;;;;;;x
-z1manage_grants_title;§YManage Money Grants and Military Supplies Aid;;;;;;;;;;;;;x
+z1manage_grants_title;§YManage Money Grants;;;;;;;;;;;;;x
 z1manage_grants_desc;Triggers an event that lets you enable giving grants, deny giving grants, or request money and military goods from other human players.;;;;;;;;;;;;;x
 requested_grant;Requested Grant;;;;;;;;;;;;;x
 requested_grant_desc;We have recently requested a grant and must wait awhile before asking for another one.;;;;;;;;;;;;;x
@@ -1588,7 +929,6 @@ cancel_trade_agreements_29_desc;By cancelling our current trade agreement, we ar
 cancel_trade_agreements_30_title;§YCancel Trade Agreement;;;;;;;;;;;;;x
 cancel_trade_agreements_30_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
 EVTNAMEgrantoptions;Grant Options;;;;;;;;;;;;;x
-EVTDESCgrantoptions;In order to give player grants or military supplies, select the enable giving aid option. If you wish to automatically deny grants and military supplies, select the deny giving aid option. If you are asking for a money grant or military supplies, select the type of aid you wish to receive. Note that if you wish to give military supplies to another player, you must manually set your stockpile to buy >500 or >2500 of the good you wish to send, as those are the only two numbers available to request.;;;;;;;;;;;;;x
 EVTNAMErequestgrant;Request Grant;;;;;;;;;;;;;x
 EVTDESCrequestgrant;Choose an amount you want to apply for.;;;;;;;;;;;;;x
 Ask_0.1M_Grant;Ask for 100,000;;;;;;;;;;;;;x
@@ -3511,22 +2851,22 @@ bureaucrats_fix_cooldown;Non-Accepted Bureaucrats Fix Cooldown;;;;;;;;;;;;x,,,,,
 bureaucrats_fix_cooldown_desc;Non-Accepted Bureaucrats Fix Cooldown is 10 years.;;;;;;;;;;;;;x,,,,,,,,,,,,;;;;;;;;;;;
 bureaucrats_fix_title;§YNon-Accepted Bureacrats (10 year cooldown);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 bureaucrats_fix_desc;Turns unaccepted bureacrats into artisans;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-pensions;Tariffs;;;;;;;;;;;;;;
-no_pensions;No Tariffs;;;;;;;;;;;;;;
-no_pensions_desc; ;;;;;;;;;;;;;;
-trinket_pensions;Trinket Tariffs ;;;;;;;;;;;;;;
-trinket_pensions_desc; ;;;;;;;;;;;;;;
-low_pensions;Low Tariffs;;;;;;;;;;;;;;
-low_pensions_desc; ;;;;;;;;;;;;;;
-acceptable_pensions;Medium Tariffs;;;;;;;;;;;;;;
-acceptable_pensions_desc; ;;;;;;;;;;;;;;
-good_pensions;Max Tariffs;;;;;;;;;;;;;;
-good_pensions_desc; ;;;;;;;;;;;;;;
-no_pensions_l;No Tariffs;;;;;;;;;;;;;;
-trinket_pensions_l;Trinket Tariffs ;;;;;;;;;;;;;;
-low_pensions_l;Low Tariffs;;;;;;;;;;;;;;
-acceptable_pensions_l;Medium Tariffs;;;;;;;;;;;;;;
-good_pensions_l;Max Tariffs;;;;;;;;;;;;;;
+pensions;Pensions;Pensions;Renten;;Pensiones;;;;;;;;;x;;;;
+no_pensions;No Pensions;Aucune pension;Keine Renten;;Sin pensiones;;;;;;;;;x;;;;
+no_pensions_desc;No state pensions.;Aucune pension d'État.;Keine staatlichen Renten.;;Sin pensiones públicas.;;;;;;;;;x;;;;
+trinket_pensions;Trinket Pensions;Pensions dérisoires;Sachrente;;Testimoniales;;;;;;;;;x;;;;
+trinket_pensions_desc;Very low state pensions.;Très basses pensions d'État.;Äußerst geringe staatliche Renten.;;Pensiones públicas muy bajas.;;;;;;;;;x;;;;
+low_pensions;Low Pensions;Basses pensions;Niedrige Renten;;Bajas;;;;;;;;;x;;;;
+low_pensions_desc;Low state pensions.;Basses pensions d'État.;Geringe staatliche Renten.;;Pensiones públicas bajas.;;;;;;;;;x;;;;
+acceptable_pensions;Acceptable Pensions;Pensions acceptables;Akzeptable Renten;;Aceptables;;;;;;;;;x;;;;
+acceptable_pensions_desc;Acceptable state pensions.;Pensions d'État acceptables.;Akzeptable staatliche Renten.;;Pensiones públicas aceptables.;;;;;;;;;x;;;;
+good_pensions;Good Pensions;Bonnes pensions;Gute Renten;;Buenas;;;;;;;;;x;;;;
+good_pensions_desc;High state pensions.;Bonnes pensions d'État.;Hohe staatliche Renten.;;Pensiones públicas altas.;;;;;;;;;x;;;;
+no_pensions_l;No Pensions;Aucune pension;Keine Renten;;Sin pensiones;;;;;;;;;x;;;;
+trinket_pensions_l;Trinket Pensions;Pensions dérisoires;Sachrente;;Pensiones testimoniales;;;;;;;;;x;;;;
+low_pensions_l;Low Pensions;Basses pensions;Niedrige Renten;;Pensiones bajas;;;;;;;;;x;;;;
+acceptable_pensions_l;Acceptable Pensions;Pensions acceptables;Akzeptable Renten;;Pensiones aceptables;;;;;;;;;x;;;;
+good_pensions_l;Good Pensions;Bonnes pensions;Gute Renten;;Pensiones buenas;;;;;;;;;x;;;;
 EVTNAMEno_standard;Official Currencies Tech Flag;;;;;;;;;;;;x
 EVTDESCno_standard;This tech allows you to enact trinket tariffs.;;;;;;;;;;;;x
 no_standard_invented;Official Currencies Invented.;;;;;;;;;;;;
@@ -3565,13 +2905,13 @@ north_accepted;North Accepted;;;;;;;;;;;;x
 south_american_formation_title;Form the South American Federation;;;;;;;;;;;;x
 south_american_formation_desc;It is time to unite the nation under one government as the South American Federation.;;;;;;;;;;;;x
 zuser_show_options_Y_title;[=]§YShow Generic Decisions;;;;;;;;;;;;x
-zuser_show_options_Y_desc;Request Trade Deal, Money Grants, Non-Accepted Culture Craftsmen Promotion, Spread Ideology, Pass Reform, Martial Law, Restore The Academioa, Non-Accepted Bureacrats, and Research and Development;;;;;;;;;;;;x
+zuser_show_options_Y_desc;Money Grants, Non-Accepted Culture Craftsmen Promotion, Spread Ideology, Pass Reform, Restore The Academioa, Non-Accepted Bureacrats, and Research and Development;;;;;;;;;;;;x
 zuser_hide_options_Y_title;[=]§YHide Generic Decisions;;;;;;;;;;;;x
-zuser_hide_options_Y_desc;Request Trade Deal, Money Grants, Non-Accepted Culture Craftsmen Promotion, Spread Ideology, Pass Reform, Martial Law, Restore The Academioa, Non-Accepted Bureacrats, and Research and Development;;;;;;;;;;;;x
+zuser_hide_options_Y_desc;Money Grants, Non-Accepted Culture Craftsmen Promotion, Spread Ideology, Pass Reform, Restore The Academioa, Non-Accepted Bureacrats, and Research and Development;;;;;;;;;;;;x
 zuser_show_options_G_title;[=]§GShow Province Selector Decisions;;;;;;;;;;;;x
-zuser_show_options_G_desc;Create Supply Depot, Baby Boom, Literacy Campaign, Mine RGO Expansion, Agriculture RGO Expansion, and Change Agriculture RGO, Genocide Province;;;;;;;;;;;;x
+zuser_show_options_G_desc;Create Supply Depot, Baby Boom, Literacy Campaign, Mine RGO Expansion, Agriculture RGO Expansion, and Change Agriculture RGO;;;;;;;;;;;;x
 zuser_hide_options_G_title;[=]§GHide Province Selector Decisions;;;;;;;;;;;;x
-zuser_hide_options_G_desc;Create Supply Depot, Baby Boom, Literacy Campaign, Mine RGO Expansion, Agriculture RGO Expansion, and Change Agriculture RGO, Genocide Province;;;;;;;;;;;;x
+zuser_hide_options_G_desc;Create Supply Depot, Baby Boom, Literacy Campaign, Mine RGO Expansion, Agriculture RGO Expansion, and Change Agriculture RGO;;;;;;;;;;;;x
 accept_dravidian_title;Accept Dravidian;;;;;;;;;;;;x
 accept_dravidian_desc; ;;;;;;;;;;;;x
 accept_burmese_title;Accept Burmese;;;;;;;;;;;;x
@@ -3790,12 +3130,11 @@ switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x,,,,,,,,,,,,,
 switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
 switch_to_liberty_title;Embrace the Ideal of Exploitation;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 switch_to_liberty_desc;It is time for our nation to change the character of our people, to encourage them to consume and exploit the resources of the world to our benefit!\n\n§YThe modifiers for this NV are:§W\n§GRGO Throughput: +10%\nFactory Input: -5%\nFactory Output: +5%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
-z1manage_grants_title;§YManage Money Grants and Military Supplies Aid;;;;;;;;;;;;;x
+z1manage_grants_title;§YManage Money Grants;;;;;;;;;;;;;x
 z1manage_grants_desc;Triggers an event that lets you enable giving grants, deny giving grants, or request money and military goods from other human players.;;;;;;;;;;;;;x
 requested_grant;Requested Grant;;;;;;;;;;;;;x
 requested_grant_desc;We have recently requested a grant and must wait awhile before asking for another one.;;;;;;;;;;;;;x
 EVTNAMEgrantoptions;Grant Options;;;;;;;;;;;;;x
-EVTDESCgrantoptions;In order to give player grants or military supplies, select the enable giving aid option. If you wish to automatically deny grants and military supplies, select the deny giving aid option. If you are asking for a money grant or military supplies, select the type of aid you wish to receive. Note that if you wish to give military supplies to another player, you must manually set your stockpile.;;;;;;;;;;;;;x
 EVTNAMEinsufficientmoney;Insufficient Stockpile;;;;;;;;;;;;;x
 EVTDESCinsufficientmoney;We do not have the required stockpile of supplies that we wish to send.;;;;;;;;;;;;;x
 EVTOPTAinsufficientmoney;Ok.;;;;;;;;;;;;;x
@@ -3850,7 +3189,7 @@ Give_500_Canned_Food;Give them 500.;;;;;;;;;;;;;x
 Give_1000_Canned_Food;Give them 1000.;;;;;;;;;;;;;x
 Give_1500_Canned_Food;Give them 1500.;;;;;;;;;;;;;x
 Give_2000_Canned_Food;Give them 2000.;;;;;;;;;;;;;x
-z1manage_grants_title;ï¿½YManage Money Grants and Military Supplies Aid;;;;;;;;;;;;;x
+z1manage_grants_title;ï¿½YManage Money Grants;;;;;;;;;;;;;x
 z1manage_grants_desc;Triggers an event that lets you enable giving grants, deny giving grants, or request money and military goods from other human players.;;;;;;;;;;;;;x
 requested_grant;Requested Grant;;;;;;;;;;;;;x
 requested_grant_desc;We have recently requested a grant and must wait awhile before asking for another one.;;;;;;;;;;;;;x
@@ -4041,7 +3380,7 @@ army_nco_training_invented;Army NCO Training Invented.;;;;;;;;;;;;
 COM;Commonwealth;;;;;;;;;;;;
 COM_ADJ;Commonwealth;;;;;;;;;;;;
 province_selector;Province Selector;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-university;University;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+urban_center;Urban Center;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 farmland;Farmland Expansion;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 mines;Mine Expansion;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 PS_unlocked;Farmland Building Unlocked;;;;;;;;;;;;;x
@@ -4054,14 +3393,13 @@ bengali;Bengali;Bengali;Bengalisch;;Bengalí;;;;;;;;;x;;;;
 guarani;Guarani;Guarani;Guaranisch;;Guaraní;;;;;;;;;x;;;;
 panjabi;Panjabi;Penjabi;Pundschabisch;;Panjabí;;;;;;;;;x;;;;
 anglo;Anglo;;;;;;;;;;;;;x;;;;
-EVTDESC92101;§B1.§b Adds bonus interal migration attraction to state.\n\n§B2.§b Cancels bonus migration attraction to state.\n\n§B3.§b Choose colonial policy of colony.\n\n§B4.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n\n§B5.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 50k per 100k POPs rounded up.\n\n§B6.§b Changes farm RGO. Adds a debuff for 15 years, costs 200k per 100k POPs in province rounded up.\n\n§B7.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n\n§B8.§b Resets province selector.;;;;;;;;;;;;;x
+EVTDESC92101;§B1.§b Adds bonus interal migration attraction to province.\n\n§B2.§b Cancels bonus migration attraction to province.\n\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 50k per 100k POPs rounded up.\n\n§B5.§b Changes farm RGO. Adds a debuff for 15 years, costs 200k per 100k POPs in province rounded up.\n\n§B6.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n\n§B7.§b Resets province selector.;;;;;;;;;;;;;x
 horse_artillery;Horse Artillery;;;;;;;;;;;;;;;;x;;;;
 capital_supply_depot;Capital Supply Depot\n§WCapital Supply Depots will not be destroyed unless the capital is moved somewhere else.;;;;;;;;;;;;;x
 SMA;§YSmall State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 150K population before 1860, less than 200k between 1860-1885, less than 300k between 1885-1910, and less than 450k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RSmall State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.;;;;;;;;;;;;;x
 MST;§YMedium State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 300K population before 1860, less than 400k between 1860-1885, less than 600k between 1885-1910, and less than 900k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RMedium State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.;;;;;;;;;;;;;x
 built_naval_base;Recently Built Naval Base;;;;;;;;;;;;;x
 built_mine;Recently Built Mine;;;;;;;;;;;;;x
-built_university;Recently Built University;;;;;;;;;;;;;x
 prov_core_check;Province Core Check;;;;;;;;;;;;;x
 switched_production;Switched Production;;;;;;;;;;;;;x
 province_attract_immigrants;Immigration Focus;;;;;;;;;;;;;x
@@ -4216,3 +3554,78 @@ my_sphere_is_moving_on_its_own;Recently Sphered;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 my_sphere_is_moving_on_its_own_desc;This was actually responsibloe for the Romania Crash;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 real_sphere_hours_title;§YJoin Great Power's Sphere;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 real_sphere_hours_desc;Join the sphere of a great power you have 200 relations with. Make sure hover over the button and make sure it’s the right nation before you click it.;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+is_mobbed1;Is Mobilized;;;;;;;;;;;;x
+is_mobbed1_desc;§RYou can remain mobilized for one year before incurring penalties;;;;;;;;;;;;x
+is_mobbed2;Peace Time Mobilization;;;;;;;;;;;;x
+is_mobbed2_desc;§REvery half year from now you will inccur higher penalties unless you demobilize or start a war. Apon losing modifier a higher tier modifier will be given.;;;;;;;;;;;;x
+is_mobbed3;Peace Time Mobilization 2;;;;;;;;;;;;x
+is_mobbed3_desc;§REvery half year from now you will inccur higher penalties unless you demobilize or start a war. Apon losing modifier a higher tier modifier will be given.;;;;;;;;;;;;x
+is_mobbed4;Peace Time Mobilization 3;;;;;;;;;;;;x
+is_mobbed4_desc;§REvery half year from now you will inccur higher penalties unless you demobilize or start a war. Apon losing modifier a higher tier modifier will be given.;;;;;;;;;;;;x
+is_mobbed5;Peace Time Mobilization 4;;;;;;;;;;;;x
+is_mobbed5_desc;§REvery half year from now you will inccur higher penalties unless you demobilize or start a war. Apon losing modifier a higher tier modifier will be given. (Why?);;;;;;;;;;;;x
+is_mobbed6;Peace Time Mobilization 5;;;;;;;;;;;;x
+is_mobbed6_desc;§REvery half year from now you will inccur higher penalties unless you demobilize or start a war. Apon losing modifier a higher tier modifier will be given. (Could you use some brain cells);;;;;;;;;;;;x
+is_mobbed7;Peace Time Mobilization 6;;;;;;;;;;;;x
+is_mobbed7_desc;§REvery half year from now you will inccur higher penalties unless you demobilize or start a war. Apon losing modifier a higher tier modifier will be given. (What is wrong with you?);;;;;;;;;;;;x
+is_mobbed8;Peace Time Mobilization 7;;;;;;;;;;;;x
+is_mobbed8_desc;§REvery half year from now you will inccur higher penalties unless you demobilize or start a war. Max tier modifier reached. (...);;;;;;;;;;;;x
+row_completion;Row Completion;;;;;;;;;;;;x
+china_tech_school_tier1;Chinese No School Reform 1/4;;;;;;;;;;;;;
+china_tech_school_tier2;Chinese Basic School Reform 2/4;;;;;;;;;;;;;
+china_tech_school_tier2_title;Chinese Basic School Reform 2/4;;;;;;;;;;;;;
+china_tech_school_tier2_desc;Perform mass reform to the schools in China;;;;;;;;;;;;;
+china_tech_school_tier3;Chinese Acceptable School Reform 3/4;;;;;;;;;;;;;
+china_tech_school_tier3_title;Chinese Acceptable School Reform 3/4;;;;;;;;;;;;;
+china_tech_school_tier3_desc;Perform mass reform to the schools in China;;;;;;;;;;;;;
+china_tech_school_tier4;Chinese Good School Reform 4/4;;;;;;;;;;;;;
+china_tech_school_tier4_title;Chinese Good School Reform 4/4;;;;;;;;;;;;;
+china_tech_school_tier4_desc;Perform mass reform to the schools in China;;;;;;;;;;;;;
+craftsmen_bonus;Nation Craftsmen Promotion;;;;;;;;;;;;;
+soldiers_bonus;Nation Soldiers Promotion;;;;;;;;;;;;;
+EVNTDESC37721;What is your choice? \nCarlist Victory: \nNo Portuguese acceptance and cores\nMexican, Central American, and North Andean acceptance and cores\n\n Cristino Victory: \nPortuguese acceptance and cores \nAfro Caribbean acceptance;;;;;;;;;;;;;
+uk_nation_modifier;United Kingdom Tradition \n§WEncouragement for Craftsmen: §Y+5§W%:;;;;;;;;;;;;;
+fra_nation_modifier;France Tradition \n§WEncouragement for Soldiers: §Y+5§W% \n§WArmies: Supply Consumption: §G-10%§W;;;;;;;;;;;;;
+pru_nation_modifier;Germany Tradition \n§WArmies: Supply Consumption: §G-10%§W;;;;;;;;;;;;;
+aus_nation_modifier;Austria Tradition;;;;;;;;;;;;;
+sar_nation_modifier;Italy Tradition \n§WNavies: Supply Consumption: §G-10%§W;;;;;;;;;;;;;
+tur_nation_modifier;Ottoman Tradition \n§WEncouragement for Soldiers: §Y+5§W%;;;;;;;;;;;;;
+rus_nation_modifier;Russia Tradition;;;;;;;;;;;;;
+usa_nation_modifier;United States Tradition \n§WEncouragement for Craftsmen: §Y+5§W%:;;;;;;;;;;;;;
+jap_nation_modifier;Japan Tradition \n§WArmies: Supply Consumption: §G-10%§W \n§WNavies: Supply Consumption: §G-10%§W;;;;;;;;;;;;;
+spa_nation_modifier;Spain Tradition;;;;;;;;;;;;;
+ksn_nation_modifier;Scandinavia Tradition \n§WNavies: Supply Consumption: §G-10%§W;;;;;;;;;;;;;
+net_nation_modifier;Netherland Tradition \n§WEncouragement for Craftsmen: §Y+5§W%:;;;;;;;;;;;;;
+brz_nation_modifier;Brazil Tradition;;;;;;;;;;;;;
+com_nation_modifier;Commonwealth Tradition \n§WNavies: Supply Consumption: §G-10%§W;;;;;;;;;;;;;
+chi_nation_modifier;China Tradition \n§WEncouragement for Craftsmen: §Y+5§W%:;;;;;;;;;;;;;
+mex_nation_modifier;Mexico Tradition;;;;;;;;;;;;;
+arc_nation_modifier;Argentina Tradition \n§WArmies: Supply Consumption: §G-10%§W;;;;;;;;;;;;;
+eth_nation_modifier;Ethiopia Tradition;;;;;;;;;;;;;
+per_nation_modifier;Persia Tradition \n§WArmies: Supply Consumption: §G-10%§W \n§WEncouragement for Soldiers: §Y+5§W%;;;;;;;;;;;;;
+col_nation_modifier;Colombia Tradition \n§WEncouragement for Soldiers: §Y+5§W%;;;;;;;;;;;;;
+sia_nation_modifier;Indochina Tradition;;;;;;;;;;;;;
+uk_nation_modifier_desc; ;;;;;;;;;;;;;
+fra_nation_modifier_desc; ;;;;;;;;;;;;;
+pru_nation_modifier_desc; ;;;;;;;;;;;;;
+aus_nation_modifier_desc; ;;;;;;;;;;;;;
+sar_nation_modifier_desc; ;;;;;;;;;;;;;
+tur_nation_modifier_desc; ;;;;;;;;;;;;;
+rus_nation_modifier_desc; ;;;;;;;;;;;;;
+usa_nation_modifier_desc; ;;;;;;;;;;;;;
+jap_nation_modifier_desc; ;;;;;;;;;;;;;
+spa_nation_modifier_desc; ;;;;;;;;;;;;;
+ksn_nation_modifier_desc; ;;;;;;;;;;;;;
+net_nation_modifier_desc; ;;;;;;;;;;;;;
+brz_nation_modifier_desc; ;;;;;;;;;;;;;
+com_nation_modifier_desc; ;;;;;;;;;;;;;
+chi_nation_modifier_desc; ;;;;;;;;;;;;;
+mex_nation_modifier_desc; ;;;;;;;;;;;;;
+arc_nation_modifier_desc; ;;;;;;;;;;;;;
+eth_nation_modifier_desc; ;;;;;;;;;;;;;
+per_nation_modifier_desc; ;;;;;;;;;;;;;
+col_nation_modifier_desc; ;;;;;;;;;;;;;
+sia_nation_modifier_desc; ;;;;;;;;;;;;;
+naval_nation_modifier;Navy Tradition Modifier;;;;;;;;;;;;;
+army_nation_modifier;Army Tradition Modifier;;;;;;;;;;;;;
+farmland_unlocked;Farmland Unlock;;;;;;;;;;;;;

@@ -556,3 +556,40 @@
 # #	}
 # #	news = no
 # #}
+
+tariff_1_invention = {
+	limit = { ad_hoc_money_bill_printing = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+	}
+	news = no
+}
+tariff_2_invention = {
+	limit = { private_bank_money_bill_printing = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+	}
+	news = no
+}
+tariff_3_invention = {
+	limit = { central_bank_money_bill_printing = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+	}
+	news = no
+}
+tariff_4_invention = {
+	limit = { modern_central_bank_system = 1 }
+	chance = {
+		base = 100
+	}
+	effect = {
+	}
+	news = no
+}

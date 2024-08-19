@@ -23,38 +23,6 @@ country_event = {
 	}
 }
 
-#AI British India Giveaway
-country_event = {
-	id = 90033
-	title = "AI British India Giveaway"
-
-	trigger = {
-		ai = yes
-		tag = ENG
-		any_owned_province = {
-			OR = {
-				is_core = HND
-				is_core = PAK
-				is_core = BUR
-			}
-		}
-		is_our_vassal = EIC
-	}
-
-	option = {
-		any_owned = {
-			limit = {
-				OR = {
-					is_core = HND
-					is_core = PAK
-					is_core = BUR
-				}
-			}
-			secede_province = EIC
-		}
-	}
-}
-
 #Free India
 country_event = {
 	id = 90034

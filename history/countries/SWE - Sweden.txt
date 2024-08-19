@@ -35,8 +35,7 @@
 	child_labor = child_labor_restricted
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = no_colonial_migration
+	centralization = unitary 
 
 	ruling_party = SWE_conservative
 	last_election = 1833.1.1
@@ -125,8 +124,7 @@
 	child_labor = child_labor_restricted
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = no_colonial_migration
+	centralization = unitary 
 
 	ruling_party = SWE_conservative
 	last_election = 1833.1.1
@@ -365,7 +363,6 @@ decision = pass_folkskolereformen
 	conscription=four_year_draft
 	citizens_rights=culture_voting_only
 	debt_law=bankruptcy
-	border_policy=open_borders
-	colonial_migration=no_colonial_migration
+	border_policy=open_borders 
 	centralization=unitary
 }

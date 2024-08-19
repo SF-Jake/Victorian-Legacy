@@ -415,7 +415,6 @@ positivism = {
 	year = 1836
 	cost = 7200
 
-	activate_building = university
 	colonial_migration = 0.05
 	increase_research = 0.1
 	#education_efficiency = 0.1
@@ -481,7 +480,6 @@ biologism = {
 	year = 1850
 	cost = 14400
 
-	max_university = 1
 	colonial_migration = 0.05
 	increase_research = 0.15
 	#education_efficiency = 0.1
@@ -536,7 +534,6 @@ social_alienation = {
 	year = 1900
 	cost = 21600
 	
-	max_university = 1
 	colonial_migration = 0.05
 	#education_efficiency = 0.1
 	ai_chance = {
@@ -782,8 +779,8 @@ introspectionism = {
 	year = 1836
 	cost = 3600
 
-	farm_rgo_size = 0.07
-	mine_rgo_size = 0.07
+	farm_rgo_size = 0.10
+	mine_rgo_size = 0.10
 	
 	ai_chance = {
 		factor = 1.01
@@ -811,8 +808,8 @@ associationism = {
 	year = 1836
 	cost = 7200
 
-	farm_rgo_size = 0.07
-	mine_rgo_size = 0.07
+	farm_rgo_size = 0.10
+	mine_rgo_size = 0.10
 	
 	ai_chance = {
 		factor = 1.01
@@ -839,8 +836,8 @@ phenomenalism = {
 	year = 1836
 	cost = 10800
 
-	farm_rgo_size = 0.07
-	mine_rgo_size = 0.07
+	farm_rgo_size = 0.10
+	mine_rgo_size = 0.10
 	
 	ai_chance = {
 		factor = 1.01
@@ -863,8 +860,8 @@ experimental_psychology = {
 	year = 1850
 	cost = 14400
 
-	farm_rgo_size = 0.07
-	mine_rgo_size = 0.07
+	farm_rgo_size = 0.10
+	mine_rgo_size = 0.10
 	
 	ai_chance = {
 		factor = 1.01
@@ -887,8 +884,8 @@ psychoanalysis = {
 	year = 1870
 	cost = 18000
 
-	farm_rgo_size = 0.07
-	mine_rgo_size = 0.07
+	farm_rgo_size = 0.10
+	mine_rgo_size = 0.10
 	
 	ai_chance = {
 		factor = 1.01
@@ -916,8 +913,8 @@ behaviorism = {
 	year = 1900
 	cost = 21600
 
-	farm_rgo_size = 0.07
-	mine_rgo_size = 0.07
+	farm_rgo_size = 0.10
+	mine_rgo_size = 0.10
 	
 	ai_chance = {
 		factor = 1.01
@@ -944,8 +941,8 @@ humanistic_psychology = {
 	year = 1920
 	cost = 21600
 
-	farm_rgo_size = 0.07
-	mine_rgo_size = 0.07
+	farm_rgo_size = 0.10
+	mine_rgo_size = 0.10
 	
 	ai_chance = {
 		factor = 1.01
@@ -968,82 +965,3 @@ humanistic_psychology = {
 	}
 }
 
-#Culture
-#
-#
-culture_row_completion1 = {
-	area = row_completion_cul
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-culture_row_completion2 = {
-	area = row_completion_cul
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	prestige = 0.01
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-culture_row_completion3 = {
-	area = row_completion_cul
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	education_efficiency = 0.08
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-culture_row_completion4 = {
-	area = row_completion_cul
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-culture_row_completion5 = {
-	area = row_completion_cul
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	prestige = 0.3
-	
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-culture_row_completion6 = {
-	area = row_completion_cul
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	increase_research = 0.2
-	
-	ai_chance = {
-		factor = 0
-	}
-}
-culture_row_completion7 = {
-	area = row_completion_cul
-	year = 2000
-	cost = 1
-	unciv_military = yes
-	education_efficiency = 0.5
-	
-	ai_chance = {
-		factor = 0
-	}
-}

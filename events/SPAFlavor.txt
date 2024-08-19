@@ -608,7 +608,7 @@ country_event = {
 country_event = {
 	id = 37721
 	title = "The Spanish Civil War"
-	desc = "What is your choice?"
+	desc = "EVNTDESC37721"
 	picture = celebration
 	fire_only_once = yes
 
@@ -637,10 +637,6 @@ country_event = {
 		capital = 487
 		set_global_flag = cristino_victory
 		add_accepted_culture = afro_caribbean
-		add_country_modifier = {
-			name = cristino_victory
-			duration = -1
-		}
 		all_core = {
 			remove_core = SPC
 		}

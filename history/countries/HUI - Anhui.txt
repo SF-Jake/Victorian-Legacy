@@ -34,8 +34,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = regionalism
-	colonial_migration = no_colonial_migration 
+	centralization = regionalism  
 
 	ruling_party = HUI_reactionary
 	upper_house = {
@@ -63,6 +62,7 @@
 	nationalvalue = nv_order
 	literacy = 0.04
 	is_releasable_vassal = no
+	schools = chinese_tech_school_tier1
 
 	# Political reforms
 	slavery = no_slavery
@@ -90,8 +90,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = regionalism
-	colonial_migration = no_colonial_migration 
+	centralization = regionalism  
 
 	ruling_party = HUI_reactionary
 	upper_house = {

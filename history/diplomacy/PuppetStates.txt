@@ -1,12 +1,6 @@
 #China substates
 substate = {
 	first = CHI
-	second = GXI
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-substate = {
-	first = CHI
 	second = MCK
 	start_date = 1836.1.1
 	end_date = 1937.1.1
@@ -73,36 +67,6 @@ vassal = {
 	end_date = 1890.11.23
 }
 
-# Netherlands-Indonesia
-vassal = {
-	first = NET
-	second = DJA
-	start_date = 1836.1.1
-	end_date = 1862.1.1
-}
-
-vassal = {
-	first = NET
-	second = SAK
-	start_date = 1836.1.1
-	end_date = 1862.1.1
-}
-
-vassal = {
-	first = NET
-	second = MAL
-	start_date = 1836.1.1
-	end_date = 1862.1.1
-}
-
-vassal = {
-	first = NET
-	second = JAV
-	start_date = 1836.1.1
-	end_date = 1862.1.1
-}
-
-
 # USA-Liberia
 vassal = {
 	first = USA
@@ -141,22 +105,6 @@ vassal = {
 	second = PEU
 	start_date = 1836.1.1
 	end_date = 1839.8.25
-}
-
-# Argentine Confederation-Entre Rios
-vassal = {
-	first = ARC
-	second = ENT
-	start_date = 1836.1.1
-	end_date = 1851.8.18
-}
-
-# Argentine Confederation-Corrientes
-vassal = {
-	first = ARC
-	second = CRT
-	start_date = 1836.1.1
-	end_date = 1851.8.18
 }
 
 # Vietnam-Cambodia

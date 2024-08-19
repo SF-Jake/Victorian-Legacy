@@ -12,8 +12,8 @@ leader = {
 	name = "Gordon Drummond"
 	date = 1836.1.1
 	type = land
-	personality = defence_2.1
-	background = attack_2.1
+	personality = mor10_1
+	background = 2a2d_1
 }
 
 army = {
@@ -39,3 +39,47 @@ army = {
 
 }
 
+navy = {
+	name = "1st Transport Squadron"
+	location = 71
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "23th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "24th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "25th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "26th Transport Flotilla"
+		type = clipper_transport
+	}
+}

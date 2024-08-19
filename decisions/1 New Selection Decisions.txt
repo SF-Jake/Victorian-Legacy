@@ -353,76 +353,6 @@ release_vassals = {
 }
 
 #########################################################################
-# 						COLONIAL MIGRATION								#
-#########################################################################
-
-	zcountry_decrease_colonial_migration = {
-		picture = pioneers
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			ai = no
-			colonial_nation = yes
-			NOT = { colonial_migration = no_colonial_migration }
-		}
-		allow = {
-		}
-		effect = {
-			random_owned = {
-				limit = {
-					owner = { colonial_migration = low_colonial_migration }
-				}
-				owner = { political_reform = no_colonial_migration }
-			}
-			random_owned = {
-				limit = {
-					owner = { colonial_migration = medium_colonial_migration }
-				}
-				owner = { political_reform = low_colonial_migration }
-			}
-			random_owned = {
-				limit = {
-					owner = { colonial_migration = high_colonial_migration }
-				}
-				owner = { political_reform = medium_colonial_migration }
-			}
-		}
-	}
-
-	zcountry_increase_colonial_migration = {
-		picture = pioneers
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			ai = no
-			colonial_nation = yes
-			NOT = { colonial_migration = high_colonial_migration }
-		}
-		allow = {
-		}
-		effect = {
-			random_owned = {
-				limit = {
-					owner = { colonial_migration = medium_colonial_migration }
-				}
-				owner = { political_reform = high_colonial_migration }
-			}
-			random_owned = {
-				limit = {
-					owner = { colonial_migration = low_colonial_migration }
-				}
-				owner = { political_reform = medium_colonial_migration }
-			}
-			random_owned = {
-				limit = {
-					owner = { colonial_migration = no_colonial_migration }
-				}
-				owner = { political_reform = low_colonial_migration }
-			}
-		}
-	}
-
-#########################################################################
 # 							IDEOLOGY									#
 #########################################################################
 
@@ -536,25 +466,6 @@ release_vassals = {
 				name = reform_passed
 				duration = 1825
 			}
-		}
-	}
-
-#########################################################################
-# 							SUPPRESSION									#
-#########################################################################
-
-	zcountry_suppression = {
-		picture = martial_law
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			ai = no
-		}	
-		allow = {
-			civilized = yes
-		}
-		effect = {
-			country_event = { id = 91705 days = 0 }
 		}
 	}
 	
@@ -1268,35 +1179,6 @@ missalaneous_jan = {
 				NOT = { navy_row_completion7 = 1 }
 			}
 			activate_technology = navy_row_completion7
-		}
-		any_country = {
-			limit = {
-				ai = no
-				biologism = 1
-				NOT = { social_alienation = 1 }
-				has_country_flag = biologism_invented
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = built_university
-				}
-				## Audax Validator "." Ignore_NEXT
-				university = 2
-			}
-		}
-		any_country = {
-			limit = {
-				ai = no
-				social_alienation = 1
-				has_country_flag = social_alienation_invented
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = built_university
-				}
-				## Audax Validator "." Ignore_NEXT
-				university = 3
-			}
 		}
 		any_country = {
 			limit = {

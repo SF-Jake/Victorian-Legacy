@@ -49,8 +49,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = no_colonial_migration
+	centralization = unitary 
 }
 
 1836.1.1 = {
@@ -62,6 +61,7 @@
 	nationalvalue = nv_order
 	literacy = 0.04
 	is_releasable_vassal = no
+	schools = chinese_tech_school_tier1
 
 	ruling_party = SXI_reactionary
 	upper_house = {
@@ -104,8 +104,7 @@
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = unitary
-	colonial_migration = no_colonial_migration
+	centralization = unitary 
 }
 
 1913.1.1 = {

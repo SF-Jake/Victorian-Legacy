@@ -368,6 +368,15 @@ country_event = {
 	option = {
 		name = "EVTOPTA33007"
 		set_country_flag = bismarck_reforms
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = north_german
+					has_pop_culture = south_germany
+				}
+			}
+			militancy = -5
+		}
 		random_owned = {
 			limit = {
 				owner = { school_reforms = good_schools }
@@ -668,11 +677,11 @@ country_event = {
 		NOT = { has_country_flag = pop_buff_gone }
 		tag = JAN
 		exists = NGF
-		NGF = { NOT = { has_country_modifier = german_population_buff } }
+		NGF = { NOT = { has_country_modifier = pru_nation_modifier } }
 	}
 
 	option = {
-		NGF = { add_country_modifier = { name = german_population_buff duration = -1 } }
+		NGF = { add_country_modifier = { name = pru_nation_modifier duration = -1 } }
 	}
 }
 country_event = {
@@ -685,10 +694,10 @@ country_event = {
 		NOT = { has_country_flag = pop_buff_gone }
 		tag = JAN
 		exists = GER
-		GER = { NOT = { has_country_modifier = german_population_buff } }
+		GER = { NOT = { has_country_modifier = pru_nation_modifier } }
 	}
 
 	option = {
-		GER = { add_country_modifier = { name = german_population_buff duration = -1 } }
+		GER = { add_country_modifier = { name = pru_nation_modifier duration = -1 } }
 	}
 }

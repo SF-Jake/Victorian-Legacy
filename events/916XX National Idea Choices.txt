@@ -272,7 +272,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			year = 1836
+			invention = national_idea1
 			NOT = { has_country_flag = national_idea1 }
 		}
 	}
@@ -528,7 +528,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			year = 1850
+			invention = national_idea2
 			NOT = { has_country_flag = national_idea2 }
 		}
 	}
@@ -784,7 +784,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			year = 1865
+			invention = national_idea3
 			NOT = { has_country_flag = national_idea3 }
 		}
 	}
@@ -1040,7 +1040,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			year = 1880
+			invention = national_idea4
 			NOT = { has_country_flag = national_idea4 }
 		}
 	}
@@ -1296,7 +1296,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			year = 1895
+			invention = national_idea5
 			NOT = { has_country_flag = national_idea5 }
 		}
 	}
@@ -1552,7 +1552,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			year = 1910
+			invention = national_idea6
 			NOT = { has_country_flag = national_idea6 }
 		}
 	}

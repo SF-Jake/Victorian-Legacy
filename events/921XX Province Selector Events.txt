@@ -64,35 +64,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B3.§b Colony Settlement Policy"
-		owner = {
-			any_owned = {
-				limit = {
-					has_building = province_selector
-				}
-				## Audax Validator "." Ignore_NEXT
-				province_selector = -1
-			}
-		}
-		add_core = JAN
-		owner = {
-			random_owned = {
-				limit = {
-					is_core = JAN
-					is_colonial = yes
-				}
-				province_event = {
-					## Audax Validator "." Ignore_NEXT
-					id = 91520
-					days = 0
-				}
-			}
-		}
-		remove_core = JAN
-	}
-
-	option = {
-		name = "§B4.§b Create Supply Depot"
+		name = "§B3.§b Create Supply Depot"
 		owner = {
 			any_owned = {
 				limit = {
@@ -134,7 +106,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B5.§b Literacy Campaign"
+		name = "§B4.§b Literacy Campaign"
 		owner = {
 			any_owned = {
 				limit = {
@@ -1493,7 +1465,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B6.§b Change Agricultural RGO"
+		name = "§B5.§b Change Agricultural RGO"
 		owner = {
 			any_owned = {
 				limit = {
@@ -4458,7 +4430,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B7.§b Baby Boom"
+		name = "§B6.§b Baby Boom"
 		owner = {
 			any_owned = {
 				limit = {
@@ -4771,7 +4743,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B8.§b Choose Nothing"
+		name = "§B7.§b Choose Nothing"
 		owner = {
 			any_owned = {
 				limit = {
@@ -4801,7 +4773,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 92103
 	title = "Not enough Money"
 	desc = "You do not have enough money to add this modifier to your state/province."

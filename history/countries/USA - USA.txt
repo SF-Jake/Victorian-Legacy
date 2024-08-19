@@ -38,8 +38,7 @@
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
-	centralization = federalism
-	colonial_migration = medium_colonial_migration
+	centralization = federalism 
 
 	ruling_party = USA_conservative
 	last_election = 1828.12.3
@@ -143,8 +142,7 @@
 	child_labor = child_labor_restricted
 	citizens_rights = culture_voting_only
 	border_policy = open_borders
-	centralization = federalism
-	colonial_migration = medium_colonial_migration
+	centralization = federalism 
 
 	ruling_party = USA_conservative
 	last_election = 1828.12.3
@@ -430,7 +428,6 @@ decision = corwin_amendment
 	conscription=no_draft
 	citizens_rights=all_voting_pops
 	debt_law=bankruptcy
-	border_policy=open_borders
-	colonial_migration=medium_colonial_migration
+	border_policy=open_borders 
 	centralization=federalism
 }

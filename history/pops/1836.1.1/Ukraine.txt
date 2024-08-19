@@ -826,7 +826,7 @@
 		size = 1525
 	}
 
-	farmers = {
+	artisans = {
 		culture = ukrainian
 		religion = orthodox
 		size = 48325
@@ -856,7 +856,7 @@
 		size = 325
 	}
 
-	farmers = {
+	artisans = {
 		culture = polish
 		religion = catholic
 		size = 28550
@@ -880,10 +880,16 @@
 		size = 75
 	}
 
-	farmers = {
+	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 5475
+		size = 475
+	}
+
+	labourers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 5000
 	}
 
 	clergymen = {
@@ -904,7 +910,7 @@
 		size = 10
 	}
 
-	farmers = {
+	artisans = {
 		culture = south_german
 		religion = catholic
 		size = 920
