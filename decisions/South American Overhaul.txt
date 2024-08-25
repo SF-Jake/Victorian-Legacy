@@ -53,6 +53,7 @@ political_decisions = {
 			has_country_flag = conquered_the_central
 		}
 		allow = {
+			war = no
 			MEX_2183 = { owned_by = THIS }
 			MEX_2162 = { owned_by = THIS }
 			MEX_2170 = { owned_by = THIS }
@@ -90,6 +91,7 @@ restore_argentina = {
 	}
 
 	allow = {
+		war = no
 		OR = {
 			AND = {
 				OR = {
@@ -582,6 +584,7 @@ north_patre_grande_formation = {
 		NOT = { has_country_flag = north_patre_grande_formation }
 	}
 	allow = {
+		war = no
 		nationalism_n_imperialism = 1
 		GCO = {
 			all_core = {
@@ -645,6 +648,7 @@ south_patre_grande_formation = {
 		NOT = { has_country_flag = south_patre_grande_formation }
 	}
 	allow = {
+		war = no
 		nationalism_n_imperialism = 1
 		OR = { 
 			ARC = {

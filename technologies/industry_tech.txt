@@ -48,9 +48,8 @@ practical_steam_engine = {
 	year = 1836
 	cost = 7200
 
-	mine_rgo_eff = 0.15
-	mine_rgo_size = -0.05
-	farm_rgo_eff = 0.15
+	mine_rgo_eff = 0.12
+	farm_rgo_eff = 0.12
 	ai_chance = {
 		factor = 1.1
 		modifier = {

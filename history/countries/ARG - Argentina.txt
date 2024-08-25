@@ -84,16 +84,17 @@
 	non_state_culture_literacy = 0.02
 	civilized = yes
 	prestige = 5
+	set_country_flag = confederalism
 
 	# Political reforms
-	slavery = yes_slavery
+	slavery = freedom_of_womb
 	upper_house_composition = appointed
 	vote_franschise = none_voting
 	public_meetings = yes_meeting
-	press_rights = censored_press
+	press_rights = state_press
 	trade_unions = no_trade_unions
 	voting_system = jefferson_method
-	political_parties = underground_parties
+	political_parties = harassment
 
 	# Social Reforms
 	wage_reform = no_minimum_wage
@@ -105,13 +106,13 @@
 	school_reforms = no_schools
 
 	# New Reforms
-	conscription = one_year_draft
+	conscription = two_year_draft
 	debt_law = peonage
 	penal_system = capital_punishment
 	child_labor = child_labor_legal
 	citizens_rights = primary_culture_only
 	border_policy = open_borders
-	centralization = unitary 
+	centralization = confederalism 
 
 	ruling_party = ARG_conservative
 	upper_house = {
@@ -146,6 +147,8 @@
 	#Starting Consciousness
 	consciousness = 2
 	nonstate_consciousness = 0
+
+	oob = "ARG_oob.txt"
 }
 
 1853.1.1 = {

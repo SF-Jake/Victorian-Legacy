@@ -283,7 +283,7 @@ political_decisions = {
 					NOT = { has_country_modifier = is_mobbed1 }
 				}
 				set_country_flag = mob1
-				add_country_modifier = { name = is_mobbed1 duration = 365 }
+				add_country_modifier = { name = is_mobbed1 duration = 182 }
 			}
 			random_country = {
 				limit = {

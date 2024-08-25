@@ -987,9 +987,9 @@ machine_gun_armament = {
 }
 colonial_negotiations = {
 	limit = { 
-			breech_loaded_rifles = 1
-			year = 1875
-			}
+		breech_loaded_rifles = 1
+		year = 1875
+	}
 	news = no
 	chance = {
 		base = 0

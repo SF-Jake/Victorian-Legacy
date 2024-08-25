@@ -1375,7 +1375,7 @@ mission_to_civilize = {
 	effect = {
 		colonial_prestige = 0.1
 		diplomatic_points = 0.2
-		colonial_life_rating = -10 
+		colonial_life_rating = -5
 	}
 }
 separatism = {
@@ -1401,6 +1401,47 @@ separatism = {
 	}
 }
 
+indigenous_garrisoning = {
+	limit = {
+		nationalism_n_imperialism = 1
+		year = 1880
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 25
+			machine_guns  = 1
+		}
+		modifier = {
+			factor = 25
+			main_armament  = 1
+		}
+		modifier = {
+			factor = 25
+			steel_railroad  = 1
+		}
+		modifier = {
+			factor = 100
+			any_greater_power = {
+				invention = indigenous_garrisoning 
+			}
+		}
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				invention = indigenous_garrisoning
+			}
+		}
+		modifier = {
+			factor = -100
+			NOT = { year = 1885 }
+		}		
+	}
+	effect = {
+		colonial_life_rating = -10
+	}
+}
 #revolution_n_counterrevolution
 dogma_of_violence = {
 	limit = { revolution_n_counterrevolution = 1 }

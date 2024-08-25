@@ -414,6 +414,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+		war = no
 		tag = TPG
 		civilized = yes
 		NOT = { government = democracy }

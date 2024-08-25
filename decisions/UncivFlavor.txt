@@ -99,6 +99,7 @@ political_decisions = {
 			has_country_flag = integrate_turkmen
 		}
 		allow = {
+			war = no
 			KHI_1191 = { owned_by = THIS }
 			nationalism_n_imperialism = 1
 		}

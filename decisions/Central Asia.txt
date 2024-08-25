@@ -67,6 +67,7 @@ political_decisions = {
 			NOT = { has_global_flag = turkestan }
 		}
 		allow = {
+			war = no
 			KHI = { all_core = { owned_by = THIS } }
 			KOK = { all_core = { owned_by = THIS } }
 			BUK = { all_core = { owned_by = THIS } }

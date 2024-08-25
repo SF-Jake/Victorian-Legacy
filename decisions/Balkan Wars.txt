@@ -11,6 +11,7 @@ political_decisions = {
 			NOT = { has_country_flag = romania_formed }
 		}
 		allow = {
+			war = no
 			WAL_665 = {
 				owned_by = THIS
 			}
@@ -95,6 +96,7 @@ political_decisions = {
 			tag = SER
 		}
 		allow = {
+			war = no
 			SER = {
 				all_core = { owned_by = THIS }
 			}

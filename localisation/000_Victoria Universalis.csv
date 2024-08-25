@@ -3377,8 +3377,8 @@ mixed_economy;Mixed Economy\n§WTariff efficiency:§G +5.00%;;;;;;;;;;;;;;
 mixed_economy_modifier;Mixed Economy;;;;;;;;;;;;;;
 military_logistics_invented;Military Logistics Invented.;;;;;;;;;;;;
 army_nco_training_invented;Army NCO Training Invented.;;;;;;;;;;;;
-COM;Commonwealth;;;;;;;;;;;;
-COM_ADJ;Commonwealth;;;;;;;;;;;;
+COM;The Commonwealth;;;;;;;;;;;;;x
+COM_ADJ;British;;;;;;;;;;;;;x
 province_selector;Province Selector;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 urban_center;Urban Center;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 farmland;Farmland Expansion;;;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -3605,6 +3605,7 @@ eth_nation_modifier;Ethiopia Tradition;;;;;;;;;;;;;
 per_nation_modifier;Persia Tradition \n§WArmies: Supply Consumption: §G-10%§W \n§WEncouragement for Soldiers: §Y+5§W%;;;;;;;;;;;;;
 col_nation_modifier;Colombia Tradition \n§WEncouragement for Soldiers: §Y+5§W%;;;;;;;;;;;;;
 sia_nation_modifier;Indochina Tradition;;;;;;;;;;;;;
+por_nation_modifier;Portugal Tradition;;;;;;;;;;;;;
 uk_nation_modifier_desc; ;;;;;;;;;;;;;
 fra_nation_modifier_desc; ;;;;;;;;;;;;;
 pru_nation_modifier_desc; ;;;;;;;;;;;;;
@@ -3626,6 +3627,22 @@ eth_nation_modifier_desc; ;;;;;;;;;;;;;
 per_nation_modifier_desc; ;;;;;;;;;;;;;
 col_nation_modifier_desc; ;;;;;;;;;;;;;
 sia_nation_modifier_desc; ;;;;;;;;;;;;;
+por_nation_modifier_desc; ;;;;;;;;;;;;;
 naval_nation_modifier;Navy Tradition Modifier;;;;;;;;;;;;;
 army_nation_modifier;Army Tradition Modifier;;;;;;;;;;;;;
 farmland_unlocked;Farmland Unlock;;;;;;;;;;;;;
+market_goods;Market Goods;;;;;;;;;;;;;;
+market_squares;Market Squares;;;;;;;;;;;;;;
+market_squares_desc;A market square is a square meant for trading, in which a market is held. A market square is an open area where market stalls are traditionally set out for trading, commonly on one particular day of the week known as market day.;;;;;;;;;;;;;;;;;;;;;;;;;
+gas_streetlights;Gas Streelights;;;;;;;;;;;;;;
+gas_streetlights_desc;A street light is a raised source of light on the edge of a road or path. The first widespread system of street lighting used piped coal gas as fuel.;;;;;;;;;;;;;;;;;;;;;;;;;
+public_trams;Public Trams;;;;;;;;;;;;;;
+public_trams_desc;Public transport is a system of transport for passengers by group travel systems available for use by the general public unlike private transport, typically managed on a schedule, operated on established routes, and that may charge a posted fee for each trip.;;;;;;;;;;;;;;;;;;;;;;;;;
+elevators;Elevators;;;;;;;;;;;;;;
+elevators_desc;An elevator is a machine that vertically transports people or freight between levels. They are typically powered by electric motors that drive traction cables and counterweight systems such as a hoist, although some pump hydraulic fluid to raise a cylindrical piston like a jack.;;;;;;;;;;;;;;;;;;;;;;;;;
+modern_sewerage;Modern Sewerage;;;;;;;;;;;;;;
+modern_sewerage_desc;Modern Sewerage is the creation of specific tunnels and pipes to remove refuse from a city, leading to a better standard of living.;;;;;;;;;;;;;;;;;;;;;;;;;
+skyscrapers;Skyscrapers;;;;;;;;;;;;;;
+skyscrapers_desc;A skyscraper is a tall continuously habitable building having multiple floors. Historically, the term first referred to buildings with between 10 and 20 stories when these types of buildings began to be constructed in the 1880s. Skyscrapers may host offices, hotels, residential spaces, and retail spaces.;;;;;;;;;;;;;;;;;;;;;;;;;
+airport;Airport;;;;;;;;;;;;;;
+airport_desc;An airport is an aerodrome with extended facilities, mostly for commercial air transport. Airports usually consist of a landing area, which comprises an aerially accessible open space including at least one operationally active surface such as a runway for a plane to take off and to land.;;;;;;;;;;;;;;;;;;;;;;;;;

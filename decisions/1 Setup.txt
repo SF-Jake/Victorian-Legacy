@@ -175,6 +175,12 @@ political_decisions = {
 				}
 				any_pop = {
 					limit = {
+						has_pop_culture = portuguese
+					}
+					literacy = 0.15
+				}
+				any_pop = {
+					limit = {
 						has_pop_culture = dutch
 					}
 					literacy = 0.59
@@ -1129,7 +1135,11 @@ political_decisions = {
 			MEX = {
 				add_country_modifier = { name = mex_nation_modifier duration = -1 }
 			}
-			ARC = {
+			ARG = {
+				add_country_modifier = { name = arc_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			PBC = {
 				add_country_modifier = { name = arc_nation_modifier duration = -1 }
 				set_country_flag = army_nation_modifier
 			}
@@ -1148,10 +1158,12 @@ political_decisions = {
 			SIA = {
 				add_country_modifier = { name = sia_nation_modifier duration = -1 }
 			}
-			any_country = {
-				social_reform = compulsory_schools
+			POR = {
+				add_country_modifier = { name = por_nation_modifier duration = -1 }
 			}
 			any_country = {
+				social_reform = compulsory_schools
+				set_country_flag = baby_boom_reminder
 				capital_scope = {
 					add_province_modifier = { name = capital_supply_depot duration = -1 }
 				}

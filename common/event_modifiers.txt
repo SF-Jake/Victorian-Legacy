@@ -2101,4 +2101,11 @@ sia_nation_modifier = {
 	icon = 45
 }
 
+por_nation_modifier = {
+	land_unit_start_experience = 2.5
+	research_points_modifier = 0.1
+	education_efficiency_modifier = 0.1
+	mobilisation_size = 0.02
+	icon = 46
+}
 

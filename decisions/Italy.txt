@@ -392,6 +392,7 @@ political_decisions = {
 		}
 		
 		allow = {
+			war = no
 			revolution_n_counterrevolution = 1
 			AUS_729 = { owned_by = THIS }
 			AUS_770 = { owned_by = THIS }

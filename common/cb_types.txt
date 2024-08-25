@@ -114,10 +114,6 @@ gunboat = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { is_our_vassal = THIS }
 		OR =
 		{
@@ -179,10 +175,6 @@ status_quo = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 	}
 
 	break_truce_prestige_factor = 5
@@ -229,10 +221,6 @@ conquest = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -319,10 +307,6 @@ civil_war = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 	}
 
 	badboy_factor = 0
@@ -388,10 +372,6 @@ add_to_sphere = {
 	construction_speed = 0.5
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
@@ -458,10 +438,6 @@ take_from_sphere = {
 	construction_speed = 0.5
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
@@ -512,7 +488,9 @@ take_from_sphere = {
 acquire_core_state_small = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	constructing_cb = no
+	always = yes
+	months = 0
 	
 	construction_speed = 2
 	
@@ -531,16 +509,13 @@ acquire_core_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+			is_core = SMA
 		}
 		THIS = {
 			OR = {
@@ -587,7 +562,9 @@ acquire_core_state_small = {
 acquire_core_state_medium = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	constructing_cb = no
+	always = yes
+	months = 0
 	
 	construction_speed = 2
 	
@@ -606,16 +583,13 @@ acquire_core_state_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+			is_core = MED
 		}
 		THIS = {
 			OR = {
@@ -662,7 +636,9 @@ acquire_core_state_medium = {
 acquire_core_state_large = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	constructing_cb = no
+	always = yes
+	months = 0
 	
 	construction_speed = 2
 	
@@ -681,16 +657,13 @@ acquire_core_state_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+			is_core = LRG
 		}
 		THIS = {
 			OR = {
@@ -737,7 +710,9 @@ acquire_core_state_large = {
 acquire_core_state_huge = {
 	sprite_index = 5
 	is_triggered_only = yes
-	months = 12
+	constructing_cb = no
+	always = yes
+	months = 0
 	
 	construction_speed = 2
 	
@@ -756,16 +731,13 @@ acquire_core_state_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
+			is_core = HUG
 		}
 		THIS = {
 			OR = {
@@ -833,10 +805,6 @@ annex_core_country = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
@@ -901,10 +869,6 @@ acquire_substate_region = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
@@ -983,10 +947,6 @@ acquire_state_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -1088,10 +1048,6 @@ acquire_state_small_americas = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -1192,10 +1148,6 @@ acquire_state_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -1292,10 +1244,6 @@ acquire_state_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -1392,10 +1340,6 @@ acquire_state_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -1492,10 +1436,6 @@ place_in_the_sun_small = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		civilized = yes
 		THIS = {
 			OR = {
@@ -1575,10 +1515,6 @@ place_in_the_sun_medium = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		civilized = yes
 		THIS = {
 			OR = {
@@ -1658,10 +1594,6 @@ place_in_the_sun_large = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		civilized = yes
 		THIS = {
 			OR = {
@@ -1741,10 +1673,6 @@ place_in_the_sun_huge = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		civilized = yes
 		THIS = {
 			OR = {
@@ -1882,10 +1810,6 @@ demand_reparations = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		OR = {
-			ai = yes
-			year = 1837
-		}
 	}
 
 	on_add = {
@@ -1922,10 +1846,6 @@ cut_down_to_size_boxer = {
 	crisis = no
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -2007,10 +1927,6 @@ free_peoples_small = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { is_our_vassal = THIS }
 		AND = {
 		   NOT = { year = 1870 }
@@ -2104,10 +2020,6 @@ free_peoples_medium = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { is_our_vassal = THIS }
 		AND = {
 		   NOT = { year = 1870 }
@@ -2201,10 +2113,6 @@ free_peoples_large = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { is_our_vassal = THIS }
 		AND = {
 		   NOT = { year = 1870 }
@@ -2298,10 +2206,6 @@ free_peoples_huge = {
 
 	can_use = {
 		NOT = { tag = JAN tag = GHO tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { is_our_vassal = THIS }
 		AND = {
 		   NOT = { year = 1870 }
@@ -2397,10 +2301,6 @@ liberate_country = {
 	
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		THIS = {
@@ -2508,10 +2408,6 @@ dismantle_forts = {
 	
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
@@ -2585,10 +2481,6 @@ release_puppet = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 		THIS = {
@@ -2736,10 +2628,6 @@ become_independent = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		is_our_vassal = THIS
@@ -2821,10 +2709,6 @@ humiliate = {
 	war_name = WAR_HUMILIATE_NAME
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
@@ -2881,10 +2765,6 @@ demand_concession_casus_belli_small = {
 	always = no
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 2 } }
@@ -2959,10 +2839,6 @@ demand_concession_casus_belli_medium = {
 	always = no
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 2 } }
@@ -3037,10 +2913,6 @@ demand_concession_casus_belli_large = {
 	always = no
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 2 } }
@@ -3115,10 +2987,6 @@ demand_concession_casus_belli_huge = {
 	always = no
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 2 } }
@@ -3193,10 +3061,6 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			civilized = yes
 		}
@@ -3293,10 +3157,6 @@ unification_humiliate_cb = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -3379,10 +3239,6 @@ unification_release_puppet_cb = {
 				NOT = { has_country_flag = chinese }
 				has_global_flag = taiping_has_happened
 			}
-		}
-		OR = {
-			ai = yes
-			year = 1837
 		}
 		THIS = {
 			OR = {
@@ -3475,10 +3331,6 @@ unification_casus_belli = {
 				has_global_flag = taiping_has_happened
 			}
 		}
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
@@ -3564,10 +3416,6 @@ unification_annex_casus_belli = {
 				NOT = { has_country_flag = chinese }
 				has_global_flag = taiping_has_happened
 			}
-		}
-		OR = {
-			ai = yes
-			year = 1837
 		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
@@ -3695,10 +3543,6 @@ install_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		THIS = {
@@ -3779,10 +3623,6 @@ uninstall_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		THIS = {
@@ -3892,10 +3732,6 @@ conquest_low = {
 	can_use = {
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		this = { NOT = { badboy = 2 } }
 		NOT = {	total_pops = 400000 }
 		THIS = {
@@ -3992,10 +3828,6 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		NOT = { tag = SWI }
@@ -4097,10 +3929,6 @@ acquire_treaty_port = {
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 2 } }
 		NOT = { war_with = THIS }
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		has_country_flag = chinese
 		THIS = {
 			OR = {
@@ -4295,10 +4123,6 @@ negotiated_transfer = {
 	good_relation_militancy_factor = 0
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = { ai = no }
 		ai = no
 		number_of_states = 2 # annex if you want their last state
@@ -4385,10 +4209,6 @@ demand_for_allies = {
 	# war target country of goal is scope
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		civilized = yes
@@ -4462,10 +4282,6 @@ european_acquire_african_state = {
 	always = yes
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
 		}
@@ -4542,10 +4358,6 @@ european_african_conquest = {
 	always = yes
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
 		}
@@ -4649,10 +4461,6 @@ demand_colony_for_allies = {
 	# war target country of goal is scope
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		OR = {
@@ -4733,10 +4541,6 @@ make_puppet_small = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		this = { NOT = { badboy = 2 } }
@@ -4809,10 +4613,6 @@ make_puppet_large = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		NOT = { tag = JAN }
 		NOT = { tag = GHO }
 		OR = {
@@ -5018,10 +4818,6 @@ chinese_civil_war = {
 	
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			AND = {
 				has_global_flag = warlord_era_begun
@@ -5079,10 +4875,6 @@ chinese_civil_war_acquire_state = {
 	
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			AND = {
 				has_global_flag = warlord_era_begun
@@ -5181,10 +4973,6 @@ european_indian_conquest = {
 	crisis = no
 	
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		has_global_flag = india_collapse
 		THIS = {
 			NOT = { has_country_flag = jan_mayen }
@@ -5288,10 +5076,6 @@ platine_war = {
 
 	can_use = {
 		OR = {
-			ai = yes
-			year = 1837
-		}
-		OR = {
 			tag = ARC
 			tag = BRZ
 		}
@@ -5352,10 +5136,6 @@ paraguayan_war = {
 
 	can_use = {
 		OR = {
-			ai = yes
-			year = 1837
-		}
-		OR = {
 			tag = ARG
 			tag = BRZ
 		}
@@ -5411,10 +5191,6 @@ acquire_siberian_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_country_flag = chinese }
@@ -5576,10 +5352,6 @@ puppet_acquire_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 	}
 	
 	allowed_states = {
@@ -5634,10 +5406,6 @@ remove_cores = {
 	always = no
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		THIS = {
 			OR = {
 				NOT = { has_global_flag = ww1_bookmark }
@@ -5716,10 +5484,6 @@ dismantle_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		badboy = 1.6
 		is_great_power = yes
 		NOT = { war = yes }
@@ -5797,10 +5561,6 @@ acquire_all_cores = {
 	always = no
 
 	can_use = {
-		OR = {
-			ai = yes
-			year = 1837
-		}
 		any_owned_province = { is_core = THIS }
 	}
 	

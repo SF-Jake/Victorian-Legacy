@@ -66,94 +66,148 @@ leader = {
 }
 
 army = {
-	name = "Exército Português"
+	name = "Mob Stack"
 	location = 521
 	regiment = {
-		name= "1. Brigada de Infantaria"
-		type = infantry
+		name= "Hussar"
+		type = hussar
 		home = 521
 	}
 
 	regiment = {
-		name= "2. Brigada de Infantaria"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 524
 	}
 
 	regiment = {
-		name= "3. Brigada de Infantaria"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 518
 	}
 
 	regiment = {
-		name= "4. Brigada de Infantaria"
-		type = infantry
+		name= "Artillery"
+		type = artillery
 		home = 520
 	}
 
 	regiment = {
-		name= "5. Brigada de Artilharia"
+		name= "Artillery"
 		type = artillery
 		home = 519
 	}
 
 	regiment = {
-		name= "1. Brigada de Caballaria"
-		type = cuirassier
+		name= "Artillery"
+		type = artillery
 		home = 522
 	}
 
 }
 
 army = {
-	name = "Exército do Africa Ocidental"
-	location = 1999
+	name = "Mob Stack"
+	location = 523
 	
 	regiment = {
-		name = "1. Divisão Colonial"
-		type = infantry
+		name= "Hussar"
+		type = hussar
+		home = 1303
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 518
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 520
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 523
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 521
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 525
+	}
+}
+
+army = {
+	name = "Mob Stack"
+	location = 525
+
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 526
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 527
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1877
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 2134
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 2003
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 2055
+	}
+}
+
+army = {
+	name = "Mob Stack"
+	location = 522
+	
+	regiment = {
+		name= "Hussar"
+		type = hussar
 		home = 1999
 	}
 	
 	regiment = {
-		name = "2. Divisão Colonial"
-		type = infantry
-		home = 2003
-	}
-}
-
-army = {
-	name = "Exército do Africa Oriental"
-	location = 2059
-	
-	regiment = {
-		name = "3. Divisão Colonial"
-		type = infantry
-		home = 2053
-	}
-	
-	regiment = {
-		name = "4. Divisão Colonial"
-		type = infantry
-		home = 2055
-	}
-	
-	regiment = {
-		name = "5. Divisão Colonial"
-		type = cavalry
+		name= "Artillery"
+		type = artillery
 		home = 2056
 	}
-}
 
-army = {
-	name = "Exército da Índia"
-	location = 1303
-	
 	regiment = {
-		name = "6. Divisão Colonial"
-		type = infantry
-		home = 1303
+		name= "Artillery"
+		type = artillery
+		home = 518
 	}
 }
 

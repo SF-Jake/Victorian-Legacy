@@ -1019,6 +1019,7 @@ combat_medicine = {
 	effect = {
 		land_attrition = -0.1 
 		soldier_to_pop_loss = 0.025
+		colonial_life_rating = -5
 	}
 }
 aerial_bacteria_and_antiseptic_principle = {
@@ -1185,7 +1186,6 @@ vaccination = {
 		pop_growth = 0.0001
 		land_attrition = -0.05
 		soldier_to_pop_loss = 0.025
-		colonial_life_rating = -5
 	}
 }
 smokeless_powder = {
@@ -1303,7 +1303,6 @@ prophylaxis_against_malaria = {
 	effect = {
 		land_attrition = -0.05 
 		soldier_to_pop_loss = 0.025
-		colonial_life_rating = -5
 	}
 }
 #electricity
