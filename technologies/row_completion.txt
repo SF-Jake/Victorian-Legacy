@@ -38,7 +38,7 @@ army_row_completion4 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	military_tactics = 0.05
+	mobilisation_size = 0.01
 	
 	ai_chance = {
 		factor = 0
@@ -49,7 +49,7 @@ army_row_completion5 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	military_tactics = 0.05
+	army_base = { build_time = -20 }
 	
 	ai_chance = {
 		factor = 0
@@ -60,7 +60,7 @@ army_row_completion6 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	morale = 0.25
+	army_base = { supply_consumption = -0.15 }
 	
 	ai_chance = {
 		factor = 0
@@ -71,7 +71,7 @@ army_row_completion7 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	morale = 0.25
+	military_tactics = 0.20
 	
 	ai_chance = {
 		factor = 0
@@ -120,9 +120,7 @@ navy_row_completion4 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	navy_base = {
-		default_organisation = 2
-	}
+	navy_base = { build_time = -20 }
 	
 	ai_chance = {
 		factor = 0
@@ -133,9 +131,7 @@ navy_row_completion5 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	rgo_goods_output = {
-		fish = 0.1
-	}
+	navy_base = { build_time = -20 }
 	
 	ai_chance = {
 		factor = 0
@@ -146,9 +142,7 @@ navy_row_completion6 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	navy_base = {
-		default_organisation = 5
-	}
+	navy_base = { build_time = -20 }
 	
 	ai_chance = {
 		factor = 0
@@ -264,7 +258,7 @@ culture_row_completion2 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	prestige = 0.01
+	prestige = 0.1
 	
 	ai_chance = {
 		factor = 0
@@ -275,7 +269,6 @@ culture_row_completion3 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	education_efficiency = 0.08
 	
 	ai_chance = {
 		factor = 0
@@ -286,6 +279,7 @@ culture_row_completion4 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
+	colonial_points = 100
 	
 	ai_chance = {
 		factor = 0
@@ -296,7 +290,7 @@ culture_row_completion5 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	prestige = 0.3
+	soldier_to_pop_loss = 0.1
 	
 	
 	ai_chance = {
@@ -308,7 +302,7 @@ culture_row_completion6 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	increase_research = 0.2
+	max_national_focus = 1 
 	
 	ai_chance = {
 		factor = 0
@@ -319,7 +313,7 @@ culture_row_completion7 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	education_efficiency = 0.5
+	prestige = 0.5
 	
 	ai_chance = {
 		factor = 0
@@ -343,9 +337,7 @@ industry_row_completion2 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	rgo_goods_output = {
-		iron = 0.2
-	}
+	mine_rgo_eff = 0.15
 	
 	ai_chance = {
 		factor = 0
@@ -356,7 +348,7 @@ industry_row_completion3 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	supply_limit = 0.10
+	factory_cost = -0.20
 	
 	ai_chance = {
 		factor = 0
@@ -367,7 +359,9 @@ industry_row_completion4 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	reinforce_rate = 0.05
+	rgo_goods_output = {
+		silk = 0.5
+	}
 	
 	ai_chance = {
 		factor = 0
@@ -378,7 +372,7 @@ industry_row_completion5 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	increase_research = 0.1
+	supply_limit = 0.1
 	
 	ai_chance = {
 		factor = 0
@@ -390,7 +384,7 @@ industry_row_completion6 = {
 	cost = 1
 	unciv_military = yes
 	rgo_goods_output = {
-		iron = 0.2
+		oil = 0.1
 	}
 	
 	ai_chance = {
@@ -402,7 +396,6 @@ industry_row_completion7 = {
 	year = 2000
 	cost = 1
 	unciv_military = yes
-	supply_limit = 0.25
 	
 	ai_chance = {
 		factor = 0

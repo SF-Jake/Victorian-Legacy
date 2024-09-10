@@ -1788,6 +1788,9 @@ john_cena_cooldown = {
 army_row_completion2 = {
 	leadership = 0.05
 }
+culture_row_completion2 = {
+	core_pop_militancy_modifier = -0.05
+}
 culture_row_completion3 = {
 	land_unit_start_experience = 5
 }
@@ -1796,6 +1799,9 @@ commerce_row_completion4 = {
 }
 commerce_row_completion5 = {
 	pension_level = -0.5
+}
+industry_row_completion6 = {
+	global_population_growth = 0.01
 }
 
 #Bureaucrats Cooldown

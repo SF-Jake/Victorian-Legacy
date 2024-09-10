@@ -1664,6 +1664,7 @@ political_decisions = {
 					phenomenalism = 1
 					NOT = { culture_row_completion3 = 1 }
 				}
+				add_country_modifier = { name = culture_row_completion2 duration = -1 }
 				activate_technology = culture_row_completion3
 			}
 			any_country = {
@@ -1675,7 +1676,6 @@ political_decisions = {
 					experimental_psychology = 1
 					NOT = { culture_row_completion4 = 1 }
 				}
-				add_country_modifier = { name = culture_row_completion3 duration = -1 }
 				activate_technology = culture_row_completion4
 			}
 			any_country = {
@@ -1786,6 +1786,7 @@ political_decisions = {
 					modern_chemistry = 1
 					NOT = { industry_row_completion7 = 1 }
 				}
+				add_country_modifier = { name = industry_row_completion6 duration = -1 }
 				activate_technology = industry_row_completion7
 			}
 			any_country = {
