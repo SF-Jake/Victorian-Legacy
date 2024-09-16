@@ -13,9 +13,9 @@ This was a mod that I put together with a small discord community and we also pl
 
 This is to modify Victoria Universalis to Include more flavor and features from other mods like HFM to make it into a Multiplayer Mod. 
 This mod was Inspired by:
+- Igor by Nurse Reno
 - HFM by Sighpie
 - Victoria Universalis by Vic1984 
-- VictoriaUniversalisMP by Jaredd
 - Belle Carographie Pack Map Mod by rascalnag
 
 # Mod Features and Additions in Victorian Legacy
@@ -23,16 +23,6 @@ This mod was Inspired by:
 - This is just to make it so you don't have to scroll endlessly through all the Province Selector and Generic Decisions and any other nation flavor that may be there.
 
 ![Smaller Decisions Example](https://media.moddb.com/images/members/5/4563/4562559/profile/ScreenShot11.png)
-
-**Tariff Reforms**
-- Since Victoria Universalis had a limit on tariffs rather than being 100% tariffs allowed which now allows for the need to micro your country's spending rather than setting them to the max and calling it a day. Instead of bringing back the 100% tariffs, I replaced a set of reforms to allow for a tariff reform in which you can increase the max possible tariff percent.
-
-![Tariff Reforms Example](https://media.moddb.com/images/members/5/4563/4562559/profile/ScreenShot17.png)
-
-**General Staff**
-- General Staff is something that is more similar to Prussian General Staff but every nation receives this bonus as long as there civilized and fits the requirements of the decision.
-
-![General Staff Example](https://media.moddb.com/images/members/5/4563/4562559/profile/ScreenShot20.png)
 
 **Row Completion**
 - Row completion is a bonus that you receive on completing each row of tech in each section as shown in the image below the only way you receive the bonus is when you complete the National Idea tech under commerce which is one research point and easy to acquire. Not every row completion has a bonus but all of the first few row completion does have a bonus.
