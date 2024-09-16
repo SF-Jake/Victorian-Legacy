@@ -29,6 +29,15 @@ This mod was Inspired by:
 
 ![Row Completion Example](https://github.com/user-attachments/assets/90261069-4c6b-438b-8e7c-dc2ce1836966)
 
+**Province Selector and Province Specific Buildings**
+- Each Province is equiped with more buildings than vanilla victoria 2 and each provide bonuses to factory output or RGO output.
+
+![Province Window Example](https://github.com/user-attachments/assets/4c223a6c-269b-45ae-844f-8918e73cea57)
+
+- Province Selector is very similar to Universalis however its been reduced to make the mod less overwhelming/bloated.
+
+![Province Selector Example](https://github.com/user-attachments/assets/25a38197-3bf3-443b-ae49-7b9fc28acece)
+
 
 **Multiplayer Focused**
 - The goal of this mod is to try and focus on the overall balance of the mod towards a healthy multiplayer experience though along the way my updates will seem quite unbalanced and yes indeed I will make a mistake or typo somewhere and a modifier might have a 10% Population buff.
