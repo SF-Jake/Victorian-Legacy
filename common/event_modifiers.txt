@@ -1286,13 +1286,13 @@ haussmanns_renovations = {
 
 napoleon_iii = {
 	land_organisation = 0.15
-	mobilisation_size = 0.015
+	mobilisation_size = 0.01
 	prestige = 0.12
 	icon = 15
 }
 
 napoleon_iii_legacy = {
-	mobilisation_size = 0.01
+	mobilisation_size = 0.005
 	prestige = 0.5
 	icon = 15
 }
@@ -1759,14 +1759,6 @@ south_africa_immigrant_attract = {
 }
 
 #### General Staff Modifiers ####
-prussian_general_staff = {
-	org_regain = 0.1
-	land_organisation = 0.1
-	land_unit_start_experience = 5
-	reinforce_speed = 0.1
-	leadership = 2
-	icon = 15
-}
 prussian1_general_staff = {
 	org_regain = 0.1
 	land_organisation = 0.1
@@ -1944,7 +1936,7 @@ uk_nation_modifier = {
 	land_unit_start_experience = 2.5
 	navy_tech_research_bonus = 0.075
 	badboy = -0.03
-	#set_country_flag = craftsmen_bonus
+	factory_output = 0.1
 	icon = 25
 }
 
@@ -1953,7 +1945,7 @@ fra_nation_modifier = {
 	research_points_modifier = 0.075
 	#set_country_flag = army_nation_modifier
 	factory_output = 0.1
-	#set_country_flag = soldiers_bonus
+	industry_tech_research_bonus = 0.075
 	icon = 26
 }
 
@@ -1988,7 +1980,7 @@ tur_nation_modifier = {
 	naval_unit_start_experience = 2.5
 	research_points_modifier = 0.075
 	factory_output = 0.1
-	#set_country_flag = soldiers_bonus
+	mine_rgo_eff = 0.1
 	global_assimilation_rate = 1
 	icon = 30
 }
@@ -2007,7 +1999,7 @@ usa_nation_modifier = {
 	global_immigrant_attract = 0.5
 	industry_tech_research_bonus = 0.075
 	farm_rgo_eff = 0.1
-	#set_country_flag = craftsmen_bonus
+	mine_rgo_eff = 0.1
 	icon = 32
 }
 
@@ -2039,7 +2031,7 @@ net_nation_modifier = {
 	land_unit_start_experience = 2.5
 	naval_organisation = 0.05
 	mine_rgo_eff = 0.1
-	#set_country_flag = craftsmen_bonus
+	#set_country_flag = naval_nation_modifier
 	icon = 36
 }
 
@@ -2061,7 +2053,7 @@ com_nation_modifier = {
 chi_nation_modifier = {
 	farm_rgo_eff = 0.1
 	factory_output = 0.1
-	#set_country_flag = craftsmen_bonus
+	mine_rgo_eff = 0.1
 	icon = 39
 }
 
@@ -2089,14 +2081,14 @@ eth_nation_modifier = {
 per_nation_modifier = {
 	#set_country_flag = army_nation_modifier
 	mine_rgo_eff = 0.1
-	#set_country_flag = soldiers_bonus
+	army_tech_research_bonus = 0.075
 	icon = 43
 }
 
 col_nation_modifier = {
 	global_immigrant_attract = 0.15
 	culture_tech_research_bonus = 0.075
-	#set_country_flag = soldiers_bonus
+	army_tech_research_bonus = 0.075
 	icon = 44
 }
 

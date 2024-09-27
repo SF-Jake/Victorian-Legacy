@@ -677,6 +677,7 @@ country_event = {
 		NOT = { has_country_flag = pop_buff_gone }
 		tag = JAN
 		exists = NGF
+		NOT = { has_global_flag = disabled_nation_traditions }
 		NGF = { NOT = { has_country_modifier = pru_nation_modifier } }
 	}
 
@@ -694,6 +695,7 @@ country_event = {
 		NOT = { has_country_flag = pop_buff_gone }
 		tag = JAN
 		exists = GER
+		NOT = { has_global_flag = disabled_nation_traditions }
 		GER = { NOT = { has_country_modifier = pru_nation_modifier } }
 	}
 

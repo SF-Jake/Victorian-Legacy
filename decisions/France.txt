@@ -244,11 +244,11 @@ political_decisions = {
 			}
 			casus_belli = {
 				target = PRU
-				type = acquire_state
+				type = acquire_state_small
 				months = 1
 			}
 			prestige = 10
-			badboy = 4
+			badboy = 3
 			set_country_flag = crisis_on_the_rhine
 		}
 		ai_will_do = {

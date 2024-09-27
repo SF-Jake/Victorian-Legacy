@@ -272,6 +272,8 @@ political_decisions = {
 				set_country_flag = host_powers
 				country_event = 999991
 			}
+			clr_country_flag = host_powers
+			clr_country_flag = showing_host_decisions
 		}
 		ai_will_do = {
 			factor = 0
@@ -410,6 +412,206 @@ political_decisions = {
 		}
 		ai_will_do = {
 			factor = 0
+		}
+	}
+	enable_nation_traditions = {
+		potential = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_powers
+			has_global_flag = disabled_nation_traditions
+		}
+		allow = {
+
+		}
+		effect = {
+			ENG = {
+				add_country_modifier = { name = uk_nation_modifier duration = -1 }
+				set_country_flag = craftsmen_bonus
+			}
+			FRA = {
+				add_country_modifier = { name = fra_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+				set_country_flag = soldiers_bonus
+			}
+			PRU = {
+				add_country_modifier = { name = pru_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			AUS = {
+				add_country_modifier = { name = aus_nation_modifier duration = -1 }
+			}
+			SAR = {
+				add_country_modifier = { name = sar_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			TUR = {
+				add_country_modifier = { name = tur_nation_modifier duration = -1 }
+				set_country_flag = soldiers_bonus
+			}
+			RUS = {
+				add_country_modifier = { name = rus_nation_modifier duration = -1 }
+			}
+			USA = {
+				add_country_modifier = { name = usa_nation_modifier duration = -1 }
+				set_country_flag = craftsmen_bonus
+			}
+			JAP = {
+				activate_technology = military_staff_system
+				add_country_modifier = { name = jap_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+				set_country_flag = army_nation_modifier
+			}
+			SPA = {
+				add_country_modifier = { name = spa_nation_modifier duration = -1 }
+			}
+			KSN = {
+				add_country_modifier = { name = ksn_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			NET = {
+				add_country_modifier = { name = net_nation_modifier duration = -1 }
+				set_country_flag = craftsmen_bonus
+			}
+			BRZ = {
+				add_country_modifier = { name = brz_nation_modifier duration = -1 }
+			}
+			COM = {
+				add_country_modifier = { name = com_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			CHI = {
+				add_country_modifier = { name = chi_nation_modifier duration = -1 }
+				set_country_flag = craftsmen_bonus
+			}
+			MEX = {
+				add_country_modifier = { name = mex_nation_modifier duration = -1 }
+			}
+			ARG = {
+				add_country_modifier = { name = arc_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			PBC = {
+				add_country_modifier = { name = arc_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			SHW = {
+				add_country_modifier = { name = eth_nation_modifier duration = -1 }
+			}
+			PER = {
+				add_country_modifier = { name = per_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+				set_country_flag = soldiers_bonus
+			}
+			CLM = {
+				add_country_modifier = { name = col_nation_modifier duration = -1 }
+				set_country_flag = soldiers_bonus
+			}
+			SIA = {
+				add_country_modifier = { name = sia_nation_modifier duration = -1 }
+			}
+			POR = {
+				add_country_modifier = { name = por_nation_modifier duration = -1 }
+			}
+		}
+	}
+	disable_nation_traditions = {
+		potential = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_powers
+			NOT = { has_global_flag = disabled_nation_traditions }
+		}
+		allow = {
+
+		}
+		effect = {
+			set_global_flag = disabled_nation_traditions
+			ENG = {
+				remove_country_modifier = uk_nation_modifier
+				clr_country_flag = craftsmen_bonus
+			}
+			FRA = {
+				remove_country_modifier = fra_nation_modifier
+				clr_country_flag = army_nation_modifier
+				clr_country_flag = soldiers_bonus
+			}
+			PRU = {
+				remove_country_modifier = pru_nation_modifier
+				clr_country_flag = army_nation_modifier
+			}
+			AUS = {
+				remove_country_modifier = aus_nation_modifier
+			}
+			SAR = {
+				remove_country_modifier = sar_nation_modifier
+				clr_country_flag = naval_nation_modifier
+			}
+			TUR = {
+				remove_country_modifier = tur_nation_modifier
+				clr_country_flag = soldiers_bonus
+			}
+			RUS = {
+				remove_country_modifier = rus_nation_modifier
+			}
+			USA = {
+				remove_country_modifier = usa_nation_modifier
+				clr_country_flag = craftsmen_bonus
+			}
+			JAP = {
+				remove_country_modifier = jap_nation_modifier
+				clr_country_flag = naval_nation_modifier
+				clr_country_flag = army_nation_modifier
+			}
+			SPA = {
+				remove_country_modifier = spa_nation_modifier
+			}
+			KSN = {
+				remove_country_modifier = ksn_nation_modifier
+				clr_country_flag = naval_nation_modifier
+			}
+			NET = {
+				remove_country_modifier = net_nation_modifier
+				clr_country_flag = craftsmen_bonus
+			}
+			BRZ = {
+				remove_country_modifier = brz_nation_modifier
+			}
+			COM = {
+				remove_country_modifier = com_nation_modifier
+				clr_country_flag = naval_nation_modifier
+			}
+			CHI = {
+				remove_country_modifier = chi_nation_modifier
+				clr_country_flag = craftsmen_bonus
+			}
+			MEX = {
+				remove_country_modifier = mex_nation_modifier
+			}
+			ARG = {
+				remove_country_modifier = arc_nation_modifier
+				clr_country_flag = army_nation_modifier
+			}
+			PBC = {
+				remove_country_modifier = arc_nation_modifier
+				clr_country_flag = army_nation_modifier
+			}
+			SHW = {
+				remove_country_modifier = eth_nation_modifier
+			}
+			PER = {
+				remove_country_modifier = per_nation_modifier
+				clr_country_flag = army_nation_modifier
+				clr_country_flag = soldiers_bonus
+			}
+			CLM = {
+				remove_country_modifier = col_nation_modifier
+				clr_country_flag = soldiers_bonus
+			}
+			SIA = {
+				remove_country_modifier = sia_nation_modifier
+			}
+			POR = {
+				remove_country_modifier = por_nation_modifier
+			}
 		}
 	}
 }

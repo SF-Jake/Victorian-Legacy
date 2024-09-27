@@ -1075,12 +1075,10 @@ political_decisions = {
 			add_country_modifier = { name = banker_income_timer duration = 5 }
 			ENG = {
 				add_country_modifier = { name = uk_nation_modifier duration = -1 }
-				set_country_flag = craftsmen_bonus
 			}
 			FRA = {
 				add_country_modifier = { name = fra_nation_modifier duration = -1 }
 				set_country_flag = army_nation_modifier
-				set_country_flag = soldiers_bonus
 			}
 			PRU = {
 				add_country_modifier = { name = pru_nation_modifier duration = -1 }
@@ -1095,14 +1093,12 @@ political_decisions = {
 			}
 			TUR = {
 				add_country_modifier = { name = tur_nation_modifier duration = -1 }
-				set_country_flag = soldiers_bonus
 			}
 			RUS = {
 				add_country_modifier = { name = rus_nation_modifier duration = -1 }
 			}
 			USA = {
 				add_country_modifier = { name = usa_nation_modifier duration = -1 }
-				set_country_flag = craftsmen_bonus
 			}
 			JAP = {
 				activate_technology = military_staff_system
@@ -1119,7 +1115,7 @@ political_decisions = {
 			}
 			NET = {
 				add_country_modifier = { name = net_nation_modifier duration = -1 }
-				set_country_flag = craftsmen_bonus
+				set_country_flag = naval_nation_modifier
 			}
 			BRZ = {
 				add_country_modifier = { name = brz_nation_modifier duration = -1 }
@@ -1130,7 +1126,6 @@ political_decisions = {
 			}
 			CHI = {
 				add_country_modifier = { name = chi_nation_modifier duration = -1 }
-				set_country_flag = craftsmen_bonus
 			}
 			MEX = {
 				add_country_modifier = { name = mex_nation_modifier duration = -1 }
@@ -1149,11 +1144,9 @@ political_decisions = {
 			PER = {
 				add_country_modifier = { name = per_nation_modifier duration = -1 }
 				set_country_flag = army_nation_modifier
-				set_country_flag = soldiers_bonus
 			}
 			CLM = {
 				add_country_modifier = { name = col_nation_modifier duration = -1 }
-				set_country_flag = soldiers_bonus
 			}
 			SIA = {
 				add_country_modifier = { name = sia_nation_modifier duration = -1 }
