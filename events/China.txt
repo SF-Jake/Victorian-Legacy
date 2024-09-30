@@ -426,6 +426,46 @@ country_event = {
 	}
 
 	immediate = {
+		any_owned = {
+			limit = { is_core = SXI }
+			remove_core = SXI
+		}
+		any_owned = {
+			limit = { is_core = XBI }
+			remove_core = XBI
+		}
+		any_owned = {
+			limit = { is_core = XIN }
+			remove_core = XIN
+		}
+		any_owned = {
+			limit = { is_core = MCK }
+			remove_core = MCK
+		}
+		any_owned = {
+			limit = { is_core = HNN }
+			remove_core = HNN
+		}
+		any_owned = {
+			limit = { is_core = GXI }
+			remove_core = GXI
+		}
+		any_owned = {
+			limit = { is_core = GNG }
+			remove_core = GNG
+		}
+		any_owned = {
+			limit = { is_core = HUI }
+			remove_core = HUI
+		}
+		any_owned = {
+			limit = { is_core = SZC }
+			remove_core = SZC
+		}
+		any_owned = {
+			limit = { is_core = YNN }
+			remove_core = YNN
+		}
 		CHI_1576 = { add_core = SXI }
 		CHI_2062 = { add_core = SXI }
 		CHI_1490 = { add_core = XBI }
@@ -449,6 +489,7 @@ country_event = {
 		CHI_1607 = { add_core = GNG }
 		CHI_2562 = { add_core = GNG }
 		CHI_1547 = { add_core = GNG }
+		CHI_1487 = { add_core = GNG }
 		1500 = { add_core = GNG }
 		1607 = { add_core = GNG }
 		1610 = { add_core = GNG }
@@ -458,6 +499,9 @@ country_event = {
 		CHI_2221 = { add_core = HUI }
 		CHI_1536 = { add_core = HUI }
 		CHI_1472 = { add_core = HUI }
+		CHI_1539 = { add_core = HUI }
+		CHI_1537 = { add_core = HUI }
+		CHI_1542 = { add_core = HUI }
 		1509 = { add_core = HUI }
 		1512 = { add_core = HUI }
 		1606 = { add_core = HUI }
@@ -474,7 +518,6 @@ country_event = {
 					province_id = 2615
 					province_id = 1498
 					province_id = 1496
-					province_id = 2701
 				}
 			}
 			 add_core = GNG
@@ -1825,7 +1868,6 @@ country_event = {
 	title = "EVTNAME90810"
 	desc = "EVTDESC90810"
 	
-	fire_only_once = yes
 	major = yes
 	
 	trigger = {
@@ -1837,6 +1879,46 @@ country_event = {
 	}
 
 	immediate = {
+		any_owned = {
+			limit = { is_core = SXI }
+			remove_core = SXI
+		}
+		any_owned = {
+			limit = { is_core = XBI }
+			remove_core = XBI
+		}
+		any_owned = {
+			limit = { is_core = XIN }
+			remove_core = XIN
+		}
+		any_owned = {
+			limit = { is_core = MCK }
+			remove_core = MCK
+		}
+		any_owned = {
+			limit = { is_core = HNN }
+			remove_core = HNN
+		}
+		any_owned = {
+			limit = { is_core = GXI }
+			remove_core = GXI
+		}
+		any_owned = {
+			limit = { is_core = GNG }
+			remove_core = GNG
+		}
+		any_owned = {
+			limit = { is_core = HUI }
+			remove_core = HUI
+		}
+		any_owned = {
+			limit = { is_core = SZC }
+			remove_core = SZC
+		}
+		any_owned = {
+			limit = { is_core = YNN }
+			remove_core = YNN
+		}
 		CHI_1576 = { add_core = SXI }
 		CHI_2062 = { add_core = SXI }
 		CHI_1490 = { add_core = XBI }
@@ -1860,6 +1942,7 @@ country_event = {
 		CHI_1607 = { add_core = GNG }
 		CHI_2562 = { add_core = GNG }
 		CHI_1547 = { add_core = GNG }
+		CHI_1487 = { add_core = GNG }
 		1500 = { add_core = GNG }
 		1607 = { add_core = GNG }
 		1610 = { add_core = GNG }
@@ -1869,6 +1952,9 @@ country_event = {
 		CHI_2221 = { add_core = HUI }
 		CHI_1536 = { add_core = HUI }
 		CHI_1472 = { add_core = HUI }
+		CHI_1539 = { add_core = HUI }
+		CHI_1537 = { add_core = HUI }
+		CHI_1542 = { add_core = HUI }
 		1509 = { add_core = HUI }
 		1512 = { add_core = HUI }
 		1606 = { add_core = HUI }
@@ -1885,7 +1971,6 @@ country_event = {
 					province_id = 2615
 					province_id = 1498
 					province_id = 1496
-					province_id = 2701
 				}
 			}
 			 add_core = GNG

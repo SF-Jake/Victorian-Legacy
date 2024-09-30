@@ -247,7 +247,6 @@ political_decisions = {
 		potential = {
 			tag = COM
 			NOT = { has_country_flag = commonwealth_confederation }
-			government = colonial_company
 		}
 
 		allow = {

@@ -913,7 +913,7 @@ political_decisions = {
 		potential = {
 			tag = CHI
 			civilized = yes
-			tech_school = china_tech_school_tier1
+			tech_school = chinese_tech_school_tier1
 		}
 		
 		allow = {
@@ -921,7 +921,7 @@ political_decisions = {
 		}
 		effect = {
 			money = -2000000
-			tech_school = china_tech_school_tier2
+			tech_school = chinese_tech_school_tier2
 		}
 	}
 	china_tech_school_tier3 = {
@@ -929,7 +929,7 @@ political_decisions = {
 		potential = {
 			tag = CHI
 			civilized = yes
-			tech_school = china_tech_school_tier2
+			tech_school = chinese_tech_school_tier2
 		}
 		
 		allow = {
@@ -941,8 +941,9 @@ political_decisions = {
 			}
 		}
 		effect = {
-			money = -2250000
-			tech_school = china_tech_school_tier3
+			money = -2000000
+			money = -250000
+			tech_school = chinese_tech_school_tier3
 		}
 	}
 	china_tech_school_tier4 = {
@@ -950,19 +951,21 @@ political_decisions = {
 		potential = {
 			tag = CHI
 			civilized = yes
-			tech_school = china_tech_school_tier3
+			tech_school = chinese_tech_school_tier3
 		}
 		
 		allow = {
 			money = 2500000
+
 			OR = {
 				school_reforms = good_schools
 				school_reforms = compulsory_schools
 			}
 		}
 		effect = {
-			money = -2500000
-			tech_school = china_tech_school_tier4
+			money = -2000000
+			money = -500000
+			tech_school = chinese_tech_school_tier4
 		}
 	}
 }
