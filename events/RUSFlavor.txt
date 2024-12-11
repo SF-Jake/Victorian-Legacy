@@ -440,9 +440,13 @@ country_event = {
 			factor = 99
 		}
 	}
+
+	option = {
+		name = "We Reject this Treaty"
 		ai_chance = {
 			factor = 1
 		}
+	}
 }
 
 # China refuses

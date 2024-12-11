@@ -75,7 +75,7 @@ govt_flag =
 	nationalvalue = nv_order
 	literacy = 0.04
 	non_state_culture_literacy = 0.04
-	schools = chinese_tech_school_tier1
+	schools = chinese_tech_school
 	decision = chinese_setup
 
 	# Political Reforms
@@ -219,12 +219,10 @@ govt_flag =
 		medicine = 1
 		inorganic_chemistry = 1
 		organic_chemistry = 1
-		post_nelsonian_thought = 1
-		battleship_column_doctrine = 1
+		post_nelsonian_thought = 1 
 		raider_group_doctrine = 1
 		blue_and_brown_water_schools = 1
-		clipper_design = 1
-		steamers = 1
+		clipper_design = 1 
 		iron_steamers = 1
 		steel_steamers = 1
 		naval_design_bureaus = 1

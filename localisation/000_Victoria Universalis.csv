@@ -100,21 +100,22 @@ republican_rebels_name;Republican Rebels;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 republican_rebels_desc;Republicans are staunch liberals who oppose monarchism and foreign intervention of any kind. When they take over the capital, they will turn the country into a democracy.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 republican_rebels_army;Republican Rebels;;;;;;;;;;;;;;;;;;;x;;;;
 IS_NOT_RELIGION;The state religion is NOT;;;;;;;;;;;;;;;;;;x;;;;
-monitor;Monitor §B(Light Ship);;;;;;;;;;;;;;x;;;;
+monitor;Monitor;;;;;;;;;;;;;;x;;;;
 monitor_short;SS;;;;;;;;;;;;;;;;x;;;;
-clipper_transport;Clipper Transport §R(Heavy Ship);;;;;;;;;;;;;;x;;;;
-steam_transport;Steam Transport §R(Heavy Ship);;;;;;;;;;;;;;x;;;;
-frigate;Frigate §B(Light Ship);;;;;;;;;;;;;;x;;;;
-manowar;Man'o'war §R(Heavy Ship);;;;;;;;;;;;;;x;;;;
-commerce_raider;Torpedo Boat §B(Light Ship);;;;;;;;;;;;;;x;;;;
-ironclad;Ironclad §R(Heavy Ship);;;;;;;;;;;;;;x;;;;
-cruiser;Cruiser §B(Light Ship);;;;;;;;;;;;;;x;;;;
-battleship;Battleship §R(Heavy Ship);;;;;;;;;;;;;;x;;;;
-dreadnought;Dreadnought §R(Heavy Ship);;;;;;;;;;;;;;x;;;;
-carrier;Aircraft Carrier §R(Heavy Ship);;;;;;;;;;;;;;x;;;;
+clipper_transport;Clipper Transport;;;;;;;;;;;;;;x;;;;
+steam_transport;Steam Transport;;;;;;;;;;;;;;x;;;;
+iron_steamer;Iron Steamer;;;;;;;;;;;;;;x;;;;
+frigate;Frigate;;;;;;;;;;;;;;x;;;;
+manowar;Man'o'war;;;;;;;;;;;;;;x;;;;
+commerce_raider;Commerce Raider;;;;;;;;;;;;;;x;;;;
+ironclad;Ironclad;;;;;;;;;;;;;;x;;;;
+cruiser;Cruiser;;;;;;;;;;;;;;x;;;;
+battleship;Battleship;;;;;;;;;;;;;;x;;;;
+dreadnought;Dreadnought;;;;;;;;;;;;;;x;;;;
+carrier;Aircraft Carrier;;;;;;;;;;;;;;x;;;;
 submarines;Submarines;;;;;;;;;;;;;;x;;;;
 submarines_desc;A submarine is a watercraft capable of independent operation underwater. Their primary role was anti-surface ship warfare which they accomplished either on the surface, using deck guns or submerged, using torpedoes.;;;;;;;;;;;;;;x;;;;
-VU_NAME;Multiplayer Grand Campaign;;;;;;;;;;;;;;x;;;;
+VU_NAME;Multiplayer Grand campaign;§GCost to do Campaign:;;;;;;;;;;;;;x;;;;
 VU_DESC;This scenario has 26% less individual starting POPs and half as many cultures for increased stability. Countries with primary cultures that were eliminated have been giving new primary cultures.;;;;;;;;;;;;;;x;;;;
 WW1_NAME;The Great War;;;;;;;;;;;;;;
 WW1_DESC;On 28 June 1914, Gavrilo Princip, a Serbian nationalist, assassinated the Austro-Hungarian heir Archduke Franz Ferdinand in Sarajevo. In response, on 23 July, Austria-Hungary issued an ultimatum to Serbia. Serbia's reply failed to satisfy the Austrians, and the two moved to a war footing. Russia and France quickly mobilized to support Serbia while Germany mobilized in support of Austria-Hungary. On 3 August, Germany invaded Belgium in accordance with the Schlieffen plan of knocking out France in a quick surprise attack. The invasion of Belgium brought the United Kingdom into the war on the side of France and Russia, who had formed the Allied Powers. The Ottomans soon joined on the side of Germany and Austria and together they formed the Central Powers. Europe finds itself engulfed in the greatest war the world has ever seen, can you lead your side to victory in the war to end all wars?;;;;;;;;;;;;;;
@@ -333,7 +334,7 @@ PROV2692;Sumy;;;;;;;;;;;;;x
 PROV2693;Rezekne;;;;;;;;;;;;;x
 PROV2701;Hulunbuir;;;;;;;;;;;;;x
 PROV3249;Tsushima;;;;;;;;;;;;;x
-MEX_94;Nevada;;;;;;;;;;;;;x
+MEX_94;Nevada-Utah;;;;;;;;;;;;;x
 MEX_97;Utah;;;;;;;;;;;;;x
 AUS_627;Sudetenland;;;;;;;;;;;;;x
 AUS_631;Moravia;;;;;;;;;;;;;x
@@ -700,6 +701,7 @@ EVTNAME2561;Defeat in $FROMCOUNTRY_ADJ$ War of Independence;;;;;;;;;;;;;;;x
 EVTDESC2561;We could not restore order in $FROMCOUNTRY$ and as a result we have lost all claims on them.;;;;;;;;;;;;;;;x
 EVTOPTA2561;Damn.;;;;;;;;;;;;;;;x
 unciv_research_points_on_conquer;Research Points From Conquest Bonus;;;;;;;;;;;;;;;x
+unciv_research_points_on_conquer_china;Research Points From Conquest Bonus;;;;;;;;;;;;;;;x
 tiny_nation;Tiny Nation;;;;;;;;;;;;;x
 small_nation;Small Nation;;;;;;;;;;;;;x
 medium_nation;Medium Nation;;;;;;;;;;;;;x
@@ -736,10 +738,6 @@ save_the_nation3.5_china;Revanchism;;;;;;;;;;;;;x
 save_the_nation4_china;Revanchism;;;;;;;;;;;;;x
 save_the_nation4.5_china;Revanchism;;;;;;;;;;;;;x
 save_the_nation5_china;Revanchism;;;;;;;;;;;;;x
-one_year_draft;One Year Draft;;;;;;;;;;;;;x
-two_year_draft;Two Year Draft;;;;;;;;;;;;;x
-four_year_draft;Four Year Draft;;;;;;;;;;;;;x
-mandatory_service;Mandatory Service;;;;;;;;;;;;;x
 regionalism;Regionalism;;;;;;;;;;;;;x
 totalitarianism;Totalitarianism;;;;;;;;;;;;;x
 confederalism;Confederalism;;;;;;;;;;;;;x
@@ -1016,43 +1014,43 @@ zcountry_communist_change_ideology_title;§YSpread Ideology;;;;;;;;;x;;;;
 zcountry_communist_change_ideology_desc;Adds a +0.1 militancy modifier and large population drift towards the chosen ideology.;;;;;;;;;x;;;;
 zcountry_fascist_change_ideology_title;§YSpread Ideology;;;;;;;;;x;;;;
 zcountry_fascist_change_ideology_desc;Adds a +0.1 militancy modifier and large population drift towards the chosen ideology.;;;;;;;;;x;;;;
-zstate_literacy_campaign_title;§GLiteracy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_title;§GLiteracy campaign;§GCost to do Campaign:;;;;;;;;x;;;;
 zstate_literacy_campaign_desc;Increases the literacy of the selected state at the cost of 100,000 pounds per every 100k population in the state rounded up. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. Can only use once on the same state every 15 years.;;;;;;;;;x;;;;
-zstate_literacy_campaign_100k_title;§G0-100k State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_100k_title;§G0-100k State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_100k_desc;Costs 100,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_200k_title;§G100k-200k State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_200k_title;§G100k-200k State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_200k_desc;Costs 200,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_300k_title;§G200k-300k State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_300k_title;§G200k-300k State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_300k_desc;Costs 300,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_400k_title;§G300k-400k State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_400k_title;§G300k-400k State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_400k_desc;Costs 400,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_500k_title;§G400k-500k State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_500k_title;§G400k-500k State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_500k_desc;Costs 500,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_600k_title;§G500k-600k State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_600k_title;§G500k-600k State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_600k_desc;Costs 600,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_700k_title;§G600k-700k State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_700k_title;§G600k-700k State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_700k_desc;Costs 700,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_800k_title;§G700k-800k State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_800k_title;§G700k-800k State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_800k_desc;Costs 800,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_900k_title;§G800k-900k State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_900k_title;§G800k-900k State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_900k_desc;Costs 900,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_1M_title;§G900k-1M State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_1M_title;§G900k-1M State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_1M_desc;Costs 1,000,000 pounds to increase the literacy of the selected state by 10% and adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_1.2M_title;§G1M-1.2M State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_1.2M_title;§G1M-1.2M State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_1.2M_desc;Costs 1,200,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_1.4M_title;§G1.2M-1.4M State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_1.4M_title;§G1.2M-1.4M State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_1.4M_desc;Costs 1,400,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_1.6M_title;§G1.4M-1.6M State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_1.6M_title;§G1.4M-1.6M State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_1.6M_desc;Costs 1,600,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_1.8M_title;§G1.6M-1.8M State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_1.8M_title;§G1.6M-1.8M State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_1.8M_desc;Costs 1,800,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_2M_title;§G1.8M-2M State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_2M_title;§G1.8M-2M State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_2M_desc;Costs 2,000,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state..;;;;;;;;;x;;;;
-zstate_literacy_campaign_2.5M_title;§G2M-2.5M State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_2.5M_title;§G2M-2.5M State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_2.5M_desc;Costs 2,500,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_3M_title;§G2.5M-3M State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_3M_title;§G2.5M-3M State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_3M_desc;Costs 3,000,000 pounds to increase the literacy of POPs in the selected state based on a sliding scale. <20% literacy POPs will get a 10% boost, 20-40% get 8%, 40-60% get 6%, 60-80% get 4%, 80%+ get 2%. adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
-zstate_literacy_campaign_3M+_title;§G3M+ State Literacy Campaign;;;;;;;;;x;;;;
+zstate_literacy_campaign_3M+_title;§G3M+ State Literacy campaign;;;;;;;;;x;;;;
 zstate_literacy_campaign_3M+_desc;Costs 4,000,000 pounds to increase the literacy of the selected state by 10% and adds a 15 year cooldown timer for that state.;;;;;;;;;x;;;;
 state_assimilation_title;State Scope: Assimilation;;;;;;;;;x;;;;
 state_assimilation_desc;Adds a 300% assimilation rate bonus to the given state for 10 years. Cannot use on colonial states. Assimilation rate and assimilation chance are different variables, if a POPs assimilation chance is 0 it will not assimilate. Hover your mouse over the nationality of a POP in the population tab to see its individual assimilation chance.;;;;;;;;;x;;;;
@@ -1464,7 +1462,7 @@ baby_booming;Baby Booming;;;;;;;;;;;;;x
 baby_booming_desc;Baby boom cooldown timer.;;;;;;;;;;;;;x
 blood_and_iron;Blood and Iron;;;;;;;;;;;;;x
 blood_and_iron_desc;Blood and iron RGO timer.;;;;;;;;;;;;;x
-literacy_campaign;Literacy Campaign;;;;;;;;;;;;;x
+literacy_campaign;Literacy campaign;;;;;;;;;;;;;x
 small_baby_boom;Small Baby Boom;;;;;;;;;;;;;x
 agriculture_expansion;Agriculture Expansion;;;;;;;;;;;;;x
 mine_expansion;Mine Expansion;;;;;;;;;;;;;x
@@ -3016,16 +3014,6 @@ EVTNAME37230;The Treaty of Tafna;;;;;;;;;;;;;
 EVTDESC37230;After a series of heavy losses and military reversals in Algeria, public opinion on the war has soured, and there have been talks of a negotiated peace with Emir Abdelkader of Mascara in which Abdelkader would officially recognize French imperial sovereignty in Africa. However, the price for such recognition would be the secession of approximately two thirds of Algeria to Abdelkader, leaving us with a few coastal ports.;;;;;;;;;;;;;
 EVTOPTA37230;Sign the treay.;;;;;;;;;;;;;
 EVTOPTB37230;Finish the conquest of Algeria.;;;;;;;;;;;;;
-russia_tech_school_tier1;Russian No School Reform 1/4;;;;;;;;;;;;;
-russia_tech_school_tier2;Russian Basic School Reform 2/4;;;;;;;;;;;;;
-russia_tech_school_tier2_title;Russian Basic School Reform 2/4;;;;;;;;;;;;;
-russia_tech_school_tier2_desc;Perform mass reform to the schools in Russia;;;;;;;;;;;;;
-russia_tech_school_tier3;Russian Acceptable School Reform 3/4;;;;;;;;;;;;;
-russia_tech_school_tier3_title;Russian Acceptable School Reform 3/4;;;;;;;;;;;;;
-russia_tech_school_tier3_desc; ;;;;;;;;;;;;;
-russia_tech_school_tier4;Russian Good School Reform 4/4;;;;;;;;;;;;;
-russia_tech_school_tier4_title;Russian Good School Reform 4/4;;;;;;;;;;;;;
-russia_tech_school_tier4_desc; ;;;;;;;;;;;;;
 hungarian_revolution_1848;Hungarian Revolution of 1848;;;;;;;;;;;;;
 integrate_turkmen_title;Naser al-Din Shah Qajar Reforms;;;;;;;;;;;;;
 integrate_turkmen_desc; ;;;;;;;;;;;;;
@@ -3095,7 +3083,7 @@ education_china_reforms;Education Buff;;;;;;;;;;;;;x,,,,,
 education_china_reforms_desc;It is time that we helped are people learn the new ways of the west;;;;;;;;;;;;;x,,,,,
 aragon_italy_part1_title;Integrate the Catalonians (Path 2);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 aragon_italy_part1;Integrate the Catalonians;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-aragon_italy_part1_desc; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+aragon_italy_part1_desc; Day Baby Boom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 merge_the_crowns_ari_title;Proclaim the kingdom of Aragon-Italy (Path 2);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 merge_the_crowns_ari_desc;For centuries now, the crown of Aragon has been a dominant power on the Italian peninsula. We are now strong enough to strengthen our rule over Italy and proclaim the Dual Kingdom of Aragon and Italy! But let us beware, the other European Great Powers might not take the news kindly...;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ARI;Aragon-Italy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3349,7 +3337,7 @@ demand_concession_casus_belli_exception_desc;Demand a §Ystate§W concession.;;;;;
 demand_concession_casus_belli_exception_setup;Demand that $RECIPIENT$ cede its state.;;;;;;;;;;;
 mexican_american_war_title;Mexican American War;;;;;;;;;;;
 mexican_american_war_desc;To bring civilization from coast to shining coast has always been the grand mission of our great republic. Let the Eagle spread its wings.;;;;;;;;;;;
-PRO;§WProvince RGO Expansion Flag\n§YIn Victoria 2, when a province changes owners, all old province modifiers are automatically removed. This flag allows RGO expansions to be remembered and transferred if a province changes ownership.;;;;;;;;;;;;;x
+PRO;§WProvince Tooltip\n;;;;;;;;;;;;;x
 #############State Nations (Pero Credit)##############;;;;;;;;;;;;;;x
 SMA;§YSmall State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 400k pops.;;;;;;;;;;;;;x
 MED;§YMedium State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 700k pops.;;;;;;;;;;;;;x
@@ -3393,7 +3381,7 @@ bengali;Bengali;Bengali;Bengalisch;;Bengalí;;;;;;;;;x;;;;
 guarani;Guarani;Guarani;Guaranisch;;Guaraní;;;;;;;;;x;;;;
 panjabi;Panjabi;Penjabi;Pundschabisch;;Panjabí;;;;;;;;;x;;;;
 anglo;Anglo;;;;;;;;;;;;;x;;;;
-EVTDESC92101;§B1.§b Adds bonus interal migration attraction to province.\n\n§B2.§b Cancels bonus migration attraction to province.\n\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 50k per 100k POPs rounded up.\n\n§B5.§b Changes farm RGO. Adds a debuff for 15 years, costs 200k per 100k POPs in province rounded up.\n\n§B6.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n\n§B7.§b Resets province selector.;;;;;;;;;;;;;x
+EVTDESC92101;§B1.§b Adds bonus interal migration attraction to province.\n\n§B2.§b Cancels bonus migration attraction to province.\n\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 50k per 100k POPs rounded up.\n\n§B5.§b Changes farm RGO. Adds a debuff for 15 years, costs 200k per 100k POPs in province rounded up.\n\n§B6.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n\n§B7.§b Convert Asian State to Colony.\n\n§B8.§b Resets province selector.;;;;;;;;;;;;;x
 horse_artillery;Horse Artillery;;;;;;;;;;;;;;;;x;;;;
 capital_supply_depot;Capital Supply Depot\n§WCapital Supply Depots will not be destroyed unless the capital is moved somewhere else.;;;;;;;;;;;;;x
 SMA;§YSmall State CB Flag\n§WThis flag enables the Acquire Small State CB to be used against this state and is automatically added to all states with less than 150K population before 1860, less than 200k between 1860-1885, less than 300k between 1885-1910, and less than 450k after 1910. When this state's population rises above the small state threshold this flag will be removed at the start of the following year. §RSmall State CB cannot be used on capital states or uncivilized Sub-Saharan African nations.;;;;;;;;;;;;;x
@@ -3571,7 +3559,7 @@ is_mobbed7_desc;§REvery half year from now you will inccur higher penalties unle
 is_mobbed8;Peace Time Mobilization 7;;;;;;;;;;;;x
 is_mobbed8_desc;§REvery half year from now you will inccur higher penalties unless you demobilize or start a war. Max tier modifier reached. (...);;;;;;;;;;;;x
 row_completion;Row Completion;;;;;;;;;;;;x
-chinese_tech_school_tier1;Chinese No School Reform 1/4;;;;;;;;;;;;;
+chinese_tech_school_tier1;Chinese Tech School;;;;;;;;;;;;;
 chinese_tech_school_tier2;Chinese Basic School Reform 2/4;;;;;;;;;;;;;
 chinese_tech_school_tier3;Chinese Acceptable School Reform 3/4;;;;;;;;;;;;;
 chinese_tech_school_tier4;Chinese Good School Reform 4/4;;;;;;;;;;;;;
@@ -3648,6 +3636,112 @@ skyscrapers_desc;A skyscraper is a tall continuously habitable building having m
 airport;Airport;;;;;;;;;;;;;;
 airport_desc;An airport is an aerodrome with extended facilities, mostly for commercial air transport. Airports usually consist of a landing area, which comprises an aerially accessible open space including at least one operationally active surface such as a runway for a plane to take off and to land.;;;;;;;;;;;;;;;;;;;;;;;;;
 enable_nation_traditions_title;Enable Nation Traditions;;;;;;;;;;;;;;
-enable_nation_traditions_desc; ;;;;;;;;;;;;;;
+enable_nation_traditions_desc; Day Baby Boom;;;;;;;;;;;;;;
 disable_nation_traditions_title;Disable Nation Traditions;;;;;;;;;;;;;;
 disable_nation_traditions_desc;§RWARNING If you disable nation traditions all nations will receive a -5% Consumption Decrease.;;;;;;;;;;;;;;
+warning_will_remove_other_depot;\n§RWARNING§W Will remove previous depot modifier;;;;;;;;;;;;;;
+cost_500k;\n§GCost to Build: 500k§W;;;;;;;;;;;;;;
+broke_500k;\n§RYou Don't have enough Funds: 500K§W;;;;;;;;;;;;;;
+0k_pop_lit_campaign;§GCost to do Campaign: 25K§W;;;;;;;;;;;;;;
+50k_pop_lit_campaign;§GCost to do Campaign: 50K§W;;;;;;;;;;;;;;
+100k_pop_lit_campaign;§GCost to do Campaign: 100K§W;;;;;;;;;;;;;;
+200k_pop_lit_campaign;§GCost to do Campaign: 150K§W;;;;;;;;;;;;;;
+300k_pop_lit_campaign;§GCost to do Campaign: 200K§W;;;;;;;;;;;;;;
+400k_pop_lit_campaign;§GCost to do Campaign: 250K§W;;;;;;;;;;;;;;
+500k_pop_lit_campaign;§GCost to do Campaign: 300K§W;;;;;;;;;;;;;;
+600k_pop_lit_campaign;§GCost to do Campaign: 350K§W;;;;;;;;;;;;;;
+700k_pop_lit_campaign;§GCost to do Campaign: 400K§W;;;;;;;;;;;;;;
+800K_pop_lit_campaign;§GCost to do Campaign: 450K§W;;;;;;;;;;;;;;
+900K_pop_lit_campaign;§GCost to do Campaign: 500K§W;;;;;;;;;;;;;;
+1M_pop_lit_campaign;§GCost to do Campaign: 600K§W;;;;;;;;;;;;;;
+1_2M_pop_lit_campaign;§GCost to do Campaign: 700K§W;;;;;;;;;;;;;;
+1_4M_pop_lit_campaign;§GCost to do Campaign: 800K§W;;;;;;;;;;;;;;
+1_6M_pop_lit_campaign;§GCost to do Campaign: 900K§W;;;;;;;;;;;;;;
+1_8M_pop_lit_campaign;§GCost to do Campaign: 1M§W;;;;;;;;;;;;;;
+2M_pop_lit_campaign;§GCost to do Campaign: 1.1M§W;;;;;;;;;;;;;;
+2_2M_pop_lit_campaign;§GCost to do Campaign: 1.2§W;;;;;;;;;;;;;;
+2_4M_pop_lit_campaign;§GCost to do Campaign: 1.3M§W;;;;;;;;;;;;;;
+2_6M_pop_lit_campaign;§GCost to do Campaign: 1.4M§W;;;;;;;;;;;;;;
+2_8M_pop_lit_campaign;§GCost to do Campaign: 1.5M§W;;;;;;;;;;;;;;
+3M_pop_lit_campaign;§GCost to do Campaign: 1.6M§W;;;;;;;;;;;;;;
+3_2M_pop_lit_campaign;§GCost to do Campaign: 1.7M§W;;;;;;;;;;;;;;
+3_4M_pop_lit_campaign;§GCost to do Campaign: 1.8M§W;;;;;;;;;;;;;;
+3_6M_pop_lit_campaign;§GCost to do Campaign: 1.9M§W;;;;;;;;;;;;;;
+3_8M_pop_lit_campaign;§GCost to do Campaign: 2M§W;;;;;;;;;;;;;;
+0k_pop_lit_campaign_broke;§RNot enough funds for Campaign: 25K§W;;;;;;;;;;;;;;
+50k_pop_lit_campaign_broke;§RNot enough funds for Campaign: 50K§W;;;;;;;;;;;;;;
+100k_pop_lit_campaign_broke;§RNot enough funds for Campaign: 100K§W;;;;;;;;;;;;;;
+200k_pop_lit_campaign_broke;§RNot enough funds for Campaign: 150K§W;;;;;;;;;;;;;;
+300k_pop_lit_campaign_broke;§RNot enough funds for Campaign: 200K§W;;;;;;;;;;;;;;
+400k_pop_lit_campaign_broke;§RNot enough funds for Campaign: 250K§W;;;;;;;;;;;;;;
+500k_pop_lit_campaign_broke;§RNot enough funds for Campaign: 300K§W;;;;;;;;;;;;;;
+600k_pop_lit_campaign_broke;§RNot enough funds for Campaign: 350K§W;;;;;;;;;;;;;;
+700k_pop_lit_campaign_broke;§RNot enough funds for Campaign: 400K§W;;;;;;;;;;;;;;
+800K_pop_lit_campaign_broke;§RNot enough funds for Campaign: 450K§W;;;;;;;;;;;;;;
+900K_pop_lit_campaign_broke;§RNot enough funds for Campaign: 500K§W;;;;;;;;;;;;;;
+1M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 600K§W;;;;;;;;;;;;;;
+1_2M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 700K§W;;;;;;;;;;;;;;
+1_4M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 800K§W;;;;;;;;;;;;;;
+1_6M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 900K§W;;;;;;;;;;;;;;
+1_8M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1M§W;;;;;;;;;;;;;;
+2M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1.1M§W;;;;;;;;;;;;;;
+2_2M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1.2M§W;;;;;;;;;;;;;;
+2_4M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1.3M§W;;;;;;;;;;;;;;
+2_6M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1.4M§W;;;;;;;;;;;;;;
+2_8M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1.5M§W;;;;;;;;;;;;;;
+3M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1.6M§W;;;;;;;;;;;;;;
+3_2M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1.7M§W;;;;;;;;;;;;;;
+3_4M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1.8M§W;;;;;;;;;;;;;;
+3_6M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 1.9M§W;;;;;;;;;;;;;;
+3_8M_pop_lit_campaign_broke;§RNot enough funds for Campaign: 2M§W;;;;;;;;;;;;;;
+already_has_modifier;Modifier already exists;;;;;;;;;;;;;;
+0K_pop_agri_rgo;§GCost for RGO change: 100K§W;;;;;;;;;;;;;;
+50K_pop_agri_rgo;§GCost for RGO change: 200K§W;;;;;;;;;;;;;;
+100K_pop_agri_rgo;§GCost for RGO change: 400K§W;;;;;;;;;;;;;;
+200K_pop_agri_rgo;§GCost for RGO change: 600K§W;;;;;;;;;;;;;;
+300K_pop_agri_rgo;§GCost for RGO change: 800K§W;;;;;;;;;;;;;;
+400K_pop_agri_rgo;§GCost for RGO change: 1M§W;;;;;;;;;;;;;;
+500K_pop_agri_rgo;§GCost for RGO change: 1.2M§W;;;;;;;;;;;;;;
+600K_pop_agri_rgo;§GCost for RGO change: 1.4M§W;;;;;;;;;;;;;;
+700K_pop_agri_rgo;§GCost for RGO change: 1.6M§W;;;;;;;;;;;;;;
+800K_pop_agri_rgo;§GCost for RGO change: 1.8M§W;;;;;;;;;;;;;;
+900K_pop_agri_rgo;§GCost for RGO change: 2M§W;;;;;;;;;;;;;;
+1M_pop_agri_rgo;§GCost for RGO change: 2.4M§W;;;;;;;;;;;;;;
+1_2M_pop_agri_rgo;§GCost for RGO change: 2.8M§W;;;;;;;;;;;;;;
+1_4M_pop_agri_rgo;§GCost for RGO change: 3.2M§W;;;;;;;;;;;;;;
+1_6M_pop_agri_rgo;§GCost for RGO change: 3.6M§W;;;;;;;;;;;;;;
+1_8M_pop_agri_rgo;§GCost for RGO change: 4M§W;;;;;;;;;;;;;;
+0K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 100K§W;;;;;;;;;;;;;;
+50K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 200K§W;;;;;;;;;;;;;;
+100K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 400K§W;;;;;;;;;;;;;;
+200K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 600K§W;;;;;;;;;;;;;;
+300K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 800K§W;;;;;;;;;;;;;;
+400K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 1M§W;;;;;;;;;;;;;;
+500K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 1.2M§W;;;;;;;;;;;;;;
+600K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 1.4M§W;;;;;;;;;;;;;;
+700K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 1.6M§W;;;;;;;;;;;;;;
+800K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 1.8M§W;;;;;;;;;;;;;;
+900K_pop_agri_rgo_broke;§RNot enough funds for RGO change: 2M§W;;;;;;;;;;;;;;
+1M_pop_agri_rgo_broke;§RNot enough funds for RGO change: 2.4M§W;;;;;;;;;;;;;;
+1_2M_pop_agri_rgo_broke;§RNot enough funds for RGO change: 2.8M§W;;;;;;;;;;;;;;
+1_4M_pop_agri_rgo_broke;§RNot enough funds for RGO change: 3.2M§W;;;;;;;;;;;;;;
+1_6M_pop_agri_rgo_broke;§RNot enough funds for RGO change: 3.6M§W;;;;;;;;;;;;;;
+1_8M_pop_agri_rgo_broke;§RNot enough funds for RGO change: 4M§W;;;;;;;;;;;;;;
+0K_pop_baby_boom;§G3000 Day Baby Boom§W;;;;;;;;;;;;;;
+100K_pop_baby_boom;§G2700 Day Baby Boom§W;;;;;;;;;;;;;;
+200K_pop_baby_boom;§G2400 Day Baby Boom§W;;;;;;;;;;;;;;
+300K_pop_baby_boom;§G2100 Day Baby Boom§W;;;;;;;;;;;;;;
+400K_pop_baby_boom;§G1800 Day Baby Boom§W;;;;;;;;;;;;;;
+500K_pop_baby_boom;§G1500 Day Baby Boom§W;;;;;;;;;;;;;;
+600K_pop_baby_boom;§G1200 Day Baby Boom§W;;;;;;;;;;;;;;
+700K_pop_baby_boom;§G900 Day Baby Boom§W;;;;;;;;;;;;;;
+800K_pop_baby_boom;§G600 Day Baby Boom§W;;;;;;;;;;;;;;
+900K_pop_baby_boom;§G300 Day Baby Boom§W;;;;;;;;;;;;;;
+above_baby_boom_limit;§RState above 1 million Population§W;;;;;;;;;;;;;;
+baby_boom_on_cooldown;§RBaby Boom on Cooldown§W;;;;;;;;;;;;;;
+not_asia;§RState not in Asia§W;;;;;;;;;;;;;;
+is_your_core;§RYou can not convert your own cores to Colonies§W;;;;;;;;;;;;;;
+you_are_at_war;§RYou are currently at war§W;;;;;;;;;;;;;;
+found_the_imperial_academy_title;Found the Imperial Academy;;;;;;;;;;;;;;
+found_the_imperial_academy_desc;In many ways, our army has become a relic of an older age. The Russian Imperial Academy will enable our military to stay strong and the equal of any power in Europe.;;;;;;;;;;;;;;
+russian_tech_school;Russian Imperial Academy;;;;;;;;;;;;;;

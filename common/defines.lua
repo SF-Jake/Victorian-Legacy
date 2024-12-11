@@ -620,7 +620,7 @@ diplomacy = {
 pops = {
 	BASE_CLERGY_FOR_LITERACY = 0.005, 
 	MAX_CLERGY_FOR_LITERACY = 0.04, 
-	LITERACY_CHANGE_SPEED = 0.06,
+	LITERACY_CHANGE_SPEED = 0.04,
 
 
 	ASSIMILATION_SCALE = 0.004,
@@ -658,7 +658,7 @@ pops = {
 
 	PDEF_BASE_CON = 1000.0,			-- so half'ed effect.
 	
-	NATIONAL_FOCUS_DIVIDER = 100000.0,
+	NATIONAL_FOCUS_DIVIDER = 1.0,
 	
 	POP_SAVINGS = 0.018,
 	
@@ -676,7 +676,7 @@ pops = {
 	
 	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.1, -- con boost from over-buying luxuary goods
-	INVENTION_IMPACT_ON_DEMAND = 0.004, -- how much each invention in a country increases demand for a product in percent
+	INVENTION_IMPACT_ON_DEMAND = 0.00, -- how much each invention in a country increases demand for a product in percent
 	ARTISAN_SUPPRESSED_COLONIAL_GOODS_CATEGORY = 0, -- Goods category index not produced in colonies
 	ISSUE_MOVEMENT_JOIN_LIMIT = 8,
 	ISSUE_MOVEMENT_LEAVE_LIMIT = 7,

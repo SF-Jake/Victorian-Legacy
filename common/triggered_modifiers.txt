@@ -124,41 +124,43 @@ working_board_of_directors_modifier = {
 
 ########## DRAFT LAWS ##########
 
+
+# no_draft = {
+# 	trigger = {
+# 		conscription = no_draft
+# 	}
+# 	mobilisation_size = -0.012
+# 	icon = 15
+# }
 # one_year_draft = {
 # 	trigger = {
-# 		NOT = { has_country_flag = chinese }
 # 		conscription = one_year_draft
 # 	}
-# 	mobilisation_size = 0.01
+# 	mobilisation_size = -0.006
 # 	icon = 15
 # }
 # two_year_draft = {
 # 	trigger = {
-# 		NOT = { has_country_flag = chinese }
 # 		conscription = two_year_draft
-# 	}
-# 	mobilisation_size = 0.02		
+# 	}	
 # 	icon = 15		
 # }	
 # four_year_draft = {
 # 	trigger = {
-# 		NOT = { has_country_flag = chinese }
 # 		conscription = four_year_draft
 # 	}
-# 	mobilisation_size = 0.03		
+# 	mobilisation_size = 0.01		
 # 	icon = 15		
 # }
 # mandatory_service = {
 # 	trigger = {
-# 		NOT = { has_country_flag = chinese }
 # 		conscription = mandatory_service
 # 	}
 # 	mobilisation_size = 0.04	
 # 	icon = 15		
-#}
+# }
 regionalism = {
 	trigger = {
-		NOT = { has_country_flag = chinese }
 		centralization = regionalism
 	}
 	mobilisation_size = -0.01		
@@ -853,6 +855,8 @@ mob5_china_trigger = {
 unciv_research_points_on_conquer = {
 	trigger = {
 		civilized = no
+		NOT = { tag = CHI }
+		NOT = { tag = TPG }
 		OR = {
 			ai = no
 			tag = JAP

@@ -1,7 +1,7 @@
 political_decisions = {
 	change_national_value_on = {
 		alert = yes
-		picture = national_value
+		picture = lightbulb_off
 		potential = {
 			has_country_flag = show_options_Y
 			NOT = {	has_country_flag = nv_change }
@@ -31,7 +31,7 @@ political_decisions = {
 
 	change_national_value_off = {
 		alert = no
-		picture = national_value
+		picture = lightbulb_on
 		potential = {
 			has_country_flag = show_options_Y
 			has_country_flag = nv_change

@@ -257,7 +257,7 @@ political_decisions = {
 				has_country_flag = peking_convention
 			}		
 			tag = RUS
-			MCK = { owns = 1082 }
+			NOT = { owns = 1082 }
 		}
 		
 		allow = {
@@ -265,6 +265,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = peking_convention
 				war_with = MCK
+				war_with = CHI
 			}
 			OR = {
 				year = 1838
@@ -275,14 +276,16 @@ political_decisions = {
 		effect = {
 			CHI_1082 = {
 				add_core = RUS
-				remove_core = CHI
 				remove_core = MCK
 			}
 			1469 = {
 				add_core = RUS
 			}
 			set_country_flag = peking_convention
-			MCK = {
+			any_country = {
+				limit = { 
+					owns = 1082
+				}
 				country_event = { id=80000 days=0 }
 			}
 			prestige = 2
@@ -361,6 +364,36 @@ political_decisions = {
 
 		effect = {
 			capital = 1008
+		}
+	}
+
+	found_the_imperial_academy = {
+		potential = {
+			tag = RUS
+			NOT = { tech_school = russian_tech_school }
+		}
+		
+		allow = {
+			owns = 994
+			idealism = 1
+			army_professionalism = 1
+			naval_professionalism = 1
+		}
+		
+		effect = {
+			tech_school = russian_tech_school
+			prestige = 5
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { 
+				factor = 0
+				NOT = { business_banks = 1 }
+			}
+			modifier = { 
+				factor = 0
+				NOT = { biologism = 1 }
+			}
 		}
 	}
 
@@ -511,60 +544,4 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
-
-	#Russian Tech School
-	russia_tech_school_tier2 = {
-		alert = no
-		potential = {
-			tag = RUS
-			tech_school = russia_tech_school_tier1
-		}
-		
-		allow = {
-			money = 1000000
-		}
-		effect = {
-			money = -1000000
-			tech_school = russia_tech_school_tier2
-		}
-	}
-	russia_tech_school_tier3 = {
-		alert = no
-		potential = {
-			tag = RUS
-			tech_school = russia_tech_school_tier2
-		}
-		
-		allow = {
-			money = 1250000
-			OR = {
-				school_reforms = acceptable_schools
-				school_reforms = good_schools
-				school_reforms = compulsory_schools
-			}
-		}
-		effect = {
-			money = -1250000
-			tech_school = russia_tech_school_tier3
-		}
-	}
-	russia_tech_school_tier4 = {
-		alert = no
-		potential = {
-			tag = RUS
-			tech_school = russia_tech_school_tier3
-		}
-		
-		allow = {
-			money = 1500000
-			OR = {
-				school_reforms = good_schools
-				school_reforms = compulsory_schools
-			}
-		}
-		effect = {
-			money = -1500000
-			tech_school = russia_tech_school_tier4
-		}
-	}
 }

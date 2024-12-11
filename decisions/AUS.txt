@@ -209,7 +209,8 @@ political_decisions = {
 						factor = 0.2
 					}
 				}
-				life_rating = 5
+				add_province_modifier = { name = small_baby_boom duration = 1095 }
+				life_rating = 2
 			}
 			prestige = 10
 			set_country_flag = grunderzeit_we_have_done
@@ -233,7 +234,8 @@ political_decisions = {
 			treasury = -500000
 			set_global_flag = budapest_founded
 			641 = {
-				life_rating = 5
+				life_rating = 2
+				add_province_modifier = { name = small_baby_boom duration = 1095 }
 			}
 		}
 

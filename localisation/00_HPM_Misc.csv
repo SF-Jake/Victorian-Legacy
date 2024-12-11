@@ -38,16 +38,16 @@ no_schools;No School System;;;;;;;;;;;;;;;;;;;;;;;;;;x
 no_schools_desc;There's no organized school system or budget for education. The scarce literacy gain that is achieved comes from religious schools or it is based on informal community teaching, though these places get some funding, indirectly, from the government. Higher education institutions are either non existent or completely religious and medieval.\n即This reform increases the cap on teachers to 2%.劬;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;x
 low_schools;Basic School System;;;;;;;;;;;;;;;;;;;;;;;;;x
 low_schools_l;Basic School System;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-low_schools_desc;A rudimentary school system exists in the capital and a few important cities but enrollment is completely optional. Schools limits themselves to teaching pupils how to read and write. There's no government agency to inspect schools and they have no common standards for teaching, with the few courses that exist being overcrowded. Private schools are commonly in the same conditions. Teachers don't have professional formation and are often just literate men, while pupils often leave school without being properly schooled.\n即This reform raises the cap on teachers to 2.5%劬;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+low_schools_desc;A rudimentary school system exists in the capital and a few important cities but enrollment is completely optional. Schools limits themselves to teaching pupils how to read and write. There's no government agency to inspect schools and they have no common standards for teaching, with the few courses that exist being overcrowded. Private schools are commonly in the same conditions. Teachers don't have professional formation and are often just literate men, while pupils often leave school without being properly schooled.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 acceptable_schools;Acceptable School System;;;;;;;;;;;;;;;;;;;;;;x
 acceptable_schools_l;Acceptable School System;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-acceptable_schools_desc;Schools can be found in every major and most of the medium cities. A government agency exists to ensure quality standards in education and to inspect that proper facilities are used for it. Enrollment is encouraged and sometimes it's outright mandatory, but it's not properly enforced and pupils often don't go to school for a variety of reasons. Children are also taught math and a few other subjects. Education institutions for teenagers are starting to appear, and secular, higher education institutions for adults are common. Teachers are formally trained, but oftentimes poorly.\n即This reform raises the cap on teachers to 3%.劬;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+acceptable_schools_desc;Schools can be found in every major and most of the medium cities. A government agency exists to ensure quality standards in education and to inspect that proper facilities are used for it. Enrollment is encouraged and sometimes it's outright mandatory, but it's not properly enforced and pupils often don't go to school for a variety of reasons. Children are also taught math and a few other subjects. Education institutions for teenagers are starting to appear, and secular, higher education institutions for adults are common. Teachers are formally trained, but oftentimes poorly.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 good_schools;Good School System;;;;;;;;;;;;;;;;;;;;;;;x
 good_schools_l;Good School System;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-good_schools_desc;Schools can be found in almost every city. Government agencies take education with the utmost seriousness, and enrollment is often mandatory and tightly controlled. Children and teenagers are taught a variety of subjects besides reading and writing and teachers are taught pedagogy during their formation. Literacy campaigns for adults and the elderly are a part of the government's effort to eradicate illiteracy. Higher education institutions are considered good, with opportunities for the poor classes to enroll.\n即This reform raises the cap on teachers to 3.5%.劬;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+good_schools_desc;Schools can be found in almost every city. Government agencies take education with the utmost seriousness, and enrollment is often mandatory and tightly controlled. Children and teenagers are taught a variety of subjects besides reading and writing and teachers are taught pedagogy during their formation. Literacy campaigns for adults and the elderly are a part of the government's effort to eradicate illiteracy. Higher education institutions are considered good, with opportunities for the poor classes to enroll.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 compulsory_schools;Compulsory School System;;;;;;;;;;;;;;;;;;;;;;;x
 compulsory_schools_l;Compulsory School System;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-compulsory_schools_desc;Free public education is available to all and attendance is mandatory. Teachers are certified to a standardized curricula by either the government or a teachers' organisation. Higher education institutions are excellent and poor students are given subsidies by the government in order to attend.\n即This reform raises the cap on teachers to 4%.劬;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+compulsory_schools_desc;Free public education is available to all and attendance is mandatory. Teachers are certified to a standardized curricula by either the government or a teachers' organisation. Higher education institutions are excellent and poor students are given subsidies by the government in order to attend.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 RULE_RICH_ONLY;\nRich Only;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 RULE_SAME_AS_RULING_PARTY;\nSame As Ruling Party;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 RULE_STATE_VOTE;\nState Vote;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -598,23 +598,23 @@ neutral_faction;Part of no Faction;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 communist_faction;Communist Faction;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 mandatory_service;Service by Requirement;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 mandatory_service_l;Service by Requirement;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-mandatory_service_desc;All adult males must serve in the military.;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+mandatory_service_desc; ;All adult males must serve in the military.;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 movement_mandatory_service;Mandatory Service Movement.;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-four_year_draft;Four Year Draft;Four Year Draft;Four Year Draft;;Four Year Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-four_year_draft_l;Four Year Draft;Four Year Draft;Four Year Draft;;Four Year Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-four_year_draft_desc;Conscripts are drafted for four years.;Conscripts are drafted for four years.;;Conscripts are drafted for four years.;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-movement_four_year_draft;Movement for Four Year Draft Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-two_year_draft;Two Year Draft;Two Year Draft;Two Year Draft;;Two Year Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-two_year_draft_l;Two Year Draft;Two Year Draft;Two Year Draft;;Two Year Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-two_year_draft_desc;Conscripts are drafted for two years.;Conscripts are drafted for two years.;;Conscripts are drafted for two years.;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-movement_two_year_draft;Movement for Two Year Draft Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-one_year_draft;One Year Draft;One Year Draft;One Year Draft;;One Year Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-one_year_draft_l;One Year Draft;One Year Draft;One Year Draft;;One Year Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-one_year_draft_desc;Conscripts are drafted for one year.;Conscripts are drafted for one year.;;Conscripts are drafted for one year.;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-movement_one_year_draft;Movement for One Year Draft Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-no_draft;No Draft;No Draft;No Draft;;No Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-no_draft_l;No Draft;No Draft;No Draft;;No Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-no_draft_desc;No conscription.;No conscription.;No conscription.;;No conscription.;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+four_year_draft;Random Conscription;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+four_year_draft_l;Random Conscription;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+four_year_draft_desc; ;Conscripts are drafted for four years.;Conscripts are drafted for four years.;;Conscripts are drafted for four years.;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+movement_four_year_draft;Movement for Random Conscription Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+two_year_draft;No Draft;No Draft;No Draft;;No Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+two_year_draft_l;No Draft;No Draft;No Draft;;No Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+two_year_draft_desc; ;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+movement_two_year_draft;Movement for No Draft Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+one_year_draft;Reformed Training;Reformed Training;Reformed Training;;Reformed Training;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+one_year_draft_l;Reformed Training;Reformed Training;Reformed Training;;Reformed Training;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+one_year_draft_desc; ;Conscripts are drafted for one year.;Conscripts are drafted for one year.;;Conscripts are drafted for one year.;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+movement_one_year_draft;Movement for Reformed Training Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+no_draft;Specialized Training;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+no_draft_l;Specialized Training;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+no_draft_desc; ;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 conscription;Conscription;Conscription;Conscription;;Conscription;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 movement_no_draft;Movement for the Abolition of the Conscription;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 yes_slavery_desc;Slavery is allowed.\n刪This reform affects POP promotion chance - promotion will be slower, both globally and even more in slave states.劬\n即Pops in Slave states will be more conservative and less liberal. Immigrants are less likely to choose slave states.劬\n佈The slave population will grow.劬;;;;;;;;;;;;;;;;;x;;;;

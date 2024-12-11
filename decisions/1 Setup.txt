@@ -1155,7 +1155,9 @@ political_decisions = {
 				add_country_modifier = { name = por_nation_modifier duration = -1 }
 			}
 			any_country = {
-				social_reform = compulsory_schools
+				limit = { exists = yes }
+				social_reform = no_schools
+				political_reform = two_year_draft
 				set_country_flag = baby_boom_reminder
 				capital_scope = {
 					add_province_modifier = { name = capital_supply_depot duration = -1 }

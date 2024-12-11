@@ -28,6 +28,25 @@ objectTypes = {
 
 		scale = 1.2
 	}
+
+	EMFXActorType = {
+		name = "GenericIron_Steamer"
+		actorfile = "gfx\anims\Generic_Ironsteamer.xac"
+		
+		animation = {
+			name = "idle"
+			file ="gfx\anims\Generic_Ironsteamer_Anim_Idle.xsm"
+			defaultAnimationTime = 0.3
+		}
+		
+		animation = {
+			name = "move"
+			file ="gfx\anims\Generic_Ironsteamer_Anim_Moving.xsm"
+			defaultAnimationTime = 0.65
+		}
+
+		scale = 1.2
+	}
 	
 	EMFXActorType = {
 		name = "GenericFrigate"
@@ -200,14 +219,6 @@ objectTypes = {
 		}
 
 		scale = 0.6
-	}
-	
-	EMFXActorType = {
-		name = "GenericCarrier"
-		actorfile = "gfx\anims\Carrier.xac"
-
-
-		scale = 1.6
 	}
 	
 	

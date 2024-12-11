@@ -81,46 +81,19 @@ political_decisions = {
 			any_country = {
 				limit = {
 					ai = no
-					any_owned_province = { has_building = province_selector }
+					any_owned_province = { 
+						has_building = province_selector 
+					}
+					NOT = { has_country_flag = province_selector }
 				}
+				set_country_flag = province_selector
 				random_owned = {
 					limit = {
 						has_building = province_selector
 					}
 					province_event = {
 						## Audax Validator "." Ignore_NEXT
-						id = 92101 days = 0
-					}
-				}
-			}
-		}
-	}
-
-	national_idea = {
-		potential = {
-			tag = JAN
-			META_1 = {
-				owner = {
-					ai = no
-					any_owned_province = { has_building = province_selector }
-				}
-			}
-		}
-		allow = {
-		}
-		effect = {
-			any_country = {
-				limit = {
-					ai = no
-					any_owned_province = { has_building = province_selector }
-				}
-				random_owned = {
-					limit = {
-						has_building = province_selector
-					}
-					province_event = {
-						## Audax Validator "." Ignore_NEXT
-						id = 92101 days = 0
+						id = 92104 days = 0
 					}
 				}
 			}

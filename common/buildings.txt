@@ -824,25 +824,27 @@ fort = {
 
 naval_base = {    
 	type = naval_base
-	cost = 15000
+	cost = 5000
 	goods_cost =
 	{
-		lumber = 1000
-		cement = 400
-		steel = 500
+		timber = 800
+		lumber = 600
+		cement = 800
+		steel = 800
+		machine_parts = 60
 	}
-	time = 720
+	time = 360
 	naval_capacity = 1
 	capital = yes
 	onmap = yes
 	port = yes
 	visibility = yes
-	max_level = 7
-	colonial_points = { 30 50 70 90 110 130 150 } #points at levels 1-7
+	max_level = 6
+	colonial_points = { 30 50 70 90 95 100 } #points at levels 1-6
 	province = yes
 	one_per_state = yes
-	colonial_range = 40
-	local_ship_build = -0.05
+	colonial_range = 50
+	#local_ship_build = -0.05
 }
 
 	## Urban Center

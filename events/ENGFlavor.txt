@@ -2177,7 +2177,7 @@ country_event = {
 
 country_event = {
 	id = 40002
-	title = "return india"
+	title = "State to Colony"
 	desc = ""
 
 	is_triggered_only = yes
@@ -2187,7 +2187,7 @@ country_event = {
 			limit = {
 				NOT = { is_core = THIS }
 			}
-			secede_province = ENG
+			secede_province = FROM
 		}
 	}
 }

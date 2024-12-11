@@ -614,4 +614,24 @@ political_decisions = {
 			}
 		}
 	}
+	# test_continents_thing = {
+	# 	potential = {
+	# 		has_country_flag = host_powers
+	# 	}
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		any_country = {
+	# 			any_owned = {
+	# 				limit = {
+	# 					OR = {
+	# 						is_core = CHI
+							
+	# 					}
+	# 				}
+	# 				secede_province = THIS
+	# 			}
+	# 		}
+	# 	}
+	# }
 }

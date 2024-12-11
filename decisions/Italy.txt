@@ -181,6 +181,7 @@ political_decisions = {
 	unite_northern_italy = {
 		picture = north_italian_federation
 		potential = {
+			ai = no
 			OR = {
 				tag = SAR
 				tag = LOM
@@ -193,7 +194,10 @@ political_decisions = {
 			NOT = {	has_global_flag = north_italian_federation }
 		}
 		allow = {
-			AUS_726 = { owned_by = THIS }
+			OR = {
+				AUS_726 = { owned_by = THIS }
+				year = 1840
+			}
 			OR = {
 				SAR_720 = { owned_by = THIS }
 				MOD_739 = { owned_by = THIS }

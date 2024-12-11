@@ -666,7 +666,7 @@ recently_purchased_warship = {
 }
 
 5_year_migration = {
-	global_immigrant_attract = 5
+	global_immigrant_attract = 1
 	icon = 17
 }
 ########## PROVINCE SELECTOR DECISIONS ##########
@@ -746,8 +746,8 @@ rgo_changed = {
 }
 
 switched_production = {
-	local_RGO_output = -0.50
-	local_RGO_throughput = -0.50
+	local_RGO_output = -0.40
+	local_RGO_throughput = -0.40
 	icon = 14
 }
 
@@ -1416,7 +1416,7 @@ drained_marsh = {
 
 #### CHI - CHINA ####
 middle_kingdom = {
-	research_points_on_conquer = -1
+	research_points_on_conquer = -1000
 	icon = 8
 }
 
@@ -1427,14 +1427,14 @@ imperial_examinations = {
 }
 
 opium_addiction = {
-	education_efficiency_modifier = -0.4
-	research_points_modifier = -0.2
+	education_efficiency_modifier = -0.2
+	research_points_modifier = -0.1
 	icon = 18
 }
 
 early_qing_reforms = {
-	research_points = 2
-	global_pop_militancy_modifier = 0.2
+	research_points = 1
+	global_pop_militancy_modifier = 0.1
 	icon = 3
 }
 
@@ -1996,7 +1996,7 @@ rus_nation_modifier = {
 
 usa_nation_modifier = {
 	naval_unit_start_experience = 2.5
-	global_immigrant_attract = 0.5
+	global_immigrant_attract = 0.35
 	industry_tech_research_bonus = 0.075
 	farm_rgo_eff = 0.1
 	mine_rgo_eff = 0.1
@@ -2036,7 +2036,7 @@ net_nation_modifier = {
 }
 
 brz_nation_modifier = {
-	global_immigrant_attract =  0.2
+	global_immigrant_attract =  0.15
 	land_organisation = 0.025
 	tax_efficiency = 0.025
 	education_efficiency_modifier = 0.05
@@ -2044,7 +2044,7 @@ brz_nation_modifier = {
 }
 
 com_nation_modifier = {
-	global_immigrant_attract = 0.2
+	global_immigrant_attract = 0.15
 	#set_country_flag = naval_nation_modifier
 	leadership_modifier = 1
 	icon = 38
@@ -2059,13 +2059,13 @@ chi_nation_modifier = {
 
 mex_nation_modifier = {
 	land_unit_start_experience = 2.5
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.10
 	education_efficiency_modifier = 0.075
 	icon = 40
 }
 
 arc_nation_modifier = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.10
 	research_points_modifier = 0.075
 	#set_country_flag = army_nation_modifier
 	icon = 41
@@ -2086,7 +2086,7 @@ per_nation_modifier = {
 }
 
 col_nation_modifier = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.10
 	culture_tech_research_bonus = 0.075
 	army_tech_research_bonus = 0.075
 	icon = 44

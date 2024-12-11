@@ -384,37 +384,58 @@ political_reforms = {
 	conscription = {
 		next_step_only = yes
 		mandatory_service = {
-			mobilisation_economy_impact = 1
-			land_unit_start_experience = 10
-			global_immigrant_attract = -0.1
-			education_efficiency_modifier = -0.01
+			mobilisation_size = 0.02
+			land_unit_start_experience = -4
+			mobilisation_economy_impact = 0.4
+			global_immigrant_attract = -0.05
+			education_efficiency_modifier = -0.05
+			allow = {
+				has_country_flag = force_reform
+				NOT = { is_mobilised = yes }
+				# has_country_flag = army_nco_training_invented
+			}
 		}
 		four_year_draft = {
-			mobilisation_economy_impact = 0.1
-			land_unit_start_experience = 5
-			global_immigrant_attract = -0.05
+			mobilisation_size = 0.01
+			land_unit_start_experience = -2
+			mobilisation_economy_impact = 0.2
+			global_immigrant_attract = -0.025
+			education_efficiency_modifier = -0.025
+			allow = {
+				has_country_flag = force_reform
+				NOT = { is_mobilised = yes }
+				# has_country_flag = military_logistics_invented
+			}
 		}
 		two_year_draft = {
-			mobilisation_economy_impact = 0.05
+			#Mob Size 0%
+			global_immigrant_attract = 0.01
+			allow = { 
+				has_country_flag = force_reform 
+				NOT = { is_mobilised = yes }
+			}
 		}
 		one_year_draft = {
-			global_immigrant_attract = 0.01
-			land_unit_start_experience = -2
+			#Mob Size -0.6%
+			mobilisation_size = -0.006
+			land_unit_start_experience = 3
+			global_immigrant_attract = 0.025
+			education_efficiency_modifier = 0.025
+			leadership = 0.05
 			allow = { 
-				OR = {
-					NOT = { war_policy = jingoism }
-					NOT = { war_policy = pro_military}
-				}
+				has_country_flag = force_reform 
+				NOT = { is_mobilised = yes }
 			}
 		}
 		no_draft = {
-			global_immigrant_attract = 0.03
-			land_unit_start_experience = -5
-			allow = {
-				OR = {
-					NOT = { war_policy = jingoism }
-					NOT = { war_policy = pro_military}
-				}
+			#Mob Size -1.2%
+			mobilisation_size = -0.012
+			land_unit_start_experience = 6
+			global_immigrant_attract = 0.05
+			leadership = 0.1
+			allow = { 
+				has_country_flag = force_reform 
+				NOT = { is_mobilised = yes }
 			}
 		}
 	}
@@ -850,19 +871,19 @@ social_reforms = {
 		no_schools = {
 		}
 		low_schools = {
-			global_assimilation_rate = 0.05
+			education_efficiency_modifier = 0.05
 			global_immigrant_attract = 0.02	
 		}
 		acceptable_schools = {
-			global_assimilation_rate = 0.1
+			education_efficiency_modifier = 0.1
 			global_immigrant_attract = 0.03
 		}
 		good_schools = {
-			global_assimilation_rate = 0.15
+			education_efficiency_modifier = 0.15
 			global_immigrant_attract = 0.04
 		}
 		compulsory_schools = {
-			global_assimilation_rate = 0.2
+			education_efficiency_modifier = 0.20
 			global_immigrant_attract = 0.05
 		}
 	}
