@@ -89,10 +89,6 @@ political_decisions = {
             inherit = LUA
             inherit = JOH
 			add_accepted_culture = burmese
-			add_country_modifier = {
-				name = indochina
-				duration = -1
-			}
             change_tag = INC
         }
     }
