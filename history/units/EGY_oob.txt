@@ -32,56 +32,31 @@ leader = {
 }
 
 navy = {
-	name = "Taba"
-	location = 1753
+	name = "Egyptian Navy"
+	location = 1751
 	ship = {
-		name= "Toushka"
+		name= "Alexandria"
 		type = manowar
-	}
-
-	ship = {
-		name= "Sharm El-Sheikh"
-		type = manowar
-	}
-
-	ship = {
-		name= "Damyat"
-		type = manowar
-	}
-
-	ship = {
-		name= "Rasheed"
-		type = manowar
-	}
-
-	ship = {
-		name= "El Suez"
-		type = manowar
-	}
-
-	ship = {
-		name= "El Aboukir"
-		type = frigate
-	}
-
-	ship = {
-		name= "Najim al Zafir"
-		type = frigate
 	}
 
 	ship = {
 		name= "Cairo"
-		type = frigate
+		type = manowar
 	}
 
 	ship = {
-		name= "Al Iskandariyah"
-		type = frigate
+		name= "Giza"
+		type = manowar
+	}
+
+	ship = {
+		name= "Luxor"
+		type = manowar
 	}
 
 	ship = {
 		name= "Aswan"
-		type = frigate
+		type = manowar
 	}
 
 	ship = {
@@ -90,22 +65,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Marsa Matruh"
+		name= "Suez"
 		type = frigate
 	}
 
 	ship = {
-		name= "Bur Tawfiq"
-		type = frigate
-	}
-
-	ship = {
-		name= "Al Ghardaqah"
-		type = frigate
-	}
-
-	ship = {
-		name= "Bur Safajah"
+		name= "Damietta"
 		type = frigate
 	}
 
@@ -113,7 +78,6 @@ navy = {
 		name= "1st transport flotilla"
 		type = clipper_transport
 	}
-
 }
 
 army = {

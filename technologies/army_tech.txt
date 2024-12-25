@@ -6,6 +6,7 @@ post_napoleonic_thought = {
 	unciv_military = yes
 	
 	regular_experience_level = 5
+	activate_unit = infantry_defensive
 
 	activate_building = fort	
 	army_base = {
@@ -53,6 +54,7 @@ strategic_mobility = {
 	cost = 7200
 	unciv_military = yes
 	regular_experience_level = 5
+	activate_unit = artillery_defensive
 
 	army_base = {
 		supply_consumption = 0.05
@@ -458,7 +460,7 @@ breech_loaded_rifles = {
 	area = light_armament
 	year = 1850
 	cost = 10800
-	activate_unit = guard
+	#activate_unit = guard
 
 	unciv_military = yes
 
@@ -741,9 +743,13 @@ iron_muzzle_loaded_artillery = {
 		support = 0.25
 		supply_consumption = 0.05
 	}
-	horse_artillery = {
+	artillery_offensive = {
 		support = 0.25
-		supply_consumption = 0.06
+		supply_consumption = 0.05
+	}
+	artillery_defensive = {
+		support = 0.25
+		supply_consumption = 0.05
 	}
 	
 	ai_chance = {
@@ -788,9 +794,13 @@ iron_breech_loaded_artillery = {
 		support = 0.25
 		supply_consumption = 0.05
 	}
-	horse_artillery = {
+	artillery_offensive = {
 		support = 0.25
-		supply_consumption = 0.06
+		supply_consumption = 0.05
+	}
+	artillery_defensive = {
+		support = 0.25
+		supply_consumption = 0.05
 	}
 
 	ai_chance = {
@@ -835,9 +845,13 @@ steel_breech_loaded_artillery = {
 		support = 0.5
 		supply_consumption = 0.05
 	}
-	horse_artillery = {
-		support = 0.25
-		supply_consumption = 0.06
+	artillery_offensive = {
+		support = 0.5
+		supply_consumption = 0.05
+	}
+	artillery_defensive = {
+		support = 0.5
+		supply_consumption = 0.05
 	}
 	
 	ai_chance = {
@@ -882,9 +896,13 @@ indirect_artillery_fire = {
 		support = 1
 		supply_consumption = 0.05
 	}
-	horse_artillery = {
-		support = 0.25
-		supply_consumption = 0.06
+	artillery_offensive = {
+		support = 1
+		supply_consumption = 0.05
+	}
+	artillery_defensive = {
+		support = 1
+		supply_consumption = 0.05
 	}
 	
 	ai_chance = {
@@ -929,9 +947,13 @@ creeping_barrage = {
 		support = 0.5
 		supply_consumption = 0.15
 	}
-	horse_artillery = {
-		support = 0.25
-		supply_consumption = 0.06
+	artillery_offensive = {
+		support = 0.5
+		supply_consumption = 0.15
+	}
+	artillery_defensive = {
+		support = 0.5
+		supply_consumption = 0.15
 	}
 	
 	ai_chance = {
@@ -976,9 +998,13 @@ railway_gun = {
 		support = 0.5
 		supply_consumption = 0.15
 	}
-	horse_artillery = {
-		support = 0.25
-		supply_consumption = 0.06
+	artillery_offensive = {
+		support = 0.5
+		supply_consumption = 0.15
+	}
+	artillery_defensive = {
+		support = 0.5
+		supply_consumption = 0.15
 	}
 	
 	ai_chance = {
@@ -1023,6 +1049,7 @@ military_staff_system = {
 	cost = 3600
 	unciv_military = yes
 	reinforce_rate = 0.05
+	activate_unit = infantry_offensive
 	
 	army_base = {
 		default_organisation = 5
@@ -1068,6 +1095,7 @@ military_plans = {
 	cost = 7200
 	unciv_military = yes
 	reinforce_rate = 0.05
+	activate_unit = artillery_offensive
 	
 	army_base = {
 		default_organisation = 5

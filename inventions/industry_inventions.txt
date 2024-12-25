@@ -1036,26 +1036,9 @@ aerial_bacteria_and_antiseptic_principle = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0002
+		#pop_growth = 0.0002
 		land_attrition = -0.05  
 		soldier_to_pop_loss = 0.025
-	}
-}
-clinical_thermometers_and_binaural_stethoscopes = {
-	limit = { medicine = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 2
-			inorganic_chemistry = 1
-		}
-		modifier = {
-			factor = 2
-			organized_factories = 1
-		}
-	}
-	effect = {
-		pop_growth = 0.0001
 	}
 }
 #inorganic_chemistry
@@ -1156,19 +1139,6 @@ catalytic_fermentative_process = {
 		} 
 	}
 }
-germ_theory = {
-	limit = { inorganic_chemistry = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 6
-			literacy = 0.4
-		}
-	}
-	effect = {
-		pop_growth = 0.0001
-	} 
-}
 vaccination = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
@@ -1183,7 +1153,7 @@ vaccination = {
 		}	
 	}
 	effect = {
-		pop_growth = 0.0001
+		#pop_growth = 0.0001
 		land_attrition = -0.05
 		soldier_to_pop_loss = 0.025
 	}
@@ -1320,7 +1290,7 @@ x_rays = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0001
+		#pop_growth = 0.0001
 		land_attrition = -0.02 
 	}
 }

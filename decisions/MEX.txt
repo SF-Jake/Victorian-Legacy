@@ -1,7 +1,7 @@
 political_decisions = {
 	restore_mexican_empire = {
 		potential = {
-			tag = MEX
+			capital = 2172
 			government = democracy
 			NOT = {
 				has_country_flag = we_have_tried_this_once
@@ -132,37 +132,6 @@ political_decisions = {
 			}
 		}
 	}
-	mex_central_america  = {
-		picture = map_central_america
-		potential = {
-			tag = MEX
-			NOT = { has_country_flag = mex_central_america }
-		}
-		allow = {
-			prestige = 25
-			ideological_thought = 1
-			war = no
-			UCA_2186 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			UCA_2191 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			UCA_2197 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			UCA_2201 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-		}
-		effect = {
-			UCA_2186 = { add_core = THIS }
-			UCA_2191 = { add_core = THIS }
-			UCA_2197 = { add_core = THIS }
-			UCA_2201 = { add_core = THIS }
-			add_accepted_culture = central_american
-			random_country = {
-				limit = {
-					primary_culture = central_american
-					vassal_of = THIS
-				}
-				country_event = { id=11101 days=0 }
-			}
-			set_country_flag = mex_central_america
-		}
-	}
 	refute_manifest_destiny = {
 		picture = manifest_destiny
 		potential = {
@@ -211,6 +180,7 @@ political_decisions = {
 			NOT = {	has_global_flag = pacific_reclamation }
 		}
 		allow = {
+			NOT = { has_country_flag = form_grand_columbia }
 			prestige = 100
 			nationalism_n_imperialism = 1
 			all_core = { owned_by = THIS }
@@ -257,9 +227,14 @@ political_decisions = {
 		}
 
 		allow = {
+			NOT = { has_country_flag = pacific_reclamation }
 			war = no
 			nationalism_n_imperialism = 1
-			has_country_flag = mex_central_america
+			functionalism = 1
+			OR = {
+				CLM_2251 = { owned_by = THIS }
+				CLM_1723 = { owned_by = THIS }		
+			}
 			GCL = {
 				all_core = {
 					OR = {

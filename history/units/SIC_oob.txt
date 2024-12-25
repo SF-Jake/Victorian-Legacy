@@ -112,19 +112,19 @@ army = {
 	location = 762
 	regiment = {
 		name= "1. Guardia Reale"
-		type = guard
+		type = artillery
 		home = 762
 	}
 
 	regiment = {
 		name= "2. Guardia Reale"
-		type = guard
+		type = artillery
 		home = 764
 	}
 
 	regiment = {
 		name= "3. Guardia Reale"
-		type = guard
+		type = artillery
 		home = 759
 	}
 
@@ -155,52 +155,36 @@ army = {
 }
 
 navy = {
-	name = "Real Marina delle Due Sicilie"
+	name = "Marina delle Due Sicilie"
 	location = 754
 	ship = {
-		name= "Ferdinando II"
-		type = commerce_raider
+		name = "Reale"
+		type = manowar
+		home = 754
 	}
 
 	ship = {
-		name= "Christina"
+		name = "Principe"
 		type = frigate
+		home = 754
 	}
 
 	ship = {
-		name= "Regina Isabella"
-		type = frigate
-	}
-
-	ship = {
-		name= "Principe Carlo"
-		type = frigate
-	}
-
-	ship = {
-		name= "Partenope"
-		type = frigate
-	}
-
-	ship = {
-		name= "Caracciolo"
-		type = frigate
-	}
-
-	ship = {
-		name= "1a Squadrone Transporti"
+		name = "Vesuvio"
 		type = clipper_transport
+		home = 754
 	}
 
 	ship = {
-		name= "2a Squadrone Transporti"
+		name = "Etna"
 		type = clipper_transport
+		home = 754
 	}
 
 	ship = {
-		name= "3a Squadrone Transporti"
+		name = "Stromboli"
 		type = clipper_transport
+		home = 754
 	}
-
 }
 

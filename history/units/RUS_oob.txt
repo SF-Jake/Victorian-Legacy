@@ -681,399 +681,187 @@ army = {
 	}
 }
 
-
 navy = {
-	name = "Imperial Black Sea Fleet"
-	location = 967
-	ship = {
-		name= "Nord Adler"
-		type = manowar
-	}
-
-	ship = {
-		name= "Prints Gustav"
-		type = manowar
-	}
-
-	ship = {
-		name= "Ne Tron Menya"
-		type = manowar
-	}
-
-	ship = {
-		name= "Svyastoslav"
-		type = manowar
-	}
-
-	ship = {
-		name= "Chrabryi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Smelyi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Tri Svyatitelei"
-		type = manowar
-	}
-
-	ship = {
-		name= "Yupiter"
-		type = manowar
-	}
-
-	ship = {
-		name= "Chesma"
-		type = manowar
-	}
-
-	ship = {
-		name= "Mironosets"
-		type = manowar
-	}
-
-	ship = {
-		name= "Asia"
-		type = manowar
-	}
-
-	ship = {
-		name= "Azov"
-		type = manowar
-	}
-
-	ship = {
-		name= "Rossiya"
-		type = manowar
-	}
-
-	ship = {
-		name= "Saratov"
-		type = manowar
-	}
-
-	ship = {
-		name= "Blagodat' "
-		type = manowar
-	}
-
-	ship = {
-		name= "Sv Pavel"
-		type = manowar
-	}
-
-	ship = {
-		name= "Smelyï"
-		type = manowar
-	}
-
-	ship = {
-		name= "Archistratig Gavriil"
-		type = manowar
-	}
-
-	ship = {
-		name= "Evsavie"
-		type = manowar
-	}
-
-	ship = {
-		name= "Chrabryï"
-		type = manowar
-	}
-
-	ship = {
-		name= "Moskva"
-		type = manowar
-	}
-
-	ship = {
-		name= "Boleslav"
-		type = manowar
-	}
-
-	ship = {
-		name= "Gleb"
-		type = manowar
-	}
-
-	ship = {
-		name= "Severnaya Zvezda"
-		type = manowar
-	}
-
-	ship = {
-		name= "Borei"
-		type = manowar
-	}
-
-	ship = {
-		name= "Orel"
-		type = manowar
-	}
-
-	ship = {
-		name= "Ianuarii"
-		type = manowar
-	}
-
-	ship = {
-		name= "Ioann"
-		type = manowar
-	}
-
-	ship = {
-		name= "Ne Tron Menya"
-		type = manowar
-	}
-
-	ship = {
-		name= "Panteleimon"
-		type = manowar
-	}
-
-	ship = {
-		name= "Michael"
-		type = manowar
-	}
-
-	ship = {
-		name= "Feodor Stralitat"
-		type = frigate
-	}
-
-	ship = {
-		name= "Ioann Bogoslav"
-		type = frigate
-	}
-
-	ship = {
-		name= "Kazanskaia Bogoroditsa"
-		type = frigate
-	}
-
-	ship = {
-		name= "Navarchia V Gospodne"
-		type = frigate
-	}
-
-	ship = {
-		name= "Soshestvie Ducha"
-		type = frigate
-	}
-
-	ship = {
-		name= "Sv Piotr Apostol"
-		type = frigate
-	}
-
-	ship = {
-		name= "Tsar Konstantin"
-		type = frigate
-	}
-
-	ship = {
-		name= "Archipelag"
-		type = frigate
-	}
-
-	ship = {
-		name= "Tickvinskaya Bogoroditsa"
-		type = frigate
-	}
-
-	ship = {
-		name= "Tosmanska"
-		type = frigate
-	}
-
-	ship = {
-		name= "Nazareth"
-		type = frigate
-	}
-
-	ship = {
-		name= "Kronstadt"
-		type = frigate
-	}
-
-	ship = {
-		name= "Getoi"
-		type = frigate
-	}
-
-	ship = {
-		name= "Venus"
-		type = frigate
-	}
-
-	ship = {
-		name= "Bystryï"
-		type = frigate
-	}
-
-	ship = {
-		name= "Argus"
-		type = frigate
-	}
-
-	ship = {
-		name= "Feodosii Totemskii"
-		type = frigate
-	}
-
-	ship = {
-		name= "Chtchastlivyï"
-		type = frigate
-	}
-
-	ship = {
-		name= "1. Transportnaya Flotiliya"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2. Transportnaya Flotiliya"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "Imperial Northern Fleet"
+	name = "Imperial Baltic Fleet"
 	location = 994
 	ship = {
-		name= "Dvenadtsat' Apostolov"
+		name= "Imperator Aleksandr"
 		type = manowar
 	}
 
 	ship = {
-		name= "Poltava"
+		name= "Imperator Nikolai"
 		type = manowar
 	}
 
 	ship = {
-		name= "Ratnyi"
+		name= "Imperator Pavel"
 		type = manowar
 	}
 
 	ship = {
-		name= "Hiagudil"
+		name= "Imperator Pyotr"
 		type = manowar
 	}
 
 	ship = {
-		name= "Gangut"
+		name= "Imperator Aleksandr II"
 		type = manowar
 	}
 
 	ship = {
-		name= "Ezekiel"
+		name= "Imperator Nikolai II"
 		type = manowar
 	}
 
 	ship = {
-		name= "Tsar Konstantin"
+		name= "Imperator Pavel II"
 		type = manowar
 	}
 
 	ship = {
-		name= "Yaroslav"
+		name= "Imperator Pyotr II"
 		type = manowar
 	}
 
 	ship = {
-		name= "Izyaslav"
+		name= "Imperator Aleksandr III"
 		type = manowar
 	}
 
 	ship = {
-		name= "Pravyi"
+		name= "Imperator Nikolai III"
 		type = manowar
 	}
 
 	ship = {
-		name= "Isidor"
+		name= "Imperator Pavel III"
 		type = manowar
 	}
 
 	ship = {
-		name= "Anapa"
+		name= "Imperator Pyotr III"
 		type = manowar
 	}
 
 	ship = {
-		name= "Maria"
+		name= "Imperator Aleksandr IV"
 		type = manowar
 	}
 
 	ship = {
-		name= "Dimitri Donskoi"
+		name= "Imperator Nikolai IV"
 		type = manowar
 	}
 
 	ship = {
-		name= "Paraskevia"
+		name= "Imperator Pavel IV"
 		type = manowar
 	}
 
 	ship = {
-		name= "Sv Ytoslav"
+		name= "Imperator Pyotr IV"
 		type = manowar
 	}
 
 	ship = {
-		name= "Spyesttunyi"
+		name= "Imperator Aleksandr V"
+		type = manowar
+	}
+
+	ship = {
+		name= "Imperator Nikolai V"
+		type = manowar
+	}
+
+	ship = {
+		name= "Imperator Pavel V"
+		type = manowar
+	}
+
+	ship = {
+		name= "Imperator Pyotr V"
+		type = manowar
+	}
+
+	ship = {
+		name= "Imperator Aleksandr VI"
+		type = manowar
+	}
+
+	ship = {
+		name= "Imperator Nikolai VI"
+		type = manowar
+	}
+
+	ship = {
+		name= "Imperator Pavel VI"
+		type = manowar
+	}
+
+	ship = {
+		name= "Imperator Pyotr VI"
+		type = manowar
+	}
+
+	ship = {
+		name= "Admiral Lazarev"
 		type = frigate
 	}
 
 	ship = {
-		name= "Narva"
+		name= "Admiral Nakhimov"
 		type = frigate
 	}
 
 	ship = {
-		name= "Premyslav"
+		name= "Admiral Ushakov"
 		type = frigate
 	}
 
 	ship = {
-		name= "Riga"
+		name= "Admiral Kornilov"
 		type = frigate
 	}
 
 	ship = {
-		name= "Viatcheslav"
+		name= "Admiral Makarov"
 		type = frigate
 	}
 
 	ship = {
-		name= "Emmanuel"
+		name= "Admiral Spiridov"
 		type = frigate
 	}
 
 	ship = {
-		name= "Borislav"
+		name= "Admiral Senyavin"
 		type = frigate
 	}
 
 	ship = {
-		name= "Legkii"
+		name= "Admiral Chichagov"
 		type = frigate
 	}
 
 	ship = {
-		name= "3. Transportnaya Flotiliya"
-		type = clipper_transport
+		name= "Admiral Greig"
+		type = frigate
 	}
 
 	ship = {
-		name= "4. Transportnaya Flotiliya"
-		type = clipper_transport
+		name= "Admiral Butakov"
+		type = frigate
 	}
 
+	ship = {
+		name= "Admiral Istomin"
+		type = frigate
+	}
+
+	ship = {
+		name= "Admiral Nevelskoy"
+		type = frigate
+	}
 }
 

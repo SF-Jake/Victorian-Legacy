@@ -604,968 +604,136 @@ army = {
 }
 
 navy = {
-	name = "Channel Fleet"
+	name = "Grand Fleet"
 	location = 303
-	ship = {
-		name= "HMS Asia"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Belleisle"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Bellerophon"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Bombay"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Britannia"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Calcutta"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Camperdown"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Carnatic"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Clarence"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Formidable"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Ganges"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Hastings"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Hawke"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Malabar"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Monarch"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Neptune"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Powerful"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Prince Regent"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Princess Charlotte"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Rodney"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Royal Adelaide"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Royal George"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Royal William"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Russell"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Talavera"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Thunderer"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Vanguard"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Vengeance"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Waterloo"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS America"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Castor"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Conquestadore"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Eagle"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Forth"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Gloucester"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Pique"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Seahorse"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Stag"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Thalia"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Vernon"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Vindictive"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Medea"
-		type = commerce_raider
-	}
-
-	ship = {
-		name= "HMS Phoenix"
-		type = commerce_raider
-	}
-
+	ship = { name= "HMS Agamemnon" type = manowar }
+	ship = { name= "HMS Albion" type = manowar }
+	ship = { name= "HMS Alexandra" type = manowar }
+	ship = { name= "HMS Anson" type = manowar }
+	ship = { name= "HMS Barfleur" type = manowar }
+	ship = { name= "HMS Bellerophon" type = manowar }
+	ship = { name= "HMS Benbow" type = manowar }
+	ship = { name= "HMS Black Prince" type = manowar }
+	ship = { name= "HMS Britannia" type = manowar }
+	ship = { name= "HMS Bulwark" type = manowar }
+	ship = { name= "HMS Caesar" type = manowar }
+	ship = { name= "HMS Canopus" type = manowar }
+	ship = { name= "HMS Centurion" type = manowar }
+	ship = { name= "HMS Colossus" type = manowar }
+	ship = { name= "HMS Conqueror" type = manowar }
+	ship = { name= "HMS Defence" type = manowar }
+	ship = { name= "HMS Dreadnought" type = manowar }
+	ship = { name= "HMS Duke" type = manowar }
+	ship = { name= "HMS Edinburgh" type = manowar }
+	ship = { name= "HMS Formidable" type = manowar }
+	ship = { name= "HMS Goliath" type = manowar }
+	ship = { name= "HMS Hannibal" type = manowar }
+	ship = { name= "HMS Hector" type = manowar }
+	ship = { name= "HMS Hercules" type = manowar }
+	ship = { name= "HMS Hood" type = manowar }
+	ship = { name= "HMS Howe" type = manowar }
+	ship = { name= "HMS Illustrious" type = manowar }
+	ship = { name= "HMS Implacable" type = manowar }
+	ship = { name= "HMS Indefatigable" type = manowar }
+	ship = { name= "HMS Invincible" type = manowar }
+	ship = { name= "HMS Irresistible" type = manowar }
+	ship = { name= "HMS King George V" type = manowar }
+	ship = { name= "HMS Lion" type = manowar }
+	ship = { name= "HMS Majestic" type = manowar }
+	ship = { name= "HMS Marlborough" type = manowar }
+	ship = { name= "HMS Mars" type = manowar }
+	ship = { name= "HMS Monarch" type = manowar }
+	ship = { name= "HMS Neptune" type = manowar }
+	ship = { name= "HMS Orion" type = manowar }
+	ship = { name= "HMS Prince of Wales" type = manowar }
+	ship = { name= "HMS Queen Elizabeth" type = manowar }
+	ship = { name= "HMS Ramillies" type = manowar }
+	ship = { name= "HMS Renown" type = manowar }
+	ship = { name= "HMS Resolution" type = manowar }
+	ship = { name= "HMS Revenge" type = manowar }
+	ship = { name= "HMS Royal Oak" type = manowar }
+	ship = { name= "HMS Royal Sovereign" type = manowar }
+	ship = { name= "HMS St. Vincent" type = manowar }
+	ship = { name= "HMS Superb" type = manowar }
+	ship = { name= "HMS Temeraire" type = manowar }
+	ship = { name= "HMS Thunderer" type = manowar }
+	ship = { name= "HMS Trafalgar" type = manowar }
+	ship = { name= "HMS Triumph" type = manowar }
+	ship = { name= "HMS Vanguard" type = manowar }
+	ship = { name= "HMS Venerable" type = manowar }
+	ship = { name= "HMS Victorious" type = manowar }
+	ship = { name= "HMS Warspite" type = manowar }
+	ship = { name= "HMS Wellington" type = manowar }
+	ship = { name= "HMS York" type = manowar }
+	ship = { name= "HMS Zealous" type = manowar }
+	ship = { name= "HMS Ajax" type = manowar }
+	ship = { name= "HMS Achilles" type = manowar }
+	ship = { name= "HMS Audacious" type = manowar }
+	ship = { name= "HMS Active" type = frigate }
+	ship = { name= "HMS Amphion" type = frigate }
+	ship = { name= "HMS Arethusa" type = frigate }
+	ship = { name= "HMS Aurora" type = frigate }
+	ship = { name= "HMS Bacchante" type = frigate }
+	ship = { name= "HMS Black Prince" type = frigate }
+	ship = { name= "HMS Brilliant" type = frigate }
+	ship = { name= "HMS Cleopatra" type = frigate }
+	ship = { name= "HMS Diadem" type = frigate }
+	ship = { name= "HMS Dublin" type = frigate }
+	ship = { name= "HMS Euryalus" type = frigate }
+	ship = { name= "HMS Galatea" type = frigate }
+	ship = { name= "HMS Glasgow" type = frigate }
+	ship = { name= "HMS Gloucester" type = frigate }
+	ship = { name= "HMS Inconstant" type = frigate }
+	ship = { name= "HMS Liverpool" type = frigate }
+	ship = { name= "HMS Minotaur" type = frigate }
+	ship = { name= "HMS Newcastle" type = frigate }
+	ship = { name= "HMS Southampton" type = frigate }
+	ship = { name= "HMS Spartiate" type = frigate }
+	ship = { name= "HMS Superb" type = frigate }
+	ship = { name= "HMS Swiftsure" type = frigate }
+	ship = { name= "HMS Talbot" type = frigate }
+	ship = { name= "HMS Theseus" type = frigate }
+	ship = { name= "HMS Undaunted" type = frigate }
+	ship = { name= "HMS Vanguard" type = frigate }
+	ship = { name= "HMS Warrior" type = frigate }
+	ship = { name= "HMS Yarmouth" type = frigate }
+	ship = { name= "HMS Zealous" type = frigate }
+	ship = { name= "HMS Shannon" type = frigate }
+	ship = { name= "HMS Endymion" type = frigate }
+	ship = { name= "HMS Trincomalee" type = frigate }
 }
 
 navy = {
-	name = "1st Reserve Squadron"
-	location = 303
-	ship = {
-		name= "HMS Blenheim"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Cambridge"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Cornwallis"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Defence"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Genoa"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Hercules"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Howe"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Nelson"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Redoubtable"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Salisbury"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Amazon"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Fisguard"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Isis"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Latona"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Melampus"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Minerva"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Nereus"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Seringapatam"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Southampton"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Venus"
-		type = frigate
-	}
-
+	name = "Transport Fleet"
+	location = 292
+	ship = { name= "HMS Transport 1" type = clipper_transport }
+	ship = { name= "HMS Transport 2" type = clipper_transport }
+	ship = { name= "HMS Transport 3" type = clipper_transport }
+	ship = { name= "HMS Transport 4" type = clipper_transport }
+	ship = { name= "HMS Transport 5" type = clipper_transport }
+	ship = { name= "HMS Transport 6" type = clipper_transport }
+	ship = { name= "HMS Transport 7" type = clipper_transport }
+	ship = { name= "HMS Transport 8" type = clipper_transport }
+	ship = { name= "HMS Transport 9" type = clipper_transport }
+	ship = { name= "HMS Transport 10" type = clipper_transport }
+	ship = { name= "HMS Transport 11" type = clipper_transport }
+	ship = { name= "HMS Transport 12" type = clipper_transport }
+	ship = { name= "HMS Transport 13" type = clipper_transport }
+	ship = { name= "HMS Transport 14" type = clipper_transport }
+	ship = { name= "HMS Transport 15" type = clipper_transport }
+	ship = { name= "HMS Transport 16" type = clipper_transport }
+	ship = { name= "HMS Transport 17" type = clipper_transport }
+	ship = { name= "HMS Transport 18" type = clipper_transport }
+	ship = { name= "HMS Transport 19" type = clipper_transport }
+	ship = { name= "HMS Transport 20" type = clipper_transport }
+	ship = { name= "HMS Transport 21" type = clipper_transport }
+	ship = { name= "HMS Transport 22" type = clipper_transport }
+	ship = { name= "HMS Transport 23" type = clipper_transport }
+	ship = { name= "HMS Transport 24" type = clipper_transport }
+	ship = { name= "HMS Transport 25" type = clipper_transport }
+	ship = { name= "HMS Transport 26" type = clipper_transport }
+	ship = { name= "HMS Transport 27" type = clipper_transport }
+	ship = { name= "HMS Transport 28" type = clipper_transport }
+	ship = { name= "HMS Transport 29" type = clipper_transport }
+	ship = { name= "HMS Transport 30" type = clipper_transport }
 }
-
-navy = {
-	name = "2nd Reserve Squadron"
-	location = 299 #Plymouth
-	ship = {
-		name= "HMS Bellona"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Benbow"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Devonshire"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Hogue"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Medway"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Mulgrave"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Pembroke"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Queen Charlotte"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Scarborough"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Stirling Castle"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Amphitrite"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Arethusa"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Blonde"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Brilliant"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Forte"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Java"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Laurel"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Pallas"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Sirius"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Trincomalee"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "3rd Reserve Squadron"
-	location = 299 #Plymouth
-	ship = {
-		name= "HMS Ajax"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Armada"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Caledonia"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Edinburgh"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Egmont"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Impregnable"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Invincible"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Minden"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Poictiers"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Warspite"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Bacchante"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Belvidera"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Briton"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Crescent"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Galatea"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Havannah"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Maidstone"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Menelaus"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Nymphe"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Tenedos"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "4th Reserve Squadron"
-	location = 301 #Canterbury
-	ship = {
-		name= "HMS Foudroyant"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Hibernia"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Illustrious"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Implacable"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Revenge"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Apollo"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Horatio"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Leonidas"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Naiad"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Owen Glendower"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Resistance"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "Mediterranean Fleet"
-	location = 854 #Malta
-	ship = {
-		name= "HMS Agincourt"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Black Prince"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Melville"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Minotaur"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Pitt"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Wellington"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Alfred"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Andromeda"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Circe"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Clyde"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Cornwall"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Eurotas"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Fox"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Hotspur"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Leda"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Penelope"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS President"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Proserpine"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Salamander"
-		type = commerce_raider
-	}
-
-}
-
-navy = {
-	name = "Lisbon Station"
-	location = 517 #Gibraltar
-	ship = {
-		name= "HMS Africaine"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Cerberus"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Nemesis"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "North America Station"
-	location = 71 #Halifax
-	ship = {
-		name= "HMS Saint Vincent"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Wellesley"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Aeolus"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Barham"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Daedalus"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Druid"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Dublin"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Hebe"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Mercury"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Mermaid"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Rhadamanthus"
-		type = commerce_raider
-	}
-
-}
-
-navy = {
-	name = "South Atlantic Station"
-	location = 2131 # Falklands
-	ship = {
-		name= "HMS Hamadryad"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Lancaster"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Thames"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Thisbe"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "West Africa Station"
-	location = 1884 #Freetown
-	ship = {
-		name= "HMS Diana"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "East Indies Station"
-	location = 1321 #Colombo
-	ship = {
-		name= "HMS Madagascar"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Portland"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Winchester"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "1st Transport Squadron"
-	location = 303
-	ship = {
-		name= "1st Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2nd Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3rd Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "4th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "5th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "6th Transport Flotilla"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "23th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "24th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "25th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "26th Transport Flotilla"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "2nd Transport Squadron"
-	location = 854
-	ship = {
-		name= "7th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "8th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "9th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "10th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "19th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "20th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "21th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "22th Transport Flotilla"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "3rd Transport Squadron"
-	location = 1321 #Colombo
-	ship = {
-		name= "11th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "12th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "13th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "14th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "15th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "16th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "17th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "18th Transport Flotilla"
-		type = clipper_transport
-	}
-
-}
-

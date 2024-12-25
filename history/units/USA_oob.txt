@@ -309,146 +309,60 @@ army = {
 }
 
 navy = {
-	name = "1st Squadron"
-	location = 222
+	name = "US Navy"
+	location = 220
 	ship = {
-		name= "Franklin"
+		name= "USS Constitution"
 		type = manowar
 	}
 
 	ship = {
-		name= "Pennsylvania"
+		name= "USS Independence"
 		type = manowar
 	}
 
 	ship = {
-		name= "Washington"
+		name= "USS President"
 		type = manowar
 	}
 
 	ship = {
-		name= "Columbia"
+		name= "USS United States"
+		type = manowar
+	}
+
+	ship = {
+		name= "USS Congress"
+		type = manowar
+	}
+
+	ship = {
+		name= "USS Constellation"
+		type = manowar
+	}
+
+	ship = {
+		name= "USS Chesapeake"
+		type = manowar
+	}
+
+	ship = {
+		name= "USS Essex"
 		type = frigate
 	}
 
 	ship = {
-		name= "Constellation"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "2nd Squadron"
-	location = 248
-	ship = {
-		name= "Ohio"
-		type = manowar
-	}
-
-	ship = {
-		name= "Hudson"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "3rd Squadron"
-	location = 214
-	ship = {
-		name= "John Adams"
+		name= "USS Macedonian"
 		type = frigate
 	}
 
 	ship = {
-		name= "United States"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "4th Squadron"
-	location = 219
-	ship = {
-		name= "Independance"
+		name= "USS Adams"
 		type = frigate
 	}
 
 	ship = {
-		name= "Brandywine"
+		name= "USS Boston"
 		type = frigate
 	}
-
-	ship = {
-		name= "Constitution"
-		type = frigate
-	}
-
-	ship = {
-		name= "Potomac"
-		type = frigate
-	}
-
-	ship = {
-		name= "'James McKay' Flotilla"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "1st Reserve Squadron"
-	location = 247
-	ship = {
-		name= "Alabama"
-		type = manowar
-	}
-
-	ship = {
-		name= "Vermont"
-		type = manowar
-	}
-
-	ship = {
-		name= "Virginia"
-		type = manowar
-	}
-
-	ship = {
-		name= "1st Reserve Transport"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "2nd Reserve Squadron"
-	location = 214
-	ship = {
-		name= "Columbus"
-		type = manowar
-	}
-
-	ship = {
-		name= "Delaware"
-		type = manowar
-	}
-
-	ship = {
-		name= "New York"
-		type = manowar
-	}
-
-	ship = {
-		name= "North Carolina"
-		type = manowar
-	}
-
-	ship = {
-		name= "2nd Reserve Transport"
-		type = clipper_transport
-	}
-
 }

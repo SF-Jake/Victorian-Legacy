@@ -392,129 +392,77 @@ navy = {
 	name = "Ottoman Navy"
 	location = 860
 	ship = {
-		name= "Masudiya"
+		name= "Sultan Selim"
 		type = manowar
 	}
 
 	ship = {
-		name= "Sadd al Bahri"
+		name= "Mahmud II"
 		type = manowar
 	}
 
 	ship = {
-		name= "Ankay i Barhi"
+		name= "Orhan Gazi"
 		type = manowar
 	}
 
 	ship = {
-		name= "Taus i Barhi"
+		name= "Yavuz Sultan"
 		type = manowar
 	}
 
 	ship = {
-		name= "Tevfik Nyuma"
+		name= "Fatih Sultan"
 		type = manowar
 	}
 
 	ship = {
-		name= "Bisharet Nyuma"
+		name= "Kanuni Sultan"
 		type = manowar
 	}
 
 	ship = {
-		name= "Killid i Barhi"
+		name= "Barbaros Hayreddin"
 		type = manowar
 	}
 
 	ship = {
-		name= "Heybetendaz"
-		type = manowar
-	}
-
-	ship = {
-		name= "Melek i Barhi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Sayyad i Barhi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Gulbang i Nusret"
-		type = manowar
-	}
-
-	ship = {
-		name= "Jebel Andaz"
-		type = manowar
-	}
-
-	ship = {
-		name= "Iskenderiya"
+		name= "Piri Reis"
 		type = frigate
 	}
 
 	ship = {
-		name= "Badere i Zaffar"
+		name= "Turgut Reis"
 		type = frigate
 	}
 
 	ship = {
-		name= "Mahubey Subham"
+		name= "Kemal Reis"
 		type = frigate
 	}
 
 	ship = {
-		name= "Metelin"
+		name= "K?l?ç Ali"
 		type = frigate
 	}
+}
 
+navy = {
+	name = "Ottoman Transport Fleet"
+	location = 860
 	ship = {
-		name= "Denyuvet"
-		type = frigate
-	}
-
-	ship = {
-		name= "Rahbar i Alam"
-		type = frigate
-	}
-
-	ship = {
-		name= "Malbaik Nesuret"
-		type = frigate
-	}
-
-	ship = {
-		name= "Bedr i Zafar"
-		type = frigate
-	}
-
-	ship = {
-		name= "Meskeni Ghazi"
-		type = frigate
-	}
-
-	ship = {
-		name= "Fakim i Zafar"
-		type = frigate
-	}
-
-	ship = {
-		name= "1st Transport Flotilla"
+		name= "Osmaniye"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "2nd Transport Flotilla"
+		name= "Abdülmecid"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "3rd Transport Flotilla"
+		name= "Mecidiye"
 		type = clipper_transport
 	}
-
 }
 

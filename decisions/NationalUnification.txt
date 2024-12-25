@@ -641,6 +641,7 @@ political_decisions = {
 			NOT = {
 				exists = GCO
 			}
+			NOT = { has_country_flag = gran_colombia }
 		}
 		allow = {
 			war = no
@@ -658,6 +659,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			set_country_flag = gran_colombia
 			prestige = 10
 			any_country = {
 				limit = {

@@ -212,62 +212,60 @@ army = {
 }
 
 navy = {
-	name = "Portugese Royal Navy"
-	location = 524
+	name = "Portugese Fleet"
+	location = 521
 	ship = {
-		name= "Rainha de Portugal "
+		name= "Infante Dom Henrique"
 		type = manowar
 	}
 
 	ship = {
-		name= "Dom João VI "
+		name= "São Gabriel"
 		type = manowar
 	}
 
 	ship = {
-		name= "Nossa Senhora da Conceição"
+		name= "Santa Catarina"
 		type = manowar
 	}
 
 	ship = {
-		name= "São Sebastião"
-		type = manowar
+		name= "Vasco da Gama"
+		type = frigate
 	}
 
 	ship = {
-		name= "Amazônia"
-		type = manowar
+		name= "Bartolomeu Dias"
+		type = frigate
 	}
+}
 
+navy = {
+	name = "Portugese Transport Fleet"
+	location = 526
 	ship = {
-		name= "Princesa Carlota"
-		type = manowar
-	}
-
-	ship = {
-		name= "Teresa"
-		type = manowar
-	}
-
-	ship = {
-		name= "Príncipe do Brasil"
-		type = manowar
-	}
-
-	ship = {
-		name= "1o Navios de Transporte"
+		name= "Navio de Transporte 1"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "2o Navios de Transporte"
+		name= "Navio de Transporte 2"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "3o Navios de Transporte"
+		name= "Navio de Transporte 3"
 		type = clipper_transport
 	}
 
+	ship = {
+		name= "Navio de Transporte 4"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Navio de Transporte 5"
+		type = clipper_transport
+	}
 }
 

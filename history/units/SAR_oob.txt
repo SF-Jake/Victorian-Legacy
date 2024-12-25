@@ -157,6 +157,35 @@ army = {
 }
 
 navy = {
+	name = "Flotta Sarda"
+	location = 724
+	ship = {
+		name= "Re Umberto"
+		type = manowar
+	}
+
+	ship = {
+		name= "Vittorio Emanuele"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Squadrone Trasporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Trasporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Squadrone Trasporti"
+		type = clipper_transport
+	}
+}
+
+navy = {
 	name = "Armata di Mare"
 	location = 724
 	ship = {

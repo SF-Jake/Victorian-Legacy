@@ -19,12 +19,7 @@ ECU = {
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
-PEU = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
-}
-BOL = {
+PBC = {
 	value = 100		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
@@ -305,150 +300,141 @@ army = {
 }
 
 navy = {
-	name = "Armada de Cuba"
-	location = 2212
-	
-	ship = {
-		name = "Santiago"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Hespérides"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Centinela"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Isla de Cuba"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Cristóbal Colón"
-		type = frigate
-	}
-	
-	ship = {
-		name= "1a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3a Flotilla de Transporte"
-		type = clipper_transport
-	}
-}
-
-navy = {
-	name = "Armada de Filipinas"
-	location = 1455
-	
-	ship = {
-		name = "Alerta"
-		type = manowar
-	}
-	
-	ship = {
-		name = "San Fernando"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Legazpi"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Victoria"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Nuestra Señora del Patrocinio"
-		type = frigate
-	}
-	
-	ship = {
-		name= "1a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3a Flotilla de Transporte"
-		type = clipper_transport
-	}
-}
-
-navy = {
-	name = "Armada Real Española"
+	name = "Nueva Armada Española"
 	location = 506
+	
 	ship = {
-		name= "San Raimundo"
+		name = "Reina Isabel II"
 		type = manowar
 	}
-
+	
 	ship = {
-		name= "Héroe"
+		name = "San Juan de Nepomuceno"
 		type = manowar
 	}
-
+	
 	ship = {
-		name= "San Pablo"
+		name = "Princesa de Asturias"
 		type = manowar
 	}
-
+	
 	ship = {
-		name= "Ceres"
+		name = "San Francisco de Asís"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Santa María"
 		type = frigate
 	}
-
+	
 	ship = {
-		name= "Gloria"
+		name = "Nuestra Señora del Carmen"
 		type = frigate
 	}
+}
 
+navy = {
+	name = "Flotilla de Transporte"
+	location = 512
+	
 	ship = {
-		name= "Nuestra Señora de Asunción"
-		type = frigate
-	}
-
-	ship = {
-		name= "Nuestra Señora de Atocha"
-		type = frigate
-	}
-
-	ship = {
-		name= "Santa Sabina"
-		type = frigate
-	}
-
-	ship = {
-		name= "1a Flotilla de Transporte"
+		name = "La Pinta"
 		type = clipper_transport
 	}
-
+	
 	ship = {
-		name= "2a Flotilla de Transporte"
+		name = "La Niña"
 		type = clipper_transport
 	}
-
+	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "La Santa María"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Cristóbal"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Antonio"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San José"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Juan"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Pedro"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Pablo"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Marcos"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Lucas"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Mateo"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Felipe"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Andrés"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Bartolomé"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Simón"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Judas"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Tomás"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Mateo"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "San Lucas"
 		type = clipper_transport
 	}
 }

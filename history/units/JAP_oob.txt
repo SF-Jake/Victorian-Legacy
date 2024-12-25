@@ -121,91 +121,42 @@ army = {
 }
 
 navy = {
-	name = "Shogunate Fleet"
-	location = 1657
+	name = "Japanese Battle Fleet"
+	location = 1649
 	ship = {
-		name= "1 Yusosentai"
-		type = clipper_transport
+		name= "Kongo"
+		type = manowar
 	}
 	ship = {
-		name= "2 Yusosentai"
-		type = clipper_transport
+		name= "Hiei"
+		type = manowar
 	}
 	ship = {
-		name= "3 Yusosentai"
-		type = clipper_transport
+		name= "Haruna"
+		type = manowar
 	}
 	ship = {
-		name= "4 Yusosentai"
-		type = clipper_transport
+		name= "Kirishima"
+		type = manowar
 	}
 	ship = {
-		name= "5 Yusosentai"
-		type = clipper_transport
+		name= "Nagato"
+		type = manowar
 	}
 	ship = {
-		name= "1 Yusosentai"
-		type = clipper_transport
+		name= "Mutsu"
+		type = manowar
 	}
 	ship = {
-		name= "2 Yusosentai"
-		type = clipper_transport
-	}
-	ship = {
-		name= "3 Yusosentai"
-		type = clipper_transport
-	}
-	ship = {
-		name= "4 Yusosentai"
-		type = clipper_transport
-	}
-	ship = {
-		name= "5 Yusosentai"
-		type = clipper_transport
-	}	
-}
-
-navy = {
-	name = "Imperial Fleet"
-	location = 1657
-	ship = {
-		name= "Frigate"
+		name= "Asama"
 		type = frigate
 	}
 	ship = {
-		name= "Frigate"
+		name= "Azuma"
 		type = frigate
 	}
 	ship = {
-		name= "Frigate"
-		type = frigate
-	}
-	ship = {
-		name= "Frigate"
-		type = frigate
-	}
-	ship = {
-		name= "Frigate"
-		type = frigate
-	}
-	ship = {
-		name= "Frigate"
-		type = frigate
-	}
-	ship = {
-		name= "Frigate"
-		type = frigate
-	}
-	ship = {
-		name= "Frigate"
-		type = frigate
-	}
-	ship = {
-		name= "Frigate"
-		type = frigate
-	}
-	ship = {
-		name= "Frigate"
+		name= "Iwate"
 		type = frigate
 	}
 }

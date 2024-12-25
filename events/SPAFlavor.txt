@@ -578,6 +578,7 @@ country_event = {
 			OR = {
 				vassal_of = SPA
 				vassal_of = SPC
+				vassal_of = IBR
 			}
 		}
 	}
@@ -802,5 +803,151 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+	}
+}
+
+country_event = {
+	id = 37731
+	title = "Viceroyalty of New Spain"
+	desc = "A proposition for the formation of New Spain has been presented to us who should we give overlord to? *If some conditions are not met you will get this event again.*"
+	picture = celebration
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	option = {
+		name = "Colombia"
+		any_country = {
+			limit = {
+				tag = CLM
+				exists = yes
+				ai = no
+				vassal_of = THIS
+				war = no
+			}
+			country_event = { id=37732 days=0 }
+		}
+		random_owned = {
+			limit = { 
+				owner = { 
+					OR = {
+						NOT = { is_our_vassal = CLM } 
+						NOT = { exists = CLM }
+						CLM = { ai = yes }
+						CLM = { war = yes }
+					}
+				}
+			}
+			owner = { country_event = 37731 }
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "Mexico"
+		any_country = {
+			limit = {
+				tag = MEX
+				exists = yes
+				ai = no
+				vassal_of = THIS
+			}
+			country_event = { id=37732 days=0 }
+		}
+		random_owned = {
+			limit = { 
+				owner = { 
+					OR = {
+						NOT = { is_our_vassal = MEX } 
+						NOT = { exists = MEX }
+						MEX = { ai = yes }
+						MEX = { war = yes }
+					}
+				}
+			}
+			owner = { country_event = 37731 }
+		}
+	}
+	option = {
+		name = "What a terrible idea execute whoever sent me this!"
+		clr_global_flag = new_spain
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 37732
+	title = "Viceroyalty of New Spain"
+	desc = "The Spanish have Blessed us with an unforgetable gift"
+	picture = celebration
+
+	is_triggered_only = yes
+
+	option = {
+		name = "para el rey y la reina"
+		change_tag = VNS
+		government = colonial_company
+		set_country_flag = spanish_vassal
+		primary_culture = spanish
+		remove_country_modifier = mex_nation_modifier
+		remove_country_modifier = clm_nation_modifier
+		remove_accepted_culture = mexican
+		remove_accepted_culture = central_american
+		remove_accepted_culture = north_andean
+		any_country = {
+			limit = {
+				tag = FROM
+			}
+			any_owned = {
+				limit = {
+					is_core = GCL
+				}
+				secede_province = VNS
+			}
+		}
+		any_country = {
+			limit = {
+				OR = {
+					tag = MEX
+					tag = VNZ
+					tag = CLM
+					tag = ECU
+					tag = UCA
+					tag = GCO
+				}
+				vassal_of = FROM
+				exists = yes
+			}
+			country_event = { id=11101 days=0 }
+		}
+		GCL = {
+			all_core = {
+				add_core = VNS
+				remove_core = ECU
+				remove_core = GCO
+				remove_core = UCA
+				remove_core = VNZ
+				remove_core = MEX
+				remove_core = CLM
+				remove_core = HON
+				remove_core = GUA
+				remove_core = NIC
+				remove_core = COS
+				remove_core = YUC
+				remove_core = ELS
+			}
+		}
+		add_country_modifier = { name = vns_nation_modifier duration = -1 }
+	}
+
+	option = {
+		name = "Reject"
+		clr_global_flag = new_spain
+		ai_chance = {
+			factor = 0
+		}
 	}
 }

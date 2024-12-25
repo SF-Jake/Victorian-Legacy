@@ -231,63 +231,6 @@ country_event = {
 	}
 }
 
-#Balkan Population Exchange
-country_event = {
-
-	id = 31120
-	title = "EVTNAME31120"
-	desc = "EVTDESC31120"
-	major = yes
-
-	trigger = {
-		tag = TUR
-		NOT = {
-			TUR_803 = { owned_by = THIS }
-			TUR_805 = { owned_by = THIS }
-			TUR_806 = { owned_by = THIS }
-			TUR_809 = { owned_by = THIS }
-			TUR_810 = { owned_by = THIS }
-			TUR_823 = { owned_by = THIS }
-			TUR_832 = { owned_by = THIS }
-		}
-		NOT = { has_global_flag = turkish_population_exchange }
-		NOT = { has_country_flag = embraced_ottomanism }
-	}
-	
-	#mean_time_to_happen = {
-	#	months = 12
-	#}
-
-	option = {
-		name = "EVTOPTA31120"
-		set_global_flag = turkish_population_exchange
-		set_global_flag = population_exchange_in_progress
-		add_country_modifier = { name = turkish_population_exchange duration = 730 }
-	}
-}
-
-country_event = {
-
-	id = 31121
-
-	trigger = {
-		tag = JAN
-		has_global_flag = population_exchange_in_progress
-		TUR = {
-			OR = {
-				NOT = { has_country_modifier = turkish_population_exchange }
-				exists = no
-			}
-		}
-	}
-
-	fire_only_once = yes
-
-	option = {
-		clr_global_flag = population_exchange_in_progress
-	}
-}
-
 country_event = {
 
 	id = 31122

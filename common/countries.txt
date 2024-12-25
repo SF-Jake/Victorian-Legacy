@@ -33,6 +33,7 @@ POR		= "countries/Portugal.txt"
 SCO		= "countries/Scotland.txt"
 SPA		= "countries/Spain.txt"
 IBR		= "countries/Iberia.txt"
+PBA		= "countries/Portugal-Brazil.txt"
 WLL		= "countries/Wallonia.txt"
 
 # Germany
@@ -405,10 +406,12 @@ CIV		= "countries/Civilizing.txt"
 FWR		= "countries/Fake War.txt"
 GHO		= "countries/Ghost Country.txt"
 PRO		= "countries/Province Flag.txt"
+
+TIN		= "countries/Tiny State.txt"
 SMA		= "countries/Small State.txt"
-MED		="countries/Medium State.txt"
-LRG		="countries/Large State.txt"
-HUG		="countries/Huge State.txt"
+MED		= "countries/Medium State.txt"
+LRG		= "countries/Large State.txt"
+HUG		= "countries/Huge State.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

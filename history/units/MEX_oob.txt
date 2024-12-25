@@ -186,17 +186,16 @@ army = {
 }
 
 navy = {
-	name = "Armada de Mexico"
+	name = "Flota del Golfo"
 	location = 2162
 	ship = {
-		name= "Vencedor del Alamo"
-		type = frigate
+		name= "Guerrero"
+		type = manowar
 	}
 
 	ship = {
-		name= "Matilda"
-		type = clipper_transport
+		name= "Independencia"
+		type = frigate
 	}
-
 }
 

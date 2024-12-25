@@ -25,299 +25,820 @@ political_decisions = {
 	#	}
 	#}
 
-	reconquista_mex = {
-		picture = spain_reconquest
-		potential = {
-			NOT = { has_country_flag = reconquista_mex }
-			NOT = { has_country_flag = reconquista_mex_failed }
-			NOT = { has_country_flag = doing_reconquista }
+	form_dominion_new_spain_player = {
+		picture = new_spain
+	
+		potential = { 
+			NOT = { has_global_flag = new_spain }
 			has_global_flag = carlist_victory
 			OR = {
 				tag = IBR
 				tag = SPC
 			}
 		}
+	
 		allow = {
 			state_n_government = 1
-			NOT = { has_country_flag = doing_reconquista }
-		}
-		effect = {
-			set_country_flag = reconquista_mex
-			set_country_flag = doing_reconquista
-			MEX_2183 = { add_core = THIS }
-			add_country_modifier = {name = contested_claims duration = 3650 }
-		}
-	}
-	reconquista_mex_2 = {
-		picture = spain_reconquest
-		potential = {
-			NOT = { has_country_flag = reconquista_mex_2 }
-			has_country_flag = reconquista_mex
-			has_global_flag = carlist_victory
+			war = no
 			OR = {
-				tag = IBR
-				tag = SPC
-			}
-		}
-		allow = {
-			MEX_2183 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			MEX_2170 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			MEX_2162 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			MEX_2161 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-		}
-		effect = {
-			set_country_flag = reconquista_mex_2
-			clr_country_flag = doing_reconquista
-			remove_country_modifier = contested_claims
-			MEX_2170 = { add_core = THIS }
-			MEX_2162 = { add_core = THIS }
-			MEX_2161 = { add_core = THIS }
-			random_country = {
-				limit = {
-					primary_culture = mexican
-					vassal_of = THIS
+				CLM = {
+					vassal_of = THIS 
+					ai = no
+					war = no
 				}
-				country_event = { id=11101 days=0 }
-			}
-		}
-	}
-	reconquista_cenamer = {
-		picture = spain_reconquest
-		potential = {
-			NOT = { has_country_flag = reconquista_cenamer }
-			NOT = { has_country_flag = reconquista_cenamer_failed }
-			NOT = { has_country_flag = doing_reconquista }
-			has_global_flag = carlist_victory
-			OR = {
-				tag = IBR
-				tag = SPC
-			}
-		}
-		allow = {
-			NOT = { has_country_flag = doing_reconquista }
-		}
-		effect = {
-			set_country_flag = reconquista_cenamer
-			set_country_flag = doing_reconquista
-			UCA_2186 = { add_core = THIS }
-			UCA_2191 = { add_core = THIS }
-			add_country_modifier = {name = contested_claims duration = 3650 }
-		}
-	}
-	reconquista_cenamer_2 = {
-		picture = spain_reconquest
-		potential = {
-			NOT = { has_country_flag = reconquista_cenamer_2 }
-			has_country_flag = reconquista_cenamer
-			has_global_flag = carlist_victory
-			OR = {
-				tag = IBR
-				tag = SPC
-			}
-		}
-		allow = {
-			OR = {
-				UCA_2186 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-				UCA_2191 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			}
-			UCA_2197 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			UCA_2201 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-		}
-		effect = {
-			set_country_flag = reconquista_cenamer_2
-			clr_country_flag = doing_reconquista
-			remove_country_modifier = contested_claims
-			UCA_2197 = { add_core = THIS }
-			UCA_2201 = { add_core = THIS }
-			random_country = {
-				limit = {
-					primary_culture = central_american
-					vassal_of = THIS
+				MEX = {
+					vassal_of = THIS 
+					ai = no
+					war = no
 				}
-				country_event = { id=11101 days=0 }
 			}
 		}
+	
+		effect = {
+			set_global_flag = new_spain
+			prestige = 75
+			country_event = { id = 37731 days = 0 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
 	}
-	reconquista_col = {
-		picture = spain_reconquest
-		potential = {
-			NOT = { has_country_flag = reconquista_col }
-			NOT = { has_country_flag = reconquista_col_failed }
-			NOT = { has_country_flag = doing_reconquista }
+
+	integrate_new_spain = {
+		picture = new_spain
+	
+		potential = { 
+			NOT = { has_global_flag = new_spain }
 			has_global_flag = carlist_victory
 			OR = {
 				tag = IBR
 				tag = SPC
 			}
 		}
+	
 		allow = {
-			ideological_thought = 1
-			NOT = { has_country_flag = doing_reconquista }
-		}
-		effect = {
-			set_country_flag = reconquista_col
-			set_country_flag = doing_reconquista
-			CLM_1723 = { add_core = THIS }
-			CLM_2251 = { add_core = THIS }
-			add_country_modifier = {name = contested_claims duration = 3650 }
-		}
-	}
-	reconquista_col_2 = {
-		picture = spain_reconquest
-		potential = {
-			has_country_flag = reconquista_col
-			NOT = { has_country_flag = reconquista_col_2 }
-			has_global_flag = carlist_victory
-			OR = {
-				tag = IBR
-				tag = SPC
-			}
-		}
-		allow = {
-			OR = {
-				CLM_1723 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-				CLM_2251 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			}
-			VNZ_2234 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-			CLM_2247 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
-		}
-		effect = {
-			set_country_flag = reconquista_col_2
-			clr_country_flag = doing_reconquista
-			remove_country_modifier = contested_claims
-			VNZ_2234 = { add_core = THIS }
-			CLM_2247 = { add_core = THIS }
-			random_country = {
-				limit = {
-					primary_culture = north_andean
-					vassal_of = THIS
+			war = no
+			MEX_2162 = { owned_by = THIS }
+			MEX_2146 = { owned_by = THIS }
+			MEX_2183 = { owned_by = THIS }
+			CLM_2247 = { owned_by = THIS }
+			CLM_2251 = { owned_by = THIS }
+			UCA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
 				}
-				country_event = { id=11101 days=0 }
 			}
-		}
-	}
-	reconquista_complete = {
-		picture = spain_reconquest
-		potential = {
-			has_global_flag = carlist_victory
-			OR = {
-				tag = IBR
-				tag = SPC
-			}
-			OR = {
-				has_country_flag = reconquista_col
-				has_country_flag = reconquista_cenamer
-				has_country_flag = reconquista_mex
-			}
-			NOT = { has_country_flag = reconquista_complete }
-		}
-		allow = {
 			nationalism_n_imperialism = 1
-			OR = {
-				has_country_flag = reconquista_col_2
-				has_country_flag = reconquista_col_failed
-			}
-			OR = {
-				has_country_flag = reconquista_cenamer_2
-				has_country_flag = reconquista_cenamer_failed
-			}
-			OR = {
-				has_country_flag = reconquista_mex_2
-				has_country_flag = reconquista_mex_failed
+			functionalism = 1
+		}
+	
+		effect = {
+			set_global_flag = new_spain
+			prestige = 25
+			add_accepted_culture = mexican
+			add_accepted_culture = central_american
+			add_accepted_culture = north_andean
+			GCL = {
+				all_core = {
+					add_core = THIS
+					remove_core = GCL
+				}
 			}
 		}
-		effect = {
-			set_country_flag = reconquista_complete
-			prestige = 20
-			random_owned = {
-				limit = {
-					owner = {
-						has_country_flag = reconquista_mex_failed
-					}
-				}
-				CIV = { country_event = { id = 37725 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					owner = {
-						has_country_flag = reconquista_col_failed
-					}
-				}
-				CIV = { country_event = { id = 37727 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					owner = {
-						has_country_flag = reconquista_cenamer_failed
-					}
-				}
-				CIV = { country_event = { id = 37726 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					owner = {
-						has_country_flag = reconquista_col_2
-						NOT = { has_country_flag = reconquista_col_failed }
-					}
-				}
-				CIV = { country_event = { id = 37730 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					owner = {
-						has_country_flag = reconquista_cenamer_2
-						NOT = { has_country_flag = reconquista_cenamer_failed }
-					}
-				}
-				CIV = { country_event = { id = 37729 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					owner = {
-						has_country_flag = reconquista_mex_2
-						NOT = { has_country_flag = reconquista_mex_failed }
-					}
-				}
-				CIV = { country_event = { id = 37728 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					owner = {
-						has_country_flag = reconquista_col_2
-						NOT = { has_country_flag = reconquista_col_failed }
-					}
-				}
-				PEU_2289 = { add_core = THIS }
-				CLM_2262 = { add_core = THIS }
-				ECU_2279 = { add_core = THIS }
-				VNZ_2265 = { add_core = THIS }
-				owner = { add_accepted_culture = north_andean }
-			}
-			random_owned = {
-				limit = {
-					owner = {
-						has_country_flag = reconquista_cenamer_2
-						NOT = { has_country_flag = reconquista_cenamer_failed }
-					}
-				}
-				owner = { add_accepted_culture = central_american }
-			}
-			random_owned = {
-				limit = {
-					owner = {
-						has_country_flag = reconquista_mex_2
-						NOT = { has_country_flag = reconquista_mex_failed }
-					}
-				}
-				MEX_2146 = { add_core = THIS }
-				MEX_2151 = { add_core = THIS }
-				MEX_2142 = { add_core = THIS }
-				MEX_2138 = { add_core = THIS }
-				MEX_2173 = { add_core = THIS }
-				owner = { add_accepted_culture = mexican }
-			}
+	
+		ai_will_do = {
+			factor = 1
 		}
 	}
+
+	annex_gco_to_vns = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			GCO = { exists = yes }
+			VNS = {
+				vassal_of = THIS
+				exists = yes
+			}
+		}
+	
+		allow = {
+			war = no	
+			OR = {
+				GCO = { 
+					ai = yes
+					OR = {
+						vassal_of = THIS 
+						any_owned_province = { is_core = GCO }
+					}
+				}
+				revolution_n_counterrevolution = 1
+			}		
+		}
+	
+		effect = {
+			badboy = 3
+			VNS = { inherit = GCO }
+			any_owned = {
+				limit = { is_core = GCO }
+				secede_province = VNS
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_gco = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			GCO = { exists = yes }
+			VNS = { exists = no }
+		}
+	
+		allow = {
+			war = no
+			GCO = { 
+				ai = yes
+				vassal_of = THIS 
+			}			
+		}
+	
+		effect = {
+			badboy = 3
+			inherit = GCO
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_uca_to_vns = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			UCA = { exists = yes }
+			VNS = {
+				vassal_of = THIS
+				exists = yes
+			}
+		}
+	
+		allow = {
+			war = no
+			UCA = { 
+				OR = {
+					vassal_of = THIS 
+					any_owned_province = { is_core = UCA }
+				}
+			}			
+		}
+	
+		effect = {
+			badboy = 3
+			VNS = { inherit = UCA }
+			any_owned = {
+				limit = { is_core = UCA }
+				secede_province = VNS
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_uca = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			UCA = { exists = yes }
+			VNS = { exists = no }
+		}
+	
+		allow = {
+			war = no
+			UCA = { vassal_of = THIS }				
+		}
+	
+		effect = {
+			badboy = 3
+			inherit = UCA
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_clm_to_vns = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			CLM = { exists = yes }
+			VNS = {
+				vassal_of = THIS
+				exists = yes
+			}
+		}
+	
+		allow = {
+			war = no
+			OR = {
+				GCO = { 
+					ai = yes
+					OR = {
+						vassal_of = THIS 
+						any_owned_province = { is_core = CLM }
+					}
+				}
+				revolution_n_counterrevolution = 1
+			}			
+		}
+	
+		effect = {
+			badboy = 3
+			VNS = { inherit = CLM }
+			any_owned = {
+				limit = { is_core = CLM }
+				secede_province = VNS
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_clm = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			CLM = { exists = yes }
+			VNS = { exists = no }
+		}
+	
+		allow = {
+			war = no
+			CLM = { 
+				ai = yes
+				vassal_of = THIS
+			}			
+		}
+	
+		effect = {
+			badboy = 3
+			inherit = CLM
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_ecu_to_vns = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			ECU = { exists = yes }
+			VNS = {
+				vassal_of = THIS
+				exists = yes
+			}
+		}
+	
+		allow = {
+			war = no
+			ECU = { 
+				OR = {
+					vassal_of = THIS 
+					any_owned_province = { is_core = ECU }
+				}
+			}		
+		}
+	
+		effect = {
+			badboy = 3
+			VNS = { inherit = ECU }
+			any_owned = {
+				limit = { is_core = ECU }
+				secede_province = VNS
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_ecu = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			ECU = { exists = yes }
+			VNS = { exists = no }
+		}
+	
+		allow = {
+			war = no
+			ECU = { vassal_of = THIS }
+		}
+	
+		effect = {
+			badboy = 3
+			inherit = ECU
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_vnz_to_vns = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			VNZ = { exists = yes }
+			VNS = {
+				vassal_of = THIS
+				exists = yes
+			}
+		}
+	
+		allow = {
+			war = no
+			VNZ = { 
+				OR = {
+					vassal_of = THIS 
+					any_owned_province = { is_core = VNZ }
+				}
+			}			
+		}
+	
+		effect = {
+			badboy = 3
+			VNS = { inherit = VNZ }
+			any_owned = {
+				limit = { is_core = VNZ }
+				secede_province = VNS
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_vnz = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			VNZ = { exists = yes }
+			VNS = { exists = no }
+		}
+	
+		allow = {
+			war = no
+			VNZ = { vassal_of = THIS }			
+		}
+	
+		effect = {
+			badboy = 3
+			inherit = VNZ
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_nex_to_vns = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			MEX = { exists = yes }
+			VNS = {
+				vassal_of = THIS
+				exists = yes
+			}
+		}
+	
+		allow = {
+			war = no
+			OR = {
+				MEX = { 
+					ai = yes
+					OR = {
+						vassal_of = THIS 
+						any_owned_province = { is_core = MEX }
+					}
+				}
+				revolution_n_counterrevolution = 1
+			}
+		}
+	
+		effect = {
+			badboy = 3
+			VNS = { inherit = MEX }
+			any_owned = {
+				limit = { is_core = MEX }
+				secede_province = VNS
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	annex_mex = {
+		picture = spain_reconquest
+	
+		potential = { 
+			has_global_flag = carlist_victory
+			OR = {
+				tag = IBR
+				tag = SPC
+			}
+			MEX = { exists = yes }
+			VNS = { exists = no }
+		}
+	
+		allow = {
+			war = no
+			MEX = { 
+				ai = yes
+				vassal_of = THIS 
+			}		
+		}
+	
+		effect = {
+			badboy = 3
+			inherit = MEX
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# reconquista_mex = {
+	# 	picture = spain_reconquest
+	# 	potential = {
+	# 		NOT = { has_country_flag = reconquista_mex }
+	# 		NOT = { has_country_flag = reconquista_mex_failed }
+	# 		NOT = { has_country_flag = doing_reconquista }
+	# 		has_global_flag = carlist_victory
+	# 		OR = {
+	# 			tag = IBR
+	# 			tag = SPC
+	# 		}
+	# 	}
+	# 	allow = {
+	# 		state_n_government = 1
+	# 		NOT = { has_country_flag = doing_reconquista }
+	# 	}
+	# 	effect = {
+	# 		set_country_flag = reconquista_mex
+	# 		set_country_flag = doing_reconquista
+	# 		MEX_2183 = { add_core = THIS }
+	# 		add_country_modifier = {name = contested_claims duration = 3650 }
+	# 	}
+	# }
+	# reconquista_mex_2 = {
+	# 	picture = spain_reconquest
+	# 	potential = {
+	# 		NOT = { has_country_flag = reconquista_mex_2 }
+	# 		has_country_flag = reconquista_mex
+	# 		has_global_flag = carlist_victory
+	# 		OR = {
+	# 			tag = IBR
+	# 			tag = SPC
+	# 		}
+	# 	}
+	# 	allow = {
+	# 		MEX_2183 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 		MEX_2170 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 		MEX_2162 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 		MEX_2161 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 	}
+	# 	effect = {
+	# 		set_country_flag = reconquista_mex_2
+	# 		clr_country_flag = doing_reconquista
+	# 		remove_country_modifier = contested_claims
+	# 		MEX_2170 = { add_core = THIS }
+	# 		MEX_2162 = { add_core = THIS }
+	# 		MEX_2161 = { add_core = THIS }
+	# 		random_country = {
+	# 			limit = {
+	# 				primary_culture = mexican
+	# 				vassal_of = THIS
+	# 			}
+	# 			country_event = { id=11101 days=0 }
+	# 		}
+	# 	}
+	# }
+	# reconquista_cenamer = {
+	# 	picture = spain_reconquest
+	# 	potential = {
+	# 		NOT = { has_country_flag = reconquista_cenamer }
+	# 		NOT = { has_country_flag = reconquista_cenamer_failed }
+	# 		NOT = { has_country_flag = doing_reconquista }
+	# 		has_global_flag = carlist_victory
+	# 		OR = {
+	# 			tag = IBR
+	# 			tag = SPC
+	# 		}
+	# 	}
+	# 	allow = {
+	# 		NOT = { has_country_flag = doing_reconquista }
+	# 	}
+	# 	effect = {
+	# 		set_country_flag = reconquista_cenamer
+	# 		set_country_flag = doing_reconquista
+	# 		UCA_2186 = { add_core = THIS }
+	# 		UCA_2191 = { add_core = THIS }
+	# 		add_country_modifier = {name = contested_claims duration = 3650 }
+	# 	}
+	# }
+	# reconquista_cenamer_2 = {
+	# 	picture = spain_reconquest
+	# 	potential = {
+	# 		NOT = { has_country_flag = reconquista_cenamer_2 }
+	# 		has_country_flag = reconquista_cenamer
+	# 		has_global_flag = carlist_victory
+	# 		OR = {
+	# 			tag = IBR
+	# 			tag = SPC
+	# 		}
+	# 	}
+	# 	allow = {
+	# 		OR = {
+	# 			UCA_2186 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 			UCA_2191 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 		}
+	# 		UCA_2197 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 		UCA_2201 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 	}
+	# 	effect = {
+	# 		set_country_flag = reconquista_cenamer_2
+	# 		clr_country_flag = doing_reconquista
+	# 		remove_country_modifier = contested_claims
+	# 		UCA_2197 = { add_core = THIS }
+	# 		UCA_2201 = { add_core = THIS }
+	# 		random_country = {
+	# 			limit = {
+	# 				primary_culture = central_american
+	# 				vassal_of = THIS
+	# 			}
+	# 			country_event = { id=11101 days=0 }
+	# 		}
+	# 	}
+	# }
+	# reconquista_col = {
+	# 	picture = spain_reconquest
+	# 	potential = {
+	# 		NOT = { has_country_flag = reconquista_col }
+	# 		NOT = { has_country_flag = reconquista_col_failed }
+	# 		NOT = { has_country_flag = doing_reconquista }
+	# 		has_global_flag = carlist_victory
+	# 		OR = {
+	# 			tag = IBR
+	# 			tag = SPC
+	# 		}
+	# 	}
+	# 	allow = {
+	# 		ideological_thought = 1
+	# 		NOT = { has_country_flag = doing_reconquista }
+	# 	}
+	# 	effect = {
+	# 		set_country_flag = reconquista_col
+	# 		set_country_flag = doing_reconquista
+	# 		CLM_1723 = { add_core = THIS }
+	# 		CLM_2251 = { add_core = THIS }
+	# 		add_country_modifier = {name = contested_claims duration = 3650 }
+	# 	}
+	# }
+	# reconquista_col_2 = {
+	# 	picture = spain_reconquest
+	# 	potential = {
+	# 		has_country_flag = reconquista_col
+	# 		NOT = { has_country_flag = reconquista_col_2 }
+	# 		has_global_flag = carlist_victory
+	# 		OR = {
+	# 			tag = IBR
+	# 			tag = SPC
+	# 		}
+	# 	}
+	# 	allow = {
+	# 		OR = {
+	# 			CLM_1723 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 			CLM_2251 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 		}
+	# 		VNZ_2234 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 		CLM_2247 = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+	# 	}
+	# 	effect = {
+	# 		set_country_flag = reconquista_col_2
+	# 		clr_country_flag = doing_reconquista
+	# 		remove_country_modifier = contested_claims
+	# 		VNZ_2234 = { add_core = THIS }
+	# 		CLM_2247 = { add_core = THIS }
+	# 		random_country = {
+	# 			limit = {
+	# 				primary_culture = north_andean
+	# 				vassal_of = THIS
+	# 			}
+	# 			country_event = { id=11101 days=0 }
+	# 		}
+	# 	}
+	# }
+	# reconquista_complete = {
+	# 	picture = spain_reconquest
+	# 	potential = {
+	# 		has_global_flag = carlist_victory
+	# 		OR = {
+	# 			tag = IBR
+	# 			tag = SPC
+	# 		}
+	# 		OR = {
+	# 			has_country_flag = reconquista_col
+	# 			has_country_flag = reconquista_cenamer
+	# 			has_country_flag = reconquista_mex
+	# 		}
+	# 		NOT = { has_country_flag = reconquista_complete }
+	# 	}
+	# 	allow = {
+	# 		nationalism_n_imperialism = 1
+	# 		OR = {
+	# 			has_country_flag = reconquista_col_2
+	# 			has_country_flag = reconquista_col_failed
+	# 		}
+	# 		OR = {
+	# 			has_country_flag = reconquista_cenamer_2
+	# 			has_country_flag = reconquista_cenamer_failed
+	# 		}
+	# 		OR = {
+	# 			has_country_flag = reconquista_mex_2
+	# 			has_country_flag = reconquista_mex_failed
+	# 		}
+	# 	}
+	# 	effect = {
+	# 		set_country_flag = reconquista_complete
+	# 		prestige = 20
+	# 		random_owned = {
+	# 			limit = {
+	# 				owner = {
+	# 					has_country_flag = reconquista_mex_failed
+	# 				}
+	# 			}
+	# 			CIV = { country_event = { id = 37725 days = 0 } }
+	# 		}
+	# 		random_owned = {
+	# 			limit = {
+	# 				owner = {
+	# 					has_country_flag = reconquista_col_failed
+	# 				}
+	# 			}
+	# 			CIV = { country_event = { id = 37727 days = 0 } }
+	# 		}
+	# 		random_owned = {
+	# 			limit = {
+	# 				owner = {
+	# 					has_country_flag = reconquista_cenamer_failed
+	# 				}
+	# 			}
+	# 			CIV = { country_event = { id = 37726 days = 0 } }
+	# 		}
+	# 		random_owned = {
+	# 			limit = {
+	# 				owner = {
+	# 					has_country_flag = reconquista_col_2
+	# 					NOT = { has_country_flag = reconquista_col_failed }
+	# 				}
+	# 			}
+	# 			CIV = { country_event = { id = 37730 days = 0 } }
+	# 		}
+	# 		random_owned = {
+	# 			limit = {
+	# 				owner = {
+	# 					has_country_flag = reconquista_cenamer_2
+	# 					NOT = { has_country_flag = reconquista_cenamer_failed }
+	# 				}
+	# 			}
+	# 			CIV = { country_event = { id = 37729 days = 0 } }
+	# 		}
+	# 		random_owned = {
+	# 			limit = {
+	# 				owner = {
+	# 					has_country_flag = reconquista_mex_2
+	# 					NOT = { has_country_flag = reconquista_mex_failed }
+	# 				}
+	# 			}
+	# 			CIV = { country_event = { id = 37728 days = 0 } }
+	# 		}
+	# 		random_owned = {
+	# 			limit = {
+	# 				owner = {
+	# 					has_country_flag = reconquista_col_2
+	# 					NOT = { has_country_flag = reconquista_col_failed }
+	# 				}
+	# 			}
+	# 			PEU_2289 = { add_core = THIS }
+	# 			CLM_2262 = { add_core = THIS }
+	# 			ECU_2279 = { add_core = THIS }
+	# 			VNZ_2265 = { add_core = THIS }
+	# 			owner = { add_accepted_culture = north_andean }
+	# 		}
+	# 		random_owned = {
+	# 			limit = {
+	# 				owner = {
+	# 					has_country_flag = reconquista_cenamer_2
+	# 					NOT = { has_country_flag = reconquista_cenamer_failed }
+	# 				}
+	# 			}
+	# 			owner = { add_accepted_culture = central_american }
+	# 		}
+	# 		random_owned = {
+	# 			limit = {
+	# 				owner = {
+	# 					has_country_flag = reconquista_mex_2
+	# 					NOT = { has_country_flag = reconquista_mex_failed }
+	# 				}
+	# 			}
+	# 			MEX_2146 = { add_core = THIS }
+	# 			MEX_2151 = { add_core = THIS }
+	# 			MEX_2142 = { add_core = THIS }
+	# 			MEX_2138 = { add_core = THIS }
+	# 			MEX_2173 = { add_core = THIS }
+	# 			owner = { add_accepted_culture = mexican }
+	# 		}
+	# 	}
+	# }
 #	reconquista_mex = {
 #		picture = reconquista_mex
 #		potential = {
@@ -943,12 +1464,11 @@ political_decisions = {
 							in_sphere = THIS
 							war = no
 							ai = yes
-							
 						}
 						owner = {
 							vassal_of = THIS
 							war = no
-						
+							ai = yes
 						}
 					}
 						

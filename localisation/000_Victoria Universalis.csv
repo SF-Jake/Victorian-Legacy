@@ -626,6 +626,22 @@ conquest_tiny;Tiny Conquest;;;;;;;;;;;;;x
 conquest_tiny_setup;Tiny Conquest;;;;;;;;;;;;;x
 conquest_tiny_short;Tiny Conquest;;;;;;;;;;;;;x
 conquest_tiny_desc;Annex a nation with less than 150k POPs. Cannot use on sub-saharan african nations.;;;;;;;;;;;;;x
+acquire_core_state_tiny;Acquire Tiny Core;;;;;;;;;;;
+acquire_core_state_tiny_short;Acquire $STATE$;;;;;;;;;;;
+acquire_core_state_tiny_desc;Aquire an enemy §Ytiny state§W where we have §Ycore provinces.§W;;;;;;;;;;;
+acquire_core_state_tiny_setup;Acquire tiny core $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+demand_concession_casus_belli_tiny;Tiny State Concession;;;;;;;;;;;
+demand_concession_casus_belli_tiny_short;Demand Tiny State $STATE$.;;;;;;;;;;;
+demand_concession_casus_belli_tiny_desc;Demand a §Ytiny state§W concession.;;;;;;;;;;;
+demand_concession_casus_belli_tiny_setup;Demand that $RECIPIENT$ cede its tiny state.;;;;;;;;;;;
+place_in_the_sun_tiny;Tiny Place in the Sun;;;;;;;;;;;
+place_in_the_sun_tiny_short;Acquire Tiny State $STATE$.;;;;;;;;;;;
+place_in_the_sun_tiny_desc;Demand a §Ytiny state§W colony.;;;;;;;;;;;
+place_in_the_sun_tiny_setup;Acquire Tiny State $STATE$ from $RECIPIENT$.;;;;;;;;;;;
+free_peoples_tiny;Free People Tiny State;;;;;;;;;;;
+free_peoples_tiny_short;$THIRD$ acquires $STATE$.;;;;;;;;;;;
+free_peoples_tiny_desc;Liberate a §Ycountry§W's state from its oppressors.;;;;;;;;;;;
+free_peoples_tiny_setup;Hand $STATE$ back to $THIRD$ from $RECIPIENT$.;;;;;;;;;;;
 european_african_conquest;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_setup;Scramble for Africa Conquest;;;;;;;;;;;;;x
 european_african_conquest_short;Scramble for Africa Conquest;;;;;;;;;;;;;x
@@ -681,10 +697,10 @@ paraguayan_war_desc;This cb will liberate the territoties the Río de la Plata ba
 NORMAL_PARAGUAYAN_WAR_NAME;War of the Triple Alliance;;;;;;;;;;;;;;;;;;;;x
 AGRESSION_PARAGUAYAN_WAR_NAME;War of the Triple Alliance;;;;;;;;;;;;;;;;;;;;x
 AGRESSION_WAR_PUPPET_NAME;$ORDER$War of $FIRST$ Control Over $SECOND_COUNTRY$;$ORDER$ guerre de $FIRST$ pour le contrôle de $SECOND_COUNTRY$;$ORDER$ Krieg um die Kontrolle von $FIRST$ über $SECOND_COUNTRY$;;;;;;;;;;;x
-demand_reparations;Demand Reparations;;;;;;;;;;;;;x
-demand_reparations_desc;Force another §Ycountry§W to pay reparations to us;;;;;;;;;;;;;x
-demand_reparations_short;Make $RECIPIENT$ pay reparations;;;;;;;;;;;;;x
-demand_reparations_setup;Make $RECIPIENT$ pay reparations;;;;;;;;;;;;;x
+demand_reperations;Demand Reperations;;;;;;;;;;;;;x
+demand_reperations_desc;Force another §Ycountry§W to pay reperations to us;;;;;;;;;;;;;x
+demand_reperations_short;Make $RECIPIENT$ pay reperations;;;;;;;;;;;;;x
+demand_reperations_setup;Make $RECIPIENT$ pay reperations;;;;;;;;;;;;;x
 restore_puppet_province;Acquire core for puppet;;;;;;;;;;;;;x
 restore_puppet_province_desc;Retake a province for our puppet.;;;;;;;;;;;;;x
 restore_puppet_province_short;Make $RECIPIENT$ transfer $STATE$ to a puppet.;;;;;;;;;;;;;x
@@ -2659,15 +2675,16 @@ FRA_hms_government;France;x
 FRA_prussian_constitutionalism;France;x
 FRA_proletarian_dictatorship;Commune of France;x
 FRA_democracy;French Republic;x
-PBA;Portugal-Brazil;;;;;;;;;;;;x 
-PBA_ADJ;Lusitanian;;;;;;;;;;;;x
-PBA_absolute_monarchy;United Kingdom of Portugal,Brazil and Algarve;;;;;;;;;;;;x
-PBA_prussian_constitutionalism;United Kingdom of Portugal,Brazil and Algarve;;;;;;;;;;;;x
-PBA_hms_government;United Kingdom of Portugal,Brazil and Algarve;;;;;;;;;;;;x 
-PBA_democracy;Luso-Brazilian Republic;;;;;;;;;;;;x
-PBA_presidential_dictatorship;Luso-Brazilian Republic;;;;;;;;;;;;x
-PBA_proletarian_dictatorship;Luso-Brazilian Socialist Union;;;;;;;;;;;;x
-PBA_fascist_dictatorship;Lusitania;;;;;;;;;;;;x
+PBA;Portugal-Brazil;Royaume du Portugal et le Brésil;Königreich von Portugal und Brasilien;;Reino de Portugal y Brasil;;;;;;;;;;x;;;;;;;;;;
+PBA_fascist_dictatorship;Portugal-Brazil;;;;;;;;;;;;x;;;;;;;;;;;;
+PBA_presidential_dictatorship;Republic of Portugal and Brazil;;;;;;;;;;;;x;;;;;;;;;;;;
+PBA_bourgeois_dictatorship;Republic of Portugal and Brazil;;;;;;;;;;;;x;;;;;;;;;;;;
+PBA_proletarian_dictatorship;People's Republic of Portugal and Brazil;;;;;;;;;;;;x;;;;;;;;;;;;
+PBA_democracy;Federal Republic of Portugal and Brazil;;;;;;;;;;;;;x;;;;;;;;;;;
+PBA_hms_government;Portugal-Brazil;;;;;;;;;;;;x;;;;;;;;;;;;
+PBA_prussian_constitutionalism;United Kingdom of Portugal and Brazil;;;;;;;;;;;;x;;;;;;;;;;;;
+PBA_absolute_monarchy;United Kingdom of Portugal and Brazil;;;;;;;;;;;;;x;;;;;;;;;;;
+PBA_ADJ;Portuguese-Brazilian;Portugais-brésilien;Portugiesisch-Brasilianisch;;Portugués-Brasileño;;;;;;;;;;x;;;;;;;;;;
 SAU;South African Union;x
 SAU_liberal;Afrikaner Bond;Afrikaner Bond;Afrikaner Bond;;Afrikaner Bond;;;;;;;;;x;;;;
 SAU_conservative;Progressive Party;Parti progressiste;Progressive Party;;Partido progresista;;;;;;;;;x;;;;
@@ -3339,11 +3356,11 @@ mexican_american_war_title;Mexican American War;;;;;;;;;;;
 mexican_american_war_desc;To bring civilization from coast to shining coast has always been the grand mission of our great republic. Let the Eagle spread its wings.;;;;;;;;;;;
 PRO;§WProvince Tooltip\n;;;;;;;;;;;;;x
 #############State Nations (Pero Credit)##############;;;;;;;;;;;;;;x
-SMA;§YSmall State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 400k pops.;;;;;;;;;;;;;x
-MED;§YMedium State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 700k pops.;;;;;;;;;;;;;x
-LRG;§YLarge State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has below 1m pops.;;;;;;;;;;;;;x
-HUG;§YHuge State Flag\n§WThis flag dynamically assigns a size to this state. This province is in a state that has above 1m pops.;;;;;;;;;;;;;x
-STR;§YStrategic State Flag\n§WThis flag dynamically assigns importance to this state. This province is in a state that has strategic value.;;;;;;;;;;;;;x
+TIN;§GTiny State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §WLess than 100k POPs\n§Y1870 - 1900 §WLess than 150k POPs\n§Y1900+ §WLess than 200k POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W4% Warscore\n§YAcquire State: §W12% Warscore\n§YDemand Concession: §W8% Warscore\n§YPlace in the Sun: §W4% Warscore\n§YFree Peoples: §W12% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
+SMA;§GSmall State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §W100k to 400k POPs\n§Y1870 - 1900 §W150k to 600k POPs\n§Y1900+ §W200k to 800k POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W12% Warscore\n§YAcquire State: §W24% Warscore\n§YDemand Concession: §W16% Warscore\n§YPlace in the Sun: §W8% Warscore\n§YFree Peoples: §W24% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
+MED;§GMedium State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §W400k to 700k POPs\n§Y1870 - 1900 §W600k to 1M POPs\n§Y1900+ §W800k to 1.4M POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W16% Warscore\n§YAcquire State: §W32% Warscore\n§YDemand Concession: §W24% Warscore\n§YPlace in the Sun: §W12% Warscore\n§YFree Peoples: §W32% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
+LRG;§GLarge State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §W700k to 1M POPs\n§Y1870 - 1900 §W1M to 1.5M POPs\n§Y1900+ §W1.4M to 2M POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W24% Warscore\n§YAcquire State: §W48% Warscore\n§YDemand Concession: §W32% Warscore\n§YPlace in the Sun: §W16% Warscore\n§YFree Peoples: §W48% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
+HUG;§GHuge State Flag\n§WThis province is in a state that meets the following criteria:\n§Y1836 - 1870 §WGreater than 1M POPs\n§Y1870 - 1900 §WGreater than 1.5M POPs\n§Y1900+ §WGreater than 2M POPs\n\n§RWarscore Costs (0.5x For Great Wars)\n§WThis province is in a state that has the following costs:\n§YAcquire Core: §W32% Warscore\n§YAcquire State: §W64% Warscore\n§YDemand Concession: §W40% Warscore\n§YPlace in the Sun: §W20% Warscore\n§YFree Peoples: §W64% Warscore\n§YTake Capital: §W66% Warscore;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
 nv_autocracy;Autocracy;;;;;;;;;;;;;x
 nv_tradition;Tradition;;;;;;;;;;;;;x
@@ -3437,9 +3454,9 @@ militancy_and_reform_focus;Raise Reform Desire and Militancy;;;;;;;;;x;;;;
 mine_and_farm_bonus;Bonus Mining and Farming Efficiency;;;;;;;;;x;;;;
 promote_aristocrats;Encourage Aristocrats Tier 1;Encourager les aristocrates ;Aristokraten fördern;;Potenciar aristócratas ;;;;;;;;;x;;;;
 promote_artisans;Encourage Artisans Tier 1;Encourager les artisans ;Handwerker fördern;;Potenciar artesanos ;;;;;;;;;x;;;;
-promote_bureaucrats;Encourage Bureaucrats Tier 1;Encourager les bureaucrates ;BEokraten fördern;;Potenciar burócratas ;;;;;;;;;x;;;;
+promote_bureaucrats;Encourage Bureaucrats Tier 1;Encourager les bureaucrates ;BEokraten fördern;;Potenciar burócratas ;;;;;;;;;x;;;;
 promote_capitalists;Encourage Capitalists Tier 1;Encourager les capitalistes ;Kapitalisten fördern;;Potenciar capitalistas ;;;;;;;;;x;;;;
-promote_clergymen;Encourage Clergymen Tier 1;Encourager les membres du clergE;Geistliche fördern;;Potenciar clérigos ;;;;;;;;;x;;;;
+promote_clergymen;Encourage Clergymen Tier 1;Encourager les membres du clergE;Geistliche fördern;;Potenciar clérigos ;;;;;;;;;x;;;;
 promote_clerks;Encourage Clerks Tier 1;Encourager les employés ;Angestellte fördern;;Potenciar oficinistas ;;;;;;;;;x;;;;
 promote_craftsmen;Encourage Craftsmen Tier 1;Encourager les ouvriers ;Facharbeiter fördern;;Potenciar obreros ;;;;;;;;;x;;;;
 promote_farmers;Encourage Farmers Tier 1;Encourager les fermiers ;Bauern fördern;;Potenciar campesinos ;;;;;;;;;x;;;;
@@ -3745,3 +3762,4 @@ you_are_at_war;§RYou are currently at war§W;;;;;;;;;;;;;;
 found_the_imperial_academy_title;Found the Imperial Academy;;;;;;;;;;;;;;
 found_the_imperial_academy_desc;In many ways, our army has become a relic of an older age. The Russian Imperial Academy will enable our military to stay strong and the equal of any power in Europe.;;;;;;;;;;;;;;
 russian_tech_school;Russian Imperial Academy;;;;;;;;;;;;;;
+LEDGER_COUNTRY_NAME;Country;;;;;;;;;;;;;;;;;;

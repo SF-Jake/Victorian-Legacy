@@ -48,22 +48,3 @@ army = {
 		home = 2029
 	}
 }
-
-navy = {
-	name = "Red Sea Fleet"
-	location = 1166
-	ship = {
-		name= "Transport Flotilla"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "Indian Fleet"
-	location = 2048
-	ship = {
-		name= "Transport Flotilla"
-		type = clipper_transport
-	}
-}

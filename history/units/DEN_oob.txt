@@ -88,61 +88,36 @@ army = {
 }
 
 navy = {
-	name = "Royal Navy"
+	name = "Danish Fleet"
 	location = 372
 	ship = {
-		name= "Danmark"
+		name= "Niels Juel"
 		type = manowar
 	}
 
 	ship = {
-		name= "Dronning Marie"
+		name= "Christian VIII"
 		type = manowar
 	}
 
 	ship = {
-		name= "Frederik den sjette"
-		type = manowar
-	}
-
-
-	ship = {
-		name= "Bellona"
+		name= "Tordenskjold"
 		type = frigate
 	}
 
 	ship = {
-		name= "Diana"
-		type = frigate
-	}
-
-	ship = {
-		name= "Freja"
-		type = frigate
-	}
-
-	ship = {
-		name= "Fylla"
-		type = frigate
-	}
-
-
-
-
-	ship = {
-		name= "1st Transport Flotilla"
+		name= "Holger Danske"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "2nd Transport Flotilla"
+		name= "Valdemar Sejr"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "3rd Transport Flotilla"
+		name= "Margrethe I"
 		type = clipper_transport
 	}
-
 }
 

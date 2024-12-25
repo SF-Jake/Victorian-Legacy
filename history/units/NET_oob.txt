@@ -228,126 +228,124 @@ army = {
 }
 
 navy = {
-	name = "Koninklijke Marine"
-	location = 375 #Amsterdam
+	name = "Nederlandse Marine"
+	location = 376 #Rotterdam
 	ship = {
-		name= "Doggersbank"
+		name= "De Zeven Provinciën"
 		type = manowar
 	}
 
 	ship = {
-		name= "Amsterdam"
+		name= "Hollandia"
 		type = manowar
 	}
 
 	ship = {
-		name= "Maria Regensbergen"
+		name= "De Ruyter"
 		type = frigate
-	}
-
-	ship = {
-		name= "Pallas"
-		type = frigate
-	}
-
-	ship = {
-		name= "Proserpine"
-		type = frigate
-	}
-
-	ship = {
-		name= "Daphne"
-		type = frigate
-	}
-
-	ship = {
-		name= "Espion"
-		type = frigate
-	}
-
-	ship = {
-		name= "Zeepaard"
-		type = frigate
-	}
-
-	ship = {
-		name= "Irene"
-		type = frigate
-	}
-
-	ship = {
-		name= "Orpheus"
-		type = frigate
-	}
-
-
-	ship = {
-		name= "1e Transport Eskader"
-		type = clipper_transport
 	}
 }
 
 navy = {
-	name = "Koninklijke NI Marine"
-	location = 1413 #Batavia
+	name = "Nederlandse Transportvloot"
+	location = 385 #Dutch Harbor
 	ship = {
-		name= "Admiraal de Ruyter"
-		type = manowar
-	}
-
-	ship = {
-		name= "Verwachting"
-		type = manowar
-	}
-
-	ship = {
-		name= "Aurora"
-		type = frigate
-	}
-
-	ship = {
-		name= "Iris"
-		type = frigate
-	}
-
-	ship = {
-		name= "Fenix"
-		type = frigate
-	}
-
-	ship = {
-		name= "Eendracht"
-		type = frigate
-	}
-
-	ship = {
-		name= "2e Transport Eskader"
-		type = clipper_transport
-	}
-}
-
-navy = {
-	name = "Koninklijke WI Marine"
-	location = 2234 #Curacao
-
-	ship = {
-		name= "Admiraal Generaal"
-		type = manowar
-	}
-
-	ship = {
-		name= "Diana"
-		type = frigate
-	}
-
-	ship = {
-		name= "Hoop"
-		type = frigate
-	}
-
-	ship = {
-		name= "3e Transport Eskader"
+		name= "Transport 1"
 		type = clipper_transport
 	}
 
+	ship = {
+		name= "Transport 2"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 3"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 4"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 5"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 6"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 7"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 8"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 9"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 10"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 11"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 12"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 13"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 14"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 15"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 16"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 17"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 18"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 19"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Transport 20"
+		type = clipper_transport
+	}
 }

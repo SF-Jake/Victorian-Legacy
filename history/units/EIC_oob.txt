@@ -13,7 +13,7 @@ army = {
 	location = 1256
 	regiment = {
 		name= "3rd Queen Alexandra's Own Gurkha"
-		type = guard
+		type = artillery
 		home = 1246
 	}
 	regiment = {
@@ -172,127 +172,6 @@ army = {
 		name= "1st Madras Native Artillery"
 		type = artillery
 		home = 1305
-	}
-}
-
-navy = {
-	name = "East India Fleet"
-	location = 1304 #Calcutta
-	ship = {
-		name= "Essex"
-		type = manowar
-	}
-	
-	ship = {
-		name= "Ocean"
-		type = manowar
-	}
-	
-	ship = {
-		name= "Exeter"
-		type = manowar
-	}
-
-	ship = {
-		name= "Fortitude"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Hastings"
-		type = manowar
-	}
-
-	ship = {
-		name= "Prince of Wales"
-		type = manowar
-	}
-
-	ship = {
-		name= "Princess Charlotte"
-		type = manowar
-	}
-
-	ship = {
-		name= "Princess Royal"
-		type = frigate
-	}
-
-	ship = {
-		name= "Queen"
-		type = frigate
-	}
-
-	ship = {
-		name= "Hindostan"
-		type = frigate
-	}
-
-	ship = {
-		name= "Atlantic"
-		type = frigate
-	}
-
-	ship = {
-		name= "Barwell"
-		type = frigate
-	}
-
-	ship = {
-		name= "Hercules"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "East India Transport Squadron"
-	location = 1297
-	ship = {
-		name= "1st Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2nd Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3rd Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "4th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "5th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "6th Transport Flotilla"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "23th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "24th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "25th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "26th Transport Flotilla"
-		type = clipper_transport
 	}
 }
 

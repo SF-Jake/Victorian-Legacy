@@ -93,28 +93,6 @@ army = {
 	}
 }
 
-navy = {
-	name = "Armada de Argentina"
-	location = 2348
-	ship = {
-		name= "Republicano"
-		type = frigate
-	}
-	ship = {
-		name= "Echague"
-		type = frigate
-	}
-	ship = {
-		name= "Chacabuco"
-		type = frigate
-	}
-	ship = {
-		name= "Americano"
-		type = frigate
-	}
-
-}
-
 leader = {
    name = "Juan Manuel de Rosas"
    type = land

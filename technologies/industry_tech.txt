@@ -1129,6 +1129,7 @@ basic_chemistry = {
 	cost = 3600
 
 	supply_limit = 0.25
+	pop_growth = 0.0002
 	rgo_goods_output = {
 		sulphur = 0.2
 	}
@@ -1149,6 +1150,7 @@ medicine = {
 	cost = 7200
 
 	supply_limit = 0.25
+	pop_growth = 0.0003
 	
 	ai_chance = {
 		factor = 1.1
@@ -1164,6 +1166,7 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
+	pop_growth = 0.0001
 	rgo_goods_output = {
 		sulphur = 0.2
 	}
@@ -1182,6 +1185,7 @@ organic_chemistry = {
 	cost = 14400
 
 	supply_limit = 0.25
+	pop_growth = 0.0002
 	rgo_goods_output = {
 		sulphur = 0.2
 	}
@@ -1200,6 +1204,7 @@ electricity = {
 	cost = 18000
 	
 	supply_limit = 0.25
+	pop_growth = 0.0002
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -1215,6 +1220,7 @@ synthetic_polymers = {
 	cost = 21600
 
 	supply_limit = 0.25
+	pop_growth = 0.0001
 	activate_building = synthetic_rubber_factory
 	ai_chance = {
 		factor = 1.1

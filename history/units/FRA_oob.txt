@@ -533,185 +533,60 @@ army = {
 }
 
 navy = {
-	name = "Escadre du Nord"
-	location = 420
+	name = "Escadre de l'Atlantique"
+	location = 402
 	ship = {
-		name= "Couronne"
+		name= "Océan"
 		type = manowar
 	}
 
 	ship = {
-		name= "Superbe"
+		name= "Tonnant"
 		type = manowar
 	}
 
 	ship = {
-		name= "Jean Bart"
+		name= "Redoutable"
 		type = manowar
 	}
 
 	ship = {
-		name= "Dix-huit Fructidor"
+		name= "Formidable"
 		type = manowar
 	}
 
 	ship = {
-		name= "Wagram"
+		name= "Indomptable"
 		type = manowar
 	}
 
 	ship = {
-		name= "Trocadero "
+		name= "Invincible"
 		type = manowar
 	}
 
 	ship = {
-		name= "Zélandais"
+		name= "Terrible"
 		type = manowar
 	}
 
 	ship = {
-		name= "Superbe"
+		name= "Foudroyant"
 		type = manowar
 	}
 
 	ship = {
-		name= "Austerlitz"
+		name= "Glorieux"
 		type = manowar
 	}
 
 	ship = {
-		name= "Magnifique"
+		name= "Brave"
 		type = manowar
 	}
 
 	ship = {
-		name= "République Française"
-		type = manowar
-	}
-
-	ship = {
-		name= "Conquérant"
-		type = manowar
-	}
-
-	ship = {
-		name= "Neptune"
-		type = manowar
-	}
-
-	ship = {
-		name= "Algerisas"
-		type = manowar
-	}
-
-	ship = {
-		name= "Nestor"
-		type = manowar
-	}
-
-	ship = {
-		name= "Duchesse de Berry"
-		type = frigate
-	}
-
-	ship = {
-		name= "Thétis"
-		type = frigate
-	}
-
-	ship = {
-		name= "Astrée"
-		type = frigate
-	}
-
-	ship = {
-		name= "Amazone"
-		type = frigate
-	}
-
-	ship = {
-		name= "Clorinde"
-		type = frigate
-	}
-
-	ship = {
-		name= "Maure"
-		type = frigate
-	}
-
-	ship = {
-		name= "Vestale"
-		type = frigate
-	}
-
-	ship = {
-		name= "Magicienne"
-		type = frigate
-	}
-
-	ship = {
-		name= "Marie Thérese"
-		type = frigate
-	}
-
-	ship = {
-		name= "Venus"
-		type = frigate
-	}
-
-	ship = {
-		name= "Sirène"
-		type = frigate
-	}
-
-	ship = {
-		name= "Atalante"
-		type = frigate
-	}
-
-	ship = {
-		name= "Surveillante"
-		type = frigate
-	}
-
-	ship = {
-		name= "Iphigénie"
-		type = frigate
-	}
-
-	ship = {
-		name= "Sultane"
-		type = frigate
-	}
-
-	ship = {
-		name= "1ère Flotille de Transport"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2ème Flotille de Transport"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3ème Flotille de Transport"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "Escadre de Méditerranée"
-	location = 470
-	ship = {
-		name= "Triton"
-		type = manowar
-	}
-
-	ship = {
-		name= "Etats de Bourgogne"
+		name= "Triomphant"
 		type = manowar
 	}
 
@@ -721,169 +596,197 @@ navy = {
 	}
 
 	ship = {
-		name= "Marengo"
+		name= "Majestueux"
 		type = manowar
 	}
 
 	ship = {
-		name= "Ville de Marseilles"
+		name= "Magnanime"
 		type = manowar
 	}
 
 	ship = {
-		name= "Hercule"
+		name= "Héros"
 		type = manowar
 	}
 
 	ship = {
-		name= "Montebello "
+		name= "Courageux"
 		type = manowar
 	}
 
 	ship = {
-		name= "Centaure"
+		name= "Vaillant"
 		type = manowar
 	}
 
 	ship = {
-		name= "Jupiter"
+		name= "Inflexible"
 		type = manowar
 	}
 
 	ship = {
-		name= "Duc d’Angouleme"
+		name= "Audacieux"
 		type = manowar
 	}
 
 	ship = {
-		name= "Hercules"
+		name= "Vengeur"
 		type = manowar
 	}
 
 	ship = {
-		name= "Généreux"
+		name= "Fier"
 		type = manowar
 	}
 
 	ship = {
-		name= "Diadème"
+		name= "Intrépide"
 		type = manowar
 	}
 
 	ship = {
-		name= "Couronne"
+		name= "Téméraire"
 		type = manowar
 	}
 
 	ship = {
-		name= "Suffren"
+		name= "Vaillant"
 		type = manowar
 	}
 
 	ship = {
-		name= "Trident"
+		name= "Sceptre"
 		type = manowar
 	}
 
 	ship = {
-		name= "Royal Louis "
+		name= "Royal"
 		type = manowar
 	}
 
 	ship = {
-		name= "Commerces de Paris"
+		name= "Impérial"
 		type = manowar
 	}
 
 	ship = {
-		name= "Terpsichore"
+		name= "Roi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Prince"
+		type = manowar
+	}
+
+	ship = {
+		name= "Duc"
+		type = manowar
+	}
+
+	ship = {
+		name= "Marquis"
+		type = manowar
+	}
+
+	ship = {
+		name= "Comte"
+		type = manowar
+	}
+
+	ship = {
+		name= "Baron"
+		type = manowar
+	}
+
+	ship = {
+		name= "Chevalier"
+		type = manowar
+	}
+
+	ship = {
+		name= "Frégate 1"
 		type = frigate
 	}
 
 	ship = {
-		name= "Arthémise"
+		name= "Frégate 2"
 		type = frigate
 	}
 
 	ship = {
-		name= "Belle Gabrielle"
+		name= "Frégate 3"
 		type = frigate
 	}
 
 	ship = {
-		name= "Didon"
+		name= "Frégate 4"
 		type = frigate
 	}
 
 	ship = {
-		name= "Caroline"
+		name= "Frégate 5"
 		type = frigate
 	}
 
 	ship = {
-		name= "Herminie"
+		name= "Frégate 6"
 		type = frigate
 	}
 
 	ship = {
-		name= "Melpomène"
+		name= "Frégate 7"
 		type = frigate
 	}
 
 	ship = {
-		name= "Uranie"
+		name= "Frégate 8"
 		type = frigate
 	}
 
 	ship = {
-		name= "Andromède"
+		name= "Frégate 9"
 		type = frigate
 	}
 
 	ship = {
-		name= "Jeanne d’Arc"
+		name= "Frégate 10"
 		type = frigate
 	}
 
 	ship = {
-		name= "Belle Poule"
+		name= "Frégate 11"
 		type = frigate
 	}
 
 	ship = {
-		name= "Erigone"
+		name= "Frégate 12"
 		type = frigate
 	}
 
 	ship = {
-		name= "Nereide"
+		name= "Frégate 13"
 		type = frigate
 	}
 
 	ship = {
-		name= "Gloire"
+		name= "Frégate 14"
 		type = frigate
 	}
 
 	ship = {
-		name= "Reine Blanche"
+		name= "Frégate 15"
 		type = frigate
 	}
 
 	ship = {
-		name= "4ème Flotille de Transport"
-		type = clipper_transport
+		name= "Frégate 16"
+		type = frigate
 	}
 
 	ship = {
-		name= "5ème Flotille de Transport"
-		type = clipper_transport
+		name= "Frégate 17"
+		type = frigate
 	}
-
-	ship = {
-		name= "6ème Flotille de Transport"
-		type = clipper_transport
-	}
-
 }
-
