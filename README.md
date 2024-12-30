@@ -16,7 +16,6 @@ This mod was Inspired by:
 - Igor by Nurse Reno
 - HFM by Sighpie
 - Victoria Universalis by Vic1984 
-- Belle Carographie Pack Map Mod by rascalnag
 
 # Mod Features and Additions in Victorian Legacy
 **Smaller Decisions**
