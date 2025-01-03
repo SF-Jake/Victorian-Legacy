@@ -482,6 +482,7 @@ political_decisions = {
 		
 		allow = {
 			prestige = 45
+			state_n_government = 1
 			war = no
 			SCA = {
 				all_core = {
@@ -496,7 +497,6 @@ political_decisions = {
 					}
 				}
 			}
-			has_unclaimed_cores = no
 		}
 		
 		effect = {
@@ -539,10 +539,12 @@ political_decisions = {
 			RUS_336 = {
 				remove_core = SWE
 				remove_core = KSN
+				remove_core = SCA
 			}
 			RUS_340 = {
 				remove_core = SWE
 				remove_core = KSN
+				remove_core = SCA
 			}
 			prestige = 5
 			any_pop = {
