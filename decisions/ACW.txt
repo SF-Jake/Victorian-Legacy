@@ -1243,24 +1243,4 @@ political_decisions = {
 			USA_168 = { limit = { owned_by = THIS } add_province_modifier = { name = monarchy_usa duration = 14600 } }
 		}
 	}
-
-	mexican_american_war = {
-		potential = {
-			tag = USA
-			has_country_flag = mex_usa_war
-			NOT = { has_country_flag = mex_usa_war2 }
-		}
-
-		allow = {
-			
-		}
-
-		effect = {
-			war = {
-				target = MEX
-				attacker_goal = { casus_belli = acquire_all_cores country = USA }
-			}
-			set_country_flag = mex_usa_war2
-		}
-	}
 }

@@ -216,7 +216,6 @@ country_event = {
 			remove_province_modifier = monarchy_usa
 		}
 		USM = {
-			add_country_modifier = { name = american_civil_war duration = 1825 }
 			capital = 89
 			leadership = 400
 			money = 500000
@@ -229,6 +228,7 @@ country_event = {
 			add_country_modifier = { name = usa_nation_modifier duration = -1 }
 		}
 		CSA = {
+			add_country_modifier = { name = american_civil_war duration = 1825 }
 			capital = 211
 			leadership = 400
 			money = 500000
@@ -238,6 +238,9 @@ country_event = {
 			ammunition = 2000
 			set_country_flag = the_slavery_debate
 			set_country_flag = confederalism
+		}
+		USA = {
+			add_country_modifier = { name = american_civil_war duration = 1825 }
 		}
 		change_tag_no_core_switch = USM
 		set_global_flag = american_civil_war_has_happened
@@ -295,7 +298,6 @@ country_event = {
 			remove_province_modifier = monarchy_usa
 		}
 		CSA = {
-			add_country_modifier = { name = american_civil_war duration = 1825 }
 			capital = 211
 			leadership = 400
 			money = 500000
@@ -307,6 +309,7 @@ country_event = {
 			set_country_flag = confederalism
 		}
 		USM = {
+			add_country_modifier = { name = american_civil_war duration = 1825 }
 			capital = 89
 			leadership = 400
 			money = 500000
@@ -317,6 +320,9 @@ country_event = {
 			set_country_flag = the_slavery_debate
 			set_country_flag = confederalism
 		}
+		USA = { 
+			add_country_modifier = { name = american_civil_war duration = 1825 }
+		}
 		change_tag_no_core_switch = CSA
 		set_global_flag = american_civil_war_has_happened
 		clr_country_flag = the_slavery_debate
@@ -325,7 +331,6 @@ country_event = {
 	option = {
 		name = "For the King and Queen!"
 		political_reform = federalism
-		add_country_modifier = { name = american_civil_war duration = 1825 }
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting
@@ -358,6 +363,7 @@ country_event = {
 			secede_province = CSA
 		}
 		CSA = {
+			add_country_modifier = { name = american_civil_war duration = 1825 }
 			capital = 211
 			leadership = 400
 			money = 500000
@@ -383,6 +389,7 @@ country_event = {
 			remove_province_modifier = monarchy_usa
 		}
 		USM = {
+			add_country_modifier = { name = american_civil_war duration = 1825 }
 			capital = 89
 			leadership = 400
 			money = 500000

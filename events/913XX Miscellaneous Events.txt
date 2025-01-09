@@ -3657,7 +3657,7 @@ country_event = {
 
 	option = {
 		add_country_modifier = { name = monthly_timer duration = 29 }
-		
+		country_event = { id = 91329 days = 14 }
 		any_country = {
 			any_owned = {
 				state_scope = {
@@ -3675,7 +3675,6 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		country_event = { id = 91329 days = 14 }
 		any_country = {
 			any_owned = {
 				state_scope = {
