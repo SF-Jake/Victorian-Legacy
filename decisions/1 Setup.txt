@@ -1080,13 +1080,12 @@ political_decisions = {
 			ARG = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
 			PRG = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
 			URU = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
-			USA = { set_country_flag = north_american_immigrant_nation }
-			MEX = { set_country_flag = north_american_immigrant_nation }
-			UCA = { set_country_flag = north_american_immigrant_nation }
-			COM = { set_country_flag = north_american_immigrant_nation }
-			TEX = { set_country_flag = north_american_immigrant_nation }
-			HAI = { set_country_flag = north_american_immigrant_nation }
-			TUR = { set_country_flag = special_event_nation }
+			USA = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			MEX = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			UCA = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			COM = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			TEX = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			HAI = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
 			add_country_modifier = { name = banker_income_timer duration = 5 }
 			ENG = {
 				add_country_modifier = { name = uk_nation_modifier duration = -1 }

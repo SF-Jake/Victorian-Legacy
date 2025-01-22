@@ -24,61 +24,63 @@ ENG = {
 
 
 army = {
-	name = "Royal Siamese Army"
+	name = "Mob Stack"
 	location = 1346
 	regiment = {
-		name= "1. Brigade"
-		type = irregular
+		name= "Hussar"
+		type = hussar
 		home = 1346
 	}
 
 	regiment = {
-		name= "2. Brigade"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 1347
 	}
 
 	regiment = {
-		name= "3. Brigade"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 1348
 	}
 
 	regiment = {
-		name= "4. Brigade"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 1349
 	}
 
 	regiment = {
-		name= "5. Brigade"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 1350
 	}
 
 	regiment = {
-		name= "6. Brigade"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 1351
 	}
+}
 
+army = {
+	name = "Mob Stack"
+	location = 1347
 	regiment = {
-		name= "7. Brigade"
-		type = irregular
+		name= "Hussar"
+		type = hussar
 		home = 1352
 	}
 
 	regiment = {
-		name= "8. Brigade"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 1353
 	}
 
 	regiment = {
-		name= "9. Brigade"
-		type = irregular
+		name= "Artillery"
+		type = artillery
 		home = 1354
 	}
-
 }
-

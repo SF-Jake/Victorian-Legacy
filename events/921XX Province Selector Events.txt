@@ -4510,6 +4510,8 @@ province_event = {
 				state_scope = {
 					any_owned = {
 						secede_province = JAN
+						remove_core = JAN
+						remove_core = PRO
 					}
 				}
 				province_selector = -1
@@ -4537,7 +4539,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					
+					clr_country_flag = province_selector
 				}
 			}
 			clr_country_flag = province_selector

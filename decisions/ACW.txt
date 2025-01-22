@@ -482,6 +482,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = emancipation
 			}
+			has_global_flag = form_monarchy_usa
 			OR = {
 				war_with = CSA
 				AND = {

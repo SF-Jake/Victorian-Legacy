@@ -2183,9 +2183,11 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+		FROM = { clr_country_flag = province_selector }
 		any_owned = {
 			limit = {
 				NOT = { is_core = THIS }
+				NOT = { province_id = 3246 }
 			}
 			secede_province = FROM
 		}

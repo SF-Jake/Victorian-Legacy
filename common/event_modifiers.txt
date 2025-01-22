@@ -1108,7 +1108,7 @@ anaconda_plan = {
 }
 
 the_homestead_act = {
-	global_immigrant_attract = 0.5	#50%
+	global_immigrant_attract = 0.10	#10%
 	global_assimilation_rate = 2
 	icon = 9
 }
@@ -1996,7 +1996,7 @@ rus_nation_modifier = {
 
 usa_nation_modifier = {
 	naval_unit_start_experience = 2.5
-	global_immigrant_attract = 0.35
+	global_immigrant_attract = 0.7
 	industry_tech_research_bonus = 0.075
 	farm_rgo_eff = 0.1
 	mine_rgo_eff = 0.1
@@ -2036,7 +2036,7 @@ net_nation_modifier = {
 }
 
 brz_nation_modifier = {
-	global_immigrant_attract =  0.15
+	global_immigrant_attract =  0.3
 	land_organisation = 0.025
 	tax_efficiency = 0.025
 	education_efficiency_modifier = 0.05
@@ -2044,7 +2044,7 @@ brz_nation_modifier = {
 }
 
 com_nation_modifier = {
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.3
 	#set_country_flag = naval_nation_modifier
 	leadership_modifier = 1
 	icon = 38
@@ -2059,13 +2059,13 @@ chi_nation_modifier = {
 
 mex_nation_modifier = {
 	land_unit_start_experience = 2.5
-	global_immigrant_attract = 0.10
+	global_immigrant_attract = 0.2
 	education_efficiency_modifier = 0.075
 	icon = 40
 }
 
 arc_nation_modifier = {
-	global_immigrant_attract = 0.10
+	global_immigrant_attract = 0.2
 	research_points_modifier = 0.075
 	#set_country_flag = army_nation_modifier
 	icon = 41
@@ -2086,7 +2086,7 @@ per_nation_modifier = {
 }
 
 col_nation_modifier = {
-	global_immigrant_attract = 0.10
+	global_immigrant_attract = 0.2
 	culture_tech_research_bonus = 0.075
 	army_tech_research_bonus = 0.075
 	icon = 44
@@ -2109,7 +2109,7 @@ por_nation_modifier = {
 
 vns_nation_modifier = {
 	education_efficiency_modifier = 0.075
-	global_immigrant_attract = 0.10
+	global_immigrant_attract = 0.2
 	global_assimilation_rate = 0.25
 	icon = 34
 }

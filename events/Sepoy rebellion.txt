@@ -560,62 +560,6 @@ country_event = {
 	}
 }
 
-country_event = {
-
-	id = 90049
-
-	title = "EVTNAME90049"
-	desc = "EVTDESC90049"
-	picture = Rebellion
-
-	trigger = {
-		OR = {
-			tag = PNJ
-			tag = SIN
-			tag = BUR
-		}
-		war_with = EIC
-		national_provinces_occupied = 0.65
-		NOT = { has_country_flag = defeated_by_eic }
-	}
-
-	option = {
-		name = "EVTOPTA90049"
-		set_country_flag = defeated_by_eic
-		war_exhaustion = 25
-		ai_chance = {
-			factor = 0
-		}
-	}
-
-	option = {
-		name = "EVTOPTB90049"
-		set_country_flag = defeated_by_eic
-		any_country = {
-			limit = {
-				war_with = THIS
-				OR = {
-					tag = ENG
-					alliance_with = ENG
-					vassal_of = ENG
-					vassal_of = EIC
-				}
-			}
-			end_war = THIS
-		}
-		any_owned = {
-			limit = {
-				OR = {
-					is_core = HND
-					is_core = PAK
-					is_core = BUR
-				}
-			}
-			secede_province = EIC
-		}
-	}
-}
-
 #End of Sikh Empire
 country_event = {
 	id = 90050

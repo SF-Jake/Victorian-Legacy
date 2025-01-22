@@ -54,8 +54,8 @@ army = {
 		name = "Mori Takachika"
 		date = 1836.1.1
 		type = land
-		personality = defence_2.1
-		background = attack_2.1
+		personality = mor10_1
+		background = 2a2d_1
 	}
 }
 
@@ -117,6 +117,36 @@ army = {
 		name= "Artillery"
 		type = artillery
 		home = 1653
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1645
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1655
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1657
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1655
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1658
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1656
 	}
 }
 

@@ -66,6 +66,7 @@ political_decisions = {
 	conquest_of_sindh = {
 		picture = "sindh"
 		potential = { 
+			ai = no
 			tag = EIC
 			vassal_of = ENG
 			NOT = { has_country_flag = conquest_of_sindh }
@@ -104,6 +105,7 @@ political_decisions = {
 	conquest_of_punjab = {
 		picture = "punjab"
 		potential = { 
+			ai = no
 			tag = EIC
 			vassal_of = ENG
 			NOT = { has_country_flag = conquest_of_punjab }
@@ -139,6 +141,7 @@ political_decisions = {
 	anglo_afghan_war = {
 		picture = "bolan_pass"
 		potential = { 
+			ai = no
 			tag = EIC
 			vassal_of = ENG
 			NOT = { has_country_flag = anglo_afghan_war }
@@ -173,6 +176,7 @@ political_decisions = {
 	baluchistan_agency = {
 		picture = "baluchistan_agency"
 		potential = { 
+			ai = no
 			tag = EIC
 			vassal_of = ENG
 			NOT = { has_country_flag = organize_baluchistan_agency }
@@ -216,6 +220,7 @@ political_decisions = {
 	conquest_of_burma = {
 		picture = "indochina"
 		potential = { 
+			ai = no
 			tag = EIC
 			vassal_of = ENG
 			NOT = { has_country_flag = conquest_of_burma }
@@ -252,6 +257,7 @@ political_decisions = {
 	sikkim_protectorate = {
 		picture = "sikkim"
 		potential = { 
+			ai = no
 			tag = EIC
 			vassal_of = ENG
 			NOT = { has_country_flag = sikkim_protectorate }
@@ -282,6 +288,7 @@ political_decisions = {
 	embrace_nepali = {
 		picture = gurkha
 		potential = {
+			ai = no
 			OR = {
 				tag = EIC
 				tag = HND
