@@ -92,6 +92,38 @@ country_migration_target =
 		}
 	}
 	modifier = {
+		factor = 0.9
+		unemployment = 0.05
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.1
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.15
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.2
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.25
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.3
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.35
+	}
+	modifier = {
+		factor = 0.1
+		unemployment = 0.5
+	}
+	modifier = {
 		factor = 10
 		primary_culture = ashkenazi
 		THIS = {
@@ -115,54 +147,34 @@ country_migration_target =
 	modifier = {
 		factor = 10
 		OR = {
-			primary_culture = anglo
-			primary_culture = british
+			has_pop_culture = anglo
+			is_culture_group = american_cultures
+			has_pop_culture = mexican
 		}
-		NOT = { has_country_flag = african_union_formation }
-		NOT = { continent = europe }
-		THIS = { has_pop_culture = british }
-	}	
-	modifier = {
-		factor = 10
-		primary_culture = british
-		continent = asia
-		THIS = { has_pop_culture = british }
-	}
-	modifier = {
-		factor = 0
-		NOT = {
-			OR = {
-				primary_culture = anglo
-				primary_culture = british
-			}
-		}
-		THIS = { has_pop_culture = british }
-	}
-	modifier = {
-		factor = 10
 		has_country_flag = north_american_immigrant_nation
 		THIS = { has_pop_culture = irish }
 	}
 	modifier = {
-		factor = 3
-		has_country_flag = south_american_immigrant_nation
+		factor = 1
+		NOT = {
+			has_pop_culture = anglo
+			is_culture_group = american_cultures
+			has_pop_culture = mexican
+		}
+		OR = {
+			has_country_flag = north_american_immigrant_nation
+			has_country_flag = south_american_immigrant_nation
+		}
 		THIS = { has_pop_culture = irish }
 	}
 	modifier = {
-		factor = 0.5
+		factor = 0.005
 		OR = {
+			NOT = { has_country_flag = new_world_nation }
 			government = proletarian_dictatorship
 			government = presidential_dictatorship
 			government = fascist_dictatorship
 			government = absolute_monarchy
-		}
-	}
-	modifier = {
-		factor = 0.01
-		OR = {
-			continent = africa
-			continent = asia
-			continent = europe
 		}
 		OR = {
 			AND = {
@@ -182,10 +194,6 @@ country_migration_target =
 		OR = {
 			NOT = { primary_culture = turkish }
 			THIS = { NOT = { has_pop_culture = north_caucasian } }
-		}
-		OR = {
-			NOT = { primary_culture = british }
-			THIS = { NOT = { has_pop_culture = british } }
 		}
 		OR = {
 			NOT = { primary_culture = british }
@@ -232,37 +240,28 @@ country_migration_target =
 				NOT = { month = 11 }
 			}
 		}
-		THIS = {
-			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = pan_swiss
-				is_culture_group = scandinavian
-				is_culture_group = south_slavic
-				is_culture_group = pan_romanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = turko_semitic
-				is_culture_group = central_asian
-				is_culture_group = south_asian
-				is_culture_group = west_african
-				is_culture_group = iberian
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = southeast_asian
-				is_culture_group = best_asian
-				is_culture_group = polish_culture_group
-				is_culture_group = arab
-				is_culture_group = oceanic
-				is_culture_group = central_african
-				is_culture_group = italian
-				is_culture_group = french
-				is_culture_group = east_slavic
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = iranian_turanian
-				is_culture_group = east_asian
-				is_culture_group = east_african
-				is_culture_group = southern_african
+		OR = {
+			AND = {
+				NOT = { primary_culture = ashkenazi }
+				NOT = { primary_culture = sephardic }
+				NOT = { has_country_flag = african_union_formation }
 			}
+			AND = {
+				THIS = { NOT = { has_pop_culture = ashkenazi } }
+				THIS = { NOT = { has_pop_culture = sephardic } }
+			}
+		}
+		OR = {
+			NOT = { primary_culture = boer }
+			THIS = { NOT = { has_pop_culture = boer } }
+		}
+		OR = {
+			NOT = { primary_culture = turkish }
+			THIS = { NOT = { has_pop_culture = north_caucasian } }
+		}
+		OR = {
+			NOT = { primary_culture = british }
+			THIS = { NOT = { has_pop_culture = british } }
 		}
 	}
 	modifier = {
@@ -295,37 +294,28 @@ country_migration_target =
 				NOT = { month = 10 }
 			}
 		}
-		THIS = {
-			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = pan_swiss
-				is_culture_group = scandinavian
-				is_culture_group = south_slavic
-				is_culture_group = pan_romanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = turko_semitic
-				is_culture_group = central_asian
-				is_culture_group = south_asian
-				is_culture_group = west_african
-				is_culture_group = iberian
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = southeast_asian
-				is_culture_group = best_asian
-				is_culture_group = polish_culture_group
-				is_culture_group = arab
-				is_culture_group = oceanic
-				is_culture_group = central_african
-				is_culture_group = italian
-				is_culture_group = french
-				is_culture_group = east_slavic
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = iranian_turanian
-				is_culture_group = east_asian
-				is_culture_group = east_african
-				is_culture_group = southern_african
+		OR = {
+			AND = {
+				NOT = { primary_culture = ashkenazi }
+				NOT = { primary_culture = sephardic }
+				NOT = { has_country_flag = african_union_formation }
 			}
+			AND = {
+				THIS = { NOT = { has_pop_culture = ashkenazi } }
+				THIS = { NOT = { has_pop_culture = sephardic } }
+			}
+		}
+		OR = {
+			NOT = { primary_culture = boer }
+			THIS = { NOT = { has_pop_culture = boer } }
+		}
+		OR = {
+			NOT = { primary_culture = turkish }
+			THIS = { NOT = { has_pop_culture = north_caucasian } }
+		}
+		OR = {
+			NOT = { primary_culture = british }
+			THIS = { NOT = { has_pop_culture = british } }
 		}
 	}
 }

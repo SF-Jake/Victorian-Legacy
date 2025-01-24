@@ -9,6 +9,9 @@ political_decisions = {
 		allow = {
 		}
 		effect = {
+			JAN = {
+				country_event = 999990123
+			}
 			set_country_flag = host_powers
 			set_global_flag = host_powers_taken
 		}
@@ -124,6 +127,9 @@ political_decisions = {
 		effect = {
 			set_global_flag = disable_crisis
 			clr_global_flag = enable_crisis
+			JAN = {
+				country_event = 1000002123
+			}
 		}
 	}
 	option_2_disable_crisis = {
@@ -140,40 +146,13 @@ political_decisions = {
 		effect = {
 			set_global_flag = enable_crisis
 			clr_global_flag = disable_crisis
-		}
-	}
-	option_3_enable_total_war = {
-		picture = "development_bio_weapons"
-		alert = yes
-		potential = {
-			has_country_flag = showing_host_decisions
-			has_country_flag = host_powers
-			NOT = { has_global_flag = total_war_cbs_enabled }
-			has_global_flag = total_war_cb_safety_off
-		}
-		allow = { 
-		}
-		effect = {
-			set_global_flag = total_war_cbs_enabled
-		}
-	}
-	option_3_disable_total_war = {
-		picture = "development_bio_weapons"
-		alert = yes
-		potential = {
-			has_country_flag = showing_host_decisions
-			has_country_flag = host_powers
-			NOT = { has_global_flag = total_war_cbs_enabled }
-			has_global_flag = total_war_cb_safety_off
-		}
-		allow = { 
-		}
-		effect = {
-			clr_global_flag = total_war_cbs_enabled
+			JAN = {
+				country_event = 1000001123
+			}
 		}
 	}
 	ally_all_countries = {
-		picture = zombie_freak115
+		picture = ally_yes
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
@@ -193,7 +172,7 @@ political_decisions = {
 		}
 	}
 	unally_all_countries = {
-		picture = zombie_freak115
+		picture = ally_no
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
@@ -213,7 +192,7 @@ political_decisions = {
 		}
 	}
 	get_militaryaccess_with_all_countries = {
-		picture = zombie_freak115
+		picture = milaccess_yes
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
@@ -233,7 +212,7 @@ political_decisions = {
 		}
 	}
 	remove_militaryaccess_with_all_countries = {
-		picture = zombie_freak115
+		picture = milaccess_no
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
@@ -252,8 +231,8 @@ political_decisions = {
 			factor = 0
 		}
 	}
-	transfer_host_nation = {
-		picture = zombie_freak115
+	transfer_host_powers = {
+		picture = swap_host
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
@@ -270,17 +249,15 @@ political_decisions = {
 				
 				}
 				set_country_flag = host_powers
-				country_event = 999991
+				country_event = 999991123
 			}
-			clr_country_flag = host_powers
-			clr_country_flag = showing_host_decisions
 		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
 	kick_players_no_milaccess = {
-		picture = zombie_freak115
+		picture = kickedlol
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
@@ -296,7 +273,7 @@ political_decisions = {
 					NOT = { military_access = THIS }
 					ai = no
 				}
-				country_event = 999992
+				country_event = 999992123
 			}
 		}
 		ai_will_do = {
@@ -304,7 +281,7 @@ political_decisions = {
 		}
 	}
 	unsige_country_no_milaccess = {
-		picture = zombie_freak115
+		picture = unsiege
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
@@ -319,7 +296,7 @@ political_decisions = {
 				limit = {
 					NOT = { military_access = THIS }
 				}
-				country_event = 999993
+				country_event = 999993123
 			}
 		}
 		ai_will_do = {
@@ -327,10 +304,11 @@ political_decisions = {
 		}
 	}
 	choose_country_to_siege = {
-		picture = zombie_freak115
+		picture = host
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
+			NOT = { has_country_flag = has_chosen_siege_country }
 		}
 	
 		allow = {
@@ -354,7 +332,7 @@ political_decisions = {
 		}
 	}
 	siege_country = {
-		picture = zombie_freak115
+		picture = siege
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_powers
@@ -370,9 +348,73 @@ political_decisions = {
 				limit = {
 					has_country_flag = siege_country
 				}
-				country_event = 999994
+				country_event = 999994123
 			}
 			clr_country_flag = has_chosen_siege_country
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	increase_infamy = {
+		picture = more_infamy
+		potential = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_powers
+		}
+	
+		allow = {
+			
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					NOT = { military_access = THIS }
+				}
+				badboy = 1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	decrease_infamy = {
+		picture = less_infamy
+		potential = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_powers
+		}
+	
+		allow = {
+			
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					NOT = { military_access = THIS }
+				}
+				badboy = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	give_sanctions = {
+		picture = troll
+		potential = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_powers
+		}
+	
+		allow = {
+			
+		}
+		
+		effect = {
+			country_event = 999995123
 		}
 		ai_will_do = {
 			factor = 0

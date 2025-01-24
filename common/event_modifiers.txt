@@ -1041,15 +1041,21 @@ scripted_truce = {
 }
 
 economic_sanctions = {
-	import_cost = 2
-	loan_interest = 3
-	diplomatic_points_modifier = -0.3
-	factory_owner_cost = 0.3
-	global_immigrant_attract = -0.5
-	non_accepted_pop_consciousness_modifier = 0.4
-	non_accepted_pop_militancy_modifier = 0.2
-	political_reform_desire = 0.5
-	cb_generation_speed_modifier = -0.1
+	loan_interest = 4
+	tariff_efficiency_modifier = -0.40
+	mobilisation_economy_impact = 2
+	diplomatic_points_modifier = -0.6
+	factory_owner_cost = 1
+	global_immigrant_attract = -4.0
+	org_regain = -0.3
+	land_organisation = -0.3
+	naval_organisation = -0.3
+	factory_throughput = -0.6
+	RGO_throughput = -0.6
+	prestige = -0.2
+	war_exhaustion = 2
+	research_points_modifier = -0.6
+	cb_generation_speed_modifier = -0.3
 	icon = 8
 }
 
@@ -1136,9 +1142,8 @@ the_bonnie_blue_flag = {
 }
 
 the_statue_of_liberty = {
-	prestige = 0.2
-	global_assimilation_rate = 0.5
-	global_immigrant_attract = 0.5
+	prestige = 0.1
+	global_immigrant_attract = 0.3
 	icon = 15
 }
 
@@ -1929,6 +1934,11 @@ is_mobbed8 = {
 	icon = 6
 }
 
+#Oil Locations
+oil_location = {
+	icon = 49
+}
+
 #Nation Specific Modifiers
 
 uk_nation_modifier = {
@@ -1996,7 +2006,7 @@ rus_nation_modifier = {
 
 usa_nation_modifier = {
 	naval_unit_start_experience = 2.5
-	global_immigrant_attract = 0.7
+	global_immigrant_attract = 0.35
 	industry_tech_research_bonus = 0.075
 	farm_rgo_eff = 0.1
 	mine_rgo_eff = 0.1
@@ -2036,7 +2046,7 @@ net_nation_modifier = {
 }
 
 brz_nation_modifier = {
-	global_immigrant_attract =  0.3
+	global_immigrant_attract =  0.15
 	land_organisation = 0.025
 	tax_efficiency = 0.025
 	education_efficiency_modifier = 0.05
@@ -2044,7 +2054,7 @@ brz_nation_modifier = {
 }
 
 com_nation_modifier = {
-	global_immigrant_attract = 0.3
+	global_immigrant_attract = 0.15
 	#set_country_flag = naval_nation_modifier
 	leadership_modifier = 1
 	icon = 38
@@ -2059,13 +2069,13 @@ chi_nation_modifier = {
 
 mex_nation_modifier = {
 	land_unit_start_experience = 2.5
-	global_immigrant_attract = 0.2
+	global_immigrant_attract = 0.1
 	education_efficiency_modifier = 0.075
 	icon = 40
 }
 
 arc_nation_modifier = {
-	global_immigrant_attract = 0.2
+	global_immigrant_attract = 0.1
 	research_points_modifier = 0.075
 	#set_country_flag = army_nation_modifier
 	icon = 41
@@ -2086,7 +2096,7 @@ per_nation_modifier = {
 }
 
 col_nation_modifier = {
-	global_immigrant_attract = 0.2
+	global_immigrant_attract = 0.1
 	culture_tech_research_bonus = 0.075
 	army_tech_research_bonus = 0.075
 	icon = 44
@@ -2109,7 +2119,7 @@ por_nation_modifier = {
 
 vns_nation_modifier = {
 	education_efficiency_modifier = 0.075
-	global_immigrant_attract = 0.2
+	global_immigrant_attract = 0.1
 	global_assimilation_rate = 0.25
 	icon = 34
 }

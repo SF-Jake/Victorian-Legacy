@@ -777,4 +777,432 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
+	oil_locations_modifier = {
+		potential = {
+			tag = JAN
+		}
+		
+		allow = {
+			OR = {
+				1102 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1104 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1186 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1182 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1205 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1202 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1107 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1393 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				132 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				667 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				672 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1168 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				110 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				89 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				126 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1399 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1055 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1401 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1416 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1425 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1432 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1335 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				134 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1260 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1086 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				129 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1680 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2173 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				87 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2162 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2163 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				702 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1397 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2237 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2396 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2361 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2264 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1131 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1125 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1135 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1167 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2234 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2270 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1163 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1732 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1720 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2253 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1132 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				1170 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				26 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				2291 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				849 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				928 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+				923 = { NOT = { has_province_modifier = oil_location trade_goods = oil } }
+			}
+		}
+		
+		effect = {
+			any_country = {
+				any_owned = {
+					limit = { 
+						OR = { 
+							province_id = 1102
+							province_id = 1104
+							province_id = 1186
+							province_id = 1182
+							province_id = 1205
+							province_id = 1202
+							province_id = 1107
+							province_id = 1393
+							province_id = 132
+							province_id = 667
+							province_id = 672
+							province_id = 1168
+							province_id = 110
+							province_id = 89
+							province_id = 126
+							province_id = 1399
+							province_id = 1055
+							province_id = 1401
+							province_id = 1416
+							province_id = 1425
+							province_id = 1432
+							province_id = 1335
+							province_id = 134
+							province_id = 1260
+							province_id = 1086
+							province_id = 129
+							province_id = 1680
+							province_id = 2173
+							province_id = 87
+							province_id = 2162
+							province_id = 2163
+							province_id = 702
+							province_id = 1397
+							province_id = 2237
+							province_id = 2396
+							province_id = 2361
+							province_id = 2264
+							province_id = 1131
+							province_id = 1125
+							province_id = 1135
+							province_id = 1167
+							province_id = 2234
+							province_id = 2270
+							province_id = 1163
+							province_id = 1732
+							province_id = 1720
+							province_id = 2253
+							province_id = 1132
+							province_id = 1170
+							province_id = 26
+							province_id = 2291
+							province_id = 849
+							province_id = 928
+							province_id = 923
+						}
+						NOT = { has_province_modifier = oil_location }
+						NOT = { trade_goods = oil }
+					}
+					add_province_modifier = { name = oil_location duration = -1 }
+				}
+			}
+		}
+	}
+
+	clear_oil_locations_modifier = {
+		potential = {
+			tag = JAN
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					1102 = { has_province_modifier = oil_location }
+					1102 = { trade_goods = oil }
+				}
+				AND = {
+					1104 = { has_province_modifier = oil_location }
+					1104 = { trade_goods = oil }
+				}
+				AND = { 
+					1186 = { has_province_modifier = oil_location }
+					1186 = { trade_goods = oil }
+				}
+				AND = { 
+					1182 = { has_province_modifier = oil_location }
+					1182 = { trade_goods = oil }
+				}
+				AND = { 
+					1205 = { has_province_modifier = oil_location }
+					1205 = { trade_goods = oil }
+				}
+				AND = { 
+					1202 = { has_province_modifier = oil_location }
+					1202 = { trade_goods = oil }
+				}
+				AND = { 
+					1107 = { has_province_modifier = oil_location }
+					1107 = { trade_goods = oil }
+				}
+				AND = { 
+					1393 = { has_province_modifier = oil_location }
+					1393 = { trade_goods = oil }
+				}
+				AND = { 
+					132 = { has_province_modifier = oil_location }
+					132 = { trade_goods = oil }
+				}
+				AND = { 
+					667 = { has_province_modifier = oil_location }
+					667 = { trade_goods = oil }
+				}
+				AND = { 
+					672 = { has_province_modifier = oil_location }
+					672 = { trade_goods = oil }
+				}
+				AND = { 
+					1168 = { has_province_modifier = oil_location }
+					1168 = { trade_goods = oil }
+				}
+				AND = { 
+					110 = { has_province_modifier = oil_location }
+					110 = { trade_goods = oil }
+				}
+				AND = { 
+					89 = { has_province_modifier = oil_location }
+					89 = { trade_goods = oil }
+				}
+				AND = { 
+					126 = { has_province_modifier = oil_location }
+					126 = { trade_goods = oil }
+				}
+				AND = { 
+					1399 = { has_province_modifier = oil_location }
+					1399 = { trade_goods = oil }
+				}
+				AND = { 
+					1055 = { has_province_modifier = oil_location }
+					1055 = { trade_goods = oil }
+				}
+				AND = { 
+					1401 = { has_province_modifier = oil_location }
+					1401 = { trade_goods = oil }
+				}
+				AND = { 
+					1416 = { has_province_modifier = oil_location }
+					1416 = { trade_goods = oil }
+				}
+				AND = { 
+					1425 = { has_province_modifier = oil_location }
+					1425 = { trade_goods = oil }
+				}
+				AND = { 
+					1432 = { has_province_modifier = oil_location }
+					1432 = { trade_goods = oil }
+				}
+				AND = { 
+					1335 = { has_province_modifier = oil_location }
+					1335 = { trade_goods = oil }
+				}
+				AND = { 
+					134 = { has_province_modifier = oil_location }
+					134 = { trade_goods = oil }
+				}
+				AND = { 
+					1260 = { has_province_modifier = oil_location }
+					1260 = { trade_goods = oil }
+				}
+				AND = { 
+					1086 = { has_province_modifier = oil_location }
+					1086 = { trade_goods = oil }
+				}
+				AND = { 
+					129 = { has_province_modifier = oil_location }
+					129 = { trade_goods = oil }
+				}
+				AND = { 
+					1680 = { has_province_modifier = oil_location }
+					1680 = { trade_goods = oil }
+				}
+				AND = { 
+					2173 = { has_province_modifier = oil_location }
+					2173 = { trade_goods = oil }
+				}
+				AND = { 
+					87 = { has_province_modifier = oil_location }
+					87 = { trade_goods = oil }
+				}
+				AND = { 
+					2162 = { has_province_modifier = oil_location }
+					2162 = { trade_goods = oil }
+				}
+				AND = { 
+					2163 = { has_province_modifier = oil_location }
+					2163 = { trade_goods = oil }
+				}
+				AND = { 
+					702 = { has_province_modifier = oil_location }
+					702 = { trade_goods = oil }
+				}
+				AND = { 
+					1397 = { has_province_modifier = oil_location }
+					1397 = { trade_goods = oil }
+				}
+				AND = { 
+					2237 = { has_province_modifier = oil_location }
+					2237 = { trade_goods = oil }
+				}
+				AND = { 
+					2396 = { has_province_modifier = oil_location }
+					2396 = { trade_goods = oil }
+				}
+				AND = { 
+					2361 = { has_province_modifier = oil_location }
+					2361 = { trade_goods = oil }
+				}
+				AND = { 
+					2264 = { has_province_modifier = oil_location }
+					2264 = { trade_goods = oil }
+				}
+				AND = { 
+					1131 = { has_province_modifier = oil_location }
+					1131 = { trade_goods = oil }
+				}
+				AND = { 
+					1125 = { has_province_modifier = oil_location }
+					1125 = { trade_goods = oil }
+				}
+				AND = { 
+					1135 = { has_province_modifier = oil_location }
+					1135 = { trade_goods = oil }
+				}
+				AND = { 
+					1167 = { has_province_modifier = oil_location }
+					1167 = { trade_goods = oil }
+				}
+				AND = { 
+					2234 = { has_province_modifier = oil_location }
+					2234 = { trade_goods = oil }
+				}
+				AND = { 
+					2270 = { has_province_modifier = oil_location }
+					2270 = { trade_goods = oil }
+				}
+				AND = { 
+					1163 = { has_province_modifier = oil_location }
+					1163 = { trade_goods = oil }
+				}
+				AND = { 
+					1732 = { has_province_modifier = oil_location }
+					1732 = { trade_goods = oil }
+				}
+				AND = { 
+					1720 = { has_province_modifier = oil_location }
+					1720 = { trade_goods = oil }
+				}
+				AND = { 
+					2253 = { has_province_modifier = oil_location }
+					2253 = { trade_goods = oil }
+				}
+				AND = { 
+					1132 = { has_province_modifier = oil_location }
+					1132 = { trade_goods = oil }
+				}
+				AND = { 
+					1170 = { has_province_modifier = oil_location }
+					1170 = { trade_goods = oil }
+				}
+				AND = { 
+					26 = { has_province_modifier = oil_location }
+					26 = { trade_goods = oil }
+				}
+				AND = { 
+					2291 = { has_province_modifier = oil_location }
+					2291 = { trade_goods = oil }
+				}
+				AND = { 
+					849 = { has_province_modifier = oil_location }
+					849 = { trade_goods = oil }
+				}
+				AND = { 
+					928 = { has_province_modifier = oil_location }
+					928 = { trade_goods = oil }
+				}
+				AND = { 
+					923 = { has_province_modifier = oil_location }
+					923 = { trade_goods = oil }
+				}
+			}
+		}
+		
+		effect = {
+			any_country = {
+				any_owned = {
+					limit = { 
+						OR = { 
+							province_id = 1102
+							province_id = 1104
+							province_id = 1186
+							province_id = 1182
+							province_id = 1205
+							province_id = 1202
+							province_id = 1107
+							province_id = 1393
+							province_id = 132
+							province_id = 667
+							province_id = 672
+							province_id = 1168
+							province_id = 110
+							province_id = 89
+							province_id = 126
+							province_id = 1399
+							province_id = 1055
+							province_id = 1401
+							province_id = 1416
+							province_id = 1425
+							province_id = 1432
+							province_id = 1335
+							province_id = 134
+							province_id = 1260
+							province_id = 1086
+							province_id = 129
+							province_id = 1680
+							province_id = 2173
+							province_id = 87
+							province_id = 2162
+							province_id = 2163
+							province_id = 702
+							province_id = 1397
+							province_id = 2237
+							province_id = 2396
+							province_id = 2361
+							province_id = 2264
+							province_id = 1131
+							province_id = 1125
+							province_id = 1135
+							province_id = 1167
+							province_id = 2234
+							province_id = 2270
+							province_id = 1163
+							province_id = 1732
+							province_id = 1720
+							province_id = 2253
+							province_id = 1132
+							province_id = 1170
+							province_id = 26
+							province_id = 2291
+							province_id = 849
+							province_id = 928
+							province_id = 923
+						}
+						has_province_modifier = oil_location
+						trade_goods = oil
+					}
+					remove_province_modifier = oil_location
+				}
+			}
+		}
+	}
 }

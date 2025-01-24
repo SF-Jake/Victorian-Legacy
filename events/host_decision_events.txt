@@ -1,5 +1,5 @@
 country_event = {
-	id = 999990
+	id = 999990123
 	title = "Host Nation Picked!"
 	desc = "$FROMCOUNTRY$ is now the host nation!"
 	major = yes
@@ -12,18 +12,18 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999991
+	id = 999991123
 	title = "You are the host nation now"
 	desc = "Host nation status has been transferred to you"
 	picture = "greatpowers"
 	is_triggered_only = yes
 	
 	immediate = {
-		CLN = {
-			country_event = 999990
+		JAN = {
+			country_event = 999990123
 		}
 		FROM = {
-			clr_country_flag = host_nation
+			clr_country_flag = host_powers
 		}
 	}
 
@@ -32,7 +32,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999992
+	id = 999992123
 	title = "GTFO"
 	desc = "ur kicked"
 	picture = "greatpowers"
@@ -40,9 +40,9 @@ country_event = {
 	
 	immediate = {
 		add_country_modifier = {
-		name = youre_kicked_mate
-		duration = -1
-}
+			name = youre_kicked_mate
+			duration = -1
+		}
 	}
 
 	option = {
@@ -50,7 +50,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999993
+	id = 999993123
 	title = "Unsiege"
 	desc = "You will be unsieged"
 	picture = "greatpowers"
@@ -70,7 +70,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 999994
+	id = 999994123
 	title = "Siege"
 	desc = "You will siege your enemies"
 	picture = "greatpowers"
@@ -90,6 +90,180 @@ country_event = {
 		}
 		clr_country_flag = siege_country
 	}
+
+	option = {
+		name = "Based"
+	}
+}
+country_event = {
+	id = 999995123
+	title = "Give Sanctions Menu"
+	desc = "Choose how long you want the sanctions to last for the target countries"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Nevermind"
+	}
+	option = {
+		name = "1 Year"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 999996123
+		}
+	}
+	option = {
+		name = "2 Years"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 999997123
+		}
+	}
+	option = {
+		name = "3 Years"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 999998123
+		}
+	}
+	option = {
+		name = "4 Years"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 999999123
+		}
+	}
+	option = {
+		name = "5 Years"
+		any_country = {
+			limit = {
+				NOT = { military_access = THIS }
+			}
+			country_event = 1000000123
+		}
+	}
+}
+country_event = {
+	id = 999996123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 1 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = economic_sanctions
+			duration = 365
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+country_event = {
+	id = 999997123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 2 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = economic_sanctions
+			duration = 730
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+country_event = {
+	id = 999998123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 3 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = economic_sanctions
+			duration = 1095
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+country_event = {
+	id = 999999123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 4 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = economic_sanctions
+			duration = 1460
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+country_event = {
+	id = 1000000123
+	title = "You've been a naughty boy havent you"
+	desc = "The host has decided thou shalt recieve 5 year of sactions, cry about it"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_modifier = {
+			name = economic_sanctions
+			duration = 1825
+		}
+	}
+
+	option = {
+		name = "Nooo :("
+	}
+}
+
+country_event = {
+	id = 1000001123
+	title = "Crisies Disabled!"
+	desc = "The host, $FROMCOUNTRY$, has disabled crisies!"
+	major = yes
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Okay"
+	}
+}
+
+country_event = {
+	id = 1000002123
+	title = "Crisies Enabled!"
+	desc = "The host, $FROMCOUNTRY$, has disabled crisies!"
+	major = yes
+	picture = "greatpowers"
+	is_triggered_only = yes
+
 
 	option = {
 		name = "Okay"
