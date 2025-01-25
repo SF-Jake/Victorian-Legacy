@@ -607,22 +607,22 @@ guiTypes = {
 		guiButtonType = {
 			name = "unit_folder_22"
 			position = { x= 140 y =31}
-			quadTextureSprite ="GFX_unit_folder_army_12_infantry_defensive"
+			quadTextureSprite ="GFX_unit_folder_army_11_infantry_defensive"
 		}
 		guiButtonType = {
 			name = "unit_folder_23"
 			position = { x= 107 y =31}
-			quadTextureSprite ="GFX_unit_folder_army_11_infantry_offensive"
-		}
-		guiButtonType = {
-			name = "unit_folder_24"
-			position = { x= 338 y =31}
-			quadTextureSprite ="GFX_unit_folder_army_13_artillery_defensive"
+			quadTextureSprite ="GFX_unit_folder_army_10_infantry_offensive"
 		}
 		guiButtonType = {
 			name = "unit_folder_18"
 			position = { x= 305 y =31}
-			quadTextureSprite ="GFX_unit_folder_army_14_artillery_offensive"
+			quadTextureSprite ="GFX_unit_folder_army_13_artillery_offensive"
+		}
+		guiButtonType = {
+			name = "unit_folder_24"
+			position = { x= 338 y =31}
+			quadTextureSprite ="GFX_unit_folder_army_12_artillery_defensive"
 		}
 
 		# navy.
@@ -648,7 +648,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_unit_folder_navy_2_manowar"
 		}
 		guiButtonType = {
-			name = "unit_folder_26"
+			name = "unit_folder_25"
 			position = { x= 150 y =31}
 			quadTextureSprite ="GFX_unit_folder_navy_10_iron_steamer"
 		}

@@ -129,11 +129,6 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_folder_army_11_horse_artillery"
-		texturefile = "gfx\\interface\\unit_folder_army_11_horse_artillery.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
 		name = "GFX_unit_folder_navy_0_clipper_transport"
 		texturefile = "gfx\\interface\\unit_folder_navy_0_clipper_transport.dds"
 		noOfFrames = 2
@@ -189,23 +184,23 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_folder_army_11_infantry_offensive"
+		name = "GFX_unit_folder_army_10_infantry_offensive"
 		texturefile = "gfx\\interface\\unit_folder_army_11_infantry_offensive.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_folder_army_12_infantry_defensive"
+		name = "GFX_unit_folder_army_11_infantry_defensive"
 		texturefile = "gfx\\interface\\unit_folder_army_12_infantry_defensive.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_folder_army_13_artillery_defensive"
-		texturefile = "gfx\\interface\\unit_folder_army_13_artillery_defensive.dds"
+		name = "GFX_unit_folder_army_13_artillery_offensive"
+		texturefile = "gfx\\interface\\unit_folder_army_14_artillery_offensive.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_folder_army_14_artillery_offensive"
-		texturefile = "gfx\\interface\\unit_folder_army_14_artillery_offensive.dds"
+		name = "GFX_unit_folder_army_12_artillery_defensive"
+		texturefile = "gfx\\interface\\unit_folder_army_13_artillery_defensive.dds"
 		noOfFrames = 2
 	}
 	

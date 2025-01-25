@@ -1066,7 +1066,7 @@ acquire_state_tiny = {
 			is_colonial = no
 		}
 		not = { any_owned_province = { is_capital = yes } }
-		NOT = {
+		not = { 
 			any_owned_province = {
 				OR = {
 					region = CHI_1481
@@ -1565,7 +1565,14 @@ place_in_the_sun_tiny = {
 		any_owned_province = {
 			is_colonial = yes
 		}
-		NOT = {
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			is_core = TIN
+		}
+		is_colonial = yes
+		not = { 
 			any_owned_province = {
 				OR = {
 					region = CHI_1481
@@ -1581,13 +1588,6 @@ place_in_the_sun_tiny = {
 				}
 			}
 		}
-	}
-	
-	allowed_states = {
-		any_owned_province = {
-			is_core = TIN
-		}
-		is_colonial = yes
 	}
 	
 	allowed_states_in_crisis = {
@@ -3341,6 +3341,22 @@ demand_concession_casus_belli_tiny = {
 			is_colonial = no
 		}
 		not = { any_owned_province = { is_capital = yes } }
+		not = { 
+			any_owned_province = {
+				OR = {
+					region = CHI_1481
+					region = CHI_2659
+					region = CHI_1569
+					region = CHI_1566
+					region = CHI_1538
+					region = CHI_1496
+					region = CHI_1567
+					region = CHI_2615
+					region = CHI_1564
+					region = CHI_1563
+				}
+			}
+		}
 	}
 	
 	po_demand_state = yes
