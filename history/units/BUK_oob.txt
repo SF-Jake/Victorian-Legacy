@@ -1,13 +1,3 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 army = {
 	name = "Army of Nasrullah Khan"
 	location = 1198
@@ -32,7 +22,7 @@ army = {
 
 army = {
 	name = "Army of Bukkhara"
-	location = 1200
+	location = 1197
 	regiment = {
 		name= "4th Buchara"
 		type = irregular

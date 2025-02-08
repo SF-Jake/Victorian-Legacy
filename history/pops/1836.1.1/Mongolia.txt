@@ -4,73 +4,73 @@
 1465 = {
 	aristocrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 1850
 	}
 
 	bureaucrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 75
 	}
 
 	officers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 325
 	}
 
 	clergymen = {
 		culture = mongol
-		religion = gelugpa
-		size = 1000
+		religion = placeholder
+		size = 4000
 	}
 
 	artisans = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 4500
 	}
 
 	soldiers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 900
 	}
 
 	farmers = {
 		culture = mongol
-		religion = gelugpa
-		size = 87350
+		religion = placeholder
+		size = 84350
 	}
 
 	bureaucrats = {
 		culture = beifaren
-		religion = mahayana
+		religion = placeholder
 		size = 125
 	}
 
 	clergymen = {
 		culture = beifaren
-		religion = mahayana
+		religion = placeholder
 		size = 75
 	}
 
 	artisans = {
 		culture = beifaren
-		religion = mahayana
+		religion = placeholder
 		size = 400
 	}
 
 	soldiers = {
 		culture = beifaren
-		religion = mahayana
+		religion = placeholder
 		size = 100
 	}
 
 	farmers = {
 		culture = beifaren
-		religion = mahayana
+		religion = placeholder
 		size = 3300
 	}
 }
@@ -78,31 +78,31 @@
 1466 = {
 	aristocrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 1050
 	}
 
 	clergymen = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 550
 	}
 
 	artisans = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 2650
 	}
 
 	soldiers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 550
 	}
 
 	farmers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 48200
 	}
 }
@@ -110,61 +110,61 @@
 1467 = {
 	aristocrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 825
 	}
 
 	clergymen = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 425
 	}
 
 	artisans = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 2050
 	}
 
 	soldiers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 425
 	}
 
 	farmers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 37275
 	}
 
 	aristocrats = {
-		culture = mongol
-		religion = animist
+		culture = yakut
+		religion = placeholder
 		size = 50
 	}
 
 	clergymen = {
-		culture = mongol
-		religion = animist
+		culture = yakut
+		religion = placeholder
 		size = 50
 	}
 
 	artisans = {
-		culture = mongol
-		religion = animist
+		culture = yakut
+		religion = placeholder
 		size = 125
 	}
 
 	soldiers = {
-		culture = mongol
-		religion = animist
+		culture = yakut
+		religion = placeholder
 		size = 25
 	}
 
 	farmers = {
-		culture = mongol
-		religion = animist
+		culture = yakut
+		religion = placeholder
 		size = 2750
 	}
 }
@@ -172,31 +172,31 @@
 1468 = {
 	aristocrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 650
 	}
 
 	clergymen = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 350
 	}
 
 	artisans = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 1750
 	}
 
 	soldiers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 350
 	}
 
 	farmers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 31900
 	}
 }
@@ -205,31 +205,31 @@
 2207 = {
 	aristocrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 350
 	}
 
 	clergymen = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 175
 	}
 
 	artisans = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 875
 	}
 
 	soldiers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 175
 	}
 
 	farmers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 16200
 	}
 }
@@ -238,69 +238,63 @@
 2608 = {
 	aristocrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 750
 	}
 
 	clergymen = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 375
 	}
 
 	artisans = {
 		culture = mongol
-		religion = gelugpa
-		size = 20000
-	}
-
-	artisans = {
-		culture = mongol
-		religion = gelugpa
-		size = 11500
+		religion = placeholder
+		size = 1500
 	}
 
 	soldiers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 375
 	}
 
-	labourers = {
+	farmers = {
 		culture = mongol
-		religion = gelugpa
-		size = 5000
+		religion = placeholder
+		size = 35000
 	}
 }
 #Bulgan (84000/21000 POPS)   
 2678 = {
 	aristocrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 400
 	}
 
 	clergymen = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 200
 	}
 
 	artisans = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 1050
 	}
 
 	soldiers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 225
 	}
 
 	farmers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 17125
 	}
 }
@@ -308,93 +302,93 @@
 2679 = {
 	aristocrats = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 350
 	}
 
 	clergymen = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 175
 	}
 
 	artisans = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 900
 	}
 
 	soldiers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 175
 	}
 
 	farmers = {
 		culture = mongol
-		religion = gelugpa
+		religion = placeholder
 		size = 16400
 	}
 
 	aristocrats = {
-		culture = kazak
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 200
 	}
 
 	clergymen = {
-		culture = kazak
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 100
 	}
 
 	artisans = {
-		culture = kazak
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 600
 	}
 
 	soldiers = {
-		culture = kazak
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 125
 	}
 
 	farmers = {
-		culture = kazak
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 10975
 	}
 }
 #Uliatai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan   
 1469 = {
 	aristocrats = {
-		culture = mongol
-		religion = gelugpa
+		culture = tatar
+		religion = placeholder
 		size = 150
 	}
 
 	clergymen = {
-		culture = mongol
-		religion = gelugpa
+		culture = tatar
+		religion = placeholder
 		size = 75
 	}
 
 	artisans = {
-		culture = mongol
-		religion = gelugpa
+		culture = tatar
+		religion = placeholder
 		size = 400
 	}
 
 	soldiers = {
-		culture = mongol
-		religion = gelugpa
+		culture = tatar
+		religion = placeholder
 		size = 75
 	}
 
-	labourers = {
-		culture = mongol
-		religion = gelugpa
+	farmers = {
+		culture = tatar
+		religion = placeholder
 		size = 7300
 	}
 

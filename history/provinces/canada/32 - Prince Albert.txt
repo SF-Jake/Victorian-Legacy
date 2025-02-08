@@ -2,10 +2,13 @@ owner = COM
 controller = COM
 add_core = COM
 add_core = MTC
-trade_goods = timber
+
+trade_goods = grain
 life_rating = 35
-1913.1.1 = {
+1836.1.2 = {
+	remove_core = COM
 	owner = CAN
 	controller = CAN
-	remove_core = RPL
+	add_core = CAN
+	colonial = 0
 }

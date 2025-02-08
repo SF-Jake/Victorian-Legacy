@@ -1,43 +1,19 @@
 owner = ENG
 controller = ENG
 add_core = ENG
-trade_goods = timber
+trade_goods = grain
 life_rating = 35
-1913.1.1 = {
+1861.1.1 = {
 	state_building = {
-		level = 10
-		building = pharmaceutical_plant
+		level = 1
+		building = small_arms_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 20
+		level = 1
 		building = ammunition_factory
 		upgrade = yes
 	}
-	state_building = {
-		level = 5
-		building = furniture_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = fabric_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 10
-		building = luxury_clothes_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 10
-		building = canned_food_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = regular_clothes_factory
-		upgrade = yes
-	}
 }
- 
+1861.1.1 = { railroad = 3 }
+

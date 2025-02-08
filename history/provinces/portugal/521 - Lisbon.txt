@@ -1,44 +1,27 @@
 owner = POR
 controller = POR
 add_core = POR
-trade_goods = fish
-life_rating = 40
+trade_goods = coal
+life_rating = 35
 naval_base = 1
-1913.1.1 = {
-	state_building = {
-		level = 5
-		building = liquor_distillery
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = winery
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = coffee_packaging_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = tea_packaging_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = telephone_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = steel_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = cement_factory
-		upgrade = yes
-	}
-	naval_base = 5
+state_building = {
+	level = 1
+	building = artillery_factory
+	upgrade = yes
 }
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+

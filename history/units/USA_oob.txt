@@ -1,13 +1,3 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 ##Starting NFs
 #	national_focus=
 #	{
@@ -22,15 +12,15 @@ GHO = {
 
 #Sphere of Influence
 TEX = {
-	value = 100		#relation
+	value = 125		#relation
 	level = 4		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 75
+	influence_value = 25
 }
 
 MEX = {
 	value = 75		#relation
-	level = 1		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
 }
 UCA = {
 	value = 100		#relation
@@ -63,6 +53,10 @@ JAP = {
 	value = 125
 }
 
+FIJ = {
+	value = 50		#relation
+}
+
 COL = {				#Columbia if released
 	value = 50		#relation
 	level = 2		#3=cordial, 4 = friendly, 5 sphere
@@ -71,298 +65,454 @@ COL = {				#Columbia if released
 
 leader = {
 	name = "Winfield Scott"
+	picture = usa_gen_scott
 	date = 1836.1.1
 	type = land
-	personality = mor10_1
-	background = 3a2d_1
-	prestige = 0.3
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.4
 }
 
 leader = {
-	name = "Zachary Taylor"
-	date = 1836.1.1
-	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.1
-}
-
-leader = {
-	name = "Thomas Jesup"
-	date = 1836.1.1
-	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.1
-}
-
-leader = {
-	name = "Edmund P. Gaines"
+	name = "Edmund Gaines"
+	picture = usa_gen_gaines
 	date = 1828.1.1
 	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
 }
 
 leader = {
 	name = "Alexander Macomb"
+	picture = usa_gen_macomb
 	date = 1812.1.1
 	type = land
-	personality = mor10_1
-	background = 1a2d_1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+
+leader = {
+	name = "Thomas Jesup"
+	picture = usa_gen_jesup
+	date = 1828.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Matthew Perry"
+	picture = usa_adm_perry
+	date = 1836.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "David Conner"
+	picture = usa_adm_conner
+	date = 1835.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Charles Stewart"
+	picture = usa_adm_stewart
+	date = 1816.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+
+leader = {
+	name = "Jacob Jones"
+	picture = usa_adm_jones
+	date = 1821.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Daniel Patterson"
+	picture = usa_adm_patterson
+	date = 1812.1.1
+	type = sea
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.3
 }
 
 leader = {
 	name = "Isaac Hull"
-	date = 1810.1.1
+	picture = usa_adm_hull
+	date = 1821.1.1
 	type = sea
-	personality = mor10_1
-	background = 2a2d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
-
-leader = {
-	name = "William B. Shubrick"
-	date = 1836.1.1
-	type = sea
-	personality = mor10_1
-	background = 3a2d_1
-	prestige = 0.1
-}
-
 leader = {
 	name = "James Biddle"
-	date = 1830.1.1
-	type = sea
-	personality = mor10_1
-	background = 1a1d_1
-	prestige = 0.1
-}
-
-leader = {
-	name = "Matthew C. Perry"
 	date = 1836.1.1
 	type = sea
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Zachary Taylor"
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {
-	name = "Mob Stack"
-	location = 142
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 223
-	}
+	name = "Army 1"
+	location = 212
 
 	regiment = {
-		name= "Artillery"
+		name= "11th Artillery Regiment"
 		type = artillery
 		home = 241
 	}
 
 	regiment = {
-		name= "Artillery"
+		name= "12th Artillery Regiment"
 		type = artillery
 		home = 205
 	}
-
+	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 211
-	}
-
-	regiment = {
-		name= "Artillery"
+		name= "13th Artillery Regiment"
 		type = artillery
 		home = 206
 	}
-
+	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 188
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 143
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 195
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 243
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 232
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 235
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 234
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 238
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 144
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 226
-	}
-
-	regiment = {
-		name= "Artillery"
+		name= "14th Artillery Regiment"
 		type = artillery
 		home = 247
 	}
-
+	
 	regiment = {
-		name= "Artillery"
+		name= "15th Artillery Regiment"
 		type = artillery
-		home = 178
+		home = 188
 	}
-
+	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 178
+		name= "1st Hussar Regiment"
+		type = hussar
+		home = 232
 	}
-
+	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 179
+		name= "9th Infantry Regiment"
+		type = infantry
+		home = 247
 	}
-
+	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 179
+		name= "10th Infantry Regiment"
+		type = infantry
+		home = 247
+	}
+	
+	regiment = {
+		name= "11th Infantry Regiment"
+		type = infantry
+		home = 247
+	}
+	
+	regiment = {
+		name= "12th Infantry Regiment"
+		type = infantry
+		home = 201
 	}
 }
 
 army = {
-	name = "Mob Stack"
-	location = 193
+	name = "Army 2"
+	location = 221
+
 	regiment = {
-		name= "Hussar"
+		name= "1st Artillery Regiment"
+		type = artillery
+		home = 232
+	}
+	
+	regiment = {
+		name= "2nd Artillery Regiment"
+		type = artillery
+		home = 235
+	}
+	
+	regiment = {
+		name= "3rd Artillery Regiment"
+		type = artillery
+		home = 243
+	}
+	
+	regiment = {
+		name= "4th Artillery Regiment"
+		type = artillery
+		home = 195
+	}
+	
+	regiment = {
+		name= "5th Artillery Regiment"
+		type = artillery
+		home = 211
+	}
+	
+	regiment = {
+		name= "2nd Hussar Regiment"
 		type = hussar
 		home = 232
 	}
-
+	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 180
+		name= "5th Infantry Regiment"
+		type = infantry
+		home = 243
+	}
+	
+	regiment = {
+		name= "6th Infantry Regiment"
+		type = infantry
+		home = 243
+	}
+	
+	regiment = {
+		name= "7th Infantry Regiment"
+		type = infantry
+		home = 223
+	}
+	
+	regiment = {
+		name= "8th Infantry Regiment"
+		type = infantry
+		home = 223
 	}
 
+}
+
+army = {
+	name = "Army 3"
+	location = 220
+	
 	regiment = {
-		name= "Artillery"
+		name= "6th Artillery Regiment"
 		type = artillery
-		home = 181
+		home = 232
+	}
+	
+	regiment = {
+		name= "7th Artillery Regiment"
+		type = artillery
+		home = 226
+	}
+	
+	regiment = {
+		name= "8th Artillery Regiment"
+		type = artillery
+		home = 238
+	}
+	
+	regiment = {
+		name= "9th Artillery Regiment"
+		type = artillery
+		home = 234
+	}
+	
+	regiment = {
+		name= "10th Artillery Regiment"
+		type = artillery
+		home = 223
+	}
+	
+	regiment = {
+		name= "3rd Hussar Regiment"
+		type = hussar
+		home = 243
+	}
+	
+	regiment = {
+		name= "1st Infantry Regiment"
+		type = infantry
+		home = 219
+	}
+	
+	regiment = {
+		name= "2nd Infantry Regiment"
+		type = infantry
+		home = 219
+	}
+	
+	regiment = {
+		name= "3rd Infantry Regiment"
+		type = infantry
+		home = 223
+	}
+	
+	regiment = {
+		name= "4th Infantry Regiment"
+		type = infantry
+		home = 219
 	}
 
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 182
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 183
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 178
-	}
 }
 
 navy = {
-	name = "US Navy"
-	location = 220
+	name = "1st Squadron"
+	location = 222
 	ship = {
-		name= "USS Constitution"
+		name= "Franklin"
 		type = manowar
 	}
 
 	ship = {
-		name= "USS Independence"
+		name= "Pennsylvania"
 		type = manowar
 	}
 
 	ship = {
-		name= "USS President"
+		name= "Washington"
 		type = manowar
 	}
 
 	ship = {
-		name= "USS United States"
-		type = manowar
-	}
-
-	ship = {
-		name= "USS Congress"
-		type = manowar
-	}
-
-	ship = {
-		name= "USS Constellation"
-		type = manowar
-	}
-
-	ship = {
-		name= "USS Chesapeake"
-		type = manowar
-	}
-
-	ship = {
-		name= "USS Essex"
+		name= "Columbia"
 		type = frigate
 	}
 
 	ship = {
-		name= "USS Macedonian"
+		name= "Constellation"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "2nd Squadron"
+	location = 248
+	ship = {
+		name= "Ohio"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hudson"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "3rd Squadron"
+	location = 214
+	ship = {
+		name= "John Adams"
 		type = frigate
 	}
 
 	ship = {
-		name= "USS Adams"
+		name= "United States"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "4th Squadron"
+	location = 219
+	ship = {
+		name= "Independance"
 		type = frigate
 	}
 
 	ship = {
-		name= "USS Boston"
+		name= "Brandywine"
 		type = frigate
 	}
+
+	ship = {
+		name= "Constitution"
+		type = frigate
+	}
+
+	ship = {
+		name= "Potomac"
+		type = frigate
+	}
+
+	ship = {
+		name= "'James McKay' Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "1st Reserve Squadron"
+	location = 247
+	ship = {
+		name= "Alabama"
+		type = manowar
+	}
+
+	ship = {
+		name= "Vermont"
+		type = manowar
+	}
+
+	ship = {
+		name= "Virginia"
+		type = manowar
+	}
+
+	ship = {
+		name= "1st Reserve Transport"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "2nd Reserve Squadron"
+	location = 214
+	ship = {
+		name= "Columbus"
+		type = manowar
+	}
+
+	ship = {
+		name= "Delaware"
+		type = manowar
+	}
+
+	ship = {
+		name= "New York"
+		type = manowar
+	}
+
+	ship = {
+		name= "North Carolina"
+		type = manowar
+	}
+
+	ship = {
+		name= "2nd Reserve Transport"
+		type = clipper_transport
+	}
+
 }

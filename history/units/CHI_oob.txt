@@ -1,19 +1,30 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 POR = {
 	value = 125		#relation
 }
 
 KOR = {
-	value = 125		#relation
+	value = 200		#relation
+	military_access = yes
+}
+
+MCK = {
+	value = 200
+	military_access = yes
+}
+
+XIN = {
+	value = 200
+	military_access = yes
+}
+
+TIB = {
+	value = 200
+	military_access = yes
+}
+
+MGL = {
+	value = 200
+	military_access = yes
 }
 
 army = {
@@ -28,19 +39,111 @@ army = {
 	regiment = {
 		name= "2.Manchu Yellow Banner"
 		type = infantry
-		home = 1612
+		home = 1479
 	}
 
 	regiment = {
 		name= "3.Manchu Yellow Banner"
 		type = infantry
+		home = 1480
+	}
+}
+
+army = {
+	name = "Army of The Manchu Bordered Yellow Banner"
+	location = 1552
+	
+	regiment = {
+		name= "1.Manchu Bordered Yellow Banner"
+		type = infantry
 		home = 1612
+	}
+
+	regiment = {
+		name= "2.Manchu Bordered Yellow Banner"
+		type = infantry
+		home = 1552
+	}
+
+	regiment = {
+		name= "3.Manchu Bordered Yellow Banner"
+		type = infantry
+		home = 1553
+	}
+}
+
+army = {
+	name = "Army of The Manchu White Banner"
+	location = 1554
+
+	regiment = {
+		name= "1.Manchu White Banner"
+		type = infantry
+		home = 1554
+	}
+
+	regiment = {
+		name= "2.Manchu White Banner"
+		type = infantry
+		home = 1555
+	}
+
+	regiment = {
+		name= "3.Manchu White Banner"
+		type = infantry
+		home = 1002
+	}
+}
+
+army = {
+	name = "Army of The Manchu Red Banner"
+	location = 1479
+
+	regiment = {
+		name= "1.Manchu Red Banner"
+		type = infantry
+		home = 1612
+	}
+
+	regiment = {
+		name= "2.Manchu Red Banner"
+		type = infantry
+		home = 1479
+	}
+
+	regiment = {
+		name= "3.Manchu Red Banner"
+		type = infantry
+		home = 1552
+	}
+}
+
+army = {
+	name = "Army of The Manchu Blue Banner"
+	location = 1612
+
+	regiment = {
+		name= "1.Manchu Blue Banner"
+		type = infantry
+		home = 1612
+	}
+
+	regiment = {
+		name= "2.Manchu Blue Banner"
+		type = infantry
+		home = 1479
+	}
+
+	regiment = {
+		name= "3.Manchu Blue Banner"
+		type = infantry
+		home = 1552
 	}
 }
 
 army = {
 	name = "Army of The Steppe"
-	location = 1535
+	location = 1612
 
 	regiment = {
 		name= "1.Tatar Cavalry"
@@ -51,31 +154,31 @@ army = {
 	regiment = {
 		name= "2.Tatar Cavalry"
 		type = cavalry
-		home = 1488
+		home = 1490
 	}
 
 	regiment = {
 		name= "3.Tatar Cavalry"
 		type = cavalry
-		home = 1488
+		home = 1532
 	}
 
 	regiment = {
 		name= "4.Tatar Cavalry"
 		type = cavalry
-		home = 1490
+		home = 1535
 	}
 
 	regiment = {
 		name= "5.Tatar Cavalry"
 		type = cavalry
-		home = 1490
+		home = 1534
 	}
 
 	regiment = {
 		name= "6.Tatar Cavalry"
 		type = cavalry
-		home = 1492
+		home = 1533
 	}
 
 }
@@ -86,7 +189,7 @@ army = {
 	regiment = {
 		name= "1st Green Standard"
 		type = irregular
-		home = 1613
+		home = 1470
 	}
 
 	regiment = {
@@ -104,7 +207,7 @@ army = {
 	regiment = {
 		name= "4th Green Standard"
 		type = irregular
-		home = 1541
+		home = 1471
 	}
 
 	regiment = {
@@ -357,7 +460,7 @@ army = {
 	regiment = {
 		name= "43rd Green Standard"
 		type = irregular
-		home = 1492
+		home = 1488
 	}
 
 	regiment = {
@@ -398,7 +501,7 @@ army = {
 	regiment = {
 		name= "49th Green Standard"
 		type = irregular
-		home = 1563
+		home = 1490
 	}
 
 	regiment = {
@@ -670,8 +773,8 @@ army = {
 }
 
 army = {
-	name = "11th Green Standard Army"
-	location = 1612
+	name = "10th Green Standard Army"
+	location = 1082
 
 	regiment = {
 		name= "91st Green Standard"

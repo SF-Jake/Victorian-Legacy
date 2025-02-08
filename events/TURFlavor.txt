@@ -1,6 +1,3 @@
-# Audax Validator "!" Ignore_1004
-# Audax Validator "!" Ignore_1009
-
 country_event = {
 
 	id = 31100
@@ -94,246 +91,32 @@ country_event = {
 	}
 }
 
-country_event = {
-		
-	id = 31102 # Flight to Ankara
-	
-	trigger = {
-		tag = TUR
-		NOT = { is_greater_power = yes }
-		NOT = { has_global_flag = 1913_bookmark }
-		capital = 860
-		NOT = { owns = 817 }
-		NOT = { owns = 816 }
-		NOT = { owns = 830 }
-		owns = 876
-	}
-
-	mean_time_to_happen = {
-		months = 1
-	}
-
-	title = "EVTNAME31102" #Flight from Istanbul
-	desc = "EVTDESC31102" #Our position in Istanbul is no longer secure. We should move our government to a safer place.
-	picture = "administration"
-		
-	option = {
-		name = "EVTOPTA31102" #We have been ultimately driven from Europe...
-		prestige = -10
-		capital = 876
-		876 = {
-			life_rating = 5
-		}
-	}
-}
-
-country_event = {
-	id = 31103 # Egypt Surrenders
-	title = "EVTNAME31103"
-	desc = "EVTDESC31103"
-	picture = egypt_surrenders
-
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA31103"
-		EGY = {
-			country_event = {
-				id = 31104
-				days = 0
-			}
-		}
-		ai_chance = {
-			factor = 0.95
-		}
-	}
-
-	option = {
-		name = "EVTOPTB31103"
-		EGY = {
-			country_event = {
-				id = 31105
-				days = 0
-			}
-		}
-		ai_chance = {
-			factor = 0.05
-		}
-	}
-}
-
-country_event = {
-	id = 31104 # Ottomans Accept Surrender
-	title = "EVTNAME31104"
-	desc = "EVTDESC31104"
-	picture = egypt_surrenders
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA31104"
-		set_global_flag = oriental_crisis_ended
-		TUR = { add_country_modifier = { name = oriental_truce duration = 1825 } }
-		end_war = TUR
-		any_owned = {
-			limit = { is_core = TUR }
-			remove_core = EGY
-			secede_province = TUR
-		}
-		relation = {
-			who = TUR
-			value = 200
-		}
-	}
-}
-
-country_event = {
-	id = 31105 # Ottomans Reject Surrender
-	title = "EVTNAME31105"
-	desc = "EVTDESC31105"
-	picture = ottoman_army
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA31105"
-	}
-}
-
-country_event = {
-	id = 31107 # End of the Oriental Crisis
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = JAN
-		has_global_flag = oriental_crisis
-		TUR = { NOT = { war_with = EGY } }
-		NOT = { has_global_flag = oriental_crisis_ended }
-	}
-
-	option = {
-		set_global_flag = oriental_crisis_ended
-		clr_global_flag = oriental_crisis
-	}
-}
-
-country_event = {
-	id = 31108 # Tsar of all Slavs
-	title = "EVTNAME31108"
-	desc = "EVTDESC31108"
-	major = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA31108"
-	}
-}
-
-country_event = {
-
-	id = 31122
-
-	trigger = {
-		tag = JAN
-		OR = {
-			AND = {
-				exists = TUR
-				TUR = {
-					any_owned_province = {
-						NOT = { province_id = 2133 }
-					}
-				}
-				NOT = { has_global_flag = turkey_exists }
-			}
-			AND = {
-				exists = GRE
-				GRE = {
-					any_owned_province = {
-						NOT = { province_id = 2133 }
-					}
-				}
-				NOT = { has_global_flag = greece_exists }
-			}
-			AND = {
-				exists = BUL
-				BUL = {
-					any_owned_province = {
-						NOT = { province_id = 2133 }
-					}
-				}
-				NOT = { has_global_flag = bulgaria_exists }
-			}
-		}
-	}
-
-	option = {
-		any_country = {
-			limit = {
-				tag = TUR
-				exists = yes
-			}
-			set_global_flag = turkey_exists
-		}
-		any_country = {
-			limit = {
-				tag = GRE
-				exists = yes
-			}
-			set_global_flag = greece_exists
-		}
-		any_country = {
-			limit = {
-				tag = BUL
-				exists = yes
-			}
-			set_global_flag = bulgaria_exists
-		}
-	}
-}
-
-country_event = {
-
-	id = 31123
-
-	trigger = {
-		tag = JAN
-		TUR = { exists = no }
-		has_global_flag = turkey_exists
-	}
-
-	option = {
-		clr_global_flag = turkey_exists
-	}
-}
-
-country_event = {
-
-	id = 31124
-
-	trigger = {
-		tag = JAN
-		GRE = { exists = no }
-		has_global_flag = greece_exists
-	}
-
-	option = {
-		clr_global_flag = greece_exists
-	}
-}
-
-country_event = {
-
-	id = 31125
-
-	trigger = {
-		tag = JAN
-		BUL = { exists = no }
-		has_global_flag = bulgaria_exists
-	}
-
-	option = {
-		clr_global_flag = bulgaria_exists
-	}
-}
+#country_event = {
+#		
+#	id = 31102 # Flight to Ankara
+#	
+#	trigger = {
+#		tag = TUR
+#		NOT = { is_greater_power = yes }
+#		capital = 860
+#		NOT = { owns = 817 }
+#		NOT = { owns = 816 }
+#		NOT = { owns = 830 }
+#		owns = 876
+#
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#
+#	title = "EVTNAME31102" #Flight from Istanbul
+#	desc = "EVTDESC31102" #Our position in Istanbul is no longer secure. We should move our government to a safer place.
+#	picture = "administration"
+#		
+#	option = {
+#		name = "EVTOPTA31102" #We have been ultimately driven from Europe...
+#		prestige = -10
+#		capital = 876
+#	}
+#}

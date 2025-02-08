@@ -2,70 +2,69 @@
 #Ruled by France 1836
 #Reunion (98000/24500 POPS)
 2126 = {
-	aristocrats = {
-		culture = french
-		religion = catholic
-		size = 750
-	}
+    aristocrats = {
+        culture = french
+        religion = placeholder
+        size = 750
+    }
 
-	bureaucrats = {
-		culture = french
-		religion = catholic
-		size = 50
-	}
+    bureaucrats = {
+        culture = french
+        religion = placeholder
+        size = 250
+    }
 
-	clergymen = {
-		culture = french
-		religion = catholic
-		size = 75
-	}
+    clergymen = {
+        culture = french
+        religion = placeholder
+        size = 75
+    }
 
-	artisans = {
-		culture = french
-		religion = catholic
-		size = 500
-	}
+    artisans = {
+        culture = french
+        religion = placeholder
+        size = 500
+    }
 
-	soldiers = {
-		culture = french
-		religion = catholic
-		size = 300
-	}
+    soldiers = {
+        culture = french
+        religion = placeholder
+        size = 300
+    }
 
-	farmers = {
-		culture = french
-		religion = catholic
-		size = 5825
-	}
+    farmers = {
+        culture = french
+        religion = placeholder
+        size = 5825
+    }
 
-	clergymen = {
-		culture = s_african
-		religion = catholic
-		size = 125
-	}
+    clergymen = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 125
+    }
 
-	artisans = {
-		culture = s_african
-		religion = catholic
-		size = 850
-	}
+    artisans = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 850
+    }
 
-	soldiers = {
-		culture = s_african
-		religion = catholic
-		size = 200
-	}
+    soldiers = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 200
+    }
 
-	farmers = {
-		culture = s_african
-		religion = catholic
-		size = 1825
-	}
+    farmers = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 1825
+    }
 
-	slaves = {
-		culture = s_african
-		religion = catholic
-		size = 14000
-	}
-
+    slaves = {
+        culture = afro_antillean
+        religion = placeholder
+        size = 14000
+    }
 }

@@ -3,95 +3,113 @@
 #Santo Domingo (68000/17000 POPS) #now part of Dominican Republic
 2214 = {
 	aristocrats = {
-		culture = afro_caribbean
-		religion = catholic
+		culture = caribeno
+		religion = placeholder
 		size = 300
 	}
-	
-	bureaucrats = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 25
-	}
-	
+
 	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
+		culture = caribeno
+		religion = placeholder
 		size = 125
 	}
 
+	artisans = {
+		culture = caribeno
+		religion = placeholder
+		size = 350
+	}
+
 	soldiers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 1175
+		culture = caribeno
+		religion = placeholder
+		size = 75
 	}
 
 	farmers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 27525
+		culture = caribeno
+		religion = placeholder
+		size = 6150
 	}
 
 	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 125
+		culture = afro_caribeno
+		religion = placeholder
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribeno
+		religion = placeholder
+		size = 500
 	}
 
 	soldiers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 150
+		culture = afro_caribeno
+		religion = placeholder
+		size = 100
 	}
 
 	farmers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 20600
+		culture = afro_caribeno
+		religion = placeholder
+		size = 9350
 	}
 }
 #La Vega (56000/15000 POPS) #now part of Dominican Republic
 2216 = {
 	aristocrats = {
-		culture = afro_caribbean
-		religion = catholic
+		culture = caribeno
+		religion = placeholder
 		size = 250
 	}
-	
+
 	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 125
+		culture = caribeno
+		religion = placeholder
+		size = 100
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = placeholder
+		size = 400
 	}
 
 	soldiers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 350
+		culture = caribeno
+		religion = placeholder
+		size = 75
 	}
 
 	farmers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 15175
+		culture = caribeno
+		religion = placeholder
+		size = 7175
 	}
 
 	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 150
+		culture = afro_caribeno
+		religion = placeholder
+		size = 50
 	}
 
-	soldiers = {
-		culture = afro_caribbean
-		religion = catholic
+	artisans = {
+		culture = afro_caribeno
+		religion = placeholder
 		size = 300
 	}
 
+	soldiers = {
+		culture = afro_caribeno
+		religion = placeholder
+		size = 75
+	}
+
 	farmers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 9700
+		culture = afro_caribeno
+		religion = placeholder
+		size = 5575
 	}
 
 }

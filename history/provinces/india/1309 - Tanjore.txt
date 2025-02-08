@@ -1,13 +1,7 @@
-owner = HND
-controller = HND
-add_core = KRN
-add_core = HYD
+owner = ENG
+controller = ENG
 add_core = HND
-trade_goods = dye
-life_rating = 32
-1913.1.1 = {
-	trade_goods = tea_leaves
-	owner = EIC
-	controller = EIC
-	colonial = 0
-}
+trade_goods = grain
+life_rating = 30
+colonial = 1
+

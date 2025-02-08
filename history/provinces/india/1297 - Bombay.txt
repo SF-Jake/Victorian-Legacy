@@ -1,34 +1,13 @@
-owner = EIC
-controller = EIC
-add_core = MAH
+owner = ENG
+controller = ENG
 add_core = HND
 trade_goods = grain
-life_rating = 32
+life_rating = 30
+colonial = 1
 fort = 1
 naval_base = 1
-1913.1.1 = {
-	owner = EIC
-	controller = EIC
-	colonial = 0
+1861.1.1 = { 
+	railroad = 3
+	naval_base = 2
 }
-1913.1.1 = {
-	naval_base = 4
-}
-1913.1.1 = {
-	fort = 4
-	state_building = {
-		level = 5
-		building = fabric_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = regular_clothes_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = tea_packaging_factory
-		upgrade = yes
-	}
-}
+

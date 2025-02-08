@@ -1,183 +1,125 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-URU = {
-	value = 100
+CHL = {
+	value = -200		#relation
 }
 
 leader = {
-	name = "Luís Alves de Lima e Silva"
-	picture = southamerican_general_6
-	date = 1836.1.1
+	name = "Manuel Blanco"
+	picture = aus_gen_windischgraetz
+	date = 1826.1.1
 	type = land
-	personality = mor10_1
-	background = 2a2d_1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
-
 leader = {
-	name = "Sebastião Pinto"
-	date = 1825.1.1
+	name = "Jose Joaquú‹ Prieto"
+	picture = aus_gen_rukavina
+	date = 1829.1.1
 	type = land
-	personality = mor10_1
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
 }
-
 leader = {
-	name = "Barão de Tramandaí"
-	date = 1830.1.1
+	name = "Manuel Bulnes"
+	picture = aus_gen_nugent
+	date = 1815.1.1
 	type = land
-	personality = mor10_1
-	background = 1a2d_1
-}
-
-leader = {
-	name = "Manuel Marques de Sousa"
-	date = 1833.1.1
-	type = land
-	personality = mor10_1
-	background = 2a2d_1
-}
-
-leader = {
-	name = "Frederico Mariath"
-	picture = european_admiral_0
-	date = 1830.1.1
-	type = sea
-	personality = mor10_1
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
 
 army = {
-	name = "Mob Stack"
-	location = 2429
+	name = "1. Army"
+	location = 2424
 	regiment = {
-		name= "1. Brigada de Infantaria"
-		type = hussar
-		home = 2447
-	}
-
-	regiment = {
-		name= "2. Brigada de Infantaria"
-		type = artillery
-		home = 2447
-	}
-
-	regiment = {
-		name= "3. Brigada de Infantaria"
-		type = artillery
-		home = 2447
-	}
-
-	regiment = {
-		name= "4. Brigada de Infantaria"
-		type = artillery
-		home = 2447
-	}
-
-	regiment = {
-		name= "1. Brigada de Cavalaria"
-		type = artillery
-		home = 2450
-	}
-
-	regiment = {
-		name= "5. Brigada de Infantaria"
-		type = artillery
-		home = 2450
-	}
-}
-army = {
-	name = "30 Stack"
-	location = 2461
-	regiment = {
-		name= "6. Brigada de Infantaria"
-		type = hussar
-		home = 2457
-	}
-	
-	regiment = {
-		name= "2. Brigada de Cavalaria"
-		type = artillery
-		home = 2441
-	}
-
-	regiment = {
-		name= "7. Brigada de Infantaria"
-		type = artillery
-		home = 2434
-	}
-
-	regiment = {
-		name= "8. Brigada de Infantaria"
-		type = artillery
-		home = 2429
-	}
-
-	regiment = {
-		name= "3. Brigada de Cavalaria"
-		type = artillery
-		home = 2432
-	}
-
-	regiment = {
-		name= "3. Brigada de Cavalaria"
-		type = artillery
-		home = 2436
-	}
-
-	regiment = {
-		name= "3. Brigada de Cavalaria"
-		type = infantry
-		home = 2402
-	}
-
-	regiment = {
-		name= "3. Brigada de Cavalaria"
+		name= "1. División de Infanteru"
 		type = infantry
 		home = 2426
 	}
 
 	regiment = {
-		name= "3. Brigada de Cavalaria"
+		name= "2. División de Infanteru"
 		type = infantry
-		home = 2437
+		home = 2429
 	}
 
 	regiment = {
-		name= "3. Brigada de Cavalaria"
+		name= "3. División de Infanteru"
 		type = infantry
-		home = 2442
+		home = 2434
 	}
+
+	regiment = {
+		name= "4. División de Infanteru"
+		type = infantry
+		home = 2436
+	}
+	
+	regiment = {
+		name= "1. Hussar"
+		type = hussar
+		home = 2441
+	}
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2447
+	}
+	
+	regiment = {
+		name= "2. Artillery"
+		type = artillery
+		home = 2447
+	}
+	
+	regiment = {
+		name= "3. Artillery"
+		type = artillery
+		home = 2447
+	}
+	
+	regiment = {
+		name= "4. Artillery"
+		type = artillery
+		home = 2447
+	}
+	
+	regiment = {
+		name= "5. Artillery"
+		type = artillery
+		home = 2447
+	}
+
 }
 
-navy = {
-	name = "Marinha do Brasil"
-	location = 2447
-	ship = {
-		name = "Pedro I"
-		type = manowar
+army = {
+	name = "2. Army"
+	location = 2463
+	regiment = {
+		name= "1. División de Infanteru"
+		type = infantry
+		home = 2447
 	}
-
-	ship = {
-		name = "Afonso de Albuquerque"
-		type = manowar
+	
+	regiment = {
+		name= "1. Hussar"
+		type = hussar
+		home = 2450
 	}
-
-	ship = {
-		name = "Imperatriz"
-		type = frigate
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2457
 	}
-
-	ship = {
-		name = "Dona Januária"
-		type = frigate
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2463
 	}
 
 }

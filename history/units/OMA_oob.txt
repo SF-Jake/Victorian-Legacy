@@ -1,22 +1,3 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-leader = {
-	name = "Said bin Sultan Al-Said"
-	date = 1816.1.1
-	type = land
-	personality = mor10_1
-	background = 1a1d_1
-	prestige = 0.2
-}
-
 army = {
 	name = "Army of the Sultan of Muscat"
 	location = 1166
@@ -46,5 +27,24 @@ army = {
 		name= "2. Askaris"
 		type = irregular
 		home = 2029
+	}
+}
+
+navy = {
+	name = "Red Sea Fleet"
+	location = 1166
+	ship = {
+		name= "Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Indian Fleet"
+	location = 2048
+	ship = {
+		name= "Transport Flotilla"
+		type = clipper_transport
 	}
 }

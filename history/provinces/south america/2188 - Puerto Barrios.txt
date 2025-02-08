@@ -1,12 +1,12 @@
 owner = UCA
 controller = UCA
 add_core = UCA
-add_core = GUA
-add_core = GCL
-trade_goods = coffee_beans
-life_rating = 35
-1913.1.1 = {
+add_core = YUC
+#add_core = GUA
+trade_goods = fruit
+life_rating = 36
+1861.1.1 = {
 	owner = GUA
 	controller = GUA
-	remove_core = UCA
 }
+

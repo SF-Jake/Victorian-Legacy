@@ -1,11 +1,11 @@
 owner = PNJ
 controller = PNJ
 add_core = PNJ
-add_core = HND
-trade_goods = cattle
-life_rating = 35
-1913.1.1 = {
-	owner = EIC
-	controller = EIC
-	colonial = 0
+#add_core = KAS
+trade_goods = grain
+life_rating = 30
+1861.1.1 = {
+	owner = KAS
+	controller = KAS
 }
+

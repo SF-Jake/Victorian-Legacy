@@ -1,41 +1,15 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-MOD = {
-	value = 200
-}
-
-TUS = {
-	value = 200
-}
-
-PAR = {
-	value = 200
-}
-
-LUC = {
-	value = 200
+leader = {
+	name = "Filippo Resta"
+	picture = pap_gen_resta
+	date = 1830.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
 }
 
 army = {
-	name = "Esercito Pontificio"
-	
-	leader = {
-		name = "Filippo Resta"
-		date = 1815.1.1
-		type = land
-	personality = mor10_1
-	background = 1a1d_1
-		prestige = 0.5
-	}
-	
+	name = "Esercito Pontificio"	
 	location = 749
 	regiment = {
 		name= "1. Zuavi Pontifici"

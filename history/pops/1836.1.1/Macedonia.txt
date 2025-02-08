@@ -1,214 +1,206 @@
-#Macedonia Region (424000) #see Greece.txt and Bulgaria.txt for balance of region 
-#under the rule of Ottoman Empire in 1836  
-#Skopje (424000/106000 POPS) 
+#Macedonia Region (424000) #see Greece.txt and Bulgaria.txt for balance of region
+#under the rule of Ottoman Empire in 1836
+#Skopje (424000/106000 POPS)
 806 = {
-	aristocrats = {
-		culture = turkish
-		religion = sunni
-		size = 2450
-	}
+    aristocrats = {
+        culture = turkish
+        religion = placeholder
+        size = 2450
+    }
 
-	clergymen = {
-		culture = turkish
-		religion = sunni
-		size = 325
-	}
+    clergymen = {
+        culture = turkish
+        religion = placeholder
+        size = 325
+    }
 
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 2000
-	}
+    artisans = {
+        culture = turkish
+        religion = placeholder
+        size = 2000
+    }
 
-	soldiers = {
-		culture = turkish
-		religion = sunni
-		size = 3000
-	}
+    soldiers = {
+        culture = turkish
+        religion = placeholder
+        size = 3000
+    }
 
-	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 25225
-	}
+    farmers = {
+        culture = turkish
+        religion = placeholder
+        size = 25225
+    }
 
-	clergymen = {
-		culture = bulgarian
-		religion = orthodox
-		size = 425
-	}
+    clergymen = {
+        culture = bulgarian
+        religion = placeholder
+        size = 425
+    }
 
-	artisans = {
-		culture = bulgarian
-		religion = orthodox
-		size = 2100
-	}
+    artisans = {
+        culture = bulgarian
+        religion = placeholder
+        size = 2100
+    }
 
-	farmers = {
-		culture = bulgarian
-		religion = orthodox
-		size = 56475
-	}
+    farmers = {
+        culture = bulgarian
+        religion = placeholder
+        size = 56475
+    }
 
-	clergymen = {
-		culture = greek
-		religion = orthodox
-		size = 200
-	}
+    clergymen = {
+        culture = greek
+        religion = placeholder
+        size = 200
+    }
 
-	artisans = {
-		culture = greek
-		religion = orthodox
-		size = 1200
-	}
+    artisans = {
+        culture = greek
+        religion = placeholder
+        size = 1200
+    }
 
-	farmers = {
-		culture = greek
-		religion = orthodox
-		size = 11600
-	}
+    farmers = {
+        culture = greek
+        religion = placeholder
+        size = 11600
+    }
 
-	clergymen = {
-		culture = sephardic
-		religion = jewish
-		size = 25
-	}
+    clergymen = {
+        culture = sephardic
+        religion = placeholder
+        size = 25
+    }
 
-	artisans = {
-		culture = sephardic
-		religion = jewish
-		size = 700
-	}
+    artisans = {
+        culture = sephardic
+        religion = placeholder
+        size = 700
+    }
 
-	farmers = {
-		culture = sephardic
-		religion = jewish
-		size = 275
-	}
+    farmers = {
+        culture = sephardic
+        religion = placeholder
+        size = 275
+    }
 }
-#Monastir Region (268000) #see Greece.txt for balance of region 
-#under the rule of Ottoman Empire in 1836  
-#Bitola (268000/67000 POPS) 
+#Monastir Region (268000) #see Greece.txt for balance of region
+#under the rule of Ottoman Empire in 1836
+#Bitola (268000/67000 POPS)
 807 = {
+    clergymen = {
+        culture = bulgarian
+        religion = placeholder
+        size = 300
+    }
 
-	bureaucrats = {
-		culture = bulgarian
-		religion = orthodox
-		size = 1200
-	}
+    artisans = {
+        culture = bulgarian
+        religion = placeholder
+        size = 425
+    }
 
-	clergymen = {
-		culture = bulgarian
-		religion = orthodox
-		size = 300
-	}
+    farmers = {
+        culture = bulgarian
+        religion = placeholder
+        size = 36275
+    }
 
-	artisans = {
-		culture = bulgarian
-		religion = orthodox
-		size = 400
-	}
+    aristocrats = {
+        culture = turkish
+        religion = placeholder
+        size = 1500
+    }
 
-	farmers = {
-		culture = bulgarian
-		religion = orthodox
-		size = 35100
-	}
+    bureaucrats = {
+        culture = turkish
+        religion = placeholder
+        size = 1125
+    }
 
-	aristocrats = {
-		culture = turkish
-		religion = sunni
-		size = 1500
-	}
+    officers = {
+        culture = turkish
+        religion = placeholder
+        size = 175
+    }
 
-	bureaucrats = {
-		culture = turkish
-		religion = sunni
-		size = 225
-	}
+    clergymen = {
+        culture = turkish
+        religion = placeholder
+        size = 50
+    }
 
-	officers = {
-		culture = turkish
-		religion = sunni
-		size = 175
-	}
+    artisans = {
+        culture = turkish
+        religion = placeholder
+        size = 1300
+    }
 
-	clergymen = {
-		culture = turkish
-		religion = sunni
-		size = 50
-	}
+    soldiers = {
+        culture = turkish
+        religion = placeholder
+        size = 1100
+    }
 
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 1300
-	}
+    farmers = {
+        culture = turkish
+        religion = placeholder
+        size = 1975
+    }
 
-	soldiers = {
-		culture = turkish
-		religion = sunni
-		size = 1100
-	}
+    clergymen = {
+        culture = albanian
+        religion = placeholder
+        size = 125
+    }
 
-	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 1975
-	}
+    artisans = {
+        culture = albanian
+        religion = placeholder
+        size = 400
+    }
 
-	clergymen = {
-		culture = albanian
-		religion = sunni
-		size = 125
-	}
+    soldiers = {
+        culture = albanian
+        religion = placeholder
+        size = 1100
+    }
 
-	artisans = {
-		culture = albanian
-		religion = sunni
-		size = 400
-	}
+    farmers = {
+        culture = albanian
+        religion = placeholder
+        size = 12275
+    }
 
-	soldiers = {
-		culture = albanian
-		religion = sunni
-		size = 1100
-	}
+    clergymen = {
+        culture = greek
+        religion = placeholder
+        size = 175
+    }
 
-	farmers = {
-		culture = albanian
-		religion = sunni
-		size = 12275
-	}
+    artisans = {
+        culture = greek
+        religion = placeholder
+        size = 250
+    }
 
-	clergymen = {
-		culture = greek
-		religion = orthodox
-		size = 175
-	}
+    farmers = {
+        culture = greek
+        religion = placeholder
+        size = 9575
+    }
 
-	artisans = {
-		culture = greek
-		religion = orthodox
-		size = 250
-	}
+    clergymen = {
+        culture = sephardic
+        religion = placeholder
+        size = 25
+    }
 
-	farmers = {
-		culture = greek
-		religion = orthodox
-		size = 9575
-	}
-
-	clergymen = {
-		culture = sephardic
-		religion = jewish
-		size = 25
-	}
-
-	artisans = {
-		culture = sephardic
-		religion = jewish
-		size = 975
-	}
-
+    artisans = {
+        culture = sephardic
+        religion = placeholder
+        size = 975
+    }
 }

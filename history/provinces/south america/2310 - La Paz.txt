@@ -1,28 +1,6 @@
-owner = PBC
-controller = PBC
-add_core = PBC
-trade_goods = coal
-life_rating = 35
-terrain = mountain_mine
-1913.1.1 = {
-	state_building = {
-		level = 2
-		building = canned_food_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = glass_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 3
-		building = liquor_distillery
-		upgrade = yes
-	}
-	state_building = {
-		level = 3
-		building = winery
-		upgrade = yes
-	}
-}
+owner = BOL
+controller = BOL
+add_core = BOL
+trade_goods = cattle
+life_rating = 36
+

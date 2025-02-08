@@ -1,8 +1,8 @@
 owner = ECU 
 controller = ECU
 add_core = ECU
-add_core = PBC
-add_core = GCO
-add_core = GCL
+#add_core = PEU
+#add_core = GCO
 trade_goods = timber
-life_rating = 25
+life_rating = 36
+

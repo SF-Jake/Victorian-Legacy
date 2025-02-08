@@ -4,144 +4,144 @@
 #Singapore (36000/9000 POPS)
 1384 = {
     clergymen = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 50
     }
 
     artisans = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 2450
     }
 
     farmers = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 500
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 50
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 250
     }
 
     farmers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 4700
     }
 
     artisans = {
-        culture = malay
-        religion = sunni
+        culture = dravidian
+        religion = placeholder
         size = 1100
     }
 }
 #Malacca (52800/13200 POPS)
 1386 = {
     clergymen = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 50
     }
 
     artisans = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 1450
     }
 
     farmers = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 1500
     }
 
     aristocrats = {
         culture = british
-        religion = protestant
+        religion = placeholder
         size = 175
     }
 
     bureaucrats = {
         culture = british
-        religion = protestant
+        religion = placeholder
         size = 25
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 100
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 500
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 100
     }
 
     farmers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 9300
     }
 }
 #Penang (84000/21000 POPS)
 1388 = {
     clergymen = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 50
     }
 
     artisans = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 3875
     }
 
     farmers = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 2075
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 150
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 750
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 200
     }
 
     farmers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 13900
     }
 }
@@ -150,61 +150,61 @@
 1385 = {
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 250
     }
 
     bureaucrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 125
     }
 
     officers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 75
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 250
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 1250
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 1100
     }
 
     farmers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 22050
     }
 
     clergymen = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 50
     }
 
     artisans = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 1450
     }
 
     farmers = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 500
     }
 }
@@ -212,75 +212,81 @@
 1387 = {
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 150
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 150
     }
 
     artisans = {
         culture = malay
-        religion = sunni
-        size = 1000
+        religion = placeholder
+        size = 750
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 1100
+    }
+
+    labourers = {
+        culture = malay
+        religion = placeholder
+        size = 12950
+    }
+
+    clergymen = {
+        culture = malay
+        religion = placeholder
+        size = 50
+    }
+
+    artisans = {
+        culture = malay
+        religion = placeholder
+        size = 950
     }
 
     farmers = {
         culture = malay
-        religion = sunni
-        size = 12700
-    }
-
-    clergymen = {
-        culture = beifaren
-        religion = mahayana
-        size = 50
-    }
-
-    farmers = {
-        culture = beifaren
-        religion = mahayana
-        size = 2050
+        religion = placeholder
+        size = 1100
     }
 }
 #Kuantan (32000/8000 POPS)
 1390 = {
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 75
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 75
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 400
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 75
     }
 
-    farmers = {
+    labourers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 7375
     }
 }
@@ -288,44 +294,50 @@
 2575 = {
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 300
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 300
     }
 
     artisans = {
         culture = malay
-        religion = sunni
-        size = 1000
+        religion = placeholder
+        size = 1500
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 1100
+    }
+
+    labourers = {
+        culture = malay
+        religion = placeholder
+        size = 25900
+    }
+
+    clergymen = {
+        culture = malay
+        religion = placeholder
+        size = 75
+    }
+
+    artisans = {
+        culture = malay
+        religion = placeholder
+        size = 925
     }
 
     farmers = {
         culture = malay
-        religion = sunni
-        size = 26400
-    }
-
-    clergymen = {
-        culture = beifaren
-        religion = mahayana
-        size = 75
-    }
-
-    farmers = {
-        culture = beifaren
-        religion = mahayana
-        size = 2925
+        religion = placeholder
+        size = 2000
     }
 }
 #under Overlordship of Siam 1836 (284000)
@@ -333,124 +345,100 @@
 1389 = {
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 300
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 300
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 1350
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 250
     }
 
     farmers = {
         culture = malay
-        religion = sunni
-        size = 23560
+        religion = placeholder
+        size = 24800
     }
 
     clergymen = {
-        culture = beifaren
-        religion = mahayana
+        culture = thai
+        religion = placeholder
         size = 50
     }
 
     artisans = {
-        culture = beifaren
-        religion = mahayana
+        culture = thai
+        religion = placeholder
         size = 950
     }
 
     farmers = {
-        culture = beifaren
-        religion = mahayana
-        size = 1045
-    }
-
-    soldiers = {
-        culture = malay
-        religion = sunni
-        size = 1240
-    }
-
-    soldiers = {
-        culture = beifaren
-        religion = mahayana
-        size = 55
+        culture = thai
+        religion = placeholder
+        size = 1100
     }
 }
 #Kota Bharu (168000/42000 POPS)
 1391 = {
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 400
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 425
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 2000
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 350
     }
 
     farmers = {
         culture = malay
-        religion = sunni
-        size = 34984
+        religion = placeholder
+        size = 36825
     }
 
     clergymen = {
-        culture = beifaren
-        religion = mahayana
+        culture = thai
+        religion = placeholder
         size = 50
     }
 
     artisans = {
-        culture = beifaren
-        religion = mahayana
+        culture = thai
+        religion = placeholder
         size = 950
     }
 
     farmers = {
-        culture = beifaren
-        religion = mahayana
-        size = 1045
-    }
-
-    soldiers = {
-        culture = malay
-        religion = sunni
-        size = 1841
-    }
-
-    soldiers = {
-        culture = beifaren
-        religion = mahayana
-        size = 55
+        culture = thai
+        religion = placeholder
+        size = 1100
     }
 }
 #Northern Borneo Region (252000)
@@ -459,117 +447,123 @@
 1393 = {
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 75
     }
 
     bureaucrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 50
     }
 
     officers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 25
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 50
+    }
+
+    artisans = {
+        culture = malay
+        religion = placeholder
+        size = 300
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 75
     }
 
-    labourers = {
+    farmers = {
         culture = malay
-        religion = sunni
-        size = 5725
+        religion = placeholder
+        size = 5425
     }
 }
 #Kuching (88000/22000 POPS)
 1394 = {
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 100
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 100
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 500
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 1100
     }
 
     farmers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 8300
     }
 
     aristocrats = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 125
     }
 
     clergymen = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 100
     }
 
     artisans = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 525
     }
 
     soldiers = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 125
     }
 
     farmers = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 10125
     }
 
     clergymen = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 25
     }
 
     artisans = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 475
     }
 
     farmers = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 500
     }
 }
@@ -577,135 +571,141 @@
 1395 = {
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 25
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 50
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 150
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 50
     }
 
     farmers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 2725
     }
 
     aristocrats = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 100
     }
 
     clergymen = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 75
     }
 
     artisans = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 350
     }
 
     soldiers = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 100
     }
 
     farmers = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 7375
     }
 }
 #Api (56000/14000 POPS)
 1396 = {
     aristocrats = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 50
     }
 
     clergymen = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 50
     }
 
     artisans = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 250
     }
 
+    soldiers = {
+        culture = malay
+        religion = placeholder
+        size = 75
+    }
+
     farmers = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 5575
     }
 
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 75
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 75
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 350
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
-        size = 1100
+        religion = placeholder
+        size = 75
     }
 
     farmers = {
         culture = malay
-        religion = sunni
-        size = 5475
+        religion = placeholder
+        size = 6425
     }
 
     clergymen = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 25
     }
 
     artisans = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 500
     }
 
     farmers = {
-        culture = beifaren
-        religion = mahayana
+        culture = malay
+        religion = placeholder
         size = 475
     }
 }
@@ -713,62 +713,62 @@
 #Sandakan (40000/10000 POPS)
 1397 = {
     aristocrats = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 75
     }
 
     clergymen = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 75
     }
 
     artisans = {
-        culture = asian_minor
-        religion = animist
-        size = 5300
+        culture = malay
+        religion = placeholder
+        size = 300
     }
 
     soldiers = {
-        culture = asian_minor
-        religion = animist
+        culture = malay
+        religion = placeholder
         size = 75
     }
 
-    labourers = {
-        culture = asian_minor
-        religion = animist
-        size = 1475
+    farmers = {
+        culture = malay
+        religion = placeholder
+        size = 6475
     }
 
     aristocrats = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 25
     }
 
     clergymen = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 50
     }
 
     artisans = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 150
     }
 
     soldiers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 25
     }
 
-    labourers = {
+    farmers = {
         culture = malay
-        religion = sunni
+        religion = placeholder
         size = 2750
     }
 }

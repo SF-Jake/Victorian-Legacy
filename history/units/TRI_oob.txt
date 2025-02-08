@@ -1,13 +1,3 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 army = {
 	name = "Arabs"
 	location = 1732
@@ -36,21 +26,5 @@ army = {
 		name= "1.Ihajenem"
 		type = irregular
 		home = 1743
-	}
-}
-
-army = {
-	name = "Army of Tripoli"
-	location = 1742
-	regiment = {
-		name= "Desert Cavalry"
-		type = cavalry
-		home = 1733
-	}
-
-	regiment = {
-		name= "Desert Cavalry"
-		type = cavalry
-		home = 1731
 	}
 }

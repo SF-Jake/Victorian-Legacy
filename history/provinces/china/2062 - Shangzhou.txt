@@ -1,14 +1,7 @@
 owner = CHI
 controller = CHI
 add_core = CHI
-add_core = SXI
-trade_goods = sulphur
-terrain = plains_mine
-life_rating = 32
-1913.1.1 = {
-	state_building = {
-		level = 4
-		building = glass_factory
-		upgrade = yes
-	}
-}
+#add_core = XBI
+trade_goods = coal
+life_rating = 30
+

@@ -1,62 +1,74 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-SHK = {
-	truce_until = 1840.1.1
-}
-
-
 leader = {
 	name = "Ibrahim Pasha"
+	picture = egy_gen_ibrahim
 	type = land
 	date="1832.1.1"
-	personality = mor10_1
-	background = 2a3d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.3
 }
 
 leader = {
 	name = "Suleyman Pasha"
+	picture = egy_gen_suleyman
 	type = land
 	date="1832.1.1"
-	personality = mor10_1
-	background = 1a2d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
 navy = {
-	name = "Egyptian Navy"
-	location = 1751
+	name = "Taba"
+	location = 1753
 	ship = {
-		name= "Alexandria"
+		name= "Toushka"
 		type = manowar
+	}
+
+	ship = {
+		name= "Sharm El-Sheikh"
+		type = manowar
+	}
+
+	ship = {
+		name= "Damyat"
+		type = manowar
+	}
+
+	ship = {
+		name= "Rasheed"
+		type = manowar
+	}
+
+	ship = {
+		name= "El Suez"
+		type = manowar
+	}
+
+	ship = {
+		name= "El Aboukir"
+		type = frigate
+	}
+
+	ship = {
+		name= "Najim al Zafir"
+		type = frigate
 	}
 
 	ship = {
 		name= "Cairo"
-		type = manowar
+		type = frigate
 	}
 
 	ship = {
-		name= "Giza"
-		type = manowar
-	}
-
-	ship = {
-		name= "Luxor"
-		type = manowar
+		name= "Al Iskandariyah"
+		type = frigate
 	}
 
 	ship = {
 		name= "Aswan"
-		type = manowar
+		type = frigate
 	}
 
 	ship = {
@@ -65,12 +77,22 @@ navy = {
 	}
 
 	ship = {
-		name= "Suez"
+		name= "Marsa Matruh"
 		type = frigate
 	}
 
 	ship = {
-		name= "Damietta"
+		name= "Bur Tawfiq"
+		type = frigate
+	}
+
+	ship = {
+		name= "Al Ghardaqah"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bur Safajah"
 		type = frigate
 	}
 
@@ -78,32 +100,33 @@ navy = {
 		name= "1st transport flotilla"
 		type = clipper_transport
 	}
+
 }
 
 army = {
 	name = "Army of Egypt"
 	location = 1745
 	regiment = {
-		name= "1.1 Artillery"
-		type = artillery
-		home = 1745
-	}
-
-	regiment = {
 		name= "1.1 Sipahis"
-		type = dragoon
+		type = cavalry
 		home = 1745
 	}
 
 	regiment = {
 		name= "2.1 Sipahis"
-		type = hussar
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "3.1 Sipahis"
+		type = cavalry
 		home = 1745
 	}
 
 	regiment = {
 		name= "1.1 Infantry"
-		type = infantry
+		type = artillery
 		home = 1745
 	}
 
@@ -114,33 +137,27 @@ army = {
 	}
 
 	regiment = {
-		name= "2.1 Artillery"
-		type = artillery
+		name= "3.1 Infantry"
+		type = infantry
 		home = 1750
 	}
 
 	regiment = {
-		name= "3.1 Infantry"
+		name= "1.2 Infantry"
 		type = infantry
 		home = 1751
 	}
 
 	regiment = {
-		name= "3.1 Artillery"
-		type = artillery
+		name= "2.2 Infantry"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "3.2 Infantry"
+		type = infantry
 		home = 1747
-	}
-	
-	regiment = {
-		name= "4.1 Artillery"
-		type = artillery
-		home = 1751
-	}
-	
-	regiment = {
-		name= "5.1 Artillery"
-		type = artillery
-		home = 1751
 	}
 }
 
@@ -150,19 +167,19 @@ army = {
 
 	regiment = {
 		name= "1.3 Infantry"
-		type = irregular
+		type = infantry
 		home = 1746
 	}
 
 	regiment = {
 		name= "2.3 Infantry"
-		type = irregular
-		home = 1752
+		type = infantry
+		home = 1745
 	}
 
 	regiment = {
 		name= "3.3 Infantry"
-		type = irregular
+		type = infantry
 		home = 1748
 	}
 
@@ -188,7 +205,7 @@ army = {
 
 army = {
 	name = "Army of the Upper Nile"
-	location = 1765
+	location = 1827
 	regiment = {
 		name= "1.2 Sipahis"
 		type = cavalry
@@ -198,7 +215,7 @@ army = {
 	regiment = {
 		name= "2.2 Sipahis"
 		type = cavalry
-		home = 1745
+		home = 1751
 	}
 
 	regiment = {
@@ -222,7 +239,7 @@ army = {
 	regiment = {
 		name= "3.5 Infantry"
 		type = irregular
-		home = 1828
+		home = 1746
 	}
 
 	regiment = {
@@ -234,13 +251,13 @@ army = {
 	regiment = {
 		name= "2.6 Infantry"
 		type = irregular
-		home = 1830
+		home = 1746
 	}
 
 	regiment = {
 		name= "3.6 Infantry"
 		type = irregular
-		home = 1831
+		home = 1751
 	}
 
 }

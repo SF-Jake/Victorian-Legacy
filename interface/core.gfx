@@ -43,7 +43,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_pops_small"
 		texturefile = "gfx\\interface\\pops_small.tga"
-		noOfFrames = 13
+		noOfFrames = 12
 		effectFile = "gfx\\FX\\buttonstate.fx"
 		norefcount = yes
 	}
@@ -51,7 +51,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_pops_small2"
 		texturefile = "gfx\\interface\\pops_small.tga"
-		noOfFrames = 13
+		noOfFrames = 12
 		effectFile = "gfx\\FX\\buttonstate2.fx"
 		norefcount = yes
 	}
@@ -59,7 +59,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_pops_mini"
 		texturefile = "gfx\\interface\\pops_mini.tga"
-		noOfFrames = 13
+		noOfFrames = 12
 		effectFile = "gfx\\FX\\buttonstate.fx"
 		norefcount = yes
 	}
@@ -67,33 +67,33 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_resources_big"
 		texturefile = "gfx\\interface\\resources_big.dds"
-		noOfFrames = 56
+		noOfFrames = 48
 		norefcount = yes
 	}
 	spriteType = {
 		name = "GFX_resources"
 		texturefile = "gfx\\interface\\resources.dds"
-		noOfFrames = 56
+		noOfFrames = 48
 		norefcount = yes
 	}
 	spriteType = {
 		name = "GFX_resources_transparent"
 		texturefile = "gfx\\interface\\resources.dds"
-		noOfFrames = 56
+		noOfFrames = 48
 		norefcount = yes
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_resources_small"
 		texturefile = "gfx\\interface\\resources_small.dds"
-		noOfFrames = 56
+		noOfFrames = 48
 		norefcount = yes
 		allwaystransparent = no
 	}
 	spriteType = {
 		name = "GFX_resources_small_transparent"
 		texturefile = "gfx\\interface\\resources_small.dds"
-		noOfFrames = 56
+		noOfFrames = 48
 		norefcount = yes
 		transparencecheck = yes
 	}
@@ -1212,21 +1212,13 @@ bitmapfont = {
 		fontname = "mapfont_56"
 		color = 0xffffffff	
 	}
-bitmapfont = {
-	name = "mapfont_56_small"
-	fontname = "vic_22_bl"
-	color = 0xff000000	
+
+	bitmapfont = {
+		name = "mapfont_56_small"
+		fontname = "vic_22_bl"
+		color = 0xff000000	
 	}
-bitmapfont = {
-		name = "kart_font"
-		fontname = "kart_font"
-		color = 0xffffffff	
-	}
-bitmapfont = {
-	name = "true_mapfont_56_small"
-	fontname = "mapfont_56_small"
-	color = 0xff000000	
-	}
+
 
 }
 

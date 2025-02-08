@@ -1,3 +1,67 @@
+
+# Parade
+country_event = {
+	id = 19010
+	news = yes
+	news_desc_long = "EVTDESC19010_NEWS_LONG"
+	news_desc_medium = "EVTDESC19010_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC19010_NEWS_SHORT"
+	title = "EVTNAME19010"
+	desc = "EVTDESC19010"
+	picture = "greatpowers"
+
+	trigger = {
+		is_greater_power = yes
+		colonial_nation = yes
+		prestige = 100
+	}
+
+	mean_time_to_happen = {
+		months = 250
+
+		modifier = {
+			factor = 0.9
+			prestige = 150
+		}
+		modifier = {
+			factor = 0.9
+			prestige = 200
+		}
+		modifier = {
+			factor = 1.2
+			badboy = 0.4
+		}
+		modifier = {
+			factor = 10
+			badboy = 0.8
+		}
+	}
+
+	option = {
+		name = "EVTOPTA19010"
+		prestige = 5
+		capital_scope = {
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB19010"
+		any_greater_power = {
+			prestige = -1
+		}
+		capital_scope = {
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+}
+
 #Provincename Botanical Expedition
 province_event = {
 	id = 19020
@@ -13,7 +77,6 @@ province_event = {
 			life_rating = 25
 			has_global_flag = botanical_expedition_in_progress
 		}
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -93,7 +156,6 @@ country_event = {
 
 	trigger = {
 		has_country_flag = participates_in_botanical_expedition
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -124,7 +186,6 @@ country_event = {
 			ideology = liberal
 			value = 0.3
 		}
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -156,7 +217,6 @@ country_event = {
 
 	trigger = {
 		has_country_flag = participates_in_botanical_expedition
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -186,7 +246,6 @@ country_event = {
 
 	trigger = {
 		has_country_flag = participates_in_botanical_expedition
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -216,7 +275,6 @@ country_event = {
 		NOT = {
 			has_global_flag = victoria_regina_found
 		}
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -270,7 +328,6 @@ country_event = {
 
 	trigger = {
 		has_country_flag = botanical_expedition_in_progress
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -481,7 +538,6 @@ country_event = {
 				tag = EGY
 			}
 		}
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -526,7 +582,6 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = egyptian_excavations
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -549,7 +604,6 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = egyptian_excavations
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -580,7 +634,6 @@ country_event = {
 		NOT = {
 			has_global_flag = tutankhamun_found
 		}
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	major = yes
@@ -611,7 +664,6 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = egyptian_excavations
-		NOT = { has_global_flag = 1913_bookmark }
 	}
 
 	mean_time_to_happen = {
@@ -643,7 +695,7 @@ country_event = {
 		}
 		casus_belli = {
 			target = FROM
-			type = cut_down_to_size
+			type = humiliate
 		}
 	}
 }
@@ -661,10 +713,9 @@ country_event = {
 		name = "EVTOPTA19300"
 		prestige = 5
 		relation = {
-			who = FROM
+			who = FRA
 			value = 100
 		}
-		
 		add_country_modifier = {
 			name = the_statue_of_liberty
 			duration = -1
@@ -742,7 +793,7 @@ country_event = {
 		great_wars_enabled = no
 		NOT = { has_global_flag = great_wars_enabled }
 		revolution_n_counterrevolution = 1
-		year = 1885
+		year = 1890
 	}
 
 	mean_time_to_happen = {
@@ -753,124 +804,5 @@ country_event = {
 		name = "EVTOPTA19355"
 		great_wars_enabled = yes
 		set_global_flag = great_wars_enabled
-	}
-}
-
-# Great wars
-country_event = {
-	id = 19356
-	news = yes
-	news_desc_long = "EVTDESC19356_NEWS_LONG"
-	news_desc_medium = "EVTDESC19356_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC19356_NEWS_SHORT"
-	title = "EVTNAME19356"
-	desc = "EVTDESC19356"
-	major = yes
-	picture = "greatpowers"
-
-	fire_only_once = yes
-
-	trigger = {
-		world_wars_enabled = no
-		NOT = { has_global_flag = world_wars_enabled }
-		year = 1922
-		mass_politics = 1		
-	}
-
-	mean_time_to_happen = {
-		months = 8
-	}
-
-	option = {
-		name = "EVTOPTA19356"
-		world_wars_enabled = yes
-		set_global_flag = world_wars_enabled
-	}
-}
-
-# Hegemon
-country_event = {
-	id = 36970
-	title = "EVTNAME19360"
-	desc = "EVTDESC19360"
-	picture = "hegemony"
-
-	trigger = {
-		NOT = { rank = 1 }
-		has_country_modifier = hegemon
-		NOT = { has_country_modifier = hegemony_countdown }
-		NOT = { has_country_flag = hegemony_ending }
-	}
-
-	option = {
-		name = "EVTOPTA19360"
-		add_country_modifier = { name = hegemony_countdown duration = 730 }
-		set_country_flag = hegemony_ending
-	}
-}
-
-country_event = {
-	id = 19361
-	title = "EVTNAME19361"
-	desc = "EVTDESC19361"
-	picture = "hegemony"
-
-	trigger = {
-		rank = 1
-		has_country_modifier = hegemon
-		has_country_flag = hegemony_ending
-		has_country_modifier = hegemony_countdown
-	}
-	
-	immediate = {
-		clr_country_flag = hegemony_ending
-		remove_country_modifier = hegemony_countdown
-	}
-
-	option = {
-		name = "EVTOPTA19361"
-	}
-}
-
-country_event = {
-	id = 19362
-	title = "EVTNAME19362"
-	desc = "EVTDESC19362"
-	picture = "hegemony"
-
-	trigger = {
-		NOT = { rank = 1 }
-		has_country_modifier = hegemon
-		has_country_flag = hegemony_ending
-		NOT = { has_country_modifier = hegemony_countdown }
-	}
-
-	immediate = {
-		clr_country_flag = hegemony_ending
-		remove_country_modifier = hegemon
-	}
-
-	option = {
-		name = "EVTOPTA19362"
-	}
-}
-
-country_event = {
-	id = 19363
-	title = "EVTNAME19363"
-	desc = "EVTDESC19363"
-	picture = "hegemony"
-
-	trigger = {
-		rank = 1
-		NOT = { has_country_modifier = hegemon }
-		any_greater_power = {
-			NOT = { has_country_modifier = hegemon }
-		}
-	}
-
-	option = {
-		name = "EVTOPTA19363"
-		add_country_modifier = { name = hegemon duration = -1 }
 	}
 }

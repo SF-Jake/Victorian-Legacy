@@ -1,54 +1,92 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 leader = {
-	name = "Pedro Alcántara Herrán"
-	date = 1836.1.1
+	name = "Manuel Blanco"
+	picture = aus_gen_windischgraetz
+	date = 1826.1.1
 	type = land
-	personality = mor10_1
-	background = 1a2d_1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
-
 leader = {
-	name = "Tomás Cipriano de Mosquera"
-	date = 1836.1.1
+	name = "Jose Joaquú‹ Prieto"
+	picture = aus_gen_rukavina
+	date = 1829.1.1
 	type = land
-	personality = mor10_1
-	background = 2a2d_1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Manuel Bulnes"
+	picture = aus_gen_nugent
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
 
 army = {
-	name = "Ejército de Colombia"
+	name = "1. Army"
 	location = 2253
 	regiment = {
-		name= "1. Brigada de Infantería"
+		name= "1. División de Infanteru"
 		type = infantry
 		home = 2247
 	}
 
 	regiment = {
-		name= "2. Brigada de Infantería"
+		name= "2. División de Infanteru"
 		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "3. División de Infanteru"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "4. División de Infanteru"
+		type = infantry
+		home = 2247
+	}
+	
+	regiment = {
+		name= "1. Hussar"
+		type = hussar
+		home = 2247
+	}
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2247
+	}
+	
+	regiment = {
+		name= "2. Artillery"
+		type = artillery
+		home = 2247
+	}
+	
+	regiment = {
+		name= "3. Artillery"
+		type = artillery
+		home = 2247
+	}
+	
+	regiment = {
+		name= "4. Artillery"
+		type = artillery
+		home = 2247
+	}
+	
+	regiment = {
+		name= "5. Artillery"
+		type = artillery
 		home = 2252
-	}
-
-	regiment = {
-		name= "3. Brigada de Infantería"
-		type = infantry
-		home = 2254
-	}
-
-	regiment = {
-		name= "1. Brigada de Caballería"
-		type = cuirassier
-		home = 2250
 	}
 
 }

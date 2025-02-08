@@ -1,6 +1,3 @@
-# Audax Validator "!" Ignore_1004
-# Audax Validator "!" Ignore_1009
-
 country_event = {
 
 	id = 44800
@@ -241,185 +238,115 @@ country_event = {
 }
 
 country_event = {
-	id = 44804
-	title = "EVTNAME44804"
-	desc = "EVTDESC44804"
-	picture = "battle_of_san_jacinto"
+	
+	id = 44825
+	title = "EVTNAME44825" #The Treaty of Guadalupe Hidalgo
+	desc = "EVTDESC44825"
+	picture = "treaty"
 
-	trigger = {
-		tag = MEX
-		war_exhaustion = 3
-		war_with = TEX
-		NOT = { has_global_flag = 1913_bookmark }
-	}
-
-	fire_only_once = yes
+	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA44804"
-		war_exhaustion = 10
-		kill_leader = 196
-		ai_chance = {
-			factor = 0
-		}
-	}
-
-	option = {
-		name = "EVTOPTB44804"
-		any_country = {
+		name = "We agree to their proposal."
+		set_country_flag = treaty_of_guadalupe_hidalgo
+		prestige = -25
+		treasury = 100000
+		random_owned = {
 			limit = {
-				war_with = THIS
+				owner = { war_with = USA }
+			}
+			owner = { end_war = USA }
+			any_country = {
+				limit = {
+					war_with = THIS
+					alliance_with = USA
+				}
+				end_war = THIS
+			}
+		}
+		all_core = {
+			limit = {
 				OR = {
-					tag = TEX
-					tag = USA
+					region = TEX_132
+					region = MEX_103
+					region = MEX_94
+					region = MEX_85
+					region = MEX_100
 				}
 			}
-			end_war = MEX
+			remove_core = MEX
 		}
-	}
-}
-
-country_event = {
-	id = 44805
-	title = "EVTNAME44805"
-	desc = "EVTDESC44805"
-	picture = generic_congress
-
-	trigger = {
-		NOT = { has_global_flag = 1913_bookmark }
-		tag = MEX
-		war = no
-		government = presidential_dictatorship
-		NOT = {
-			owns = 84
-			owns = 133
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = USA
+					region = TEX_132
+					region = MEX_103
+					region = MEX_94
+					region = MEX_85
+					region = MEX_100
+					region = USA_106
+					region = USA_129
+				}
+			}
+			secede_province = USA
 		}
-		NOT = { has_country_flag = la_reforma }
+		USA = { country_event = 44826 }
+		ai_chance = {
+			factor = 90
+		}
 	}
 
 	option = {
-		name = "EVTOPTA44805"
-		set_country_flag = la_reforma
-		government = democracy
-		random_owned = {
-			limit = {
-				owner = { vote_franschise = none_voting }
-			}	
-			owner = { political_reform = landed_voting }
-		}
-		random_owned = {
-			limit = {
-				owner = { political_parties = harassment }
-			}	
-			owner = { political_reform = gerrymandering }
-		}
-		random_owned = {
-			limit = {
-				owner = { political_parties = underground_parties }
-			}	
-			owner = { political_reform = harassment }
-		}
-		random_owned = {
-			limit = {
-				owner = { upper_house_composition = appointed }
-			}	
-			owner = { political_reform = state_equal_weight }
-		}
-		random_owned = {
-			limit = {
-				owner = { upper_house_composition = party_appointed }
-			}	
-			owner = { political_reform = appointed }
+		name = "We refuse!"
+		war_exhaustion = 20
+		USA = { country_event = 44827 }
+		ai_chance = {
+			factor = 10
 		}
 	}
 }
 
 country_event = {
 
-	id = 44806
-	title = "EVTNAME44806"
-	desc = "EVTDESC44806"
-	picture = caste_war
+	id = 44826
+	title = "EVTNAME44826" #Mexico Agrees
+	desc = "EVTDESC44826"
+	news = yes
+	news_title = "EVTNAME44825"
+	news_desc_long = "EVTDESC44826_NEWS_LONG"
+	news_desc_medium = "EVTDESC44826_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44826_NEWS_SHORT"
+	picture = "treaty"
 
-	trigger = {
-		NOT = { has_global_flag = 1913_bookmark }
-		tag = MEX
-		NOT = { owns = 133 }
-		NOT = { year = 1847 }
-		war = no
-		government = presidential_dictatorship
-		NOT = { has_country_flag = yucatan_republic }
-		any_owned_province = { is_core = YUC }
-	}
+	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA44806"
-		set_country_flag = yucatan_republic
-		release = YUC
-		YUC = {
-			add_country_modifier = { name = fatherland_volunteers_prg duration = 365 }
-			leadership = 120
-			money = 50000
-			small_arms = 500
-			canned_food = 500
-			ammunition = 500
-			artillery = 250
-			government = democracy
-			vote_franschise = wealth_voting
-			upper_house_composition = state_equal_weight
-			centralization = federalism
+		name = "A wise move."
+		prestige = 20
+		treasury = -100000
+		diplomatic_influence = {
+			who = FROM
+			value = 400
 		}
-		war = {
-			target = YUC
-			attacker_goal = { casus_belli = annex_core_country }
-			defender_goal = { casus_belli = remove_cores country = YUC }
-			defender_goal = { casus_belli = status_quo }
+		relation = {
+			who = FROM
+			value = 200
 		}
-	}
-
-	option = {
-		name = "EVTOPTB44806"
-		set_country_flag = yucatan_republic
-		release = YUC
-		YUC = {
-			add_country_modifier = { name = fatherland_volunteers_prg duration = 365 }
-			leadership = 120
-			money = 50000
-			small_arms = 500
-			canned_food = 500
-			ammunition = 500
-			artillery = 250
-			government = democracy
-			vote_franschise = wealth_voting
-			upper_house_composition = state_equal_weight
-			centralization = federalism
-		}
-		war = {
-			target = YUC
-			attacker_goal = { casus_belli = annex_core_country }
-			defender_goal = { casus_belli = remove_cores country = YUC }
-			defender_goal = { casus_belli = status_quo }
-		}
-		change_tag_no_core_switch = YUC
 	}
 }
 
 country_event = {
 
-	id = 44807
-	title = "End of the 2nd Mexican Empire"
+	id = 44827
+	title = "EVTNAME44827" #Mexico Refuses
+	desc = "EVTDESC44827"
+	picture = "treaty"
 
-	trigger = {
-		tag = JAN
-		MEX = {
-			government = democracy
-			any_owned_province = { has_province_modifier = republican_rebels }
-		}
-	}
+	is_triggered_only = yes
 
 	option = {
-		MEX = {
-			any_owned = { remove_province_modifier = republican_rebels }
-		}
+		name = "A foolish move."
+		war_exhaustion = -20
 	}
 }

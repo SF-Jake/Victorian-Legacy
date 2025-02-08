@@ -1,35 +1,119 @@
 political_decisions = {
-	integrate_transcaucasia = {
-		picture = transcaucasia
+	abolish_serfdom = {
 		potential = {
 			tag = RUS
-			exists = TCA
-			NOT = { has_country_flag = tca_annexed }
+			has_country_flag = serfdom_not_abolished
+			#government = absolute_monarchy
 		}
-
 		allow = {
-			state_n_government = 1
-			owns = 1049
-			owns = 1051
-			owns = 1052
-			owns = 1053
-			owns = 1054
-			owns = 1055
-			owns = 1056
-			neighbour = TCA
-			is_our_vassal = TCA
+			OR = {
+				AND = {
+					upper_house = {
+						ideology = liberal
+						value = 0.3
+					}
+					average_consciousness = 3
+				}	
+				AND = {
+					ruling_party_ideology = liberal
+					average_consciousness = 4
+				}
+				average_militancy = 4
+			}
 		}
-
 		effect = {
-			badboy = 10
-			set_country_flag = tca_annexed
-			TCA = {
-				any_owned = {
-					limit = { is_core = TCA }
-					add_core = THIS
+			farmers = {
+				militancy = -2
+				consciousness = 1
+			}
+			labourers = {
+				militancy = -2
+				consciousness = 1
+			}
+			badboy = -4
+			#years_of_research = 0.05
+			clr_country_flag = serfdom_not_abolished
+		}
+	}
+	establish_the_sovnarkom = {
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = big_brother_is_watching
+			}
+			government = proletarian_dictatorship
+		}
+		allow = {
+			mass_politics = 1
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+				ideology = {
+					value = socialist
+					factor = 0.05
 				}
 			}
-			inherit = TCA
+			prestige = 5
+			set_country_flag = big_brother_is_watching
+		}
+	}
+	
+	manifesto_on_unshakable_autocracy = {
+		potential = {
+			tag = RUS
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = the_manifesto
+			}
+			nationalism_n_imperialism = 1
+		}
+		
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		
+		effect = {
+			prestige = 5
+			badboy = 3
+			any_pop = {
+				consciousness = -0.5
+				militancy = -0.5
+			}
+			set_country_flag = the_manifesto
+		}
+	}
+	
+	promulgate_the_ems_ukaz = {
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = ems_ukaz_dispatched
+			}
+			government = absolute_monarchy
+			owns = 958
+			revolution_n_counterrevolution = 1
+			exists = GER
+			GER = {
+				owns = 570
+			}
+		}
+		
+		allow = {
+			biologism = 1
+		}
+		
+		effect = {
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				militancy = 3
+				consciousness = -2
+			}
+			set_country_flag = ems_ukaz_dispatched
 		}
 	}
 
@@ -55,7 +139,9 @@ political_decisions = {
 					value = 0
 				}
 			}
-			nationalism_n_imperialism = 1
+			TUR = {
+				average_militancy = 3
+			}
 		}
 		
 		effect = {
@@ -77,218 +163,40 @@ political_decisions = {
 			}
 		}
 	}
-
-	milyutin_army_reform = {
-		picture = milyutin_army_reform
-		potential = {
-			tag = RUS
-			government = absolute_monarchy
-			NOT = { has_country_flag = milyutin_army_reform }
-		}
-
-		allow = {
-			government = absolute_monarchy
-			war = no
-			OR = {
-				military_statistics = 1
-				army_decision_making = 1
-			}
-		}
-
-		effect = {
-			set_country_flag = milyutin_army_reform
-			random_owned = {
-				limit = {
-					owner = { conscription = four_year_draft }
-				}	
-				owner = { political_reform = mandatory_service }
-			}
-			random_owned = {
-				limit = {
-					owner = { conscription = two_year_draft }
-				}	
-				owner = { political_reform = four_year_draft }
-			}
-			random_owned = {
-				limit = {
-					owner = { conscription = one_year_draft }
-				}	
-				owner = { political_reform = two_year_draft }
-			}
-			random_owned = {
-				limit = {
-					owner = { conscription = no_draft }
-				}	
-				owner = { political_reform = one_year_draft }
-			}
-			random_owned = {
-				limit = {
-					owner = { school_reforms = good_schools }
-				}	
-				owner = { social_reform = compulsory_schools }
-			}
-			random_owned = {
-				limit = {
-					owner = { school_reforms = acceptable_schools }
-				}	
-				owner = { social_reform = good_schools }
-			}
-			random_owned = {
-				limit = {
-					owner = { school_reforms = low_schools }
-				}	
-				owner = { social_reform = acceptable_schools }
-			}
-			random_owned = {
-				limit = {
-					owner = { school_reforms = no_schools }
-				}	
-				owner = { social_reform = low_schools }
-			}
-			any_pop = {
-				limit = { type = soldiers }
-				literacy = 0.05
-			}
-			define_general = {
-				name = "§WDmitry Alekseyevich Milyutin"
-				personality = mor10_1
-				background = 3a3d_1
-			}
-		}
-	}
-
-	promulgate_the_ems_ukaz = {
-		potential = {
-			tag = RUS
-			NOT = {
-				has_country_flag = ems_ukaz_dispatched
-			}
-			government = absolute_monarchy
-			owns = 958
-			revolution_n_counterrevolution = 1
-		}
-		
-		allow = {
-			biologism = 1
-		}
-		
-		effect = {
-			any_pop = {
-				limit = {
-					has_pop_culture = ukrainian
-				}
-				militancy = 3
-				consciousness = -2
-			}
-			set_country_flag = ems_ukaz_dispatched
-		}
-	}
-
-	manifesto_on_unshakable_autocracy = {
-		potential = {
-			tag = RUS
-			government = absolute_monarchy
-			NOT = {
-				has_country_flag = the_manifesto
-			}
-			nationalism_n_imperialism = 1
-		}
-		
-		allow = {
-			revolution_n_counterrevolution = 1
-		}
-		
-		effect = {
-			prestige = 5
-			badboy = 3
-			any_pop = {
-				consciousness = -0.5
-				militancy = -0.5
-			}
-			set_country_flag = the_manifesto
-		}
-	}
-
-	abolish_serfdom = {
-		potential = {
-			tag = RUS
-			has_country_flag = serfdom_not_abolished
-			debt_law = serfdom
-		}
-		allow = {
-			OR = {
-				government = democracy
-				government = hms_government
-				year = 1870
-			}
-			money = 1000000
-		}
-		effect = {
-			treasury = -1000000
-			political_reform = peonage
-			clr_country_flag = serfdom_not_abolished
-			any_country = {
-				limit = {
-					OR = {
-						substate_of = THIS
-						vassal_of = THIS
-					}
-					debt_law = serfdom
-				}
-				political_reform = peonage
-			}
-			any_pop = {
-				limit = {
-					OR = {
-						type = farmers
-						type = labourers
-					}
-				}
-				militancy = -2
-				consciousness = 1
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
+	
 	peking_convention = {
 		potential = {
+			tag = RUS
+			MCK = {
+					owns = 1082 }
 			NOT = {
 				has_country_flag = peking_convention
-			}		
-			tag = RUS
-			NOT = { owns = 1082 }
+				war_with = CHI
+			}
+			OR = {
+				is_sphere_leader_of = MCK
+				has_global_flag = summer_palace_torched
+			}
 		}
 		
 		allow = {
 			is_greater_power = yes
-			NOT = {
-				has_country_flag = peking_convention
-				war_with = MCK
-				war_with = CHI
-			}
-			OR = {
-				year = 1838
-				has_global_flag = summer_palace_torched
-			}			
 		}
 		
 		effect = {
 			CHI_1082 = {
 				add_core = RUS
-				remove_core = MCK
 			}
 			1469 = {
 				add_core = RUS
+				remove_core = CHI
 			}
-			set_country_flag = peking_convention
-			any_country = {
-				limit = { 
-					owns = 1082
-				}
+			set_country_flag = peking_convention			
+			CHI = {
 				country_event = { id=80000 days=0 }
 			}
 			prestige = 2
+			badboy = 2
 		}
 	}
 
@@ -299,7 +207,7 @@ political_decisions = {
 		owns = 1084
 		owns = 2617
 		owns = 1083
-        owns = 1082
+        	owns = 1082
 		NOT = {
 				has_global_flag = russian_vladivostok
 			}
@@ -332,216 +240,106 @@ political_decisions = {
 			set_global_flag = russian_vladivostok
 		}
 	}
-
+	
 	move_capital_to_moscow = {
 		potential = {
 			tag = RUS
-			OR = {
-				AND = {
-					NOT = { owns = 339 } # Viipuri
-					339 = {
-						owner = {
-							NOT = { vassal_of = THIS }
-						}
-					}
-				}
-				AND = {
-					NOT = { owns = 350 } # Narva
-					350 = {
-						owner = {
-							NOT = { vassal_of = THIS }
-						}
-					}
-				}
-			}
+			NOT = { owns = 339 } # Viipuri
+			NOT = { is_our_vassal = FIN }
 			owns = 1008 # Moscow
 			capital = 994
 		}
-
+		
 		allow = {
-			owns = 1008
+			owns = 1008 # Moscow
 		}
-
+		
 		effect = {
 			capital = 1008
-		}
-	}
-
-	found_the_imperial_academy = {
-		potential = {
-			tag = RUS
-			NOT = { tech_school = russian_tech_school }
-		}
-		
-		allow = {
-			owns = 994
-			idealism = 1
-			army_professionalism = 1
-			naval_professionalism = 1
-		}
-		
-		effect = {
-			tech_school = russian_tech_school
 			prestige = 5
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = { 
-				factor = 0
-				NOT = { business_banks = 1 }
-			}
-			modifier = { 
-				factor = 0
-				NOT = { biologism = 1 }
-			}
 		}
 	}
-
-	russify_baltic_states = {
-		picture = russify_baltic_states
-		potential = {
-			tag = RUS
-			NOT = { has_country_flag = russification_of_the_baltic_states }
-		}
-
-		allow = {
-			war = no
-			OR = {
-				revolution_n_counterrevolution = 1
-				great_wars_enabled = yes
-				GER = { exists = yes }
-				is_greater_power = no
+	found_the_imperial_academy = {
+			potential = {
+				tag = RUS
+				NOT = { tech_school = russian_tech_school }
 			}
-			money = 500000
-		}
-
-		effect = {
-			treasury = -500000
-			set_country_flag = russification_of_the_baltic_states
-			UBD = { all_core = { add_core = RUS } }
-			any_pop = {
-				limit = {
-					OR = {
-						has_pop_culture = estonian
-						has_pop_culture = north_german
-						has_pop_culture = ashkenazi
+			
+			allow = {
+				owns = 994
+				idealism = 1
+				army_professionalism = 1
+			}
+			
+			effect = {
+				tech_school = russian_tech_school
+				prestige = 5
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = { 
+					factor = 0
+					NOT = { business_banks = 1 }
+				}
+				modifier = { 
+					factor = 0
+					NOT = { biologism = 1 }
+				}
+			}
+	}
+	russian_sakhalin = {
+			picture = map_yellow_sea
+			potential = {
+				tag = RUS
+				OR = {
+					owns = 1086 #Pogobi
+					owns = 1087 #Ootomari
+				}
+				OR = {
+					has_global_flag = japanese_sakhalin
+					NOT = { has_global_flag = russian_sakhalin }
+				}
+			}
+			allow = {
+	
+				owns = 1086 #Pogobi/Sagaren
+				owns = 1087 #Ootomari/Toyohara
+				owns = 1088 #Shumshu/Shumushu
+				owns = 1089 #Etorofu
+			}
+			effect = {
+				prestige = 5
+				any_country = {
+					limit = {
+						tag = JAP
+						exists = yes
+					}
+					prestige = -10
+				}
+				1088 = {
+					change_province_name = "Shumshu"
+				}
+				1089 = {
+					change_province_name = "Iturrup"
+				}
+				1086 = {
+					change_province_name = "Yuzhno"
+				}
+				1086 = {
+					change_province_name = "Pogobi"
+					state_scope = {
+						change_region_name = "Sakhalin"
+						any_owned = { add_core = THIS }
 					}
 				}
-				consciousness = 5
-				militancy = 3
+				clr_global_flag = japanese_sakhalin
+				set_global_flag = russian_sakhalin
 			}
-		}
+			ai_will_do = {
+				factor = 1
+			}
 	}
-
-	russification_of_finland = {
-		picture = suomineito
-		potential = {
-			tag = RUS
-			NOT = { has_country_flag = finland_russification }
-			is_our_vassal = FIN
-		}
-
-		allow = {
-			war = no
-			mass_politics = 1
-			FIN = { is_mobilised = no }
-			FIN = { ai = yes }
-			is_our_vassal = FIN
-			money = 500000
-		}
-
-		effect = {
-			treasury = -500000
-			set_country_flag = finland_russification
-			FIN = { all_core = { add_core = RUS } }
-			release = FIN
-			inherit = FIN
-			any_pop = {
-				limit = {
-					has_pop_culture = swedish
-				}
-				consciousness = 5
-				militancy = 3
-			}
-			any_owned = {
-				limit = {
-					is_core = FIN
-				}
-				add_province_modifier = { name = nationalist_agitation duration = 365 }
-			}
-		}
-	}
-
-	establish_the_sovnarkom = {
-		potential = {
-			tag = RUS
-			NOT = {
-				has_country_flag = big_brother_is_watching
-			}
-			government = proletarian_dictatorship
-		}
-		allow = {
-			mass_politics = 1
-		}
-		
-		effect = {
-			any_pop = {
-				militancy = -1
-				consciousness = -1
-				ideology = {
-					value = socialist
-					factor = 0.05
-				}
-			}
-			prestige = 5
-			set_country_flag = big_brother_is_watching
-		}
-	}
-
-	drain_the_pinsk_marshes = { 
-        picture = drain_the_pinsk_marshes
-        potential = {
-            NOT = { has_country_flag = marshes_ready }
-            OR = {
-                941 = {
-                    owned_by = THIS
-                    NOT = { life_rating = 35 }
-                }
-                942 = {
-                    owned_by = THIS
-                    NOT = { life_rating = 35 }
-                }
-                959 = {
-                    owned_by = THIS
-                    NOT = { life_rating = 35 }
-                }
-            }
-        }
-
-        allow = {
-            steam_turbine = 1
-            money = 5500
-        }
-
-        effect = {
-            treasury = -5000
-            set_country_flag = marshes_ready
-            any_owned = {
-                limit = {
-                NOT = { life_rating = 16 }
-                    OR = {
-                        province_id = 941
-                        province_id = 942
-                        province_id = 959
-                        }
-                    }
-                life_rating = 20
-                add_province_modifier = {
-                    name = drained_marsh
-                    duration = -1
-                }
-            }
-        }
-        ai_will_do = { factor = 1 }
-    }
 }

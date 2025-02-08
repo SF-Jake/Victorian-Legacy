@@ -1,28 +1,19 @@
-owner = LUX
-controller = LUX
-add_core = NET
+owner = BEL
+controller = BEL
 add_core = LUX
+add_core = BEL
+add_core = NET
 trade_goods = iron
-life_rating = 40
-terrain = woods_mine
-1913.1.1 = {
+life_rating = 35
+fort = 1
+1861.1.1 = {
 	owner = LUX
 	controller = LUX
-	add_core = LUX
+	remove_core = NET
 	remove_core = BEL
-	state_building = {
-		level = 2
-		building = steel_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = coffee_packaging_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = machine_parts_factory
-		upgrade = yes
-	}
+	railroad = 3
+	fort = 2
 }
+
+
+

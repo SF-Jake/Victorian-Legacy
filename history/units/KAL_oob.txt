@@ -1,19 +1,9 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 leader = {
 	name = "Mehreb Khan"
 	date = 1836.1.1
 	type = land
-	personality = mor10_1
-	background = 2a2d_1
+	personality = clever
+	background = poet
 }
 
 army = {
@@ -27,6 +17,12 @@ army = {
 
 	regiment = {
 		name= "2.Ghilzye"
+		type = irregular
+		home = 1221
+	}
+
+	regiment = {
+		name= "3.Ghilzye"
 		type = irregular
 		home = 1221
 	}
@@ -47,6 +43,24 @@ army = {
 		name= "3.Baluchye"
 		type = irregular
 		home = 1220
+	}
+
+	regiment = {
+		name= "1.Afridye"
+		type = irregular
+		home = 1219
+	}
+
+	regiment = {
+		name= "2.Afridye"
+		type = irregular
+		home = 1219
+	}
+
+	regiment = {
+		name= "3.Afridye"
+		type = irregular
+		home = 1219
 	}
 
 }

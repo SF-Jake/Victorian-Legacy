@@ -3,47 +3,27 @@ controller = USA
 add_core = USA
 trade_goods = coal
 life_rating = 35
-terrain = woods_mine
 railroad = 1
-1913.1.1 = {
+1861.1.1 = {
 	state_building = {
-		level = 10
-		building = automobile_factory
+		level = 1
+		building = steel_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 10
-		building = small_arms_factory
+		level = 1
+		building = regular_clothes_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 10
-		building = artillery_factory
+		level = 1
+		building = canned_food_factory
 		upgrade = yes
 	}
-	state_building = {
-		level = 10
-		building = electric_gear_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 10
-		building = radio_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = telephone_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 3
-		building = automobile_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = aeroplane_factory
-		upgrade = yes
+	party_loyalty = {
+		ideology = liberal
+		loyalty_value = 25
 	}
 }
+1861.1.1 = { railroad = 3 }
+

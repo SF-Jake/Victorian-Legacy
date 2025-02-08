@@ -1,3 +1,4 @@
+
 political_decisions = {
 
 	form_arabia = {
@@ -5,47 +6,16 @@ political_decisions = {
 		potential = {
 			ARA = { exists = no }
 			is_culture_group = arab
+			tag = EGY
 		}
 		
-		allow = {
+		allow = { 
+			prestige = 90
+			state_n_government = 1
 			war = no
-			OR = { 
-				AND = {
-					HDJ = {
-						all_core = { 
-							owned_by = THIS 
-						} 
-					}
-					NEJ = {
-						all_core = { 
-							owned_by = THIS 
-						} 
-					}
-					ABU = {
-						all_core = { 
-							owned_by = THIS 
-						}
-					}
-				}
-				AND = {
-					tag = NEJ
-					HDJ = {
-						all_core = { 
-							owned_by = THIS 
-						} 
-					}
-				}
-			}
 		}
 		effect = {
 			prestige = 20
-			all_core = {
-				limit = {
-					owned_by = THIS
-				}
-				remove_core = THIS 
-				add_core = ARA
-			}
 			change_tag = ARA
 			random_country = {
 				limit = {
@@ -59,19 +29,13 @@ political_decisions = {
 				country_event = 111011928
 			}
 			add_accepted_culture = union
-			any_country = {
-				limit = {
-					is_culture_group = THIS
-					NOT = { has_country_flag = sub_saharan_africa }
-				}
-				all_core = {
-					limit = {
-						NOT = { is_core = ZAN }
-					}
-					add_core = ARA
-				}
-			}
-			
+			EGY = { all_core = { remove_core = EGY add_core = ARA } }
+			HDJ = { all_core = { remove_core = HDJ add_core = ARA } }
+			NEJ = { all_core = { remove_core = NEJ add_core = ARA } }
+			YEM = { all_core = { remove_core = YEM add_core = ARA } }
+			OMA = { all_core = { remove_core = OMA add_core = ARA } }
+			IRQ = { all_core = { remove_core = IRQ add_core = ARA } }
+			SYR = { all_core = { remove_core = SYR add_core = ARA } }
 		}
 		ai_will_do = {
 			factor = 1

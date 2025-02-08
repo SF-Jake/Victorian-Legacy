@@ -1,18 +1,9 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 army = {
 	name = "Esercito Toscano"
 
 	leader = {
-		name = "Leopoldo II"
+		name = "Leopoldo II d'Asburgo"
+		picture = tus_gen_leopoldo
 		date = 1824.1.1
 		type = land
 		personality = defence_1.1

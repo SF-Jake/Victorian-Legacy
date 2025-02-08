@@ -1,16 +1,6 @@
 owner = RUS
 controller = RUS
-trade_goods = fish
-life_rating = 35
+trade_goods = timber
+life_rating = 20
 colonial = 2
-1913.1.1 = {
-	colonial = 0
-	owner = USA
-	controller = USA
-	add_core = USA
-	state_building = {
-		level = 3
-		building = canned_food_factory
-		upgrade = yes
-	}
-}
+

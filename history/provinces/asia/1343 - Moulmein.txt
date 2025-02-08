@@ -1,10 +1,6 @@
-owner = EIC
-controller = EIC
+owner = ENG
+controller = ENG
 add_core = BUR
-trade_goods = fish
-life_rating = 35
-1913.1.1 = {
-	owner = EIC
-	controller = EIC
-	colonial = 0
-}
+trade_goods = grain
+life_rating = 30
+colonial = 2

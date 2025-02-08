@@ -1,94 +1,28 @@
 political_decisions = {
-	form_pba = {
+	portuguese_civil_code = {
+		picture = enact_the_homestead_act
 		potential = {
 			tag = POR
-			NOT = { exists = PBA }
+			state_n_government = 1
+			NOT = { has_country_flag = portuguese_civil_code }
 		}
-		
+
 		allow = {
-			war = no
-			#BRZ = { exists = no }
-			POR = { 
-				all_core = {
-					owned_by = THIS
-				}
-			}
-			BRZ = {
-				#any_core = {
-				#	OR = {
-				#		culture = brazilian
-				#		culture = afro_brazilian
-				#	}
-				#	NOT = {
-				#		OR = { 
-				#			is_core = BOL
-				#			is_core = PRG
-				#			is_core = CLM
-				#			is_core = URU
-				#		}
-				#	}
-				#	owned_by = THIS
-				#}
-				is_greater_power = no
-				#OR = {
-				#	NOT = { part_of_sphere = yes }
-				#	in_sphere = POR
-				#}
-			}
-			owns = 2447 #Rio De Janeiro
-			owns = 2436 #Salvador De Bahia
-			owns = 2432 #Recife
-			
+			nationalism_n_imperialism = 1
 		}
+
 		effect = {
-			change_tag = PBA
-			government = prussian_constitutionalism
-			political_reform = universal_voting
-			political_reform = secret_ballots
-			political_reform = population_equal_weight
-			political_reform = yes_meeting
-			political_reform = free_press
-			political_reform = all_trade_unions
-			political_reform = first_past_the_post
-			slavery = no_slavery
-			set_country_flag = new_world_nation
-			set_country_flag = south_american_immigrant_nation
-			capital = 2447
-			any_owned = {
-				limit = {
-					is_core = POR
-				}
-				add_core = PBA
-				remove_core = POR
-			}
-			BRZ = {
-				all_core = {
-					add_core = PBA
-				}
-			}
-			#any_owned = {
-			#	limit = {
-			#		is_core = BRZ
-			#	}
-			#	add_core = PBA
-			#}
-			prestige = 50
-			add_accepted_culture = brazilian
-			add_accepted_culture = afro_brazilian
+			set_country_flag = portuguese_civil_code
+			prestige = 10
 			any_pop = {
-				limit = { is_primary_culture = yes }
-				ideology = {
-					value = reactionary
-					factor = 0.15
+				limit = {
+					location = { is_colonial = no }
 				}
-				ideology = {
-					value = anarcho_liberal
-					factor = 0.15
-				}
-				consciousness = 3
-				militancy = 3
-			}
+				militancy = -3
+				consciousness = 1
+			}	
 		}
+
 		ai_will_do = {
 			factor = 1
 		}

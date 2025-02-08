@@ -3,46 +3,35 @@ controller = SWI
 add_core = SWI
 trade_goods = cattle
 life_rating = 35
+railroad = 1
 fort = 1
 state_building = {
-	level = 2
-	building = canned_food_factory
+	level = 1
+	building = fabric_factory
 	upgrade = yes
 }
-1913.1.1 = {
+state_building = {
+	level = 1
+	building = lumber_mill
+	upgrade = yes
+}
+1861.1.1 = { 
+	railroad = 1
+	fort = 2 
 	state_building = {
-		level = 7
-		building = tea_packaging_factory
+		level = 1
+		building = regular_clothes_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
-		building = lumber_mill
+		level = 1
+		building = canned_food_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 10
-		building = furniture_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 7
-		building = telephone_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 7
-		building = electric_gear_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 7
-		building = winery
-		upgrade = yes
-	}
-	state_building = {
-		level = 7
-		building = liquor_distillery
+		level = 1
+		building = small_arms_factory
 		upgrade = yes
 	}
 }
+

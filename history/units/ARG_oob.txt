@@ -1,120 +1,156 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
+leader = {
+	name = "Manuel Blanco"
+	picture = aus_gen_windischgraetz
+	date = 1826.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
+leader = {
+	name = "Jose Joaquú‹ Prieto"
+	picture = aus_gen_rukavina
+	date = 1829.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
 }
-
-ENG = {
-	value = -100
+leader = {
+	name = "Manuel Bulnes"
+	picture = aus_gen_nugent
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
-
-FRA = {
-	value = -150
-}
-
-CHL = {
-	value = 75
-}
-
-PEU = {
-	value = -200
-}
-
-PRG = {
-	value = -50
-}
-
-SBA = {
-	value = 150
-}
-
-ENT = {
-	value = 100
-}
-
-CRT = {
-	value = 150
-}
-
-BOL = {
-	value = -100
-}
-
-BRZ = {
-	value = -100
-}
-
-USA = {
-	value = -50
-}
-
 
 army = {
-	name = "Mob Stack"
+	name = "1. Army"
+	location = 2349
+	regiment = {
+		name= "1. División de Infanteru"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "2. División de Infanteru"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "3. División de Infanteru"
+		type = infantry
+		home = 2348
+	}
+
+	regiment = {
+		name= "4. División de Infanteru"
+		type = infantry
+		home = 2349
+	}
+	
+	regiment = {
+		name= "1. Hussar"
+		type = hussar
+		home = 2349
+	}
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2349
+	}
+	
+	regiment = {
+		name= "2. Artillery"
+		type = artillery
+		home = 2349
+	}
+	
+	regiment = {
+		name= "3. Artillery"
+		type = artillery
+		home = 2349
+	}
+	
+	regiment = {
+		name= "4. Artillery"
+		type = artillery
+		home = 2349
+	}
+	
+	regiment = {
+		name= "5. Artillery"
+		type = artillery
+		home = 2349
+	}
+
+}
+
+army = {
+	name = "2. Army"
 	location = 2348
 	regiment = {
-		name= "Hussar"
+		name= "1. Hussar"
 		type = hussar
-		home = 2348
+		home = 2379
 	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 2348
-	}
-	
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 2348
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1. División de Infanteru"
+		type = infantry
 		home = 2379
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2. División de Infanteru"
+		type = infantry
 		home = 2379
 	}
 
 	regiment = {
-		name= "Artillery"
+		name= "3. División de Infanteru"
+		type = infantry
+		home = 2379
+	}
+
+	regiment = {
+		name= "4. División de Infanteru"
+		type = infantry
+		home = 2348
+	}
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2348
+	}
+	
+	regiment = {
+		name= "2. Artillery"
+		type = artillery
+		home = 2348
+	}
+	
+	regiment = {
+		name= "3. Artillery"
+		type = artillery
+		home = 2348
+	}
+	
+	regiment = {
+		name= "4. Artillery"
+		type = artillery
+		home = 2348
+	}
+	
+	regiment = {
+		name= "5. Artillery"
 		type = artillery
 		home = 2349
 	}
 }
-
-leader = {
-   name = "Juan Manuel de Rosas"
-   type = land
-   date = 1836.1.1
-   prestige = 0.1
-   background = defence_2.1
-   personality = attack_2.1
-}
-
-leader = {
-   name = "Angel Pacheco"
-   type = land
-   date = 1836.1.1
-   background = defence_2.1
-   personality = attack_1.1
-}
-
-leader = {
-	name = "Guillermo Brown"
-	type = sea
-	date="1830.1.1"
-	background = defence_1.1
-	personality = attack_2.1
-}
-

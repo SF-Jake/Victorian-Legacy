@@ -1,13 +1,3 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 army = {
 	name = "Army of the Sultan of Sokoto"
 	location = 1948
@@ -32,6 +22,22 @@ army = {
 }
 
 army = {
+	name = "Army of the Emir of Adamawa"
+	location = 1950
+	regiment = {
+		name= "4. Fulbe"
+		type = cavalry
+		home = 1950
+	}
+
+	regiment = {
+		name= "5. Fulbe"
+		type = irregular
+		home = 1942
+	}
+}
+
+army = {
 	name = "Army of the Emir of Ilorin"
 	location = 1927
 	regiment = {
@@ -41,31 +47,16 @@ army = {
 	}
 
 	regiment = {
-		name= "4. Fulbe"
+		name= "6. Fulbe"
 		type = irregular
 		home = 1939
 	}
 
 	regiment = {
-		name= "5. Fulbe"
+		name= "7. Fulbe"
 		type = irregular
 		home = 1946
 	}
 
 }
 
-army = {
-	name = "Army of the Emir of Adamawa"
-	location = 1964
-	regiment = {
-		name= "6. Fulbe"
-		type = cavalry
-		home = 1942
-	}
-
-	regiment = {
-		name= "7. Fulbe"
-		type = irregular
-		home = 1950
-	}
-}

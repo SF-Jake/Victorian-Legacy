@@ -1,11 +1,13 @@
 owner = COM
 controller = COM
 add_core = COM
-trade_goods = coal
+
+trade_goods = cattle
 life_rating = 35
-terrain = hills_mine
-1913.1.1 = {
+1836.1.2 = {
+	remove_core = COM
 	owner = CAN
 	controller = CAN
-	remove_core = RPL
+	add_core = CAN
+	colonial = 0
 }

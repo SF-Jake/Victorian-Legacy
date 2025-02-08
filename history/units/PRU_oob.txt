@@ -1,13 +1,3 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 ANH = {
 
 	value = 125
@@ -103,9 +93,9 @@ HES = {
 
 KRA = {
 
-	value = 0
-	level = 1
-	influence_value = 0
+	value = 125
+	level = 4
+	influence_value = 25
 
 }
 LIP = {
@@ -241,7 +231,7 @@ WUR = {
 }
 
 AUS = {
-	value = 150
+	value = 125
 }
 
 RUS = {
@@ -260,452 +250,423 @@ DEN = {
 
 }
 
-
 leader = {
-	name = "§Rvon Zieten"
-	date = 1836.1.1
-	type = land
-	personality = mor10_1
-	background = 3a3d_1
-	prestige = 0.2
-}
-
-leader = {
-	name = "Hermann von Boyen"
-	date = 1814.1.1
-	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0
-}
-
-leader = {
-	name = "Wilhelm von Krauseneck"
-	date = 1814.1.1
-	type = land
-	personality = mor10_1
-	background = 1a1d_1
-	prestige = 0
-}
-
-leader = {
-	name = "Baron von Müffling"
+	name = "Karl von dem Knesebeck"
+	picture = pru_gen_knesebeck
 	date = 1813.1.1
 	type = land
-	personality = mor10_1
-	background = 1a2d_1
-	prestige = 0
-}
-
-leader = {
-	name = "August von Colomb"
-	date = 1829.1.1
-	type = land
-	personality = mor10_1
-	background = 3a1d_1
-	prestige = 0.2
-}
-
-leader = {
-	name = "von Grolman"
-	date = 1816.1.1
-	type = land
-	personality = mor10_1
-	background = 1a1d_1
-	prestige = 0
-}
-
-leader = {
-	name = "Rühle von Lilienstern"
-	date = 1819.1.1
-	type = land
-	personality = mor10_1
-	background = 1a1d_1
-	prestige = 0
-}
-
-leader = {
-	name = "zu Dohna-Schlobitten"
-	date = 1820.1.1
-	type = land
-	personality = mor10_1
-	background = 1a1d_1
-	prestige = 0
-}
-
-leader = {
-	name = "Heinrich von Wrangel"
-	date = 1823.1.1
-	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.2
-}
-
-leader = {
-	name = "Friedrich Graf von Wrangel"
-	date = 1836.1.1
-	type = land
-	personality = mor10_1
-	background = 3a2d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.3
 }
-
 leader = {
-	name = "Eduard Vogel von Falckenstein"
-	date = 1836.1.1
+	name = "Leopold von Boyen"
+	picture = pru_gen_boyen
+	date = 1813.1.1
 	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
-
 leader = {
-	name = "Albrecht von Roon"
+	name = "Karl von Müffling"
+	picture = pru_gen_mueffling
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Heinrich von Pfuel"
+	picture = pru_gen_pfuel
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Karl von Grolman"
+	picture = pru_gen_grolman
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Otto Rühle von Lilienstern"
+	picture = pru_gen_lilienstern
+	date = 1819.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Prinz Wilhelm"
+	picture = pru_gen_prinzwilhelm
+	date = 1820.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Friedrich zu Dohna-Schlobitten"
+	picture = pru_gen_dohnaschlobitten
+	date = 1822.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Friedrich von Wrangel"
+	picture = pru_gen_wrangel
+	date = 1823.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Prinz Karl"
+	picture = pru_gen_prinzkarl
+	date = 1824.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Wilhelm von Krauseneck"
+	picture = pru_gen_krauseneck
+	date = 1829.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Peter von Colomb"
+	picture = pru_gen_colombpeter
+	date = 1829.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "August von Neumann-Cosel"
+	picture = pru_gen_neumanncosel
 	date = 1836.1.1
 	type = land
-	personality = mor10_1
-	background = 4a2d_1
-	prestige = 0.2
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Hans von Zieten"
+	picture = pru_gen_zieten
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Ludwig von Borstell"
+	picture = pru_gen_borstell
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Gustav von Rauch"
+	picture = pru_gen_rauch
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Prinz August"
+	picture = pru_gen_prinzaugust
+	date = 1808.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
 
 #Army
 
 army = {
-	name = "Mob Stack"
-	location = 551
+	name = "I. Korps"
+	location = 553
+
 	regiment = {
-		name= "Hussar"
+		name= "XIII. Linieninfanteriebrigade"
 		type = hussar
-		home = 553
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 557
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 554
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 577
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 2561
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 582
-	}
-}
-
-army = {
-	name = "Mob Stack"
-	location = 550
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 582
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 584
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 682
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 682
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 682
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 684
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 546
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 684
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 684
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 685
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 685
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 549
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
 		home = 696
 	}
-}
-army = {
-	name = "Mob Stack"
-	location = 552
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 693
-	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 693
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 695
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 695
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 698
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 698
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 556
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 547
-	}
-
-	regiment = {
-		name= "Artillery"
+		name= "XX. Linieninfanteriebrigade"
 		type = artillery
 		home = 546
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 679
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 680
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 548
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 696
-	}
-}
-army = {
-	name = "Mob Stack"
-	location = 681
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 578
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "XXV. Linieninfanteriebrigade"
+		type = infantry
 		home = 580
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 580
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "XXVI. Linieninfanteriebrigade"
+		type = infantry
 		home = 581
 	}
 
 	regiment = {
-		name= "Artillery"
+		name= "II. Linieninfanteriebrigade"
+		type = infantry
+		home = 557
+	}
+
+	regiment = {
+		name= "I. Pionierbrigade"
+		type = infantry
+		home = 577
+	}
+
+	regiment = {
+		name= "V. Linieninfanteriebrigade"
+		type = artillery
+		home = 582
+	}
+
+	regiment = {
+		name= "VI. Linieninfanteriebrigade"
+		type = artillery
+		home = 582
+	}
+
+	regiment = {
+		name= "XXVII. Linieninfanteriebrigade"
 		type = artillery
 		home = 575
 	}
 
 	regiment = {
-		name= "Artillery"
+		name= "XXVIII. Linieninfanteriebrigade"
 		type = artillery
 		home = 576
 	}
 }
+
 army = {
-	name = "Mob Stack"
-	location = 687
+	name = "II. Korps"
+	location = 682
 	regiment = {
-		name= "Hussar"
+		name= "VII. Linieninfanteriebrigade"
 		type = hussar
+		home = 682
+	}
+	
+	regiment = {
+		name= "XXIX. Linieninfanteriebrigade"
+		type = infantry
 		home = 578
 	}
-
+	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 552
+		name= "XXIX. Linieninfanteriebrigade2"
+		type = infantry
+		home = 575
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "VIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 553
+	}
+
+	regiment = {
+		name= "IX. Linieninfanteriebrigade"
+		type = infantry
 		home = 549
 	}
 
 	regiment = {
-		name= "Artillery"
+		name= "II. Pionierbrigade"
 		type = artillery
-		home = 687
+		home = 684
 	}
 
 	regiment = {
-		name= "Artillery"
+		name= "XII. Linieninfanteriebrigade"
 		type = artillery
+		home = 685
+	}
+
+	regiment = {
+		name= "II. Artilleriebrigade"
+		type = artillery
+		home = 685
+	}
+	
+	regiment = {
+		name= "XVIII. Linieninfanteriebrigade"
+		type = artillery
+		home = 698
+	}
+
+	regiment = {
+		name= "III. Pionierbrigade"
+		type = artillery
+		home = 549
+	}
+}
+
+army = {
+	name = "III. Korps"
+	location = 546
+	
+	regiment = {
+		name= "XI. Kavalleriebrigade"
+		type = artillery
+		home = 701
+	}
+	
+	regiment = {
+		name= "I. Kavalleriebrigade"
+		type = hussar
+		home = 552
+	}
+
+	regiment = {
+		name= "II. Kavalleriebrigade"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "III. Kavalleriebrigade"
+		type = infantry
+		home = 682
+	}
+
+	regiment = {
+		name= "IV. Kavalleriebrigade"
+		type = infantry
 		home = 681
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "V. Kavalleriebrigade"
+		type = infantry
 		home = 550
 	}
-}
-army = {
-	name = "30 Stack"
-	location = 549
+
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "VI. Kavalleriebrigade"
+		type = artillery
 		home = 551
 	}
+	
+	regiment = {
+		name= "XVII. Linieninfanteriebrigade"
+		type = infantry
+		home = 695
+	}
 
 	regiment = {
-		name= "Artillery"
+		name= "VII. Kavalleriebrigade"
 		type = artillery
 		home = 699
 	}
 
 	regiment = {
-		name= "Artillery"
+		name= "X. Kavalleriebrigade"
 		type = artillery
-		home = 699
+		home = 549
 	}
-
+	
 	regiment = {
-		name= "Artillery"
+		name= "XVI. Linieninfanteriebrigade"
 		type = artillery
-		home = 700
+		home = 682
 	}
-
+}
+	
+	army = {
+	name = "IV. Korps"
+	location = 575
+	
 	regiment = {
-		name= "Artillery"
+		name= "XI. Kavalleriebrigade"
 		type = artillery
-		home = 692
+		home = 573
+	}
+	
+	regiment = {
+		name= "I. Kavalleriebrigade"
+		type = hussar
+		home = 2561
 	}
 
 	regiment = {
-		name = "Artillery"
+		name= "II. Kavalleriebrigade"
+		type = infantry
+		home = 578
+	}
+
+	regiment = {
+		name= "III. Kavalleriebrigade"
+		type = infantry
+		home = 581
+	}
+
+	regiment = {
+		name= "IV. Kavalleriebrigade"
+		type = infantry
+		home = 580
+	}
+
+	regiment = {
+		name= "V. Kavalleriebrigade"
+		type = infantry
+		home = 573
+	}
+
+	regiment = {
+		name= "VI. Kavalleriebrigade"
 		type = artillery
-		home = 594
+		home = 584
 	}
 
 	regiment = {
-		name= "Infantry"
-		type = infantry
-		home = 701
+		name= "VII. Kavalleriebrigade"
+		type = artillery
+		home = 554
 	}
 
 	regiment = {
-		name = "Infantry"
-		type = infantry
-		home = 701
+		name= "X. Kavalleriebrigade"
+		type = artillery
+		home = 548
 	}
-
+	
 	regiment = {
-		name = "Infantry"
-		type = infantry
-		home = 537
-	}
-
-	regiment = {
-		name = "Infantry"
-		type = infantry
-		home = 546
+		name= "XVI. Linieninfanteriebrigade"
+		type = artillery
+		home = 548
 	}
 }
 

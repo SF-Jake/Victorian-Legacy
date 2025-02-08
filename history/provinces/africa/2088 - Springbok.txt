@@ -1,10 +1,9 @@
-add_core = COM
-add_core = SAF
 trade_goods = wool
 life_rating = 30
-1913.1.1 = {
-owner = SAF
-controller = SAF
-life_rating = 35
-colonial = 0
+add_core = COM
+1861.1.1 = {
+	owner = COM
+	controller = COM
+	colonial = 2
 }
+

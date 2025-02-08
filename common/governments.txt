@@ -1,35 +1,7 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new forms of governemnts, make sure they are uniquely named.
 
-theocracy =
-{
-	#which ideology of parties.
-	reactionary = yes
-	
-	election = no
-	appoint_ruling_party = yes
-}
 
-tribal_society =
-{
-	#which ideology of parties.
-	conservative = yes
-	reactionary = yes
-	
-	election = no
-	appoint_ruling_party = yes
-}
-
-colonial_company =
-{
-	#which ideology of parties.
-	liberal = yes
-	conservative = yes
-	reactionary = yes
-	
-	election = no
-	appoint_ruling_party = yes
-}
 
 proletarian_dictatorship =
 {
@@ -40,6 +12,7 @@ proletarian_dictatorship =
 	appoint_ruling_party = yes
 	flagType = communist
 }
+
 
 
 presidential_dictatorship =
@@ -124,73 +97,7 @@ democracy = {
 	
 	election = yes
 	duration = 48
-	appoint_ruling_party = no
+	appoint_ruling_party = yes
 }
  
-state_of_emergency_proletarian_dictatorship = {
-	communist = yes
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = communist
-}
 
-state_of_emergency_presidential_dictatorship = {
-	reactionary = yes
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = republic
-}
-
-state_of_emergency_bourgeois_dictatorship = {
-	reactionary = yes
-
-	election = no
-	appoint_ruling_party = yes
-	flagType = republic
-}
-
-state_of_emergency_fascist_dictatorship = {
-	fascist = yes
-
-	election = no
-	appoint_ruling_party = yes
-	flagType = fascist
-}
-
-state_of_emergency_absolute_monarchy = {
-	conservative = yes
-	reactionary = yes
-
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
-
-state_of_emergency_prussian_constitutionalism = {
-	conservative = yes
-	reactionary = yes
-	
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
-
-state_of_emergency_hms_government = {
-	conservative = yes
-	reactionary = yes
-
-	election = no
-	appoint_ruling_party = yes
-	flagType = monarchy
-}
- 
-state_of_emergency_democracy = {
-	liberal = yes
-	conservative = yes
-	reactionary = yes
-
-	election = no
-	appoint_ruling_party = yes
-}

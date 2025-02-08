@@ -1,45 +1,51 @@
 owner = SAR
 controller = SAR
 add_core = SAR
-add_core = ITA
-trade_goods = fruit
-life_rating = 40
-1913.1.1 = {
-	owner = ITA
+#add_core = ITA
+
+trade_goods = grain
+life_rating = 38
+state_building = {
+	level = 2
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+1861.1.1 = {
 	controller = ITA
+	owner = ITA
+	#add_core = ITA
+}
+1861.1.1 = {
 	state_building = {
-		level = 7
-		building = canned_food_factory
-		upgrade = yes
+	level = 3
+	building = ammunition_factory
+	upgrade = yes
 	}
 	state_building = {
-		level = 10
-		building = small_arms_factory
-		upgrade = yes
+	level = 1
+	building = fabric_factory
+	upgrade = yes
 	}
 	state_building = {
-		level = 7
-		building = cement_factory
-		upgrade = yes
+	level = 1
+	building = regular_clothes_factory
+	upgrade = yes
 	}
 	state_building = {
-		level = 7
-		building = glass_factory
-		upgrade = yes
+	level = 1
+	building = luxury_clothes_factory
+	upgrade = yes
 	}
 	state_building = {
-		level = 7
-		building = regular_clothes_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 3
-		building = steamer_shipyard
-		upgrade = yes
-	}
-	state_building = {
-		level = 7
-		building = ammunition_factory
-		upgrade = yes
+	level = 1
+	building = artillery_factory
+	upgrade = yes
 	}
 }
+1861.1.1 = { railroad = 3 }
+

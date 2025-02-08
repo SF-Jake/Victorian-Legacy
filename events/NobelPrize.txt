@@ -12,14 +12,16 @@ country_event = {
 	news_desc_short = "EVTDESC23450_NEWS_SHORT"
 
 	trigger = {
-		war = no
-		tag = SWE 
+		OR = {
+			tag = SWE
+			tag = SCA
+		} 
 		year = 1898
 		not = {
 			year = 1905
 			has_global_flag = NobelPhysics
 		}
-		war = no
+		war = no 
 	}
  
 	mean_time_to_happen =  {
@@ -56,7 +58,6 @@ country_event = {
 	id = 23451 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		year = 1901
 		electricity = 1
@@ -103,7 +104,6 @@ country_event = {
 	id = 23452 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 1NobelPhysics
 		year = 1902
@@ -151,7 +151,6 @@ country_event = {
 	id = 23453 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 2NobelPhysics
 		year = 1903
@@ -199,7 +198,6 @@ country_event = {
 	id = 23454 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 3NobelPhysics
 		year = 1904
@@ -247,7 +245,6 @@ country_event = {
 	id = 23455 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 4NobelPhysics
 		year = 1905
@@ -295,7 +292,6 @@ country_event = {
 	id = 23456 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 5NobelPhysics
 		year = 1906
@@ -343,7 +339,6 @@ country_event = {
 	id = 23457 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 8NobelPhysics
 		year = 1907
@@ -391,7 +386,6 @@ country_event = {
 	id = 23458 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 7NobelPhysics
 		year = 1908
@@ -439,7 +433,6 @@ country_event = {
 	id = 23459 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 8NobelPhysics
 		year = 1909
@@ -487,7 +480,6 @@ country_event = {
 	id = 23460
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 9NobelPhysics
 		year = 1910
@@ -535,7 +527,6 @@ country_event = {
 	id = 23461
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 10NobelPhysics
 		year = 1911
@@ -583,7 +574,6 @@ country_event = {
 	id = 23462
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 11NobelPhysics
 		year = 1912
@@ -631,7 +621,6 @@ country_event = {
 	id = 23463
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 12NobelPhysics
 		year = 1913
@@ -679,7 +668,6 @@ country_event = {
 	id = 23464
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 13NobelPhysics
 		year = 1914
@@ -727,7 +715,6 @@ country_event = {
 	id = 23465
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 14NobelPhysics
 		year = 1915
@@ -775,7 +762,6 @@ country_event = {
 	id = 23466
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 15NobelPhysics
 		year = 1916
@@ -823,7 +809,6 @@ country_event = {
 	id = 23467
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 16NobelPhysics
 		year = 1917
@@ -871,7 +856,6 @@ country_event = {
 	id = 23468
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 17NobelPhysics
 		year = 1918
@@ -919,7 +903,6 @@ country_event = {
 	id = 23469
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 18NobelPhysics
 		year = 1919
@@ -967,7 +950,6 @@ country_event = {
 	id = 23470
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 19NobelPhysics
 		year = 1920
@@ -1015,7 +997,6 @@ country_event = {
 	id = 23471
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 20NobelPhysics
 		year = 1921
@@ -1063,7 +1044,6 @@ country_event = {
 	id = 23472
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 21NobelPhysics
 		year = 1922
@@ -1111,7 +1091,6 @@ country_event = {
 	id = 23473
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 22NobelPhysics
 		year = 1923
@@ -1159,7 +1138,6 @@ country_event = {
 	id = 23474
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 23NobelPhysics
 		year = 1924
@@ -1207,7 +1185,6 @@ country_event = {
 	id = 23475
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 24NobelPhysics
 		year = 1925
@@ -1255,7 +1232,6 @@ country_event = {
 	id = 23476
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 25NobelPhysics
 		year = 1926
@@ -1303,7 +1279,6 @@ country_event = {
 	id = 23477
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 26NobelPhysics
 		year = 1927
@@ -1351,7 +1326,6 @@ country_event = {
 	id = 23478
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 27NobelPhysics
 		year = 1928
@@ -1399,7 +1373,6 @@ country_event = {
 	id = 23479
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 28NobelPhysics
 		year = 1929
@@ -1447,7 +1420,6 @@ country_event = {
 	id = 23480
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 29NobelPhysics
 		year = 1930
@@ -1495,7 +1467,6 @@ country_event = {
 	id = 23481
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 30NobelPhysics
 		year = 1931
@@ -1543,7 +1514,6 @@ country_event = {
 	id = 23482
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 31NobelPhysics
 		year = 1932
@@ -1591,7 +1561,6 @@ country_event = {
 	id = 23483
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 32NobelPhysics
 		year = 1933
@@ -1639,7 +1608,6 @@ country_event = {
 	id = 23484
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 33NobelPhysics
 		year = 1934
@@ -1687,7 +1655,6 @@ country_event = {
 	id = 23485
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPhysics
 		has_global_flag = 34NobelPhysics
 		year = 1935
@@ -1736,7 +1703,6 @@ country_event = {
 	id = 23491 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		year = 1901
 		electricity = 1
@@ -1783,7 +1749,6 @@ country_event = {
 	id = 23492 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 1NobelChemistry
 		year = 1902
@@ -1831,7 +1796,6 @@ country_event = {
 	id = 23493 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 2NobelChemistry
 		year = 1903
@@ -1879,7 +1843,6 @@ country_event = {
 	id = 23494 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 3NobelChemistry
 		year = 1904
@@ -1927,7 +1890,6 @@ country_event = {
 	id = 23495 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 4NobelChemistry
 		year = 1905
@@ -1974,7 +1936,6 @@ country_event = {
 	id = 23496 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 5NobelChemistry
 		year = 1906
@@ -2022,9 +1983,8 @@ country_event = {
 	id = 23497 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
-		has_global_flag = 8NobelChemistry
+		has_global_flag = 6NobelChemistry
 		year = 1907
 		electricity = 1
 		not = {
@@ -2070,7 +2030,6 @@ country_event = {
 	id = 23498 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 7NobelChemistry
 		year = 1908
@@ -2118,7 +2077,6 @@ country_event = {
 	id = 23499 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 8NobelChemistry
 		year = 1909
@@ -2166,7 +2124,6 @@ country_event = {
 	id = 23500
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 9NobelChemistry
 		year = 1910
@@ -2214,7 +2171,6 @@ country_event = {
 	id = 23501
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 10NobelChemistry
 		year = 1911
@@ -2262,7 +2218,6 @@ country_event = {
 	id = 23502
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 11NobelChemistry
 		year = 1912
@@ -2310,7 +2265,6 @@ country_event = {
 	id = 23503
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 12NobelChemistry
 		year = 1913
@@ -2358,7 +2312,6 @@ country_event = {
 	id = 23504
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 13NobelChemistry
 		year = 1914
@@ -2406,7 +2359,6 @@ country_event = {
 	id = 23505
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 14NobelChemistry
 		year = 1915
@@ -2454,7 +2406,6 @@ country_event = {
 	id = 23506
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 15NobelChemistry
 		year = 1916
@@ -2502,7 +2453,6 @@ country_event = {
 	id = 23507
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 16NobelChemistry
 		year = 1917
@@ -2550,7 +2500,6 @@ country_event = {
 	id = 23508
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 17NobelChemistry
 		year = 1918
@@ -2598,7 +2547,6 @@ country_event = {
 	id = 23509
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 18NobelChemistry
 		year = 1919
@@ -2646,7 +2594,6 @@ country_event = {
 	id = 23510
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 19NobelChemistry
 		year = 1920
@@ -2694,7 +2641,6 @@ country_event = {
 	id = 23511
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 20NobelChemistry
 		year = 1921
@@ -2742,7 +2688,6 @@ country_event = {
 	id = 23512
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 21NobelChemistry
 		year = 1922
@@ -2790,7 +2735,6 @@ country_event = {
 	id = 23513
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 22NobelChemistry
 		year = 1923
@@ -2838,7 +2782,6 @@ country_event = {
 	id = 23514
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 23NobelChemistry
 		year = 1924
@@ -2886,7 +2829,6 @@ country_event = {
 	id = 23515
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 24NobelChemistry
 		year = 1925
@@ -2934,7 +2876,6 @@ country_event = {
 	id = 23516
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 25NobelChemistry
 		year = 1926
@@ -2982,7 +2923,6 @@ country_event = {
 	id = 23517
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 26NobelChemistry
 		year = 1927
@@ -3030,7 +2970,6 @@ country_event = {
 	id = 23518
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 27NobelChemistry
 		year = 1928
@@ -3078,7 +3017,6 @@ country_event = {
 	id = 23519
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 28NobelChemistry
 		year = 1929
@@ -3126,7 +3064,6 @@ country_event = {
 	id = 23520
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 29NobelChemistry
 		year = 1930
@@ -3174,7 +3111,6 @@ country_event = {
 	id = 23521
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 30NobelChemistry
 		year = 1931
@@ -3222,7 +3158,6 @@ country_event = {
 	id = 23522
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 31NobelChemistry
 		year = 1932
@@ -3270,7 +3205,6 @@ country_event = {
 	id = 23523
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 32NobelChemistry
 		year = 1933
@@ -3318,7 +3252,6 @@ country_event = {
 	id = 23524
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 33NobelChemistry
 		year = 1934
@@ -3366,7 +3299,6 @@ country_event = {
 	id = 23525
 
 	trigger = {
-		war = no
 		has_global_flag = NobelChemistry
 		has_global_flag = 34NobelChemistry
 		year = 1935
@@ -3415,7 +3347,6 @@ country_event = {
 	id = 23531 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		year = 1901
 		organic_chemistry = 1
@@ -3462,7 +3393,6 @@ country_event = {
 	id = 23532 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 1NobelMedicine
 		year = 1902
@@ -3510,7 +3440,6 @@ country_event = {
 	id = 23533 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 2NobelMedicine
 		year = 1903
@@ -3558,7 +3487,6 @@ country_event = {
 	id = 23534 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 3NobelMedicine
 		year = 1904
@@ -3606,7 +3534,6 @@ country_event = {
 	id = 23535 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 4NobelMedicine
 		year = 1905
@@ -3654,7 +3581,6 @@ country_event = {
 	id = 23536 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 5NobelMedicine
 		year = 1906
@@ -3702,9 +3628,8 @@ country_event = {
 	id = 23537 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
-		has_global_flag = 8NobelMedicine
+		has_global_flag = 6NobelMedicine
 		year = 1907
 		organic_chemistry = 1
 		not = {
@@ -3750,7 +3675,6 @@ country_event = {
 	id = 23538 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 7NobelMedicine
 		year = 1908
@@ -3798,7 +3722,6 @@ country_event = {
 	id = 23539 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 8NobelMedicine
 		year = 1909
@@ -3846,7 +3769,6 @@ country_event = {
 	id = 23540
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 9NobelMedicine
 		year = 1910
@@ -3894,7 +3816,6 @@ country_event = {
 	id = 23541
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 10NobelMedicine
 		year = 1911
@@ -3942,7 +3863,6 @@ country_event = {
 	id = 23542
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 11NobelMedicine
 		year = 1912
@@ -3990,7 +3910,6 @@ country_event = {
 	id = 23543
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 12NobelMedicine
 		year = 1913
@@ -4038,7 +3957,6 @@ country_event = {
 	id = 23544
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 13NobelMedicine
 		year = 1914
@@ -4086,7 +4004,6 @@ country_event = {
 	id = 23545
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 14NobelMedicine
 		year = 1915
@@ -4134,7 +4051,6 @@ country_event = {
 	id = 23546
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 15NobelMedicine
 		year = 1916
@@ -4182,7 +4098,6 @@ country_event = {
 	id = 23547
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 16NobelMedicine
 		year = 1917
@@ -4230,7 +4145,6 @@ country_event = {
 	id = 23548
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 17NobelMedicine
 		year = 1918
@@ -4278,7 +4192,6 @@ country_event = {
 	id = 23549
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 18NobelMedicine
 		year = 1919
@@ -4326,7 +4239,6 @@ country_event = {
 	id = 23550
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 19NobelMedicine
 		year = 1920
@@ -4374,7 +4286,6 @@ country_event = {
 	id = 23551
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 20NobelMedicine
 		year = 1921
@@ -4422,7 +4333,6 @@ country_event = {
 	id = 23552
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 21NobelMedicine
 		year = 1922
@@ -4470,7 +4380,6 @@ country_event = {
 	id = 23553
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 22NobelMedicine
 		year = 1923
@@ -4518,7 +4427,6 @@ country_event = {
 	id = 23554
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 23NobelMedicine
 		year = 1924
@@ -4566,7 +4474,6 @@ country_event = {
 	id = 23555
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 24NobelMedicine
 		year = 1925
@@ -4614,7 +4521,6 @@ country_event = {
 	id = 23556
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 25NobelMedicine
 		year = 1926
@@ -4662,7 +4568,6 @@ country_event = {
 	id = 23557
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 26NobelMedicine
 		year = 1927
@@ -4710,7 +4615,6 @@ country_event = {
 	id = 23558
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 27NobelMedicine
 		year = 1928
@@ -4758,7 +4662,6 @@ country_event = {
 	id = 23559
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 28NobelMedicine
 		year = 1929
@@ -4806,7 +4709,6 @@ country_event = {
 	id = 23560
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 29NobelMedicine
 		year = 1930
@@ -4854,7 +4756,6 @@ country_event = {
 	id = 23561
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 30NobelMedicine
 		year = 1931
@@ -4902,7 +4803,6 @@ country_event = {
 	id = 23562
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 31NobelMedicine
 		year = 1932
@@ -4950,7 +4850,6 @@ country_event = {
 	id = 23563
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 32NobelMedicine
 		year = 1933
@@ -4998,7 +4897,6 @@ country_event = {
 	id = 23564
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 33NobelMedicine
 		year = 1934
@@ -5046,7 +4944,6 @@ country_event = {
 	id = 23565
 
 	trigger = {
-		war = no
 		has_global_flag = NobelMedicine
 		has_global_flag = 34NobelMedicine
 		year = 1935
@@ -5095,7 +4992,6 @@ country_event = {
 	id = 23571 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		year = 1901
 		impressionism = 1
@@ -5142,7 +5038,6 @@ country_event = {
 	id = 23572 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 1NobelLiterature
 		year = 1902
@@ -5190,7 +5085,6 @@ country_event = {
 	id = 23573 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 2NobelLiterature
 		year = 1903
@@ -5238,7 +5132,6 @@ country_event = {
 	id = 23574 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 3NobelLiterature
 		year = 1904
@@ -5286,7 +5179,6 @@ country_event = {
 	id = 23575 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 4NobelLiterature
 		year = 1905
@@ -5334,7 +5226,6 @@ country_event = {
 	id = 23576 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 5NobelLiterature
 		year = 1906
@@ -5382,9 +5273,8 @@ country_event = {
 	id = 23577 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
-		has_global_flag = 8NobelLiterature
+		has_global_flag = 6NobelLiterature
 		year = 1907
 		impressionism = 1
 		not = {
@@ -5430,7 +5320,6 @@ country_event = {
 	id = 23578 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 7NobelLiterature
 		year = 1908
@@ -5478,7 +5367,6 @@ country_event = {
 	id = 23579 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 8NobelLiterature
 		year = 1909
@@ -5526,7 +5414,6 @@ country_event = {
 	id = 23580
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 9NobelLiterature
 		year = 1910
@@ -5574,7 +5461,6 @@ country_event = {
 	id = 23581
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 10NobelLiterature
 		year = 1911
@@ -5622,7 +5508,6 @@ country_event = {
 	id = 23582
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 11NobelLiterature
 		year = 1912
@@ -5670,7 +5555,6 @@ country_event = {
 	id = 23583
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 12NobelLiterature
 		year = 1913
@@ -5718,7 +5602,6 @@ country_event = {
 	id = 23584
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 13NobelLiterature
 		year = 1914
@@ -5766,7 +5649,6 @@ country_event = {
 	id = 23585
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 14NobelLiterature
 		year = 1915
@@ -5814,7 +5696,6 @@ country_event = {
 	id = 23586
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 15NobelLiterature
 		year = 1916
@@ -5862,7 +5743,6 @@ country_event = {
 	id = 23587
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 16NobelLiterature
 		year = 1917
@@ -5910,7 +5790,6 @@ country_event = {
 	id = 23588
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 17NobelLiterature
 		year = 1918
@@ -5958,7 +5837,6 @@ country_event = {
 	id = 23589
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 18NobelLiterature
 		year = 1919
@@ -6006,7 +5884,6 @@ country_event = {
 	id = 23590
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 19NobelLiterature
 		year = 1920
@@ -6054,7 +5931,6 @@ country_event = {
 	id = 23591
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 20NobelLiterature
 		year = 1921
@@ -6102,7 +5978,6 @@ country_event = {
 	id = 23592
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 21NobelLiterature
 		year = 1922
@@ -6150,7 +6025,6 @@ country_event = {
 	id = 23593
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 22NobelLiterature
 		year = 1923
@@ -6198,7 +6072,6 @@ country_event = {
 	id = 23594
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 23NobelLiterature
 		year = 1924
@@ -6246,7 +6119,6 @@ country_event = {
 	id = 23595
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 24NobelLiterature
 		year = 1925
@@ -6294,7 +6166,6 @@ country_event = {
 	id = 23596
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 25NobelLiterature
 		year = 1926
@@ -6342,7 +6213,6 @@ country_event = {
 	id = 23597
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 26NobelLiterature
 		year = 1927
@@ -6390,7 +6260,6 @@ country_event = {
 	id = 23598
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 27NobelLiterature
 		year = 1928
@@ -6438,7 +6307,6 @@ country_event = {
 	id = 23599
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 28NobelLiterature
 		year = 1929
@@ -6486,7 +6354,6 @@ country_event = {
 	id = 23600
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 29NobelLiterature
 		year = 1930
@@ -6534,7 +6401,6 @@ country_event = {
 	id = 23601
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 30NobelLiterature
 		year = 1931
@@ -6582,7 +6448,6 @@ country_event = {
 	id = 23602
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 31NobelLiterature
 		year = 1932
@@ -6630,7 +6495,6 @@ country_event = {
 	id = 23603
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 32NobelLiterature
 		year = 1933
@@ -6678,7 +6542,6 @@ country_event = {
 	id = 23604
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 33NobelLiterature
 		year = 1934
@@ -6726,7 +6589,6 @@ country_event = {
 	id = 23605
 
 	trigger = {
-		war = no
 		has_global_flag = NobelLiterature
 		has_global_flag = 34NobelLiterature
 		year = 1935
@@ -6775,7 +6637,6 @@ country_event = {
 	id = 23611 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		year = 1901
 		idealism = 1
@@ -6822,7 +6683,6 @@ country_event = {
 	id = 23612 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 1NobelPeace
 		year = 1902
@@ -6870,7 +6730,6 @@ country_event = {
 	id = 23613 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 2NobelPeace
 		year = 1903
@@ -6918,7 +6777,6 @@ country_event = {
 	id = 23614 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 3NobelPeace
 		year = 1904
@@ -6966,7 +6824,6 @@ country_event = {
 	id = 23615 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 4NobelPeace
 		year = 1905
@@ -7014,7 +6871,6 @@ country_event = {
 	id = 23616 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 5NobelPeace
 		year = 1906
@@ -7062,9 +6918,8 @@ country_event = {
 	id = 23617 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
-		has_global_flag = 8NobelPeace
+		has_global_flag = 6NobelPeace
 		year = 1907
 		idealism = 1
 		not = {
@@ -7110,7 +6965,6 @@ country_event = {
 	id = 23618 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 7NobelPeace
 		year = 1908
@@ -7158,7 +7012,6 @@ country_event = {
 	id = 23619 
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 8NobelPeace
 		year = 1909
@@ -7206,7 +7059,6 @@ country_event = {
 	id = 23620
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 9NobelPeace
 		year = 1910
@@ -7255,7 +7107,6 @@ country_event = {
 	id = 23621
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 10NobelPeace
 		year = 1911
@@ -7303,7 +7154,6 @@ country_event = {
 	id = 23622
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 11NobelPeace
 		year = 1912
@@ -7351,7 +7201,6 @@ country_event = {
 	id = 23623
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 12NobelPeace
 		year = 1913
@@ -7399,7 +7248,6 @@ country_event = {
 	id = 23624
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 13NobelPeace
 		year = 1914
@@ -7447,7 +7295,6 @@ country_event = {
 	id = 23625
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 14NobelPeace
 		year = 1915
@@ -7495,7 +7342,6 @@ country_event = {
 	id = 23626
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 15NobelPeace
 		year = 1916
@@ -7543,7 +7389,6 @@ country_event = {
 	id = 23627
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 16NobelPeace
 		year = 1917
@@ -7591,7 +7436,6 @@ country_event = {
 	id = 23628
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 17NobelPeace
 		year = 1918
@@ -7639,7 +7483,6 @@ country_event = {
 	id = 23629
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 18NobelPeace
 		year = 1919
@@ -7687,7 +7530,6 @@ country_event = {
 	id = 23630
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 19NobelPeace
 		year = 1920
@@ -7735,7 +7577,6 @@ country_event = {
 	id = 23631
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 20NobelPeace
 		year = 1921
@@ -7783,7 +7624,6 @@ country_event = {
 	id = 23632
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 21NobelPeace
 		year = 1922
@@ -7831,7 +7671,6 @@ country_event = {
 	id = 23633
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 22NobelPeace
 		year = 1923
@@ -7879,7 +7718,6 @@ country_event = {
 	id = 23634
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 23NobelPeace
 		year = 1924
@@ -7927,7 +7765,6 @@ country_event = {
 	id = 23635
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 24NobelPeace
 		year = 1925
@@ -7975,7 +7812,6 @@ country_event = {
 	id = 23636
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 25NobelPeace
 		year = 1926
@@ -8023,7 +7859,6 @@ country_event = {
 	id = 23637
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 26NobelPeace
 		year = 1927
@@ -8071,7 +7906,6 @@ country_event = {
 	id = 23638
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 27NobelPeace
 		year = 1928
@@ -8119,7 +7953,6 @@ country_event = {
 	id = 23639
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 28NobelPeace
 		year = 1929
@@ -8167,7 +8000,6 @@ country_event = {
 	id = 23640
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 29NobelPeace
 		year = 1930
@@ -8215,7 +8047,6 @@ country_event = {
 	id = 23641
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 30NobelPeace
 		year = 1931
@@ -8263,7 +8094,6 @@ country_event = {
 	id = 23642
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 31NobelPeace
 		year = 1932
@@ -8311,7 +8141,6 @@ country_event = {
 	id = 23643
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 32NobelPeace
 		year = 1933
@@ -8359,7 +8188,6 @@ country_event = {
 	id = 23644
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 33NobelPeace
 		year = 1934
@@ -8407,7 +8235,6 @@ country_event = {
 	id = 23645
 
 	trigger = {
-		war = no
 		has_global_flag = NobelPeace
 		has_global_flag = 34NobelPeace
 		year = 1935

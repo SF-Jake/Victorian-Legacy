@@ -1,64 +1,64 @@
-#Mawarannahr Region (200000) #see Kazakhstan.txt, Uzbekistan.txt, Kirghizstan.txt and Turkmenistan.txt for balance of region 
+#Mawarannahr Region (200000) #see turkichstan.txt, turkicistan.txt, Kirghizstan.txt and turkicistan.txt for balance of region 
 #under the rule of Kokand in 1836  
-#Khujand (200000/50000 POPS) #now part of Tajikistan  
+#Khujand (200000/50000 POPS) #now part of turkicistan  
 1201 = {
 	aristocrats = {
-		culture = turkmen
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 775
 	}
 
 	clergymen = {
-		culture = turkmen
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 400
 	}
 
 	artisans = {
-		culture = turkmen
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 2000
 	}
 
 	soldiers = {
-		culture = turkmen
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 400
 	}
 
 	farmers = {
-		culture = turkmen
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 36425
 	}
 
 	aristocrats = {
-		culture = pashtun
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 175
 	}
 
 	clergymen = {
-		culture = pashtun
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 75
 	}
 
 	artisans = {
-		culture = pashtun
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 500
 	}
 
 	soldiers = {
-		culture = pashtun
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 100
 	}
 
 	farmers = {
-		culture = pashtun
-		religion = sunni
+		culture = turkic
+		religion = placeholder
 		size = 9150
 	}
 }
@@ -66,126 +66,96 @@
 #under the rule of Kokand in 1836  
 #Kulob (120000/30000 POPS)   
 1207 = {
-    aristocrats = {
-        culture = pashtun
-        religion = sunni
-        size = 575
-    }
+	aristocrats = {
+		culture = turkic
+		religion = placeholder
+		size = 575
+	}
 
-    clergymen = {
-        culture = pashtun
-        religion = sunni
-        size = 275
-    }
+	clergymen = {
+		culture = turkic
+		religion = placeholder
+		size = 275
+	}
 
-    artisans = {
-        culture = pashtun
-        religion = sunni
-        size = 1450
-    }
+	artisans = {
+		culture = turkic
+		religion = placeholder
+		size = 1450
+	}
 
-    soldiers = {
-        culture = pashtun
-        religion = sunni
-        size = 250
-    }
+	soldiers = {
+		culture = turkic
+		religion = placeholder
+		size = 250
+	}
 
-    farmers = {
-        culture = pashtun
-        religion = sunni
-        size = 27450
-    }
-
-    slaves = {
-        culture = pashtun
-        religion = sunni
-        size = 2000
-    }
-
-    slaves = {
-        culture = uighur
-        religion = sunni
-        size = 4000
-    }
+	farmers = {
+		culture = turkic
+		religion = placeholder
+		size = 27450
+	}
 }
 #Khorugh (92000/23000 POPS)   
 1208 = {
-    aristocrats = {
-        culture = pashtun
-        religion = sunni
-        size = 350
-    }
+	aristocrats = {
+		culture = turkic
+		religion = placeholder
+		size = 350
+	}
 
-    bureaucrats = {
-        culture = pashtun
-        religion = sunni
-        size = 150
-    }
+	clergymen = {
+		culture = turkic
+		religion = placeholder
+		size = 175
+	}
 
-    clergymen = {
-        culture = pashtun
-        religion = sunni
-        size = 175
-    }
+	artisans = {
+		culture = turkic
+		religion = placeholder
+		size = 850
+	}
 
-    artisans = {
-        culture = pashtun
-        religion = sunni
-        size = 850
-    }
+	soldiers = {
+		culture = turkic
+		religion = placeholder
+		size = 175
+	}
 
-    officers = {
-        culture = pashtun
-        religion = sunni
-        size = 100
-    }
+	farmers = {
+		culture = turkic
+		religion = placeholder
+		size = 17450
+	}
 
-    soldiers = {
-        culture = pashtun
-        religion = sunni
-        size = 1000
-    }
+	aristocrats = {
+		culture = turkic
+		religion = placeholder
+		size = 75
+	}
 
-    farmers = {
-        culture = pashtun
-        religion = sunni
-        size = 25450
-    }
+	clergymen = {
+		culture = turkic
+		religion = placeholder
+		size = 75
+	}
 
-    aristocrats = {
-        culture = kazak
-        religion = sunni
-        size = 75
-    }
+	artisans = {
+		culture = turkic
+		religion = placeholder
+		size = 175
+	}
 
-    clergymen = {
-        culture = kazak
-        religion = sunni
-        size = 75
-    }
+	soldiers = {
+		culture = turkic
+		religion = placeholder
+		size = 25
+	}
 
-    artisans = {
-        culture = kazak
-        religion = sunni
-        size = 175
-    }
-
-    soldiers = {
-        culture = kazak
-        religion = sunni
-        size = 500
-    }
-
-    farmers = {
-        culture = kazak
-        religion = sunni
-        size = 3650
-    }
-
-    slaves = {
-        culture = uighur
-        religion = sunni
-        size = 5000
-    }
+	farmers = {
+		culture = turkic
+		religion = placeholder
+		size = 3650
+	}
 
 }

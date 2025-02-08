@@ -3,71 +3,77 @@
 #Port au Prince (312000/78000 POPS)
 2213 = {
 	aristocrats = {
-		culture = afro_caribbean
-		religion = catholic
+		culture = afro_antillean
+		religion = placeholder
 		size = 825
 	}
-	
+
+	bureaucrats = {
+		culture = afro_antillean
+		religion = placeholder
+		size = 150
+	}
+
 	officers = {
-		culture = afro_caribbean
-		religion = catholic
+		culture = afro_antillean
+		religion = placeholder
 		size = 150
 	}
 
 	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 175
+		culture = afro_antillean
+		religion = placeholder
+		size = 775
 	}
 
 	artisans = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 4050
+		culture = afro_antillean
+		religion = placeholder
+		size = 3900
 	}
 
 	soldiers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 1100
+		culture = afro_antillean
+		religion = placeholder
+		size = 4000
 	}
 
 	farmers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 67300
+		culture = afro_antillean
+		religion = placeholder
+		size = 68300
 	}
 }
 #Cap Haitien (204000/51000 POPS)
 2215 = {
 	aristocrats = {
-		culture = afro_caribbean
-		religion = catholic
+		culture = afro_antillean
+		religion = placeholder
 		size = 550
 	}
 
 	clergymen = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 125
+		culture = afro_antillean
+		religion = placeholder
+		size = 475
 	}
 
 	artisans = {
-		culture = afro_caribbean
-		religion = catholic
+		culture = afro_antillean
+		religion = placeholder
 		size = 2550
 	}
 
 	soldiers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 200
+		culture = afro_antillean
+		religion = placeholder
+		size = 1100
 	}
 
 	farmers = {
-		culture = afro_caribbean
-		religion = catholic
-		size = 46825
+		culture = afro_antillean
+		religion = placeholder
+		size = 46425
 	}
 
 }

@@ -1,40 +1,10 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-ORA = { value = 200 }
-
 army = {
 	name = "Army of Transvaal"
-	location = 2106
+	location = 2105
 	regiment = {
 		name= "1.Transvaal Commando"
 		type = infantry
-		home = 2106
-	}
-	regiment = {
-		name= "2.Transvaal Commando"
-		type = infantry
-		home = 2107
-	}
-	regiment = {
-		name= "1. Native Cavalry"
-		type = cavalry
-		home = 2107
+		home = 2105
 	}
 }
 
-leader = {
-	name = "Andries Pretorius"
-	type = land
-	date = 1836.1.1
-	personality = mor10_1
-	background = 5a5d_1
-	prestige = 0.9
-}

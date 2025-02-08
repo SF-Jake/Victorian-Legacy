@@ -1,14 +1,15 @@
 owner = AUS
 controller = AUS
-add_core = AUS
 add_core = MOL
-add_core = ROM
+add_core = PLC
+#add_core = RUT
+#add_core = ROM
+
 #add_core = UKR
-trade_goods = timber
+#add_core = RUT
+trade_goods = cattle
 life_rating = 35
-1913.1.1 = {
-	owner = KUK
-	controller = KUK
-	remove_core = AUS
-	add_core = KUK
+1861.1.1 = {
+	remove_core = MOL
 }
+

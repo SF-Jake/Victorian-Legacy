@@ -1,8 +1,7 @@
-trade_goods = timber
+add_core = COM
+trade_goods = fish
 life_rating = 15
-1913.1.1 = {
-	owner = CAN
-	controller = CAN
-	remove_core = RPL
-	life_rating = 35
+1836.1.2 = {
+	remove_core = COM
+	add_core = CAN
 }

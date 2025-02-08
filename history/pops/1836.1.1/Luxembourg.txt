@@ -2,88 +2,81 @@
 #In personal union with Netherlands in 1836
 #Luxembourg (172000/43000 POPS)
 397 = {
-	aristocrats = {
-		culture = north_german
-		religion = catholic
-		size = 175
-	}
+    aristocrats = {
+        culture = north_german
+        religion = placeholder
+        size = 175
+    }
 
-	bureaucrats = {
-		culture = north_german
-		religion = catholic
-		size = 25
-	}
+    bureaucrats = {
+        culture = north_german
+        religion = placeholder
+        size = 125
+    }
 
-	clergymen = {
-		culture = north_german
-		religion = catholic
-		size = 150
-	}
+    clergymen = {
+        culture = north_german
+        religion = placeholder
+        size = 150
+    }
 
-	artisans = {
-		culture = north_german
-		religion = catholic
-		size = 13150
-	}
+    artisans = {
+        culture = north_german
+        religion = placeholder
+        size = 750
+    }
 
-	soldiers = {
-		culture = north_german
-		religion = catholic
-		size = 2000
-	}
+    soldiers = {
+        culture = north_german
+        religion = placeholder
+        size = 2000
+    }
 
-	labourers = {
-		culture = north_german
-		religion = catholic
-		size = 2500
-	}
+    farmers = {
+        culture = north_german
+        religion = placeholder
+        size = 14900
+    }
 
-	aristocrats = {
-		culture = french
-		religion = catholic
-		size = 250
-	}
+    aristocrats = {
+        culture = french
+        religion = placeholder
+        size = 250
+    }
 
-	officers = {
-		culture = french
-		religion = catholic
-		size = 50
-	}
+    officers = {
+        culture = french
+        religion = placeholder
+        size = 50
+    }
 
-	bureaucrats = {
-		culture = french
-		religion = catholic
-		size = 50
-	}
+    bureaucrats = {
+        culture = french
+        religion = placeholder
+        size = 250
+    }
 
-	clergymen = {
-		culture = french
-		religion = catholic
-		size = 275
-	}
+    clergymen = {
+        culture = french
+        religion = placeholder
+        size = 275
+    }
 
-	artisans = {
-		culture = french
-		religion = catholic
-		size = 12625
-	}
+    artisans = {
+        culture = french
+        religion = placeholder
+        size = 1750
+    }
 
-	artisans = {
-		culture = french
-		religion = catholic
-		size = 10000
-	}
+    soldiers = {
+        culture = french
+        religion = placeholder
+        size = 250
+    }
 
-	soldiers = {
-		culture = french
-		religion = catholic
-		size = 250
-	}
-
-	labourers = {
-		culture = french
-		religion = catholic
-		size = 2500
-	}
-
+    farmers = {
+        culture = french
+        religion = placeholder
+        size = 23375
+    }
 }

@@ -1,27 +1,17 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 leader = {
 	name = "Zovawar Singh"
 	type = land
 	date = 1836.1.1
-	personality = mor10_1
-	background = 1a1d_1
+	personality = sharp
+	background = spoiled
 }
 
 leader = {
 	name = "Gulub Singh"
 	type = land
 	date = 1836.1.1
-	personality = mor10_1
-	background = 1a1d_1
+	personality = competent
+	background = aristocrat
 }
 
 army = {

@@ -1,15 +1,29 @@
 tier_1_focus =
 {
+	promote_aristocrats =
+	{
+		aristocrats = 0.20 #20% more likeley to become artisans
+		icon = 2
+		outliner_show_as_percent = yes
+	}
+
+	promote_artisans =
+	{
+		artisans = 0.20 #20% more likeley to become this type
+		icon = 3
+		outliner_show_as_percent = yes
+	}
+
 	promote_bureaucrats =
 	{
-		bureaucrats = 0.25 #20% more likeley to become this type
+		bureaucrats = 0.20 #20% more likeley to become this type
 		icon = 4
 		outliner_show_as_percent = yes
 	}
 
 	promote_capitalists =
 	{
-		capitalists = 0.25 #20% more likeley to become this type
+		capitalists = 0.20 #20% more likeley to become this type
 		icon = 5
 		outliner_show_as_percent = yes
 		limit = { 
@@ -17,17 +31,17 @@ tier_1_focus =
 		}
 
 	}
-
+	
 	promote_clergymen =
 	{
-		clergymen = 0.25 #20% more likeley to become this type
+		clergymen = 0.20 #20% more likeley to become this type
 		icon = 6
 		outliner_show_as_percent = yes
 	}
 
 	promote_clerks =
 	{
-		clerks = 0.25 #20% more likeley to become this type
+		clerks = 0.20 #20% more likeley to become this type
 		icon = 7
 		outliner_show_as_percent = yes
 		limit = { 
@@ -37,7 +51,7 @@ tier_1_focus =
 
 	promote_craftsmen =
 	{
-		craftsmen = 0.25 #20% more likeley to become this type
+		craftsmen = 0.20 #20% more likeley to become this type
 		icon = 8
 		outliner_show_as_percent = yes
 		limit = { 
@@ -45,45 +59,31 @@ tier_1_focus =
 		}
 	}
 
-	promote_officers =
-	{
-		officers = 0.25 #20% more likeley to become this type
-		icon = 11
-		outliner_show_as_percent = yes
-	}
-
-	promote_soldiers =
-	{
-		soldiers = 0.25 #20% more likeley to become this type
-		icon = 12
-		outliner_show_as_percent = yes
-	}
-
-	promote_aristocrats =
-	{
-		aristocrats = 0.30 #20% more likeley to become artisans
-		icon = 2
-		outliner_show_as_percent = yes
-	}
-
-	promote_artisans =
-	{
-		artisans = 0.30 #20% more likeley to become this type
-		icon = 3
-		outliner_show_as_percent = yes
-	}
-
 	promote_farmers =
 	{
-		farmers = 0.30 #20% more likeley to become this type
+		farmers = 0.20 #20% more likeley to become this type
 		icon = 9
 		outliner_show_as_percent = yes
 	}
 	
 	promote_labourers =
 	{
-		labourers = 0.30 #20% more likeley to become this type
+		labourers = 0.20 #20% more likeley to become this type
 		icon = 10
+		outliner_show_as_percent = yes
+	}
+
+	promote_officers =
+	{
+		officers = 0.20 #20% more likeley to become this type
+		icon = 11
+		outliner_show_as_percent = yes
+	}
+
+	promote_soldiers =
+	{
+		soldiers = 0.20 #20% more likeley to become this type
+		icon = 12
 		outliner_show_as_percent = yes
 	}
 	
@@ -94,7 +94,7 @@ tier_2_focus =
 
 	promote_bureaucrats_2 =
 	{
-		bureaucrats = 0.28
+		bureaucrats = 0.25
 		icon = 13
 		limit = {
 			owner = { 
@@ -106,7 +106,7 @@ tier_2_focus =
 
 	promote_capitalists_2 =
 	{
-		capitalists = 0.28
+		capitalists = 0.25
 		icon = 14
 		limit = {
 			owner = { 
@@ -122,7 +122,7 @@ tier_2_focus =
 	
 	promote_clergymen_2 =
 	{
-		clergymen = 0.28
+		clergymen = 0.25
 		icon = 15
 		limit = {
 			owner = { 
@@ -134,7 +134,7 @@ tier_2_focus =
 
 	promote_clerks_2 =
 	{
-		clerks = 0.28
+		clerks = 0.25
 		icon = 16
 		limit = {
 			owner = { 
@@ -149,7 +149,7 @@ tier_2_focus =
 
 	promote_craftsmen_2 =
 	{
-		craftsmen = 0.28
+		craftsmen = 0.25
 		icon = 17
 		limit = {
 			owner = { 
@@ -164,7 +164,7 @@ tier_2_focus =
 
 	promote_officers_2 =
 	{
-		officers = 0.28
+		officers = 0.25
 		icon = 18
 		limit = {
 			owner = { 
@@ -176,7 +176,7 @@ tier_2_focus =
 
 	promote_soldiers_2 =
 	{
-		soldiers = 0.28
+		soldiers = 0.25
 		icon = 19
 		limit = {
 			owner = { 
@@ -188,7 +188,8 @@ tier_2_focus =
 	
 	internal_migration =
 	{
-		pop_militancy_modifier = -0.3
+		immigrant_attract = 10000
+		immigrant_push = -10000
 		icon = 20
 		limit = {
 			owner = { 
@@ -239,7 +240,7 @@ tier_3_focus =
 
 	promote_bureaucrats_3 =
 	{
-		bureaucrats = 0.31
+		bureaucrats = 0.3
 		icon = 24
 		limit = {
 			owner = { 
@@ -251,7 +252,7 @@ tier_3_focus =
 
 	promote_capitalists_3 =
 	{
-		capitalists = 0.31
+		capitalists = 0.3
 		icon = 25
 		limit = {
 			owner = { 
@@ -267,7 +268,7 @@ tier_3_focus =
 	
 	promote_clergymen_3 =
 	{
-		clergymen = 0.31
+		clergymen = 0.3
 		icon = 26
 		limit = {
 			owner = { 
@@ -279,7 +280,7 @@ tier_3_focus =
 
 	promote_clerks_3 =
 	{
-		clerks = 0.31
+		clerks = 0.3
 		icon = 27
 		limit = {
 			owner = { 
@@ -294,7 +295,7 @@ tier_3_focus =
 
 	promote_craftsmen_3 =
 	{
-		craftsmen = 0.31
+		craftsmen = 0.3
 		icon = 28
 		limit = {
 			owner = { 
@@ -309,7 +310,7 @@ tier_3_focus =
 
 	promote_officers_3 =
 	{
-		officers = 0.31
+		officers = 0.3
 		icon = 29
 		limit = {
 			owner = { 
@@ -321,7 +322,7 @@ tier_3_focus =
 
 	promote_soldiers_3 =
 	{
-		soldiers = 0.31
+		soldiers = 0.3
 		icon = 30
 		limit = {
 			owner = { 
@@ -382,7 +383,7 @@ tier_4_focus =
 
 	promote_bureaucrats_4 =
 	{
-		bureaucrats = 0.34
+		bureaucrats = 0.35
 		icon = 35
 		limit = {
 			owner = { 
@@ -394,7 +395,7 @@ tier_4_focus =
 
 	promote_capitalists_4 =
 	{
-		capitalists = 0.34
+		capitalists = 0.35
 		icon = 36
 		limit = {
 			owner = { 
@@ -410,7 +411,7 @@ tier_4_focus =
 	
 	promote_clergymen_4 =
 	{
-		clergymen = 0.34
+		clergymen = 0.35
 		icon = 37
 		limit = {
 			owner = { 
@@ -422,7 +423,7 @@ tier_4_focus =
 
 	promote_clerks_4 =
 	{
-		clerks = 0.34
+		clerks = 0.35
 		icon = 38
 		limit = {
 			owner = { 
@@ -437,7 +438,7 @@ tier_4_focus =
 
 	promote_craftsmen_4 =
 	{
-		craftsmen = 0.34
+		craftsmen = 0.35
 		icon = 39
 		limit = {
 			owner = { 
@@ -452,7 +453,7 @@ tier_4_focus =
 
 	promote_officers_4 =
 	{
-		officers = 0.34
+		officers = 0.35
 		icon = 40
 		limit = {
 			owner = { 
@@ -464,7 +465,7 @@ tier_4_focus =
 
 	promote_soldiers_4 =
 	{
-		soldiers = 0.34
+		soldiers = 0.35
 		icon = 41
 		limit = {
 			owner = { 
@@ -533,7 +534,7 @@ tier_5_focus =
 
 	promote_bureaucrats_5 =
 	{
-		bureaucrats = 0.37
+		bureaucrats = 0.4
 		icon = 46
 		limit = {
 			owner = { 
@@ -545,7 +546,7 @@ tier_5_focus =
 
 	promote_capitalists_5 =
 	{
-		capitalists = 0.37
+		capitalists = 0.4
 		icon = 47
 		limit = {
 			owner = { 
@@ -561,7 +562,7 @@ tier_5_focus =
 	
 	promote_clergymen_5 =
 	{
-		clergymen = 0.37
+		clergymen = 0.4
 		icon = 48
 		limit = {
 			owner = { 
@@ -573,7 +574,7 @@ tier_5_focus =
 
 	promote_clerks_5 =
 	{
-		clerks = 0.37
+		clerks = 0.4
 		icon = 49
 		limit = {
 			owner = { 
@@ -588,7 +589,7 @@ tier_5_focus =
 
 	promote_craftsmen_5 =
 	{
-		craftsmen = 0.37
+		craftsmen = 0.4
 		icon = 50
 		limit = {
 			owner = { 
@@ -603,7 +604,7 @@ tier_5_focus =
 
 	promote_officers_5 =
 	{
-		officers = 0.37
+		officers = 0.4
 		icon = 51
 		limit = {
 			owner = { 
@@ -615,7 +616,7 @@ tier_5_focus =
 
 	promote_soldiers_5 =
 	{
-		soldiers = 0.37
+		soldiers = 0.4
 		icon = 52
 		limit = {
 			owner = { 
@@ -684,7 +685,7 @@ tier_6_focus =
 
 	promote_bureaucrats_6 =
 	{
-		bureaucrats = 0.40
+		bureaucrats = 0.45
 		icon = 57
 		limit = {
 			owner = { 
@@ -696,7 +697,7 @@ tier_6_focus =
 
 	promote_capitalists_6 =
 	{
-		capitalists = 0.40
+		capitalists = 0.45
 		icon = 58
 		limit = {
 			owner = { 
@@ -712,7 +713,7 @@ tier_6_focus =
 	
 	promote_clergymen_6 =
 	{
-		clergymen = 0.40
+		clergymen = 0.45
 		icon = 59
 		limit = {
 			owner = { 
@@ -724,7 +725,7 @@ tier_6_focus =
 
 	promote_clerks_6 =
 	{
-		clerks = 0.40
+		clerks = 0.45
 		icon = 60
 		limit = {
 			owner = { 
@@ -739,7 +740,7 @@ tier_6_focus =
 
 	promote_craftsmen_6 =
 	{
-		craftsmen = 0.40
+		craftsmen = 0.45
 		icon = 61
 		limit = {
 			owner = { 
@@ -754,7 +755,7 @@ tier_6_focus =
 
 	promote_officers_6 =
 	{
-		officers = 0.40
+		officers = 0.45
 		icon = 62
 		limit = {
 			owner = { 
@@ -766,7 +767,7 @@ tier_6_focus =
 
 	promote_soldiers_6 =
 	{
-		soldiers = 0.40
+		soldiers = 0.45
 		icon = 63
 		limit = {
 			owner = { 

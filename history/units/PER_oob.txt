@@ -1,183 +1,153 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-AFG = {
-	value = -100
-}
-
+#Leaders
 leader = {
-	name = "Mohammad Shah Qajar"
+	name = "Mohammed Shah Qajar"
 	date = 1834.1.1
 	type = land
-	personality = mor10_1
-	background = 2a2d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.5
 }
 
-leader = {
-	name = "Khosrow Khan Gorji"
-	date = 1834.1.1
-	type = land
-	personality = mor10_1
-	background = 1a2d_1
-}
-
-leader = {
-	name = "Haji Mirza Aqasi"
-	date = 1834.1.1
-	type = land
-	personality = mor10_1
-	background = 1a1d_1
-}
-
 army = {
-	name = "Mob Stack"
-	location = 1115
+	name = "Army of Persia"
+	location = 1121
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "1. Cavalry Brigade"
+		type = cavalry
 		home = 1121
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2. Cavalry Brigade"
+		type = cavalry
 		home = 1147
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3. Cavalry Brigade"
+		type = cavalry
 		home = 1125
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "1. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1127
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1135
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1137
 	}
 }
 
 army = {
-	location = 1114
-	name = "Mob Stack"
+	location = 1146
+	name = "Eastern Army of Persia"
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "4. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1117
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "5. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1124
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1130
+		name= "6. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1117
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "7. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1122
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "8. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1129
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1120
+		name= "9. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1135
 	}
 }
 
 army = {
-	name = "Mob Stack"
-	location = 1113
+	name = "Northern Army of Persia"
+	location = 1149
 	regiment = {
-		name= "Hussar"
-		type = hussar
+		name= "10. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1108
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1112
+		name= "11. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1150
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "12. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1111
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "13. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1113
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1116
+		name= "14. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1150
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "15 Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1148
 	}
 
 }
 
 army = {
-	name = "Mob Stack"
-	location = 1121
+	name = "Southern Army of Persia"
+	location = 1108
 	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 1142
+		name= "16. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1121
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1141
+		name= "17. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1114
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "18. Bakhsh-i Piyadenizam"
+		type = infantry
 		home = 1145
 	}
 
 }
-

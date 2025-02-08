@@ -2,12 +2,14 @@ owner = RUS
 controller = RUS
 add_core = RUS
 trade_goods = iron
-life_rating = 35
-terrain = mountain_mine
-1913.1.1 = {
+life_rating = 33
+1861.1.1 = {
 	state_building = {
 		level = 1
 		building = artillery_factory
 		upgrade = yes
 	} 
 }
+
+
+

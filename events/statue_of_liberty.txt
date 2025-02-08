@@ -17,8 +17,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "Commonwealth"
-		COM = {
+		name = "Canada"
+		CAN = {
 			country_event = { id=19300 days=0 }
 		}
 	}
@@ -29,10 +29,10 @@ country_event = {
 			country_event = { id=19300 days=0 }
 		}
 	}
-
+	
 	option = {
-		name = "Latin America"
-		GCL = {
+		name = "Gran Columbia"
+		GCO = {
 			country_event = { id=19300 days=0 }
 		}
 	}
@@ -43,23 +43,23 @@ country_event = {
 			country_event = { id=19300 days=0 }
 		}
 	}
-
+	
 	option = {
-		name = "Gran Columbia"
-		GCO = {
-			country_event = { id=19300 days=0 }
-		}
-	}
-
-	option = {
-		name = "New Spain"
-		VNS = {
+		name = "Bolivia"
+		BOL = {
 			country_event = { id=19300 days=0 }
 		}
 	}
 	
 	option = {
-		name = "Peru-Bolivia"
+		name = "Peru"
+		PEU = {
+			country_event = { id=19300 days=0 }
+		}
+	}
+	
+	option = {
+		name = "Andine Federation"
 		PBC = {
 			country_event = { id=19300 days=0 }
 		}
@@ -68,13 +68,6 @@ country_event = {
 	option = {
 		name = "Brazil"
 		BRZ = {
-			country_event = { id=19300 days=0 }
-		}
-	}
-	
-	option = {
-		name = "Patria Grande"
-		SAS = {
 			country_event = { id=19300 days=0 }
 		}
 	}
@@ -89,13 +82,6 @@ country_event = {
 	option = {
 		name = "Argentina"
 		ARG = {
-			country_event = { id=19300 days=0 }
-		}
-	}
-
-	option = {
-		name = "United Provinces of Río Plata"
-		LPL = {
 			country_event = { id=19300 days=0 }
 		}
 	}

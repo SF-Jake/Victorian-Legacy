@@ -1,7 +1,6 @@
 #Please keep tags sorted alphabetically when you add/remove country tags
-
-# Special Countries
-REB		= "countries/rebels.txt"
+#Do not remove this rebel entry.
+REB 	= 	"countries/rebels.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
@@ -13,6 +12,7 @@ AUS		= "countries/Austria.txt"
 USA		= "countries/USA.txt"
 JAP		= "countries/Japan.txt"
 ITA		= "countries/Italy.txt"
+AIT		= "countries/Anti-Italy.txt"
 KUK		= "countries/Austria-Hungary.txt"
 
 
@@ -32,8 +32,6 @@ NET		= "countries/Netherlands.txt"
 POR		= "countries/Portugal.txt"
 SCO		= "countries/Scotland.txt"
 SPA		= "countries/Spain.txt"
-IBR		= "countries/Iberia.txt"
-PBA		= "countries/Portugal-Brazil.txt"
 WLL		= "countries/Wallonia.txt"
 
 # Germany
@@ -63,7 +61,6 @@ SCH		= "countries/Schleswig.txt"
 SGF		= "countries/South German Fed.txt"
 WEI		= "countries/Saxe-Weimar.txt"
 WUR		= "countries/Wurttemberg.txt"
-HLR		= "countries/Holy Roman Empire.txt"
 
 # Italy
 LOM		= "countries/Lombardia.txt"
@@ -76,8 +73,6 @@ SIC		= "countries/Two Sicilies.txt"
 TRE		= "countries/Trieste.txt"
 TUS		= "countries/Tuscany.txt"
 VEN		= "countries/Venice.txt"
-RME		= "countries/Roman Empire.txt"
-ARI		= "countries/AragonItaly.txt"
 
 # Eastern Europe
 BOH		= "countries/Bohemia-Moravia.txt"
@@ -131,8 +126,6 @@ TRN		="countries/Transvaal.txt"
 TUN		="countries/Tunis.txt"
 ZAN		="countries/Zanzibar.txt"
 ZUL		="countries/Zulu.txt"
-SAU		="countries/South African Union.txt"
-ETE		="countries/Ethiopian Empire.txt"
 
 # Cental Asia
 ABU		="countries/Abu Dhabi.txt"
@@ -150,7 +143,6 @@ NEJ		="countries/Nejd.txt"
 OMA		="countries/Oman.txt"
 PER		="countries/Persia.txt"
 YEM		="countries/Yemen.txt"
-TIM		= "countries/Timurid.txt"
 
 # India
 HND 	="countries/India.txt"
@@ -206,11 +198,10 @@ SXI		="countries/Shanxi.txt"
 YNN		="countries/Yunnan.txt"
 XBI		="countries/Xibei San Ma.txt"
 XIN		="countries/Xinjiang.txt"
-INC		="countries/Indochina.txt"
 
 # North America
-COM		="countries/Commonwealth.txt"
 CAL		="countries/Californian Republic.txt"
+COM		="countries/Commonwealth.txt"
 CAN		="countries/Canada.txt"
 CHE		="countries/Cherokee.txt"
 COL		="countries/Columbia.txt"
@@ -234,7 +225,6 @@ PNM		="countries/Panama.txt"
 QUE		="countries/Quebec.txt"
 TEX		="countries/Texas.txt"
 UCA		="countries/United States of Central America.txt"
-USM		="countries/USM.txt"
 
 # South America
 ARG		="countries/Argentina.txt"
@@ -247,9 +237,7 @@ PEU		="countries/Peru.txt"
 PRG		="countries/Paraguay.txt"
 URU		="countries/Uruguay.txt"
 VNZ		="countries/Venezuela.txt"
-SAS		="countries/South America.txt"
-GCL		="countries/Grand Colombia.txt"
-VNS     ="countries/Viceroyalty of new Spain.txt"
+PBC		="countries/Peru-Bolivia Confederation.txt"
 
 # Australasia
 AST		="countries/Australia.txt"
@@ -274,147 +262,47 @@ GCO		="countries/Gran Colombia.txt"
 
 ##HoD
 JAN 	= "countries/JanMayen.txt"
-
-########## Victoria Universalis ##########
-
-##West Africa
-ADR		= "countries/Adrar.txt"
-ARO		= "countries/Aro.txt"
-ASH		= "countries/Ashanti.txt"
-BAG		= "countries/Bagirmi.txt"
-BEN		= "countries/Benin.txt"
-BRG		= "countries/Borgu.txt"
-CLA     = "countries/Calabar.txt"
-DAH		= "countries/Dahomey.txt"
-DAM		= "countries/Damagaram.txt"
-DAR		= "countries/Darfur.txt"
-DND     = "countries/Dendi.txt"
-GBU		= "countries/Gabu.txt"
-JAL		= "countries/Jallon.txt"
-KBO		= "countries/Kanem-Bornu.txt"
-KNG		= "countries/Kong.txt"
-KON		= "countries/Kongo.txt"
-LOA		= "countries/Loango.txt"
-MAS		= "countries/Massina.txt"
-MOS		= "countries/Mossi.txt"
-NIG		= "countries/Niger.txt"
-OYO 	= "countries/Oyo.txt"
-SEG		= "countries/Segu.txt"
-TOO		= "countries/Tooro.txt"
-TRZ		= "countries/Trarza.txt"
-WAD     = "countries/Wadai.txt"
-WRI		= "countries/Warri.txt"
-WOL		= "countries/Wolof.txt"
-
-##Rest of Africa
-AWS		= "countries/Awsa.txt"
-AGC		= "countries/Angoche.txt"
-CYR		= "countries/Cyrenaica.txt"
-BSH		= "countries/Basotho.txt"
-GON		= "countries/Gonder.txt"
-HAR		= "countries/Harar.txt"
-GAZ		= "countries/Gaza.txt"
-GEL		= "countries/Geledi.txt"
-KAF		= "countries/Kaffa.txt"
-MAJ		= "countries/Majeerteen.txt"
-MAT		= "countries/Matabele.txt"
-SHK		= "countries/Shilluk.txt"
-SHW		= "countries/Shewa.txt"
-SID		= "countries/Sidama.txt"
-SOM		= "countries/Somalia.txt"
-SUD		= "countries/Sudan.txt"
-SSD		= "countries/South Sudan.txt"
-TIG		= "countries/Tigray.txt"
-WRL 	= "countries/Warsangali.txt"
-XHO		= "countries/Xhosa.txt"
-
-##Europe
-DNB		= "countries/Danubian Federation.txt"
-GLM		= "countries/Galicia-Lodomeria.txt"
-GSR		= "countries/Great Serbia.txt"
-KGR		= "countries/Kingdom of Greece.txt"
-KSN		= "countries/Sweden-Norway.txt"
-SPC		= "countries/Carlist Spain.txt"
-WRS		= "countries/White Russia.txt"
-
-##North America
+HUI	= "countries/Anhui.txt"
+ASM	= "countries/Assam.txt"
+BIH	= "countries/Bihar.txt"
+BNG	= "countries/Bengal.txt"
+KRN	= "countries/Karnatak.txt"
+MAH	= "countries/Maharashtra.txt"
+CIR	= "countries/Circassia.txt"
+FIJ 	= "countries/Fiji.txt"
+FJN	= "countries/Fujian.txt"
+GNG	= "countries/Guangdong.txt"
+HNN	= "countries/Hunan.txt"
+SZC	= "countries/Sichuan.txt"
+SRI 	= "countries/Sri Lanka.txt"
+TGA	= "countries/Tonga.txt"
+DJA 	= "countries/Jambi.txt"
+INO	= "countries/Indonesia.txt"
+KLM 	= "countries/Borneo.txt"
+SAK 	= "countries/Siak.txt"
+SLW 	= "countries/Sulawesi.txt"
+SYR 	= "countries/Syria.txt"
+CPL 	= "countries/Congress Poland.txt"
+PBA	= "countries/Portugal-Brazil.txt"
+PRI 	= "countries/Puerto Rico.txt"
+RPL	= "countries/Rupert's Land.txt"
 WIF 	= "countries/West Indies Federation.txt"
-JAM		= "countries/Jamaica.txt"
-RPL		= "countries/Rupert's Land.txt"
-YUC		= "countries/Yucatan.txt"
+YUC	= "countries/Yucatan.txt"
+BEN 	= "countries/Benin.txt"
+OYO 	= "countries/Oyo.txt"
+LCT	= "countries/Liechtenstein.txt"
 
-##Asia
-CHK		= "countries/Champasak.txt"
-HUI		= "countries/Anhui.txt"
-SZC		= "countries/Sichuan.txt"
-HNN		= "countries/Hunan.txt"
-GNG		= "countries/Guangdong.txt"
-KMT		= "countries/Nationalist China.txt"
-TKG		= "countries/Shogunate Japan.txt"
+# Special countries...
+TIN		= 	"countries/Tiny State.txt"
+SMA		= 	"countries/Small State.txt"
+MED		=	"countries/Medium State.txt"
+LRG		=	"countries/Large State.txt"
+HUG		=	"countries/Huge State.txt"
+GHO 	= 	"countries/Ghost Country.txt"
 
-##India
-ASM		= "countries/Assam.txt"
-BHP		= "countries/Bahawalpur.txt"
-BNG		= "countries/Bengal.txt"
-BIH		= "countries/Bihar.txt"
-EIC		= "countries/East India Company.txt"
-JHA		= "countries/Jhansi.txt"
-KRN		= "countries/Karnatak.txt"
-MAH		= "countries/Maharashtra.txt"
-PAK		= "countries/Pakistan.txt"
-SRI		= "countries/Sri Lanka.txt"
-
-##South America
-ARC		= "countries/Argentine Confederation.txt"
-BAH		= "countries/Bahia.txt"
-CRT		= "countries/Corrientes.txt"
-ENT		= "countries/Entre Rios.txt"
-GUY		= "countries/Guyana.txt"
-GRP		= "countries/Grao-Para.txt"
-LPL		= "countries/La Plata.txt"
-MRN		= "countries/Maranhao.txt"
-PBC		= "countries/Peru-Bolivia Confederation.txt"
-PNB		= "countries/Pernambuco.txt"
-RGS		= "countries/Riograndense Republic.txt"
-SBA		= "countries/Buenos Aires.txt"
-TTB		= "countries/Trinidad.txt"
-
-##Central Asia
-BDK		= "countries/Badakhshan.txt"
-CIR		= "countries/Circassia.txt"
-DAG		= "countries/Dagestan.txt"
-PLS		= "countries/Palestine.txt"
-SYR		= "countries/Syria.txt"
-TCA		= "countries/Transcaucasia.txt"
-TRK		= "countries/Turkestan.txt"
-
-##Indonesia
-DJA		= "countries/Jambi.txt"
-KLM		= "countries/Kalimantan.txt"
-KTI		= "countries/Kutai.txt"
-LAN		= "countries/Lanfang.txt"
-MAL		= "countries/Maluku.txt"
-PNK		= "countries/Pontianak.txt"
-SAK		= "countries/Siak.txt"
-SLW		= "countries/Sulawesi.txt"
-SUL		= "countries/Sulu.txt"
-SWK		= "countries/Sarawak.txt"
-TMR		= "countries/Timor.txt"
-
-##Utility Tags
-CIV		= "countries/Civilizing.txt"
-FWR		= "countries/Fake War.txt"
-GHO		= "countries/Ghost Country.txt"
-PRO		= "countries/Province Flag.txt"
-
-TIN		= "countries/Tiny State.txt"
-SMA		= "countries/Small State.txt"
-MED		= "countries/Medium State.txt"
-LRG		= "countries/Large State.txt"
-HUG		= "countries/Huge State.txt"
 
 ##HoD Dominions
-dynamic_tags  = yes # any tags after this is considered dynamic dominions
+dynamic_tags  = no # any tags after this is considered dynamic dominions
 D01		= "countries/D01.txt"
 D02		= "countries/D02.txt"
 D03		= "countries/D03.txt"

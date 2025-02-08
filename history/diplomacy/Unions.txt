@@ -21,3 +21,11 @@ union = {
 	start_date = 1815.3.16 
 	end_date = 1890.11.23
 }
+
+# Russia-Finland (Alexander I, Nicholas I, Alexander II, Alexander III, Nicholas II)
+union = {
+	first = RUS
+	second = FIN
+	start_date = 1809.9.17 
+	end_date = 1917.12.6
+}

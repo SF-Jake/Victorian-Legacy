@@ -1,10 +1,8 @@
-owner = YNN
-controller = YNN
-add_core = YNN
+owner = CHI
+controller = CHI
 add_core = CHI
-trade_goods = tea_leaves
+#add_core = TPG
+#add_core = YNN
+trade_goods = tea
 life_rating = 30
-1913.1.1 = {
-	owner = CHI
-	controller = CHI
-}
+

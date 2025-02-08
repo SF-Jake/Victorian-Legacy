@@ -1,5 +1,3 @@
-# Audax Validator "!" Ignore_1004
-# Audax Validator "!" Ignore_1009
 political_decisions = {
 	declare_republic_of_neuchatel = {
 		potential = {
@@ -53,7 +51,6 @@ political_decisions = {
 	}
 	
 	sign_the_geneva_convention = {
-		picture = sign_the_geneva_convention
 		potential = {
 			civilized = yes
 			has_global_flag = geneva_convention_held
@@ -88,6 +85,7 @@ political_decisions = {
 		
 		allow = {
 			invention = machine_tools
+			invention = steam_shovel
 		}
 		
 		effect = {
@@ -97,140 +95,15 @@ political_decisions = {
 			prestige = 5
 			set_country_flag = gotthard_tunnel_built
 		}
-	}
-	
-	swiss_neutrality = {
-		potential = {
-			tag = SWI
-			war = no
-			has_global_flag = 1913_bookmark
-			ai = yes
-			OR = {
-				any_neighbor_country = { military_access = THIS }
-				any_greater_power = { military_access = THIS }
-			}
-		}
-		
-		allow = {
-			OR = {
-				any_neighbor_country = { military_access = THIS }
-				any_greater_power = { military_access = THIS }
-			}
-		}
-		
-		effect = {
-			any_country = {
-				end_military_access = THIS
-			}
-		}
-	}
-	violate_neutrality = {
-		picture = declare_neutrality
-		potential = {
-			ai = no
-			SWI = {
-				neighbour = THIS
-				war = no
-			}
-			exists = SWI
-			NOT = { has_country_flag = swiss_neutrality_violator }
-		}
-		
-		allow = {
-			war_policy = jingoism
-			NOT = {
-				is_sphere_leader_of = SWI
-				truce_with = SWI
-				alliance_with = SWI
-			}
-		}
-		
-		effect = {
-			badboy = 25
-			set_country_flag = swiss_neutrality_violator
-			set_global_flag = swiss_neutrality_violated
-			SWI = {
-				set_country_flag = neutrality_violated
-				relation = { who = THIS value = -200 }
-			}
-			diplomatic_influence = { who = SWI value = -200 }
-			casus_belli = {
-				target = SWI
-				type = conquest
-				months = 12
-			}
-			war = {
-				target = SWI
-				attacker_goal = { casus_belli = conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
-			}
-		}
-		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { 
+					steel_railroad = 1
+					year = 1880 
+				}
+			}
 		}
 	}
-
-	partition_switzerland = {
-		potential = {
-			NOT = { has_global_flag = partition_switzerland }
-			NOT = { tag = SWI }
-			has_global_flag = swiss_neutrality_violated
-		}
-
-		allow = {
-			ITA = { exists = yes }
-			SWI_604 = { owned_by = THIS }
-			SWI_603 = { owned_by = THIS }
-			SWI_605 = { owned_by = THIS }
-		}
-
-		effect = {
-			badboy = -15
-			set_global_flag = partition_switzerland
-			any_country = {
-				limit = {
-					OR = {
-						tag = AUS
-						tag = KUK
-						tag = DNB
-					}
-					NOT = { 
-						BAD_586 = { owned_by = GER }
-						BAD_586 = { owned_by = SGF } 
-					}		
-				}
-				country_event = { id=41005 days=1 }
-			}
-			any_country = {
-				limit = {
-					OR = {
-						tag = GER
-						tag = HRE
-					}
-					NOT = {
-						BAD_586 = { owned_by = AUS } 
-						BAD_586 = { owned_by = KUK } 
-						BAD_586 = { owned_by = DNB } 
-						BAD_586 = { owned_by = SGF }
-					}
-				}
-				country_event = { id=41005 days=1 }
-			}
-			any_country = {
-				limit = {
-					tag = SGF
-					NOT = {
-						BAD_586 = { owned_by = AUS }
-						BAD_586 = { owned_by = KUK }
-						BAD_586 = { owned_by = DNB }
-						BAD_586 = { owned_by = GER }
-					}
-				}
-				country_event = { id=41005 days=1 }
-			}
-			FRA = { country_event = { id=41004 days=1 } }
-			ITA = { country_event = { id=41006 days=1 } }
-		}
 }

@@ -1,11 +1,10 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
+leader = {
+	name = "Abd el-Kader"
+	date = 1830.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
 }
 
 army = {
@@ -21,6 +20,18 @@ army = {
 		name= "2.Askäris"
 		type = irregular
 		home = 1702
+	}
+
+	regiment = {
+		name= "3.Askäris"
+		type = irregular
+		home = 1705
+	}
+
+	regiment = {
+		name= "1.Spahis"
+		type = cavalry
+		home = 1705
 	}
 
 	regiment = {

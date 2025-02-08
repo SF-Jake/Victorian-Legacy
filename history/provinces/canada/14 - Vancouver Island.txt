@@ -1,12 +1,17 @@
 owner = COM
 controller = COM
 add_core = COM
-add_core = COL
+
 trade_goods = coal
 life_rating = 35
-terrain = plains_mine
-1913.1.1 = {
+
+1836.1.2 = {
+	remove_core = COM
 	owner = CAN
 	controller = CAN
-	remove_core = RPL
+	add_core = CAN
+	colonial = 0
+}
+1861.1.1 = {
+	naval_base = 1
 }

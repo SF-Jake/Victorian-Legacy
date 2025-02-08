@@ -1,12 +1,8 @@
-owner = EIC
-controller = EIC
+owner = ENG
+controller = ENG
 add_core = HND
-add_core = MUG
 trade_goods = grain
-life_rating = 32
+life_rating = 30
+colonial = 1
 fort = 1
-1913.1.1 = {
-	owner = EIC
-	controller = EIC
-	colonial = 0
-}
+

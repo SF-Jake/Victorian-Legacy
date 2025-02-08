@@ -1,41 +1,19 @@
 owner = MOD
 controller = MOD
 add_core = MOD
-add_core = ITA
-trade_goods = iron
-life_rating = 35
-terrain = plains_mine
-1913.1.1 = {
-	owner = ITA
+#add_core = ITA
+
+trade_goods = coal
+life_rating = 40
+#state_building = {
+#	level = 1
+#	building = canned_food_factory
+#	upgrade = yes
+#}
+1861.1.1 = {
 	controller = ITA
-	state_building = {
-		level = 5
-		building = fertilizer_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = furniture_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = liquor_distillery
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = winery
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = lumber_mill
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = artillery_factory
-		upgrade = yes
-	}
+	owner = ITA
+	#add_core = ITA
 }
+1861.1.1 = { railroad = 3 }
+

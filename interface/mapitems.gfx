@@ -76,7 +76,7 @@ objectTypes = {
 	billboardType = {
 		name = "tradegoods"
 		texturefile = "gfx\\interface\\resources.dds"
-		noOfFrames = 56
+		noOfFrames = 48
 		scale = 2.5
 	}
 	
@@ -90,7 +90,7 @@ objectTypes = {
 	billboardType = {
 		name = "tradegoods_small"
 		texturefile = "gfx\\interface\\resources.dds"
-		noOfFrames = 56
+		noOfFrames = 48
 		scale = 1
 	}
 	
@@ -127,7 +127,7 @@ objectTypes = {
 	
 	billboardType = {
 		name = "national_focus"
-		textureFile = "gfx\\interface\\province_natfocus_strip2.dds"
+		textureFile = "gfx\\interface\\province_natfocus_strip.dds"
 		scale = 3
 		noOfFrames = 67
 	}	

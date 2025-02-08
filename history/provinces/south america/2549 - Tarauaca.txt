@@ -1,11 +1,7 @@
-owner = PBC
-controller = PBC
-add_core = PBC 
+owner = BOL
+controller = BOL
+add_core = BOL
+add_core = BRZ
 trade_goods = rubber
-life_rating = 25
-1913.1.1 = {
-	owner = BRZ
-	controller = BRZ
-	add_core = BRZ
-	remove_core = BOL
-}
+life_rating = 36
+

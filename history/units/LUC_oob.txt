@@ -1,41 +1,15 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-MOD = {
-	value = 200
-}
-
-TUS = {
-	value = 200
-}
-
-PAR = {
-	value = 200
-}
-
-PAP = {
-	value = 200
+leader = {
+	name = "Carlo di Borbone-Parma"
+	picture = luc_gen_carloborbone
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
 }
 
 army = {
-	name = "Esercito di Lucca"
-	
-	leader = {
-		name = "Carlo di Borbone-Parma"
-		date = 1815.1.1
-		type = land
-		personality = defence_2.1
-		background = attack_2.1
-		prestige = 0.5
-	}
-	
+	name = "Esercito di Lucca"	
 	location = 746
 	regiment = {
 		name= "1. Fanteria di Linea"
@@ -43,4 +17,3 @@ army = {
 		home = 746
 	}
 }
-

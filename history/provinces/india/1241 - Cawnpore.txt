@@ -1,12 +1,7 @@
-owner = EIC
-controller = EIC
+owner = ENG
+controller = ENG
 add_core = HND
-add_core = MUG
-trade_goods = dye
-life_rating = 32
-1913.1.1 = {
-	owner = EIC
-	controller = EIC
-	colonial = 0
-	trade_goods = wool
-}
+trade_goods = grain
+life_rating = 30
+colonial = 1
+

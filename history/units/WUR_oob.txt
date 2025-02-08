@@ -1,47 +1,37 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-leader = {
-	name = "Fredrich Wilhelm"
-	date = 1819.1.1
-	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.2
-}
-
-leader = {
-	name = "Ferdinand Gottleb"
-	date = 1820.1.1
-	type = land
-	personality = mor10_1
-	background = 1a1d_1
-	prestige = 0.2
-}
-
 leader = {
 	name = "Wilhelm I"
+	picture = wur_gen_wilhelm
 	date = 1812.1.1
 	type = land
-	personality = mor10_1
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.5
 }
-
 leader = {
-	name = "Prince Friedrich"
+	name = "Friedrich von Bismarck"
+	picture = wur_gen_bismarck
+	date = 1819.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Ferdinand von Varnbüler"
+	picture = wur_gen_varnbueler
+	date = 1820.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Friedrich zu Hohenlohe"
+	picture = wur_gen_hohenlohe
 	date = 1829.1.1
 	type = land
-	personality = mor10_1
-	background = 1a1d_1
-	prestige = 0.1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {

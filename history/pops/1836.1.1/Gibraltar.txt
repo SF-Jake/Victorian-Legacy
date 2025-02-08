@@ -4,61 +4,61 @@
 517 = {
     officers = {
         culture = british
-        religion = protestant
+        religion = placeholder
         size = 5
     }
 
     bureaucrats = {
         culture = british
-        religion = protestant
-        size = 5
+        religion = placeholder
+        size = 25
     }
 
     clergymen = {
         culture = british
-        religion = protestant
-        size = 11
+        religion = placeholder
+        size = 5
     }
 
     soldiers = {
         culture = british
-        religion = protestant
+        religion = placeholder
         size = 100
     }
 
     artisans = {
         culture = british
-        religion = protestant
+        religion = placeholder
         size = 135
     }
 
     artisans = {
         culture = sephardic
-        religion = jewish
+        religion = placeholder
         size = 400
     }
 
     clergymen = {
         culture = spanish
-        religion = catholic
+        religion = placeholder
         size = 50
     }
 
     artisans = {
         culture = spanish
-        religion = catholic
+        religion = placeholder
         size = 3000
     }
 
     soldiers = {
         culture = spanish
-        religion = catholic
+        religion = placeholder
         size = 50
     }
 
     farmers = {
         culture = spanish
-        religion = catholic
+        religion = placeholder
         size = 200
     }
 }

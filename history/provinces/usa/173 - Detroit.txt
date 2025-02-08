@@ -4,40 +4,18 @@ add_core = USA
 trade_goods = timber
 life_rating = 35
 colony = 2
-1913.1.1 = {
+1861.1.1 = {
+	colony = 0
 	state_building = {
-		level = 5
-		building = steel_factory
+		level = 1
+		building = lumber_mill
 		upgrade = yes
 	}
 	state_building = {
-		level = 5
-		building = machine_parts_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = cement_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
+		level = 1
 		building = artillery_factory
 		upgrade = yes
 	}
-	state_building = {
-		level = 5
-		building = electric_gear_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = aeroplane_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 10
-		building = automobile_factory
-		upgrade = yes
-	}
 }
+1861.1.1 = { railroad = 3 }
+

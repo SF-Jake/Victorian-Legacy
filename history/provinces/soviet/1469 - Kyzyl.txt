@@ -1,21 +1,7 @@
 owner = MGL
 controller = MGL
 add_core = MGL
+add_core = CHI
 trade_goods = coal
-life_rating = 35
-terrain = woods_mine
-1913.1.1 = {
-	owner = RUS
-	controller = RUS
-	add_core = RUS
-	state_building = {
-		level = 1
-		building = lumber_mill
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = ammunition_factory
-		upgrade = yes
-	}
-}
+life_rating = 30
+

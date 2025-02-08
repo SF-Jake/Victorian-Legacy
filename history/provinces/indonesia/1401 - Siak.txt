@@ -1,12 +1,8 @@
 owner = NET
 controller = NET
-colonial = 2
 add_core = SAK
+#add_core = INO
 trade_goods = grain
-life_rating = 35
-terrain = hills_mine
-1913.1.1 = {
-	owner = NET
-	controller = NET
-	colonial = 2
-}
+life_rating = 30
+colonial = 2
+

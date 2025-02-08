@@ -1,12 +1,6 @@
 owner = HND
 controller = HND
 add_core = HND
-add_core = MUG
-trade_goods = dye
-life_rating = 32
-1913.1.1 = {
-	trade_goods = opium
-	owner = EIC
-	controller = EIC
-	colonial = 0
-}
+trade_goods = grain
+life_rating = 30
+

@@ -1,42 +1,17 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
+#Relations
+
+RUS = {
+	value = 200
 }
 
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-army = {
-	name = "Suomen Kaarti"
-	location = 343
-	regiment = {
-		name= "I. Suomen Tarkk’ampujapataljoona"
-		type = artillery
-		home = 343
-	}
-
-	regiment = {
-		name= "II. Suomen Tarkk’ampujapataljoona"
-		type = infantry
-		home = 345
-	}
-
-	regiment = {
-		name= "III. Suomen Tarkk’ampujapataljoona"
-		type = infantry
-		home = 346
-	}
-
-}
-
+#Leaders
 
 leader = {
-	name = "Alexander Sergeyevich Menshikov"
-	picture = european_general_24
-	date = 1810.1.1
+	name = "Anders Edvard Ramsay"
+	picture = fin_gen_ramsayae
+	date = 1828.1.1
 	type = land
-	personality = mor10_1
-	background = 1a1d_1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
 }

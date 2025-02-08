@@ -1,11 +1,26 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
+CHI = {
+	value = 200		#relation
+	military_access = yes
 }
 
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
+MCK = {
+	value = 200
+	military_access = yes
+}
+
+XIN = {
+	value = 200
+	military_access = yes
+}
+
+KOR = {
+	value = 200
+	military_access = yes
+}
+
+MGL = {
+	value = 200
+	military_access = yes
 }
 
 army = {

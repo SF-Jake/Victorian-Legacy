@@ -1,33 +1,41 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
+army = {
+	name = "Bedouin Army"
+	location = 1159
+	regiment = {
+		name= "1. Shammari"
+		type = irregular
+		home = 1159
+	}
 
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
+	regiment = {
+		name= "2. Shammari"
+		type = irregular
+		home = 1161
+	}
 }
 
 army = {
 	name = "Ibn Saud's Army"
 	location = 1157
 	regiment = {
-		name = "1.Saudi"
-		type = cavalry
+		name= "1. Saudi"
+		type = irregular
 		home = 1157
 	}
+
 	regiment = {
-		name = "2.Saudi"
-		type = cavalry
+		name= "2. Saudi"
+		type = irregular
 		home = 1157
 	}
+
 	regiment = {
-		name = "3.Saudi"
-		type = cavalry
+		name= "3. Saudi"
+		type = irregular
 		home = 1164
 	}
-}
 
+}
 
 army = {
 	name = "Ibn Rashid's Army"

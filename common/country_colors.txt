@@ -143,12 +143,6 @@ ENG = {
     color2= { 99 137 153  }
     color3= { 83 149 105  }
 }
-# United Kingdom
-ENL = {
-    color1= { 193 26 14  }
-    color2= { 99 137 153  }
-    color3= { 83 149 105  }
-}
 
 # Ireland
 IRE = {
@@ -312,13 +306,6 @@ FRA = {
     color3= { 121 162 109  }
 }
 
-# French Empire
-FRC = {
-    color1= { 33 95 84  }
-    color2= { 99 147 95  }
-    color3= { 91 132 79  }
-}
-
 # Anhalt FIXED
 ANH = {
     color1= { 134 224 126  }
@@ -366,12 +353,6 @@ GER = {
     color1= { 255 255 255  }
     color2= { 80 79 88  }
     color3= { 17 16 203  }
-}
-
-GRA = {
-    color1= { 255 255 255  }
-    color2= { 50 49 58  }
-    color3= { 10 10 173  }
 }
 
 # Austria
@@ -493,22 +474,12 @@ SPA = {
     color2= { 244 56 49  }
     color3= { 154 69 116  }
 }
-IBR = {
-    color1= { 231 200 12  }
-    color2= { 244 70 49  }
-    color3= { 154 85 116  }
-}
 
 # Italy
 ITA = {
     color1= { 255 255 255  }
     color2= { 152 85 92  }
     color3= { 80 79 88  }
-}
-IMP = {
-    color1= { 255 255 255  }
-    color2= { 122 65 72  }
-    color3= { 60 69 68  }
 }
 
 # Manhattan Commune
@@ -641,6 +612,13 @@ ARM = {
 
 # Australia
 AST = {
+    color1= { 26 27 154  }
+    color2= { 161 126 128  }
+    color3= { 69 157 208  }
+}
+
+# Commonwealth
+COM = {
     color1= { 26 27 154  }
     color2= { 161 126 128  }
     color3= { 69 157 208  }
@@ -1065,4 +1043,11 @@ TRA = {
     color1= { 215 59 53  }
     color2= { 122 182 242 }
     color3= { 255 255 255  }
+}
+
+# Liechtenstein
+LCT = {
+    color1= { 123 183 244  }
+    color2= { 255 255 255  }
+    color3= { 188 80 87  }
 }

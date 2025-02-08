@@ -1,51 +1,43 @@
-primary_culture = illuminati
-religion = animist
+capital = 1128
+primary_culture = polar_bears
+
+set_country_flag = world_bank_off
+set_country_flag = ghostland
+
+religion = placeholder
 government = absolute_monarchy
-plurality = 0.0
+plurality = 100
 nationalvalue = nv_order
-literacy = 0
-civilized = yes
+literacy = 1
+civilized = no
+is_releasable_vassal = no
 
-# Political reforms
+# Political reforms - inherit
 slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = universal_weighted_voting
-public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = censored_press
+trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = underground_parties
 
-# Social Reforms
-wage_reform = trinket_wage
-work_hours = ten_hours
+# Social Reforms - inherit
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = trinket_subsidies
+unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-# New Reforms
-conscription = no_draft
-debt_law = peonage
-penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = primary_culture_only
-border_policy = closed_borders
-centralization = unitary 
-
-ruling_party = JAN_anarcho_liberal
-upper_house = {
+ruling_party = GHO_exclusive
+upper_house = { # inherit
 	fascist = 0
-	liberal = 65
-	conservative = 25
-	reactionary = 5
-	anarcho_liberal = 2
-	socialist = 3
+	liberal = 25
+	conservative = 65
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
 	communist = 0
-}
-
-
-1836.1.3 = {
-	set_global_flag = cultures_setup
 }

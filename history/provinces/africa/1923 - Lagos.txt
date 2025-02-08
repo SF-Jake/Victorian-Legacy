@@ -1,5 +1,10 @@
-owner = WRI
-controller = WRI
-add_core = WRI
-trade_goods = fish
+trade_goods = timber
 life_rating = 20
+colonial = 1
+1861.1.1 = {
+	owner = COM
+	controller = COM
+	add_core = OYO
+	life_rating = 35
+}
+

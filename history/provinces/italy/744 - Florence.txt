@@ -1,45 +1,21 @@
 owner = TUS
 controller = TUS
 add_core = TUS
-add_core = ITA
-trade_goods = fruit
+#add_core = ITA
+
+trade_goods = iron
 life_rating = 35
-1913.1.1 = {
-	owner = ITA
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+1861.1.1 = {
 	controller = ITA
-	state_building = {
-		level = 5
-		building = cement_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = tea_packaging_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = coffee_packaging_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = winery
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = explosives_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = steamer_shipyard
-		upgrade = yes
-	}
-	state_building = {
-		level = 5
-		building = synthetic_rubber_factory
-		upgrade = yes
-	}
+	owner = ITA
+	#add_core = ITA
 }
+1861.1.1 = { railroad = 3 }
+
+
+

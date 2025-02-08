@@ -1,10 +1,11 @@
 owner = EGY
 controller = EGY
 add_core = TUR
-trade_goods = cattle
+add_core = ARM
+trade_goods = wool
 life_rating = 35
-1913.1.1 = {
-owner = TUR
-controller = TUR
-colonial = 0
+1861.1.1 = {
+	controller = TUR 
+	owner = TUR
 }
+

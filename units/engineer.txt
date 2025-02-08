@@ -17,14 +17,14 @@ engineer = {
 	#Building Costs
 	build_time = 90
 	build_cost = {
-		small_arms = 15 #10
+		small_arms = 75 #10
 		canned_food = 10
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {		   #total cost 2.18
-		small_arms = 0.005 #0.35
-		ammunition = 0.2 #1.13
+		small_arms = 0.014 #0.35
+		ammunition = 0.226 #1.13
 		canned_food = 0.07 #0.7
 	}
 	

@@ -1,19 +1,19 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 leader = {
-	name = "Miloš Obrenovic I"
+	name = "Milosav Zdravkovic"
+	picture = ser_gen_zdravkovic
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+leader = {
+	name = "Prince Aleksandar"
+	picture = ser_gen_karajordjevic
 	type = land
 	date="1836.1.1"
-	personality = mor10_1
-	background = 2a2d_1
+	personality = defence_1.1
+	background = attack_1.1
 }
 
 army = {
@@ -21,7 +21,7 @@ army = {
 	location = 794
 	regiment = {
 		name= "1st Serbian Infantry"
-		type = infantry
+		type = hussar
 		home = 794
 	}
 
@@ -36,24 +36,48 @@ army = {
 		type = infantry
 		home = 794
 	}
-
+	
 	regiment = {
 		name= "4th Serbian Infantry"
 		type = infantry
-		home = 795
-	}
-
-	regiment = {
-		name= "1st Serbian Cavalry"
-		type = dragoon
 		home = 794
 	}
 	
 	regiment = {
-		name= "1st Serbian Artillery"
+		name= "5th Serbian Infantry"
+		type = infantry
+		home = 795
+	}
+	
+	regiment = {
+		name= "6th Serbian Infantry"
+		type = artillery
+		home = 795
+	}
+	
+	regiment = {
+		name= "7th Serbian Infantry"
 		type = artillery
 		home = 796
-	}		
-		
+	}
+	
+	regiment = {
+		name= "8th Serbian Infantry"
+		type = artillery
+		home = 796
+	}
+	
+	regiment = {
+		name= "9th Serbian Infantry"
+		type = artillery
+		home = 797
+	}
+	
+	regiment = {
+		name= "10th Serbian Infantry"
+		type = artillery
+		home = 797
+	}
+
 }
 

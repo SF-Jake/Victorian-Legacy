@@ -242,9 +242,20 @@ guiTypes = {
 			clicksound = click
 		}
 		
+#		instantTextBoxType = { 
+#			name = "nationality_test"
+#			position = { x = 336 y = 302 }
+#			font = "vic_18_black"
+#			text = "Culture"	
+#			maxWidth = 200
+#			maxHeight = 20	
+#			fixedsize = yes
+#			format = centre
+#		}
+		
 		guiButtonType = {
 			name = "sortby_religion_button"
-			position = { x=466 y = 294 }
+			position = { x=9999 y = 9999 }
 			quadTextureSprite ="GFX_sortbutton_28"	
 			buttonText = "PV_POP_RELIGION"
 			buttonFont = "vic_18_black"
@@ -770,7 +781,7 @@ guiTypes = {
 			{
 				name ="pop_religion"
 				spriteType = "GFX_icon_religion"
-				position = { x= 192 y = 0 }
+				position = { x= 9999 y = 9999 }
 				Orientation = "UPPER_LEFT"
 			}
 			

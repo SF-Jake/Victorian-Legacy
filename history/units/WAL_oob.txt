@@ -1,19 +1,9 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 army = {
 	name = "Army of the Principality of Wallachia"
 	location = 669
 	regiment = {
 		name= "1st Wallachia Infantry"
-		type = infantry
+		type = hussar
 		home = 664
 	}
 
@@ -36,16 +26,39 @@ army = {
 	}
 
 	regiment = {
-		name= "1st Wallachia Cavalry"
-		type = dragoon
+		name= "5th Wallachia Infantry"
+		type = infantry
+		home = 665
+	}
+	
+	regiment = {
+		name= "6th Wallachia Infantry"
+		type = artillery
 		home = 666
 	}
-
+	
 	regiment = {
-		name= "1st Wallachia Artillery"
+		name= "7th Wallachia Infantry"
 		type = artillery
-		home = 665
-	}		
-
+		home = 667
+	}
+	
+	regiment = {
+		name= "8th Wallachia Infantry"
+		type = artillery
+		home = 668
+	}
+	
+	regiment = {
+		name= "9th Wallachia Infantry"
+		type = artillery
+		home = 668
+	}
+	
+	regiment = {
+		name= "10th Wallachia Infantry"
+		type = artillery
+		home = 669
+	}
 }
 

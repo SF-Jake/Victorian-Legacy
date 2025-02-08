@@ -1,29 +1,27 @@
 owner = USA
 controller = USA
 add_core = USA
-trade_goods = fish
+trade_goods = grain
 life_rating = 35
 naval_base = 1
-1913.1.1 = {
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
 	state_building = {
-		level = 3
+		level = 1
 		building = ammunition_factory
 		upgrade = yes
 	}
 	state_building = {
-		level = 3
-		building = fertilizer_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 3
+		level = 1
 		building = explosives_factory
 		upgrade = yes
 	}
-	state_building = {
-		level = 3
-		building = fabric_factory
-		upgrade = yes
-	}
-	naval_base = 6
 }
+1861.1.1 = { 
+	railroad = 3 
+	naval_base = 1
+	fort = 1
+}
+

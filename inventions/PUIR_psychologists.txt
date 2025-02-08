@@ -8,7 +8,7 @@ william_hamilton = {
 	limit = { associationism = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
 			factor = 3
 			invention = immanuel_kant
@@ -23,7 +23,7 @@ soren_kierkegaard  = {
 	limit = { associationism = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 	}
 	effect = {
 		permanent_prestige = 5
@@ -34,7 +34,7 @@ alexander_bain  = {
 	limit = { associationism = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
 			factor = 2
 			invention = john_stuart_mill
@@ -49,7 +49,7 @@ thomas_brown  = {
 	limit = { associationism = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
 			factor = 2
 			invention = alexander_bain
@@ -62,10 +62,10 @@ thomas_brown  = {
 
 #Experimental Psychology (1870)
 wilhelm_wundt  = {
-	limit = { phenomenalism = 1 }
+	limit = { experimental_psychology = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -73,10 +73,10 @@ wilhelm_wundt  = {
 }
 
 edward_titchener  = {
-	limit = { phenomenalism = 1 }
+	limit = { experimental_psychology = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
 			factor = 2
 			invention = wilhelm_wundt
@@ -87,22 +87,11 @@ edward_titchener  = {
 	}
 }
 
-ivan_pavlov  = {
-	limit = { phenomenalism = 1 }
-	news = no
-	chance = {
-		base = 5
-	}
-	effect = {
-		permanent_prestige = 5		
-	}
-}
-
 william_james  = {
 	limit = { experimental_psychology = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
 			factor = 2
 			functionalism = 1
@@ -117,7 +106,7 @@ gs_hall  = {
 	limit = { experimental_psychology = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
 			factor = 2
 			biologism = 1
@@ -132,7 +121,7 @@ hermann_ebbinghaus  = {
 	limit = { experimental_psychology = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
 			factor = 2
 			biologism = 1
@@ -164,10 +153,10 @@ mary_calkins  = {
 
 #Psychological Intelligence (1875)
 francis_galton  = {
-	limit = { behaviorism = 1 }
+	limit = { psychological_intelligence = 1 }
 	news = no
 	chance = {
-		base = 5
+		base = 2
 		modifier = {
 			factor = 2
 			invention = darwinism
@@ -179,7 +168,7 @@ francis_galton  = {
 }
 
 alfred_binet  = {
-	limit = { behaviorism = 1 }
+	limit = { psychological_intelligence = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -200,7 +189,7 @@ alfred_binet  = {
 }
 
 charles_spearman  = {
-	limit = { behaviorism = 1 }
+	limit = { psychological_intelligence = 1 }
 	news = no
 	chance = {
 		base = 0
@@ -334,11 +323,48 @@ karen_horney  = {
 }
 
 #Behaviourism (1900)
-ec_tolman  = {
+ivan_pavlov  = {
 	limit = { behaviorism = 1 }
 	news = no
 	chance = {
 		base = 5
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+el_thorndike  = {
+	limit = { behaviorism = 1 }
+	news = no
+	chance = {
+		base = 5
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+jb_watson  = {
+	limit = { behaviorism = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+		factor = 3
+			invention = ivan_pavlov
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+ec_tolman  = {
+	limit = { behaviorism = 1 }
+	news = no
+	chance = {
+		base = 2
 		modifier = {
 			factor = 3
 			invention = jb_watson
@@ -377,31 +403,4 @@ cinematographic_propaganda = {
 	}
 	core_pop_consciousness_modifier = -0.05
 	global_pop_militancy_modifier = -0.05	
-}
-
-#humanistic_psychology
-el_thorndike  = {
-	limit = { humanistic_psychology = 1 }
-	news = no
-	chance = {
-		base = 5
-	}
-	effect = {
-		permanent_prestige = 5		
-	}
-}
-
-jb_watson  = {
-	limit = { humanistic_psychology = 1 }
-	news = no
-	chance = {
-		base = 5
-		modifier = {
-		factor = 3
-			invention = ivan_pavlov
-		}
-	}
-	effect = {
-		permanent_prestige = 5		
-	}
 }

@@ -1,11 +1,9 @@
-owner = EIC
-controller = EIC
+owner = ENG
+controller = ENG
 add_core = SRI
-add_core = HND
-trade_goods = tea_leaves
+trade_goods = tea
 life_rating = 32
-1913.1.1 = {
-	owner = EIC
-	controller = EIC
-	colonial = 0
+colonial = 2
+1861.1.1 = { 
+	naval_base = 1
 }

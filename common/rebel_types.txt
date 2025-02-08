@@ -16,7 +16,7 @@ reactionary_rebels = {
 	icon = 1
 	
 	area = nation 					# Stays within the nation
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -28,9 +28,6 @@ reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = presidential_dictatorship
-		colonial_company = absolute_monarchy
-		theocracy = absolute_monarchy
-		tribal_society = absolute_monarchy
 	}
 	
 	
@@ -46,7 +43,7 @@ reactionary_rebels = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does use generals
+	general = yes					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -82,14 +79,6 @@ reactionary_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 1.02
-
-		modifier = {
-			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}		
 		modifier = {
 			factor = 0.01
 			NOT = {
@@ -131,22 +120,20 @@ reactionary_rebels = {
 		}
 		modifier = {
 			factor = 1.0105
-			pop_majority_ideology = conservative
-			NOT = {
-				country = {
-					has_country_modifier = global_liberal_agitation
-					has_country_modifier = springtime_of_nations	
+			AND = {
+				pop_majority_ideology = conservative
+				NOT = {
+					country = {
+						has_country_modifier = global_liberal_agitation
+						has_country_modifier = springtime_of_nations	
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
-				OR = {
-					is_accepted_culture = yes
-					is_primary_culture = yes
-				}
-			}
+			is_primary_culture = no
+			is_accepted_culture = no
 		}
 		modifier = {
 			factor = 0.8
@@ -228,7 +215,7 @@ fascist_rebels = {
 	icon = 2
 	
 	area = nation 					# Stays within the nation
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -240,9 +227,6 @@ fascist_rebels = {
 		prussian_constitutionalism = fascist_dictatorship
 		hms_government = fascist_dictatorship
 		democracy = fascist_dictatorship
-		colonial_company = fascist_dictatorship
-		theocracy = fascist_dictatorship
-		tribal_society = fascist_dictatorship
 	}
 	
 	
@@ -258,7 +242,7 @@ fascist_rebels = {
 	
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Receives reinforcements
-	general = no					# Uses generals
+	general = yes					# Uses generals
 	smart = yes					# Assaults forts, tactically withdraws from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
@@ -300,14 +284,7 @@ fascist_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 1.02
-
-		modifier = {
-			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}		
+		
 		modifier = {
 			factor = 0
 			NOT = {
@@ -347,12 +324,8 @@ fascist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			NOT = {
-				OR = {
-					is_accepted_culture = yes
-					is_primary_culture = yes
-				}
-			}
+			is_primary_culture = no
+			is_accepted_culture = no
 		}
 		modifier = {
 			factor = 1.15
@@ -443,7 +416,7 @@ communist_rebels = {
 	icon = 3
 	
 	area = nation 					# Stays within the nation
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -455,9 +428,6 @@ communist_rebels = {
 		prussian_constitutionalism = proletarian_dictatorship
 		hms_government = proletarian_dictatorship
 		democracy = proletarian_dictatorship
-		colonial_company = proletarian_dictatorship
-		theocracy = proletarian_dictatorship
-		tribal_society = proletarian_dictatorship
 	}
 	
 	
@@ -473,7 +443,7 @@ communist_rebels = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does use generals
+	general = yes					# Does use generals
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -530,22 +500,6 @@ communist_rebels = {
 		
 		modifier = {
 			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}		
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_accepted_culture = yes
-					is_primary_culture = yes
-				}
-			}
-		}
-		modifier = {
-			factor = 0
 			country = { civilized = no }
 		}
 		modifier = {
@@ -557,6 +511,11 @@ communist_rebels = {
 		modifier = {
 			factor = 0
 			government = proletarian_dictatorship
+		}
+		modifier = {
+			factor = 0
+			is_primary_culture = no
+			is_accepted_culture = no
 		}
 		modifier = {
 			factor = 1.015
@@ -674,7 +633,7 @@ anarcho_liberal_rebels = {
 	icon = 4
 	
 	area = nation 					# Stays within the nation
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -686,9 +645,6 @@ anarcho_liberal_rebels = {
 		prussian_constitutionalism = bourgeois_dictatorship
 		hms_government = bourgeois_dictatorship
 		democracy = bourgeois_dictatorship
-		colonial_company = bourgeois_dictatorship
-		theocracy = bourgeois_dictatorship
-		tribal_society = bourgeois_dictatorship
 	}
 	
 	
@@ -704,7 +660,7 @@ anarcho_liberal_rebels = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does use generals
+	general = yes					# Does use generals
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -751,14 +707,6 @@ anarcho_liberal_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 1.02
-		
-		modifier = {
-			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}	
 		modifier = {
 			factor = 0.01
 			NOT = {
@@ -785,7 +733,11 @@ anarcho_liberal_rebels = {
 				is_ideology_enabled = anarcho_liberal
 			}
 		}
-		
+		modifier = {
+			factor = 0
+			is_primary_culture = no
+			is_accepted_culture = no
+		}
 		modifier = {
 			factor = 1.15
 			pop_majority_ideology = anarcho_liberal
@@ -795,28 +747,17 @@ anarcho_liberal_rebels = {
 			factor = 1.05
 			pop_majority_ideology = liberal
 		}
-
 		modifier = {
 			factor = 1.15
 			political_reform_want = 0.15
 			NOT = { social_reform_want = 0.05 
 			}
 		}
-		
 		modifier = {
 			factor = 0.5
 			NOT = { is_culture_group = THIS }
 		}
 		
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-				is_accepted_culture = yes
-				is_primary_culture = yes
-				}
-			}
-		}
 		modifier = {
 			factor = 0
 			country = { government = bourgeois_dictatorship }
@@ -896,9 +837,6 @@ nationalist_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
-		colonial_company = colonial_company
-		theocracy = theocracy
-		tribal_society = tribal_society
 	}
 	
 	
@@ -912,7 +850,7 @@ nationalist_rebels = {
 	
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does use generals
+	general = yes					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do remain after enforcing demands.
 	
@@ -924,28 +862,44 @@ nationalist_rebels = {
 		factor = 0.5
 		
 		modifier = {
+			war = yes
+			factor = 0.8
+		}
+		
+		modifier = {
 			war_exhaustion = 4
-			factor = 1.25
+			factor = 0.95
 		}
 		
 		modifier = {
 			war_exhaustion = 6
-			factor =  1.25
+			factor = 0.95
 		}
 		
 		modifier = {
 			war_exhaustion = 8
-			factor =  1.25
+			factor = 0.95
 		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1.05
-		
+	factor = 100
 		modifier = {
-			factor = 0.25
+			factor = 0.01
 			is_primary_culture = yes
+			location = { is_core = THIS }
+		}
+		modifier = {
+			factor = 0.1
+			is_accepted_culture = yes
+			location = { is_core = THIS }
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				country = { num_of_cities = 2 }
+			}
 		}
 		modifier = {
 			factor = 0
@@ -960,71 +914,112 @@ nationalist_rebels = {
 		 	}
 		}
 		modifier = {
-			factor = 3
-				location = {
-					any_core = {
-						is_primary_culture = THIS
-						exists = no
-			 		}
-		 	}
+			factor = 10
+			OR = {
+				pop_majority_ideology = anarcho_liberal
+				pop_majority_ideology = reactionary
+				pop_majority_ideology = fascist
+			}
 		}
 		modifier = {
-			factor = 0
-				OR = {
-					has_pop_culture = beifaren
-				}
-				country = { civilized = no }
-		}
-		modifier = {
-			factor = 0
-			is_cultural_union = THIS
-		}
-		modifier = {
-			factor = 1.01
-			pop_majority_ideology = communist
-		}
-		modifier = {
-			factor = 1.01
-			pop_majority_ideology = socialist
-		}
-		modifier = {
-			factor = 1.03
-			pop_majority_ideology = anarcho_liberal
-		}
-		modifier = {
-			factor = 1.05
+			factor = 5
 			pop_majority_ideology = liberal
 		}
 		modifier = {
-			factor = 1.07
-			pop_majority_ideology = conservative
+			factor = 10
+			location = { has_province_modifier = nationalist_agitation }
 		}
 		modifier = {
-			factor = 1.09
-			pop_majority_ideology = reactionary
+			factor = 0
+			culture = british
+			country = { primary_culture = boer }
 		}
 		modifier = {
-			factor = 1.11
-			pop_majority_ideology = fascist
-		}
-		
-
-		modifier = {
-			factor = 1.015
-			NOT = { is_culture_group = THIS }
-		}
-		
-		modifier = {
-			factor = 0.4
-			is_accepted_culture = yes
+			factor = 0
+			is_culture_group = scandinavian
+			country = { tag = SCA }
 		}
 		modifier = {
-			factor = 1.02
-			is_accepted_culture = no
+			factor = 0
+			is_culture_group = germanic
+			country = { tag = GER }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0
+			is_culture_group = italian
+			country = { tag = ITA }
+		}
+		modifier = {
+			factor = 0
+			is_culture_group = italian
+			country = { tag = AIT }
+		}
+		modifier = {
+			factor = 0
+			culture = manchu
+			country = { tag = CHI }
+		}
+		modifier = {
+			factor = 0
+			culture = beifaren
+			country = { tag = CHI }
+		}
+		modifier = {
+			factor = 0
+			culture = nanfaren
+			country = { tag = CHI }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = catalan
+				culture = basque
+			}
+			OR = {
+				pop_majority_ideology = reactionary
+				pop_majority_ideology = conservative
+			}
+			country = { 
+				tag = SPA
+				OR = {
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+			}
+		}
+		modifier = {
+			factor = 15
+			country = {
+				OR = {
+					has_country_modifier = global_liberal_agitation
+					has_country_modifier = springtime_of_nations
+				}
+			}
+		}
+		modifier = {
+			factor = 10
 			location = { is_colonial = yes }
+		}
+		modifier = {
+			factor = 0
+			country = {
+				civilized = no
+			}
+		}
+		modifier = {
+			factor = 5
+			culture = irish
+			country = { has_country_flag = no_help_for_the_irish }
+		}
+		modifier = {
+			factor = 0.1
+			culture = irish
+			country = { has_country_flag = help_for_the_irish }
+		}
+		modifier = {
+			factor = 50
+			culture = irish
+			location = { has_province_modifier = irish_republicans }
 		}
 	
 	}
@@ -1095,251 +1090,296 @@ nationalist_rebels = {
 ###################################
 # Pan-Nationalist Rebels
 ###################################
-pan_nationalist_rebels = {
-	icon = 6
-	
-	area = culture_group
-	break_alliance_on_win = no
-	
-	# <this is the governement in the country> = <this is what the rebels want>
-	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-		presidential_dictatorship = presidential_dictatorship
-		bourgeois_dictatorship = bourgeois_dictatorship
-		fascist_dictatorship = fascist_dictatorship
-		absolute_monarchy = absolute_monarchy
-		prussian_constitutionalism = prussian_constitutionalism
-		hms_government = hms_government
-		democracy = democracy
-		colonial_company = colonial_company
-		theocracy = theocracy
-		tribal_society = tribal_society
-	}
-
-	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
-	independence = none
-	defect_delay = 12			# Can spontaneously declare independence after 12 months (earliest)
-	
-	ideology = liberal
-	allow_all_cultures = yes
-	allow_all_culture_groups = no
-	allow_all_religions = yes
-	allow_all_ideologies = yes
-	
-	resilient = yes					# Disbands on retreat
-	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does not use generals
-	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
-	unit_transfer = no				# Units remain after enforcing demands.
-	
-	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces
-
-	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
-	will_rise = 
-	{
-		factor = 0.5
-		
-		modifier = {
-			NOT = { any_greater_power = { nationalism_n_imperialism = 1 } }
-			factor = 0
-		}
-	
-		modifier = {
-			war = yes
-			factor = 0.8
-		}
-		
-		modifier = {
-			war_exhaustion = 4
-			factor = 0.95
-		}
-		
-		modifier = {
-			war_exhaustion = 6
-			factor = 0.95
-		}
-		
-		modifier = {
-			war_exhaustion = 8
-			factor = 0.95
-		}
-		modifier = {
-			factor = 0.4
-			country = {
-				has_country_modifier = springtime_of_nations
-			}
-		}
-		modifier = {
-			factor = 1.5
-			country = {
-				has_country_modifier = global_liberal_agitation
-			}
-		}
-	}
-	
-	# The rebel type with the highest modifier for this pop gets picked
-	spawn_chance = {
-		factor = 1.1
-		
-		modifier = {
-			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}	
-		modifier = {
-			factor = 0
-			country = { civilized = no }
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				culture_has_union_tag = no
-				is_cultural_union = THIS
-				NOT = { is_culture_group = THIS }
-			}
-		}
-
-		modifier = {
-			factor = 0
-			cultural_union = {
-				exists = yes
-			}
-		}
-		
-		modifier = {
-			factor = 0
-			country = { war = yes }
-		}
-		
-		modifier = {
-			factor = 0
-			country = {
-				OR = {
-					tag = AUS
-					tag = KUK
-					tag = DNB
-					tag = PRU
-					tag = NGF
-					tag = SGF
-					tag = BRZ
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0
-			culture = north_italian
-		}
-
-		modifier = {
-			factor = 1.3
-			country = {
-				has_country_modifier = global_liberal_agitation
-				has_country_modifier = springtime_of_nations
-			}
-		}
-		
-		modifier = {
-			factor = 1.2
-			pop_majority_ideology = liberal
-		}
-		
-		modifier = {
-			factor = 1.1
-			pop_majority_ideology = anarcho_liberal
-		}
-
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.05
-		}
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.1
-		}
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.15
-		}
-	}
- 
- 	#This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
-		modifier = {
-			factor = 0.1
-			units_in_province = 1
-		}
-		modifier = {
-			factor = 0.001
-			controlled_by = REB
-		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 4
-		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 6
-		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 8
-		}
-		modifier = {
-			factor = 2.0
-			is_capital = yes
-		}
-	}
-	
- 	# Province Scope
- 	#siege_won_trigger = {
- 	#}
-	
-	#siege_won_effect = {
-	#}
-	
-
-	# Country scope
-	demands_enforced_trigger = {
-		capital_scope = {
-			controlled_by = REB
-			province_control_days = 30
-		}
-	}
-	
-	demands_enforced_effect = {
-		political_reform = wealth_voting
-		political_reform = population_equal_weight
-		political_reform = yes_meeting
-		political_reform = free_press
-		political_reform = non_socialist
-		political_reform = secret_ballots
-		random_country = {
-			limit = {
-				is_culture_group = THIS
-				OR = {
-					is_greater_power = yes
-					tag = WAL
-					tag = MOL
-					tag = SER
-				}
-				NOT = {
-					tag = AUS
-					tag = KUK
-					is_cultural_union = yes
-				}
-				NOT = {
-					cultural_union = { exists = yes }
-				}
-			}
-			country_event = { id=11100 days=0 }
-		}
-	}
-}
-
+#pan_nationalist_rebels = {
+#	icon = 6
+#	
+#	area = culture_group
+#	break_alliance_on_win = no
+#	
+#	# <this is the governement in the country> = <this is what the rebels want>
+#	government = {
+#		proletarian_dictatorship = proletarian_dictatorship
+#		presidential_dictatorship = presidential_dictatorship
+#		bourgeois_dictatorship = bourgeois_dictatorship
+#		fascist_dictatorship = fascist_dictatorship
+#		absolute_monarchy = absolute_monarchy
+#		prussian_constitutionalism = prussian_constitutionalism
+#		hms_government = hms_government
+#		democracy = democracy
+#	}
+#
+#	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
+#	independence = none
+#	defect_delay = 12			# Can spontaneously declare independence after 12 months (earliest)
+#	
+#	ideology = liberal
+#	allow_all_cultures = yes
+#	allow_all_culture_groups = no
+#	allow_all_religions = yes
+#	allow_all_ideologies = yes
+#	
+#	resilient = yes					# Disbands on retreat
+#	reinforcing = yes				# Does not receive reinforcements
+#	general = yes					# Does not use generals
+#	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
+#	unit_transfer = no				# Units remain after enforcing demands.
+#	
+#	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces
+#
+#	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
+#	will_rise = 
+#	{
+#		factor = 0.5
+#		
+#		modifier = {
+#			factor = -10000
+#			country = { tag = AIT }
+#		}
+#		
+#		modifier = {
+#			NOT = { any_greater_power = { nationalism_n_imperialism = 1 } }
+#			factor = 0
+#		}
+#	
+#		modifier = {
+#			war = yes
+#			factor = 0.8
+#		}
+#		
+#		modifier = {
+#			war_exhaustion = 4
+#			factor = 0.95
+#		}
+#		
+#		modifier = {
+#			war_exhaustion = 6
+#			factor = 0.95
+#		}
+#		
+#		modifier = {
+#			war_exhaustion = 8
+#			factor = 0.95
+#		}
+#		modifier = {
+#			factor = 0.4
+#			country = {
+#				has_country_modifier = springtime_of_nations
+#			}
+#		}
+#		modifier = {
+#			factor = 1.5
+#			country = {
+#				has_country_modifier = global_liberal_agitation
+#			}
+#		}
+#	}
+#	
+#	# The rebel type with the highest modifier for this pop gets picked
+#	spawn_chance = {
+#		factor = 10
+#		
+#		modifier = {
+#			factor = -10000
+#			country = { tag = AIT }
+#		}
+#		
+#		modifier = {
+#			factor = 0
+#			country = { civilized = no }
+#		}
+#		modifier = {
+#			factor = 0
+#			OR = { 
+#				culture_has_union_tag = no
+#				is_cultural_union = THIS
+#				NOT = { is_culture_group = THIS }
+#				country = { is_greater_power = yes }
+#			}
+#		}
+#		modifier = {
+#			factor = 5
+#			cultural_union = {
+#				exists = yes
+#			}
+#		}
+#		
+#		modifier = {
+#			factor = 0
+#			OR = {
+#				culture = north_italian
+#				culture = south_italian
+#			}
+#			ITA = { exists = no }
+#		}
+#
+#		modifier = {
+#			factor = 0
+#			country = { tag = CSA }
+#		}
+#		
+#		modifier = {
+#			factor = 1.3
+#			OR = {
+#				country = {
+#					has_country_modifier = global_liberal_agitation
+#					has_country_modifier = springtime_of_nations
+#				}
+#			}
+#		}
+#	
+#		modifier = {
+#			factor = 0
+#			is_culture_group = south_asian
+#			cultural_union = { exists = no }
+#		}
+#
+#		modifier = {
+#			factor = 0
+#			is_culture_group = polish_culture_group
+#			country = { tag = PLC }
+#		}
+#		
+#		modifier = {
+#			factor = 10
+#			liberal = 10
+#			NOT = { liberal = 20 }
+#		}
+#		modifier = {
+#			factor = 20
+#			liberal = 20
+#			NOT = { liberal = 30 }
+#		}
+#		modifier = {
+#			factor = 30
+#			liberal = 30
+#			NOT = { liberal = 40 }
+#		}
+#		modifier = {
+#			factor = 40
+#			liberal = 40
+#			NOT = { liberal = 50 }
+#		}
+#		modifier = {
+#			factor = 50
+#			liberal = 50
+#		}
+#		modifier = {
+#			factor = 5
+#			anarcho_liberal = 10
+#			NOT = { anarcho_liberal = 30 }
+#		}
+#		modifier = {
+#			factor = 10
+#			anarcho_liberal = 30
+#		}
+#		modifier = {
+#			factor = 5
+#			OR = {
+#				pop_majority_ideology = liberal
+#				pop_majority_ideology = anarcho_liberal
+#				pop_majority_ideology = socialist
+#			}
+#		}
+#		modifier = {
+#			factor = 30
+#			OR = {
+#				pop_majority_ideology = liberal
+#				pop_majority_ideology = anarcho_liberal
+#			}
+#			country = {
+#				OR = {
+#					has_country_modifier = global_liberal_agitation
+#					has_country_modifier = springtime_of_nations
+#				}
+#			}
+#		}
+#		modifier = {
+#			factor = 15
+#			pop_majority_ideology = conservative
+#			country = {
+#				OR = {
+#					has_country_modifier = global_liberal_agitation
+#					has_country_modifier = springtime_of_nations
+#				}
+#			}
+#		}
+#	}
+# 
+# 	#This is checked for EACH province in the Area of Operations
+#	movement_evaluation = {
+#		factor = 1
+#		modifier = {
+#			factor = 0.1
+#			units_in_province = 1
+#		}
+#		modifier = {
+#			factor = 0.001
+#			controlled_by = REB
+#		}
+#		modifier = {
+#			factor = 1.5
+#			average_militancy = 4
+#		}
+#		modifier = {
+#			factor = 1.5
+#			average_militancy = 6
+#		}
+#		modifier = {
+#			factor = 1.5
+#			average_militancy = 8
+#		}
+#		modifier = {
+#			factor = 2.0
+#			is_capital = yes
+#		}
+#	}
+#	
+# 	# Province Scope
+# 	#siege_won_trigger = {
+# 	#}
+#	
+#	#siege_won_effect = {
+#	#}
+#	
+#
+#	# Country scope
+#	demands_enforced_trigger = {
+#		capital_scope = {
+#			controlled_by = REB
+#			province_control_days = 30
+#		}
+#	}
+#	
+#	demands_enforced_effect = {
+#		political_reform = wealth_voting
+#		political_reform = population_equal_weight
+#		political_reform = yes_meeting
+#		political_reform = free_press
+#		political_reform = non_socialist
+#		political_reform = secret_ballots
+#		random_country = {
+#			limit = {
+#				is_culture_group = THIS
+#				OR = {
+#					is_greater_power = yes
+#					tag = WAL
+#					tag = MOL
+#					tag = SER
+#				}
+#				NOT = {
+#					tag = AUS
+#					tag = KUK
+#					is_cultural_union = yes
+#				}
+#				NOT = {
+#					cultural_union = { exists = yes }
+#				}
+#			}
+#			country_event = { id=11100 days=0 }
+#		}
+#	}
+#}
+#
 ###################################
 # Carlist Rebels
 ###################################
@@ -1347,7 +1387,7 @@ carlist_rebels = {
 	icon = 1
 	
 	area = nation 					# Stays within the nation
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -1359,9 +1399,6 @@ carlist_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
-		colonial_company = colonial_company
-		theocracy = theocracy
-		tribal_society = tribal_society
 	}
 	
 	
@@ -1377,7 +1414,7 @@ carlist_rebels = {
 	
 	resilient = yes					
 	reinforcing = yes				
-	general = no					
+	general = yes					
 	smart = yes
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -1416,13 +1453,6 @@ carlist_rebels = {
 		
 		modifier = {
 			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}		
-		modifier = {
-			factor = 0
 			country = { NOT = { tag = SPA}}
 		}
 		modifier = {
@@ -1450,13 +1480,9 @@ carlist_rebels = {
 			}
 		}
 		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_accepted_culture = yes
-					is_primary_culture = yes
-				}
-			}
+			factor = 0.8
+			is_primary_culture = no
+			is_accepted_culture = no
 		}
 		modifier = {
 			factor = 0.8
@@ -1530,7 +1556,7 @@ carlist_rebels = {
 ###################################
 boxer_rebels = {
 	icon = 1
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	area = nation 					# Stays within the nation
 	
@@ -1545,9 +1571,6 @@ boxer_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
-		colonial_company = absolute_monarchy
-		theocracy = absolute_monarchy
-		tribal_society = absolute_monarchy
 	}
 	
 	
@@ -1563,7 +1586,7 @@ boxer_rebels = {
 	
 	resilient = yes					
 	reinforcing = yes				
-	general = no					
+	general = yes					
 	smart = yes
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -1602,51 +1625,71 @@ boxer_rebels = {
 		
 		modifier = {
 			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
+			NOT = {
+				year = 1870
 			}
-		}	
+		}
 		modifier = {
 			factor = 0
-			country = { civilized = yes }
+			country = { NOT = { tag = CHI} }
 		}
 		modifier = {
-			factor = 0.01
-			NOT = {
-				OR = {
-					pop_majority_ideology = reactionary
-					pop_majority_ideology = conservative
-					pop_majority_ideology = fascist
+			factor = 0
+			country = {
+				NOT = {
+					government = absolute_monarchy
 				}
 			}
 		}
 		modifier = {
-			factor = 1.15
-			pop_majority_ideology = reactionary
-		}
-		modifier = {
-			factor = 1.05
-			pop_majority_ideology = conservative
-			NOT = {
-				country = {
-					has_country_modifier = global_liberal_agitation
-					has_country_modifier = springtime_of_nations	
-				}
-			}
-		}
-		modifier = {
-			factor = 0 # -100?
-			NOT = { is_culture_group = east_asian }
-			NOT = {
-				country = { has_country_flag = chinese }
-			}
+			factor = 0.2
+			country = { is_independant = yes}
 		}
 		
 		modifier = {
-			factor = 0
-			country = { NOT = { civilization_progress = 0.5 } }
+			factor = 1.1
+			country = { is_independant = no}
 		}
+		
+		modifier = {
+			factor = 1.3
+			pop_majority_ideology = reactionary
+		}
+			
+		modifier = {
+			factor = 1.3
+			location = {
+				OR = {
+					has_province_modifier = western_presence
+					has_province_modifier = foreign_smugglers
+					has_province_modifier = foreign_trading_post
+					has_province_modifier = local_opium_habit
+					has_province_modifier = european_military_mission
+				}
+			}
+		}
+		modifier = {
+			factor = 1.05
+			country = {
+				has_country_modifier = western_influences
+			}
+		}
+		modifier = {
+			factor = 1.05
+			country = {
+				NOT = {
+					prestige = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 1.05
+			country = {
+				NOT = {
+					prestige = 25
+				}
+			}
+		}		
 	}
  
  	#This is checked for EACH province in the Area of Operations
@@ -1655,6 +1698,16 @@ boxer_rebels = {
 		modifier = {
 			factor = 0.1
 			units_in_province = 1
+		}
+		modifier = {
+			factor = 20
+			OR = {
+				has_province_modifier = western_presence
+				has_province_modifier = foreign_smugglers
+				has_province_modifier = foreign_trading_post
+				has_province_modifier = local_opium_habit
+				has_province_modifier = european_military_mission
+			}
 		}
 		modifier = {
 			factor = 0.001
@@ -1673,27 +1726,45 @@ boxer_rebels = {
 			average_militancy = 8
 		}
 		modifier = {
-			factor = 10.0
+			factor = 2.0
 			is_capital = yes
 		}
 	}
 	
  	# Province Scope
  	siege_won_trigger = {
+		OR = {
+			has_province_modifier = western_presence
+			has_province_modifier = foreign_smugglers
+			has_province_modifier = foreign_trading_post
+			has_province_modifier = local_opium_habit
+			has_province_modifier = european_military_mission
+		}
  	}
 	
 	siege_won_effect = {
-		clergymen = {
-			reduce_pop = 0.5
+		CHI = {
+			prestige = 2
 		}
+		remove_province_modifier = western_presence
+		remove_province_modifier = foreign_smugglers
+		remove_province_modifier = foreign_trading_post
+		remove_province_modifier = local_opium_habit
+		remove_province_modifier = european_military_mission
 		any_pop = {
-			reduce_pop = 0.97
+			reduce_pop = 0.95
+		}
+		random_country = {
+			limit = {
+				is_greater_power = yes
+			}
+			country_event = { id=13356 days=0 }
 		}
 	}
 
 	# Country scope
 	demands_enforced_trigger = {
-		capital_scope = {
+		any_owned_province = {
 			controlled_by = REB
 			province_control_days = 30
 		}
@@ -1703,20 +1774,270 @@ boxer_rebels = {
 		any_greater_power = {
 			country_event = { id=13356 days=0 }
 		}
-		remove_country_modifier = early_qing_reforms
-		remove_country_modifier = late_qing_reforms
-		remove_random_economic_reforms = 2
-		remove_random_military_reforms = 2
 	}
 }
 
 ###################################
 # Italian Redshirts
 ###################################
-red_shirts = {
+#red_shirts = {
+#	icon = 6
+#	
+#	area = nation
+#	
+#	# <this is the governement in the country> = <this is what the rebels want>
+#	government = {
+#		proletarian_dictatorship = proletarian_dictatorship
+#		presidential_dictatorship = presidential_dictatorship
+#		bourgeois_dictatorship = bourgeois_dictatorship
+#		fascist_dictatorship = fascist_dictatorship
+#		absolute_monarchy = absolute_monarchy
+#		prussian_constitutionalism = prussian_constitutionalism
+#		hms_government = hms_government
+#		democracy = democracy
+#	}
+#
+#	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
+#	independence = none
+#	defect_delay = 12			# Can spontaneously declare independence after 12 months (earliest)
+#	
+#	ideology = liberal
+#	allow_all_cultures = yes
+#	allow_all_culture_groups = no
+#	allow_all_religions = yes
+#	allow_all_ideologies = yes
+#	
+#	resilient = yes					# Disbands on retreat
+#	reinforcing = yes				# Does not receive reinforcements
+#	general = yes					# Does not use generals
+#	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
+#	unit_transfer = no				# Units remain after enforcing demands.
+#	
+#	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
+#
+#	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
+#	will_rise = 
+#	{
+#		factor = 0.5
+#		
+#		modifier = {
+#			factor = -10000
+#			country = { tag = AIT }
+#		}
+#		
+#		modifier = {
+#			NOT = { any_greater_power = { nationalism_n_imperialism = 1 } }
+#			factor = 0
+#		}
+#		
+#		modifier = {
+#			war = yes
+#			factor = 0.8
+#		}
+#		
+#		modifier = {
+#			war_exhaustion = 4
+#			factor = 0.95
+#		}
+#		
+#		modifier = {
+#			war_exhaustion = 6
+#			factor = 0.95
+#		}
+#		
+#		modifier = {
+#			war_exhaustion = 8
+#			factor = 0.95
+#		}
+#		modifier = {
+#			factor = 0.4
+#			OR = {
+#				country = {
+#					has_country_modifier = springtime_of_nations
+#				}
+#			}
+#		}
+#		modifier = {
+#			factor = 1.5
+#			country = {
+#				has_country_modifier = global_liberal_agitation
+#			}
+#		}
+#	}
+#	
+#	# The rebel type with the highest modifier for this pop gets picked
+#	spawn_chance = {
+#		factor = 1.1
+#		
+#		modifier = {
+#			factor = 0
+#			OR = {
+#				culture_has_union_tag = no
+#				NOT = { is_culture_group = THIS }
+#			}
+#		}
+#		
+#		modifier = {
+#			factor = -10000
+#			country = { tag = AIT }
+#		}
+#		
+#		modifier = {
+#			factor = 0
+#			NOT = {
+#				OR = {
+#					culture = south_italian
+#					culture = north_italian
+#				}
+#			}
+#		}
+#		
+#		modifier = {
+#			factor = 0
+#			location = {
+#				NOT = {
+#					OR = {
+#						is_core = LOM
+#						is_core = SAR
+#						is_core = SIC
+#						is_core = PAP
+#						is_core = MOD
+#						is_core = LUC
+#						is_core = TUS
+#						is_core = VEN
+#					}
+#				}
+#			}
+#		}
+#
+#		modifier = {
+#			factor = 1.3
+#			OR = {
+#				country = {
+#					has_country_modifier = global_liberal_agitation
+#					has_country_modifier = springtime_of_nations
+#				}
+#			}
+#		}
+#		
+#		modifier = {
+#			factor = 1.1
+#			ITA = {
+#				NOT = {
+#					num_of_cities = 1
+#				}
+#			}
+#		}
+#		
+#		modifier = {
+#			factor = 1.2
+#			pop_majority_ideology = liberal
+#		}
+#		
+#		modifier = {
+#			factor = 1.1
+#			pop_majority_ideology = anarcho_liberal
+#		}
+#		
+#		modifier = {
+#			factor = 1.1
+#			pop_majority_ideology = conservative
+#		}
+#
+#		modifier = {
+#			factor = 1.015
+#			political_reform_want = 0.05
+#		}
+#		modifier = {
+#			factor = 1.015
+#			political_reform_want = 0.1
+#		}
+#		modifier = {
+#			factor = 1.015
+#			political_reform_want = 0.15
+#		}
+#	}
+# 
+# 	#This is checked for EACH province in the Area of Operations
+#	movement_evaluation = {
+#		factor = 1
+#		modifier = {
+#			factor = 0.1
+#			units_in_province = 1
+#		}
+#		modifier = {
+#			factor = 0.001
+#			controlled_by = REB
+#		}
+#		modifier = {
+#			factor = 1.5
+#			average_militancy = 4
+#		}
+#		modifier = {
+#			factor = 1.5
+#			average_militancy = 6
+#		}
+#		modifier = {
+#			factor = 1.5
+#			average_militancy = 8
+#		}
+#		modifier = {
+#			factor = 2.0
+#			is_capital = yes
+#		}
+#	}
+#	
+# 	# Province Scope
+# 	#siege_won_trigger = {
+# 	#}
+#	
+#	#siege_won_effect = {
+#	#}
+#	
+#
+#	# Country scope
+#	demands_enforced_trigger = {
+#		NOT = {
+#			is_cultural_union = THIS
+#		}
+#		ITA = {
+#			exists = no
+#		}
+#		capital_scope = {
+#			controlled_by = REB
+#			province_control_days = 90
+#		}
+#	}
+#	
+#	demands_enforced_effect = {
+#		random_country = {
+#			limit = {
+#				is_culture_group = THIS
+#				OR = {
+#					is_greater_power = yes
+#					OR = {
+#						tag = SAR
+#						tag = SIC
+#					}
+#				}
+#				NOT = {
+#					is_cultural_union = yes
+#					has_country_flag = does_not_want_to_be_unified
+#				}
+#			}
+#			country_event = { id=11103 days=0 }
+#		}
+#	}
+#}
+#
+###################################
+# Indian Sepoys
+###################################
+indian_sepoys = {
 	icon = 6
+	break_alliance_on_win = no
 	
-	area = nation
+	area = culture_group
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -1728,13 +2049,10 @@ red_shirts = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
-		colonial_company = colonial_company
-		theocracy = theocracy
-		tribal_society = tribal_society
 	}
 
 	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
-	independence = none
+	independence = culture
 	defect_delay = 12			# Can spontaneously declare independence after 12 months (earliest)
 	
 	ideology = liberal
@@ -1745,7 +2063,7 @@ red_shirts = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does not use generals
+	general = yes					# Does not use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
@@ -1757,95 +2075,93 @@ red_shirts = {
 		factor = 0.5
 		
 		modifier = {
-			NOT = { any_greater_power = { state_n_government = 1 } }
+			NOT = { any_greater_power = { nationalism_n_imperialism = 1 } }
 			factor = 0
+		}	
+		
+		modifier = {
+			war = yes
+			factor = 0.8
 		}
 
 		modifier = {
+			year = 1850
+			NOT = { year = 1865 }
+			factor = 0.2
+		}		
+		
+		modifier = {
 			war_exhaustion = 4
-			factor = 1.25
+			factor = 0.95
 		}
 		
 		modifier = {
 			war_exhaustion = 6
-			factor = 1.25
+			factor = 0.95
 		}
 		
 		modifier = {
 			war_exhaustion = 8
-			factor = 1.25
-		}
-		modifier = {
-			factor = 1.5
-			country = {
-				has_country_modifier = global_liberal_agitation
-			}
+			factor = 0.95
 		}
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 2
-		
+		factor = 1.1
 		modifier = {
 			factor = 0
 			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}	
-		modifier = {
-			factor = 0
-			OR = {
-				culture_has_union_tag = no
-				NOT = { is_culture_group = THIS }
-			}
-		}
-		
-		modifier = {
-			factor = 0
-			country = {
-				OR = {
-					is_greater_power = yes
-					tag = SAR
-					is_cultural_union = THIS
-				}
+				is_cultural_union = THIS
+				location = { NOT = { is_core = HND } }
+				tag = HND
+				exists = HND
 			}
 		}
 		
 		modifier = {
 			factor = 0
 			NOT = {
-				culture = north_italian
+				continent = asia
 			}
 		}
 		
 		modifier = {
 			factor = 0
-			location = {
-				NOT = {
-					is_core = ITA
-				}
+			NOT = {
+				is_culture_group = south_asian
 			}
 		}
-
+		
 		modifier = {
-			factor = 1.3
+			factor = 5
+			is_culture_group = south_asian
+		}
+		
+		modifier = {
+			factor = 0
 			country = {
-				has_country_modifier = global_liberal_agitation
-				has_country_modifier = springtime_of_nations
-			}
-		}
-		
-		modifier = {
-			factor = 1.1
-			ITA = {
-				NOT = {
-					num_of_cities = 1
+				AND = {
+					is_greater_power = no
+					part_of_sphere = no
 				}
 			}
 		}
 		
+		modifier = {
+			factor = 0
+			country = {
+				is_culture_group = south_asian				
+			}
+		}
+		
+		modifier = {
+			factor = 1.05
+			year = 1850
+			NOT = { year = 1865 }
+
+		}	
+				
 		modifier = {
 			factor = 1.2
 			pop_majority_ideology = liberal
@@ -1853,12 +2169,12 @@ red_shirts = {
 		
 		modifier = {
 			factor = 1.1
-			pop_majority_ideology = anarcho_liberal
+			pop_majority_ideology = conservative
 		}
 		
 		modifier = {
 			factor = 1.1
-			pop_majority_ideology = conservative
+			pop_majority_ideology = anarcho_liberal
 		}
 
 		modifier = {
@@ -1878,6 +2194,10 @@ red_shirts = {
  	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
@@ -1910,40 +2230,19 @@ red_shirts = {
 
 	# Country scope
 	demands_enforced_trigger = {
-		NOT = {
-			is_cultural_union = THIS
-		}
-		ITA = {
-			exists = no
-		}
-		capital_scope = {
-			controlled_by = REB
-			province_control_days = 60
+		HND = {
+			all_core = {
+				OR = {
+					controlled_by = REB
+					NOT = { owned_by = THIS }
+				}
+				province_control_days = 60
+			}
 		}
 	}
 	
 	demands_enforced_effect = {
-		random_country = {
-			limit = {
-				is_culture_group = THIS
-				OR = {
-					is_greater_power = yes
-					AND = {
-						tag = SAR
-						ai = no
-					}
-					AND = {
-						tag = SIC
-						ai = no
-					}
-				}
-				NOT = {
-					is_cultural_union = yes
-					has_country_flag = does_not_want_to_be_unified
-				}
-			}
-			country_event = { id=11103 days=0 }
-		}
+		release_vassal = HND
 	}
 }
 
@@ -1954,7 +2253,7 @@ liberal_rebels = {
 	icon = 4
 	
 	area = nation 					# Stays within the nation
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -1966,9 +2265,6 @@ liberal_rebels = {
 		prussian_constitutionalism = democracy
 		hms_government = democracy
 		democracy = democracy
-		colonial_company = democracy
-		theocracy = democracy
-		tribal_society = democracy
 	}
 	
 	
@@ -1984,7 +2280,7 @@ liberal_rebels = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does not use generals
+	general = yes					# Does not use generals
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -1995,25 +2291,30 @@ liberal_rebels = {
 	{
 		factor = 0.5
 		
+		modifier = {
+			war = yes
+			factor = 0.8
+		}
 		
 		modifier = {
-			NOT = { any_greater_power = { nationalism_n_imperialism = 1 } }
-			factor = 0
-		}
-
-		modifier = {
 			war_exhaustion = 4
-			factor = 1.25
+			factor = 0.95
 		}
 		
 		modifier = {
 			war_exhaustion = 6
-			factor = 1.25
+			factor = 0.95
 		}
 		
 		modifier = {
 			war_exhaustion = 8
-			factor = 1.25
+			factor = 0.95
+		}
+		modifier = {
+			factor = 0.4
+			country = {
+				has_country_modifier = springtime_of_nations
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -2026,14 +2327,6 @@ liberal_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 1.02
-		
-		modifier = {
-			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}	
 		modifier = {
 			factor = 0
 			country = { civilized = no }
@@ -2043,14 +2336,9 @@ liberal_rebels = {
 				social_movement = yes
 		}
 		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_accepted_culture = yes
-					is_primary_culture = yes
-				}
-			}
-		}		
+			factor = 0 # -100?
+			NOT = { literacy = 0.40 }
+		}
 		modifier = {
 			factor = 0.05
 			country = {
@@ -2061,7 +2349,12 @@ liberal_rebels = {
 			}
 		}
 		modifier = {
-			factor = 0.01
+			factor = 0
+			is_primary_culture = no
+			is_accepted_culture = no
+		}
+		modifier = {
+			factor = 0.4
 			NOT = {
 				OR = {
 					pop_majority_ideology = anarcho_liberal
@@ -2080,17 +2373,24 @@ liberal_rebels = {
 		}
 		
 		modifier = {
-			factor = 1.15
+			factor = 1.75
 			pop_majority_ideology = liberal
 		}
-		
+
 		modifier = {
 			factor = 1.15
-			pop_majority_ideology = conservative
-			country = {
-				OR = {
-					has_country_modifier = global_liberal_agitation
-					has_country_modifier = springtime_of_nations
+			pop_majority_ideology = socialist
+		}
+
+		modifier = {
+			factor = 1.15
+			AND = {
+				pop_majority_ideology = conservative
+				country = {
+					OR = {
+						has_country_modifier = global_liberal_agitation
+						has_country_modifier = springtime_of_nations
+					}
 				}
 			}
 		}
@@ -2168,7 +2468,7 @@ unciv_reactionary_rebels = {
 	icon = 1
 	
 	area = nation 					# Stays within the nation
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -2180,9 +2480,6 @@ unciv_reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
-		colonial_company = absolute_monarchy
-		theocracy = theocracy
-		tribal_society = tribal_society
 	}
 	
 	
@@ -2198,7 +2495,7 @@ unciv_reactionary_rebels = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does use generals
+	general = yes					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -2234,14 +2531,6 @@ unciv_reactionary_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 3
-		
-		modifier = {
-			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}	
 		modifier = {
 			factor = 0
 			country = { civilized = yes }
@@ -2262,30 +2551,20 @@ unciv_reactionary_rebels = {
 		}
 		modifier = {
 			factor = 1.05
-			pop_majority_ideology = conservative
-			NOT = {
-				country = {
-					has_country_modifier = global_liberal_agitation
-					has_country_modifier = springtime_of_nations	
+			AND = {
+				pop_majority_ideology = conservative
+				NOT = {
+					country = {
+						has_country_modifier = global_liberal_agitation
+						has_country_modifier = springtime_of_nations	
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 0 # -100?
-			OR = {
-				AND = {
-					country = { NOT = { tag = CHI } }
-					is_primary_culture = no
-					is_accepted_culture = no
-				}
-				AND = {
-					country = {	tag = CHI }
-					OR = {
-						NOT = { is_culture_group = east_asian }
-						country = { civilization_progress = 0.5 }
-					}
-				}
-			}
+			is_primary_culture = no
+			is_accepted_culture = no
 		}
 		
 		modifier = {
@@ -2306,9 +2585,11 @@ unciv_reactionary_rebels = {
 		}
 		modifier = {
 			factor = 1.02
-			country = {
-				civilization_progress = 0.1
-				part_of_sphere = yes
+			country = { 
+				AND = {
+					civilization_progress = 0.1
+					part_of_sphere = yes
+				}
 			}
 		}
 	}
@@ -2360,8 +2641,6 @@ unciv_reactionary_rebels = {
 	
 	demands_enforced_effect = {
 		civilized = no
-		remove_country_modifier = early_qing_reforms
-		remove_country_modifier = late_qing_reforms
 		remove_random_economic_reforms = 2
 		remove_random_military_reforms = 2
 	}
@@ -2373,7 +2652,7 @@ unciv_reactionary_rebels = {
 ###################################
 sioux_nation = {
 	icon = 6
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	area = culture_group
 	
@@ -2401,7 +2680,7 @@ sioux_nation = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does use generals
+	general = yes					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -2494,7 +2773,7 @@ sioux_nation = {
 
 apache = {
 	icon = 6
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	area = culture_group
 	
@@ -2522,7 +2801,7 @@ apache = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does use generals
+	general = yes					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -2538,6 +2817,12 @@ apache = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				culture = native_american_minor
+			}
+		}
 		modifier = {
 			factor = 0
 			NOT = {
@@ -2594,6 +2879,12 @@ apache = {
 			}
 			reduce_pop = 0.50
 		}
+		any_pop = {
+			limit = {
+				culture = native_american_minor
+			}
+			militancy = 10
+		}
 		
 	}
 	
@@ -2607,16 +2898,14 @@ apache = {
 }
 
 ###################################
-# Partisans
+# Zombies
 ###################################
+zombie_rebels = {
+	icon = 4
 
-partisan_rebels = {
-	icon = 7
+	area = all
 	break_alliance_on_win = no
 	
-	area = nation
-	
-	# <this is the government in the country> = <this is what the rebels want>
 	government = {
 		proletarian_dictatorship = proletarian_dictatorship
 		presidential_dictatorship = presidential_dictatorship
@@ -2626,601 +2915,311 @@ partisan_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
-		colonial_company = colonial_company
-		theocracy = theocracy
-		tribal_society = tribal_society
 	}
-	
-	
-	defection = none					# Will defect to the "best" alternative.
-	independence = none				# Does not strive for independence
-	defect_delay = 18
-	
-	ideology = liberal
+
+	defection = none
+	independence = none
+	defect_delay = 8
 	
 	allow_all_cultures = yes
 	allow_all_religions = yes
 	allow_all_ideologies = yes
-	
-	resilient = yes					# Disbands on retreat
-	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does not use generals
-	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
-	unit_transfer = yes			# Units do not remain after enforcing demands.
-	
-	occupation_mult = 1.25			# The amount of strength this rebel gains from taking provinces	
 
-	# triggers a general rising, modifier will be multiplied with the country's army strength and compared to the factions strength
+	ideology = liberal
+	
+	resilient = yes
+	reinforcing = yes
+	general = yes
+	smart = no
+	unit_transfer = yes
+
+	occupation_mult = 3.0
+
 	will_rise = {
-		factor = 0.5 #0.5
-		
+		factor = 1
 		modifier = {
-			war_exhaustion = 40
-			factor = 0.95
+			factor = 2
+			location = { has_province_modifier = zombie_outbreak }
 		}
 		modifier = {
-			war_exhaustion = 60
-			factor = 0.95
-		}
-		modifier = {
-			war_exhaustion = 80
-			factor = 0.95
-		}
-		modifier = {
-			war = no
 			factor = 0
+			location = {
+				NOT = { has_province_modifier = zombie_outbreak }
+			}
+		}
+		modifier = {
+			factor = 0
+			country = { 
+				has_country_flag = zombie_outbreak_defeat 
+			}
 		}
 	}
 	
-	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 5
-		
+		factor = 500
 		modifier = {
-			factor = 0
-			type = slaves
+			factor = 500
+			location = { has_province_modifier = zombie_outbreak }
 		}
-		#Only show up in provs controlled by foreigners and during a war
-		modifier = {
-			factor = 0
-			country = { war = no }
-		}
-		modifier = {
-			factor = 0
-			location = { controlled_by = THIS }
-		}
-		modifier = {
-			factor = 0
-			location = { NOT = { is_core = THIS } }
-		}
-		modifier = {
-			factor = 0
-			location = { controlled_by_rebels = yes }
-		}
-		
-		modifier = {
-			factor = 1.5
-			location = { is_capital = yes }
-		}
-		
-		#THIS show signs of weird behaviour, units_in_province works better
-		modifier = {
-			factor = 0
-			location = { units_in_province = 1 }
-		}
-		
-		#Will only spawn in provinces that do not neighbour other free provinces/have units
 		modifier = {
 			factor = 0
 			location = {
-				NOT = {
-					controlled_by = REB
-					controlled_by = THIS
-				}
-				any_neighbor_province = {
-					OR = {
-						controlled_by = THIS
-						units_in_province = 1
-					}
-				}
+				 NOT = { has_province_modifier = zombie_outbreak } 
 			}
-		}
-
-		#Nationalists would rather have their own country
-		modifier = {
-			factor = 0.01
-			is_primary_culture = no
-			is_accepted_culture = no
 		}
 		modifier = {
 			factor = 0
-			is_primary_culture = no
-			is_accepted_culture = no
-			location = {
-				any_core = {
-					is_cultural_union = no
-					is_primary_culture = THIS
-					exists = no
-				}
-			}
-		}
-		modifier = {
-			factor = 0.01
-			is_primary_culture = no
-			location = {
-				any_core = {
-					is_primary_culture = THIS
-					is_cultural_union = no
-					exists = no
-				}
-			}
+			country = { has_country_flag = zombie_outbreak_defeat }
 		}
 	}
  
- 	#This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
 		modifier = {
-			factor = 0.001
-			controlled_by = THIS
-		}
-		modifier = {
-			factor = 2
+			factor = 1.5
 			average_militancy = 4
-			NOT = {
-				controlled_by = THIS
-				controlled_by = REB
-			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			average_militancy = 6
-			NOT = {
-				controlled_by = THIS
-				controlled_by = REB
-			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			average_militancy = 8
-			NOT = {
-				controlled_by = THIS
-				controlled_by = REB
-			}
 		}
-		modifier = {
-			factor = 2	
-			NOT =  {
-				controlled_by = THIS
-				controlled_by = REB
-			}
-		}
-	}
-	
- 	# Province Scope
- 	siege_won_trigger = {
-		NOT = { has_province_modifier = partisan_occupation }
- 	}
-	
-	siege_won_effect = {
-		add_province_modifier = { name = partisan_occupation duration = 365 }
-	}
-
-	# Country scope
-	demands_enforced_trigger = {
-		any_owned_province = {
-			controlled_by = REB
-			has_province_modifier = partisan_occupation
-			province_control_days = 60
-		}
-	}
-	
-	demands_enforced_effect = {
-		any_owned = {
-			limit = {
-				controlled_by = REB
-				has_province_modifier = partisan_occupation
-			}			
-			change_controller = THIS				
-			remove_province_modifier = partisan_occupation
-			any_pop = { militancy = -7 }
-		}
-	}
-}
-
-###################################
-# Republican Rebels
-###################################
-
-republican_rebels = {
-	icon = 4
-	
-	area = nation 					# Stays within the nation
-	break_alliance_on_win = yes
-	
-	# <this is the governement in the country> = <this is what the rebels want>
-	government = {
-		proletarian_dictatorship = democracy
-		presidential_dictatorship = democracy
-		bourgeois_dictatorship = democracy
-		fascist_dictatorship = democracy
-		absolute_monarchy = democracy
-		prussian_constitutionalism = democracy
-		hms_government = democracy
-		democracy = democracy
-		colonial_company = democracy
-		theocracy = democracy
-		tribal_society = democracy
-	}
-	
-	
-	defection = none					# Will defect to the "best" alternative.
-	independence = none				# Does not strive for independence
-	defect_delay = 18
-	
-	ideology = liberal
-	
-	allow_all_cultures = yes
-	allow_all_religions = yes
-	allow_all_ideologies = yes
-	
-	resilient = yes					# Disbands on retreat
-	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does not use generals
-	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
-	unit_transfer = no				# Units do not remain after enforcing demands.
-	
-	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
-
-	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
-	will_rise = 
-	{
-		factor = 0.5
-		
-		
-		modifier = {
-			NOT = { any_greater_power = { nationalism_n_imperialism = 1 } }
-			factor = 0
-		}
-
-		modifier = {
-			war_exhaustion = 4
-			factor = 1.25
-		}
-		
-		modifier = {
-			war_exhaustion = 6
-			factor = 1.25
-		}
-		
-		modifier = {
-			war_exhaustion = 8
-			factor = 1.25
-		}
-		modifier = {
-			factor = 1.5
-			country = {
-				has_country_modifier = global_liberal_agitation
-			}
-		}
-	}
-	
-	# The rebel type with the highest modifier for this pop gets picked
-	spawn_chance = {
-		factor = 1.1
-
-		modifier = {
-			factor = 0
-			country = {
-				OR = {
-					NOT = { tag = MEX }
-					government = democracy
-				}
-			}
-		}
-
-		modifier = {
-			factor = 1.5
-			country = {
-				tag = MEX
-				NOT = { government = democracy }
-			}
-			location = { is_core = MEX }
-		}
-	}
-
- 	#This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
 		modifier = {
 			factor = 0.1
-			controlled_by = REB
+			units_in_province = 9
 		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 4
-		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 6
-		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 8
-		}
-		modifier = {
-			factor = 2.0
-			is_capital = yes
-		}
-	}
-	
- 	# Province Scope
- 	#siege_won_trigger = {
- 	#}
-	
-	#siege_won_effect = {
-	#}
-	
-
-	# Country scope
-	demands_enforced_trigger = {
-		capital_scope = {
-			controlled_by = REB
-			province_control_days = 30
-		}
-	}
-	demands_enforced_effect = {
-		political_reform = universal_weighted_voting
-		political_reform = population_equal_weight
-		political_reform = yes_meeting
-		political_reform = free_press
-		political_reform = non_socialist
-		political_reform = gerrymandering
-		clr_country_flag = cannot_pass_reform
-		remove_country_modifier = cannot_pass_reform
-		any_owned = {
-			limit = { has_province_modifier = republican_rebels }
-			remove_province_modifier = republican_rebels
-		}
-	}
-}
-
-###################################
-# South American Federation
-###################################
-south_american_revolutionaries = {
-	icon = 6
-	
-	area = nation
-	
-	# <this is the governement in the country> = <this is what the rebels want>
-	government = {
-		proletarian_dictatorship = proletarian_dictatorship
-		presidential_dictatorship = presidential_dictatorship
-		bourgeois_dictatorship = bourgeois_dictatorship
-		fascist_dictatorship = fascist_dictatorship
-		absolute_monarchy = absolute_monarchy
-		prussian_constitutionalism = prussian_constitutionalism
-		hms_government = hms_government
-		democracy = democracy
-		colonial_company = colonial_company
-		theocracy = theocracy
-		tribal_society = tribal_society
-	}
-
-	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
-	independence = none
-	defect_delay = 12			# Can spontaneously declare independence after 12 months (earliest)
-	
-	ideology = liberal
-	allow_all_cultures = yes
-	allow_all_culture_groups = no
-	allow_all_religions = yes
-	allow_all_ideologies = yes
-	
-	resilient = yes					# Disbands on retreat
-	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does not use generals
-	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
-	unit_transfer = no				# Units remain after enforcing demands.
-	
-	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
-
-	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
-	will_rise = 
-	{
-		factor = 0.5
-		
-
-		modifier = {
-			war_exhaustion = 4
-			factor = 1.25
-		}
-		
-		modifier = {
-			war_exhaustion = 6
-			factor = 1.25
-		}
-		
-		modifier = {
-			war_exhaustion = 8
-			factor = 1.25
-		}
-		modifier = {
-			factor = 1.5
-			country = {
-				has_country_modifier = global_liberal_agitation
-			}
-		}
-	}
-	
-	# The rebel type with the highest modifier for this pop gets picked
-	spawn_chance = {
-		factor = 2
-		
-		modifier = {
-			factor = 0
-			OR = {
-				location = { is_overseas = yes }
-				location = { is_colonial = yes }
-			}
-		}	
-		modifier = {
-			factor = 0
-			OR = {
-				culture_has_union_tag = no
-				NOT = { is_culture_group = THIS }
-			}
-		}
-		
-
-		
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					culture = brazilian
-					culture = afro_brazilian
-				}
-			}
-		}
-		
-		modifier = {
-			factor = 0
-			location = {
-				NOT = {
-					is_core = SAS
-				}
-			}
-		}
-
-		modifier = {
-			factor = 1.3
-			country = {
-				has_country_modifier = global_liberal_agitation
-				has_country_modifier = springtime_of_nations
-			}
-		}
-
-		modifier = {
-			factor = 0
-			country = {
-				NOT = {
-					tag = BRZ
-				}
-			}		
-		}
-		
-		modifier = {
-			factor = 1.1
-			SAS = {
-				NOT = {
-					num_of_cities = 1
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0
-			NOT = { year = 1855 }
-		}
-		
-		modifier = {
-			factor = 1.2
-			pop_majority_ideology = liberal
-		}
-		
-		modifier = {
-			factor = 1.1
-			pop_majority_ideology = anarcho_liberal
-		}
-		
-		modifier = {
-			factor = 1.1
-			pop_majority_ideology = conservative
-		}
-
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.05
-		}
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.1
-		}
-		modifier = {
-			factor = 1.015
-			political_reform_want = 0.15
-		}
-}
- 
- 	#This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
 		modifier = {
 			factor = 0.001
 			controlled_by = REB
 		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 4
-		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 6
-		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 8
-		}
-		modifier = {
-			factor = 2.0
-			is_capital = yes
+
+	}
+
+ 	siege_won_trigger = { 
+		NOT = {
+			has_province_modifier = zombie_outbreak
 		}
 	}
-	
- 	# Province Scope
-	siege_won_trigger = {
-		NOT = { has_province_modifier = war_torn }
- 	}
 	
 	siege_won_effect = {
-		add_province_modifier = {
-			name = war_torn
-			duration = 365
-		}
 		any_pop = {
-			ideology = {
-				value = reactionary
-				factor = 0.05
+			reduce_pop = 0.9
+			militancy = 8
+			consciousness = -3
+		}
+		add_province_modifier = { 
+			name = "zombie_outbreak"
+			duration = -1
+		}
+	}
+	
+	demands_enforced_trigger = {
+		14 = { controlled_by = REB } #Columbia
+		37 = { controlled_by = REB } #Metis Confederacy
+		57 = { controlled_by = REB } #Canada
+		65 = { controlled_by = REB } #Quebec
+		74 = { controlled_by = REB } #Newfoundland
+		84 = { controlled_by = REB } #Californian Republic
+		97 = { controlled_by = REB } #Deseret	
+		133 = { controlled_by = REB } #Austin
+		143 = { controlled_by = REB } #Cherokee
+		211 = { controlled_by = REB } #CSA
+		220 = { controlled_by = REB } #USA
+		232 = { controlled_by = REB } #Manhatten Commune
+		243 = { controlled_by = REB } #New England
+		252 = { controlled_by = REB } #Iceland
+		263 = { controlled_by = REB } #Ireland
+		269 = { controlled_by = REB } #Scotland
+		300 = { controlled_by = REB } #United Kingdom
+		313 = { controlled_by = REB } #Norway
+		322 = { controlled_by = REB } #Sweden
+		343 = { controlled_by = REB } #Finland
+		349 = { controlled_by = REB } #Estonia
+		354 = { controlled_by = REB } #Latvia
+		360 = { controlled_by = REB } #Lithuania
+		369 = { controlled_by = REB } #Schleswig
+		372 = { controlled_by = REB } #Denmark
+		375 = { controlled_by = REB } #Netherlands
+		387 = { controlled_by = REB } #Belgium
+		392 = { controlled_by = REB } #Saxe
+		397 = { controlled_by = REB } #Luxemburg
+		425 = { controlled_by = REB } #France
+		487 = { controlled_by = REB } #Spain
+		498 = { controlled_by = REB } #Catalonia
+		521 = { controlled_by = REB } #Portugal
+		528 = { controlled_by = REB } #Hamburg
+		530 = { controlled_by = REB } #Lubeck
+		534 = { controlled_by = REB } #Hannover
+		536 = { controlled_by = REB } #Braunschweig
+		539 = { controlled_by = REB } #Bremen
+		540 = { controlled_by = REB } #Oldenburg
+		544 = { controlled_by = REB } #Mecklenburg
+		549 = { controlled_by = REB } #Prussia
+		555 = { controlled_by = REB } #Anhalt
+		558 = { controlled_by = REB } #Saxony
+		561 = { controlled_by = REB } #Wallonia
+		562 = { controlled_by = REB } #Saxe
+		563 = { controlled_by = REB } #Saxe
+		564 = { controlled_by = REB } #Frankfurt am Maim
+		566 = { controlled_by = REB } #HesseKassel
+		570 = { controlled_by = REB } #Nassau
+		585 = { controlled_by = REB } #Lippe
+		586 = { controlled_by = REB } #Baden
+		589 = { controlled_by = REB } #Wurttemberg
+		599 = { controlled_by = REB } #Bavaria
+		605 = { controlled_by = REB } #Switzerland
+		619 = { controlled_by = REB } #Austria
+		625 = { controlled_by = REB } #Yugoslavia
+		633 = { controlled_by = REB } #Slovakia
+		641 = { controlled_by = REB } #Hungary
+		657 = { controlled_by = REB } #Siebenburgen
+		658 = { controlled_by = REB } #Hawaii
+		664 = { controlled_by = REB } #Romania
+		670 = { controlled_by = REB } #Moldavia
+		690 = { controlled_by = REB } #Danzig
+		702 = { controlled_by = REB } #Ruthenia
+		703 = { controlled_by = REB } #Krakow
+		706 = { controlled_by = REB } #Poland
+		720 = { controlled_by = REB } #Sardinia
+		726 = { controlled_by = REB } #Lombardia
+		729 = { controlled_by = REB } #Venice
+		736 = { controlled_by = REB } #Trieste
+		738 = { controlled_by = REB } #Parma
+		739 = { controlled_by = REB } #Modena
+		744 = { controlled_by = REB } #Tuscany
+		746 = { controlled_by = REB } #Lucca
+		749 = { controlled_by = REB } #Papal States
+		754 = { controlled_by = REB } #Two Sicilies
+		771 = { controlled_by = REB } #Croatia
+		783 = { controlled_by = REB } #Bosnia
+		786 = { controlled_by = REB } #Slovenia
+		794 = { controlled_by = REB } #Serbia
+		809 = { controlled_by = REB } #Bulgaria
+		826 = { controlled_by = REB } #Ionian Islands
+		834 = { controlled_by = REB } #Greece
+		848 = { controlled_by = REB } #Crete
+		849 = { controlled_by = REB } #Albania
+		855 = { controlled_by = REB } #Cyprus
+		860 = { controlled_by = REB } #Ottoman Empire
+		926 = { controlled_by = REB } #Iraq
+		958 = { controlled_by = REB } #Ukraine
+		967 = { controlled_by = REB } #Croatia
+		994 = { controlled_by = REB } #Russia
+		1095 = { controlled_by = REB } #Georgia
+		1098 = { controlled_by = REB } #Armenia
+		1102 = { controlled_by = REB } #Azerbaiijan
+		1151 = { controlled_by = REB } #Hedjaz
+		1157 = { controlled_by = REB } #Nejd
+		1121 = { controlled_by = REB } #Persia
+		1166 = { controlled_by = REB } #Oman
+		1167 = { controlled_by = REB } #Abu Dhabi
+		1178 = { controlled_by = REB } #Yemen
+		1191 = { controlled_by = REB } #Khiva
+		1198 = { controlled_by = REB } #Bukkhara
+		1202 = { controlled_by = REB } #Kokand
+		1209 = { controlled_by = REB } #Afghanistan
+		2113 = { controlled_by = REB } #Kalat
+		1221 = { controlled_by = REB } #Makran
+		1225 = { controlled_by = REB } #Kashmir
+		1226 = { controlled_by = REB } #Ladakh
+		1227 = { controlled_by = REB } #Panjab
+		1235 = { controlled_by = REB } #Shimla
+		1244 = { controlled_by = REB } #Awadh
+		1236 = { controlled_by = REB } #Mughalistan
+		1251 = { controlled_by = REB } #India
+		1261 = { controlled_by = REB } #Orissa
+		1265 = { controlled_by = REB } #Jaisalmer
+		1266 = { controlled_by = REB } #Jodhpur
+		1267 = { controlled_by = REB } #Bikaner
+		1268 = { controlled_by = REB } #Jaipur
+		1269 = { controlled_by = REB } #Mewar
+		1270 = { controlled_by = REB } #Gwalior
+		1271 = { controlled_by = REB } #Indore
+		1272 = { controlled_by = REB } #Bhopal
+		1274 = { controlled_by = REB } #Bundelkhand
+		1277 = { controlled_by = REB } #Nagpur
+		1279 = { controlled_by = REB } #Bastar
+		1283 = { controlled_by = REB } #Hyderabad
+		1288 = { controlled_by = REB } #Sind
+		1293 = { controlled_by = REB } #Kutch
+		1295 = { controlled_by = REB } #Beroda
+		1313 = { controlled_by = REB } #Mysore
+		1319 = { controlled_by = REB } #Travancore
+		1326 = { controlled_by = REB } #Nepal
+		1328 = { controlled_by = REB } #Sikkim
+		1329 = { controlled_by = REB } #Bhutan
+		1334 = { controlled_by = REB } #Burms
+		1346 = { controlled_by = REB } #Siam
+		1356 = { controlled_by = REB } #Luang Prabang
+		1357 = { controlled_by = REB } #Wiang Chhan
+		1364 = { controlled_by = REB } #Cambodia
+		1369 = { controlled_by = REB } #Dai Viet
+		1393 = { controlled_by = REB } #Brunei
+		1385 = { controlled_by = REB } #Johore
+		1405 = { controlled_by = REB } #Ateh
+		1413 = { controlled_by = REB } #Java
+		1438 = { controlled_by = REB } #Bali
+		1455 = { controlled_by = REB } #Philippines
+		1465 = { controlled_by = REB } #Mongolia
+		1502 = { controlled_by = REB } #Guangxi Clique
+		1576 = { controlled_by = REB } #Shanxi
+		1587 = { controlled_by = REB } #Tibet
+		1600 = { controlled_by = REB } #Xinjiang
+		1601 = { controlled_by = REB } #Yunnan
+		1612 = { controlled_by = REB } #China
+		1624 = { controlled_by = REB } #Korea
+		1649 = { controlled_by = REB } #Japan
+		1680 = { controlled_by = REB } #Morocco
+		1708 = { controlled_by = REB } #Aldjazair
+		1725 = { controlled_by = REB } #Tunis
+		1741 = { controlled_by = REB } #Tripoli
+		1745 = { controlled_by = REB } #Egypt
+		1852 = { controlled_by = REB } #Ethiopia
+		1887 = { controlled_by = REB } #Liberia
+		1948 = { controlled_by = REB } #Sokoto
+		2048 = { controlled_by = REB } #Zanzibar
+		2062 = { controlled_by = REB } #Xibei San Ma
+		2087 = { controlled_by = REB } #South Africa
+		2101 = { controlled_by = REB } #Oranje
+		2105 = { controlled_by = REB } #Transvaal	
+		2111 = { controlled_by = REB } #Natalia
+		2113 = { controlled_by = REB } #Zulu
+		2115 = { controlled_by = REB } #Madagascar	
+		2172 = { controlled_by = REB } #Mexico
+		2186 = { controlled_by = REB } #USCA
+		2191 = { controlled_by = REB } #El Salvador
+		2193 = { controlled_by = REB } #Honduras
+		2199 = { controlled_by = REB } #Nicaragua
+		2201 = { controlled_by = REB } #Costa Rica
+		2204 = { controlled_by = REB } #Panama
+		2209 = { controlled_by = REB } #Cuba
+		2213 = { controlled_by = REB } #Haiti
+		2214 = { controlled_by = REB } #Dominican Republic
+		2247 = { controlled_by = REB } #Colombia
+		2264 = { controlled_by = REB } #Venezuela
+		2279 = { controlled_by = REB } #Ecuador
+		2295 = { controlled_by = REB } #Peru
+		2313 = { controlled_by = REB } #Bolivia
+		2324 = { controlled_by = REB } #Chile
+		2339 = { controlled_by = REB } #Paraguay
+		2344 = { controlled_by = REB } #Uruguay
+		2348 = { controlled_by = REB } #Argentina
+		2447 = { controlled_by = REB } #Brazil
+		2476 = { controlled_by = REB } #Australia
+		2512 = { controlled_by = REB } #New Zealand
+		2560 = { controlled_by = REB } #HesseDarmstadt
+		2583 = { controlled_by = REB } #Montenegro
+	}
+
+	demands_enforced_effect = {
+		any_country = {
+			limit = {
+				has_country_flag = zombie_outbreak
 			}
 		}
-		owner = { war_exhaustion = 2.5 }
-	}
-	
-
-	# Country scope
-	demands_enforced_trigger = {
-		NOT = {
-			is_cultural_union = THIS
-		}
-		SAS = {
-			exists = no
-		}
-		capital_scope = {
-			controlled_by = REB
-			province_control_days = 60
-		}
-	}
-	
-	demands_enforced_effect = {
-		political_reform = universal_voting
-		political_reform = proportional_representation
-		political_reform = yes_meeting
-		political_reform = free_press
-		political_reform = state_controlled
-		political_reform = secret_ballots
-		government = hms_government
-		country_event = { id=194557 days=0 }
+		country_event = 999924
 	}
 }

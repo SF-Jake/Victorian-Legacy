@@ -6,6 +6,7 @@ province;red;green;blue;x;x
 5;192;0;128;Unalakleet;x
 6;153;179;153;Whitehorse;x
 7;192;128;128;Dawson;x
+8;179;204;153;Ross River;x
 9;128;64;128;Fort Simpson;x
 10;64;128;128;Inuvik;x
 11;119;210;74;Echo Bay;x
@@ -411,7 +412,7 @@ province;red;green;blue;x;x
 411;176;128;224;Nancy;x
 412;240;192;160;Metz;x
 413;112;191;160;Verdun;x
-414;48;128;224;Lorraine;x
+414;48;128;224;Epinal;x
 415;144;32;192;Rouen;x
 416;176;96;128;Evreux;x
 417;16;32;192;Alencon;x
@@ -1630,7 +1631,6 @@ province;red;green;blue;x;x
 1630;112;239;192;Kangnung;x
 1631;240;144;128;Wonju;x
 1632;155;168;181;Pusan;x
-8;240;208;1;Tsushima;x
 1633;48;80;128;Taegu;x
 1634;49;208;0;Pohang;x
 1635;48;208;128;Kwangju;x
@@ -2613,13 +2613,13 @@ province;red;green;blue;x;x
 2612;174;180;67;Zhambyl;x
 2613;6;183;195;Novyj Urengoj;x
 2614;48;186;68;Panajevsk;x
-2615;132;192;69;Guangzhouwan;x
+2615;132;192;69;Sidorovsk;x
 2616;174;195;197;Korf;x
 2617;6;198;70;Amgun;x
 2618;48;201;198;Talaya;x
 2619;90;204;71;Indigirka;x
 2620;132;207;199;Kolyma;x
-2621;174;210;72;Tonghua;x
+2621;174;210;72;Srednekolymsk;x
 2622;126;159;4;Majn;x
 2623;233;177;121;Midway Island;x
 2624;42;48;8;Loango;x
@@ -2644,7 +2644,7 @@ province;red;green;blue;x;x
 2643;168;102;17;Honuu;x
 2644;0;105;145;Tommot;x
 2645;42;108;18;Artemovskij;x
-2646;42;153;153;Nuhud;x
+2646;42;153;153;Niznevartovsk;x
 2647;126;114;19;Deputackij;x
 2648;168;117;147;Handyga;x
 2649;0;120;20;Tomtor;x
@@ -2653,13 +2653,13 @@ province;red;green;blue;x;x
 2652;126;129;149;Kular;x
 2653;168;132;22;Saskylah;x
 2654;0;135;150;Hatanga;x
-2655;42;138;23;Chifeng;x
+2655;42;138;23;Essej;x
 2656;84;141;151;Vanavara;x
 2657;126;144;24;Svetlogorsk;x
 2658;168;147;152;Kheta;x
-2659;0;150;25;Tientsin;x
+2659;0;150;25;Guba;x
 2660;42;153;3;Anuj;x
-2661;6;0;200;Jixi;x
+2661;6;0;200;Anjuj;x
 2662;84;156;131;Ambarcik;x
 2663;168;162;32;Manily;x
 2664;0;165;5;Omolon;x
@@ -2669,20 +2669,20 @@ province;red;green;blue;x;x
 2668;168;177;7;Adyca;x
 2669;0;180;135;Majja;x
 2670;42;183;8;Tiksi;x
-2671;84;186;136;Eirunepé;x
+2671;84;186;136;Lena;x
 2672;126;189;9;Borogoncy;x
-2673;168;192;137;Daqing;x
-2674;0;195;10;Qinhuangdao;x
+2673;168;192;137;Olenek;x
+2674;0;195;10;Novyj Kajak;x
 2675;42;198;138;Ajhal;x
 2676;84;201;11;Kirensk;x
 2677;126;204;139;Nepa;x
 2678;168;207;12;Bulgan;x
 2679;0;210;140;Khovd;x
-2680;84;33;146;Tongliao;x
+2680;84;33;146;Dudinka;x
 2681;126;36;19;Taz;x
 2682;168;39;147;Nadym;x
 2683;0;42;20;Vasjugan;x
-2684;42;45;148;Rzeszow;x
+2684;42;45;148;Aksarka;x
 2685;84;48;21;Njagan;x
 2686;126;51;149;Isim;x
 2687;168;54;22;Amderma;x
@@ -2690,8 +2690,8 @@ province;red;green;blue;x;x
 2689;168;78;97;Vojvoz;x
 2690;0;81;225;Gornopravdinsk;x
 2691;42;84;98;Vorgovo;x
-2692;84;87;226;Sumy;x
-2693;168;93;227;Rezekne;x
+2692;84;87;226;Kostino;x
+2693;168;93;227;Kotuj;x
 2694;0;96;0;Erbogacen;x
 2695;42;99;128;Lensk;x
 2696;84;102;1;Nerjungri;x
@@ -2699,7 +2699,7 @@ province;red;green;blue;x;x
 2698;42;3;78;Slavgorod;x
 2699;133;33;4;Izma;x
 2700;10;120;195;Usogorsk;x
-2701;94;15;21;Hulunbuir;x
+2701;94;15;21;Cunyja;x
 2702;4;78;135;Aralsk;x
 2703;1;200;200;Vänern;x
 2704;2;200;250;Vättern;x
@@ -3247,47 +3247,55 @@ province;red;green;blue;x;x
 3246;49;150;138;Jan Mayen;x
 3247;52;14;236;West Hawaii;x
 3248;53;14;240;West Magellan Strait;x 
-;54;14;244;Tonghua;x
-#3251;229;222;34;Daqing;x
-#3252;57;14;236;Hulunbuir;x
-#3253;58;14;240;Chifeng;x
-#3254;59;14;244;Qinhuangdao;x
-#3255;60;14;248;Sumy;x
-#3256;61;14;232;Rezekne;x
-#3257;62;14;136;Tongliao;x
-#3258;63;14;240;An Nuhud;x
-#3259;64;14;244;Guangzhouwan;x
-;65;14;248;x
-;66;14;232;x
-;67;14;236;x
-;68;14;240;x
-;69;14;244;x
-;70;14;248;x
-;71;16;232;x
-;72;16;236;x
-;73;16;240;x
-;74;16;244;x
-;75;16;248;x
-;76;16;232;x
-;77;16;236;x
-;78;16;240;x
-;79;16;244;x
-;80;16;248;x
-;81;16;232;x
-;82;16;236;x
-;83;16;240;x
-;84;16;244;x
-;85;16;248;x
-;86;16;232;x
-;87;16;236;x
-;88;16;240;x
-;89;16;244;x
-;90;16;248;x
-;91;16;232;x
-;92;16;236;x
-;93;16;240;x
-;94;16;244;x
-;95;16;248;x
+3249;222;29;42;Guangzhouwan;x
+3250;15;185;6;Ceuta;x
+3251;103;130;176;Trankebar;x
+3252;104;18;91;Vaduz;x
+3253;183;210;36;Diu;x
+3254;123;55;26;Bandung;x
+3255;130;75;46;Cuneo;x
+3256;54;14;244;Kampen;x
+3257;55;14;248;Almere;x
+3258;216;153;42;Benevento;x
+3259;168;122;40;Avellino;x
+3260;167;137;82;Rieta;x
+3261;33;40;150;x;Po River;x
+3262;14;8;110;x;Danube River;x
+3263;40;20;158;x;Rhine River;x
+3264;29;16;160;x;Seine River;x
+3265;40;37;171;x;Rhone River;x
+3266;29;33;155;x;Elbe River;x
+3267;20;32;150;x;Vistula River;x
+3268;30;20;125;x;Dnieper River;x
+3269;48;36;155;x;Daugava River;x
+3270;25;35;137;x;Volga River;x
+3271;39;43;161;x;Loire River;x
+3272;26;17;121;x;Oder River;x
+3273;15;103;176;x;Nile River;x
+3274;64;188;106;x;Elephantine;x
+3275;31;61;172;x;Tigris and Euphrates River;x
+3276;27;68;161;x;Indus River;x
+3277;15;102;145;x;Ganges River;x
+3278;28;108;148;x;Mekong River;x
+3279;18;92;162;x;Pearl River;x
+3280;23;93;159;x;Yangtze River;x
+3281;23;76;175;x;Yellow River;x
+3282;121;154;46;x;Dornogovi Aimag;x
+3283;39;62;182;x;Liao River;x
+3284;27;35;125;x;Amur River;x
+3285;122;38;164;x;Tanchon;x
+3286;25;34;143;x;Amnok and Duman River;x
+3287;43;27;166;x;Mississippi River System;x
+3288;39;54;173;x;StLawrence River;x
+3289;19;38;158;x;Rio Grande River;x
+3290;18;58;164;x;Amazon River;x
+3291;38;14;161;x;Orinoco River;x;
+3292;28;126;165;x;Uruguay River;x;
+3293;72;30;168;x;Paraguay River System;x;
+3294;51;30;167;x;Ebro River;x
+3295;93;16;240;x;Lleida;x
+3296;100;17;170;x;Congo River;x
+3297;30;30;146;x;Niger River;x
 ;96;16;232;x
 ;97;16;236;x
 ;98;16;240;x

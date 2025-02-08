@@ -1,271 +1,229 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 CHI = {
 	value = 125		#relation
 }
 
-leader = {
-	name = "António José Severim"
-	date = 1836.1.1
-	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.0
+OMA = {
+	value = 100		#relation
 }
 
-leader = {
-	name = "Nunes Vidigal"
-	date = 1836.1.1
-	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.0
+ZUL = {
+	value = 100		#relation
 }
 
+BEN = {
+	value = 100		#relation
+}
+
+TRN = {
+	value = 100		#relation
+}
+
+ALD = {
+	value = 100		#relation
+}
+
+#Leaders
+leader = {
+	name = "José Travassos Valdez"
+	picture = por_gen_bonfim
+	date = 1832.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+}
+leader = {
+	name = "Joao Carlos de Saldanha"
+	picture = por_gen_saldanha
+	date = 1835.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "António José Severim de Noronha"
+	picture = por_gen_terceira
+	date = 1823.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Francisco Xavier da Silva Pereira"
+	picture = por_gen_antas
+	date = 1834.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.1
+	
+}
 leader = {
 	name = "Luís do Rego Barreto"
-	date = 1824.1.1
+	date = 1817.1.1
 	type = land
-	personality = mor10_1
-	background = 1a1d_1
-	prestige = 0.0
-}
-
-leader = {
-	name = "Vicente de Mesquita"
-	date = 1836.1.1
-	type = land
-	personality = mor10_1
-	background = 2a2d_1
-	prestige = 0.0
-}
-
-leader = {
-	name = "João Carlos de Saldanha"
-	date = 1836.1.1
-	type = land
-	personality = mor10_1
-	background = 1a2d_1
-	prestige = 0.0
-}
-
-leader = {
-	name = "António Benedito de Castro"
-	date = 1820.1.1
-	type = sea
-	personality = mor10_1
-	background = 2a2d_1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
 
 army = {
-	name = "Mob Stack"
+	name = "Exército Português"
 	location = 521
 	regiment = {
-		name= "Hussar"
+		name= "1. Brigada de Infantaria"
 		type = hussar
 		home = 521
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "2. Brigada de Infantaria"
+		type = infantry
 		home = 524
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "3. Brigada de Infantaria"
+		type = infantry
 		home = 518
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
+		name= "4. Brigada de Infantaria"
+		type = infantry
 		home = 520
 	}
 
 	regiment = {
-		name= "Artillery"
+		name= "5. Brigada de Infantaria"
+		type = infantry
+		home = 522
+	}
+	
+	regiment = {
+		name= "6. Brigada de Infantaria"
+		type = artillery
+		home = 521
+	}
+
+	regiment = {
+		name= "1. Brigada de Caballaria"
 		type = artillery
 		home = 519
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 522
-	}
-
-}
-
-army = {
-	name = "Mob Stack"
-	location = 523
-	
-	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 1303
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 518
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 520
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 523
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 521
-	}
-
-	regiment = {
-		name= "Artillery"
+		name = "1. Divisão Colonial"
 		type = artillery
 		home = 525
 	}
-}
-
-army = {
-	name = "Mob Stack"
-	location = 525
-
+	
 	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 526
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 527
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1877
-	}
-
-	regiment = {
-		name= "Artillery"
+		name = "2. Divisão Colonial"
 		type = artillery
 		home = 2134
 	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 2003
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 2055
-	}
-}
-
-army = {
-	name = "Mob Stack"
-	location = 522
 	
 	regiment = {
-		name= "Hussar"
-		type = hussar
-		home = 1999
-	}
-	
-	regiment = {
-		name= "Artillery"
+		name = "3. Divisão Colonial"
 		type = artillery
-		home = 2056
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 518
+		home = 1303
 	}
 }
 
 navy = {
-	name = "Portugese Fleet"
-	location = 521
+	name = "Portugese Royal Navy"
+	location = 524
 	ship = {
-		name= "Infante Dom Henrique"
+		name= "Rainha de Portugal "
 		type = manowar
 	}
 
 	ship = {
-		name= "São Gabriel"
+		name= "Dom João VI "
 		type = manowar
 	}
 
 	ship = {
-		name= "Santa Catarina"
+		name= "Nossa Senhora da Conceição"
 		type = manowar
 	}
 
 	ship = {
-		name= "Vasco da Gama"
-		type = frigate
+		name= "São Sebastião"
+		type = manowar
 	}
 
 	ship = {
-		name= "Bartolomeu Dias"
-		type = frigate
+		name= "Amazônia"
+		type = manowar
 	}
-}
 
-navy = {
-	name = "Portugese Transport Fleet"
-	location = 526
 	ship = {
-		name= "Navio de Transporte 1"
+		name= "Princesa Carlota"
+		type = manowar
+	}
+
+	ship = {
+		name= "Teresa"
+		type = manowar
+	}
+
+	ship = {
+		name= "Príncipe do Brasil"
+		type = manowar
+	}
+
+	ship = {
+		name= "1o Navios de Transporte4"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "Navio de Transporte 2"
+		name= "2o Navios de Transporte4"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "Navio de Transporte 3"
+		name= "3o Navios de Transporte4"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1o Navios de Transporte1"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "Navio de Transporte 4"
+		name= "2o Navios de Transporte1"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "Navio de Transporte 5"
+		name= "3o Navios de Transporte1"
 		type = clipper_transport
 	}
+	
+	ship = {
+		name= "3o Navios de Transporte2"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "2o Navios de Transporte12"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3o Navios de Transporte12"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "3o Navios de Transporte22"
+		type = clipper_transport
+	}
+
 }
 

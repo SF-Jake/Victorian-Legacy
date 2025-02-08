@@ -1,15 +1,13 @@
 owner = COM
 controller = COM
 add_core = COM
-trade_goods = fish
-life_rating = 35
-naval_base = 1
+trade_goods = grain
+life_rating = 20
 
-1913.1.1 = {
-	state_building = {
-		level = 2
-		building = canned_food_factory
-		upgrade = yes
-	}
-	naval_base = 5
+1836.1.2 = {
+	remove_core = COM
+	owner = AST
+	controller = AST
+	add_core = AST
+	colonial = 0
 }

@@ -20,17 +20,15 @@ country_event = {
 				is_greater_power = no
 				OR = {
 					in_sphere = THIS
-					vassal_of = THIS
 					AND = {
-						is_vassal = no
+						part_of_sphere = no
 						NOT = {
 							OR = {
 								tag = AUS
 								tag = KUK
+								}
 							}
 						}
-					}
-					tag = NOR
 					tag = WAL
 					tag = MOL
 					tag = MON
@@ -56,17 +54,37 @@ country_event = {
 		political_reform = free_press
 		political_reform = non_socialist
 		political_reform = secret_ballots
-		political_reform = confederalism
-		set_country_flag = confederalism
 		government = hms_government
 		add_accepted_culture = union
 		prestige = -15
 		badboy = 10
 		ai_chance = {
-			factor = 1
+			factor = 5
 			modifier = {
-				factor = 0
-				exists = no
+				factor = 200
+				OR = {
+					tag = MOL
+					tag = WAL
+				}
+			}
+			modifier = {
+				factor = 5
+				government = hms_government
+			}
+			modifier = {
+				factor = 10
+				government = democracy
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = liberal
+			}
+			modifier = {
+				factor = 3
+				upper_house = {
+					ideology = liberal
+					value = 0.5
+				}
 			}
 		}
 	}
@@ -74,163 +92,18 @@ country_event = {
 	option = {
 		name = "EVTOPTB11100"
 		prestige = 2
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 1.5
+				government = absolute_monarchy
+			}
+		}
 		any_pop = {
 			militancy = 1
 		}
 	}
 }
-
-#German Revolution event
-country_event = {
-	title = "Crown from the Gutter"
-	desc = "But at what cost"
-	picture = "Celebration"
-
-	id = 194555
-
-	trigger = {
-		ai = no
-		GER = { exists = no }
-		OR = {
-			tag = PRU
-			tag = NGF
-		}
-		OR ={
-			AND = {
-				PRU = { exists = yes }
-				year = 1865
-			}
-			AND = {
-				NGF = { exists = yes }
-				year = 1865
-			}
-			has_country_flag = just_form_me_please
-		}
-	}
-
-	option = {				# Accept inheritance
-		name = "Crown From the Gutter Indeed"
-		change_tag = GER
-		add_accepted_culture = union
-		political_reform = universal_voting
-		political_reform = proportional_representation
-		political_reform = yes_meeting
-		political_reform = free_press
-		political_reform = state_controlled
-		political_reform = secret_ballots
-		government = hms_government
-		set_country_flag = GER_gutter_event
-		CTR = {
-			all_core = { remove_core = CTR }
-		}
-		PRU = {
-			all_core = { remove_core = PRU }
-		}
-		any_country = {
-			limit = {
-				NOT = {
-					tag = THIS
-					OR = {
-						tag = AUS
-						tag = KUK
-						tag = DNB
-					}
-				}
-				is_culture_group = THIS
-				is_greater_power = no
-				num_of_cities = 1
-			}
-			country_event = { id=11101 days=0 }
-		}
-			
-		prestige = 10
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				exists = no
-			}
-		}
-	}
-	option = {
-		name = "Kill whoever sent this to me"
-		prestige = 5
-		set_country_flag = does_not_want_to_be_unified
-		any_pop = {
-			militancy = 2
-		}
-	}
-}
-
-
-
-#German Revolution send event
-country_event = {
-	title = "Send the King the Message"
-	desc = "EVTOPTB194555"
-	picture = "Celebration"
-
-	id = 194556
-
-	is_triggered_only = yes
-
-	option = {				# Accept inheritance
-		name = "Send them the message"
-		country_event = { id=194555 days=0 }
-		prestige = 10
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				exists = no
-			}
-		}
-	}
-}
-
-#South American Federation Revolution
-# country_event = {
-# 	title = "Crown from the Gutter"
-# 	desc = "But at what cost"
-# 	picture = "Celebration"
-
-# 	id = 194557
-
-# 	is_triggered_only = yes
-
-# 	option = {
-# 		name = "Crown From the Gutter Indeed"
-# 		change_tag = SAS
-# 		set_country_flag = SAS_formed
-# 		BRZ = { all_core = { remove_core = BRZ }}
-# 		GRP = {	all_core = { remove_core = GRP }}
-# 		PNB = {	all_core = { remove_core = PNB }}
-# 		RGS = {	all_core = { remove_core = RGS }}
-# 		ENT = {	all_core = { remove_core = ENT }}
-# 		CRT = {	all_core = { remove_core = CRT }}
-# 		BAH = {	all_core = { remove_core = BAH }}
-# 		MRN = {	all_core = { remove_core = MRN }}
-# 		any_country = {
-# 			limit = {
-# 				is_culture_group = south_american_cultures
-# 			}
-# 			country_event = { id=11101 days=0 }
-# 		}
-# 		PRG_2343 = { add_core = SAS }
-# 		ARG_2362 = { add_core = SAS }
-# 		CHL_2332 = { add_core = SAS }
-# 		prestige = 25
-# 		country_event = { id=19004 days=0 }
-# 	}
-# 	option = {
-# 		name = "Kill whoever sent this to me"
-# 		prestige = 5
-# 		set_country_flag = does_not_want_to_be_unified
-# 		any_pop = {
-# 			militancy = 2
-# 		}
-# 	}
-# }
 
 # Event to Inherit
 country_event = {
@@ -247,7 +120,7 @@ country_event = {
 			inherit = THIS
 		}
 		ai_chance = {
-			factor = 1
+			factor = 500
 		}
 	}
 
@@ -261,9 +134,6 @@ country_event = {
 		any_pop = {
 			militancy = 3
 			consciousness = 2
-		}
-		ai_chance = {
-			factor = 0
 		}
 	}
 }
@@ -280,8 +150,9 @@ country_event = {
 
 	option = {				# Accept inheritance
 		name = "EVTOPTA11103"
-		change_tag = culture
+		change_tag = ITA
 		add_accepted_culture = north_italian
+		add_accepted_culture = south_italian
 		any_country = {
 			limit = {
 				NOT = {
@@ -296,10 +167,6 @@ country_event = {
 		prestige = 10
 		ai_chance = {
 			factor = 100
-			modifier = {
-				factor = 0
-				exists = no
-			}
 		}
 	}
 
@@ -307,46 +174,11 @@ country_event = {
 		name = "EVTOPTB11103"
 		prestige = 5
 		set_country_flag = does_not_want_to_be_unified
+		ai_chance = {
+			factor = 0
+		}
 		any_pop = {
 			militancy = 2
 		}
-	}
-}
-
-#Israel Events
-country_event = {
-	title = "EVTNAME11104"
-	desc = "EVTDESC11104"
-	picture = "Celebration"
-
-	id = 11104
-
-	trigger = {
-		tag = ISR
-		NOT = { has_global_flag = israel_exists }
-	}
-
-	option = {
-		name = "EVTOPTA11104"
-		set_global_flag = israel_exists
-	}
-}
-
-country_event = {
-	title = "EVTNAME11105"
-	desc = "EVTDESC11105"
-	picture = "Celebration"
-
-	id = 11105
-
-	trigger = {
-		tag = JAN
-		has_global_flag = israel_exists
-		ISR = { exists = no }
-	}
-
-	option = {
-		name = "EVTOPTA11105"
-		clr_global_flag = israel_exists
 	}
 }

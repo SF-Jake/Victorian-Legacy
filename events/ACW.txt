@@ -1,667 +1,841 @@
-# Audax Validator "!" Ignore_1004
-# Audax Validator "!" Ignore_1009
+###############################
+###NEW CIVIL WAR EVENT CHAIN###
+###############################
 
-#A House Divided
-country_event = {
-	id = 16000
-	title = "EVTNAME16000"
-	desc = "EVTDESC16000"
-	major = yes
-	
-	
-	trigger = {
-		tag = USA
-		year = 1860
-		slavery = yes_slavery
-		NOT = {
-			has_global_flag = american_civil_war_has_happened
-			government = presidential_dictatorship
-			has_global_flag = form_monarchy_usa
-		}	
-	}
-	
-	mean_time_to_happen = {
-		months = 12
-		modifier = {
-			factor = 0.5
-			year = 1861
-		}
-		modifier = {
-			factor = 0.1
-			year = 1862
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA16000"
-		political_reform = federalism
-		country_event = { id = 16001 days = 180 }
-		any_pop = {
-			consciousness = -7
-			militancy = -3
-		}
-		any_owned = {
-			limit = {
-				is_core = CSA
-				NOT = {
-					province_id = 146
-					province_id = 147
-					province_id = 148
-					province_id = 149
-					province_id = 150
-					province_id = 217
-					province_id = 218
-					province_id = 219
-					province_id = 220
-					province_id = 221
-					province_id = 222
-				}
-			}
-			remove_core = USA
-			secede_province = CSA
-		}
-		CSA = {
-			capital = 211
-			leadership = 500
-			money = 650000
-			artillery = 2000
-			canned_food = 3000
-			small_arms = 2500
-			ammunition = 2500
-			set_country_flag = the_slavery_debate
-			set_country_flag = confederalism
-		}
-		capital = 220
-		set_global_flag = american_civil_war_has_happened
-		clr_country_flag = the_slavery_debate
-	}
-	
-	option = {
-		name = "EVTOPTB16000"
-		political_reform = federalism
-		country_event = { id = 16001 days = 180 }
-		any_pop = {
-			consciousness = -7
-			militancy = -3
-		}
-		any_owned = {
-			limit = {
-				is_core = CSA
-				NOT = {
-					province_id = 146
-					province_id = 147
-					province_id = 148
-					province_id = 149
-					province_id = 150
-					province_id = 217
-					province_id = 218
-					province_id = 219
-					province_id = 220
-					province_id = 221
-					province_id = 222
-				}
-			}
-			remove_core = USA
-			secede_province = CSA
-		}
-		CSA = {
-			capital = 211
-			leadership = 400
-			money = 500000
-			artillery = 2000
-			canned_food = 2000
-			small_arms = 2000
-			ammunition = 2000
-			set_country_flag = the_slavery_debate
-			set_country_flag = confederalism
-		}
-		capital = 220
-		change_tag_no_core_switch = CSA
-		set_global_flag = american_civil_war_has_happened
-		clr_country_flag = the_slavery_debate
-	}
-}
-
+# Missouri Compromise
 country_event = {
 	id = 16001
 	title = "EVTNAME16001"
 	desc = "EVTDESC16001"
-	major = yes
+	fire_only_once = yes
+	picture = "Slaves"
 	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		NOT = {	has_global_flag = american_civil_war_has_happened }
+	}
 	
-	is_triggered_only = yes
+	mean_time_to_happen = { months = 3 }
+
+	immediate = {
+		set_country_flag = missouri_compromise
+		set_variable = { which = slavery_pressure value = 0 }
+	}
 
 	option = {
 		name = "EVTOPTA16001"
-		CSA = { set_country_flag = acw_happened }
-		war = {
-			target = CSA
-			attacker_goal = {
-				casus_belli = civil_war
+		add_country_modifier = { name = the_slavery_debate duration = 10950 }
+	}
+}
+
+# Slavery Pressure Debug
+country_event = {
+	id = 16111
+	title = "Current Slavery Pressure"
+	desc = "This event adds a modifier that tells you your current slavery pressure, a variable used in the ACW event chain."
+	picture = "Slaves"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Let's see it then."
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 0 }
+					NOT = { check_variable = { which = slavery_pressure value = 1 } }
+				}
+			add_country_modifier = { name = slave_pressure_var0 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
 			}
-			
-			defender_goal = {
-				casus_belli = status_quo
+		}
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 1 }
+					NOT = { check_variable = { which = slavery_pressure value = 2 } }
+				}
+			add_country_modifier = { name = slave_pressure_var1 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
 			}
+		}
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 2 }
+					NOT = { check_variable = { which = slavery_pressure value = 3 } }
+				}
+			add_country_modifier = { name = slave_pressure_var2 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
+			}
+		}
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 3 }
+					NOT = { check_variable = { which = slavery_pressure value = 4 } }
+				}
+			add_country_modifier = { name = slave_pressure_var3 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
+			}
+		}
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 4 }
+					NOT = { check_variable = { which = slavery_pressure value = 5 } }
+				}
+			add_country_modifier = { name = slave_pressure_var4 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
+			}
+		}
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 5 }
+					NOT = { check_variable = { which = slavery_pressure value = 6 } }
+				}
+			add_country_modifier = { name = slave_pressure_var5 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
+			}
+		}
+ 
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 6 }
+					NOT = { check_variable = { which = slavery_pressure value = 7 } }
+				}
+			add_country_modifier = { name = slave_pressure_var6 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
+			}
+		}
+ 
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 7 }
+					NOT = { check_variable = { which = slavery_pressure value = 8 } }
+				}
+			add_country_modifier = { name = slave_pressure_var7 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
+			}
+		}
+ 
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 8 }
+					NOT = { check_variable = { which = slavery_pressure value = 9 } }
+				}
+			add_country_modifier = { name = slave_pressure_var8 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
+			}
+		}
+ 
+  
+		GHO = {
+			any_country = {
+				limit = {
+					tag = THIS
+					check_variable = { which = slavery_pressure value = 9 }
+					NOT = { check_variable = { which = slavery_pressure value = 10 } }
+				}
+			add_country_modifier = { name = slave_pressure_var9 duration = 30 }
+			add_country_modifier = { name = slave_pressure_delay duration = 30 }
+			}
+		}
+ 
+ 
+		
+	}
+}
+
+# The Amistad Decision
+country_event = {
+	id = 16002
+	title = "EVTNAME16002"
+	desc = "EVTDESC16002"
+	fire_only_once = yes
+	picture = "Amistad"
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		has_country_flag = missouri_compromise
+		NOT = {	has_global_flag = american_civil_war_has_happened }
+	}
+	
+	mean_time_to_happen = { months = 3 modifier = { factor = 20 NOT = { year = 1841 } } }
+
+	immediate = { set_country_flag = amistad_decision }
+
+	option = {
+		name = "EVTOPTA16002" # Pay for their return to Africa
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 0.25
+			dominant_issue = { factor = 0.05 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 2
+			militancy = 1
+		}
+		treasury = -1000
+	}
+
+	option = {
+		name = "EVTOPTB16002" # Free them
+		change_variable = { which = slavery_pressure value = 1 }		
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 0.5
+			dominant_issue = { factor = 0.07 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTC16002" # Return them to spain
+		change_variable = { which = slavery_pressure value = 2 }		
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 1
+			militancy = 1
+			dominant_issue = { factor = 0.10 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 0.5
+			militancy = -1
 		}
 	}
 }
 
+# Prigg V. Pennsylvania
 country_event = {
-	id = 16002
-	title = "EVTNAME16000"
-	desc = "EVTDESC16000"
-	major = yes
-	
+	id = 16003
+	title = "EVTNAME16003"
+	desc = "EVTDESC16003"
+	fire_only_once = yes
+	picture = "arrested"
 	
 	trigger = {
 		tag = USA
-		government = presidential_dictatorship
-		has_global_flag = form_monarchy_usa
-		year = 1856
+		slavery = yes_slavery
+		has_country_flag = amistad_decision
+		NOT = {
+			has_country_flag = dreddscott_sandford
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = { months = 3 modifier = { factor = 4 NOT = { year = 1842 } } }
+	
+	immediate = { set_country_flag = prigg_pennsylvania }
+
+	option = {
+		name = "EVTOPTA16003"
+		change_variable = { which = slavery_pressure value = 2 }
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 1
+			militancy = 1
+			dominant_issue = { factor = 0.05 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 0.5
+			militancy = -1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB16003"
+		change_variable = { which = slavery_pressure value = 1 }
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 0.5
+			dominant_issue = { factor = 0.02 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 1
+			militancy = 1
+		}
+	}
+}
+
+# Annexation of Texas
+country_event = {
+	id = 16004
+	title = "EVTNAME16004"
+	desc = "EVTDESC16004"
+	fire_only_once = yes
+	picture = "Military_reform"
+	
+	mean_time_to_happen = {	months = 1 }
+
+	trigger = {
+		tag = USA
+		any_owned_province = { is_core = TEX }
+		has_country_flag = missouri_compromise
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}	
+
+	option = {
+		name = "EVTOPTA16004"
+		change_variable = { which = slavery_pressure value = 1 }
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 0.25
+			dominant_issue = { factor = 0.02 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 1
+			militancy = 1
+		}
+		133 = { state_scope = { is_slave = no } }
+	}
+
+	option = {
+		name = "EVTOPTB16004"
+		change_variable = { which = slavery_pressure value = 2 }
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 1
+			militancy = 1
+			dominant_issue = { factor = 0.07 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 0.25
+		}
+		133 = { state_scope = { is_slave = yes } }
+	}
+}
+
+# The Underground Railroad
+country_event = {
+	id = 16005
+	title = "EVTNAME16005"
+	desc = "EVTDESC16005"
+	fire_only_once = yes
+	picture = "fortification"
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		has_country_flag = prigg_pennsylvania
+		NOT = {
+			has_country_flag = dreddscott_sandford
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = { months = 3 modifier = { factor = 28 NOT = { year = 1849 } } }
+	
+	immediate = { set_country_flag = underground_railroad }
+
+	option = {
+		name = "EVTOPTA16005"
+		change_variable = { which = slavery_pressure value = 1 }		
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 0.25
+			dominant_issue = { factor = 0.02 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 1
+			militancy = 1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB16005"
+		change_variable = { which = slavery_pressure value = 3 }		
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 2
+			militancy = 2
+			dominant_issue = { factor = 0.10 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 0.5
+			militancy = -1
+		}
+	}
+}
+
+# Compromise of 1850
+country_event = {
+	id = 16006
+	title = "EVTNAME16006"
+	desc = "EVTDESC16006"
+	fire_only_once = yes
+	picture = "Demonstration"
+	
+	trigger = {
+		OR = {
+			AND = { owns = 104 owns = 101 } # New Mex - Arizona
+			AND = { owns = 104 owns = 99 } # Nex Mex - Nevada
+			AND = { owns = 104 owns = 90 } # Nex Mex - California
+			AND = { owns = 101 owns = 99 } # Arizona - Nevada
+			AND = { owns = 101 owns = 90 } # Arizona - California
+			AND = { owns = 99 owns = 90 } # Nevada - California
+		}
+		tag = USA
 		slavery = yes_slavery
 		NOT = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
 	
+	mean_time_to_happen = {
+		months = 1
+	}
+
 	option = {
-		name = "EVTOPTA16000"
-		political_reform = federalism
-		government = absolute_monarchy
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
-		political_reform = state_press
-		political_reform = no_trade_unions
-		political_reform = underground_parties
-		capital = 220
-		country_event = { id = 16003 days = 180 }	
+		name = "EVTOPTA16006"
+		change_variable = { which = slavery_pressure value = 3 }
 		any_pop = {
-			consciousness = -7
-			militancy = -3
+			limit = { has_pop_culture = yankee }
+			consciousness = 1
+			militancy = 1
+			dominant_issue = { factor = 0.07 value = no_slavery }
 		}
-		any_owned = {
-			limit = {
-				is_core = CSA
-				NOT = {
-					province_id = 146
-					province_id = 147
-					province_id = 148
-					province_id = 149
-					province_id = 150
-					province_id = 217
-					province_id = 218
-					province_id = 219
-					province_id = 220
-					province_id = 221
-					province_id = 222
-				}
-			}
-			remove_core = USA
-			secede_province = CSA
-		}
-		any_owned = {
-			limit = {
-				NOT = { has_province_modifier = monarchy_usa }
-			}
-			add_core = USM
-			secede_province = USM
-			remove_core = USA
-		}
-		any_owned = {
-			limit = {
-				has_province_modifier = monarchy_usa
-			}
-			remove_province_modifier = monarchy_usa
-		}
-		USM = {
-			capital = 89
-			leadership = 400
-			money = 500000
-			artillery = 2000
-			canned_food = 2000
-			small_arms = 2000
-			ammunition = 2000
-			set_country_flag = the_slavery_debate
-			set_country_flag = confederalism
-			add_country_modifier = { name = usa_nation_modifier duration = -1 }
-		}
-		CSA = {
-			add_country_modifier = { name = american_civil_war duration = 1825 }
-			capital = 211
-			leadership = 400
-			money = 500000
-			artillery = 2000
-			canned_food = 2000
-			small_arms = 2000
-			ammunition = 2000
-			set_country_flag = the_slavery_debate
-			set_country_flag = confederalism
-		}
-		USA = {
-			add_country_modifier = { name = american_civil_war duration = 1825 }
-		}
-		change_tag_no_core_switch = USM
-		set_global_flag = american_civil_war_has_happened
-		clr_country_flag = the_slavery_debate
-	}
-	
-	option = {
-		name = "EVTOPTB16000"
-		political_reform = federalism
-		capital = 220
-		government = absolute_monarchy
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
-		political_reform = state_press
-		political_reform = no_trade_unions
-		political_reform = underground_parties
-		country_event = { id = 16003 days = 180 }	
 		any_pop = {
-			consciousness = -7
-			militancy = -3
+			limit = { has_pop_culture = dixie }
+			consciousness = 0.25
 		}
-		any_owned = {
-			limit = {
-				is_core = CSA
-				NOT = {
-					province_id = 146
-					province_id = 147
-					province_id = 148
-					province_id = 149
-					province_id = 150
-					province_id = 217
-					province_id = 218
-					province_id = 219
-					province_id = 220
-					province_id = 221
-					province_id = 222
-				}
-			}
-			remove_core = USA
-			secede_province = CSA
-		}
-		any_owned = {
-			limit = {
-				NOT = { has_province_modifier = monarchy_usa }
-			}
-			add_core = USM
-			secede_province = USM
-			remove_core = USA
-		}
-		any_owned = {
-			limit = {
-				has_province_modifier = monarchy_usa
-			}
-			remove_province_modifier = monarchy_usa
-		}
-		CSA = {
-			capital = 211
-			leadership = 400
-			money = 500000
-			artillery = 2000
-			canned_food = 2000
-			small_arms = 2000
-			ammunition = 2000
-			set_country_flag = the_slavery_debate
-			set_country_flag = confederalism
-		}
-		USM = {
-			add_country_modifier = { name = american_civil_war duration = 1825 }
-			capital = 89
-			leadership = 400
-			money = 500000
-			artillery = 2000
-			canned_food = 2000
-			small_arms = 2000
-			ammunition = 2000
-			set_country_flag = the_slavery_debate
-			set_country_flag = confederalism
-		}
-		USA = { 
-			add_country_modifier = { name = american_civil_war duration = 1825 }
-		}
-		change_tag_no_core_switch = CSA
-		set_global_flag = american_civil_war_has_happened
-		clr_country_flag = the_slavery_debate
 	}
 
 	option = {
-		name = "For the King and Queen!"
-		political_reform = federalism
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
-		political_reform = state_press
-		political_reform = no_trade_unions
-		political_reform = underground_parties
-		country_event = { id = 16003 days = 180 }
+		name = "EVTOPTB16006"
+		change_variable = { which = slavery_pressure value = 1 }
 		any_pop = {
-			consciousness = -7
-			militancy = -3
+			limit = { has_pop_culture = yankee }
+			consciousness = 0.5
+			militancy = -1
+			dominant_issue = { factor = 0.01 value = no_slavery }
 		}
-		any_owned = {
-			limit = {
-				is_core = CSA
-				NOT = {
-					province_id = 146
-					province_id = 147
-					province_id = 148
-					province_id = 149
-					province_id = 150
-					province_id = 217
-					province_id = 218
-					province_id = 219
-					province_id = 220
-					province_id = 221
-					province_id = 222
-				}
-			}
-			remove_core = USA
-			secede_province = CSA
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 3
+			militancy = 3
 		}
-		CSA = {
-			add_country_modifier = { name = american_civil_war duration = 1825 }
-			capital = 211
-			leadership = 400
-			money = 500000
-			artillery = 2000
-			canned_food = 2000
-			small_arms = 2000
-			ammunition = 2000
-			set_country_flag = the_slavery_debate
-			set_country_flag = confederalism
-		}
-		any_owned = {
-			limit = {
-				NOT = { has_province_modifier = monarchy_usa }
-			}
-			add_core = USM
-			secede_province = USM
-			remove_core = USA
-		}
-		any_owned = {
-			limit = {
-				has_province_modifier = monarchy_usa
-			}
-			remove_province_modifier = monarchy_usa
-		}
-		USM = {
-			add_country_modifier = { name = american_civil_war duration = 1825 }
-			capital = 89
-			leadership = 400
-			money = 500000
-			artillery = 2000
-			canned_food = 2000
-			small_arms = 2000
-			ammunition = 2000
-			set_country_flag = the_slavery_debate
-			set_country_flag = confederalism
-		}
-		capital = 220
-		government = absolute_monarchy
-		set_global_flag = american_civil_war_has_happened
-		clr_country_flag = the_slavery_debate
-	}
+	}	
 }
 
-country_event = {
-	id = 16003
-	title = "Three way American Civil War"
-	desc = "EVTDESC16003"
-	major = yes
-	
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA16001"
-		CSA = { set_country_flag = acw_happened }
-		war = {
-			target = CSA
-			attacker_goal = {
-				casus_belli = civil_war
-			}
-			
-			defender_goal = {
-				casus_belli = status_quo
-			}
-		}
-		war = {
-			target = USM
-			attacker_goal = {
-				casus_belli = civil_war
-			}
-			
-			defender_goal = {
-				casus_belli = civil_war
-			}
-		}
-		USM = {
-			war = {
-				target = CSA
-				attacker_goal = {
-					casus_belli = civil_war
-				}
-				
-				defender_goal = {
-					casus_belli = status_quo
-				}
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 16004
-	title = "CSA Cleanup"
-
- 	trigger = {
-		tag = JAN
-		CSA = { exists = no }
-		USA = { exists = no }
-		USM = { exists = yes }
-		has_global_flag = american_civil_war_has_happened
-	}
-	
-	fire_only_once = yes
-	
-	option = {
-		CSA = {
-			all_core = {
-				add_core = USM
-				remove_core = CSA
-			}
-		}
-		USA = {
-			all_core = {
-				add_core = USM
-				remove_core = USA
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 16005
-	title = "CSA Cleanup"
-
- 	trigger = {
-		tag = JAN
-		CSA = { exists = no }
-		USM = { exists = no }
-		USA = { exists = yes }
-		has_global_flag = american_civil_war_has_happened
-	}
-	
-	fire_only_once = yes
-	
-	option = {
-		CSA = {
-			all_core = {
-				add_core = USA
-				remove_core = CSA
-			}
-		}
-		USM = {
-			all_core = {
-				add_core = USA
-				remove_core = USM
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 16006
-	title = "CSA Cleanup"
-
- 	trigger = {
-		tag = JAN
-		USM = { exists = no }
-		USA = { exists = yes }
-		has_global_flag = american_civil_war_has_happened
-	}
-	
-	fire_only_once = yes
-	
-	option = {
-		USM = {
-			all_core = {
-				add_core = USA
-				remove_core = USM
-			}
-		}
-	}
-}
-
+# Uncle Tom's Cabin
 country_event = {
 	id = 16007
-	title = "CSA Cleanup"
-
- 	trigger = {
-		tag = JAN
-		USA = { exists = no }
-		USM = { exists = yes }
-		has_global_flag = american_civil_war_has_happened
-	}
-	
+	title = "EVTNAME16007"
+	desc = "EVTDESC16007"
 	fire_only_once = yes
-	
-	option = {
-		USA = {
-			all_core = {
-				add_core = USM
-				remove_core = USA
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 16008
-	title = "CSA Cleanup"
-
- 	trigger = {
-		tag = JAN
-		USA = { exists = no }
-		has_global_flag = american_civil_war_has_happened
-	}
-	
-	fire_only_once = yes
-	
-	option = {
-		USA = {
-			all_core = {
-				add_core = USM
-				remove_core = USA
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 16009
-	title = "American Civil War Over"
-
- 	trigger = {
-		tag = USM
-		USA = { exists = no }
-		has_global_flag = american_civil_war_has_happened
-	}
-	
-	fire_only_once = yes
-	
-	option = {
-		name = "Victory!"
-		change_tag = USA
-	}
-}
-
-#Secessionist Sentiments
-province_event = {
-	id = 16250
-	title = "EVTNAME16250"
-	desc = "EVTDESC16250"
+	picture = "Uncletom"
 	
 	trigger = {
-		year = 1836
+		tag = USA
+		slavery = yes_slavery
+		has_country_flag = underground_railroad
 		NOT = {
-			is_core = CSA
-			state_id = 220
-			state_id = 219
-			state_id = 217
-			state_id = 185 
-			state_id = 146
+			has_country_flag = dreddscott_sandford
+			has_global_flag = american_civil_war_has_happened
 		}
-		owner = {
-			tag = USA
-			slavery = yes_slavery
-			NOT = {
-				has_global_flag = american_civil_war_has_happened
-			}
-		}
-		state_scope = {
-			is_slave = yes
-		}
-		continent = north_america	
 	}
 	
+	mean_time_to_happen = { months = 3 modifier = { factor = 12 NOT = { year = 1852 } } }
+	
 	immediate = {
-		owner = {
-		set_country_flag = the_slavery_debate
+		set_country_flag = uncletom_cabin
+	}
+	
+	option = {
+		name = "EVTOPTB16007"
+		change_variable = { which = slavery_pressure value = 1 }		
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 0.5
+			dominant_issue = { factor = 0.05 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 1
+			militancy = 1
+		}
+	}
+}
+
+# Kansas-Nebraska Act
+country_event = {
+	id = 16008
+	title = "EVTNAME16008"
+	desc = "EVTDESC16008"
+	fire_only_once = yes
+	picture = "dixie"
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		has_country_flag = uncletom_cabin
+		NOT = {
+			has_country_flag = dreddscott_sandford
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = { months = 3 modifier = { factor = 8 NOT = { year = 1854 } } }
+	
+	option = {
+		name = "EVTOPTA16008"
+		change_variable = { which = slavery_pressure value = 2 }		
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 2
+			dominant_issue = { factor = 0.05 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 2
+		}
+		set_country_flag = bleeding_kansas
+	}
+
+	option = {
+		name = "EVTOPTB16008"
+		change_variable = { which = slavery_pressure value = 1 }		
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 0.25
+			dominant_issue = { factor = 0.02 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 2
+			militancy = 2
+		}
+	}
+
+	option = {
+		name = "EVTOPTC16008"
+		change_variable = { which = slavery_pressure value = 4 }		
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 2
+			militancy = 2
+			dominant_issue = { factor = 0.10 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 0.25
+		}
+	}
+}
+
+# Bleeding Kansas
+country_event = {
+	id = 16009
+	title = "EVTNAME16009"
+	desc = "EVTDESC16009"
+	fire_only_once = yes
+	picture = "riot"
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		has_country_flag = bleeding_kansas
+		NOT = {
+			has_country_flag = dreddscott_sandford
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = { months = 3 }
+	
+	option = {
+		name = "EVTOPTC16009"
+		change_variable = { which = slavery_pressure value = 3 }		
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 3
+			dominant_issue = { factor = 0.05 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 3
+		}
+	}
+}
+
+# Dred Scott v. Sandford
+country_event = {
+	id = 16010
+	title = "EVTNAME16020"
+	desc = "EVTDESC16020"
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		has_country_flag = amistad_decision
+		NOT = {	has_global_flag = american_civil_war_has_happened }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 200
+			NOT = {
+				year = 1840
+			}
+		}
+		modifier = {
+			factor = 80
+			check_variable = { which = slavery_pressure value = 0 }
+			NOT = { check_variable = { which = slavery_pressure value = 4 } }
+		}
+		modifier = {
+			factor = 60
+			check_variable = { which = slavery_pressure value = 5 }
+			NOT = { check_variable = { which = slavery_pressure value = 7 } }
+		}
+		modifier = {
+			factor = 30
+			check_variable = { which = slavery_pressure value = 8 }
+			NOT = { check_variable = { which = slavery_pressure value = 11 } }
+		}
+		modifier = {
+			factor = 15
+			check_variable = { which = slavery_pressure value = 12 }
+			NOT = { check_variable = { which = slavery_pressure value = 14 } }
+		}
+		modifier = {
+			factor = 2
+			check_variable = { which = slavery_pressure value = 15 }
+			NOT = { check_variable = { which = slavery_pressure value = 20 } }
+		}
+	}
+	
+	immediate = { set_country_flag = dredscott_sandford }
+	
+	option = {
+		name = "EVTOPTA16020"
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 2
+			dominant_issue = { factor = 0.05 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 2
+		}
+	}
+}
+
+# John Brown's Raid
+country_event = {
+	id = 16011
+	title = "EVTNAME16010"
+	desc = "EVTDESC16010"
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		OR = {
+		has_country_flag = dredscott_sandford
+		year = 1860
+		}
+		NOT = {	has_global_flag = american_civil_war_has_happened }
+	}
+	
+	mean_time_to_happen = { months = 3 modifier = { factor = 8 NOT = { year = 1859 } } }
+	
+	immediate = { set_country_flag = johnbrowns_raid }
+	
+	option = {
+		name = "EVTOPTA16010"
+		any_pop = {
+			limit = { has_pop_culture = yankee }
+			consciousness = 2
+			dominant_issue = { factor = 0.05 value = no_slavery }
+		}
+		any_pop = {
+			limit = { has_pop_culture = dixie }
+			consciousness = 2
+		}
+	}
+}
+
+# Secessionist Sentiments // Coring Event
+country_event = {
+	id = 16012
+	title = "EVTNAME16250"
+	desc = "EVTDESC16250"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		has_country_flag = johnbrowns_raid
+		NOT = {	has_global_flag = american_civil_war_has_happened }
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	
+	immediate = {
+		set_country_flag = secessionist_sentiments
+		any_state = {
+			limit = {
+				is_slave = yes
+			}
 			any_owned = {
-				limit = {
-					state_scope = { is_slave = yes }
-					continent = north_america
-					NOT = { state_id = 220 }
-					NOT = { state_id = 219 }
-					NOT = { state_id = 217 }
-					NOT = { state_id = 185 }
-					NOT = { state_id = 146 }
-				}
 				add_core = CSA
-				any_pop = {
-					dominant_issue = {
-						value = yes_slavery
-						factor = 0.2
-					}
-					militancy = 1
-				}
 			}
 		}
 	}
 
-	
 	option = {
 		name = "EVTOPTA16250"
 	}
 }
 
-### Fire-only-once ###
-
+# A House Divided
+country_event = {
+	id = 16013
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	major = yes
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		has_country_flag = johnbrowns_raid
+		NOT = {	has_global_flag = american_civil_war_has_happened }
+	}
+	
+	mean_time_to_happen = { months = 2 }
+	
+	option = {
+		name = "EVTOPTA16000"
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		any_owned = {
+			limit = {
+				is_core = CSA
+				NOT = {
+					province_id = 146
+					province_id = 147
+					province_id = 148
+					province_id = 149
+					province_id = 150
+					province_id = 217
+					province_id = 218
+					province_id = 219
+					province_id = 220
+					province_id = 221
+					province_id = 222
+				}
+			}
+			secede_province = CSA
+		}
+		CSA = {
+			capital = 211
+			leadership = 80
+		}
+		capital = 220
+		war = {
+			target = CSA
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		set_global_flag = american_civil_war_has_happened
+	}
+	
+	option = {
+		name = "EVTOPTB16000"
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		any_owned = {
+			limit = {
+				is_core = CSA
+				NOT = {
+					province_id = 146
+					province_id = 147
+					province_id = 148
+					province_id = 149
+					province_id = 150
+					province_id = 217
+					province_id = 218
+					province_id = 219
+					province_id = 220
+					province_id = 221
+					province_id = 222
+				}
+			}
+			secede_province = CSA
+		}
+		CSA = {
+			capital = 211
+			leadership = 80
+		}
+		capital = 220
+		
+		change_tag_no_core_switch = CSA
+		USA = {
+			war = {
+				target = CSA
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+			}
+		}
+		set_global_flag = american_civil_war_has_happened
+	}
+}
 
 #Special
 #American minors apply for statehood
@@ -726,6 +900,42 @@ country_event = {
 	}
 }
 
+# Rise of The KKK
+country_event = {
+	id = 16415
+	title = "EVTNAME16415"
+	desc = "EVTDESC16415"
+	fire_only_once = yes
+	picture = "kkk"
+	
+	trigger = {
+		tag = USA
+		has_global_flag = american_civil_war_has_happened
+		has_country_flag = has_used_radical_reconstruction
+		NOT = {
+			exists = CSA
+		}
+		owns = 211
+		owns = 195
+		owns = 139
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+	}
+	
+	option = {
+		name = "EVTOPTA16415"
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+			}
+			militancy = 3
+			consciousness = 1
+		}
+	}
+}
+
 
 
 ##### Indian Wars #####
@@ -738,9 +948,6 @@ country_event = {
 	trigger = {
 		has_country_flag = custers_expedition_sent
 		owns = 122
-		122 = {
-			trade_goods = precious_metal
-		}
 		NOT = {
 			has_country_flag = sioux_wars
 		}
@@ -754,7 +961,7 @@ country_event = {
 		name = "EVTOPTA16420"
 		any_pop = {
 			limit = {
-				culture = dakota
+				culture = native_american_minor
 			}
 			militancy = 8
 		}
@@ -783,7 +990,7 @@ country_event = {
 		prestige = -5
 		any_pop = {
 			limit = {
-				culture = dakota
+				culture = native_american_minor
 			}
 			militancy = 10
 			consciousness = 10
@@ -812,13 +1019,13 @@ country_event = {
 		name = "EVTOPTA16430"
 		any_pop = {
 			limit = {
-				culture = dakota
+				culture = native_american_minor
 			}
 			militancy = -10
 			consciousness = -10
 			reduce_pop = 0.5
 		}
-		add_accepted_culture = dakota
+		#add_accepted_culture = dakota
 		set_country_flag = sioux_wars_over
 	}
 }
@@ -849,6 +1056,12 @@ country_event = {
 			state_scope = {
 				any_pop = {
 					limit = {
+						culture = native_american_minor
+					}
+					militancy = 8
+				}
+				any_pop = {
+					limit = {
 						not = {
 							is_culture_group = native_american
 						}
@@ -858,6 +1071,40 @@ country_event = {
 			}
 		}
 		set_country_flag = apache_wars
+	}
+}
+
+province_event = {
+	id = 16445
+	title = "Apache Raiders"
+	desc = "Local native groups are raiding our settlements in $PROVINCENAME$"
+	picture = "Sioux"
+	
+	trigger = {
+		is_colonial = yes
+		has_country_flag = apache_wars
+		has_pop_culture = native_american_minor
+		not = { has_country_flag = apache_wars_over }
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "Blast them!"
+		state_scope = {
+			any_pop = {
+				limit = {
+					culture = native_american_minor
+				}
+				militancy = 10
+			}
+		}
+		add_province_modifier = {
+			name = "apache_raiders"
+			duration = 730
+		}
 	}
 }
 
@@ -883,7 +1130,15 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA16450"
-		prestige = 15
+		any_pop = {
+			limit = {
+				culture = native_american_minor
+			}
+			militancy = -10
+			consciousness = -10
+			reduce_pop = 0.8
+		}
+		add_accepted_culture = native_american_minor
 		set_country_flag = apache_wars_over
 	}
 }
@@ -903,483 +1158,13 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA1206" #Ok
-		small_arms = 200
-		canned_food = 400
-		artillery = 100
-		luxury_clothes = 100
-		wine = 100
-		liquor = 100
-		ammunition = 200
-		money = 10000
-	}
-}
-
-# CSA cleanup
-country_event = {
-	id = 16452
-	title = "CSA Cleanup"
-
- 	trigger = {
-		tag = JAN
-		CSA = { exists = no }
-		has_global_flag = american_civil_war_has_happened
-	}
-	
-	fire_only_once = yes
-	
-	option = {
-		CSA = {
-			all_core = {
-				add_core = USA
-				remove_core = CSA
-			}
-		}
-	}
-}
-
-# Homestead Act
-country_event = {
-	id = 16453
-	title = "Homestead"
-
- 	trigger = {
-		tag = JAN
-		USA = {
-			has_country_modifier = the_homestead_act
-			any_owned_province = {
-				OR = {
-					province_id = 78
-					province_id = 79
-					province_id = 80
-					province_id = 81
-					province_id = 82
-					province_id = 83
-					province_id = 84
-					province_id = 85
-					province_id = 86
-					province_id = 87
-					province_id = 88
-					province_id = 89
-					province_id = 90
-					province_id = 91
-					province_id = 92
-					province_id = 93
-					province_id = 94
-					province_id = 95
-					province_id = 96
-					province_id = 97
-					province_id = 98
-					province_id = 99
-					province_id = 100
-					province_id = 101
-					province_id = 102
-					province_id = 103
-					province_id = 104
-					province_id = 105
-					province_id = 106
-					province_id = 107
-					province_id = 108
-					province_id = 109
-					province_id = 110
-					province_id = 111
-					province_id = 112
-					province_id = 113
-					province_id = 114
-					province_id = 115
-					province_id = 116
-					province_id = 117
-					province_id = 118
-					province_id = 119
-					province_id = 120
-					province_id = 121
-					province_id = 122
-					province_id = 123
-					province_id = 124
-					province_id = 125
-					province_id = 126
-					province_id = 127
-					province_id = 128
-					province_id = 129
-					province_id = 130
-					province_id = 131
-					province_id = 132
-					province_id = 133
-					province_id = 134
-					province_id = 135
-					province_id = 136
-					province_id = 137
-					province_id = 138
-					province_id = 143
-					province_id = 144
-					province_id = 145
-					province_id = 151
-					province_id = 152
-					province_id = 153
-					province_id = 154
-					province_id = 155
-					province_id = 156
-					province_id = 157
-					province_id = 158
-					province_id = 173
-					province_id = 174
-					province_id = 175
-					province_id = 176
-					province_id = 177
-					province_id = 198
-					province_id = 199
-					province_id = 200
-				}
-				NOT = { has_province_modifier = homestead }
-			}
-		}
-	}
-	
-	option = {
-		USA = {
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 78
-						province_id = 79
-						province_id = 80
-						province_id = 81
-						province_id = 82
-						province_id = 83
-						province_id = 84
-						province_id = 85
-						province_id = 86
-						province_id = 87
-						province_id = 88
-						province_id = 89
-						province_id = 90
-						province_id = 91
-						province_id = 92
-						province_id = 93
-						province_id = 94
-						province_id = 95
-						province_id = 96
-						province_id = 97
-						province_id = 98
-						province_id = 99
-						province_id = 100
-						province_id = 101
-						province_id = 102
-						province_id = 103
-						province_id = 104
-						province_id = 105
-						province_id = 106
-						province_id = 107
-						province_id = 108
-						province_id = 109
-						province_id = 110
-						province_id = 111
-						province_id = 112
-						province_id = 113
-						province_id = 114
-						province_id = 115
-						province_id = 116
-						province_id = 117
-						province_id = 118
-						province_id = 119
-						province_id = 120
-						province_id = 121
-						province_id = 122
-						province_id = 123
-						province_id = 124
-						province_id = 125
-						province_id = 126
-						province_id = 127
-						province_id = 128
-						province_id = 129
-						province_id = 130
-						province_id = 131
-						province_id = 132
-						province_id = 133
-						province_id = 134
-						province_id = 135
-						province_id = 136
-						province_id = 137
-						province_id = 138
-						province_id = 143
-						province_id = 144
-						province_id = 145
-						province_id = 151
-						province_id = 152
-						province_id = 153
-						province_id = 154
-						province_id = 155
-						province_id = 156
-						province_id = 157
-						province_id = 158
-						province_id = 173
-						province_id = 174
-						province_id = 175
-						province_id = 176
-						province_id = 177
-						province_id = 198
-						province_id = 199
-						province_id = 200
-					}
-				}
-				add_province_modifier = { name = homestead duration = -1 }
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 16454
-	title = "Westward Migration"
-
- 	trigger = {
-		tag = JAN
-		USA = {
-			has_country_modifier = the_homestead_act
-			any_owned_province = {
-				OR = {
-					province_id = 139
-					province_id = 140
-					province_id = 141
-					province_id = 142
-					province_id = 146
-					province_id = 147
-					province_id = 148
-					province_id = 149
-					province_id = 150
-					province_id = 159
-					province_id = 160
-					province_id = 161
-					province_id = 162
-					province_id = 169
-					province_id = 170
-					province_id = 171
-					province_id = 172
-					province_id = 178
-					province_id = 179
-					province_id = 180
-					province_id = 181
-					province_id = 182
-					province_id = 183
-					province_id = 184
-					province_id = 185
-					province_id = 186
-					province_id = 187
-					province_id = 188
-					province_id = 189
-					province_id = 190
-					province_id = 191
-					province_id = 192
-					province_id = 193
-					province_id = 194
-					province_id = 195
-					province_id = 196
-					province_id = 197
-					province_id = 201
-					province_id = 202
-					province_id = 204
-					province_id = 205
-					province_id = 206
-					province_id = 2555
-					province_id = 2556
-					province_id = 207
-					province_id = 208
-					province_id = 209
-					province_id = 210
-					province_id = 211
-					province_id = 212
-					province_id = 213
-					province_id = 214
-					province_id = 215
-					province_id = 216
-					province_id = 217
-					province_id = 218
-					province_id = 219
-					province_id = 220
-					province_id = 221
-					province_id = 222
-					province_id = 223
-					province_id = 224
-					province_id = 225
-					province_id = 226
-					province_id = 227
-					province_id = 228
-					province_id = 229
-					province_id = 230
-					province_id = 231
-					province_id = 232
-					province_id = 233
-					province_id = 234
-					province_id = 235
-					province_id = 236
-					province_id = 237
-					province_id = 238
-					province_id = 239
-					province_id = 240
-					province_id = 241
-					province_id = 242
-					province_id = 243
-					province_id = 244
-					province_id = 245
-					province_id = 246
-					province_id = 247
-					province_id = 248
-					province_id = 249
-					province_id = 250
-				}
-				NOT = { has_province_modifier = westward_migration }
-			}
-		}
-	}
-	
-	option = {
-		USA = {
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 139
-						province_id = 140
-						province_id = 141
-						province_id = 142
-						province_id = 146
-						province_id = 147
-						province_id = 148
-						province_id = 149
-						province_id = 150
-						province_id = 159
-						province_id = 160
-						province_id = 161
-						province_id = 162
-						province_id = 169
-						province_id = 170
-						province_id = 171
-						province_id = 172
-						province_id = 178
-						province_id = 179
-						province_id = 180
-						province_id = 181
-						province_id = 182
-						province_id = 183
-						province_id = 184
-						province_id = 185
-						province_id = 186
-						province_id = 187
-						province_id = 188
-						province_id = 189
-						province_id = 190
-						province_id = 191
-						province_id = 192
-						province_id = 193
-						province_id = 194
-						province_id = 195
-						province_id = 196
-						province_id = 197
-						province_id = 201
-						province_id = 202
-						province_id = 204
-						province_id = 205
-						province_id = 206
-						province_id = 2555
-						province_id = 2556
-						province_id = 207
-						province_id = 208
-						province_id = 209
-						province_id = 210
-						province_id = 211
-						province_id = 212
-						province_id = 213
-						province_id = 214
-						province_id = 215
-						province_id = 216
-						province_id = 217
-						province_id = 218
-						province_id = 219
-						province_id = 220
-						province_id = 221
-						province_id = 222
-						province_id = 223
-						province_id = 224
-						province_id = 225
-						province_id = 226
-						province_id = 227
-						province_id = 228
-						province_id = 229
-						province_id = 230
-						province_id = 231
-						province_id = 232
-						province_id = 233
-						province_id = 234
-						province_id = 235
-						province_id = 236
-						province_id = 237
-						province_id = 238
-						province_id = 239
-						province_id = 240
-						province_id = 241
-						province_id = 242
-						province_id = 243
-						province_id = 244
-						province_id = 245
-						province_id = 246
-						province_id = 247
-						province_id = 248
-						province_id = 249
-						province_id = 250
-					}
-				}
-				add_province_modifier = { name = westward_migration duration = -1 }
-			}
-		}
-	}
-}
-
-
-country_event = {
-	id = 16455
-	title = "Mexican American War"
-
- 	trigger = {
-		tag = USA
-		ai = yes
-		war = no
-		NOT = { war_exhaustion = 5 }
-		has_country_flag = mex_usa_war
-		NOT = { has_global_flag = 1913_bookmark }
-	}
-
-	option = {
-		war = {
-			target = MEX
-			attacker_goal = { casus_belli = acquire_all_cores country = USA }
-		}
-		clr_country_flag = mex_usa_war
-	}
-}
-
-country_event = {
-	id = 19009
-	title = "Manifest Destiny"
-	desc = "EVTDESC19009"
-	
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "We Claimed enough"
-		prestige = 25
-		any_pop = {
-			militancy = -3
-			consciousness = -3
-		}
-	}
-
-	option = {
-		name = "We need more Destiny"
-		any_pop = {
-			militancy = 3
-			consciousness = 3
-		}
-		badboy = 10
-		MEX_2138 = { add_core = USA }
-		MEX_2142 = { add_core = USA }
+			small_arms = 100
+			canned_food = 200
+			artillery = 50
+			luxury_clothes = 50
+			wine = 50
+			liquor = 50
+			ammunition = 100
+			money = 1000
 	}
 }

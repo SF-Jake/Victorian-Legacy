@@ -81,52 +81,50 @@ guiTypes = {
 		iconType = {
 			name ="icon_army"
 			spriteType = "GFX_topbar_army_opaque"
-			position = { x= 355 y = 22 }
+			position = { x= 348 y = 22 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="icon_navy"
 			spriteType = "GFX_topbar_navy_opaque"
-			position = { x= 683 y = 22 }
+			position = { x= 676 y = 22 }
 			Orientation = "UPPER_LEFT"
 		}
 		
-
-
 		#Mobilise info.		
 		guiButtonType = {
 			name = "mobilize"
-			quadTextureSprite = "GFX_button_standard_130x36"
+			quadTextureSprite = "GFX_button_standard_202"
 			buttonFont = "vic_18_black"
-			buttonText = "MOBILISE"
+			buttonText = ""
 			Orientation = "UPPER_LEFT"
 			clicksound = click
-			position = { x= 355 y = 564 }
+			position = { x= 345 y = 564 }
 		}
 		guiButtonType = {
 			name = "demobilize"
-			quadTextureSprite = "GFX_button_standard_130x36"
+			quadTextureSprite = "GFX_button_standard_201"
 			buttonFont = "vic_18_black"
-			buttonText = "DEMOBILISE"
+			buttonText = ""
 			Orientation = "UPPER_LEFT"
 			clicksound = click
-			position = { x= 355 y = 564 }
+			position = { x= 345 y = 564 }
 		}
 		iconType = {
 			name = "mobilize_progress"
 			spriteType = "GFX_mobilize_progress"
-			position = { x = 489 y = 575 }
+			position = { x = 430 y = 575 }
 		}
 
 		iconType = {
 			name = "mobilize_progress_frame"
 			spriteType = "GFX_mobilization_progress_frame"
-			position = { x = 487 y = 573 }
+			position = { x = 428 y = 573 }
 		}
 		
 		instantTextBoxType = { 
 			name = "mobilize_progress_text"
-			position = { x = 474 y = 574 }
+			position = { x = 425 y = 574 }
 			font = "vic_18_black"
 			maxWidth = 218
 			maxHeight = 20	
@@ -135,7 +133,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "mob_size_label"
-			position = { x = 692 y = 563 }
+			position = { x = 635 y = 563 }
 			font = "vic_18_black"
 			text = "MOB_SIZE_LABEL"	
 			maxWidth = 280
@@ -143,7 +141,7 @@ guiTypes = {
 		}
 		instantTextBoxType = { 
 			name = "mob_size"
-			position = { x = 882 y = 563 }
+			position = { x = 875 y = 563 }
 			font = "vic_18_black"
 			text = "123"	
 			maxWidth = 100
@@ -152,7 +150,7 @@ guiTypes = {
 		}
 		instantTextBoxType = { 
 			name = "mob_impact_label"
-			position = { x = 692 y = 585 }
+			position = { x = 635 y = 585 }
 			font = "vic_18_black"
 			text = "MOB_IMPACT_LABEL"	
 			maxWidth = 280
@@ -160,7 +158,7 @@ guiTypes = {
 		}
 		instantTextBoxType = { 
 			name = "mob_impact"
-			position = { x = 882 y = 585 }
+			position = { x = 875 y = 585 }
 			font = "vic_18_black"
 			text = "123"	
 			maxWidth = 100
@@ -222,7 +220,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "sort_leader_prestige"
-				position = { x=10 y = 25 }
+				position = { x=10 y = 30 }
 				quadTextureSprite ="GFX_sortbutton_20"
 				buttonText = ""
 				buttonFont = "vic_18_black"
@@ -230,27 +228,27 @@ guiTypes = {
 			iconType = {
 				name ="sort_prestige_icon"
 				spriteType = "GFX_prestige_icon_2"
-				position = { x=12 y=33 }
+				position = { x=12 y=38 }
 				Orientation = "UPPER_LEFT"
 				#allwaystransparent = yes
 			}
 			guiButtonType = {
 				name = "sort_leader_type"
-				position = { x=31 y = 25 }
+				position = { x=31 y = 30 }
 				quadTextureSprite ="GFX_sortbutton_34"
 				buttonText = "MILITARY_SORT_TYPE"
 				buttonFont = "vic_18_black"
 			}
 			guiButtonType = {
 				name = "sort_leader_name"
-				position = { x=64 y = 25 }
+				position = { x=64 y = 30 }
 				quadTextureSprite ="GFX_sortbutton_132"
 				buttonText = "MILITARY_SORT_NAME"
 				buttonFont = "vic_18_black"
 			}
 			guiButtonType = {
 				name = "sort_leader_army"
-				position = { x=195 y = 25 }
+				position = { x=195 y = 30 }
 				quadTextureSprite ="GFX_sortbutton_108"
 				buttonText = "MILITARY_SORT_ASSIGNMENT"
 				buttonFont = "vic_18_black"
@@ -264,7 +262,7 @@ guiTypes = {
 				buttonText = "MILITARY_CREATE_GENERAL"
 				Orientation = "UPPER_LEFT"
 				clicksound = click
-				position = { x= 11 y = 537 }
+				position = { x= 11 y = 327 }
 			}	
 			
 			guiButtonType = {
@@ -274,18 +272,18 @@ guiTypes = {
 				buttonText = "MILITARY_CREATE_ADMIRAL"
 				Orientation = "UPPER_LEFT"
 				clicksound = click
-				position = { x= 155 y = 537 }
+				position = { x= 155 y = 327 }
 			}
 			
 			checkboxType = {
 				name = "auto_create"
 				quadTextureSprite = "GFX_checkbox_default"
 				Orientation = "UPPER_LEFT"
-				position = { x= 14 y = 572 }
+				position = { x= 80 y = 366 }
 			}
 			instantTextBoxType = { 
 				name = "auto_create_text"
-				position = { x = 37 y = 575 }
+				position = { x = 103 y = 369 }
 				font = "vic_18_black"
 				text = "MILITARY_AUTOCREATE"	
 				maxWidth = 200
@@ -297,11 +295,11 @@ guiTypes = {
 				name = "auto_assign"
 				quadTextureSprite = "GFX_checkbox_default"
 				Orientation = "UPPER_LEFT"
-				position = { x= 159 y = 572 }
+				position = { x= 80 y = 386 }
 			}
 			instantTextBoxType = { 
 				name = "auto_assign_text"
-				position = { x = 182 y = 575 }
+				position = { x = 103 y = 389 }
 				font = "vic_18_black"
 				text = "MILITARY_AUTOASSIGN"	
 				maxWidth = 200
@@ -311,9 +309,9 @@ guiTypes = {
 			
 			listboxType = {
 				name ="leader_listbox"
-				position = { x = 11 y = 52 }
+				position = { x = 7 y = 60 }
 				backGround=""
-				size = { x=287 y = 484 }
+				size = { x=277 y = 264 }
 				Orientation = "UPPER_LEFT"
 				spacing = 2
 				scrollbartype = "standardlistbox_slider"
@@ -325,7 +323,7 @@ guiTypes = {
 		windowType = {
 			name = "stats"
 			backGround =""
-			position = { x=367 y=472 }	
+			position = { x=33 y=440 }	
 			size = { x=300 y=150 }
 			moveable = 0
 			dontRender = ""
@@ -412,12 +410,12 @@ guiTypes = {
 			
 			iconType = {
 				name = "unit_experience_icon"
-				position = { x= 329 y = -1}
+				position = { x= 3 y = 82}
 				spriteType = "GFX_military_exp"	
 			}
 			instantTextBoxType = { 
 				name = "unit_experience_desc"
-				position = { x = 354 y = 0 }
+				position = { x = 27 y = 85 }
 				font = "vic_18_black"
 				text = "MILITARY_UNIT_EXPERIENCE"	
 				maxWidth = 160
@@ -427,12 +425,12 @@ guiTypes = {
 			
 			iconType = {
 				name = "recruit_time_icon"
-				position = { x= 329 y = 15}
+				position = { x= 2 y = 100}
 				spriteType = "GFX_military_recruittime"	
 			}
 			instantTextBoxType = { 
 				name = "recruit_time_desc"
-				position = { x = 354 y = 17 }
+				position = { x = 27 y = 102 }
 				font = "vic_18_black"
 				text = "MILITARY_RECRUIT_TIME"	
 				maxWidth = 160
@@ -443,12 +441,12 @@ guiTypes = {
 			
 			iconType = {
 				name = "combat_width_icon"
-				position = { x= 329 y = 32}
+				position = { x= 2 y = 117}
 				spriteType = "GFX_military_cw"	
 			}
 			instantTextBoxType = { 
 				name = "combat_width_desc"
-				position = { x = 354 y = 34 }
+				position = { x = 27 y = 119 }
 				font = "vic_18_black"
 				text = "MILITARY_COMBAT_WIDTH"	
 				maxWidth = 160
@@ -458,12 +456,12 @@ guiTypes = {
 			
 			iconType = {
 				name = "digin_cap_icon"
-				position = { x= 327 y = 48}
+				position = { x= 0 y = 132}
 				spriteType = "GFX_military_dugin_icon"		
 			}
 			instantTextBoxType = { 
 				name = "digin_cap_desc"
-				position = { x = 354 y = 51 }
+				position = { x = 27 y = 136 }
 				font = "vic_18_black"
 				text = "MILITARY_DIG_IN_CAP"	
 				maxWidth = 160
@@ -473,12 +471,12 @@ guiTypes = {
 			
 			iconType = {
 				name = "tactics_level_icon"
-				position = { x= 329 y = 67}
+				position = { x= 2 y = 152}
 				spriteType = "GFX_military_tactics"	
 			}
 			instantTextBoxType = { 
 				name = "tactics_level_desc"
-				position = { x = 354 y = 68 }
+				position = { x = 27 y = 153 }
 				font = "vic_18_black"
 				text = "MILITARY_MILITARY_TACTICS"	
 				maxWidth = 160
@@ -534,7 +532,7 @@ guiTypes = {
 			
 			instantTextBoxType = { 
 				name = "unit_experience"
-				position = { x = 504 y = 0 }
+				position = { x = 177 y = 85 }
 				font = "vic_18_black"
 				maxWidth = 100
 				maxHeight = 20
@@ -543,7 +541,7 @@ guiTypes = {
 			
 			instantTextBoxType = { 
 				name = "recruit_time"
-				position = { x = 504 y = 17 }
+				position = { x = 177 y = 102 }
 				font = "vic_18_black"
 				maxWidth = 100
 				maxHeight = 20
@@ -551,7 +549,7 @@ guiTypes = {
 			}
 			instantTextBoxType = { 
 				name = "combat_width"
-				position = { x = 504 y = 34 }
+				position = { x = 177 y = 119 }
 				font = "vic_18_black"
 				maxWidth = 100
 				maxHeight = 20
@@ -559,7 +557,7 @@ guiTypes = {
 			}
 			instantTextBoxType = { 
 				name = "digin_cap"
-				position = { x = 504 y = 51 }
+				position = { x = 177 y = 136 }
 				font = "vic_18_black"
 				maxWidth = 100
 				text = "todo"
@@ -568,7 +566,7 @@ guiTypes = {
 			}
 			instantTextBoxType = { 
 				name = "tactics_level"
-				position = { x = 504 y = 68 }
+				position = { x = 177 y = 153 }
 				font = "vic_18_black"
 				text = "todo"
 				maxWidth = 100
@@ -595,7 +593,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "current_count"
-			position = { x = 48 y = 9 }
+			position = { x = 41 y = 9 }
 			font = "vic_18"
 			text = "3 Armies"	
 			maxWidth = 150
@@ -604,7 +602,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "under_construction"
-			position = { x = 267 y = 9 }
+			position = { x = 260 y = 9 }
 			font = "vic_18"
 			text = "(+4)"	
 			maxWidth = 50
@@ -615,14 +613,14 @@ guiTypes = {
 		iconType = {
 			name ="cut_down_to_size"
 			spriteType = "GFX_diplo_wargoal_icons"
-			position = { x= 247 y = 5 }
+			position = { x= 240 y = 5 }
 			frame = 8
 			Orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType = {
 			name = "sort_name"
-			position = { x=16 y = 30 }
+			position = { x=9 y = 30 }
 			quadTextureSprite ="GFX_sortbutton_200"
 			buttonText = "MILITARY_SORT_NAME"
 			buttonFont = "vic_18_black"
@@ -630,7 +628,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "sort_strength"
-			position = { x=213 y = 30 }
+			position = { x=206 y = 30 }
 			quadTextureSprite ="GFX_sortbutton_120"
 			buttonText = "MILITARY_SORT_STRENGTH"
 			buttonFont = "vic_18_black"
@@ -643,14 +641,14 @@ guiTypes = {
 			buttonText = "DIPLOMACY_ADD_WARGOAL"
 			Orientation = "UPPER_LEFT"
 			clicksound = click
-			position = { x= 74 y = 413 }
+			position = { x= 67 y = 495 }
 		}
 		
 		listboxType = {
 			name ="unit_listbox"
-			position = { x = 17 y = 60 }
+			position = { x = 10 y = 60 }
 			backGround=""
-			size = { x=300 y = 351 }
+			size = { x=300 y = 429 }
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
@@ -809,20 +807,20 @@ guiTypes = {
 		iconType = {
 			name ="military_leader_entry_bg"
 			spriteType = "GFX_military_leader_entry_bg"
-			position = { x= -9 y = -3 }
+			position = { x= 0 y = -3 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="prestige_bar_frame"
 			spriteType = "GFX_prestige_bar_frame"
-			position = { x = -10 y = 3 }
+			position = { x = 4 y = 3 }
 			#allwaystransparent = yes
 		}
 		iconType = {
 			name ="leader_prestige_bar"
 			spriteType = "GFX_leader_prestige_progress_bar"
-			position = { x = 0 y = 33 }
+			position = { x = 14 y = 33 }
 			Orientation = "UPPER_LEFT"
 			rotation = 1.5708
 			#allwaystransparent = yes
@@ -830,36 +828,36 @@ guiTypes = {
 		
 		iconType = {
 			name = "leader"
-			position = { x = 2 y = 1 }
+			position = { x = 16 y = 1 }
 			spriteType = "GFX_leader_generic0"
 		}	
 		
 		instantTextBoxType = { 
 			name = "name"
-			position = { x = 38 y = 1 }
+			position = { x = 53 y = 1 }
 			font = "vic_18_black"
 			text = " "	
-			maxWidth = 142
+			maxWidth = 126
 			maxHeight = 10
 			fixedsize = yes
 		}
 		
 		instantTextBoxType = { 
 			name = "background"
-			position = { x = 38 y = 17 }
+			position = { x = 53 y = 17 }
 			font = "Arial12_black"
 			text = " "	
-			maxWidth = 142
+			maxWidth = 125
 			maxHeight = 20
 			fixedsize = yes
 		}			
 		
 		instantTextBoxType = { 
 			name = "personality"
-			position = { x = 38 y = 29 }
+			position = { x = 53 y = 29 }
 			font = "Arial12_black"
 			text = " "	
-			maxWidth = 142
+			maxWidth = 125
 			maxHeight = 20
 			fixedsize = yes
 		}
@@ -868,28 +866,28 @@ guiTypes = {
 			name = "use_leader"
 			quadTextureSprite = "GFX_checkbox_default"
 			Orientation = "UPPER_LEFT"
-			position = { x= 183 y = 17 }
+			position = { x= 160 y = 17 }
 		}
 			
 		instantTextBoxType = { 
 			name = "army"
-			position = { x = 210 y = 1 }
+			position = { x = 187 y = 1 }
 			font = "vic_18_black"
 			text = " "	
 			maxWidth = 87
 			maxHeight = 10
-			format = left
+			format = right
 			fixedsize = yes
 		}
 		
 		instantTextBoxType = { 
 			name = "location"
-			position = { x = 210 y = 17 }
+			position = { x = 187 y = 17 }
 			font = "Arial12_black"
 			text = " "	
 			maxWidth = 87
 			maxHeight = 10
-			format = left
+			format = right
 			fixedsize = yes
 		}
 	}

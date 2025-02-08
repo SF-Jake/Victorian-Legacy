@@ -15,16 +15,14 @@ steam_transport = {
 	priority = 10
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 10
+	maximum_speed = 8
 	weighted_value = 4.0
 	can_build_overseas = yes
 
 	#Building Costs
 	build_time = 90
 	build_cost = {
-		clipper_convoy = 25
-		steamer_convoy = 10
-		canned_food = 10
+		steamer_convoy = 5
 	}
 	min_port_level = 1
 	limit_per_port = -1
@@ -32,14 +30,13 @@ steam_transport = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.25
-		steamer_convoy = 0.1
-		canned_food = 0.1
+		steamer_convoy = 0.10
+		coal = 0.1
 	}
 	
 	#Naval Abilties
-	hull = 4
-	gun_power = 4
+	hull = 5
+	gun_power = 1
 	fire_range = 0.4
 	evasion = 0
 }

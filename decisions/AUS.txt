@@ -1,94 +1,13 @@
 political_decisions = {
-	form_danubian_federation = {
-		picture = danubian_federation
-		potential = {
-			tag = KUK
-			NOT = { has_country_flag = danubian_federation_formed }
-		}
-		allow = {
-			war = no
-			year = 1862
-			663 = { owned_by = THIS }
-			625 = { owned_by = THIS }
-			619 = { owned_by = THIS }
-			771 = { owned_by = THIS }
-			641 = { owned_by = THIS }
-			vote_franschise = universal_voting
-			upper_house_composition = population_equal_weight
-			public_meetings = yes_meeting
-			press_rights = free_press
-			political_parties = secret_ballots
-			citizens_rights = all_voting_pops
-		}
-		effect = {
-			set_country_flag = danubian_federation_formed
-			prestige = 25
-			all_core = {
-				add_core = DNB
-				remove_core = KUK
-			}
-			government = democracy
-			political_reform = federalism
-			clr_country_flag = confederalism
-			add_accepted_culture = hungarian
-			add_accepted_culture = slovak
-			change_tag = DNB
-		}
-	}
-
-	form_danubian_federation_path1 = {
-		picture = danubian_federation
-		potential = {
-			tag = DNB
-			NOT = { has_country_flag = danubian_federation_formed_2 }
-		}
-		allow = {
-			WAL_665 = { owned_by = THIS }
-			MOL_673 = { owned_by = THIS }
-			RUS_676 = { owned_by = THIS }
-			TUR_674 = { owned_by = THIS }
-			revolution_n_counterrevolution = 1
-		}
-		effect = {
-			prestige = 25
-			add_accepted_culture = romanian
-			WAL_665 = { add_core = THIS }
-			MOL_673 = { add_core = THIS }
-			RUS_676 = { add_core = THIS }
-			TUR_674 = { add_core = THIS }
-			set_country_flag = danubian_federation_formed_2
-		}
-	}
-
-	form_danubian_federation_path2 = {
-		picture = danubian_federation
-		potential = {
-			tag = DNB
-			NOT = { has_country_flag = danubian_federation_formed_2 }
-		}
-		allow = {
-			TUR_788 = { owned_by = THIS }
-			SER_794 = { owned_by = THIS }
-			MON_2582 = { owned_by = THIS }
-			TUR_803 = { owned_by = THIS }
-			revolution_n_counterrevolution = 1
-		}
-		effect = {
-			prestige = 25
-			add_accepted_culture = croat
-			add_accepted_culture = serb
-			TUR_788 = { add_core = THIS }
-			SER_794 = { add_core = THIS }
-			MON_2582 = { add_core = THIS }
-			TUR_803 = { add_core = THIS }
-			set_country_flag = danubian_federation_formed_2
-		}
-	}
-
 	enact_dual_monarchy = {
 		potential = {
 			tag = AUS
 			war = no
+			OR = {
+				government = absolute_monarchy
+				government = hms_government
+				government = prussian_constitutionalism
+			}
 			any_owned_province = {
 				is_core = HUN
 			}
@@ -96,38 +15,43 @@ political_decisions = {
 				has_country_flag = dual_monarchy_done
 			}
 		}
-
+	
 		allow = {
 			war = no
-			has_global_flag = hungarian_revolution_1848
+			year = 1860
 			OR = {
-				ITA = { exists = yes }
 				NGF = { exists = yes }
 				GER = { exists = yes }
-			}
-			OR = {
-				HUN = { exists = no }
-				is_our_vassal = HUN
+				is_greater_power = no
 			}
 			nationalism_n_imperialism = 1
+			NOT = {
+				OR = {
+					exists = HUN
+					exists = KUK
+					average_militancy = 5
+				}
+			}
 		}
 	
 		effect = {
-			political_reform = confederalism
-			set_country_flag = confederalism
-			all_core = {
-				remove_core = AUS
-				add_core = KUK
-			}
-			HUN = {
-				all_core = { add_core = KUK }
-				annex_to = THIS
-			}
+			AUS = { all_core = { remove_core = AUS add_core = KUK } }
+			AUS_771 = { remove_core = HUN }
+			#BOH = {
+			#	all_core = { add_core = AUS }
+			#}
+			#AUS_619 = { add_core = AUS }
+			#AUS_613 = { add_core = AUS }
+			#AUS_612 = { add_core = AUS }
+			#AUS_734 = { add_core = AUS }
+			#AUS_768 = { add_core = AUS }
+			#AUS_736 = { add_core = AUS }
+			#AUS_778 = { add_core = AUS }
 			any_pop = {
 				limit = {
 					culture = hungarian
 				}
-				militancy = -2
+				militancy = -4
 			}
 			any_pop = {
 				limit = {
@@ -140,47 +64,39 @@ political_decisions = {
 				}
 				militancy = 2
 			}
-						
+			any_pop = {
+				limit = {
+					OR = {
+						culture = slovak
+						culture = croat
+						culture = slovene
+						culture = north_italian
+						culture = polish
+						culture = romanian
+						culture = ukrainian
+						culture = czech
+					}
+				}
+				consciousness = 5
+			}			
 			add_accepted_culture = hungarian
 			change_tag = KUK
-			set_country_flag = dual_monarchy_done	
+			set_country_flag = dual_monarchy_done
 		}
 		ai_will_do = {
 			factor = 1
-		}
-	}
-	
-	accept_the_north_sgf = {
-		potential = {
-			tag = SGF
-			ai = no
-			war = no
-			NOT = { has_country_flag = dual_monarchy_done }
-			NOT = { has_country_flag = accept_the_north_sgf	}
-		}
-
-		allow = {
-			PRU_549 = { owned_by = THIS }
-			SAX_558 = { owned_by = THIS }
-			AUS_688 = { owned_by = THIS }
-			PRU_682 = { owned_by = THIS }
-			nationalism_n_imperialism = 1
-		}
-	
-		effect = {
-			any_pop = {
-				limit = {
-					NOT = {
-						OR = {
-							culture = czech
-							culture = south_german
-						}
+			modifier = {
+				factor = 0
+				is_greater_power = yes
+				NGF = { exists = no }
+				GER = { exists = no }
+				NOT = {
+					OR = {
+						average_militancy = 6
+						revolt_percentage = .25
 					}
 				}
-				militancy = 2
 			}
-			add_accepted_culture = north_german
-			set_country_flag = accept_the_north_sgf
 		}
 	}
 	
@@ -198,10 +114,8 @@ political_decisions = {
 		allow = {
 			iron_railroad = 1
 			cheap_iron = 1
-			money = 500000
 		}
 		effect = {
-			treasury = -500000
 			619 = {
 				any_pop = {
 					ideology = {
@@ -209,199 +123,199 @@ political_decisions = {
 						factor = 0.2
 					}
 				}
-				add_province_modifier = { name = small_baby_boom duration = 1095 }
-				life_rating = 2
+				life_rating = 5
 			}
 			prestige = 10
 			set_country_flag = grunderzeit_we_have_done
 		}
 	}
 	
-	budapest_united = {
-		picture = budapest_city
+	slovene_language_at_celje_gymnasium = { #original VIP event by Hrast, edited by Palisadoes
 		potential = {
-			owns = 641
-			NOT = { has_global_flag = budapest_founded }
-		}
-
-		allow = {
-			nationalism_n_imperialism = 1
-			money = 500000
-		}
-
-		effect = {
-			prestige = 10
-			treasury = -500000
-			set_global_flag = budapest_founded
-			641 = {
-				life_rating = 2
-				add_province_modifier = { name = small_baby_boom duration = 1095 }
+			primary_culture = south_german
+			owns = 767 #Maribor
+			NOT = {
+				has_country_flag = slovene_language_at_celje_gymnasium
 			}
 		}
-
-		ai_will_do = { factor = 1 }
+		allow = {
+			767 = {
+				culture = slovene
+			}
+			nationalism_n_imperialism = 1
+			citizenship_policy = full_citizenship
+			OR = {
+				upper_house = {
+					ideology = liberal
+					value = 0.3
+				}
+				upper_house = {
+					ideology = anarcho_liberal
+					value = 0.3
+				}
+				upper_house = {
+					ideology = socialist
+					value = 0.3
+				}
+			}
+		}
+		effect = {
+			plurality = 5
+			any_pop = { limit = { culture = slovene } consciousness = -1 militancy = -1 }
+			any_pop = { limit = { culture = south_german } consciousness = 1 }
+			767 = {
+				any_pop = { limit = { culture = south_german } consciousness = 1 militancy = 1 }
+				any_pop = {
+					dominant_issue = {
+						value = limited_citizenship
+						factor = 0.15
+					}
+				}
+			}
+			upper_house = {
+				ideology = conservative
+				value = 0.25
+			}
+			set_country_flag = slovene_language_at_celje_gymnasium
+		}
 	}
 
-	annex_krakow = {
+	the_final_abolishment_of_serfdom = { #original VIP event by Hrast
 		potential = {
 			OR = {
 				tag = AUS
 				tag = KUK
-			}			
-			year = 1840
-			NOT = { has_country_flag = krakow_annexed }
-			owns = 714
-			KRA = {
-				exists = yes
-				ai = yes
+			}
+			NOT = {
+				has_country_flag = the_final_abolishment_of_serfdom
 			}
 		}
-		
 		allow = {
-			is_sphere_leader_of = KRA
+			OR = {
+				ruling_party_ideology = liberal
+				ruling_party_ideology = anarcho_liberal
+				ruling_party_ideology = socialist
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
+			}
+			OR = {
+				upper_house = {
+					ideology = liberal
+					value = 0.3
+				}
+				upper_house = {
+					ideology = anarcho_liberal
+					value = 0.3
+				}
+				upper_house = {
+					ideology = socialist
+					value = 0.3
+				}
+				upper_house = {
+					ideology = communist
+					value = 0.3
+				}
+				upper_house = {
+					ideology = fascist
+					value = 0.3
+				}
+			}
 		}
-		
 		effect = {
-			badboy = 3.5
-			inherit = KRA
-			set_country_flag = krakow_annexed
+			farmers = {
+				consciousness = -2
+				militancy = -2
+			}
+			aristocrats = {
+				consciousness = 2
+				militancy = 2
+			}
+			money = -10000
+			upper_house = {
+				ideology = conservative
+				value = 0.25
+			}
+			set_country_flag = the_final_abolishment_of_serfdom
 		}
 	}
-
-	embrace_slovak_minority = {
-		picture = embrace_slovaks
-		potential = {
-			tag = HUN
-			NOT = {
-				accepted_culture = slovak
-				has_country_flag = slovakians_embraced
-			}
-			OR = {
-				AUS_633 = {
-					owned_by = THIS
+	
+		embrace_croat_minority = {
+			picture = embrace_minority
+			potential = {
+				tag = KUK
+				any_owned_province = { is_core = CRO }
+				NOT = {
+					accepted_culture = croat
+					has_country_flag = embraced_croats
 				}
-				AUS_637 = {
-					owned_by = THIS
-				}
+				accepted_culture = czech
 			}
-		}
-		allow = {
-			citizens_rights = all_voting_pops
-			OR = {
-				government = hms_government
-				government = democracy
+			allow = {
+				year = 1870
+				revolution_n_counterrevolution = 1
 			}
-			SLV = {
-				all_core = { owned_by = THIS }
-			}
-			NOT = {
-				OR = {
-					SLV = { exists = yes }
-					CZH = { exists = yes }
-				}
-			}
-			any_owned_province = {
-					is_core = SLV
-					state_scope = { 
-						NOT = {
-							average_militancy = 1
+			effect = {
+				set_country_flag = embraced_croats
+				add_accepted_culture = croat
+				prestige = -25
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = hungarian
+							has_pop_culture = czech
 						}
 					}
-			}
-		}
-		effect = {
-			set_country_flag = slovakians_embraced
-			add_accepted_culture = slovak
-			any_pop = {
-				limit = { has_pop_culture = slovak }
-				militancy = -4
-				consciousness = -4
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	concede_italy = {
-		picture = north_italian_federation
-		potential = {
-			OR = {
-				tag = AUS
-				tag = KUK
-				tag = DNB
-			}
-			NOT = {
-				has_country_flag = condeded_italy
-			}
-		}
-
-		allow = {
-			AUS_726 = {
-				NOT = { owned_by = THIS }
-				owned_by = ITA
-			}
-			AUS_729 = {
-				NOT = { owned_by = THIS }
-				owned_by = ITA
-			}
-			OR = {
-				AUS_734 = {
-					NOT = { owned_by = THIS }
-					owned_by = ITA
+					militancy = 4
+					consciousness = 4
 				}
-				AUS_736 = {
-					NOT = { owned_by = THIS }
-					owned_by = ITA
+				any_pop = {
+					limit = { has_pop_culture = croat }
+					militancy = -4
+					consciousness = -4
 				}
 			}
-		}
-
-		effect = {
-			any_owned = {
-				limit = { is_core = ITA }
-				secede_province = ITA
+			ai_will_do = {
+				factor = 1
 			}
-			AUS_726 = {
-				remove_core = THIS
-			}
-			AUS_729 = {
-				remove_core = THIS
-			}
-			AUS_734 = {
-				remove_core = THIS
-			}
-			AUS_736 = {
-				remove_core = THIS
-			}
-			relation = {
-				who = ITA
-				value = 300
-			}
-			set_country_flag = condeded_italy
-		}
-		ai_will_do = {
-			factor = 1
-		}
 	}
-	bosnia_core = {
-		potential = {
-			OR = {
-				tag = AUS
+	
+		embrace_slovene_minority = {
+			picture = embrace_minority
+			potential = {
 				tag = KUK
-				tag = DNB
+				any_owned_province = { is_core = SLO }
+				NOT = {
+					accepted_culture = slovene
+					has_country_flag = embraced_slovenes
+				}
 			}
-			year = 1870
-			NOT = { has_country_flag = bosnia_core }
-		}
-
-		allow = {
-			revolution_n_counterrevolution = 1
-		}
-
-		effect = {
-			set_country_flag = bosnia_core
-			TUR_788 = { add_core = THIS }
-		}
+			allow = {
+				year = 1870
+				revolution_n_counterrevolution = 1
+			}
+			effect = {
+				set_country_flag = embraced_slovenes
+				add_accepted_culture = slovene
+				prestige = -25
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = hungarian
+							has_pop_culture = czech
+							has_pop_culture = croat
+						}
+					}
+					militancy = 4
+					consciousness = 4
+				}
+				any_pop = {
+					limit = { has_pop_culture = slovene }
+					militancy = -4
+					consciousness = -4
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
 	}
 }

@@ -2,10 +2,14 @@ owner = COM
 controller = COM
 add_core = COM
 add_core = QUE
+
 trade_goods = fish
-life_rating = 35
-1913.1.1 = {
+life_rating = 25
+
+1836.1.2 = {
+	remove_core = COM
 	owner = CAN
 	controller = CAN
-	remove_core = RPL
+	add_core = CAN
+	colonial = 0
 }

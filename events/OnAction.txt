@@ -33,24 +33,12 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 0.01
-			modifier = {
-				factor = 0
-				owner = {
-					NOT = {
-						OR = {
-							tag = USA
-							tag = CSA
-						}
-					}
-				}
-			}
+			factor = 50
 			modifier = {
 				factor = 0
 				owner = { tag = USA }
 				any_owned_province = {
 					OR = {
-						province_id = 100 #Arizona
 						province_id = 84 #California
 						province_id = 106 #Colorado
 						province_id = 91 #Idaho
@@ -59,8 +47,7 @@ country_event = {
 						province_id = 173 #Michigan
 						province_id = 155 #Minnesota
 						province_id = 116 #Montana
-						province_id = 94 #Nevada
-						province_id = 97 #Utah
+						province_id = 97 #Nevada-Utah
 						province_id = 117 #N. Dakota
 						province_id = 120 #S. Dakota
 						province_id = 81 #Oregon
@@ -72,23 +59,42 @@ country_event = {
 				}
 			}
 			modifier = {
-				factor = 100
-				owner = { tag = USA }
+				factor = 0
+				owner = {
+					tag = USA
+					NOT = { has_country_flag = kansas_nebraska_act_acting }
+				}
 				any_owned_province = {
-					any_neighbor_province = {
-						is_core = CSA
+					OR = {
+						province_id = 126 #Kansas
+						province_id = 123 #Nebraska
 					}
-					is_core = MEX
 				}
 			}
 			modifier = {
-				factor = 0
+				factor = 0.5
+				owner = {
+					tag = USA
+					has_country_flag = kansas_nebraska_act_acting
+				}
+				any_owned_province = {
+					province_id = 123 #Nebraska
+				}
+			}
+			modifier = {
+				factor = 1.5
 				owner = { tag = USA }
-				NOT = {
-					any_owned_province = {
-						any_neighbor_province = {
-							is_core = CSA
-						}
+				any_owned_province = {
+					province_id = 129 #Oklahoma
+				}
+			}
+			modifier = {
+				factor = 1.75
+				owner = { tag = USA }
+				any_owned_province = {
+					OR = {
+						province_id = 100 #Arizona
+						province_id = 103 #New Mexico
 					}
 				}
 			}
@@ -113,7 +119,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 0.99
+			factor = 50
 			modifier = {
 				factor = 0
 				owner = { 
@@ -125,11 +131,41 @@ country_event = {
 				owner = { tag = USA }
 				any_owned_province = {
 					OR = {
-						province_id = 129 #Oklahoma
 						province_id = 200 #Florida
 						is_core = TEX
 						is_core = CUB
+						AND = {
+							is_core = MEX
+							NOT = { is_core = USA }
+						}
 					}
+				}
+			}
+			modifier = {
+				factor = 0.25
+				owner = { tag = USA }
+				any_owned_province = {
+					OR = {
+						province_id = 100 #Arizona
+						province_id = 103 #New Mexico
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				owner = {
+					tag = USA
+					has_country_flag = kansas_nebraska_act_acting
+				}
+				any_owned_province = {
+					province_id = 123 #Nebraska
+				}
+			}
+			modifier = {
+				factor = 0.5
+				owner = { tag = USA }
+				any_owned_province = {
+					province_id = 129 #Oklahoma
 				}
 			}
 		}		
@@ -138,87 +174,25 @@ country_event = {
 
 #$STATE$ Joins $COUNTRY$!
 country_event = {
-    id = 70004
-    title = "EVTNAME70004"
-    desc = "EVTDESC70004"
-    #picture = "Western"
-    trigger = {
-		OR = {
-			any_owned_province = {
-				has_pop_type = labourers
-				is_core = PRO
-				NOT = { has_province_modifier = mine_expansion }
-			}
-			any_owned_province = {
-				has_pop_type = farmers
-				is_core = PRO
-				NOT = { has_province_modifier = agriculture_expansion }
-			}
-			any_owned_province = {
-				OR = {
-					province_id = 1481
-					province_id = 1496
-					province_id = 1498
-					province_id = 1538
-					province_id = 1566
-					province_id = 1569
-					province_id = 2615
-					province_id = 2659
-					province_id = 1499
-					province_id = 1496
-					province_id = 1608
-				}
-				is_core = PRO
-				has_province_flag = treaty_port
-				NOT = { has_province_modifier = treaty_port }
+	id = 70001
+	title = "EVTNAME70001"
+	desc = "EVTDESC70001"
+	picture = "Western"
+	trigger = {
+		country = {
+			slavery = no_slavery
+			capital_scope = {
+				NOT = { continent = europe }
 			}
 		}
-    }
-    is_triggered_only = yes
-    allow_multiple_instances = yes
-
-    option = {
-        name = "EVTOPTA70004"
-		any_owned = {
-			limit = {
-				OR = {
-					province_id = 1481
-					province_id = 1496
-					province_id = 1498
-					province_id = 1538
-					province_id = 1566
-					province_id = 1569
-					province_id = 2615
-					province_id = 2659
-					province_id = 1499
-					province_id = 1496
-					province_id = 1608
-				}
-				is_core = PRO
-				has_province_flag = treaty_port
-				NOT = { has_province_modifier = treaty_port }
-			}
-			add_province_modifier = { name = treaty_port duration = -1 }
-		}
-		any_owned = {
-			limit = {
-				has_pop_type = labourers
-				is_core = PRO
-				NOT = { has_province_modifier = mine_expansion }
-				NOT = { has_province_modifier = treaty_port }
-			}
-			add_province_modifier = { name = mine_expansion duration = -1 }
-		}
-		any_owned = {
-			limit = {
-				has_pop_type = farmers
-				is_core = PRO
-				NOT = { has_province_modifier = agriculture_expansion }
-				NOT = { has_province_modifier = treaty_port }
-			}
-			add_province_modifier = { name = agriculture_expansion duration = -1 }
-		}
-    }
+	}
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	option = {
+		name = "EVTOPTA70001"
+		is_slave = no
+	}
 }
 
 # Nation that owns your debt goes bankrupt
@@ -255,7 +229,28 @@ country_event = {
 	option = {
 		name = "EVTOPTA70002"
 		casus_belli = {
-			type = cut_down_to_size
+			type = humiliate
+			target = FROM
+		}
+	}
+}
+
+
+# Nation that owns your debt goes bankrupt, but the amount is small
+country_event = {
+	id = 70004
+	title = "EVTNAME70002"
+	desc = "EVTDESC70002"
+	picture = "Bankruptcy"
+	trigger = {
+
+	}
+
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA70002"
+		casus_belli = {
+			type = gunboat
 			target = FROM
 		}
 	}

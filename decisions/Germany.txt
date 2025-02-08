@@ -1,162 +1,79 @@
 political_decisions = {
 	ems_dispatch = {
 		potential = {
-			ai = no
-			NOT = {
-				has_country_flag = ems_dispatch_sent
-			}
-			is_culture_group = germanic
-			NOT = {
-				OR = {
-					tag = AUS
-					tag = KUK
-					tag = DNB
-				}
-			}
-			exists = FRA
-		}
-
-		allow = {
-			570 = {
-				OR = {
-					owned_by = THIS
-					owner = { vassal_of = THIS }
-					owner = { in_sphere = THIS }
-				}
-			}
-			GER = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-					}
-				}
-			}
-		}
-
-		effect = {
-			prestige = 5
-			FRA = {
-				country_event = { id=19200 days=0 }
-			}
-			set_country_flag = ems_dispatch_sent
-			FRA_412 = { add_core = GER }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					war_exhaustion = 1
-					NOT = {
-						GER = {
-							all_core = {
-								OR = {
-									owned_by = THIS
-									owner = {
-										in_sphere = THIS
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	ems_dispatch_ai = {
-		potential = {
-			ai = yes
 			NOT = {
 				has_country_flag = ems_dispatch_sent
 			}
 			OR = {
+				tag = PRU
 				tag = NGF
-				tag = SGF
-			}
-			NOT = {
-				OR = {
-					tag = AUS
-					tag = KUK
-				}
 			}
 			exists = FRA
+			government = absolute_monarchy
+			owns = 570
 		}
-
+		
 		allow = {
-			570 = {
-				OR = {
-					owned_by = THIS
-					owner = { vassal_of = THIS }
-					owner = { in_sphere = THIS }
-				}
-			}
-			GER = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-					}
+			prestige = 30
+			steel_breech_loaded_artillery = 1
+			NOT = {
+				relation = {
+					who = FRA
+					value = 0
 				}
 			}
 		}
-
+		
 		effect = {
 			prestige = 5
 			FRA = {
 				country_event = { id=19200 days=0 }
-				relation = {
-					who = RUS
-					value = -200
-				}
-				relation = {
-					who = AUS
-					value = -200
-				}
-				relation = {
-					who = KUK
-					value = -200
-				}
-				leave_alliance = RUS
-				leave_alliance = AUS
-				leave_alliance = KUK
 			}
 			set_country_flag = ems_dispatch_sent
-			FRA_412 = { add_core = GER }
 		}
-
+		
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0
-				OR = {
+				NOT = {
 					war_exhaustion = 1
-					NOT = {
-						GER = {
-							all_core = {
-								OR = {
-									owned_by = THIS
-									owner = {
-										in_sphere = THIS
-									}
-								}
-							}
-						}
-					}
 				}
 			}
 		}
 	}
-
+	
+	construct_germania_werft = {
+		potential = {
+			NOT = {
+				has_global_flag = germania_werft_has_been_built
+			}
+			OR = {
+				tag = PRU
+				tag = GER
+				tag = NGF
+			}
+			owns = 369
+		}
+		
+		allow = {
+			steel_steamers = 1
+		}
+		
+		effect = {
+			set_global_flag = germania_werft_has_been_built
+			prestige = 1
+			369 = {
+				add_province_modifier = {
+					name = germania_werft
+					duration = -1
+				}
+			}
+		}
+	}
+	
 	support_ruhr_industrialism = {
 		potential = {
-			has_global_flag = ruhr_boom_has_happened
 			OR = {
 				tag = PRU
 				tag = GER
@@ -166,30 +83,23 @@ political_decisions = {
 				tech_school = prussian_tech_school
 			}
 		}
-
+		
 		allow = {
-			cheap_steel = 1
 			iron_breech_loaded_artillery = 1
 			state_n_government = 1
-			industrial_score = 500
 			owns = 577
 			owns = 578
 			owns = 2561
 			owns = 576
 			owns = 575
-			575 = {
-				state_scope = {
-					has_building = steel_factory
-				}
-			}
 		}
-
+		
 		effect = {
 			tech_school = prussian_tech_school
 			prestige = 5
 		}
 	}	
-
+	
 	die_wacht_am_rhein = {
 		potential = {
 			OR = {
@@ -197,41 +107,157 @@ political_decisions = {
 				tag = NGF
 				tag = PRU
 			}
-			FRA = { exists = yes }
-			FRA = { has_country_flag = crisis_on_the_rhine }
-			NOT = { has_country_flag = watching_the_rhine }
+			exists = FRA
+			FRA = {
+				has_country_flag = crisis_on_the_rhine
+			}
+			NOT = {
+				has_country_flag = watching_the_rhine
+			}
 		}
 		allow = {
 			NOT = {
 				relation = {
 					who = FRA
-					value = 0
+					value = -50
 				}
 			}
 		}
 		effect = {
-			add_country_modifier = { name = die_wacht_am_rhein duration = 365 }
+			prestige = 5
+			badboy = -1
 			set_country_flag = watching_the_rhine
 		}
 	}
-
+	
+	niederwald_denkmal = {
+		potential = {
+			tag = GER
+			has_country_flag = watching_the_rhine
+			war = no
+			NOT = {
+				has_country_flag = niederwald_denkmal
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = -1
+			}
+			badboy = -3
+			set_country_flag = niederwald_denkmal
+		}
+	}
+	
+	schwabing_circles = {
+		potential = {
+			OR = {
+				tag = BAV
+				tag = SGF
+				tag = GER
+			}
+			owns = 599
+			NOT = {
+				has_country_flag = schwabing_encircled
+			}
+		}
+		allow = {
+			expressionism = 1
+		}
+		effect = {
+			prestige = 20
+			set_country_flag = schwabing_encircled
+		}
+	}
+	
+	support_biesterfelds = {
+		potential = {
+			tag = LIP
+			year = 1880
+			NOT = {
+				has_country_flag = lippe_dispute_solved
+			}
+			exists = PRU
+		}
+		
+		allow = {
+			is_independant = yes
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = lippe_dispute_solved
+		}
+	}
+	
+	support_schaumburgs = {
+		potential = {
+			tag = LIP
+			year = 1880
+			NOT = {
+				has_country_flag = lippe_dispute_solved
+			}
+			exists = PRU
+		}
+		
+		allow = {
+			is_independant = yes
+		}
+		
+		effect = {
+			relation = {
+				who = PRU
+				value = 50
+			}
+			set_country_flag = lippe_dispute_solved
+		}
+		
+	}
+	
+	das_zivilgesetzbuch = {
+		potential = {
+			tag = HES
+			NOT = {
+				has_country_flag = code_of_laws
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+		}
+		
+		effect = {
+			prestige = 5
+			years_of_research = 0.05
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = code_of_laws
+		}
+	}
+	
 	kaiser_wilhelms_land = {
 		potential = {
 			tag = GER
-			owns = 1531
+			#owns = 1531
 			owns = 2530
 			owns = 2531
-			owns = 2537
-			owns = 2539
+			#owns = 2537
+			#owns = 2539
 			NOT = {
 				has_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
 			}
 		}
-
+		
 		allow = {
 			invention = mission_to_civilize
 		}
-
+		
 		effect = {
 			prestige = 10
 			2531 = {
@@ -243,7 +269,7 @@ political_decisions = {
 			set_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
 		}
 	}
-
+	
 	the_heligoland_question = {
 		potential = {
 			tag = GER
@@ -251,22 +277,69 @@ political_decisions = {
 				has_country_flag = has_questioned_heligoland
 			}
 		}
-
+		
 		allow = {
-			is_greater_power = yes
-			533 = { owned_by = ENG }
+			OR = {
+				is_greater_power = yes
+				invention = national_fraternity
+			}
 		}
 		
 		effect = {
 			533 = {
 				add_core = GER # Heligoland is my last territorial demand!
-				remove_core = ENG
 			}
 			set_country_flag = has_questioned_heligoland
-			ENG = { country_event = { id = 36949 days = 0 } }
 		}
 	}
-
+	
+	construct_the_walhalla = {
+		potential = {
+			OR = {
+				tag = BAV
+				tag = SGF
+				tag = GER
+			}
+			owns = 602
+			NOT = {
+				has_global_flag = the_walhalla_is_built
+			}
+		}
+		
+		allow = {
+			romanticism = 1
+		}
+		
+		effect = {
+			602 = {
+				add_province_modifier = {
+					name = the_walhalla
+					duration = -1
+				}
+			}
+			set_global_flag = the_walhalla_is_built
+		}
+	}
+	
+	introduce_the_presbyteries = {
+		potential = {
+			tag = HAN
+			NOT = {
+				has_country_flag = presbyteries_introduced
+			}
+		}
+		allow = {
+			average_militancy = 3
+			NOT = {
+				vassal_of = ENG
+			}
+		}
+		
+		effect = {
+			set_country_flag = presbyteries_introduced
+		}
+	}
+	
 	von_moltkes_staff_reforms = {
 		potential = {
 			OR = {
@@ -282,11 +355,6 @@ political_decisions = {
 			army_decision_making = 1
 		}
 		effect = {
-			define_general = {
-				name = "§WHelmuth von Moltke the Elder"
-				personality = mor10_1
-				background = 4a4d_1
-			}
 			add_country_modifier = {
 				name = prussian_general_staff
 				duration = 10950
@@ -302,7 +370,7 @@ political_decisions = {
 			}
 		}
 	}
-
+	
 	the_ruhr_boom = {
 		potential = {
 			OR = {
@@ -317,13 +385,13 @@ political_decisions = {
 				has_global_flag = ruhr_boom_has_happened
 			}
 		}
-
+		
 		allow = {
 			market_structure = 1
 			organized_factories = 1
 			early_railroad = 1
 		}
-
+		
 		effect = {
 			add_country_modifier = {
 				name = ruhr_boom
@@ -332,93 +400,54 @@ political_decisions = {
 			set_global_flag = ruhr_boom_has_happened
 		}
 	}
-
-	centralize_hre = { 
-		picture = Reich_kaiser
-		potential = { 
+	appoint_von_bismarck = {
+		potential = {
 			OR = {
-				tag = PRU 
+				tag = PRU
 				tag = NGF
 				tag = GER
 			}
-			is_greater_power = yes
-			HLR = { exists = no }
+			OR = {
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			NOT = {
+				year = 1875
+				has_country_flag = von_bismarck_appointed
+			}
 		}
 		
-		allow = { 
+		allow = {
 			war = no
-			GER = { 
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							OR = {
-								in_sphere = THIS
-								vassal_of = THIS
-							}
-						}
-					}
-				}
+			nationalism_n_imperialism = 1
+			OR = {
+				ruling_party_ideology = liberal
+				ruling_party_ideology = conservative
+				ruling_party_ideology = reactionary
 			}
-			AUS_627 = { owned_by = THIS }
-			AUS_625 = { owned_by = THIS }
-			AUS_631 = { owned_by = THIS }
-			AUS_612 = { owned_by = THIS }
-			SWI_605 = { owned_by = THIS }
 		}
+		
 		effect = {
-			change_tag = HLR 	
-			any_country = {
-				limit = {
-					is_culture_group = germanic
-					in_sphere = THIS
+			set_country_flag = von_bismarck_appointed
+			add_country_modifier = {
+				name = otto_von_bismarck
+				duration = 7300
+			}
+			any_pop = {
+				limit = { is_culture_group = germanic }
+				militancy = -3
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
 				}
-				country_event = { id=11101 days=0 }
-			}
-			GER = {
-				all_core = {
-					add_core = HLR
-					remove_core = GER
-				}
-			}
-			AUS_627 = { add_core = THIS }
-			AUS_625 = { add_core = THIS }
-			AUS_631 = { add_core = THIS }
-			AUS_612 = { add_core = THIS }
-			SWI_605 = { add_core = THIS }
-			set_global_flag = hre_formed
-			remove_accepted_culture = south_german
-			remove_accepted_culture = czech
-			prestige = 50 
-		}
-	}
-	   
-		
-	move_to_frankfurt = { 
-		potential = { 
-			tag = HLR 
-			NOT = { has_country_flag = frankfurt_unify }
-		}
-		
-		allow = { 
-			is_greater_power = yes 
-			nationalism_n_imperialism = 1 
-			year = 1855
-			owns = 564
-		}
-		
-		effect = { 
-			AUS_619 = { add_core = HLR }
-			AUS_613 = { add_core = HLR }
-			set_country_flag = frankfurt_unify 
-			add_accepted_culture = czech
-			add_accepted_culture = south_german
-			capital = 564
-			prestige = 50 
-			564 = {
-				life_rating = 5
 			}
 		}
-		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { year = 1862 }
+			}
+		}
 	}
 }

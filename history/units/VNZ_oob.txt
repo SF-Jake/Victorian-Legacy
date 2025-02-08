@@ -1,19 +1,21 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
+leader = {
+	name = "Santiago Mariño"
+	picture = vnz_gen_marino
+	date = 1825.1.1 #1815
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
 }
 
 leader = {
 	name = "José Antonio Páez"
-	date = 1836.1.1
+	picture = vnz_gen_paez
+	date = 1830.1.1
 	type = land
-	personality = mor10_1
-	background = 2a2d_1
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
 }
 
 army = {

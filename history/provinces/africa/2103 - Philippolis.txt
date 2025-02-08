@@ -2,34 +2,8 @@ owner = ORA
 controller = ORA
 add_core = ORA
 add_core = COM
-add_core = SAF
 trade_goods = iron
 life_rating = 35
-terrain = mountain_mine
-1913.1.1 = {
-owner = SAF
-controller = SAF
-colonial = 0
-}
-1913.1.1 = {
-	state_building = {
-		level = 2
-		building = liquor_distillery
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = tea_packaging_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = cement_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 2
-		building = glass_factory
-		upgrade = yes
-	}
-}
+
+
+

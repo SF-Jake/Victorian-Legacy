@@ -1,19 +1,9 @@
-JAN = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
-GHO = {
-	value = -200
-	truce_until="1937.1.1"
-}
-
 leader = {
 	name = "Sam Houston"
 	type = land
 	date="1836.1.1"
-	personality = mor10_1
-	background = 5a5d_1
+	personality = cautious
+	background = school_of_defense
 }
 
 
@@ -22,13 +12,13 @@ army = {
 	location = 133
 	regiment = {
 		name= "Travis' Command"
-		type = hussar
+		type = cavalry
 		home = 133
 	}
 
 	regiment = {
 		name= "Fannin's Command"
-		type = artillery
+		type = guard
 		home = 132
 	}
 	

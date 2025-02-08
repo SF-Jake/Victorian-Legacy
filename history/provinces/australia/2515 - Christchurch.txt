@@ -1,9 +1,7 @@
-add_core = NZL
+add_core = COM
 trade_goods = wool
-life_rating = 15
-1913.1.1 = {
-owner = NZL
-controller = NZL
-life_rating = 35
-colonial = 0
+life_rating = 30
+1836.1.2 = {
+	remove_core = COM
+	add_core = AST
 }

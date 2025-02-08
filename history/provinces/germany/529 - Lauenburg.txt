@@ -1,10 +1,9 @@
 owner = HOL
 controller = HOL
 add_core = HOL
-add_core = GER
+#add_core = GER
 trade_goods = grain
-life_rating = 40
-1913.1.1 = {
-owner = GER
-controller = GER
-}
+life_rating = 38
+
+1861.1.1 = { railroad = 3 }
+
