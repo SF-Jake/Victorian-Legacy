@@ -142,6 +142,22 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\politics_slavery.dds"
 	}
 	spriteType = {
+		name = "GFX_politics_research_and_development"
+		texturefile = "gfx\\interface\\politics_research_and_development.dds"
+	}
+	spriteType = {
+		name = "GFX_politics_conscription"
+		texturefile = "gfx\\interface\\politics_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_politics_citizens_rights"
+		texturefile = "gfx\\interface\\politics_citizens_rights.dds"
+	}
+	spriteType = {
+		name = "GFX_politics_child_labor"
+		texturefile = "gfx\\interface\\politics_child_labor.dds"
+	}
+	spriteType = {
 		name = "GFX_politics_healthcare"
 		texturefile = "gfx\\interface\\politics_healthcare.dds"
 	}

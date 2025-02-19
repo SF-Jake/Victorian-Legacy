@@ -2,8 +2,7 @@
 # If adding new technology, make sure they are uniquely named.
 
 folders = {
-	army_tech = 
-	{
+	army_tech = {
 		army_doctrine
 		light_armament
 		heavy_armament
@@ -43,7 +42,13 @@ folders = {
 		chemistry_and_electricity
 	}
 	
-	
+	row_completion = {
+		army_tech
+		navy_tech
+		commerce_tech
+		culture_tech
+		industry_tech
+	}
 }
 
 

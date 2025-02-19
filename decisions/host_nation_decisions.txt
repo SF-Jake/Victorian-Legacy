@@ -100,26 +100,26 @@ political_decisions = {
 			factor = 0
 		}
 	}
-	restart_bank_construction = {
-		#picture = ally_yes
-		potential = {
-			has_country_flag = showing_host_decisions
-			has_country_flag = host_nation
-		}
+	# restart_bank_construction = {
+	# 	#picture = ally_yes
+	# 	potential = {
+	# 		has_country_flag = showing_host_decisions
+	# 		has_country_flag = host_nation
+	# 	}
 	
-		allow = {
+	# 	allow = {
 			
-		}
+	# 	}
 		
-		effect = {
-			LCT = {
-				build_factory_in_capital_state = world_bank_factory
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	# 	effect = {
+	# 		LCT = {
+	# 			build_factory_in_capital_state = world_bank_factory
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
+	# }
 	give_host_money = {
 		#picture = ally_yes
 		potential = {

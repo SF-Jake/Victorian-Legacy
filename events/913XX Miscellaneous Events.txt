@@ -1,0 +1,539 @@
+# Audax Validator "!" Ignore_1004
+# Audax Validator "!" Ignore_1009
+
+#########################################################################
+# 							RELEASE VASSALS								#
+#########################################################################
+country_event = {
+	id = 91306
+	title = "EVTNAME91306"
+	desc = "EVTDESC91306"
+	picture = upper_house
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91306"
+		any_country = {
+			limit = { vassal_of = THIS }
+			country_event = { id = 91307 days = 0 }
+		}
+	}
+	option = {
+		name = "EVTOPTB91306"
+	}
+}
+country_event = {
+	id = 91307
+	title = "EVTNAME91307"
+	desc = "EVTDESC91307"
+	picture = upper_house
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91307"
+		overlord = { country_event = { id = 91308 days = 0} }
+	}
+}
+country_event = {
+	id = 91308
+	title = "EVTNAME91308"
+	desc = "EVTDESC91308"
+	picture = upper_house
+
+	allow_multiple_instances = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91308"
+		release_vassal = FROM
+	}
+	option = {
+		name = "EVTOPTB91308"
+	}
+}
+
+#########################################################################
+# 							REMINDERS									#
+#########################################################################
+country_event = {
+	id = 91310
+	title = "Baby Boom Reminder"
+	desc = "Your baby boom cooldown timer has expired. You can now use another baby boom decision."
+	picture = assimilation
+
+
+	trigger = {
+		ai = no
+		year = 1837
+		NOT = {
+			year = 1913
+			has_global_flag = 1913_bookmark
+		}
+		NOT = { has_country_modifier = baby_booming }
+		NOT = { has_country_flag = baby_boom_reminder }
+		any_owned_province = {
+			state_scope = {
+				NOT = { total_pops = 1000000 }
+			}
+		}
+	}
+
+	option = {
+		name = "OK."
+		set_country_flag = baby_boom_reminder
+	}
+}
+
+#########################################################################
+# 						AI MINE EXPANSION								#
+#########################################################################
+country_event = {
+	id = 91311
+	title = "AI Mine Expansion Trigger"
+
+
+	trigger = {
+		year = 1837
+		tag = JAN
+		NOT = { has_country_modifier = admin_counter }
+	}
+
+	option = {
+		any_country = {
+			limit = {
+				ai = yes
+				money = 250000
+				clean_coal = 1
+				any_owned_province = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 1 }
+				}
+			}
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 1 }
+				}
+				mines = 1
+			}
+		}
+		any_country = {
+			limit = {
+				ai = yes
+				money = 250000
+				cheap_iron = 1
+				any_owned_province = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 2 }
+				}
+			}
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 2 }
+				}
+				mines = 2
+			}
+		}
+		any_country = {
+			limit = {
+				ai = yes
+				money = 250000
+				cheap_steel = 1
+				any_owned_province = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 3 }
+				}
+			}
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 3 }
+				}
+				mines = 3
+			}
+		}
+		any_country = {
+			limit = {
+				ai = yes
+				money = 250000
+				advanced_metallurgy = 1
+				any_owned_province = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 4 }
+				}
+			}
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 4 }
+				}
+				mines = 4
+			}
+		}
+		any_country = {
+			limit = {
+				ai = yes
+				money = 250000
+				electric_furnace = 1
+				any_owned_province = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 5 }
+				}
+			}
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 5 }
+				}
+				mines = 5
+			}
+		}
+		any_country = {
+			limit = {
+				ai = yes
+				money = 250000
+				modern_metallurgy = 1
+				any_owned_province = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 6 }
+				}
+			}
+			money = -100000
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= oil
+						trade_goods= sulphur
+					}
+					NOT = { mines = 6 }
+				}
+				mines = 6
+			}
+		}
+	}
+}
+
+
+#########################################################################
+# 							SUPPLY DEPOT								#
+#########################################################################
+
+province_event = {
+	id = 91320
+	title = "EVTNAME91320"
+	desc = "EVTDESC91320"
+
+	trigger = {
+		has_province_modifier = supply_depot
+		OR = {
+			# Audax Validator "." Ignore_1007
+			unit_in_battle = yes
+			country_units_in_province = REB
+			NOT = { controlled_by = THIS }
+		}
+	}
+
+	option = {
+		name = "EVTOPTA91320"
+		remove_province_modifier = supply_depot
+		owner = { add_country_modifier = { name = supply_depot_destroyed duration = 180 } }
+	}
+}
+
+#########################################################################
+# 							DISABLE CRISIS								#
+#########################################################################
+
+country_event = {
+	id = 91327
+	title = "EVTNAME91327"
+	desc = "EVTDESC91327"
+	picture = upper_house
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91327"
+		set_global_flag = enable_crisis
+		country_event = { id = 91332 days = 0 }
+	}
+
+	option = {
+		name = "EVTOPTB91327"
+		set_global_flag = disable_crisis
+		country_event = { id = 91332 days = 0 }
+	}
+}
+
+country_event = {
+	id = 91328
+	title = "Crisis Cooldown"
+
+	trigger = {
+		tag = JAN
+		NOT = { has_global_flag = disable_crisis }
+		NOT = { has_country_modifier = monthly_timer }
+	}
+
+	option = {
+		add_country_modifier = { name = monthly_timer duration = 29 }
+		country_event = { id = 91329 days = 14 }
+		any_country = {
+			any_owned = {
+				state_scope = {
+					flashpoint_tension = -100
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 91329
+	title = "Crisis Cooldown 2"
+
+	is_triggered_only = yes
+
+	option = {
+		any_country = {
+			any_owned = {
+				state_scope = {
+					flashpoint_tension = -100
+				}
+			}
+		}
+	}
+}
+
+#########################################################################
+# 						CAPITAL SUPPLY DEPOT							#
+#########################################################################
+country_event = {
+	id = 91309
+	title = "New Capital Supply Depot"
+	desc = "A capital supply depot will be built in your new capital and the old one will be destroyed."
+	picture = armament_depot
+
+
+	trigger = {
+		OR = {
+			capital_scope = {
+				NOT = { has_province_modifier = capital_supply_depot }
+			}
+			any_owned_province = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot
+			}
+		}
+	}
+
+	option = {
+		name = "OK."
+		any_owned = {
+			limit = {
+				is_capital = no
+				has_province_modifier = capital_supply_depot
+			}
+			remove_province_modifier = capital_supply_depot
+		}
+		capital_scope = {
+			add_province_modifier = { name = capital_supply_depot duration = -1 }
+		}
+	}
+}
+
+#########################################################################
+# 							Peace time Mob								#
+#########################################################################
+
+country_event = {
+
+	id = 91338
+	title = "Peace Time Mobilization"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91339
+	title = "Peace Time Mobilization 2"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91340
+	title = "Peace Time Mobilization 3"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91341
+	title = "Peace Time Mobilization 4"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91342
+	title = "Peace Time Mobilization 5"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91343
+	title = "Peace Time Mobilization 6"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+country_event = {
+
+	id = 91344
+	title = "Peace Time Mobilization 7"
+	desc = "§REvery half year from now you will inccur higher penalties unless you demobilize or start a war."
+
+	is_triggered_only = yes
+
+	immediate = {
+		any_greater_power = {
+			casus_belli = {
+				target = THIS
+				type = dismantle_cb
+				months = 6
+			}
+		}
+	}
+
+	option = {
+		name = "Hmm..."
+	}
+}
+
+#########################################################################
+# 							State to Colony								#
+#########################################################################
+
+country_event = {
+	id = 40002
+	title = "State to Colony"
+	desc = ""
+
+	is_triggered_only = yes
+
+	option = {
+		FROM = { clr_country_flag = province_selector }
+		any_owned = {
+			limit = {
+				NOT = { is_core = THIS }
+				NOT = { province_id = 3246 }
+			}
+			secede_province = FROM
+		}
+	}
+}

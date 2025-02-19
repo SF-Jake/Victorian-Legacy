@@ -1,0 +1,115 @@
+political_decisions = {
+	global_1836_setup = {
+		potential = {
+			tag = JAN
+			NOT = { has_global_flag = global_1836_setup }
+			NOT = { has_global_flag = 1913_bookmark }
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = jan_mayen
+			set_global_flag = global_1836_setup
+			set_country_flag = banker_income_timer
+			VNZ = {	set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
+			CLM = {	set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
+			ECU = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
+			PBC = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
+			BRZ = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
+			ARG = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
+			PRG = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
+			URU = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
+			USA = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			MEX = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			UCA = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			COM = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			TEX = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			HAI = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			add_country_modifier = { name = banker_income_timer duration = 5 }
+			ENG = {
+				add_country_modifier = { name = uk_nation_modifier duration = -1 }
+			}
+			FRA = {
+				add_country_modifier = { name = fra_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			PRU = {
+				add_country_modifier = { name = pru_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			AUS = {
+				add_country_modifier = { name = aus_nation_modifier duration = -1 }
+			}
+			SAR = {
+				add_country_modifier = { name = sar_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			TUR = {
+				add_country_modifier = { name = tur_nation_modifier duration = -1 }
+			}
+			RUS = {
+				add_country_modifier = { name = rus_nation_modifier duration = -1 }
+			}
+			USA = {
+				add_country_modifier = { name = usa_nation_modifier duration = -1 }
+			}
+			JAP = {
+				add_country_modifier = { name = jap_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+				set_country_flag = army_nation_modifier
+			}
+			SPA = {
+				add_country_modifier = { name = spa_nation_modifier duration = -1 }
+			}
+			KSN = {
+				add_country_modifier = { name = ksn_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			NET = {
+				add_country_modifier = { name = net_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			BRZ = {
+				add_country_modifier = { name = brz_nation_modifier duration = -1 }
+			}
+			COM = {
+				add_country_modifier = { name = com_nation_modifier duration = -1 }
+				set_country_flag = naval_nation_modifier
+			}
+			CHI = {
+				add_country_modifier = { name = chi_nation_modifier duration = -1 }
+			}
+			MEX = {
+				add_country_modifier = { name = mex_nation_modifier duration = -1 }
+			}
+			ARG = {
+				add_country_modifier = { name = arc_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			PBC = {
+				add_country_modifier = { name = arc_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			SHW = {
+				add_country_modifier = { name = eth_nation_modifier duration = -1 }
+			}
+			PER = {
+				add_country_modifier = { name = per_nation_modifier duration = -1 }
+				set_country_flag = army_nation_modifier
+			}
+			CLM = {
+				add_country_modifier = { name = col_nation_modifier duration = -1 }
+			}
+			SIA = {
+				add_country_modifier = { name = sia_nation_modifier duration = -1 }
+			}
+			POR = {
+				add_country_modifier = { name = por_nation_modifier duration = -1 }
+			}
+			any_pop = {
+				limit = { type = zbankers }
+				money = 2000000
+			}
+		}
+	}
+}

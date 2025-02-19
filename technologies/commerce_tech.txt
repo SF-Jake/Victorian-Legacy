@@ -372,10 +372,9 @@ market_determined_exchange_rates = {
 early_classical_theory_and_critique = {
 	area = economic_thought_and_critique
 	year = 1836
-	cost = 3600
+	cost = 1
 	
 	activate_building = lumber_mill
-	factory_input = -0.05
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -395,9 +394,8 @@ early_classical_theory_and_critique = {
 late_classical_theory = {
 	area = economic_thought_and_critique
 	year = 1836
-	cost = 7200
+	cost = 1
 
-	factory_input = -0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -424,10 +422,9 @@ late_classical_theory = {
 }
 collectivist_theory = {
 	area = economic_thought_and_critique
-	year = 1848
-	cost = 10800
+	year = 1850
+	cost = 1
 
-	factory_input = -0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -454,10 +451,9 @@ collectivist_theory = {
 }
 the_historical_theory = {
 	area = economic_thought_and_critique
-	year = 1870
-	cost = 14400
+	year = 1865
+	cost = 1
 
-	factory_input = -0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -484,10 +480,9 @@ the_historical_theory = {
 }
 neoclassical_theory = {
 	area = economic_thought_and_critique
-	year = 1900
-	cost = 18000
+	year = 1880
+	cost = 1
 
-	factory_input = -0.05
 	ai_chance = {
 		factor = 1
 		modifier = {
@@ -514,10 +509,9 @@ neoclassical_theory = {
 }
 keynesian_economics = {
 	area = economic_thought_and_critique
-	year = 1919
-	cost = 21600
+	year = 1895
+	cost = 1
 
-	factory_input = -0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {

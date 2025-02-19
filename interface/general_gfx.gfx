@@ -14,7 +14,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_modifier_icons"
 		texturefile = "gfx\\interface\\modifiers.tga"
-		noOfFrames = 20
+		noOfFrames = 55
 		loadType = "INGAME"
 	}
 	
@@ -70,6 +70,17 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\button_standard_200.tga"
 		noOfFrames = 1
 	}
+	textSpriteType = {
+		name = "GFX_button_standard_130x36"
+		texturefile = "gfx\\interface\\button_standard_130x36.tga"
+		noOfFrames = 1
+	}
+	textSpriteType = {
+		name = "GFX_button_standard_130x362"
+		texturefile = "gfx\\interface\\button_standard_130x36.tga"
+		noOfFrames = 1
+	}
+
 	textSpriteType = {
 		name = "GFX_button_standard_177"
 		texturefile = "gfx\\interface\\button_standard_177.tga"

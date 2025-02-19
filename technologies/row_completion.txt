@@ -1,0 +1,346 @@
+#
+#
+#Army
+army_row_completion1 = {
+	area = army_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion2 = {
+	area = army_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	morale = 0.1
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion3 = {
+	area = army_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion4 = {
+	area = army_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	mobilisation_size = 0.01
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion5 = {
+	area = army_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	army_base = { build_time = -20 }
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+army_row_completion6 = {
+	area = army_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	army_base = { supply_consumption = -0.15 }
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+
+#
+#
+#Navy
+navy_row_completion1 = {
+	area = navy_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+navy_row_completion2 = {
+	area = navy_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+navy_row_completion3 = {
+	area = navy_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	navy_base = { build_time = -20 }
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+navy_row_completion4 = {
+	area = navy_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	navy_base = { build_time = -20 }
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+navy_row_completion5 = {
+	area = navy_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	navy_base = { build_time = -20 }
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+navy_row_completion6 = {
+	area = navy_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	navy_base = { build_time = -20 }
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+
+#
+#
+#Commerce
+commerce_row_completion1 = {
+	area = commerce_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+commerce_row_completion2 = {
+	area = commerce_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	mine_RGO_eff = 0.05
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+commerce_row_completion3 = {
+	area = commerce_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	increase_research = 0.15
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+commerce_row_completion4 = {
+	area = commerce_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	factory_throughput = 0.03
+	
+	ai_chance = {
+		factor = 0
+	}	
+}
+commerce_row_completion5 = {
+	area = commerce_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+commerce_row_completion6 = {
+	area = commerce_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+#Culture
+#
+#
+culture_row_completion1 = {
+	area = culture_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion2 = {
+	area = culture_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	prestige = 0.1
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion3 = {
+	area = culture_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion4 = {
+	area = culture_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	colonial_points = 100
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion5 = {
+	area = culture_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	soldier_to_pop_loss = 0.1
+	
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+culture_row_completion6 = {
+	area = culture_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	max_national_focus = 1 
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+#Industry
+#
+#
+industry_row_completion1 = {
+	area = industry_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+industry_row_completion2 = {
+	area = industry_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	mine_rgo_eff = 0.15
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+industry_row_completion3 = {
+	area = industry_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	factory_cost = -0.20
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+industry_row_completion4 = {
+	area = industry_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	rgo_goods_output = {
+		silk = 0.5
+	}
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+industry_row_completion5 = {
+	area = industry_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	supply_limit = 0.1
+	
+	ai_chance = {
+		factor = 0
+	}
+}
+industry_row_completion6 = {
+	area = industry_tech
+	year = 2000
+	cost = 1
+	unciv_military = yes
+	rgo_goods_output = {
+		oil = 0.1
+	}
+	
+	ai_chance = {
+		factor = 0
+	}
+}

@@ -409,740 +409,959 @@ hyperinflation = {
 	}
 }
 #eary_classical_theory
-john_ramsay_mcculloch = {
+#eary_classical_theory
+PS_unlocked = {
 	limit = { early_classical_theory_and_critique = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 100	
 		modifier = {
-			factor = 1
-			prestige = 30
-		}
-		modifier = {
-			factor = 2
-			is_greater_power = yes
+			factor = -100
+			ai = yes
 		}
 	}
 	effect = {
-		activate_building = furniture_factory
+		activate_building = province_selector
 	}
 }
-nassau_william_sr = {
+farmland_unlocked = {
 	limit = { early_classical_theory_and_critique = 1 }
 	news = no
 	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 1
-			ruling_party_ideology = liberal
-		}
+		base = 100	
 	}
 	effect = {
-		activate_building = paper_mill 
+		activate_building = farmland
+		max_farmland = 49
 	}
 }
-james_mill = {
-	limit = { early_classical_theory_and_critique = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 1
-			ruling_party_ideology = liberal
-		}
+military_hospitals_idea_invention = {
+	limit = {
+		early_classical_theory_and_critique = 1
+		has_country_flag = military_hospitals_idea
 	}
-	effect = {
-		activate_building = luxury_furniture_factory 
-	}
-}
-#late_classical_theory
-john_elliot_cairnes = {
-	limit = { late_classical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_productivity
-		}
-		modifier = {
-			factor = 1
-			trade_unions = all_trade_unions
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-robert_torrens = {
-	limit = { late_classical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = state_capitalism
-		}
-		modifier = {
-			factor = 1
-			ruling_party_ideology = liberal
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-	}
-}
-john_stuart_mill = {
-	limit = { late_classical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 1
-			ruling_party_ideology = liberal
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-#collectivist_theory
-pierre_joseph_proudhon = {
-	limit = { collectivist_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 2
-			ruling_party_ideology = socialist
-		}
-	}
-	effect = {
-		permanent_prestige = 1  
-	}
-}
-karl_marx = {
-	limit = { collectivist_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			ruling_party_ideology = communist
-		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 1
-			economic_policy = planned_economy
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-	social_reform_desire = 0.05
-}
-friedrich_engels = {
-	limit = { collectivist_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = karl_marx
-		}
-		modifier = {
-			factor = 1
-			economic_policy = planned_economy
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-eduard_bernstein = {
-	limit = { collectivist_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = friedrich_engels
-		}
-		modifier = {
-			factor = 1
-			economic_policy = state_capitalism
-		}
-		modifier = {
-			factor = 2
-			economic_policy = planned_economy
-		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_order
-		}
-		modifier = {
-			factor = -8
-			NOT = { year = 1875 }
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-sidney_webb = {
-	limit = { collectivist_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			invention = friedrich_engels
-		}
-		modifier = {
-			factor = 2
-			NOT = {
-				wage_reform = no_minimum_wage
-			}
-		}
-		modifier = {
-			factor = 2
-			economic_policy = state_capitalism
-		}
-		modifier = {
-			factor = -7
-			NOT = { year = 1885 }
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-	social_reform_desire = 0.05
-}
-karl_kautsky = {
-	limit = { collectivist_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = friedrich_engels
-		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 2
-			economic_policy = state_capitalism
-		}
-		modifier = {
-			factor = -7
-			NOT = { year = 1880 }
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-jean_jaurès = {
-	limit = { collectivist_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 1
-			economic_policy = planned_economy
-		}
-		modifier = {
-			factor = 2
-			ruling_party_ideology = socialist
-		}
-		modifier = {
-			factor = -5
-			NOT = { year = 1880 }
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-#the_historical_theory
-friedrich_list = {
-	limit = { the_historical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
-		modifier = {
-			factor = 1
-			economic_policy = state_capitalism
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-wilhelm_roscher = {
-	limit = { the_historical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = state_capitalism
-		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_order
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-bruno_hildebrand = {
-	limit = { the_historical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 1
-			religious_policy = pluralism
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-karl_knies = {
-	limit = { the_historical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
-		modifier = {
-			factor = 2
-			ruling_party_ideology = conservative
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-gustav_von_schmoller = {
-	limit = { the_historical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 2
-			prestige = 30
-		}
-	}
-	effect = {
-		permanent_prestige = 1  
-	}
-}
-adolph_wagner = {
-	limit = { the_historical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			average_consciousness = 2
-		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-william_cunningham = {
-	limit = { the_historical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			is_greater_power = yes
-		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_productivity
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
-#neoclassical_theory
-johann_heinrich_von_thünen = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			ruling_party_ideology = conservative
-		}
-		modifier = {
-			factor = 1
-			economic_policy = interventionism
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-léon_walras = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = planned_economy
-		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_equality
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-stanley_jevons = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_order
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-carl_menger = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_productivity
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-thorstein_veblen = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			average_consciousness = 4
-		}
-		modifier = {
-			factor = 2
-			economic_policy = state_capitalism
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-alfred_marshall = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			economic_policy = laissez_faire
-		}
-		modifier = {	
-			factor = 2
-			nationalvalue = nv_productivity
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-augustin_cournot = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			average_consciousness = 3
-		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-jules_dupuit = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 3
-			average_consciousness = 3
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-vilfredo_pareto = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 1
-			ruling_party_ideology = liberal
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-knut_wicksell = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 3
-			nationalvalue = nv_productivity
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-irving_fischer = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			trade_policy = protectionism
-		}
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-joseph_schumpeter = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 2
-			trade_policy = free_trade
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-eugen_von_böhm_bawerk = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 2
-			trade_policy = free_trade
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-#keynesian_economics
-john_maynard_keynes = {
-	limit = { keynesian_economics = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			NOT = {
-				literacy = 0.7
-			}
-		}
-		modifier = {
-			factor = 2
-			economic_policy = state_capitalism
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01
-	}
-}
-richard_kahn = {
-	limit = { keynesian_economics = 1 }
-	news = no
-	chance = {
-		base = 3
-		modifier = {
-			factor = 3
-			invention = john_maynard_keynes
-		}
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-	}
-	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
-	}
-}
-ludwig_von_mises = {
-	limit = { keynesian_economics = 1 }
-	news = no
 	chance = {
 		base = 0
 		modifier = {
-			factor = 10
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 3
-			trade_policy = free_trade
-		}
-		modifier = {
-			factor = 1
-			prestige = 10
+			factor = 100
+			has_country_flag = military_hospitals_idea
 		}
 	}
 	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
+		soldier_to_pop_loss = 0.1
 	}
 }
-friedrich_hayek = {
+reinforce_rate_idea_invention = {
+	limit = {
+		early_classical_theory_and_critique = 1
+		has_country_flag = reinforce_rate_idea
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_flag = reinforce_rate_idea
+		}
+	}
+	effect = {
+		reinforce_rate = 0.1
+	}
+}
+consumer_goods_idea = {
+	limit = {
+		early_classical_theory_and_critique = 1
+		has_country_flag = consumer_goods_idea
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_flag = consumer_goods_idea
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			canned_food = 0.06
+			glass = 0.06
+			fertilizer = 0.06
+			explosives = 0.06
+			fabric = 0.06
+			lumber = 0.06
+			paper = 0.06
+			telephones = 0.06
+			wine = 0.06
+			liquor = 0.06
+			regular_clothes = 0.06
+			luxury_clothes = 0.06
+			furniture = 0.06
+			luxury_furniture = 0.06
+			radio = 0.06
+			pharmaceuticals = 0.06
+			cigarettes = 0.06
+			tea = 0.06
+			coffee = 0.06
+		}
+	}
+}
+industrial_goods_idea = {
+	limit = {
+		early_classical_theory_and_critique = 1
+		has_country_flag = industrial_goods_idea
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_flag = industrial_goods_idea
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			ammunition = 0.06
+			small_arms = 0.06
+			artillery = 0.06
+			barrels = 0.06
+			sulphur = 0.06
+			rubber = 0.06
+			oil = 0.06
+			steel = 0.06
+			cement = 0.06
+			machine_parts = 0.06
+			clipper_convoy = 0.06
+			steamer_convoy = 0.06
+			electric_gear = 0.06
+			automobiles = 0.06
+			aeroplanes = 0.06
+		}
+	}
+}
+
+national_idea1 = {
+	limit = { late_classical_theory = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+national_idea2 = {
+	limit = { collectivist_theory = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+national_idea3 = {
+	limit = { the_historical_theory = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+national_idea4 = {
+	limit = { neoclassical_theory = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+national_idea5 = {
 	limit = { keynesian_economics = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = 100
+	}
+}
+
+naval_nation_modifier = {
+	limit = {
+		early_classical_theory_and_critique = 1
+		has_country_flag = naval_nation_modifier
+	}
+	chance = {
+		base = 0
 		modifier = {
-			factor = 2
-			is_ideology_enabled = socialist
+			factor = -100
+			NOT = { has_country_flag = naval_nation_modifier}
 		}
 		modifier = {
-			factor = 2
-			ruling_party_ideology = socialist
+			factor = 100
+			has_country_flag = naval_nation_modifier
+		}
+		modifier = {
+			factor = 1000
+			has_global_flag = disabled_nation_traditions
 		}
 	}
 	effect = {
-		permanent_prestige = 1
-		increase_research = 0.01 
+		navy_base = {
+			supply_consumption = -0.05
+		}
 	}
 }
+
+army_nation_modifier = {
+	limit = {
+		early_classical_theory_and_critique = 1
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = -100
+			NOT = { has_country_flag = army_nation_modifier }
+		}
+		modifier = {
+			factor = 100
+			has_country_flag = army_nation_modifier
+		}
+		modifier = {
+			factor = 1000
+			has_global_flag = disabled_nation_traditions
+		}
+	}
+	effect = {
+		army_base = {
+			supply_consumption = -0.05
+		}
+	}
+}
+# john_ramsay_mcculloch = {
+# 	limit = { early_classical_theory_and_critique = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 1
+# 			prestige = 30
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			is_greater_power = yes
+# 		}
+# 	}
+# 	effect = {
+# 		activate_building = furniture_factory
+# 	}
+# }
+# nassau_william_sr = {
+# 	limit = { early_classical_theory_and_critique = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = laissez_faire
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			ruling_party_ideology = liberal
+# 		}
+# 	}
+# 	effect = {
+# 		activate_building = paper_mill 
+# 	}
+# }
+# james_mill = {
+# 	limit = { early_classical_theory_and_critique = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_equality
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			ruling_party_ideology = liberal
+# 		}
+# 	}
+# 	effect = {
+# 		activate_building = luxury_furniture_factory 
+# 	}
+# }
+#late_classical_theory
+# john_elliot_cairnes = {
+# 	limit = { late_classical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_productivity
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			trade_unions = all_trade_unions
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+# robert_torrens = {
+# 	limit = { late_classical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = state_capitalism
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			ruling_party_ideology = liberal
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 	}
+# }
+# john_stuart_mill = {
+# 	limit = { late_classical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_equality
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			ruling_party_ideology = liberal
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+#collectivist_theory
+# pierre_joseph_proudhon = {
+# 	limit = { collectivist_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 3
+# 			nationalvalue = nv_equality
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			ruling_party_ideology = socialist
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1  
+# 	}
+# }
+# karl_marx = {
+# 	limit = { collectivist_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 3
+# 			ruling_party_ideology = communist
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_equality
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			economic_policy = planned_economy
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# 	social_reform_desire = 0.05
+# }
+# friedrich_engels = {
+# 	limit = { collectivist_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			invention = karl_marx
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			economic_policy = planned_economy
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+# eduard_bernstein = {
+# 	limit = { collectivist_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			invention = friedrich_engels
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			economic_policy = state_capitalism
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = planned_economy
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			nationalvalue = nv_order
+# 		}
+# 		modifier = {
+# 			factor = -8
+# 			NOT = { year = 1875 }
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+# sidney_webb = {
+# 	limit = { collectivist_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 1
+# 			invention = friedrich_engels
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			NOT = {
+# 				wage_reform = no_minimum_wage
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = state_capitalism
+# 		}
+# 		modifier = {
+# 			factor = -7
+# 			NOT = { year = 1885 }
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# 	social_reform_desire = 0.05
+# }
+# karl_kautsky = {
+# 	limit = { collectivist_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			invention = friedrich_engels
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			nationalvalue = nv_equality
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = state_capitalism
+# 		}
+# 		modifier = {
+# 			factor = -7
+# 			NOT = { year = 1880 }
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+# jean_jaurès = {
+# 	limit = { collectivist_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 1
+# 			economic_policy = planned_economy
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			ruling_party_ideology = socialist
+# 		}
+# 		modifier = {
+# 			factor = -5
+# 			NOT = { year = 1880 }
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+#the_historical_theory
+# friedrich_list = {
+# 	limit = { the_historical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_order
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			economic_policy = state_capitalism
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+# wilhelm_roscher = {
+# 	limit = { the_historical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = state_capitalism
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			nationalvalue = nv_order
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+# bruno_hildebrand = {
+# 	limit = { the_historical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = interventionism
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			religious_policy = pluralism
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+# karl_knies = {
+# 	limit = { the_historical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_order
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			ruling_party_ideology = conservative
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+# gustav_von_schmoller = {
+# 	limit = { the_historical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = interventionism
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			prestige = 30
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1  
+# 	}
+# }
+# adolph_wagner = {
+# 	limit = { the_historical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			average_consciousness = 2
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_order
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+# william_cunningham = {
+# 	limit = { the_historical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			is_greater_power = yes
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_productivity
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1 
+# 	}
+# }
+#neoclassical_theory
+# johann_heinrich_von_thünen = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			ruling_party_ideology = conservative
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			economic_policy = interventionism
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# léon_walras = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = planned_economy
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			nationalvalue = nv_equality
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# stanley_jevons = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = interventionism
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			nationalvalue = nv_order
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# carl_menger = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 3
+# 			economic_policy = laissez_faire
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_productivity
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# thorstein_veblen = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 3
+# 			average_consciousness = 4
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = state_capitalism
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# alfred_marshall = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 3
+# 			economic_policy = laissez_faire
+# 		}
+# 		modifier = {	
+# 			factor = 2
+# 			nationalvalue = nv_productivity
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# augustin_cournot = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 3
+# 			average_consciousness = 3
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			nationalvalue = nv_equality
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# jules_dupuit = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = interventionism
+# 		}
+# 		modifier = {
+# 			factor = 3
+# 			average_consciousness = 3
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# vilfredo_pareto = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = interventionism
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			ruling_party_ideology = liberal
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# knut_wicksell = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = laissez_faire
+# 		}
+# 		modifier = {
+# 			factor = 3
+# 			nationalvalue = nv_productivity
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# irving_fischer = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 3
+# 			trade_policy = protectionism
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = interventionism
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# joseph_schumpeter = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = laissez_faire
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			trade_policy = free_trade
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# eugen_von_böhm_bawerk = {
+# 	limit = { neoclassical_theory = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 3
+# 			economic_policy = laissez_faire
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			trade_policy = free_trade
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+#keynesian_economics
+# john_maynard_keynes = {
+# 	limit = { keynesian_economics = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			NOT = {
+# 				literacy = 0.7
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = state_capitalism
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01
+# 	}
+# }
+# richard_kahn = {
+# 	limit = { keynesian_economics = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 3
+# 		modifier = {
+# 			factor = 3
+# 			invention = john_maynard_keynes
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			economic_policy = interventionism
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# ludwig_von_mises = {
+# 	limit = { keynesian_economics = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 0
+# 		modifier = {
+# 			factor = 10
+# 			economic_policy = laissez_faire
+# 		}
+# 		modifier = {
+# 			factor = 3
+# 			trade_policy = free_trade
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			prestige = 10
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
+# friedrich_hayek = {
+# 	limit = { keynesian_economics = 1 }
+# 	news = no
+# 	chance = {
+# 		base = 2
+# 		modifier = {
+# 			factor = 2
+# 			is_ideology_enabled = socialist
+# 		}
+# 		modifier = {
+# 			factor = 2
+# 			ruling_party_ideology = socialist
+# 		}
+# 	}
+# 	effect = {
+# 		permanent_prestige = 1
+# 		increase_research = 0.01 
+# 	}
+# }
 #market_structure
 polypoly_structure = {
 	news = no
