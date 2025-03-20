@@ -344,7 +344,7 @@ country_event = {
 	}
 
 	option = {
-		add_country_modifier = { name = monthly_timer duration = 29 }
+		add_country_modifier = { name = monthly_timer duration = 26 }
 		country_event = { id = 91329 days = 14 }
 		any_country = {
 			any_owned = {

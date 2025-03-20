@@ -391,8 +391,8 @@ political_decisions = {
 			define_general = {
 				name = "Joao Carlos de Saldanha"
 				#picture = por_gen_saldanha
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 		}
 		ai_will_do = {
@@ -612,18 +612,18 @@ political_decisions = {
 			plurality = 1
 			define_general = {
 				name = "Ismail Pasha" ## born György Kméty -- hungarian patriot ##
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "Hursid Pasha" ## born Richard Guyon -- anglo-hungarian patriot ##
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "Mehmet Sadik Pasha" ## born Michal Czajkowski -- polish patriot ##
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			relation = {
 				who = RUS
@@ -733,8 +733,8 @@ political_decisions = {
 			prestige = 25
 			define_general = { 
 				name = "Samuel Baker"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			1846 = { 
 				secede_province = EGY
@@ -1139,53 +1139,53 @@ political_decisions = {
 			set_country_flag = confederate_leaders
 			define_general = {
 				name = "Robert E. Lee"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "Thomas Jackson"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "P.G.T. Beauregard"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "Joseph E. Johnston"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "Braxton Bragg"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "Earl van Dorn"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "E. Kirby Smith"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "James Longstreet"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "J.E.B. Stuart"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			define_general = {
 				name = "Nathan Bedford Forrest"
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 		}
 		ai_will_do = {
@@ -1212,8 +1212,8 @@ political_decisions = {
 			define_general = {
 				name = "Alexander Baryatinsky"
 				#picture = rus_gen_baryatinsky
-				personality = defence_3.1
-				background = attack_3.1
+				personality = mor20_1
+				background = 3a3d_1
 			}
 			CIR = {
 				all_core = { add_core = RUS }

@@ -1,6 +1,8 @@
 owner = USA
-controller = USA
-add_core = USA
+
+controller = USA
+
+add_core = USA
 #add_core = NEN
 trade_goods = grain
 life_rating = 40
@@ -30,6 +32,6 @@ state_building = {
 }
 1861.1.1 = { 
 	railroad = 3 
-	naval_base = 2
+	naval_base = 1
 }
 

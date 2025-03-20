@@ -1,0 +1,19 @@
+country_event = {
+	id = 91706
+	title = "EVTNAME91706"
+	desc = "EVTDESC91706"
+	picture = upper_house
+
+	trigger = {
+		has_country_flag = force_reform
+		NOT = { has_country_modifier = force_reform }
+	}
+	
+	immediate = {
+		clr_country_flag = force_reform
+	}
+	
+	option = {
+		name = "EVTOPTA91706"
+	}
+}

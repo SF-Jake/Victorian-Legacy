@@ -283,6 +283,97 @@ migration_chance =
 {
 	factor = 0.25
 
+	group = {
+		modifier = {
+			factor = 0.2
+			country = {
+				AND = {
+					has_country_flag = province_migration
+					ai = no
+				}
+			}
+		}
+		modifier = {
+			factor = -0.02
+			country = {
+				total_pops = 2000000
+				AND = {
+					has_country_flag = province_migration
+					ai = no
+				}
+			}
+		}
+		modifier = {
+			factor = -0.02
+			country = {
+				total_pops = 4000000
+				AND = {
+					has_country_flag = province_migration
+					ai = no
+				}
+			}
+		}
+		modifier = {
+			factor = -0.02
+			country = {
+				total_pops = 8000000
+				AND = {
+					has_country_flag = province_migration
+					ai = no
+				}
+			}
+		}
+		modifier = {
+			factor = -0.02
+			country = {
+				total_pops = 16000000
+				AND = {
+					has_country_flag = province_migration
+					ai = no
+				}
+			}
+		}
+		modifier = {
+			factor = -0.02
+			country = {
+				total_pops = 32000000
+				AND = {
+					has_country_flag = province_migration
+					ai = no
+				}
+			}
+		}
+		modifier = {
+			factor = -0.02
+			country = {
+				total_pops = 64000000
+				AND = {
+					has_country_flag = province_migration
+					ai = no
+				}
+			}
+		}
+		modifier = {
+			factor = -0.02
+			country = {
+				total_pops = 128000000
+				AND = {
+					has_country_flag = province_migration
+					ai = no
+				}
+			}
+		}
+		modifier = {
+			factor = -0.02
+			country = {
+				total_pops = 256000000
+				AND = {
+					has_country_flag = province_migration
+					ai = no
+				}
+			}
+		}
+	}
 #If pop group is 70%/80%/90%/99% literacy, is not primary culture, and is in a colony then 2.5% chance to migrate to another state for each threshold. (Chance for colonial pops to migrate to home states once they reach some literacy thresholds)	(10% total)
 #	group = { ############### DOES NOT WORK
 #		modifier = {
@@ -1802,6 +1893,11 @@ assimilation_chance = {
 				nationalvalue = nv_equality
 			}
 		}	
+	}
+
+	modifier = {
+		factor = 0.14
+		country = { has_country_flag = assimilation_idea }
 	}
 	
 }

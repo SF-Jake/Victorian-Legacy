@@ -3,8 +3,8 @@ leader = {
 	picture = mex_gen_santaanna
 	type = land
 	date="1821.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 
@@ -13,8 +13,8 @@ leader = {
 	picture = mex_gen_cos
 	type = land
 	date="1833.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -23,8 +23,8 @@ leader = {
 	picture = mex_gen_urrea
 	type = land
 	date="1835.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 leader = {
@@ -32,8 +32,8 @@ leader = {
 	picture = mex_gen_filisola
 	type = land
 	date="1822.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -42,8 +42,8 @@ leader = {
 	picture = mex_gen_bustamante
 	type = land
 	date="1822.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -52,8 +52,8 @@ leader = {
 	picture = mex_gen_arista
 	type = land
 	date="1830.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -62,8 +62,8 @@ leader = {
 	picture = mex_gen_alvarez
 	type = land
 	date="1830.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -72,8 +72,8 @@ leader = {
 	picture = mex_gen_canalizo
 	type = land
 	date="1835.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 leader = {
@@ -81,8 +81,8 @@ leader = {
 	picture = mex_gen_herrera
 	type = land
 	date="1821.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 
@@ -91,8 +91,8 @@ leader = {
 	picture = mex_gen_salas
 	type = land
 	date="1836.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 leader = {
@@ -100,8 +100,8 @@ leader = {
 	picture = mex_gen_paredes
 	type = land
 	date="1832.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 leader = {
@@ -109,8 +109,8 @@ leader = {
 	picture = mex_gen_woll
 	type = land
 	date="1832.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 army = {
@@ -183,17 +183,19 @@ army = {
 }
 
 navy = {
-	name = "Armada de Mexico"
+	name = "Mexican Fleet"
 	location = 2162
+	
 	ship = {
-		name= "Vencedor del Alamo"
+		name = "ARM Guerrero"
+		type = manowar
+		home = 2162
+	}
+
+	ship = {
+		name = "ARM Independencia"
 		type = frigate
+		home = 2162
 	}
-
-	ship = {
-		name= "Matilda"
-		type = clipper_transport
-	}
-
 }
 

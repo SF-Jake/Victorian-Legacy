@@ -533,6 +533,7 @@ clean_coal = {
 	year = 1836
 	cost = 7200
 	
+	activate_building = mines
 	rgo_goods_throughput = {
 		coal = 0.2
 	}
@@ -838,6 +839,7 @@ early_railroad = {
 	cost = 7200
 
 	max_railroad = 1
+	activate_building = urban_center
 	
 	ai_chance = {
 		factor = 2

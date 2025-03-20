@@ -3,8 +3,8 @@ leader = {
 	picture = bel_gen_vanderlinden
 	date = 1830.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -12,8 +12,8 @@ leader = {
 	picture = bel_gen_nypels
 	date = 1830.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -21,8 +21,8 @@ leader = {
 	picture = bel_gen_evain
 	date = 1831.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -30,8 +30,8 @@ leader = {
 	picture = bel_gen_goblet
 	date = 1831.1.31
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -39,8 +39,8 @@ leader = {
 	picture = bel_gen_leopold
 	date = 1831.7.21
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.5
 }
 leader = {
@@ -48,8 +48,8 @@ leader = {
 	picture = bel_gen_prisse
 	date = 1834.4.12
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -159,21 +159,21 @@ army = {
 }
 
 navy = {
-	name = "Belgische Koninklijk Marine"
-	location = 388
+	name = "1e Marine Divisie"
+	location = 388 #Bruges
 	ship = {
-		name= "1e Transport Flottille"
+		name = "De Schelde"
 		type = clipper_transport
+		home = 388 #Bruges
 	}
-
 	ship = {
-		name= "2e Transport Flotille"
+		name = "De Maas"
 		type = clipper_transport
+		home = 388 #Bruges
 	}
-
 	ship = {
-		name= "3e Transport Flotille"
+		name = "De Leie"
 		type = clipper_transport
+		home = 388 #Bruges
 	}
-
 }

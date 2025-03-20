@@ -28,8 +28,8 @@ leader = {
 	picture = por_gen_bonfim
 	date = 1832.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -37,16 +37,16 @@ leader = {
 	picture = por_gen_saldanha
 	date = 1835.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "António José Severim de Noronha"
 	picture = por_gen_terceira
 	date = 1823.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -54,8 +54,8 @@ leader = {
 	picture = por_gen_antas
 	date = 1834.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 	
 }
@@ -63,8 +63,8 @@ leader = {
 	name = "Luís do Rego Barreto"
 	date = 1817.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 
@@ -133,97 +133,67 @@ army = {
 }
 
 navy = {
-	name = "Portugese Royal Navy"
+	name = "Marinha Portuguesa"
 	location = 524
+	
 	ship = {
-		name= "Rainha de Portugal "
+		name = "NMS Lisboa"
 		type = manowar
-	}
-
-	ship = {
-		name= "Dom João VI "
-		type = manowar
-	}
-
-	ship = {
-		name= "Nossa Senhora da Conceição"
-		type = manowar
-	}
-
-	ship = {
-		name= "São Sebastião"
-		type = manowar
-	}
-
-	ship = {
-		name= "Amazônia"
-		type = manowar
-	}
-
-	ship = {
-		name= "Princesa Carlota"
-		type = manowar
-	}
-
-	ship = {
-		name= "Teresa"
-		type = manowar
-	}
-
-	ship = {
-		name= "Príncipe do Brasil"
-		type = manowar
-	}
-
-	ship = {
-		name= "1o Navios de Transporte4"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2o Navios de Transporte4"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3o Navios de Transporte4"
-		type = clipper_transport
+		home = 524
 	}
 	
 	ship = {
-		name= "1o Navios de Transporte1"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2o Navios de Transporte1"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3o Navios de Transporte1"
-		type = clipper_transport
+		name = "NMS Porto"
+		type = manowar
+		home = 524
 	}
 	
 	ship = {
-		name= "3o Navios de Transporte2"
-		type = clipper_transport
+		name = "NMS Coimbra"
+		type = manowar
+		home = 524
 	}
 	
 	ship = {
-		name= "2o Navios de Transporte12"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3o Navios de Transporte12"
-		type = clipper_transport
+		name = "NMS Faro"
+		type = frigate
+		home = 524
 	}
 	
 	ship = {
-		name= "3o Navios de Transporte22"
-		type = clipper_transport
+		name = "NMS Braga"
+		type = frigate
+		home = 524
 	}
-
+	
+	ship = {
+		name = "NMS Aveiro"
+		type = clipper_transport
+		home = 524
+	}
+	
+	ship = {
+		name = "NMS Set?bal"
+		type = clipper_transport
+		home = 524
+	}
+	
+	ship = {
+		name = "NMS Funchal"
+		type = clipper_transport
+		home = 524
+	}
+	
+	ship = {
+		name = "NMS Ponta Delgada"
+		type = clipper_transport
+		home = 524
+	}
+	
+	ship = {
+		name = "NMS Viana do Castelo"
+		type = clipper_transport
+		home = 524
+	}
 }
 

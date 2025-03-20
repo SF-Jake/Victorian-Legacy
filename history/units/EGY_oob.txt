@@ -3,8 +3,8 @@ leader = {
 	picture = egy_gen_ibrahim
 	type = land
 	date="1832.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 
@@ -13,94 +13,68 @@ leader = {
 	picture = egy_gen_suleyman
 	type = land
 	date="1832.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 
 navy = {
-	name = "Taba"
-	location = 1753
+	name = "Egyptian Fleet"
+	location = 916
+
 	ship = {
-		name= "Toushka"
+		name = "Al-Nasir"
 		type = manowar
+		home = 916
 	}
 
 	ship = {
-		name= "Sharm El-Sheikh"
+		name = "Al-Mansur"
 		type = manowar
+		home = 916
 	}
 
 	ship = {
-		name= "Damyat"
+		name = "Al-Adil"
 		type = manowar
+		home = 916
 	}
 
 	ship = {
-		name= "Rasheed"
+		name = "Al-Kamil"
 		type = manowar
+		home = 916
 	}
 
 	ship = {
-		name= "El Suez"
+		name = "Al-Zahir"
 		type = manowar
+		home = 916
 	}
 
 	ship = {
-		name= "El Aboukir"
+		name = "Al-Farouk"
 		type = frigate
+		home = 916
 	}
 
 	ship = {
-		name= "Najim al Zafir"
+		name = "Al-Sultan"
 		type = frigate
+		home = 916
 	}
 
 	ship = {
-		name= "Cairo"
+		name = "Al-Muizz"
 		type = frigate
+		home = 916
 	}
 
 	ship = {
-		name= "Al Iskandariyah"
-		type = frigate
-	}
-
-	ship = {
-		name= "Aswan"
-		type = frigate
-	}
-
-	ship = {
-		name= "Port Said"
-		type = frigate
-	}
-
-	ship = {
-		name= "Marsa Matruh"
-		type = frigate
-	}
-
-	ship = {
-		name= "Bur Tawfiq"
-		type = frigate
-	}
-
-	ship = {
-		name= "Al Ghardaqah"
-		type = frigate
-	}
-
-	ship = {
-		name= "Bur Safajah"
-		type = frigate
-	}
-
-	ship = {
-		name= "1st transport flotilla"
+		name = "Al-Mahrousa"
 		type = clipper_transport
+		home = 916
 	}
-
 }
 
 army = {

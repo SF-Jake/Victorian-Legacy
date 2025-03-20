@@ -52,8 +52,8 @@ leader = {
 	picture = tur_gen_mehmetvesif
 	date = 1830.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -61,24 +61,24 @@ leader = {
 	picture = tur_gen_mehmetnamik
 	date = 1832.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Halil Rifat Pasha"
 	picture = tur_adm_halilrifat
 	date = 1830.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
 	name = "Resid Mehmed Pasha"
 	date = 1809.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -86,38 +86,38 @@ leader = {
 	picture = tur_gen_chrzanowski
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Helmuth von Moltke"
 	picture = tur_gen_moltke
 	date = 1833.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Abdi Pasha"
 	picture = tur_gen_abdi
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Hafiz Osman Pasha"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Yaver Pasha"
 	date = 1836.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 
@@ -446,132 +446,77 @@ army = {
 }
 
 navy = {
-	name = "Ottoman Navy"
+	name = "Ottoman Fleet"
 	location = 860
 	ship = {
-		name= "Masudiya"
+		name = "Mahmudiye"
 		type = manowar
+		home = 860
 	}
-
 	ship = {
-		name= "Sadd al Bahri"
+		name = "Mesudiye"
 		type = manowar
+		home = 860
 	}
-
 	ship = {
-		name= "Ankay i Barhi"
+		name = "Orhaniye"
 		type = manowar
+		home = 860
 	}
-
 	ship = {
-		name= "Taus i Barhi"
+		name = "Osmaniye"
 		type = manowar
+		home = 860
 	}
-
 	ship = {
-		name= "Tevfik Nyuma"
+		name = "Aziziye"
 		type = manowar
+		home = 860
 	}
-
 	ship = {
-		name= "Bisharet Nyuma"
+		name = "Hamidiye"
 		type = manowar
+		home = 860
 	}
-
 	ship = {
-		name= "Killid i Barhi"
+		name = "Sultaniye"
 		type = manowar
+		home = 860
 	}
-
 	ship = {
-		name= "Heybetendaz"
+		name = "Selimiye"
 		type = manowar
+		home = 860
 	}
-
 	ship = {
-		name= "Melek i Barhi"
+		name = "Abdülmecid"
 		type = manowar
+		home = 860
 	}
-
 	ship = {
-		name= "Sayyad i Barhi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Gulbang i Nusret"
-		type = manowar
-	}
-
-	ship = {
-		name= "Jebel Andaz"
-		type = manowar
-	}
-
-	ship = {
-		name= "Iskenderiya"
+		name = "Fethiye"
 		type = frigate
+		home = 860
 	}
-
 	ship = {
-		name= "Badere i Zaffar"
+		name = "Gülcemal"
 		type = frigate
+		home = 860
 	}
-
 	ship = {
-		name= "Mahubey Subham"
+		name = "?zmir"
 		type = frigate
+		home = 860
 	}
-
 	ship = {
-		name= "Metelin"
+		name = "Kocatepe"
 		type = frigate
+		home = 860
 	}
-
 	ship = {
-		name= "Denyuvet"
+		name = "Samsun"
 		type = frigate
+		home = 860
 	}
-
-	ship = {
-		name= "Rahbar i Alam"
-		type = frigate
-	}
-
-	ship = {
-		name= "Malbaik Nesuret"
-		type = frigate
-	}
-
-	ship = {
-		name= "Bedr i Zafar"
-		type = frigate
-	}
-
-	ship = {
-		name= "Meskeni Ghazi"
-		type = frigate
-	}
-
-	ship = {
-		name= "Fakim i Zafar"
-		type = frigate
-	}
-
-	ship = {
-		name= "1st Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2nd Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3rd Transport Flotilla"
-		type = clipper_transport
-	}
-
 }
 

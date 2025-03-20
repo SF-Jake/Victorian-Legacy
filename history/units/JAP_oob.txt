@@ -14,8 +14,8 @@ leader = {
 	picture = jap_gen_tokugawanariaki
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 army = {
@@ -281,78 +281,61 @@ army = {
 }
 
 navy = {
-	name = "Imperial Fleet"
-	location = 1650
+	name = "Imperial Japanese Navy"
+	location = 1649
+
 	ship = {
-		name= "1 Yusosentai1"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Yusosentai2"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Yusosentai3"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Yusosentai4"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Yusosentai5"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Yusosentai6"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Yusosentai7"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Yusosentai8"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Yusosentai9"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Yusosentai10"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1 Frigate1"
-		type = frigate
-	}
-	ship = {
-		name= "1 Frigate2"
-		type = frigate
-	}
-	ship = {
-		name= "1 Frigate3"
-		type = frigate
-	}
-	ship = {
-		name= "1 Frigate4"
-		type = frigate
-	}
-	ship = {
-		name= "1 Frigate5"
-		type = frigate
+		name = "IJN Mikasa"
+		type = manowar
+		home = 1649
 	}
 
+	ship = {
+		name = "IJN Asahi"
+		type = manowar
+		home = 1649
+	}
+
+	ship = {
+		name = "IJN Fuji"
+		type = manowar
+		home = 1649
+	}
+
+	ship = {
+		name = "IJN Shikishima"
+		type = manowar
+		home = 1649
+	}
+
+	ship = {
+		name = "IJN Hatsuse"
+		type = manowar
+		home = 1649
+	}
+
+	ship = {
+		name = "IJN Yashima"
+		type = manowar
+		home = 1649
+	}
+
+	ship = {
+		name = "IJN Kasagi"
+		type = frigate
+		home = 1649
+	}
+
+	ship = {
+		name = "IJN Chitose"
+		type = frigate
+		home = 1649
+	}
+
+	ship = {
+		name = "IJN Takasago"
+		type = frigate
+		home = 1649
+	}
 }
 

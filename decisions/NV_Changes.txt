@@ -4,6 +4,7 @@ political_decisions = {
 		alert = yes
 		picture = lightbulb_off
 		potential = {
+			has_country_flag = show_options_Y
 			NOT = {	has_country_flag = nv_change }
 			ai = no
 		}
@@ -33,6 +34,7 @@ political_decisions = {
 		alert = no
 		picture = lightbulb_on
 		potential = {
+			has_country_flag = show_options_Y
 			has_country_flag = nv_change
 			ai = no
 		}

@@ -18,7 +18,7 @@ ironclad = {
 	priority = 35
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 6
+	maximum_speed = 8
 	weighted_value = 6.0
 
 
@@ -31,7 +31,7 @@ ironclad = {
 	}
 	min_port_level = 3
 	limit_per_port = -1
-	supply_consumption_score = 0
+	supply_consumption_score = 8
 	
 	supply_consumption = 1.0
 	supply_cost = {
@@ -42,8 +42,8 @@ ironclad = {
 	}
 	
 	#Naval Abilties
-	hull = 15
-	gun_power = 15
+	hull = 25
+	gun_power = 25
 	fire_range = 0.75
 	evasion = 0
 }

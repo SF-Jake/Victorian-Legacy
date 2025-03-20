@@ -72,8 +72,8 @@ leader = {
 	picture = fra_gen_drouet
 	date = 1803.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -81,8 +81,8 @@ leader = {
 	picture = fra_gen_clauzel
 	date = 1803.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -90,8 +90,8 @@ leader = {
 	picture = fra_gen_reille
 	date = 1807.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -99,8 +99,8 @@ leader = {
 	picture = fra_gen_harispe
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -108,8 +108,8 @@ leader = {
 	picture = fra_gen_dode
 	date = 1809.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -117,8 +117,8 @@ leader = {
 	picture = fra_adm_duperre
 	date = 1811.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -126,8 +126,8 @@ leader = {
 	picture = fra_gen_achard
 	date = 1823.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -135,8 +135,8 @@ leader = {
 	picture = fra_gen_castelanne
 	date = 1823.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -144,8 +144,8 @@ leader = {
 	picture = fra_gen_vaillant
 	date = 1832.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -153,32 +153,32 @@ leader = {
 	picture = fra_gen_magnan
 	date = 1835.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Thomas Bugeaud"
 	picture = fra_gen_bugeaud
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Louis Baraguey d'Hilliers"
 	picture = fra_gen_baraguey
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Charles Baudin"
 	picture = fra_adm_baudin
 	date = 1836.1.1 #1838
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 army = {
@@ -693,656 +693,234 @@ army = {
 }
 
 navy = {
-	name = "Escadre du Nord"
+	name = "Marine Nationale"
 	location = 420
 	ship = {
-		name= "Couronne"
+		name = "Le Napoléon"
 		type = manowar
 	}
-
 	ship = {
-		name= "Superbe"
+		name = "Le Suffren"
 		type = manowar
 	}
-
 	ship = {
-		name= "Jean Bart"
+		name = "Le Tonnant"
 		type = manowar
 	}
-
 	ship = {
-		name= "Dix-huit Fructidor"
+		name = "Le Redoutable"
 		type = manowar
 	}
-
 	ship = {
-		name= "Wagram"
+		name = "Le Formidable"
 		type = manowar
 	}
-
 	ship = {
-		name= "Trocadero "
+		name = "Le Magnifique"
 		type = manowar
 	}
-
 	ship = {
-		name= "Zélandais"
+		name = "Le Terrible"
 		type = manowar
 	}
-
 	ship = {
-		name= "Superbe"
+		name = "Le Glorieux"
 		type = manowar
 	}
-
 	ship = {
-		name= "Austerlitz"
+		name = "Le Invincible"
 		type = manowar
 	}
-
 	ship = {
-		name= "Magnifique"
+		name = "Le Triomphant"
 		type = manowar
 	}
-
 	ship = {
-		name= "République Française"
+		name = "Le Majestueux"
 		type = manowar
 	}
-
 	ship = {
-		name= "Conquérant"
+		name = "Le Vengeur"
 		type = manowar
 	}
-
 	ship = {
-		name= "Neptune"
+		name = "Le Courageux"
 		type = manowar
 	}
-
 	ship = {
-		name= "Algesiras"
+		name = "Le Audacieux"
 		type = manowar
 	}
-
 	ship = {
-		name= "Nestor"
+		name = "Le Vaillant"
 		type = manowar
 	}
-
 	ship = {
-		name= "Duchesse de Berry"
+		name = "Le Héros"
+		type = manowar
+	}
+	ship = {
+		name = "Le Guerrier"
+		type = manowar
+	}
+	ship = {
+		name = "Le Brave"
+		type = manowar
+	}
+	ship = {
+		name = "Le Foudroyant"
+		type = manowar
+	}
+	ship = {
+		name = "Le Impétueux"
+		type = manowar
+	}
+	ship = {
+		name = "Le Résolu"
+		type = manowar
+	}
+	ship = {
+		name = "Le Indomptable"
+		type = manowar
+	}
+	ship = {
+		name = "Le Inflexible"
+		type = manowar
+	}
+	ship = {
+		name = "Le Invulnérable"
+		type = manowar
+	}
+	ship = {
+		name = "Le Redouté"
+		type = manowar
+	}
+	ship = {
+		name = "Le Souverain"
+		type = manowar
+	}
+	ship = {
+		name = "Le Vigilant"
+		type = manowar
+	}
+	ship = {
+		name = "Le Vauban"
+		type = manowar
+	}
+	ship = {
+		name = "Le Richelieu"
+		type = manowar
+	}
+	ship = {
+		name = "Le Colbert"
+		type = manowar
+	}
+	ship = {
+		name = "Le Duguay-Trouin"
+		type = manowar
+	}
+	ship = {
+		name = "Le Surcouf"
 		type = frigate
 	}
-
 	ship = {
-		name= "Thétis"
+		name = "Le Hermione"
 		type = frigate
 	}
-
 	ship = {
-		name= "Astrée"
+		name = "Le Belle Poule"
 		type = frigate
 	}
-
 	ship = {
-		name= "Amazone"
+		name = "Le Thétis"
 		type = frigate
 	}
-
 	ship = {
-		name= "Clorinde"
+		name = "Le Junon"
 		type = frigate
 	}
-
 	ship = {
-		name= "Maure"
+		name = "Le Minerve"
 		type = frigate
 	}
-
 	ship = {
-		name= "Vestale"
+		name = "Le Vénus"
 		type = frigate
 	}
-
 	ship = {
-		name= "Magicienne"
+		name = "Le Néréide"
 		type = frigate
 	}
-
 	ship = {
-		name= "Marie Thérese"
+		name = "Le Galatée"
 		type = frigate
 	}
-
 	ship = {
-		name= "Venus"
+		name = "Le Médée"
 		type = frigate
 	}
-
 	ship = {
-		name= "Sirène"
+		name = "Le Didon"
 		type = frigate
 	}
-
 	ship = {
-		name= "Atalante"
+		name = "Le Pallas"
 		type = frigate
 	}
-
 	ship = {
-		name= "Surveillante"
+		name = "Le Dryade"
 		type = frigate
 	}
-
 	ship = {
-		name= "Iphigénie"
+		name = "Le Andromaque"
 		type = frigate
 	}
-
 	ship = {
-		name= "Sultane"
+		name = "Le Cléopâtre"
 		type = frigate
 	}
-
 	ship = {
-		name= "1ère Flotille de Transport"
+		name = "Le Psyché"
+		type = frigate
+	}
+	ship = {
+		name = "Le Triton"
 		type = clipper_transport
 	}
-
 	ship = {
-		name= "2ème Flotille de Transport"
+		name = "Le Neptune"
 		type = clipper_transport
 	}
-
 	ship = {
-		name= "3ème Flotille de Transport"
+		name = "Le Océan"
 		type = clipper_transport
 	}
-
 	ship = {
-		name= "Triton"
-		type = manowar
-	}
-
-	ship = {
-		name= "Etats de Bourgogne"
-		type = manowar
-	}
-
-	ship = {
-		name= "Souverain"
-		type = manowar
-	}
-
-	ship = {
-		name= "Marengo"
-		type = manowar
-	}
-
-	ship = {
-		name= "Ville de Marseilles"
-		type = manowar
-	}
-
-	ship = {
-		name= "Hercule"
-		type = manowar
-	}
-
-	ship = {
-		name= "Montebello "
-		type = manowar
-	}
-
-	ship = {
-		name= "Centaure"
-		type = manowar
-	}
-
-	ship = {
-		name= "Jupiter"
-		type = manowar
-	}
-
-	ship = {
-		name= "Duc d’Angouleme"
-		type = manowar
-	}
-
-	ship = {
-		name= "Hercules"
-		type = manowar
-	}
-
-	ship = {
-		name= "Généreux"
-		type = manowar
-	}
-
-	ship = {
-		name= "Diadème"
-		type = manowar
-	}
-
-	ship = {
-		name= "Couronne"
-		type = manowar
-	}
-
-	ship = {
-		name= "Suffren"
-		type = manowar
-	}
-
-	ship = {
-		name= "Trident"
-		type = manowar
-	}
-
-	ship = {
-		name= "Royal Louis "
-		type = manowar
-	}
-
-	ship = {
-		name= "Commerces de Paris"
-		type = manowar
-	}
-
-	ship = {
-		name= "Terpsichore"
-		type = frigate
-	}
-
-	ship = {
-		name= "Arthémise"
-		type = frigate
-	}
-
-	ship = {
-		name= "Belle Gabrielle"
-		type = frigate
-	}
-
-	ship = {
-		name= "Didon"
-		type = frigate
-	}
-
-	ship = {
-		name= "Caroline"
-		type = frigate
-	}
-
-	ship = {
-		name= "Herminie"
-		type = frigate
-	}
-
-	ship = {
-		name= "Melpomène"
-		type = frigate
-	}
-
-	ship = {
-		name= "Uranie"
-		type = frigate
-	}
-
-	ship = {
-		name= "Andromède"
-		type = frigate
-	}
-
-	ship = {
-		name= "Jeanne d’Arc"
-		type = frigate
-	}
-
-	ship = {
-		name= "Belle Poule"
-		type = frigate
-	}
-
-	ship = {
-		name= "Erigone"
-		type = frigate
-	}
-
-	ship = {
-		name= "Nereide"
-		type = frigate
-	}
-
-	ship = {
-		name= "Gloire"
-		type = frigate
-	}
-
-	ship = {
-		name= "Reine Blanche"
-		type = frigate
-	}
-
-	ship = {
-		name= "4ème Flotille de Transport"
+		name = "Le Phénix"
 		type = clipper_transport
 	}
-
 	ship = {
-		name= "5ème Flotille de Transport"
+		name = "Le Albatros"
 		type = clipper_transport
 	}
-
 	ship = {
-		name= "6ème Flotille de Transport"
+		name = "Le Aigle"
 		type = clipper_transport
 	}
-	
 	ship = {
-		name= "7ème Flotille de Transport"
+		name = "Le Hirondelle"
 		type = clipper_transport
 	}
-	
 	ship = {
-		name= "8ème Flotille de Transport"
+		name = "Le Goéland"
 		type = clipper_transport
 	}
-	
 	ship = {
-		name= "9ème Flotille de Transport"
+		name = "Le Mouette"
 		type = clipper_transport
 	}
-	
 	ship = {
-		name= "10ème Flotille de Transport"
+		name = "Le Pélican"
 		type = clipper_transport
 	}
-	
-	ship = {
-		name= "Dvenadtsat' Apostolov"
-		type = manowar
-	}
-
-	ship = {
-		name= "Poltava"
-		type = manowar
-	}
-
-	ship = {
-		name= "Ratnyi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Hiagudil"
-		type = manowar
-	}
-
-	ship = {
-		name= "Gangut"
-		type = manowar
-	}
-
-	ship = {
-		name= "Ezekiel"
-		type = manowar
-	}
-
-	ship = {
-		name= "Tsar Konstantin"
-		type = manowar
-	}
-
-	ship = {
-		name= "Yaroslav"
-		type = manowar
-	}
-
-	ship = {
-		name= "Izyaslav"
-		type = manowar
-	}
-
-	ship = {
-		name= "Pravyi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Isidor"
-		type = manowar
-	}
-
-	ship = {
-		name= "Anapa"
-		type = manowar
-	}
-
-	ship = {
-		name= "Maria"
-		type = manowar
-	}
-
-	ship = {
-		name= "Dimitri Donskoi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Paraskevia"
-		type = manowar
-	}
-
-	ship = {
-		name= "Sv Ytoslav"
-		type = manowar
-	}
-
-	ship = {
-		name= "Spyesttunyi"
-		type = frigate
-	}
-
-	ship = {
-		name= "Narva"
-		type = frigate
-	}
-
-	ship = {
-		name= "Premyslav"
-		type = frigate
-	}
-
-	ship = {
-		name= "Riga"
-		type = frigate
-	}
-
-	ship = {
-		name= "Viatcheslav"
-		type = frigate
-	}
-
-	ship = {
-		name= "Emmanuel"
-		type = frigate
-	}
-
-	ship = {
-		name= "Borislav"
-		type = frigate
-	}
-
-	ship = {
-		name= "Legkii"
-		type = frigate
-	}
-
-	ship = {
-		name= "3. Transportnaya Flotiliya"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "4. Transportnaya Flotiliya"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "Nord Adler"
-		type = manowar
-	}
-
-	ship = {
-		name= "Prints Gustav"
-		type = manowar
-	}
-
-	ship = {
-		name= "Ne Tron Menya"
-		type = manowar
-	}
-
-	ship = {
-		name= "Svyastoslav"
-		type = manowar
-	}
-
-	ship = {
-		name= "Chrabryi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Smelyi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Tri Svyatitelei"
-		type = manowar
-	}
-
-	ship = {
-		name= "Yupiter"
-		type = manowar
-	}
-
-	ship = {
-		name= "Chesma"
-		type = manowar
-	}
-
-	ship = {
-		name= "Mironosets"
-		type = manowar
-	}
-
-	ship = {
-		name= "Asia"
-		type = manowar
-	}
-
-	ship = {
-		name= "Feodor Stralitat"
-		type = frigate
-	}
-
-	ship = {
-		name= "Ioann Bogoslav"
-		type = frigate
-	}
-
-	ship = {
-		name= "Kazanskaia Bogoroditsa"
-		type = frigate
-	}
-
-	ship = {
-		name= "Navarchia V Gospodne"
-		type = frigate
-	}
-
-	ship = {
-		name= "Soshestvie Ducha"
-		type = frigate
-	}
-
-	ship = {
-		name= "Sv Piotr Apostol"
-		type = frigate
-	}
-
-	ship = {
-		name= "Tsar Konstantin"
-		type = frigate
-	}
-
-	ship = {
-		name= "Archipelag"
-		type = frigate
-	}
-
-	ship = {
-		name= "Tickvinskaya Bogoroditsa"
-		type = frigate
-	}
-
-	ship = {
-		name= "Tosmanska"
-		type = frigate
-	}
-
-	ship = {
-		name= "Nazareth"
-		type = frigate
-	}
-
-	ship = {
-		name= "Kronstadt"
-		type = frigate
-	}
-
-	ship = {
-		name= "1. Transportnaya Flotiliya"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2. Transportnaya Flotiliya"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1. Transportnaya Flotiliya3"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2. Transportnaya Flotiliya4"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1. Transportnaya Flotiliya5"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2. Transportnaya Flotiliya6"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "1. Transportnaya Flotiliya7"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2. Transportnaya Flotiliya8"
-		type = clipper_transport
-	}
-
 }

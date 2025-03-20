@@ -2,6 +2,7 @@ terrain = 64
 
 
 categories =  {
+	#Farmland Terrain
 	ocean = {
 		movement_cost = 1.0
 		is_water = yes
@@ -15,6 +16,7 @@ categories =  {
 		farm_rgo_eff = -0.2
 		mine_rgo_size = -0.0
 		mine_rgo_eff = -0.2
+		min_build_mines = 6
 	}
 
 	farmlands = {
@@ -26,6 +28,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 10
+		min_build_mines = 6
 	}
 
 	plains = {
@@ -36,7 +39,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 10
-
+		min_build_mines = 6
 	}
 
 	steppe = {
@@ -47,7 +50,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 8
-
+		min_build_mines = 6
 	}
 
 	woods = {
@@ -60,6 +63,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 6
 		combat_width = -0.20
+		min_build_mines = 6
 	}
 	
 	forest = {
@@ -72,7 +76,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 6
-		combat_width = -0.20
+		min_build_mines = 6
 	}
 
 	boreal = {
@@ -87,6 +91,7 @@ categories =  {
 
 		supply_limit = 4
 		combat_width = -0.20
+		min_build_mines = 6
 	}
 
 	jungle = {
@@ -99,6 +104,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 2
 		combat_width = -0.25
+		min_build_mines = 6
 	}
 
 	hills = {
@@ -112,6 +118,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 6
 		combat_width = -0.33
+		min_build_mines = 6
 	}
 
 	dryhills = {
@@ -126,6 +133,7 @@ categories =  {
 
 		supply_limit = 4
 		combat_width = -0.33
+		min_build_mines = 6
 	}
 	
 	mountain = {
@@ -139,7 +147,7 @@ categories =  {
 		supply_limit = 2
 		
 		combat_width = -0.66
-		
+		min_build_mines = 6
 	}	
 
 	semidesert = {
@@ -152,6 +160,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 
 		supply_limit = 3
+		min_build_mines = 6
 	}
 	
 	desert = {
@@ -162,6 +171,7 @@ categories =  {
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
+		min_build_mines = 6
 	}
 	
 	coastal_desert = {
@@ -172,6 +182,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 2
+		min_build_mines = 6
 	}	
 
 	marsh = {
@@ -185,6 +196,198 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 2
 		combat_width = -0.25
+		min_build_mines = 6
+	}
+	
+	#Mine Terrain
+	arctic_mine = {
+		movement_cost = 1.0
+		color = { 235 235 235 }
+		farm_rgo_size = -0.5
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.0
+		mine_rgo_eff = -0.2
+	}
+
+	farmlands_mine = {
+		movement_cost = 1.2
+		color = { 137 104 165  }
+		
+		farm_rgo_size = 0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+		min_build_farmland = 50
+	}
+
+	plains_mine = {
+		movement_cost = 1.0
+		color = { 241 221 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+		min_build_farmland = 50
+	}
+
+	steppe_mine = {
+		movement_cost = 1.0
+		color = { 211 201 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_farmland = 50
+	}
+
+	woods_mine = {
+		movement_cost = 1.1
+		defence = 1
+		color = { 165 205 108 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 6
+		combat_width = -0.20
+		min_build_farmland = 50
+	}
+	
+	forest_mine = {
+		movement_cost = 1.2
+		defence = 1
+		color = { 91 123 45 }
+
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 6
+		combat_width = -0.20
+		min_build_farmland = 50
+	}
+
+	boreal_mine = {
+		movement_cost = 1.3
+		defence = 1
+		color = { 110 150 110 }
+
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+
+		supply_limit = 4
+		combat_width = -0.20
+		min_build_farmland = 50
+	}
+
+	jungle_mine = {
+		movement_cost = 1.3
+		defence = 2
+		color = { 32 151 0 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = -0.2
+		mine_rgo_size = 0.0
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		combat_width = -0.25
+		min_build_farmland = 50
+	}
+
+	hills_mine = {
+		movement_cost = 1.2
+		defence = 1
+		color = { 135 70 0 }
+
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 6
+		combat_width = -0.33
+		min_build_farmland = 50
+	}
+
+	dryhills_mine = {
+		movement_cost = 1.2
+		defence = 1
+		color = { 135 70 0 }
+
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+
+		supply_limit = 4
+		combat_width = -0.33
+		min_build_farmland = 50
+	}
+	
+	mountain_mine = {
+		movement_cost = 1.4
+		defence = 2
+		color = { 117 108 119 }
+		farm_rgo_size = 0
+		farm_rgo_eff = -0.25
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 2
+		
+		combat_width = -0.66
+		min_build_farmland = 50
+	}	
+
+	semidesert_mine = {
+		movement_cost = 1.1
+		color = { 255 155 100 }
+	
+		farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+
+		supply_limit = 3
+		min_build_farmland = 50
+	}
+	
+	desert_mine = {
+		movement_cost = 1.5
+		color = { 218 195 0 }
+	
+		farm_rgo_size = -0.5
+		farm_rgo_eff = -0.2
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0
+		min_build_farmland = 50
+	}
+	
+	coastal_desert_mine = {
+		movement_cost = 1.0
+		color = { 208 155 0 }
+		farm_rgo_size = -0.25
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 2
+		min_build_farmland = 50
+	}	
+
+	marsh_mine = {
+		movement_cost = 1.4
+		defence = 1
+		color = { 76 112 105 }
+
+		farm_rgo_size = 0.0
+		farm_rgo_eff = -0.2
+		mine_rgo_size = 0.0
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		combat_width = -0.25
+		min_build_farmland = 50
 	}
 }
 

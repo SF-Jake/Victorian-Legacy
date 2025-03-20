@@ -67,8 +67,8 @@ leader = {
 	picture = spa_gen_espartero
 	type = land
 	date="1834.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -76,8 +76,8 @@ leader = {
 	picture = spa_gen_serrano
 	type = land
 	date="1833.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -85,32 +85,32 @@ leader = {
 	picture = spa_gen_narvaez
 	type = land
 	date="1835.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Leopoldo O'Donnell"
 	picture = spa_gen_odonnell
 	type = land
 	date="1836.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Gerónimo Valdés"
 	picture = spa_gen_valdes
 	type = land
 	date="1836.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Juan Van Halen"
 	picture = spa_gen_vanhalen
 	type = land
 	date="1823.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -118,8 +118,8 @@ leader = {
 	picture = spa_gen_rodil
 	type = land
 	date="1824.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -127,16 +127,16 @@ leader = {
 	picture = spa_gen_luiscordova
 	type = land
 	date="1833.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Gaspar de Jáuregui"
 	picture = spa_gen_jauregui
 	type = land
 	date="1833.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -144,8 +144,8 @@ leader = {
 	picture = spa_adm_uriarte
 	type = sea
 	date="1802.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -153,8 +153,8 @@ leader = {
 	picture = spa_adm_primorivera
 	type = sea
 	date="1827.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -162,8 +162,8 @@ leader = {
 	picture = spa_adm_ulloa
 	type = sea
 	date="1825.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -171,8 +171,8 @@ leader = {
 	picture = spa_adm_vigodet
 	type = sea
 	date="1836.1.1"
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 #Army
@@ -371,257 +371,162 @@ army = {
 }
 
 navy = {
-	name = "Armada Real Española"
+	name = "Armada Española"
 	location = 512
 	
 	ship = {
-		name = "Santiago"
+		name = "Santa Ana"
 		type = manowar
+		home = 512
 	}
 	
 	ship = {
-		name = "Hespérides"
+		name = "San Juan Nepomuceno"
 		type = manowar
+		home = 512
 	}
 	
 	ship = {
-		name = "Centinela"
+		name = "Principe de Asturias"
 		type = manowar
+		home = 512
 	}
 	
 	ship = {
-		name = "Isla de Cuba"
+		name = "San Carlos"
+		type = manowar
+		home = 512
+	}
+	
+	ship = {
+		name = "Nuestra Señora de la Concepción"
 		type = frigate
+		home = 512
 	}
 	
 	ship = {
-		name = "Cristóbal Colón"
+		name = "Santa María"
 		type = frigate
-	}
-	
-	ship = {
-		name= "1a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3a Flotilla de Transporte"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name = "Alerta"
-		type = manowar
+		home = 512
 	}
 	
 	ship = {
 		name = "San Fernando"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Legazpi"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Victoria"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Nuestra Señora del Patrocinio"
-		type = frigate
-	}
-	
-	ship = {
-		name= "1a Flotilla de Transporte"
 		type = clipper_transport
+		home = 512
 	}
-
+	
 	ship = {
-		name= "2a Flotilla de Transporte"
+		name = "San Antonio"
 		type = clipper_transport
+		home = 512
 	}
-
+	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Francisco"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "San Raimundo"
-		type = manowar
-	}
-
-	ship = {
-		name= "Héroe"
-		type = manowar
-	}
-
-	ship = {
-		name= "San Pablo"
-		type = manowar
-	}
-	
-	ship = {
-		name= "San Pablo"
-		type = manowar
-	}
-	
-	ship = {
-		name= "San Pablo"
-		type = manowar
-	}
-	
-	ship = {
-		name= "San Pablo"
-		type = manowar
-	}
-	
-	ship = {
-		name= "San Pablo"
-		type = manowar
-	}
-	
-	ship = {
-		name= "San Pablo"
-		type = manowar
-	}
-	
-	ship = {
-		name= "San Pablo"
-		type = manowar
-	}
-
-	ship = {
-		name= "Ceres"
-		type = frigate
-	}
-
-	ship = {
-		name= "Gloria"
-		type = frigate
-	}
-
-	ship = {
-		name= "Nuestra Señora de Asunción"
-		type = frigate
-	}
-
-	ship = {
-		name= "Nuestra Señora de Atocha"
-		type = frigate
-	}
-
-	ship = {
-		name= "Santa Sabina"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Santa Sabina"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Santa Sabina"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Santa Sabina"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Santa Sabina"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Santa Sabina"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Santa Sabina"
-		type = frigate
-	}
-
-	ship = {
-		name= "1a Flotilla de Transporte"
+		name = "San Pedro"
 		type = clipper_transport
-	}
-
-	ship = {
-		name= "2a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3a Flotilla de Transporte"
-		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "4a Flotilla de Transporte"
+		name = "San Pablo"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Andrés"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Mateo"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Lucas"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Marcos"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Juan"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San José"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Miguel"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Rafael"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Gabriel"
 		type = clipper_transport
+		home = 512
 	}
 	
 	ship = {
-		name= "3a Flotilla de Transporte"
+		name = "San Bartolomé"
 		type = clipper_transport
+		home = 512
 	}
 	
+	ship = {
+		name = "San Felipe"
+		type = clipper_transport
+		home = 512
+	}
+	
+	ship = {
+		name = "San Jacinto"
+		type = clipper_transport
+		home = 512
+	}
+	
+	ship = {
+		name = "San Ignacio"
+		type = clipper_transport
+		home = 512
+	}
+	
+	ship = {
+		name = "San Lorenzo"
+		type = clipper_transport
+		home = 512
+	}
+	
+	ship = {
+		name = "San Vicente"
+		type = clipper_transport
+		home = 512
+	}
 }

@@ -1,267 +1,92 @@
 # Audax Validator "!" Ignore_1004
 # Audax Validator "!" Ignore_1009
 
-# country_event = {
-# 	id = 91600
-# 	title = "EVTNAME91600"
-# 	desc = "EVTDESC91600"
+country_event = {
+	id = 91600
+	title = "EVTNAME91600"
+	desc = "EVTDESC91600"
 
-
-# 	trigger = {
-# 		tag = JAN
-# 		year = 1837
-# 		NOT = { has_country_modifier = admin_counter }
-# 	}
-
+	is_triggered_only = yes
 	
-# 	immediate = {
-# 		add_country_modifier = {
-# 			name = admin_counter
-# 			duration = 362
-# 		}
-# 	}
-	
-# 	option = {
-# 		name = EVTOPTA91600
-# 		any_country = {
-# 			limit = {
-# 				ai = no
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.1
-# 					NOT = { literacy = 0.2 }
-# 				}
-# 				literacy = -0.001
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.2
-# 					NOT = { literacy = 0.3 }
-# 				}
-# 				literacy = -0.002
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.3
-# 					NOT = { literacy = 0.4 }
-# 				}
-# 				literacy = -0.003
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.4
-# 					NOT = { literacy = 0.5 }
-# 				}
-# 				literacy = -0.004
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.5
-# 					NOT = { literacy = 0.6 }
-# 				}
-# 				literacy = -0.005
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.6
-# 					NOT = { literacy = 0.7 }
-# 				}
-# 				literacy = -0.006
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.7
-# 					NOT = { literacy = 0.8 }
-# 				}
-# 				literacy = -0.007
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.8
-# 					NOT = { literacy = 0.9 }
-# 				}
-# 				literacy = -0.008
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.9
-# 					NOT = { literacy = 0.9 }
-# 				}
-# 				literacy = -0.009
-# 			}
-# 			any_pop = {
-# 				limit = {
-# 					literacy = 0.99
-# 				}
-# 				literacy = -0.01
-# 			}
-# 		}
-# 		any_country = {
-# 			any_owned = {
-# 				limit = {
-# 					has_province_modifier = literacy_campaign
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						literacy = 0.9
-# 					}
-# 					literacy = 0.0055
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						literacy = 0.8
-# 						NOT = { literacy = 0.9 }
-# 					}
-# 					literacy = 0.006
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						literacy = 0.7
-# 						NOT = { literacy = 0.8 }
-# 					}
-# 					literacy = 0.0065
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						literacy = 0.6
-# 						NOT = { literacy = 0.7 }
-# 					}
-# 					literacy = 0.007
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						literacy = 0.5
-# 						NOT = { literacy = 0.6 }
-# 					}
-# 					literacy = 0.0075
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						literacy = 0.4
-# 						NOT = { literacy = 0.5 }
-# 					}
-# 					literacy = 0.008
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						literacy = 0.3
-# 						NOT = { literacy = 0.4 }
-# 					}
-# 					literacy = 0.0085
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						literacy = 0.2
-# 						NOT = { literacy = 0.3 }
-# 					}
-# 					literacy = 0.009
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						literacy = 0.1
-# 						NOT = { literacy = 0.2 }
-# 					}
-# 					literacy = 0.0095
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						NOT = { literacy = 0.1 }
-# 					}
-# 					literacy = 0.01
-# 				}
-# 			}
-# 		}
-# 		any_country = {
-# 			slaves = { reduce_pop = 1.01 }
-# 			any_owned = {
-# 				limit = {
-# 					NOT = { total_pops = 1500 }
-# 				}
-# 				any_pop = {
-# 					reduce_pop = 1.01
-# 				}
-# 			}
-# 		}
-# 		any_country = {
-# 			limit = {
-# 				any_owned_province = {
-# 					has_province_modifier = settlement
-# 				}
-# 			}
-# 			any_owned = {
-# 				limit = {
-# 					is_colonial = yes
-# 					has_province_modifier = settlement
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						is_accepted_culture = no
-# 						is_primary_culture = no
-# 					}
-# 					reduce_pop = 0.99
-# 				}
-# 			}
-# 		}
-# 		any_country = {
-# 			limit = {
-# 				any_owned_province = {
-# 					has_province_modifier = communist_genocide
-# 				}
-# 			}
-# 			any_owned = {
-# 				limit = {
-# 					has_province_modifier = communist_genocide
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						is_accepted_culture = no
-# 						is_primary_culture = no
-# 					}
-# 					reduce_pop = 0.94
-# 				}
-# 			}
-# 		}
-# 		any_country = {
-# 			limit = {
-# 				any_owned_province = {
-# 					has_province_modifier = monarchy_genocide 
-# 				}
-# 			}
-# 			any_owned = {
-# 				limit = {
-# 					has_province_modifier = monarchy_genocide 
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						is_accepted_culture = no
-# 						is_primary_culture = no
-# 					}
-# 					reduce_pop = 0.95
-# 				}
-# 			}
-# 		}
-# 		any_country = {
-# 			limit = {
-# 				any_owned_province = {
-# 					has_province_modifier = facist_genocide
-# 				}
-# 			}
-# 			any_owned = {
-# 				limit = {
-# 					has_province_modifier = facist_genocide
-# 				}
-# 				any_pop = {
-# 					limit = {
-# 						is_accepted_culture = no
-# 						is_primary_culture = no
-# 					}
-# 					reduce_pop = 0.92
-# 				}
-# 			}
-# 		}
-# 	}
-# }
+	option = {
+		country_event = { id = 91600 days = 365 }
+		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = literacy_campaign
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.9
+					}
+					literacy = 0.0055
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.8
+						NOT = { literacy = 0.9 }
+					}
+					literacy = 0.006
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.7
+						NOT = { literacy = 0.8 }
+					}
+					literacy = 0.0065
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.6
+						NOT = { literacy = 0.7 }
+					}
+					literacy = 0.007
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.5
+						NOT = { literacy = 0.6 }
+					}
+					literacy = 0.0075
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.4
+						NOT = { literacy = 0.5 }
+					}
+					literacy = 0.008
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.3
+						NOT = { literacy = 0.4 }
+					}
+					literacy = 0.0085
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.2
+						NOT = { literacy = 0.3 }
+					}
+					literacy = 0.009
+				}
+				any_pop = {
+					limit = {
+						literacy = 0.1
+						NOT = { literacy = 0.2 }
+					}
+					literacy = 0.0095
+				}
+				any_pop = {
+					limit = {
+						NOT = { literacy = 0.1 }
+					}
+					literacy = 0.01
+				}
+			}
+		}
+	}
+}
 
 province_event = {
 	id = 91601
@@ -272,7 +97,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			invention = national_idea1
+			year = 1836
 			NOT = { has_country_flag = national_idea1 }
 		}
 	}
@@ -381,7 +206,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+15% Navy Experience"
+		name = "+5% Navy Experience"
 		owner = { set_country_flag = choosing_navy_experience }
 		ai_chance = {
 			factor = 1
@@ -528,7 +353,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			invention = national_idea2
+			year = 1850
 			NOT = { has_country_flag = national_idea2 }
 		}
 	}
@@ -637,7 +462,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+15% Navy Experience"
+		name = "+5% Navy Experience"
 		owner = { set_country_flag = choosing_navy_experience }
 		ai_chance = {
 			factor = 1
@@ -784,7 +609,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			invention = national_idea3
+			year = 1865
 			NOT = { has_country_flag = national_idea3 }
 		}
 	}
@@ -893,7 +718,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+15% Navy Experience"
+		name = "+5% Navy Experience"
 		owner = { set_country_flag = choosing_navy_experience }
 		ai_chance = {
 			factor = 1
@@ -1040,7 +865,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			invention = national_idea4
+			year = 1880
 			NOT = { has_country_flag = national_idea4 }
 		}
 	}
@@ -1149,7 +974,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+15% Navy Experience"
+		name = "+5% Navy Experience"
 		owner = { set_country_flag = choosing_navy_experience }
 		ai_chance = {
 			factor = 1
@@ -1296,7 +1121,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			invention = national_idea5
+			year = 1895
 			NOT = { has_country_flag = national_idea5 }
 		}
 	}
@@ -1405,7 +1230,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+15% Navy Experience"
+		name = "+5% Navy Experience"
 		owner = { set_country_flag = choosing_navy_experience }
 		ai_chance = {
 			factor = 1
@@ -1552,7 +1377,7 @@ province_event = {
 	trigger = {
 		owner = {
 			ai = no
-			invention = national_idea6
+			year = 1910
 			NOT = { has_country_flag = national_idea6 }
 		}
 	}
@@ -1661,7 +1486,7 @@ province_event = {
 	}
 
 	option = {
-		name = "+15% Navy Experience"
+		name = "+5% Navy Experience"
 		owner = { set_country_flag = choosing_navy_experience }
 		ai_chance = {
 			factor = 1

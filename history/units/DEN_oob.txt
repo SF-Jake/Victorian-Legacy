@@ -11,8 +11,8 @@ leader = {
 	picture = den_gen_frederikhessen
 	date = 1789.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.5
 }
 leader = {
@@ -20,8 +20,8 @@ leader = {
 	picture = den_gen_haxthausen
 	date = 1829.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -29,8 +29,8 @@ leader = {
 	picture = den_gen_scholten
 	date = 1829.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 
@@ -38,8 +38,8 @@ leader = {
 	name = "Olaf Rye"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 army = {
@@ -90,61 +90,31 @@ army = {
 }
 
 navy = {
-	name = "Royal Navy"
+	name = "Kongelige Danske Flåde"
 	location = 372
 	ship = {
-		name= "Danmark"
+		name = "HDMS Dannebrog"
 		type = manowar
+		home = 372
 	}
-
 	ship = {
-		name= "Dronning Marie"
+		name = "HDMS Christian VIII"
 		type = manowar
+		home = 372
 	}
-
 	ship = {
-		name= "Frederik den sjette"
-		type = manowar
-	}
-
-
-	ship = {
-		name= "Bellona"
+		name = "HDMS Bellona"
 		type = frigate
+		home = 372
 	}
-
 	ship = {
-		name= "Diana"
-		type = frigate
-	}
-
-	ship = {
-		name= "Freja"
-		type = frigate
-	}
-
-	ship = {
-		name= "Fylla"
-		type = frigate
-	}
-
-
-
-
-	ship = {
-		name= "1st Transport Flotilla"
+		name = "HDMS Valkyrien"
 		type = clipper_transport
+		home = 372
 	}
-
 	ship = {
-		name= "2nd Transport Flotilla"
+		name = "HDMS Najaden"
 		type = clipper_transport
+		home = 372
 	}
-
-	ship = {
-		name= "3rd Transport Flotilla"
-		type = clipper_transport
-	}
-
 }
-

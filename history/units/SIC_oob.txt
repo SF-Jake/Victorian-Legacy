@@ -3,8 +3,8 @@ leader = {
 	picture = sic_gen_leopoldo
 	date = 1809.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -12,8 +12,8 @@ leader = {
 	picture = sic_gen_pinto
 	date = 1815.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -21,8 +21,8 @@ leader = {
 	picture = sic_gen_ferdinando
 	date = 1830.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.5
 }
 leader = {
@@ -30,30 +30,30 @@ leader = {
 	picture = sic_gen_filangieri
 	date = 1831.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
 	name = "Rafaella de Cosa"
 	date = 1836.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Francesco Mendoza"
 	date = 1830.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Paolo Ruffo"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 army = {
@@ -133,52 +133,32 @@ army = {
 }
 
 navy = {
-	name = "Real Marina delle Due Sicilie"
+	name = "Marina delle Due Sicilia"
 	location = 754
 	ship = {
-		name= "Ferdinando II"
-		type = commerce_raider
+		name = "Regina"
+		type = manowar
+		home = 754
 	}
-
 	ship = {
-		name= "Christina"
+		name = "Principe"
 		type = frigate
+		home = 754
 	}
-
 	ship = {
-		name= "Regina Isabella"
-		type = frigate
-	}
-
-	ship = {
-		name= "Principe Carlo"
-		type = frigate
-	}
-
-	ship = {
-		name= "Partenope"
-		type = frigate
-	}
-
-	ship = {
-		name= "Caracciolo"
-		type = frigate
-	}
-
-	ship = {
-		name= "1a Squadrone Transporti"
+		name = "Vesuvio"
 		type = clipper_transport
+		home = 754
 	}
-
 	ship = {
-		name= "2a Squadrone Transporti"
+		name = "Etna"
 		type = clipper_transport
+		home = 754
 	}
-
 	ship = {
-		name= "3a Squadrone Transporti"
+		name = "Stromboli"
 		type = clipper_transport
+		home = 754
 	}
-
 }
 

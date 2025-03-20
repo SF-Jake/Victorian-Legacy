@@ -694,6 +694,69 @@ fertilizer_factory = {
 	pop_build_factory = yes
 }
 
+province_selector = {
+	type = province_selector
+	goods_cost =
+	{
+	}
+	time = 1
+	visibility = no
+	onmap = no
+	max_level = 2
+	province = yes
+	#one_per_state = yes
+	
+}
+
+naval_base = {    
+	type = naval_base
+	goods_cost =
+	{
+		timber = 1600
+		lumber = 1200
+		cement = 1800
+		steel = 1400
+		explosives = 200
+		small_arms = 700
+		ammunition = 1000
+		artillery = 250
+		canned_food = 2800
+	}
+	time = 360
+	naval_capacity = 1
+	capital = yes
+	onmap = yes
+	port = yes
+	visibility = yes
+	max_level = 6
+	colonial_points = { 30 50 70 90 95 100 } #points at levels 1-6
+	province = yes
+	colonial_range = 50
+	local_ship_build = -0.05
+	one_per_state = yes
+}
+
+railroad = {   
+	type = infrastructure
+	goods_cost =
+	{
+		lumber = 200
+		cement = 100
+		steel = 100
+	}
+	time = 360
+	visibility = yes
+	onmap = yes
+	max_level = 6
+	province = yes
+	
+	infrastructure = 0.16
+	movement_cost = -0.05
+	
+	pop_build_factory = yes
+	spawn_railway_track = yes
+}
+
 fort = {      
 	type = fort
 	goods_cost =
@@ -716,50 +779,78 @@ fort = {
 	fort_level = 1
 }
 
-naval_base = {    
-	type = naval_base
+## Urban Center
+urban_center = {
+	# Audax Validator "." Ignore_NEXT
+	type = urban_center
+	# Audax Validator "." Ignore_NEXT
+	cost = 500
 	goods_cost =
 	{
-		timber = 1600
-		lumber = 1200
-		cement = 1800
-		steel = 1400
-		explosives = 200
-		small_arms = 700
-		ammunition = 1000
-		artillery = 250
-		canned_food = 2800
+		lumber = 400
+		cement = 50
+		steel = 150
 	}
-	time = 360
-	capital = yes
-	onmap = yes
-	port = yes
+
+	time = 365
 	visibility = yes
-	max_level = 6
-	colonial_points = { 30 50 70 90 95 100 } #points at levels 1-6
+	onmap = no
+	max_level = 7
 	province = yes
-	colonial_range = 50
-	local_ship_build = -0.05
-	one_per_state = yes
-}
-       
-railroad = {   
-	type = infrastructure
-	goods_cost =
-	{
-		lumber = 200
-		cement = 100
-		steel = 100
-	}
-	time = 360
-	visibility = yes
-	onmap = yes
-	max_level = 6
-	province = yes
-	
-	infrastructure = 0.16
-	movement_cost = -0.05
-	
 	pop_build_factory = yes
-	spawn_railway_track = yes
+	# Audax Validator "." Ignore_NEXT
+
+	local_factory_throughput = 0.08
+}
+
+## Farmland
+farmland = {
+	# Audax Validator "." Ignore_NEXT
+	type = farmland
+	# Audax Validator "." Ignore_NEXT
+	goods_cost =
+	{
+		fertilizer = 300	#3000
+		grain = 2000		#4600
+		fruit = 1000		#1800
+		timber = 500		#1600
+		cattle = 500		#1200
+		cotton = 500		#1050
+		wool = 500			#800
+	}
+
+	time = 365
+	visibility = yes
+	onmap = no
+	max_level = 6
+	province = yes
+	# Audax Validator "." Ignore_NEXT
+
+	farm_rgo_size = 0.1
+}
+
+## Mine
+mines = {
+	# Audax Validator "." Ignore_NEXT
+	type = mines
+	# Audax Validator "." Ignore_NEXT
+	cost = 162500
+	goods_cost =
+	{
+		cement = 600		#3200
+		steel = 1000			#1880
+		explosives = 400	#2000
+		lumber = 1200		#1000
+		machine_parts = 300	#1460
+	}
+
+	time = 182
+	visibility = yes
+	onmap = no
+	max_level = 6
+	province = yes
+	pop_build_factory = yes
+	# Audax Validator "." Ignore_NEXT
+
+	mine_rgo_eff = 0.25
 }

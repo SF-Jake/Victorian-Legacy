@@ -124,12 +124,7 @@ army_nation_modifier;Army Tradition Modifier;;;;;;;;;;;;;
 disabled_nation_traditions;Disable Nation Traditions;;;;;;;;;;;;;
 economic_thought_and_critique;National Ideas;;;;;;;;;;;;;
 early_classical_theory_and_critique;Unlock Province Selector;;;;;;;;;;;;;
-late_classical_theory;1st National Idea;;;;;;;;;;;;;
-collectivist_theory;2nd National Idea;;;;;;;;;;;;;
-the_historical_theory;3rd National Idea;;;;;;;;;;;;;
-neoclassical_theory;4th National Idea;;;;;;;;;;;;;
-keynesian_economics;5th National Idea;;;;;;;;;;;;;
-neoliberal_theory;6th National Idea;;;;;;;;;;;;;;
+farmland_unlocked;Farmland Unlock;;;;;;;;;;;;;
 neoliberal_theory;Neoliberal Theory;;;;;;;;;;;;;;
 keynesianism;Keynesianism;;;;;;;;;;;;;;
 modern_business_management;Modern Business Management;;;;;;;;;;;;;;
@@ -160,8 +155,8 @@ army_morale_idea;Army Morale National Idea;;;;;;;;;;;;;;
 army_morale_idea_desc;This effect is additive, e.g. if your army morale is 200%, this will raise it to 250%.;;;;;;;;;;;;;;
 army_organisation_idea;Army Organisation National Idea;;;;;;;;;;;;;;
 army_organisation_idea_desc;This effect is multiplicative. The max organization of a land unit is (base organization of unit + army organization from techs) * (1 + land organization). An infantry brigade has a base organization of 30, so without any techs researched the max org it will have with this modifier is (30 + 0) * (1 + 0.2) = 36.;;;;;;;;;;;;;;
-military_supplies;Military Supplies National Idea\n§WSupply Consumption §G-15%;;;;;;;;;;;;;;
-military_supplies_desc;This reduces supply consumption for all units by 15%.;;;;;;;;;;;;;;
+military_supplies;Military Supplies National Idea\n§WSupply Consumption §G-10%;;;;;;;;;;;;;;
+military_supplies_desc;This reduces supply consumption for all units by 10%.;;;;;;;;;;;;;;
 military_supplies_idea;Military Supplies National Idea;;;;;;;;;;;;;;
 military_supplies_idea_desc;This gives -15% Supply Consumption Bonus. For example, if the base supply consumption of your armies is increased to 200% from techs, this will lower it to 170%.;;;;;;;;;;;;;;
 military_hospitals_idea;Military Hospital Idea\n§WMilitary Hospitals: §G+10%;;;;;;;;;;;;;;
@@ -377,3 +372,26 @@ national_idea2_bar_done;National Idea 2 (Selected);;;;;;;;;;;;;x
 national_idea3_bar_done;National Idea 3 (Selected);;;;;;;;;;;;;x
 national_idea4_bar_done;National Idea 4 (Selected);;;;;;;;;;;;;x
 national_idea5_bar_done;National Idea 5 (Selected);;;;;;;;;;;;;x
+PROV3298;Tshushima;;;;;;;;;;;;;x
+zprovince_migration_title;§GMigration Attraction;;;;;;;;;x;;;;
+zprovince_migration_desc;Gives a large bonus to migration to the targeted province. This decision does not increase the chance of receiving immigrants from other countries, it only redirects them to the targetted province. If a province has more than 5% RGO unemployment then the modifier will stop working and should be reset.;;;;;;;;;x;;;;
+EVTDESC92101;§B1.§b Adds bonus interal migration attraction to province.\n§B2.§b Cancels bonus migration attraction to province.\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 50k per 100k POPs rounded up.\n§B5.§b Changes farm RGO. Adds a debuff for 15 years, costs 200k per 100k POPs in province rounded up.\n§B6.§b Changes mine RGO adds a cooldown when the rgo is changed. \n§B7.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n§B8.§b Convert Asian State to Colony.\n§B9.§b Resets province selector.;;;;;;;;;;;;;x
+EVTNAME91737;Agriculture RGO Change;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91737;Choose to change a province to the following RGO types.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTA;Change province to produce Wool.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTB;Change province to produce Fruit.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTC;Change province to produce Cotton.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTD;Change province to produce Cattle.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTE;Change province to produce Grain.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTH;Change province to produce Opium.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTJ;Change province to produce Silk.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTK;Change province to produce Tobacco.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTL;Change province to produce Fish.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTM;Change province to produce Timber.;;;;;;;;;;;;;;;;;;;;;;;x
+EVT91737OPTZ;I'd rather not change anything.;;;;;;;;;;;;;;;;;;;;;;;x
+changing_agriculture;Changing Agriculture;;;;;;;;;;;;;x
+capital_supply_depot;Capital Supply Depot\n§WCapital Supply Depots will not be destroyed unless the capital is moved somewhere else.;;;;;;;;;;;;;x
+supply_depot;Supply Depot;;;;;;;;;;;;;x
+supply_depot_destroyed;Supply Depot Recently Destroyed;;;;;;;;;;;;;x
+supply_depot_destroyed_desc;We require time to procure new supplies before we can build another supply depot.;;;;;;;;;;;;;x
+asia;Siberia;;;;;;;;;;;;;x

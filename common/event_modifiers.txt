@@ -1540,7 +1540,7 @@ navy_organisation_idea = {
 }
 
 navy_experience_idea = {
-	naval_unit_start_experience = 15
+	naval_unit_start_experience = 5
 	icon = 15
 }
 
@@ -1583,24 +1583,8 @@ domestic_idea = {
 }
 
 # National Idea progress bar
-national_idea_edge_left = {
-	icon = 50
-}
-
-national_idea_edge_right = {
-	icon = 51
-}
-
-national_idea_edge_left_done = {
-	icon = 53
-}
-
-national_idea_edge_right_done = {
-	icon = 54
-}
-
 national_idea1_bar_done = {
-	icon = 55
+	icon = 53
 }
 
 national_idea2_bar_done = {
@@ -1616,11 +1600,11 @@ national_idea4_bar_done = {
 }
 
 national_idea5_bar_done = {
-	icon = 55
+	icon = 54
 }
 
 national_idea1_bar = {
-	icon = 52
+	icon = 50
 }
 
 national_idea2_bar = {
@@ -1636,7 +1620,7 @@ national_idea4_bar = {
 }
 
 national_idea5_bar = {
-	icon = 52
+	icon = 51
 }
 
 ########## PROVINCE SELECTOR DECISIONS ##########

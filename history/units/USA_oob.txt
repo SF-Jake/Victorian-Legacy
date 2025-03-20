@@ -68,8 +68,8 @@ leader = {
 	picture = usa_gen_scott
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.4
 }
 
@@ -78,8 +78,8 @@ leader = {
 	picture = usa_gen_gaines
 	date = 1828.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 
@@ -88,8 +88,8 @@ leader = {
 	picture = usa_gen_macomb
 	date = 1812.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 
@@ -98,8 +98,8 @@ leader = {
 	picture = usa_gen_jesup
 	date = 1828.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 
@@ -108,8 +108,8 @@ leader = {
 	picture = usa_adm_perry
 	date = 1836.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 leader = {
@@ -117,8 +117,8 @@ leader = {
 	picture = usa_adm_conner
 	date = 1835.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 leader = {
@@ -126,8 +126,8 @@ leader = {
 	picture = usa_adm_stewart
 	date = 1816.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 
@@ -136,8 +136,8 @@ leader = {
 	picture = usa_adm_jones
 	date = 1821.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 
@@ -146,8 +146,8 @@ leader = {
 	picture = usa_adm_patterson
 	date = 1812.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 
@@ -156,23 +156,23 @@ leader = {
 	picture = usa_adm_hull
 	date = 1821.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
 	name = "James Biddle"
 	date = 1836.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Zachary Taylor"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 army = {
@@ -373,146 +373,72 @@ army = {
 }
 
 navy = {
-	name = "1st Squadron"
-	location = 222
+	name = "Navy 1"
+	location = 220
+
 	ship = {
-		name= "Franklin"
+		name = "USS Constitution"
 		type = manowar
+		home = 220
 	}
 
 	ship = {
-		name= "Pennsylvania"
+		name = "USS President"
 		type = manowar
+		home = 220
 	}
 
 	ship = {
-		name= "Washington"
+		name = "USS United States"
 		type = manowar
+		home = 220
 	}
 
 	ship = {
-		name= "Columbia"
+		name = "USS Congress"
+		type = manowar
+		home = 220
+	}
+
+	ship = {
+		name = "USS Constellation"
+		type = manowar
+		home = 220
+	}
+
+	ship = {
+		name = "USS Chesapeake"
+		type = manowar
+		home = 220
+	}
+
+	ship = {
+		name = "USS Philadelphia"
+		type = manowar
+		home = 220
+	}
+
+	ship = {
+		name = "USS Essex"
 		type = frigate
+		home = 220
 	}
 
 	ship = {
-		name= "Constellation"
+		name = "USS Adams"
 		type = frigate
-	}
-
-}
-
-navy = {
-	name = "2nd Squadron"
-	location = 248
-	ship = {
-		name= "Ohio"
-		type = manowar
+		home = 220
 	}
 
 	ship = {
-		name= "Hudson"
+		name = "USS John Adams"
 		type = frigate
+		home = 220
 	}
 
-}
-
-navy = {
-	name = "3rd Squadron"
-	location = 214
 	ship = {
-		name= "John Adams"
+		name = "USS Boston"
 		type = frigate
+		home = 220
 	}
-
-	ship = {
-		name= "United States"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "4th Squadron"
-	location = 219
-	ship = {
-		name= "Independance"
-		type = frigate
-	}
-
-	ship = {
-		name= "Brandywine"
-		type = frigate
-	}
-
-	ship = {
-		name= "Constitution"
-		type = frigate
-	}
-
-	ship = {
-		name= "Potomac"
-		type = frigate
-	}
-
-	ship = {
-		name= "'James McKay' Flotilla"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "1st Reserve Squadron"
-	location = 247
-	ship = {
-		name= "Alabama"
-		type = manowar
-	}
-
-	ship = {
-		name= "Vermont"
-		type = manowar
-	}
-
-	ship = {
-		name= "Virginia"
-		type = manowar
-	}
-
-	ship = {
-		name= "1st Reserve Transport"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "2nd Reserve Squadron"
-	location = 214
-	ship = {
-		name= "Columbus"
-		type = manowar
-	}
-
-	ship = {
-		name= "Delaware"
-		type = manowar
-	}
-
-	ship = {
-		name= "New York"
-		type = manowar
-	}
-
-	ship = {
-		name= "North Carolina"
-		type = manowar
-	}
-
-	ship = {
-		name= "2nd Reserve Transport"
-		type = clipper_transport
-	}
-
 }

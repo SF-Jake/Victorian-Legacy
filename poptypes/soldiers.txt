@@ -376,6 +376,13 @@ promote_to =
 
 	craftsmen = {
 		factor = 0.01
+
+		modifier = {
+			factor = -100
+			is_primary_culture = no
+			is_accepted_culture = no
+			country = { has_country_flag = disable_non_accepted_craftsmen }
+		}
 			modifier = {
 				factor = -5
 				not = { literacy = 0.1 }

@@ -3,6 +3,7 @@ political_decisions = {
 		alert = yes
 		picture = lightbulb_off
 		potential = {
+			has_country_flag = show_options_Y
 			NOT = {	has_country_flag = tech_school_change }
 			civilized = yes
 		}
@@ -31,6 +32,7 @@ political_decisions = {
 		alert = no
 		picture = lightbulb_on
 		potential = {
+			has_country_flag = show_options_Y
 			has_country_flag = tech_school_change
 		}
 		

@@ -221,12 +221,12 @@ rgo_change_mining_title;§YChange Mining RGO (State);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 rgo_change_mining_desc;Allows the switching of a single non-colonial RGO province of the following types: Coal, Iron, or Sulphur into Coal, Iron, or Sulphur. This Decision has a 5 year cooldown.\n\nShares cooldowns with §GChange Mining RGO (Colony);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 rgo_change_agriculture_title;§YChange Agriculture RGO (State);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 rgo_change_agriculture_desc;Allows the switching of a single non-colonial RGO province of the following types: Grain, Fruit, Fish, Cattle, Wool, Cotton, or Silk into Grain, Fruit, Fish, Cattle, Wool, Cotton, or Silk. This Decision has a 5 year cooldown.\n\nShares cooldowns with §GChange Agriculture RGO (Colony);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-EVTNAME199936;Mining RGO Change (State);;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-EVTDESC199936;Select one of the following Goods you would like to replace an existing RGO with!\n[§GNOTE§b]: Cool down is 5 years for every option and 1 year for not choosing.\n\n\n\n§RIMPORTANT\n\n§RMouse over each option to see what province is being targeted.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-EVTNAME199938;Mining RGO Change (Colony);;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-EVTDESC199938;Select one of the following Goods you would like to replace an existing RGO with!\n[§GNOTE§b]: Cool down is 5 years for every option and 1 year for not choosing.\n\n\n\n§RIMPORTANT\n\n§RMouse over each option to see what province is being targeted.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-EVTNAME199939;Agriculture RGO Change (Colony);;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-EVTDESC199939;Select one of the following Goods you would like to replace an existing RGO with!\n[§GNOTE§b]: Cool down is 5 years for every option and 1 year for not choosing.\n\n\n\n§RIMPORTANT\n\n§RMouse over each option to see what province is being targeted.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME199936;Mining RGO Change;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC199936;Select one of the following Goods you would like to replace an existing RGO with!\n[§GNOTE§b]: Cool down is 5 years for every option.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME199938;Mining RGO Change;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC199938;Select one of the following Goods you would like to replace an existing RGO with!\n[§GNOTE§b]: Cool down is 5 years for every option.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME199939;Agriculture RGO Change;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC199939;Select one of the following Goods you would like to replace an existing RGO with!\n[§GNOTE§b]: Cool down is 5 years for every option.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT199936OPTA;Coal;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT199936OPTB;Iron;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVT199936OPTC;Sulphur;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -436,9 +436,9 @@ usa_sphere_jap_title;Ask the United States for Support;;;;;;;;;;;;;;x
 usa_sphere_jap_desc;Clearly we cannot trust other interests in Asia, but we can't fuel this machine on good will. There appears to be a budding nation across the Pacific... they may be able to provide us with markets in our time of need. (Decision only available in 1836);;;;;;;;;;;;;;x
 rus_sphere_jap_title;Ask Russian Empire for Support;;;;;;;;;;;;;;x
 rus_sphere_jap_desc;If our interests are in China, then surely allying ourselves with the next best thing to overcome her would be the right course of action. (Decision only available in 1836);;;;;;;;;;;;;;x
-change_tech_school_on_title;Change Tech School (Hidden);;;;;;;;;;;;;;x
+change_tech_school_on_title;§YChange Tech School (Hidden);;;;;;;;;;;;;;x
 change_tech_school_on_desc;Show Tech School Decisions;;;;;;;;;;;;;;x
-change_tech_school_off_title;Change Tech School (Showing);;;;;;;;;;;;;;x
+change_tech_school_off_title;§YChange Tech School (Showing);;;;;;;;;;;;;;x
 change_tech_school_off_desc;Hide Tech School Decisions\n\nNote: If you don't see any options, scroll down in your decisions menu to see options that are currently unavailable to you.;;;;;;;;;;;;;;x
 player_alliances_title;Ally All Player Nations;;;;;;;;;;;;;;x
 player_alliances_desc;Automatically allies all player nations. DO NOT SPAM.;;;;;;;;;;;;;;x

@@ -9,8 +9,8 @@ leader = {
 	picture = sar_gen_carloalberto
 	date = 1831.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.5
 }
 leader = {
@@ -18,8 +18,8 @@ leader = {
 	picture = sar_gen_pes
 	date = 1820.11.20
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -27,8 +27,8 @@ leader = {
 	picture = sar_gen_bava
 	date = 1832.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -36,32 +36,32 @@ leader = {
 	picture = sar_gen_gerbaixettore
 	date = 1834.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Giuseppe Albini"
 	picture = sar_adm_albini
 	date = 1836.1.1 #1838 but they need an admiral
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Antonio Franzini"
 	picture = sar_gen_franzini
 	date = 1836.1.1 #1839
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 leader = {
 	name = "Agostino Chiodo"
 	picture = sar_gen_chiodo
 	date = 1836.1.1 #1839
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 
@@ -130,42 +130,36 @@ army = {
 }
 
 navy = {
-	name = "Armata di Mare"
+	name = "Regia Marina"
 	location = 724
+
 	ship = {
-		name= "Beraldo"
-		type = frigate
+		name = "Re Galantuomo"
+		type = manowar
+		home = 724
 	}
 
 	ship = {
-		name= "Haute Combe"
+		name = "Principe di Carignano"
 		type = frigate
+		home = 724
 	}
 
 	ship = {
-		name= "Carlo Felice"
-		type = frigate
-	}
-
-	ship = {
-		name= "Regina"
-		type = frigate
-	}
-
-	ship = {
-		name= "1a Squadrone Transporti"
+		name = "Conte Verde"
 		type = clipper_transport
+		home = 724
 	}
 
 	ship = {
-		name= "2a Squadrone Transporti"
+		name = "Conte Rosso"
 		type = clipper_transport
+		home = 724
 	}
 
 	ship = {
-		name= "3a Squadrone Transporti"
+		name = "Conte Bianco"
 		type = clipper_transport
+		home = 724
 	}
-
 }
-

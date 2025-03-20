@@ -3,8 +3,8 @@ leader = {
 	picture = net_gen_chasse
 	date = 1806.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -12,8 +12,8 @@ leader = {
 	picture = net_gen_kock
 	date = 1807.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -21,8 +21,8 @@ leader = {
 	picture = net_gen_eerens
 	date = 1815.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -30,8 +30,8 @@ leader = {
 	picture = net_gen_prinswillem
 	date = 1815.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -39,8 +39,8 @@ leader = {
 	picture = net_gen_hertogkarelbernhard
 	date = 1815.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.3
 }
 leader = {
@@ -48,8 +48,8 @@ leader = {
 	picture = net_gen_prinsfrederik
 	date = 1825.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -57,8 +57,8 @@ leader = {
 	picture = net_gen_duycker
 	date = 1827.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -66,8 +66,8 @@ leader = {
 	picture = net_gen_bosch
 	date = 1827.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.2
 }
 leader = {
@@ -75,8 +75,8 @@ leader = {
 	picture = net_gen_cochius
 	date = 1830.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -84,8 +84,8 @@ leader = {
 	picture = net_gen_list
 	date = 1830.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -93,8 +93,8 @@ leader = {
 	picture = net_adm_lucas
 	date = 1830.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -102,8 +102,8 @@ leader = {
 	picture = net_gen_nepveu
 	date = 1831.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 	prestige = 0.1
 }
 leader = {
@@ -111,8 +111,8 @@ leader = {
 	picture = net_adm_rijk
 	date = 1836.1.1
 	type = sea
-	personality = defence_1.1
-	background = attack_1.1
+	personality = mor10_1
+	background = 1a1d_1
 }
 
 army = {
@@ -287,230 +287,115 @@ army = {
 
 navy = {
 	name = "Koninklijke Marine"
-	location = 376 #Amsterdam
+	location = 376
 	ship = {
-		name= "Doggersbank"
+		name = "De Ruyter"
 		type = manowar
+		home = 376
 	}
-
 	ship = {
-		name= "Amsterdam"
+		name = "Tromp"
 		type = manowar
+		home = 376
 	}
-
 	ship = {
-		name= "Maria Regensbergen"
+		name = "Van Speijk"
 		type = frigate
+		home = 376
 	}
-
 	ship = {
-		name= "Pallas"
-		type = frigate
-	}
-
-	ship = {
-		name= "Proserpine"
-		type = frigate
-	}
-
-	ship = {
-		name= "Daphne"
-		type = frigate
-	}
-
-	ship = {
-		name= "Espion"
-		type = frigate
-	}
-
-	ship = {
-		name= "Zeepaard"
-		type = frigate
-	}
-
-	ship = {
-		name= "Irene"
-		type = frigate
-	}
-
-	ship = {
-		name= "Orpheus"
-		type = frigate
-	}
-
-
-	ship = {
-		name= "1e Transport Eskader"
+		name = "Batavia"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "Admiraal Generaal"
-		type = manowar
-	}
-
-	ship = {
-		name= "Diana"
-		type = frigate
-	}
-
-	ship = {
-		name= "Hoop"
-		type = frigate
-	}
-
-	ship = {
-		name= "3e Transport Eskader"
+		name = "Hollandia"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "Admiraal de Ruyter"
-		type = manowar
-	}
-
-	ship = {
-		name= "Verwachting"
-		type = manowar
-	}
-	
-	ship = {
-		name= "Verwachting"
-		type = manowar
-	}
-	
-	ship = {
-		name= "Verwachting"
-		type = manowar
-	}
-	
-	ship = {
-		name= "Verwachting"
-		type = manowar
-	}
-	
-	ship = {
-		name= "Verwachting"
-		type = manowar
-	}
-	
-	ship = {
-		name= "Verwachting"
-		type = manowar
-	}
-
-	ship = {
-		name= "Aurora"
-		type = frigate
-	}
-
-	ship = {
-		name= "Iris"
-		type = frigate
-	}
-
-	ship = {
-		name= "Fenix"
-		type = frigate
-	}
-
-	ship = {
-		name= "Eendracht"
-		type = frigate
-	}
-	
-	ship = {
-		name= "Eendracht"
-		type = frigate
-	}
-
-	ship = {
-		name= "2e Transport Eskader"
+		name = "Zeelandia"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Utrecht"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Gelderland"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Friesland"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Overijssel"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Groningen"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Drenthe"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Limburg"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Flevoland"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Noord-Holland"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Zuid-Holland"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Noord-Brabant"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Zeeland"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Utrecht"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Gelderland"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Friesland"
 		type = clipper_transport
+		home = 376
 	}
-	
 	ship = {
-		name= "2e Transport Eskader"
+		name = "Overijssel"
 		type = clipper_transport
-	}
-	
-	ship = {
-		name= "2e Transport Eskader"
-		type = clipper_transport
+		home = 376
 	}
 }

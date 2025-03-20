@@ -356,83 +356,83 @@ release_vassals = {
 # 							IDEOLOGY									#
 #########################################################################
 
-	zcountry_liberal_change_ideology = {
-		picture = ideology
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			NOT = { is_ideology_enabled = anarcho_liberal }
-			ai = no
-		}	
-		allow = {
-		}
-		effect = {
-			country_event = { id = 91699 days = 0 }
-		}
-	}
+	# zcountry_liberal_change_ideology = {
+	# 	picture = ideology
+	# 	alert = no
+	# 	potential = {
+	# 		has_country_flag = show_options_Y
+	# 		NOT = { is_ideology_enabled = anarcho_liberal }
+	# 		ai = no
+	# 	}	
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		country_event = { id = 91699 days = 0 }
+	# 	}
+	# }
 		
-	zcountry_anarcho_liberal_change_ideology = {
-		picture = ideology
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			ai = no
-			is_ideology_enabled = anarcho_liberal
-			NOT = { is_ideology_enabled = socialist }
-		}	
-		allow = {
-		}
-		effect = {
-			country_event = { id = 91700 days = 0 }
-		}
-	}
+	# zcountry_anarcho_liberal_change_ideology = {
+	# 	picture = ideology
+	# 	alert = no
+	# 	potential = {
+	# 		has_country_flag = show_options_Y
+	# 		ai = no
+	# 		is_ideology_enabled = anarcho_liberal
+	# 		NOT = { is_ideology_enabled = socialist }
+	# 	}	
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		country_event = { id = 91700 days = 0 }
+	# 	}
+	# }
 		
-	zcountry_socialist_change_ideology = {
-		picture = ideology
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			ai = no
-			is_ideology_enabled = socialist
-			NOT = { is_ideology_enabled = communist }
-		}	
-		allow = {
-		}
-		effect = {
-			country_event = { id = 91701 days = 0 }
-		}
-	}
+	# zcountry_socialist_change_ideology = {
+	# 	picture = ideology
+	# 	alert = no
+	# 	potential = {
+	# 		has_country_flag = show_options_Y
+	# 		ai = no
+	# 		is_ideology_enabled = socialist
+	# 		NOT = { is_ideology_enabled = communist }
+	# 	}	
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		country_event = { id = 91701 days = 0 }
+	# 	}
+	# }
 		
-	zcountry_communist_change_ideology = {
-		picture = ideology
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			ai = no
-			is_ideology_enabled = communist
-			NOT = { is_ideology_enabled = fascist }
-		}	
-		allow = {
-		}
-		effect = {
-			country_event = { id = 91702 days = 0 }
-		}
-	}
+	# zcountry_communist_change_ideology = {
+	# 	picture = ideology
+	# 	alert = no
+	# 	potential = {
+	# 		has_country_flag = show_options_Y
+	# 		ai = no
+	# 		is_ideology_enabled = communist
+	# 		NOT = { is_ideology_enabled = fascist }
+	# 	}	
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		country_event = { id = 91702 days = 0 }
+	# 	}
+	# }
 
-	zcountry_fascist_change_ideology = {
-		picture = ideology
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			ai = no
-			is_ideology_enabled = fascist
-		}	
-		allow = {
-		}
-		effect = {
-			country_event = { id = 91703 days = 0 }
-		}
-	}
+	# zcountry_fascist_change_ideology = {
+	# 	picture = ideology
+	# 	alert = no
+	# 	potential = {
+	# 		has_country_flag = show_options_Y
+	# 		ai = no
+	# 		is_ideology_enabled = fascist
+	# 	}	
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		country_event = { id = 91703 days = 0 }
+	# 	}
+	# }
 	
 #########################################################################
 # 							PASS REFORM									#

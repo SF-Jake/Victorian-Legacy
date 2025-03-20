@@ -87,10 +87,11 @@ post_nelsonian_thought = {
 }
 battleship_column_doctrine = {
 	area = naval_doctrine
-	year = 1836
+	year = 1840
 	cost = 7200
 	unciv_military = yes
 	max_naval_base = 1
+	activate_building = steamer_shipyard 
 	#colonial_points = 200 #no free lunch!
 
 
@@ -427,7 +428,9 @@ modern_naval_doctrine = {
 	year = 1914
 	cost = 21600
 	unciv_military = yes
-	max_naval_base = 1
+	navy_base = {
+		evasion = 0.05
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -504,7 +507,6 @@ clipper_design = {
 	year = 1836
 	cost = 3600
 	unciv_military = yes
-	activate_building = clipper_shipyard 
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -585,10 +587,9 @@ clipper_design = {
 }
 steamers = {
 	area = ship_construction
-	year = 1836
+	year = 1840
 	cost = 7200
 	unciv_military = yes
-	activate_building = steamer_shipyard 
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -672,7 +673,6 @@ iron_steamers = {
 	year = 1860
 	cost = 10800
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 }
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -917,6 +917,10 @@ oil_driven_ships = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
+	dreadnought = {
+		gun_power = 20
+		hull = 15
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -996,7 +1000,10 @@ naval_design_bureaus = {
 	area = naval_engineering
 	year = 1836
 	cost = 3600
-	navy_base = { build_time = -10 }
+	navy_base = {
+		default_organisation = 12
+		build_time = 5
+	}
 	unciv_military = yes
 	ai_chance = {
 		factor = 1
@@ -1083,7 +1090,10 @@ fire_control_systems = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+	navy_base = {
+		default_organisation = 12
+		build_time = 5
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1167,10 +1177,13 @@ fire_control_systems = {
 
 weapon_platforms = {
 	area = naval_engineering
-	year = 1855
+	year = 1860
 	cost = 10800
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+	navy_base = {
+		default_organisation = 12
+		build_time = 5
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1256,7 +1269,10 @@ main_armament = {
 	year = 1880
 	cost = 14400
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+	navy_base = {
+		default_organisation = 12
+		build_time = 5
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1347,7 +1363,10 @@ advanced_naval_design = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+	navy_base = {
+		default_organisation = 12
+		build_time = 5
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1433,7 +1452,10 @@ modern_naval_design = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
-	navy_base = { build_time = -10 }
+	navy_base = {
+		default_organisation = 12
+		build_time = 5
+	}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1517,7 +1539,14 @@ alphabetic_flag_signaling = {
 	cost = 3600
 	unciv_military = yes
 	supply_range = 0.10
-	
+	navy_base = { build_time = -10 }
+	factory_goods_output = {
+		artillery = 0.01
+		clipper_convoy = 0.1
+	}
+	rgo_goods_output = {
+		fish = 0.25
+	}
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -1560,7 +1589,14 @@ naval_plans = {
 	cost = 7200
 	unciv_military = yes
 	supply_range = 0.10
-	
+	navy_base = { build_time = -10 }
+	factory_goods_output = {
+		artillery = 0.01
+		steamer_convoy = 0.1
+	}
+	rgo_goods_output = {
+		fish = 0.25
+	}	
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -1609,10 +1645,16 @@ naval_plans = {
 }
 naval_statistics = {
 	area = naval_science
-	year = 1850
+	year = 1860
 	cost = 10800
 	unciv_military = yes
 	supply_range = 0.10
+	navy_base = { build_time = -10 }
+	factory_goods_output = {
+		artillery = 0.02
+		clipper_convoy  = 0.04
+		steamer_convoy = 0.02
+	}
 		ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -1661,10 +1703,16 @@ naval_statistics = {
 }
 naval_logistics = {
 	area = naval_science
-	year = 1870
+	year = 1880
 	cost = 14400
 	unciv_military = yes
 	supply_range = 0.10
+	navy_base = { build_time = -10 }
+	factory_goods_output = {
+		artillery = 0.02
+		clipper_convoy  = 0.02
+		steamer_convoy = 0.02
+	}
 		ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -1717,6 +1765,12 @@ naval_directionism = {
 	cost = 18000
 	unciv_military = yes
 	supply_range = 0.10
+	navy_base = { build_time = -10 }
+	factory_goods_output = {
+		artillery = 0.02
+		clipper_convoy  = 0.02
+		steamer_convoy = 0.02
+	}
 		ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -1759,6 +1813,12 @@ naval_integration = {
 	cost = 21600
 	unciv_military = yes
 	supply_range = 0.10
+	navy_base = { build_time = -10 }
+	factory_goods_output = {
+		artillery = 0.02
+		clipper_convoy  = 0.02
+		steamer_convoy = 0.02
+	}
 		ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -1812,7 +1872,17 @@ the_command_principle = {
 	cost = 3600
 	unciv_military = yes
 	navy_base = {
-		default_organisation = 10
+		supply_consumption = 0.10
+		hull = 5
+		gun_power = 5
+	}
+	steam_transport = {
+		hull = -5
+		gun_power = -5
+	}
+	clipper_transport = {
+		hull = -5
+		gun_power = -5
 	}
 	ai_chance = {
 		factor = 1
@@ -1895,7 +1965,17 @@ naval_professionalism = {
 	cost = 7200
 	unciv_military = yes
 	navy_base = {
-		default_organisation = 10
+		supply_consumption = 0.10
+		hull = 5
+		gun_power = 5
+	}
+	steam_transport = {
+		hull = -5
+		gun_power = -5
+	}
+	clipper_transport = {
+		hull = -5
+		gun_power = -5
 	}
 	ai_chance = {
 		factor = 1
@@ -1988,7 +2068,17 @@ naval_decision_making = {
 	cost = 10800
 	unciv_military = yes
 	navy_base = {
-		default_organisation = 10
+		supply_consumption = 0.10
+		hull = 5
+		gun_power = 5
+	}
+	steam_transport = {
+		hull = -5
+		gun_power = -5
+	}
+	clipper_transport = {
+		hull = -5
+		gun_power = -5
 	}
 	ai_chance = {
 		factor = 1
@@ -2081,7 +2171,17 @@ naval_risk_management = {
 	cost = 14400
 	unciv_military = yes
 	navy_base = {
-		default_organisation = 10
+		supply_consumption = 0.10
+		hull = 5
+		gun_power = 5
+	}
+	steam_transport = {
+		hull = -5
+		gun_power = -5
+	}
+	clipper_transport = {
+		hull = -5
+		gun_power = -5
 	}
 	ai_chance = {
 		factor = 1
@@ -2174,7 +2274,17 @@ naval_nco_training = {
 	cost = 18000
 	unciv_military = yes
 	navy_base = {
-		default_organisation = 10
+		supply_consumption = 0.10
+		hull = 5
+		gun_power = 5
+	}
+	steam_transport = {
+		hull = -5
+		gun_power = -5
+	}
+	clipper_transport = {
+		hull = -5
+		gun_power = -5
 	}
 	ai_chance = {
 		factor = 1
@@ -2257,7 +2367,17 @@ modern_naval_training = {
 	cost = 21600
 	unciv_military = yes
 	navy_base = {
-		default_organisation = 10
+		supply_consumption = 0.10
+		hull = 5
+		gun_power = 5
+	}
+	steam_transport = {
+		hull = -5
+		gun_power = -5
+	}
+	clipper_transport = {
+		hull = -5
+		gun_power = -5
 	}
 	ai_chance = {
 		factor = 1

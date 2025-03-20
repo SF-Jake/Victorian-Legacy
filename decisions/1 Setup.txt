@@ -3,28 +3,94 @@ political_decisions = {
 		potential = {
 			tag = JAN
 			NOT = { has_global_flag = global_1836_setup }
-			NOT = { has_global_flag = 1913_bookmark }
 		}
 		allow = {
 		}
 		effect = {
+			country_event = { id = 91600 days = 1 }
 			set_country_flag = jan_mayen
 			set_global_flag = global_1836_setup
 			set_country_flag = banker_income_timer
-			VNZ = {	set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
-			CLM = {	set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
-			ECU = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
-			PBC = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
-			BRZ = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
-			ARG = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
-			PRG = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
-			URU = { set_country_flag = south_american_immigrant_nation set_country_flag = new_world_nation }
-			USA = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
-			MEX = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
-			UCA = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
-			COM = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
-			TEX = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
-			HAI = { set_country_flag = north_american_immigrant_nation set_country_flag = new_world_nation }
+			any_country = {
+				limit = { ai = no }
+				activate_technology = early_classical_theory_and_critique
+			}
+			any_country = {
+				political_reform = no_draft
+			}
+			any_country = {
+				limit = { NOT = { literacy = 0.1 } }
+				political_reform = no_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 0.1 
+					NOT = { literacy = 0.2 }
+				}
+				political_reform = rudimentary_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 0.2 
+					NOT = { literacy = 0.3 }
+				}
+				political_reform = very_low_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 0.3 
+					NOT = { literacy = 0.4 }
+				}
+				political_reform = low_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 0.4 
+					NOT = { literacy = 0.5 }
+				}
+				political_reform = basic_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 0.5 
+					NOT = { literacy = 0.6 }
+				}
+				political_reform = moderate_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 0.6 
+					NOT = { literacy = 0.7 }
+				}
+				political_reform = acceptable_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 0.7 
+					NOT = { literacy = 0.8 }
+				}
+				political_reform = good_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 0.8 
+					NOT = { literacy = 0.9 }
+				}
+				political_reform = very_good_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 0.9 
+					NOT = { literacy = 1.0 }
+				}
+				political_reform = advanced_rnd
+			}
+			any_country = {
+				limit = { 
+					literacy = 1.0
+				}
+				political_reform = futuristic_rnd
+			}
 			add_country_modifier = { name = banker_income_timer duration = 5 }
 			ENG = {
 				add_country_modifier = { name = uk_nation_modifier duration = -1 }

@@ -28,6 +28,7 @@ political_decisions = {
         picture = unite_the_principalities
 		potential = {
             ai = no
+            has_country_flag = show_options_Y
             NOT = { has_country_modifier = bureaucrats_fix_cooldown }
         }
         allow = {

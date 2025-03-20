@@ -348,18 +348,18 @@ ddt = {
 }
 
 #Brixham Trawlers
-brixham_trawlers = {
-	limit = { clipper_design = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 5
-			invention = building_station_shipyards	
-		}
-	}
-	effect = {
-		rgo_goods_throughput = {
-			fish = 0.25
-		}
-	}
-}
+# brixham_trawlers = {
+# 	limit = { clipper_design = 1 }
+# 	chance = {
+# 		base = 5
+# 		modifier = {
+# 			factor = 5
+# 			invention = building_station_shipyards	
+# 		}
+# 	}
+# 	effect = {
+# 		rgo_goods_throughput = {
+# 			fish = 0.25
+# 		}
+# 	}
+# }

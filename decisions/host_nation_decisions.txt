@@ -64,6 +64,103 @@ political_decisions = {
 			factor = 0
 		}
 	}
+	option_1_disable_albania_crossing = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = {
+				month = 1 
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_nation
+			NOT = { has_global_flag = disable_ablania_crossing }
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_global_flag = disable_ablania_crossing
+		}
+	}
+	option_1_enable_albania_crossing = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { 
+				month = 1
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+				month = 12
+				year = 1837
+			}
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_nation
+			has_global_flag = disable_ablania_crossing
+		}
+		allow = {
+			
+		}
+		effect = {
+			clr_global_flag = disable_ablania_crossing
+		}
+	}
+	option_2_enable_crisis = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_nation
+			NOT = { has_global_flag =  disable_crisis }
+		}
+		allow = {
+		}
+		effect = {
+			set_global_flag = disable_crisis
+			clr_global_flag = enable_crisis
+			JAN = {
+				country_event = 1000002123
+			}
+		}
+	}
+	option_2_disable_crisis = {
+		alert = no
+		potential = {
+			ai = no
+			has_global_flag = disable_crisis
+			has_country_flag = host_nation
+			has_country_flag = showing_host_decisions
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_global_flag = enable_crisis
+			clr_global_flag = disable_crisis
+			JAN = {
+				country_event = 1000001123
+			}
+		}
+	}
 	show_host_decisions = {
 		picture = host
 		potential = {
