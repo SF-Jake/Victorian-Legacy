@@ -336,21 +336,21 @@ zcountry_increase_healthcare = {
 #########################################################################
 # 								RELEASE VASSALS							#
 #########################################################################
-release_vassals = {
-	alert = no
-	picture = gtfo
-	potential = {
-		has_country_flag = show_options_Y
-		ai = no
-		num_of_vassals = 1
-	}
-	allow = {
-		civilized = yes
-	}
-	effect = {
-		country_event = { id = 91306 days = 0 }
-	}
-}
+# release_vassals = {
+# 	alert = no
+# 	picture = gtfo
+# 	potential = {
+# 		has_country_flag = show_options_Y
+# 		ai = no
+# 		num_of_vassals = 1
+# 	}
+# 	allow = {
+# 		civilized = yes
+# 	}
+# 	effect = {
+# 		country_event = { id = 91306 days = 0 }
+# 	}
+# }
 
 #########################################################################
 # 							IDEOLOGY									#
@@ -449,10 +449,7 @@ release_vassals = {
 		allow = {
 			civilized = yes
 			NOT = {
-				OR = {
-					has_country_modifier = reform_passed
-					has_country_modifier = cannot_pass_reform
-				}
+				has_country_modifier = reform_passed
 			}
 		}
 
@@ -692,49 +689,49 @@ release_vassals = {
 #########################################################################
 # 								FAKE WAR								#
 #########################################################################
-	fake_war = {
-		picture = fake_war
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			ai = no
-			num_of_vassals = 1
-			is_vassal = no
-		}
-		allow = {
-			NOT = { war_with = FWR }
-		}
-		effect = {
-			FWR = {
-				war = {
-					target = THIS
-					attacker_goal = { casus_belli = status_quo }
-				}
-			}
-		}
-	}
+	# fake_war = {
+	# 	picture = fake_war
+	# 	alert = no
+	# 	potential = {
+	# 		has_country_flag = show_options_Y
+	# 		ai = no
+	# 		num_of_vassals = 1
+	# 		is_vassal = no
+	# 	}
+	# 	allow = {
+	# 		NOT = { war_with = FWR }
+	# 	}
+	# 	effect = {
+	# 		FWR = {
+	# 			war = {
+	# 				target = THIS
+	# 				attacker_goal = { casus_belli = status_quo }
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	end_fake_war = {
-		picture = fake_war
-		potential = {
-			OR = {
-				AND = {
-					ai = no
-					war_with = FWR
-				}
-				AND = {
-					ai = yes
-					war_with = FWR
-					is_vassal = no
-				}
-			}
-		}
-		allow = {
-		}
-		effect = {
-			end_war = FWR
-		}
-	}
+	# end_fake_war = {
+	# 	picture = fake_war
+	# 	potential = {
+	# 		OR = {
+	# 			AND = {
+	# 				ai = no
+	# 				war_with = FWR
+	# 			}
+	# 			AND = {
+	# 				ai = yes
+	# 				war_with = FWR
+	# 				is_vassal = no
+	# 			}
+	# 		}
+	# 	}
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		end_war = FWR
+	# 	}
+	# }
 
 #########################################################################
 # 							Sphere Me Please  							#
@@ -838,10 +835,10 @@ missalaneous_jan = {
 		}
 		any_country = {
 			limit = {
-				trench_systems = 1
+				infiltration = 1
 				bolt_action_rifles = 1
 				indirect_artillery_fire = 1
-				aeronautics = 1
+				military_directionism = 1
 				army_nco_training = 1
 				NOT = { army_row_completion5 = 1 }
 			}
@@ -849,25 +846,14 @@ missalaneous_jan = {
 		}
 		any_country = {
 			limit = {
-				infiltration = 1
-				chemical_weapons = 1
-				creeping_barrage = 1
-				barrel_experiments = 1
+				modern_army_doctrine = 1
+				modern_divisional_structure = 1
+				heavy_armament_dunno = 1
+				aeronautics = 1
 				great_war_experience = 1
 				NOT = { army_row_completion6 = 1 }
 			}
 			activate_technology = army_row_completion6
-		}
-		any_country = {
-			limit = {
-				modern_army_doctrine = 1
-				modern_divisional_structure = 1
-				railway_gun = 1
-				combined_arms_experiments = 1
-				total_war_philosophy = 1
-				NOT = { army_row_completion7 = 1 }
-			}
-			activate_technology = army_row_completion7
 		}
 		any_country = {
 			limit = {
@@ -938,17 +924,6 @@ missalaneous_jan = {
 			activate_technology = commerce_row_completion6
 		}
 		any_country = {
-			limit = { 
-				modern_financial_institutions = 1
-				fiat_based_monetary_system = 1
-				neoliberal_theory = 1
-				monetarism = 1
-				modern_business_management = 1
-				NOT = { commerce_row_completion7 = 1 }
-			}
-			activate_technology = commerce_row_completion7
-		}
-		any_country = {
 			limit = {
 				classicism_n_early_romanticism = 1
 				late_enlightenment_philosophy = 1
@@ -976,7 +951,7 @@ missalaneous_jan = {
 				empiricism = 1
 				functionalism = 1
 				state_n_government = 1
-				phenomenalism = 1
+				experimental_psychology = 1
 				NOT = { culture_row_completion3 = 1 }
 			}
 			add_country_modifier = { name = culture_row_completion2 duration = -1 }
@@ -988,7 +963,7 @@ missalaneous_jan = {
 				analytic_philosophy = 1
 				biologism = 1
 				nationalism_n_imperialism = 1
-				experimental_psychology = 1
+				psychological_intelligence = 1
 				NOT = { culture_row_completion4 = 1 }
 			}
 			activate_technology = culture_row_completion4
@@ -1017,19 +992,8 @@ missalaneous_jan = {
 		}
 		any_country = {
 			limit = {
-				modernism = 1
-				quantum_mechanics = 1
-				critical_theory = 1
-				government_mobilization = 1
-				humanistic_psychology = 1
-				NOT = { culture_row_completion7 = 1 }
-			}
-			activate_technology = culture_row_completion7
-		}
-		any_country = {
-			limit = {
 				water_wheel_power = 1
-				industrial_revolution = 1
+				publishing_industry = 1
 				mechanized_mining = 1
 				experimental_railroad = 1
 				basic_chemistry = 1
@@ -1094,18 +1058,6 @@ missalaneous_jan = {
 		}
 		any_country = {
 			limit = {
-				modern_power_generation = 1
-				mechanized_manufacturing = 1
-				modern_metallurgy = 1
-				modern_infrastructure = 1
-				modern_chemistry = 1
-				NOT = { industry_row_completion7 = 1 }
-			}
-			add_country_modifier = { name = industry_row_completion6 duration = -1 }
-			activate_technology = industry_row_completion7
-		}
-		any_country = {
-			limit = {
 				post_nelsonian_thought = 1
 				clipper_design = 1
 				naval_design_bureaus = 1
@@ -1161,108 +1113,14 @@ missalaneous_jan = {
 		}
 		any_country = {
 			limit = {
-				early_modern_naval_doctrine = 1
+				modern_naval_doctrine = 1
 				oil_driven_ships = 1
-				early_modern_naval_design = 1
+				modern_naval_design = 1
 				naval_integration = 1
-				early_modern_naval_training = 1
+				modern_naval_training = 1
 				NOT = { navy_row_completion6 = 1 }
 			}
 			activate_technology = navy_row_completion6
-		}
-		any_country = {
-			limit = {
-				modern_naval_doctrine = 1
-				aircraft_carriers = 1
-				modern_naval_design = 1
-				naval_aviation = 1
-				modern_naval_training = 1
-				NOT = { navy_row_completion7 = 1 }
-			}
-			activate_technology = navy_row_completion7
-		}
-		any_country = {
-			limit = {
-				ai = no
-				battleship_column_doctrine = 1
-				has_country_flag = battleship_column_doctrine_invented
-				NOT = { raider_group_doctrine = 1 }
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = built_naval_base
-				}
-				naval_base = 3
-			}
-		}
-		any_country = {
-			limit = {
-				ai = no
-				raider_group_doctrine = 1
-				has_country_flag = raider_group_doctrine_invented
-				NOT = { blue_and_brown_water_schools = 1 }
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = built_naval_base
-				}
-				naval_base = 4
-			}
-		}
-		any_country = {
-			limit = {
-				ai = no
-				blue_and_brown_water_schools = 1
-				has_country_flag = blue_and_brown_water_schools_invented
-				NOT = { high_sea_battle_fleet = 1 }
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = built_naval_base
-				}
-				naval_base = 5
-			}
-		}
-		any_country = {
-			limit = {
-				ai = no
-				high_sea_battle_fleet = 1
-				has_country_flag = high_sea_battle_fleet_invented
-				NOT = { early_modern_naval_doctrine = 1 }
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = built_naval_base
-				}
-				naval_base = 6
-			}
-		}
-		any_country = {
-			limit = {
-				ai = no
-				early_modern_naval_doctrine = 1
-				has_country_flag = early_modern_naval_doctrine_invented
-				NOT = { modern_naval_doctrine = 1 }
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = built_naval_base
-				}
-				naval_base = 7
-			}
-		}
-		any_country = {
-			limit = {
-				ai = no
-				modern_naval_doctrine = 1
-				has_country_flag = modern_naval_doctrine_invented
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = built_naval_base
-				}
-				naval_base = 8
-			}
 		}
 	}
 }

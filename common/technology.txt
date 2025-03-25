@@ -60,8 +60,7 @@ folders = {
 
 
 schools ={
-	traditional_academic = 
-	{
+	traditional_academic = {
 		army_tech_research_bonus = 0
 		commerce_tech_research_bonus = 0
 		culture_tech_research_bonus = 0
@@ -69,8 +68,7 @@ schools ={
 		navy_tech_research_bonus = 0
 	}
 	
-	army_tech_school = 
-	{
+	army_tech_school = {
 		army_tech_research_bonus = 0.15
 		commerce_tech_research_bonus = 0
 		culture_tech_research_bonus = -0.1

@@ -595,6 +595,7 @@ cheap_iron = {
 	area = metallurgy
 	year = 1836
 	cost = 10800
+	max_mines = 1
 	rgo_goods_throughput = {
 		coal = 0.1
 	}
@@ -647,6 +648,7 @@ cheap_steel = {
 	area = metallurgy
 	year = 1850
 	cost = 14400
+	max_mines = 1
 	rgo_goods_throughput = {
 		coal = 0.15
 	}
@@ -697,6 +699,7 @@ advanced_metallurgy = {
 	year = 1870
 	cost = 18000
 
+	max_mines = 1
 	rgo_goods_throughput = {
 		sulphur = 0.25
 	}
@@ -753,6 +756,7 @@ electric_furnace = {
 	year = 1900
 	cost = 21600
 
+	max_mines = 1
 	factory_goods_output = {
 		steel = 0.05 
 	}

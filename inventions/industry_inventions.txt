@@ -924,9 +924,136 @@ stainless_steel = {
 		}
 	}
 }
+#experimental_railroad
+market_squares = {
+	limit = { experimental_railroad = 1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 3
+			freedom_of_trade = 1
+		}
+		modifier = {
+			factor = 3
+			guild_based_production = 1
+		}
+	}
+	effect = {
+		activate_building = urban_center 
+	}
+}
 #early_railroad
+gas_streetlights = {
+	limit = { early_railroad = 1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			mechanized_mining = 1
+		}
+		modifier = {
+			factor = 2
+			invention = coke
+		}
+		modifier = {
+			factor = 2
+			practical_steam_engine = 1
+		}
+	}
+	effect = {
+		max_urban_center = 1 
+	}
+}
 #iron_railroad
+public_trams = {
+	limit = { iron_railroad = 1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			state_n_government = 1
+		}
+		modifier = {
+			factor = 2
+			invention = bessemer_steel
+		}
+		modifier = {
+			factor = 2
+			high_n_low_pressure_steam_engines = 1
+		}
+	}
+	effect = {
+		max_urban_center = 1 
+	}
+}
 #steel_railroad
+elevators = {
+	limit = { steel_railroad = 1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			steam_turbine = 1
+		}
+		modifier = {
+			factor = 2
+			invention = machine_tools
+		}
+		modifier = {
+			factor = 2
+			invention = electric_machinery
+		}
+	}
+	effect = {
+		max_urban_center = 1 
+	}
+}
+#integral_rail_system
+modern_sewerage = {
+	limit = { integral_rail_system = 1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			market_regulations = 1
+		}
+		modifier = {
+			factor = 2
+			invention = portland_cement
+		}
+		modifier = {
+			factor = 2
+			invention = thomas_steel
+		}
+	}
+	effect = {
+		max_urban_center = 1 
+	}
+}
+#limited_access_roads
+skyscrapers = {
+	limit = { limited_access_roads = 1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 3
+			electricity = 1
+		}
+		modifier = {
+			factor = 3
+			invention = steel_alloys
+		}
+	}
+	effect = {
+		max_urban_center = 1 
+	}
+}
 #medicine
 combat_medicine = {
 	limit = { medicine = 1 }

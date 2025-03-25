@@ -2830,3 +2830,26 @@ country_event = {
 		GHO = { civilized = yes }
 	}
 }
+
+country_event = {
+	id = 91306
+	title = "World Bank Country Cleanup"
+
+	trigger = {
+		owns = 3246
+		NOT = { tag = JAN }
+		OR = {
+			AND = {
+				is_mobilised = no
+				NOT = { total_amount_of_divisions = 1 }
+				war = no
+			}
+			NOT = { capital = 3246 }
+		}
+	}
+
+	option = {
+		3246 = { secede_province = JAN }
+		JAN = { civilized = yes }
+	}
+}

@@ -2914,9 +2914,9 @@ north_accepted;North Accepted;;;;;;;;;;;;x
 south_american_formation_title;Form the South American Federation;;;;;;;;;;;;x
 south_american_formation_desc;It is time to unite the nation under one government as the South American Federation.;;;;;;;;;;;;x
 zuser_show_options_Y_title;[=]§YShow Generic Decisions;;;;;;;;;;;;x
-zuser_show_options_Y_desc;Money Grants, Non-Accepted Culture Craftsmen Promotion, Spread Ideology, Pass Reform, Restore The Academioa, Non-Accepted Bureacrats, and Research and Development;;;;;;;;;;;;x
+zuser_show_options_Y_desc;Money Grants, Non-Accepted Culture Craftsmen Promotion, Enact Healthcare Reform, Manage Vassals, Force Pass Reform, Research and Development, Change Natrional Value, Change Tech School, and Non-Accepted Bureacrats;;;;;;;;;;;;x
 zuser_hide_options_Y_title;[=]§YHide Generic Decisions;;;;;;;;;;;;x
-zuser_hide_options_Y_desc;Money Grants, Non-Accepted Culture Craftsmen Promotion, Spread Ideology, Pass Reform, Restore The Academioa, Non-Accepted Bureacrats, and Research and Development;;;;;;;;;;;;x
+zuser_hide_options_Y_desc;Money Grants, Non-Accepted Culture Craftsmen Promotion, Enact Healthcare Reform, Manage Vassals, Force Pass Reform, Research and Development, Change Natrional Value, Change Tech School, and Non-Accepted Bureacrats;;;;;;;;;;;;x
 zuser_show_options_G_title;[=]§GShow Province Selector Decisions;;;;;;;;;;;;x
 zuser_show_options_G_desc;Create Supply Depot, Baby Boom, Literacy Campaign, Mine RGO Expansion, Agriculture RGO Expansion, and Change Agriculture RGO;;;;;;;;;;;;x
 zuser_hide_options_G_title;[=]§GHide Province Selector Decisions;;;;;;;;;;;;x
@@ -3115,20 +3115,6 @@ medium_empire;Medium Empire;Moyen Empire;Mittleres Reich;;Imperio medio;;;;;;;;;
 large_empire; Large Empire;Grand Empire;Große Reich;;Gran imperio;;;;;;;;;x;;;;
 insane_empire; Insane Empire;L'Empire de fou;Das wahnsinnig Reich;;El Imperio loco;;;;;;;;;x;;;;
 insane_empire2; Large Insane Empire;L'Empire de fou;Das wahnsinnig Reich;;El Imperio loco;;;;;;;;;x;;;;
-switch_to_diplomacy_title;Embrace the Ideal of Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +100%\nBase Influence Points Generation: +20%\nCB Generation Speed: +15%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +25%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GSoldier Promotion Bonus: +10% (Scales with Military Spending)\nOrganization Regain Rate: +5%§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +5%\nCraftsmen Promotion Bonus: +10% (Scales with Administration Spending)§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
-switch_to_liberty_title;Embrace the Ideal of Exploitation;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-switch_to_liberty_desc;It is time for our nation to change the character of our people, to encourage them to consume and exploit the resources of the world to our benefit!\n\n§YThe modifiers for this NV are:§W\n§GRGO Throughput: +10%\nFactory Input: -5%\nFactory Output: +5%§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
 z1manage_grants_title;§YManage Money Grants;;;;;;;;;;;;;x
 z1manage_grants_desc;Triggers an event that lets you enable giving grants, deny giving grants, or request money and military goods from other human players.;;;;;;;;;;;;;x
 requested_grant;Requested Grant;;;;;;;;;;;;;x

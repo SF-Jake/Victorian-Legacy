@@ -695,3 +695,112 @@ save_the_nation5  = {
 	mobilisation_economy_impact = -0.66
 	icon = 9
 }
+
+########## AI SCRIPTS ##########
+
+help_ai_literacy = {
+	trigger = {
+		ai = yes
+		NOT = { has_country_flag = jan_mayen }
+		NOT = { has_country_flag = china }
+		civilized = yes
+	}
+	icon = 9
+	education_efficiency_modifier = 0.35
+}
+
+help_ai_admin = {
+	trigger = {
+		ai = yes
+		NOT = { has_country_flag = jan_mayen }
+		NOT = { has_country_flag = china  }
+	}
+	icon = 9
+	administrative_efficiency_modifier = 0.5
+}
+
+help_ai_tax = {
+	trigger = {
+		ai = yes
+		NOT = { has_country_flag = jan_mayen }
+	}
+	icon = 9
+	min_tax = 0.99
+}
+
+help_ai_tariffs = {
+	trigger = {
+		ai = yes
+		NOT = { has_country_flag = jan_mayen }
+	}
+	icon = 9
+	min_tariff = 1
+}
+
+help_ai_military1 = {
+	trigger = {
+		ai = yes
+		money = 5000000
+		NOT = {
+			OR = {
+				war_policy = anti_military
+				war_policy = pacifism
+			}
+		}
+	}
+	icon = 9
+	min_military_spending = 0.8
+}
+
+help_ai_military2 = {
+	trigger = {
+		ai = yes
+		money = 5000000
+		war_policy = anti_military
+	}
+	icon = 9
+	min_military_spending = 0.8
+	max_military_spending = 0.15
+}
+
+help_ai_military3 = {
+	trigger = {
+		ai = yes
+		money = 5000000
+		war_policy = pacifism
+	}
+	icon = 9
+	min_military_spending = 0.8
+	max_military_spending = 0.4
+}
+
+help_ai_military4 = {
+	trigger = {
+		ai = yes
+		NOT = { money = 500000 }
+	}
+	icon = 9
+	min_military_spending = -0.99
+	max_military_spending = -0.99
+}
+
+help_ai_loan_interest = {
+	trigger = {
+		ai = yes
+		NOT = { money = 500000 }
+	}
+	icon = 9
+	loan_interest = -0.05
+}
+
+########## SPHERELING BUFF ##########
+
+sphereling_tax_bonus = {
+	trigger = {
+		part_of_sphere = yes
+		trade_policy = protectionism
+		NOT = { has_country_flag = jan_mayen }
+	}
+	tax_efficiency = 0.04
+	icon = 9
+}

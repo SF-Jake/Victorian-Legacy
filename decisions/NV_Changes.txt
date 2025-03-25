@@ -49,13 +49,13 @@ political_decisions = {
 	switch_to_diplomacy = {
 		picture = switch_to_diplomacy
 		potential = {
-			NOT = { nationalvalue = nv_diplomacy }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 		}
 		
 		allow = {
 			war = no
+			NOT = { nationalvalue = nv_diplomacy }
 			NOT = { has_country_modifier = national_confusion }
 			NOT = { num_of_revolts = 1 }
 		}
@@ -90,7 +90,6 @@ political_decisions = {
 	switch_to_education = {
 		picture = switch_to_education
 		potential = {
-			NOT = { nationalvalue = nv_education }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 			ai = no
@@ -98,6 +97,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			NOT = { nationalvalue = nv_education }
 			NOT = { has_country_modifier = national_confusion }
 			NOT = { num_of_revolts = 1 }
 		}
@@ -132,7 +132,6 @@ political_decisions = {
 	switch_to_order = {
 		picture = switch_to_order
 		potential = {
-			NOT = { nationalvalue = nv_order }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 			ai = no
@@ -140,6 +139,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			NOT = { nationalvalue = nv_order }
 			NOT = { has_country_modifier = national_confusion }
 			NOT = { num_of_revolts = 1 }
 		}
@@ -174,7 +174,6 @@ political_decisions = {
 	switch_to_production = {
 		picture = switch_to_productivity
 		potential = {
-			NOT = { nationalvalue = nv_productivity }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 			ai = no
@@ -182,6 +181,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			NOT = { nationalvalue = nv_productivity }
 			NOT = { has_country_modifier = national_confusion }
 			NOT = { num_of_revolts = 1 }
 		}
@@ -216,7 +216,6 @@ political_decisions = {
 	switch_to_equality = {
 		picture = switch_to_equality
 		potential = {
-			NOT = { nationalvalue = nv_equality }
 			#NOT = { has_country_flag = switched_nv }
 			has_country_flag = nv_change
 			ai = no
@@ -224,6 +223,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			NOT = { nationalvalue = nv_equality }
 			NOT = { has_country_modifier = national_confusion }
 			NOT = { num_of_revolts = 1 }
 		}
