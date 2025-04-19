@@ -1325,7 +1325,7 @@ fra_nation_modifier = {
 	land_unit_start_experience = 2.5
 	research_points_modifier = 0.075
 	#set_country_flag = army_nation_modifier
-	factory_output = 0.1
+	factory_throughput = 0.1
 	industry_tech_research_bonus = 0.075
 	icon = 26
 }
@@ -1360,7 +1360,7 @@ sar_nation_modifier = {
 tur_nation_modifier = {
 	naval_unit_start_experience = 2.5
 	research_points_modifier = 0.075
-	factory_output = 0.1
+	factory_throughput = 0.1
 	mine_rgo_eff = 0.1
 	global_assimilation_rate = 1
 	icon = 30
@@ -1404,7 +1404,7 @@ ksn_nation_modifier = {
 	prestige = 0.05
 	research_points_modifier = 0.075
 	#set_country_flag = naval_nation_modifier
-	factory_output = 0.1
+	factory_throughput = 0.1
 	icon = 35
 }
 
@@ -1433,7 +1433,7 @@ com_nation_modifier = {
 
 chi_nation_modifier = {
 	farm_rgo_eff = 0.1
-	factory_output = 0.1
+	factory_throughput = 0.1
 	mine_rgo_eff = 0.1
 	icon = 39
 }
@@ -1822,4 +1822,31 @@ is_mobbed8 = {
 #Oil Locations
 oil_location = {
 	icon = 49
+}
+
+#Victorian Legacy Flavor Additions
+
+#Building Modifiers
+big_ben_construction = {
+	icon = 13
+}
+
+the_big_ben = {
+	local_factory_output = 0.01
+	immigrant_attract = 0.25
+	icon = 5
+}
+
+monument_under_construction = {
+	icon = 13
+}
+
+#UK Event Modifiers
+
+indian_isolationism = {
+	research_points_on_conquer = -1
+}
+
+sepoy_rebellion = {
+	pop_militancy_modifier = 0.1
 }

@@ -1,0 +1,26 @@
+country_event = {
+
+	id = 3697001
+	title = "EVTNAME3697001" #Big Ben Finished
+	desc = "EVTDESC3697001"
+	picture = "big_ben_finished"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		NOT = { has_country_modifier = big_ben_construction }
+		has_country_flag = big_ben_construction	
+	}
+	
+	mean_time_to_happen = { days = 5 }
+	
+	option = {
+		name = "EVT3697001OPTA"
+		300 = {
+			set_province_flag = big_ben_built
+			add_province_modifier = { name = the_big_ben duration = -1 }
+		}
+		prestige = 20
+	}
+}

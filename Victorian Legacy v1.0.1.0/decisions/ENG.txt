@@ -58,6 +58,40 @@ political_decisions = {
 		}
 	}
 
+	annex_india = {
+		picture = east_india_company
+		alert = no
+		potential = {
+			ai = no
+			tag = ENG
+			HND = {
+				exists = yes
+				vassal_of = THIS
+			}
+			NOT = { has_country_flag = india_annexed }
+		}
+
+		allow = {
+			NOT = { badboy = 1 }
+			PNJ = { all_core = { owned_by = THIS } }
+			KAL = { all_core = { owned_by = THIS } }
+			MAK = { all_core = { owned_by = THIS } }
+			SIN = { all_core = { owned_by = THIS } }
+			has_global_flag = sepoy_rebellion_ended
+		}
+
+		effect = {
+			JAN = {
+				inherit = HND
+				country_event = { id = 40002 days = 0 }
+			}
+			remove_country_modifier = crown_rule
+			set_country_flag = india_annexed
+			badboy = 15
+		}
+		ai_will_do = { factor = 0 }
+	}
+
 	found_the_bbc = {
 		potential = {
 			tag = ENG
@@ -85,6 +119,29 @@ political_decisions = {
 			set_country_flag = we_are_live_from_london
 		}
 	}
+
+	build_the_big_ben = {
+		picture = bigben
+		potential = {
+			tag = ENG
+			NOT = { has_country_flag = big_ben_construction }		
+			300 = { NOT = { has_province_modifier = the_big_ben } }
+		}
+		
+		allow = {
+			year = 1844
+			money = 400000
+			election = no
+			war = no
+		}
+		
+		effect = {
+			money = -400000
+			set_country_flag = big_ben_construction
+			add_country_modifier = { name = big_ben_construction duration = 200 }
+		}
+	}
+
 	the_scotland_yard = {
 		potential = {
 			tag = ENG
@@ -408,5 +465,166 @@ political_decisions = {
 			set_global_flag = ai_australia_annexed
 		}
 	}
+
+	annex_ai_commonwealth = {
+		picture = dreams_of_empire
+		alert = yes
+		potential = {
+			tag = ENG
+			year = 1836
+			NOT = { year = 1837 }
+			exists = COM
+			ai = no
+			NOT = { has_global_flag = annex_ai_commonwealth }
+		}
+		
+		allow = {
+			COM = {
+				ai = yes
+			}
+			year = 1836
+			NOT = { year = 1837 }
+		}
+		
+		effect = {
+			COM = {
+				annex_to = ENG
+			}
+			set_global_flag = annex_ai_commonwealth
+		}
+	}
 	
+#Irish Potato Famine Decisions
+	grant_irish_parliament_seats = {
+		picture = palais_garnier
+	
+		potential = { 
+			has_country_flag = help_for_the_irish
+			NOT = { has_country_flag = grant_irish_parliament_seats }
+		}
+	
+		allow = {
+			NOT = { badboy = 1 }
+		}
+	
+		effect = {
+			set_country_flag = grant_irish_parliament_seats
+			badboy = 5
+			prestige = -50
+			any_owned = {
+				limit = {
+					OR = {
+						region = ENG_277
+						region = ENG_273
+						region = ENG_296
+						region = ENG_300
+						region = ENG_291
+						region = ENG_301
+						region = ENG_284
+						region = ENG_280
+					}
+				}
+				any_pop = {
+					militancy = 5
+				}
+				any_pop = {
+					consciousness = 3
+				}
+			}
+			irish_acceptance_progression = { }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	appoint_irish_minister = {
+		picture = ireland
+	
+		potential = { 
+			has_country_flag = help_for_the_irish
+			NOT = { has_country_flag = appoint_irish_minister }
+		}
+	
+		allow = {
+			NOT = { badboy = 1 }
+		}
+	
+		effect = {
+			set_country_flag = appoint_irish_minister
+			badboy = 5
+			prestige = -20
+			any_owned = {
+				limit = {
+					OR = {
+						region = ENG_277
+						region = ENG_273
+						region = ENG_296
+						region = ENG_300
+						region = ENG_291
+						region = ENG_301
+						region = ENG_284
+						region = ENG_280
+					}
+				}
+				any_pop = {
+					militancy = 3
+				}
+				any_pop = {
+					consciousness = 3
+				}
+			}
+			irish_acceptance_progression = { }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	integrate_irish = {
+		picture = ireland
+	
+		potential = { 
+			has_country_flag = grant_irish_parliament_seats
+			has_country_flag = appoint_irish_minister
+			NOT = { has_country_flag = integrate_irish }
+		}
+	
+		allow = {
+			nationalism_n_imperialism = 1
+			citizens_rights = all_voting_pops
+		}
+	
+		effect = {
+			set_country_flag = integrate_irish
+			prestige = -10
+			add_accepted_culture = irish
+			any_owned = {
+				limit = {
+					OR = {
+						region = ENG_277
+						region = ENG_273
+						region = ENG_296
+						region = ENG_300
+						region = ENG_291
+						region = ENG_301
+						region = ENG_284
+						region = ENG_280
+					}
+				}
+				any_pop = {
+					militancy = 3
+				}
+				any_pop = {
+					consciousness = 3
+				}
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

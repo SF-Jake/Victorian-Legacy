@@ -1,0 +1,212 @@
+#Sepoy Events
+country_event = {
+
+	id = 90040 # Sepoy Rebellion
+
+	title = "EVTNAME90040"
+	desc = "EVTDESC90040"
+	news = yes
+	news_desc_long = "EVTDESC90040_NEWS_LONG"
+	news_desc_medium = "EVTDESC90040_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90040_NEWS_SHORT"
+	picture = sepoy_rebellion
+	major = yes
+
+	trigger = {
+		NOT = { has_country_flag = india_free }
+		NOT = { has_country_flag = sepoy_rebellion }
+		tag = ENG
+		year = 1856
+		HND = { vassal_of = ENG }
+		any_owned_province = { is_core = HND }
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA90040"
+		government = hms_government
+		set_country_flag = sepoy_rebellion
+		release_vassal = HND
+		diplomatic_influence = {
+			who = HND
+			value = -1000
+		}
+		HND = {
+			government = democracy
+			leadership = 400
+			country_event = { id = 90041 days = 1 }
+			add_country_modifier = { name = indian_isolationism duration = -1 }
+		}
+	}
+}
+
+country_event = {
+	id = 90041
+	title = "EVTNAME90041"
+	desc = "EVTDESC90041"
+
+	picture = "Rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		all_core = {
+			limit = { 
+				NOT = { owned_by = ENG } 
+				NOT = { owned_by = HND }
+			}
+			remove_core = HND
+		}
+		HND = {
+			war = {
+				target = ENG
+				attacker_goal = { casus_belli = status_quo country = HND }
+				defender_goal = { casus_belli = make_puppet_large }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 90042
+	title = "EVTNAME90041"
+	desc = "EVTDESC90041"
+
+	picture = "Rebellion"
+
+	trigger = {
+		tag = HND
+		year = 1850
+	}
+
+	option = {
+		random_owned = {
+			limit = { owner = { NOT = { flintlock_rifles = 1 } }}	
+			owner = { activate_technology = flintlock_rifles }
+		}
+		random_owned = {
+			limit = { owner = { NOT = { post_napoleonic_thought = 1 } } }	
+			owner = { activate_technology = post_napoleonic_thought }
+		}
+		random_owned = {
+			limit = { owner = { NOT = { military_staff_system = 1 } } }	
+			owner = { activate_technology = military_staff_system }
+		}
+		random_owned = {
+			limit = { owner = { NOT = { army_command_principle = 1 } } }	
+			owner = { activate_technology = army_command_principle }
+		}
+		random_owned = {
+			limit = { owner = { NOT = { bronze_muzzle_loaded_artillery = 1 } } }	
+			owner = { activate_technology = bronze_muzzle_loaded_artillery }
+		}
+		money = 100000000
+		ammunition = 4000
+		small_arms = 4000
+		artillery = 4000
+		canned_food = 10000
+		cattle = 10000
+		wool = 10000
+	}
+}
+
+country_event = {
+	id = 90043
+	title = "EVTNAME90043"
+	desc = "EVTDESC90043"
+
+	picture = "Rebellion"
+
+	trigger = {
+		tag = ENG
+		has_country_flag = sepoy_rebellion
+		NOT = { has_global_flag = sepoy_rebellion_ended }
+		OR = {
+			AND = {
+				war_with = HND
+				HND = { national_provinces_occupied = 0.9 }
+			}
+			AND = {
+				HND = { vassal_of = ENG }
+				NOT = { war_with = HND }
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA90043"
+		set_global_flag = sepoy_rebellion_ended
+		end_war = HND
+		HND = { end_war = ENG }
+		create_vassal = HND
+	}
+}
+
+country_event = {
+	id = 90044
+	title = "EVTNAME90044"
+	desc = "EVTDESC90044"
+
+	picture = "Rebellion"
+
+	trigger = {
+		tag = ENG
+		has_country_flag = sepoy_rebellion
+		NOT = { has_global_flag = sepoy_rebellion_ended }
+		OR = {
+			AND = {
+				HND = {
+					all_core = {
+						OR = {
+							owned_by = HND
+							controlled_by = HND
+							controller = { alliance_with = HND }
+						}
+					}
+					war_with = ENG
+				}
+			}
+			AND = {
+				NOT = { war_with = HND }
+				HND = { NOT = { vassal_of = ENG } }
+			}
+		}
+	}
+
+	option = {
+		name = "Those Savages!!!"
+		set_global_flag = sepoy_rebellion_ended
+		prestige = -50
+		end_war = HND
+		HND = { end_war = ENG }
+		any_owned = {
+			limit = { is_core = HND }
+			secede_province = HND
+		}
+	}
+}
+
+province_event = {
+	id = 90045
+	title = "Sepoy Rebellion Core Cleanup"
+	desc = "Event in case of ownership change"
+
+	picture = "Rebellion"
+
+	trigger = {
+		ENG = { has_country_flag = sepoy_rebellion }
+		NOT = { has_global_flag = sepoy_rebellion_ended }
+		HND = { war_with = ENG }
+		owner = { NOT = { tag = HND } }
+		owner = { NOT = { tag = ENG } }
+		is_core = HND
+	}
+
+	option = {
+		name = "Ok."
+		state_scope = {
+			any_owned = { remove_core = HND }
+		}
+	}
+}
