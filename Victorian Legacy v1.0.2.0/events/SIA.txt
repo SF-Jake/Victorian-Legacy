@@ -1,0 +1,70 @@
+country_event = {
+	id = 90844
+	title = "Cambodia under new influence"
+	desc = "With Vietnam Gone you become the new controller of Cambodia"
+	picture = "dungan_rebellion_qinghai"
+
+	trigger = {
+		NOT = { has_country_flag = cambodian_vassal }
+        CAM = { NOT = { vassal_of = SIA } }
+        NOT = { exists = DAI }
+        has_country_flag = vietnam_annexed
+        tag = SIA
+	}
+
+	option = {
+        set_country_flag = cambodian_vassal
+		name = "Another Puppet added to our glorious Empire"
+		create_vassal = CAM
+	}
+}
+country_event = {
+	id = 90850
+	title = "The Chinese Accepted our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "Success"
+        YNN = { civilized  = yes }
+        inherit = YNN
+    }
+}
+country_event = {
+	id = 90849
+	title = "The Chinese Denied our Demands"
+	desc = ""
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "We will be there downfall"
+        badboy = 5
+        prestige = -20
+        }
+	}
+country_event = {
+	id = 90848
+	title = "Indochina Demands Land"
+	desc = "Indochinese demands ownership of Yunnan. In return they will give 1 million"
+	picture = "dungan_rebellion_qinghai"
+    is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+        money = 1000000
+        INC = {
+            country_event = { id = 90850 days = 0 }
+			}
+        ai_will_do = {
+        factor = 10
+        }
+    option = {
+        name = "No"
+        INC = {
+            country_event = { id = 90849 days = 0 }
+			}
+        }
+    }
+}

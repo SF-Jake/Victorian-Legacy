@@ -1,0 +1,206 @@
+political_decisions = {
+    annex_vietnam_siam = {
+        picture = indochina_formation
+        potential = {
+            NOT = {
+                has_country_flag = vietnam_annexed
+            }
+		    tag = SIA
+		    exists = DAI
+	    }
+        allow = {
+            land_reform = yes_land_reform
+            war = no
+        }
+        effect = {
+            set_country_flag = vietnam_annexed
+            add_accepted_culture = vietnamese
+            badboy = 10
+            ANN_1374 = { add_core = THIS }
+            ANN_1371 = { add_core = THIS }
+            ANN_1383 = { add_core = THIS }
+            war = {
+                target = DAI
+                attacker_goal = { casus_belli = annex_core_country }
+            }
+        }
+    }
+    form_indochina_siam = {
+        picture = indochina_formation
+        potential = {
+            NOT = { has_country_flag = indochina_formed_french }
+            NOT = { has_global_flag = indochina_formed_french }
+		    tag = SIA
+	    }
+        allow = {
+			war = no
+            state_n_government = 1
+            has_country_flag = vietnam_annexed
+            has_country_flag = cambodian_vassal
+            1390 = {
+                OR = {
+					owned_by = THIS
+					owner = { vassal_of = THIS }
+                    owner = { in_sphere = THIS }
+				}
+            }
+            CAM = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { vassal_of = THIS }
+                        owner = { in_sphere = THIS }
+					}
+				}
+			}
+            LUA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { vassal_of = THIS }
+                        owner = { in_sphere = THIS }
+					}
+				}
+			}
+            DAI = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { vassal_of = THIS }
+                        owner = { in_sphere = THIS }
+					}
+				}
+			}
+        }
+        effect = {
+            change_tag = INC
+            add_accepted_culture = khmer
+            add_accepted_culture = lao
+            political_reform = landed_voting
+            set_country_flag = indochina_formed_french
+            set_global_flag = indochina_formed_french
+            SIA_1366 = { add_core = THIS }
+            LUA_1356 = { add_core = THIS }
+            ENG_1384 = { add_core = THIS }
+            ENG_1343 = { add_core = THIS }
+            random_country = {
+				limit = {
+					tag = DAI
+					exists = yes
+					vassal_of = THIS
+				}
+				THIS = { inherit = DAI }
+			}
+            random_country = {
+				limit = {
+					tag = CAM
+					exists = yes
+					vassal_of = THIS
+				}
+				THIS = { inherit = CAM }
+			}
+            random_country = {
+				limit = {
+					tag = LUA
+					exists = yes
+					vassal_of = THIS
+				}
+				THIS = { inherit = LUA }
+			}
+            random_country = {
+				limit = {
+					tag = JOH
+					exists = yes
+					vassal_of = THIS
+				}
+				THIS = { inherit = JOH }
+			}
+            SIA = { all_core = { remove_core = SIA add_core = INC } }
+            LUA = { all_core = { remove_core = SIA add_core = INC } }
+            CAM = { all_core = { remove_core = SIA add_core = INC } }
+            JOH = { all_core = { remove_core = SIA add_core = INC } }
+        }
+    }
+
+    indochina_expansion_inc = {
+        picture = indochina_formation
+        potential = {
+		    tag = INC
+            NOT = {
+                has_country_flag = indochina_expansion
+            }
+	    }
+        allow = {
+            has_country_flag = vietnam_annexed
+            civilized = yes
+            war = no
+            nationalism_n_imperialism = 1
+            BUR_1339 = {
+                OR = {
+					owned_by = THIS
+					owner = { vassal_of = THIS }
+                    owner = { in_sphere = THIS }
+				}
+            }
+            BUR_1334 = {
+                OR = {
+					owned_by = THIS
+					owner = { vassal_of = THIS }
+                    owner = { in_sphere = THIS }
+				}
+            }
+            BUR_1330 = {
+                OR = {
+					owned_by = THIS
+					owner = { vassal_of = THIS }
+                    owner = { in_sphere = THIS }
+				}
+            }
+        }
+        effect = {
+            set_country_flag = indochina_expansion
+            add_accepted_culture = burmese
+            BUR = { all_core = { add_core = THIS remove_core = BUR } }
+           
+        }
+        ai_will_do = {
+			factor = 0
+		}
+    }
+
+    yunnan_expansion_inc = {
+        picture = indochina_formation
+        potential = {
+			tag = INC
+            exists = CHI
+            NOT = {
+                has_country_flag = yunnan_expansion
+            }
+            OR = {
+                has_country_flag = indochina_formed_german
+                has_country_flag = indochina_formed_french
+                }
+	    }
+        allow = {
+            money = 1000000
+            INC = {
+				BUR_1339 = { owned_by = THIS }
+                BUR_1334 = { owned_by = THIS }
+                BUR_1330 = { owned_by = THIS }
+            }
+            war = no
+            nationalism_n_imperialism = 1
+        }
+        effect = {
+            set_country_flag = yunnan_expansion
+            money = -1000000
+            CHI_1601 = { add_core = THIS }
+			CHI = {
+                country_event = { id = 90848 days = 0 }
+            }
+        }
+        ai_will_do = {
+			factor = 0
+		}
+    }
+}

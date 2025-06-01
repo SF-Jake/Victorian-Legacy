@@ -1,0 +1,63 @@
+political_decisions = {
+    embrace_estonians = {
+		picture = nordic_estonia
+		potential = {
+			OR = {
+				tag = SWE
+				tag = SCA
+				tag = FIN
+			}
+			NOT = {
+				has_global_flag = estonians_embraced
+			}
+		}
+		
+		allow = {
+			EST = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+            LAT = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			citizens_rights = all_voting_pops
+		}
+		
+		effect = {
+			add_accepted_culture = estonian
+            add_accepted_culture = latvian
+            EST = { all_core = { add_core = THIS } }
+            LAT = { all_core = { add_core = THIS } }
+			set_global_flag = estonians_embraced
+		}
+	}
+	embrace_scottish = {
+		picture = the_scotland_yard
+		potential = {
+			OR = {
+				tag = SWE
+				tag = KSN
+				tag = SCA
+				tag = FIN
+			}
+			NOT = {
+				has_global_flag = scottish_embraced
+			}
+		}
+		
+		allow = {
+			ENG_266 = { owned_by = THIS }
+            ENG_271 = { owned_by = THIS }
+			citizens_rights = all_voting_pops
+		}
+		
+		effect = {
+			ENG_266 = { add_core = THIS }
+            ENG_271 = { add_core = THIS }
+			set_global_flag = scottish_embraced
+		}
+	}
+}

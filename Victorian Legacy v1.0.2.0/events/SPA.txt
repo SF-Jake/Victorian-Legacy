@@ -1,0 +1,19 @@
+country_event = {
+	id = 100000
+	title = "New Leader of Spain"
+	desc = EVTDESC100000
+    is_triggered_only = yes
+
+	option = {
+		name = "French Support"
+        add_country_modifier = { name = spain_french_support duration = -1 }
+    }
+    option = {
+		name = "German Support"
+        add_country_modifier = { name = spain_german_support duration = -1 }
+    }
+    option = {
+		name = "Italian Support"
+        add_country_modifier = { name = spain_italian_support duration = -1 }
+    }
+}

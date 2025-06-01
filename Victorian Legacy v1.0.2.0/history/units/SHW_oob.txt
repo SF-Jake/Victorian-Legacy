@@ -1,0 +1,33 @@
+army = {
+	name = "Army of Shewa"
+	location = 1859
+	regiment = {
+		name= "1.1 Infantry"
+		type = hussar
+		home = 1859
+	}
+
+	regiment = {
+		name= "2.1 Infantry"
+		type = infantry
+		home = 1859
+	}
+
+	regiment = {
+		name= "3.1 Infantry"
+		type = infantry
+		home = 1859
+	}
+
+	regiment = {
+		name= "1.1 Infantry"
+		type = infantry
+		home = 1859
+	}
+
+	regiment = {
+		name= "2.1 Infantry"
+		type = artillery
+		home = 1860
+	}
+}

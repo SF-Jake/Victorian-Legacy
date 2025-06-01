@@ -1,0 +1,43 @@
+leader = {
+	name = "Ismail Dogomuqo"
+	picture = tur_gen_mehmetvesif
+	date = 1835.1.1
+	type = land
+	personality = mor20_1
+	background = 4a4d_1
+	prestige = 0.3
+}
+
+army = {
+	name = "1. Army"
+	location = 1054
+	regiment = {
+		name= "1. División de Infanteru"
+		type = infantry_defensive
+		home = 1051
+	}
+
+	regiment = {
+		name= "2. División de Infanteru"
+		type = infantry_defensive
+		home = 1056
+	}
+
+	regiment = {
+		name= "3. División de Infanteru"
+		type = infantry_defensive
+		home = 1056
+	}
+
+	regiment = {
+		name= "4. División de Infanteru"
+		type = infantry_defensive
+		home = 1054
+	}
+	
+	regiment = {
+		name= "1. Hussar"
+		type = infantry_defensive
+		home = 1055
+	}
+}
