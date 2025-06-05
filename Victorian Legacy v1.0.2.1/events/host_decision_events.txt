@@ -1905,6 +1905,118 @@ country_event = {
 			}
 			THIS = { change_tag_no_core_switch = JAN }
 		}
+				random_country = {
+			limit = {
+				tag = FROM
+				tag = HLR
+			}
+			THIS = { change_tag_no_core_switch = HLR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RME
+			}
+			THIS = { change_tag_no_core_switch = RME }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DNB
+			}
+			THIS = { change_tag_no_core_switch = DNB }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TIG
+			}
+			THIS = { change_tag_no_core_switch = TIG }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GON
+			}
+			THIS = { change_tag_no_core_switch = GON }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SHW
+			}
+			THIS = { change_tag_no_core_switch = SHW }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SID
+			}
+			THIS = { change_tag_no_core_switch = SID }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAR
+			}
+			THIS = { change_tag_no_core_switch = HAR }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GEL
+			}
+			THIS = { change_tag_no_core_switch = GEL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SOM
+			}
+			THIS = { change_tag_no_core_switch = SOM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TIM
+			}
+			THIS = { change_tag_no_core_switch = TIM }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = INC
+			}
+			THIS = { change_tag_no_core_switch = INC }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LPL
+			}
+			THIS = { change_tag_no_core_switch = LPL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GCL
+			}
+			THIS = { change_tag_no_core_switch = GCL }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAS
+			}
+			THIS = { change_tag_no_core_switch = SAS }
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TCA
+			}
+			THIS = { change_tag_no_core_switch = TCA }
+		}
 	}
 	
 	
@@ -6359,6 +6471,198 @@ country_event = {
 			THIS = {
 				clr_country_flag = host_nation
 				change_tag_no_core_switch = JAN
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HLR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HLR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = RME
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = RME
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = DNB
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = DNB
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TIG
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TIG
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GON
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GON
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SHW
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SHW
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SID
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SID
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = HAR
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = HAR
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GEL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GEL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SOM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SOM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TIM
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TIM
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = INC
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = INC
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = LPL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = LPL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = GCL
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = GCL
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = SAS
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = SAS
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				tag = TCA
+				has_global_flag = host_flag_tagmove
+			}
+			FROM = { set_country_flag = host_nation }
+			THIS = {
+				clr_country_flag = host_nation
+				change_tag_no_core_switch = TCA
 			}
 		}
 	}

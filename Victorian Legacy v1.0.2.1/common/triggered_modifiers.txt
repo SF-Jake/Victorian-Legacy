@@ -793,6 +793,19 @@ help_ai_loan_interest = {
 	loan_interest = -0.05
 }
 
+########## DISABLE LOANS ##########
+
+disable_loans = {
+	trigger = {
+		OR = {
+			ai = yes
+			has_country_flag = jan_mayen
+		}
+	}
+	max_loan_modifier = -1.0
+	icon = 9
+}
+
 ########## SPHERELING BUFF ##########
 
 sphereling_tax_bonus = {
@@ -804,3 +817,87 @@ sphereling_tax_bonus = {
 	tax_efficiency = 0.04
 	icon = 9
 }
+
+########## Great Power Infamy Reduction ##########
+
+gp_infamy_reduction = {
+	trigger = {
+		is_greater_power = yes
+	}
+	badboy = -0.01
+}
+
+########## Rude boy ##########
+#Will add later
+
+# badboy1 = {
+# 	trigger = {
+# 		badboy = 1
+# 		NOT = { badboy = 1.2 }
+# 	}
+# 	non_accepted_pop_militancy_modifier = 0.04
+# 	administrative_efficiency_modifier = -0.1
+# 	tariff_efficiency_modifier = -0.05
+# }
+
+# badboy2 = {
+# 	trigger = {
+# 		badboy = 1.2
+# 		NOT = { badboy = 1.4 }
+# 	}
+# 	non_accepted_pop_militancy_modifier = 0.08
+# 	administrative_efficiency_modifier = -0.2
+# 	tariff_efficiency_modifier = -0.1
+# }
+
+# badboy3 = {
+# 	trigger = {
+# 		badboy = 1.4
+# 		NOT = { badboy = 1.6 }
+# 	}
+# 	non_accepted_pop_militancy_modifier = 0.24
+# 	administrative_efficiency_modifier = -0.6
+# 	tariff_efficiency_modifier = -0.3
+# }
+
+# badboy4 = {
+# 	trigger = {
+# 		badboy = 1.6
+# 		NOT = { badboy = 1.8 }
+# 	}
+# 	non_accepted_pop_militancy_modifier = 0.32
+# 	administrative_efficiency_modifier = -0.8
+# 	tariff_efficiency_modifier = -0.4
+# }
+
+# badboy5 = {
+# 	trigger = {
+# 		badboy = 1.92
+# 		NOT = { badboy = 2.6 }
+# 	}
+# 	non_accepted_pop_militancy_modifier = 0.4
+# 	administrative_efficiency_modifier = -1
+# 	tariff_efficiency_modifier = -0.5
+# }
+
+# badboy6 = {
+# 	trigger = {
+# 		badboy = 2.6
+# 		NOT = { badboy = 3.2 }
+# 	}
+# 	non_accepted_pop_militancy_modifier = 0.48
+# 	administrative_efficiency_modifier = -70
+# 	tariff_efficiency_modifier = -0.6
+# }
+
+# badboy7 = {
+# 	trigger = {
+# 		badboy = 3.2
+# 	}
+# 	non_accepted_pop_militancy_modifier = 1
+# 	administrative_efficiency_modifier = -70
+# 	tariff_efficiency_modifier = -0.5
+# 	tax_efficiency = -0.5
+# 	war_exhaustion = 11
+# 	max_war_exhaustion = 100
+# }

@@ -238,9 +238,13 @@ province_event = {
 					is_core = TIN
 				}
 				owner = { badboy = 1 }
-				add_province_modifier = {
-					name = literacy_campaign
-					duration = 3650
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
 				}
 			}
 			#Small State
@@ -288,9 +292,13 @@ province_event = {
 					is_core = SMA
 				}
 				owner = { badboy = 2 }
-				add_province_modifier = {
-					name = literacy_campaign
-					duration = 3650
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
 				}
 			}
 			#Medium State
@@ -338,9 +346,13 @@ province_event = {
 					is_core = MED
 				}
 				owner = { badboy = 3 }
-				add_province_modifier = {
-					name = literacy_campaign
-					duration = 3650
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
 				}
 			}
 			#Large State
@@ -388,9 +400,13 @@ province_event = {
 					is_core = LRG
 				}
 				owner = { badboy = 4 }
-				add_province_modifier = {
-					name = literacy_campaign
-					duration = 3650
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
 				}
 			}
 			#Huge State
@@ -438,9 +454,13 @@ province_event = {
 					is_core = HUG
 				}
 				owner = { badboy = 5 }
-				add_province_modifier = {
-					name = literacy_campaign
-					duration = 3650
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
 				}
 			}
 			#Clear Flags
