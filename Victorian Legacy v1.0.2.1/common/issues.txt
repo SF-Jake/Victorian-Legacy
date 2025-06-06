@@ -410,6 +410,7 @@ political_reforms = {
 		mandatory_service = {
 			mobilisation_size = 0.02
 			org_regain = 0.1
+			land_unit_start_experience = -4
 			mobilisation_economy_impact = 0.4
 			global_immigrant_attract = -0.075
 			education_efficiency_modifier = -0.05
