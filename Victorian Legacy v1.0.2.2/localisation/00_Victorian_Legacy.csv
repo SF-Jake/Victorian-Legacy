@@ -252,16 +252,16 @@ JAN_3246;World Bank;;;;;;;;;;;;;x
 warning_will_remove_other_depot;\n§RWARNING§W Will remove previous depot modifier;;;;;;;;;;;;;;
 cost_500k;\n§GCost to Build: 500k§W;;;;;;;;;;;;;;
 broke_500k;\n§RYou Don't have enough Funds: 500K§W;;;;;;;;;;;;;;
-tiny_lit_campaign;§G1 Infamy Cost;;;;;;;;;;;;;;
-small_lit_campaign;§G2 Infamy Cost;;;;;;;;;;;;;;
-medium_lit_campaign;§G3 Infamy Cost;;;;;;;;;;;;;;
-large_lit_campaign;§G4 Infamy Cost;;;;;;;;;;;;;;
-huge_lit_campaign;§G5 Infamy Cost;;;;;;;;;;;;;;
-tiny_lit_campaign_broke;Too Much Infamy;;;;;;;;;;;;;;
-small_lit_campaign_broke;Too Much Infamy;;;;;;;;;;;;;;
-medium_lit_campaign_broke;Too Much Infamy;;;;;;;;;;;;;;
-large_lit_campaign_broke;Too Much Infamy;;;;;;;;;;;;;;
-huge_lit_campaign_broke;Too Much Infamy;;;;;;;;;;;;;;
+tiny_lit_campaign;Gain §R1§W infamy;;;;;;;;;;;;;;
+small_lit_campaign;Gain §R2§W infamy;;;;;;;;;;;;;;
+medium_lit_campaign;Gain §R3§W infamy;;;;;;;;;;;;;;
+large_lit_campaign;Gain §R4§W infamy;;;;;;;;;;;;;;
+huge_lit_campaign;Gain §R5§W infamy;;;;;;;;;;;;;;
+tiny_lit_campaign_broke;§YNot Enough Infamy §W(§RClose to Sanctions§W);;;;;;;;;;;;;;
+small_lit_campaign_broke;§YNot Enough Infamy §W(§RClose to Sanctions§W);;;;;;;;;;;;;;
+medium_lit_campaign_broke;§YNot Enough Infamy §W(§RClose to Sanctions§W);;;;;;;;;;;;;;
+large_lit_campaign_broke;§YNot Enough Infamy §W(§RClose to Sanctions§W);;;;;;;;;;;;;;
+huge_lit_campaign_broke;§YNot Enough Infamy §W(§RClose to Sanctions§W);;;;;;;;;;;;;;
 already_has_modifier;Modifier already exists;;;;;;;;;;;;;;
 0K_pop_agri_rgo;§GCost for RGO change: 100K§W;;;;;;;;;;;;;;
 50K_pop_agri_rgo;§GCost for RGO change: 200K§W;;;;;;;;;;;;;;
@@ -333,7 +333,7 @@ national_idea5_bar_done;National Idea 5 (Selected);;;;;;;;;;;;;x
 PROV3298;Tshushima;;;;;;;;;;;;;x
 zprovince_migration_title;§GMigration Attraction;;;;;;;;;x;;;;
 zprovince_migration_desc;Gives a large bonus to migration to the targeted province. This decision does not increase the chance of receiving immigrants from other countries, it only redirects them to the targetted province. If a province has more than 5% RGO unemployment then the modifier will stop working and should be reset.;;;;;;;;;x;;;;
-EVTDESC92101;§B1.§b Adds bonus interal migration attraction to province.\n§B2.§b Cancels bonus migration attraction to province.\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 50k per 100k POPs rounded up.\n§B5.§b Changes farm RGO. Adds a debuff for 15 years, costs 200k per 100k POPs in province rounded up.\n§B6.§b Changes mine RGO adds a cooldown when the rgo is changed. \n§B7.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n§B8.§b Convert Asian State to Colony.\n§B9.§b Resets province selector.;;;;;;;;;;;;;x
+EVTDESC92101;§B1.§b Adds bonus interal migration attraction to province.\n§B2.§b Cancels bonus migration attraction to province.\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 1 Infamy per state size. (Tiny = 1 - Huge = 5)\n§B5.§b Changes farm RGO. Adds a debuff for 15 years, costs 200k per 100k POPs in province rounded up.\n§B6.§b Changes mine RGO adds a cooldown when the rgo is changed. \n§B7.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n§B8.§b Convert Asian State to Colony.\n§B9.§b Resets province selector.;;;;;;;;;;;;;x
 EVTNAME91737;Agriculture RGO Change;;;;;;;;;;;;;;;;;;;;;;;x
 EVTDESC91737;Choose to change a province to the following RGO types.;;;;;;;;;;;;;;;;;;;;;;;x
 EVT91737OPTA;Change province to produce Wool.;;;;;;;;;;;;;;;;;;;;;;;x

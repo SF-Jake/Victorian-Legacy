@@ -204,7 +204,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 23 } }
+					owner = { NOT = { badboy = 0.88 } }
 					is_core = TIN
 				}
 				owner = { tiny_lit_campaign = { } }
@@ -219,7 +219,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { badboy = 23 }
+					owner = { badboy = 0.88 }
 					is_core = TIN
 				}
 				owner = { tiny_lit_campaign_broke = { } }
@@ -234,7 +234,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 23 } }
+					owner = { NOT = { badboy = 0.88 } }
 					is_core = TIN
 				}
 				owner = { badboy = 1 }
@@ -258,7 +258,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 22 } }
+					owner = { NOT = { badboy = 0.84 } }
 					is_core = SMA
 				}
 				owner = { small_lit_campaign = { } }
@@ -273,7 +273,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { badboy = 22 }
+					owner = { badboy = 0.84 }
 					is_core = SMA
 				}
 				owner = { small_lit_campaign_broke = { } }
@@ -288,7 +288,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 22 } }
+					owner = { NOT = { badboy = 0.84 } }
 					is_core = SMA
 				}
 				owner = { badboy = 2 }
@@ -312,7 +312,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 21 } }
+					owner = { NOT = { badboy = 0.8 } }
 					is_core = MED
 				}
 				owner = { medium_lit_campaign = { } }
@@ -327,7 +327,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { badboy = 21 }
+					owner = { badboy = 0.8 }
 					is_core = MED
 				}
 				owner = { medium_lit_campaign_broke = { } }
@@ -342,7 +342,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 21 } }
+					owner = { NOT = { badboy = 0.8 } }
 					is_core = MED
 				}
 				owner = { badboy = 3 }
@@ -366,7 +366,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 20 } }
+					owner = { NOT = { badboy = 0.76 } }
 					is_core = LRG
 				}
 				owner = { large_lit_campaign = { } }
@@ -381,7 +381,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { badboy = 20 }
+					owner = { badboy = 0.76 }
 					is_core = LRG
 				}
 				owner = { large_lit_campaign_broke = { } }
@@ -396,7 +396,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 20 } }
+					owner = { NOT = { badboy = 0.76 } }
 					is_core = LRG
 				}
 				owner = { badboy = 4 }
@@ -420,7 +420,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 19 } }
+					owner = { NOT = { badboy = 0.72 } }
 					is_core = HUG
 				}
 				owner = { large_lit_campaign = { } }
@@ -435,7 +435,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { badboy = 19 }
+					owner = { badboy = 0.72 }
 					is_core = HUG
 				}
 				owner = { large_lit_campaign_broke = { } }
@@ -450,7 +450,7 @@ province_event = {
 							}
 						}
 					}
-					owner = { NOT = { badboy = 19 } }
+					owner = { NOT = { badboy = 0.72 } }
 					is_core = HUG
 				}
 				owner = { badboy = 5 }

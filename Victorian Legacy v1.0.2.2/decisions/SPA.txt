@@ -436,6 +436,7 @@ political_decisions = {
 	
 		potential = { 
 			tag = SPA
+			NOT = { has_country_flag = republic_ideas_buff }
 			has_country_flag = republic_ideas
 		}
 	
@@ -446,6 +447,7 @@ political_decisions = {
 		}
 	
 		effect = {
+			set_country_flag = republic_ideas_buff
 			prestige = 25
 			country_event = 100000
 		}
