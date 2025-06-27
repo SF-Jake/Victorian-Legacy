@@ -114,14 +114,14 @@ world_bank_template = {
 	workforce = 10000
 }
 
-# world_bank_factory = {       
-# 	template = world_bank_template
-# 	input_goods = {
-# 		precious_metal = 0.01
-# 	}
-# 	output_goods = precious_metal
-# 	value = 100
-# }
+world_bank_factory = {       
+	template = world_bank_template
+	input_goods = {
+		precious_metal = 0.01
+	}
+	output_goods = precious_metal
+	value = 100
+}
 
 #wool_fabric_factory = {       
 #	template = factory_template
@@ -966,25 +966,24 @@ RGO_template_labourers = {
 	workforce = 40000
 }
 
-# RGO_template_bankers = {
-# 	owner =
-# 	{
-# 		poptype = aristocrats
-# 		effect = output
-# 	}
+RGO_template_bankers = {
+	owner =
+	{
+		poptype = aristocrats
+		effect = output
+	}
 		
-# 	employees = {
-# 		{ 
-# 			poptype = bankers
-# 			effect = throughput
-# 			amount = 1
-# 		}
-# 	}
+	employees = {
+		{ 
+			poptype = zbankers
+			effect = throughput
+			amount = 1
+		}
+	}
 	
-# 	type = rgo
-# 	workforce = 400000
-# }
-
+	type = rgo
+	workforce = 40000
+}
 
 cattle_ranch = {
 	template = RGO_template_farmers
@@ -1056,19 +1055,19 @@ orchard = {
 	farm = yes
 }
 
-#precious_metal_mine = {
-#	template = RGO_template_labourers
-#	output_goods = precious_metal 
-#	value = 2
-#	mine = yes
-#}
-
 # precious_metal_mine = {
-# 	template = RGO_template_bankers
+# 	template = RGO_template_labourers
 # 	output_goods = precious_metal 
-# 	value = 10000
+# 	value = 2
 # 	mine = yes
 # }
+
+precious_metal_mine = {
+	template = RGO_template_bankers
+	output_goods = precious_metal 
+	value = 10000
+	mine = yes
+}
 
 rubber_lodge = {
 	template = RGO_template_labourers

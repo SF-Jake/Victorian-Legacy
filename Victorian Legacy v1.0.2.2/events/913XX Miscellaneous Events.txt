@@ -142,6 +142,13 @@ country_event = {
 		NOT = { has_country_modifier = admin_counter }
 	}
 
+	immediate = {
+		add_country_modifier = {
+			name = admin_counter
+			duration = 362
+		}
+	}
+
 	option = {
 		any_country = {
 			limit = {

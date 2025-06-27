@@ -152,41 +152,41 @@ country_event = {
 	}
 }
 
-# country_event = {
-# 	id = 9991160
-# 	title = "World Bank AI Nerf"
-# 	desc = "Prevents some issues down the road"
-# 	picture = "dixie"
+country_event = {
+	id = 9991160
+	title = "World Bank AI Nerf"
+	desc = "Prevents some issues down the road"
+	picture = "dixie"
 	
-# 	fire_only_once = yes
+	fire_only_once = yes
 	
-# 	trigger = {
-# 		tag = LCT
-# 	}
+	trigger = {
+		tag = JAN
+	}
 	
-# 	mean_time_to_happen = {
-# 		days = 1
-# 	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	
-# 	option = {
-# 		name = "Alright, sounds good."
-# 		build_factory_in_capital_state = world_bank_factory
-# 		build_factory_in_capital_state = world_bank_factory
-# 		build_factory_in_capital_state = world_bank_factory
-# 		build_factory_in_capital_state = world_bank_factory
-# 		build_factory_in_capital_state = world_bank_factory
-# 		build_factory_in_capital_state = world_bank_factory
-# 		build_factory_in_capital_state = world_bank_factory
-# 		build_factory_in_capital_state = world_bank_factory
-# 		add_country_modifier = {
-# 			name = world_bank_rp_nerf
-# 			duration = -1
-# 		}
-# 		ai_chance = {
-# 			factor = 1.0
-# 		}
-# 	}
-# }
+	option = {
+		name = "Alright, sounds good."
+		build_factory_in_capital_state = world_bank_factory
+		build_factory_in_capital_state = world_bank_factory
+		build_factory_in_capital_state = world_bank_factory
+		build_factory_in_capital_state = world_bank_factory
+		build_factory_in_capital_state = world_bank_factory
+		build_factory_in_capital_state = world_bank_factory
+		build_factory_in_capital_state = world_bank_factory
+		build_factory_in_capital_state = world_bank_factory
+		add_country_modifier = {
+			name = world_bank_rp_nerf
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
 
 country_event = {
 	id = 9991121

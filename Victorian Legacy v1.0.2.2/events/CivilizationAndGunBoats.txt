@@ -447,6 +447,9 @@ province_event = {
 			has_country_modifier = foreign_trading_post
 		}
 		NOT = {
+			owner = { tag = JAN }
+		}
+		NOT = {
 			has_province_modifier = local_opium_habit
 			owner = {
 				has_country_modifier = trade_restrictions

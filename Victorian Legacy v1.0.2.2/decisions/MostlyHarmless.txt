@@ -1,67 +1,26 @@
 # Audax Validator "!" Ignore_1004
 # Audax Validator "!" Ignore_1009
 political_decisions = {
-	banker_income = {
-		potential = {
+	banker_prestige = {
+		picture = banker_prestige
+	
+		potential = { 
 			tag = JAN
-			NOT = { has_global_flag = turn_off_bank }
+			NOT = { has_country_modifier = world_bank_rp_nerf }
 		}
-		
+	
 		allow = {
-			NOT = {
-				any_owned_province = {
-					any_pop = {
-						cash_reserves = 0.2
-					}
-				}
-			}
-			NOT = { has_country_flag = banker_income_timer }
+			
 		}
-		
+	
 		effect = {
-			set_country_flag = banker_income_timer
-			add_country_modifier = { name = banker_income_timer duration = 5 }
-			any_pop = {
-				money = 2000000
-			}
+			prestige = -1000
+			remove_country_modifier = trade_restrictions
+			add_country_modifier = { name = world_bank_rp_nerf duration = -1 }
 		}
-	}
-
-	banker_income_crash = {
-		potential = {
-			tag = JAN
-			has_global_flag = turn_off_bank
-			NOT = { has_global_flag = the_panic_crash }
-		}
-		
-		allow = {
-			NOT = {
-				any_owned_province = {
-					any_pop = {
-						cash_reserves = 0.2
-					}
-				}
-			}
-			NOT = { has_country_flag = banker_income_timer }
-		}
-		effect = {
-			set_global_flag = the_panic_crash
-			country_event = { id=8 days=0 }
-		}
-	}
-
-	banker_income_timer = {
-		potential = {
-			tag = JAN
-		}
-		
-		allow = {
-			has_country_flag = banker_income_timer
-			NOT = { has_country_modifier = banker_income_timer }
-		}
-		
-		effect = {
-			clr_country_flag = banker_income_timer
+	
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -100,24 +59,150 @@ political_decisions = {
 		}
 	}
 
-	jan_mayen_money = {
-		potential = {
+	tier_focus_unlock = {
+		picture = tier_focus_unloack
+	
+		potential = { 
 			tag = JAN
 		}
+	
 		allow = {
-			money = 10000000
+			META_1 = {
+				owner = {
+					OR = {
+						AND = {
+							invention = pop_shift_invention_2
+							NOT = {	has_country_flag = tier_2 }
+						}
+						AND = {
+							invention = pop_shift_invention_3
+							NOT = {	has_country_flag = tier_3 }
+						}
+						AND = {
+							invention = pop_shift_invention_4
+							NOT = {	has_country_flag = tier_4 }
+						}
+						AND = {
+							invention = pop_shift_invention_5
+							NOT = {	has_country_flag = tier_5 }
+						}
+						AND = {
+							invention = pop_shift_invention_6
+							NOT = {	has_country_flag = tier_6 }
+						}
+					}
+				}
+			}
 		}
+	
 		effect = {
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
-			money = -1000000
+			any_country = {
+				limit = {
+					invention = pop_shift_invention_2
+					NOT = {	has_country_flag = tier_2 }
+				}
+				set_country_flag = tier_2
+			}
+			any_country = {
+				limit = {
+					invention = pop_shift_invention_3
+					NOT = {	has_country_flag = tier_3 }
+				}
+				set_country_flag = tier_3
+			}
+			any_country = {
+				limit = {
+					invention = pop_shift_invention_4
+					NOT = {	has_country_flag = tier_4 }
+				}
+				set_country_flag = tier_4
+			}
+			any_country = {
+				limit = {
+					invention = pop_shift_invention_5
+					NOT = {	has_country_flag = tier_5 }
+				}
+				set_country_flag = tier_5
+			}
+			any_country = {
+				limit = {
+					invention = pop_shift_invention_6
+					NOT = {	has_country_flag = tier_6 }
+				}
+				set_country_flag = tier_6
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	technology_flag = {
+		picture = technology_flag
+	
+		potential = { 
+			tag = JAN
+		}
+	
+		allow = {
+			META_1 = {
+				owner = {
+					OR = {
+						AND = {
+							medicine = 1
+							NOT = { has_country_flag = medicine_invented }
+						}
+						AND = {
+							inorganic_chemistry = 1
+							NOT = { has_country_flag = inorganic_chemistry_invented }
+						}
+						AND = {
+							organic_chemistry = 1
+							NOT = { has_country_flag = organic_chemistry_invented }
+						}
+						AND = {
+							electricity = 1
+							NOT = { has_country_flag = electricity_invented }
+						}
+					}
+				}
+			}
+		}
+	
+		effect = {
+			any_country = {
+				limit  = {
+					medicine = 1
+					NOT = { has_country_flag = medicine_invented }
+				}
+				set_country_flag = medicine_invented
+			}
+			any_country = {
+				limit  = {
+					inorganic_chemistry = 1
+					NOT = { has_country_flag = inorganic_chemistry_invented }
+				}
+				set_country_flag = inorganic_chemistry_invented
+			}
+			any_country = {
+				limit  = {
+					organic_chemistry = 1
+					NOT = { has_country_flag = organic_chemistry_invented }
+				}
+				set_country_flag = organic_chemistry_invented
+			}
+			any_country = {
+				limit  = {
+					electricity = 1
+					NOT = { has_country_flag = electricity_invented }
+				}
+				set_country_flag = electricity_invented
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -3035,152 +3120,170 @@ political_decisions = {
 		}
 	}
 
-	tier_focus_unlock = {
-		picture = tier_focus_unloack
-	
-		potential = { 
-			tag = JAN
-		}
-	
-		allow = {
-			META_1 = {
-				owner = {
-					OR = {
-						AND = {
-							invention = pop_shift_invention_2
-							NOT = {	has_country_flag = tier_2 }
-						}
-						AND = {
-							invention = pop_shift_invention_3
-							NOT = {	has_country_flag = tier_3 }
-						}
-						AND = {
-							invention = pop_shift_invention_4
-							NOT = {	has_country_flag = tier_4 }
-						}
-						AND = {
-							invention = pop_shift_invention_5
-							NOT = {	has_country_flag = tier_5 }
-						}
-						AND = {
-							invention = pop_shift_invention_6
-							NOT = {	has_country_flag = tier_6 }
-						}
-					}
-				}
-			}
-		}
-	
-		effect = {
-			any_country = {
-				limit = {
-					invention = pop_shift_invention_2
-					NOT = {	has_country_flag = tier_2 }
-				}
-				set_country_flag = tier_2
-			}
-			any_country = {
-				limit = {
-					invention = pop_shift_invention_3
-					NOT = {	has_country_flag = tier_3 }
-				}
-				set_country_flag = tier_3
-			}
-			any_country = {
-				limit = {
-					invention = pop_shift_invention_4
-					NOT = {	has_country_flag = tier_4 }
-				}
-				set_country_flag = tier_4
-			}
-			any_country = {
-				limit = {
-					invention = pop_shift_invention_5
-					NOT = {	has_country_flag = tier_5 }
-				}
-				set_country_flag = tier_5
-			}
-			any_country = {
-				limit = {
-					invention = pop_shift_invention_6
-					NOT = {	has_country_flag = tier_6 }
-				}
-				set_country_flag = tier_6
-			}
-		}
-	
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	technology_flag = {
-		picture = technology_flag
-	
-		potential = { 
-			tag = JAN
-		}
-	
-		allow = {
-			META_1 = {
-				owner = {
-					OR = {
-						AND = {
-							medicine = 1
-							NOT = { has_country_flag = medicine_invented }
-						}
-						AND = {
-							inorganic_chemistry = 1
-							NOT = { has_country_flag = inorganic_chemistry_invented }
-						}
-						AND = {
-							organic_chemistry = 1
-							NOT = { has_country_flag = organic_chemistry_invented }
-						}
-						AND = {
-							electricity = 1
-							NOT = { has_country_flag = electricity_invented }
-						}
-					}
-				}
-			}
-		}
-	
-		effect = {
-			any_country = {
-				limit  = {
-					medicine = 1
-					NOT = { has_country_flag = medicine_invented }
-				}
-				set_country_flag = medicine_invented
-			}
-			any_country = {
-				limit  = {
-					inorganic_chemistry = 1
-					NOT = { has_country_flag = inorganic_chemistry_invented }
-				}
-				set_country_flag = inorganic_chemistry_invented
-			}
-			any_country = {
-				limit  = {
-					organic_chemistry = 1
-					NOT = { has_country_flag = organic_chemistry_invented }
-				}
-				set_country_flag = organic_chemistry_invented
-			}
-			any_country = {
-				limit  = {
-					electricity = 1
-					NOT = { has_country_flag = electricity_invented }
-				}
-				set_country_flag = electricity_invented
-			}
-		}
-	
-		ai_will_do = {
-			factor = 1
-		}
-	}
+#Commented out code for checking any provinces that don't have mine terrain modifier for Mine Expansion Building.
+	# check_for_provinces = {
+	# 	potential = {
+	# 		tag = JAN
+	# 	}
+	# 	allow = {
+	# 		META_1 = {
+	# 			owner = {
+	# 				any_owned_province = { 
+	# 					NOT = {
+	# 						terrain = arctic_mine
+	# 						terrain = farmlands_mine
+	# 						terrain = plains_mine
+	# 						terrain = steppe_mine
+	# 						terrain = woods_mine
+	# 						terrain = forest_mine
+	# 						terrain = boreal_mine
+	# 						terrain = jungle_mine
+	# 						terrain = hills_mine
+	# 						terrain = dryhills_mine
+	# 						terrain = mountain_mine
+	# 						terrain = semidesert_mine
+	# 						terrain = desert_mine
+	# 						terrain = coastal_desert_mine
+	# 						terrain = marsh_mine
+	# 					}
+	# 					OR = { 
+	# 						province_id = 1102
+	# 						province_id = 1104
+	# 						province_id = 1186
+	# 						province_id = 1182
+	# 						province_id = 1205
+	# 						province_id = 1202
+	# 						province_id = 1107
+	# 						province_id = 1393
+	# 						province_id = 132
+	# 						province_id = 667
+	# 						province_id = 672
+	# 						province_id = 1168
+	# 						province_id = 110
+	# 						province_id = 180
+	# 						province_id = 89
+	# 						province_id = 133
+	# 						province_id = 126
+	# 						province_id = 1399
+	# 						province_id = 1055
+	# 						province_id = 1401
+	# 						province_id = 1425
+	# 						province_id = 1432
+	# 						province_id = 1335
+	# 						province_id = 134
+	# 						province_id = 705
+	# 						province_id = 1260
+	# 						province_id = 1086
+	# 						province_id = 129
+	# 						province_id = 1680
+	# 						province_id = 2173
+	# 						province_id = 87
+	# 						province_id = 2162
+	# 						province_id = 2163
+	# 						province_id = 702
+	# 						province_id = 1397
+	# 						province_id = 2237
+	# 						province_id = 2396
+	# 						province_id = 2391
+	# 						province_id = 1108
+	# 						province_id = 1051
+	# 						province_id = 2270
+	# 						province_id = 1163
+	# 						province_id = 1732
+	# 						province_id = 1720
+	# 						province_id = 1132
+	# 						province_id = 1170
+	# 						province_id = 26
+	# 						province_id = 2291
+	# 						province_id = 849
+	# 						province_id = 928
+	# 						province_id = 923
+	# 					}
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	effect = {
+	# 		META_1 = {
+	# 			secede_province = JAN
+	# 		}
+	# 		any_owned = {
+	# 			limit = {
+	# 				NOT = {
+	# 					terrain = arctic_mine
+	# 					terrain = farmlands_mine
+	# 					terrain = plains_mine
+	# 					terrain = steppe_mine
+	# 					terrain = woods_mine
+	# 					terrain = forest_mine
+	# 					terrain = boreal_mine
+	# 					terrain = jungle_mine
+	# 					terrain = hills_mine
+	# 					terrain = dryhills_mine
+	# 					terrain = mountain_mine
+	# 					terrain = semidesert_mine
+	# 					terrain = desert_mine
+	# 					terrain = coastal_desert_mine
+	# 					terrain = marsh_mine
+	# 				}
+	# 				OR = { 
+	# 					province_id = 1102
+	# 					province_id = 1104
+	# 					province_id = 1186
+	# 					province_id = 1182
+	# 					province_id = 1205
+	# 					province_id = 1202
+	# 					province_id = 1107
+	# 					province_id = 1393
+	# 					province_id = 132
+	# 					province_id = 667
+	# 					province_id = 672
+	# 					province_id = 1168
+	# 					province_id = 110
+	# 					province_id = 180
+	# 					province_id = 89
+	# 					province_id = 133
+	# 					province_id = 126
+	# 					province_id = 1399
+	# 					province_id = 1055
+	# 					province_id = 1401
+	# 					province_id = 1425
+	# 					province_id = 1432
+	# 					province_id = 1335
+	# 					province_id = 134
+	# 					province_id = 705
+	# 					province_id = 1260
+	# 					province_id = 1086
+	# 					province_id = 129
+	# 					province_id = 1680
+	# 					province_id = 2173
+	# 					province_id = 87
+	# 					province_id = 2162
+	# 					province_id = 2163
+	# 					province_id = 702
+	# 					province_id = 1397
+	# 					province_id = 2237
+	# 					province_id = 2396
+	# 					province_id = 2391
+	# 					province_id = 1108
+	# 					province_id = 1051
+	# 					province_id = 2270
+	# 					province_id = 1163
+	# 					province_id = 1732
+	# 					province_id = 1720
+	# 					province_id = 1132
+	# 					province_id = 1170
+	# 					province_id = 26
+	# 					province_id = 2291
+	# 					province_id = 849
+	# 					province_id = 928
+	# 					province_id = 923
+	# 				}
+	# 			}
+	# 			secede_province = FRA
+	# 		}
+	# 	}
+	# }
 
 	national_idea = {
 		potential = {
@@ -3386,171 +3489,6 @@ political_decisions = {
 			factor = 1
 		}
 	}
-
-	#Commented out code for checking any provinces that don't have mine terrain modifier for Mine Expansion Building.
-	# check_for_provinces = {
-	# 	potential = {
-	# 		tag = JAN
-	# 	}
-	# 	allow = {
-	# 		META_1 = {
-	# 			owner = {
-	# 				any_owned_province = { 
-	# 					NOT = {
-	# 						terrain = arctic_mine
-	# 						terrain = farmlands_mine
-	# 						terrain = plains_mine
-	# 						terrain = steppe_mine
-	# 						terrain = woods_mine
-	# 						terrain = forest_mine
-	# 						terrain = boreal_mine
-	# 						terrain = jungle_mine
-	# 						terrain = hills_mine
-	# 						terrain = dryhills_mine
-	# 						terrain = mountain_mine
-	# 						terrain = semidesert_mine
-	# 						terrain = desert_mine
-	# 						terrain = coastal_desert_mine
-	# 						terrain = marsh_mine
-	# 					}
-	# 					OR = { 
-	# 						province_id = 1102
-	# 						province_id = 1104
-	# 						province_id = 1186
-	# 						province_id = 1182
-	# 						province_id = 1205
-	# 						province_id = 1202
-	# 						province_id = 1107
-	# 						province_id = 1393
-	# 						province_id = 132
-	# 						province_id = 667
-	# 						province_id = 672
-	# 						province_id = 1168
-	# 						province_id = 110
-	# 						province_id = 180
-	# 						province_id = 89
-	# 						province_id = 133
-	# 						province_id = 126
-	# 						province_id = 1399
-	# 						province_id = 1055
-	# 						province_id = 1401
-	# 						province_id = 1425
-	# 						province_id = 1432
-	# 						province_id = 1335
-	# 						province_id = 134
-	# 						province_id = 705
-	# 						province_id = 1260
-	# 						province_id = 1086
-	# 						province_id = 129
-	# 						province_id = 1680
-	# 						province_id = 2173
-	# 						province_id = 87
-	# 						province_id = 2162
-	# 						province_id = 2163
-	# 						province_id = 702
-	# 						province_id = 1397
-	# 						province_id = 2237
-	# 						province_id = 2396
-	# 						province_id = 2391
-	# 						province_id = 1108
-	# 						province_id = 1051
-	# 						province_id = 2270
-	# 						province_id = 1163
-	# 						province_id = 1732
-	# 						province_id = 1720
-	# 						province_id = 1132
-	# 						province_id = 1170
-	# 						province_id = 26
-	# 						province_id = 2291
-	# 						province_id = 849
-	# 						province_id = 928
-	# 						province_id = 923
-	# 					}
-	# 				}
-	# 			}
-	# 		}
-	# 	}
-	# 	effect = {
-	# 		META_1 = {
-	# 			secede_province = JAN
-	# 		}
-	# 		any_owned = {
-	# 			limit = {
-	# 				NOT = {
-	# 					terrain = arctic_mine
-	# 					terrain = farmlands_mine
-	# 					terrain = plains_mine
-	# 					terrain = steppe_mine
-	# 					terrain = woods_mine
-	# 					terrain = forest_mine
-	# 					terrain = boreal_mine
-	# 					terrain = jungle_mine
-	# 					terrain = hills_mine
-	# 					terrain = dryhills_mine
-	# 					terrain = mountain_mine
-	# 					terrain = semidesert_mine
-	# 					terrain = desert_mine
-	# 					terrain = coastal_desert_mine
-	# 					terrain = marsh_mine
-	# 				}
-	# 				OR = { 
-	# 					province_id = 1102
-	# 					province_id = 1104
-	# 					province_id = 1186
-	# 					province_id = 1182
-	# 					province_id = 1205
-	# 					province_id = 1202
-	# 					province_id = 1107
-	# 					province_id = 1393
-	# 					province_id = 132
-	# 					province_id = 667
-	# 					province_id = 672
-	# 					province_id = 1168
-	# 					province_id = 110
-	# 					province_id = 180
-	# 					province_id = 89
-	# 					province_id = 133
-	# 					province_id = 126
-	# 					province_id = 1399
-	# 					province_id = 1055
-	# 					province_id = 1401
-	# 					province_id = 1425
-	# 					province_id = 1432
-	# 					province_id = 1335
-	# 					province_id = 134
-	# 					province_id = 705
-	# 					province_id = 1260
-	# 					province_id = 1086
-	# 					province_id = 129
-	# 					province_id = 1680
-	# 					province_id = 2173
-	# 					province_id = 87
-	# 					province_id = 2162
-	# 					province_id = 2163
-	# 					province_id = 702
-	# 					province_id = 1397
-	# 					province_id = 2237
-	# 					province_id = 2396
-	# 					province_id = 2391
-	# 					province_id = 1108
-	# 					province_id = 1051
-	# 					province_id = 2270
-	# 					province_id = 1163
-	# 					province_id = 1732
-	# 					province_id = 1720
-	# 					province_id = 1132
-	# 					province_id = 1170
-	# 					province_id = 26
-	# 					province_id = 2291
-	# 					province_id = 849
-	# 					province_id = 928
-	# 					province_id = 923
-	# 				}
-	# 			}
-	# 			secede_province = FRA
-	# 		}
-	# 	}
-	# }
 
 	oil_locations_modifier = {
 		potential = {
