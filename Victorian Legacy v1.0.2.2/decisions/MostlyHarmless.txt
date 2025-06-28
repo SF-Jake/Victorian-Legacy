@@ -165,6 +165,10 @@ political_decisions = {
 							electricity = 1
 							NOT = { has_country_flag = electricity_invented }
 						}
+						AND = {
+							synthetic_polymers = 1
+							NOT = { has_country_flag = synthetic_polymers_invented }
+						}
 					}
 				}
 			}
@@ -198,6 +202,13 @@ political_decisions = {
 					NOT = { has_country_flag = electricity_invented }
 				}
 				set_country_flag = electricity_invented
+			}
+			any_country = {
+				limit  = {
+					synthetic_polymers = 1
+					NOT = { has_country_flag = synthetic_polymers_invented }
+				}
+				set_country_flag = synthetic_polymers_invented
 			}
 		}
 	

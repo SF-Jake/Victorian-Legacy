@@ -10,42 +10,6 @@
 #
 
 ###World Bank
-
-world_bank_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		iron = 1000000000
-		coal = 1000000000
-		cotton = 1000000000
-		wool = 1000000000
-		silk = 1000000000
-		sulphur = 1000000000
-		cattle = 1000000000
-		fish = 1000000000
-		fruit = 1000000000
-		grain = 1000000000
-		timber = 1000000000
-		tropical_wood = 1000000000
-		tobacco = 1000000000
-		tea = 1000000000
-		coffee = 1000000000
-		opium = 1000000000
-		rubber = 1000000000
-		oil = 1000000000
-	}
-	time = 30
-	visibility = yes
-	onmap = no
-
-	production_type = world_bank_factory
-	pop_build_factory = no
-	advanced_factory = no
-}
-
 ############# LATE GAME FACTORIES
 
 aeroplane_factory = {
@@ -853,4 +817,39 @@ mines = {
 	# Audax Validator "." Ignore_NEXT
 
 	mine_rgo_eff = 0.25
+}
+
+world_bank_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		iron = 1000000000
+		coal = 1000000000
+		cotton = 1000000000
+		wool = 1000000000
+		silk = 1000000000
+		sulphur = 1000000000
+		cattle = 1000000000
+		fish = 1000000000
+		fruit = 1000000000
+		grain = 1000000000
+		timber = 1000000000
+		tropical_wood = 1000000000
+		tobacco = 1000000000
+		tea = 1000000000
+		coffee = 1000000000
+		opium = 1000000000
+		rubber = 1000000000
+		oil = 1000000000
+	}
+	time = 30
+	visibility = yes
+	onmap = no
+
+	production_type = world_bank_factory
+	pop_build_factory = no
+	advanced_factory = no
 }

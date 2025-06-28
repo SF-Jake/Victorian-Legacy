@@ -721,8 +721,7 @@ social_reforms = {
 			pension_level = 5
 			global_immigrant_attract = 0.045
 			allow = {
-				year = 1860
-				has_country_flag = inorganic_chemistry_invented
+				has_country_flag = organic_chemistry_invented
 				always = no
 			}
 		}
@@ -733,7 +732,7 @@ social_reforms = {
 			pension_level = 7
 			global_immigrant_attract = 0.06
 			allow = { 
-				has_country_flag = organic_chemistry_invented
+				has_country_flag = electricity_invented
 				always = no
 			}
 		}
@@ -744,7 +743,7 @@ social_reforms = {
 			pension_level = 10
 			global_immigrant_attract = 0.075
 			allow = { 
-				has_country_flag = electricity_invented
+				has_country_flag = synthetic_polymers_invented
 				always = no
 			}
 		}
