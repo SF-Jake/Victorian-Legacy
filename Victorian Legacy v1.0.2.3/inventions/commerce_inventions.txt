@@ -536,59 +536,6 @@ industrial_goods_idea = {
 	}
 }
 
-naval_nation_modifier = {
-	limit = {
-		early_classical_theory_and_critique = 1
-		has_country_flag = naval_nation_modifier
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = -100
-			NOT = { has_country_flag = naval_nation_modifier}
-		}
-		modifier = {
-			factor = 100
-			has_country_flag = naval_nation_modifier
-		}
-		modifier = {
-			factor = 1000
-			has_global_flag = disabled_nation_traditions
-		}
-	}
-	effect = {
-		navy_base = {
-			supply_consumption = -0.05
-		}
-	}
-}
-
-army_nation_modifier = {
-	limit = {
-		early_classical_theory_and_critique = 1
-	}
-	chance = {
-		base = 0
-		modifier = {
-			factor = -100
-			NOT = { has_country_flag = army_nation_modifier }
-		}
-		modifier = {
-			factor = 100
-			has_country_flag = army_nation_modifier
-		}
-		modifier = {
-			factor = 1000
-			has_global_flag = disabled_nation_traditions
-		}
-	}
-	effect = {
-		army_base = {
-			supply_consumption = -0.05
-		}
-	}
-}
-
 adam_smith = {
 	limit = { early_classical_theory_and_critique = 1 }
 	news = no

@@ -167,6 +167,14 @@ political_decisions = {
 					is_greater_power = yes
 					nationalism_n_imperialism = 1
 				}
+				AND = {
+					ENG_517 = {
+						controlled_by = SPA
+						province_control_days = 200
+					}
+					has_country_flag = republic_ideas
+					nationalism_n_imperialism = 1
+				}
 			}
 		}
 		
@@ -178,6 +186,7 @@ political_decisions = {
 		}
 	}
 
+	#Carlist Path
 	carlist_ideas_path1 = {
 		picture = carlist_ideas
 	
@@ -244,7 +253,7 @@ political_decisions = {
 	}
 
 	carlist_ideas_colombia = {
-		picture = carlist_ideas_colombia
+		picture = carlist_ideas
 	
 		potential = { 
 			NOT = { has_country_flag = carlist_ideas_colombia }
@@ -271,8 +280,9 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	carlist_ideas_ecuador = {
-		picture = carlist_ideas_ecuador
+		picture = carlist_ideas
 	
 		potential = {
 			NOT = { has_country_flag = carlist_ideas_ecuador }
@@ -296,8 +306,9 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	carlist_ideas_venezula = {
-		picture = carlist_ideas_venezula
+		picture = carlist_ideas
 	
 		potential = { 
 			NOT = { has_country_flag = carlist_ideas_venezula }
@@ -323,8 +334,9 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	carlist_ideas_gran_colombia = {
-		picture = carlist_ideas_venezula
+		picture = carlist_ideas
 	
 		potential = { 
 			NOT = { has_country_flag = carlist_ideas_gran_colombia }
@@ -360,7 +372,7 @@ political_decisions = {
 	}
 
 	carlist_ideas_new_world = {
-		picture = carlist_ideas_new_world
+		picture = carlist_ideas
 	
 		potential = { 
 			has_country_flag = carlist_ideas 
@@ -383,6 +395,8 @@ political_decisions = {
 			MEX_2177 = { add_core = THIS }
 			MEX_2179 = { add_core = THIS }
 			MEX_2172 = { add_core = THIS }
+			set_country_flag = new_world_nation
+			set_country_flag = north_american_immigrant_nation
 		}
 	
 		ai_will_do = {
@@ -390,6 +404,7 @@ political_decisions = {
 		}
 	}
 
+	#Republican Path
 	republic_ideas_path2 = {
 		picture = republic_ideas
 	
@@ -432,7 +447,7 @@ political_decisions = {
 	}
 
 	republic_ideas_buff = {
-		picture = republic_ideas_buff
+		picture = republic_ideas
 	
 		potential = { 
 			tag = SPA

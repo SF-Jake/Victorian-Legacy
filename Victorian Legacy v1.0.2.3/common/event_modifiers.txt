@@ -1336,7 +1336,7 @@ uk_nation_modifier = {
 fra_nation_modifier = {
 	land_unit_start_experience = 2.5
 	research_points_modifier = 0.075
-	#set_country_flag = army_nation_modifier
+	supply_consumption = -0.05
 	factory_throughput = 0.1
 	industry_tech_research_bonus = 0.075
 	icon = 26
@@ -1344,7 +1344,7 @@ fra_nation_modifier = {
 
 pru_nation_modifier = {
 	land_unit_start_experience = 2.5
-	#set_country_flag = army_nation_modifier
+	supply_consumption = -0.05
 	mine_rgo_eff = 0.1
 	leadership = 1
 	global_population_growth = 0.002
@@ -1364,7 +1364,7 @@ sar_nation_modifier = {
 	naval_organisation = 0.05
 	tax_efficiency = 0.05
 	education_efficiency_modifier = 0.075
-	#set_country_flag = naval_nation_modifier
+	supply_consumption = -0.05
 	global_population_growth = 0.001
 	icon = 29
 }
@@ -1399,8 +1399,8 @@ usa_nation_modifier = {
 jap_nation_modifier = {
 	land_organisation = 0.05
 	naval_organisation = 0.05
-	#set_country_flag = naval_nation_modifier
-	#set_country_flag = army_nation_modifier
+	supply_consumption = -0.05
+	navy_tech_research_bonus = 0.075
 	icon = 33
 }
 
@@ -1415,7 +1415,7 @@ spa_nation_modifier = {
 ksn_nation_modifier = {
 	prestige = 0.05
 	research_points_modifier = 0.075
-	#set_country_flag = naval_nation_modifier
+	supply_consumption = -0.05
 	factory_throughput = 0.1
 	icon = 35
 }
@@ -1424,7 +1424,7 @@ net_nation_modifier = {
 	land_unit_start_experience = 2.5
 	naval_organisation = 0.05
 	mine_rgo_eff = 0.1
-	#set_country_flag = naval_nation_modifier
+	supply_consumption = -0.05
 	icon = 36
 }
 
@@ -1436,9 +1436,17 @@ brz_nation_modifier = {
 	icon = 37
 }
 
+por_nation_modifier = {
+	land_unit_start_experience = 2.5
+	research_points_modifier = 0.1
+	education_efficiency_modifier = 0.1
+	mobilisation_size = 0.02
+	icon = 46
+}
+
 com_nation_modifier = {
 	global_immigrant_attract = 0.15
-	#set_country_flag = naval_nation_modifier
+	supply_consumption = -0.05
 	leadership_modifier = 1
 	icon = 38
 }
@@ -1460,7 +1468,7 @@ mex_nation_modifier = {
 arc_nation_modifier = {
 	global_immigrant_attract = 0.1
 	research_points_modifier = 0.075
-	#set_country_flag = army_nation_modifier
+	supply_consumption = -0.05
 	icon = 41
 }
 
@@ -1472,7 +1480,7 @@ eth_nation_modifier = {
 }
 
 per_nation_modifier = {
-	#set_country_flag = army_nation_modifier
+	supply_consumption = -0.05
 	mine_rgo_eff = 0.1
 	army_tech_research_bonus = 0.075
 	icon = 43
@@ -1492,14 +1500,49 @@ sia_nation_modifier = {
 	icon = 45
 }
 
-por_nation_modifier = {
-	land_unit_start_experience = 2.5
-	research_points_modifier = 0.1
-	education_efficiency_modifier = 0.1
+ser_nation_modifier = {
+	leadership = 1
+	global_population_growth = 0.001
 	mobilisation_size = 0.02
-	icon = 46
+	icon = 50
 }
 
+rom_nation_modifier = {
+	tax_efficiency = 0.1
+	education_efficiency_modifier = 0.1
+	mine_rgo_eff = 0.1
+	icon = 50
+}
+
+gre_nation_modifier = {
+	land_unit_start_experience = 2.5
+	research_points_modifier = 0.1
+	global_assimilation_rate = 1
+	icon = 50
+}
+
+egy_nation_modifier = {
+	tax_efficiency = 0.05
+	education_efficiency_modifier = 0.075
+	badboy = -0.03
+	icon = 50
+}
+
+sok_nation_modifier = {
+	land_unit_start_experience = 2.5
+	culture_tech_research_bonus = 0.075
+	badboy = -0.03
+	icon = 50
+}
+
+lun_nation_modifier = {
+	land_unit_start_experience = 2.5
+	education_efficiency_modifier = 0.1
+	leadership = 1
+	icon = 50
+}
+
+#Formable Traditions
 vns_nation_modifier = {
 	education_efficiency_modifier = 0.075
 	global_immigrant_attract = 0.1
@@ -1585,44 +1628,74 @@ domestic_idea = {
 }
 
 # National Idea progress bar
-national_idea1_bar_done = {
-	icon = 53
+army_morale_idea_bar = {
+	icon = 51
+}
+army_organisation_idea_bar = {
+	icon = 51
+}
+military_supplies_idea_bar = {
+	icon = 51
+}
+military_hospitals_idea_bar = {
+	icon = 51
+}
+reinforce_rate_idea_bar = {
+	icon = 51
+}
+leadership_idea_bar = {
+	icon = 51
+}
+prestige_idea_bar = {
+	icon = 51
+}
+navy_organisation_idea_bar = {
+	icon = 51
+}
+expansion_idea_bar = {
+	icon = 51
+}
+assimilation_idea_bar = {
+	icon = 51
+}
+farming_idea_bar = {
+	icon = 51
+}
+mining_idea_bar = {
+	icon = 51
+}
+consumer_goods_idea_bar = {
+	icon = 51
+}
+industrial_goods_idea_bar = {
+	icon = 51
+}
+domestic_idea_bar = {
+	icon = 51
+}
+education_idea_bar = {
+	icon = 51
 }
 
-national_idea2_bar_done = {
-	icon = 55
-}
-
-national_idea3_bar_done = {
-	icon = 55
-}
-
-national_idea4_bar_done = {
-	icon = 55
-}
-
-national_idea5_bar_done = {
-	icon = 54
-}
-
+# Not Selected
 national_idea1_bar = {
 	icon = 50
 }
 
 national_idea2_bar = {
-	icon = 52
+	icon = 50
 }
 
 national_idea3_bar = {
-	icon = 52
+	icon = 50
 }
 
 national_idea4_bar = {
-	icon = 52
+	icon = 50
 }
 
 national_idea5_bar = {
-	icon = 51
+	icon = 50
 }
 
 ########## PROVINCE SELECTOR DECISIONS ##########
@@ -1857,7 +1930,6 @@ monument_under_construction = {
 }
 
 #Colonial Nation Modifiers
-
 colonial_company = {
 	local_RGO_output = 0.05
 	icon = 17
@@ -1879,19 +1951,18 @@ sepoy_rebellion = {
 }
 
 #Republic Spain Event Modifiers
-
 spain_french_support = {
-	factory_throughput = 0.1
+	factory_output = 0.15
 	icon = 17
 }
 
 spain_german_support = {
-	land_organisation = 0.1
+	land_organisation = 0.15
 	icon = 17
 }
 
 spain_italian_support = {
-	land_organisation = 0.05
-	factory_throughput = 0.05
+	land_organisation = 0.075
+	factory_output = 0.075
 	icon = 17
 }

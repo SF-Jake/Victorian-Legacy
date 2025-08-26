@@ -56,6 +56,24 @@ acquire_state_small
 acquire_state_medium
 acquire_state_large
 acquire_state_huge
+early_scramble_for_africa_tiny
+early_scramble_for_africa_small
+early_scramble_for_africa_medium
+early_scramble_for_africa_large
+early_scramble_for_africa_huge
+scramble_for_africa_tiny
+scramble_for_africa_small
+scramble_for_africa_medium
+scramble_for_africa_large
+scramble_for_africa_huge
+late_scramble_for_africa_tiny
+late_scramble_for_africa_small
+late_scramble_for_africa_medium
+late_scramble_for_africa_large
+late_scramble_for_africa_huge
+early_scramble_for_africa_conquest
+scramble_for_africa_conquest
+late_scramble_for_africa_conquest
 demand_concession_casus_belli_tiny
 demand_concession_casus_belli_small
 demand_concession_casus_belli_medium
@@ -84,7 +102,6 @@ become_independent
 make_puppet
 dismantle_forts
 humiliate
-
 demand_colony_for_allies
 establish_protectorate_casus_belli
 establish_colonial_protectorate_casus_belli
@@ -133,10 +150,16 @@ gunboat = {
 			has_country_modifier = in_bankrupcy
 			has_country_modifier = generalised_debt_default
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		
 		in_default = THIS
 	}
@@ -232,10 +255,16 @@ conquest = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		OR = {
 			AND = {
 				civilized = yes
@@ -359,9 +388,6 @@ add_to_sphere = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
-		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -375,7 +401,16 @@ add_to_sphere = {
 				}
 			 } 
 		}
-		NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
+		}
 		this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = no
@@ -899,9 +934,6 @@ acquire_substate_region = {
 		}
 		this = { NOT = { badboy = 1 } }
 		num_of_substates = 1 # if has any substate
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
-		}
 		any_substate = {
 			number_of_states = 1
 			any_owned_province = {
@@ -975,10 +1007,16 @@ acquire_state_tiny = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -1079,10 +1117,16 @@ acquire_state_small = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -1184,10 +1228,16 @@ acquire_state_medium = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -1289,10 +1339,16 @@ acquire_state_large = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -1394,10 +1450,16 @@ acquire_state_huge = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -1500,10 +1562,16 @@ place_in_the_sun_tiny = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		any_owned_province = {
 			is_colonial = yes
 		}
@@ -1583,10 +1651,16 @@ place_in_the_sun_small = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		any_owned_province = {
 			is_colonial = yes
 		}
@@ -1665,10 +1739,16 @@ place_in_the_sun_medium = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		any_owned_province = {
 			is_colonial = yes
 		}
@@ -1747,10 +1827,16 @@ place_in_the_sun_large = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		any_owned_province = {
 			is_colonial = yes
 		}
@@ -1829,10 +1915,16 @@ place_in_the_sun_huge = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		any_owned_province = {
 			is_colonial = yes
 		}
@@ -2182,10 +2274,16 @@ free_peoples_tiny = {
 
 	can_use = {
 		NOT = { tag = LCT tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		NOT = { year = 1870 }
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -2264,10 +2362,16 @@ free_peoples_small = {
 
 	can_use = {
 		NOT = { tag = LCT tag = GHO  tag = TIN tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		NOT = { year = 1870 }
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -2346,10 +2450,16 @@ free_peoples_medium = {
 
 	can_use = {
 		NOT = { tag = LCT tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		NOT = { year = 1870 }
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -2428,10 +2538,16 @@ free_peoples_large = {
 
 	can_use = {
 		NOT = { tag = LCT tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		NOT = { year = 1870 }
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -2510,10 +2626,16 @@ free_peoples_huge = {
 
 	can_use = {
 		NOT = { tag = LCT tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		NOT = { year = 1870 }
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
@@ -2597,10 +2719,16 @@ liberate_country = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		year = 1914
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
@@ -2782,10 +2910,16 @@ take_puppet = {
 		NOT = { is_our_vassal = THIS }
 		this = { NOT = { badboy = 1 } }
 		num_of_vassals_no_substates = 1
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 	}
 	
 	# THIS - us
@@ -2859,10 +2993,16 @@ release_puppet = {
 		NOT = { tag = JAN }
 		this = { NOT = { badboy = 1 } }
 		num_of_vassals_no_substates = 1
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 	}
 	
 	# THIS - us
@@ -2941,10 +3081,16 @@ make_puppet = {
 		NOT = { total_pops = 3000000 }
 		is_greater_power = no
 		is_vassal = no
-  		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+  		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 	}
 	
 	# THIS - us
@@ -3090,6 +3236,1300 @@ humiliate = {
 	}
 }
 
+#Scramble For Africa CBs
+early_scramble_for_africa_tiny = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { NOT = { nationalism_n_imperialism = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 3
+	prestige_factor = 5
+	peace_cost_factor = 0.002
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = TIN
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+early_scramble_for_africa_small = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { NOT = { nationalism_n_imperialism = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 3
+	prestige_factor = 5
+	peace_cost_factor = 0.004
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = SMA
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+early_scramble_for_africa_medium = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { NOT = { nationalism_n_imperialism = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 3
+	prestige_factor = 5
+	peace_cost_factor = 0.006
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = MED
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+early_scramble_for_africa_large = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { NOT = { nationalism_n_imperialism = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 3
+	prestige_factor = 5
+	peace_cost_factor = 0.008
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = LRG
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+}
+
+early_scramble_for_africa_huge = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { NOT = { nationalism_n_imperialism = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 3
+	prestige_factor = 5
+	peace_cost_factor = 0.01
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = HUG
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+scramble_for_africa_tiny = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { nationalism_n_imperialism = 1 }
+		THIS = { NOT = { revolution_n_counterrevolution = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 2
+	prestige_factor = 5
+	peace_cost_factor = 0.002
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = TIN
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+scramble_for_africa_small = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { nationalism_n_imperialism = 1 }
+		THIS = { NOT = { revolution_n_counterrevolution = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 2
+	prestige_factor = 5
+	peace_cost_factor = 0.004
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = SMA
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+scramble_for_africa_medium = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { nationalism_n_imperialism = 1 }
+		THIS = { NOT = { revolution_n_counterrevolution = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 2
+	prestige_factor = 5
+	peace_cost_factor = 0.006
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = MED
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+scramble_for_africa_large = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { nationalism_n_imperialism = 1 }
+		THIS = { NOT = { revolution_n_counterrevolution = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 2
+	prestige_factor = 5
+	peace_cost_factor = 0.008
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = LRG
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+scramble_for_africa_huge = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { nationalism_n_imperialism = 1 }
+		THIS = { NOT = { revolution_n_counterrevolution = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 2
+	prestige_factor = 5
+	peace_cost_factor = 0.01
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = HUG
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+late_scramble_for_africa_tiny = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { revolution_n_counterrevolution = 1 }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 0.2
+	prestige_factor = 5
+	peace_cost_factor = 0.002
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 4.2
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = TIN
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+late_scramble_for_africa_small = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { revolution_n_counterrevolution = 1 }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 0.2
+	prestige_factor = 5
+	peace_cost_factor = 0.004
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 4.2
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = SMA
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+late_scramble_for_africa_medium = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { revolution_n_counterrevolution = 1 }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 0.2
+	prestige_factor = 5
+	peace_cost_factor = 0.006
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 4.2
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = MED
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+late_scramble_for_africa_large = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { revolution_n_counterrevolution = 1 }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 0.2
+	prestige_factor = 5
+	peace_cost_factor = 0.008
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 4.2
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = LRG
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+late_scramble_for_africa_huge = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { revolution_n_counterrevolution = 1 }
+		THIS = { civilized = yes }
+		civilized = no
+		number_of_states = 2
+	}
+
+	badboy_factor = 0.2
+	prestige_factor = 5
+	peace_cost_factor = 0.01
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 4.2
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = HUG
+			is_colonial = no
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	po_remove_prestige = yes
+	
+	war_name = WAR_CONCESSION_NAME
+}
+
+early_scramble_for_africa_conquest = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 2
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { NOT = { nationalism_n_imperialism = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		NOT = { number_of_states = 2 }
+	}
+
+	badboy_factor = 1.5
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
+scramble_for_africa_conquest = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 2
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { nationalism_n_imperialism = 1 }
+		THIS = { NOT = { revolution_n_counterrevolution = 1 } }
+		THIS = { civilized = yes }
+		civilized = no
+		NOT = { number_of_states = 2 }
+	}
+
+	badboy_factor = 1.0
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 1
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
+late_scramble_for_africa_conquest = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 2
+	crisis = no
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		NOT = { tag = CHI }
+		this = { NOT = { tag = CHI } }
+		this = { NOT = { badboy = 1 } }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { 
+			NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		THIS = { NOT = { has_country_flag = conquerable_1865 }}
+		has_country_flag = conquerable_1865
+		THIS = { revolution_n_counterrevolution = 1 }
+		THIS = { civilized = yes }
+		civilized = no
+		NOT = { number_of_states = 2 }
+	}
+
+	badboy_factor = 0.1
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 4.2
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
 # Demand Concession on Tiny State
 demand_concession_casus_belli_tiny = {
 	sprite_index = 7
@@ -3134,10 +4574,16 @@ demand_concession_casus_belli_tiny = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		THIS = {
 			civilized = yes
 		}
@@ -3211,10 +4657,16 @@ demand_concession_casus_belli_small = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		THIS = {
 			civilized = yes
 		}
@@ -3288,10 +4740,16 @@ demand_concession_casus_belli_medium = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		THIS = {
 			civilized = yes
 		}
@@ -3365,10 +4823,16 @@ demand_concession_casus_belli_large = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		THIS = {
 			civilized = yes
 		}
@@ -3442,10 +4906,16 @@ demand_concession_casus_belli_huge = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		THIS = {
 			civilized = yes
 		}
@@ -3527,10 +4997,16 @@ establish_protectorate_casus_belli = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		OR = {
 			NOT = {
 				number_of_states = 2 
@@ -4054,10 +5530,16 @@ conquest_low = {
 				}
 			 } 
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
 		OR = {
@@ -4184,10 +5666,16 @@ take_capital = {
 				}
 			}
 		}
-		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 	}
 	
 	allowed_states = {
@@ -4657,10 +6145,16 @@ make_puppet_small = {
 				}
 			 } 
 		}
-  		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+  		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		NOT = { number_of_states = 2 }
 		NOT = { total_pops = 800000 }
 	}
@@ -4739,10 +6233,16 @@ make_puppet_large = {
 		NOT = { tag = CHI }
 		is_greater_power = no
 		is_vassal = no
-  		THIS = {
-			NOT = { has_country_flag = conquerable_1865 }
+  		OR = {
+			AND = {
+				THIS = { has_country_flag = conquerable_1865 }
+				has_country_flag = conquerable_1865
+			}
+			AND = {
+				THIS = { NOT = { has_country_flag = conquerable_1865 }}
+				NOT = { has_country_flag = conquerable_1865 }
+			}
 		}
-		NOT = { has_country_flag = conquerable_1865 }
 		THIS = {
 			civilized = yes
 		}

@@ -375,14 +375,40 @@ political_decisions = {
 
 		allow = {
 			flintlock_rifles = 1
-			year = 1860
+			bronze_muzzle_loaded_artillery = 1
+			malthusian_thought = 1
 		}
 
 		effect = {
 			set_country_flag = became_hausaland
 			prestige = 5
-			primary_culture = bantu
+			add_accepted_culture = bantu
 			add_accepted_culture = niger_congo_a
+			years_of_research = 0.5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	become_central_africa = {
+		potential = {
+			tag = LUN
+			NOT = { has_country_flag = became_hausaland }
+		}
+
+		allow = {
+			flintlock_rifles = 1
+			bronze_muzzle_loaded_artillery = 1
+			malthusian_thought = 1
+		}
+
+		effect = {
+			set_country_flag = became_hausaland
+			prestige = 5
+			add_accepted_culture = niger_congo_a
+			add_accepted_culture = khoisan
 			years_of_research = 0.5
 		}
 

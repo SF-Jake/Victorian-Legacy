@@ -14,6 +14,49 @@ political_decisions = {
 			any_country = {
 				limit = { ai = no }
 				activate_technology = early_classical_theory_and_critique
+				any_owned = {
+					limit = {
+						is_capital = yes
+						owner = { NOT = { has_country_flag = national_idea1 } }
+						NOT = { has_province_modifier = national_idea1_bar }
+					}
+					add_province_modifier = { name = national_idea1_bar duration = -1 }
+				}
+				any_owned = {
+					limit = {
+						is_capital = yes
+						owner = { NOT = { has_country_flag = national_idea2 } }
+						NOT = { has_province_modifier = national_idea2_bar }
+					}
+					add_province_modifier = { name = national_idea2_bar duration = -1 }
+				}
+				any_owned = {
+					limit = {
+						is_capital = yes
+						owner = { NOT = { has_country_flag = national_idea3 } }
+						NOT = { has_province_modifier = national_idea3_bar }
+					}
+					add_province_modifier = { name = national_idea3_bar duration = -1 }
+				}
+				any_owned = {
+					limit = {
+						is_capital = yes
+						owner = { NOT = { has_country_flag = national_idea4 } }
+						NOT = { has_province_modifier = national_idea4_bar }
+					}
+					add_province_modifier = { name = national_idea4_bar duration = -1 }
+				}
+				any_owned = {
+					limit = {
+						is_capital = yes
+						owner = { NOT = { has_country_flag = national_idea5 } }
+						NOT = { has_province_modifier = national_idea5_bar }
+					}
+					add_province_modifier = { name = national_idea5_bar duration = -1 }
+				}
+				capital_scope = {
+					add_province_modifier = { name = capital_supply_depot duration = -1 }
+				}
 			}
 			any_country = {
 				political_reform = no_draft
@@ -97,18 +140,15 @@ political_decisions = {
 			}
 			FRA = {
 				add_country_modifier = { name = fra_nation_modifier duration = -1 }
-				set_country_flag = army_nation_modifier
 			}
 			PRU = {
 				add_country_modifier = { name = pru_nation_modifier duration = -1 }
-				set_country_flag = army_nation_modifier
 			}
 			AUS = {
 				add_country_modifier = { name = aus_nation_modifier duration = -1 }
 			}
 			SAR = {
 				add_country_modifier = { name = sar_nation_modifier duration = -1 }
-				set_country_flag = naval_nation_modifier
 			}
 			TUR = {
 				add_country_modifier = { name = tur_nation_modifier duration = -1 }
@@ -121,26 +161,24 @@ political_decisions = {
 			}
 			JAP = {
 				add_country_modifier = { name = jap_nation_modifier duration = -1 }
-				set_country_flag = naval_nation_modifier
-				set_country_flag = army_nation_modifier
 			}
 			SPA = {
 				add_country_modifier = { name = spa_nation_modifier duration = -1 }
 			}
-			KSN = {
+			SWE = {
 				add_country_modifier = { name = ksn_nation_modifier duration = -1 }
-				set_country_flag = naval_nation_modifier
 			}
 			NET = {
 				add_country_modifier = { name = net_nation_modifier duration = -1 }
-				set_country_flag = naval_nation_modifier
 			}
 			BRZ = {
 				add_country_modifier = { name = brz_nation_modifier duration = -1 }
 			}
+			POR = {
+				add_country_modifier = { name = por_nation_modifier duration = -1 }
+			}
 			COM = {
 				add_country_modifier = { name = com_nation_modifier duration = -1 }
-				set_country_flag = naval_nation_modifier
 			}
 			CHI = {
 				add_country_modifier = { name = chi_nation_modifier duration = -1 }
@@ -150,18 +188,15 @@ political_decisions = {
 			}
 			ARG = {
 				add_country_modifier = { name = arc_nation_modifier duration = -1 }
-				set_country_flag = army_nation_modifier
 			}
 			PBC = {
 				add_country_modifier = { name = arc_nation_modifier duration = -1 }
-				set_country_flag = army_nation_modifier
 			}
 			SHW = {
 				add_country_modifier = { name = eth_nation_modifier duration = -1 }
 			}
 			PER = {
 				add_country_modifier = { name = per_nation_modifier duration = -1 }
-				set_country_flag = army_nation_modifier
 			}
 			CLM = {
 				add_country_modifier = { name = col_nation_modifier duration = -1 }
@@ -169,8 +204,26 @@ political_decisions = {
 			SIA = {
 				add_country_modifier = { name = sia_nation_modifier duration = -1 }
 			}
-			POR = {
-				add_country_modifier = { name = por_nation_modifier duration = -1 }
+			SER = {
+				add_country_modifier = { name = ser_nation_modifier duration = -1 }
+			}
+			WAL = {
+				add_country_modifier = { name = rom_nation_modifier duration = -1 }
+			}
+			MOL = {
+				add_country_modifier = { name = rom_nation_modifier duration = -1 }
+			}
+			GRE = {
+				add_country_modifier = { name = gre_nation_modifier duration = -1 }
+			}
+			EGY = {
+				add_country_modifier = { name = egy_nation_modifier duration = -1 }
+			}
+			SOK = {
+				add_country_modifier = { name = sok_nation_modifier duration = -1 }
+			}
+			LUN = {
+				add_country_modifier = { name = lun_nation_modifier duration = -1 }
 			}
 			any_pop = {
 				limit = { type = zbankers }

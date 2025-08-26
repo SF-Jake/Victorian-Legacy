@@ -325,11 +325,22 @@ national_idea2_bar;National Idea 2 (Unselected) \n§WNational idea unlocks 1850;;
 national_idea3_bar;National Idea 3 (Unselected) \n§WNational idea unlocks 1865;;;;;;;;;;;;;x
 national_idea4_bar;National Idea 4 (Unselected) \n§WNational idea unlocks 1880;;;;;;;;;;;;;x
 national_idea5_bar;National Idea 5 (Unselected) \n§WNational idea unlocks 1895;;;;;;;;;;;;;x
-national_idea1_bar_done;National Idea 1 (Selected);;;;;;;;;;;;;x
-national_idea2_bar_done;National Idea 2 (Selected);;;;;;;;;;;;;x
-national_idea3_bar_done;National Idea 3 (Selected);;;;;;;;;;;;;x
-national_idea4_bar_done;National Idea 4 (Selected);;;;;;;;;;;;;x
-national_idea5_bar_done;National Idea 5 (Selected);;;;;;;;;;;;;x
+army_morale_idea_bar;National Idea (Selected) \n§WArmy Morale Idea\n§G+30% §WArmy Morale;;;;;;;;;;;;;x
+army_organisation_idea_bar;National Idea (Selected) \n§WArmy Organisation Idea\n§G+15% §WArmy Organisation;;;;;;;;;;;;;x
+military_supplies_idea_bar;National Idea (Selected) \n§WMilitary Supplies Idea\n§G-10% §WMilitary Supplies;;;;;;;;;;;;;x
+military_hospitals_idea_bar;National Idea (Selected) \n§WMilitary Hospitals Idea\n§G+10% §WMilitary Hospitals;;;;;;;;;;;;;x
+reinforce_rate_idea_bar;National Idea (Selected) \n§WReinforce Rate Idea\n§G+10% §WReinforce Rate;;;;;;;;;;;;;x
+leadership_idea_bar;National Idea (Selected) \n§WLeadership Idea\n§G+3 §WMonthly Leadership;;;;;;;;;;;;;x
+prestige_idea_bar;National Idea (Selected) \n§WPrestige Idea\n§G+0.3 §WMonthly Prestige;;;;;;;;;;;;;x
+navy_organisation_idea_bar;National Idea (Selected) \n§WNavy Organisation Idea\n§G+20% §WNavy Organisation;;;;;;;;;;;;;x
+expansion_idea_bar;National Idea (Selected) \n§WExpansion Idea\n§G-0.05 §WInfamy Decay;;;;;;;;;;;;;x
+assimilation_idea_bar;National Idea (Selected) \n§WAssimilation Idea\n§G+0.04 §WAssimilation Chance & §G+50% §WRate;;;;;;;;;;;;;x
+farming_idea_bar;National Idea (Selected) \n§WFarming Idea\n§G+30% §WFarming Efficiency;;;;;;;;;;;;;x
+mining_idea_bar;National Idea (Selected) \n§WMining Idea\n§G+30% §WMining Efficiency;;;;;;;;;;;;;x
+consumer_goods_idea_bar;National Idea (Selected) \n§WConsumer Idea\n§G+6% §WConsumer Goods Factory Output;;;;;;;;;;;;;x
+industrial_goods_idea_bar;National Idea (Selected) \n§WIndustrial Goods Idea\n§G+6% §WIndustrial Goods Factory Output;;;;;;;;;;;;;x
+domestic_idea_bar;National Idea (Selected) \n§WDomestic Idea\n§G-0.05 §WPOP Militancy Modifier;;;;;;;;;;;;;x
+education_idea_bar;National Idea (Selected) \n§WEducation Idea\n§G+15% §WEducation Efficiency;;;;;;;;;;;;;x
 PROV3298;Tshushima;;;;;;;;;;;;;x
 zprovince_migration_title;§GMigration Attraction;;;;;;;;;x;;;;
 zprovince_migration_desc;Gives a large bonus to migration to the targeted province. This decision does not increase the chance of receiving immigrants from other countries, it only redirects them to the targetted province. If a province has more than 5% RGO unemployment then the modifier will stop working and should be reset.;;;;;;;;;x;;;;
@@ -374,3 +385,111 @@ austrian_form_south_german_confederation_title;Create the South German Confedera
 austrian_form_south_german_confederation_desc;With our dominant position over the south German states, we can create the South German Confederation -- a union that would be under our full control, and a more useful ally than the nations separately.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 oil_spawn_chance;\n§GIncrease Chance of Oil Spawn by 90% (Tech still required)§W;;;;;;;;;;;;;;
 EVTDESC100000;In 1860, Queen Isabella II of Spain faced growing opposition due to her perceived political favoritism, corruption in the royal court, and failure to implement meaningful reforms. Her reign had become increasingly unstable, prompting liberal and progressive factions to advocate for her removal. Although she remained on the throne until 1868, by 1860, political discourse was already rife with discussions about alternative leadership.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+form_roman_empire_ottoman;@TUR §GOttoman cores can be acquired in a secondary decision.§b;;;;;;;;;;;;;x
+form_roman_empire_austria;@AUS §GAustria cores can be acquired in a secondary decision.§b;;;;;;;;;;;;;x
+BAG;Bagirmi;;;;;;;;;;;;;x;
+BAG_ADJ;Bagirmi;;;;;;;;;;;;;x;
+ADA;Adamawa;;;;;;;;;;;;;x;
+ADA_ADJ;Adamawan;;;;;;;;;;;;;x;
+ADR;Adrar;;;;;;;;;;;;x
+ADR_ADJ;Mauritanian;;;;;;;;;;;;x
+french_empire_rheinland_title;Reassert Claims on the Rhineland;;;;;;;;;;;;x
+french_empire_rheinland_desc;Since the days of Charlemagne and the Holy Roman Empire, the French Crown has looked eastward to the Rhine as both a natural frontier and the heart of European power. The Revolutionary and Napoleonic Wars only deepened these ambitions, with French armies long having marched through and governed the Rhineland. Now, as the French Empire stands strong once more, voices in Paris call for the reassertion of our historical rights and influence over the Rhine. To secure these lands would be to ensure France?s natural border, safeguard our prestige, and remind Europe of our imperial destiny.;;;;;;;;;;;;x
+french_empire_netherlands_title;Revive Claims on the Dutch Lowlands;;;;;;;;;;;;x
+french_empire_netherlands_desc;The Dutch Republic once stood as a rival to France, but from the days of Louis XIV to the Napoleonic Empire, French arms repeatedly crossed the Meuse and brought the Low Countries under Parisian influence. The Kingdom of the Netherlands is but a fragile construct of the Congress of Vienna, propped up as a barrier against French power. Yet many in the Tuileries whisper that the destiny of France is not complete until our tricolor once more flies over Amsterdam and the North Sea coast, securing the Rhine delta as a bulwark of French supremacy.;;;;;;;;;;;;x
+french_empire_belgium_title;Reclaim Belgium;;;;;;;;;;;;x
+french_empire_belgium_desc;The Belgian Revolution tore away lands that France had long considered within her rightful sphere. From the days of the Revolution and Napoleon, Belgium was governed as French soil, its resources and fortresses guarding our northern frontier. The so-called ?Kingdom of Belgium? is little more than a British invention, a buffer state designed to restrain French power. By reclaiming Belgium, France restores her natural border along the Meuse and Scheldt, secures her northern flank, and reasserts her role as master of the Low Countries.;;;;;;;;;;;;x
+taiwan_trade_port_title;Reclaim Formosan Trade Port;;;;;;;;;;;;x
+taiwan_trade_port_desc;In the 17th century, Dutch merchants of the East India Company established Fort Zeelandia on the island of Formosa, creating a hub of commerce that linked China, Japan, and the Indies. Though this foothold was lost to native resistance and Ming loyalists, the dream of a Dutch Formosan trade port has never fully died. By reasserting our influence over Taiwan, we may once more command the sea lanes of East Asia, strengthen our colonial empire, and remind the world that the Netherlands remains a power of global reach.;;;;;;;;;;;;x
+retake_south_africa_title;The Gateway to the East;;;;;;;;;;;;x
+retake_south_africa_desc;The Cape of Good Hope was once the jewel of the Dutch East India Company, a vital resupply station linking Europe with Asia. Though Britain seized the colony during the Napoleonic Wars and has held it since, many in the Netherlands still see the Cape as rightfully Dutch. The Afrikaners who remain carry our language, our faith, and our traditions, a living testament to the legacy of the Republic overseas. By reasserting our claims upon South Africa, we may restore Dutch prestige abroad, reclaim a gateway to the East, and remind the world that the Oranje banner has not faded from the Cape.;;;;;;;;;;;;x
+malaysia_colonial_company_title;Charter an East India Company;;;;;;;;;;;;x
+malaysia_colonial_company_desc;In the modern age, commerce is power. The Portuguese and Spanish first opened the routes to Asia, but it was the Dutch and English who perfected the system of monopolized trade through chartered companies. These East India Companies became more than mere merchants ? they were states within states, armed with private armies, fleets, and the authority to rule colonies in the name of profit. By creating our own East India Company, we shall secure monopolies over spices, tea, and textiles, ensure the flow of wealth into our coffers, and extend our influence far beyond Europe?s shores. Such a charter will mark our nation as not merely a power at home, but a force in the world?s markets and empires.;;;;;;;;;;;;x
+carlist_ideas_path1_title;Embrace Carlist Ideas;;;;;;;;;;;;x
+carlist_ideas_path1_desc;The Carlist cause is more than a struggle for Spain?s throne ? it is a struggle for Spain?s soul. We are heirs to the legacy of Charles V and Philip II, to the empire on which the sun never set. The liberal governments have squandered this inheritance, abandoning our colonies and bowing before foreign powers. But a true monarch does not forget the Indies. The lands of New Spain, Peru, and beyond once recognized the authority of the Spanish Crown, and they may yet again. By reviving the dream of empire across the ocean, we proclaim that the Carlist throne is not only the rightful ruler of Spain, but the rightful lord of the New World.;;;;;;;;;;;;x
+carlist_ideas_colombia_title;Reclaim Colombia;;;;;;;;;;;;x
+carlist_ideas_colombia_desc;The Carlist cause is more than a struggle for Spain?s throne ? it is a struggle for Spain?s soul. We are heirs to the legacy of Charles V and Philip II, to the empire on which the sun never set. The liberal governments have squandered this inheritance, abandoning our colonies and bowing before foreign powers. But a true monarch does not forget the Indies. The lands of New Spain, Peru, and beyond once recognized the authority of the Spanish Crown, and they may yet again. By reviving the dream of empire across the ocean, we proclaim that the Carlist throne is not only the rightful ruler of Spain, but the rightful lord of the New World.;;;;;;;;;;;;x
+carlist_ideas_ecuador_title;Reclaim Ecuador;;;;;;;;;;;;x
+carlist_ideas_ecuador_desc;The Carlist cause is more than a struggle for Spain?s throne ? it is a struggle for Spain?s soul. We are heirs to the legacy of Charles V and Philip II, to the empire on which the sun never set. The liberal governments have squandered this inheritance, abandoning our colonies and bowing before foreign powers. But a true monarch does not forget the Indies. The lands of New Spain, Peru, and beyond once recognized the authority of the Spanish Crown, and they may yet again. By reviving the dream of empire across the ocean, we proclaim that the Carlist throne is not only the rightful ruler of Spain, but the rightful lord of the New World.;;;;;;;;;;;;x
+carlist_ideas_venezula_title;Reclaim Venezula;;;;;;;;;;;;x
+carlist_ideas_venezula_desc;The Carlist cause is more than a struggle for Spain?s throne ? it is a struggle for Spain?s soul. We are heirs to the legacy of Charles V and Philip II, to the empire on which the sun never set. The liberal governments have squandered this inheritance, abandoning our colonies and bowing before foreign powers. But a true monarch does not forget the Indies. The lands of New Spain, Peru, and beyond once recognized the authority of the Spanish Crown, and they may yet again. By reviving the dream of empire across the ocean, we proclaim that the Carlist throne is not only the rightful ruler of Spain, but the rightful lord of the New World.;;;;;;;;;;;;x
+carlist_ideas_gran_colombia_title;Reclaim Colombia;;;;;;;;;;;;x
+carlist_ideas_gran_colombia_desc;The Carlist cause is more than a struggle for Spain?s throne ? it is a struggle for Spain?s soul. We are heirs to the legacy of Charles V and Philip II, to the empire on which the sun never set. The liberal governments have squandered this inheritance, abandoning our colonies and bowing before foreign powers. But a true monarch does not forget the Indies. The lands of New Spain, Peru, and beyond once recognized the authority of the Spanish Crown, and they may yet again. By reviving the dream of empire across the ocean, we proclaim that the Carlist throne is not only the rightful ruler of Spain, but the rightful lord of the New World.;;;;;;;;;;;;x
+carlist_ideas_new_world_title;Move the Capital to New Spain;;;;;;;;;;;;x
+carlist_ideas_new_world_desc;The Carlist cause is more than a struggle for Spain?s throne ? it is a struggle for Spain?s soul. We are heirs to the legacy of Charles V and Philip II, to the empire on which the sun never set. The liberal governments have squandered this inheritance, abandoning our colonies and bowing before foreign powers. But a true monarch does not forget the Indies. The lands of New Spain, Peru, and beyond once recognized the authority of the Spanish Crown, and they may yet again. By reviving the dream of empire across the ocean, we proclaim that the Carlist throne is not only the rightful ruler of Spain, but the rightful lord of the New World.;;;;;;;;;;;;x
+republic_ideas_path2_title;Embrace Republican Ideas;;;;;;;;;;;;x
+republic_ideas_path2_desc;Though Isabella II has been cast down from the throne, her shadow lingers over Spain. To republicans, she is the last relic of a corrupt monarchy, a reminder of the misrule and decadence that brought Spain to ruin. Yet to her dwindling supporters, she remains a figurehead ? a living symbol of the crown?s claim, however tarnished. The Republic must decide whether to tolerate her presence as a powerless exile or erase the last vestiges of Bourbon rule. Only then can Spain truly embrace its new republican destiny.;;;;;;;;;;;;x
+republic_ideas_buff_title;Gain support for a new leader;;;;;;;;;;;;x
+republic_ideas_buff_desc;Though Isabella II has been cast down from the throne, her shadow lingers over Spain. To republicans, she is the last relic of a corrupt monarchy, a reminder of the misrule and decadence that brought Spain to ruin. Yet to her dwindling supporters, she remains a figurehead ? a living symbol of the crown?s claim, however tarnished. The Republic must decide whether to tolerate her presence as a powerless exile or erase the last vestiges of Bourbon rule. Only then can Spain truly embrace its new republican destiny.;;;;;;;;;;;;x
+early_scramble_for_africa_tiny;Early Tiny African Concession;;;;;;;;;;;;x
+early_scramble_for_africa_tiny_short;Demand $STATE$;;;;;;;;;;;;x
+early_scramble_for_africa_tiny_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_tiny_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+early_scramble_for_africa_small;Early Small African Concession;;;;;;;;;;;;x
+early_scramble_for_africa_small_short;Demand $STATE$;;;;;;;;;;;;x
+early_scramble_for_africa_small_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_small_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+early_scramble_for_africa_medium;Early Medium African Concession;;;;;;;;;;;;x
+early_scramble_for_africa_medium_short;Demand $STATE$;;;;;;;;;;;;x
+early_scramble_for_africa_medium_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_medium_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+early_scramble_for_africa_large;Early Large African Concession;;;;;;;;;;;;x
+early_scramble_for_africa_large_short;Demand $STATE$;;;;;;;;;;;;x
+early_scramble_for_africa_large_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_large_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+early_scramble_for_africa_huge;Early Huge African Concession;;;;;;;;;;;;x
+early_scramble_for_africa_huge_short;Demand $STATE$;;;;;;;;;;;;x
+early_scramble_for_africa_huge_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_huge_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+scramble_for_africa_tiny;Tiny African Concession;;;;;;;;;;;;x
+scramble_for_africa_tiny_short;Demand $STATE$;;;;;;;;;;;;x
+scramble_for_africa_tiny_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_tiny_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+scramble_for_africa_small;Small African Concession;;;;;;;;;;;;x
+scramble_for_africa_small_short;Demand $STATE$;;;;;;;;;;;;x
+scramble_for_africa_small_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_small_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+scramble_for_africa_medium;Medium African Concession;;;;;;;;;;;;x
+scramble_for_africa_medium_short;Demand $STATE$;;;;;;;;;;;;x
+scramble_for_africa_medium_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_medium_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+scramble_for_africa_large;Large African Concession;;;;;;;;;;;;x
+scramble_for_africa_large_short;Demand $STATE$;;;;;;;;;;;;x
+scramble_for_africa_large_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_large_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+scramble_for_africa_huge;Huge African Concession;;;;;;;;;;;;x
+scramble_for_africa_huge_short;Demand $STATE$;;;;;;;;;;;;x
+scramble_for_africa_huge_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_huge_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_tiny;Late Tiny African Concession;;;;;;;;;;;;x
+late_scramble_for_africa_tiny_short;Demand $STATE$;;;;;;;;;;;;x
+late_scramble_for_africa_tiny_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_tiny_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_small;Late Small African Concession;;;;;;;;;;;;x
+late_scramble_for_africa_small_short;Demand $STATE$;;;;;;;;;;;;x
+late_scramble_for_africa_small_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_small_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_medium;Late Medium African Concession;;;;;;;;;;;;x
+late_scramble_for_africa_medium_short;Demand $STATE$;;;;;;;;;;;;x
+late_scramble_for_africa_medium_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_medium_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_large;Late Large African Concession;;;;;;;;;;;;x
+late_scramble_for_africa_large_short;Demand $STATE$;;;;;;;;;;;;x
+late_scramble_for_africa_large_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_large_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_huge;Late Huge African Concession;;;;;;;;;;;;x
+late_scramble_for_africa_huge_short;Demand $STATE$;;;;;;;;;;;;x
+late_scramble_for_africa_huge_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession.;;;;;;;;;;;;x
+late_scramble_for_africa_huge_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
+early_scramble_for_africa_conquest;Early African Conquest;;;;;;;;;;;;x
+early_scramble_for_africa_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;x
+early_scramble_for_africa_conquest_desc;Annex a §Ycountry§W, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
+scramble_for_africa_conquest;African Conquest;;;;;;;;;;;;x
+scramble_for_africa_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;x
+scramble_for_africa_conquest_desc;Annex a single-state §Ycountry§W, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
+late_scramble_for_africa_conquest;Late African Conquest;;;;;;;;;;;;x
+late_scramble_for_africa_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;x
+late_scramble_for_africa_conquest_desc;Annex a single-state §Ycountry§W;;;;;;;;;;;;x
+late_scramble_for_africa_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;x

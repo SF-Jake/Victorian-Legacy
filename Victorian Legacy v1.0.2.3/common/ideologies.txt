@@ -359,6 +359,10 @@ socialist_group = {
 		}
 		add_social_reform = {
 			base = 0
+			modifier = {
+				factor = 1
+				has_country_flag = force_reform
+			}
 			group = {
 				modifier = {
 					factor = 0.1
@@ -454,6 +458,10 @@ socialist_group = {
 		}
 		remove_social_reform = {
 			base = 0
+			modifier = {
+				factor = 1
+				has_country_flag = force_reform
+			}
 		}	
 	}
 }

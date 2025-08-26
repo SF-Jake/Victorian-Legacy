@@ -62,25 +62,25 @@ country_event = {
 	}
 }
 
-#1865 country tag clear
-country_event = {
-	id = 79797979
-	trigger = {
-		year = 1865
-		has_country_flag = conquerable_1865
-	}
-	mean_time_to_happen = {
-		days = 1
-	}
-	title = "1865 Flag Protection"
-	desc = "Clearing the protection flag off of 1865 protected nations."
-	immediate = {
-		clr_country_flag = conquerable_1865
-	}
-	option = {
-		name = "You may now declare, and be declared on, with significant wargoals."		
-	}
-}
+#1855 country tag clear
+# country_event = {
+# 	id = 79797979
+# 	trigger = {
+# 		year = 1855
+# 		has_country_flag = conquerable_1865
+# 	}
+# 	mean_time_to_happen = {
+# 		days = 1
+# 	}
+# 	title = "1855 Flag Protection"
+# 	desc = "Clearing the protection flag off of 1855 protected nations."
+# 	immediate = {
+# 		clr_country_flag = conquerable_1865
+# 	}
+# 	option = {
+# 		name = "You may now declare, and be declared on, with significant wargoals."		
+# 	}
+# }
 
 #UK
 country_event = {

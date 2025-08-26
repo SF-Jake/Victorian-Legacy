@@ -123,7 +123,6 @@ MOR		="countries/Morocco.txt"
 NAL		="countries/Natalia.txt"
 ORA		="countries/Oranje.txt"
 SAF		="countries/South Africa.txt"
-SOK		="countries/Sokoto.txt"
 RHO		="countries/Southern Rhodesia.txt"
 TRI		="countries/Tripoli.txt"
 TRN		="countries/Transvaal.txt"
@@ -305,8 +304,6 @@ PRI 	= "countries/Puerto Rico.txt"
 RPL	= "countries/Rupert's Land.txt"
 WIF 	= "countries/West Indies Federation.txt"
 YUC	= "countries/Yucatan.txt"
-BEN 	= "countries/Benin.txt"
-OYO 	= "countries/Oyo.txt"
 LCT	= "countries/Liechtenstein.txt"
 
 # Special countries...
@@ -320,6 +317,47 @@ GHO 	= 	"countries/Ghost Country.txt"
 PRO		= "countries/Province Flag.txt"
 JAN 	= "countries/JanMayen.txt"
 
+########## Victorian Legacy ##########
+
+#West Africa
+ADR		= "countries/Adrar.txt"
+ARO		= "countries/Aro.txt"
+ASH		= "countries/Ashanti.txt"
+BAG		= "countries/Bagirmi.txt"
+BEN		= "countries/Benin.txt" ########
+CLA     = "countries/Calabar.txt"
+DAH		= "countries/Dahomey.txt"
+DAM		= "countries/Damagaram.txt"
+DAR		= "countries/Darfur.txt"
+DND     = "countries/Dendi.txt"
+GBU		= "countries/Gabu.txt"
+JAL		= "countries/Jallon.txt"
+KBO		= "countries/Kanem-Bornu.txt"
+KNG		= "countries/Kong.txt"
+MAS		= "countries/Massina.txt"
+MOS		= "countries/Mossi.txt"
+NIG		= "countries/Niger.txt"
+OYO 	= "countries/Oyo.txt" ########
+SEG		= "countries/Segu.txt"
+SOK		= "countries/Sokoto.txt" #######
+TOO		= "countries/Tooro.txt"
+TRZ		= "countries/Trarza.txt"
+WAD     = "countries/Wadai.txt"
+WRI		= "countries/Warri.txt"
+WOL		= "countries/Wolof.txt"
+
+#Central Africa
+BUG		= "countries/Buganda.txt"
+BRD		= "countries/Urundi.txt"
+TNZ		= "countries/Tanzania.txt"
+LBA		= "countries/Luba.txt"
+KZB		= "countries/Kazembe.txt"
+LUN		= "countries/Lunda.txt"
+ZAM		= "countries/Zambia.txt"
+ZBW		= "countries/Zimbabwe.txt"
+
+KON		= "countries/Kongo.txt"
+LOA		= "countries/Loango.txt"
 
 ##HoD Dominions
 dynamic_tags  = no # any tags after this is considered dynamic dominions

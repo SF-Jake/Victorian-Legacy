@@ -309,7 +309,7 @@ aeroplane_factory = {
 		lumber = 5.45 		#5.995	total input+maint = 89
 	}
 	output_goods = aeroplanes
-	value = 1.4			#98
+	value = 1.1			#98
 	bonus = {
 		trigger = { has_building = machine_parts_factory }
 		value = 0.10
@@ -333,7 +333,7 @@ barrel_factory = {
 		#rubber = 1		#7
 	}
 	output_goods = barrels 
-	value = 1.4			#98	total input+maint = 89
+	value = 1.1			#98	total input+maint = 89
 	bonus = {
 		trigger = { has_building = automobile_factory }
 		value = 0.1
@@ -606,7 +606,7 @@ artillery_factory = {
 		steel = 6.5		#30.55   total input+maint = 62.9
 	}
 	output_goods = artillery 
-	value = 1.3			#65
+	value = 1			#65
 	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
@@ -652,7 +652,7 @@ small_arms_factory = {
 		steel = 3.0		#14.1		total input+maint = 48.925
 	}
 	output_goods = small_arms 
-	value = 2.4			#60
+	value = 1.9			#60
 	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
@@ -748,7 +748,7 @@ ammunition_factory = {
 		steel = 2		#10.5	total input+maint = 26.5
 	}
 	output_goods = ammunition 
-	value = 7.3			#36.5
+	value = 5.8			#36.5
 	bonus = {
 		trigger = { trade_goods_in_state = sulphur }
 		value = 0.15
@@ -768,7 +768,7 @@ canned_food_factory = {
 		fish = 2.5 		#3.75	total input+maint = 24.2
 	}
 	output_goods = canned_food 
-	value = 4.5			#34
+	value = 3.6			#34
 	bonus = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1

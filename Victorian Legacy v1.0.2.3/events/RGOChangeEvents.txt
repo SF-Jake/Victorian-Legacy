@@ -1,3 +1,6 @@
+#########################################################################
+# 							MINE RGO CHANGE								#
+#########################################################################
 province_event = {
 	id = 199936 #Mining Decision Change Original Sulphur
 	picture = mining
@@ -5,11 +8,9 @@ province_event = {
 	desc = "EVTDESC199936"
 
 	is_triggered_only = yes
-
-	fire_only_once = yes
 	
 	immediate = {
-		set_country_flag = rgo_changed_flag_mine
+		owner = { set_country_flag = rgo_changed_flag_mine }
 	}
 
 	option = {
@@ -20,8 +21,8 @@ province_event = {
 				name = rgo_changed_mine
 				duration = 1825
 			}
+			clr_country_flag = rgo_changed_flag_mine
 		}
-		clr_country_flag = rgo_changed_flag_mine
 		trade_goods = coal
 		add_province_modifier = {
 			name = switched_production
@@ -37,8 +38,8 @@ province_event = {
 				name = rgo_changed_mine
 				duration = 1825
 			}
+			clr_country_flag = rgo_changed_flag_mine
 		}
-		clr_country_flag = rgo_changed_flag_mine
 		trade_goods = iron
 		add_province_modifier = {
 			name = switched_production
@@ -48,7 +49,7 @@ province_event = {
 	
 	option = {
 		name = "EVT199936OPTD"
-		clr_country_flag = rgo_changed_flag_mine
+		owner = { clr_country_flag = rgo_changed_flag_mine }
 		remove_core = JAN
 	}
 }
@@ -60,11 +61,9 @@ province_event = {
 	desc = "EVTDESC199936"
 
 	is_triggered_only = yes
-
-	fire_only_once = yes
 	
 	immediate = {
-		set_country_flag = rgo_changed_flag_mine
+		owner = { set_country_flag = rgo_changed_flag_mine }
 	}
 
 	option = {
@@ -75,8 +74,8 @@ province_event = {
 				name = rgo_changed_mine
 				duration = 1825
 			}
+			clr_country_flag = rgo_changed_flag_mine
 		}
-		clr_country_flag = rgo_changed_flag_mine
 		trade_goods = iron
 		add_province_modifier = {
 			name = switched_production
@@ -92,8 +91,8 @@ province_event = {
 				name = rgo_changed_mine
 				duration = 1825
 			}
+			clr_country_flag = rgo_changed_flag_mine
 		}
-		clr_country_flag = rgo_changed_flag_mine
 		trade_goods = sulphur
 		add_province_modifier = {
 			name = switched_production
@@ -103,7 +102,7 @@ province_event = {
 	
 	option = {
 		name = "EVT199936OPTD"
-		clr_country_flag = rgo_changed_flag_mine
+		owner = { clr_country_flag = rgo_changed_flag_mine }
 		remove_core = JAN
 	}
 }
@@ -115,11 +114,9 @@ province_event = {
 	desc = "EVTDESC199936"
 
 	is_triggered_only = yes
-
-	fire_only_once = yes
 	
 	immediate = {
-		set_country_flag = rgo_changed_flag_mine
+		owner = { set_country_flag = rgo_changed_flag_mine }
 	}
 
 	option = {
@@ -130,8 +127,8 @@ province_event = {
 				name = rgo_changed_mine
 				duration = 1825
 			}
+			clr_country_flag = rgo_changed_flag_mine
 		}
-		clr_country_flag = rgo_changed_flag_mine
 		trade_goods = coal
 		add_province_modifier = {
 			name = switched_production
@@ -147,8 +144,8 @@ province_event = {
 				name = rgo_changed_mine
 				duration = 1825
 			}
+			clr_country_flag = rgo_changed_flag_mine
 		}
-		clr_country_flag = rgo_changed_flag_mine
 		trade_goods = sulphur
 		add_province_modifier = {
 			name = switched_production
@@ -158,7 +155,477 @@ province_event = {
 	
 	option = {
 		name = "EVT199936OPTD"
-		clr_country_flag = rgo_changed_flag_mine
+		owner = { clr_country_flag = rgo_changed_flag_mine }
 		remove_core = JAN
+	}
+}
+
+#########################################################################
+# 						AGRICULTURE RGO CHANGE							#
+#########################################################################
+province_event = {
+	id = 91737 #Agriculture Decision Change
+	picture = farming
+	title = "EVTNAME91737"
+	desc = "EVTDESC91737"
+
+	is_triggered_only = yes
+
+	immediate = {
+		owner = { set_country_flag = rgo_changed_flag_farm }
+	}
+
+	option = {
+		name = "EVT91737OPTA" #WOOL
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = wool
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTB" #FRUIT
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = fruit
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTC" #COTTON	
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = cotton
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTD" #CATTLE
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = cattle
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTE" #GRAIN
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = grain
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTH" #OPIUM
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = opium
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTJ" #SILK
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = silk
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTK" #TOBACCO
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = tobacco
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTZ"
+	}
+}
+
+province_event = {
+	id = 91738 #Agriculture Decision Change
+	picture = farming
+	title = "EVTNAME91737"
+	desc = "EVTDESC91737"
+
+	is_triggered_only = yes
+
+	immediate = {
+		owner = { set_country_flag = rgo_changed_flag_farm }
+	}
+
+	option = {
+		name = "EVT91737OPTA" #WOOL
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = wool
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTB" #FRUIT
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = fruit
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTC" #COTTON	
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = cotton
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTD" #CATTLE
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = cattle
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTE" #GRAIN
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = grain
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTH" #OPIUM
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = opium
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTJ" #SILK
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = silk
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTK" #TOBACCO
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = tobacco
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTL" #FISH
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = fish
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTZ"
+	}
+}
+
+province_event = {
+	id = 91739 #Agriculture Decision Change
+	picture = farming
+	title = "EVTNAME91737"
+	desc = "EVTDESC91737"
+
+	is_triggered_only = yes
+
+	immediate = {
+		owner = { set_country_flag = rgo_changed_flag_farm }
+	}
+
+	option = {
+		name = "EVT91737OPTA" #WOOL
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = wool
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTB" #FRUIT
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = fruit
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTC" #COTTON	
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = cotton
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTD" #CATTLE
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = cattle
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTE" #GRAIN
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = grain
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTH" #OPIUM
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = opium
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTJ" #SILK
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = silk
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTK" #TOBACCO
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = tobacco
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTM" #TIMBER
+		## Audax Validator "." Ignore_NEXT
+		trade_goods = timber
+		owner = {
+			add_country_modifier = {
+				name = rgo_changed_farm
+				duration = 1825
+			}
+			clr_country_flag = rgo_changed_flag_farm
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 5475
+		}
+	}
+	option = {
+		name = "EVT91737OPTZ"
 	}
 }

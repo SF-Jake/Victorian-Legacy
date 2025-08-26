@@ -790,19 +790,18 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		tag = JAN
 		great_wars_enabled = no
 		NOT = { has_global_flag = great_wars_enabled }
-		revolution_n_counterrevolution = 1
 		year = 1890
 	}
 
-	mean_time_to_happen = {
-		months = 8
+	immediate = {
+		great_wars_enabled = yes
+		set_global_flag = great_wars_enabled
 	}
 
 	option = {
 		name = "EVTOPTA19355"
-		great_wars_enabled = yes
-		set_global_flag = great_wars_enabled
 	}
 }

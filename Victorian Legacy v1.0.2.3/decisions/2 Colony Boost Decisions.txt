@@ -19,8 +19,7 @@ political_decisions = {
 				NET_1398 = { owned_by = THIS }
 				BRU_1394 = { owned_by = THIS }
 			}
-			NOT = { has_country_flag = malaysia_colonial_company }
-            NOT = { has_global_flag = colonial_company_done }
+			NOT = { has_global_flag = malaysia_colonial_company }
 		}
 	
 		allow = {
@@ -42,8 +41,7 @@ political_decisions = {
 	
 		effect = {
 			owner = { oil_spawn_chance = { } }
-			set_country_flag = malaysia_colonial_company
-			set_global_flag = colonial_company_done
+			set_global_flag = malaysia_colonial_company
 			NET_1454 = { add_province_modifier = { name = colonial_company duration = -1 } }
 			NET_1449 = { add_province_modifier = { name = colonial_company duration = -1 } }
 			POR_1446 = { add_province_modifier = { name = colonial_company duration = -1 } }
@@ -65,7 +63,7 @@ political_decisions = {
 	}
 
 	vietnam_colonial_company = {
-		picture = vietnam_colonial_company
+		picture = hong_kong_china
 	
 		potential = { 
 			NOT = { capital_scope = { continent = indo_china } }
@@ -76,10 +74,11 @@ political_decisions = {
 				SIA_1366 = { owned_by = THIS }
 				LUA_1356 = { owned_by = THIS }
 			}
+			NOT = { has_global_flag = vietnam_colonial_company }
 		}
 	
 		allow = {
-			state_n_government = 1
+			nationalism_n_imperialism = 1
 			ANN_1371 = { owned_by = THIS }
 			ANN_1374 = { owned_by = THIS }
 			ANN_1383 = { owned_by = THIS }
@@ -88,6 +87,7 @@ political_decisions = {
 		}
 	
 		effect = {
+			set_global_flag = vietnam_colonial_company
 			ANN_1371 = { add_province_modifier = { name = colonial_company duration = -1 } }
 			ANN_1374 = { add_province_modifier = { name = colonial_company duration = -1 } }
 			ANN_1383 = { add_province_modifier = { name = colonial_company duration = -1 } }
@@ -101,11 +101,12 @@ political_decisions = {
 	}
 
 	phillipines_colonial_company = {
-		picture = Phillipines_colonial_company
+		picture = map_phillipines
 	
 		potential = { 
 			NOT = { capital_scope = { continent = phillipines } }
 			SPA_1455 = { owned_by = THIS }
+			NOT = { has_global_flag = phillipines_colonial_company }
 		}
 	
 		allow = {
@@ -114,6 +115,7 @@ political_decisions = {
 		}
 	
 		effect = {
+			set_global_flag = phillipines_colonial_company
 			SPA_1455 = { add_province_modifier = { name = colonial_company duration = -1 } }
 		}
 	

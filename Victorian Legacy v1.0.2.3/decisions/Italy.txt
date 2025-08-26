@@ -577,28 +577,157 @@ political_decisions = {
 		allow = {
 			war = no
 			revolution_n_counterrevolution = 1
-			AUS_729 = { owned_by = THIS }
-			AUS_726 = { owned_by = THIS }
-			AUS_736 = { owned_by = THIS }
-			AUS_778 = { owned_by = THIS }
-			AUS_781 = { owned_by = THIS }
-			TUR_853 = { owned_by = THIS }
-			GRE_837 = { owned_by = THIS }
+			OR = {
+				AND = {
+					TUR_853 = { owned_by = THIS }
+					TUR_805 = { owned_by = THIS }
+					GRE_837 = { owned_by = THIS }
+				}
+				AND = {
+					AUS_729 = { owned_by = THIS }
+					AUS_726 = { owned_by = THIS }
+					AUS_736 = { owned_by = THIS }
+					AUS_778 = { owned_by = THIS }
+					AUS_781 = { owned_by = THIS }
+				}
+			}
 		}
 		
 		effect = {
 			set_country_flag = form_roman_empire
 			prestige = 50
 			change_tag = RME
+			random_owned = {
+				limit = {
+					owner = {
+						TUR_853 = { owned_by = THIS }
+						TUR_805 = { owned_by = THIS }
+						GRE_837 = { owned_by = THIS }
+					}
+					
+				}
+				owner = {
+					set_country_flag = form_roman_empire_ottoman
+					TUR_853 = { add_core = THIS }
+					TUR_805 = { add_core = THIS }
+					GRE_837 = { add_core = THIS }
+					add_accepted_culture = albanian
+					add_accepted_culture = greek
+					
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						AUS_729 = { owned_by = THIS }
+						AUS_726 = { owned_by = THIS }
+						AUS_736 = { owned_by = THIS }
+						AUS_778 = { owned_by = THIS }
+						AUS_781 = { owned_by = THIS }
+					}
+				}
+				owner = {
+					set_country_flag = form_roman_empire_austria
+					AUS_729 = { add_core = THIS }
+					AUS_726 = { add_core = THIS }
+					AUS_736 = { add_core = THIS }
+					AUS_778 = { add_core = THIS }
+					AUS_781 = { add_core = THIS }
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							NOT = { TUR_853 = { owned_by = THIS } }
+							NOT = { TUR_805 = { owned_by = THIS } }
+							NOT = { GRE_837 = { owned_by = THIS } }
+						}
+						AUS_729 = { owned_by = THIS }
+						AUS_726 = { owned_by = THIS }
+						AUS_736 = { owned_by = THIS }
+						AUS_778 = { owned_by = THIS }
+						AUS_781 = { owned_by = THIS }
+					}
+				}
+				form_roman_empire_ottoman = { }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						TUR_853 = { owned_by = THIS }
+						TUR_805 = { owned_by = THIS }
+						GRE_837 = { owned_by = THIS }
+						OR = {
+							NOT = { AUS_729 = { owned_by = THIS } }
+							NOT = { AUS_726 = { owned_by = THIS } }
+							NOT = { AUS_736 = { owned_by = THIS } }
+							NOT = { AUS_778 = { owned_by = THIS } }
+							NOT = { AUS_781 = { owned_by = THIS } }
+						}
+					}
+				}
+				form_roman_empire_austria = { }
+			}
+		}
+	}
+
+	form_roman_empire_ottoman = {
+		picture = form_roman_empire_ottoman
+	
+		potential = { 
+			tag = RME
+			NOT = { has_country_flag = form_roman_empire_ottoman }
+		}
+	
+		allow = {
+			war = no
+			has_country_flag = form_roman_empire
+			revolution_n_counterrevolution = 1
+			TUR_853 = { owned_by = THIS }
+			TUR_805 = { owned_by = THIS }
+			GRE_837 = { owned_by = THIS }
+		}
+	
+		effect = {
+			set_country_flag = form_roman_empire_ottoman
+			TUR_853 = { add_core = THIS }
+			TUR_805 = { add_core = THIS }
+			GRE_837 = { add_core = THIS }
 			add_accepted_culture = albanian
 			add_accepted_culture = greek
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_roman_empire_austria = {
+		picture = form_roman_empire_austria
+	
+		potential = { 
+			tag = RME
+			NOT = { has_country_flag = form_roman_empire_austria }
+		}
+	
+		allow = {
+			war = no
+			has_country_flag = form_roman_empire
+			revolution_n_counterrevolution = 1
+		}
+	
+		effect = {
+			set_country_flag = form_roman_empire_austria
 			AUS_729 = { add_core = THIS }
 			AUS_726 = { add_core = THIS }
 			AUS_736 = { add_core = THIS }
 			AUS_778 = { add_core = THIS }
 			AUS_781 = { add_core = THIS }
-			TUR_853 = { add_core = THIS }
-			GRE_837 = { add_core = THIS }
+		}
+	
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
