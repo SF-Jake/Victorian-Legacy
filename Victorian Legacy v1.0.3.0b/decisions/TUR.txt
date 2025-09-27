@@ -16,16 +16,11 @@ political_decisions = {
 		}
 		
 		effect = {
-			casus_belli = {
-				target = EGY
-				type = acquire_core_state_small
-				months = 36
-			}
-			war = {
-				target = EGY
-				attacker_goal = { casus_belli = acquire_core_state_small }
-			}
 			set_global_flag = oriental_crisis
+			TUR_876 = { add_core = THIS }
+			TUR_889 = { add_core = THIS }
+			TUR_902 = { add_core = THIS }
+			EGY_921 = { add_core = THIS }
 		}
 
 		ai_will_do = {
@@ -49,10 +44,10 @@ political_decisions = {
 		}
 		
 		allow = {
-			TUR_876 = { all_core = { owned_by = THIS } }
-			TUR_889 = { all_core = { owned_by = THIS } }
-			TUR_902 = { all_core = { owned_by = THIS } }
-			EGY_921 = { all_core = { owned_by = THIS } }
+			917 = { owned_by = THIS }
+			913 = { owned_by = THIS }
+			894 = { owned_by = THIS }
+			898 = { owned_by = THIS }
 		}
 		
 		effect = {

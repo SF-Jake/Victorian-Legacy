@@ -658,18 +658,26 @@ fertilizer_factory = {
 	pop_build_factory = yes
 }
 
-province_selector = {
-	type = province_selector
+fort = {      
+	type = fort
 	goods_cost =
 	{
+		timber = 1280
+		lumber = 960
+		cement = 1440
+		steel = 1120
+		explosives = 160
+		small_arms = 560
+		ammunition = 800
+		artillery = 200
+		canned_food = 2240
 	}
-	time = 1
-	visibility = no
-	onmap = no
-	max_level = 2
+	time = 360 
+	visibility = yes
+	onmap = yes
+	max_level = 6
 	province = yes
-	#one_per_state = yes
-	
+	fort_level = 1
 }
 
 naval_base = {    
@@ -721,26 +729,18 @@ railroad = {
 	spawn_railway_track = yes
 }
 
-fort = {      
-	type = fort
+province_selector = {
+	type = province_selector
 	goods_cost =
 	{
-		timber = 1280
-		lumber = 960
-		cement = 1440
-		steel = 1120
-		explosives = 160
-		small_arms = 560
-		ammunition = 800
-		artillery = 200
-		canned_food = 2240
 	}
-	time = 360 
-	visibility = yes
-	onmap = yes
-	max_level = 6
+	time = 1
+	visibility = no
+	onmap = no
+	max_level = 2
 	province = yes
-	fort_level = 1
+	#one_per_state = yes
+	
 }
 
 ## Urban Center

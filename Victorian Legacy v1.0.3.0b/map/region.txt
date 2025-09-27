@@ -1628,40 +1628,6 @@ medium_lit_campaign_broke  = { }
 large_lit_campaign_broke  = { }
 huge_lit_campaign_broke  = { }
 
-0K_pop_agri_rgo = { }
-50K_pop_agri_rgo = { }
-100K_pop_agri_rgo = { }
-200K_pop_agri_rgo = { }
-300K_pop_agri_rgo = { }
-400K_pop_agri_rgo = { }
-500K_pop_agri_rgo = { }
-600K_pop_agri_rgo = { }
-700K_pop_agri_rgo = { }
-800K_pop_agri_rgo = { }
-900K_pop_agri_rgo = { }
-1M_pop_agri_rgo = { }
-1_2M_pop_agri_rgo = { }
-1_4M_pop_agri_rgo = { }
-1_6M_pop_agri_rgo = { }
-1_8M_pop_agri_rgo = { }
-
-0K_pop_agri_rgo_broke = { }
-50K_pop_agri_rgo_broke = { }
-100K_pop_agri_rgo_broke = { }
-200K_pop_agri_rgo_broke = { }
-300K_pop_agri_rgo_broke = { }
-400K_pop_agri_rgo_broke = { }
-500K_pop_agri_rgo_broke = { }
-600K_pop_agri_rgo_broke = { }
-700K_pop_agri_rgo_broke = { }
-800K_pop_agri_rgo_broke = { }
-900K_pop_agri_rgo_broke = { }
-1M_pop_agri_rgo_broke = { }
-1_2M_pop_agri_rgo_broke = { }
-1_4M_pop_agri_rgo_broke = { }
-1_6M_pop_agri_rgo_broke = { }
-1_8M_pop_agri_rgo_broke = { }
-
 0K_pop_baby_boom = { }
 100K_pop_baby_boom = { }
 200K_pop_baby_boom = { }
@@ -1685,6 +1651,13 @@ modifier_does_not_exist = { }
 
 mine_rgo_on_cooldown = { }
 mine_rgo_already_changed = { }
+not_mine_rgo = { }
+no_oil = { }
+
+farm_rgo_on_cooldown = { }
+farm_rgo_already_changed = { }
+not_farm_rgo = { }
+no_tropical_wood = { }
 
 irish_acceptance_progression = { }
 

@@ -1485,50 +1485,54 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "UPPER_LEFT"
 
-		## Mine
 		iconType = {
-			name = "build_icon6"
-			spriteType = "GFX_province_mine_strip"
-			position = { x= 23 y = -4 }
-			Orientation = "UPPER_LEFT"
-		}
-		## Farmland
-		iconType = {
-			name = "build_icon5"
-			spriteType = "GFX_province_farmland_strip"
-			position = { x= 23 y = -4 }
-			Orientation = "UPPER_LEFT"
-		}
-		## Urban Center
-		iconType = {
-			name = "build_icon4"
-			spriteType = "GFX_province_urbanization_strip"
-			position = { x= 23 y = -4 }
+			name = "build_icon0"
+			spriteType = "GFX_province_fort_strip"
+			position = { x= 23 y = -1 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name = "build_icon1"
 			spriteType = "GFX_province_navalbase_strip"
-			position = { x= 23 y = -4 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name = "build_icon3"
-			spriteType = "GFX_province_fort_strip"
-			position = { x= 23 y = -4 }
+			position = { x= 23 y = -1 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name = "build_icon2"
 			spriteType = "GFX_province_infra_strip"
-			position = { x= 23 y = -4 }
+			position = { x= 23 y = -1 }
 			Orientation = "UPPER_LEFT"
 		}
+
 		## Province Selector
 		iconType = {
-			name = "build_icon0"
-			spriteType = "GFX_immigrator_strip"
-			position = { x= 23 y = -4 }
+			name = "build_icon3"
+			spriteType = "GFX_province_immigrator_strip"
+			position = { x= 23 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		## Urban Center
+		iconType = {
+			name = "build_icon4"
+			spriteType = "GFX_province_urbanization_strip"
+			position = { x= 23 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		## Farmland
+		iconType = {
+			name = "build_icon5"
+			spriteType = "GFX_province_farmland_strip"
+			position = { x= 23 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		## Mine
+		iconType = {
+			name = "build_icon6"
+			spriteType = "GFX_province_mine_strip"
+			position = { x= 23 y = -1 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -1545,7 +1549,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "expand"
-			position = { x= 204 y = 1 }
+			position = { x= 204 y = 3 }
 			quadTextureSprite = "GFX_button_thin_120"
 			buttonText="PROVINCEVIEW_EXPAND"
 			buttonFont = "vic_18_black"
@@ -1556,19 +1560,19 @@ guiTypes = {
 		iconType = {
 			name = "underconstruction_icon"
 			spriteType = "GFX_province_expanding"
-			position = { x= 171 y = -5 }
+			position = { x= 171 y = -3 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name = "building_progress"
 			spriteType = "GFX_building_progress"
-			position = { x = 209 y = 6 }
+			position = { x = 209 y = 9 }
 		}
 
 		instantTextBoxType = {
 			name = "expand_text"
-			position = { x = 217 y = 5 }
+			position = { x = 217 y = 8 }
 			font = "vic_18"
 			text = "PROVINCEVIEW_EXPANDING"
 			maxWidth = 100
