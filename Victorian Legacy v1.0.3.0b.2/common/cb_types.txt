@@ -238,7 +238,6 @@ conquest = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		total_pops = 400000
-		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
@@ -411,7 +410,6 @@ add_to_sphere = {
 				NOT = { has_country_flag = conquerable_1865 }
 			}
 		}
-		this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = no
 		part_of_sphere = no
@@ -473,7 +471,6 @@ take_from_sphere = {
 				}
 			 } 
 		}
-		this = { NOT = { badboy = 1 } }
 		this = { is_greater_power = yes }
 		is_greater_power = yes
 	}
@@ -932,7 +929,6 @@ acquire_substate_region = {
 				}
 			 } 
 		}
-		this = { NOT = { badboy = 1 } }
 		num_of_substates = 1 # if has any substate
 		any_substate = {
 			number_of_states = 1
@@ -993,7 +989,6 @@ acquire_state_tiny = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1103,7 +1098,6 @@ acquire_state_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1214,7 +1208,6 @@ acquire_state_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1325,7 +1318,6 @@ acquire_state_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1436,7 +1428,6 @@ acquire_state_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1548,7 +1539,6 @@ place_in_the_sun_tiny = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1637,7 +1627,6 @@ place_in_the_sun_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1725,7 +1714,6 @@ place_in_the_sun_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1813,7 +1801,6 @@ place_in_the_sun_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1901,7 +1888,6 @@ place_in_the_sun_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2730,7 +2716,6 @@ liberate_country = {
 			}
 		}
 		year = 1914
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2838,7 +2823,6 @@ dismantle_forts = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2908,7 +2892,6 @@ take_puppet = {
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
 		NOT = { is_our_vassal = THIS }
-		this = { NOT = { badboy = 1 } }
 		num_of_vassals_no_substates = 1
 		OR = {
 			AND = {
@@ -2991,7 +2974,6 @@ release_puppet = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		this = { NOT = { badboy = 1 } }
 		num_of_vassals_no_substates = 1
 		OR = {
 			AND = {
@@ -3054,7 +3036,6 @@ make_puppet = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3207,7 +3188,6 @@ humiliate = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3249,7 +3229,6 @@ early_scramble_for_africa_tiny = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3322,7 +3301,6 @@ early_scramble_for_africa_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3395,7 +3373,6 @@ early_scramble_for_africa_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3468,7 +3445,6 @@ early_scramble_for_africa_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3541,7 +3517,6 @@ early_scramble_for_africa_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3614,7 +3589,6 @@ scramble_for_africa_tiny = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3688,7 +3662,6 @@ scramble_for_africa_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3762,7 +3735,6 @@ scramble_for_africa_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3836,7 +3808,6 @@ scramble_for_africa_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3910,7 +3881,6 @@ scramble_for_africa_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3984,7 +3954,6 @@ late_scramble_for_africa_tiny = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4057,7 +4026,6 @@ late_scramble_for_africa_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4130,7 +4098,6 @@ late_scramble_for_africa_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4203,7 +4170,6 @@ late_scramble_for_africa_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4276,7 +4242,6 @@ late_scramble_for_africa_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4349,7 +4314,6 @@ early_scramble_for_africa_conquest = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4413,7 +4377,6 @@ scramble_for_africa_conquest = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4478,7 +4441,6 @@ late_scramble_for_africa_conquest = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4560,7 +4522,6 @@ demand_concession_casus_belli_tiny = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4643,7 +4604,6 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4726,7 +4686,6 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4809,7 +4768,6 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4892,7 +4850,6 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4980,7 +4937,6 @@ establish_protectorate_casus_belli = {
 				is_culture_group = southern_african
 			}
 		}
-		this = { NOT = { badboy = 1 } }
 		THIS = {
 			civilized = yes
 		}
@@ -5061,7 +5017,6 @@ unification_humiliate_cb = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		this = { NOT = { badboy = 1 } }
 		THIS = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
@@ -5243,7 +5198,6 @@ unification_annex_casus_belli = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		this = { NOT = { badboy = 1 } }
 		THIS = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
@@ -5515,7 +5469,6 @@ conquest_low = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = {	total_pops = 400000 }
 		NOT = { 
 			OR = { 
@@ -5621,7 +5574,6 @@ take_capital = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -5736,7 +5688,6 @@ acquire_treaty_port = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		this = { NOT = { badboy = 1 } }
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
@@ -5976,7 +5927,6 @@ establish_colonial_protectorate_casus_belli = {
 			is_culture_group = central_african
 			is_culture_group = southern_african
 		}
-		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -6128,7 +6078,6 @@ make_puppet_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
 		is_vassal = no
@@ -6228,7 +6177,6 @@ make_puppet_large = {
 			ai = yes
 			year = 1900
 		}
-		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = CHI }
 		is_greater_power = no
