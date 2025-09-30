@@ -215,12 +215,12 @@ political_decisions = {
 				exists = GER
 				exists = NGF
 			}
-		}	
+		}
 		allow = {
 			war = no
 			OR = {
-				#revanchism = 0.01
-				year = 1870
+				nationalism_n_imperialism = 1
+				year = 1860
 				AND = {
 					NOT = {	exists = LIP }
 					NOT = {	exists = ANH }
@@ -481,7 +481,10 @@ political_decisions = {
 		}
 		
 		allow = {
-			year = 1860
+			OR = {
+				year = 1860
+				nationalism_n_imperialism = 1
+			}
 			war = no
 			owns = 749  #Rome
 		}
