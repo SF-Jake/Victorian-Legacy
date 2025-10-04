@@ -828,11 +828,18 @@ gp_infamy_reduction = {
 }
 
 ########## Autonomous Dependencies ##########
-colonial_trade_company = {
+colonial_trade_company_prestige = {
 	trigger = {
 		government = colonial_company
 	}
 	prestige = -1
+}
+
+colonial_trade_company_mob = {
+	trigger = {
+		government = colonial_company
+	}
+	mobilisation_size = -1
 }
 
 ########## Rude boy ##########

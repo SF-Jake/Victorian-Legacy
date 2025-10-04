@@ -155,6 +155,11 @@ country_event = {
 	option = {
 		name = "We will restore order in Poland"
         set_country_flag = polish_revolution_1850
+		casus_belli = {
+			target = CPL
+			type = conquest
+			months = 12
+		}
         war = {
 			target = CPL
 			attacker_goal = { casus_belli = conquest }
@@ -331,6 +336,11 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA160002"
+		casus_belli = {
+			target = TPG
+			type = annex_core_country
+			months = 12
+		}
 		war = {
 			target = TPG
 			attacker_goal = {

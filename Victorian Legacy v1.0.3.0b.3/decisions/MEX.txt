@@ -145,6 +145,7 @@ political_decisions = {
 	
 		potential = { 
 			tag = MEX
+			NOT = { has_country_flag = mex_manifest_destiny }
 			has_country_flag = manifest_destiny_refuted
 		}
 	
@@ -167,6 +168,7 @@ political_decisions = {
 		}
 	
 		effect = {
+			set_country_flag = mex_manifest_destiny
 			USA_139 = { add_core = THIS }
 			USA_144 = { add_core = THIS }
 			USA_148 = { add_core = THIS }
@@ -338,7 +340,6 @@ political_decisions = {
 			change_tag = GCL
 			set_country_flag = form_grand_columbia
 			add_accepted_culture = mexican
-			remove_accepted_culture = south_andean
 			random_country = {
 				limit = {
 					tag = GCO

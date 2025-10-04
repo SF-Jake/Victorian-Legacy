@@ -1108,94 +1108,94 @@ province_event = {
 }
 
 #Europeans Harrassed
-province_event = {
-	id = 13150
-	title = "EVTNAME13150"
-	desc = "EVTDESC13150"
+# province_event = {
+# 	id = 13150
+# 	title = "EVTNAME13150"
+# 	desc = "EVTDESC13150"
 
-	trigger = {
-		OR = {
-			has_province_modifier = european_military_mission
-			has_province_modifier = western_presence
-			owner = {
-				OR = {
-					has_country_modifier = foreign_trading_post
-					has_country_modifier = foreign_smugglers
-				}
-			}
-		}
-		average_militancy = 4
-	}
+# 	trigger = {
+# 		OR = {
+# 			has_province_modifier = european_military_mission
+# 			has_province_modifier = western_presence
+# 			owner = {
+# 				OR = {
+# 					has_country_modifier = foreign_trading_post
+# 					has_country_modifier = foreign_smugglers
+# 				}
+# 			}
+# 		}
+# 		average_militancy = 4
+# 	}
 
-	mean_time_to_happen = {
-		months = 50
-		modifier = {
-			factor = 0.9
-			average_militancy = 3
-		}
-		modifier = {
-			factor = 0.9
-			average_militancy = 4
-		}
-		modifier = {
-			factor = 0.9
-			average_militancy = 5
-		}
-		modifier = {
-			factor = 0.9
-			average_consciousness = 3
-		}
-		modifier = {
-			factor = 0.9
-			average_consciousness = 4
-		}
-		modifier = {
-			factor = 0.9
-			average_consciousness = 5
-		}
-		modifier = {
-			factor = 1.5
-			NOT = {
-				average_consciousness = 3
-			}
-		}
-		modifier = {
-			factor = 1.5
-			NOT = {
-				average_militancy = 3
-			}
-		}
-	}
+# 	mean_time_to_happen = {
+# 		months = 50
+# 		modifier = {
+# 			factor = 0.9
+# 			average_militancy = 3
+# 		}
+# 		modifier = {
+# 			factor = 0.9
+# 			average_militancy = 4
+# 		}
+# 		modifier = {
+# 			factor = 0.9
+# 			average_militancy = 5
+# 		}
+# 		modifier = {
+# 			factor = 0.9
+# 			average_consciousness = 3
+# 		}
+# 		modifier = {
+# 			factor = 0.9
+# 			average_consciousness = 4
+# 		}
+# 		modifier = {
+# 			factor = 0.9
+# 			average_consciousness = 5
+# 		}
+# 		modifier = {
+# 			factor = 1.5
+# 			NOT = {
+# 				average_consciousness = 3
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 1.5
+# 			NOT = {
+# 				average_militancy = 3
+# 			}
+# 		}
+# 	}
 
-	option = {
-		name = "EVTOPTA13150"
-		remove_province_modifier = european_military_mission
-		remove_province_modifier = western_presence
-		owner = {
-			remove_country_modifier = foreign_trading_post
-			remove_country_modifier = foreign_smugglers
-			}
-		random_country = {
-			limit = {
-				is_greater_power = yes
-			}
-			relation = {
-				who = THIS
-				value = -50
-			}
-		}
-	}
+# 	option = {
+# 		name = "EVTOPTA13150"
+# 		remove_province_modifier = european_military_mission
+# 		remove_province_modifier = western_presence
+# 		owner = {
+# 			remove_country_modifier = foreign_trading_post
+# 			remove_country_modifier = foreign_smugglers
+# 			}
+# 		random_country = {
+# 			limit = {
+# 				is_greater_power = yes
+# 			}
+# 			relation = {
+# 				who = THIS
+# 				value = -50
+# 			}
+# 		}
+# 	}
 
-	option = {
-		name = "EVTOPTB13150"
-		any_pop = {
-			limit = {
-				militancy = 4
-			}
-			#reduce_pop = 0.95
-		}
-	}
-}
+# 	option = {
+# 		name = "EVTOPTB13150"
+# 		any_pop = {
+# 			limit = {
+# 				militancy = 4
+# 			}
+# 			#reduce_pop = 0.95
+# 		}
+# 	}
+# }
 
 #Drunken Sailor
 province_event = {
