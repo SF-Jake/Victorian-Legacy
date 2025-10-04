@@ -42,19 +42,19 @@ political_decisions = {
 		effect = {
 			owner = { oil_spawn_chance = { } }
 			set_global_flag = malaysia_colonial_company
-			NET_1454 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			NET_1449 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			POR_1446 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			BAL_1438 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			NET_1430 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			NET_1426 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			NET_1423 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			NET_1417 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			NET_1414 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			ATJ_1405 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			NET_1399 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			NET_1398 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			BRU_1394 = { add_province_modifier = { name = colonial_company duration = -1 } }
+			NET_1454 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			NET_1449 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			POR_1446 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			BAL_1438 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			NET_1430 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			NET_1426 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			NET_1423 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			NET_1417 = { any_owned = { life_rating = 5 } add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			NET_1414 = { any_owned = { life_rating = 5 } add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			ATJ_1405 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			NET_1399 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			NET_1398 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			BRU_1394 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
 		}
 	
 		ai_will_do = {
@@ -88,11 +88,11 @@ political_decisions = {
 	
 		effect = {
 			set_global_flag = vietnam_colonial_company
-			ANN_1371 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			ANN_1374 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			ANN_1383 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			SIA_1366 = { add_province_modifier = { name = colonial_company duration = -1 } }
-			LUA_1356 = { add_province_modifier = { name = colonial_company duration = -1 } }
+			ANN_1371 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			ANN_1374 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			ANN_1383 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			SIA_1366 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
+			LUA_1356 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
 		}
 	
 		ai_will_do = {
@@ -116,7 +116,7 @@ political_decisions = {
 	
 		effect = {
 			set_global_flag = phillipines_colonial_company
-			SPA_1455 = { add_province_modifier = { name = colonial_company duration = -1 } }
+			SPA_1455 = { add_province_modifier = { name = colonial_company_boost duration = -1 } }
 		}
 	
 		ai_will_do = {

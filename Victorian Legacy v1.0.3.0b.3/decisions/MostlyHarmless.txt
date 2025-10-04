@@ -6,7 +6,7 @@ political_decisions = {
 	
 		potential = {
 			tag = JAN
-			MEAT_1 = {
+			META_1 = {
 				owner = {
 					has_country_flag = negotiated_transfer
 					OR = {
@@ -259,6 +259,7 @@ political_decisions = {
 		}
 	
 		allow = {
+
 		}
 	
 		effect = {
@@ -519,6 +520,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
 	banker_prestige = {
 		picture = banker_prestige
 	
