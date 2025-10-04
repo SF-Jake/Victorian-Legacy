@@ -34,6 +34,10 @@ political_decisions = {
 					duration = -1 
 				}
 			}
+			any_country = {
+				limit = { has_country_modifier = negotiating_unequal_treaty }
+				remove_country_modifier = negotiating_unequal_treaty
+			}
 		}
 		
 		ai_will_do = {
@@ -75,6 +79,10 @@ political_decisions = {
 					name = treaty_port_buff 
 					duration = -1 
 				}
+			}
+			any_country = {
+				limit = { has_country_modifier = negotiating_unequal_treaty }
+				remove_country_modifier = negotiating_unequal_treaty
 			}
 		}
 		
@@ -118,6 +126,10 @@ political_decisions = {
 					duration = -1 
 				}
 			}
+			any_country = {
+				limit = { has_country_modifier = negotiating_unequal_treaty }
+				remove_country_modifier = negotiating_unequal_treaty
+			}
 		}
 		
 		ai_will_do = {
@@ -159,6 +171,10 @@ political_decisions = {
 					name = treaty_port_buff 
 					duration = -1 
 				}
+			}
+			any_country = {
+				limit = { has_country_modifier = negotiating_unequal_treaty }
+				remove_country_modifier = negotiating_unequal_treaty
 			}
 		}
 		
@@ -202,6 +218,10 @@ political_decisions = {
 					duration = -1 
 				}
 			}
+			any_country = {
+				limit = { has_country_modifier = negotiating_unequal_treaty }
+				remove_country_modifier = negotiating_unequal_treaty
+			}
 		}
 		
 		ai_will_do = {
@@ -243,6 +263,10 @@ political_decisions = {
 					name = treaty_port_buff 
 					duration = -1 
 				}
+			}
+			any_country = {
+				limit = { has_country_modifier = negotiating_unequal_treaty }
+				remove_country_modifier = negotiating_unequal_treaty
 			}
 		}
 		
@@ -286,6 +310,10 @@ political_decisions = {
 					duration = -1 
 				}
 			}
+			any_country = {
+				limit = { has_country_modifier = negotiating_unequal_treaty }
+				remove_country_modifier = negotiating_unequal_treaty
+			}
 		}
 		
 		ai_will_do = {
@@ -328,6 +356,10 @@ political_decisions = {
 					duration = -1 
 				}
 			}
+			any_country = {
+				limit = { has_country_modifier = negotiating_unequal_treaty }
+				remove_country_modifier = negotiating_unequal_treaty
+			}
 		}
 		
 		ai_will_do = {
@@ -369,6 +401,10 @@ political_decisions = {
 					name = treaty_port_buff 
 					duration = -1 
 				}
+			}
+			any_country = {
+				limit = { has_country_modifier = negotiating_unequal_treaty }
+				remove_country_modifier = negotiating_unequal_treaty
 			}
 		}
 		
