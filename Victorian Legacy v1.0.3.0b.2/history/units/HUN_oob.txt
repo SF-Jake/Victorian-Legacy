@@ -1,0 +1,147 @@
+leader = {
+	name = "Artúr Görgey"
+	picture = european_general_41
+	date = 1818.1.1
+	type = land
+	personality = mor10_1
+	background = 3a3d_1
+	prestige = 0.3
+}
+
+leader = {
+	name = "György Klapka"
+	picture = european_general_52
+	date = 1820.1.1
+	type = land
+	personality = mor10_1
+	background = 3a3d_1
+	prestige = 0.3
+}
+
+army = {
+	name = "IV. Armee"
+	location = 641
+	regiment = {
+		name= "1.2. Kavalleriedivision"
+		type = hussar
+		home = 633
+	}
+
+	regiment = {
+		name= "2.2. Kavalleriedivision"
+		type = infantry
+		home = 633
+	}
+
+	regiment = {
+		name= "3.2. Kavalleriedivision"
+		type = infantry
+		home = 633
+	}
+
+	regiment = {
+		name= "1.1. Infanteriedivision"
+		type = infantry
+		home = 633
+	}
+
+	regiment = {
+		name= "2.1. Infanteriedivision"
+		type = infantry
+		home = 633
+	}
+
+	regiment = {
+		name= "3.1. Infanteriedivision"
+		type = artillery
+		home = 633
+	}
+
+	regiment = {
+		name= "1.2. Infanteriedivision"
+		type = artillery
+		home = 641
+	}
+	
+	regiment = {
+		name= "1.2. Infanteriedivision"
+		type = artillery
+		home = 641
+	}
+	
+	regiment = {
+		name= "1.2. Infanteriedivision"
+		type = artillery
+		home = 641
+	}
+	
+	regiment = {
+		name= "1.2. Infanteriedivision"
+		type = artillery
+		home = 649
+	}
+}
+
+army = {
+	name = "IV. Armee"
+	location = 642
+	regiment = {
+		name= "1.2. Kavalleriedivision"
+		type = hussar
+		home = 633
+	}
+
+	regiment = {
+		name= "2.2. Kavalleriedivision"
+		type = infantry
+		home = 642
+	}
+
+	regiment = {
+		name= "3.2. Kavalleriedivision"
+		type = infantry
+		home = 639
+	}
+
+	regiment = {
+		name= "1.1. Infanteriedivision"
+		type = infantry
+		home = 640
+	}
+
+	regiment = {
+		name= "2.1. Infanteriedivision"
+		type = infantry
+		home = 637
+	}
+
+	regiment = {
+		name= "3.1. Infanteriedivision"
+		type = artillery
+		home = 643
+	}
+
+	regiment = {
+		name= "3.2. Infanteriedivision"
+		type = artillery
+		home = 644
+	}
+	
+	regiment = {
+		name= "3.3. Infanteriedivision"
+		type = artillery
+		home = 641
+	}
+	
+	regiment = {
+		name= "3.4. Infanteriedivision"
+		type = artillery
+		home = 641
+	}
+	
+	regiment = {
+		name= "3.5. Infanteriedivision"
+		type = artillery
+		home = 648
+	}
+}

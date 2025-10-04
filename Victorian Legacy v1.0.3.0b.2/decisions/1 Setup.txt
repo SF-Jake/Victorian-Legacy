@@ -11,9 +11,44 @@ political_decisions = {
 			set_country_flag = jan_mayen
 			set_global_flag = global_1836_setup
 			set_country_flag = banker_income_timer
+			CHI = {
+				add_country_modifier = { name = imperial_examinations duration = -1 }
+				add_country_modifier = { name = middle_kingdom duration = -1 }
+			}
+			CHI = {
+				any_pop = { reduce_pop = 0.28 }
+				any_pop = {
+					limit = { type = soldiers }
+					reduce_pop = 0.9
+				}
+				any_country = {
+					limit = {
+						NOT = {
+							tag = THIS
+						}
+						substate_of = CHI
+						num_of_cities = 1
+					}
+					any_pop = { reduce_pop = 0.75 }
+				}
+			}
+			any_country = {
+				limit = { 
+					ai = no 
+					civilized = no
+				}
+				activate_technology = early_classical_theory_and_critique
+			}
+			any_country = {
+				limit = { 
+					ai = no 
+					civilized = yes
+				}
+				activate_technology = early_classical_theory_and_critique
+				set_country_flag = province_selector_tech
+			}
 			any_country = {
 				limit = { ai = no }
-				activate_technology = early_classical_theory_and_critique
 				any_owned = {
 					limit = {
 						is_capital = yes
@@ -168,7 +203,13 @@ political_decisions = {
 			SWE = {
 				add_country_modifier = { name = ksn_nation_modifier duration = -1 }
 			}
+			DEN = {
+				add_country_modifier = { name = ksn_nation_modifier duration = -1 }
+			}
 			NET = {
+				add_country_modifier = { name = net_nation_modifier duration = -1 }
+			}
+			BEL = {
 				add_country_modifier = { name = net_nation_modifier duration = -1 }
 			}
 			BRZ = {

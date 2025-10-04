@@ -236,6 +236,13 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = central_american
 			set_country_flag = carlist_ideas
+			any_country = {
+				limit = {
+					tag = UCA
+					vassal_of = THIS
+				}
+				inherit = UCA
+			}
 			UCA_2191 = { add_core = THIS }
 			UCA_2197 = { add_core = THIS }
 			2201 = { add_core = THIS }
@@ -266,10 +273,49 @@ political_decisions = {
 		allow = {
 			war = no
 			state_n_government = 1
+			CLM_2251 = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			CLM_2247 = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			CLM_2262 = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			CLM_1723 = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
 		}
 	
 		effect = {
 			set_country_flag = carlist_ideas_colombia
+			any_country = {
+				limit = {
+					tag = CLM
+					vassal_of = THIS
+				}
+				inherit = CLM
+			}
 			CLM_2251 = { add_core = THIS }
 			CLM_2247 = { add_core = THIS }
 			CLM_2262 = { add_core = THIS }
@@ -295,10 +341,25 @@ political_decisions = {
 		allow = {
 			war = no
 			state_n_government = 1
+			ECU_2279 = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
 		}
 	
 		effect = {
 			set_country_flag = carlist_ideas_ecuador
+			any_country = {
+				limit = {
+					tag = ECU
+					vassal_of = THIS
+				}
+				inherit = ECU
+			}
 			ECU_2279 = { add_core = THIS }
 		}
 	
@@ -321,10 +382,41 @@ political_decisions = {
 		allow = {
 			war = no
 			state_n_government = 1
+			VNZ_2265 = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			VNZ_2278 = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
+			VNZ_2234 = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
 		}
 	
 		effect = {
 			set_country_flag = carlist_ideas_venezula
+			any_country = {
+				limit = {
+					tag = VNZ
+					vassal_of = THIS
+				}
+				inherit = VNZ
+			}
 			VNZ_2265 = { add_core = THIS }
 			VNZ_2278 = { add_core = THIS }
 			VNZ_2234 = { add_core = THIS }
@@ -353,9 +445,27 @@ political_decisions = {
 		allow = {
 			war = no
 			state_n_government = 1
+			GCO = { 
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
 		}
 	
 		effect = {
+			set_country_flag = carlist_ideas_gran_colombia
+			any_country = {
+				limit = {
+					tag = GCO
+					vassal_of = THIS
+				}
+				inherit = GCO
+			}
 			CLM_2251 = { add_core = THIS }
 			CLM_2247 = { add_core = THIS }
 			CLM_2262 = { add_core = THIS }

@@ -419,6 +419,28 @@ PS_unlocked = {
 			factor = -100
 			ai = yes
 		}
+		modifier = {
+			factor = -100
+			civilized = no
+		}
+	}
+	effect = {
+		activate_building = province_selector
+	}
+}
+PS_unlocked_unciv = {
+	limit = { early_classical_theory_and_critique = 1 }
+	news = no
+	chance = {
+		base = 100	
+		modifier = {
+			factor = -100
+			ai = yes
+		}
+		modifier = {
+			factor = -100
+			civilized = yes
+		}
 	}
 	effect = {
 		activate_building = province_selector
@@ -429,6 +451,25 @@ farmland_unlocked = {
 	news = no
 	chance = {
 		base = 100	
+		modifier = {
+			factor = -100
+			civilized = no
+		}
+	}
+	effect = {
+		activate_building = farmland
+		max_farmland = 49
+	}
+}
+farmland_unlocked_unciv = {
+	limit = { early_classical_theory_and_critique = 1 }
+	news = no
+	chance = {
+		base = 100	
+		modifier = {
+			factor = -100
+			civilized = yes
+		}	
 	}
 	effect = {
 		activate_building = farmland

@@ -1,0 +1,394 @@
+#Hungarian Revolution Events
+country_event = {
+	title = "EVTNAME31521"
+	desc = "EVTDESC31521"
+	picture = "hungarian_revolution_1848"
+	id = 31520
+    major = yes
+
+	trigger = {
+		tag = AUS
+        HUN = { vassal_of = AUS }
+		year = 1848
+		NOT = { year = 1850 }
+		NOT = { has_global_flag = hungarian_revolution_1848 }
+	}
+
+    immediate = {
+        set_global_flag = hungarian_revolution_1848
+    }
+
+	option = {
+		name = "EVTOPTA31521"
+        set_country_flag = hungarian_revolution_1848
+        war = {
+			target = HUN
+			attacker_goal = { casus_belli = annex_core_country }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = yes
+		}
+		release_vassal = HUN
+		diplomatic_influence = {
+			who = HUN
+			value = -400
+		}
+		diplomatic_influence = {
+			who = PAR
+			value = -400
+		}
+		diplomatic_influence = {
+			who = MOD
+			value = -400
+		}
+		diplomatic_influence = {
+			who = LUC
+			value = -400
+		}
+		diplomatic_influence = {
+			who = TUS
+			value = -400
+		}
+		diplomatic_influence = {
+			who = SIC
+			value = -400
+		}
+		diplomatic_influence = {
+			who = PAP
+			value = -400
+		}
+		HUN = {
+			set_country_flag = hungarian_revolution_1848
+			government = democracy
+			political_reform = no_slavery
+			political_reform = universal_weighted_voting
+			political_reform = yes_meeting
+			political_reform = free_press
+			political_reform = non_secret_ballots
+			define_general = {
+				name = "§RArtúr Görgei§W"
+				personality = mor10_1
+				background = 4a4d_1
+			}
+			define_general = {
+				name = "§RGyörgy Klapka§W"
+				personality = mor10_1
+				background = 3a3d_1
+			}
+			leadership = 500
+			money = 650000
+			artillery = 3000
+			canned_food = 3000
+			small_arms = 2500
+			ammunition = 2500
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	title = "EVTNAME31522"
+	desc = "EVTDESC31522"
+	picture = "hungarian_revolution_1848"
+	id = 31522
+
+	trigger = {
+		tag = AUS
+		has_country_flag = hungarian_revolution_1848
+		HUN = { exists = no }
+		NOT = { war_with = HUN }
+		NOT = { has_global_flag = habsburg_victory }
+		NOT = { has_global_flag = hungarian_victory }
+	}
+
+	option = {
+		name = "EVTOPTA31522"
+		set_global_flag = habsburg_victory
+	}
+}
+
+country_event = {
+	title = "EVTNAME31523"
+	desc = "EVTDESC31523"
+	picture = "hungarian_revolution_1848"
+	id = 31523
+
+	trigger = {
+		tag = HUN
+		exists = yes
+		has_country_flag = hungarian_war_of_independence
+		NOT = { war_with = AUS }
+		NOT = { has_global_flag = habsburg_victory }
+		NOT = { has_global_flag = hungarian_victory }
+	}
+
+	option = {
+		name = "EVTOPTA31523"
+		set_global_flag = hungarian_victory
+		AUS = {
+			prestige = -30
+		}
+		prestige = 30
+	}
+}
+#Polish Revolution Events
+country_event = {
+	title = "EVTNAME31525"
+	desc = "EVTDESC31525"
+	picture = "polish_revolution_1850"
+	id = 31524
+    major = yes
+
+	trigger = {
+		tag = RUS
+        CPL = { vassal_of = RUS }
+		year = 1850
+		NOT = { year = 1855 }
+		NOT = { has_global_flag = polish_revolution_1850 }
+	}
+
+    immediate = {
+        set_global_flag = polish_revolution_1850
+    }
+
+	option = {
+		name = "We will restore order in Poland"
+        set_country_flag = polish_revolution_1850
+        war = {
+			target = CPL
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = yes
+		}
+		release_vassal = CPL
+		diplomatic_influence = {
+			who = CPL
+			value = -400
+		}
+		diplomatic_influence = {
+			who = PRU
+			value = -400
+		}
+        diplomatic_influence = {
+			who = AUS
+			value = -400
+		}
+		CPL = {
+			set_country_flag = polish_revolution_1850
+			government = democracy
+			political_reform = no_slavery
+			political_reform = universal_weighted_voting
+			political_reform = yes_meeting
+			political_reform = free_press
+			political_reform = non_secret_ballots
+			leadership = 500
+			money = 650000
+			artillery = 3000
+			canned_food = 3000
+			small_arms = 2500
+			ammunition = 2500
+		}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	title = "Tsar Victory"
+	desc = ""
+	picture = "polish_revolution_1850"
+	id = 31525
+
+	trigger = {
+		tag = RUS
+		has_country_flag = polish_revolution_1850
+		CPL = { exists = no }
+		NOT = { war_with = CPL }
+		NOT = { has_global_flag = tsar_victory }
+		NOT = { has_global_flag = hungarian_victory }
+	}
+
+	option = {
+		name = "EVTOPTA31522"
+		set_global_flag = tsar_victory
+	}
+}
+
+country_event = {
+	title = "Polish Victory!"
+	desc = ""
+	picture = "polish_revolution_1850"
+	id = 31526
+
+	trigger = {
+		tag = CPL
+		exists = yes
+		has_country_flag = polish_revolution_1850
+		NOT = { war_with = RUS }
+		NOT = { has_global_flag = tsar_victory }
+		NOT = { has_global_flag = hungarian_victory }
+	}
+
+	option = {
+		name = "EVTOPTA31523"
+		set_global_flag = polish_victory
+		RUS = {
+			prestige = -30
+		}
+		prestige = 30
+	}
+}
+
+#Taiping Rebellion
+country_event = {
+	id = 160001
+	title = "EVTNAME160001"
+	desc = "EVTDESC160001"
+	picture = rebellion
+	news = yes
+	news_desc_long = "EVTDESC160001_NEWS_LONG"
+	news_desc_medium = "EVTDESC160001_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC160001_NEWS_SHORT"
+
+	major = yes
+	trigger = {
+		tag = CHI
+		NOT = { has_global_flag = taiping_has_happened }
+		year = 1851
+		NOT = { year = 1861 }
+		civilized = no
+	}
+	
+	option = {
+		name = "EVTOPTA160001"
+		release = TPG
+		all_core = { add_core = TPG }
+		TPG = {
+			money = 200000
+			wool = 2000
+			capital = 2221
+			any_pop = {
+				consciousness = -5
+				militancy = -5
+			}
+			add_country_modifier = { name = middle_kingdom duration = -1 }
+			add_country_modifier = { name = taiping_mobilization duration = 730 }
+		}
+		any_pop = {
+			limit = {
+				culture = nanfaren
+			}
+			militancy = 1
+		}
+		set_global_flag = taiping_has_happened
+		country_event = {
+			id = 160002
+			days = 180
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB160001"
+		release = TPG
+		all_core = { add_core = TPG }
+		TPG = {
+			money = 200000
+			wool = 2000
+			capital = 2221
+			any_pop = {
+				consciousness = -5
+				militancy = -5
+			}
+			add_country_modifier = { name = middle_kingdom duration = -1 }
+			add_country_modifier = { name = taiping_mobilization duration = 730 }
+		}
+		any_pop = {
+			limit = {
+				culture = nanfaren
+			}
+			militancy = 1
+		}
+		set_global_flag = taiping_has_happened
+		change_tag_no_core_switch = TPG
+		country_event = {
+			id = 160003
+			days = 180
+		}
+	}
+}
+
+country_event = {
+	id = 160002
+	title = "EVTNAME160002"
+	desc = "EVTDESC160002"
+	picture = rebellion
+
+	major = yes
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "EVTOPTA160002"
+		war = {
+			target = TPG
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			call_ally = yes
+			defender_goal = {
+				casus_belli = annex_core_country
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 160003
+	title = "EVTNAME160003"
+	desc = "EVTDESC160003"
+	picture = rebellion
+
+	major = yes
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "EVTOPTA160003"
+		CHI = {
+			war = {
+				target = TPG
+				attacker_goal = {
+					casus_belli = annex_core_country
+				}
+				call_ally = yes
+				defender_goal = {
+					casus_belli = annex_core_country
+				}
+			}
+		}
+	}
+}
+
+#Remove TPG cores
+country_event = {
+	id = 160004
+	title = "Remove Taiping Cores"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAN
+		has_global_flag = taiping_has_happened
+		TPG = { exists = no }
+	}
+	
+	option = {
+		TPG = {
+			all_core = {
+				remove_core = TPG
+			}
+		}
+	}
+}

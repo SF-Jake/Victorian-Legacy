@@ -125,6 +125,7 @@ disabled_nation_traditions;Disable Nation Traditions;;;;;;;;;;;;;
 economic_thought_and_critique;National Ideas;;;;;;;;;;;;;
 early_classical_theory_and_critique;Unlock Province Selector;;;;;;;;;;;;;
 farmland_unlocked;Farmland Unlock;;;;;;;;;;;;;
+farmland_unlocked_unciv;Farmland Unlock (Unciv);;;;;;;;;;;;;
 neoliberal_theory;Neoliberal Theory;;;;;;;;;;;;;;
 keynesianism;Keynesianism;;;;;;;;;;;;;;
 modern_business_management;Modern Business Management;;;;;;;;;;;;;;
@@ -313,6 +314,8 @@ you_are_at_war;§RYou are currently at war§W;;;;;;;;;;;;;;
 province_selector;Province Selector;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 PS_unlocked;PS Building Unlocked;;;;;;;;;;;;;x
 PS_unlocked_desc;You can now build Province Selector buildings.;;;;;;;;;;;;;x
+PS_unlocked_unciv;PS Building Unlocked (Unciv);;;;;;;;;;;;;x
+PS_unlocked_unciv_desc;You can now build Province Selector buildings.;;;;;;;;;;;;;x
 urban_center;Urban Center;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 farmland;Farmland Expansion;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 mines;Mine Expansion;;;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -495,3 +498,7 @@ late_scramble_for_africa_conquest_desc;Annex a single-state §Ycountry§W;;;;;;;;;
 late_scramble_for_africa_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
 ottoman_egypt_expansion_title;Restore Ottoman Authority in Egypt;;;;;;;;;;;;x
 ottoman_egypt_expansion_desc;Egypt was once the jewel of the Ottoman domains, the fertile Nile sustaining armies and fleets that upheld the Sultan?s might. Yet the ambition of Muhammad Ali and his heirs carved out a realm that defies our authority, ruling in the Sultan?s name while ignoring his command. To restore Egypt to its rightful place within the Empire is to reclaim the prestige of the Caliphate, secure the riches of the Nile, and remind the world that the Ottomans are not a dying power but the masters of two continents. Let no viceroy stand above the will of the Sultan.;;;;;;;;;;;;x
+EVTNAME31525;January Uprising of $YEAR$;;;;;;;;;;;;x
+EVTDESC31525;The restless Poles have once again risen against the authority of the Tsar. Secret societies and nationalists have stirred the population into revolt, calling for independence and the restoration of their old Commonwealth. Though their forces are poorly organized and ill-equipped, the rebellion has spread across towns and villages, threatening imperial order in the western provinces. Our armies remain strong and loyal, but dealing with these insurgents will require either swift repression or a more cautious policy of leniency. To show weakness risks encouraging further unrest, yet to crush them mercilessly may earn the condemnation of Europe. How shall we respond to this act of defiance?;;;;;;;;;;;;x
+EVTDESC90808;The Warlord Era was the period in the history of the Republic of China between 1916 and 1928, when control of the country was divided between rival military cliques of the Beiyang Army and other regional factions. It began after the death of Yuan Shikai, the President of China after the Xinhai Revolution had overthrown the Qing dynasty and established the Republic of China in 1912.;;;;;;;;;;;;x
+ottomanism_embrace;§GGain an Increase in Assimilation Chance with this Decision§b;;;;;;;;;;;;x

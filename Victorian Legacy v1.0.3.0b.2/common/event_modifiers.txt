@@ -1966,3 +1966,80 @@ spain_italian_support = {
 	factory_output = 0.075
 	icon = 17
 }
+
+#China Treaty Modifiers
+treaty_port1 = {
+	max_tariff = -0.05
+	global_pop_militancy_modifier = 0.005
+	icon = 10
+}
+
+treaty_port2 = {
+	max_tariff = -0.1
+	global_pop_militancy_modifier = 0.01
+	icon = 10
+}
+
+treaty_port3 = {
+	max_tariff = -0.15
+	global_pop_militancy_modifier = 0.015
+	icon = 10
+}
+
+treaty_port4 = {
+	max_tariff = -0.2
+	global_pop_militancy_modifier = 0.02
+	icon = 10
+}
+
+treaty_port5 = {
+	max_tariff = -0.25
+	global_pop_militancy_modifier = 0.025
+	icon = 10
+}
+
+treaty_port6 = {
+	max_tariff = -0.3
+	global_pop_militancy_modifier = 0.03
+	icon = 10
+}
+
+treaty_port7 = {
+	max_tariff = -0.35
+	global_pop_militancy_modifier = 0.035
+	icon = 10
+}
+
+treaty_port8 = {
+	max_tariff = -0.40
+	global_pop_militancy_modifier = 0.040
+	icon = 10
+}
+
+early_qing_reforms = {
+	research_points = 1
+	global_pop_militancy_modifier = 0.05
+	icon = 3
+}
+
+late_qing_reforms = {
+	research_points = 2
+	icon = 3
+}
+
+middle_kingdom = {
+	research_points_on_conquer = -1
+	badboy = 0.075
+	icon = 8
+}
+
+imperial_examinations = {
+	administrative_efficiency_modifier = 0.25
+	research_points_modifier = -0.2
+	icon = 5
+}
+
+taiping_mobilization = {
+	mobilisation_size = 0.01
+	icon = 15
+}

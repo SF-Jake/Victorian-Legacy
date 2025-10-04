@@ -1104,8 +1104,9 @@ country_event = {
 		clr_country_flag = indc2_flag
 		activate_technology = medicine
 	}
+}
 	
-	country_event = {
+country_event = {
 	id = 999055
 	title = "Tech reform flag"
 	desc = "Naval Schools Reformed"
@@ -1128,7 +1129,7 @@ country_event = {
 }
 
 country_event = {
-	id = 999056
+	id = 999057
 	title = "Tech activation"
 	desc = "Naval Schools Reformed"
 	picture = "Unite"
@@ -1146,5 +1147,28 @@ country_event = {
 		name = "Ok"
 		clr_country_flag = ns_flag
 		activate_technology = the_command_principle
+	}
+}
+
+country_event = {
+	id = 999059
+	title = "Tech activation"
+	desc = "Province Selector"
+	picture = "Unite"
+	
+	trigger = {
+		civilized = yes
+		ai = no
+		NOT = { has_country_flag = province_selector_tech }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Ok"
+		set_country_flag = province_selector_tech
+		activate_technology = early_classical_theory_and_critique
 	}
 }

@@ -450,3 +450,31 @@ country_event = {
 		remove_country_modifier = female_suffrage
 	}
 }
+
+country_event = {
+	id = 60160
+	title = "EVTNAME60160"
+	desc = "EVTDESC60160"
+	picture = "Unite"
+	
+	trigger = {
+		government = colonial_company
+		OR = {
+			is_vassal = no
+			AND = {
+				tag = HUN
+				NOT = { vassal_of = AUS }
+			}
+			AND = {
+				tag = CPL
+				NOT = { vassal_of = RUS }
+			}
+		}
+		war = no
+	}
+
+	option = {
+		name = "EVTOPTA60160"
+		government = absolute_monarchy
+	}
+}

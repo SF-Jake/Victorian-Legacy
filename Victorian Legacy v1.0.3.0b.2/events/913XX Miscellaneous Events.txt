@@ -584,37 +584,3 @@ country_event = {
 		}
 	}
 }
-
-#########################################################################
-# 					    	Uncivilize China							#
-#########################################################################
-
-country_event = {
-	id = 91345
-	title = "Uncivilize China"
-	desc = ""
-
-	trigger = {
-		tag = CHI
-		civilized = yes
-	}
-
-	option = {
-		civilized = no
-		economic_reform = no_land_reform
-		economic_reform = no_admin_reform
-		economic_reform = no_finance_reform
-		economic_reform = no_education_reform
-		economic_reform = no_transport_improv
-		economic_reform = no_pre_indust
-		economic_reform = no_western_science
-		military_reform = no_foreign_training
-		military_reform = no_foreign_weapons
-		military_reform = no_military_constructions
-		military_reform = no_foreign_officers
-		military_reform = no_army_schools
-		military_reform = no_foreign_naval_officers
-		military_reform = no_foreign_navies
-		military_reform = no_naval_schools
-	}
-}

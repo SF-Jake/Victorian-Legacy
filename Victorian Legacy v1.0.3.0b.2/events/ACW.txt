@@ -1196,16 +1196,4 @@ country_event = {
 		MEX_2137 = { add_core = USA }
 		MEX_2142 = { add_core = USA }
 	}
-
-	option = {
-		name = "All of Mexico will be ours!"
-		set_country_flag = all_mexico
-		any_pop = {
-			militancy = 4
-			consciousness = 4
-		}
-		badboy = 15
-		MEX_2137 = { add_core = USA }
-		MEX_2142 = { add_core = USA }
-	}
 }

@@ -104,13 +104,13 @@ political_decisions = {
 	
 		allow = {
 			war = no
+			has_global_flag = hungarian_revolution_1848
 			OR = {
 				NGF = { exists = yes }
 				ITA = { exists = yes }
 				GER = { exists = yes }
 				is_greater_power = no
 			}
-			nationalism_n_imperialism = 1
 			NOT = {
 				OR = {
 					exists = HUN

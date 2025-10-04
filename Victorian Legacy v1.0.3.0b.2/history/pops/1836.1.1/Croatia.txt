@@ -29,7 +29,7 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 20875
+        size = 20666
     }
 
     clergymen = {
@@ -53,7 +53,19 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 23625
+        size = 23389
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 209
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 236
     }
 }
 #Croatia Region (870000)
@@ -105,7 +117,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 39250
+        size = 38857
     }
 
     aristocrats = {
@@ -147,7 +159,7 @@
     farmers = {
         culture = hungarian
         religion = placeholder
-        size = 3250
+        size = 3217
     }
 
     bureaucrats = {
@@ -177,7 +189,25 @@
     farmers = {
         culture = south_german
         religion = placeholder
-        size = 6500
+        size = 6435
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 393
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = placeholder
+        size = 33
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = placeholder
+        size = 65
     }
 }
 #Sisak (116000/29000 POPS)
@@ -209,7 +239,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 16400
+        size = 16236
     }
 
     clergymen = {
@@ -233,7 +263,19 @@
     farmers = {
         culture = serb
         religion = placeholder
-        size = 10225
+        size = 10123
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 164
+    }
+
+    soldiers = {
+        culture = serb
+        religion = placeholder
+        size = 102
     }
 }
 #Karlovac (184000/46000 POPS)
@@ -265,7 +307,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 30400
+        size = 30096
     }
 
     clergymen = {
@@ -289,7 +331,19 @@
     farmers = {
         culture = serb
         religion = placeholder
-        size = 11125
+        size = 11014
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 304
+    }
+
+    soldiers = {
+        culture = serb
+        religion = placeholder
+        size = 111
     }
 }
 #Senj (96000/24000 POPS)
@@ -321,7 +375,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 11525
+        size = 11410
     }
 
     clergymen = {
@@ -345,7 +399,19 @@
     farmers = {
         culture = serb
         religion = placeholder
-        size = 10225
+        size = 10123
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 115
+    }
+
+    soldiers = {
+        culture = serb
+        religion = placeholder
+        size = 102
     }
 }
 #Varadzin (68000/17000 POPS)
@@ -377,7 +443,13 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 15600
+        size = 15444
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 156
     }
 }
 #Bjelovar (52000/13000 POPS)
@@ -403,7 +475,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 2675
+        size = 2648
     }
 
     clergymen = {
@@ -427,7 +499,7 @@
     farmers = {
         culture = serb
         religion = placeholder
-        size = 4625
+        size = 4579
     }
 
     clergymen = {
@@ -451,7 +523,25 @@
     farmers = {
         culture = czech
         religion = placeholder
-        size = 4650
+        size = 4603
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 27
+    }
+
+    soldiers = {
+        culture = serb
+        religion = placeholder
+        size = 46
+    }
+
+    soldiers = {
+        culture = czech
+        religion = placeholder
+        size = 47
     }
 }
 #Pozega (80000/20000 POPS)
@@ -483,7 +573,13 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 18375
+        size = 18191
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 184
     }
 }
 #Fiume (52000/13000 POPS)
@@ -509,7 +605,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 4700
+        size = 4653
     }
 
     aristocrats = {
@@ -539,7 +635,7 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 4425
+        size = 4381
     }
 
     clergymen = {
@@ -563,7 +659,25 @@
     farmers = {
         culture = hungarian
         religion = placeholder
-        size = 700
+        size = 693
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 47
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 44
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = placeholder
+        size = 7
     }
 }
 #Baranya Region (180000) #see Hungary.txt for balance of Region
@@ -591,7 +705,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 24175
+        size = 23933
     }
 
     clergymen = {
@@ -615,7 +729,7 @@
     farmers = {
         culture = serb
         religion = placeholder
-        size = 6500
+        size = 6435
     }
 
     aristocrats = {
@@ -645,7 +759,7 @@
     farmers = {
         culture = hungarian
         religion = placeholder
-        size = 5025
+        size = 4975
     }
 
     aristocrats = {
@@ -675,7 +789,31 @@
     farmers = {
         culture = south_german
         religion = placeholder
-        size = 5300
+        size = 5247
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 242
+    }
+
+    soldiers = {
+        culture = serb
+        religion = placeholder
+        size = 65
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = placeholder
+        size = 50
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = placeholder
+        size = 53
     }
 }
 #Dalmatia Region (320000) #see Montenegro.txt for balance of region
@@ -709,7 +847,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 34350
+        size = 34006
     }
 
     clergymen = {
@@ -733,7 +871,19 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 450
+        size = 445
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 344
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 5
     }
 }
 #Zadar (128000/32000 POPS)
@@ -777,7 +927,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 20525
+        size = 20320
     }
 
     bureaucrats = {
@@ -807,7 +957,7 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 2125
+        size = 2104
     }
 
     clergymen = {
@@ -831,7 +981,25 @@
     farmers = {
         culture = serb
         religion = placeholder
-        size = 6550
+        size = 6484
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 205
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 21
+    }
+
+    soldiers = {
+        culture = serb
+        religion = placeholder
+        size = 66
     }
 }
 #Dubrovnik (52000/13000 POPS)
@@ -863,7 +1031,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 9225
+        size = 9133
     }
 
     aristocrats = {
@@ -893,7 +1061,7 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 400
+        size = 396
     }
 
     clergymen = {
@@ -917,7 +1085,25 @@
     farmers = {
         culture = serb
         religion = placeholder
-        size = 1825
+        size = 1807
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 92
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 4
+    }
+
+    soldiers = {
+        culture = serb
+        religion = placeholder
+        size = 18
     }
 }
 #Banat-Bacska Region (104000) #See Serbia.txt and Romania.txt for balance of region
@@ -945,7 +1131,7 @@
     farmers = {
         culture = croat
         religion = placeholder
-        size = 14875
+        size = 14726
     }
 
     clergymen = {
@@ -969,7 +1155,7 @@
     farmers = {
         culture = serb
         religion = placeholder
-        size = 7475
+        size = 7400
     }
 
     aristocrats = {
@@ -999,6 +1185,24 @@
     farmers = {
         culture = south_german
         religion = placeholder
-        size = 1785
+        size = 1767
+    }
+
+    soldiers = {
+        culture = croat
+        religion = placeholder
+        size = 149
+    }
+
+    soldiers = {
+        culture = serb
+        religion = placeholder
+        size = 75
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = placeholder
+        size = 18
     }
 }

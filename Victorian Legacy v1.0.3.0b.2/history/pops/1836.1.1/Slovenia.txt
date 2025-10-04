@@ -35,7 +35,7 @@
     farmers = {
         culture = south_german
         religion = placeholder
-        size = 3150
+        size = 3118
     }
 
     clergymen = {
@@ -59,7 +59,19 @@
     farmers = {
         culture = slovene
         religion = placeholder
-        size = 43500
+        size = 43065
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = placeholder
+        size = 32
+    }
+
+    soldiers = {
+        culture = slovene
+        religion = placeholder
+        size = 435
     }
 }
 #Carniola Region (460000)
@@ -105,7 +117,13 @@
     farmers = {
         culture = slovene
         religion = placeholder
-        size = 63150
+        size = 62518
+    }
+
+    soldiers = {
+        culture = slovene
+        religion = placeholder
+        size = 632
     }
 }
 #Postojna (180000/45000 POPS)
@@ -137,7 +155,7 @@
     farmers = {
         culture = slovene
         religion = placeholder
-        size = 39575
+        size = 39179
     }
 
     clergymen = {
@@ -149,6 +167,18 @@
     farmers = {
         culture = south_german
         religion = placeholder
-        size = 1975
+        size = 1955
+    }
+
+    soldiers = {
+        culture = slovene
+        religion = placeholder
+        size = 396
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = placeholder
+        size = 20
     }
 }

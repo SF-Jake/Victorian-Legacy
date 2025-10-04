@@ -37,13 +37,14 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			exists = EGY
-			NOT = { truce_with = EGY }
 			EGY = {
 				civilized = no
 			}
+			NOT = { has_country_flag = ottoman_egypt_expansion }
 		}
 		
 		allow = {
+			NOT = { truce_with = EGY }
 			917 = { owned_by = THIS }
 			913 = { owned_by = THIS }
 			894 = { owned_by = THIS }
@@ -51,10 +52,12 @@ political_decisions = {
 		}
 		
 		effect = {
-			casus_belli = {
+			set_country_flag = ottoman_egypt_expansion
+			war = {
 				target = EGY
-				type = conquest
-				months = 36
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = yes
 			}
 		}
 	}
@@ -286,6 +289,7 @@ political_decisions = {
 			revolution_n_counterrevolution = 1
 		}
 		effect = {
+			ottomanism_embrace = {}
 			set_country_flag = embraced_ottomanism
 		}
 		ai_will_do = {

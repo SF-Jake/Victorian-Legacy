@@ -100,4 +100,16 @@ democracy = {
 	appoint_ruling_party = yes
 }
  
-
+colonial_company = {
+	#which ideology of parties.
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+	
+	election = no
+	appoint_ruling_party = yes
+}

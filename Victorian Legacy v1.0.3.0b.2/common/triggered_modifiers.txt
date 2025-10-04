@@ -827,6 +827,14 @@ gp_infamy_reduction = {
 	badboy = -0.01
 }
 
+########## Autonomous Dependencies ##########
+colonial_trade_company = {
+	trigger = {
+		government = colonial_company
+	}
+	prestige = -1
+}
+
 ########## Rude boy ##########
 #Will add later
 

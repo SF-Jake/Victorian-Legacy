@@ -523,7 +523,7 @@ country_event = {
 					province_id = 1056
 				}
 			}
-			add_province_modifier = { name = circassian_genocide duration = 1095 }
+			add_province_modifier = { name = circassian_genocide duration = 30 }
 		}
 		TUR = { set_country_flag = new_world_nation }
 		set_country_flag = circassian_genocide

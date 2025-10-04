@@ -68,6 +68,7 @@ political_decisions = {
 			#military_score = 50
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = chinese_tech_school
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -108,6 +109,7 @@ political_decisions = {
 			#total_amount_of_ships = 30
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = chinese_tech_school
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -146,6 +148,7 @@ political_decisions = {
 			#average_consciousness = 4
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = chinese_tech_school
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -183,6 +186,7 @@ political_decisions = {
 			#industrial_score = 50
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = chinese_tech_school
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -221,6 +225,7 @@ political_decisions = {
 			#industrial_score = 50
 			NOT = {
 				tech_school = prussian_tech_school
+				tech_school = chinese_tech_school
 				has_country_modifier = academic_confusion
 			}
 		}
@@ -243,7 +248,10 @@ political_decisions = {
 #			}
 #			civilized = yes
 			has_country_flag = tech_school_change
-			NOT = { tech_school = traditional_academic }
+			NOT = { 
+				tech_school = traditional_academic 
+				tech_school = chinese_tech_school 
+			}
 		}
 		
 		allow = {

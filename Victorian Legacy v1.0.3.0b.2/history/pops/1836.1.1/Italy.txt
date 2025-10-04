@@ -431,7 +431,7 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 275925
+        size = 273166
     }
 
     clergymen = {
@@ -444,6 +444,12 @@
         culture = north_italian
         religion = placeholder
         size = 95
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 2759
     }
 }
 #Bergamo (472000/118000 POPS)
@@ -475,7 +481,13 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 107275
+        size = 106202
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 1073
     }
 }
 #Brescia (708000/177000 POPS)
@@ -507,7 +519,13 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 159075
+        size = 157484
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 1591
     }
 }
 #Venetia Region (2060000)
@@ -577,7 +595,7 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 60925
+        size = 60316
     }
 
     clergymen = {
@@ -590,6 +608,12 @@
         culture = north_italian
         religion = placeholder
         size = 490
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 609
     }
 }
 #Verona (516000/129000 POPS)
@@ -627,7 +651,13 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 111050
+        size = 109939
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 1111
     }
 }
 #Padua (564000/141000 POPS)
@@ -659,7 +689,13 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 127775
+        size = 126497
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 1278
     }
 }
 #Treviso (232000/58000 POPS)
@@ -691,7 +727,13 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 52800
+        size = 52272
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 528
     }
 }
 #Udine (300000/75000 POPS)
@@ -723,7 +765,13 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 68200
+        size = 67518
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 682
     }
 }
 #Tirol Region (368000) #see Austria.txt for balance of Region
@@ -763,7 +811,7 @@
     farmers = {
         culture = south_german
         religion = placeholder
-        size = 4610
+        size = 4564
     }
 
     clergymen = {
@@ -787,7 +835,19 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 60075
+        size = 59474
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = placeholder
+        size = 46
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 601
     }
 }
 #Bozen (92000/23000 POPS) #now part of Italy
@@ -819,7 +879,7 @@
     farmers = {
         culture = south_german
         religion = placeholder
-        size = 14950
+        size = 14800
     }
 
     clergymen = {
@@ -843,7 +903,19 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 5400
+        size = 5346
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = placeholder
+        size = 150
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 54
     }
 }
 #Friuli-Istria Region (292000) #see Croatia.txt for balance of region
@@ -901,7 +973,7 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 2375
+        size = 2351
     }
 
     clergymen = {
@@ -925,7 +997,19 @@
     farmers = {
         culture = slovene
         religion = placeholder
-        size = 6300
+        size = 6237
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 24
+    }
+
+    soldiers = {
+        culture = slovene
+        religion = placeholder
+        size = 63
     }
 }
 #Gorizia (180000/45000 POPS)
@@ -957,7 +1041,7 @@
     farmers = {
         culture = north_italian
         religion = placeholder
-        size = 10800
+        size = 10692
     }
 
     clergymen = {
@@ -981,7 +1065,19 @@
     farmers = {
         culture = slovene
         religion = placeholder
-        size = 30375
+        size = 30071
+    }
+
+    soldiers = {
+        culture = north_italian
+        religion = placeholder
+        size = 108
+    }
+
+    soldiers = {
+        culture = slovene
+        religion = placeholder
+        size = 304
     }
 }
 #Emilia Region (1120000)

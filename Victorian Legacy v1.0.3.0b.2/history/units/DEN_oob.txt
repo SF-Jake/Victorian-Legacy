@@ -46,45 +46,44 @@ army = {
 	name = "Danske Haeren"
 	location = 372
 	regiment = {
-		name= "1.1. Infanteridivision"
-		type = infantry
-		home = 372
-	}
-
-	regiment = {
-		name= "2.1. Infanteridivision"
-		type = infantry
-		home = 372
-	}
-
-	regiment = {
-		name= "3.1. Infanteridivision"
-		type = infantry
-		home = 372
-	}
-	
-	regiment = {
-		name= "1.2. Infanteridivision"
-		type = infantry
-		home = 366
-	}
-
-	regiment = {
-		name= "2.2. Infanteridivision"
-		type = infantry
-		home = 366
-	}
-
-	regiment = {
 		name= "3.2. Infanteridivision"
-		type = infantry
+		type = artillery
 		home = 366
 	}
 
 	regiment = {
 		name= "1.1. Kavalleridivision"
-		type = dragoon
+		type = hussar
 		home = 373
+	}
+	regiment = {
+		name= "Kalmar Regemente"
+		type = artillery
+		home = 372
+	}
+
+	regiment = {
+		name= "Jönköpings Regemente"
+		type = artillery
+		home = 372
+	}
+
+	regiment = {
+		name= "Södra Skånska Infanteriregementet"
+		type = artillery
+		home = 372
+	}
+
+	regiment = {
+		name= "Kronprinsens Husarregemente"
+		type = artillery
+		home = 366
+	}
+
+	regiment = {
+		name= "Norrlands Dragonregemente"
+		type = artillery
+		home = 366
 	}
 
 }

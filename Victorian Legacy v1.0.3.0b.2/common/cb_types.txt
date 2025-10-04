@@ -235,8 +235,6 @@ conquest = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		total_pops = 400000
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
@@ -987,8 +985,6 @@ acquire_state_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1096,8 +1092,6 @@ acquire_state_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1206,8 +1200,6 @@ acquire_state_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1316,8 +1308,6 @@ acquire_state_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1426,8 +1416,6 @@ acquire_state_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1537,8 +1525,6 @@ place_in_the_sun_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1625,8 +1611,6 @@ place_in_the_sun_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1712,8 +1696,6 @@ place_in_the_sun_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1799,8 +1781,6 @@ place_in_the_sun_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1886,8 +1866,6 @@ place_in_the_sun_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3227,8 +3205,6 @@ early_scramble_for_africa_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3299,8 +3275,6 @@ early_scramble_for_africa_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3371,8 +3345,6 @@ early_scramble_for_africa_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3443,8 +3415,6 @@ early_scramble_for_africa_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3515,8 +3485,6 @@ early_scramble_for_africa_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3587,8 +3555,6 @@ scramble_for_africa_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3660,8 +3626,6 @@ scramble_for_africa_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3733,8 +3697,6 @@ scramble_for_africa_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3806,8 +3768,6 @@ scramble_for_africa_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3879,8 +3839,6 @@ scramble_for_africa_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3952,8 +3910,6 @@ late_scramble_for_africa_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4024,8 +3980,6 @@ late_scramble_for_africa_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4096,8 +4050,6 @@ late_scramble_for_africa_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4168,8 +4120,6 @@ late_scramble_for_africa_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4240,8 +4190,6 @@ late_scramble_for_africa_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4312,8 +4260,6 @@ early_scramble_for_africa_conquest = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4375,8 +4321,6 @@ scramble_for_africa_conquest = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4439,8 +4383,6 @@ late_scramble_for_africa_conquest = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4520,8 +4462,6 @@ demand_concession_casus_belli_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4602,8 +4542,6 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4684,8 +4622,6 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4766,8 +4702,6 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4848,8 +4782,6 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -5467,8 +5399,6 @@ conquest_low = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = {	total_pops = 400000 }
 		NOT = { 
 			OR = { 
@@ -5572,8 +5502,6 @@ take_capital = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -6178,7 +6106,6 @@ make_puppet_large = {
 			year = 1900
 		}
 		NOT = { is_our_vassal = THIS }
-		NOT = { tag = CHI }
 		is_greater_power = no
 		is_vassal = no
   		OR = {

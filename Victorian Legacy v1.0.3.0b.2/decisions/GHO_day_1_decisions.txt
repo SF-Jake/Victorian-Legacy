@@ -31,114 +31,114 @@ political_decisions = {
 #        }
 #	}
 
-	china_mobilization_nerf_pt1 = {
-		potential = {
-			tag = GHO
-			CHI = {
-				NOT = { has_country_modifier = china_mobilization_nerf }
-				civilized = no
-			}
-		}
-		allow = {
-		}
-		effect = {
-			CHI = {
-				add_country_modifier = {
-					name = china_mobilization_nerf
-					duration = -1
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 100
-        }
-	}
+	# china_mobilization_nerf_pt1 = {
+	# 	potential = {
+	# 		tag = GHO
+	# 		CHI = {
+	# 			NOT = { has_country_modifier = china_mobilization_nerf }
+	# 			civilized = no
+	# 		}
+	# 	}
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		CHI = {
+	# 			add_country_modifier = {
+	# 				name = china_mobilization_nerf
+	# 				duration = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 100
+    #     }
+	# }
 	
-	china_mobilization_nerf_pt2 = {
-		potential = {
-			tag = GHO
-			CHI = {
-				has_country_modifier = china_mobilization_nerf
-				civilized = yes
-			}
-		}
-		allow = {
-		}
-		effect = {
-			CHI = {
-				remove_country_modifier = china_mobilization_nerf
-			}	
-		}
-		ai_will_do = {
-			factor = 100
-        }
-	}
+	# china_mobilization_nerf_pt2 = {
+	# 	potential = {
+	# 		tag = GHO
+	# 		CHI = {
+	# 			has_country_modifier = china_mobilization_nerf
+	# 			civilized = yes
+	# 		}
+	# 	}
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		CHI = {
+	# 			remove_country_modifier = china_mobilization_nerf
+	# 		}	
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 100
+    #     }
+	# }
 	
-	china_mobilization_nerf_pt3 = {
-		potential = {
-			tag = GHO
-			CHI = {
-				NOT = { has_country_modifier = china_rp_nerf }
-				civilized = no
-			}
-		}
-		allow = {
-		}
-		effect = {
-			CHI = {
-				add_country_modifier = {
-					name = china_rp_nerf
-					duration = -1
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 100
-        }
-	}
+	# china_mobilization_nerf_pt3 = {
+	# 	potential = {
+	# 		tag = GHO
+	# 		CHI = {
+	# 			NOT = { has_country_modifier = china_rp_nerf }
+	# 			civilized = no
+	# 		}
+	# 	}
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		CHI = {
+	# 			add_country_modifier = {
+	# 				name = china_rp_nerf
+	# 				duration = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 100
+    #     }
+	# }
 	
-	china_mobilization_nerf_pt4 = {
-		potential = {
-			tag = GHO
-			CHI = {
-				has_country_modifier = china_rp_nerf
-				civilized = yes
-			}
-		}
-		allow = {
-		}
-		effect = {
-			CHI = {
-				remove_country_modifier = china_rp_nerf
-			}	
-		}
-		ai_will_do = {
-			factor = 100
-        }
-	}
+	# china_mobilization_nerf_pt4 = {
+	# 	potential = {
+	# 		tag = GHO
+	# 		CHI = {
+	# 			has_country_modifier = china_rp_nerf
+	# 			civilized = yes
+	# 		}
+	# 	}
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		CHI = {
+	# 			remove_country_modifier = china_rp_nerf
+	# 		}	
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 100
+    #     }
+	# }
 	
-	day_one_grants = {
-		potential = {
-			tag = GHO
-			NOT = { has_global_flag = day_one_grants }
-		}
-		allow = {
-		}
-		effect = {
-			any_country = {
-				limit = { is_greater_power = yes }
-				treasury = 100000
-			}
-			any_country = {
-				limit = { is_greater_power = no }
-				treasury = 50000
-			}
-			set_global_flag = day_one_grants
-		}
-		 ai_will_do = {
-            factor = 100
-        }
-	}
+	# day_one_grants = {
+	# 	potential = {
+	# 		tag = GHO
+	# 		NOT = { has_global_flag = day_one_grants }
+	# 	}
+	# 	allow = {
+	# 	}
+	# 	effect = {
+	# 		any_country = {
+	# 			limit = { is_greater_power = yes }
+	# 			treasury = 100000
+	# 		}
+	# 		any_country = {
+	# 			limit = { is_greater_power = no }
+	# 			treasury = 50000
+	# 		}
+	# 		set_global_flag = day_one_grants
+	# 	}
+	# 	 ai_will_do = {
+    #         factor = 100
+    #     }
+	# }
 
 	canals = {
 		potential = {

@@ -67,6 +67,11 @@ country_migration_target =
 		has_country_flag = ghostland
 	}
 	modifier = {
+		factor = -1000
+		has_pop_culture = east_asian
+		THIS = { has_pop_culture = east_asian }
+	}
+	modifier = {
 		factor = 0.9
 		unemployment = 0.05
 	}

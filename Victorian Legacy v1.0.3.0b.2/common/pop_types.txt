@@ -1086,6 +1086,15 @@ emigration_chance =
 		factor = -10000
 		state_scope = { is_colonial = yes }
 	}
+
+#Prevent any pops that are from China being able to move to the new World unless they are at war.
+	modifier = {
+		factor = -1000
+		country = {
+			has_country_flag = china
+			war = no
+		}
+	}
 	
 	modifier = {
 		factor = -0.4

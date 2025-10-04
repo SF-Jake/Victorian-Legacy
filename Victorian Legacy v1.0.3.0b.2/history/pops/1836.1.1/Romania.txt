@@ -1769,7 +1769,7 @@
     farmers = {
         culture = romanian
         religion = placeholder
-        size = 24250
+        size = 24007
     }
 
     clergymen = {
@@ -1793,7 +1793,7 @@
     farmers = {
         culture = ukrainian
         religion = placeholder
-        size = 14025
+        size = 13885
     }
 
     aristocrats = {
@@ -1823,7 +1823,7 @@
     farmers = {
         culture = hungarian
         religion = placeholder
-        size = 2100
+        size = 2079
     }
 
     clergymen = {
@@ -1847,7 +1847,7 @@
     farmers = {
         culture = south_german
         religion = placeholder
-        size = 4300
+        size = 4257
     }
 
     clergymen = {
@@ -1871,7 +1871,37 @@
     farmers = {
         culture = ashkenazi
         religion = placeholder
-        size = 1125
+        size = 1114
+    }
+
+    soldiers = {
+        culture = romanian
+        religion = placeholder
+        size = 243
+    }
+
+    soldiers = {
+        culture = ukrainian
+        religion = placeholder
+        size = 140
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = placeholder
+        size = 21
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = placeholder
+        size = 43
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = placeholder
+        size = 11
     }
 }
 #Wallachia Region (1228000)

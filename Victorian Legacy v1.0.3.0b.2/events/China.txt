@@ -25,27 +25,29 @@ country_event = {
 					tag = THIS
 				}
 				substate_of = CHI
-#				num_of_cities = 1
 			}
 			country_event = { id=90901 days=0 }
 		}
+		country_event = { id=90808 days=40 }
 		prestige = 10
-			remove_country_modifier = educational_reform
-			remove_country_modifier = military_reform
-			remove_country_modifier = western_influences
-			remove_country_modifier = uncivilized_isolationism
-			remove_country_modifier = trade_restrictions
-			remove_country_modifier = sayings_of_the_dutch
-			remove_country_modifier = extraterritoriality_granted
-			any_owned = {
-				remove_province_modifier = western_presence
-				remove_province_modifier = foreign_smugglers
-				remove_province_modifier = foreign_trading_post
-				remove_province_modifier = local_opium_habit
-				remove_province_modifier = european_military_mission
-				remove_province_modifier = legation_quarter
-				remove_province_modifier = kettler_denkmal
-			}
+		remove_country_modifier = educational_reform
+		remove_country_modifier = military_reform
+		remove_country_modifier = western_influences
+		remove_country_modifier = uncivilized_isolationism
+		remove_country_modifier = trade_restrictions
+		remove_country_modifier = sayings_of_the_dutch
+		remove_country_modifier = extraterritoriality_granted
+		remove_country_modifier = middle_kingdom
+		remove_country_modifier = imperial_examinations
+		any_owned = {
+			remove_province_modifier = western_presence
+			remove_province_modifier = foreign_smugglers
+			remove_province_modifier = foreign_trading_post
+			remove_province_modifier = local_opium_habit
+			remove_province_modifier = european_military_mission
+			remove_province_modifier = legation_quarter
+			remove_province_modifier = kettler_denkmal
+		}
 	}
 }
 
@@ -159,6 +161,8 @@ country_event = {
 			remove_country_modifier = trade_restrictions
 			remove_country_modifier = sayings_of_the_dutch
 			remove_country_modifier = extraterritoriality_granted
+			remove_country_modifier = middle_kingdom
+			remove_country_modifier = imperial_examinations
 			any_owned = {
 				remove_province_modifier = western_presence
 				remove_province_modifier = foreign_smugglers
@@ -185,3 +189,460 @@ country_event = {
 	}
 }
 
+#China Shatter After Civilizing
+country_event = {
+	id = 90808
+	title = "The Beginning of the Warlord Era"
+	desc = "EVTDESC90808"
+	picture = Picture
+	
+	trigger = {
+		OR = {
+			tag = TPG
+			tag = CHI
+		}
+		civilized = yes
+		NOT = { has_global_flag = collapse_of_china }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "They will suffer for this!"
+		country_event = { id=90809 days=0 }
+		set_global_flag = collapse_of_china
+		GXI = { civilized = yes }
+		MCK = { civilized = yes }
+		MGL = { civilized = yes }
+		XBI = { civilized = yes }
+		XIN = { civilized = yes }
+		SXI = { civilized = yes }
+		SZC = { civilized = yes }
+		YNN = { civilized = yes }
+		HNN = { civilized = yes }
+		HUI = { civilized = yes }
+		GNG = { civilized = yes }
+		TIB = { civilized = yes }
+		KMT = { civilized = yes }
+		release = KMT
+		any_owned = {
+			limit = {
+				is_core = GXI
+			}
+			secede_province = GXI
+		}
+		any_owned = {
+			limit = {
+				is_core = MCK
+			}
+			secede_province = MCK
+		}
+		any_owned = {
+			limit = {
+				is_core = MGL
+			}
+			secede_province = MGL
+		}
+		any_owned = {
+			limit = {
+				is_core = XBI
+			}
+			secede_province = XBI
+		}
+		any_owned = {
+			limit = {
+				is_core = XIN
+			}
+			secede_province = XIN
+		}
+		any_owned = {
+			limit = {
+				is_core = SXI
+			}
+			secede_province = SXI
+		}
+		any_owned = {
+			limit = {
+				is_core = SZC
+			}
+			secede_province = SZC
+		}
+		any_owned = {
+			limit = {
+				is_core = YNN
+			}
+			secede_province = YNN
+		}
+		any_owned = {
+			limit = {
+				is_core = HNN
+			}
+			secede_province = HNN
+		}
+		any_owned = {
+			limit = {
+				is_core = HUI
+			}
+			secede_province = HUI
+		}
+		any_owned = {
+			limit = {
+				is_core = GNG
+			}
+			secede_province = GNG
+		}
+		any_owned = {
+			limit = {
+				is_core = TIB
+			}
+			secede_province = TIB
+		}
+		capital_scope = {
+			secede_province = KMT
+		}
+		all_core = {
+			add_core = KMT
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+			}
+			government = presidential_dictatorship
+			political_reform = no_slavery
+			political_reform = appointed
+			political_reform = none_voting
+			political_reform = yes_meeting
+			political_reform = state_press
+			political_reform = no_trade_unions
+			political_reform = first_past_the_post
+			political_reform = underground_parties
+			neutrality = yes
+		}
+		inherit = KMT
+	}
+	
+}
+country_event = {
+	id = 90809
+	title = "EVTNAME90810"
+	desc = "EVTDESC90810"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	
+	trigger = {	}
+
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.1
+			average_militancy = 4
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA90810" #Beiyang China
+		set_global_flag = warlord_era_begun
+		any_country = {
+			limit = {
+				tag = KMT
+			}
+			add_accepted_culture = nanfaren
+			define_general = {
+				name = "§RChiang Kai-shek§W"
+				personality = mor10_1
+				background = 3a2d_1
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { tag = TPG }
+			}
+			leadership = 400
+			money = 750000
+			ammunition = 1000
+			canned_food = 1000
+			artillery = 500
+			small_arms = 500
+			wine = 250
+			clipper_convoy = 250
+			tech_school = chinese_tech_school
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+		}
+	}
+	option = {
+		name = "EVTOPTB90810"	######Guangdong Clique######
+		set_global_flag = warlord_era_begun
+		KMT = { inherit = GNG }
+		any_country = {
+			limit = {
+				tag = KMT
+			}
+			add_accepted_culture = nanfaren
+			define_general = {
+				name = "§RChiang Kai-shek§W"
+				personality = mor10_1
+				background = 3a2d_1
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { tag = TPG }
+			}
+			leadership = 400
+			money = 750000
+			ammunition = 1000
+			canned_food = 1000
+			artillery = 500
+			small_arms = 500
+			wine = 250
+			clipper_convoy = 250
+			tech_school = chinese_tech_school
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+		}
+		change_tag_no_core_switch = KMT
+	}
+	option = {
+		name = "EVTOPTC90810"	######Manchuria######
+		set_global_flag = warlord_era_begun
+		KMT = { inherit = MCK }
+		any_country = {
+			limit = {
+				tag = KMT
+			}
+			add_accepted_culture = nanfaren
+			define_general = {
+				name = "§RChiang Kai-shek§W"
+				personality = mor10_1
+				background = 3a2d_1
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { tag = TPG }
+			}
+			leadership = 400
+			money = 750000
+			ammunition = 1000
+			canned_food = 1000
+			artillery = 500
+			small_arms = 500
+			wine = 250
+			clipper_convoy = 250
+			tech_school = chinese_tech_school
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+		}
+		change_tag_no_core_switch = KMT
+	}
+	option = {
+		name = "EVTOPTD90810"	######Yunnan Clique######
+		set_global_flag = warlord_era_begun
+		KMT = { inherit = YNN }
+		any_country = {
+			limit = {
+				tag = KMT
+			}
+			add_accepted_culture = nanfaren
+			define_general = {
+				name = "§RChiang Kai-shek§W"
+				personality = mor10_1
+				background = 3a2d_1
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { tag = TPG }
+			}
+			leadership = 400
+			money = 750000
+			ammunition = 1000
+			canned_food = 1000
+			artillery = 500
+			small_arms = 500
+			wine = 250
+			clipper_convoy = 250
+			tech_school = chinese_tech_school
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+		}
+		change_tag_no_core_switch = KMT
+	}
+	option = {
+		name = "EVTOPTE90810"	######Hunan Clique######
+		set_global_flag = warlord_era_begun	
+		KMT = { inherit = HNN }
+		any_country = {
+			limit = {
+				tag = KMT
+			}
+			add_accepted_culture = nanfaren
+			define_general = {
+				name = "§RChiang Kai-shek§W"
+				personality = mor10_1
+				background = 3a2d_1
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { tag = TPG }
+			}
+			leadership = 400
+			money = 750000
+			ammunition = 1000
+			canned_food = 1000
+			artillery = 500
+			small_arms = 500
+			wine = 250
+			clipper_convoy = 250
+			tech_school = chinese_tech_school
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+		}
+		change_tag_no_core_switch = KMT
+	}
+	option = {
+		name = "EVTOPTF90810"	######Anhui Clique######
+		set_global_flag = warlord_era_begun	
+		KMT = { inherit = HUI }
+		any_country = {
+			limit = {
+				tag = KMT
+			}
+			add_accepted_culture = nanfaren
+			define_general = {
+				name = "§RChiang Kai-shek§W"
+				personality = mor10_1
+				background = 3a2d_1
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { tag = TPG }
+			}
+			leadership = 400
+			money = 750000
+			ammunition = 1000
+			canned_food = 1000
+			artillery = 500
+			small_arms = 500
+			wine = 250
+			clipper_convoy = 250
+			tech_school = chinese_tech_school
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+		}
+		change_tag_no_core_switch = KMT
+	}
+	option = {
+		name = "EVTOPTG90810"	######Sichuan Clique######
+		set_global_flag = warlord_era_begun
+		KMT = { inherit = SZC }
+		any_country = {
+			limit = {
+				tag = KMT
+			}
+			add_accepted_culture = nanfaren
+			define_general = {
+				name = "§RChiang Kai-shek§W"
+				personality = mor10_1
+				background = 3a2d_1
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { tag = TPG }
+			}
+			leadership = 400
+			money = 750000
+			ammunition = 1000
+			canned_food = 1000
+			artillery = 500
+			small_arms = 500
+			wine = 250
+			clipper_convoy = 250
+			tech_school = chinese_tech_school
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+		}
+		change_tag_no_core_switch = KMT
+	}
+	option = {
+		name = "EVTOPTH90810"	######Ma Clique######
+		set_global_flag = warlord_era_begun	
+		KMT = { inherit = XBI }
+		any_country = {
+			limit = {
+				tag = KMT
+			}
+			add_accepted_culture = nanfaren
+			define_general = {
+				name = "§RChiang Kai-shek§W"
+				personality = mor10_1
+				background = 3a2d_1
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { tag = TPG }
+			}
+			leadership = 400
+			money = 750000
+			ammunition = 1000
+			canned_food = 1000
+			artillery = 500
+			small_arms = 500
+			wine = 250
+			clipper_convoy = 250
+			tech_school = chinese_tech_school
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+		}
+		change_tag_no_core_switch = KMT
+	}
+	option = {
+		name = "EVTOPTI90810"	######Shanxi Clique######
+		set_global_flag = warlord_era_begun	
+		KMT = { inherit = SXI }
+		any_country = {
+			limit = {
+				tag = KMT
+			}
+			add_accepted_culture = nanfaren
+			define_general = {
+				name = "§RChiang Kai-shek§W"
+				personality = mor10_1
+				background = 3a2d_1
+			}
+		}
+		any_country = {
+			limit = {
+				is_culture_group = east_asian
+				NOT = { tag = TPG }
+			}
+			leadership = 400
+			money = 750000
+			ammunition = 1000
+			canned_food = 1000
+			artillery = 500
+			small_arms = 500
+			wine = 250
+			clipper_convoy = 250
+			tech_school = chinese_tech_school
+			add_country_modifier = { name = chi_nation_modifier duration = -1 }
+		}
+		change_tag_no_core_switch = KMT
+	}
+}

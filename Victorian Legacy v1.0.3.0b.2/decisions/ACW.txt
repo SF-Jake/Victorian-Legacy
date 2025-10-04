@@ -848,32 +848,42 @@ political_decisions = {
 	
 	}
 
-	conquer_all_mexico = {
-		picture = conquer_all_mexico
-	
-		potential = { 
-			tag = USA
-			has_country_flag = all_mexico
+	the_golden_circle = {
+		picture = golden_circle
+		potential = {
+			tag = CSA
+			NOT = { has_country_flag = the_golden_circle }
 		}
-	
+
 		allow = {
+			war = no
+			nationalism_n_imperialism = 1
 			MEX = {
-				all_core = {
-					owner_by = THIS
+				all_core = { 
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
 				}
 			}
 		}
-	
+
 		effect = {
+			add_accepted_culture = mexican
 			MEX = {
 				all_core = {
 					add_core = THIS
 				}
 			}
-		}
-	
-		ai_will_do = {
-			factor = 1
+			UCA_2186 = { add_core = THIS }
+			ENG_203 = { add_core = THIS }
+			SPA_2209 = { add_core = THIS }
+			HAI_2213 = { add_core = THIS }
+			ENG_2224 = { add_core = THIS }
+			ENG_2228 = { add_core = THIS }
+			set_country_flag = the_golden_circle
 		}
 	}
 }

@@ -53,6 +53,14 @@ vassal = {
 	end_date = 1864.10.30
 }
 
+# Russia-Congress Poland
+vassal = {
+	first = RUS
+	second = CPL
+	start_date = 1836.1.1
+	end_date = 1864.10.30
+}
+
 # Denmark-Holstein
 vassal = {
 	first = DEN
@@ -155,6 +163,14 @@ vassal = {
 	second = MOD
 	start_date = 1836.1.1
 	end_date = 1936.1.1
+}
+
+# Russia-Congress Poland
+vassal = {
+	first = AUS
+	second = HUN
+	start_date = 1836.1.1
+	end_date = 1864.10.30
 }
 
 #######################
