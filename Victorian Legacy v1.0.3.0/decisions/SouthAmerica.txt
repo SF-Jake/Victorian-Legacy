@@ -455,7 +455,6 @@ political_decisions = {
 
 		effect = {
 			prestige = 30
-			badboy = 10
 			ARG = { all_core = { add_core = LPL remove_core = ARG } }
 			URU = { all_core = { add_core = LPL remove_core = URU } }
 			PRG = { all_core = { add_core = LPL remove_core = PRG } }
