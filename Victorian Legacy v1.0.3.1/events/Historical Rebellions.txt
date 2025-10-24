@@ -212,7 +212,7 @@ country_event = {
 		CPL = { exists = no }
 		NOT = { war_with = CPL }
 		NOT = { has_global_flag = tsar_victory }
-		NOT = { has_global_flag = hungarian_victory }
+		NOT = { has_global_flag = polish_victory }
 	}
 
 	option = {
@@ -233,7 +233,7 @@ country_event = {
 		has_country_flag = polish_revolution_1850
 		NOT = { war_with = RUS }
 		NOT = { has_global_flag = tsar_victory }
-		NOT = { has_global_flag = hungarian_victory }
+		NOT = { has_global_flag = polish_victory }
 	}
 
 	option = {
