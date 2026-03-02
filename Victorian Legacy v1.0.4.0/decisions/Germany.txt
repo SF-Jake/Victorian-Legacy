@@ -51,6 +51,7 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
+				tag = HLR
 				tag = NGF
 			}
 			owns = 369
@@ -77,6 +78,7 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
+				tag = HLR
 				tag = NGF
 			}
 			NOT = {
@@ -104,6 +106,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = GER
+				tag = HLR
 				tag = NGF
 				tag = PRU
 			}
@@ -133,6 +136,7 @@ political_decisions = {
 	niederwald_denkmal = {
 		potential = {
 			tag = GER
+			tag = HLR
 			has_country_flag = watching_the_rhine
 			war = no
 			NOT = {
@@ -160,6 +164,7 @@ political_decisions = {
 				tag = BAV
 				tag = SGF
 				tag = GER
+				tag = HLR
 			}
 			owns = 599
 			NOT = {
@@ -243,7 +248,10 @@ political_decisions = {
 	
 	kaiser_wilhelms_land = {
 		potential = {
-			tag = GER
+			OR = {
+				tag = GER				
+				tag = HLR
+			}
 			#owns = 1531
 			owns = 2530
 			owns = 2531
@@ -272,7 +280,10 @@ political_decisions = {
 	
 	the_heligoland_question = {
 		potential = {
-			tag = GER
+			OR = {
+				tag = GER				
+				tag = HLR
+			}
 			NOT = {
 				has_country_flag = has_questioned_heligoland
 			}
@@ -298,7 +309,8 @@ political_decisions = {
 			OR = {
 				tag = BAV
 				tag = SGF
-				tag = GER
+				tag = GER				
+				tag = HLR
 			}
 			owns = 602
 			NOT = {
@@ -344,7 +356,8 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = PRU
-				tag = GER
+				tag = GER				
+				tag = HLR
 				tag = NGF
 			}
 			NOT = {
@@ -375,7 +388,8 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = PRU
-				tag = GER
+				tag = GER				
+				tag = HLR
 				tag = NGF
 			}
 			owns = 578
@@ -405,7 +419,8 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = NGF
-				tag = GER
+				tag = GER				
+				tag = HLR
 			}
 			OR = {
 				government = prussian_constitutionalism
@@ -587,7 +602,29 @@ political_decisions = {
 			AUS_625 = { add_core = THIS }
 			AUS_626 = { add_core = THIS }
 			set_global_flag = hre_formed
-			remove_accepted_culture = south_german
+			PRU = { all_core = { remove_core = PRU add_core = GER } }
+			NGF = { all_core = { remove_core = NGF add_core = GER } }
+			LIP = { all_core = { remove_core = LIP add_core = GER } }
+			ANH = { all_core = { remove_core = ANH add_core = GER } }
+			HES = { all_core = { remove_core = HES add_core = GER } }
+			BAV = { all_core = { remove_core = BAV add_core = GER } }
+			MEC = { all_core = { remove_core = MEC add_core = GER } }
+			LUB = { all_core = { remove_core = LUB add_core = GER } }
+			HOL = { all_core = { remove_core = HOL add_core = GER } }
+			HAM = { all_core = { remove_core = HAM add_core = GER } }
+			HAN = { all_core = { remove_core = HAN add_core = GER } }
+			BRA = { all_core = { remove_core = BRA add_core = GER } }
+			BRE = { all_core = { remove_core = BRE add_core = GER } }
+			OLD = { all_core = { remove_core = OLD add_core = GER } }
+			NAS = { all_core = { remove_core = NAS add_core = GER } }
+			FRM = { all_core = { remove_core = FRM add_core = GER } }
+			HEK = { all_core = { remove_core = HEK add_core = GER } }
+			COB = { all_core = { remove_core = COB add_core = GER } }
+			MEI = { all_core = { remove_core = MEI add_core = GER } }
+			WEI = { all_core = { remove_core = WEI add_core = GER } }
+			SAX = { all_core = { remove_core = SAX add_core = GER } }
+			WUR = { all_core = { remove_core = WUR add_core = GER } }
+			BAD = { all_core = { remove_core = BAD add_core = GER } }
 			remove_accepted_culture = czech
 			prestige = 50 
 		}

@@ -8,6 +8,7 @@ political_decisions = {
 				exists = GER
 				tag = AUS
 				tag = KUK
+				tag = DNB
 			}
 		}	
 		allow = {
@@ -88,6 +89,7 @@ political_decisions = {
 			OR = {
 				tag = AUS
 				tag = KUK
+				tag = DNB
 			}
 			is_greater_power = yes
 			NOT = {
@@ -184,6 +186,8 @@ political_decisions = {
 	austrian_annex_south_german_confederation = {
 		potential = {
 			tag = AUS
+			exists = SGF
+			SGF = { vassal_of = AUS }
 			is_greater_power = yes
 		}	
 		allow = {
@@ -193,6 +197,7 @@ political_decisions = {
 				vassal_of = AUS
 			}
 			NOT = { tag = KUK }
+			NOT = { tag = DNB }
 		}
 		effect = {
 			prestige = 10
@@ -212,6 +217,7 @@ political_decisions = {
 			}
 			primary_culture = north_german
 			NOT = {
+				exists = HLR
 				exists = GER
 				exists = NGF
 			}
@@ -343,6 +349,7 @@ political_decisions = {
 						is_greater_power = yes
 						tag = AUS
 						tag = KUK
+						tag = DNB
 					}
 					is_culture_group = THIS
 					in_sphere = THIS
@@ -426,6 +433,7 @@ political_decisions = {
 						is_greater_power = yes
 						tag = AUS
 						tag = KUK
+						tag = DNB
 					}
 					is_culture_group = germanic
 					OR = {
@@ -761,6 +769,7 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
+				tag = HLR
 				tag = NGF
 			}
 			owns = 410

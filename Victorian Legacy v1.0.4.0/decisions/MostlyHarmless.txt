@@ -4383,4 +4383,184 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
+	rnd_auto_reform = {
+		picture = rnd_auto_reform
+	
+		potential = { 
+			tag = JAN
+		}
+	
+		allow = {
+			META_1 = {
+				owner = {
+					NOT = { has_country_flag = rnd_off }
+					OR = {
+						AND = {
+							NOT = { research_and_development = no_rnd }
+							NOT = { literacy = 0.1 }
+						}
+						AND = {
+							NOT = { research_and_development = rudimentary_rnd }
+							literacy = 0.1
+							NOT = { literacy = 0.2 }
+						}
+						AND = {
+							NOT = { research_and_development = very_low_rnd }
+							literacy = 0.2
+							NOT = { literacy = 0.3 }
+						}
+						AND = {
+							NOT = { research_and_development = low_rnd }
+							literacy = 0.3
+							NOT = { literacy = 0.4 }
+						}
+						AND = {
+							NOT = { research_and_development = basic_rnd }
+							literacy = 0.4
+							NOT = { literacy = 0.5 }
+						}
+						AND = {
+							NOT = { research_and_development = moderate_rnd }
+							literacy = 0.5
+							NOT = { literacy = 0.6 }
+						}
+						AND = {
+							NOT = { research_and_development = acceptable_rnd }
+							literacy = 0.6
+							NOT = { literacy = 0.7 }
+						}
+						AND = {
+							NOT = { research_and_development = good_rnd }
+							literacy = 0.7
+							NOT = { literacy = 0.8 }
+						}
+						AND = {
+							NOT = { research_and_development = very_good_rnd }
+							literacy = 0.8
+							NOT = { literacy = 0.9 }
+						}
+						AND = {
+							NOT = { research_and_development = advanced_rnd }
+							literacy = 0.9
+							NOT = { literacy = 0.99 }
+						}
+						AND = {
+							NOT = { research_and_development = futuristic_rnd }
+							literacy = 0.99
+						}
+					}
+				}
+			}
+		}
+	
+		effect = {
+			
+			any_country = {
+				limit = {
+					OR = {
+						AND = {
+							NOT = { research_and_development = no_rnd }
+							NOT = { literacy = 0.1 }
+						}
+						has_country_flag = rnd_off
+					}
+				}
+				political_reform = no_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = rudimentary_rnd }
+					literacy = 0.1
+					NOT = { literacy = 0.2 }
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = rudimentary_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = very_low_rnd }
+					literacy = 0.2
+					NOT = { literacy = 0.3 }
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = very_low_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = low_rnd }
+					literacy = 0.3
+					NOT = { literacy = 0.4 }
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = low_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = basic_rnd }
+					literacy = 0.4
+					NOT = { literacy = 0.5 }
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = basic_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = moderate_rnd }
+					literacy = 0.5
+					NOT = { literacy = 0.6 }
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = moderate_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = acceptable_rnd }
+					literacy = 0.6
+					NOT = { literacy = 0.7 }
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = acceptable_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = good_rnd }
+					literacy = 0.7
+					NOT = { literacy = 0.8 }
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = good_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = very_good_rnd }
+					literacy = 0.8
+					NOT = { literacy = 0.9 }
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = very_good_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = advanced_rnd }
+					literacy = 0.9
+					NOT = { literacy = 0.99 }
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = advanced_rnd
+			}
+			any_country = {
+				limit = {
+					NOT = { research_and_development = futuristic_rnd }
+					literacy = 0.99
+					NOT = { has_country_flag = rnd_off }
+				}
+				political_reform = futuristic_rnd
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

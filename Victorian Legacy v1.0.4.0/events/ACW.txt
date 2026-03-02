@@ -680,8 +680,6 @@ country_event = {
 		NOT = {	has_global_flag = american_civil_war_has_happened }
 	}
 	
-	mean_time_to_happen = { months = 3 modifier = { factor = 8 NOT = { year = 1859 } } }
-	
 	immediate = { set_country_flag = johnbrowns_raid }
 	
 	option = {

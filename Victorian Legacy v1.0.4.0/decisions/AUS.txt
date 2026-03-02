@@ -191,6 +191,7 @@ political_decisions = {
 			OR = {
 				tag = AUS
 				tag = KUK
+				tag = DNB
 			}
 			owns = 619
 			NOT = {
@@ -271,6 +272,7 @@ political_decisions = {
 			OR = {
 				tag = AUS
 				tag = KUK
+				tag = DNB
 			}
 			NOT = {
 				has_country_flag = the_final_abolishment_of_serfdom

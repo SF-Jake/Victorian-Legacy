@@ -331,6 +331,7 @@ country_event = {
 		any_country = {
 			limit = {
 				is_culture_group = east_asian
+				NOT = { tag = JAP }
 			}
 			government = presidential_dictatorship
 			political_reform = no_slavery
@@ -388,6 +389,7 @@ country_event = {
 			limit = {
 				is_culture_group = east_asian
 				NOT = { tag = TPG }
+				NOT = { tag = JAP }
 			}
 			leadership = 400
 			money = 750000
@@ -420,6 +422,7 @@ country_event = {
 			limit = {
 				is_culture_group = east_asian
 				NOT = { tag = TPG }
+				NOT = { tag = JAP }
 			}
 			leadership = 400
 			money = 750000
@@ -453,6 +456,7 @@ country_event = {
 			limit = {
 				is_culture_group = east_asian
 				NOT = { tag = TPG }
+				NOT = { tag = JAP }
 			}
 			leadership = 400
 			money = 750000
@@ -486,6 +490,7 @@ country_event = {
 			limit = {
 				is_culture_group = east_asian
 				NOT = { tag = TPG }
+				NOT = { tag = JAP }
 			}
 			leadership = 400
 			money = 750000
@@ -519,6 +524,7 @@ country_event = {
 			limit = {
 				is_culture_group = east_asian
 				NOT = { tag = TPG }
+				NOT = { tag = JAP }
 			}
 			leadership = 400
 			money = 750000
@@ -552,6 +558,7 @@ country_event = {
 			limit = {
 				is_culture_group = east_asian
 				NOT = { tag = TPG }
+				NOT = { tag = JAP }
 			}
 			leadership = 400
 			money = 750000
@@ -585,6 +592,7 @@ country_event = {
 			limit = {
 				is_culture_group = east_asian
 				NOT = { tag = TPG }
+				NOT = { tag = JAP }
 			}
 			leadership = 400
 			money = 750000
@@ -618,6 +626,7 @@ country_event = {
 			limit = {
 				is_culture_group = east_asian
 				NOT = { tag = TPG }
+				NOT = { tag = JAP }
 			}
 			leadership = 400
 			money = 750000
@@ -651,6 +660,7 @@ country_event = {
 			limit = {
 				is_culture_group = east_asian
 				NOT = { tag = TPG }
+				NOT = { tag = JAP }
 			}
 			leadership = 400
 			money = 750000

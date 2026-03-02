@@ -1753,7 +1753,10 @@ political_decisions = {
 	}
 	form_new_guinea_company = {
 		potential = {
-			tag = GER
+			OR = {
+				tag = GER
+				tag = HLR
+			}
 			NOT = { has_country_flag = new_guinea_company_formed }
 			invention = mission_to_civilize
 			OR = {

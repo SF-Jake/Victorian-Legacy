@@ -77,7 +77,24 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = tanzimat_reforms_enacted
-			social_reform = low_schools
+			random_owned = {
+				limit = {
+					owner = { school_reforms = acceptable_schools }
+				}	
+				owner = { social_reform = good_schools }
+			}
+			random_owned = {
+				limit = {
+					owner = { school_reforms = low_schools }
+				}	
+				owner = { social_reform = acceptable_schools }
+			}				
+			random_owned = {
+				limit = {
+					owner = { school_reforms = no_schools }
+				}	
+				owner = { social_reform = low_schools }
+			}
 			add_country_modifier = {
 				name = tanzimat_era
 				duration = 14600

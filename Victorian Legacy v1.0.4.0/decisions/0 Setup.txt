@@ -46,6 +46,7 @@ political_decisions = {
 				}
 				activate_technology = early_classical_theory_and_critique
 				set_country_flag = province_selector_tech
+				country_event = { id = 40003 days = 0 }
 			}
 			any_country = {
 				limit = { ai = no }

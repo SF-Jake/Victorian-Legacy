@@ -10,11 +10,11 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "Enable Giving Grants and Military Supplies"
+		name = "Enable Giving Grants"
 		clr_country_flag = deny_grant
 	}
 	option = {
-		name = "Deny Giving Grants and Military Supplies"
+		name = "Deny Giving Grants"
 		set_country_flag = deny_grant
 	}
 	option = {
@@ -26,114 +26,6 @@ country_event = {
 				NOT = { war_with = THIS }
 			}
 			country_event = { id = 91402 days = 0 }
-		}
-		add_country_modifier = { name = requested_grant duration = 7 }
-	}
-	option = {
-		name = "Request Canned Goods"
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_country_flag = deny_grant }
-				NOT = { war_with = THIS }
-			}
-			country_event = { id = 91408 days = 0 }
-		}
-		add_country_modifier = { name = requested_grant duration = 7 }
-	}
-	option = {
-		name = "Request Ammunition"
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_country_flag = deny_grant }
-				NOT = { war_with = THIS }
-			}
-			country_event = { id = 91404 days = 0 }
-		}
-		add_country_modifier = { name = requested_grant duration = 7 }
-	}
-	option = {
-		name = "Request Small Arms"
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_country_flag = deny_grant }
-				NOT = { war_with = THIS }
-			}
-			country_event = { id = 91405 days = 0 }
-		}
-		add_country_modifier = { name = requested_grant duration = 7 }
-	}
-	option = {
-		name = "Request Artillery"
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_country_flag = deny_grant }
-				NOT = { war_with = THIS }
-			}
-			country_event = { id = 91403 days = 0 }
-		}
-		add_country_modifier = { name = requested_grant duration = 7 }
-	}
-	option = {
-		name = "Request Fuel"
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_country_flag = deny_grant }
-				NOT = { war_with = THIS }
-			}
-			country_event = { id = 91411 days = 0 }
-		}
-		add_country_modifier = { name = requested_grant duration = 7 }
-	}
-	option = {
-		name = "Request Tank Barrels"
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_country_flag = deny_grant }
-				NOT = { war_with = THIS }
-			}
-			country_event = { id = 91409 days = 0 }
-		}
-		add_country_modifier = { name = requested_grant duration = 7 }
-	}
-	option = {
-		name = "Request Aeroplanes"
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_country_flag = deny_grant }
-				NOT = { war_with = THIS }
-			}
-			country_event = { id = 91410 days = 0 }
-		}
-		add_country_modifier = { name = requested_grant duration = 7 }
-	}
-	option = {
-		name = "Request Clipper Convoys"
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_country_flag = deny_grant }
-				NOT = { war_with = THIS }
-			}
-			country_event = { id = 91407 days = 0 }
-		}
-		add_country_modifier = { name = requested_grant duration = 7 }
-	}
-	option = {
-		name = "Request Steamer Convoys"
-		any_country = {
-			limit = {
-				ai = no
-				NOT = { has_country_flag = deny_grant }
-				NOT = { war_with = THIS }
-			}
-			country_event = { id = 91406 days = 0 }
 		}
 		add_country_modifier = { name = requested_grant duration = 7 }
 	}

@@ -86,6 +86,61 @@ political_decisions = {
 			set_country_flag = cavour_has_done_his
 		}
 	}
+
+	unite_northern_italy = {
+		picture = north_italian_federation
+		potential = {
+			ai = no
+			OR = {
+				tag = SAR
+				tag = LOM
+				tag = PAR
+				tag = MOD
+				tag = LUC
+				tag = TUS
+			}
+			NOT = { exists = ITA }
+			NOT = {	has_global_flag = north_italian_federation }
+		}
+		allow = {
+			OR = {
+				AUS_726 = { owned_by = THIS }
+				year = 1840
+			}
+			OR = {
+				SAR_720 = { owned_by = THIS }
+				MOD_739 = { owned_by = THIS }
+			}
+			NOT = { badboy = 10 }
+		}
+
+		effect = {
+			add_accepted_culture = north_italian
+			badboy = 10
+			any_country = {
+				limit = {
+					OR = {
+						tag = SAR
+						tag = LOM
+						tag = PAR
+						tag = MOD
+						tag = LUC
+						tag = TUS
+					}
+					ai = yes
+				}
+				annex_to = THIS
+			}
+			MOD_739 = { add_core = THIS }
+			TUS_744 = { add_core = THIS }
+			SAR_720 = { add_core = THIS }
+			765 = { add_core = THIS }
+			766 = { add_core = THIS }
+			AUS_726 = { add_core = THIS }
+			PAP_749 = { add_core = THIS }
+			set_global_flag = north_italian_federation	
+		}
+	}
 	
 	cavours_diplomacyita = {
 	picture = cavours_diplomacy

@@ -584,3 +584,75 @@ country_event = {
 		}
 	}
 }
+
+#########################################################################
+# 							Conscription Start							#
+#########################################################################
+
+country_event = {
+	id = 40003
+	title = "Chosse a Conscription Reform"
+	desc = "Pick which Conscription you wish to choose for your nation. You can change this whenever you want with Force Reform."
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = draft
+	}
+
+	option = {
+		name = "Mandatory Service"
+		clr_country_flag = draft
+		political_reform = mandatory_service
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = draft } }
+			}
+			owner = { add_country_modifier = { name = mandatory_service duration = 1 }
+		}
+	}
+	option = {
+		name = "Random Service"
+		clr_country_flag = draft
+		political_reform = random_service
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = draft } }
+			}
+			owner = { add_country_modifier = { name = random_service duration = 1 }
+		}
+	}
+	option = {
+		name = "No Draft"
+		clr_country_flag = draft
+		political_reform = no_draft
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = draft } }
+			}
+			owner = { add_country_modifier = { name = no_draft duration = 1 }
+		}
+	}
+	option = {
+		name = "Reformed Training"
+		clr_country_flag = draft
+		political_reform = reformed_training
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = draft } }
+			}
+			owner = { add_country_modifier = { name = reformed_training duration = 1 }
+		}
+	}
+	option = {
+		name = "Specialized Training"
+		clr_country_flag = draft
+		political_reform = specialized_training
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = draft } }
+			}
+			owner = { add_country_modifier = { name = specialized_training duration = 1 }
+		}
+	}
+}

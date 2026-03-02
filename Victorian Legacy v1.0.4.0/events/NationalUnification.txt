@@ -26,9 +26,10 @@ country_event = {
 							OR = {
 								tag = AUS
 								tag = KUK
-								}
+								tag = DNB
 							}
 						}
+					}
 					tag = WAL
 					tag = MOL
 					tag = MON
@@ -39,6 +40,7 @@ country_event = {
 						OR = {
 							tag = AUS
 							tag = KUK
+							tag = DNB
 						}
 						exists = HUN
 						part_of_sphere = no

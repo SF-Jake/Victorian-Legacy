@@ -1909,15 +1909,28 @@ assimilation_chance = {
 		}	
 	}
 
-	modifier = {
-		factor = 0.14
-		country = { has_country_flag = assimilation_idea }
+	group = {
+		modifier = {
+			factor = 0.14
+			country = { has_country_flag = assimilation_idea }
+		}
+		modifier = {
+			factor = -0.135
+			has_culture_core = no
+			country = { has_country_flag = assimilation_idea }
+		}	
 	}
 
-	modifier = {
-		factor = 12
-		has_culture_core = yes
-		country = { has_country_flag = embraced_ottomanism }
+	group = {
+		modifier = {
+			factor = 12
+			country = { has_country_flag = embraced_ottomanism }
+		}
+		modifier = {
+			factor = -11.95
+			has_culture_core = no
+			country = { has_country_flag = embraced_ottomanism }
+		}	
 	}
 }
 

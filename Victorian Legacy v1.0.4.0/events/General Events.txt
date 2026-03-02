@@ -13,8 +13,11 @@ country_event = {
 			tag = PRU
 			tag = NGF
 			tag = GER
+			tag = HLR
 			tag = AUS
 			tag = KUK
+			tag = DNB
+			tag = SGF
 			tag = RUS
 			tag = TUR
 			tag = USA
@@ -148,6 +151,7 @@ country_event = {
 		tag = PRU
 		tag = NGF
 		tag = GER
+		tag = HLR
 	}
 	NOT = {has_leader = "Paul von Hindenburg"}
 	}
@@ -178,7 +182,9 @@ country_event = {
 	ai = no
 	OR = {
 		tag = AUS
+		tag = SGF
 		tag = KUK
+		tag = DNB
 	}
 	NOT = {has_leader = "Svetozar Boroevic"}
 	}
