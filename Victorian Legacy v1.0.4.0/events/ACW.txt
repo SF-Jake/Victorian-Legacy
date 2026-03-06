@@ -816,6 +816,7 @@ country_event = {
 		CSA = {
 			capital = 211
 			leadership = 80
+			add_country_modifier = { name = usa_nation_modifier duration = -1 }
 		}
 		capital = 220
 		

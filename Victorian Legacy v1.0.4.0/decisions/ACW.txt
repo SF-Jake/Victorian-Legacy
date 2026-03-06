@@ -872,6 +872,7 @@ political_decisions = {
 
 		effect = {
 			add_accepted_culture = mexican
+			inherit = MEX
 			MEX = {
 				all_core = {
 					add_core = THIS
