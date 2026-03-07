@@ -239,9 +239,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					tag = UCA
+					exists = yes
 					vassal_of = THIS
 				}
-				inherit = UCA
+				country_event = { id=11101 days=0 }
 			}
 			UCA_2191 = { add_core = THIS }
 			UCA_2197 = { add_core = THIS }
@@ -312,9 +313,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					tag = CLM
+					exists = yes
 					vassal_of = THIS
 				}
-				inherit = CLM
+				country_event = { id=11101 days=0 }
 			}
 			CLM_2251 = { add_core = THIS }
 			CLM_2247 = { add_core = THIS }
@@ -356,9 +358,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					tag = ECU
+					exists = yes
 					vassal_of = THIS
 				}
-				inherit = ECU
+				country_event = { id=11101 days=0 }
 			}
 			ECU_2279 = { add_core = THIS }
 		}
@@ -413,9 +416,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					tag = VNZ
+					exists = yes
 					vassal_of = THIS
 				}
-				inherit = VNZ
+				country_event = { id=11101 days=0 }
 			}
 			VNZ_2265 = { add_core = THIS }
 			VNZ_2278 = { add_core = THIS }
@@ -462,9 +466,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					tag = GCO
+					exists = yes
 					vassal_of = THIS
 				}
-				inherit = GCO
+				country_event = { id=11101 days=0 }
 			}
 			CLM_2251 = { add_core = THIS }
 			CLM_2247 = { add_core = THIS }
