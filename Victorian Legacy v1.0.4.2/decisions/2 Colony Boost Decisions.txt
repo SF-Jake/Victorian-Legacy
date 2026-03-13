@@ -123,4 +123,34 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
+	taiwan_trade_port_colonial_company = {
+		picture = taiwan_trade_port
+	
+		potential = { 
+			NOT = { tag = NET }
+			NOT = { has_global_flag = taiwan_trade_port_colonial_company }
+			CHI_2562 = { owned_by = THIS }
+		}
+	
+		allow = {
+			ideological_thought = 1
+			CHI_2562 = { owned_by = THIS }
+		}
+	
+		effect = {
+			any_owned = {
+				limit = {
+					province_id = 1485
+					province_id = 2562
+				}
+				add_province_modifier = { name = taiwan_trade_port_colonial_company duration = -1 }
+			}
+			set_country_flag = taiwan_trade_port_colonial_company
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

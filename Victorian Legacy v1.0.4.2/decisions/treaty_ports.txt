@@ -26,12 +26,61 @@ political_decisions = {
 				duration = 1095 
 			}
 			remove_country_modifier = negotiating_treaty
-			1496 = { 
+			1496 = {
 				secede_province = THIS 
 				change_controller = THIS
-				add_province_modifier = { 
-					name = treaty_port_buff 
-					duration = -1 
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1496 = {
+						add_province_modifier = { 
+							name = treaty_port_buff_netherlands 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						OR = {
+							NOT = { CHI_2562 = { owned_by = THIS } }
+							NOT = { has_country_flag = taiwan_trade_port }
+						}
+					}
+				}
+				owner = {
+					1496 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { tag = NET } 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1496 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
 				}
 			}
 			any_country = {
@@ -72,12 +121,61 @@ political_decisions = {
 				duration = 1095 
 			}
 			remove_country_modifier = negotiating_treaty
-			1566 = { 
+			1566 = {
 				secede_province = THIS 
 				change_controller = THIS
-				add_province_modifier = { 
-					name = treaty_port_buff 
-					duration = -1 
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1566 = {
+						add_province_modifier = { 
+							name = treaty_port_buff_netherlands 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						OR = {
+							NOT = { CHI_2562 = { owned_by = THIS } }
+							NOT = { has_country_flag = taiwan_trade_port }
+						}
+					}
+				}
+				owner = {
+					1566 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { tag = NET } 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1566 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
 				}
 			}
 			any_country = {
@@ -118,12 +216,61 @@ political_decisions = {
 				duration = 1095 
 			}
 			remove_country_modifier = negotiating_treaty
-			1569 = { 
+			1569 = {
 				secede_province = THIS 
 				change_controller = THIS
-				add_province_modifier = { 
-					name = treaty_port_buff 
-					duration = -1 
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1569 = {
+						add_province_modifier = { 
+							name = treaty_port_buff_netherlands 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						OR = {
+							NOT = { CHI_2562 = { owned_by = THIS } }
+							NOT = { has_country_flag = taiwan_trade_port }
+						}
+					}
+				}
+				owner = {
+					1569 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { tag = NET } 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1569 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
 				}
 			}
 			any_country = {
@@ -164,12 +311,61 @@ political_decisions = {
 				duration = 1095 
 			}
 			remove_country_modifier = negotiating_treaty
-			1498 = { 
+			1498 = {
 				secede_province = THIS 
 				change_controller = THIS
-				add_province_modifier = { 
-					name = treaty_port_buff 
-					duration = -1 
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1498 = {
+						add_province_modifier = { 
+							name = treaty_port_buff_netherlands 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						OR = {
+							NOT = { CHI_2562 = { owned_by = THIS } }
+							NOT = { has_country_flag = taiwan_trade_port }
+						}
+					}
+				}
+				owner = {
+					1498 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { tag = NET } 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1498 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
 				}
 			}
 			any_country = {
@@ -210,12 +406,61 @@ political_decisions = {
 				duration = 1095 
 			}
 			remove_country_modifier = negotiating_treaty
-			1538 = { 
+			1538 = {
 				secede_province = THIS 
 				change_controller = THIS
-				add_province_modifier = { 
-					name = treaty_port_buff 
-					duration = -1 
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1538 = {
+						add_province_modifier = { 
+							name = treaty_port_buff_netherlands 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						OR = {
+							NOT = { CHI_2562 = { owned_by = THIS } }
+							NOT = { has_country_flag = taiwan_trade_port }
+						}
+					}
+				}
+				owner = {
+					1538 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { tag = NET } 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1538 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
 				}
 			}
 			any_country = {
@@ -256,12 +501,61 @@ political_decisions = {
 				duration = 1095 
 			}
 			remove_country_modifier = negotiating_treaty
-			1606 = { 
+			1606 = {
 				secede_province = THIS 
 				change_controller = THIS
-				add_province_modifier = { 
-					name = treaty_port_buff 
-					duration = -1 
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1606 = {
+						add_province_modifier = { 
+							name = treaty_port_buff_netherlands 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						OR = {
+							NOT = { CHI_2562 = { owned_by = THIS } }
+							NOT = { has_country_flag = taiwan_trade_port }
+						}
+					}
+				}
+				owner = {
+					1606 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { tag = NET } 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1606 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
 				}
 			}
 			any_country = {
@@ -302,12 +596,61 @@ political_decisions = {
 				duration = 1095 
 			}
 			remove_country_modifier = negotiating_treaty
-			1608 = { 
+			1608 = {
 				secede_province = THIS 
 				change_controller = THIS
-				add_province_modifier = { 
-					name = treaty_port_buff 
-					duration = -1 
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1608 = {
+						add_province_modifier = { 
+							name = treaty_port_buff_netherlands 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						OR = {
+							NOT = { CHI_2562 = { owned_by = THIS } }
+							NOT = { has_country_flag = taiwan_trade_port }
+						}
+					}
+				}
+				owner = {
+					1608 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { tag = NET } 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1608 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
 				}
 			}
 			any_country = {
@@ -348,12 +691,61 @@ political_decisions = {
 				duration = 1095 
 			}
 			remove_country_modifier = negotiating_treaty
-			3249 = { 
+			3249 = {
 				secede_province = THIS 
 				change_controller = THIS
-				add_province_modifier = { 
-					name = treaty_port_buff 
-					duration = -1 
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					3249 = {
+						add_province_modifier = { 
+							name = treaty_port_buff_netherlands 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						OR = {
+							NOT = { CHI_2562 = { owned_by = THIS } }
+							NOT = { has_country_flag = taiwan_trade_port }
+						}
+					}
+				}
+				owner = {
+					3249 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { tag = NET } 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					3249 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
 				}
 			}
 			any_country = {
@@ -394,12 +786,61 @@ political_decisions = {
 				duration = 1095 
 			}
 			remove_country_modifier = negotiating_treaty
-			1481 = { 
+			1481 = {
 				secede_province = THIS 
 				change_controller = THIS
-				add_province_modifier = { 
-					name = treaty_port_buff 
-					duration = -1 
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1481 = {
+						add_province_modifier = { 
+							name = treaty_port_buff_netherlands 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						tag = NET 
+						OR = {
+							NOT = { CHI_2562 = { owned_by = THIS } }
+							NOT = { has_country_flag = taiwan_trade_port }
+						}
+					}
+				}
+				owner = {
+					1481 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { tag = NET } 
+						CHI_2562 = { owned_by = THIS }
+						has_country_flag = taiwan_trade_port
+					}
+				}
+				owner = {
+					1481 = {
+						add_province_modifier = { 
+							name = treaty_port_buff 
+							duration = -1 
+						}
+					}
 				}
 			}
 			any_country = {

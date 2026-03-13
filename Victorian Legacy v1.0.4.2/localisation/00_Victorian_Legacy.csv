@@ -220,27 +220,27 @@ advanced_rnd;Advanced R&D;;;;;;;;;;;;;;
 advanced_rnd_desc;§YThis level of reform requires at least 90% average literacy.§W;;;;;;;;;;;;;;
 futuristic_rnd;Futuristic R&D;;;;;;;;;;;;;;
 futuristic_rnd_desc;§YThis level of reform requires at least 99% average literacy.§W;;;;;;;;;;;;;;
-mandatory_service;Service by Requirement;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-mandatory_service_l;Service by Requirement;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-mandatory_service_desc; ;All adult males must serve in the military.;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-movement_mandatory_service;Mandatory Service Movement.;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-random_service;Random Conscription;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-random_service_l;Random Conscription;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-random_service_desc; ;Conscripts are drafted for four years.;Conscripts are drafted for four years.;;Conscripts are drafted for four years.;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-movement_random_service;Movement for Random Conscription Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-no_draft;No Draft;No Draft;No Draft;;No Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-no_draft_l;No Draft;No Draft;No Draft;;No Draft;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-no_draft_desc; ;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-movement_no_draft;Movement for No Draft Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-reformed_training;Reformed Training;Reformed Training;Reformed Training;;Reformed Training;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-reformed_training_l;Reformed Training;Reformed Training;Reformed Training;;Reformed Training;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-reformed_training_desc; ;Conscripts are drafted for one year.;Conscripts are drafted for one year.;;Conscripts are drafted for one year.;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-movement_reformed_training;Movement for Reformed Training Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-specialized_training;Specialized Training;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-specialized_training_l;Specialized Training;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-specialized_training_desc; ;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-conscription;Conscription;Conscription;Conscription;;Conscription;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
-movement_specialized_training;Movement for the Specialized Training;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+military_industry;Military Industry;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+military_industry_l;Military Industry;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+military_industry_desc; ;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+movement_military_industry;Movement for Military Industry Implementation;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+military_logistics;Military Logistics;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+military_logistics_l;Military Logistics;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+military_logistics_desc; ;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+movement_military_logistics;Movement for Military Logistics Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+no_focus;No Focus;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+no_focus_l;No Focus;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+no_focus_desc; ;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+movement_no_focus;Movement for No Focus Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+economic_logistics;Economic Logistics;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+economic_logistics_l;Economic Logistics;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+economic_logistics_desc; ;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+movement_economic_logistics;Movement for Economic Logistics Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+economic_industry;Economic Industry;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+economic_industry_l;Economic Industry;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+economic_industry_desc; ;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
+movement_economic_industry;Movement for Economic Industry Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+conscription;Economic Focus;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 universal_health_care;Universal Healthcare;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 universal_health_care_desc;Universal healthcare is a health care system in which all residents of a particular country or region are assured access to health care. It is generally organized around providing either all residents or only those who cannot afford on their own with either health services or the means to acquire them, with the end goal of improving health outcomes.;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 movement_universal_health_care;Universal Health Care Movement;;;;;;;;;;;;;x
@@ -402,6 +402,7 @@ french_empire_netherlands_title;Revive Claims on the Dutch Lowlands;;;;;;;;;;;;x
 french_empire_netherlands_desc;The Dutch Republic once stood as a rival to France, but from the days of Louis XIV to the Napoleonic Empire, French arms repeatedly crossed the Meuse and brought the Low Countries under Parisian influence. The Kingdom of the Netherlands is but a fragile construct of the Congress of Vienna, propped up as a barrier against French power. Yet many in the Tuileries whisper that the destiny of France is not complete until our tricolor once more flies over Amsterdam and the North Sea coast, securing the Rhine delta as a bulwark of French supremacy.;;;;;;;;;;;;x
 french_empire_belgium_title;Reclaim Belgium;;;;;;;;;;;;x
 french_empire_belgium_desc;The Belgian Revolution tore away lands that France had long considered within her rightful sphere. From the days of the Revolution and Napoleon, Belgium was governed as French soil, its resources and fortresses guarding our northern frontier. The so-called ?Kingdom of Belgium? is little more than a British invention, a buffer state designed to restrain French power. By reclaiming Belgium, France restores her natural border along the Meuse and Scheldt, secures her northern flank, and reasserts her role as master of the Low Countries.;;;;;;;;;;;;x
+taiwan_trade_port;Reclamation of the Formosan Trade Port;;;;;;;;;;;;x
 taiwan_trade_port_title;Reclaim Formosan Trade Port;;;;;;;;;;;;x
 taiwan_trade_port_desc;In the 17th century, Dutch merchants of the East India Company established Fort Zeelandia on the island of Formosa, creating a hub of commerce that linked China, Japan, and the Indies. Though this foothold was lost to native resistance and Ming loyalists, the dream of a Dutch Formosan trade port has never fully died. By reasserting our influence over Taiwan, we may once more command the sea lanes of East Asia, strengthen our colonial empire, and remind the world that the Netherlands remains a power of global reach.;;;;;;;;;;;;x
 retake_south_africa_title;The Gateway to the East;;;;;;;;;;;;x
@@ -504,3 +505,5 @@ EVTDESC90808;The Warlord Era was the period in the history of the Republic of Ch
 ottomanism_embrace;§GGain an Increase in Assimilation Chance with this Decision§b;;;;;;;;;;;;x
 russify_polish_state_title;Russify the Polish State;;;;;;;;;;;;x
 russify_polish_state_desc;The recent uprising in the Polish lands has revealed the persistent weakness of imperial authority in the region. Despite our efforts to restore order, Polish nationalism remains a disruptive force, threatening the peace and unity of the Empire. To prevent further unrest, the government proposes a policy of full integration. Administrative, educational, and cultural institutions will be restructured to reflect Russian governance and values. The use of the Russian language will be mandated in schools and public offices, and the influence of foreign and local nationalist elements will be diminished. Though some may view these measures as harsh, they are necessary to ensure lasting stability and loyalty within the western provinces of the Empire. Only through firm and consistent policy can these lands be made truly Russian in character and allegiance.;;;;;;;;;;;;x
+taiwan_trade_port_colonial_company;Formosan Treaty Port;;;;;;;;;;;;x
+taiwan_trade_port_buff;§GGain an Increase in Treaty Port output due to increased naval presence§b;;;;;;;;;;;;x

@@ -141,21 +141,10 @@ political_decisions = {
 		}
 	
 		effect = {
-			any_owned = {
-				limit = {
-					province_id = 3249
-					province_id = 1498
-					province_id = 1496
-					province_id = 1608
-					province_id = 1606
-					province_id = 1538
-					province_id = 1566
-					province_id = 1569
-					province_id = 1481
-				}
-				add_province_modifier = { name = taiwan_trade_port duration = -1 }
-			}
+			1485 = { trade_goods = silk add_province_modifier = { name = taiwan_trade_port duration = -1 } }
+			2562 = { trade_goods = silk add_province_modifier = { name = taiwan_trade_port duration = -1 } }
 			set_country_flag = taiwan_trade_port
+			taiwan_trade_port_buff = {}
 		}
 	
 		ai_will_do = {

@@ -591,68 +591,68 @@ country_event = {
 
 country_event = {
 	id = 40003
-	title = "Chosse a Conscription Reform"
-	desc = "Pick which Conscription you wish to choose for your nation. You can change this whenever you want with Force Reform."
+	title = "Choose a Economic Reform"
+	desc = "Pick which Economic Focus you wish to choose for your nation. You can change this whenever you want with Force Reform."
 
 	is_triggered_only = yes
 
 	immediate = {
-		set_country_flag = draft
+		set_country_flag = eco_focus
 	}
 
 	option = {
-		name = "Mandatory Service"
-		clr_country_flag = draft
-		political_reform = mandatory_service
+		name = "Military Industry"
+		clr_country_flag = eco_focus
+		political_reform = military_industry
 		random_owned = {
 			limit = {
-				owner = { has_country_flag = draft } }
+				owner = { has_country_flag = eco_focus } }
 			}
-			owner = { add_country_modifier = { name = mandatory_service duration = 1 }
+			owner = { add_country_modifier = { name = military_industry duration = 1 }
 		}
 	}
 	option = {
-		name = "Random Service"
-		clr_country_flag = draft
-		political_reform = random_service
+		name = "Military Logistics"
+		clr_country_flag = eco_focus
+		political_reform = military_logistics
 		random_owned = {
 			limit = {
-				owner = { has_country_flag = draft } }
+				owner = { has_country_flag = eco_focus } }
 			}
-			owner = { add_country_modifier = { name = random_service duration = 1 }
+			owner = { add_country_modifier = { name = military_logistics duration = 1 }
 		}
 	}
 	option = {
-		name = "No Draft"
-		clr_country_flag = draft
-		political_reform = no_draft
+		name = "No Focus"
+		clr_country_flag = eco_focus
+		political_reform = no_focus
 		random_owned = {
 			limit = {
-				owner = { has_country_flag = draft } }
+				owner = { has_country_flag = eco_focus } }
 			}
-			owner = { add_country_modifier = { name = no_draft duration = 1 }
+			owner = { add_country_modifier = { name = no_focus duration = 1 }
 		}
 	}
 	option = {
-		name = "Reformed Training"
-		clr_country_flag = draft
-		political_reform = reformed_training
+		name = "Economic Logistics"
+		clr_country_flag = eco_focus
+		political_reform = economic_logistics
 		random_owned = {
 			limit = {
-				owner = { has_country_flag = draft } }
+				owner = { has_country_flag = eco_focus } }
 			}
-			owner = { add_country_modifier = { name = reformed_training duration = 1 }
+			owner = { add_country_modifier = { name = economic_logistics duration = 1 }
 		}
 	}
 	option = {
-		name = "Specialized Training"
-		clr_country_flag = draft
-		political_reform = specialized_training
+		name = "Economic Industry"
+		clr_country_flag = eco_focus
+		political_reform = economic_industry
 		random_owned = {
 			limit = {
-				owner = { has_country_flag = draft } }
+				owner = { has_country_flag = eco_focus } }
 			}
-			owner = { add_country_modifier = { name = specialized_training duration = 1 }
+			owner = { add_country_modifier = { name = economic_industry duration = 1 }
 		}
 	}
 }
