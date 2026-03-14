@@ -95,7 +95,8 @@ political_decisions = {
 				}
 			}
 			any_country = {
-				political_reform = no_draft
+				political_reform = no_focus
+				health_care = no_health_care
 			}
 			any_country = {
 				limit = { NOT = { literacy = 0.1 } }

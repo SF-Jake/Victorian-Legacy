@@ -214,30 +214,6 @@ army = {
 		type = hussar
 		home = 232
 	}
-	
-	regiment = {
-		name= "9th Infantry Regiment"
-		type = infantry
-		home = 247
-	}
-	
-	regiment = {
-		name= "10th Infantry Regiment"
-		type = infantry
-		home = 247
-	}
-	
-	regiment = {
-		name= "11th Infantry Regiment"
-		type = infantry
-		home = 247
-	}
-	
-	regiment = {
-		name= "12th Infantry Regiment"
-		type = infantry
-		home = 201
-	}
 }
 
 army = {
@@ -370,6 +346,47 @@ army = {
 		home = 219
 	}
 
+}
+
+army = {
+	name = "Army 4"
+	location = 219
+
+	regiment = {
+		name= "9th Hussar Regiment"
+		type = hussar
+		home = 247
+	}
+	
+	regiment = {
+		name= "10th Artillery Regiment"
+		type = artillery
+		home = 247
+	}
+	
+	regiment = {
+		name= "11th Artillery Regiment"
+		type = artillery
+		home = 247
+	}
+	
+	regiment = {
+		name= "12th Artillery Regiment"
+		type = artillery
+		home = 201
+	}
+
+	regiment = {
+		name= "13th Artillery Regiment"
+		type = artillery
+		home = 219
+	}
+
+	regiment = {
+		name= "14th Artillery Regiment"
+		type = artillery
+		home = 201
+	}
 }
 
 navy = {

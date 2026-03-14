@@ -117,6 +117,12 @@ army = {
 	name = "Artillery 1"
 	location = 2159
 	regiment = {
+		name= "11.Division Cos Hussars"
+		type = hussar
+		home = 2174
+	}
+
+	regiment = {
 		name= "1111.Division Cos"
 		type = artillery
 		home = 2172
@@ -150,6 +156,11 @@ army = {
 army = {
 	name = "Artillery 2"
 	location = 2163
+	regiment = {
+		name= "11.Division Cos Hussars"
+		type = hussar
+		home = 2174
+	}
 	
 	regiment = {
 		name= "23.Oajaca y Tlaxcala"
