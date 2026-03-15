@@ -3666,6 +3666,103 @@ political_decisions = {
 		}
 	}
 
+	genocide_tick = {
+		potential = {
+			tag = JAN
+			NOT = { has_country_modifier = genocide_cooldown }
+			META_1 = {
+				owner = {
+					any_owned_province = { 
+						OR = {
+							has_province_modifier = monarchy_genocide
+							has_province_modifier = facist_genocide
+							has_province_modifier = communist_genocide
+            			}
+					}
+				}
+			}
+		}
+
+		allow = { 
+			month = 0
+			NOT = { 
+				month = 1
+				month = 2
+				month = 3
+				month = 4
+				month = 5
+				month = 6
+				month = 7
+				month = 8
+				month = 9
+				month = 10
+				month = 11
+			}
+			NOT = { has_country_modifier = genocide_cooldown }
+		}
+
+		effect = {
+			add_country_modifier = { name = genocide_cooldown duration = 92 }
+			any_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = communist_genocide
+				}
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = communist_genocide
+				}
+				any_pop = {
+					limit = {
+						is_accepted_culture = no
+						is_primary_culture = no
+					}
+					reduce_pop = 0.92
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = monarchy_genocide 
+				}
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = monarchy_genocide 
+				}
+				any_pop = {
+					limit = {
+						is_accepted_culture = no
+						is_primary_culture = no
+					}
+					reduce_pop = 0.94
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = facist_genocide
+				}
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = facist_genocide
+				}
+				any_pop = {
+					limit = {
+						is_accepted_culture = no
+						is_primary_culture = no
+					}
+					reduce_pop = 0.90
+				}
+			}
+		}
+		}
+	}
+
 #Commented out code for checking any provinces that don't have mine terrain modifier for Mine Expansion Building.
 	# check_for_provinces = {
 	# 	potential = {

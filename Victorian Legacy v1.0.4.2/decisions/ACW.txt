@@ -856,6 +856,7 @@ political_decisions = {
 		}
 
 		allow = {
+			NOT = { has_country_flag = reunite_the_usa }
 			war = no
 			nationalism_n_imperialism = 1
 			MEX = {
@@ -885,6 +886,40 @@ political_decisions = {
 			ENG_2224 = { add_core = THIS }
 			ENG_2228 = { add_core = THIS }
 			set_country_flag = the_golden_circle
+		}
+	}
+
+	reunite_the_usa = {
+		potential = {
+			tag = CSA
+			NOT = { has_country_flag = the_golden_circle }
+			NOT = { has_country_flag = reunite_the_usa }
+		}
+
+		allow = {
+			NOT = { has_country_flag = the_golden_circle }
+			war = no
+			nationalism_n_imperialism = 1
+			USA = {
+				all_core = { 
+					OR = {
+						owned_by = THIS
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			inherit = USA
+			USA = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = reunite_the_usa
 		}
 	}
 }

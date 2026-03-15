@@ -1,0 +1,31 @@
+country_event = {
+	id = 92209
+	title = "Infamy Limit"
+	desc = "All Genocided States will cease till your Infamy decreases."
+	picture = "Slaves"
+	
+	trigger = {
+		badboy = 0.90 
+        any_owned_province = {
+            OR = {
+                has_province_modifier = monarchy_genocide
+			    has_province_modifier = facist_genocide
+		        has_province_modifier = communist_genocide
+            }
+        }
+	}
+
+	immediate = {
+		any_owned = {
+            remove_province_modifier = monarchy_genocide
+            remove_province_modifier = facist_genocide
+            remove_province_modifier = communist_genocide
+        }
+	}
+
+	option = {
+		name = "oops..."
+		add_country_modifier = { name = genocide_cooldown duration = 92 }
+	}
+}
+

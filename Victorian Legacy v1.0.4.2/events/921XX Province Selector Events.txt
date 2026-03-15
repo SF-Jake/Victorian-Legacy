@@ -1377,7 +1377,216 @@ province_event = {
 	}
 
 	option = {
-		name = "§B9.§b Choose Nothing"
+		name = "§B9.§b Genocide State"
+		add_core = JAN
+		owner = { 
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { has_country_modifier = genocide_cooldown }
+				}
+				owner = { genocide_on_cooldown = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { badboy = 0.90  }
+				}
+				owner = { genocide_infamy_limit = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = monarchy_genocide
+								has_province_modifier = facist_genocide
+								has_province_modifier = communist_genocide
+							}
+						}
+					}
+					owner = { 
+						NOT = { 
+							badboy = 0.90 
+							has_country_modifier = genocide_cooldown
+						} 
+						government = absolute_monarchy
+					}
+				}
+				owner = {
+					add_country_modifier = { name = genocide_cooldown duration = 92 }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = monarchy_genocide
+							duration = -1
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = monarchy_genocide
+								has_province_modifier = facist_genocide
+								has_province_modifier = communist_genocide
+							}
+						}
+					}
+					owner = { 
+						NOT = { 
+							badboy = 0.90 
+							has_country_modifier = genocide_cooldown
+						} 
+						government = fascist_dictatorship
+					}
+				}
+				owner = {
+					add_country_modifier = { name = genocide_cooldown duration = 92 }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = facist_genocide
+							duration = -1
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = monarchy_genocide
+								has_province_modifier = facist_genocide
+								has_province_modifier = communist_genocide
+							}
+						}
+					}
+					owner = { 
+						NOT = { 
+							badboy = 0.90 
+							has_country_modifier = genocide_cooldown
+						} 
+						government = proletarian_dictatorship
+					}
+				}
+				owner = {
+					add_country_modifier = { name = genocide_cooldown duration = 92 }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = communist_genocide
+							duration = -1
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "§B10.§b Clear Genocide"
+		add_core = JAN
+		owner = { 
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = {
+						any_owned_province = {
+							OR = {
+								has_province_modifier = monarchy_genocide
+								has_province_modifier = facist_genocide
+								has_province_modifier = communist_genocide
+							}
+        				}
+					}
+				}
+				owner = { genocide_removal_warning = { } }
+			}
+			random_owned = {
+				limit = { is_core = JAN }
+				owner = {
+					any_owned = {
+						limit = {
+							OR = {
+								has_province_modifier = monarchy_genocide
+								has_province_modifier = facist_genocide
+								has_province_modifier = communist_genocide
+							}
+						}
+						remove_province_modifier = monarchy_genocide
+						remove_province_modifier = facist_genocide
+						remove_province_modifier = communist_genocide
+					}
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "§B12.§b Choose Nothing"
 		add_core = JAN
 		owner = { 
 			random_owned = {

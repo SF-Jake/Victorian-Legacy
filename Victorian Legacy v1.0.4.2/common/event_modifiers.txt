@@ -1794,8 +1794,8 @@ monarchy_genocide = {
 	local_rgo_output = -0.25
 	immigrant_attract = -0.25
 	immigrant_push = 5
-	badboy = 0.01
-	pop_militancy_modifier = 0.20
+	badboy = 0.02
+	pop_militancy_modifier = 0.4
 	icon = 20
 }
 
@@ -1804,8 +1804,8 @@ facist_genocide = {
 	local_rgo_output = -0.25
 	immigrant_attract = -0.25
 	immigrant_push = 5
-	badboy = 0.01
-	pop_militancy_modifier = 0.20
+	badboy = 0.02
+	pop_militancy_modifier = 0.4
 	icon = 20
 }
 
@@ -1814,8 +1814,8 @@ communist_genocide = {
 	local_rgo_output = -0.25
 	immigrant_attract = -0.25
 	immigrant_push = 5
-	badboy = 0.01
-	pop_militancy_modifier = 0.20
+	badboy = 0.02
+	pop_militancy_modifier = 0.4
 	icon = 20
 }
 
