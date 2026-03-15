@@ -563,6 +563,37 @@ political_decisions = {
 					any_owned_province = { 
 						has_building = province_selector 
 					}
+					NOT = {
+						OR = {
+							government = fascist_dictatorship 
+							government = proletarian_dictatorship
+							government = absolute_monarchy
+						}
+					}
+					NOT = { has_country_flag = province_selector }
+				}
+				set_country_flag = province_selector
+				random_owned = {
+					limit = {
+						has_building = province_selector
+					}
+					province_event = {
+						## Audax Validator "." Ignore_NEXT
+						id = 92105 days = 0
+					}
+				}
+			}
+			any_country = {
+				limit = {
+					ai = no
+					any_owned_province = { 
+						has_building = province_selector 
+					}
+					OR = {
+						government = fascist_dictatorship 
+						government = proletarian_dictatorship
+						government = absolute_monarchy
+					}
 					NOT = { has_country_flag = province_selector }
 				}
 				set_country_flag = province_selector

@@ -2,7 +2,7 @@
 # Audax Validator "!" Ignore_1009
 
 
-#With China Menu
+# Can Genocide Menu
 province_event = {
 	id = 92104
 	title = "$PROVINCENAME$ Province Selector Menu"
@@ -1587,6 +1587,1414 @@ province_event = {
 
 	option = {
 		name = "§B12.§b Choose Nothing"
+		add_core = JAN
+		owner = { 
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+	}
+}
+
+#Can't Genocide menu
+province_event = {
+	id = 92105
+	title = "$PROVINCENAME$ Province Selector Menu"
+	desc = "EVTDESC92102"
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_core = PRO
+	}
+
+	option = {
+		name = "§B1.§b Migration Attraction"
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = { has_province_modifier = province_attract_immigrants }
+					is_colonial = no
+				}
+				owner = {
+					set_country_flag = province_migration
+					any_owned = {
+						remove_province_modifier = province_attract_immigrants
+					}
+				}
+				add_province_modifier = { name = province_attract_immigrants duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "§B2.§b Reset Migration Attraction"
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_province_modifier = province_attract_immigrants
+						}
+						remove_province_modifier = province_attract_immigrants
+					}
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "§B3.§b Create Supply Depot"
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					owner = { money = 500000 }
+				}
+				owner = { cost_500k = { } }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = supply_depot
+				}
+				owner = { warning_will_remove_other_depot = { } }
+			}
+			random_owned = {
+				limit = {
+					NOT = { owner = { money = 500000 } }
+				}
+				owner = { broke_500k = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { money = 500000 }
+				}
+				owner = {
+					any_owned = {
+						limit = { has_province_modifier = supply_depot }
+						remove_province_modifier = supply_depot
+					}
+					treasury = -500000
+				}
+				add_province_modifier = { name = supply_depot duration = -1 }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "§B4.§b Literacy Campaign"
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					is_core = PRO
+					state_scope = {
+						any_owned_province = {
+							has_province_modifier = literacy_campaign
+						}
+					}
+				}
+				owner = { already_has_modifier = { } }
+			}
+			#Tiny State
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.88 } }
+					is_core = TIN
+				}
+				owner = { tiny_lit_campaign = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { badboy = 0.88 }
+					is_core = TIN
+				}
+				owner = { tiny_lit_campaign_broke = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.88 } }
+					is_core = TIN
+				}
+				owner = { badboy = 1 }
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
+				}
+			}
+			#Small State
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.84 } }
+					is_core = SMA
+				}
+				owner = { small_lit_campaign = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { badboy = 0.84 }
+					is_core = SMA
+				}
+				owner = { small_lit_campaign_broke = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.84 } }
+					is_core = SMA
+				}
+				owner = { badboy = 2 }
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
+				}
+			}
+			#Medium State
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.8 } }
+					is_core = MED
+				}
+				owner = { medium_lit_campaign = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { badboy = 0.8 }
+					is_core = MED
+				}
+				owner = { medium_lit_campaign_broke = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.8 } }
+					is_core = MED
+				}
+				owner = { badboy = 3 }
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
+				}
+			}
+			#Large State
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.76 } }
+					is_core = LRG
+				}
+				owner = { large_lit_campaign = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { badboy = 0.76 }
+					is_core = LRG
+				}
+				owner = { large_lit_campaign_broke = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.76 } }
+					is_core = LRG
+				}
+				owner = { badboy = 4 }
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
+				}
+			}
+			#Huge State
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.72 } }
+					is_core = HUG
+				}
+				owner = { huge_lit_campaign = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { badboy = 0.72 }
+					is_core = HUG
+				}
+				owner = { huge_lit_campaign_broke = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					NOT = {
+						state_scope = {
+							any_owned_province = {
+								has_province_modifier = literacy_campaign
+							}
+						}
+					}
+					owner = { NOT = { badboy = 0.72 } }
+					is_core = HUG
+				}
+				owner = { badboy = 5 }
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 3650
+						}
+					}
+				}
+			}
+			#Clear Flags
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+		
+	}
+
+	option = {
+		name = "§B5.§b Change Agricultural RGO"
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { has_country_modifier = rgo_changed_farm }
+				}
+				owner = { farm_rgo_on_cooldown = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+						}
+					}
+					has_province_modifier = switched_production
+					NOT = { owner = { has_country_modifier = rgo_changed_farm } } 
+				}
+				owner = { farm_rgo_already_changed = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = sulphur
+						trade_goods = oil
+					}
+				}
+				owner = { not_farm_rgo = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					trade_goods = tropical_wood
+				}
+				owner = { no_tropical_wood = { } }
+			}
+			random_owned = {
+				limit = {
+					NOT = { 
+						owner = { has_country_flag = rgo_changed_flag_farm } 
+						owner = { has_country_modifier = rgo_changed_farm }
+					}
+					is_core = JAN
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = tropical_wood
+						}
+					}
+					OR = {
+						terrain = forest
+						terrain = woods
+					}
+				}
+				province_event = {
+					## Audax Validator "." Ignore_NEXT
+					id = 91739
+					days = 0
+				}
+			}
+			random_owned = {
+				limit = {
+					NOT = { 
+						owner = { has_country_flag = rgo_changed_flag_farm } 
+						owner = { has_country_modifier = rgo_changed_farm }
+					}
+					is_core = JAN
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = tropical_wood
+						}
+					}
+					is_coastal = yes
+				}
+				province_event = {
+					## Audax Validator "." Ignore_NEXT
+					id = 91738
+					days = 0
+				}
+			}
+			random_owned = {
+				limit = {
+					NOT = { 
+						owner = { has_country_flag = rgo_changed_flag_farm } 
+						owner = { has_country_modifier = rgo_changed_farm }
+					}
+					is_core = JAN
+					NOT = {
+						OR = {
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = sulphur
+							trade_goods = oil
+							trade_goods = tropical_wood
+						}
+					}
+					NOT = {
+						OR = {
+							is_coastal = yes
+							terrain = forest
+							terrain = woods
+						}
+					}
+				}
+				province_event = {
+					## Audax Validator "." Ignore_NEXT
+					id = 91737
+					days = 0
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "§B6.§b Change Mine RGO"
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { has_country_modifier = rgo_changed_mine }
+				}
+				owner = { mine_rgo_on_cooldown = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					OR = {
+						trade_goods = sulphur
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = oil
+					}
+					has_province_modifier = switched_production
+					NOT = { owner = { has_country_modifier = rgo_changed_mine } } 
+				}
+				owner = { mine_rgo_already_changed = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = {
+						OR = {
+							trade_goods = sulphur
+							trade_goods = coal
+							trade_goods = iron
+							trade_goods = oil
+						}
+					}
+				}
+				owner = { not_mine_rgo = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					trade_goods = oil
+				}
+				owner = { no_oil = { } }
+			}
+			random_owned = {
+				limit = {
+					trade_goods = sulphur
+					is_core = JAN
+					NOT = { 
+						owner = { has_country_flag = rgo_changed_flag_mine } 
+						owner = { has_country_modifier = rgo_changed_mine }
+					}
+				}
+				remove_core = PRO
+				province_selector = -1
+				owner = { clr_country_flag = province_selector }
+				province_event = { id = 199936 }
+			}
+			random_owned = {
+				limit = {
+					trade_goods = coal
+					is_core = JAN
+					NOT = { 
+						owner = { has_country_flag = rgo_changed_flag_mine } 
+						owner = { has_country_modifier = rgo_changed_mine }
+					}
+				}
+				remove_core = PRO
+				province_selector = -1
+				owner = { clr_country_flag = province_selector }
+				province_event = { id = 199937 }
+			}
+			random_owned = {
+				limit = {
+					trade_goods = iron
+					is_core = JAN
+					NOT = { 
+						owner = { has_country_flag = rgo_changed_flag_mine } 
+						owner = { has_country_modifier = rgo_changed_mine }
+					}
+				}
+				remove_core = PRO
+				province_selector = -1
+				owner = { clr_country_flag = province_selector }
+				province_event = { id = 199938 }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+		
+	}
+
+	option = {
+		name = "§B7.§b Baby Boom"
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 100000
+						}
+					}
+				}
+				owner = { 0K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 100000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 3000
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 100000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 200000
+						}
+					}
+				}
+				owner = { 100K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 100000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 200000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 2700
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 200000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 300000
+						}
+					}
+				}
+				owner = { 200K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 200000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 300000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 2400
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 300000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 400000
+						}
+					}
+				}
+				owner = { 300K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 300000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 400000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 2100
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 400000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 500000
+						}
+					}
+				}
+				owner = { 400K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 400000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 500000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 1800
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 500000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 600000
+						}
+					}
+				}
+				owner = { 500K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 500000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 600000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 1500
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 600000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 700000
+						}
+					}
+				}
+				owner = { 600K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 600000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 700000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 1200
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 700000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 800000
+						}
+					}
+				}
+				owner = { 700K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 700000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 800000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 900
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 800000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 900000
+						}
+					}
+				}
+				owner = { 800K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 800000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 900000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 600
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 900000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 1000000
+						}
+					}
+				}
+				owner = { 900K_pop_baby_boom = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 900000
+					}
+					NOT = {
+						state_scope = {
+							## Audax Validator "." Ignore_NEXT
+							total_pops = 1000000
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = baby_booming duration = 7300 }
+					clr_country_flag = baby_boom_reminder
+				}
+				state_scope = {
+					any_owned = {
+						## Audax Validator "." Ignore_NEXT
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 300
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { NOT = { has_country_modifier = baby_booming } }
+					state_scope = {
+						## Audax Validator "." Ignore_NEXT
+						total_pops = 1000000
+					}
+				}
+				owner = { above_baby_boom_limit = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { has_country_modifier = baby_booming }
+				}
+				owner = { baby_boom_on_cooldown = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "§B8.§b State to Colony (Asia & Africa Only)"
+		add_core = JAN
+		owner = {
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = { 
+						continent = asia
+						continent = china
+						continent = india
+						continent = indo_china
+						continent = indonesia
+						continent = africa
+						continent = phillipines
+						continent = polynesia_micronesia
+						continent = central_asia
+					}
+				}
+				owner = { not_asia = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = { war = yes }
+				}
+				owner = { you_are_at_war = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					is_core = THIS
+				}
+				owner = { is_your_core = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+					OR = {
+						continent = asia
+						continent = china
+						continent = india
+						continent = indo_china
+						continent = indonesia
+						continent = africa
+						continent = phillipines
+						continent = polynesia_micronesia
+						continent = central_asia
+					}
+					owner = { war = no }
+					NOT = { is_core = THIS }
+					is_colonial = no
+				}
+				JAN = {
+					country_event = { id = 40002 days = 0 }
+				}
+				state_scope = {
+					any_owned = {
+						secede_province = JAN
+						remove_core = JAN
+						remove_core = PRO
+					}
+				}
+				province_selector = -1
+			}
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+			clr_country_flag = province_selector
+		}
+	}
+
+	option = {
+		name = "§B9.§b Choose Nothing"
 		add_core = JAN
 		owner = { 
 			random_owned = {
