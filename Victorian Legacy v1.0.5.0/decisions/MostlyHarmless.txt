@@ -563,12 +563,15 @@ political_decisions = {
 					any_owned_province = { 
 						has_building = province_selector 
 					}
-					NOT = {
-						OR = {
-							government = fascist_dictatorship 
-							government = proletarian_dictatorship
-							government = absolute_monarchy
+					OR = {
+						NOT = {
+							OR = {
+								government = fascist_dictatorship 
+								government = proletarian_dictatorship
+								government = absolute_monarchy
+							}
 						}
+						has_global_flag = disabled_genocide
 					}
 					NOT = { has_country_flag = province_selector }
 				}
@@ -589,6 +592,7 @@ political_decisions = {
 					any_owned_province = { 
 						has_building = province_selector 
 					}
+					NOT = { has_global_flag = disabled_genocide }
 					OR = {
 						government = fascist_dictatorship 
 						government = proletarian_dictatorship

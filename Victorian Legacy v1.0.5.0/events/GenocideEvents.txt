@@ -5,7 +5,7 @@ country_event = {
 	picture = "Slaves"
 	
 	trigger = {
-		badboy = 0.90 
+		badboy = 0.90
         any_owned_province = {
             OR = {
                 has_province_modifier = monarchy_genocide
@@ -29,3 +29,32 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 92210
+	title = "Genocide Mechanic Disabled"
+	desc = "The host has disabled the genocide mechanic."
+	picture = "Slaves"
+	
+	trigger = {
+		has_global_flag = disabled_genocide
+        any_owned_province = {
+            OR = {
+                has_province_modifier = monarchy_genocide
+			    has_province_modifier = facist_genocide
+		        has_province_modifier = communist_genocide
+            }
+        }
+	}
+
+	immediate = {
+		any_owned = {
+            remove_province_modifier = monarchy_genocide
+            remove_province_modifier = facist_genocide
+            remove_province_modifier = communist_genocide
+        }
+	}
+
+	option = {
+		name = "oops..."
+	}
+}
