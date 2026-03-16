@@ -536,7 +536,7 @@ south_slavic = {
 }
 pan_romanian = {
 	leader = european
-	unit = AustriaHungaryGC
+	unit = WallachianGC
 	romanian = {
 		color = {240 240 140}
 		first_names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
@@ -578,7 +578,7 @@ hungarian_culture_group = {
 
 polish_culture_group = {
 	leader = european
-	unit = AustriaHungaryGC
+	unit = PolishGC
 	
 	polish = {
 		color = {255 120 120}
@@ -809,7 +809,7 @@ levantine = {
 
 turko_semitic = {
 	leader = arab
-	unit = MiddleEasternGC
+	unit = MoroccoGC
 	turkish = {
 		color = {250 55 55}
 		first_names = { 
@@ -1013,7 +1013,7 @@ iranian_turanian = {
 
 central_asian = {
 	leader = asian
-	unit = MiddleEasternGC
+	unit = AsianGC
 	mongol = {
 		color = {230 230 44}
 		first_names = { 
@@ -1230,10 +1230,10 @@ southeast_asian = {
 	}
 }
 
-east_asian = {
-	leader = asian
-	unit = ChineseGC
-	japanese = {
+far_east_asian = {
+    leader = asian
+    unit = AsianGC
+    japanese = {
 		color = {230 230 230}
 		first_names = { #Family Name in Japanese Convention
 			Akiyama Ando Araki Arisugawa
@@ -1268,6 +1268,24 @@ east_asian = {
 			Yahachi Yasukata Yasutsuna Yasuyoshi Yoshifuru Yoshijiro Yoshimichi Yoshinobu Yoshinori Yusaku
 		}
 	}
+    korean = {
+        color = { 87 89 25 }
+        first_names = { Park Lee Kim Hwang Yi Sohn Nam Oh Goh Cho Chu Dong Choi Han Jo Song Baek Yun Moon Yoo Hong Yeon Won Gang Ahn Rhee Kang Bak Chung Jung Sim Ryu Ohk Roh Chun Gwak Chang Lew 
+        }
+        last_names = { Moon-yeong Doo-hwan Tae-woo Moo-hyun Syngman Min-su Haneul Dok-su Tae-jip Myeong-beok Byeon Gong Min-jae Seong-uk Chung-hee Taek-yeon Ha-seong Jun-ho Ji-hoon Jae-ho Doo-sik So-gu Hwa-jung Gyeong-sun Deok-myeong Si-hyeong Gu So-ang Jae-hyun Seok-gyu Il-seok Jong-il Jong-un Man-sik Jae-u Cheon-il Deok-nyeong In-gap Heon Mun-bu Byung-hwa Nam-chul Sung-a Sung-mo Jae-pil Sa-ik Myung-ik Deok-soo Joon-gi Joon-kook Tae-soo Jae-in Kwan-jin Suk-won Jae-gyu Byong-hyon Kap-hwan Hu-rak 
+        }
+    }
+    ainu = {
+        color = { 130 130 130 }
+        first_names = { Seimei Resaak Akihi Petennouk Unayanke Shiratekka Apniainu Pasekur Munkeke Shitekka Shinriki Shiromainu Menkakush }
+        last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke }
+    }
+}
+
+east_asian = {
+	leader = asian
+	unit = ChineseGC
+	
 	manchu = {
 		color = {245 255 160}
 		first_names = { Ma Deng zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
@@ -1289,20 +1307,6 @@ east_asian = {
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	korean = {
-		color = {87 89 25}
-		first_names = { Yi Jo Bak Yun Sim Kim Hong Seo Jeong Kwon Han 
-		}
-		last_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu
-		}
-	}
-	ainu = {
-		color = {130 130 130}
-		first_names = { Seimei Resaak Akihi Petennouk Unayanke Shiratekka Apniainu Pasekur Munkeke Shitekka Shinriki Shiromainu Menkakush
-		}
-		last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke
-		}
-	}
 	min = {
 		color = {76 32 200}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
@@ -1314,6 +1318,7 @@ east_asian = {
 
 oceanic = {
 	leader = nativeamerican
+	unit = HawaiianGC
 	polynesian = {
 		color = {89 35 168}
 		first_names = { Finau Ulukalala Taufa'ahau Tupou Taupe Havaiki Lika Longotahi Vaopuka "Te Taulu" Tavita Malietoa Iosefo William 
@@ -1456,6 +1461,7 @@ american_cultures = {
 
 neo_european_cultures = {
 	leader = european
+	unit = WildwestGC
 	boer = {
 		color = {17 128 148}
 		first_names = { Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert

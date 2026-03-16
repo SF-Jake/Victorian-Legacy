@@ -104,14 +104,21 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
-				AUS_726 = { owned_by = THIS }
-				year = 1840
-			}
-			OR = {
 				SAR_720 = { owned_by = THIS }
 				MOD_739 = { owned_by = THIS }
 			}
-			NOT = { badboy = 10 }
+			OR = {
+				AUS_726 = { owned_by = THIS }
+				AND = {
+					SAR = { OR = { NOT = { in_sphere = AUS } exists = no } }
+					LOM = { OR = { NOT = { in_sphere = AUS } exists = no } }
+					PAR = { OR = { NOT = { in_sphere = AUS } exists = no } }
+					MOD = { OR = { NOT = { in_sphere = AUS } exists = no } }
+					LUC = { OR = { NOT = { in_sphere = AUS } exists = no } }
+					TUS = { OR = { NOT = { in_sphere = AUS } exists = no } }
+				}
+			}
+			NOT = { badboy = 0.6 }
 		}
 
 		effect = {
@@ -129,13 +136,15 @@ political_decisions = {
 					}
 					ai = yes
 				}
-				annex_to = THIS
+				country_event = { id=11101 days=0 }
 			}
 			MOD_739 = { add_core = THIS }
 			TUS_744 = { add_core = THIS }
 			SAR_720 = { add_core = THIS }
 			765 = { add_core = THIS }
 			766 = { add_core = THIS }
+			738 = { add_core = THIS }
+			739 = { add_core = THIS }
 			AUS_726 = { add_core = THIS }
 			PAP_749 = { add_core = THIS }
 			set_global_flag = north_italian_federation	

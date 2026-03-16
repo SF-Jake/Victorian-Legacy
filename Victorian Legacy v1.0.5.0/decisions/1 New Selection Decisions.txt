@@ -971,6 +971,13 @@ missalaneous_jan = {
 			}
 			activate_technology = navy_row_completion6
 		}
+		any_country = {
+			limit = {
+				ai = no
+				NOT = { early_classical_theory_and_critique = 1 }
+			}
+			activate_technology = early_classical_theory_and_critique
+		}
 	}
 }
 }
