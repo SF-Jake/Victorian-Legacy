@@ -511,3 +511,13 @@ taiwan_trade_port_buff;§GGain an Increase in Treaty Port output due to increased
 genocide_on_cooldown;§ROn Cooldown§W;;;;;;;;;;;;x
 genocide_infamy_limit;§RNot enough Infamy (Close to Sanctions)§W;;;;;;;;;;;;x
 genocide_removal_warning;§RWarning will remove all Genocide modifiers§W;;;;;;;;;;;;x
+zwill_receive_title;§YRequest A Grant;;;;;;;;;;;;x
+zwill_receive_desc;This will request a grant from other players. Please note they must have choosen the decision to enable giving grants for the request to go through. It can be reversed at any time.;;;;;;;;;;;;x
+#will_not_receive_title;Disable Receiving Grants;;;;;;;;;;;;x;;;
+#will_not_receive_desc;This will prohibit other players from giving us grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
+zwill_give_title;§YEnable Giving Grants and Lend Lease;;;;;;;;;;;;x
+zwill_give_desc;This will allow us to give grants and lend lease to other players. It must be activated before a player chooses to request grants or lend lease. It can be reversed at any time.\n§RSending lend lease (military/industrial goods to other players) will be unlocked after you reseach Economic Responsibility.§!;;;;;;;;;;;;x
+zwill_not_give_title;§YDisable Giving Grants and Lend Lease;;;;;;;;;;;;x
+zwill_not_give_desc;This will prevent us from getting events when other players request grants and lend lease requests. It can be reversed at any time.\n§RSending lend lease (military/industrial goods to other players) will be unlocked after you reseach Economic Responsibility.§!;;;;;;;;;;;;x
+zrequest_lend_lease_title;§YRequest Lend Lease;;;;;;;;;;;;;
+zrequest_lend_lease_desc;This will request military or industrial goods from other players, similar to a grant. Please note the sender needs to have the "Economic Responsibility" tech in order to recieve the request.;;;;;;;;;;;;;

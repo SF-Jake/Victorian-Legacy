@@ -579,7 +579,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = republic_ideas_buff
 			prestige = 25
-			country_event = 100000
+			country_event = 200000
 		}
 	
 		ai_will_do = {

@@ -1,0 +1,1113 @@
+country_event = {
+	id = 50000
+	title = "Request Lend Lease"
+	desc = "We have decided to request aid in getting military or industrial supplies. Which one shall we request?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Artillery @D50"
+		any_country = {
+			limit = {
+				exists = yes
+				ai = no
+				has_country_flag = will_give_grants
+				market_regulations = 1
+			}
+			country_event = 50001
+		}
+	}
+	option = {
+		name = "Small Arms @D49"
+		any_country = {
+			limit = {
+				exists = yes
+				ai = no
+				has_country_flag = will_give_grants
+				market_regulations = 1
+			}
+			country_event = 50002
+		}
+	}
+	option = {
+		name = "Canned Food @D48"
+		any_country = {
+			limit = {
+				exists = yes
+				ai = no
+				has_country_flag = will_give_grants
+				market_regulations = 1
+			}
+			country_event = 50003
+		}
+	}
+	option = {
+		name = "Ammunition @D47"
+		any_country = {
+			limit = {
+				exists = yes
+				ai = no
+				has_country_flag = will_give_grants
+				market_regulations = 1
+			}
+			country_event = 50004
+		}
+	}
+	option = {
+		name = "Clipper Convoys @D46"
+		any_country = {
+			limit = {
+				exists = yes
+				ai = no
+				has_country_flag = will_give_grants
+				market_regulations = 1
+			}
+			country_event = 50005
+		}
+	}
+	option = {
+		name = "Steamer Convoys @D45"
+		any_country = {
+			limit = {
+				exists = yes
+				ai = no
+				has_country_flag = will_give_grants
+				market_regulations = 1
+			}
+			country_event = 50006
+		}
+	}
+	option = {
+		name = "Fuel @D44"
+		any_country = {
+			limit = {
+				exists = yes
+				ai = no
+				has_country_flag = will_give_grants
+				market_regulations = 1
+			}
+			country_event = 50007
+		}
+	}
+	option = {
+		name = "Aeroplanes @D43"
+		any_country = {
+			limit = {
+				exists = yes
+				ai = no
+				has_country_flag = will_give_grants
+				market_regulations = 1
+			}
+			country_event = 50008
+		}
+	}
+	option = {
+		name = "Tanks @D42"
+		any_country = {
+			limit = {
+				exists = yes
+				ai = no
+				has_country_flag = will_give_grants
+				market_regulations = 1
+			}
+			country_event = 50009
+		}
+	}
+}
+
+country_event = {
+	id = 50001
+	title = "$FROMCOUNTRY$ Requests Artillery"
+	desc = "$FROMCOUNTRY$ has requested artillery in an aid package, how shall we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send nothing"
+	}
+	option = {
+		name = "Send 100 Artillery"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+		}
+	}
+	option = {
+		name = "Send 300 Artillery"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+		
+		}
+	}
+	option = {
+		name = "Send 500 Artillery"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+		
+		}
+	}
+	option = {
+		name = "Send 700 Artillery"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+		}
+	}
+	option = {
+		name = "Send 900 Artillery"
+		FROM = {
+			limit = {
+				NOT = { artillery = 1101 }
+				THIS = { artillery = 900 }
+			}
+			THIS = { artillery = -900 }
+			FROM = { artillery = 900 }
+		
+		}
+	}
+	option = {
+		name = "Send 1200 Artillery"
+		FROM = {
+			limit = {
+				NOT = { artillery = 801 }
+				THIS = { artillery = 1200 }
+			}
+			THIS = { artillery = -1200 }
+			FROM = { artillery = 1200 }
+		
+		}
+	}
+	option = {
+		name = "Send 1500 Artillery"
+		FROM = {
+			limit = {
+				NOT = { artillery = 501 }
+				THIS = { artillery = 1500 }
+			}
+			THIS = { artillery = -1500 }
+			FROM = { artillery = 1500 }
+		
+		}
+	}
+	option = {
+		name = "Send 1800 Artillery"
+		FROM = {
+			limit = {
+				NOT = { artillery = 201 }
+				THIS = { artillery = 1800 }
+			}
+			THIS = { artillery = -1800 }
+			FROM = { artillery = 1800 }
+		
+		}
+	}
+}
+
+country_event = {
+	id = 50002
+	title = "$FROMCOUNTRY$ Requests Small Arms"
+	desc = "$FROMCOUNTRY$ has requested small arms in an aid package, how shall we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send nothing"
+	}
+	option = {
+		name = "Send 100 Small Arms"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { small_arms = 1901 }
+				THIS = { small_arms = 100 }
+			}
+			THIS = { small_arms = -100 }
+			small_arms = 100
+		}
+	}
+	option = {
+		name = "Send 300 Small Arms"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { small_arms = 1701 }
+				THIS = { small_arms = 300 }
+			}
+			THIS = { small_arms = -300 }
+			small_arms = 300
+		
+		}
+	}
+	option = {
+		name = "Send 500 Small Arms"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { small_arms = 1501 }
+				THIS = { small_arms = 500 }
+			}
+			THIS = { small_arms = -500 }
+			small_arms = 500
+		
+		}
+	}
+	option = {
+		name = "Send 700 Small Arms"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { small_arms = 1301 }
+				THIS = { small_arms = 700 }
+			}
+			THIS = { small_arms = -700 }
+			small_arms = 700
+		}
+	}
+	option = {
+		name = "Send 900 Small Arms"
+		FROM = {
+			limit = {
+				NOT = { small_arms = 1101 }
+				THIS = { small_arms = 900 }
+			}
+			THIS = { small_arms = -900 }
+			FROM = { small_arms = 900 }
+		
+		}
+	}
+	option = {
+		name = "Send 1200 Small Arms"
+		FROM = {
+			limit = {
+				NOT = { small_arms = 801 }
+				THIS = { small_arms = 1200 }
+			}
+			THIS = { small_arms = -1200 }
+			FROM = { small_arms = 1200 }
+		
+		}
+	}
+	option = {
+		name = "Send 1500 Small Arms"
+		FROM = {
+			limit = {
+				NOT = { small_arms = 501 }
+				THIS = { small_arms = 1500 }
+			}
+			THIS = { small_arms = -1500 }
+			FROM = { small_arms = 1500 }
+		
+		}
+	}
+	option = {
+		name = "Send 1800 Small Arms"
+		FROM = {
+			limit = {
+				NOT = { small_arms = 201 }
+				THIS = { small_arms = 1800 }
+			}
+			THIS = { small_arms = -1800 }
+			FROM = { small_arms = 1800 }
+		
+		}
+	}
+}
+
+country_event = {
+	id = 50003
+	title = "$FROMCOUNTRY$ Requests Canned Food"
+	desc = "$FROMCOUNTRY$ has requested canned food in an aid package, how shall we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send nothing"
+	}
+	option = {
+		name = "Send 100 Canned Food"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { canned_food = 1901 }
+				THIS = { canned_food = 100 }
+			}
+			THIS = { canned_food = -100 }
+			canned_food = 100
+		}
+	}
+	option = {
+		name = "Send 300 Canned Food"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { canned_food = 1701 }
+				THIS = { canned_food = 300 }
+			}
+			THIS = { canned_food = -300 }
+			canned_food = 300
+		
+		}
+	}
+	option = {
+		name = "Send 500 Canned Food"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { canned_food = 1501 }
+				THIS = { canned_food = 500 }
+			}
+			THIS = { canned_food = -500 }
+			canned_food = 500
+		
+		}
+	}
+	option = {
+		name = "Send 700 Canned Food"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { canned_food = 1301 }
+				THIS = { canned_food = 700 }
+			}
+			THIS = { canned_food = -700 }
+			canned_food = 700
+		
+		}
+	}
+	option = {
+		name = "Send 900 Canned Food"
+		FROM = {
+			limit = {
+				NOT = { canned_food = 1101 }
+				THIS = { canned_food = 900 }
+			}
+			THIS = { canned_food = -900 }
+			FROM = { canned_food = 900 }
+		
+		}
+	}
+	option = {
+		name = "Send 1200 Canned Food"
+		FROM = {
+			limit = {
+				NOT = { canned_food = 801 }
+				THIS = { canned_food = 1200 }
+			}
+			THIS = { canned_food = -1200 }
+			FROM = { canned_food = 1200 }
+		
+		}
+	}
+	option = {
+		name = "Send 1500 Canned Food"
+		FROM = {
+			limit = {
+				NOT = { canned_food = 501 }
+				THIS = { canned_food = 1500 }
+			}
+			THIS = { canned_food = -1500 }
+			FROM = { canned_food = 1500 }
+		
+		}
+	}
+	option = {
+		name = "Send 1800 Canned Food"
+		FROM = {
+			limit = {
+				NOT = { canned_food = 201 }
+				THIS = { canned_food = 1800 }
+			}
+			THIS = { canned_food = -1800 }
+			FROM = { canned_food = 1800 }
+		
+		}
+	}
+}
+
+country_event = {
+	id = 50004
+	title = "$FROMCOUNTRY$ Requests Ammunition"
+	desc = "$FROMCOUNTRY$ has requested Ammunition in an aid package, how shall we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send nothing"
+	}
+	option = {
+		name = "Send 100 Ammunition"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { ammunition = 1901 }
+				THIS = { ammunition = 100 }
+			}
+			THIS = { ammunition = -100 }
+			ammunition = 100
+		}
+	}
+	option = {
+		name = "Send 300 Ammunition"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { ammunition = 1701 }
+				THIS = { ammunition = 300 }
+			}
+			THIS = { ammunition = -300 }
+			ammunition = 300
+		
+		}
+	}
+	option = {
+		name = "Send 500 Ammunition"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { ammunition = 1501 }
+				THIS = { ammunition = 500 }
+			}
+			THIS = { ammunition = -500 }
+			ammunition = 500
+		
+		}
+	}
+	option = {
+		name = "Send 700 Ammunition"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { ammunition = 1301 }
+				THIS = { ammunition = 700 }
+			}
+			THIS = { ammunition = -700 }
+			ammunition = 700
+		
+		}
+	}
+	option = {
+		name = "Send 900 Ammunition"
+		FROM = {
+			limit = {
+				NOT = { ammunition = 1101 }
+				THIS = { ammunition = 900 }
+			}
+			THIS = { ammunition = -900 }
+			FROM = { ammunition = 900 }
+		
+		}
+	}
+	option = {
+		name = "Send 1200 Ammunition"
+		FROM = {
+			limit = {
+				NOT = { ammunition = 801 }
+				THIS = { ammunition = 1200 }
+			}
+			THIS = { ammunition = -1200 }
+			FROM = { ammunition = 1200 }
+		
+		}
+	}
+	option = {
+		name = "Send 1500 Ammunition"
+		FROM = {
+			limit = {
+				NOT = { ammunition = 501 }
+				THIS = { ammunition = 1500 }
+			}
+			THIS = { ammunition = -1500 }
+			FROM = { ammunition = 1500 }
+		
+		}
+	}
+	option = {
+		name = "Send 1800 Ammunition"
+		FROM = {
+			limit = {
+				NOT = { ammunition = 201 }
+				THIS = { ammunition = 1800 }
+			}
+			THIS = { ammunition = -1800 }
+			FROM = { ammunition = 1800 }
+		
+		}
+	}
+}
+
+country_event = {
+	id = 50005
+	title = "$FROMCOUNTRY$ Requests Clipper Convoys"
+	desc = "$FROMCOUNTRY$ has requested clipper convoys in an aid package, how shall we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send nothing"
+	}
+	option = {
+		name = "Send 100 Clipper Convoys"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { clipper_convoy = 1901 }
+				THIS = { clipper_convoy = 100 }
+			}
+			THIS = { clipper_convoy = -100 }
+			clipper_convoy = 100
+		}
+	}
+	option = {
+		name = "Send 300 Clipper Convoys"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { clipper_convoy = 1701 }
+				THIS = { clipper_convoy = 300 }
+			}
+			THIS = { clipper_convoy = -300 }
+			clipper_convoy = 300
+		
+		}
+	}
+	option = {
+		name = "Send 500 Clipper Convoys"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { clipper_convoy = 1501 }
+				THIS = { clipper_convoy = 500 }
+			}
+			THIS = { clipper_convoy = -500 }
+			clipper_convoy = 500
+		
+		}
+	}
+	option = {
+		name = "Send 700 Clipper Convoys"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { clipper_convoy = 1301 }
+				THIS = { clipper_convoy = 700 }
+			}
+			THIS = { clipper_convoy = -700 }
+			clipper_convoy = 700
+		
+		}
+	}
+	option = {
+		name = "Send 900 Clipper Convoys"
+		FROM = {
+			limit = {
+				NOT = { clipper_convoy = 1101 }
+				THIS = { clipper_convoy = 900 }
+			}
+			THIS = { clipper_convoy = -900 }
+			FROM = { clipper_convoy = 900 }
+		
+		}
+	}
+	option = {
+		name = "Send 1200 Clipper Convoys"
+		FROM = {
+			limit = {
+				NOT = { clipper_convoy = 801 }
+				THIS = { clipper_convoy = 1200 }
+			}
+			THIS = { clipper_convoy = -1200 }
+			FROM = { clipper_convoy = 1200 }
+		
+		}
+	}
+	option = {
+		name = "Send 1500 Clipper Convoys"
+		FROM = {
+			limit = {
+				NOT = { clipper_convoy = 501 }
+				THIS = { clipper_convoy = 1500 }
+			}
+			THIS = { clipper_convoy = -1500 }
+			FROM = { clipper_convoy = 1500 }
+		
+		}
+	}
+	option = {
+		name = "Send 1800 Clipper Convoys"
+		FROM = {
+			limit = {
+				NOT = { clipper_convoy = 201 }
+				THIS = { clipper_convoy = 1800 }
+			}
+			THIS = { clipper_convoy = -1800 }
+			FROM = { clipper_convoy = 1800 }
+		
+		}
+	}
+}
+
+country_event = {
+	id = 50006
+	title = "$FROMCOUNTRY$ Requests Steamer Convoys"
+	desc = "$FROMCOUNTRY$ has requested steamer convoys in an aid package, how shall we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send nothing"
+	}
+	option = {
+		name = "Send 100 Steamer Convoys"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { steamer_convoy = 1901 }
+				THIS = { steamer_convoy = 100 }
+			}
+			THIS = { steamer_convoy = -100 }
+			steamer_convoy = 100
+		}
+	}
+	option = {
+		name = "Send 300 Steamer Convoys"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { steamer_convoy = 1701 }
+				THIS = { steamer_convoy = 300 }
+			}
+			THIS = { steamer_convoy = -300 }
+			steamer_convoy = 300
+		
+		}
+	}
+	option = {
+		name = "Send 500 Steamer Convoys"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { steamer_convoy = 1501 }
+				THIS = { steamer_convoy = 500 }
+			}
+			THIS = { steamer_convoy = -500 }
+			steamer_convoy = 500
+		
+		}
+	}
+	option = {
+		name = "Send 700 Steamer Convoys"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { steamer_convoy = 1301 }
+				THIS = { steamer_convoy = 700 }
+			}
+			THIS = { steamer_convoy = -700 }
+			steamer_convoy = 700
+		
+		}
+	}
+	option = {
+		name = "Send 900 Steamer Convoys"
+		FROM = {
+			limit = {
+				NOT = { steamer_convoy = 1101 }
+				THIS = { steamer_convoy = 900 }
+			}
+			THIS = { steamer_convoy = -900 }
+			FROM = { steamer_convoy = 900 }
+		
+		}
+	}
+	option = {
+		name = "Send 1200 Steamer Convoys"
+		FROM = {
+			limit = {
+				NOT = { steamer_convoy = 801 }
+				THIS = { steamer_convoy = 1200 }
+			}
+			THIS = { steamer_convoy = -1200 }
+			FROM = { steamer_convoy = 1200 }
+		
+		}
+	}
+	option = {
+		name = "Send 1500 Steamer Convoys"
+		FROM = {
+			limit = {
+				NOT = { steamer_convoy = 501 }
+				THIS = { steamer_convoy = 1500 }
+			}
+			THIS = { steamer_convoy = -1500 }
+			FROM = { steamer_convoy = 1500 }
+		
+		}
+	}
+	option = {
+		name = "Send 1800 Steamer Convoys"
+		FROM = {
+			limit = {
+				NOT = { steamer_convoy = 201 }
+				THIS = { steamer_convoy = 1800 }
+			}
+			THIS = { steamer_convoy = -1800 }
+			FROM = { steamer_convoy = 1800 }
+		
+		}
+	}
+}
+
+country_event = {
+	id = 50007
+	title = "$FROMCOUNTRY$ Requests Fuel"
+	desc = "$FROMCOUNTRY$ has requested fuel in an aid package, how shall we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send nothing"
+	}
+	option = {
+		name = "Send 100 Fuel"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { fuel = 1901 }
+				THIS = { fuel = 100 }
+			}
+			THIS = { fuel = -100 }
+			fuel = 100
+		}
+	}
+	option = {
+		name = "Send 300 Fuel"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { fuel = 1701 }
+				THIS = { fuel = 300 }
+			}
+			THIS = { fuel = -300 }
+			fuel = 300
+		
+		}
+	}
+	option = {
+		name = "Send 500 Fuel"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { fuel = 1501 }
+				THIS = { fuel = 500 }
+			}
+			THIS = { fuel = -500 }
+			fuel = 500
+		
+		}
+	}
+	option = {
+		name = "Send 700 Fuel"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { fuel = 1301 }
+				THIS = { fuel = 700 }
+			}
+			THIS = { fuel = -700 }
+			fuel = 700
+		
+		}
+	}
+	option = {
+		name = "Send 900 Fuel"
+		FROM = {
+			limit = {
+				NOT = { fuel = 1101 }
+				THIS = { fuel = 900 }
+			}
+			THIS = { fuel = -900 }
+			FROM = { fuel = 900 }
+		
+		}
+	}
+	option = {
+		name = "Send 1200 Fuel"
+		FROM = {
+			limit = {
+				NOT = { fuel = 801 }
+				THIS = { fuel = 1200 }
+			}
+			THIS = { fuel = -1200 }
+			FROM = { fuel = 1200 }
+		
+		}
+	}
+	option = {
+		name = "Send 1500 Fuel"
+		FROM = {
+			limit = {
+				NOT = { fuel = 501 }
+				THIS = { fuel = 1500 }
+			}
+			THIS = { fuel = -1500 }
+			FROM = { fuel = 1500 }
+		
+		}
+	}
+	option = {
+		name = "Send 1800 Fuel"
+		FROM = {
+			limit = {
+				NOT = { fuel = 201 }
+				THIS = { fuel = 1800 }
+			}
+			THIS = { fuel = -1800 }
+			FROM = { fuel = 1800 }
+		
+		}
+	}
+}
+
+country_event = {
+	id = 50008
+	title = "$FROMCOUNTRY$ Requests Aeroplanes"
+	desc = "$FROMCOUNTRY$ has requested Aeroplanes in an aid package, how shall we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send nothing"
+	}
+	option = {
+		name = "Send 100 Aeroplanes"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { aeroplanes = 1901 }
+				THIS = { aeroplanes = 100 }
+			}
+			THIS = { aeroplanes = -100 }
+			aeroplanes = 100
+		}
+	}
+	option = {
+		name = "Send 300 Aeroplanes"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { aeroplanes = 1701 }
+				THIS = { aeroplanes = 300 }
+			}
+			THIS = { aeroplanes = -300 }
+			aeroplanes = 300
+		
+		}
+	}
+	option = {
+		name = "Send 500 Aeroplanes"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { aeroplanes = 1501 }
+				THIS = { aeroplanes = 500 }
+			}
+			THIS = { aeroplanes = -500 }
+			aeroplanes = 500
+		
+		}
+	}
+	option = {
+		name = "Send 700 Aeroplanes"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { aeroplanes = 1301 }
+				THIS = { aeroplanes = 700 }
+			}
+			THIS = { aeroplanes = -700 }
+			aeroplanes = 700
+		
+		}
+	}
+	option = {
+		name = "Send 900 Aeroplanes"
+		FROM = {
+			limit = {
+				NOT = { aeroplanes = 1101 }
+				THIS = { aeroplanes = 900 }
+			}
+			THIS = { aeroplanes = -900 }
+			FROM = { aeroplanes = 900 }
+		
+		}
+	}
+	option = {
+		name = "Send 1200 Aeroplanes"
+		FROM = {
+			limit = {
+				NOT = { aeroplanes = 801 }
+				THIS = { aeroplanes = 1200 }
+			}
+			THIS = { aeroplanes = -1200 }
+			FROM = { aeroplanes = 1200 }
+		
+		}
+	}
+	option = {
+		name = "Send 1500 Aeroplanes"
+		FROM = {
+			limit = {
+				NOT = { aeroplanes = 501 }
+				THIS = { aeroplanes = 1500 }
+			}
+			THIS = { aeroplanes = -1500 }
+			FROM = { aeroplanes = 1500 }
+		
+		}
+	}
+	option = {
+		name = "Send 1800 Aeroplanes"
+		FROM = {
+			limit = {
+				NOT = { aeroplanes = 201 }
+				THIS = { aeroplanes = 1800 }
+			}
+			THIS = { aeroplanes = -1800 }
+			FROM = { aeroplanes = 1800 }
+		
+		}
+	}
+}
+
+country_event = {
+	id = 50009
+	title = "$FROMCOUNTRY$ Requests Tanks"
+	desc = "$FROMCOUNTRY$ has requested Tanks in an aid package, how shall we respond?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send nothing"
+	}
+	option = {
+		name = "Send 100 Tanks"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { barrels = 1901 }
+				THIS = { barrels = 100 }
+			}
+			THIS = { barrels = -100 }
+			barrels = 100
+		}
+	}
+	option = {
+		name = "Send 300 Tanks"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { barrels = 1701 }
+				THIS = { barrels = 300 }
+			}
+			THIS = { barrels = -300 }
+			barrels = 300
+		
+		}
+	}
+	option = {
+		name = "Send 500 Tanks"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { barrels = 1501 }
+				THIS = { barrels = 500 }
+			}
+			THIS = { barrels = -500 }
+			barrels = 500
+		
+		}
+	}
+	option = {
+		name = "Send 700 Tanks"
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { barrels = 1301 }
+				THIS = { barrels = 700 }
+			}
+			THIS = { barrels = -700 }
+			barrels = 700
+		
+		}
+	}
+	option = {
+		name = "Send 900 Tanks"
+		FROM = {
+			limit = {
+				NOT = { barrels = 1101 }
+				THIS = { barrels = 900 }
+			}
+			THIS = { barrels = -900 }
+			FROM = { barrels = 900 }
+		
+		}
+	}
+	option = {
+		name = "Send 1200 Tanks"
+		FROM = {
+			limit = {
+				NOT = { barrels = 801 }
+				THIS = { barrels = 1200 }
+			}
+			THIS = { barrels = -1200 }
+			FROM = { barrels = 1200 }
+		
+		}
+	}
+	option = {
+		name = "Send 1500 Tanks"
+		FROM = {
+			limit = {
+				NOT = { barrels = 501 }
+				THIS = { barrels = 1500 }
+			}
+			THIS = { barrels = -1500 }
+			FROM = { barrels = 1500 }
+		
+		}
+	}
+	option = {
+		name = "Send 1800 Tanks"
+		FROM = {
+			limit = {
+				NOT = { barrels = 201 }
+				THIS = { barrels = 1800 }
+			}
+			THIS = { barrels = -1800 }
+			FROM = { barrels = 1800 }
+		
+		}
+	}
+}

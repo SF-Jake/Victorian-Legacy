@@ -36,7 +36,6 @@ country_event = {
 			government = democracy
 			leadership = 400
 			country_event = { id = 90041 days = 1 }
-			add_country_modifier = { name = indian_isolationism duration = -1 }
 		}
 	}
 }
@@ -63,6 +62,7 @@ country_event = {
 				target = ENG
 				attacker_goal = { casus_belli = status_quo country = HND }
 				defender_goal = { casus_belli = make_puppet_large }
+				call_ally = no
 			}
 		}
 	}
@@ -83,6 +83,7 @@ country_event = {
 	}
 
 	option = {
+		add_country_modifier = { name = indian_isolationism duration = -1 }
 		random_owned = {
 			limit = { owner = { NOT = { flintlock_rifles = 1 } }}	
 			owner = { activate_technology = flintlock_rifles }
@@ -102,6 +103,26 @@ country_event = {
 		random_owned = {
 			limit = { owner = { NOT = { bronze_muzzle_loaded_artillery = 1 } } }	
 			owner = { activate_technology = bronze_muzzle_loaded_artillery }
+		}
+		random_owned = {
+			limit = { owner = { NOT = { strategic_mobility = 1 } } }	
+			owner = { activate_technology = strategic_mobility }
+		}
+		random_owned = {
+			limit = { owner = { NOT = { muzzle_loaded_rifles = 1 } } }	
+			owner = { activate_technology = muzzle_loaded_rifles }
+		}
+		random_owned = {
+			limit = { owner = { NOT = { iron_muzzle_loaded_artillery = 1 } } }	
+			owner = { activate_technology = iron_muzzle_loaded_artillery }
+		}
+		random_owned = {
+			limit = { owner = { NOT = { military_plans = 1 } } }	
+			owner = { activate_technology = military_plans }
+		}
+		random_owned = {
+			limit = { owner = { NOT = { army_professionalism = 1 } } }	
+			owner = { activate_technology = army_professionalism }
 		}
 		money = 100000000
 		ammunition = 4000

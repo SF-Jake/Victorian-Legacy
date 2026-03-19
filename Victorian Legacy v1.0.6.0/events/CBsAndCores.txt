@@ -597,6 +597,10 @@ province_event = {
 	mean_time_to_happen = {
 		months = 40
 		modifier = {
+			factor = 0.01
+			owner = { has_country_flag = became_hausaland }
+		}
+		modifier = {
 			factor = 0.75
 			owner = { nationalism_n_imperialism = 1 }
 		}
@@ -788,6 +792,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 40
+		modifier = {
+			factor = 0.01
+			owner = { has_country_flag = became_hausaland }
+		}
 		modifier = {
 			factor = 0.75
 			owner = { nationalism_n_imperialism = 1 }

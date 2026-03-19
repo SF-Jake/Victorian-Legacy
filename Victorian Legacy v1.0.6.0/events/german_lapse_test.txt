@@ -8,6 +8,13 @@ country_event = {
 
 	trigger = {
 		in_sphere = PRU
+		OR = {
+			AND = {
+				is_vassal = yes
+				vassal_of = PRU
+			}
+			is_vassal = no
+		}
 		primary_culture = north_german
 	}
 
@@ -30,6 +37,10 @@ country_event = {
 		modifier = {
 			factor = 0.0008
 			year = 1860
+		}
+		modifier = {
+			factor = 0.0008
+			vassal_of = PRU
 		}
 	}
 

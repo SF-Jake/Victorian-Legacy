@@ -181,11 +181,10 @@ country_event = {
 	trigger = {
 		tag = USA
 		slavery = yes_slavery
+		year = 1838
 		has_country_flag = missouri_compromise
 		NOT = {	has_global_flag = american_civil_war_has_happened }
 	}
-	
-	mean_time_to_happen = { months = 3 modifier = { factor = 20 NOT = { year = 1841 } } }
 
 	immediate = { set_country_flag = amistad_decision }
 
@@ -606,6 +605,7 @@ country_event = {
 	
 	trigger = {
 		tag = USA
+		year = 1850
 		slavery = yes_slavery
 		has_country_flag = amistad_decision
 		NOT = {	has_global_flag = american_civil_war_has_happened }
@@ -675,7 +675,7 @@ country_event = {
 		slavery = yes_slavery
 		OR = {
 		has_country_flag = dredscott_sandford
-		year = 1860
+		year = 1855
 		}
 		NOT = {	has_global_flag = american_civil_war_has_happened }
 	}
@@ -705,6 +705,7 @@ country_event = {
 	
 	trigger = {
 		tag = USA
+		year = 1861
 		slavery = yes_slavery
 		has_country_flag = johnbrowns_raid
 		NOT = {	has_global_flag = american_civil_war_has_happened }

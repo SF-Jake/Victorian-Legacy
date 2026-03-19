@@ -24,3 +24,48 @@ country_event = {
 		prestige = 20
 	}
 }
+
+# Coronation of Queen Victoria
+country_event = {
+	id = 36898
+	news = yes
+	news_desc_long = "EVTDESC36898_NEWS_LONG"
+	news_desc_medium = "EVTDESC36898_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36898_NEWS_SHORT"
+	title = "EVTNAME36898"
+	desc = "EVTDESC36898"
+	picture = "queenvictoria"
+
+	
+	trigger = {
+		NOT = { has_country_flag = ascension_of_queen_victoria }
+		tag = ENG
+		year = 1838
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		is_sphere_leader_of = HAN
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA36898"
+		set_country_flag = ascension_of_queen_victoria
+		release_vassal = HAN
+		diplomatic_influence = {
+			who = HAN
+			value = -200
+		}
+		PRU = {
+			diplomatic_influence = {
+			who = HAN
+			value = 100
+		}
+		}
+		prestige = 5
+	}
+}

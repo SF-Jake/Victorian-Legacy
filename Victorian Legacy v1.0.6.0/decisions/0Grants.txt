@@ -1,18 +1,66 @@
 political_decisions = {
-	z1manage_grants = {
-		picture = latin_monetary_union
+	zrequest_lend_lease = {
+		picture = lend_lease
 		alert = no
 		potential = {
 			has_country_flag = show_options_Y
+			year = 1870
+			ai = no
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			country_event = 50000
+		}
+	}
+	zwill_receive = {
+		picture = coin
+		alert = no
+		potential = {
+			has_country_flag = show_options_Y
+			NOT = { has_country_flag = will_receive_grants }
 			ai = no
 		}
 		allow = {
 			ai = no
 			NOT = { has_country_modifier = requested_grant }
+			NOT = { has_country_flag = will_receive_grants }
 		}
 		effect = {
-			country_event = { id = 91400 days = 0 }
+			country_event = { id = 100000 days = 0 }
 			add_country_modifier = { name = requested_grant duration = 7 }
+		}
+	}
+	zwill_give = {
+		alert = no
+		picture = coin_yes
+		potential = {
+			ai = no
+			has_country_flag = show_options_Y
+			NOT = { has_country_flag = will_give_grants }
+		}
+
+		allow = { NOT = { has_country_flag = will_give_grants } }
+		effect = {
+			set_country_flag = will_give_grants
+		}
+	}
+	zwill_not_give = {
+		alert = no
+		picture = coin_no
+		potential = {
+			ai = no
+			has_country_flag = show_options_Y
+			has_country_flag = will_give_grants
+		}
+		allow = { 
+			ai = no
+			has_country_flag = will_give_grants 
+		}
+		effect = {
+			clr_country_flag = will_give_grants 
 		}
 	}
 	zcraftsmen_on = {

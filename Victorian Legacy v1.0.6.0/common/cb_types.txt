@@ -274,7 +274,7 @@ conquest = {
 			}
 			AND = {
 				civilized = no
-				number_of_states = 2
+				number_of_states = 3
 				THIS = {
 					OR = {
 						NOT = { is_greater_power = yes }
@@ -5437,7 +5437,7 @@ conquest_low = {
 			}
 			AND = {
 				civilized = no
-				number_of_states = 2
+				NOT = { number_of_states = 3 }
 				THIS = {
 					OR = {
 						NOT = { is_greater_power = yes }
