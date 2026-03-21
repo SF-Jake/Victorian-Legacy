@@ -612,6 +612,10 @@ political_decisions = {
 				}
 			}
 		}
+
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	tier_focus_unlock = {
@@ -1335,6 +1339,10 @@ political_decisions = {
 				remove_country_modifier = is_mobbed7
 				remove_country_modifier = is_mobbed8
 			}
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -3699,6 +3707,10 @@ political_decisions = {
 				country_event = { id=91344 days=0 }
 			}
 		}
+
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	genocide_tick = {
@@ -3796,172 +3808,10 @@ political_decisions = {
 			}
 		}
 		}
+		ai_will_do = {
+			factor = 1
+		}
 	}
-
-#Commented out code for checking any provinces that don't have mine terrain modifier for Mine Expansion Building.
-	# check_for_provinces = {
-	# 	potential = {
-	# 		tag = JAN
-	# 	}
-	# 	allow = {
-	# 		META_1 = {
-	# 			owner = {
-	# 				any_owned_province = { 
-	# 					NOT = {
-	# 						terrain = arctic_mine
-	# 						terrain = farmlands_mine
-	# 						terrain = plains_mine
-	# 						terrain = steppe_mine
-	# 						terrain = woods_mine
-	# 						terrain = forest_mine
-	# 						terrain = boreal_mine
-	# 						terrain = jungle_mine
-	# 						terrain = hills_mine
-	# 						terrain = dryhills_mine
-	# 						terrain = mountain_mine
-	# 						terrain = semidesert_mine
-	# 						terrain = desert_mine
-	# 						terrain = coastal_desert_mine
-	# 						terrain = marsh_mine
-	# 					}
-	# 					OR = { 
-	# 						province_id = 1102
-	# 						province_id = 1104
-	# 						province_id = 1186
-	# 						province_id = 1182
-	# 						province_id = 1205
-	# 						province_id = 1202
-	# 						province_id = 1107
-	# 						province_id = 1393
-	# 						province_id = 132
-	# 						province_id = 667
-	# 						province_id = 672
-	# 						province_id = 1168
-	# 						province_id = 110
-	# 						province_id = 180
-	# 						province_id = 89
-	# 						province_id = 133
-	# 						province_id = 126
-	# 						province_id = 1399
-	# 						province_id = 1055
-	# 						province_id = 1401
-	# 						province_id = 1425
-	# 						province_id = 1432
-	# 						province_id = 1335
-	# 						province_id = 134
-	# 						province_id = 705
-	# 						province_id = 1260
-	# 						province_id = 1086
-	# 						province_id = 129
-	# 						province_id = 1680
-	# 						province_id = 2173
-	# 						province_id = 87
-	# 						province_id = 2162
-	# 						province_id = 2163
-	# 						province_id = 702
-	# 						province_id = 1397
-	# 						province_id = 2237
-	# 						province_id = 2396
-	# 						province_id = 2391
-	# 						province_id = 1108
-	# 						province_id = 1051
-	# 						province_id = 2270
-	# 						province_id = 1163
-	# 						province_id = 1732
-	# 						province_id = 1720
-	# 						province_id = 1132
-	# 						province_id = 1170
-	# 						province_id = 26
-	# 						province_id = 2291
-	# 						province_id = 849
-	# 						province_id = 928
-	# 						province_id = 923
-	# 					}
-	# 				}
-	# 			}
-	# 		}
-	# 	}
-	# 	effect = {
-	# 		META_1 = {
-	# 			secede_province = JAN
-	# 		}
-	# 		any_owned = {
-	# 			limit = {
-	# 				NOT = {
-	# 					terrain = arctic_mine
-	# 					terrain = farmlands_mine
-	# 					terrain = plains_mine
-	# 					terrain = steppe_mine
-	# 					terrain = woods_mine
-	# 					terrain = forest_mine
-	# 					terrain = boreal_mine
-	# 					terrain = jungle_mine
-	# 					terrain = hills_mine
-	# 					terrain = dryhills_mine
-	# 					terrain = mountain_mine
-	# 					terrain = semidesert_mine
-	# 					terrain = desert_mine
-	# 					terrain = coastal_desert_mine
-	# 					terrain = marsh_mine
-	# 				}
-	# 				OR = { 
-	# 					province_id = 1102
-	# 					province_id = 1104
-	# 					province_id = 1186
-	# 					province_id = 1182
-	# 					province_id = 1205
-	# 					province_id = 1202
-	# 					province_id = 1107
-	# 					province_id = 1393
-	# 					province_id = 132
-	# 					province_id = 667
-	# 					province_id = 672
-	# 					province_id = 1168
-	# 					province_id = 110
-	# 					province_id = 180
-	# 					province_id = 89
-	# 					province_id = 133
-	# 					province_id = 126
-	# 					province_id = 1399
-	# 					province_id = 1055
-	# 					province_id = 1401
-	# 					province_id = 1425
-	# 					province_id = 1432
-	# 					province_id = 1335
-	# 					province_id = 134
-	# 					province_id = 705
-	# 					province_id = 1260
-	# 					province_id = 1086
-	# 					province_id = 129
-	# 					province_id = 1680
-	# 					province_id = 2173
-	# 					province_id = 87
-	# 					province_id = 2162
-	# 					province_id = 2163
-	# 					province_id = 702
-	# 					province_id = 1397
-	# 					province_id = 2237
-	# 					province_id = 2396
-	# 					province_id = 2391
-	# 					province_id = 1108
-	# 					province_id = 1051
-	# 					province_id = 2270
-	# 					province_id = 1163
-	# 					province_id = 1732
-	# 					province_id = 1720
-	# 					province_id = 1132
-	# 					province_id = 1170
-	# 					province_id = 26
-	# 					province_id = 2291
-	# 					province_id = 849
-	# 					province_id = 928
-	# 					province_id = 923
-	# 				}
-	# 			}
-	# 			secede_province = FRA
-	# 		}
-	# 	}
-	# }
 
 	national_idea = {
 		potential = {
@@ -4695,4 +4545,169 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
+	#Commented out code for checking any provinces that don't have mine terrain modifier for Mine Expansion Building.
+	# check_for_provinces = {
+	# 	potential = {
+	# 		tag = JAN
+	# 	}
+	# 	allow = {
+	# 		META_1 = {
+	# 			owner = {
+	# 				any_owned_province = { 
+	# 					NOT = {
+	# 						terrain = arctic_mine
+	# 						terrain = farmlands_mine
+	# 						terrain = plains_mine
+	# 						terrain = steppe_mine
+	# 						terrain = woods_mine
+	# 						terrain = forest_mine
+	# 						terrain = boreal_mine
+	# 						terrain = jungle_mine
+	# 						terrain = hills_mine
+	# 						terrain = dryhills_mine
+	# 						terrain = mountain_mine
+	# 						terrain = semidesert_mine
+	# 						terrain = desert_mine
+	# 						terrain = coastal_desert_mine
+	# 						terrain = marsh_mine
+	# 					}
+	# 					OR = { 
+	# 						province_id = 1102
+	# 						province_id = 1104
+	# 						province_id = 1186
+	# 						province_id = 1182
+	# 						province_id = 1205
+	# 						province_id = 1202
+	# 						province_id = 1107
+	# 						province_id = 1393
+	# 						province_id = 132
+	# 						province_id = 667
+	# 						province_id = 672
+	# 						province_id = 1168
+	# 						province_id = 110
+	# 						province_id = 180
+	# 						province_id = 89
+	# 						province_id = 133
+	# 						province_id = 126
+	# 						province_id = 1399
+	# 						province_id = 1055
+	# 						province_id = 1401
+	# 						province_id = 1425
+	# 						province_id = 1432
+	# 						province_id = 1335
+	# 						province_id = 134
+	# 						province_id = 705
+	# 						province_id = 1260
+	# 						province_id = 1086
+	# 						province_id = 129
+	# 						province_id = 1680
+	# 						province_id = 2173
+	# 						province_id = 87
+	# 						province_id = 2162
+	# 						province_id = 2163
+	# 						province_id = 702
+	# 						province_id = 1397
+	# 						province_id = 2237
+	# 						province_id = 2396
+	# 						province_id = 2391
+	# 						province_id = 1108
+	# 						province_id = 1051
+	# 						province_id = 2270
+	# 						province_id = 1163
+	# 						province_id = 1732
+	# 						province_id = 1720
+	# 						province_id = 1132
+	# 						province_id = 1170
+	# 						province_id = 26
+	# 						province_id = 2291
+	# 						province_id = 849
+	# 						province_id = 928
+	# 						province_id = 923
+	# 					}
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	effect = {
+	# 		META_1 = {
+	# 			secede_province = JAN
+	# 		}
+	# 		any_owned = {
+	# 			limit = {
+	# 				NOT = {
+	# 					terrain = arctic_mine
+	# 					terrain = farmlands_mine
+	# 					terrain = plains_mine
+	# 					terrain = steppe_mine
+	# 					terrain = woods_mine
+	# 					terrain = forest_mine
+	# 					terrain = boreal_mine
+	# 					terrain = jungle_mine
+	# 					terrain = hills_mine
+	# 					terrain = dryhills_mine
+	# 					terrain = mountain_mine
+	# 					terrain = semidesert_mine
+	# 					terrain = desert_mine
+	# 					terrain = coastal_desert_mine
+	# 					terrain = marsh_mine
+	# 				}
+	# 				OR = { 
+	# 					province_id = 1102
+	# 					province_id = 1104
+	# 					province_id = 1186
+	# 					province_id = 1182
+	# 					province_id = 1205
+	# 					province_id = 1202
+	# 					province_id = 1107
+	# 					province_id = 1393
+	# 					province_id = 132
+	# 					province_id = 667
+	# 					province_id = 672
+	# 					province_id = 1168
+	# 					province_id = 110
+	# 					province_id = 180
+	# 					province_id = 89
+	# 					province_id = 133
+	# 					province_id = 126
+	# 					province_id = 1399
+	# 					province_id = 1055
+	# 					province_id = 1401
+	# 					province_id = 1425
+	# 					province_id = 1432
+	# 					province_id = 1335
+	# 					province_id = 134
+	# 					province_id = 705
+	# 					province_id = 1260
+	# 					province_id = 1086
+	# 					province_id = 129
+	# 					province_id = 1680
+	# 					province_id = 2173
+	# 					province_id = 87
+	# 					province_id = 2162
+	# 					province_id = 2163
+	# 					province_id = 702
+	# 					province_id = 1397
+	# 					province_id = 2237
+	# 					province_id = 2396
+	# 					province_id = 2391
+	# 					province_id = 1108
+	# 					province_id = 1051
+	# 					province_id = 2270
+	# 					province_id = 1163
+	# 					province_id = 1732
+	# 					province_id = 1720
+	# 					province_id = 1132
+	# 					province_id = 1170
+	# 					province_id = 26
+	# 					province_id = 2291
+	# 					province_id = 849
+	# 					province_id = 928
+	# 					province_id = 923
+	# 				}
+	# 			}
+	# 			secede_province = FRA
+	# 		}
+	# 	}
+	# }
 }
