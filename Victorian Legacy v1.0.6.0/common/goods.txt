@@ -34,47 +34,47 @@ military_goods = {
 
 raw_material_goods = {
 	cotton = { 
-		cost = 0.33
+		cost = 0.363
 		color = { 255 255 255 }
 	}
 	wool = { 
-		cost = 0.165
+		cost = 0.1815
 		color = { 234 195 158 }
 	}
 	silk = { 
-		cost = 1.65
+		cost = 1.815
 		color = { 125 158 43 }
 	}
 	coal = { 
-		cost = 0.3825
+		cost = 0.42075
 		color = { 11 29 77 }
 	}
 	sulphur = { 
-		cost = 0.99
+		cost = 1.089
 		color = { 181 228 102 }
 	}
 	iron = { 
-		cost = 0.5775
+		cost = 0.63525
 		color = { 111 111 111 }
 	}
 	timber = { 
-		cost = 0.15
+		cost = 0.165
 		color = { 146 72 17 }
 	}
 	tropical_wood = { 
-		cost = 0.8925
+		cost = 0.98175
 		color = { 213 177 118 }
 	}
 	rubber = { 
-		cost = 1.155
+		cost = 1.2705
 		color = { 123 110 86 }
 	}
 	oil = { 
-		cost = 1.98
+		cost = 2.178
 		color = { 0 0 0 }
 	}
 	precious_metal = { 
-		cost = 10
+		cost = 11
 		tradeable = no
 		money = yes	
 		color = { 253 199 110 }
