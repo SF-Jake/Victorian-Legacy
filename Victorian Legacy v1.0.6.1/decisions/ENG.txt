@@ -64,9 +64,13 @@ political_decisions = {
 		potential = {
 			ai = no
 			tag = ENG
-			HND = {
+			EIC = {
+				ai = yes
 				exists = yes
 				vassal_of = THIS
+			}
+			HND = {
+				exists = no
 			}
 			NOT = { has_country_flag = india_annexed }
 		}
@@ -81,11 +85,8 @@ political_decisions = {
 		}
 
 		effect = {
-			JAN = {
-				inherit = HND
-				country_event = { id = 40002 days = 0 }
-			}
 			remove_country_modifier = crown_rule
+			EIC = { country_event = 36899 }
 			set_country_flag = india_annexed
 			badboy = 15
 		}
@@ -117,28 +118,6 @@ political_decisions = {
 			}
 			prestige = 10
 			set_country_flag = we_are_live_from_london
-		}
-	}
-
-	build_the_big_ben = {
-		picture = bigben
-		potential = {
-			tag = ENG
-			NOT = { has_country_flag = big_ben_construction }		
-			300 = { NOT = { has_province_modifier = the_big_ben } }
-		}
-		
-		allow = {
-			year = 1844
-			money = 400000
-			election = no
-			war = no
-		}
-		
-		effect = {
-			money = -400000
-			set_country_flag = big_ben_construction
-			add_country_modifier = { name = big_ben_construction duration = 200 }
 		}
 	}
 

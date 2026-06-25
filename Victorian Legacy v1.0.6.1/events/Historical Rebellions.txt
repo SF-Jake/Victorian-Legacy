@@ -8,6 +8,7 @@ country_event = {
 
 	trigger = {
 		tag = AUS
+		AUS = { war = no }
         HUN = { vassal_of = AUS }
 		year = 1848
 		NOT = { year = 1850 }
@@ -144,6 +145,7 @@ country_event = {
 		tag = RUS
         CPL = { vassal_of = RUS }
 		year = 1850
+		RUS = { war = no }
 		NOT = { year = 1855 }
 		NOT = { has_global_flag = polish_revolution_1850 }
 	}
@@ -263,6 +265,7 @@ country_event = {
 		NOT = { has_global_flag = taiping_has_happened }
 		year = 1851
 		NOT = { year = 1861 }
+		CHI = { war = no }
 		civilized = no
 	}
 	

@@ -1,0 +1,141 @@
+# political_decisions = {
+#     steal_the_big_ben = {
+#         potential = {
+#             ai = no
+# 			has_country_modifier = negotiating_statue_treaty
+#             OR = {
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_1
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_1 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_2
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_2 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_3
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_3 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_4
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_4 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_5
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_5 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_6
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_6 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_7
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_7 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_8
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_8 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_9
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_9 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_10
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_10 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_11
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_11 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_12
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_12 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_13
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_13 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_14
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_14 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_15
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_15 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_16
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_16 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_17
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_17 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_18
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_18 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_19
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_19 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#                 AND = {
+#                     has_country_flag = negotiating_steal_statue_20
+#                     META_1 = { owner = { has_country_flag = negotiating_unequal_steal_statue_20 has_country_modifier = negotiating_unequal_statue_treaty any_owned_province = { is_core = S05 } truce_with = THIS } }
+#                 }
+#             }            
+# 		}
+    
+#         allow = {
+#             money = 250000
+#         }
+    
+#         effect = {
+#             money = -250000
+#             remove_country_modifier = negotiating_statue_treaty
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_1 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_1 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_1 THIS = { clr_country_flag = negotiating_steal_statue_1 clr_global_flag = negotiating_unequal_statue_treaty_1 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_2 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_2 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_2 THIS = { clr_country_flag = negotiating_steal_statue_2 clr_global_flag = negotiating_unequal_statue_treaty_2 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_3 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_3 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_3 THIS = { clr_country_flag = negotiating_steal_statue_3 clr_global_flag = negotiating_unequal_statue_treaty_3 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_4 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_4 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_4 THIS = { clr_country_flag = negotiating_steal_statue_4 clr_global_flag = negotiating_unequal_statue_treaty_4 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_5 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_5 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_5 THIS = { clr_country_flag = negotiating_steal_statue_5 clr_global_flag = negotiating_unequal_statue_treaty_5 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_6 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_6 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_6 THIS = { clr_country_flag = negotiating_steal_statue_6 clr_global_flag = negotiating_unequal_statue_treaty_6 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_7 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_7 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_7 THIS = { clr_country_flag = negotiating_steal_statue_7 clr_global_flag = negotiating_unequal_statue_treaty_7 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_8 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_8 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_8 THIS = { clr_country_flag = negotiating_steal_statue_8 clr_global_flag = negotiating_unequal_statue_treaty_8 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_9 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_9 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_9 THIS = { clr_country_flag = negotiating_steal_statue_9 clr_global_flag = negotiating_unequal_statue_treaty_9 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_10 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_10 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_10 THIS = { clr_country_flag = negotiating_steal_statue_10 clr_global_flag = negotiating_unequal_statue_treaty_10 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_11 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_11 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_11 THIS = { clr_country_flag = negotiating_steal_statue_11 clr_global_flag = negotiating_unequal_statue_treaty_11 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_12 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_12 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_12 THIS = { clr_country_flag = negotiating_steal_statue_12 clr_global_flag = negotiating_unequal_statue_treaty_12 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_13 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_13 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_13 THIS = { clr_country_flag = negotiating_steal_statue_13 clr_global_flag = negotiating_unequal_statue_treaty_13 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_14 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_14 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_14 THIS = { clr_country_flag = negotiating_steal_statue_14 clr_global_flag = negotiating_unequal_statue_treaty_14 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_15 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_15 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_15 THIS = { clr_country_flag = negotiating_steal_statue_15 clr_global_flag = negotiating_unequal_statue_treaty_15 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_16 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_16 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_16 THIS = { clr_country_flag = negotiating_steal_statue_16 clr_global_flag = negotiating_unequal_statue_treaty_16 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_17 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_17 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_17 THIS = { clr_country_flag = negotiating_steal_statue_17 clr_global_flag = negotiating_unequal_statue_treaty_17 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_18 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_18 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_18 THIS = { clr_country_flag = negotiating_steal_statue_18 clr_global_flag = negotiating_unequal_statue_treaty_18 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_19 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_19 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_19 THIS = { clr_country_flag = negotiating_steal_statue_19 clr_global_flag = negotiating_unequal_statue_treaty_19 } } } }
+#             random_owned = { limit = { owner = { has_country_flag = negotiating_steal_statue_20 } } owner = { any_country = { limit = { has_country_flag = negotiating_unequal_steal_statue_20 any_owned_province = { is_core = S05 } } clr_country_flag = negotiating_unequal_steal_statue_20 THIS = { clr_country_flag = negotiating_steal_statue_20 clr_global_flag = negotiating_unequal_statue_treaty_20 } } } }
+#             prestige = 30
+#             any_country = {
+#                 limit = {
+#                     has_country_modifier = negotiating_unequal_statue_treaty
+#                     any_owned_province = { is_core = S05 }
+#                 }
+#                 any_owned = {
+# 					limit = {
+# 						is_core = S05
+# 					}
+#                     remove_core = S05
+#                     remove_province_modifier = the_big_ben
+#                     clr_province_flag = the_big_ben_built
+# 				}
+#                 prestige = -30
+#                 remove_country_modifier = negotiating_unequal_statue_treaty
+#             }
+#             capital_scope = { 
+#                 add_core = S05
+#                 set_province_flag = the_big_ben_built 
+#                 add_province_modifier = { name = the_big_ben duration = -1 } 
+#             }
+#         }
+#     }
+# }

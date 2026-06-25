@@ -122,7 +122,6 @@ por_nation_modifier_desc; ;;;;;;;;;;;;;
 naval_nation_modifier;Navy Tradition Modifier;;;;;;;;;;;;;
 army_nation_modifier;Army Tradition Modifier;;;;;;;;;;;;;
 disabled_nation_traditions;Disable Nation Traditions;;;;;;;;;;;;;
-economic_thought_and_critique;National Ideas;;;;;;;;;;;;;
 early_classical_theory_and_critique;Unlock Province Selector;;;;;;;;;;;;;
 farmland_unlocked;Farmland Unlock;;;;;;;;;;;;;
 farmland_unlocked_unciv;Farmland Unlock (Unciv);;;;;;;;;;;;;
@@ -240,7 +239,6 @@ economic_industry;Economic Industry;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 economic_industry_l;Economic Industry;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 economic_industry_desc; ;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 movement_economic_industry;Movement for Economic Industry Implementation;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-conscription;Economic Focus;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 universal_health_care;Universal Healthcare;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 universal_health_care_desc;Universal healthcare is a health care system in which all residents of a particular country or region are assured access to health care. It is generally organized around providing either all residents or only those who cannot afford on their own with either health services or the means to acquire them, with the end goal of improving health outcomes.;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 movement_universal_health_care;Universal Health Care Movement;;;;;;;;;;;;;x
@@ -333,7 +331,7 @@ army_organisation_idea_bar;National Idea (Selected) \n§WArmy Organisation Idea\n
 military_supplies_idea_bar;National Idea (Selected) \n§WMilitary Supplies Idea\n§G-10% §WMilitary Supplies;;;;;;;;;;;;;x
 military_hospitals_idea_bar;National Idea (Selected) \n§WMilitary Hospitals Idea\n§G+10% §WMilitary Hospitals;;;;;;;;;;;;;x
 reinforce_rate_idea_bar;National Idea (Selected) \n§WReinforce Rate Idea\n§G+10% §WReinforce Rate;;;;;;;;;;;;;x
-leadership_idea_bar;National Idea (Selected) \n§WLeadership Idea\n§G+3 §WMonthly Leadership;;;;;;;;;;;;;x
+leadership_idea_bar;National Idea (Selected) \n§WLeadership Idea\n§G+1 §WMonthly Leadership;;;;;;;;;;;;;x
 prestige_idea_bar;National Idea (Selected) \n§WPrestige Idea\n§G+0.3 §WMonthly Prestige;;;;;;;;;;;;;x
 navy_organisation_idea_bar;National Idea (Selected) \n§WNavy Organisation Idea\n§G+20% §WNavy Organisation;;;;;;;;;;;;;x
 expansion_idea_bar;National Idea (Selected) \n§WExpansion Idea\n§G-0.05 §WInfamy Decay;;;;;;;;;;;;;x
@@ -347,8 +345,8 @@ education_idea_bar;National Idea (Selected) \n§WEducation Idea\n§G+15% §WEducati
 PROV3298;Tshushima;;;;;;;;;;;;;x
 zprovince_migration_title;§GMigration Attraction;;;;;;;;;x;;;;
 zprovince_migration_desc;Gives a large bonus to migration to the targeted province. This decision does not increase the chance of receiving immigrants from other countries, it only redirects them to the targetted province. If a province has more than 5% RGO unemployment then the modifier will stop working and should be reset.;;;;;;;;;x;;;;
-EVTDESC92101;§B1.§bMigration attraction to a province.\n§B2.§b Cancels migration attraction to province.\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 1 Infamy per state size level.\n§B5.§b Changes farm RGO. Gives Cooldown.\n§B6.§b Changes mine RGO. Gives Cooldown.\n§B7.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n§B8.§b Convert Asian State to Colony.\n§B9.§bGenocide State\n§B10.§bRemove all Genocide Modifiers.\n§B11.§bEnd Province Event.;;;;;;;;;;;;;x
-EVTDESC92102;§B1.§bMigration attraction to a province.\n§B2.§b Cancels migration attraction to province.\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 1 Infamy per state size level.\n§B5.§b Changes farm RGO. Gives Cooldown.\n§B6.§b Changes mine RGO. Gives Cooldown.\n§B7.§b Lasts 10 years - (state pops/100k), 25 year cooldown.\n§B8.§b Convert Asian State to Colony.\n§B9.§bEnd Province Event.;;;;;;;;;;;;;x
+EVTDESC92101;§B1.§bMigration attraction to a province.\n§B2.§b Cancels migration attraction to province.\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 1 Infamy per state size level.\n§B5.§b Changes farm RGO. Gives Cooldown.\n§B6.§b Changes mine RGO. Gives Cooldown.\n§B7.§b Convert Asian State to Colony.\n§B8.§bGenocide State\n§B9.§bRemove all Genocide Modifiers.\n§B10.§bMove any statue to a different province.\n§B11.§bEnd Province Event.;;;;;;;;;;;;;x
+EVTDESC92102;§B1.§bMigration attraction to a province.\n§B2.§b Cancels migration attraction to province.\n§B3.§b Pay 500k to make a supply depot. Creating new depots, battles, and occupation will destroy depots.\n§B4.§b Adds 1% - (pop literacy/200) literacy per year for 10 years to state. Costs 1 Infamy per state size level.\n§B5.§b Changes farm RGO. Gives Cooldown.\n§B6.§b Changes mine RGO. Gives Cooldown.\n§B7.§b Convert Asian State to Colony.\n§B8.§bMove any statue to a different province.\n§B9.§bEnd Province Event.;;;;;;;;;;;;;x
 EVTNAME91737;Agriculture RGO Change;;;;;;;;;;;;;;;;;;;;;;;x
 EVTDESC91737;Choose to change a province to the following RGO types.;;;;;;;;;;;;;;;;;;;;;;;x
 EVT91737OPTA;Change province to produce Wool.;;;;;;;;;;;;;;;;;;;;;;;x
@@ -428,43 +426,43 @@ republic_ideas_buff_title;Gain support for a new leader;;;;;;;;;;;;x
 republic_ideas_buff_desc;Though Isabella II has been cast down from the throne, her shadow lingers over Spain. To republicans, she is the last relic of a corrupt monarchy, a reminder of the misrule and decadence that brought Spain to ruin. Yet to her dwindling supporters, she remains a figurehead ? a living symbol of the crown?s claim, however tarnished. The Republic must decide whether to tolerate her presence as a powerless exile or erase the last vestiges of Bourbon rule. Only then can Spain truly embrace its new republican destiny.;;;;;;;;;;;;x
 early_scramble_for_africa_tiny;Early Tiny African Concession;;;;;;;;;;;;x
 early_scramble_for_africa_tiny_short;Demand $STATE$;;;;;;;;;;;;x
-early_scramble_for_africa_tiny_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_tiny_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Nationalism & Imperialism.§W;;;;;;;;;;;;x
 early_scramble_for_africa_tiny_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 early_scramble_for_africa_small;Early Small African Concession;;;;;;;;;;;;x
 early_scramble_for_africa_small_short;Demand $STATE$;;;;;;;;;;;;x
-early_scramble_for_africa_small_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_small_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Nationalism & Imperialism.§W;;;;;;;;;;;;x
 early_scramble_for_africa_small_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 early_scramble_for_africa_medium;Early Medium African Concession;;;;;;;;;;;;x
 early_scramble_for_africa_medium_short;Demand $STATE$;;;;;;;;;;;;x
-early_scramble_for_africa_medium_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_medium_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Nationalism & Imperialism.§W;;;;;;;;;;;;x
 early_scramble_for_africa_medium_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 early_scramble_for_africa_large;Early Large African Concession;;;;;;;;;;;;x
 early_scramble_for_africa_large_short;Demand $STATE$;;;;;;;;;;;;x
-early_scramble_for_africa_large_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_large_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Nationalism & Imperialism.§W;;;;;;;;;;;;x
 early_scramble_for_africa_large_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 early_scramble_for_africa_huge;Early Huge African Concession;;;;;;;;;;;;x
 early_scramble_for_africa_huge_short;Demand $STATE$;;;;;;;;;;;;x
-early_scramble_for_africa_huge_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_huge_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Nationalism & Imperialism.§W;;;;;;;;;;;;x
 early_scramble_for_africa_huge_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 scramble_for_africa_tiny;Tiny African Concession;;;;;;;;;;;;x
 scramble_for_africa_tiny_short;Demand $STATE$;;;;;;;;;;;;x
-scramble_for_africa_tiny_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_tiny_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Revolution & Counterrevolution.§W;;;;;;;;;;;;x
 scramble_for_africa_tiny_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 scramble_for_africa_small;Small African Concession;;;;;;;;;;;;x
 scramble_for_africa_small_short;Demand $STATE$;;;;;;;;;;;;x
-scramble_for_africa_small_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_small_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Revolution & Counterrevolution.§W;;;;;;;;;;;;x
 scramble_for_africa_small_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 scramble_for_africa_medium;Medium African Concession;;;;;;;;;;;;x
 scramble_for_africa_medium_short;Demand $STATE$;;;;;;;;;;;;x
-scramble_for_africa_medium_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_medium_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Revolution & Counterrevolution.§W;;;;;;;;;;;;x
 scramble_for_africa_medium_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 scramble_for_africa_large;Large African Concession;;;;;;;;;;;;x
 scramble_for_africa_large_short;Demand $STATE$;;;;;;;;;;;;x
-scramble_for_africa_large_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_large_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Revolution & Counterrevolution.§W;;;;;;;;;;;;x
 scramble_for_africa_large_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 scramble_for_africa_huge;Huge African Concession;;;;;;;;;;;;x
 scramble_for_africa_huge_short;Demand $STATE$;;;;;;;;;;;;x
-scramble_for_africa_huge_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_huge_desc;Force an §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with Revolution & Counterrevolution.§W;;;;;;;;;;;;x
 scramble_for_africa_huge_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 late_scramble_for_africa_tiny;Late Tiny African Concession;;;;;;;;;;;;x
 late_scramble_for_africa_tiny_short;Demand $STATE$;;;;;;;;;;;;x
@@ -488,23 +486,23 @@ late_scramble_for_africa_huge_desc;Force an §Yuncivilized country§W to secede te
 late_scramble_for_africa_huge_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;x
 early_scramble_for_africa_conquest;Early African Conquest;;;;;;;;;;;;x
 early_scramble_for_africa_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;x
-early_scramble_for_africa_conquest_desc;Annex a §Ycountry§W, Improve Infamy Cost with Nationalism & Imperialism.;;;;;;;;;;;;x
+early_scramble_for_africa_conquest_desc;Annex a §Ycountry§W, §GImprove Infamy Cost with Nationalism & Imperialism.§W;;;;;;;;;;;;x
 early_scramble_for_africa_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
 scramble_for_africa_conquest;African Conquest;;;;;;;;;;;;x
 scramble_for_africa_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;x
-scramble_for_africa_conquest_desc;Annex a single-state §Ycountry§W, Improve Infamy Cost with Revolution & Counterrevolution.;;;;;;;;;;;;x
+scramble_for_africa_conquest_desc;Annex a single-state §Ycountry§W, §GImprove Infamy Cost with Revolution & Counterrevolution.§W;;;;;;;;;;;;x
 scramble_for_africa_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
 late_scramble_for_africa_conquest;Late African Conquest;;;;;;;;;;;;x
 late_scramble_for_africa_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;x
 late_scramble_for_africa_conquest_desc;Annex a single-state §Ycountry§W;;;;;;;;;;;;x
 late_scramble_for_africa_conquest_setup;Annex $RECIPIENT$;;;;;;;;;;;;x
 early_scramble_for_africa_capital;Early African Take Capital;;;;;;;;;;;;;x
-early_scramble_for_africa_capital_desc;Take the Capital region of a §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with §YNationalism & Imperialism.§W;;;;;;;;;;;;;x
+early_scramble_for_africa_capital_desc;Take the Capital region of a §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with §YNationalism & Imperialism.§W;;;;;;;;;;;;;x
 early_scramble_for_africa_capital_setup;Take Capital region $STATE$ of $RECIPIENT$;;;;;;;;;;;;;x
 early_scramble_for_africa_capital_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x
 ottoman_egypt_expansion_title;Restore Ottoman Authority in Egypt;;;;;;;;;;;;x
 scramble_for_africa_capital;African Take Capital;;;;;;;;;;;;;x
-scramble_for_africa_capital_desc;Take the Capital region of a §Yuncivilized country§W to secede territory to form a colonial concession, Improve Infamy Cost with §YRevolution & Counterrevolution.§W;;;;;;;;;;;;;x
+scramble_for_africa_capital_desc;Take the Capital region of a §Yuncivilized country§W to secede territory to form a colonial concession, §GImprove Infamy Cost with §YRevolution & Counterrevolution.§W;;;;;;;;;;;;;x
 scramble_for_africa_capital_setup;Take Capital region $STATE$ of $RECIPIENT$;;;;;;;;;;;;;x
 scramble_for_africa_capital_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x
 late_scramble_for_africa_capital;Late African Take Capital;;;;;;;;;;;;;x
@@ -528,9 +526,192 @@ zwill_receive_title;§YRequest A Grant;;;;;;;;;;;;x
 zwill_receive_desc;This will request a grant from other players. Please note they must have choosen the decision to enable giving grants for the request to go through. It can be reversed at any time.;;;;;;;;;;;;x
 #will_not_receive_title;Disable Receiving Grants;;;;;;;;;;;;x;;;
 #will_not_receive_desc;This will prohibit other players from giving us grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
-zwill_give_title;§YEnable Giving Grants and Lend Lease;;;;;;;;;;;;x
-zwill_give_desc;This will allow us to give grants and lend lease to other players. It must be activated before a player chooses to request grants or lend lease. It can be reversed at any time.\n§RSending lend lease (military/industrial goods to other players) will be unlocked after you reseach Economic Responsibility.§!;;;;;;;;;;;;x
+zwill_give_title;§YEnable Giving Grants;;;;;;;;;;;;x
+zwill_give_desc;This will allow us to give grants to other players. It must be activated before a player chooses to request grants. It can be reversed at any time.;;;;;;;;;;;;x
 zwill_not_give_title;§YDisable Giving Grants and Lend Lease;;;;;;;;;;;;x
 zwill_not_give_desc;This will prevent us from getting events when other players request grants and lend lease requests. It can be reversed at any time.\n§RSending lend lease (military/industrial goods to other players) will be unlocked after you reseach Economic Responsibility.§!;;;;;;;;;;;;x
-zrequest_lend_lease_title;§YRequest Lend Lease;;;;;;;;;;;;;
-zrequest_lend_lease_desc;This will request military or industrial goods from other players, similar to a grant. Please note the sender needs to have the "Economic Responsibility" tech in order to recieve the request.;;;;;;;;;;;;;
+zrequest_lend_lease_title;§YRequest Lend Lease;;;;;;;;;;;;x
+zrequest_lend_lease_desc;This will request military or industrial goods from other players, similar to a grant. Please note the sender needs to have the "Economic Responsibility" tech in order to recieve the request.;;;;;;;;;;;;x
+EVTNAME245000;End of the Ruhr Boom;;;;;;;;;;;;x
+EVTDESC245000;The Ruhr area, formerly parts of the counties of Berg, Mark and Cleves, is changing day by day. Every day new coal pits, mines and shafts are opened up to supply the ever expanding Prussian railway networks, and lately, supported by imports of British industrial technology, factories are springing up like mushrooms after an autumn rain. The Ruhr is booming, and the example could easily spread to the rest of Germany, if only it were given a little nudge out the door.;;;;;;;;;;;;x
+EVTOPTA245000;We will continue Strong!;;;;;;;;;;;;x
+EIC_ADJ;British;;;;;;;;;;;;;x;
+EIC;British Raj;;;;;;;;;;;;;x;
+EIC_colonial_company;East India Company;;;;;;;;;;;;;x;
+EIC_conservative;Court of Directors;;;;;;;;;;;;;x;
+EIC_liberal;Court of Directors;;;;;;;;;;;;;x;
+EIC_reactionary;Court of Directors;;;;;;;;;;;;;x;
+EIC_independent_conservative;Imperial Conservative Party;;;;;;;;;;;;x
+EIC_independent_liberal;Responsible Rule Party;;;;;;;;;;;;x
+EIC_independent_anarcho_liberal;National Alliance Party;;;;;;;;;;;;x
+EIC_independent_reactionary;Imperial Governance League;;;;;;;;;;;;x
+EIC_independent_socialist;Indian National Congress;CongrA¨s national indien;Indischer Nationalkongress;;Congreso Nacional Indio;;;;;;;;;x;;
+EIC_independent_communist;Indian Socialist Patriotic Front;;;;;;;;;;;;x
+EIC_independent_fascist;United Imperial Alliance;;;;;;;;;;;;x
+migration_attraction_no_colonial;\n§RCan't be used on Colonial States;;;;;;;;;;;;x
+migration_attraction_remove_other;\n§RAny other Modifier's will be removed;;;;;;;;;;;;x
+migration_attraction_none;\n§RThere are no Migration Attraction Modifiers;;;;;;;;;;;;x
+economic_reforms_tier1;Tier 1;;;;;;;;;;;;x
+economic_reforms_tier2;Tier 2;;;;;;;;;;;;x
+economic_reforms_tier3;Tier 3;;;;;;;;;;;;x
+economic_reforms_tier4;Tier 4;;;;;;;;;;;;x
+POLITICS_ECONOMIC_REFORMS;Matters of Economy;;;;;;;;;;;;x
+tiered_up;Tier Unlocked;;;;;;;;;;;;;x;
+tiered_up_l;Tier Unlocked;;;;;;;;;;;;;x;
+tiered_up_desc; ;;;;;;;;;;;;;x;
+mixed_economy_focus;Mixed Economy;;;;;;;;;;;;;x;
+mixed_economy_focus_l;Mixed Economy;;;;;;;;;;;;;x;
+mixed_economy_focus_desc; ;;;;;;;;;;;;;x;
+take_statue;Steal Statue;;;;;;;;;;;;;x;
+take_statue_desc;Steal a statue from the nation. §RAny Statue you want to steal will require $250k to fully complete the cb. You can only take one statue from the nation and you will have a limited amount of time to make your decsion. Some statues may not be obtainable for other countries due to its modifiers (ex: Statue of Liberty).§W;;;;;;;;;;;;;x;
+take_statue_short;Steal a nations Statue for personal gain.;;;;;;;;;;;;;x;
+take_statue_setup;Steal a nations Statue for personal gain.;;;;;;;;;;;;;x;
+negotiating_statue_treaty;Negotiating Steal Statue Treaty;;;;;;;;;;;;;x;
+negotiating_statue_treaty_desc;Complete your steal statue choice before the expiration of this modifier.;;;;;;;;;;;;;x;
+negotiating_unequal_statue_treaty;Unequal Steal Statue Treaty;;;;;;;;;;;;;x;
+negotiating_unequal_statue_treaty_desc;Awaiting response of steal statue treaty from player.;;;;;;;;;;;;;x;
+eco_tier1_unlocked;§GEconomic Reform Tier 1 Unlock;;;;;;;;;;;;;x;
+eco_tier1_unlocked_desc; ;;;;;;;;;;;;;x;
+eco_tier2_unlocked;§GEconomic Reform Tier 2 Unlock;;;;;;;;;;;;;x;
+eco_tier2_unlocked_desc; ;;;;;;;;;;;;;x;
+eco_tier3_unlocked;§GEconomic Reform Tier 3 Unlock;;;;;;;;;;;;;x;
+eco_tier3_unlocked_desc; ;;;;;;;;;;;;;x;
+eco_tier4_unlocked;§GEconomic Reform Tier 4 Unlock;;;;;;;;;;;;;x;
+eco_tier4_unlocked_desc; ;;;;;;;;;;;;;x;
+military_industry1;Military Industry T1;;;;;;;;;;;;;x;
+military_industry1_l;Military Industry T1;;;;;;;;;;;;;x;
+military_industry1_desc; ;;;;;;;;;;;;;x;
+military_logistics1;Military Logistics T1;;;;;;;;;;;;;x;
+military_logistics1_l;Military Logistics T1;;;;;;;;;;;;;x;
+military_logistics1_desc; ;;;;;;;;;;;;;x;
+economic_logistics1;Economic Logistics T1;;;;;;;;;;;;;x;
+economic_logistics1_l;Economic Logistics T1;;;;;;;;;;;;;x;
+economic_logistics1_desc; ;;;;;;;;;;;;;x;
+economic_industry1;Economic Industry T1;;;;;;;;;;;;;x;
+economic_industry1_l;Economic Industry T1;;;;;;;;;;;;;x;
+economic_industry1_desc; ;;;;;;;;;;;;;x;
+military_industry2;Military Industry T2;;;;;;;;;;;;;x;
+military_industry2_l;Military Industry T2;;;;;;;;;;;;;x;
+military_industry2_desc; ;;;;;;;;;;;;;x;
+military_logistics2;Military Logistics T2;;;;;;;;;;;;;x;
+military_logistics2_l;Military Logistics T2;;;;;;;;;;;;;x;
+military_logistics2_desc; ;;;;;;;;;;;;;x;
+economic_logistics2;Economic Logistics T2;;;;;;;;;;;;;x;
+economic_logistics2_l;Economic Logistics T2;;;;;;;;;;;;;x;
+economic_logistics2_desc; ;;;;;;;;;;;;;x;
+economic_industry2;Economic Industry T2;;;;;;;;;;;;;x;
+economic_industry2_l;Economic Industry T2;;;;;;;;;;;;;x;
+economic_industry2_desc; ;;;;;;;;;;;;;x;
+military_industry3;Military Industry T3;;;;;;;;;;;;;x;
+military_industry3_l;Military Industry T3;;;;;;;;;;;;;x;
+military_industry3_desc; ;;;;;;;;;;;;;x;
+military_logistics3;Military Logistics T3;;;;;;;;;;;;;x;
+military_logistics3_l;Military Logistics T3;;;;;;;;;;;;;x;
+military_logistics3_desc; ;;;;;;;;;;;;;x;
+economic_logistics3;Economic Logistics T3;;;;;;;;;;;;;x;
+economic_logistics3_l;Economic Logistics T3;;;;;;;;;;;;;x;
+economic_logistics3_desc; ;;;;;;;;;;;;;x;
+economic_industry3;Economic Industry T3;;;;;;;;;;;;;x;
+economic_industry3_l;Economic Industry T3;;;;;;;;;;;;;x;
+economic_industry3_desc; ;;;;;;;;;;;;;x;
+military_industry4;Military Industry T4;;;;;;;;;;;;;x;
+military_industry4_l;Military Industry T4;;;;;;;;;;;;;x;
+military_industry4_desc; ;;;;;;;;;;;;;x;
+military_logistics4;Military Logistics T4;;;;;;;;;;;;;x;
+military_logistics4_l;Military Logistics T4;;;;;;;;;;;;;x;
+military_logistics4_desc; ;;;;;;;;;;;;;x;
+economic_logistics4;Economic Logistics T4;;;;;;;;;;;;;x;
+economic_logistics4_l;Economic Logistics T4;;;;;;;;;;;;;x;
+economic_logistics4_desc; ;;;;;;;;;;;;;x;
+economic_industry4;Economic Industry T4;;;;;;;;;;;;;x;
+economic_industry4_l;Economic Industry T4;;;;;;;;;;;;;x;
+economic_industry4_desc; ;;;;;;;;;;;;;x;
+not_unlocked;Not Unlocked;;;;;;;;;;;;;x;
+not_unlocked_l;Not Unlocked;;;;;;;;;;;;;x;
+not_unlocked_desc; ;;;;;;;;;;;;;x;
+change_eco_value_on_title;§YChange Economic Reform (Hidden);;;;;;;;;;;;;x;
+change_eco_value_on_desc;Show Economic Reform Decisions.;;;;;;;;;;;;;x;
+change_eco_value_off_title;§YChange Economic Reform (Showing);;;;;;;;;;;;;x;
+change_eco_value_off_desc;Show Economic Reform Decisions.\n\nNote: If you don't see any options, scroll down in your decisions menu to see options that are currenty unavailable to you.;;;;;;;;;;;;;x;
+switch_to_military_industry_title;Switch to Military Industry;;;;;;;;;;;;;x;
+switch_to_military_industry_desc; ;;;;;;;;;;;;;x;
+switch_to_military_logistics_title;Switch to Military Logistics;;;;;;;;;;;;;x;
+switch_to_military_logistics_desc; ;;;;;;;;;;;;;x;
+switch_to_economic_logistics_title;Switch to Economic Logistics;;;;;;;;;;;;;x;
+switch_to_economic_logistics_desc; ;;;;;;;;;;;;;x;
+switch_to_economic_industry_title;Switch to Economic Industry;;;;;;;;;;;;;x;
+switch_to_economic_industry_desc; ;;;;;;;;;;;;;x;
+eco_tier1;Unlocked Stock Exchange;;;;;;;;;;;;;x;
+eco_tier2;Unlocked Business Banks;;;;;;;;;;;;;x;
+eco_tier3;Unlocked Investment Banks;;;;;;;;;;;;;x;
+eco_tier4;Unlocked Mutual Funds;;;;;;;;;;;;;x;
+tiered_up1;Tiered Up;;;;;;;;;;;;;x;
+tiered_up1_l;Tiered Up;;;;;;;;;;;;;x;
+tiered_up1_desc; ;;;;;;;;;;;;;x;
+tiered_up2;Tiered Up/Not Unlocked;;;;;;;;;;;;;x;
+tiered_up2_l;Tiered Up/Not Unlocked;;;;;;;;;;;;;x;
+tiered_up2_desc; ;;;;;;;;;;;;;x;
+tiered_up3;Tiered Up/Not Unlocked;;;;;;;;;;;;;x;
+tiered_up3_l;Tiered Up/Not Unlocked;;;;;;;;;;;;;x;
+tiered_up3_desc; ;;;;;;;;;;;;;x;
+not_unlocked;Not Unlocked;;;;;;;;;;;;;x;
+not_unlocked_l;Not Unlocked;;;;;;;;;;;;;x;
+not_unlocked_desc; ;;;;;;;;;;;;;x;
+peking_decision;§YThe china player can decide wether to deny the convention or accept.\n§w;;;;;;;;;;;;x
+move_statue_broke;§RNot enough Funds ($100K)§W;;;;;;;;;;;;x
+move_statue_cost;§GCost to Move Statue: §R-$100K§W;;;;;;;;;;;;x
+move_statue_war;§RCannot move statue while at war or awaiting a peace deal§W;;;;;;;;;;;;x
+move_statue_no_statue;§RNo statue within your Country§W;;;;;;;;;;;;x
+the_saint_basil_cathedral_title;Steal the Saint Basil's Cathedral;;;;;;;;;;;;x
+the_brandenburg_gate_title;Steal the Brandenburg Gate;;;;;;;;;;;;x
+the_austrian_parliament_building_title;Steal the Austrian Parliament Building;;;;;;;;;;;;x
+the_eiffel_tower_title;Steal the Eiffel Tower;;;;;;;;;;;;x
+the_white_house_title;Steal the White House;;;;;;;;;;;;x
+the_big_ben_title;Steal the Big Ben;;;;;;;;;;;;x
+the_suleymaniye_mosque_title;Steal the Suleymaniye Mosque;;;;;;;;;;;;x
+the_horyu_ji_title;Steal the H?ry?-ji;;;;;;;;;;;;x
+the_colosseum_title;Steal the The Colosseum;;;;;;;;;;;;x
+the_royal_palace_of_madrid_title;Steal the Royal Palace of Madrid;;;;;;;;;;;;x
+the_royal_palace_of_amsterdam_title;Steal the Royal Palace of Amsterdam;;;;;;;;;;;;x
+the_church_of_saint_francis_of_assisi_title;Steal the Church of Saint Francis of Assisi;;;;;;;;;;;;x
+the_belem_tower_title;Steal the Belém Tower;;;;;;;;;;;;x
+the_drottningholm_palace_title;Steal the Drottningholm Palace;;;;;;;;;;;;x
+the_masjid_i_jameh_of_isfahan_title;Steal the Masjid-i-Jameh of Isfahan;;;;;;;;;;;;x
+the_templo_mayoir_title;Steal the Templo Mayoir;;;;;;;;;;;;x
+the_ayutthaya_title;Steal the Ayutthaya;;;;;;;;;;;;x
+the_basilica_nuestra_senora_del_pillar_title;Steal the Basílica Nuestra Señora del Pilar;;;;;;;;;;;;x
+the_grand_place_title;Steal the Grand-Place;;;;;;;;;;;;x
+the_basilica_menor_nuestra_senora_de_lourdes_title;Steal the Basílica Menor Nuestra Señora de Lourdes;;;;;;;;;;;;x
+the_basilica_and_convent_of_san_francisco_title;Steal the Basílica and Convent of San Francisco;;;;;;;;;;;;x
+the_fasil_ghebbi_title;Steal the Fasil Ghebbi;;;;;;;;;;;;x
+the_palace_of_the_sultan_title;Steal the Palace of the Sultan;;;;;;;;;;;;x
+the_forbidden_city_title;Steal the Forbidden City;;;;;;;;;;;;x
+the_statue_of_liberty_title;Steal the Statue of Liberty;;;;;;;;;;;;x
+the_saint_basil_cathedral_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_brandenburg_gate_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_austrian_parliament_building_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_eiffel_tower_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_white_house_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_big_ben_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_suleymaniye_mosque_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_horyu_ji_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_colosseum_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_royal_palace_of_madrid_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_royal_palace_of_amsterdam_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_church_of_saint_francis_of_assisi_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_belem_tower_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_drottningholm_palace_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_masjid_i_jameh_of_isfahan_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_templo_mayoir_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_ayutthaya_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_basilica_nuestra_senora_del_pillar_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_grand_place_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_basilica_menor_nuestra_senora_de_lourdes_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_basilica_and_convent_of_san_francisco_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_fasil_ghebbi_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_palace_of_the_sultan_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_forbidden_city_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+the_statue_of_liberty_desc;§ROnly one statue can be taken from a nation.§b;;;;;;;;;;;;x
+EVTNAME36900;$STATE$ integrated;;;;;;;;;;;;x
+EVTDESC36900;Another indian colony full integrated into our nation.;;;;;;;;;;;;x
+EVTOPTA36900;Good;;;;;;;;;;;;x

@@ -1,30 +1,3 @@
-country_event = {
-
-	id = 3697001
-	title = "EVTNAME3697001" #Big Ben Finished
-	desc = "EVTDESC3697001"
-	picture = "big_ben_finished"
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = ENG
-		NOT = { has_country_modifier = big_ben_construction }
-		has_country_flag = big_ben_construction	
-	}
-	
-	mean_time_to_happen = { days = 5 }
-	
-	option = {
-		name = "EVT3697001OPTA"
-		300 = {
-			set_province_flag = big_ben_built
-			add_province_modifier = { name = the_big_ben duration = -1 }
-		}
-		prestige = 20
-	}
-}
-
 # Coronation of Queen Victoria
 country_event = {
 	id = 36898
@@ -67,5 +40,63 @@ country_event = {
 		}
 		}
 		prestige = 5
+	}
+}
+
+country_event = {
+	id = 36899
+	title = "Indian Colonial Integration"
+	desc = "The United Kingdom has begun integration of the Indian States."
+	picture = Picture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA36899"
+		any_owned = { add_province_modifier = { name = colony_integration duration = -1 } }
+	}
+}
+
+province_event = {
+	id = 36900
+	title = "EVTNAME36900"
+	desc = "EVTDESC36900"
+	picture = Picture
+	
+	trigger = {
+		has_province_modifier = colony_integration
+		owner = {
+			tag = EIC
+			ENG = { has_country_flag = india_annexed }
+			has_global_flag = sepoy_rebellion_ended
+		}
+		any_neighbor_province = { owned_by = ENG }
+		ENG = { war = no }
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+		modifier = {
+			factor = 0.9
+			year = 1860
+		}
+		modifier = {
+			factor = 0.85
+			year = 1865
+		}
+		modifier = {
+			factor = 0.0001
+			year = 1870
+		}
+	}
+
+	#fire_only_once = yes
+
+	allow_multiple_instances = no
+
+	option = {
+		name = "EVTOPTA36900"
+		state_scope = { any_owned = { secede_province = JAN } }
+		JAN = { country_event = { id = 40005 days = 0 } }
 	}
 }

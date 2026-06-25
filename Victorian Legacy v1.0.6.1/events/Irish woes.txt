@@ -41,7 +41,7 @@ country_event = {
 	
 	option = {
 		name = "Do whatever it takes to help them. (§GMoney§!)"
-		prestige = -50
+		prestige = -25
 		treasury = -1200000
 		set_country_flag = help_for_the_irish
 		set_country_flag = great_irish_famine
@@ -97,7 +97,7 @@ country_event = {
 
 	option = {
 		name = "Do whatever it takes to help them. (§GInfamy§!)"
-		prestige = -50
+		prestige = -25
 		badboy = 8
 		set_country_flag = help_for_the_irish
 		set_country_flag = great_irish_famine

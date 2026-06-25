@@ -1,0 +1,3265 @@
+country_event = {
+    id = 13985
+    title = "Steal Statue Negotiations fall flat"
+    desc = "We have failed to meet the deadline on negotiations over the statue tranport."
+    picture = Picture
+    
+    trigger = {
+        OR = {
+            has_global_flag = negotiating_unequal_statue_treaty_1
+			has_global_flag = negotiating_unequal_statue_treaty_2
+			has_global_flag = negotiating_unequal_statue_treaty_3
+			has_global_flag = negotiating_unequal_statue_treaty_4
+			has_global_flag = negotiating_unequal_statue_treaty_5
+			has_global_flag = negotiating_unequal_statue_treaty_6
+			has_global_flag = negotiating_unequal_statue_treaty_7
+			has_global_flag = negotiating_unequal_statue_treaty_8
+			has_global_flag = negotiating_unequal_statue_treaty_9
+			has_global_flag = negotiating_unequal_statue_treaty_10
+			has_global_flag = negotiating_unequal_statue_treaty_11
+			has_global_flag = negotiating_unequal_statue_treaty_12
+			has_global_flag = negotiating_unequal_statue_treaty_13
+			has_global_flag = negotiating_unequal_statue_treaty_14
+		    has_global_flag = negotiating_unequal_statue_treaty_15
+			has_global_flag = negotiating_unequal_statue_treaty_16
+			has_global_flag = negotiating_unequal_statue_treaty_17
+			has_global_flag = negotiating_unequal_statue_treaty_18
+			has_global_flag = negotiating_unequal_statue_treaty_19 
+        }
+        OR = {
+            has_country_flag = negotiating_steal_statue_1
+            has_country_flag = negotiating_steal_statue_2
+            has_country_flag = negotiating_steal_statue_3
+            has_country_flag = negotiating_steal_statue_4
+            has_country_flag = negotiating_steal_statue_5
+            has_country_flag = negotiating_steal_statue_6
+            has_country_flag = negotiating_steal_statue_7
+            has_country_flag = negotiating_steal_statue_8
+            has_country_flag = negotiating_steal_statue_9
+            has_country_flag = negotiating_steal_statue_10
+            has_country_flag = negotiating_steal_statue_11
+            has_country_flag = negotiating_steal_statue_12
+            has_country_flag = negotiating_steal_statue_13
+            has_country_flag = negotiating_steal_statue_14
+            has_country_flag = negotiating_steal_statue_15
+            has_country_flag = negotiating_steal_statue_16
+            has_country_flag = negotiating_steal_statue_17
+            has_country_flag = negotiating_steal_statue_18
+            has_country_flag = negotiating_steal_statue_19
+            has_country_flag = negotiating_steal_statue_20
+        }
+        NOT = { has_country_modifier = negotiating_statue_treaty }
+    }
+    
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    immediate = {
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_1 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_1
+            clr_country_flag = negotiating_steal_statue_1
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_1 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_1
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_2 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_2
+            clr_country_flag = negotiating_steal_statue_2
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_2 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_2
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_3 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_3
+            clr_country_flag = negotiating_steal_statue_3
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_3 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_3
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_4 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_4
+            clr_country_flag = negotiating_steal_statue_4
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_4 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_4
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_5 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_5
+            clr_country_flag = negotiating_steal_statue_5
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_5 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_5
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_6 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_6
+            clr_country_flag = negotiating_steal_statue_6
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_6 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_6
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_7 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_7
+            clr_country_flag = negotiating_steal_statue_7
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_7 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_7
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_8 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_8
+            clr_country_flag = negotiating_steal_statue_8
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_8 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_8
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_9 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_9
+            clr_country_flag = negotiating_steal_statue_9
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_9 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_9
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_10 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_10
+            clr_country_flag = negotiating_steal_statue_10
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_10 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_10
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_11 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_11
+            clr_country_flag = negotiating_steal_statue_11
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_11 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_11
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_12 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_12
+            clr_country_flag = negotiating_steal_statue_12
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_12 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_12
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_13 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_13
+            clr_country_flag = negotiating_steal_statue_13
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_13 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_13
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_14 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_14
+            clr_country_flag = negotiating_steal_statue_14
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_14 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_14
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_15 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_15
+            clr_country_flag = negotiating_steal_statue_15
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_15 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_15
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_16 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_16
+            clr_country_flag = negotiating_steal_statue_16
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_16 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_16
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_17 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_17
+            clr_country_flag = negotiating_steal_statue_17
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_17 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_17
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_18 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_18
+            clr_country_flag = negotiating_steal_statue_18
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_18 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_18
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_19 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_19
+            clr_country_flag = negotiating_steal_statue_19
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_19 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_19
+            }
+        }
+        random_owned = {
+            limit = { owner = { has_country_flag = negotiating_steal_statue_20 } }
+            clr_global_flag = negotiating_unequal_statue_treaty_20
+            clr_country_flag = negotiating_steal_statue_20
+            any_country = {
+                limit = { has_country_flag = negotiating_unequal_steal_statue_20 }
+                remove_country_modifier = negotiating_unequal_statue_treaty
+                clr_country_flag = negotiating_unequal_steal_statue_20
+            }
+        }
+    }
+
+    option = {
+        name = "Damn...."
+        prestige = -10
+    }
+}
+
+province_event = {
+    id = 13986
+    title = "Move Statue Saint Basil's Cathedral to $PROVINCENAME$?"
+	desc = "Do you wish to move this statue to this province? �RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+    
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { money = 100000 }
+					}
+				}
+				owner = { move_statue_broke = { } }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							war = yes
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				owner = { move_statue_war = { } }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						war = no
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+						money = 100000
+					}
+				}
+				owner = { move_statue_cost = { } }
+			}
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S00
+                add_province_modifier = { name = the_saint_basil_cathedral duration = -1 } 
+                set_province_flag = the_saint_basil_cathedral_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S00
+                        }
+                        remove_core = S00
+                        remove_province_modifier = the_saint_basil_cathedral
+                        clr_province_flag = the_saint_basil_cathedral_built
+                    }
+                }
+            }
+            random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+				}
+			}
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13987
+    title = "Move Brandenburg Gate to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S01
+                add_province_modifier = { name = the_brandenburg_gate duration = -1 } 
+                set_province_flag = the_brandenburg_gate_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S01
+                        }
+                        remove_core = S01
+                        remove_province_modifier = the_brandenburg_gate
+                        clr_province_flag = the_brandenburg_gate_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13988
+    title = "Move Austrian Parliament Building to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S02
+                add_province_modifier = { name = the_austrian_parliament_building duration = -1 } 
+                set_province_flag = the_austrian_parliament_building_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S02
+                        }
+                        remove_core = S02
+                        remove_province_modifier = the_austrian_parliament_building
+                        clr_province_flag = the_austrian_parliament_building_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13989
+    title = "Move Eiffel Tower to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S03
+                add_province_modifier = { name = the_eiffel_tower duration = -1 } 
+                set_province_flag = the_eiffel_tower_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S03
+                        }
+                        remove_core = S03
+                        remove_province_modifier = the_eiffel_tower
+                        clr_province_flag = the_eiffel_tower_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13990
+    title = "Move The White House to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S04
+                add_province_modifier = { name = the_white_house duration = -1 } 
+                set_province_flag = the_white_house_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S04
+                        }
+                        remove_core = S04
+                        remove_province_modifier = the_white_house
+                        clr_province_flag = the_white_house_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13991
+    title = "Move Big Ben to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S05
+                add_province_modifier = { name = the_big_ben duration = -1 } 
+                set_province_flag = the_big_ben_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S05
+                        }
+                        remove_core = S05
+                        remove_province_modifier = the_big_ben
+                        clr_province_flag = the_big_ben_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13992
+    title = "Move Suleymaniye Mosque to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S06
+                add_province_modifier = { name = the_suleymaniye_mosque duration = -1 } 
+                set_province_flag = the_suleymaniye_mosque_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S06
+                        }
+                        remove_core = S06
+                        remove_province_modifier = the_suleymaniye_mosque
+                        clr_province_flag = the_suleymaniye_mosque_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13993
+    title = "Move H?ry?-ji to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S07
+                add_province_modifier = { name = the_horyu_ji duration = -1 } 
+                set_province_flag = the_horyu_ji_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S07
+                        }
+                        remove_core = S07
+                        remove_province_modifier = the_horyu_ji
+                        clr_province_flag = the_horyu_ji_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13994
+    title = "Move The Colosseum to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S08
+                add_province_modifier = { name = the_colosseum duration = -1 } 
+                set_province_flag = the_colosseum_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S08
+                        }
+                        remove_core = S08
+                        remove_province_modifier = the_colosseum
+                        clr_province_flag = the_colosseum_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13995
+    title = "Move Royal Palace of Madrid to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S09
+                add_province_modifier = { name = the_royal_palace_of_madrid duration = -1 } 
+                set_province_flag = the_royal_palace_of_madrid_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S09
+                        }
+                        remove_core = S09
+                        remove_province_modifier = the_royal_palace_of_madrid
+                        clr_province_flag = the_royal_palace_of_madrid_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13996
+    title = "Move Royal Palace of Amsterdam to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S10
+                add_province_modifier = { name = the_royal_palace_of_amsterdam duration = -1 } 
+                set_province_flag = the_royal_palace_of_amsterdam_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S10
+                        }
+                        remove_core = S10
+                        remove_province_modifier = the_royal_palace_of_amsterdam
+                        clr_province_flag = the_royal_palace_of_amsterdam_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13997
+    title = "Move Church of Saint Francis of Assisi to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S11
+                add_province_modifier = { name = the_church_of_saint_francis_of_assisi duration = -1 } 
+                set_province_flag = the_church_of_saint_francis_of_assisi_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S11
+                        }
+                        remove_core = S11
+                        remove_province_modifier = the_church_of_saint_francis_of_assisi
+                        clr_province_flag = the_church_of_saint_francis_of_assisi_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13998
+    title = "Move Belém Tower to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S12
+                add_province_modifier = { name = the_belem_tower duration = -1 } 
+                set_province_flag = the_belem_tower_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S12
+                        }
+                        remove_core = S12
+                        remove_province_modifier = the_belem_tower
+                        clr_province_flag = the_belem_tower_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 13999
+    title = "Move Drottningholm Palace to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S13
+                add_province_modifier = { name = the_drottningholm_palace duration = -1 } 
+                set_province_flag = the_drottningholm_palace_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S13
+                        }
+                        remove_core = S13
+                        remove_province_modifier = the_drottningholm_palace
+                        clr_province_flag = the_drottningholm_palace_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14000
+    title = "Move Masjid-i-Jameh of Isfahan to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S14
+                add_province_modifier = { name = the_masjid_i_jameh_of_isfahan duration = -1 } 
+                set_province_flag = the_masjid_i_jameh_of_isfahan_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S14
+                        }
+                        remove_core = S14
+                        remove_province_modifier = the_masjid_i_jameh_of_isfahan
+                        clr_province_flag = the_masjid_i_jameh_of_isfahan_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14001
+    title = "Move Templo Mayoir to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S15
+                add_province_modifier = { name = the_templo_mayoir duration = -1 } 
+                set_province_flag = the_templo_mayoir_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S15
+                        }
+                        remove_core = S15
+                        remove_province_modifier = the_templo_mayoir
+                        clr_province_flag = the_templo_mayoir_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14002
+    title = "Move Ayutthaya to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S16
+                add_province_modifier = { name = the_ayutthaya duration = -1 } 
+                set_province_flag = the_ayutthaya_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S16
+                        }
+                        remove_core = S16
+                        remove_province_modifier = the_ayutthaya
+                        clr_province_flag = the_ayutthaya_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14003
+    title = "Move Basílica Nuestra Señora del Pilar to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S17
+                add_province_modifier = { name = the_basilica_nuestra_senora_del_pilar duration = -1 } 
+                set_province_flag = the_basilica_nuestra_senora_del_pilar_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S17
+                        }
+                        remove_core = S17
+                        remove_province_modifier = the_basilica_nuestra_senora_del_pilar
+                        clr_province_flag = the_basilica_nuestra_senora_del_pilar_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14004
+    title = "Move The Grand-Place to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S18
+                add_province_modifier = { name = the_grand_place duration = -1 } 
+                set_province_flag = the_grand_place_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S18
+                        }
+                        remove_core = S18
+                        remove_province_modifier = the_grand_place
+                        clr_province_flag = the_grand_place_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14005
+    title = "Move Basílica Menor Nuestra Señora de Lourdes to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S19
+                add_province_modifier = { name = the_basilica_menor_nuestra_senora_de_lourdes duration = -1 } 
+                set_province_flag = the_basilica_menor_nuestra_senora_de_lourdes_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S19
+                        }
+                        remove_core = S19
+                        remove_province_modifier = the_basilica_menor_nuestra_senora_de_lourdes
+                        clr_province_flag = the_basilica_menor_nuestra_senora_de_lourdes_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14006
+    title = "Move Basílica and Convent of San Francisco to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S20
+                add_province_modifier = { name = the_basilica_and_convent_of_san_francisco duration = -1 } 
+                set_province_flag = the_basilica_and_convent_of_san_francisco_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S20
+                        }
+                        remove_core = S20
+                        remove_province_modifier = the_basilica_and_convent_of_san_francisco
+                        clr_province_flag = the_basilica_and_convent_of_san_francisco_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14007
+    title = "Move Fasil Ghebbi to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S21
+                add_province_modifier = { name = the_fasil_ghebbi duration = -1 } 
+                set_province_flag = the_fasil_ghebbi_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S21
+                        }
+                        remove_core = S21
+                        remove_province_modifier = the_fasil_ghebbi
+                        clr_province_flag = the_fasil_ghebbi_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14008
+    title = "Move Palace of the Sultan to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S22
+                add_province_modifier = { name = the_palace_of_the_sultan duration = -1 } 
+                set_province_flag = the_palace_of_the_sultan_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S22
+                        }
+                        remove_core = S22
+                        remove_province_modifier = the_palace_of_the_sultan
+                        clr_province_flag = the_palace_of_the_sultan_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14009
+    title = "Move The Forbidden City to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S23
+                add_province_modifier = { name = the_forbidden_city duration = -1 } 
+                set_province_flag = the_forbidden_city_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S23
+                        }
+                        remove_core = S23
+                        remove_province_modifier = the_forbidden_city
+                        clr_province_flag = the_forbidden_city_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}
+
+province_event = {
+    id = 14010
+    title = "Move Statue of Liberty to $PROVINCENAME$?"
+    desc = "Do you wish to move this statue to this province? §RYou must pay $100k for each transportation of a statue."
+    is_triggered_only = yes
+    allow_multiple_instances = yes
+
+    option = {
+        name = "Yes"
+        add_core = JAN
+        owner = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = { money = 100000 }
+                    }
+                }
+                owner = { move_statue_broke = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            war = yes
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                    }
+                }
+                owner = { move_statue_war = { } }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        war = no
+                        NOT = {
+                            has_country_flag = negotiating_unequal_steal_statue_1
+                            has_country_flag = negotiating_unequal_steal_statue_2
+                            has_country_flag = negotiating_unequal_steal_statue_3
+                            has_country_flag = negotiating_unequal_steal_statue_4
+                            has_country_flag = negotiating_unequal_steal_statue_5
+                            has_country_flag = negotiating_unequal_steal_statue_6
+                            has_country_flag = negotiating_unequal_steal_statue_7
+                            has_country_flag = negotiating_unequal_steal_statue_8
+                            has_country_flag = negotiating_unequal_steal_statue_9
+                            has_country_flag = negotiating_unequal_steal_statue_10
+                            has_country_flag = negotiating_unequal_steal_statue_11
+                            has_country_flag = negotiating_unequal_steal_statue_12
+                            has_country_flag = negotiating_unequal_steal_statue_13
+                            has_country_flag = negotiating_unequal_steal_statue_14
+                            has_country_flag = negotiating_unequal_steal_statue_15
+                            has_country_flag = negotiating_unequal_steal_statue_16
+                            has_country_flag = negotiating_unequal_steal_statue_17
+                            has_country_flag = negotiating_unequal_steal_statue_18
+                            has_country_flag = negotiating_unequal_steal_statue_19
+                            has_country_flag = negotiating_unequal_steal_statue_20
+                        }
+                        money = 100000
+                    }
+                }
+                owner = { move_statue_cost = { } }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                    owner = { money = 100000 }
+                }
+                add_core = S24
+                add_province_modifier = { name = the_statue_of_liberty duration = -1 } 
+                set_province_flag = the_statue_of_liberty_built
+                owner = { money = -100000 }
+                owner = {
+                    random_owned = {
+                        limit = {
+                            is_core = S24
+                        }
+                        remove_core = S24
+                        remove_province_modifier = the_statue_of_liberty
+                        clr_province_flag = the_statue_of_liberty_built
+                    }
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = JAN
+                }
+                owner = {
+                    any_owned = {
+                        limit = {
+                            is_core = JAN
+                        }
+                        remove_core = JAN
+                    }
+                }
+            }
+        }
+    }
+    option = {
+        name = "No"
+    }
+}

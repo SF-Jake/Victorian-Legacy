@@ -841,10 +841,53 @@ political_decisions = {
 		effect = {
 			set_country_flag = ethiopia_colony
 			badboy = 5
-			casus_belli = {
-				target = ETH
-				type = conquest
-				months = 36
+			random_owned = {
+				limit = { owner = { ETH = {exists = yes }} }
+					casus_belli = {
+					target = ETH
+					type = conquest
+					months = 36
+				}
+			}
+			random_owned = {
+				limit = { owner = { GON = {exists = yes } } }
+					casus_belli = {
+					target = GON
+					type = conquest
+					months = 36
+				}
+			}
+			random_owned = {
+				limit = { owner = { TIG = {exists = yes } } }
+					casus_belli = {
+					target = TIG
+					type = conquest
+					months = 36
+				}
+			}
+			random_owned = {
+				limit = { owner = { SHW = {exists = yes } } }
+					casus_belli = {
+					target = SHW
+					type = conquest
+					months = 36
+				}
+			}
+			random_owned = {
+				limit = { owner = { SID = {exists = yes } } }
+					casus_belli = {
+					target = SID
+					type = conquest
+					months = 36
+				}
+			}
+			random_owned = {
+				limit = { owner = { HAR = {exists = yes } } }
+					casus_belli = {
+					target = HAR
+					type = conquest
+					months = 36
+				}
 			}
 		}
 	

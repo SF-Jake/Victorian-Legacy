@@ -1,0 +1,358 @@
+political_decisions = {
+	change_eco_value_on = {
+		alert = no
+		picture = lightbulb_off
+		potential = {
+			has_country_flag = show_options_Y
+			NOT = {	has_country_flag = EconomicReforms }
+			NOT = { has_country_flag = eco_focus }
+			NOT = { has_country_flag = eco_tier4 }
+			OR = {
+				has_country_flag = eco_tier1
+				has_country_flag = eco_tier2
+				has_country_flag = eco_tier3
+			}
+			ai = no
+		}
+		
+		allow = {
+			NOT = {	has_country_modifier = national_confusion }
+			war = no
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = { set_country_flag = EconomicReforms }
+		
+		ai_will_do = { 
+			factor = 0
+			
+			modifier = {
+				factor = 0
+				OR = {
+					is_culture_group = east_asian
+					substate_of = CHI
+				}
+			}
+		}
+	}
+
+	change_eco_value_off = {
+		alert = no
+		picture = lightbulb_on
+		potential = {
+			has_country_flag = show_options_Y
+			has_country_flag = EconomicReforms
+			NOT = { has_country_flag = eco_focus }
+			NOT = { has_country_flag = eco_tier4 }
+			OR = {
+				has_country_flag = eco_tier1
+				has_country_flag = eco_tier2
+				has_country_flag = eco_tier3
+			}
+			ai = no
+		}
+		
+		allow = { }
+		
+		effect = { clr_country_flag = EconomicReforms }
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_military_industry = {
+		potential = {
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = EconomicReforms
+			NOT = { has_country_flag = eco_focus }
+            NOT = { has_country_flag = eco_tier4 }
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion_eco }
+			NOT = { num_of_revolts = 1 }
+            NOT = { 
+                economic_reforms_tier1 = military_industry1
+                economic_reforms_tier2 = military_industry2
+                economic_reforms_tier3 = military_industry3
+                economic_reforms_tier4 = military_industry4
+            }
+		}
+		
+		effect = {
+			clr_country_flag = EconomicReforms
+			add_country_modifier = {
+				name = national_confusion_eco
+				duration = 1825
+			}
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier1 NOT = { has_country_flag = eco_tier2 }  }
+                }
+                owner = { add_country_modifier = { name = military_industry1 duration = 1 } }
+            }
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier2 NOT = { has_country_flag = eco_tier3 }  }
+                }
+                owner = { add_country_modifier = { name = military_industry2 duration = 1 } }
+            }
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier3 }
+                }
+                owner = { add_country_modifier = { name = military_industry3 duration = 1 } }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier1 NOT = { has_country_flag = eco_tier2 }  } }
+                owner = { political_reform = military_industry1 }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier2 NOT = { has_country_flag = eco_tier3 }  } }
+                owner = { political_reform = military_industry2 }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier3 } }
+                owner = { political_reform = military_industry3 }
+            }
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+
+    switch_to_military_logistics = {
+		potential = {
+			has_country_flag = EconomicReforms
+			NOT = { has_country_flag = eco_focus }
+            NOT = { has_country_flag = eco_tier4 }
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion_eco }
+			NOT = { num_of_revolts = 1 }
+            NOT = { 
+                economic_reforms_tier1 = military_logistics1
+                economic_reforms_tier2 = military_logistics2
+                economic_reforms_tier3 = military_logistics3
+                economic_reforms_tier4 = military_logistics4
+            }
+		}
+		
+		effect = {
+			clr_country_flag = EconomicReforms
+			add_country_modifier = {
+				name = national_confusion_eco
+				duration = 1825
+			}
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier1 NOT = { has_country_flag = eco_tier2 }  }
+                }
+                owner = { add_country_modifier = { name = military_logistics1 duration = 1 } }
+            }
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier2 NOT = { has_country_flag = eco_tier3 }  }
+                }
+                owner = { add_country_modifier = { name = military_logistics2 duration = 1 } }
+            }
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier3 }
+                }
+                owner = { add_country_modifier = { name = military_logistics3 duration = 1 } }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier1 NOT = { has_country_flag = eco_tier2 } } }
+                owner = { political_reform = military_logistics1 }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier2 NOT = { has_country_flag = eco_tier3 }  } }
+                owner = { political_reform = military_logistics2 }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier3 } }
+                owner = { political_reform = military_logistics3 }
+            }
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+
+    switch_to_economic_logistics = {
+		potential = {
+			has_country_flag = EconomicReforms
+			NOT = { has_country_flag = eco_focus }
+            NOT = { has_country_flag = eco_tier4 }
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion_eco }
+			NOT = { num_of_revolts = 1 }
+            NOT = { 
+                economic_reforms_tier1 = economic_logistics1
+                economic_reforms_tier2 = economic_logistics2
+                economic_reforms_tier3 = economic_logistics3
+                economic_reforms_tier4 = economic_logistics4
+            }
+		}
+		
+		effect = {
+			clr_country_flag = EconomicReforms
+			add_country_modifier = {
+				name = national_confusion_eco
+				duration = 1825
+			}
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier1 NOT = { has_country_flag = eco_tier2 }  }
+                }
+                owner = { add_country_modifier = { name = economic_logistics1 duration = 1 } }
+            }
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier2 NOT = { has_country_flag = eco_tier3 }  }
+                }
+                owner = { add_country_modifier = { name = economic_logistics2 duration = 1 } }
+            }
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier3 }
+                }
+                owner = { add_country_modifier = { name = economic_logistics3 duration = 1 } }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier1 NOT = { has_country_flag = eco_tier2 }  } }
+                owner = { political_reform = economic_logistics1 }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier2 NOT = { has_country_flag = eco_tier3 }  } }
+                owner = { political_reform = economic_logistics2 }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier3 } }
+                owner = { political_reform = economic_logistics3 }
+            }
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+
+    switch_to_economic_industry = {
+		potential = {
+			has_country_flag = EconomicReforms
+			NOT = { has_country_flag = eco_focus }
+            NOT = { has_country_flag = eco_tier4 }
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = national_confusion_eco }
+			NOT = { num_of_revolts = 1 }
+            NOT = { 
+                economic_reforms_tier1 = economic_industry1
+                economic_reforms_tier2 = economic_industry2
+                economic_reforms_tier3 = economic_industry3
+                economic_reforms_tier4 = economic_industry4
+            }
+		}
+		
+		effect = {
+			clr_country_flag = EconomicReforms
+			add_country_modifier = {
+				name = national_confusion_eco
+				duration = 1825
+			}
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier1 NOT = { has_country_flag = eco_tier2 }  }
+                }
+                owner = { add_country_modifier = { name = economic_industry1 duration = 1 } }
+            }
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier2 NOT = { has_country_flag = eco_tier3 }  }
+                }
+                owner = { add_country_modifier = { name = economic_industry2 duration = 1 } }
+            }
+            random_owned = {
+                limit = {
+                    owner = { has_country_flag = EconomicReforms has_country_flag = eco_tier3 }
+                }
+                owner = { add_country_modifier = { name = economic_industry3 duration = 1 } }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier1 NOT = { has_country_flag = eco_tier2 }   } }
+                owner = { political_reform = economic_industry1 }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier2 NOT = { has_country_flag = eco_tier3 }  } }
+                owner = { political_reform = economic_industry2 }
+            }
+            random_owned = {
+                limit = { owner = { has_country_flag = eco_tier3 } }
+                owner = { political_reform = economic_industry3 }
+            }
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+}

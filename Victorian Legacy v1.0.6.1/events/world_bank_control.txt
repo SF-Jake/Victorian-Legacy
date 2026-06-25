@@ -7,7 +7,9 @@ country_event = {
 	picture = "dixie"
 	
 	trigger = {
-		prestige = 1
+		LCT = {
+			prestige = 1
+		}
 		tag = LCT
 	}
 	
@@ -16,11 +18,14 @@ country_event = {
 	}
 	
 	immediate = {
-		prestige = -100
+		LCT = {
+			prestige = -100
+		}
 	}
 	
 	option = {
 		name = "Alright, sounds good."
+		prestige = -100
 		ai_chance = {
 			factor = 1.0
 		}
@@ -52,6 +57,7 @@ country_event = {
 	
 	option = {
 		name = "Alright, sounds good."
+		prestige = -100
 		ai_chance = {
 			factor = 1.0
 		}

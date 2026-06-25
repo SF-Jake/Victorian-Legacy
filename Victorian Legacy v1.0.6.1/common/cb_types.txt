@@ -45,6 +45,7 @@ status_quo
 gunboat 
 conquest 
 civil_war 
+take_statue
 acquire_core_state_tiny
 acquire_core_state_small
 acquire_core_state_medium
@@ -134,6 +135,24 @@ gunboat = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -242,6 +261,24 @@ conquest = {
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -388,6 +425,24 @@ add_to_sphere = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -459,6 +514,24 @@ take_from_sphere = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -498,6 +571,475 @@ take_from_sphere = {
 	}
 }
 
+take_statue = {
+	sprite_index = 20
+	is_triggered_only = yes
+	months = 12
+	
+	badboy_factor = 0.5
+	prestige_factor = 3
+	peace_cost_factor = 0.003
+	penalty_factor = 0
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		NOT = { has_global_flag = negotiating_unequal_statue_treaty_20 }
+		OR = {
+			any_owned_province = { is_core = S00 } #Saint Basil's Cathedral
+			any_owned_province = { is_core = S01 } #Brandenburg Gate
+			any_owned_province = { is_core = S02 } #Austrian Parliament Building
+			any_owned_province = { is_core = S03 } #Eiffel Tower
+			any_owned_province = { is_core = S04 } #The White House
+			any_owned_province = { is_core = S05 } #Big Ben
+			any_owned_province = { is_core = S06 } #Suleymaniye Mosque
+			any_owned_province = { is_core = S07 } #H?ry?-ji
+			any_owned_province = { is_core = S08 } #The Colosseum
+			any_owned_province = { is_core = S09 } #Royal Palace of Madrid
+			any_owned_province = { is_core = S10 } #Royal Palace of Amsterdam
+			any_owned_province = { is_core = S11 } #Church of Saint Francis of Assisi
+			any_owned_province = { is_core = S12 } #Belém Tower
+			any_owned_province = { is_core = S13 } #Drottningholm Palace
+			any_owned_province = { is_core = S14 } #Masjid-i-Jameh of Isfahan
+			any_owned_province = { is_core = S15 } #Templo Mayoir
+			any_owned_province = { is_core = S16 } #Ayutthaya
+			any_owned_province = { is_core = S17 } #Basílica Nuestra Señora del Pilar
+			any_owned_province = { is_core = S18 } #The Grand-Place
+			any_owned_province = { is_core = S19 } #Basílica Menor Nuestra Señora de Lourdes
+			any_owned_province = { is_core = S20 } #Basílica and Convent of San Francisco
+			any_owned_province = { is_core = S21 } #Fasil Ghebbi
+			any_owned_province = { is_core = S22 } #Palace of the Sultan
+			any_owned_province = { is_core = S23 } #The Forbidden City
+			#Only New world nations can take this modifier.
+			AND = {
+				THIS = { 
+					capital_scope = { 
+						OR = {
+							continent = north_america 
+							continent = south_america 
+						}
+           			}
+				}
+				any_owned_province = { is_core = S24 } # Statue of Liberty
+			}
+		}
+	}
+	
+	po_remove_prestige = yes
+	
+	on_po_accepted = {
+		#Nation who lost
+		add_country_modifier = { name = negotiating_unequal_statue_treaty duration = -1 }
+		#Nation who won
+		THIS = { 
+			add_country_modifier = { name = negotiating_statue_treaty duration = 90 } 
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					has_global_flag = negotiating_unequal_statue_treaty_11
+					has_global_flag = negotiating_unequal_statue_treaty_12
+					has_global_flag = negotiating_unequal_statue_treaty_13
+					has_global_flag = negotiating_unequal_statue_treaty_14
+					has_global_flag = negotiating_unequal_statue_treaty_15
+					has_global_flag = negotiating_unequal_statue_treaty_16
+					has_global_flag = negotiating_unequal_statue_treaty_17
+					has_global_flag = negotiating_unequal_statue_treaty_18
+					has_global_flag = negotiating_unequal_statue_treaty_19 
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_20 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_20 set_country_flag = negotiating_unequal_steal_statue_20 THIS = { set_country_flag = negotiating_steal_statue_20 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					has_global_flag = negotiating_unequal_statue_treaty_11
+					has_global_flag = negotiating_unequal_statue_treaty_12
+					has_global_flag = negotiating_unequal_statue_treaty_13
+					has_global_flag = negotiating_unequal_statue_treaty_14
+					has_global_flag = negotiating_unequal_statue_treaty_15
+					has_global_flag = negotiating_unequal_statue_treaty_16
+					has_global_flag = negotiating_unequal_statue_treaty_17
+					has_global_flag = negotiating_unequal_statue_treaty_18
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_19 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_19 set_country_flag = negotiating_unequal_steal_statue_19 THIS = { set_country_flag = negotiating_steal_statue_19 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					has_global_flag = negotiating_unequal_statue_treaty_11
+					has_global_flag = negotiating_unequal_statue_treaty_12
+					has_global_flag = negotiating_unequal_statue_treaty_13
+					has_global_flag = negotiating_unequal_statue_treaty_14
+					has_global_flag = negotiating_unequal_statue_treaty_15
+					has_global_flag = negotiating_unequal_statue_treaty_16
+					has_global_flag = negotiating_unequal_statue_treaty_17
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_18 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_18 set_country_flag = negotiating_unequal_steal_statue_18 THIS = { set_country_flag = negotiating_steal_statue_18 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					has_global_flag = negotiating_unequal_statue_treaty_11
+					has_global_flag = negotiating_unequal_statue_treaty_12
+					has_global_flag = negotiating_unequal_statue_treaty_13
+					has_global_flag = negotiating_unequal_statue_treaty_14
+					has_global_flag = negotiating_unequal_statue_treaty_15
+					has_global_flag = negotiating_unequal_statue_treaty_16
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_17 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_17 set_country_flag = negotiating_unequal_steal_statue_17 THIS = { set_country_flag = negotiating_steal_statue_17 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					has_global_flag = negotiating_unequal_statue_treaty_11
+					has_global_flag = negotiating_unequal_statue_treaty_12
+					has_global_flag = negotiating_unequal_statue_treaty_13
+					has_global_flag = negotiating_unequal_statue_treaty_14
+					has_global_flag = negotiating_unequal_statue_treaty_15
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_16 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_16 set_country_flag = negotiating_unequal_steal_statue_16 THIS = { set_country_flag = negotiating_steal_statue_16 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					has_global_flag = negotiating_unequal_statue_treaty_11
+					has_global_flag = negotiating_unequal_statue_treaty_12
+					has_global_flag = negotiating_unequal_statue_treaty_13
+					has_global_flag = negotiating_unequal_statue_treaty_14
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_15 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_15 set_country_flag = negotiating_unequal_steal_statue_15 THIS = { set_country_flag = negotiating_steal_statue_15 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					has_global_flag = negotiating_unequal_statue_treaty_11
+					has_global_flag = negotiating_unequal_statue_treaty_12
+					has_global_flag = negotiating_unequal_statue_treaty_13
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_14 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_14 set_country_flag = negotiating_unequal_steal_statue_14 THIS = { set_country_flag = negotiating_steal_statue_14 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					has_global_flag = negotiating_unequal_statue_treaty_11
+					has_global_flag = negotiating_unequal_statue_treaty_12
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_13 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_13 set_country_flag = negotiating_unequal_steal_statue_13 THIS = { set_country_flag = negotiating_steal_statue_13 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					has_global_flag = negotiating_unequal_statue_treaty_11
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_12 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_12 set_country_flag = negotiating_unequal_steal_statue_12 THIS = { set_country_flag = negotiating_steal_statue_12 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					has_global_flag = negotiating_unequal_statue_treaty_10
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_11 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_11 set_country_flag = negotiating_unequal_steal_statue_11 THIS = { set_country_flag = negotiating_steal_statue_11 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					has_global_flag = negotiating_unequal_statue_treaty_9
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_10 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_10 set_country_flag = negotiating_unequal_steal_statue_10 THIS = { set_country_flag = negotiating_steal_statue_10 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					has_global_flag = negotiating_unequal_statue_treaty_8
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_9 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_9 set_country_flag = negotiating_unequal_steal_statue_9 THIS = { set_country_flag = negotiating_steal_statue_9 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					has_global_flag = negotiating_unequal_statue_treaty_7
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_8 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_8 set_country_flag = negotiating_unequal_steal_statue_8 THIS = { set_country_flag = negotiating_steal_statue_8 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					has_global_flag = negotiating_unequal_statue_treaty_6
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_7 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_7 set_country_flag = negotiating_unequal_steal_statue_7 THIS = { set_country_flag = negotiating_steal_statue_7 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					has_global_flag = negotiating_unequal_statue_treaty_5
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_6 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_6 set_country_flag = negotiating_unequal_steal_statue_6 THIS = { set_country_flag = negotiating_steal_statue_6 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					has_global_flag = negotiating_unequal_statue_treaty_4
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_5 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_5 set_country_flag = negotiating_unequal_steal_statue_5 THIS = { set_country_flag = negotiating_steal_statue_5 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					has_global_flag = negotiating_unequal_statue_treaty_3
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_4 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_4 set_country_flag = negotiating_unequal_steal_statue_4 THIS = { set_country_flag = negotiating_steal_statue_4 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					has_global_flag = negotiating_unequal_statue_treaty_2
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_3 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_3 set_country_flag = negotiating_unequal_steal_statue_3 THIS = { set_country_flag = negotiating_steal_statue_3 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					has_global_flag = negotiating_unequal_statue_treaty_1
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_2 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_2 set_country_flag = negotiating_unequal_steal_statue_2 THIS = { set_country_flag = negotiating_steal_statue_2 } }
+		}
+		random_owned = {
+			limit = {
+				owner = { 
+					NOT = { has_global_flag = negotiating_unequal_statue_treaty_1 } 
+				}
+			}
+			owner = { set_global_flag = negotiating_unequal_statue_treaty_1 set_country_flag = negotiating_unequal_steal_statue_1 THIS = { set_country_flag = negotiating_steal_statue_1 } }
+		}
+	}
+	
+	war_name = WAR_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
 # Acquire Core State
 
 acquire_core_state_tiny = {
@@ -525,6 +1067,24 @@ acquire_core_state_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -590,6 +1150,24 @@ acquire_core_state_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -655,6 +1233,24 @@ acquire_core_state_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -720,6 +1316,24 @@ acquire_core_state_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -785,6 +1399,24 @@ acquire_core_state_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -852,6 +1484,24 @@ annex_core_country = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -988,6 +1638,24 @@ acquire_state_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1095,6 +1763,24 @@ acquire_state_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1203,6 +1889,24 @@ acquire_state_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1311,6 +2015,24 @@ acquire_state_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1419,6 +2141,24 @@ acquire_state_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1528,6 +2268,24 @@ place_in_the_sun_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1614,6 +2372,24 @@ place_in_the_sun_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1699,6 +2475,24 @@ place_in_the_sun_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1784,6 +2578,24 @@ place_in_the_sun_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1869,6 +2681,24 @@ place_in_the_sun_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2252,6 +3082,24 @@ free_peoples_tiny = {
 			}
 		}
 		NOT = { year = 1870 }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -2340,6 +3188,24 @@ free_peoples_small = {
 			}
 		}
 		NOT = { year = 1870 }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -2428,6 +3294,24 @@ free_peoples_medium = {
 			}
 		}
 		NOT = { year = 1870 }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -2516,6 +3400,24 @@ free_peoples_large = {
 			}
 		}
 		NOT = { year = 1870 }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -2604,6 +3506,24 @@ free_peoples_huge = {
 			}
 		}
 		NOT = { year = 1870 }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -2697,6 +3617,24 @@ liberate_country = {
 			}
 		}
 		year = 1914
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3017,6 +3955,24 @@ make_puppet = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3208,6 +4164,24 @@ early_scramble_for_africa_conquest = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3269,6 +4243,24 @@ scramble_for_africa_conquest = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3331,6 +4323,24 @@ late_scramble_for_africa_conquest = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3392,6 +4402,24 @@ early_scramble_for_africa_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3462,6 +4490,24 @@ early_scramble_for_africa_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3532,6 +4578,24 @@ early_scramble_for_africa_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3602,6 +4666,24 @@ early_scramble_for_africa_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3672,6 +4754,24 @@ early_scramble_for_africa_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3742,6 +4842,24 @@ scramble_for_africa_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3813,6 +4931,24 @@ scramble_for_africa_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3884,6 +5020,24 @@ scramble_for_africa_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3955,6 +5109,24 @@ scramble_for_africa_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4026,6 +5198,24 @@ scramble_for_africa_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4097,6 +5287,24 @@ late_scramble_for_africa_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4167,6 +5375,24 @@ late_scramble_for_africa_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4237,6 +5463,24 @@ late_scramble_for_africa_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4307,6 +5551,24 @@ late_scramble_for_africa_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4377,6 +5639,24 @@ late_scramble_for_africa_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4447,6 +5727,24 @@ early_scramble_for_africa_capital = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4518,6 +5816,24 @@ scramble_for_africa_capital = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4590,6 +5906,24 @@ late_scramble_for_africa_capital = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4679,6 +6013,24 @@ demand_concession_casus_belli_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4759,6 +6111,24 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4839,6 +6209,24 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4919,6 +6307,24 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4999,6 +6405,24 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -5088,6 +6512,24 @@ establish_protectorate_casus_belli = {
 		}
 		THIS = {
 			civilized = yes
+		}
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
 		}
 		NOT = { 
 			OR = { 
@@ -5452,6 +6894,24 @@ install_communist_gov_cb = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -5617,6 +7077,24 @@ conquest_low = {
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
 		NOT = {	total_pops = 400000 }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -5719,6 +7197,24 @@ take_capital = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -6002,6 +7498,10 @@ demand_for_allies = {
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
 		civilized = yes
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			has_global_flag = taiping_has_happened
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -6076,6 +7576,24 @@ establish_colonial_protectorate_casus_belli = {
 			is_culture_group = west_african
 			is_culture_group = central_african
 			is_culture_group = southern_african
+		}
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
 		}
 		NOT = { 
 			OR = { 
@@ -6154,6 +7672,10 @@ demand_colony_for_allies = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			has_global_flag = taiping_has_happened
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -6231,6 +7753,24 @@ make_puppet_small = {
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
 		is_vassal = no
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
+		}
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -6309,6 +7849,24 @@ make_puppet_large = {
 		OR = {
 			total_pops = 3000000
 			number_of_states = 10
+		}
+		OR = {
+			NOT = { is_culture_group = east_asian }
+			AND = {
+				is_culture_group = east_asian
+				ai = no
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { is_culture_group = east_asian }
+				AND = {
+					is_culture_group = east_asian
+					ai = no
+					has_global_flag = taiping_has_happened
+				}
+			}
 		}
 		NOT = { 
 			OR = { 

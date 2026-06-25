@@ -1,0 +1,514 @@
+#############################
+#        Exploration        #
+#############################
+
+## Discovery of the Source of the Nile
+country_event = {
+
+    id = 23200 # First attempt
+    title = "EVTNAME23200"
+    desc = "EVTDESC23200"
+    picture = "Nile"
+
+    trigger = {
+        ai = no
+        year = 1858 # Will happen sometime after 1866
+        OR = {
+            NOT = { capital_scope = { continent = africa } }
+            rank = 16
+        }
+        NOT = { has_global_flag = lake_victoria_discovered }
+        NOT = { has_country_flag = NoGoToNile }
+        NOT = { has_country_flag = YesGoToNileAgain }
+        NOT = { has_country_flag = YesGoToNile }
+        NOT = { has_country_flag = YesGoToNileThird }
+        NOT = { owns = 2019 } # Entebbe, where direct source of Nile is located
+    }
+
+    mean_time_to_happen = {
+        months = 12
+
+        modifier = {
+            factor = 0.6
+            year = 1870
+        }
+        modifier = {
+            factor = 0.6
+            year = 1875
+        }
+        modifier = {
+            factor = 0.6
+            year = 1880
+        }
+    }
+
+    option = {
+        name = "EVTOPTA23200" # Support the mission
+        ai_chance = {
+            factor = 70
+            modifier = {
+                factor = 0
+                NOT = { money = 11000 }
+            }
+        }
+        money = -10000
+        set_country_flag = YesGoToNile
+    }
+    option = {
+        name = "EVTOPTB23200" # Consider the idea later
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 70
+                NOT = { money = 11000 }
+            }
+        }
+        prestige = -5
+    }
+    option = {
+        name = "EVTOPTC23200" # Reject the idea
+        ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 30
+                NOT = { money = 11000 }
+            }
+        }
+        set_country_flag = NoGoToNile
+        prestige = -10
+    }
+}
+
+country_event = {
+
+    id = 23201 # First attempt fails, try again?
+    title = "EVTNAME23201"
+    desc = "EVTDESC23201"
+    picture = "Nile"
+
+    trigger = {
+        year = 1868 # Will happen sometime after 1868
+        has_country_flag = YesGoToNile
+        NOT = { has_global_flag = lake_victoria_discovered }
+        NOT = { has_country_flag = NoGoToNile }
+    }
+
+    mean_time_to_happen = {
+        months = 12
+
+        modifier = {
+            factor = 0.6
+            year = 1870
+        }
+        modifier = {
+            factor = 0.6
+            year = 1874
+        }
+        modifier = {
+            factor = 0.6
+            year = 1878
+        }
+    }
+
+    option = {
+        name = "EVTOPTA23201" # Fund second attempt
+        ai_chance = {
+            factor = 75
+            modifier = {
+                factor = 0
+                NOT = { money = 21000 }
+            }
+        }
+        money = -20000
+        set_country_flag = YesGoToNileAgain
+        clr_country_flag = YesGoToNile
+    }
+    option = {
+        name = "EVTOPTB23201" # Reject second attempt
+        ai_chance = {
+            factor = 25
+            modifier = {
+                factor = 100
+                NOT = { money = 21000 }
+            }
+        }
+        clr_country_flag = YesGoToNile
+        set_country_flag = NoGoToNile
+        prestige = -25
+    }
+}
+
+country_event = {
+
+    id = 23202 # Our Mission to the Nile is lost
+    title = "EVTNAME23202"
+    desc = "EVTDESC23202"
+    picture = "Nile"
+
+    trigger = {
+        year = 1869 # Will happen sometime after 1869
+        has_country_flag = YesGoToNileAgain
+        NOT = { has_global_flag = lake_victoria_discovered }
+        NOT = { has_country_flag = NoGoToNile }
+    }
+
+    mean_time_to_happen = {
+        months = 24
+
+        modifier = {
+            factor = 0.3
+            year = 1873
+        }
+        modifier = {
+            factor = 0.6
+            year = 1874
+        }
+        modifier = {
+            factor = 0.8
+            year = 1877
+        }
+    }
+
+    option = {
+        name = "EVTOPTA23201" # Fund third attempt
+        ai_chance = {
+            factor = 75
+            modifier = {
+                factor = 0
+                NOT = { money = 31000 }
+            }
+        }
+        money = -30000
+        set_country_flag = YesGoToNileThird
+        clr_country_flag = YesGoToNileAgain
+    }
+    option = {
+        name = "EVTOPTB23201" # Reject second attempt
+        ai_chance = {
+            factor = 25
+            modifier = {
+                factor = 100
+                NOT = { money = 31000 }
+            }
+        }
+        clr_country_flag = YesGoToNileAgain
+        set_country_flag = NoGoToNile
+        prestige = -25
+    }
+}
+
+## Discovery of Lake Victoria
+country_event = {
+    id = 232000001
+    title = "EVTNAME232000000"
+    desc = "EVTDESC232000003"
+    picture = "Nile"
+
+    major = yes
+    allow_multiple_instances = no
+
+    trigger = {
+        ai = no
+        OR = {
+            owns = 2044
+            owns = 2028
+            owns = 2023
+            owns = 2019
+            has_country_flag = YesGoToNileAgain
+            has_country_flag = YesGoToNile
+            has_country_flag = YesGoToNileThird
+        }
+        OR = {
+            primary_culture = british
+            primary_culture = french
+            is_culture_group = italian
+            primary_culture = turkish
+            is_culture_group = iberian
+            is_culture_group = scandinavian
+            is_culture_group = beneluxian
+            primary_culture = north_german 
+            tag = PRU 
+            tag = NGF 
+            tag = GER 
+            tag = HLR
+            primary_culture = south_german 
+            tag = AUS 
+            tag = KUK 
+            tag = DNB 
+            tag = SGF
+            is_culture_group = east_slavic
+            is_culture_group = far_east_asian
+            is_culture_group = american_cultures
+        }
+        OR = {
+            NOT = { capital_scope = { continent = africa } }
+            rank = 24
+        }
+        NOT = { has_global_flag = lake_victoria_discovered }
+        NOT = { has_country_flag = NoGoToNile }
+    }
+    
+
+    mean_time_to_happen = {
+        months = 500
+
+        modifier = {
+            factor = 0.9
+            year = 1860
+        }
+        modifier = {
+            factor = 0.9
+            year = 1862
+        }
+        modifier = {
+            factor = 0.9
+            year = 1864
+        }
+
+        modifier = {
+            factor = 0.6
+            rank = 1
+            NOT = { rank = 2 }
+        }
+
+        modifier = {
+            factor = 2
+            NOT = { capital_scope = { continent = europe } }
+        }
+
+        modifier = {
+            factor = 0.01
+            OR = {
+                owns = 2044
+                owns = 2028
+                owns = 2023
+                owns = 2019
+            }
+        }
+    }
+
+    option = {
+        name = "Propose the first name?" # Name it first option
+        set_global_flag = lake_victoria_discovered
+        prestige = 150
+        #UK
+        random_owned = { limit = { owner = { primary_culture = british } } 3102 = { change_province_name = "Lake Victoria" } }
+        #France
+        random_owned = { limit = { owner = { primary_culture = french } } 3102 = { change_province_name = "Lake Napoleon" } }
+        #Italy
+        random_owned = { limit = { owner = { is_culture_group = italian } } 3102 = { change_province_name = "Lake Vittorio" } }
+        #Ottomans
+        random_owned = { limit = { owner = { primary_culture = turkish } } 3102 = { change_province_name = "Lake Mohammad" } }
+        #Spain/Portugal
+        random_owned = { limit = { owner = { is_culture_group = iberian }  } 3102 = { change_province_name = "Lake Iberia" } }
+        #Sweden
+        random_owned = { limit = { owner = { is_culture_group = scandinavian } } 3102 = { change_province_name = "Lake Scandinavia" } }
+        #Netherlands
+        random_owned = { limit = { owner = { is_culture_group = beneluxian } } 3102 = { change_province_name = "Lake Benelux" } }
+        #Germany
+        random_owned = { limit = { owner = { OR = { primary_culture = north_german tag = PRU tag = NGF tag = GER tag = HLR } } } 3102 = { change_province_name = "Kaiser Lake" } }
+        #Austria
+        random_owned = { limit = { owner = { OR = { primary_culture = south_german tag = AUS tag = KUK tag = DNB tag = SGF } } } 3102 = { change_province_name = "Mittelafrika Lake" } }
+        #Russia
+        random_owned = { limit = { owner = { is_culture_group = east_slavic } } 3102 = { change_province_name = "Tsar Lake" } }
+        #Japan
+        random_owned = { limit = { owner = { is_culture_group = far_east_asian } } 3102 = { change_province_name = "Nippon Lake" } }
+        #USA
+        random_owned = { limit = { owner = { is_culture_group = american_cultures } } 3102 = { change_province_name = "Washington Lake" } }
+        
+    }
+
+    option = {
+        name = "Propose the second name?" # Name it second option
+        set_global_flag = lake_victoria_discovered
+        prestige = 150
+
+        #UK
+        random_owned = { limit = { owner = { primary_culture = british } } 3102 = { change_province_name = "Lake Britannia" } }
+        #France
+        random_owned = { limit = { owner = { primary_culture = french } } 3102 = { change_province_name = "Lake Bourbon" } }
+        #Italy
+        random_owned = { limit = { owner = { is_culture_group = italian } } 3102 = { change_province_name = "Lake Italia" } }
+        #Ottomans
+        random_owned = { limit = { owner = { primary_culture = turkish } } 3102 = { change_province_name = "Lake Ottoman" } }
+        #Spain/Portugal
+        random_owned = { limit = { owner = { is_culture_group = iberian }  } 3102 = { change_province_name = "Lake Castille" } }
+        #Sweden
+        random_owned = { limit = { owner = { is_culture_group = scandinavian } } 3102 = { change_province_name = "Lake Jutland" } }
+        #Netherlands
+        random_owned = { limit = { owner = { is_culture_group = beneluxian } } 3102 = { change_province_name = "Dutch Lake" } }
+        #Germany
+        random_owned = { limit = { owner = { OR = { primary_culture = north_german tag = PRU tag = NGF tag = GER tag = HLR } } } 3102 = { change_province_name = "Lake Germania" } }
+        #Austria
+        random_owned = { limit = { owner = { OR = { primary_culture = south_german tag = AUS tag = KUK tag = DNB tag = SGF } } } 3102 = { change_province_name = "Austrian Lake" } }
+        #Russia
+        random_owned = { limit = { owner = { is_culture_group = east_slavic } } 3102 = { change_province_name = "Lake Nicholas" } }
+        #Japan
+        random_owned = { limit = { owner = { is_culture_group = far_east_asian } } 3102 = { change_province_name = "Shogunate Lake" } }
+        #USA
+        random_owned = { limit = { owner = { is_culture_group = american_cultures } } 3102 = { change_province_name = "Lake of Freedom" } }
+    }
+
+    option = {
+        name = "Propose the third name?" # Name it third option
+        set_global_flag = lake_victoria_discovered
+        prestige = 150
+        #UK
+        random_owned = { limit = { owner = { primary_culture = british } } 3102 = { change_province_name = "Lake Wellington" } }
+        #France
+        random_owned = { limit = { owner = { primary_culture = french } } 3102 = { change_province_name = "Lake Francia" } }
+        #Italy
+        random_owned = { limit = { owner = { is_culture_group = italian } } 3102 = { change_province_name = "Caesar Lake" } }
+        #Ottomans
+        random_owned = { limit = { owner = { primary_culture = turkish } } 3102 = { change_province_name = "Lake Islam" } }
+        #Spain/Portugal
+        random_owned = { limit = { owner = { is_culture_group = iberian }  } 3102 = { change_province_name = "Lake Aragon" } }
+        #Sweden
+        random_owned = { limit = { owner = { is_culture_group = scandinavian } } 3102 = { change_province_name = "Lake Adolphus" } }
+        #Netherlands
+        random_owned = { limit = { owner = { is_culture_group = beneluxian } } 3102 = { change_province_name = "Racist97 Lake" } }
+        #Germany
+        random_owned = { limit = { owner = { OR = { primary_culture = north_german tag = PRU tag = NGF tag = GER tag = HLR } } } 3102 = { change_province_name = "Mittelafrika Lake" } }
+        #Austria
+        random_owned = { limit = { owner = { OR = { primary_culture = south_german tag = AUS tag = KUK tag = DNB tag = SGF } } } 3102 = { change_province_name = "Holy Imperial Lake" } }
+        #Russia
+        random_owned = { limit = { owner = { is_culture_group = east_slavic } } 3102 = { change_province_name = "Rossiya Lake" } }
+        #Japan
+        random_owned = { limit = { owner = { is_culture_group = far_east_asian } } 3102 = { change_province_name = "Meiji Lake" } }
+        #USA
+        random_owned = { limit = { owner = { is_culture_group = american_cultures } } 3102 = { change_province_name = "Jefferson Lake" } }
+    }
+}
+
+## Generic Discovery of Lake Victoria
+country_event = {
+    id = 232000002
+    title = "EVTNAME232000000"
+    desc = "EVTDESC232000003"
+    picture = "Nile"
+
+    major = yes
+    allow_multiple_instances = no
+
+    trigger = {
+        ai = no
+        OR = {
+            owns = 2044
+            owns = 2028
+            owns = 2023
+            owns = 2019
+            has_country_flag = YesGoToNileAgain
+            has_country_flag = YesGoToNile
+            has_country_flag = YesGoToNileThird
+        }
+        NOT = {
+            primary_culture = british
+            primary_culture = french
+            is_culture_group = italian
+            primary_culture = turkish
+            is_culture_group = iberian
+            is_culture_group = scandinavian
+            is_culture_group = beneluxian
+            primary_culture = north_german 
+            tag = PRU 
+            tag = NGF 
+            tag = GER 
+            tag = HLR
+            primary_culture = south_german 
+            tag = AUS 
+            tag = KUK 
+            tag = DNB 
+            tag = SGF
+            is_culture_group = east_slavic
+            is_culture_group = far_east_asian
+            is_culture_group = american_cultures
+        }
+        OR = {
+            NOT = { capital_scope = { continent = africa } }
+            rank = 16
+        }
+        NOT = { has_global_flag = lake_victoria_discovered }
+        NOT = { has_country_flag = NoGoToNile }
+    }
+    
+
+    mean_time_to_happen = {
+        months = 500
+
+        modifier = {
+            factor = 0.9
+            year = 1860
+        }
+        modifier = {
+            factor = 0.9
+            year = 1862
+        }
+        modifier = {
+            factor = 0.9
+            year = 1864
+        }
+
+        modifier = {
+            factor = 0.6
+            rank = 1
+            NOT = { rank = 2 }
+        }
+
+        modifier = {
+            factor = 2
+            NOT = { capital_scope = { continent = europe } }
+        }
+
+        modifier = {
+            factor = 0.01
+            OR = {
+                owns = 2044
+                owns = 2028
+                owns = 2023
+                owns = 2019
+            }
+        }
+    }
+
+    option = {
+        name = "Propose the first name?" # Name it first option
+        set_global_flag = lake_victoria_discovered
+        prestige = 150
+        3102 = { change_province_name = "Imperial Lake" } 
+    }
+
+    option = {
+        name = "Propose the second name?" # Name it second option
+        set_global_flag = lake_victoria_discovered
+        prestige = 150
+        3102 = { change_province_name = "Lake Nautilus" } 
+    }
+
+    option = {
+        name = "Propose the third name?" # Name it third option
+        set_global_flag = lake_victoria_discovered
+        prestige = 150
+        3102 = { change_province_name = "Lake Africanus" } 
+    }
+
+    option = {
+        name = "Propose the fourth name?" # Name it fourth option
+        set_global_flag = lake_victoria_discovered
+        prestige = 150
+        3102 = { change_province_name = "Atlantis Lake" } 
+    }
+
+    option = {
+        name = "Propose the fifth name?" # Name it fifth option
+        set_global_flag = lake_victoria_discovered
+        prestige = 150
+        3102 = { change_province_name = "Royal Lake" } 
+    }
+
+    option = {
+        name = "Propose the sixth name?" # Name it sixth option
+        set_global_flag = lake_victoria_discovered
+        prestige = 150
+        3102 = { change_province_name = "Colonial Lake" } 
+    }
+}

@@ -1,0 +1,39 @@
+eco_tier1_unlocked = {
+	limit = { stock_exchange = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+	}
+}
+
+eco_tier2_unlocked = {
+	limit = { business_banks = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+	}
+}
+
+eco_tier3_unlocked = {
+	limit = { investment_banks = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+	}
+}
+
+eco_tier4_unlocked = {
+	limit = { bank_inspection_board = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+	}
+}

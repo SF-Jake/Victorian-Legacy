@@ -430,8 +430,19 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA80000"
-				MCK = {
-			country_event = { id=80002 days=0 }
+		MCK = { 
+			random_owned = {
+				limit = {
+					owner = { 1082 = { owned_by = MCK } }
+				}
+				owner = { country_event = { id=80002 days=0 }  }
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { 1082 = { owned_by = THIS } }
+			}
+			owner = { country_event = { id=80002 days=0 }  }
 		}
 		ai_chance = {
 			factor = 90
@@ -486,6 +497,8 @@ country_event = {
 		name = "EVTOPTA80000"
 		CHI_1082 = {
 			secede_province = RUS
+			remove_core = CHI
+			remove_core = MCK
 		}
 	}
 }

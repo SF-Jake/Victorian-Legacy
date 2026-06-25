@@ -1,9 +1,12 @@
 owner = USA
-controller = USA
-add_core = USA
+
+controller = USA
+
+add_core = USA
 trade_goods = grain
 life_rating = 35
 fort = 1
+set_province_flag = the_white_house_built
 state_building = {
 	level = 1
 	building = ammunition_factory

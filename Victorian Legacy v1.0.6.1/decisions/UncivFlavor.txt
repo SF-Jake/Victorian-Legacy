@@ -240,9 +240,48 @@ political_decisions = {
 			KHI_1191 = { add_core = THIS }
 			BUK_1207 = { add_core = THIS }
 			KOK_1190 = { add_core = THIS }
+		}
+	}
+
+	core_xinjiang = {
+		potential = { 
+			tag = TIM
+		}
+	
+		allow = {
+			nationalism_n_imperialism = 1
+			CHI_1600 = { owned_by = THIS }
+		}
+	
+		effect = {
+			CHI_1600 = { add_core = THIS }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	core_the_uralsk = {
+		potential = { 
+			tag = TIM
+		}
+	
+		allow = {
+			revolution_n_counterrevolution = 1
+			RUS_1185 = { owned_by = THIS }
+			RUS_1184 = { owned_by = THIS }
+			RUS_1182 = { owned_by = THIS }
+		}
+	
+		effect = {
 			RUS_1185 = { add_core = THIS }
 			RUS_1184 = { add_core = THIS }
 			RUS_1182 = { add_core = THIS }
+		}
+	
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	

@@ -96,37 +96,6 @@ country_event = {
 		}
 	}
 }
-#########################################################################
-# 							REMINDERS									#
-#########################################################################
-country_event = {
-	id = 91310
-	title = "Baby Boom Reminder"
-	desc = "Your baby boom cooldown timer has expired. You can now use another baby boom decision."
-	picture = assimilation
-
-
-	trigger = {
-		ai = no
-		year = 1837
-		NOT = {
-			year = 1913
-			has_global_flag = 1913_bookmark
-		}
-		NOT = { has_country_modifier = baby_booming }
-		NOT = { has_country_flag = baby_boom_reminder }
-		any_owned_province = {
-			state_scope = {
-				NOT = { total_pops = 1000000 }
-			}
-		}
-	}
-
-	option = {
-		name = "OK."
-		set_country_flag = baby_boom_reminder
-	}
-}
 
 #########################################################################
 # 						AI MINE EXPANSION								#
@@ -585,16 +554,38 @@ country_event = {
 	}
 }
 
-#########################################################################
-# 							Conscription Start							#
-#########################################################################
-
 country_event = {
-	id = 40003
-	title = "Choose a Economic Reform"
-	desc = "Pick which Economic Focus you wish to choose for your nation. You can change this whenever you want with Force Reform."
+	id = 40005
+	title = "State to Colony"
+	desc = ""
 
 	is_triggered_only = yes
+
+	option = {
+		any_owned = {
+			limit = {
+				NOT = { is_core = THIS }
+				NOT = { province_id = 3246 }
+			}
+			secede_province = ENG
+		}
+	}
+}
+
+#########################################################################
+# 							Economic Start								#
+#########################################################################
+
+#Day 1 Starting Reform Event
+country_event = {
+	id = 40010
+	title = "Choose a Economic Reform"
+	desc = "Pick which Economic Focus you wish to choose for your nation. You can change this whenever you want with a decision."
+
+	trigger = {
+		stock_exchange = 1
+		NOT = { has_country_flag = eco_tier1 }
+	}
 
 	immediate = {
 		set_country_flag = eco_focus
@@ -603,56 +594,227 @@ country_event = {
 	option = {
 		name = "Military Industry"
 		clr_country_flag = eco_focus
-		political_reform = military_industry
+		set_country_flag = eco_tier1
+		political_reform = military_industry1
 		random_owned = {
-			limit = {
-				owner = { has_country_flag = eco_focus } }
-			}
-			owner = { add_country_modifier = { name = military_industry duration = 1 }
+			limit = { owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = military_industry1 duration = 1 } }
 		}
 	}
 	option = {
 		name = "Military Logistics"
 		clr_country_flag = eco_focus
-		political_reform = military_logistics
+		set_country_flag = eco_tier1
+		political_reform = military_logistics1
 		random_owned = {
 			limit = {
 				owner = { has_country_flag = eco_focus } }
-			}
-			owner = { add_country_modifier = { name = military_logistics duration = 1 }
-		}
-	}
-	option = {
-		name = "No Focus"
-		clr_country_flag = eco_focus
-		political_reform = no_focus
-		random_owned = {
-			limit = {
-				owner = { has_country_flag = eco_focus } }
-			}
-			owner = { add_country_modifier = { name = no_focus duration = 1 }
+			owner = { add_country_modifier = { name = military_logistics1 duration = 1 } }
 		}
 	}
 	option = {
 		name = "Economic Logistics"
 		clr_country_flag = eco_focus
-		political_reform = economic_logistics
+		set_country_flag = eco_tier1
+		political_reform = economic_logistics1
 		random_owned = {
 			limit = {
 				owner = { has_country_flag = eco_focus } }
-			}
-			owner = { add_country_modifier = { name = economic_logistics duration = 1 }
+			owner = { add_country_modifier = { name = economic_logistics1 duration = 1 } }
 		}
 	}
 	option = {
 		name = "Economic Industry"
 		clr_country_flag = eco_focus
-		political_reform = economic_industry
+		set_country_flag = eco_tier1
+		political_reform = economic_industry1
 		random_owned = {
 			limit = {
 				owner = { has_country_flag = eco_focus } }
-			}
-			owner = { add_country_modifier = { name = economic_industry duration = 1 }
+			owner = { add_country_modifier = { name = economic_industry1 duration = 1 } }
+		}
+	}
+}
+
+country_event = {
+	id = 40011
+	title = "Choose a Economic Reform Tier 2"
+	desc = "Pick which Economic Focus you wish to choose for your nation. You can change this whenever you want with a decision."
+
+	trigger = {
+		business_banks = 1
+		NOT = { has_country_flag = eco_tier2 }
+	}
+
+	immediate = {
+		set_country_flag = eco_focus
+		political_reform = tiered_up1
+	}
+
+	option = {
+		name = "Military Industry"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier2
+		political_reform = military_industry2
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = military_industry2 duration = 1 } }
+		}
+	}
+	option = {
+		name = "Military Logistics"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier2
+		political_reform = military_logistics2
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = military_logistics2 duration = 1 } }
+		}
+	}
+	option = {
+		name = "Economic Logistics"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier2
+		political_reform = economic_logistics2
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = economic_logistics2 duration = 1 } }
+		}
+	}
+	option = {
+		name = "Economic Industry"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier2
+		political_reform = economic_industry2
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = economic_industry2 duration = 1 } }
+		}
+	}
+}
+
+country_event = {
+	id = 40012
+	title = "Choose a Economic Reform Tier 3"
+	desc = "Pick which Economic Focus you wish to choose for your nation. You can change this whenever you want with a decision."
+
+	trigger = {
+		investment_banks = 1
+		NOT = { has_country_flag = eco_tier3 }
+	}
+
+	immediate = {
+		set_country_flag = eco_focus
+		political_reform = tiered_up2
+	}
+
+	option = {
+		name = "Military Industry"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier3
+		political_reform = military_industry3
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = military_industry3 duration = 1 } }
+		}
+	}
+	option = {
+		name = "Military Logistics"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier3
+		political_reform = military_logistics3
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = military_logistics3 duration = 1 } }
+		}
+	}
+	option = {
+		name = "Economic Logistics"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier3
+		political_reform = economic_logistics3
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = economic_logistics3 duration = 1 } }
+		}
+	}
+	option = {
+		name = "Economic Industry"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier3
+		political_reform = economic_industry3
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = economic_industry3 duration = 1 } }
+		}
+	}
+}
+
+country_event = {
+	id = 40013
+	title = "Choose a Economic Reform Tier 4"
+	desc = "Pick which Economic Focus you wish to choose for your nation. §RYou can not change from a tier 4 focus this is your final choice."
+
+	trigger = {
+		bank_inspection_board = 1
+		NOT = { has_country_flag = eco_tier4 }
+	}
+
+	immediate = {
+		set_country_flag = eco_focus
+		political_reform = tiered_up3
+	}
+
+	option = {
+		name = "Military Industry"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier4
+		political_reform = military_industry4
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = military_industry4 duration = 1 } }
+		}
+	}
+	option = {
+		name = "Military Logistics"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier4
+		political_reform = military_logistics4
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = military_logistics4 duration = 1 } }
+		}
+	}
+	option = {
+		name = "Economic Logistics"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier4
+		political_reform = economic_logistics4
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = economic_logistics4 duration = 1 } }
+		}
+	}
+	option = {
+		name = "Economic Industry"
+		clr_country_flag = eco_focus
+		set_country_flag = eco_tier4
+		political_reform = economic_industry4
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = eco_focus } }
+			owner = { add_country_modifier = { name = economic_industry4 duration = 1 } }
 		}
 	}
 }

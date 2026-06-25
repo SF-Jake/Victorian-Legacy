@@ -4243,57 +4243,59 @@ political_decisions = {
 		}
 		
 		allow = {
-			1102 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1104 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1186 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1182 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1205 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1202 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1107 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1393 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			132 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			667 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			672 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1168 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			110 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			180 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			89 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			133 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			126 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1399 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1055 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1401 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1425 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1432 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1335 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			134 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			705 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1260 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1086 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			129 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1680 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			2173 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			87 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			2162 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			2163 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			702 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1397 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			2237 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			2396 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			2391 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1108 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1051 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			2270 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1163 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1732 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1720 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1132 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			1170 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			26 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			2291 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			849 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			928 = { has_province_modifier = oil_location trade_goods = oil } empty = no
-			923 = { has_province_modifier = oil_location trade_goods = oil } empty = no
+			OR = {
+				1102 = { has_province_modifier = oil_location trade_goods = oil }
+				1104 = { has_province_modifier = oil_location trade_goods = oil }
+				1186 = { has_province_modifier = oil_location trade_goods = oil }
+				1182 = { has_province_modifier = oil_location trade_goods = oil }
+				1205 = { has_province_modifier = oil_location trade_goods = oil }
+				1202 = { has_province_modifier = oil_location trade_goods = oil }
+				1107 = { has_province_modifier = oil_location trade_goods = oil }
+				1393 = { has_province_modifier = oil_location trade_goods = oil }
+				132 = { has_province_modifier = oil_location trade_goods = oil }
+				667 = { has_province_modifier = oil_location trade_goods = oil }
+				672 = { has_province_modifier = oil_location trade_goods = oil }
+				1168 = { has_province_modifier = oil_location trade_goods = oil }
+				110 = { has_province_modifier = oil_location trade_goods = oil }
+				180 = { has_province_modifier = oil_location trade_goods = oil }
+				89 = { has_province_modifier = oil_location trade_goods = oil }
+				133 = { has_province_modifier = oil_location trade_goods = oil }
+				126 = { has_province_modifier = oil_location trade_goods = oil }
+				1399 = { has_province_modifier = oil_location trade_goods = oil }
+				1055 = { has_province_modifier = oil_location trade_goods = oil }
+				1401 = { has_province_modifier = oil_location trade_goods = oil }
+				1425 = { has_province_modifier = oil_location trade_goods = oil }
+				1432 = { has_province_modifier = oil_location trade_goods = oil }
+				1335 = { has_province_modifier = oil_location trade_goods = oil }
+				134 = { has_province_modifier = oil_location trade_goods = oil }
+				705 = { has_province_modifier = oil_location trade_goods = oil }
+				1260 = { has_province_modifier = oil_location trade_goods = oil }
+				1086 = { has_province_modifier = oil_location trade_goods = oil }
+				129 = { has_province_modifier = oil_location trade_goods = oil }
+				1680 = { has_province_modifier = oil_location trade_goods = oil }
+				2173 = { has_province_modifier = oil_location trade_goods = oil }
+				87 = { has_province_modifier = oil_location trade_goods = oil }
+				2162 = { has_province_modifier = oil_location trade_goods = oil }
+				2163 = { has_province_modifier = oil_location trade_goods = oil }
+				702 = { has_province_modifier = oil_location trade_goods = oil }
+				1397 = { has_province_modifier = oil_location trade_goods = oil }
+				2237 = { has_province_modifier = oil_location trade_goods = oil }
+				2396 = { has_province_modifier = oil_location trade_goods = oil }
+				2391 = { has_province_modifier = oil_location trade_goods = oil }
+				1108 = { has_province_modifier = oil_location trade_goods = oil }
+				1051 = { has_province_modifier = oil_location trade_goods = oil }
+				2270 = { has_province_modifier = oil_location trade_goods = oil }
+				1163 = { has_province_modifier = oil_location trade_goods = oil }
+				1732 = { has_province_modifier = oil_location trade_goods = oil }
+				1720 = { has_province_modifier = oil_location trade_goods = oil }
+				1132 = { has_province_modifier = oil_location trade_goods = oil }
+				1170 = { has_province_modifier = oil_location trade_goods = oil }
+				26 = { has_province_modifier = oil_location trade_goods = oil }
+				2291 = { has_province_modifier = oil_location trade_goods = oil }
+				849 = { has_province_modifier = oil_location trade_goods = oil }
+				928 = { has_province_modifier = oil_location trade_goods = oil }
+				923 = { has_province_modifier = oil_location trade_goods = oil }
+			}
 		}
 		
 		effect = {
@@ -4376,6 +4378,7 @@ political_decisions = {
 		allow = {
 			META_1 = {
 				owner = {
+					civilized = yes
 					NOT = { has_country_flag = rnd_off }
 					OR = {
 						AND = {
@@ -4437,7 +4440,6 @@ political_decisions = {
 		}
 	
 		effect = {
-			
 			any_country = {
 				limit = {
 					OR = {
@@ -4546,7 +4548,629 @@ political_decisions = {
 		}
 	}
 
-	#Commented out code for checking any provinces that don't have mine terrain modifier for Mine Expansion Building.
+	row_completion_tech = {
+		picture = row_completion_tech
+	
+		potential = { 
+			tag = JAN
+		}
+	
+		allow = {
+			META_1 = {
+				owner = {
+					OR = {
+						AND = {
+							post_napoleonic_thought = 1
+							flintlock_rifles = 1
+							bronze_muzzle_loaded_artillery = 1
+							military_staff_system = 1
+							army_command_principle = 1
+							NOT = { army_row_completion1 = 1 }
+						}
+						AND = {
+							strategic_mobility = 1
+							muzzle_loaded_rifles = 1
+							iron_muzzle_loaded_artillery = 1
+							military_plans = 1
+							army_professionalism = 1
+							NOT = { army_row_completion2 = 1 }
+						}
+						AND = {
+							point_defense_system = 1
+							breech_loaded_rifles = 1
+							iron_breech_loaded_artillery = 1
+							military_statistics = 1
+							army_decision_making = 1
+							OR = {
+								NOT = { army_row_completion3 = 1 }
+								NOT = { has_country_modifier = army_row_completion2 }
+							}
+						}
+						AND = {
+							deep_defense_system = 1
+							machine_guns = 1
+							steel_breech_loaded_artillery = 1
+							military_logistics = 1
+							army_risk_management = 1
+							NOT = { army_row_completion4 = 1 }
+						}
+						AND = {
+							infiltration = 1
+							bolt_action_rifles = 1
+							indirect_artillery_fire = 1
+							military_directionism = 1
+							army_nco_training = 1
+							NOT = { army_row_completion5 = 1 }
+						}
+						AND = {
+							modern_army_doctrine = 1
+							modern_divisional_structure = 1
+							heavy_armament_dunno = 1
+							aeronautics = 1
+							great_war_experience = 1
+							NOT = { army_row_completion6 = 1 }
+						}
+						AND = {
+							private_banks = 1
+							no_standard = 1
+							early_classical_theory_and_critique = 1
+							freedom_of_trade = 1
+							guild_based_production = 1
+							NOT = { commerce_row_completion1 = 1 }
+						}
+						AND = {
+							stock_exchange = 1
+							ad_hoc_money_bill_printing = 1
+							late_classical_theory = 1
+							market_structure = 1
+							organized_factories = 1
+							NOT = { commerce_row_completion2 = 1 }
+						}
+						AND = {
+							business_banks = 1
+							private_bank_money_bill_printing = 1
+							collectivist_theory = 1
+							business_regulations = 1
+							scientific_management = 1
+							NOT = { commerce_row_completion3 = 1 }
+						}
+						AND = {
+							investment_banks = 1
+							central_bank_money_bill_printing = 1
+							the_historical_theory = 1
+							market_regulations = 1
+							time_saving_measures = 1
+							NOT = { commerce_row_completion4 = 1 }
+						}
+						AND = {
+							bank_inspection_board = 1
+							modern_central_bank_system = 1
+							neoclassical_theory = 1
+							economic_responsibility = 1
+							management_strategy = 1
+							OR = {
+								NOT = { has_country_modifier = commerce_row_completion4 }
+								NOT = { commerce_row_completion5 = 1 }
+							}
+						}
+						AND = {
+							mutual_funds = 1
+							market_determined_exchange_rates = 1
+							keynesian_economics = 1
+							government_interventionism = 1
+							organizational_development = 1
+							OR = {
+								NOT = { has_country_modifier = commerce_row_completion5 }
+								NOT = { commerce_row_completion6 = 1 }
+							}
+						}
+						AND = {
+							classicism_n_early_romanticism = 1
+							late_enlightenment_philosophy = 1
+							malthusian_thought = 1
+							enlightenment_thought = 1
+							introspectionism = 1
+							NOT = { culture_row_completion1 = 1 }
+						}
+						AND = {
+							romanticism = 1
+							idealism = 1
+							positivism = 1
+							ideological_thought = 1
+							associationism = 1
+							NOT = { culture_row_completion2 = 1 }
+						}
+						AND = {
+							impressionism = 1
+							analytic_philosophy = 1
+							biologism = 1
+							nationalism_n_imperialism = 1
+							psychological_intelligence = 1
+							NOT = { culture_row_completion4 = 1 }
+						}
+						AND = {
+							expressionism = 1
+							phenomenology_n_hermeneutic = 1
+							social_science = 1
+							revolution_n_counterrevolution = 1
+							psychoanalysis = 1
+							NOT = { culture_row_completion5 = 1 }
+						}
+						AND = {
+							mass_culture_n_the_avant_garde = 1
+							anti__rationalism = 1
+							social_alienation = 1
+							mass_politics = 1
+							behaviorism = 1
+							NOT = { culture_row_completion6 = 1 }
+						}
+						AND = {
+							water_wheel_power = 1
+							publishing_industry = 1
+							mechanized_mining = 1
+							experimental_railroad = 1
+							basic_chemistry = 1
+							NOT = { industry_row_completion1 = 1 }
+						}
+						AND = {
+							practical_steam_engine = 1
+							mechanical_production = 1
+							clean_coal = 1
+							early_railroad = 1
+							medicine = 1
+							NOT = { industry_row_completion2 = 1 }
+						}
+						AND = {
+							high_n_low_pressure_steam_engines = 1
+							interchangeable_parts = 1
+							cheap_iron = 1
+							iron_railroad = 1
+							inorganic_chemistry = 1
+							NOT = { industry_row_completion3 = 1 }
+						}
+						AND = {
+							steam_turbine = 1
+							semi_automatization = 1
+							cheap_steel = 1
+							steel_railroad = 1
+							organic_chemistry = 1
+							NOT = { industry_row_completion4 = 1 }
+						}
+						AND = {
+							combustion_engine = 1
+							assembly_line = 1
+							advanced_metallurgy = 1
+							integral_rail_system = 1
+							electricity = 1
+							NOT = { industry_row_completion5 = 1 }
+						}
+						AND = {
+							electrical_power_generation = 1
+							shift_work = 1
+							electric_furnace = 1
+							limited_access_roads = 1
+							synthetic_polymers = 1
+							NOT = { industry_row_completion6 = 1 }
+						}
+						AND = {
+							post_nelsonian_thought = 1
+							clipper_design = 1
+							naval_design_bureaus = 1
+							alphabetic_flag_signaling = 1
+							the_command_principle = 1
+							NOT = { navy_row_completion1 = 1 }
+						}
+						AND = {
+							battleship_column_doctrine = 1
+							steamers = 1
+							fire_control_systems = 1
+							naval_plans = 1
+							naval_professionalism = 1
+							NOT = { navy_row_completion2 = 1 }
+						}
+						AND = {
+							raider_group_doctrine = 1
+							iron_steamers = 1
+							weapon_platforms = 1
+							naval_statistics = 1
+							naval_decision_making = 1
+							NOT = { navy_row_completion3 = 1 }
+						}
+						AND = {
+							high_sea_battle_fleet = 1
+							steam_turbine_ships = 1
+							advanced_naval_design = 1
+							naval_directionism = 1
+							naval_nco_training = 1
+							NOT = { navy_row_completion5 = 1 }
+						}
+						AND = {
+							modern_naval_doctrine = 1
+							oil_driven_ships = 1
+							modern_naval_design = 1
+							naval_integration = 1
+							modern_naval_training = 1
+							NOT = { navy_row_completion6 = 1 }
+						}
+					}
+				}
+			}
+		}
+	
+		effect = {
+			any_country = {
+			limit = {
+				post_napoleonic_thought = 1
+				flintlock_rifles = 1
+				bronze_muzzle_loaded_artillery = 1
+				military_staff_system = 1
+				army_command_principle = 1
+				NOT = { army_row_completion1 = 1 }
+			}
+			activate_technology = army_row_completion1
+		}
+		any_country = {
+			limit = {
+				strategic_mobility = 1
+				muzzle_loaded_rifles = 1
+				iron_muzzle_loaded_artillery = 1
+				military_plans = 1
+				army_professionalism = 1
+				NOT = { army_row_completion2 = 1 }
+			}
+			activate_technology = army_row_completion2
+		}
+		any_country = {
+			limit = {
+				point_defense_system = 1
+				breech_loaded_rifles = 1
+				iron_breech_loaded_artillery = 1
+				military_statistics = 1
+				army_decision_making = 1
+				NOT = { army_row_completion3 = 1 }
+			}
+			add_country_modifier = { name = army_row_completion2 duration = -1 }
+			activate_technology = army_row_completion3
+		}
+		any_country = {
+			limit = {
+				deep_defense_system = 1
+				machine_guns = 1
+				steel_breech_loaded_artillery = 1
+				military_logistics = 1
+				army_risk_management = 1
+				NOT = { army_row_completion4 = 1 }
+			}
+			activate_technology = army_row_completion4
+		}
+		any_country = {
+			limit = {
+				infiltration = 1
+				bolt_action_rifles = 1
+				indirect_artillery_fire = 1
+				military_directionism = 1
+				army_nco_training = 1
+				NOT = { army_row_completion5 = 1 }
+			}
+			activate_technology = army_row_completion5
+		}
+		any_country = {
+			limit = {
+				modern_army_doctrine = 1
+				modern_divisional_structure = 1
+				heavy_armament_dunno = 1
+				aeronautics = 1
+				great_war_experience = 1
+				NOT = { army_row_completion6 = 1 }
+			}
+			activate_technology = army_row_completion6
+		}
+		any_country = {
+			limit = {
+				private_banks = 1
+				no_standard = 1
+				early_classical_theory_and_critique = 1
+				freedom_of_trade = 1
+				guild_based_production = 1
+				NOT = { commerce_row_completion1 = 1 }
+			}
+			activate_technology = commerce_row_completion1
+		}
+		any_country = {
+			limit = {
+				stock_exchange = 1
+				ad_hoc_money_bill_printing = 1
+				late_classical_theory = 1
+				market_structure = 1
+				organized_factories = 1
+				NOT = { commerce_row_completion2 = 1 }
+			}
+			activate_technology = commerce_row_completion2
+		}
+		any_country = {
+			limit = {
+				business_banks = 1
+				private_bank_money_bill_printing = 1
+				collectivist_theory = 1
+				business_regulations = 1
+				scientific_management = 1
+				NOT = { commerce_row_completion3 = 1 }
+			}
+			activate_technology = commerce_row_completion3
+		}
+		any_country = {
+			limit = { 
+				investment_banks = 1
+				central_bank_money_bill_printing = 1
+				the_historical_theory = 1
+				market_regulations = 1
+				time_saving_measures = 1
+				NOT = { commerce_row_completion4 = 1 }
+			}
+			activate_technology = commerce_row_completion4
+		}
+		any_country = {
+			limit = {
+				bank_inspection_board = 1
+				modern_central_bank_system = 1
+				neoclassical_theory = 1
+				economic_responsibility = 1
+				management_strategy = 1
+				NOT = { commerce_row_completion5 = 1 }
+			}
+			activate_technology = commerce_row_completion5
+			add_country_modifier = { name = commerce_row_completion4 duration = -1 }
+		}
+		any_country = {
+			limit = {
+				mutual_funds = 1
+				market_determined_exchange_rates = 1
+				keynesian_economics = 1
+				government_interventionism = 1
+				organizational_development = 1
+				NOT = { commerce_row_completion6 = 1 }
+			}
+			add_country_modifier = { name = commerce_row_completion5 duration = -1 }
+			activate_technology = commerce_row_completion6
+		}
+		any_country = {
+			limit = {
+				classicism_n_early_romanticism = 1
+				late_enlightenment_philosophy = 1
+				malthusian_thought = 1
+				enlightenment_thought = 1
+				introspectionism = 1
+				NOT = { culture_row_completion1 = 1 }
+			}
+			activate_technology = culture_row_completion1
+		}
+		any_country = {
+			limit = {
+				romanticism = 1
+				idealism = 1
+				positivism = 1
+				ideological_thought = 1
+				associationism = 1
+				NOT = { culture_row_completion2 = 1 }
+			}
+			activate_technology = culture_row_completion2
+		}
+		any_country = {
+			limit = {
+				realism = 1
+				empiricism = 1
+				functionalism = 1
+				state_n_government = 1
+				experimental_psychology = 1
+				NOT = { culture_row_completion3 = 1 }
+			}
+			add_country_modifier = { name = culture_row_completion2 duration = -1 }
+			activate_technology = culture_row_completion3
+		}
+		any_country = {
+			limit = {
+				impressionism = 1
+				analytic_philosophy = 1
+				biologism = 1
+				nationalism_n_imperialism = 1
+				psychological_intelligence = 1
+				NOT = { culture_row_completion4 = 1 }
+			}
+			activate_technology = culture_row_completion4
+		}
+		any_country = {
+			limit = {
+				expressionism = 1
+				phenomenology_n_hermeneutic = 1
+				social_science = 1
+				revolution_n_counterrevolution = 1
+				psychoanalysis = 1
+				NOT = { culture_row_completion5 = 1 }
+			}
+			activate_technology = culture_row_completion5
+		}
+		any_country = {
+			limit = {
+				mass_culture_n_the_avant_garde = 1
+				anti__rationalism = 1
+				social_alienation = 1
+				mass_politics = 1
+				behaviorism = 1
+				NOT = { culture_row_completion6 = 1 }
+			}
+			activate_technology = culture_row_completion6
+		}
+		any_country = {
+			limit = {
+				water_wheel_power = 1
+				publishing_industry = 1
+				mechanized_mining = 1
+				experimental_railroad = 1
+				basic_chemistry = 1
+				NOT = { industry_row_completion1 = 1 }
+			}
+			activate_technology = industry_row_completion1
+		}
+		any_country = {
+			limit = {
+				practical_steam_engine = 1
+				mechanical_production = 1
+				clean_coal = 1
+				early_railroad = 1
+				medicine = 1
+				NOT = { industry_row_completion2 = 1 }
+			}
+			activate_technology = industry_row_completion2
+		}
+		any_country = {
+			limit = {
+				high_n_low_pressure_steam_engines = 1
+				interchangeable_parts = 1
+				cheap_iron = 1
+				iron_railroad = 1
+				inorganic_chemistry = 1
+				NOT = { industry_row_completion3 = 1 }
+			}
+			activate_technology = industry_row_completion3
+		}
+		any_country = {
+			limit = {
+				steam_turbine = 1
+				semi_automatization = 1
+				cheap_steel = 1
+				steel_railroad = 1
+				organic_chemistry = 1
+				NOT = { industry_row_completion4 = 1 }
+			}
+			activate_technology = industry_row_completion4
+		}
+		any_country = {
+			limit = {
+				combustion_engine = 1
+				assembly_line = 1
+				advanced_metallurgy = 1
+				integral_rail_system = 1
+				electricity = 1
+				NOT = { industry_row_completion5 = 1 }
+			}
+			activate_technology = industry_row_completion5
+		}
+		any_country = {
+			limit = {
+				electrical_power_generation = 1
+				shift_work = 1
+				electric_furnace = 1
+				limited_access_roads = 1
+				synthetic_polymers = 1
+				NOT = { industry_row_completion6 = 1 }
+			}
+			activate_technology = industry_row_completion6
+		}
+		any_country = {
+			limit = {
+				post_nelsonian_thought = 1
+				clipper_design = 1
+				naval_design_bureaus = 1
+				alphabetic_flag_signaling = 1
+				the_command_principle = 1
+				NOT = { navy_row_completion1 = 1 }
+			}
+			activate_technology = navy_row_completion1
+		}
+		any_country = {
+			limit = {
+				battleship_column_doctrine = 1
+				steamers = 1
+				fire_control_systems = 1
+				naval_plans = 1
+				naval_professionalism = 1
+				NOT = { navy_row_completion2 = 1 }
+			}
+			activate_technology = navy_row_completion2
+		}
+		any_country = {
+			limit = {
+				raider_group_doctrine = 1
+				iron_steamers = 1
+				weapon_platforms = 1
+				naval_statistics = 1
+				naval_decision_making = 1
+				NOT = { navy_row_completion3 = 1 }
+			}
+			activate_technology = navy_row_completion3
+		}
+		any_country = {
+			limit = {
+				blue_and_brown_water_schools = 1
+				steel_steamers = 1
+				main_armament = 1
+				naval_logistics = 1
+				naval_risk_management = 1
+				NOT = { navy_row_completion4 = 1 }
+			}
+			activate_technology = navy_row_completion4
+		}
+		any_country = {
+			limit = {
+				high_sea_battle_fleet = 1
+				steam_turbine_ships = 1
+				advanced_naval_design = 1
+				naval_directionism = 1
+				naval_nco_training = 1
+				NOT = { navy_row_completion5 = 1 }
+			}
+			activate_technology = navy_row_completion5
+		}
+		any_country = {
+			limit = {
+				modern_naval_doctrine = 1
+				oil_driven_ships = 1
+				modern_naval_design = 1
+				naval_integration = 1
+				modern_naval_training = 1
+				NOT = { navy_row_completion6 = 1 }
+			}
+			activate_technology = navy_row_completion6
+		}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	province_selector_unlocker = {
+		picture = province_selector_unlocker
+	
+		potential = { 
+			tag = JAN
+		}
+	
+		allow = {
+			META_1 = {
+				owner = {
+					ai = no
+					NOT = { early_classical_theory_and_critique = 1 }
+				}
+			}
+		}
+	
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					NOT = { early_classical_theory_and_critique = 1 }
+				}
+				activate_technology = early_classical_theory_and_critique
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Commented out code for checking any provinces that don't have mine terrain modifier for Mine Expansion Building.
 	# check_for_provinces = {
 	# 	potential = {
 	# 		tag = JAN

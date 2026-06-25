@@ -20,6 +20,20 @@ province_event = {
 		owner = {
 			random_owned = {
 				limit = {
+					is_core = PRO
+					is_colonial = yes
+				}
+				owner = { migration_attraction_no_colonial = { } }
+			}
+			random_owned = {
+				limit = {
+					is_colonial = no
+					has_province_modifier = province_attract_immigrants
+				}
+				owner = { migration_attraction_remove_other = { } }
+			}
+			random_owned = {
+				limit = {
 					is_core = JAN
 					NOT = { has_province_modifier = province_attract_immigrants }
 					is_colonial = no
@@ -65,6 +79,13 @@ province_event = {
 		name = "§B2.§b Reset Migration Attraction"
 		add_core = JAN
 		owner = {
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = { has_province_modifier = province_attract_immigrants }
+				}
+				owner = { migration_attraction_none = { } }
+			}
 			random_owned = {
 				limit = {
 					is_core = JAN
@@ -769,520 +790,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B7.§b Baby Boom"
-		add_core = JAN
-		owner = {
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 100000
-						}
-					}
-				}
-				owner = { 0K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 100000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 3000
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 100000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 200000
-						}
-					}
-				}
-				owner = { 100K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 100000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 200000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 2700
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 200000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 300000
-						}
-					}
-				}
-				owner = { 200K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 200000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 300000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 2400
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 300000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 400000
-						}
-					}
-				}
-				owner = { 300K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 300000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 400000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 2100
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 400000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 500000
-						}
-					}
-				}
-				owner = { 400K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 400000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 500000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 1800
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 500000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 600000
-						}
-					}
-				}
-				owner = { 500K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 500000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 600000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 1500
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 600000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 700000
-						}
-					}
-				}
-				owner = { 600K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 600000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 700000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 1200
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 700000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 800000
-						}
-					}
-				}
-				owner = { 700K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 700000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 800000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 900
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 800000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 900000
-						}
-					}
-				}
-				owner = { 800K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 800000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 900000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 600
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 900000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 1000000
-						}
-					}
-				}
-				owner = { 900K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 900000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 1000000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 300
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 1000000
-					}
-				}
-				owner = { above_baby_boom_limit = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { has_country_modifier = baby_booming }
-				}
-				owner = { baby_boom_on_cooldown = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-				}
-				owner = {
-					any_owned = {
-						limit = {
-							has_building = province_selector
-						}
-						province_selector = -1
-					}
-					any_owned = {
-						limit = {
-							is_core = PRO
-						}
-						remove_core = PRO
-					}
-					any_owned = {
-						limit = {
-							is_core = JAN
-						}
-						remove_core = JAN
-					}
-					clr_country_flag = province_selector
-				}
-			}
-		}
-	}
-
-	option = {
-		name = "§B8.§b State to Colony (Asia & Africa Only)"
+		name = "§B7.§b State to Colony (Asia & Africa Only)"
 		add_core = JAN
 		owner = {
 			random_owned = {
@@ -1377,7 +885,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B9.§b Genocide State"
+		name = "§B8.§b Genocide State"
 		add_core = JAN
 		owner = { 
 			random_owned = {
@@ -1520,7 +1028,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B10.§b Clear Genocide"
+		name = "§B9.§b Clear Genocide"
 		add_core = JAN
 		owner = { 
 			random_owned = {
@@ -1586,7 +1094,208 @@ province_event = {
 	}
 
 	option = {
-		name = "§B12.§b Choose Nothing"
+		name = "§B10.§b Move a Statue Here"
+		add_core = JAN
+		owner = { 
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = {
+						NOT = {
+							any_owned_province = {
+								OR = {
+									is_core = S00
+									is_core = S01
+									is_core = S02
+									is_core = S03
+									is_core = S04
+									is_core = S05
+									is_core = S06
+									is_core = S07
+									is_core = S08
+									is_core = S09
+									is_core = S10
+									is_core = S11
+									is_core = S12
+									is_core = S13
+									is_core = S14
+									is_core = S15
+									is_core = S16
+									is_core = S17
+									is_core = S18
+									is_core = S19
+									is_core = S20
+									is_core = S21
+									is_core = S22
+									is_core = S23
+									is_core = S24
+								}							
+							}
+						}
+					}
+				}
+				owner = { move_statue_no_statue = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = {
+						war = no
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+						NOT = { money = 100000 }
+					}
+				}
+				owner = { move_statue_broke = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = {
+						war = no
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+						money = 100000
+					}
+				}
+				owner = { move_statue_cost = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = {
+						OR = {
+							war = yes
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				owner = { move_statue_war = { } }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S00 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 13986 days = 0 }
+			}
+			
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "§B11.§b Choose Nothing"
 		add_core = JAN
 		owner = { 
 			random_owned = {
@@ -1637,6 +1346,20 @@ province_event = {
 		owner = {
 			random_owned = {
 				limit = {
+					is_core = PRO
+					is_colonial = yes
+				}
+				owner = { migration_attraction_no_colonial = { } }
+			}
+			random_owned = {
+				limit = {
+					is_colonial = no
+					has_province_modifier = province_attract_immigrants
+				}
+				owner = { migration_attraction_remove_other = { } }
+			}
+			random_owned = {
+				limit = {
 					is_core = JAN
 					NOT = { has_province_modifier = province_attract_immigrants }
 					is_colonial = no
@@ -1682,6 +1405,13 @@ province_event = {
 		name = "§B2.§b Reset Migration Attraction"
 		add_core = JAN
 		owner = {
+			random_owned = {
+				limit = {
+					is_core = PRO
+					NOT = { has_province_modifier = province_attract_immigrants }
+				}
+				owner = { migration_attraction_none = { } }
+			}
 			random_owned = {
 				limit = {
 					is_core = JAN
@@ -2386,520 +2116,7 @@ province_event = {
 	}
 
 	option = {
-		name = "§B7.§b Baby Boom"
-		add_core = JAN
-		owner = {
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 100000
-						}
-					}
-				}
-				owner = { 0K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 100000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 3000
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 100000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 200000
-						}
-					}
-				}
-				owner = { 100K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 100000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 200000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 2700
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 200000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 300000
-						}
-					}
-				}
-				owner = { 200K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 200000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 300000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 2400
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 300000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 400000
-						}
-					}
-				}
-				owner = { 300K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 300000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 400000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 2100
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 400000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 500000
-						}
-					}
-				}
-				owner = { 400K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 400000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 500000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 1800
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 500000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 600000
-						}
-					}
-				}
-				owner = { 500K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 500000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 600000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 1500
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 600000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 700000
-						}
-					}
-				}
-				owner = { 600K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 600000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 700000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 1200
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 700000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 800000
-						}
-					}
-				}
-				owner = { 700K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 700000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 800000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 900
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 800000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 900000
-						}
-					}
-				}
-				owner = { 800K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 800000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 900000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 600
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 900000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 1000000
-						}
-					}
-				}
-				owner = { 900K_pop_baby_boom = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 900000
-					}
-					NOT = {
-						state_scope = {
-							## Audax Validator "." Ignore_NEXT
-							total_pops = 1000000
-						}
-					}
-				}
-				owner = {
-					add_country_modifier = { name = baby_booming duration = 7300 }
-					clr_country_flag = baby_boom_reminder
-				}
-				state_scope = {
-					any_owned = {
-						## Audax Validator "." Ignore_NEXT
-						province_selector = -1
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 300
-						}
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { NOT = { has_country_modifier = baby_booming } }
-					state_scope = {
-						## Audax Validator "." Ignore_NEXT
-						total_pops = 1000000
-					}
-				}
-				owner = { above_baby_boom_limit = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = PRO
-					owner = { has_country_modifier = baby_booming }
-				}
-				owner = { baby_boom_on_cooldown = { } }
-			}
-			random_owned = {
-				limit = {
-					is_core = JAN
-				}
-				owner = {
-					any_owned = {
-						limit = {
-							has_building = province_selector
-						}
-						province_selector = -1
-					}
-					any_owned = {
-						limit = {
-							is_core = PRO
-						}
-						remove_core = PRO
-					}
-					any_owned = {
-						limit = {
-							is_core = JAN
-						}
-						remove_core = JAN
-					}
-					clr_country_flag = province_selector
-				}
-			}
-		}
-	}
-
-	option = {
-		name = "§B8.§b State to Colony (Asia & Africa Only)"
+		name = "§B7.§b State to Colony (Asia & Africa Only)"
 		add_core = JAN
 		owner = {
 			random_owned = {
@@ -2990,6 +2207,207 @@ province_event = {
 				}
 			}
 			clr_country_flag = province_selector
+		}
+	}
+
+	option = {
+		name = "§B8.§b Move a Statue Here"
+		add_core = JAN
+		owner = { 
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = {
+						NOT = {
+							any_owned_province = {
+								OR = {
+									is_core = S00
+									is_core = S01
+									is_core = S02
+									is_core = S03
+									is_core = S04
+									is_core = S05
+									is_core = S06
+									is_core = S07
+									is_core = S08
+									is_core = S09
+									is_core = S10
+									is_core = S11
+									is_core = S12
+									is_core = S13
+									is_core = S14
+									is_core = S15
+									is_core = S16
+									is_core = S17
+									is_core = S18
+									is_core = S19
+									is_core = S20
+									is_core = S21
+									is_core = S22
+									is_core = S23
+									is_core = S24
+								}							
+							}
+						}
+					}
+				}
+				owner = { move_statue_no_statue = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = {
+						war = no
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+						NOT = { money = 100000 }
+					}
+				}
+				owner = { move_statue_broke = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = {
+						war = no
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+						money = 100000
+					}
+				}
+				owner = { move_statue_cost = { } }
+			}
+			random_owned = {
+				limit = {
+					is_core = PRO
+					owner = {
+						OR = {
+							war = yes
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				owner = { move_statue_war = { } }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S00 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 13986 days = 0 }
+			}
+			
+			random_owned = {
+				limit = {
+					is_core = JAN
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_selector = -1
+					}
+					any_owned = {
+						limit = {
+							is_core = PRO
+						}
+						remove_core = PRO
+					}
+					any_owned = {
+						limit = {
+							is_core = JAN
+						}
+						remove_core = JAN
+					}
+					clr_country_flag = province_selector
+				}
+			}
 		}
 	}
 

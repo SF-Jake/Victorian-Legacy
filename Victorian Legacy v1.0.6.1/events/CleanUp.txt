@@ -469,6 +469,14 @@ country_event = {
 				tag = CPL
 				NOT = { vassal_of = RUS }
 			}
+			AND = {
+				tag = HND
+				NOT = { vassal_of = ENG }
+			}
+			AND = {
+				tag = EIC
+				NOT = { vassal_of = ENG }
+			}
 		}
 		war = no
 	}

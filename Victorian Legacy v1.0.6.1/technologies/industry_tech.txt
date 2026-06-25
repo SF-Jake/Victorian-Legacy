@@ -227,7 +227,6 @@ electrical_power_generation = {
 
 	mine_rgo_eff = 0.15
 	farm_rgo_eff = 0.15
-	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -388,7 +387,7 @@ semi_automatization = {
 	area = mechanization
 	year = 1855
 	cost = 14400
-	factory_throughput = 0.1
+	factory_throughput = 0.05
 	factory_cost = -0.1 
 	ai_chance = {
 		factor = 1.05
@@ -422,7 +421,7 @@ assembly_line = {
 	area = mechanization
 	year = 1875
 	cost = 18000
-	factory_throughput = 0.1
+	factory_throughput = 0.05
 	factory_cost = -0.1 
 	ai_chance = {
 		factor = 1.05
@@ -451,7 +450,6 @@ shift_work = {
 
 	
 	rgo_output = 0.05
-	factory_throughput = 0.1 
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -994,7 +992,7 @@ medicine = {
 	cost = 7200
 
 	supply_limit = 0.25
-	pop_growth = 0.0003
+	pop_growth = 0.0002
 	
 	ai_chance = {
 		factor = 100
@@ -1054,7 +1052,7 @@ organic_chemistry = {
 	cost = 14400
 
 	supply_limit = 0.25
-	pop_growth = 0.0002
+	pop_growth = 0.0001
 	
 	ai_chance = {
 		factor = 100
@@ -1086,7 +1084,7 @@ electricity = {
 	cost = 18000
 	
 	supply_limit = 0.50
-	pop_growth = 0.0002
+	pop_growth = 0.0001
 	
 	ai_chance = {
 		factor = 100

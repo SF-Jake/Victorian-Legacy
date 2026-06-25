@@ -331,7 +331,10 @@ political_decisions = {
 		effect = {
 			prestige = 25
 			set_country_flag = japanese_korea
-			KOR = { all_core = { add_core = THIS remove_core = KOR } }
+			KOR_1619 = { add_core = THIS remove_core = KOR }
+			KOR_1627 = { add_core = THIS remove_core = KOR }
+			KOR_1624 = { add_core = THIS remove_core = KOR }
+			KOR_1635 = { add_core = THIS remove_core = KOR }
 		}
 	
 		ai_will_do = {
@@ -356,7 +359,7 @@ political_decisions = {
 		effect = {
 			prestige = 25
 			set_country_flag = japanese_manchuria
-			MCK = { all_core = { add_core = THIS remove_core = MCK } }
+			CHI_1553 = { add_core = THIS remove_core = MCK }
 		}
 	
 		ai_will_do = {

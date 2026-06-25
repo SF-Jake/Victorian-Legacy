@@ -1,20 +1,4 @@
 political_decisions = {
-	zrequest_lend_lease = {
-		picture = lend_lease
-		alert = no
-		potential = {
-			has_country_flag = show_options_Y
-			year = 1870
-			ai = no
-		}
-		
-		allow = {
-		}
-		
-		effect = {
-			country_event = 50000
-		}
-	}
 	zwill_receive = {
 		picture = coin
 		alert = no

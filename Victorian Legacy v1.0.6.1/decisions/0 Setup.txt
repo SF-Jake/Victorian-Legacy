@@ -31,6 +31,17 @@ political_decisions = {
 					}
 					any_pop = { reduce_pop = 0.75 }
 				}
+				any_country = {
+					limit = {
+						NOT = {
+							tag = THIS
+						}
+						tag = YNN
+						substate_of = CHI
+						num_of_cities = 1
+					}
+					any_pop = { reduce_pop = 0.5 }
+				}
 			}
 			any_country = {
 				limit = { 
@@ -46,7 +57,14 @@ political_decisions = {
 				}
 				activate_technology = early_classical_theory_and_critique
 				set_country_flag = province_selector_tech
-				country_event = { id = 40003 days = 0 }
+			}
+			any_country = {
+				limit = {
+					stock_exchange = 1
+					civilized = yes
+					ai = no
+				}
+				country_event = { id = 40010 days = 0 }
 			}
 			any_country = {
 				limit = { ai = no }
@@ -272,6 +290,26 @@ political_decisions = {
 				limit = { type = zbankers }
 				money = 2000000
 			}
+			#All Statues at Start date
+			1008 = { add_province_modifier = { name = the_saint_basil_cathedral duration = -1 } add_core = S00 }
+			549 = { add_province_modifier = { name = the_brandenburg_gate duration = -1 } add_core = S01 }
+			220 = { add_province_modifier = { name = the_white_house duration = -1 } add_core = S04 }
+			860 = { add_province_modifier = { name = the_suleymaniye_mosque duration = -1 } add_core = S06 }
+			1655 = { add_province_modifier = { name = the_horyu_ji duration = -1 } add_core = S07 }
+			749 = { add_province_modifier = { name = the_colosseum duration = -1 } add_core = S08 }
+			487 = { add_province_modifier = { name = the_royal_palace_of_madrid duration = -1 } add_core = S09 }
+			375 = { add_province_modifier = { name = the_royal_palace_of_amsterdam duration = -1 } add_core = S10 }
+			521 = { add_province_modifier = { name = the_belem_tower duration = -1 } add_core = S12 }
+			322 = { add_province_modifier = { name = the_drottningholm_palace duration = -1 } add_core = S13 }
+			1121 = { add_province_modifier = { name = the_masjid_i_jameh_of_isfahan duration = -1 } add_core = S14 }
+			2172 = { add_province_modifier = { name = the_templo_mayoir duration = -1 } add_core = S15 }
+			1346 = { add_province_modifier = { name = the_ayutthaya duration = -1 } add_core = S16 }
+			2348 = { add_province_modifier = { name = the_basilica_nuestra_senora_del_pillar duration = -1 } add_core = S17 }
+			387 = { add_province_modifier = { name = the_grand_place duration = -1 } add_core = S18 }
+			2298 = { add_province_modifier = { name = the_basilica_and_convent_of_san_francisco duration = -1 } add_core = S20 }
+			1852 = { add_province_modifier = { name = the_fasil_ghebbi duration = -1 } add_core = S21 }
+			1948 = { add_province_modifier = { name = the_palace_of_the_sultan duration = -1 } add_core = S22 }
+			1616 = { add_province_modifier = { name = the_forbidden_city duration = -1 } add_core = S23 }
 		}
 	}
 }

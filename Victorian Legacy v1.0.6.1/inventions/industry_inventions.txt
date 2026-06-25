@@ -85,7 +85,7 @@ direct_current = {
 	}
 	effect = {
 		#rgo_output = 0.05
-		factory_throughput = 0.02
+		factory_throughput = 0.01
 	}
 }
 alternating_current = {
@@ -103,7 +103,7 @@ alternating_current = {
 	}
 	effect = {
 		#rgo_output = 0.05
-		factory_throughput = 0.02
+		factory_throughput = 0.01
 	}
 }
 polyphase_system = {
@@ -121,7 +121,7 @@ polyphase_system = {
 	}
 	effect = {
 		#rgo_output = 0.05
-		factory_throughput = 0.02
+		factory_throughput = 0.01
 	}
 }
 #mechanical_production
@@ -1345,7 +1345,7 @@ gaslights = {
 		}
 	}
 	effect = {
-		factory_throughput = 0.05
+		factory_throughput = 0.02
 	}
 }
 carbon_soil_enrichment = {
@@ -1465,7 +1465,6 @@ electrical_lighting = {
 		}
 	}
 	effect = {
-		factory_throughput = 0.1
 		rgo_output = 0.3
 	}
 }

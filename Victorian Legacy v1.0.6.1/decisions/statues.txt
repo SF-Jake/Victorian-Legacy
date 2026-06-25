@@ -1,0 +1,164 @@
+#All decisions to build statues for each nation will be here.
+political_decisions = {
+    #Austria
+    build_the_austrian_parliament_building = {
+		potential = {
+			NOT = {
+				has_global_flag = the_austrian_parliament_building_has_been_built
+			}
+            2247 = { owned_by = THIS }
+		}
+	
+		allow = {
+			cheap_steel = 1
+		}
+	
+		effect = {
+			set_global_flag = the_austrian_parliament_building_has_been_built
+			any_pop = {
+				militancy = -0.5
+			}
+            2247 = {
+                add_province_modifier = { name = the_austrian_parliament_building duration = -1 }
+                set_province_flag = the_austrian_parliament_building_built
+                add_core = S02
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    #France
+    build_the_eiffel_tower = {
+		potential = {
+			NOT = { has_global_flag = the_eiffel_tower_has_been_built }
+            425 = { owned_by = THIS }
+		}
+		
+		allow = {
+			cheap_steel = 1
+		}
+		
+		effect = {
+			425 = {
+				add_province_modifier = { name = the_eiffel_tower duration = -1 }
+				set_province_flag = eiffel_tower_built
+				add_core = S03
+			}
+			prestige = 20
+			set_global_flag = the_eiffel_tower_has_been_built
+		}
+	}
+    #UK
+    build_the_big_ben = {
+		picture = bigben
+		potential = {
+			NOT = { has_global_flag = the_big_ben_has_been_built }
+            300 = { owned_by = THIS }
+		}
+		
+		allow = {
+			year = 1840
+			money = 400000
+			election = no
+			war = no
+		}
+		
+		effect = {
+			money = -400000
+			set_global_flag = the_big_ben_has_been_built
+            300 = {
+                set_province_flag = big_ben_built
+                add_province_modifier = { name = the_big_ben duration = -1 }
+                add_core = S05
+            }
+            prestige = 20
+		}
+	}
+    #Brazil
+    build_the_church_of_saint_francis_of_assisi = {    
+        potential = { 
+            NOT = { has_global_flag = build_the_church_of_saint_francis_of_assisi_has_been_built }
+            2442 = { owned_by = THIS }
+        }
+    
+        allow = {
+            year = 1840
+			money = 400000
+			election = no
+			war = no
+        }
+    
+        effect = {
+            money = -400000
+            set_global_flag = build_the_church_of_saint_francis_of_assisi_has_been_built
+            any_pop = {
+				militancy = -0.5
+			}
+            2247 = {
+                add_province_modifier = { name = the_church_of_saint_francis_of_assisi duration = -1 }
+                set_province_flag = the_church_of_saint_francis_of_assisi_built
+                add_core = S11
+            }
+        }
+    
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    #Colombia
+    build_the_basilica_menor_nuestra_senora_de_lourdes = {
+		potential = {
+			NOT = {has_global_flag = the_basilica_menor_nuestra_senora_de_lourdes_has_been_built }
+            2247 = { owned_by = THIS }
+		}
+	
+		allow = {
+			cheap_steel = 1
+		}
+	
+		effect = {
+			set_global_flag = the_basilica_menor_nuestra_senora_de_lourdes_has_been_built
+			any_pop = {
+				militancy = -0.5
+			}
+            2247 = {
+                add_province_modifier = { name = the_basilica_menor_nuestra_senora_de_lourdes duration = -1 }
+                set_province_flag = the_basilica_menor_nuestra_senora_de_lourdes_built
+                add_core = S19
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+    #France Statue of Liberty
+    liberty_enlightening_the_world = {
+		potential = {
+			NOT = {
+				has_global_flag = statue_of_liberty_has_been_built
+			}
+			tag = FRA
+			exists = FRA
+		}
+	
+		allow = {
+			cheap_steel = 1
+		}
+	
+		effect = {
+			set_global_flag = statue_of_liberty_has_been_built
+			any_pop = {
+				militancy = -0.5
+			}
+			FRA = {
+				country_event = { id=7771001 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

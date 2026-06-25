@@ -200,7 +200,10 @@ political_decisions = {
 	peking_convention = {
 		potential = {
 			tag = RUS
-			MCK = { owns = 1082 }
+			OR = { 
+				MCK = { owns = 1082 }
+				CHI = { owns = 1082 }
+			}
 			NOT = {
 				has_country_flag = peking_convention
 				war_with = CHI
@@ -210,12 +213,19 @@ political_decisions = {
 		allow = {
 			OR = {
 				is_sphere_leader_of = MCK
+				CHI = { owns = 1082 }
 				has_global_flag = summer_palace_torched
 			}
 			is_greater_power = yes
 		}
 		
 		effect = {
+			random_owned = {
+				limit = {
+					owner = { CHI = { ai = no } }
+				}
+				owner = { peking_decision = { } }
+			}
 			CHI_1082 = {
 				add_core = RUS
 			}
@@ -423,6 +433,7 @@ political_decisions = {
 
 		allow = {
 			war = no
+			revolution_n_counterrevolution = 1
 			RUS_706 = { owned_by = THIS }
 			RUS_710 = { owned_by = THIS }
 		}

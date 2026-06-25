@@ -3,6 +3,7 @@ political_decisions = {
 		alert = yes
 		picture = lightbulb_off
 		potential = {
+			ai = no
 			has_country_flag = show_options_Y
 			NOT = {	has_country_flag = tech_school_change }
 			civilized = yes

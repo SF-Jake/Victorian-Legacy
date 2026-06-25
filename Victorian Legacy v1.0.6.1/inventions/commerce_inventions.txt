@@ -590,6 +590,10 @@ adam_smith = {
 			factor = 2
 			trade_policy = free_trade
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5	 
@@ -608,6 +612,10 @@ jean_baptiste_say = {
 			factor = 2
 			trade_policy = free_trade
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5	 
@@ -625,6 +633,10 @@ david_ricardo = {
 		modifier = {
 			factor = 2
 			trade_policy = free_trade
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -699,6 +711,10 @@ john_elliot_cairnes = {
 			factor = 1
 			trade_unions = all_trade_unions
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -716,6 +732,10 @@ robert_torrens = {
 		modifier = {
 			factor = 1
 			ruling_party_ideology = liberal
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -735,6 +755,10 @@ john_stuart_mill = {
 			factor = 1
 			ruling_party_ideology = liberal
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -753,6 +777,10 @@ pierre_joseph_proudhon = {
 		modifier = {
 			factor = 2
 			ruling_party_ideology = socialist
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -776,6 +804,10 @@ karl_marx = {
 			factor = 1
 			economic_policy = planned_economy
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -794,6 +826,10 @@ friedrich_engels = {
 		modifier = {
 			factor = 1
 			economic_policy = planned_economy
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -825,6 +861,10 @@ eduard_bernstein = {
 			factor = -8
 			NOT = { year = 1875 }
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -853,6 +893,10 @@ sidney_webb = {
 			factor = -7
 			NOT = { year = 1885 }
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -880,6 +924,10 @@ karl_kautsky = {
 			factor = -7
 			NOT = { year = 1880 }
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -902,6 +950,10 @@ jean_jaurès = {
 			factor = -5
 			NOT = { year = 1880 }
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -921,6 +973,10 @@ friedrich_list = {
 			factor = 1
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -938,6 +994,10 @@ wilhelm_roscher = {
 		modifier = {
 			factor = 1
 			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -957,6 +1017,10 @@ bruno_hildebrand = {
 			factor = 1
 			religious_policy = pluralism
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -974,6 +1038,10 @@ karl_knies = {
 		modifier = {
 			factor = 2
 			ruling_party_ideology = conservative
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -993,6 +1061,10 @@ gustav_von_schmoller = {
 			factor = 2
 			prestige = 30
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1  
@@ -1011,6 +1083,10 @@ adolph_wagner = {
 			factor = 2
 			nationalvalue = nv_order
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1028,6 +1104,10 @@ william_cunningham = {
 		modifier = {
 			factor = 2
 			nationalvalue = nv_productivity
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -1048,6 +1128,10 @@ johann_heinrich_von_thünen = {
 			factor = 1
 			economic_policy = interventionism
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -1066,6 +1150,10 @@ léon_walras = {
 		modifier = {
 			factor = 1
 			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -1086,6 +1174,10 @@ stanley_jevons = {
 			factor = 1
 			nationalvalue = nv_order
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -1104,6 +1196,10 @@ carl_menger = {
 		modifier = {
 			factor = 2
 			nationalvalue = nv_productivity
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -1124,6 +1220,10 @@ thorstein_veblen = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -1142,6 +1242,10 @@ alfred_marshall = {
 		modifier = {	
 			factor = 2
 			nationalvalue = nv_productivity
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -1162,6 +1266,10 @@ augustin_cournot = {
 			factor = 2
 			nationalvalue = nv_equality
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -1180,6 +1288,10 @@ jules_dupuit = {
 		modifier = {
 			factor = 3
 			average_consciousness = 3
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -1200,6 +1312,10 @@ vilfredo_pareto = {
 			factor = 1
 			ruling_party_ideology = liberal
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -1218,6 +1334,10 @@ knut_wicksell = {
 		modifier = {
 			factor = 3
 			nationalvalue = nv_productivity
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -1238,6 +1358,10 @@ irving_fischer = {
 			factor = 2
 			economic_policy = interventionism
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -1257,6 +1381,10 @@ joseph_schumpeter = {
 			factor = 2
 			trade_policy = free_trade
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -1275,6 +1403,10 @@ eugen_von_böhm_bawerk = {
 		modifier = {
 			factor = 2
 			trade_policy = free_trade
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -1298,6 +1430,10 @@ john_maynard_keynes = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -1316,6 +1452,10 @@ richard_kahn = {
 		modifier = {
 			factor = 2
 			economic_policy = interventionism
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -1340,6 +1480,10 @@ ludwig_von_mises = {
 			factor = 1
 			prestige = 10
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -1358,6 +1502,10 @@ friedrich_hayek = {
 		modifier = {
 			factor = 2
 			ruling_party_ideology = socialist
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -1441,7 +1589,7 @@ monopoly_structure = {
 		}
 	}
 	effect = {
-		factory_throughput = 0.05
+		factory_throughput = 0.03
 	}
 }
 #business_regulations

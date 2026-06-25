@@ -13,6 +13,10 @@ william_hamilton = {
 			factor = 3
 			invention = immanuel_kant
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5
@@ -24,6 +28,10 @@ soren_kierkegaard  = {
 	news = no
 	chance = {
 		base = 2
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5
@@ -38,6 +46,10 @@ alexander_bain  = {
 		modifier = {
 			factor = 2
 			invention = john_stuart_mill
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -54,6 +66,10 @@ thomas_brown  = {
 			factor = 2
 			invention = alexander_bain
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5
@@ -66,6 +82,10 @@ wilhelm_wundt  = {
 	news = no
 	chance = {
 		base = 2
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -80,6 +100,10 @@ edward_titchener  = {
 		modifier = {
 			factor = 2
 			invention = wilhelm_wundt
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -96,6 +120,10 @@ william_james  = {
 			factor = 2
 			functionalism = 1
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -111,6 +139,10 @@ gs_hall  = {
 			factor = 2
 			biologism = 1
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -125,6 +157,10 @@ hermann_ebbinghaus  = {
 		modifier = {
 			factor = 2
 			biologism = 1
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -145,6 +181,10 @@ mary_calkins  = {
 			factor = 3
 			year = 1890
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -160,6 +200,10 @@ francis_galton  = {
 		modifier = {
 			factor = 2
 			invention = darwinism
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -179,6 +223,10 @@ alfred_binet  = {
 		modifier = {
 			factor = 3
 			year = 1890
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -200,6 +248,10 @@ charles_spearman  = {
 		modifier = {
 			factor = 3
 			invention = alfred_binet
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -250,6 +302,10 @@ sigmund_freud  = {
 	news = no
 	chance = {
 		base = 5
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -265,6 +321,10 @@ carl_jung  = {
 		modifier = {
 			factor = 4
 			invention = sigmund_freud
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -282,6 +342,10 @@ alfred_adler  = {
 			factor = 4
 			invention = sigmund_freud
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -296,6 +360,10 @@ anna_freud  = {
 		modifier = {
 			factor = 5
 			year = 1920
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {
@@ -316,6 +384,10 @@ karen_horney  = {
 			factor = 4
 			year = 1920
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -328,6 +400,10 @@ ivan_pavlov  = {
 	news = no
 	chance = {
 		base = 5
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -339,6 +415,10 @@ el_thorndike  = {
 	news = no
 	chance = {
 		base = 5
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -354,6 +434,10 @@ jb_watson  = {
 		factor = 3
 			invention = ivan_pavlov
 		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 5		
@@ -368,6 +452,10 @@ ec_tolman  = {
 		modifier = {
 			factor = 3
 			invention = jb_watson
+		}
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
 		}
 	}
 	effect = {

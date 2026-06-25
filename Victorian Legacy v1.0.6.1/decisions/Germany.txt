@@ -625,7 +625,6 @@ political_decisions = {
 			SAX = { all_core = { remove_core = SAX add_core = GER } }
 			WUR = { all_core = { remove_core = WUR add_core = GER } }
 			BAD = { all_core = { remove_core = BAD add_core = GER } }
-			remove_accepted_culture = czech
 			prestige = 50 
 		}
 	}
@@ -648,7 +647,6 @@ political_decisions = {
 			AUS_613 = { add_core = HLR }
 			set_country_flag = frankfurt_unify 
 			add_accepted_culture = czech
-			add_accepted_culture = south_german
 			capital = 564
 			prestige = 50 
 			564 = {

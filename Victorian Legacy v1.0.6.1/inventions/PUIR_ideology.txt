@@ -177,6 +177,10 @@ the_one_party_state = {
 					}
 				}
 			} 
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -215,6 +219,10 @@ totalitarianism = {
 					}
 				}
 			} 
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -247,6 +255,10 @@ the_leadership_principle = {
 					government = fascist_dictatorship
 				}
 			} 
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -281,6 +293,10 @@ ultranationalism_n_the_volk = {
 					government = fascist_dictatorship
 				}
 			} 
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -313,6 +329,10 @@ collectivisation = {
 					government = proletarian_dictatorship
 				}
 			} 
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1
@@ -345,6 +365,10 @@ the_classless_society = {
 					government = proletarian_dictatorship
 				}
 			} 
+		modifier = {
+			factor = -10000
+			has_country_flag = ghostland
+		}
 	}
 	effect = {
 		permanent_prestige = 1

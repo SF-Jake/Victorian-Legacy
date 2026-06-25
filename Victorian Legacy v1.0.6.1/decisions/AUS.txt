@@ -326,4 +326,32 @@ political_decisions = {
 			set_country_flag = the_final_abolishment_of_serfdom
 		}
 	}
+
+	annex_krakow = {
+		potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+				tag = DNB
+				tag = RUS
+			}
+			year = 1840
+			NOT = { has_global_flag = krakow_annexed }
+			AUS_702 = { owned_by = THIS }
+			KRA = {
+				exists = yes
+				ai = yes
+			}
+		}
+		
+		allow = {
+			is_sphere_leader_of = KRA
+		}
+		
+		effect = {
+			badboy = 3.5
+			inherit = KRA
+			set_global_flag = krakow_annexed
+		}
+	}
 }
