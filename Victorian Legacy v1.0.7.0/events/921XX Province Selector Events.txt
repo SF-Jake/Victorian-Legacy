@@ -1230,7 +1230,7 @@ province_event = {
 					}
 				}
 				owner = { move_statue_war = { } }
-			}
+			}			
 			random_owned = {
 				limit = { 
 					is_core = JAN 
@@ -1262,9 +1262,800 @@ province_event = {
 						}
 					}
 				}
-				province_event = { id = 13986 days = 0 }
+				province_event = { id = 256986 days = 0 }
 			}
-			
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S01 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256987 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S02 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256988 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S03 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256989 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S04 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256990 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S05 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256991 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S06 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256992 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S07 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256993 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S08 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256994 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S09 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256995 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S10 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256996 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S11 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256997 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S12 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256998 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S13 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256999 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S14 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257000 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S15 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257001 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S16 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257002 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S17 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257003 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S18 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257004 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S19 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257005 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S20 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257006 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S21 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257007 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S22 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257008 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S23 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257009 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S24 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257010 days = 0 }
+			}
 			random_owned = {
 				limit = {
 					is_core = JAN
@@ -2347,7 +3138,7 @@ province_event = {
 					}
 				}
 				owner = { move_statue_war = { } }
-			}
+			}			
 			random_owned = {
 				limit = { 
 					is_core = JAN 
@@ -2379,9 +3170,800 @@ province_event = {
 						}
 					}
 				}
-				province_event = { id = 13986 days = 0 }
+				province_event = { id = 256986 days = 0 }
 			}
-			
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S01 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256987 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S02 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256988 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S03 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256989 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S04 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256990 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S05 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256991 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S06 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256992 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S07 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256993 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S08 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256994 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S09 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256995 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S10 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256996 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S11 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256997 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S12 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256998 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S13 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 256999 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S14 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257000 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S15 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257001 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S16 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257002 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S17 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257003 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S18 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257004 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S19 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257005 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S20 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257006 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S21 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257007 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S22 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257008 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S23 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257009 days = 0 }
+			}
+			random_owned = {
+				limit = { 
+					is_core = JAN 
+					owner = { 
+						any_owned_province = { is_core = S24 } 
+						war = no
+						money = 100000
+						NOT = {
+							has_country_flag = negotiating_unequal_steal_statue_1
+							has_country_flag = negotiating_unequal_steal_statue_2
+							has_country_flag = negotiating_unequal_steal_statue_3
+							has_country_flag = negotiating_unequal_steal_statue_4
+							has_country_flag = negotiating_unequal_steal_statue_5
+							has_country_flag = negotiating_unequal_steal_statue_6
+							has_country_flag = negotiating_unequal_steal_statue_7
+							has_country_flag = negotiating_unequal_steal_statue_8
+							has_country_flag = negotiating_unequal_steal_statue_9
+							has_country_flag = negotiating_unequal_steal_statue_10
+							has_country_flag = negotiating_unequal_steal_statue_11
+							has_country_flag = negotiating_unequal_steal_statue_12
+							has_country_flag = negotiating_unequal_steal_statue_13
+							has_country_flag = negotiating_unequal_steal_statue_14
+							has_country_flag = negotiating_unequal_steal_statue_15
+							has_country_flag = negotiating_unequal_steal_statue_16
+							has_country_flag = negotiating_unequal_steal_statue_17
+							has_country_flag = negotiating_unequal_steal_statue_18
+							has_country_flag = negotiating_unequal_steal_statue_19
+							has_country_flag = negotiating_unequal_steal_statue_20
+						}
+					}
+				}
+				province_event = { id = 257010 days = 0 }
+			}
 			random_owned = {
 				limit = {
 					is_core = JAN

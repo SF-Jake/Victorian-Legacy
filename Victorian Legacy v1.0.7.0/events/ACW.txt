@@ -189,7 +189,7 @@ country_event = {
 	immediate = { set_country_flag = amistad_decision }
 
 	option = {
-		name = "EVTOPTA16002" # Pay for their return to Africa
+		name = "Pay for their return to Africa" # Pay for their return to Africa
 		any_pop = {
 			limit = { has_pop_culture = yankee }
 			consciousness = 0.25
@@ -204,7 +204,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB16002" # Free them
+		name = "Free them" # Free them
 		change_variable = { which = slavery_pressure value = 1 }		
 		any_pop = {
 			limit = { has_pop_culture = yankee }
@@ -218,7 +218,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTC16002" # Return them to spain
+		name = "Return them to spain" # Return them to spain
 		change_variable = { which = slavery_pressure value = 2 }		
 		any_pop = {
 			limit = { has_pop_culture = yankee }
@@ -237,7 +237,7 @@ country_event = {
 # Prigg V. Pennsylvania
 country_event = {
 	id = 16003
-	title = "EVTNAME16003"
+	title = "Prigg V. Pennsylvania"
 	desc = "EVTDESC16003"
 	fire_only_once = yes
 	picture = "arrested"
@@ -257,7 +257,7 @@ country_event = {
 	immediate = { set_country_flag = prigg_pennsylvania }
 
 	option = {
-		name = "EVTOPTA16003"
+		name = "We'll need to remain quiet"
 		change_variable = { which = slavery_pressure value = 2 }
 		any_pop = {
 			limit = { has_pop_culture = yankee }
@@ -273,7 +273,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB16003"
+		name = "A Good Decision"
 		change_variable = { which = slavery_pressure value = 1 }
 		any_pop = {
 			limit = { has_pop_culture = yankee }
@@ -291,7 +291,7 @@ country_event = {
 # Annexation of Texas
 country_event = {
 	id = 16004
-	title = "EVTNAME16004"
+	title = "Annexation of Texas"
 	desc = "EVTDESC16004"
 	fire_only_once = yes
 	picture = "Military_reform"
@@ -308,7 +308,7 @@ country_event = {
 	}	
 
 	option = {
-		name = "EVTOPTA16004"
+		name = "Enforce a Free State"
 		change_variable = { which = slavery_pressure value = 1 }
 		any_pop = {
 			limit = { has_pop_culture = yankee }
@@ -324,7 +324,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB16004"
+		name = "Let it remain"
 		change_variable = { which = slavery_pressure value = 2 }
 		any_pop = {
 			limit = { has_pop_culture = yankee }
@@ -705,13 +705,12 @@ country_event = {
 	
 	trigger = {
 		tag = USA
-		year = 1861
 		slavery = yes_slavery
 		has_country_flag = johnbrowns_raid
 		NOT = {	has_global_flag = american_civil_war_has_happened }
 	}
 	
-	mean_time_to_happen = { days = 7 }
+	mean_time_to_happen = { days = 1 }
 	
 	immediate = {
 		set_country_flag = secessionist_sentiments
@@ -740,6 +739,7 @@ country_event = {
 	trigger = {
 		tag = USA
 		slavery = yes_slavery
+		has_country_flag = secessionist_sentiments
 		has_country_flag = johnbrowns_raid
 		NOT = {	has_global_flag = american_civil_war_has_happened }
 	}
@@ -817,7 +817,7 @@ country_event = {
 		CSA = {
 			capital = 211
 			leadership = 80
-			add_country_modifier = { name = usa_nation_modifier duration = -1 }
+			add_country_modifier = { name = csa_nation_modifier duration = -1 }
 		}
 		capital = 220
 		

@@ -1400,6 +1400,15 @@ usa_nation_modifier = {
 	icon = 32
 }
 
+csa_nation_modifier = {
+	land_unit_start_experience = 2.5
+	global_immigrant_attract = 0.35
+	culture_tech_research_bonus = 0.075
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+	icon = 32
+}
+
 jap_nation_modifier = {
 	naval_organisation = 0.05
 	supply_consumption = -0.05
