@@ -536,6 +536,7 @@ political_decisions = {
 				has_country_flag = ostend_manifesto_published
 				has_global_flag = american_civil_war_has_happened
 			}
+			CSA = { ai = yes }
 		}
 		
 		allow = {
@@ -900,15 +901,9 @@ political_decisions = {
 			NOT = { has_country_flag = the_golden_circle }
 			war = no
 			nationalism_n_imperialism = 1
-			USA = {
-				all_core = { 
-					OR = {
-						owned_by = THIS
-						owner = {
-							vassal_of = THIS
-						}
-					}
-				}
+			OR = {
+				USA = { vassal_of = THIS }
+				USA = { exists = no }
 			}
 		}
 
@@ -917,6 +912,7 @@ political_decisions = {
 			USA = {
 				all_core = {
 					add_core = THIS
+					remove_core = USA
 				}
 			}
 			set_country_flag = reunite_the_usa

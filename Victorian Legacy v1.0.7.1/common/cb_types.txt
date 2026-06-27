@@ -139,7 +139,21 @@ gunboat = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -148,7 +162,21 @@ gunboat = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -265,7 +293,21 @@ conquest = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -274,7 +316,21 @@ conquest = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -429,7 +485,21 @@ add_to_sphere = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -438,7 +508,21 @@ add_to_sphere = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -518,7 +602,21 @@ take_from_sphere = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -527,7 +625,21 @@ take_from_sphere = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -600,7 +712,21 @@ take_statue = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -609,7 +735,21 @@ take_statue = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -1071,7 +1211,21 @@ acquire_core_state_tiny = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -1080,7 +1234,21 @@ acquire_core_state_tiny = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -1154,7 +1322,21 @@ acquire_core_state_small = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -1163,7 +1345,21 @@ acquire_core_state_small = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -1237,7 +1433,21 @@ acquire_core_state_medium = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -1246,7 +1456,21 @@ acquire_core_state_medium = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -1320,7 +1544,21 @@ acquire_core_state_large = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -1329,7 +1567,21 @@ acquire_core_state_large = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -1403,7 +1655,21 @@ acquire_core_state_huge = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -1412,7 +1678,21 @@ acquire_core_state_huge = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -1488,7 +1768,21 @@ annex_core_country = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -1497,7 +1791,21 @@ annex_core_country = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -1642,7 +1950,21 @@ acquire_state_tiny = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -1651,7 +1973,21 @@ acquire_state_tiny = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -1767,7 +2103,21 @@ acquire_state_small = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -1776,7 +2126,21 @@ acquire_state_small = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -1893,7 +2257,21 @@ acquire_state_medium = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -1902,7 +2280,21 @@ acquire_state_medium = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -2019,7 +2411,21 @@ acquire_state_large = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -2028,7 +2434,21 @@ acquire_state_large = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -2145,7 +2565,21 @@ acquire_state_huge = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -2154,7 +2588,21 @@ acquire_state_huge = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -2272,7 +2720,21 @@ place_in_the_sun_tiny = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -2281,7 +2743,21 @@ place_in_the_sun_tiny = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -2376,7 +2852,21 @@ place_in_the_sun_small = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -2385,7 +2875,21 @@ place_in_the_sun_small = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -2479,7 +2983,21 @@ place_in_the_sun_medium = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -2488,7 +3006,21 @@ place_in_the_sun_medium = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -2582,7 +3114,21 @@ place_in_the_sun_large = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -2591,7 +3137,21 @@ place_in_the_sun_large = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -2685,7 +3245,21 @@ place_in_the_sun_huge = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -2694,7 +3268,21 @@ place_in_the_sun_huge = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -3086,7 +3674,21 @@ free_peoples_tiny = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -3095,7 +3697,21 @@ free_peoples_tiny = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -3192,7 +3808,21 @@ free_peoples_small = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -3201,7 +3831,21 @@ free_peoples_small = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -3298,7 +3942,21 @@ free_peoples_medium = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -3307,7 +3965,21 @@ free_peoples_medium = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -3404,7 +4076,21 @@ free_peoples_large = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -3413,7 +4099,21 @@ free_peoples_large = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -3510,7 +4210,21 @@ free_peoples_huge = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -3519,7 +4233,21 @@ free_peoples_huge = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -3621,7 +4349,21 @@ liberate_country = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -3630,7 +4372,21 @@ liberate_country = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -3959,7 +4715,21 @@ make_puppet = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -3968,7 +4738,21 @@ make_puppet = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4168,7 +4952,21 @@ early_scramble_for_africa_conquest = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4177,7 +4975,21 @@ early_scramble_for_africa_conquest = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4247,7 +5059,21 @@ scramble_for_africa_conquest = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4256,7 +5082,21 @@ scramble_for_africa_conquest = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4327,7 +5167,21 @@ late_scramble_for_africa_conquest = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4336,7 +5190,21 @@ late_scramble_for_africa_conquest = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4406,7 +5274,21 @@ early_scramble_for_africa_tiny = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4415,7 +5297,21 @@ early_scramble_for_africa_tiny = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4494,7 +5390,21 @@ early_scramble_for_africa_small = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4503,7 +5413,21 @@ early_scramble_for_africa_small = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4582,7 +5506,21 @@ early_scramble_for_africa_medium = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4591,7 +5529,21 @@ early_scramble_for_africa_medium = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4670,7 +5622,21 @@ early_scramble_for_africa_large = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4679,7 +5645,21 @@ early_scramble_for_africa_large = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4758,7 +5738,21 @@ early_scramble_for_africa_huge = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4767,7 +5761,21 @@ early_scramble_for_africa_huge = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4846,7 +5854,21 @@ scramble_for_africa_tiny = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4855,7 +5877,21 @@ scramble_for_africa_tiny = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -4935,7 +5971,21 @@ scramble_for_africa_small = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -4944,7 +5994,21 @@ scramble_for_africa_small = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5024,7 +6088,21 @@ scramble_for_africa_medium = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5033,7 +6111,21 @@ scramble_for_africa_medium = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5113,7 +6205,21 @@ scramble_for_africa_large = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5122,7 +6228,21 @@ scramble_for_africa_large = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5202,7 +6322,21 @@ scramble_for_africa_huge = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5211,7 +6345,21 @@ scramble_for_africa_huge = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5291,7 +6439,21 @@ late_scramble_for_africa_tiny = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5300,7 +6462,21 @@ late_scramble_for_africa_tiny = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5379,7 +6555,21 @@ late_scramble_for_africa_small = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5388,7 +6578,21 @@ late_scramble_for_africa_small = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5467,7 +6671,21 @@ late_scramble_for_africa_medium = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5476,7 +6694,21 @@ late_scramble_for_africa_medium = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5555,7 +6787,21 @@ late_scramble_for_africa_large = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5564,7 +6810,21 @@ late_scramble_for_africa_large = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5643,7 +6903,21 @@ late_scramble_for_africa_huge = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5652,7 +6926,21 @@ late_scramble_for_africa_huge = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5731,7 +7019,21 @@ early_scramble_for_africa_capital = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5740,7 +7042,21 @@ early_scramble_for_africa_capital = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5820,7 +7136,21 @@ scramble_for_africa_capital = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5829,7 +7159,21 @@ scramble_for_africa_capital = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -5910,7 +7254,21 @@ late_scramble_for_africa_capital = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -5919,7 +7277,21 @@ late_scramble_for_africa_capital = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -6017,7 +7389,21 @@ demand_concession_casus_belli_tiny = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -6026,7 +7412,21 @@ demand_concession_casus_belli_tiny = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -6115,7 +7515,21 @@ demand_concession_casus_belli_small = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -6124,7 +7538,21 @@ demand_concession_casus_belli_small = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -6213,7 +7641,21 @@ demand_concession_casus_belli_medium = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -6222,7 +7664,21 @@ demand_concession_casus_belli_medium = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -6311,7 +7767,21 @@ demand_concession_casus_belli_large = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -6320,7 +7790,21 @@ demand_concession_casus_belli_large = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -6409,7 +7893,21 @@ demand_concession_casus_belli_huge = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -6418,7 +7916,21 @@ demand_concession_casus_belli_huge = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -6517,7 +8029,21 @@ establish_protectorate_casus_belli = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -6526,7 +8052,21 @@ establish_protectorate_casus_belli = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -6898,7 +8438,21 @@ install_communist_gov_cb = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -6907,7 +8461,21 @@ install_communist_gov_cb = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -7081,7 +8649,21 @@ conquest_low = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -7090,7 +8672,21 @@ conquest_low = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -7201,7 +8797,21 @@ take_capital = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -7210,7 +8820,21 @@ take_capital = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -7581,7 +9205,21 @@ establish_colonial_protectorate_casus_belli = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -7590,7 +9228,21 @@ establish_colonial_protectorate_casus_belli = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -7757,7 +9409,21 @@ make_puppet_small = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -7766,7 +9432,21 @@ make_puppet_small = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
@@ -7854,7 +9534,21 @@ make_puppet_large = {
 			NOT = { is_culture_group = east_asian }
 			AND = {
 				is_culture_group = east_asian
-				ai = no
+				OR = {
+					TPG = { ai = no }
+					CHI = { ai = no }
+					KMT = { ai = no }
+					GNG = { ai = no }
+					YNN = { ai = no }
+					GXI = { ai = no }
+					HNN = { ai = no }
+					SZC = { ai = no }
+					HUI = { ai = no }
+					XBI = { ai = no }
+					XIN = { ai = no }
+					TIB = { ai = no }
+					MCK = { ai = no }
+				}
 				has_global_flag = taiping_has_happened
 			}
 		}
@@ -7863,7 +9557,21 @@ make_puppet_large = {
 				NOT = { is_culture_group = east_asian }
 				AND = {
 					is_culture_group = east_asian
-					ai = no
+					OR = {
+						TPG = { ai = no }
+						CHI = { ai = no }
+						KMT = { ai = no }
+						GNG = { ai = no }
+						YNN = { ai = no }
+						GXI = { ai = no }
+						HNN = { ai = no }
+						SZC = { ai = no }
+						HUI = { ai = no }
+						XBI = { ai = no }
+						XIN = { ai = no }
+						TIB = { ai = no }
+						MCK = { ai = no }
+					}
 					has_global_flag = taiping_has_happened
 				}
 			}
