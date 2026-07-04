@@ -33,30 +33,6 @@ country_event = {
 			who = HUN
 			value = -400
 		}
-		diplomatic_influence = {
-			who = PAR
-			value = -400
-		}
-		diplomatic_influence = {
-			who = MOD
-			value = -400
-		}
-		diplomatic_influence = {
-			who = LUC
-			value = -400
-		}
-		diplomatic_influence = {
-			who = TUS
-			value = -400
-		}
-		diplomatic_influence = {
-			who = SIC
-			value = -400
-		}
-		diplomatic_influence = {
-			who = PAP
-			value = -400
-		}
 		HUN = {
 			set_country_flag = hungarian_revolution_1848
 			government = democracy
@@ -133,6 +109,240 @@ country_event = {
 		prestige = 30
 	}
 }
+#Italian Revolution Events
+# country_event = {
+# 	id = 31527
+# 	title = "Italian War of Independence"
+# 	desc = "EVTDESC31527"
+# 	picture = Picture
+#     major = yes
+	
+# 	trigger = {
+# 		tag = AUS
+# 		year = 1848
+# 		month = 3
+# 		NOT = { has_global_flag = italian_wars }
+# 	}
+
+# 	fire_only_once = yes
+
+# 	immediate = {
+# 		set_global_flag = italian_wars
+# 		random_owned = { limit = { owner = { is_our_vassal = PAR } } release_vassal = PAR }
+# 		random_owned = { limit = { owner = { is_our_vassal = MOD } } release_vassal = MOD }
+# 		random_owned = { limit = { owner = { is_our_vassal = LUC } } release_vassal = LUC }
+# 		random_owned = { limit = { owner = { is_our_vassal = TUS } } release_vassal = TUS }
+# 		random_owned = { limit = { owner = { is_our_vassal = SIC } } release_vassal = SIC }
+# 		random_owned = { limit = { owner = { is_our_vassal = PAP } } release_vassal = PAP }
+# 	}
+
+
+# 	#Add warning for possible Sardinia intervention
+# 	option = {
+# 		name = "TO WAR!!"
+# 		726 = { secede_province = LOM }
+# 		release = VEN
+# 		war = {
+# 			target = VEN
+# 			attacker_goal = { casus_belli = conquest }
+# 			defender_goal = { casus_belli = status_quo }
+# 			call_ally = yes
+# 		}
+# 		war = {
+# 			target = LOM
+# 			attacker_goal = { casus_belli = conquest }
+# 			defender_goal = { casus_belli = status_quo }
+# 			call_ally = yes
+# 		}
+# 		any_country = {
+# 			limit = {
+# 				tag = SAR
+# 			}
+# 			country_event = { id=31528 days=1 }
+# 		}
+
+# 		ai_chance = {
+# 			factor = 100
+# 		}
+# 	}
+
+# 	option = {
+# 		name = "Our forces are stretched thin"
+# 		prestige = -25
+# 		country_event = { id=31529 days=1 }
+# 	}
+# }
+
+# country_event = {
+# 	id = 31528
+# 	title = "EVTNAME31528"
+# 	desc = "EVTDESC31528"
+# 	picture = Picture
+	
+# 	is_triggered_only = yes
+
+# 	#Add warning for war with Austria
+# 	option = {
+# 		name = "EVTOPTA31528"
+# 		prestige = 25
+# 		inherit = LOM
+# 		random_owned = {
+# 			limit = { owner = { PAP = { is_vassal = no exists = yes } } }
+# 			owner = { create_vassal = PAP AUS = { diplomatic_influence = { who = PAP value = -400 } } }
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { SIC = { is_vassal = no exists = yes } } }
+# 			owner = { create_vassal = SIC AUS = { diplomatic_influence = { who = SIC value = -400 } } }
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { PAR = { is_vassal = no exists = yes } } }
+# 			owner = { create_vassal = PAR AUS = { diplomatic_influence = { who = PAR value = -400 } } }
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { MOD = { is_vassal = no exists = yes } } }
+# 			owner = { create_vassal = MOD AUS = { diplomatic_influence = { who = MOD value = -400 } } }
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { LUC = { is_vassal = no exists = yes } } }
+# 			owner = { create_vassal = LUC AUS = { diplomatic_influence = { who = LUC value = -400 } } }
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { 726 = { is_core = TIN } } }
+# 			owner = {
+# 				AUS = {
+# 					war = {
+# 						target = SAR
+# 						attacker_goal = {
+# 							casus_belli = acquire_state_tiny
+# 							state_province_id = 726
+# 						}
+# 						defender_goal = {
+# 							casus_belli = acquire_state_tiny
+# 							state_province_id = 726
+# 						}
+# 						call_ally = yes
+# 					}
+# 				}
+# 			}
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { 726 = { is_core = SMA } } }
+# 			owner = {
+# 				AUS = {
+# 					war = {
+# 						target = SAR
+# 						attacker_goal = {
+# 							casus_belli = acquire_state_small
+# 							state_province_id = 726
+# 						}
+# 						defender_goal = {
+# 							casus_belli = acquire_state_small
+# 							state_province_id = 726
+# 						}
+# 						call_ally = yes
+# 					}
+# 				}
+# 			}
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { 726 = { is_core = MED } } }
+# 			owner = {
+# 				AUS = {
+# 					war = {
+# 						target = SAR
+# 						attacker_goal = {
+# 							casus_belli = acquire_state_medium
+# 							state_province_id = 726
+# 						}
+# 						defender_goal = {
+# 							casus_belli = acquire_state_medium
+# 							state_province_id = 726
+# 						}
+# 						call_ally = yes
+# 					}
+# 				}
+# 			}
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { 726 = { is_core = LRG } } }
+# 			owner = {
+# 				AUS = {
+# 					war = {
+# 						target = SAR
+# 						attacker_goal = {
+# 							casus_belli = acquire_state_large
+# 							state_province_id = 726
+# 						}
+# 						defender_goal = {
+# 							casus_belli = acquire_state_large
+# 							state_province_id = 726
+# 						}
+# 						call_ally = yes
+# 					}
+# 				}
+# 			}
+# 		}
+# 		random_owned = {
+# 			limit = { owner = { 726 = { is_core = HUG } } }
+# 			owner = {
+# 				AUS = {
+# 					war = {
+# 						target = SAR
+# 						attacker_goal = {
+# 							casus_belli = acquire_state_huge
+# 							state_province_id = 726
+# 						}
+# 						defender_goal = {
+# 							casus_belli = acquire_state_huge
+# 							state_province_id = 726
+# 						}
+# 						call_ally = yes
+# 					}
+# 				}
+# 			}
+# 		}
+		
+# 		ai_chance = {
+# 			factor = 100
+# 		}
+# 	}
+	
+# 	option = {
+# 		name = "We can not risk a war right now...."
+# 		prestige = -5
+		
+# 		ai_chance = {
+# 			factor = 0
+# 		}
+# 	}
+	
+# }
+
+# country_event = {
+# 	id = 31529
+# 	title = "Austria Backs down from Italian Protests"
+# 	desc = ""
+# 	picture = Picture
+	
+# 	is_triggered_only = yes
+
+# 	option = {
+# 		name = "EVTOPTA31528"
+# 		prestige = 25
+# 		inherit = LOM
+# 		inherit = VEN
+		
+# 		ai_chance = {
+# 			factor = 100
+# 		}
+# 	}
+# }
+#Add event for if Italy wins it does the following.
+#If Sardinia wins they will keep all italian puppets.
+#If Austria wins Sardinia loses support and loses all puppets.
+
+
+
 #Polish Revolution Events
 country_event = {
 	title = "EVTNAME31525"

@@ -493,7 +493,14 @@ political_decisions = {
 				nationalism_n_imperialism = 1
 			}
 			war = no
-			owns = 749  #Rome
+			749 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = THIS
+					}
+				}
+			}
 		}
 		
 		effect = {
@@ -554,143 +561,64 @@ political_decisions = {
 		}
 		
 		allow = {
-			SCH_370 = {
-				OR = {
+			SWE = {
+				all_core = {
 					owned_by = THIS
 					owner = {
-						OR = {
-							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
-						}
+						in_sphere = THIS
+					}
+					owner = {
+						is_our_vassal = THIS
 					}
 				}
 			}
-			DEN_367 = {
-				OR = {
+			NOR = {
+				all_core = {
 					owned_by = THIS
 					owner = {
-						OR = {
-							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
-						}
+						in_sphere = THIS
+					}
+					owner = {
+						is_our_vassal = THIS
 					}
 				}
 			}
-			DEN_372 = {
-				OR = {
+			DEN = {
+				all_core = {
 					owned_by = THIS
 					owner = {
-						OR = {
-							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
-						}
+						in_sphere = THIS
+					}
+					owner = {
+						is_our_vassal = THIS
 					}
 				}
 			}
-			SWE_329 = {
-				OR = {
+			ICL = {
+				all_core = {
 					owned_by = THIS
 					owner = {
-						OR = {
-							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
-						}
+						in_sphere = THIS
+					}
+					owner = {
+						is_our_vassal = THIS
 					}
 				}
 			}
-			SWE_313 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						OR = {
+			OR = {
+				FIN = {
+					all_core = {
+						owned_by = THIS
+						owner = {
 							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
+						}
+						owner = {
+							is_our_vassal = THIS
 						}
 					}
 				}
+				has_country_flag = Conceded_Finland
 			}
-			SWE_308 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						OR = {
-							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
-						}
-					}
-				}
-			}
-			SWE_322 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						OR = {
-							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
-						}
-					}
-				}
-			}
-			SWE_318 = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						OR = {
-							in_sphere = THIS
-							overlord = {
-								tag = THIS
-							}
-						}
-					}
-				}
-			}
-			#RUS_340 = {
-			#	OR = {
-			#		owned_by = THIS
-			#		owner = {
-			#			in_sphere = THIS
-			#		}
-			#		owner = {
-			#			is_our_vassal = THIS
-			#		}
-			#	}
-			#}
-			#RUS_336 = {
-			#	OR = {
-			#		owned_by = THIS
-			#		owner = {
-			#			in_sphere = THIS
-			#		}
-			#		owner = {
-			#			is_our_vassal = THIS
-			#		}
-			#	}
-			#}
-			#DEN_251 = {
-			#	OR = {
-			#		owned_by = THIS
-			#		owner = {
-			#			in_sphere = THIS
-			#		}
-			#		owner = {
-			#			is_our_vassal = THIS
-			#		}
-			#	}
-			#}
 			prestige = 90
 			state_n_government = 1
 			war = no
@@ -702,14 +630,16 @@ political_decisions = {
 			add_accepted_culture = swedish
 			add_accepted_culture = danish
 			add_accepted_culture = norwegian
-			add_accepted_culture = finnish
 			add_accepted_culture = icelandic
 			add_accepted_culture = sami
-			SCH = { all_core = { remove_core = SCH add_core = SCA } }
+			random_owned = {
+				limit = { NOT = { owner = { has_country_flag = Conceded_Finland } } }
+				owner = { add_accepted_culture = finnish }
+				FIN = { all_core = { remove_core = FIN add_core = SCA } }
+			}
 			DEN = { all_core = { remove_core = DEN add_core = SCA } }
 			SWE = { all_core = { remove_core = SWE add_core = SCA } }
 			NOR = { all_core = { remove_core = NOR add_core = SCA } }
-			FIN = { all_core = { remove_core = FIN add_core = SCA } }
 			ICL = { all_core = { remove_core = ICL add_core = SCA } }
 
 			any_country = {
@@ -745,8 +675,9 @@ political_decisions = {
 		}
 		
 		effect = {
+			# abandon_finland_warning = {}
 			FIN = { all_core = { remove_core = SWE } }
-			prestige = 30
+			prestige = 60
 			any_pop = {
 				militancy = -1
 			}
