@@ -315,6 +315,7 @@ political_decisions = {
 	
 		potential = { 
 			tag = COM
+			NOT = { has_country_flag = stabilize_south_africa }
 		}
 	
 		allow = {
@@ -325,6 +326,7 @@ political_decisions = {
 		}
 	
 		effect = {
+			set_country_flag = stabilize_south_africa
 			TRN_2108 = { add_core = THIS }
 			ORA_2103 = { add_core = THIS }
 			ZUL_2113 = { add_core = THIS }

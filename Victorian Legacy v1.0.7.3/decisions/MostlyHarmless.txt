@@ -560,6 +560,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					ai = no
+					NOT = { has_country_modifier = province_selector_expire }
 					any_owned_province = { 
 						has_building = province_selector 
 					}
@@ -573,9 +574,7 @@ political_decisions = {
 						}
 						has_global_flag = disabled_genocide
 					}
-					NOT = { has_country_flag = province_selector }
 				}
-				set_country_flag = province_selector
 				random_owned = {
 					limit = {
 						has_building = province_selector
@@ -584,11 +583,20 @@ political_decisions = {
 						## Audax Validator "." Ignore_NEXT
 						id = 92105 days = 0
 					}
+					owner = {
+						any_owned = {
+							limit = {
+								has_building = province_selector
+							}
+							province_selector = -1
+						}
+					}
 				}
 			}
 			any_country = {
 				limit = {
 					ai = no
+					NOT = { has_country_modifier = province_selector_expire }
 					any_owned_province = { 
 						has_building = province_selector 
 					}
@@ -598,9 +606,7 @@ political_decisions = {
 						government = proletarian_dictatorship
 						government = absolute_monarchy
 					}
-					NOT = { has_country_flag = province_selector }
 				}
-				set_country_flag = province_selector
 				random_owned = {
 					limit = {
 						has_building = province_selector
@@ -608,6 +614,14 @@ political_decisions = {
 					province_event = {
 						## Audax Validator "." Ignore_NEXT
 						id = 92104 days = 0
+					}
+					owner = {
+						any_owned = {
+							limit = {
+								has_building = province_selector
+							}
+							province_selector = -1
+						}
 					}
 				}
 			}
@@ -3821,7 +3835,15 @@ political_decisions = {
 		allow = {
 			META_1 = {
 				owner = {
-					ai = no
+					OR = {
+						ai = no
+						has_country_flag= national_idea1
+						has_country_flag= national_idea2
+						has_country_flag= national_idea3
+						has_country_flag= national_idea4
+						has_country_flag= national_idea5
+						has_country_flag= national_idea6
+					}
 					any_owned_province = { 
 						is_capital = yes
 						OR = {
@@ -3917,7 +3939,17 @@ political_decisions = {
 
 		effect = {
 			any_country = {
-				limit = { ai = no }
+				limit = { 
+					OR = {
+						ai = no
+						has_country_flag= national_idea1
+						has_country_flag= national_idea2
+						has_country_flag= national_idea3
+						has_country_flag= national_idea4
+						has_country_flag= national_idea5
+						has_country_flag= national_idea6
+					}
+				}
 				any_owned = {
 					limit = {
 						is_capital = yes
@@ -5162,6 +5194,38 @@ political_decisions = {
 					NOT = { early_classical_theory_and_critique = 1 }
 				}
 				activate_technology = early_classical_theory_and_critique
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	province_selector_soft_lock_fix = {
+		picture = province_selector_soft_lock_fix
+	
+		potential = { 
+			tag = JAN
+			META_1 = {
+				owner = {
+					NOT = { has_country_modifier = province_selector_expire }
+					any_owned_province = { is_core = PRO }
+				}
+			}
+		}
+	
+		allow = {
+			
+		}
+	
+		effect = {
+			any_country = {
+				limit = {
+					NOT = { has_country_modifier = province_selector_expire }
+					any_owned_province = { is_core = PRO }
+				}
+				any_owned = { remove_core = PRO }
 			}
 		}
 	

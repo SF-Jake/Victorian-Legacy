@@ -140,19 +140,19 @@ gunboat = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -163,19 +163,19 @@ gunboat = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -294,19 +294,19 @@ conquest = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -317,19 +317,19 @@ conquest = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -486,19 +486,19 @@ add_to_sphere = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -509,19 +509,19 @@ add_to_sphere = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -603,19 +603,19 @@ take_from_sphere = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -626,19 +626,19 @@ take_from_sphere = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -713,19 +713,19 @@ take_statue = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -736,19 +736,19 @@ take_statue = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -1212,19 +1212,19 @@ acquire_core_state_tiny = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -1235,19 +1235,19 @@ acquire_core_state_tiny = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -1323,19 +1323,19 @@ acquire_core_state_small = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -1346,19 +1346,19 @@ acquire_core_state_small = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -1434,19 +1434,19 @@ acquire_core_state_medium = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -1457,19 +1457,19 @@ acquire_core_state_medium = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -1545,19 +1545,19 @@ acquire_core_state_large = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -1568,19 +1568,19 @@ acquire_core_state_large = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -1656,19 +1656,19 @@ acquire_core_state_huge = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -1679,19 +1679,19 @@ acquire_core_state_huge = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -1769,19 +1769,19 @@ annex_core_country = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -1792,19 +1792,19 @@ annex_core_country = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -1951,19 +1951,19 @@ acquire_state_tiny = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -1974,19 +1974,19 @@ acquire_state_tiny = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -2104,19 +2104,19 @@ acquire_state_small = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -2127,19 +2127,19 @@ acquire_state_small = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -2258,19 +2258,19 @@ acquire_state_medium = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -2281,19 +2281,19 @@ acquire_state_medium = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -2412,19 +2412,19 @@ acquire_state_large = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -2435,19 +2435,19 @@ acquire_state_large = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -2566,19 +2566,19 @@ acquire_state_huge = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -2589,19 +2589,19 @@ acquire_state_huge = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -2721,19 +2721,19 @@ place_in_the_sun_tiny = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -2744,19 +2744,19 @@ place_in_the_sun_tiny = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -2853,19 +2853,19 @@ place_in_the_sun_small = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -2876,19 +2876,19 @@ place_in_the_sun_small = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -2984,19 +2984,19 @@ place_in_the_sun_medium = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -3007,19 +3007,19 @@ place_in_the_sun_medium = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -3115,19 +3115,19 @@ place_in_the_sun_large = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -3138,19 +3138,19 @@ place_in_the_sun_large = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -3246,19 +3246,19 @@ place_in_the_sun_huge = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -3269,19 +3269,19 @@ place_in_the_sun_huge = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -3675,19 +3675,19 @@ free_peoples_tiny = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -3698,19 +3698,19 @@ free_peoples_tiny = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -3809,19 +3809,19 @@ free_peoples_small = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -3832,19 +3832,19 @@ free_peoples_small = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -3943,19 +3943,19 @@ free_peoples_medium = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -3966,19 +3966,19 @@ free_peoples_medium = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -4077,19 +4077,19 @@ free_peoples_large = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -4100,19 +4100,19 @@ free_peoples_large = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -4211,19 +4211,19 @@ free_peoples_huge = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -4234,19 +4234,19 @@ free_peoples_huge = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -4350,19 +4350,19 @@ liberate_country = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -4373,19 +4373,19 @@ liberate_country = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -4716,19 +4716,19 @@ make_puppet = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -4739,19 +4739,19 @@ make_puppet = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -4953,19 +4953,19 @@ early_scramble_for_africa_conquest = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -4976,19 +4976,19 @@ early_scramble_for_africa_conquest = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -5060,19 +5060,19 @@ scramble_for_africa_conquest = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -5083,19 +5083,19 @@ scramble_for_africa_conquest = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -5168,19 +5168,19 @@ late_scramble_for_africa_conquest = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -5191,19 +5191,19 @@ late_scramble_for_africa_conquest = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -5275,19 +5275,19 @@ early_scramble_for_africa_tiny = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -5298,19 +5298,19 @@ early_scramble_for_africa_tiny = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -5391,19 +5391,19 @@ early_scramble_for_africa_small = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -5414,19 +5414,19 @@ early_scramble_for_africa_small = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -5507,19 +5507,19 @@ early_scramble_for_africa_medium = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -5530,19 +5530,19 @@ early_scramble_for_africa_medium = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -5623,19 +5623,19 @@ early_scramble_for_africa_large = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -5646,19 +5646,19 @@ early_scramble_for_africa_large = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -5739,19 +5739,19 @@ early_scramble_for_africa_huge = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -5762,19 +5762,19 @@ early_scramble_for_africa_huge = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -5855,19 +5855,19 @@ scramble_for_africa_tiny = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -5878,19 +5878,19 @@ scramble_for_africa_tiny = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -5972,19 +5972,19 @@ scramble_for_africa_small = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -5995,19 +5995,19 @@ scramble_for_africa_small = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -6089,19 +6089,19 @@ scramble_for_africa_medium = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -6112,19 +6112,19 @@ scramble_for_africa_medium = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -6206,19 +6206,19 @@ scramble_for_africa_large = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -6229,19 +6229,19 @@ scramble_for_africa_large = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -6323,19 +6323,19 @@ scramble_for_africa_huge = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -6346,19 +6346,19 @@ scramble_for_africa_huge = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -6440,19 +6440,19 @@ late_scramble_for_africa_tiny = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -6463,19 +6463,19 @@ late_scramble_for_africa_tiny = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -6556,19 +6556,19 @@ late_scramble_for_africa_small = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -6579,19 +6579,19 @@ late_scramble_for_africa_small = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -6672,19 +6672,19 @@ late_scramble_for_africa_medium = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -6695,19 +6695,19 @@ late_scramble_for_africa_medium = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -6788,19 +6788,19 @@ late_scramble_for_africa_large = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -6811,19 +6811,19 @@ late_scramble_for_africa_large = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -6904,19 +6904,19 @@ late_scramble_for_africa_huge = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -6927,19 +6927,19 @@ late_scramble_for_africa_huge = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -7020,19 +7020,19 @@ early_scramble_for_africa_capital = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -7043,19 +7043,19 @@ early_scramble_for_africa_capital = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -7137,19 +7137,19 @@ scramble_for_africa_capital = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -7160,19 +7160,19 @@ scramble_for_africa_capital = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -7255,19 +7255,19 @@ late_scramble_for_africa_capital = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -7278,19 +7278,19 @@ late_scramble_for_africa_capital = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -7390,19 +7390,19 @@ demand_concession_casus_belli_tiny = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -7413,19 +7413,19 @@ demand_concession_casus_belli_tiny = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -7516,19 +7516,19 @@ demand_concession_casus_belli_small = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -7539,19 +7539,19 @@ demand_concession_casus_belli_small = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -7642,19 +7642,19 @@ demand_concession_casus_belli_medium = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -7665,19 +7665,19 @@ demand_concession_casus_belli_medium = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -7768,19 +7768,19 @@ demand_concession_casus_belli_large = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -7791,19 +7791,19 @@ demand_concession_casus_belli_large = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -7894,19 +7894,19 @@ demand_concession_casus_belli_huge = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -7917,19 +7917,19 @@ demand_concession_casus_belli_huge = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -8030,19 +8030,19 @@ establish_protectorate_casus_belli = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -8053,19 +8053,19 @@ establish_protectorate_casus_belli = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -8439,19 +8439,19 @@ install_communist_gov_cb = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -8462,19 +8462,19 @@ install_communist_gov_cb = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -8650,19 +8650,19 @@ conquest_low = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -8673,19 +8673,19 @@ conquest_low = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -8798,19 +8798,19 @@ take_capital = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -8821,19 +8821,19 @@ take_capital = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -9206,19 +9206,19 @@ establish_colonial_protectorate_casus_belli = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -9229,19 +9229,19 @@ establish_colonial_protectorate_casus_belli = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -9410,19 +9410,19 @@ make_puppet_small = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -9433,19 +9433,19 @@ make_puppet_small = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}
@@ -9535,19 +9535,19 @@ make_puppet_large = {
 			AND = {
 				is_culture_group = east_asian
 				OR = {
-					TPG = { ai = no }
-					CHI = { ai = no }
-					KMT = { ai = no }
-					GNG = { ai = no }
-					YNN = { ai = no }
-					GXI = { ai = no }
-					HNN = { ai = no }
-					SZC = { ai = no }
-					HUI = { ai = no }
-					XBI = { ai = no }
-					XIN = { ai = no }
-					TIB = { ai = no }
-					MCK = { ai = no }
+					TPG = { OR = { civilized = yes ai = no } }
+					CHI = { OR = { civilized = yes ai = no } }
+					KMT = { OR = { civilized = yes ai = no } }
+					GNG = { OR = { civilized = yes ai = no } }
+					YNN = { OR = { civilized = yes ai = no } }
+					GXI = { OR = { civilized = yes ai = no } }
+					HNN = { OR = { civilized = yes ai = no } }
+					SZC = { OR = { civilized = yes ai = no } }
+					HUI = { OR = { civilized = yes ai = no } }
+					XBI = { OR = { civilized = yes ai = no } }
+					XIN = { OR = { civilized = yes ai = no } }
+					TIB = { OR = { civilized = yes ai = no } }
+					MCK = { OR = { civilized = yes ai = no } }
 				}
 				has_global_flag = taiping_has_happened
 			}
@@ -9558,19 +9558,19 @@ make_puppet_large = {
 				AND = {
 					is_culture_group = east_asian
 					OR = {
-						TPG = { ai = no }
-						CHI = { ai = no }
-						KMT = { ai = no }
-						GNG = { ai = no }
-						YNN = { ai = no }
-						GXI = { ai = no }
-						HNN = { ai = no }
-						SZC = { ai = no }
-						HUI = { ai = no }
-						XBI = { ai = no }
-						XIN = { ai = no }
-						TIB = { ai = no }
-						MCK = { ai = no }
+						TPG = { OR = { civilized = yes ai = no } }
+						CHI = { OR = { civilized = yes ai = no } }
+						KMT = { OR = { civilized = yes ai = no } }
+						GNG = { OR = { civilized = yes ai = no } }
+						YNN = { OR = { civilized = yes ai = no } }
+						GXI = { OR = { civilized = yes ai = no } }
+						HNN = { OR = { civilized = yes ai = no } }
+						SZC = { OR = { civilized = yes ai = no } }
+						HUI = { OR = { civilized = yes ai = no } }
+						XBI = { OR = { civilized = yes ai = no } }
+						XIN = { OR = { civilized = yes ai = no } }
+						TIB = { OR = { civilized = yes ai = no } }
+						MCK = { OR = { civilized = yes ai = no } }
 					}
 					has_global_flag = taiping_has_happened
 				}

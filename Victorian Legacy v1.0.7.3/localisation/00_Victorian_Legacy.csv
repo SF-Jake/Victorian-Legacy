@@ -530,8 +530,8 @@ zwill_receive_desc;This will request a grant from other players. Please note the
 #will_not_receive_desc;This will prohibit other players from giving us grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
 zwill_give_title;§YEnable Giving Grants;;;;;;;;;;;;x
 zwill_give_desc;This will allow us to give grants to other players. It must be activated before a player chooses to request grants. It can be reversed at any time.;;;;;;;;;;;;x
-zwill_not_give_title;§YDisable Giving Grants and Lend Lease;;;;;;;;;;;;x
-zwill_not_give_desc;This will prevent us from getting events when other players request grants and lend lease requests. It can be reversed at any time.\n§RSending lend lease (military/industrial goods to other players) will be unlocked after you reseach Economic Responsibility.§!;;;;;;;;;;;;x
+zwill_not_give_title;§YDisable Giving Grants;;;;;;;;;;;;x
+zwill_not_give_desc;This will prevent us from getting events when other players request grants and lend lease requests. It can be reversed at any time.§!;;;;;;;;;;;;x
 zrequest_lend_lease_title;§YRequest Lend Lease;;;;;;;;;;;;x
 zrequest_lend_lease_desc;This will request military or industrial goods from other players, similar to a grant. Please note the sender needs to have the "Economic Responsibility" tech in order to recieve the request.;;;;;;;;;;;;x
 EVTNAME245000;End of the Ruhr Boom;;;;;;;;;;;;x
@@ -726,3 +726,5 @@ abandon_finland_warning;§RThis will prevent you from receiving Finnish as accept
 EVTDESC31527;Across the Italian peninsula, the fires of Il Risorgimento have grown too fierce to smother. From the fog-choked streets of Milan to the sun-baked piazzas of Rome, the cry for a unified Italy — free of Austrian bayonets and the petty tyrannies of a dozen princelings — rings out from every quarter. In Milan, five days of barricades and blood have driven the Austrian garrison from the city. In Venice, Daniele Manin has proclaimed anew the Republic of San Marco, its lion banner raised for the first time in half a century. King Carlo Alberto of Piedmont-Sardinia, ever a cautious man, has at last been swept forward by the tide of popular fervor, declaring war upon the Habsburg Empire and marching his armies east beneath the tricolor. Volunteers stream in from Naples, from the Papal States, from Tuscany — students, poets, and peasants alike, armed with old muskets and older dreams. Even His Holiness the Pope, momentarily, permits his own subjects to march north against the Austrian eagle. But Field Marshal Radetzky, veteran of a hundred campaigns, is not so easily unseated. His army waits in the fortress-quadrilateral of Lombardy-Venetia, patient as stone, while the Italian coalition — divided by pride, dynastic jealousy, and the creeping return of conservative nerve in Naples and Rome — begins, city by city, to unravel. Whether this shall be remembered as the dawn of a nation, or merely its first, bitter rehearsal, remains to be written.;;;;;;;;;;;;x
 stabilize_south_africa_title;Stabilize South Africa;;;;;;;;;;;;x
 stabilize_south_africa_desc; ;;;;;;;;;;;;x
+province_selector_expire;Province Selector;;;;;;;;;;;;x
+province_selector_expire_desc;A modifier to prevent a soft loft bug;;;;;;;;;;;;x

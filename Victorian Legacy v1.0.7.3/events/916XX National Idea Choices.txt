@@ -529,6 +529,7 @@ province_event = {
 		owner = { set_country_flag = choosing_domestic }
 		ai_chance = {
 			factor = 0
+			has_country_flag = domestic_idea
 		}
 	}
 
@@ -757,6 +758,7 @@ province_event = {
 		owner = { set_country_flag = choosing_domestic }
 		ai_chance = {
 			factor = 0
+			has_country_flag = domestic_idea
 		}
 	}
 
@@ -985,6 +987,7 @@ province_event = {
 		owner = { set_country_flag = choosing_domestic }
 		ai_chance = {
 			factor = 0
+			has_country_flag = domestic_idea
 		}
 	}
 
@@ -1213,6 +1216,7 @@ province_event = {
 		owner = { set_country_flag = choosing_domestic }
 		ai_chance = {
 			factor = 0
+			has_country_flag = domestic_idea
 		}
 	}
 
@@ -1441,6 +1445,7 @@ province_event = {
 		owner = { set_country_flag = choosing_domestic }
 		ai_chance = {
 			factor = 0
+			has_country_flag = domestic_idea
 		}
 	}
 

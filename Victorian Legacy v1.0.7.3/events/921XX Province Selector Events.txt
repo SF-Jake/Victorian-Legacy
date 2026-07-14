@@ -12,6 +12,7 @@ province_event = {
 
 	immediate = {
 		add_core = PRO
+		add_country_modifier = { name = province_selector_expire duration = 60 }
 	}
 
 	option = {
@@ -69,7 +70,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -115,7 +116,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -193,7 +194,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -508,7 +509,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -665,7 +666,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -782,7 +783,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -877,10 +878,9 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
-			clr_country_flag = province_selector
 		}
 	}
 
@@ -1021,7 +1021,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -1087,7 +1087,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -2079,7 +2079,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -2112,7 +2112,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -2129,6 +2129,7 @@ province_event = {
 
 	immediate = {
 		add_core = PRO
+		add_country_modifier = { name = province_selector_expire duration = 60 }
 	}
 
 	option = {
@@ -2186,7 +2187,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -2232,7 +2233,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -2310,7 +2311,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -2625,7 +2626,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -2782,7 +2783,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -2899,7 +2900,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -2994,10 +2995,9 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
-			clr_country_flag = province_selector
 		}
 	}
 
@@ -3987,7 +3987,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}
@@ -4020,7 +4020,7 @@ province_event = {
 						}
 						remove_core = JAN
 					}
-					clr_country_flag = province_selector
+					remove_country_modifier = province_selector_expire
 				}
 			}
 		}

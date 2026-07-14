@@ -583,13 +583,15 @@ province_event = {
 		owned_by = THIS
 		is_colonial = no
 		OR = {
+			is_coastal = yes
+			any_neighbor_province = { is_core = THIS }
+		}
+		OR = {
 			is_primary_culture = yes
 			is_accepted_culture = yes
 		}
-		any_neighbor_province = { is_core = THIS }
 		owner = {
 			civilized = yes
-			is_vassal = no
 			war = no
 		}
 	}
@@ -780,10 +782,13 @@ province_event = {
 		owned_by = THIS
 		is_colonial = no
 		OR = {
+			is_coastal = yes
+			any_neighbor_province = { is_core = THIS }
+		}
+		OR = {
 			is_primary_culture = yes
 			is_accepted_culture = yes
 		}
-		any_neighbor_province = { is_core = THIS }
 		owner = {
 			civilized = yes
 			war = no
@@ -791,7 +796,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 40
+		months = 25
 		modifier = {
 			factor = 0.01
 			owner = { has_country_flag = became_hausaland }
