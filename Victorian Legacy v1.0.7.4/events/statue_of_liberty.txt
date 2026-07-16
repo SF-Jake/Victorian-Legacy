@@ -9,9 +9,6 @@ country_event = {
 	option = {
 		name = "USA"
 		USA = { country_event = { id=19300 days=0 } }
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	
 	option = {
@@ -45,7 +42,8 @@ country_event = {
 	option = {
 		name = "Brazil"
 		random_owned = { limit = { owner = { BRZ = { exists = yes } } } owner = { BRZ = { country_event = { id=19300 days=0 } } } }
-		random_owned = { limit = { owner = { BRZ = { exists = no } } } owner = { clr_global_flag = statue_of_liberty_has_been_built } }
+		random_owned = { limit = { owner = { PBA = { exists = yes } BRZ = { exists = no } } } owner = { BRZ = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { BRZ = { exists = no } PBA = { exists = no } } } owner = { clr_global_flag = statue_of_liberty_has_been_built } }
 	}
 	
 	option = {
