@@ -11,6 +11,21 @@ country_event = {
 		name = "Okay"
 	}
 }
+
+country_event = {
+	id = 999990124
+	title = "Host Nation Lost!"
+	desc = "A nation no longer exists and access to host tools have been restored to host nation. Play Host Nation to get host tools back."
+	major = yes
+	picture = "greatpowers"
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Okay"
+	}
+}
+
 country_event = {
 	id = 999991123
 	title = "You are the host nation now"

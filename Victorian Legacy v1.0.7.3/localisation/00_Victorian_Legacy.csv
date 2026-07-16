@@ -565,7 +565,7 @@ mixed_economy_focus;Mixed Economy;;;;;;;;;;;;;x;
 mixed_economy_focus_l;Mixed Economy;;;;;;;;;;;;;x;
 mixed_economy_focus_desc; ;;;;;;;;;;;;;x;
 take_statue;Steal Statue;;;;;;;;;;;;;x;
-take_statue_desc;Steal a statue from the nation. §RAny Statue you want to steal will require $250k to fully complete the cb. You can only take one statue from the nation and you will have a limited amount of time to make your decsion. Some statues may not be obtainable for other countries due to its modifiers (ex: Statue of Liberty).§W;;;;;;;;;;;;;x;
+take_statue_desc;Steal a statue from the nation. §RAny Statue you want to steal will require 50k to fully complete the cb. You can only take one statue from the nation and you will have a limited amount of time to make your decsion. Some statues may not be obtainable for other countries due to its modifiers (ex: Statue of Liberty).§W;;;;;;;;;;;;;x;
 take_statue_short;Steal a nations Statue for personal gain.;;;;;;;;;;;;;x;
 take_statue_setup;Steal a nations Statue for personal gain.;;;;;;;;;;;;;x;
 negotiating_statue_treaty;Negotiating Steal Statue Treaty;;;;;;;;;;;;;x;
@@ -660,8 +660,8 @@ not_unlocked;Not Unlocked;;;;;;;;;;;;;x;
 not_unlocked_l;Not Unlocked;;;;;;;;;;;;;x;
 not_unlocked_desc; ;;;;;;;;;;;;;x;
 peking_decision;§YThe china player can decide wether to deny the convention or accept.\n§w;;;;;;;;;;;;x
-move_statue_broke;§RNot enough Funds ($100K)§W;;;;;;;;;;;;x
-move_statue_cost;§GCost to Move Statue: §R-$100K§W;;;;;;;;;;;;x
+move_statue_broke;§RNot enough Funds ($50K)§W;;;;;;;;;;;;x
+move_statue_cost;§GCost to Move Statue: §R-$50K§W;;;;;;;;;;;;x
 move_statue_war;§RCannot move statue while at war or awaiting a peace deal§W;;;;;;;;;;;;x
 move_statue_no_statue;§RNo statue within your Country§W;;;;;;;;;;;;x
 the_saint_basil_cathedral_title;Steal the Saint Basil's Cathedral;;;;;;;;;;;;x
@@ -728,3 +728,28 @@ stabilize_south_africa_title;Stabilize South Africa;;;;;;;;;;;;x
 stabilize_south_africa_desc; ;;;;;;;;;;;;x
 province_selector_expire;Province Selector;;;;;;;;;;;;x
 province_selector_expire_desc;A modifier to prevent a soft loft bug;;;;;;;;;;;;x
+the_saint_basil_cathedral;Saint Basil's Cathedral;;;;;;;;;;;;x
+the_brandenburg_gate;Brandenburg Gate;;;;;;;;;;;;x
+the_austrian_parliament_building;Austrian Parliament Building;;;;;;;;;;;;x
+the_eiffel_tower;Eiffel Tower;;;;;;;;;;;;x
+the_white_house;White House;;;;;;;;;;;;x
+the_big_ben;Big Ben;;;;;;;;;;;;x
+the_suleymaniye_mosque;Suleymaniye Mosque;;;;;;;;;;;;x
+the_horyu_ji;H?ry?-ji;;;;;;;;;;;;x
+the_colosseum;The Colosseum;;;;;;;;;;;;x
+the_royal_palace_of_madrid;Royal Palace of Madrid;;;;;;;;;;;;x
+the_royal_palace_of_amsterdam;Royal Palace of Amsterdam;;;;;;;;;;;;x
+the_church_of_saint_francis_of_assisi;Church of Saint Francis of Assisi;;;;;;;;;;;;x
+the_belem_tower;Belém Tower;;;;;;;;;;;;x
+the_drottningholm_palace;Drottningholm Palace;;;;;;;;;;;;x
+the_masjid_i_jameh_of_isfahan;Masjid-i-Jameh of Isfahan;;;;;;;;;;;;x
+the_templo_mayoir;Templo Mayoir;;;;;;;;;;;;x
+the_ayutthaya;Ayutthaya;;;;;;;;;;;;x
+the_basilica_nuestra_senora_del_pillar;Basílica Nuestra Señora del Pilar;;;;;;;;;;;;x
+the_grand_place;Grand-Place;;;;;;;;;;;;x
+the_basilica_menor_nuestra_senora_de_lourdes;Basílica Menor Nuestra Señora de Lourdes;;;;;;;;;;;;x
+the_basilica_and_convent_of_san_francisco;Basílica and Convent of San Francisco;;;;;;;;;;;;x
+the_fasil_ghebbi;Fasil Ghebbi;;;;;;;;;;;;x
+the_palace_of_the_sultan;Palace of the Sultan;;;;;;;;;;;;x
+the_forbidden_city;Forbidden City;;;;;;;;;;;;x
+the_statue_of_liberty;Statue of Liberty\n§GGain North & South Immigration§!;;;;;;;;;;;;x

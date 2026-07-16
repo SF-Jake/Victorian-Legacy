@@ -3447,6 +3447,14 @@ political_decisions = {
                     remove_province_modifier = the_statue_of_liberty
                     clr_province_flag = the_statue_of_liberty_built
 				}
+                random_owned = {
+                    limit = { owner = { capital_scope = { continent = north_america } } }
+                    owner = { clr_country_flag = south_american_immigrant_nation }
+                }
+                random_owned = {
+                    limit = { owner = { capital_scope = { continent = south_america } } }
+                    owner = { clr_country_flag = north_american_immigrant_nation }
+                }
                 prestige = -30
                 remove_country_modifier = negotiating_unequal_statue_treaty
             }
@@ -3454,6 +3462,15 @@ political_decisions = {
                 add_core = S24
                 set_province_flag = the_statue_of_liberty_built 
                 add_province_modifier = { name = the_statue_of_liberty duration = -1 } 
+                
+            }
+            random_owned = {
+                limit = { owner = { capital_scope = { continent = north_america } } }
+                owner = { set_country_flag = south_american_immigrant_nation }
+            }
+            random_owned = {
+                limit = { owner = { capital_scope = { continent = south_america } } }
+                owner = { set_country_flag = north_american_immigrant_nation }
             }
         }
     }

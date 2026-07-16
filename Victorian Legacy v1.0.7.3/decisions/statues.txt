@@ -6,7 +6,7 @@ political_decisions = {
 			NOT = {
 				has_global_flag = the_austrian_parliament_building_has_been_built
 			}
-            2247 = { owned_by = THIS }
+            619 = { owned_by = THIS }
 		}
 	
 		allow = {
@@ -18,7 +18,7 @@ political_decisions = {
 			any_pop = {
 				militancy = -0.5
 			}
-            2247 = {
+            619 = {
                 add_province_modifier = { name = the_austrian_parliament_building duration = -1 }
                 set_province_flag = the_austrian_parliament_building_built
                 add_core = S02

@@ -1,89 +1,58 @@
 country_event = {
 	id = 7771001
 	title = "Who should REALLY get the Statue of Liberty?"
-	desc = "Now you have a choice. If you choose a dead / non-existent nation, it bricks!"
+	desc = "Now you have a choice. Hover over the button to verify its who you want it to go to."
 	picture = "dixie"
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = "USA"
-		USA = {
-			country_event = { id=19300 days=0 }
-		}
+		USA = { country_event = { id=19300 days=0 } }
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
 	option = {
-		name = "Canada"
-		CAN = {
-			country_event = { id=19300 days=0 }
-		}
+		name = "Canada or Commonwealth"
+		random_owned = { limit = { owner = { CAN = { exists = yes } } } owner = { CAN = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { COM = { exists = yes } } } owner = { COM = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { CAN = { exists = no } COM = { exists = no } } } owner = { clr_global_flag = statue_of_liberty_has_been_built } }
 	}
 	
 	option = {
 		name = "Mexico"
-		MEX = {
-			country_event = { id=19300 days=0 }
-		}
-	}
-	
-	option = {
-		name = "Gran Columbia"
-		GCO = {
-			country_event = { id=19300 days=0 }
-		}
+		random_owned = { limit = { owner = { MEX = { exists = yes } } } owner = { MEX = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { GCL = { exists = yes } MEX = { exists = no } } } owner = { GCL = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { MEX = { exists = no } GCL = { exists = no } } } owner = { clr_global_flag = statue_of_liberty_has_been_built } }
 	}
 	
 	option = {
 		name = "Columbia"
-		CLM = {
-			country_event = { id=19300 days=0 }
-		}
+		random_owned = { limit = { owner = { CLM = { exists = yes } } } owner = { CLM = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { GCO = { exists = yes } } } owner = { GCO = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { GCL = { exists = yes } GCO = { exists = no } CLM = { exists = no } } } owner = { GCL = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { CLM = { exists = no } GCO = { exists = no } GCL = { exists = no } } } owner = { clr_global_flag = statue_of_liberty_has_been_built } }
 	}
 	
 	option = {
-		name = "Bolivia"
-		BOL = {
-			country_event = { id=19300 days=0 }
-		}
-	}
-	
-	option = {
-		name = "Peru"
-		PEU = {
-			country_event = { id=19300 days=0 }
-		}
-	}
-	
-	option = {
-		name = "Andine Federation"
-		PBC = {
-			country_event = { id=19300 days=0 }
-		}
+		name = "Peru-Bolivia"
+		random_owned = { limit = { owner = { PBC = { exists = yes } } } owner = { PBC = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { PBC = { exists = no } } } owner = { clr_global_flag = statue_of_liberty_has_been_built } }
 	}
 	
 	option = {
 		name = "Brazil"
-		BRZ = {
-			country_event = { id=19300 days=0 }
-		}
-	}
-	
-	option = {
-		name = "Portugal-Brazil"
-		PBA = {
-			country_event = { id=19300 days=0 }
-		}
+		random_owned = { limit = { owner = { BRZ = { exists = yes } } } owner = { BRZ = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { BRZ = { exists = no } } } owner = { clr_global_flag = statue_of_liberty_has_been_built } }
 	}
 	
 	option = {
 		name = "Argentina"
-		ARG = {
-			country_event = { id=19300 days=0 }
-		}
+		random_owned = { limit = { owner = { ARG = { exists = yes } } } owner = { ARG = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { LPL = { exists = yes } ARG = { exists = no } } } owner = { LPL = { country_event = { id=19300 days=0 } } } }
+		random_owned = { limit = { owner = { ARG = { exists = no } LPL = { exists = no } } } owner = { clr_global_flag = statue_of_liberty_has_been_built } }
 	}
 	
 	option = {

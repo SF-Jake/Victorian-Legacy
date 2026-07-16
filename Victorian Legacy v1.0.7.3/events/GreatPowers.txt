@@ -716,8 +716,10 @@ country_event = {
 			who = FRA
 			value = 100
 		}
-		random_owned = { limit = { owner = { tag = USA } } 232 = { add_province_modifier = { name = the_statue_of_liberty duration = -1 } set_province_flag = statue_of_liberty_built add_core = S24 } }
-		random_owned = { limit = { owner = { NOT = { tag = USA } } } capital_scope = { add_province_modifier = { name = the_statue_of_liberty duration = -1 } set_province_flag = statue_of_liberty_built add_core = S24 } }
+		random_owned = { limit = { owner = { tag = USA } } 232 = { add_province_modifier = { name = the_statue_of_liberty duration = -1 } set_province_flag = the_statue_of_liberty_built add_core = S24 } }
+		random_owned = { limit = { owner = { NOT = { tag = USA } } } capital_scope = { add_province_modifier = { name = the_statue_of_liberty duration = -1 } set_province_flag = the_statue_of_liberty_built add_core = S24 } }
+		set_country_flag = south_american_immigrant_nation
+		set_country_flag = north_american_immigrant_nation
 	}
 }
 

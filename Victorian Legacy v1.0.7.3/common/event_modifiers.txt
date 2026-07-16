@@ -2058,146 +2058,146 @@ negotiating_unequal_statue_treaty = {
 #Statue Modifiers
 
 the_saint_basil_cathedral = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	education_efficiency_modifier = 0.05
 	icon = 5
 }
 
 the_brandenburg_gate = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	factory_output = 0.075
 	icon = 5
 }
 
 the_austrian_parliament_building = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	tax_efficiency = 0.015
 	icon = 5
 }
 
 the_eiffel_tower = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	badboy = -0.01
 	icon = 5
 }
 
 the_white_house = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	tax_efficiency = 0.015
 	icon = 5
 }
 
 the_big_ben = {
 	local_factory_output = 0.01
-	immigrant_attract = 0.25
+	factory_output = 0.075
 	icon = 5
 }
 
 the_suleymaniye_mosque = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	max_tariff = 0.05
 	icon = 5
 }
 
 the_horyu_ji = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	research_points_modifier = 0.1
 	icon = 5
 }
 
 the_colosseum = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	education_efficiency_modifier = 0.05
 	icon = 5
 }
 
 the_royal_palace_of_madrid = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	tax_efficiency = 0.015
 	icon = 5
 }
 
 the_royal_palace_of_amsterdam = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	tax_efficiency = 0.015
 	icon = 5
 }
 
 the_church_of_saint_francis_of_assisi = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	rgo_output = 0.125
 	icon = 5
 }
 
 the_belem_tower = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	max_tariff = 0.05
 	icon = 5
 }
 
 the_drottningholm_palace = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	max_tariff = 0.05
 	icon = 5
 }
 
 the_masjid_i_jameh_of_isfahan = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	rgo_output = 0.125
 	icon = 5
 }
 
 the_templo_mayoir = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	education_efficiency_modifier = 0.05
 	icon = 5
 }
 
 the_ayutthaya = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	research_points_modifier = 0.1
 	icon = 5
 }
 
 the_basilica_nuestra_senora_del_pillar = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	badboy = -0.01
 	icon = 5
 }
 
 the_grand_place = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	research_points_modifier = 0.1
 	icon = 5
 }
 
 the_basilica_menor_nuestra_senora_de_lourdes = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	rgo_output = 0.125
 	icon = 5
 }
 
 the_basilica_and_convent_of_san_francisco = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	factory_output = 0.075
 	icon = 5
 }
 
 the_fasil_ghebbi = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	badboy = -0.01
 	icon = 5
 }
 
 the_palace_of_the_sultan = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	rgo_output = 0.125
 	icon = 5
 }
 
 the_forbidden_city = {
-	prestige = 0.05
-	immigrant_attract = 0.1
+	prestige = 0.1
+	education_efficiency_modifier = 0.05
 	icon = 5
 }
 
